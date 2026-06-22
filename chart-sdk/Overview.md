@@ -14,69 +14,86 @@ Syncfusion® Chart SDK provides a powerful collection of high-performance, featu
 
 The chart components are available across JavaScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, UWP, WinUI, Windows Forms, and .NET MAUI frameworks. The SDK supports a wide range of chart types including Cartesian, circular, funnel, pyramid, polar, radar, financial, gauge, and hierarchical visualizations.
 
-## Key capabilities include
+## Key Capabilities
 
-- Rich, high-performance data visualization components for enterprise-grade applications.
-- Cross-platform support with consistent API and behavior across web, desktop, and mobile frameworks.
-- Extensive chart types including Cartesian, circular, financial, gauges, maps, and more.
-- Highly customizable UI with full control over appearance, layout, and styling.
-- Built-in interactivity such as tooltips, zooming, panning, and selection.
-- Seamless data binding with support for dynamic and real-time updates.
-- Export and sharing options for reporting and analytics workflows.
+- High-performance data visualization for enterprise applications.
+- Cross-platform support with consistent APIs and rendering behavior.
+- Extensive chart types covering financial, statistical, hierarchical, and geographical data.
+- Rich interactivity including tooltips, selection, zooming, and panning.
+- Flexible customization for branding and UI consistency.
+- Scalable architecture for real-time and large-volume datasets.
 
 ## Key Features
 
-### Data & Rendering
-- **Rich Data Binding** - Supports binding to IEnumerable data sources including ObservableCollection and real-time updates.
-- **High Performance Rendering** - Efficient rendering engine optimized for large datasets and real-time scenarios.
-- **Multiple Series Support** - Render multiple data series in a single chart for comparisons.
+- **Rich Data Binding** - Supports binding to any IEnumerable data source including ObservableCollection, with dynamic data updates and real-time rendering.
+- **Multiple Series Support** - Render multiple series simultaneously within a single chart for layered comparisons.
+- **Flexible Axis Types** - Supports Numeric, Category, DateTime, and Logarithmic axes for diverse data scenarios.
+- **Interactive Tooltip** - Built-in customizable tooltip displayed on hover or tap for data insights.
+- **Legend Support** - Configurable legend with templates, positioning (top, bottom, left, right), and series visibility toggling.
+- **Data Labels** - Display values directly on data points with configurable position, format, rotation, and connectors.
+- **Animations** - Smooth load and update animations with configurable duration and easing.
+- **Custom Appearance** - Full control over colors, gradients, palettes, stroke, and fill.
+- **Trackball / Crosshair** - Interactive cursor for precise data tracking across multiple series.
+- **Selection Support** - Select data points, series, or segments with customizable modes and highlighting.
+- **Export Support** - Export charts as images (PNG, JPEG) for reporting and sharing.
+- **Theming & Styling** - Supports light/dark themes and custom styling through resource dictionaries and style properties.
+- **RTL (Right-to-Left) Support** - Enables full RTL layout for languages such as Arabic and Hebrew.
+- **Segment Explode** - Visually separate chart segments for emphasis (circular, funnel, pyramid).
+- **Zooming & Panning** - Interactive zoom and pan using mouse, touch, and gestures.
+- **Plot Area Customization** - Configure background, border, margins, and layout for consistent design.
+- **Localization** - Localize UI elements using `.resx` resource files and culture settings.
 
-### Axes & Layout
-- **Flexible Axis Types** - Numeric, Category, DateTime, and Logarithmic axes.
-- **Multiple Axes & Panes** - Display complex data with multiple axes and pane layouts.
-- **Plot Area Customization** - Configure background, borders, margins, and layout.
+## Platform-Specific Key Features
 
-### Interactivity
-- **Interactive Tooltip** - Displays detailed information on hover or tap.
-- **Trackball / Crosshair** - Precise data tracking across series.
-- **Zooming & Panning** - Explore dense datasets using gestures or controls.
-- **Selection Support** - Select points, segments, or series with highlighting.
-
-### Visualization & Styling
-- **Custom Appearance** - Full control over colors, gradients, strokes, and fills.
-- **Data Labels** - Show values directly on data points with flexible positioning.
-- **Legend Support** - Customizable legends with toggle capability.
-- **Animations** - Smooth rendering and update transitions.
-
-### Advanced Features
-- **Annotations** - Highlight key values or regions with shapes or templates.
-- **Trendlines & Indicators** - Built-in analytical tools for forecasting and financial analysis.
-- **Error Bars** - Represent uncertainty or variability.
-- **Segment Explode** - Emphasize parts of circular and funnel charts.
-- **Localization & RTL** - Multi-language and right-to-left layout support.
-
-### Export & Integration
-- **Export Support** - Export charts as PNG, JPEG, SVG, PDF, CSV, and Excel.
-- **Theming & Styling** - Built-in and custom themes for consistent branding.
-
-## Platform-Specific Highlights
+The chart component provides rich shared functionality across all platforms. In addition, each platform includes specialized capabilities.
 
 ### Web Platforms
-- Touch and gesture support for mobile devices.
-- Accessibility with ARIA support and keyboard navigation.
-- Advanced visual tools such as strip lines, markers, and Sankey diagrams.
-- Full event support for interaction handling.
 
-### MAUI
-- Native rendering across Android, iOS, macOS, and Windows.
-- Built-in gesture support and mobile-optimized interactions.
-- Support for annotations, trendlines, and modern UI effects.
+- **Annotations** - Highlight data points or regions using text, shapes, or templates.
+- **Touch Support** - Supports tap, swipe, and pinch gestures for mobile devices.
+- **Strip Lines** - Highlight specific axis ranges or thresholds.
+- **Technical Indicators** - Built-in indicators for financial and stock analysis.
+- **Trendlines** - Visualize patterns and forecast data trends.
+- **Markers** - Display markers with customizable shapes and styles.
+- **Multiple Panes** - Display multiple chart panes within a single view.
+- **Error Bars** - Represent variability or uncertainty in data.
+- **Export Options** - Export charts as SVG, PNG, JPEG, PDF, CSV, and Excel.
+- **Events** - Rich event model for click, hover, zoom, and selection.
+- **Accessibility** - ARIA support for inclusive applications.
+- **Keyboard Navigation** - Full keyboard interaction support.
+- **Sankey Diagram** - Visualize flow and relationships between entities.
+- **Chart Wizard (Blazor Only)** - Interactive wizard for chart creation and configuration.
 
-### Desktop Platforms (WPF, WinForms, UWP)
-- High-volume data rendering for real-time dashboards.
-- Financial indicators and statistical analysis tools.
-- Export to multiple document formats.
-- Support for multiple axes, panes, and overlays.
+### .NET MAUI
+
+- **Cross-Platform Native Rendering** - Runs on Android, iOS, macOS, and Windows from a single codebase.
+- **Touch Gesture Support** - Native gesture support for zooming, panning, and selection.
+- **Trendlines** - Supports Linear, Exponential, Logarithmic, Power, Polynomial, and Moving Average types.
+- **Annotations** - Add text, shapes, and custom views positioned by axis or pixel values.
+- **Liquid Glass Effect** - Modern UI styling for tooltips and backgrounds using glass effects.
+
+### WPF
+
+- **Technical Indicators** - Includes 10 built-in indicators like RSI, MACD, and Bollinger Bands.
+- **Touch-Enabled Zooming** - High-performance zoom interactions for dense datasets.
+- **Multiple Axes & Panes** - Advanced layout with stacked and spanned axes.
+- **High-Volume Rendering** - Efficient rendering for real-time dashboards.
+- **Striplines** - Highlight ranges using interval-based shading.
+- **Watermark** - Add branding via text or image overlays.
+
+### WinForms
+
+- **Statistical Formula Support** - Includes Mean, Standard Deviation, Variance, T-test, F-test, Z-test, and distributions.
+- **Export to PDF, Excel & Doc** - Export to multiple document formats with import support.
+- **Multiple Titles & Legends** - Supports multiple customizable titles and legends.
+- **Striplines** - Highlight ranges within axes.
+- **Chart Breaks** - Handle large value differences for better visualization.
+
+### UWP
+
+- **Technical Indicators** - Supports 10 indicators for financial and economic analysis.
+- **Striplines** - Highlight ranges on axes.
+- **Watermark** - Add branding overlays to chart visuals.
 
 ## Sample Browser
 
