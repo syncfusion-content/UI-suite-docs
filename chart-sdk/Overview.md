@@ -27,37 +27,37 @@ The chart components are available across JavaScript, Angular, React, Vue, ASP.N
 ## Key Features
 
 ### Data & Rendering
-- **Rich Data Binding** — Supports binding to IEnumerable data sources including ObservableCollection and real-time updates.
-- **High Performance Rendering** — Efficient rendering engine optimized for large datasets and real-time scenarios.
-- **Multiple Series Support** — Render multiple data series in a single chart for comparisons.
+- **Rich Data Binding** - Supports binding to IEnumerable data sources including ObservableCollection and real-time updates.
+- **High Performance Rendering** - Efficient rendering engine optimized for large datasets and real-time scenarios.
+- **Multiple Series Support** - Render multiple data series in a single chart for comparisons.
 
 ### Axes & Layout
-- **Flexible Axis Types** — Numeric, Category, DateTime, and Logarithmic axes.
-- **Multiple Axes & Panes** — Display complex data with multiple axes and pane layouts.
-- **Plot Area Customization** — Configure background, borders, margins, and layout.
+- **Flexible Axis Types** - Numeric, Category, DateTime, and Logarithmic axes.
+- **Multiple Axes & Panes** - Display complex data with multiple axes and pane layouts.
+- **Plot Area Customization** - Configure background, borders, margins, and layout.
 
 ### Interactivity
-- **Interactive Tooltip** — Displays detailed information on hover or tap.
-- **Trackball / Crosshair** — Precise data tracking across series.
-- **Zooming & Panning** — Explore dense datasets using gestures or controls.
-- **Selection Support** — Select points, segments, or series with highlighting.
+- **Interactive Tooltip** - Displays detailed information on hover or tap.
+- **Trackball / Crosshair** - Precise data tracking across series.
+- **Zooming & Panning** - Explore dense datasets using gestures or controls.
+- **Selection Support** - Select points, segments, or series with highlighting.
 
 ### Visualization & Styling
-- **Custom Appearance** — Full control over colors, gradients, strokes, and fills.
-- **Data Labels** — Show values directly on data points with flexible positioning.
-- **Legend Support** — Customizable legends with toggle capability.
-- **Animations** — Smooth rendering and update transitions.
+- **Custom Appearance** - Full control over colors, gradients, strokes, and fills.
+- **Data Labels** - Show values directly on data points with flexible positioning.
+- **Legend Support** - Customizable legends with toggle capability.
+- **Animations** - Smooth rendering and update transitions.
 
 ### Advanced Features
-- **Annotations** — Highlight key values or regions with shapes or templates.
-- **Trendlines & Indicators** — Built-in analytical tools for forecasting and financial analysis.
-- **Error Bars** — Represent uncertainty or variability.
-- **Segment Explode** — Emphasize parts of circular and funnel charts.
-- **Localization & RTL** — Multi-language and right-to-left layout support.
+- **Annotations** - Highlight key values or regions with shapes or templates.
+- **Trendlines & Indicators** - Built-in analytical tools for forecasting and financial analysis.
+- **Error Bars** - Represent uncertainty or variability.
+- **Segment Explode** - Emphasize parts of circular and funnel charts.
+- **Localization & RTL** - Multi-language and right-to-left layout support.
 
 ### Export & Integration
-- **Export Support** — Export charts as PNG, JPEG, SVG, PDF, CSV, and Excel.
-- **Theming & Styling** — Built-in and custom themes for consistent branding.
+- **Export Support** - Export charts as PNG, JPEG, SVG, PDF, CSV, and Excel.
+- **Theming & Styling** - Built-in and custom themes for consistent branding.
 
 ## Platform-Specific Highlights
 
