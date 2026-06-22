@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Syncfusion File Manager SDK Overview
-description: Learn about the Syncfusion File Manager SDK, an enterprise-grade file management component that enables file browsing, uploading, downloading, organizing, and access-controlled file operations across multiple web platforms.
+title: Syncfusion File Manager Overview
+description: Learn about the Syncfusion File Manager, an enterprise-grade file management component that enables file browsing, uploading, downloading, organizing, and access-controlled file operations across multiple web platforms.
 platform: file-manager-sdk
 control: File Manager
 documentation: ug
