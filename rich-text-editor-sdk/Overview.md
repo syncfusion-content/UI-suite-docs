@@ -1,6 +1,16 @@
-# Welcome to Rich Text Editor SDK
+---
+layout: post
+title: Syncfusion Rich Text Editor Overview
+description: Learn about the Syncfusion Rich Text Editor, a powerful WYSIWYG component that enables developers to create and manage rich content with advanced formatting and editing capabilities across modern web applications.
+platform: rich-text-editor-sdk
+control: Rich Text Editor
+documentation: ug
+domainurl: https://helpstaging.syncfusion.com/rich-text-editor-sdk
+---
 
-The Rich Text Editor SDK provides three powerful editing experiences built on a unified foundation. Choose the editor that best fits your content creation needs.
+# Welcome to Syncfusion® Rich Text Editor SDK
+
+The Rich Text Editor SDK provides two powerful editing experiences built on a unified foundation. Choose the editor that best fits your content creation needs.
 
 ---
 
@@ -8,17 +18,17 @@ The Rich Text Editor SDK provides three powerful editing experiences built on a 
 
 ### 1. Rich Text Editor
 
-A powerful WYSIWYG (What You See Is What You Get) editor for creating, editing, and formatting rich content. Perfect for traditional document editing with advanced formatting, media integration, customizable toolbars, AI assistance, and professional export options.
+The Syncfusion React Rich Text Editor is a WYSIWYG (What You See Is What You Get) editor that enables users to create, edit, and format rich text content with features like multimedia insertion, lists, and links.
 
 **Key Features:**
-- Rich formatting tools (fonts, colors, styles, alignment)
-- Media insertion (images, videos, audio)
-- Customizable toolbar with smart editing
-- AI-powered content assistance
-- Word/PDF import and export
-- Paste cleanup and XSS protection
-- Real-time collaboration support
-- Emoji picker, slash commands, @mentions
+ - **AI Assistant** - The AI Assistant helps generate, rewrite, summarize, and refine editor content. It is designed to speed up content creation and improve editing productivity.
+ - **Paste from MS Word** - Paste from MS Word brings content into the editor with formatting cleanup and structure preservation. It helps users reuse Word content without carrying over unwanted styles.
+ - **Export and Import** - Export and Import support allows content to be moved between the editor and document formats such as PDF and Word. It simplifies content sharing, archiving, and document processing.
+ - **@Mentions** - Mentions let users tag people, topics, or items with an autocomplete suggestion list. They make collaboration and inline referencing faster and more accurate.
+ - **Slash Menu** - Slash menu support lets users trigger editor commands by typing a forward slash. It provides a quick way to insert content blocks and formatting actions.
+ - **Custom Toolbar Items** - Custom toolbar items allow additional actions to be added to the editor toolbar. They help tailor the editing experience to specific application needs.
+ - **Quick Toolbar** - Quick Toolbar shows contextual actions for selected content such as text, images, and tables. It helps users apply common operations without leaving the editing area.
+ - **Third-party integration** - Third-party integration lets the editor work with external libraries and services. It extends the editor with additional capabilities beyond the built-in feature set.
 
 **Available Platforms:**
 - [React](/rich-text-editor-sdk/rich-text-editor/react/)
@@ -30,45 +40,16 @@ A powerful WYSIWYG (What You See Is What You Get) editor for creating, editing, 
 - [ASP.NET MVC](/rich-text-editor-sdk/rich-text-editor/asp-net-mvc/)
 - [.NET MAUI](/rich-text-editor-sdk/rich-text-editor/maui/)
 
----
 
-### 2. Block Editor
+### 2. Markdown Editor
 
-A modern block-based content editor combining structured content organization with intuitive document editing. Ideal for Notion-style editors and collaborative knowledge management platforms.
-
-**Key Features:**
-- Block-based architecture with drag-and-drop reordering
-- Slash commands for quick block insertion
-- Structured JSON export for backend processing
-- Real-time collaboration with Yjs CRDT support
-- Customizable block types
-- Rich text formatting within blocks
-- Performance optimized for large documents
-
-**Available Platforms:**
-- [React](/rich-text-editor-sdk/block-editor/react/)
-- [Angular](/rich-text-editor-sdk/block-editor/angular/)
-- [Blazor](/rich-text-editor-sdk/block-editor/blazor/)
-- [JavaScript](/rich-text-editor-sdk/block-editor/javascript/)
-- [Vue](/rich-text-editor-sdk/block-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/block-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/block-editor/asp-net-mvc/)
-
----
-
-### 3. Markdown Editor
-
-A specialized editor for Markdown-first content creation with live preview. Designed for technical writers, developers, and documentation authors.
+The Syncfusion React Markdown Editor is a web-based editor that enables users to create, edit, and format Markdown content with features such as table support and structured content formatting.
 
 **Key Features:**
-- Live Markdown preview with split-pane editing
-- Syntax highlighting for Markdown
-- Code block support with language selection
-- Table creation and editing
-- Markdown shortcuts and auto-formatting
-- GFM (GitHub Flavored Markdown) support
-- Export to HTML, PDF, or Markdown format
-- HTML to Markdown conversion
+- **Toolbar Configuration** - It enables modifying toolbar items, their arrangement, and visibility, allowing better control over the formatting options available within the editor.
+- **Insert Table** - Insert table provides a toolbar option to generate table structures within the editor. It lets users choose rows and columns, automatically creating the corresponding Markdown format for structured content.
+- **Insert Image** - Insert image enables adding images into the editor using a URL and alternative text, automatically generating the corresponding Markdown syntax for embedding images.
+- **Customizing Markdown syntax** - It allows defining custom format behaviors and tags, enabling flexible formatting by controlling how Markdown elements are applied and rendered.
 
 **Available Platforms:**
 - [React](/rich-text-editor-sdk/markdown-editor/react/)
@@ -78,4 +59,3 @@ A specialized editor for Markdown-first content creation with live preview. Desi
 - [Vue](/rich-text-editor-sdk/markdown-editor/vue/)
 - [ASP.NET Core](/rich-text-editor-sdk/markdown-editor/asp-net-core/)
 - [ASP.NET MVC](/rich-text-editor-sdk/markdown-editor/asp-net-mvc/)
-
