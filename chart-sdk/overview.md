@@ -12,7 +12,7 @@ domainurl: https://helpstaging.syncfusion.com/chart-sdk
 
 Syncfusion® Chart SDK provides a powerful collection of high-performance, feature-rich chart and data visualization controls. It enables developers to create stunning, interactive visualizations with exceptional performance and cross-platform capabilities.
 
-The chart components are available across JavaScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, UWP, WinUI, Windows Forms, and .NET MAUI frameworks. The SDK supports a wide range of chart types including Cartesian, circular, funnel, pyramid, polar, radar, financial, gauge, and hierarchical visualizations.
+The chart components are available across JavaScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, UWP, WinUI, Windows Forms, and .NET MAUI frameworks. The SDK supports a wide range of chart types including Cartesian, circular, funnel, pyramid, polar, radar, financial, and hierarchical visualizations.
 
 ## Key Capabilities
 
