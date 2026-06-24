@@ -45,6 +45,8 @@ The Syncfusion Rich Text Editor is a WYSIWYG (What You See Is What You Get) edit
 
 The Syncfusion Block Editor is a modern, block-based editor for composing rich, structured documents ideal for document editing, knowledge bases, note-taking, and content creation tools.
 
+**Key Features:**
+
 * **Multiple block types**: Includes Heading levels 1-4, Table, Paragraph, Table, Lists, Checklist, Quote, Callout, Divider, Code block, and more.
 * **Slash commands**: Interactive `/` commands to insert or transform content blocks, with filtering and keyboard shortcuts.
 * **Drag and drop**: Reorder blocks effortlessly with built-in drag-and-drop support.
@@ -55,7 +57,7 @@ The Syncfusion Block Editor is a modern, block-based editor for composing rich, 
   **[Undo/Redo operations**: Undo and redo support for the user interactions.
 * **Events for Customization**: The Block Editor includes a rich set of events such as block addition, removal, update, selection change, command execution, paste, and mention selection allowing developers to customize and extend functionality easily.
 
-* **Available Platforms:**
+**Available Platforms:**
 - [React](/rich-text-editor-sdk/block-editor/react/)
 - [Angular](/rich-text-editor-sdk/block-editor/angular/)
 - [Blazor](/rich-text-editor-sdk/block-editor/blazor/)
