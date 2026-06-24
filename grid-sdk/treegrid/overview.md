@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Syncfusion Tree Grid Overview
-description: Discover the Syncfusion Tree Grid, an enterprise-grade component for presenting and managing hierarchical data with CRUD operations, grouping, sorting, filtering, exporting, and performance-optimized rendering across Angular, React, Vue, ASP.NET MVC, ASP.NET Core, JavaScript, Blazor, WPF, UWP, and WinUI platforms.
+description: Discover the Syncfusion Tree Grid, an enterprise-grade component for presenting and managing hierarchical data with CRUD operations, sorting, filtering, exporting, and performance-optimized rendering across Angular, React, Vue, ASP.NET MVC, ASP.NET Core, JavaScript, Blazor, WPF, UWP, and WinUI platforms.
 platform: grid-sdk
 control: TreeGrid
 documentation: ug
@@ -21,5 +21,4 @@ The Syncfusion® Tree Grid is an enterprise-grade UI component designed to displ
 - Performance optimization: Efficient rendering and virtualization for smooth handling of large hierarchical datasets.
 - Customization options: Full control over rows, columns, and cells with reusable templates.
 - Exporting and printing: Export to Excel and PDF formats, plus direct printing capabilities.
-- Theming and styling: Provides built-in themes and full customization options.t printing support.
-- Theming and styling: Built-in themes with flexible customization options.
+- Theming and styling: Provides built-in themes and full customization options.

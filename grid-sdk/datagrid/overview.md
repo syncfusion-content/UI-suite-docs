@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Syncfusion Data Grid Overview
-description: Discover the Syncfusion Data Grid, an enterprise-grade component for presenting and managing structured data with CRUD operations, grouping, sorting, filtering, exporting, and performance-optimized rendering across web, desktop, and mobile platforms.
+title: Syncfusion DataGrid Overview
+description: Discover the Syncfusion DataGrid, an enterprise-grade component for presenting and managing structured data with CRUD operations, grouping, sorting, filtering, exporting, and performance-optimized rendering across web, desktop, and mobile platforms.
 platform: grid-sdk
 control: DataGrid
 documentation: ug
 domainurl: https://helpstaging.syncfusion.com/grid-sdk
 ---
 
-# Welcome to Syncfusion® Data Grid Component
+# Welcome to Syncfusion® DataGrid Component
 
-The Syncfusion® Data Grid is an enterprise-grade UI component designed for presenting and managing large volumes of structured data in a tabular format. It delivers rich, interactive data experiences across Angular, React, Vue, ASP.NET MVC, ASP.NET Core, JavaScript, Blazor, .NET MAUI, WPF, UWP, WinUI, Windows Forms, and Flutter applications.
+The Syncfusion® DataGrid is an enterprise-grade UI component designed for presenting and managing large volumes of structured data in a tabular format. It delivers rich, interactive data experiences across Angular, React, Vue, ASP.NET MVC, ASP.NET Core, JavaScript, Blazor, .NET MAUI, WPF, UWP, WinUI, Windows Forms, and Flutter applications.
 
 It is designed to handle both simple and complex data scenarios with high performance and flexibility.
 
