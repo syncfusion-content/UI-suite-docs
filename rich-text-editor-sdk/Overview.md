@@ -36,12 +36,36 @@ The Syncfusion Rich Text Editor is a WYSIWYG (What You See Is What You Get) edit
 - [Blazor](/rich-text-editor-sdk/rich-text-editor/blazor/)
 - [JavaScript](/rich-text-editor-sdk/rich-text-editor/javascript/)
 - [Vue](/rich-text-editor-sdk/rich-text-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/rich-text-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/rich-text-editor/asp-net-mvc/)
+- [ASP.NET Core](/rich-text-editor-sdk/rich-text-editor/aspnetcore/)
+- [ASP.NET MVC](/rich-text-editor-sdk/rich-text-editor/aspnetmvc/)
 - [.NET MAUI](/rich-text-editor-sdk/rich-text-editor/maui/)
 
 
-### 2. Markdown Editor
+### 2. Block Editor
+
+The Syncfusion Block Editor is a modern, block-based editor for composing rich, structured documents ideal for document editing, knowledge bases, note-taking, and content creation tools.
+
+* **Multiple block types**: Includes Heading levels 1-4, Table, Paragraph, Table, Lists, Checklist, Quote, Callout, Divider, Code block, and more.
+* **Slash commands**: Interactive `/` commands to insert or transform content blocks, with filtering and keyboard shortcuts.
+* **Drag and drop**: Reorder blocks effortlessly with built-in drag-and-drop support.
+* **Rich text formatting**: Apply styles such as Bold, Italic, Underline, Strikethrough, Uppercase and more.
+* **Action menu**: Perform block-level operations such as Move, Delete, and Duplicate.
+* **Contextmenu support**: Right-click context menus for quick block actions.
+* **Inline content support**: Insert inline elements like Links, Labels and Mention directly within blocks.
+  **[Undo/Redo operations**: Undo and redo support for the user interactions.
+* **Events for Customization**: The Block Editor includes a rich set of events such as block addition, removal, update, selection change, command execution, paste, and mention selection allowing developers to customize and extend functionality easily.
+
+* **Available Platforms:**
+- [React](/rich-text-editor-sdk/block-editor/react/)
+- [Angular](/rich-text-editor-sdk/block-editor/angular/)
+- [Blazor](/rich-text-editor-sdk/block-editor/blazor/)
+- [JavaScript](/rich-text-editor-sdk/block-editor/javascript/)
+- [Vue](/rich-text-editor-sdk/block-editor/vue/)
+- [ASP.NET Core](/rich-text-editor-sdk/block-editor/aspnetcore/)
+- [ASP.NET MVC](/rich-text-editor-sdk/block-editor/aspnetmvc/)
+
+
+### 3. Markdown Editor
 
 The Syncfusion React Markdown Editor is a web-based editor that enables users to create, edit, and format Markdown content with features such as table support and structured content formatting.
 
@@ -57,5 +81,5 @@ The Syncfusion React Markdown Editor is a web-based editor that enables users to
 - [Blazor](/rich-text-editor-sdk/markdown-editor/blazor/)
 - [JavaScript](/rich-text-editor-sdk/markdown-editor/javascript/)
 - [Vue](/rich-text-editor-sdk/markdown-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/markdown-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/markdown-editor/asp-net-mvc/)
+- [ASP.NET Core](/rich-text-editor-sdk/markdown-editor/aspnetcore/)
+- [ASP.NET MVC](/rich-text-editor-sdk/markdown-editor/aspnetmvc/)
