@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Syncfusion Rich Text Editor Overview
+title: Syncfusion Rich Text Editor SDK Overview
 description: Learn about the Syncfusion Rich Text Editor, a powerful WYSIWYG component that enables developers to create and manage rich content with advanced formatting and editing capabilities across modern web applications.
 platform: rich-text-editor-sdk
 control: Rich Text Editor
@@ -10,7 +10,7 @@ domainurl: https://helpstaging.syncfusion.com/rich-text-editor-sdk
 
 # Welcome to Syncfusion® Rich Text Editor SDK
 
-The Rich Text Editor SDK provides two powerful editing experiences built on a unified foundation. Choose the editor that best fits your content creation needs.
+The Rich Text Editor SDK offers two distinct editing experiences tailored to meet your content creation requirements. Select the editor that aligns best with your needs for an optimal editing journey.
 
 ---
 
@@ -18,7 +18,7 @@ The Rich Text Editor SDK provides two powerful editing experiences built on a un
 
 ### 1. Rich Text Editor
 
-The Syncfusion React Rich Text Editor is a WYSIWYG (What You See Is What You Get) editor that enables users to create, edit, and format rich text content with features like multimedia insertion, lists, and links.
+The Syncfusion Rich Text Editor is a WYSIWYG (What You See Is What You Get) editor that enables users to create, edit, and format rich text content with features like multimedia insertion, lists, and links.
 
 **Key Features:**
  - **AI Assistant** - The AI Assistant helps generate, rewrite, summarize, and refine editor content. It is designed to speed up content creation and improve editing productivity.
@@ -47,7 +47,7 @@ The Syncfusion React Markdown Editor is a web-based editor that enables users to
 
 **Key Features:**
 - **Toolbar Configuration** - It enables modifying toolbar items, their arrangement, and visibility, allowing better control over the formatting options available within the editor.
-- **Insert Table** - Insert table provides a toolbar option to generate table structures within the editor. It lets users choose rows and columns, automatically creating the corresponding Markdown format for structured content.
+- **Insert Table** - Insert table provides a toolbar option to generate table structures within the editor.
 - **Insert Image** - Insert image enables adding images into the editor using a URL and alternative text, automatically generating the corresponding Markdown syntax for embedding images.
 - **Customizing Markdown syntax** - It allows defining custom format behaviors and tags, enabling flexible formatting by controlling how Markdown elements are applied and rendered.
 
