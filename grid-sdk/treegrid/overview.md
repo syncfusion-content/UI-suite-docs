@@ -14,11 +14,11 @@ The Syncfusion® Tree Grid is an enterprise-grade UI component designed to displ
 
 ## Key Capabilities
 
-- Flexible data binding: Supports both local and server-side hierarchical data sources.
-- CRUD operations: Built-in support for creating, reading, updating, and deleting records.
-- Hierarchical grouping: Displays parent-child relationships with expandable and collapsible rows.
-- Rich interactions: Includes sorting, filtering, paging, editing, and selection.
-- Performance optimization: Efficient rendering and virtualization for smooth handling of large hierarchical datasets.
-- Customization options: Full control over rows, columns, and cells with reusable templates.
-- Exporting and printing: Export to Excel and PDF formats, plus direct printing capabilities.
-- Theming and styling: Provides built-in themes and full customization options.
+- **Flexible data binding**: Supports both local and server-side hierarchical data sources.
+- **CRUD operations**: Built-in support for creating, reading, updating, and deleting records.
+- **Hierarchical grouping**: Displays parent-child relationships with expandable and collapsible rows.
+- **Rich interactions**: Includes sorting, filtering, paging, editing, and selection.
+- **Performance optimization**: Efficient rendering and virtualization for smooth handling of large hierarchical datasets.
+- **Customization options**: Full control over rows, columns, and cells with reusable templates.
+- **Exporting and printing**: Export to Excel and PDF formats, plus direct printing capabilities.
+- **Theming and styling**: Provides built-in themes and full customization options.

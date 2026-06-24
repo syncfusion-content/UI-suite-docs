@@ -16,11 +16,11 @@ It is designed to handle both simple and complex data scenarios with high perfor
 
 ## Key capabilities 
 
-- Flexible data binding: Supports both local and server-side data sources for seamless integration.
-- CRUD operations: Built-in support for creating, reading, updating, and deleting records.
-- Grouping: Organizes records into hierarchical groups with expandable sections.
-- Rich interactions: Includes sorting, filtering, paging, editing, and selection.
-- Performance optimization: Efficient rendering and virtualization for smooth handling of large datasets.
-- Customization: Provides full control over rows, columns, and cells with reusable templates.
-- Exporting and printing: Allows exporting to Excel and PDF formats, along with direct printing support.
-- Theming and styling: Built-in themes with flexible customization options.
+- **Flexible data binding**: Supports both local and server-side data sources for seamless integration.
+- **CRUD operations**: Built-in support for creating, reading, updating, and deleting records.
+- **Grouping**: Organizes records into hierarchical groups with expandable sections.
+- **Rich interactions**: Includes sorting, filtering, paging, editing, and selection.
+- **Performance optimization**: Efficient rendering and virtualization for smooth handling of large datasets.
+- **Customization**: Provides full control over rows, columns, and cells with reusable templates.
+- **Exporting and printing**: Allows exporting to Excel and PDF formats, along with direct printing support.
+- **Theming and styling**: Built-in themes with flexible customization options.

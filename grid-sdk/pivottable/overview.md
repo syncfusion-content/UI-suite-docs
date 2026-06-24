@@ -14,11 +14,11 @@ The Syncfusion® Pivot Table is an enterprise-grade UI component designed for in
 
 ## Key Capabilities
 
-- Flexible data binding: Connects to local and remote data sources for seamless integration.
-- Pivoting and aggregation: Summarizes data dynamically with customizable row and column fields.
-- Filtering and sorting: Provides advanced filtering, label filtering, and value-based sorting.
-- Grouping and hierarchy: Displays hierarchical fields with expandable and collapsible views.
-- Calculated fields: Supports custom formulas and derived metrics for deeper analysis.
-- Performance optimization: Efficient rendering and virtualization for handling large datasets smoothly.
-- Exporting and printing: Export pivot views to Excel, PDF, and CSV formats, plus direct printing.
-- Theming and styling: Provides built-in themes and full customization options.
+- **Flexible data binding**: Connects to local and remote data sources for seamless integration.
+- **Pivoting and aggregation**: Summarizes data dynamically with customizable row and column fields.
+- **Filtering and sorting**: Provides advanced filtering, label filtering, and value-based sorting.
+- **Grouping and hierarchy**: Displays hierarchical fields with expandable and collapsible views.
+- **Calculated fields**: Supports custom formulas and derived metrics for deeper analysis.
+- **Performance optimization**: Efficient rendering and virtualization for handling large datasets smoothly.
+- **Exporting and printing**: Export pivot views to Excel, PDF, and CSV formats, plus direct printing.
+- **Theming and styling**: Provides built-in themes and full customization options.
