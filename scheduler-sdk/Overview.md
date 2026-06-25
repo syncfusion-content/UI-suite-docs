@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Syncfusion Scheduler Overview
-description: Learn about the Syncfusion Scheduler, a component to create and manage appointments with views, recurrence, and resources across multiple platforms.
+title: Syncfusion Scheduler SDK Overview
+description: Learn about the Syncfusion Scheduler SDK to create and manage appointments with views, recurrence, and resources across multiple platforms.
 platform: scheduler-sdk
 control: Scheduler
 documentation: ug
@@ -73,7 +73,6 @@ The Syncfusion Calendar is a lightweight component that allows users to select a
 - [Vue](/scheduler-sdk/calendar/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/calendar/asp-net-mvc/getting-started)
 - [.NET MAUI](/scheduler-sdk/calendar/maui/overview)
-- [.NET MAUI Toolkit](/scheduler-sdk/calendar/maui-toolkit/overview)
 - [Flutter](/scheduler-sdk/calendar/flutter/overview)
 - [UWP](/scheduler-sdk/calendar/uwp/overview)
 - [Windows Form](/scheduler-sdk/calendar/winforms/overview)
@@ -99,7 +98,7 @@ The Syncfusion® SmartScheduler combines the power of the Scheduler with AI-driv
 The Syncfusion® Date Picker control allows you to select a date and visualize its items inside a popup or a drop-down UI element. The Date Picker also enables you to set date ranges and formats and customize its dialog appearance by configuring its header, footer, and more.
 
 **Key Features**
-- **Formatting** - The Control displays the selected Date value in a various formats.
+- **Formatting** - Allows displays the selected Date value in a various formats.
 - **Date Selector** - The drop-down portion used for selecting the date can be customized.
 
 **Available Platforms:**
@@ -112,7 +111,6 @@ The Syncfusion® Date Picker control allows you to select a date and visualize i
 - [Vue](/scheduler-sdk/datepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/datepicker/asp-net-mvc/getting-started)
 - [.NET MAUI](/scheduler-sdk/datepicker/maui/overview)
-- [.NET MAUI Toolkit](/scheduler-sdk/datepicker/maui-toolkit/overview)
 - [UWP](/scheduler-sdk/datepicker/uwp/overview)
 - [WPF](/scheduler-sdk/datepicker/uwp/overview)
 - [WinUI](/scheduler-sdk/datepicker/winui/overview)
@@ -136,7 +134,6 @@ The Syncfusion® Time Picker control allows you to select the time and visualize
 - [Vue](/scheduler-sdk/timepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/timepicker/asp-net-mvc/getting-started)
 - [.NET MAUI](/scheduler-sdk/timepicker/maui/overview)
-- [.NET MAUI Toolkit](/scheduler-sdk/timepicker/maui-toolkit/overview)
 - [UWP](/scheduler-sdk/timepicker/uwp/overview)
 - [WPF](/scheduler-sdk/timepicker/wpf/overview)
 - [WinUI](/scheduler-sdk/timepicker/winui/overview)
@@ -160,7 +157,6 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 - [Vue](/scheduler-sdk/datetimepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/datetimepicker/asp-net-mvc/getting-started)
 - [.NET MAUI](/scheduler-sdk/datetimepicker/maui/overview)
-- [.NET MAUI Toolkit](/scheduler-sdk/datetimepicker/maui-toolkit/overview)
 - [UWP](/scheduler-sdk/datetimepicker/uwp/overview)
 - [Windows Forms](/scheduler-sdk/datetimepicker/winforms/overview)
 - [WPF](/scheduler-sdk/datetimepicker/wpf/overview)
