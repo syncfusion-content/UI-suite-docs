@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://helpstaging.syncfusion.com/scheduler-sdk
 ---
 
-# Welcome to Syncfusion® Schdeduler SDK
+# Welcome to Syncfusion® Scheduler SDK
 
 The Essential Studio® Scheduler SDK provides a flexible, high-performance event calendar built for managing time-based data and resources. It is commonly used to build booking systems, appointment scheduling solutions, and resource planning applications where accuracy, usability, and scalability matter. Designed to handle complex scheduling scenarios, it helps teams deliver rich, user-friendly calendar experiences without extensive custom UI development. It supports both web and desktop platforms.
 
@@ -111,7 +111,7 @@ The Syncfusion® Date Picker allows you to select a date and visualize its items
 - [WPF](/scheduler-sdk/datepicker/uwp/overview)
 - [WinUI](/scheduler-sdk/datepicker/winui/overview)
 
-### Time Picker
+### 5. Time Picker
 
 The Syncfusion® Time Picker allows you to select the time and visualize its items inside a popup or a drop-down UI element. The Time Picker also enables you to set time formats and customize its dialog appearance by configuring its header, footer, and more.
 
@@ -133,7 +133,7 @@ The Syncfusion® Time Picker allows you to select the time and visualize its ite
 - [WPF](/scheduler-sdk/timepicker/wpf/overview)
 - [WinUI](/scheduler-sdk/timepicker/winui/overview)
 
-### DateTime Picker
+### 6. DateTime Picker
 
 The Syncfusion® Date Time Picker provides a way to pick a date, time, or date and time. The Date Time Picker also enables you to set date ranges and date and time formats and to customize its dialog appearance by configuring its header, footer, and more.
 
@@ -155,7 +155,7 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 - [Windows Forms](/scheduler-sdk/datetimepicker/winforms/overview)
 - [WPF](/scheduler-sdk/datetimepicker/wpf/overview)
 
-### DateRange Picker
+### 7. DateRange Picker
 
 The Syncfusion® Date Range Picker allows users to easily select a single date, multiple dates, or a range of dates. It provides month, year, decade, and century view options to quickly navigate to the desired date. It supports minimum, maximum, and disabled dates to restrict date selection.
 
