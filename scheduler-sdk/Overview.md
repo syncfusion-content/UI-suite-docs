@@ -37,8 +37,7 @@ The Syncfusion Scheduler is a powerful calendar component that allows users to c
 - [React](/scheduler-sdk/schedule/react/getting-started)
 - [Blazor](/scheduler-sdk/schedule/blazor/getting-started-webapp)
 - [Angular](/scheduler-sdk/schedule/angular/getting-started)
-- [JavaScript](/scheduler-sdk/schedule/javascript/getting-started)
-- [Typescript](/scheduler-sdk/schedule/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/schedule/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/schedule/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/schedule/vue/getting-started-vue-3)
 - [ASP.NET MVC](/scheduler-sdk/schedule/asp-net-mvc/getting-started)
@@ -67,20 +66,18 @@ The Syncfusion Calendar is a lightweight component that allows users to select a
 - [React](/scheduler-sdk/calendar/react/getting-started)
 - [Blazor](/scheduler-sdk/calendar/blazor/getting-started-with-web-app)
 - [Angular](/scheduler-sdk/calendar/angular/getting-started)
-- [JavaScript](/scheduler-sdk/calendar/javascript/es5-getting-started)
-- [Typescript](/scheduler-sdk/calendar/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/calendar/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/calendar/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/calendar/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/calendar/asp-net-mvc/getting-started)
 - [.NET MAUI](/scheduler-sdk/calendar/maui/overview)
-- [Flutter](/scheduler-sdk/calendar/flutter/overview)
 - [UWP](/scheduler-sdk/calendar/uwp/overview)
 - [Windows Form](/scheduler-sdk/calendar/winforms/overview)
 - [WPF](/scheduler-sdk/calendar/wpf/overview)
 - [WinUI](/scheduler-sdk/calendar/winui/overview)
 
 
-### 3.  SmartScheduler
+### 3. Smart Scheduler
 
 The Syncfusion® SmartScheduler combines the power of the Scheduler with AI-driven intent understanding. Users can create, update, delete, and explore appointments using plain language, reducing clicks and turning scheduling into a conversation. It respects current view context, resources, and availability, and can detect conflicts, find free time, and summarize schedules.
 
@@ -93,7 +90,7 @@ The Syncfusion® SmartScheduler combines the power of the Scheduler with AI-driv
 **Available Platforms:**
 - [.NET MAUI](/scheduler-sdk/smartscheduler/maui/overview)
 
-### 4. DatePicker
+### 4. Date Picker
 
 The Syncfusion® Date Picker control allows you to select a date and visualize its items inside a popup or a drop-down UI element. The Date Picker also enables you to set date ranges and formats and customize its dialog appearance by configuring its header, footer, and more.
 
@@ -105,8 +102,7 @@ The Syncfusion® Date Picker control allows you to select a date and visualize i
 - [React](/scheduler-sdk/datepicker/react/getting-started)
 - [Blazor](/scheduler-sdk/datepicker/blazor/getting-started-with-web-app)
 - [Angular](/scheduler-sdk/datepicker/react/getting-started)
-- [JavaScript](/scheduler-sdk/datepicker/javascript/es5-getting-started)
-- [Typescript](/scheduler-sdk/datepicker/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/datepicker/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/datepicker/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/datepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/datepicker/asp-net-mvc/getting-started)
@@ -115,7 +111,7 @@ The Syncfusion® Date Picker control allows you to select a date and visualize i
 - [WPF](/scheduler-sdk/datepicker/uwp/overview)
 - [WinUI](/scheduler-sdk/datepicker/winui/overview)
 
-### TimePicker
+### Time Picker
 
 The Syncfusion® Time Picker control allows you to select the time and visualize its items inside a popup or a drop-down UI element. The Time Picker also enables you to set time formats and customize its dialog appearance by configuring its header, footer, and more.
 
@@ -128,8 +124,7 @@ The Syncfusion® Time Picker control allows you to select the time and visualize
 - [React](/scheduler-sdk/timepicker/react/getting-started)
 - [Blazor](/scheduler-sdk/timepicker/blazor/getting-started-webapp)
 - [Angular](/scheduler-sdk/timepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/timepicker/javascript/es5-getting-started)
-- [Typescript](/scheduler-sdk/timepicker/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/timepicker/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/timepicker/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/timepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/timepicker/asp-net-mvc/getting-started)
@@ -138,7 +133,7 @@ The Syncfusion® Time Picker control allows you to select the time and visualize
 - [WPF](/scheduler-sdk/timepicker/wpf/overview)
 - [WinUI](/scheduler-sdk/timepicker/winui/overview)
 
-### DateTimePicker
+### DateTime Picker
 
 The Syncfusion® Date Time Picker provides a way to pick a date, time, or date and time. The Date Time Picker also enables you to set date ranges and date and time formats and to customize its dialog appearance by configuring its header, footer, and more.
 
@@ -151,8 +146,7 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 - [React](/scheduler-sdk/datetimepicker/react/getting-started)
 - [Blazor](/scheduler-sdk/datetimepicker/blazor/getting-started-with-web-app)
 - [Angular](/scheduler-sdk/datetimepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/datetimepicker/javascript/es5-getting-started)
-- [Typescript](/scheduler-sdk/datetimepicker/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/datetimepicker/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/datetimepicker/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/datetimepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/datetimepicker/asp-net-mvc/getting-started)
@@ -161,7 +155,7 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 - [Windows Forms](/scheduler-sdk/datetimepicker/winforms/overview)
 - [WPF](/scheduler-sdk/datetimepicker/wpf/overview)
 
-### DateRangePicker
+### DateRange Picker
 
 The Syncfusion® Date Range Picker is a lightweight widget that allows users to easily select a single date, multiple dates, or a range of dates. It provides month, year, decade, and century view options to quickly navigate to the desired date. It supports minimum, maximum, and disabled dates to restrict date selection.
 
@@ -176,9 +170,8 @@ The Syncfusion® Date Range Picker is a lightweight widget that allows users to 
 - [React](/scheduler-sdk/daterangepicker/react/getting-started)
 - [Blazor](/scheduler-sdk/daterangepicker/blazor/getting-started-with-web-app)
 - [Angular](/scheduler-sdk/daterangepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/daterangepicker/javascript/es5-getting-started)
-- [Typescript](/scheduler-sdk/daterangepicker/typescript/getting-started)
+- [JavaScript](/scheduler-sdk/daterangepicker/typescript/getting-started)
 - [ASP.NET Core](/scheduler-sdk/daterangepicker/asp-net-core/getting-started)
 - [Vue](/scheduler-sdk/daterangepicker/vue/getting-started)
 - [ASP.NET MVC](/scheduler-sdk/daterangepicker/asp-net-mvc/getting-started)
-- [Flutter](/scheduler-sdk/daterangepicker/flutter/overview)
+- [WinUI](/scheduler-sdk/daterangepicker/winui/overview)
