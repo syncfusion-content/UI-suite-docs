@@ -10,7 +10,7 @@ domainurl: https://helpstaging.syncfusion.com/scheduler-sdk
 
 # Welcome to Syncfusion® Schdeduler SDK
 
-The Essential Studio® Scheduler SDK provides flexible and high-performance event calendar component built for managing time-based data and resources. It is commonly used to build booking systems, appointment scheduling solutions, and resource planning applications where accuracy, usability, and scalability matter. Designed to handle complex scheduling scenarios, it helps teams deliver rich, user-friendly calendar experiences without extensive custom UI work. It supports both web and desktop platforms.
+The Essential Studio® Scheduler SDK provides a flexible, high-performance event calendar built for managing time-based data and resources. It is commonly used to build booking systems, appointment scheduling solutions, and resource planning applications where accuracy, usability, and scalability matter. Designed to handle complex scheduling scenarios, it helps teams deliver rich, user-friendly calendar experiences without extensive custom UI development. It supports both web and desktop platforms.
 
 ---
 
@@ -18,7 +18,7 @@ The Essential Studio® Scheduler SDK provides flexible and high-performance even
 
 ### 1. Scheduler
 
-The Syncfusion Scheduler is a powerful calendar component that allows users to create, manage, and visualize appointments and events with features like multiple views, drag-and-drop editing, recurrence handling, and resource management.
+The Syncfusion Scheduler allows users to create, manage, and visualize appointments and events with features like multiple views, drag-and-drop editing, recurrence handling, and resource management.
 
 **Key Features:**
 * **Multiple Calendar Views** - Supports day, week, workweek, month, agenda, year, and timeline views with flexible configuration.
@@ -50,7 +50,7 @@ The Syncfusion Scheduler is a powerful calendar component that allows users to c
 
 ### 2. Calendar
 
-The Syncfusion Calendar is a lightweight component that allows users to select a Single date, Multiple dates, or a Range of dates. It provides various view options such as a Month, Year, Decade, and Century, which allow users to quickly navigate to the desired date.
+The Syncfusion Calendar allows users to select a Single date, Multiple dates, or a Range of dates. It provides various view options such as a Month, Year, Decade, and Century, which allow users to quickly navigate to the desired date.
 
 **Key Features:**
 
@@ -79,7 +79,7 @@ The Syncfusion Calendar is a lightweight component that allows users to select a
 
 ### 3. Smart Scheduler
 
-The Syncfusion® SmartScheduler combines the power of the Scheduler with AI-driven intent understanding. Users can create, update, delete, and explore appointments using plain language, reducing clicks and turning scheduling into a conversation. It respects current view context, resources, and availability, and can detect conflicts, find free time, and summarize schedules.
+The Syncfusion® Smart Scheduler combines the power of the Scheduler with AI-driven intent understanding. Users can create, update, delete, and explore appointments using plain language, reducing clicks and turning scheduling into a conversation. It respects current view context, resources, and availability, and can detect conflicts, find free time, and summarize schedules.
 
 **Key Features:**
 - **Natural language CRUD** - Allows creating, updating, and deleting appointments using simple text input.
@@ -92,7 +92,7 @@ The Syncfusion® SmartScheduler combines the power of the Scheduler with AI-driv
 
 ### 4. Date Picker
 
-The Syncfusion® Date Picker control allows you to select a date and visualize its items inside a popup or a drop-down UI element. The Date Picker also enables you to set date ranges and formats and customize its dialog appearance by configuring its header, footer, and more.
+The Syncfusion® Date Picker allows you to select a date and visualize its items inside a popup or a drop-down UI element. The Date Picker also enables you to set date ranges and formats and customize its dialog appearance by configuring its header, footer, and more.
 
 **Key Features**
 - **Formatting** - Allows displays the selected Date value in a various formats.
@@ -113,7 +113,7 @@ The Syncfusion® Date Picker control allows you to select a date and visualize i
 
 ### Time Picker
 
-The Syncfusion® Time Picker control allows you to select the time and visualize its items inside a popup or a drop-down UI element. The Time Picker also enables you to set time formats and customize its dialog appearance by configuring its header, footer, and more.
+The Syncfusion® Time Picker allows you to select the time and visualize its items inside a popup or a drop-down UI element. The Time Picker also enables you to set time formats and customize its dialog appearance by configuring its header, footer, and more.
 
 **Key Features**
 - **Time format** - Allows presenting values in predefined formats for better readability.
@@ -157,7 +157,7 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 
 ### DateRange Picker
 
-The Syncfusion® Date Range Picker is a lightweight widget that allows users to easily select a single date, multiple dates, or a range of dates. It provides month, year, decade, and century view options to quickly navigate to the desired date. It supports minimum, maximum, and disabled dates to restrict date selection.
+The Syncfusion® Date Range Picker allows users to easily select a single date, multiple dates, or a range of dates. It provides month, year, decade, and century view options to quickly navigate to the desired date. It supports minimum, maximum, and disabled dates to restrict date selection.
 
 **Key Feature**
 - **Multiple picker views** - Display month, year, decade, and century views that allow users to easily select and navigate between built-in views. Supports programmatic navigation.
