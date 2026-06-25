@@ -16,7 +16,7 @@ The Rich Text Editor SDK provides three powerful editing experiences designed to
 
 ## Included Components
 
-### 1. Rich Text Editor
+## 1. Rich Text Editor
 
 The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You Get) editor that enables users to create, edit, and format rich content through an intuitive visual interface.
 
@@ -44,7 +44,7 @@ The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You 
 - [.NET MAUI](/rich-text-editor-sdk/rich-text-editor/maui/)
 
 
-### 2. Block Editor
+## 2. Block Editor
 
 The Syncfusion Block Editor is a modern, block-based editor for composing rich, structured documents ideal for document editing, knowledge bases, note-taking, and content creation tools.
 
@@ -72,7 +72,7 @@ The Syncfusion Block Editor is a modern, block-based editor for composing rich, 
 - [ASP.NET MVC](/rich-text-editor-sdk/block-editor/asp-net-mvc/)
 
 
-### 3. Markdown Editor
+## 3. Markdown Editor
 
 The Syncfusion Markdown Editor is a lightweight, web-based editor designed for creating and editing Markdown content with ease.
 
