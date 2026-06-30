@@ -34,19 +34,36 @@ The Syncfusion Scheduler allows users to create, manage, and visualize appointme
 * **Localization and Globalization** - Offers multi-language support with culture-specific date formatting, including right-to-left (RTL) layout support.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/schedule/react/getting-started)
-- [Blazor](/scheduler-sdk/schedule/blazor/getting-started-webapp)
-- [Angular](/scheduler-sdk/schedule/angular/getting-started)
-- [JavaScript](/scheduler-sdk/schedule/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/schedule/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/schedule/vue/getting-started-vue-3)
-- [ASP.NET MVC](/scheduler-sdk/schedule/asp-net-mvc/getting-started)
-- [.NET MAUI](/scheduler-sdk/schedule/maui/ai-powered-smart-scheduler)
-- [UWP](/schedule-sdk/schedule/uwp/overview)
-- [Windows Form](/schedule-sdk/schedule/winforms/overview)
-- [WPF](/schedule-sdk/schedule/wpf/overview)
-- [WinUI](/schedule-sdk/schedule/winui/overview)
 
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/schedule/getting-started-webapp" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/schedule/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/schedule/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/schedule/getting-started-vue-3" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/scheduler-sdk/wpf/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+
+{% doccard text="WinUI" link="/scheduler-sdk/winui/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/scheduler-sdk/uwp/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+
+{% enddoccards %}
 
 ### 2. Calendar
 
@@ -63,19 +80,38 @@ The Syncfusion Calendar allows users to select a Single date, Multiple dates, or
 * **Localization and Globalization**: Offers multi-language support with culture-specific date formatting, including right-to-left (RTL) layout support.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/calendar/react/getting-started)
-- [Blazor](/scheduler-sdk/calendar/blazor/getting-started-with-web-app)
-- [Angular](/scheduler-sdk/calendar/angular/getting-started)
-- [JavaScript](/scheduler-sdk/calendar/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/calendar/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/calendar/vue/getting-started)
-- [ASP.NET MVC](/scheduler-sdk/calendar/asp-net-mvc/getting-started)
-- [.NET MAUI](/scheduler-sdk/calendar/maui/overview)
-- [UWP](/scheduler-sdk/calendar/uwp/overview)
-- [Windows Form](/scheduler-sdk/calendar/winforms/overview)
-- [WPF](/scheduler-sdk/calendar/wpf/overview)
-- [WinUI](/scheduler-sdk/calendar/winui/overview)
 
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/calendar/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/calendar/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/calendar/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/scheduler-sdk/wpf/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+
+{% doccard text="WinUI" link="/scheduler-sdk/winui/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/scheduler-sdk/uwp/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+
+{% doccard text="Flutter" link="/scheduler-sdk/flutter/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/Flutter.svg" %}
+
+{% enddoccards %}
 
 ### 3. Smart Scheduler
 
@@ -90,6 +126,12 @@ The Syncfusion® Smart Scheduler combines the power of the Scheduler with AI-dri
 **Available Platforms:**
 - [.NET MAUI](/scheduler-sdk/smartscheduler/maui/overview)
 
+{% doccards %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/smart-scheduler/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% enddoccards %}
+
 ### 4. Date Picker
 
 The Syncfusion® Date Picker allows you to select a date and visualize its items inside a popup or a drop-down UI element. The Date Picker also enables you to set date ranges and formats and customize its dialog appearance by configuring its header, footer, and more.
@@ -99,17 +141,34 @@ The Syncfusion® Date Picker allows you to select a date and visualize its items
 - **Date Selector** - The drop-down portion used for selecting the date can be customized.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/datepicker/react/getting-started)
-- [Blazor](/scheduler-sdk/datepicker/blazor/getting-started-with-web-app)
-- [Angular](/scheduler-sdk/datepicker/react/getting-started)
-- [JavaScript](/scheduler-sdk/datepicker/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/datepicker/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/datepicker/vue/getting-started)
-- [ASP.NET MVC](/scheduler-sdk/datepicker/asp-net-mvc/getting-started)
-- [.NET MAUI](/scheduler-sdk/datepicker/maui/overview)
-- [UWP](/scheduler-sdk/datepicker/uwp/overview)
-- [WPF](/scheduler-sdk/datepicker/uwp/overview)
-- [WinUI](/scheduler-sdk/datepicker/winui/overview)
+
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/date-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/date-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/date-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/scheduler-sdk/wpf/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+
+{% doccard text="WinUI" link="/scheduler-sdk/winui/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/scheduler-sdk/uwp/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+
+{% enddoccards %}
 
 ### 5. Time Picker
 
@@ -121,17 +180,34 @@ The Syncfusion® Time Picker allows you to select the time and visualize its ite
 - **Localization and Globalization**: Offers multi-language support with culture-specific date formatting, including right-to-left (RTL) layout support.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/timepicker/react/getting-started)
-- [Blazor](/scheduler-sdk/timepicker/blazor/getting-started-webapp)
-- [Angular](/scheduler-sdk/timepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/timepicker/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/timepicker/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/timepicker/vue/getting-started)
-- [ASP.NET MVC](/scheduler-sdk/timepicker/asp-net-mvc/getting-started)
-- [.NET MAUI](/scheduler-sdk/timepicker/maui/overview)
-- [UWP](/scheduler-sdk/timepicker/uwp/overview)
-- [WPF](/scheduler-sdk/timepicker/wpf/overview)
-- [WinUI](/scheduler-sdk/timepicker/winui/overview)
+
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/time-picker/getting-started-webapp" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/time-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/time-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/time-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/scheduler-sdk/wpf/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+
+{% doccard text="WinUI" link="/scheduler-sdk/winui/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/scheduler-sdk/uwp/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+
+{% enddoccards %}
 
 ### 6. DateTime Picker
 
@@ -143,17 +219,34 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 - **Localization and Globalization**: Offers multi-language support with culture-specific date formatting, including right-to-left (RTL) layout support.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/datetimepicker/react/getting-started)
-- [Blazor](/scheduler-sdk/datetimepicker/blazor/getting-started-with-web-app)
-- [Angular](/scheduler-sdk/datetimepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/datetimepicker/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/datetimepicker/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/datetimepicker/vue/getting-started)
-- [ASP.NET MVC](/scheduler-sdk/datetimepicker/asp-net-mvc/getting-started)
-- [.NET MAUI](/scheduler-sdk/datetimepicker/maui/overview)
-- [UWP](/scheduler-sdk/datetimepicker/uwp/overview)
-- [Windows Forms](/scheduler-sdk/datetimepicker/winforms/overview)
-- [WPF](/scheduler-sdk/datetimepicker/wpf/overview)
+
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/datetime-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/datetime-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/datetime-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/datetime-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/scheduler-sdk/wpf/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+
+{% doccard text="UWP" link="/scheduler-sdk/uwp/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+
+{% enddoccards %}
 
 ### 7. DateRange Picker
 
@@ -167,11 +260,23 @@ The Syncfusion® Date Range Picker allows users to easily select a single date, 
 - **Localization and Globalization**: Offers multi-language support with culture-specific date formatting, including right-to-left (RTL) layout support.
 
 **Available Platforms:**
-- [React](/scheduler-sdk/daterangepicker/react/getting-started)
-- [Blazor](/scheduler-sdk/daterangepicker/blazor/getting-started-with-web-app)
-- [Angular](/scheduler-sdk/daterangepicker/angular/getting-started)
-- [JavaScript](/scheduler-sdk/daterangepicker/typescript/getting-started)
-- [ASP.NET Core](/scheduler-sdk/daterangepicker/asp-net-core/getting-started)
-- [Vue](/scheduler-sdk/daterangepicker/vue/getting-started)
-- [ASP.NET MVC](/scheduler-sdk/daterangepicker/asp-net-mvc/getting-started)
-- [WinUI](/scheduler-sdk/daterangepicker/winui/overview)
+
+{% doccards %}
+
+{% doccard text="React" link="/scheduler-sdk/react/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+
+{% doccard text="Angular" link="/scheduler-sdk/angular/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/daterange-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/daterange-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/daterange-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+
+{% doccard text="Vue" link="/scheduler-sdk/vue/daterange-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+
+{% enddoccards %}
