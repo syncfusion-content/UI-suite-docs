@@ -37,31 +37,31 @@ The Syncfusion Scheduler allows users to create, manage, and visualize appointme
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/schedule/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/schedule/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/schedule/getting-started-webapp" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/schedule/getting-started-webapp" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/schedule/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/schedule/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/schedule/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/schedule/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/schedule/getting-started-vue-3" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/schedule/getting-started-vue-3" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/schedule/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/schedule/getting-started" icon="/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/schedule/getting-started" icon="/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/scheduler-sdk/wpf/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+{% doccard text="WPF" link="/scheduler-sdk/wpf/schedule/getting-started" icon="/images/WPF.svg" %}
 
-{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/schedule/getting-started" icon="/images/Windows Forms.svg" %}
 
-{% doccard text="WinUI" link="/scheduler-sdk/winui/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/scheduler-sdk/winui/schedule/getting-started" icon="/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/scheduler-sdk/uwp/schedule/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+{% doccard text="UWP" link="/scheduler-sdk/uwp/schedule/getting-started" icon="/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -83,33 +83,33 @@ The Syncfusion Calendar allows users to select a Single date, Multiple dates, or
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/calendar/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/calendar/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/calendar/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/calendar/getting-started-with-web-app" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/calendar/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/calendar/es5-getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/calendar/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/calendar/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/calendar/getting-started" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/calendar/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/calendar/getting-started" icon="/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/calendar/getting-started" icon="/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/scheduler-sdk/wpf/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+{% doccard text="WPF" link="/scheduler-sdk/wpf/calendar/getting-started" icon="/images/WPF.svg" %}
 
-{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/calendar/getting-started" icon="/images/Windows Forms.svg" %}
 
-{% doccard text="WinUI" link="/scheduler-sdk/winui/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/scheduler-sdk/winui/calendar/getting-started" icon="/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/scheduler-sdk/uwp/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+{% doccard text="UWP" link="/scheduler-sdk/uwp/calendar/getting-started" icon="/images/UWP.svg" %}
 
-{% doccard text="Flutter" link="/scheduler-sdk/flutter/calendar/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/Flutter.svg" %}
+{% doccard text="Flutter" link="/scheduler-sdk/flutter/calendar/getting-started" icon="/images/Flutter.svg" %}
 
 {% enddoccards %}
 
@@ -128,7 +128,7 @@ The Syncfusion® Smart Scheduler combines the power of the Scheduler with AI-dri
 
 {% doccards %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/smart-scheduler/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/smart-scheduler/getting-started" icon="/images/dotnet_maui.svg" %}
 
 {% enddoccards %}
 
@@ -144,29 +144,29 @@ The Syncfusion® Date Picker allows you to select a date and visualize its items
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/date-picker/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/date-picker/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/date-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/date-picker/getting-started-with-web-app" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/date-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/date-picker/es5-getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/date-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/date-picker/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/date-picker/getting-started" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/date-picker/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/date-picker/getting-started" icon="/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/date-picker/getting-started" icon="/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/scheduler-sdk/wpf/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+{% doccard text="WPF" link="/scheduler-sdk/wpf/date-picker/getting-started" icon="/images/WPF.svg" %}
 
-{% doccard text="WinUI" link="/scheduler-sdk/winui/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/scheduler-sdk/winui/date-picker/getting-started" icon="/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/scheduler-sdk/uwp/date-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+{% doccard text="UWP" link="/scheduler-sdk/uwp/date-picker/getting-started" icon="/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -183,29 +183,29 @@ The Syncfusion® Time Picker allows you to select the time and visualize its ite
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/time-picker/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/time-picker/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/time-picker/getting-started-webapp" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/time-picker/getting-started-webapp" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/time-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/time-picker/es5-getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/time-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/time-picker/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/time-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/time-picker/vue3-getting-started" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/time-picker/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/time-picker/getting-started" icon="/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/time-picker/getting-started" icon="/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/scheduler-sdk/wpf/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+{% doccard text="WPF" link="/scheduler-sdk/wpf/time-picker/getting-started" icon="/images/WPF.svg" %}
 
-{% doccard text="WinUI" link="/scheduler-sdk/winui/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/flutter/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/scheduler-sdk/winui/time-picker/getting-started" icon="/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/scheduler-sdk/uwp/time-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+{% doccard text="UWP" link="/scheduler-sdk/uwp/time-picker/getting-started" icon="/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -222,29 +222,29 @@ The Syncfusion® Date Time Picker provides a way to pick a date, time, or date a
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/datetime-picker/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/datetime-picker/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/datetime-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/datetime-picker/getting-started-with-web-app" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/datetime-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/datetime-picker/es5-getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/datetime-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/datetime-picker/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/datetime-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/datetime-picker/vue3-getting-started" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/datetime-picker/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/datetime-picker/getting-started" icon="/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/maui/Images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/scheduler-sdk/maui/datetime-picker/getting-started" icon="/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/scheduler-sdk/wpf/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/wpf/images/WPF.svg" %}
+{% doccard text="WPF" link="/scheduler-sdk/wpf/datetime-picker/getting-started" icon="/images/WPF.svg" %}
 
-{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/winforms/images/Windows Forms.svg" %}
+{% doccard text="Windows Forms" link="/scheduler-sdk/winforms/datetime-picker/getting-started" icon="/images/Windows Forms.svg" %}
 
-{% doccard text="UWP" link="/scheduler-sdk/uwp/datetime-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/uwp/Getting-Started_images/UWP.svg" %}
+{% doccard text="UWP" link="/scheduler-sdk/uwp/datetime-picker/getting-started" icon="/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -263,20 +263,20 @@ The Syncfusion® Date Range Picker allows users to easily select a single date, 
 
 {% doccards %}
 
-{% doccard text="React" link="/scheduler-sdk/react/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/react/images/React.svg" %}
+{% doccard text="React" link="/scheduler-sdk/react/daterange-picker/getting-started" icon="/images/React.svg" %}
 
-{% doccard text="Angular" link="/scheduler-sdk/angular/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/angular/images/Angular.svg" %}
+{% doccard text="Angular" link="/scheduler-sdk/angular/daterange-picker/getting-started" icon="/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/scheduler-sdk/blazor/daterange-picker/getting-started-with-web-app" icon="/document-processing/pdf/pdf-viewer/blazor/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/scheduler-sdk/blazor/daterange-picker/getting-started-with-web-app" icon="/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/scheduler-sdk/javascript/daterange-picker/es5-getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="JavaScript" link="/scheduler-sdk/javascript/daterange-picker/es5-getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/scheduler-sdk/typescript/daterange-picker/getting-started"  icon="/document-processing/pdf/pdf-viewer/javascript-es6/images/JavaScript (ES6).svg" %}
+{% doccard text="TypeScript" link="/scheduler-sdk/typescript/daterange-picker/getting-started"  icon="/images/JavaScript.svg" %}
 
-{% doccard text="Vue" link="/scheduler-sdk/vue/daterange-picker/vue3-getting-started" icon="/document-processing/pdf/pdf-viewer/vue/images/Vue.svg" %}
+{% doccard text="Vue" link="/scheduler-sdk/vue/daterange-picker/vue3-getting-started" icon="/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-core/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/scheduler-sdk/asp-net-core/daterange-picker/getting-started" icon="/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/daterange-picker/getting-started" icon="/document-processing/pdf/pdf-viewer/asp-net-mvc/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/scheduler-sdk/asp-net-mvc/daterange-picker/getting-started" icon="/images/ASP.NET MVC.png" %}
 
 {% enddoccards %}
