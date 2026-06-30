@@ -16,7 +16,7 @@ The Rich Text Editor SDK provides three powerful editing experiences designed to
 
 ## Included Components
 
-## 1. Rich Text Editor
+### 1. Rich Text Editor
 
 The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You Get) editor that enables users to create, edit, and format rich content through an intuitive visual interface.
 
@@ -34,17 +34,17 @@ The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You 
 * **XSS Protection** - XSS protection sanitizes user-generated content and helps prevent malicious scripts or unsafe markup from being rendered within the editor. It improves application security and content integrity.
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/rich-text-editor/react/)
-- [Angular](/rich-text-editor-sdk/rich-text-editor/angular/)
-- [Blazor](/rich-text-editor-sdk/rich-text-editor/blazor/)
-- [JavaScript](/rich-text-editor-sdk/rich-text-editor/javascript/)
-- [Vue](/rich-text-editor-sdk/rich-text-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/rich-text-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/rich-text-editor/asp-net-mvc/)
-- [.NET MAUI](/rich-text-editor-sdk/rich-text-editor/maui/)
+- [React](/rich-text-editor-sdk/react/rich-text-editor/)
+- [Angular](/rich-text-editor-sdk/angular/rich-text-editor/)
+- [Blazor](/rich-text-editor-sdk/blazor/rich-text-editor/)
+- [JavaScript](/rich-text-editor-sdk/javascript/rich-text-editor/)
+- [Vue](/rich-text-editor-sdk/vue/rich-text-editor/)
+- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/rich-text-editor/)
+- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/)
+- [.NET MAUI](/rich-text-editor-sdk/maui/rich-text-editor/)
 
 
-## 2. Block Editor
+### 2. Block Editor
 
 The Syncfusion Block Editor is a modern, block-based editor for composing rich, structured documents ideal for document editing, knowledge bases, note-taking, and content creation tools.
 
@@ -63,16 +63,16 @@ The Syncfusion Block Editor is a modern, block-based editor for composing rich, 
 
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/block-editor/react/)
-- [Angular](/rich-text-editor-sdk/block-editor/angular/)
-- [Blazor](/rich-text-editor-sdk/block-editor/blazor/)
-- [JavaScript](/rich-text-editor-sdk/block-editor/javascript/)
-- [Vue](/rich-text-editor-sdk/block-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/block-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/block-editor/asp-net-mvc/)
+- [React](/rich-text-editor-sdk/react/block-editor/)
+- [Angular](/rich-text-editor-sdk/angular/block-editor/)
+- [Blazor](/rich-text-editor-sdk/blazor/block-editor/)
+- [JavaScript](/rich-text-editor-sdk/javascript/block-editor/)
+- [Vue](/rich-text-editor-sdk/vue/block-editor/)
+- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/block-editor/)
+- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/block-editor/)
 
 
-## 3. Markdown Editor
+### 3. Markdown Editor
 
 The Syncfusion Markdown Editor is a lightweight, web-based editor designed for creating and editing Markdown content with ease.
 
@@ -83,10 +83,10 @@ The Syncfusion Markdown Editor is a lightweight, web-based editor designed for c
 - **Customizing Markdown syntax** - It allows defining custom format behaviors and tags, enabling flexible formatting by controlling how Markdown elements are applied and rendered.
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/markdown-editor/react/)
-- [Angular](/rich-text-editor-sdk/markdown-editor/angular/)
-- [Blazor](/rich-text-editor-sdk/markdown-editor/blazor/)
-- [JavaScript](/rich-text-editor-sdk/markdown-editor/javascript/)
-- [Vue](/rich-text-editor-sdk/markdown-editor/vue/)
-- [ASP.NET Core](/rich-text-editor-sdk/markdown-editor/asp-net-core/)
-- [ASP.NET MVC](/rich-text-editor-sdk/markdown-editor/asp-net-mvc/)
+- [React](/rich-text-editor-sdk/react/markdown-editor/)
+- [Angular](/rich-text-editor-sdk/angular/markdown-editor/)
+- [Blazor](/rich-text-editor-sdk/blazor/markdown-editor/)
+- [JavaScript](/rich-text-editor-sdk/javascript/markdown-editor/)
+- [Vue](/rich-text-editor-sdk/vue/markdown-editor/)
+- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/markdown-editor/)
+- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/markdown-editor/)
