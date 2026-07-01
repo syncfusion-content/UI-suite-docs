@@ -136,7 +136,7 @@ The Syncfusion TreeGrid is a data visualization component designed to represent 
 
 ### 3. Pivot Table
 
-The Syncfusion Pivot Table is an analytical data grid that allows users to summarize and explore large datasets by organizing values across rows and columns. It is widely used in business intelligence, financial reporting, and data analytics applications.
+The Syncfusion Pivot Table is an analytical data grid for data analysis, reporting, and business intelligence applications. It enables users to summarize, pivot, and explore large datasets by organizing data across rows and columns to create interactive dashboards and advanced analytical solutions.
 
 **Key Features:**
 
@@ -148,7 +148,7 @@ The Syncfusion Pivot Table is an analytical data grid that allows users to summa
 * **Sorting** - Sort row and column headers alphabetically or by value to identify trends and patterns easily.
 * **Grouping** - Group date, time, and number fields into custom intervals like years, quarters, months, or custom ranges.
 * **Calculated Fields** - Create new virtual fields using mathematical expressions based on existing value fields.
-* **Drill Down** - Click on any summary cell to drill down into the underlying raw data that contributes to it.
+* **Drill Down** - Enables drill down into summary cells to view detailed records and drill up to return to aggregated views.
 * **Conditional Formatting** - Apply color-based visual rules to highlight cells based on their values for quick insights.
 * **Number Formatting** - Apply custom number formats such as currency, percentage, or decimal precision to value cells.
 * **Export** - Export the pivot table to Excel, CSV, or PDF for sharing and reporting purposes.
