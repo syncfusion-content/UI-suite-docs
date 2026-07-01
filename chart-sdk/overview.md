@@ -114,10 +114,10 @@ Explore interactive demos showcasing the capabilities of the Chart control:
 
 Access platform-specific sample projects on GitHub:
 
-| Platform | Sample Repository |
-|----------|------------------|
-| MAUI | [View Samples](https://github.com/syncfusion/maui-demos/tree/master/MAUI) |
-| WinForms | [View Samples](https://github.com/syncfusion/winforms-demos/tree/master/chart) |
-| UWP | [View Samples](https://github.com/syncfusion/uwp-demos/tree/master/SfChart) |
-| WPF | [View Samples](https://github.com/syncfusion/wpf-demos/tree/master/chart) |
-| WinUI | [View Samples](https://github.com/syncfusion/winui-demos/tree/master/chart) |
+| Platform | Sample Repository | UG Link |
+|----------|------------------|----------|
+| MAUI | [View Samples](https://github.com/syncfusion/maui-demos/tree/master/MAUI) | [View UG](https://help.syncfusion.com/maui/cartesian-charts/overview) |
+| WinForms | [View Samples](https://github.com/syncfusion/winforms-demos/tree/master/chart) | [View UG](https://help.syncfusion.com/windowsforms/chart/overview) |
+| UWP | [View Samples](https://github.com/syncfusion/uwp-demos/tree/master/SfChart) | [View UG](https://help.syncfusion.com/uwp/charts/overview) |
+| WPF | [View Samples](https://github.com/syncfusion/wpf-demos/tree/master/chart) | [View UG](https://help.syncfusion.com/wpf/charts/overview) |
+| WinUI | [View Samples](https://github.com/syncfusion/winui-demos/tree/master/chart) | [View UG](https://help.syncfusion.com/winui/cartesian-charts/overview) |
