@@ -83,7 +83,7 @@ The Syncfusion DataGrid is a powerful and flexible table component for displayin
 
 ### 2. TreeGrid
 
-The Syncfusion TreeGrid displays hierarchical or self-referential data in a structured table format where parent and child rows can be expanded or collapsed. It is ideal for scenarios like organization charts, bill of materials, file system directories, and any nested data structure.
+The Syncfusion TreeGrid is a data visualization component designed to represent hierarchical or self-referential data in a structured tabular layout. It enables clear organization of parent-child relationships, allowing data to be displayed in multiple levels within a single view.
 
 **Key Features:**
 
@@ -127,6 +127,8 @@ The Syncfusion TreeGrid displays hierarchical or self-referential data in a stru
 {% doccard text="WPF" link="/grid-sdk/wpf/treegrid/getting-started" icon="/images/WPF.svg" %}
 
 {% doccard text="WinUI" link="/grid-sdk/winui/treegrid/getting-started" icon="/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/grid-sdk/uwp/tree-grid/getting-started" icon="/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -179,6 +181,8 @@ The Syncfusion Pivot Table is an analytical data grid that allows users to summa
 
 {% doccard text="Windows Forms" link="/grid-sdk/winforms/pivot-grid/getting-started" icon="/images/Windows Forms.svg" %}
 
+{% doccard text="UWP" link="grid-sdk/uwp/pivot-table/relational/getting-started" icon="/images/UWP.svg" %}
+
 {% enddoccards %}
 
 ---
@@ -200,6 +204,8 @@ The Syncfusion Smart DataGrid combines the power of the standard DataGrid with A
 {% doccards %}
 
 {% doccard text=".NET MAUI" link="/grid-sdk/maui/smart-datagrid/getting-started" icon="/images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="grid-sdk/wpf/smartdatagrid/getting-started" icon="/images/WPF.svg" %}
 
 {% enddoccards %}
 
