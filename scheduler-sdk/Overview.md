@@ -124,7 +124,6 @@ The Syncfusion® Smart Scheduler combines the power of the Scheduler with AI-dri
 - **Smart summarization** - Allows generating quick summaries of schedules or upcoming events.
 
 **Available Platforms:**
-- [.NET MAUI](/scheduler-sdk/smartscheduler/maui/overview)
 
 {% doccards %}
 
