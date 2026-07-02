@@ -102,7 +102,11 @@ The Syncfusion Kanban Board is a task management component used to plan, track, 
 
 {% doccard text="ASP.NET MVC" link="/gantt-sdk/asp-net-mvc/kanban/getting-started" icon="/gantt-sdk/images/ASP.NET MVC.png" %}
 
+{% doccard text=".NET MAUI" link="/gantt-sdk/maui/schedule/getting-started" icon="/gantt-sdk/images/dotnet_maui.svg" %}
+
 {% doccard text="WPF" link="/gantt-sdk/wpf/kanban/getting-started" icon="/gantt-sdk/images/WPF.svg" %}
+
+{% doccard text="WinUI" link="/gantt-sdk/winui/schedule/getting-started" icon="/gantt-sdk/images/WinUI.svg" %}
 
 {% doccard text="UWP" link="/gantt-sdk/uwp/kanban/getting-started" icon="/gantt-sdk/images/UWP.svg" %}
 
