@@ -14,22 +14,22 @@ The Essential Studio® Diagram SDK provides a powerful, high-performance platfor
 
 The diagram components are available across JavaScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, UWP, and Windows Forms frameworks.
 
-Key Features
+## Key Features
 
-Data Visualization - Enables visualization of various graphical elements, including text, images, shapes, and template-based content.
-Built-in Shapes - Offers a wide range of standard and flowchart shapes to help you design rich and professional diagrams.
-Interaction - Allows intuitive interaction with diagram elements, including selection, rotation, resizing, and movement on the canvas.
-Pan and Zoom - Provides seamless panning and zooming capabilities for easy navigation and detailed viewing of diagrams.
-Automatic Layouts - Supports built-in automatic layout arrangements, including organizational charts, hierarchical trees, flowcharts, and mind maps.
-Connectors and Lines - Enables creation and customization of connectors with automatic routing and line bridging. Supports decorators at both the source and target ends.
-Text Support - Includes comprehensive text rendering with advanced formatting, editing, and rotation options.
-Serialization - Allows saving and restoring the diagram state for persistent storage and reuse.
-Print and Export - Supports printing diagrams and exporting them as images for sharing and documentation.
-Undo/Redo - Tracks recent changes, allowing users to easily undo or redo actions.
-Snapping - Ensures precise alignment by snapping elements to gridlines or nearby objects.
-Stencil and Symbol Palette - Provides a gallery of reusable symbols and nodes that can be easily dragged and dropped onto the canvas.
-Overview Control - Displays a miniature view of the entire diagram to enhance navigation and orientation.
-Clipboard Operations - Supports cut, copy, paste, and duplication of elements within or across diagrams.
+**Data Visualization** - Enables visualization of various graphical elements, including text, images, shapes, and template-based content.
+**Built-in Shapes** - Offers a wide range of standard and flowchart shapes to help you design rich and professional diagrams.
+**Interaction** - Allows intuitive interaction with diagram elements, including selection, rotation, resizing, and movement on the canvas.
+**Pan and Zoom** - Provides seamless panning and zooming capabilities for easy navigation and detailed viewing of diagrams.
+**Automatic Layouts** - Supports built-in automatic layout arrangements, including organizational charts, hierarchical trees, flowcharts, and mind maps.
+**Connectors and Lines** - Enables creation and customization of connectors with automatic routing and line bridging. Supports decorators at both the source and target ends.
+**Text Support** - Includes comprehensive text rendering with advanced formatting, editing, and rotation options.
+**Serialization** - Allows saving and restoring the diagram state for persistent storage and reuse.
+**Print and Export** - Supports printing diagrams and exporting them as images for sharing and documentation.
+**Undo/Redo** - Tracks recent changes, allowing users to easily undo or redo actions.
+**Snapping** - Ensures precise alignment by snapping elements to gridlines or nearby objects.
+**Stencil and Symbol Palette** - Provides a gallery of reusable symbols and nodes that can be easily dragged and dropped onto the canvas.
+**Overview Control** - Displays a miniature view of the entire diagram to enhance navigation and orientation.
+**Clipboard Operations** - Supports cut, copy, paste, and duplication of elements within or across diagrams.
 
 ## Sample Browser
 
