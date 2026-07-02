@@ -54,5 +54,3 @@ Access platform-specific sample projects on GitHub:
 | WinForms | [View Samples](https://github.com/syncfusion/winforms-demos/tree/master/diagram) | [View UG](https://help.syncfusion.com/windowsforms/diagram/overview) |
 | UWP | [View Samples](https://github.com/syncfusion/uwp-demos/tree/master/Diagram) | [View UG](https://help.syncfusion.com/uwp/diagram/overview) |
 | WPF | [View Samples](https://github.com/syncfusion/wpf-demos/tree/master/diagram) | [View UG](https://help.syncfusion.com/wpf/diagram/overview) |
-
- 
