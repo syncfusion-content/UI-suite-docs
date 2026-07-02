@@ -53,7 +53,7 @@ The Gantt chart is a project management tool which provides a Microsoft Project-
 
 {% doccard text="JavaScript" link="/gantt-sdk/javascript/gantt/getting-started"  icon="/gantt-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/gantt-sdk/typescript/gantt/getting-started"  icon="/gantt-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/gantt-sdk/typescript/gantt/getting-started"  icon="/gantt-sdk/images/Typescript.svg" %}
 
 {% doccard text="Vue" link="/gantt-sdk/vue/gantt/getting-started-vue-3" icon="/gantt-sdk/images/Vue.svg" %}
 
@@ -94,7 +94,7 @@ The Syncfusion Kanban Board is a task management component used to plan, track, 
 
 {% doccard text="JavaScript" link="/gantt-sdk/javascript/kanban/getting-started"  icon="/gantt-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/gantt-sdk/typescript/kanban/getting-started"  icon="/gantt-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/gantt-sdk/typescript/kanban/getting-started"  icon="/gantt-sdk/images/Typescript.svg" %}
 
 {% doccard text="Vue" link="/gantt-sdk/vue/kanban/getting-started-vue-3" icon="/gantt-sdk/images/Vue.svg" %}
 
