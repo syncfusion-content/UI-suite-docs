@@ -43,7 +43,7 @@ The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You 
 
 {% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/rich-text-editor/getting-started-webapp" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
 
-{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/rich-text-editor/getting-started"  icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/rich-text-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
 
 {% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
 
@@ -85,7 +85,7 @@ The Syncfusion Block Editor is a modern, block-based editor for composing rich, 
 
 {% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/block-editor/getting-started" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
 
-{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/block-editor/getting-started"  icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/block-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
 
 {% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/block-editor/es5-getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
 
@@ -118,7 +118,7 @@ The Syncfusion Markdown Editor is a lightweight, web-based editor designed for c
 
 {% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/markdown-editor/getting-started-webapp" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
 
-{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/markdown-editor/getting-started"  icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/markdown-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
 
 {% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
 
