@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Syncfusion Grid SDK Overview
-description: Learn about the Syncfusion Grid SDK, a comprehensive data grid and visualization suite that enables developers to build high-performance, feature-rich grid components across multiple platforms.
+description: Syncfusion Grid SDK offers high-performance data grids for tabular, hierarchical, and analytical data across multiple platform.
 platform: grid-sdk
 control: Grid
 documentation: ug
 domainurl: https://helpstaging.syncfusion.com/grid-sdk
 ---
 
-# Welcome to Syncfusion® Grid SDK
+# Welcome to Syncfusion Grid SDK
 
-The Syncfusion® Grid SDK is a comprehensive collection of high-performance data grid and data visualization components. It is designed to help developers display, manage, and analyze large volumes of data with ease. Whether you need a flat data table, a hierarchical tree view, or a pivot-based analytical grid, the SDK provides ready-to-use components that work consistently across web, desktop, and mobile platforms.
+The Syncfusion Grid SDK is a comprehensive suite of high-performance data visualization components designed for displaying, managing, and analyzing large volumes of data. The SDK includes feature-rich components for flat data presentation, hierarchical tree views, and pivot-based analytical reporting. Consistent functionality and user experience are provided across web, desktop, and mobile platforms.
 
-The Grid SDK components are available across JavaScript, TypeScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, WinUI, Windows Forms, UWP, .NET MAUI, and Flutter frameworks.
+The Syncfusion Grid SDK is available for **JavaScript, TypeScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, WinUI, Windows Forms, UWP, .NET MAUI**, and **Flutter** frameworks.
 
 ---
 
@@ -81,9 +81,9 @@ The Syncfusion DataGrid is a powerful and flexible table component for displayin
 
 ---
 
-### 2. TreeGrid
+### 2. Tree Grid
 
-The Syncfusion TreeGrid is a data visualization component designed to represent hierarchical or self-referential data in a structured tabular layout. It enables clear organization of parent-child relationships, allowing data to be displayed in multiple levels within a single view.
+The Syncfusion Tree Grid is a data visualization component designed to represent hierarchical or self-referential data in a structured tabular layout. It enables clear organization of parent-child relationships, allowing data to be displayed in multiple levels within a single view.
 
 **Key Features:**
 
@@ -196,7 +196,7 @@ The Syncfusion Smart DataGrid combines the power of the standard DataGrid with A
 * **Natural Language Filtering** - Type a plain language query to filter grid records without building manual filter conditions.
 * **AI-Powered Sorting and Grouping** - Ask the grid to sort or group by specific fields using conversational text input.
 * **Smart Summarization** - Instantly generate a readable summary of grid data or selected rows using AI.
-* **Contextual Suggestions** - Receive smart suggestions as you type, making data discovery faster and more intuitive.
+* **Contextual Suggestions** - Smart suggestions appear during typing, enabling faster and more intuitive data discovery.
 * **Seamless Grid Integration** - All AI capabilities work alongside the full feature set of the standard DataGrid.
 
 **Available Platforms:**
