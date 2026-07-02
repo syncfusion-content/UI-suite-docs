@@ -47,7 +47,7 @@ The Syncfusion File Manager allows users to browse, upload, download, organize, 
 
 {% doccard text="JavaScript" link="/file-manager-sdk/javascript/es5-getting-started"  icon="/file-manager-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/file-manager-sdk/typescript/getting-started"  icon="/file-manager-sdk/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/file-manager-sdk/typescript/getting-started"  icon="/file-manager-sdk/images/TypeScript.svg" %}
 
 {% doccard text="Vue" link="/file-manager-sdk/vue/vue-3-getting-started" icon="/file-manager-sdk/images/Vue.svg" %}
 
