@@ -16,7 +16,7 @@ The diagram components are available across JavaScript, Angular, React, Vue, ASP
 
 Key Features
 
- Data Visualization - Enables visualization of various graphical elements, including text, images, shapes, and template-based content.
+Data Visualization - Enables visualization of various graphical elements, including text, images, shapes, and template-based content.
 Built-in Shapes - Offers a wide range of standard and flowchart shapes to help you design rich and professional diagrams.
 Interaction - Allows intuitive interaction with diagram elements, including selection, rotation, resizing, and movement on the canvas.
 Pan and Zoom - Provides seamless panning and zooming capabilities for easy navigation and detailed viewing of diagrams.
