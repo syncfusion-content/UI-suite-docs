@@ -3,7 +3,7 @@ layout: post
 title: Syncfusion Diagram Overview
 description: Learn about the Syncfusion Diagram SDK, a powerful data visualization component that enables developers to build high-performance, interactive diagrams across multiple platforms.
 platform: diagram-sdk
-control: Diagrams
+control: Diagram
 documentation: ug
 domainurl: https://helpstaging.syncfusion.com/diagram-sdk
 ---
