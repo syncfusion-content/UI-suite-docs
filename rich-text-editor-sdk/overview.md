@@ -34,15 +34,28 @@ The Syncfusion Rich Text Editor is a powerful WYSIWYG (What You See Is What You 
 * **XSS Protection** - XSS protection sanitizes user-generated content and helps prevent malicious scripts or unsafe markup from being rendered within the editor. It improves application security and content integrity.
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/react/rich-text-editor/)
-- [Angular](/rich-text-editor-sdk/angular/rich-text-editor/)
-- [Blazor](/rich-text-editor-sdk/blazor/rich-text-editor/)
-- [JavaScript](/rich-text-editor-sdk/javascript/rich-text-editor/)
-- [Vue](/rich-text-editor-sdk/vue/rich-text-editor/)
-- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/rich-text-editor/)
-- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/)
-- [.NET MAUI](/rich-text-editor-sdk/maui/rich-text-editor/)
 
+{% doccards %}
+
+{% doccard text="React" link="/rich-text-editor-sdk/react/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/React.svg" %}
+
+{% doccard text="Angular" link="/rich-text-editor-sdk/angular/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/rich-text-editor/getting-started-webapp" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
+
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/rich-text-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
+
+{% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+
+{% doccard text="Vue" link="/rich-text-editor-sdk/vue/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/rich-text-editor-sdk/asp-net-core/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/rich-text-editor-sdk/maui/rich-text-editor/overview" icon="/rich-text-editor-sdk/images/dotnet_maui.svg" %}
+
+{% enddoccards %}
 
 ### 2. Block Editor
 
@@ -63,30 +76,57 @@ The Syncfusion Block Editor is a modern, block-based editor for composing rich, 
 
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/react/block-editor/)
-- [Angular](/rich-text-editor-sdk/angular/block-editor/)
-- [Blazor](/rich-text-editor-sdk/blazor/block-editor/)
-- [JavaScript](/rich-text-editor-sdk/javascript/block-editor/)
-- [Vue](/rich-text-editor-sdk/vue/block-editor/)
-- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/block-editor/)
-- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/block-editor/)
 
+{% doccards %}
+
+{% doccard text="React" link="/rich-text-editor-sdk/react/block-editor/getting-started" icon="/rich-text-editor-sdk/images/React.svg" %}
+
+{% doccard text="Angular" link="/rich-text-editor-sdk/angular/block-editor/getting-started" icon="/rich-text-editor-sdk/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/block-editor/getting-started" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
+
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/block-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
+
+{% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/block-editor/es5-getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+
+{% doccard text="Vue" link="/rich-text-editor-sdk/vue/block-editor/getting-started" icon="/rich-text-editor-sdk/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/rich-text-editor-sdk/asp-net-core/block-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/rich-text-editor-sdk/asp-net-mvc/block-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET MVC.png" %}
+
+{% enddoccards %}
 
 ### 3. Markdown Editor
 
 The Syncfusion Markdown Editor is a lightweight, web-based editor designed for creating and editing Markdown content with ease.
 
 **Key Features:**
+
 - **Toolbar Configuration** - It enables modifying toolbar items, their arrangement, and visibility, allowing better control over the formatting options available within the editor.
 - **Insert Table** - Insert table provides a toolbar option to generate table structures within the editor.
 - **Insert Image** - Insert image enables adding images into the editor using a URL and alternative text, automatically generating the corresponding Markdown syntax for embedding images.
 - **Customizing Markdown syntax** - It allows defining custom format behaviors and tags, enabling flexible formatting by controlling how Markdown elements are applied and rendered.
 
 **Available Platforms:**
-- [React](/rich-text-editor-sdk/react/markdown-editor/)
-- [Angular](/rich-text-editor-sdk/angular/markdown-editor/)
-- [Blazor](/rich-text-editor-sdk/blazor/markdown-editor/)
-- [JavaScript](/rich-text-editor-sdk/javascript/markdown-editor/)
-- [Vue](/rich-text-editor-sdk/vue/markdown-editor/)
-- [ASP.NET Core](/rich-text-editor-sdk/asp-net-core/markdown-editor/)
-- [ASP.NET MVC](/rich-text-editor-sdk/asp-net-mvc/markdown-editor/)
+
+{% doccards %}
+
+{% doccard text="React" link="/rich-text-editor-sdk/react/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/React.svg" %}
+
+{% doccard text="Angular" link="/rich-text-editor-sdk/angular/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/rich-text-editor-sdk/blazor/markdown-editor/getting-started-webapp" icon="/rich-text-editor-sdk/images/Blazor.svg" %}
+
+{% doccard text="TypeScript" link="/rich-text-editor-sdk/typescript/markdown-editor/getting-started"  icon="/rich-text-editor-sdk/images/TypeScript.svg" %}
+
+{% doccard text="JavaScript" link="/rich-text-editor-sdk/javascript/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/JavaScript.svg" %}
+
+{% doccard text="Vue" link="/rich-text-editor-sdk/vue/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/rich-text-editor-sdk/asp-net-core/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/rich-text-editor-sdk/asp-net-mvc/markdown-editor/getting-started" icon="/rich-text-editor-sdk/images/ASP.NET MVC.png" %}
+
+{% enddoccards %}
+
