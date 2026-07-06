@@ -49,33 +49,33 @@ The Syncfusion DataGrid is a powerful and flexible table component for displayin
 
 {% doccards %}
 
-{% doccard text="React" link="/grid-sdk/react/grid/getting-started" icon="/images/React.svg" %}
+{% doccard text="React" link="/grid-sdk/react/grid/getting-started" icon="/grid-sdk/images/React.svg" %}
 
-{% doccard text="Angular" link="/grid-sdk/angular/grid/getting-started" icon="/images/Angular.svg" %}
+{% doccard text="Angular" link="/grid-sdk/angular/grid/getting-started" icon="/grid-sdk/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/grid-sdk/blazor/datagrid/getting-started-with-web-app" icon="/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/grid-sdk/blazor/datagrid/getting-started-with-web-app" icon="/grid-sdk/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/grid-sdk/javascript/grid/es5-getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="JavaScript" link="/grid-sdk/javascript/grid/es5-getting-started" icon="/grid-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/grid-sdk/typescript/grid/getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/grid-sdk/typescript/grid/getting-started" icon="/grid-sdk/images/Typescript.svg" %}
 
-{% doccard text="Vue" link="/grid-sdk/vue/grid/getting-started" icon="/images/Vue.svg" %}
+{% doccard text="Vue" link="/grid-sdk/vue/grid/getting-started" icon="/grid-sdk/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/grid/getting-started" icon="/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/grid/getting-started" icon="/grid-sdk/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/grid/getting-started" icon="/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/grid/getting-started" icon="/grid-sdk/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="/grid-sdk/maui/datagrid/getting-started" icon="/images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/grid-sdk/maui/datagrid/getting-started" icon="/grid-sdk/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="/grid-sdk/wpf/datagrid/getting-started" icon="/images/WPF.svg" %}
+{% doccard text="WPF" link="/grid-sdk/wpf/datagrid/getting-started" icon="/grid-sdk/images/WPF.svg" %}
 
-{% doccard text="Windows Forms" link="/grid-sdk/winforms/datagrid/getting-started" icon="/images/Windows Forms.svg" %}
+{% doccard text="Windows Forms" link="/grid-sdk/winforms/datagrid/getting-started" icon="/grid-sdk/images/Windows Forms.svg" %}
 
-{% doccard text="WinUI" link="/grid-sdk/winui/datagrid/getting-started" icon="/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/grid-sdk/winui/datagrid/getting-started" icon="/grid-sdk/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/grid-sdk/uwp/sfdatagrid/getting-started" icon="/images/UWP.svg" %}
+{% doccard text="UWP" link="/grid-sdk/uwp/sfdatagrid/getting-started" icon="/grid-sdk/images/UWP.svg" %}
 
-{% doccard text="Flutter" link="/grid-sdk/flutter/datagrid/getting-started" icon="/images/Flutter.svg" %}
+{% doccard text="Flutter" link="/grid-sdk/flutter/datagrid/getting-started" icon="/grid-sdk/images/Flutter.svg" %}
 
 {% enddoccards %}
 
@@ -108,27 +108,27 @@ The Syncfusion Tree Grid is a data visualization component designed to represent
 
 {% doccards %}
 
-{% doccard text="React" link="/grid-sdk/react/treegrid/getting-started" icon="/images/React.svg" %}
+{% doccard text="React" link="/grid-sdk/react/treegrid/getting-started" icon="/grid-sdk/images/React.svg" %}
 
-{% doccard text="Angular" link="/grid-sdk/angular/treegrid/getting-started" icon="/images/Angular.svg" %}
+{% doccard text="Angular" link="/grid-sdk/angular/treegrid/getting-started" icon="/grid-sdk/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/grid-sdk/blazor/treegrid/getting-started-with-web-app" icon="/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/grid-sdk/blazor/treegrid/getting-started-with-web-app" icon="/grid-sdk/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/grid-sdk/javascript/treegrid/es5-getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="JavaScript" link="/grid-sdk/javascript/treegrid/es5-getting-started" icon="/grid-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/grid-sdk/typescript/treegrid/getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/grid-sdk/typescript/treegrid/getting-started" icon="/grid-sdk/images/Typescript.svg" %}
 
-{% doccard text="Vue" link="/grid-sdk/vue/treegrid/getting-started" icon="/images/Vue.svg" %}
+{% doccard text="Vue" link="/grid-sdk/vue/treegrid/getting-started" icon="/grid-sdk/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/treegrid/getting-started" icon="/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/treegrid/getting-started" icon="/grid-sdk/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/treegrid/getting-started" icon="/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/treegrid/getting-started" icon="/grid-sdk/images/ASP.NET MVC.png" %}
 
-{% doccard text="WPF" link="/grid-sdk/wpf/treegrid/getting-started" icon="/images/WPF.svg" %}
+{% doccard text="WPF" link="/grid-sdk/wpf/treegrid/getting-started" icon="/grid-sdk/images/WPF.svg" %}
 
-{% doccard text="WinUI" link="/grid-sdk/winui/treegrid/getting-started" icon="/images/WinUI.svg" %}
+{% doccard text="WinUI" link="/grid-sdk/winui/treegrid/getting-started" icon="/grid-sdk/images/WinUI.svg" %}
 
-{% doccard text="UWP" link="/grid-sdk/uwp/tree-grid/getting-started" icon="/images/UWP.svg" %}
+{% doccard text="UWP" link="/grid-sdk/uwp/tree-grid/getting-started" icon="/grid-sdk/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -161,27 +161,27 @@ The Syncfusion Pivot Table is an analytical data grid for data analysis, reporti
 
 {% doccards %}
 
-{% doccard text="React" link="/grid-sdk/react/pivot-table/getting-started" icon="/images/React.svg" %}
+{% doccard text="React" link="/grid-sdk/react/pivot-table/getting-started" icon="/grid-sdk/images/React.svg" %}
 
-{% doccard text="Angular" link="/grid-sdk/angular/pivot-table/getting-started" icon="/images/Angular.svg" %}
+{% doccard text="Angular" link="/grid-sdk/angular/pivot-table/getting-started" icon="/grid-sdk/images/Angular.svg" %}
 
-{% doccard text="Blazor" link="/grid-sdk/blazor/pivot-table/getting-started-with-web-app" icon="/images/Blazor.svg" %}
+{% doccard text="Blazor" link="/grid-sdk/blazor/pivot-table/getting-started-with-web-app" icon="/grid-sdk/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="/grid-sdk/javascript/pivot-table/es5-getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="JavaScript" link="/grid-sdk/javascript/pivot-table/es5-getting-started" icon="/grid-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="/grid-sdk/typescript/pivot-table/getting-started" icon="/images/JavaScript.svg" %}
+{% doccard text="TypeScript" link="/grid-sdk/typescript/pivot-table/getting-started" icon="/grid-sdk/images/Typescript.svg" %}
 
-{% doccard text="Vue" link="/grid-sdk/vue/pivot-table/getting-started" icon="/images/Vue.svg" %}
+{% doccard text="Vue" link="/grid-sdk/vue/pivot-table/getting-started" icon="/grid-sdk/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/pivot-table/getting-started" icon="/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="/grid-sdk/asp-net-core/pivot-table/getting-started" icon="/grid-sdk/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/pivot-table/getting-started" icon="/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="/grid-sdk/asp-net-mvc/pivot-table/getting-started" icon="/grid-sdk/images/ASP.NET MVC.png" %}
 
-{% doccard text="WPF" link="/grid-sdk/wpf/pivot-grid/getting-started" icon="/images/WPF.svg" %}
+{% doccard text="WPF" link="/grid-sdk/wpf/pivot-grid/getting-started" icon="/grid-sdk/images/WPF.svg" %}
 
-{% doccard text="Windows Forms" link="/grid-sdk/winforms/pivot-grid/getting-started" icon="/images/Windows Forms.svg" %}
+{% doccard text="Windows Forms" link="/grid-sdk/winforms/pivot-grid/getting-started" icon="/grid-sdk/images/Windows Forms.svg" %}
 
-{% doccard text="UWP" link="grid-sdk/uwp/pivot-table/relational/getting-started" icon="/images/UWP.svg" %}
+{% doccard text="UWP" link="grid-sdk/uwp/pivot-table/relational/getting-started" icon="/grid-sdk/images/UWP.svg" %}
 
 {% enddoccards %}
 
@@ -203,9 +203,9 @@ The Syncfusion Smart DataGrid combines the power of the standard DataGrid with A
 
 {% doccards %}
 
-{% doccard text=".NET MAUI" link="/grid-sdk/maui/smart-datagrid/getting-started" icon="/images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="/grid-sdk/maui/smart-datagrid/getting-started" icon="/grid-sdk/images/dotnet_maui.svg" %}
 
-{% doccard text="WPF" link="grid-sdk/wpf/smartdatagrid/getting-started" icon="/images/WPF.svg" %}
+{% doccard text="WPF" link="grid-sdk/wpf/smartdatagrid/getting-started" icon="/grid-sdk/images/WPF.svg" %}
 
 {% enddoccards %}
 
