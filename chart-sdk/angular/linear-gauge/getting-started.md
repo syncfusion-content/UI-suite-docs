@@ -1,0 +1,224 @@
+---
+layout: post
+title: Getting started with Angular Linear gauge component | Syncfusion
+description:  Checkout and learn about Getting started with Angular Linear gauge component of Syncfusion Essential JS 2 and more details.
+platform: chart-sdk
+control: Getting started 
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Getting started with Angular Linear gauge component
+
+<!-- markdownlint-disable MD013 -->
+
+This section explains the steps required to create a simple Linear Gauge and demonstrate the basic usage of the Linear Gauge component.
+
+{% youtube "https://www.youtube.com/watch?v=KHAuX1TQisU" %}
+
+## Dependencies
+
+Below is the list of minimum dependencies required to use the Linear Gauge component.
+
+```javascript
+|-- @syncfusion/ej2-angular-lineargauge
+    |-- @syncfusion/ej2-angular-base
+    |-- @syncfusion/ej2-angular-lineargauge
+    |-- @syncfusion/ej2-lineargauge
+    |-- @syncfusion/ej2-base
+    |-- @syncfusion/ej2-svg-base
+```
+
+## Setup Angular Environment
+
+Prerequisites: Node.js (LTS) and npm must be installed before creating an Angular project.
+
+Use the [`Angular CLI`](https://github.com/angular/angular-cli) to create and manage Angular applications. Install the CLI with one of the following approaches depending on preference.
+
+```bash
+npm install -g @angular/cli
+```
+
+## Create an Angular Application
+
+Create a new Angular application with the Angular CLI:
+
+```bash
+ng new my-app
+cd my-app
+```
+
+## Installing Syncfusion<sup style="font-size:70%">&reg;</sup> Linear Gauge package
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> packages are published on npm under the `@syncfusion` scope. The Angular distribution is available in two package formats:
+
+Currently, Syncfusion<sup style="font-size:70%">&reg;</sup> provides two types of package structures for Angular components,
+1. Ivy library distribution package [format](https://angular.dev/tools/libraries/angular-package-format)
+2. Angular compatibility compiler (ngcc) package for legacy compilation and rendering
+
+### Ivy library distribution package
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Angular packages(`>=20.2.36`) use the Ivy distribution to support the Angular Ivy rendering engine. These packages are compatible with Angular version 21 and other latest angular versions. Install the Ivy package with the following command:
+
+Add [`@syncfusion/ej2-angular-lineargauge`](https://www.npmjs.com/package/@syncfusion/ej2-angular-lineargauge/v/32.1.19) package to the application.
+
+```bash
+npm install @syncfusion/ej2-angular-lineargauge --save
+```
+
+### Angular compatibility compiled package(ngcc)
+
+For Angular versions earlier than 12, use the legacy ngcc package of the Syncfusion<sup style="font-size:70%">&reg;</sup> Angular components. Install the ngcc package with:
+
+Add [`@syncfusion/ej2-angular-lineargauge@ngcc`](https://www.npmjs.com/package/@syncfusion/ej2-angular-lineargauge/v/32.1.19-ngcc) package to the application.
+
+```bash
+npm install @syncfusion/ej2-angular-lineargauge@ngcc --save
+```
+
+To reference the ngcc package in `package.json`, add the `-ngcc` suffix to the package version, for example:
+
+```bash
+@syncfusion/ej2-angular-lineargauge:"32.1.19-ngcc"
+```
+
+> Note: If the `-ngcc` suffix is not specified, the Ivy package will be installed and a compatibility warning may appear when using older Angular versions.
+
+## Add LinearGauge component
+
+Modify the template in **app.component.ts** file to render the Linear Gauge component.
+`[src/app/app.component.ts]`.
+
+```javascript
+
+import { LinearGaugeModule } from '@syncfusion/ej2-angular-lineargauge'
+import { Component } from '@angular/core';
+
+@Component({
+imports: [
+         LinearGaugeModule
+    ],
+    standalone: true,
+    selector: 'app-container',
+    // specifies the template string for the linear gauge component
+    template: `<ejs-lineargauge id="gauge-container"></ejs-lineargauge>`
+})
+export class AppComponent {
+
+}
+
+```
+
+   Now use the `<code>app-container</code>` in the index.html instead of default one.
+
+    ```
+    <app-container></app-container>
+    ```
+
+* Now run the application in the browser using the below command.
+
+   ```
+    npm start
+   ```
+
+The below example shows a basic Linear Gauge.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/getting-started-cs1" %}
+
+## Module Injection
+
+LinearGauge component is segregated into the individual feature-wise modules. In order to use a particular feature, inject its feature module using the `providers: {}`. Please find the feature module name and description as follows.
+
+* `AnnotationsService` - Inject this provider to use Annotation feature.
+* `GaugeTooltipService` - Inject this provider to use Tooltip feature.
+
+These modules should be injected in the providers section of the **app.component.ts** file as follows,
+
+ ```javascript
+    import { LinearGaugeModule } from '@syncfusion/ej2-angular-lineargauge'
+    import { Component } from '@angular/core';
+    import { AnnotationsService, GaugeTooltipService} from '@syncfusion/ej2-angular-lineargauge';
+
+    @Component({
+        imports: [
+            LinearGaugeModule,
+        ],
+        standalone: true,
+        providers: [ AnnotationsService, GaugeTooltipService ]
+    })
+
+```
+
+## Add Gauge Title
+
+The title can be added to the Linear Gauge component using the [`title`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGaugeModel#title-string) property in the Linear Gauge.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs2/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs2/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/getting-started-cs2" %}
+
+## Axis Range
+
+The range of the axis can be set using the [`minimum`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axis#minimum-number) and [`maximum`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axis#maximum-number) properties in the Linear Gauge.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs3/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs3/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/getting-started-cs3" %}
+
+To denote the axis labels with temperature units, add the °C as suffix to each label. This can be achieved by setting the **{value}°C** to the [`format`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/labelModel#format-string) property in the [`labelStyle`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axis#labelstyle-labelmodel) object of the axis. Here, **{value}** acts as a placeholder for each axis label.
+
+To change the pointer value from the default value of the gauge, set the [`value`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointer#value-number) property in [`pointers`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointerModel) object of the axis.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs4/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs4/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/getting-started-cs4" %}
+
+## Setting the value of pointer
+
+The pointer value is changed in the below sample using the [`value`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointer#value-number) property in [`pointers`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointer) object of the axis.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs5/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/linear-gauge/getting-started-cs5/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/getting-started-cs5" %}
