@@ -78,13 +78,13 @@ The Pivot Table code should be placed in the **src/App.tsx** file.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/getting-started-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/getting-started-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/pivot-table/getting-started-cs1/app/App.css %}
+{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.css %}
 {% endhighlight %}
 {% endtabs %}
 

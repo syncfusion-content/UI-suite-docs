@@ -113,11 +113,11 @@ The tree grid code should be added in the **src/App.vue** file.
 
 {% tabs %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/getting-started/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
 
 ## Run the application
 
