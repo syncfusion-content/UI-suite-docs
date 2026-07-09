@@ -1,0 +1,177 @@
+---
+layout: post
+title: Vue 3 getting started with the Tree Grid component | Syncfusion
+description: Check out and learn about Vue 3 getting started with the Vue Tree Grid component of Syncfusion Essential JS 2 and more details.
+control: Vue 3 getting started
+platform: grid-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/grid-sdk
+---
+
+# Getting Started with the Vue Tree Grid Component in Vue 3
+
+This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev/) project with a JavaScript environment and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
+
+The `Composition API`, introduced in Vue.js 3, provides an alternative way to organize and reuse component logic.
+
+The `Options API` is the traditional approach to writing Vue.js components, organizing component logic into a series of options that define the component's properties and behavior. These options include data, methods, computed properties, watchers, life cycle hooks, and more.
+
+## Prerequisites
+
+[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+
+## Set up the Vite project
+
+A recommended way to get started with Vue is to scaffold a project using [Vite](https://vitejs.dev/). To create a new Vite project, execute one of the following commands that are specific to either NPM or Yarn:
+
+```bash
+npm create vite@latest
+```
+
+or
+
+```bash
+yarn create vite
+```
+
+Executing one of the above commands will prompt a series of configuration steps for the project setup:
+
+1. Define the project name: Specify the name of the project directly. For this article, the project name is `my-project`.
+
+```bash
+? Project name: » my-project
+```
+
+2. Select `Vue` as the framework. This creates a Vue 3 project.
+
+```bash
+? Select a framework: » - Use arrow-keys. Return to submit.
+Vanilla
+> Vue
+  React
+  Preact
+  Lit
+  Svelte
+  Others
+```
+
+3. Choose `JavaScript` as the framework variant to build this Vite project using JavaScript and Vue.
+
+```bash
+? Select a variant: » - Use arrow-keys. Return to submit.
+> JavaScript
+  TypeScript
+  Customize with create-vue ↗
+  Nuxt ↗
+```
+
+4. Install dependencies and start the dev server.
+
+```bash
+Install with npm and start now?: Yes
+```
+
+Terminate the application, then run the following command:
+
+```bash
+cd my-project
+```
+
+## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid packages
+
+To install the Tree Grid component, use the following command:
+
+```bash
+npm install @syncfusion/ej2-vue-treegrid --save
+```
+
+or
+
+```bash
+yarn add @syncfusion/ej2-vue-treegrid
+```
+
+> Before including Syncfusion styles, make sure to remove the default styles defined in **style.css**. This helps prevent unintended style overrides and ensures that Syncfusion components render correctly.
+
+
+## Adding CSS reference
+
+You can add the CSS files required for the Syncfusion Vue Tree Grid component using one of the following methods.
+
+### Option 1: Add CSS References from a theme package
+
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
+ 
+Install the **Material 3** theme package using the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-material3-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **src/App.vue** file:
+
+{% tabs %}
+{% highlight html tabtitle="Composition API ~/src/App.vue" %}
+
+<style>
+    @import "../node_modules/@syncfusion/ej2-material3-theme/treegrid/treegrid/index.css";
+</style>
+
+{% endhighlight %}
+{% endtabs %}
+
+### Option 2: Add CSS References from component packages
+
+After installing the treegrid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.vue** file:
+
+```css
+<style>
+    @import "../node_modules/@syncfusion/ej2-base/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-buttons/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-calendars/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-inputs/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-navigations/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-popups/styles/material3.css";
+    @import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css";
+    @import '../node_modules/@syncfusion/ej2-notifications/styles/material3.css';
+    @import "../node_modules/@syncfusion/ej2-vue-treegrid/styles/material3.css";
+</style>
+```
+
+## Adding Tree Grid component
+
+The tree grid code should be added in the **src/App.vue** file.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API ~/src/App.vue" %}
+{% include code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API ~/src/App.vue" %}
+{% include code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+   
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
+
+## Run the application
+
+```bash
+npm run dev
+```
+
+or
+
+```bash
+yarn run dev
+```
+
+## See also
+
+* [Grid Feature Modules](./module)
+* [Getting Started with Vue UI Components using Composition API and TypeScript](../getting-started/vue-3-ts-composition.md)
+* [Getting Started with Vue UI Components using Options API and TypeScript](../getting-started/vue-3-ts-options.md)
