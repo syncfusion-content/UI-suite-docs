@@ -40,14 +40,14 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/react/documentation/api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-pos1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-pos1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-pos1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-pos1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos1" %}
 
 
 The following table shows all possible alignment combinations when using offset (0, 0):
@@ -72,14 +72,14 @@ The following table shows all possible alignment combinations when using offset 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-pos2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-pos2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-pos2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-pos2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos2" %}
 
 ## See also
 

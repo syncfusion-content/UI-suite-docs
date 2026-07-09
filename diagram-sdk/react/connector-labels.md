@@ -30,14 +30,14 @@ The following code example demonstrates how to configure the offset for connecto
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs5" %}
 
 The following image shows the position of the annotation with respect to different offsets.
 
@@ -55,14 +55,14 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Segment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Segment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Segment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Segment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Segment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Segment-cs1" %}
 
 ## Displacement of annotation
 
@@ -72,14 +72,14 @@ The following example shows how to apply displacement to connector annotations:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Displacement-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Displacement-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1" %}
 
 N> Displacement is only applicable when we use alignment as **After** or **Before**.
 
@@ -91,14 +91,14 @@ The following code example demonstrates how to configure segment angle rotation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5SegmentAngle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/annotations/es5SegmentAngle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1" %}
 
 |Segment angle|Output|
 |-----|-----|

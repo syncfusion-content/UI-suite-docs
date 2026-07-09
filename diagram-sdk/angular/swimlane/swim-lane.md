@@ -22,15 +22,15 @@ The following code example demonstrates how to define a basic swimlane object:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs1" %}
 
 N> When setting a swimlane's ID, ensure it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -47,15 +47,15 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/orientation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/orientation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/orientation-cs1" %}
 
 ## Headers
 
@@ -65,15 +65,15 @@ The following code example shows how to define and configure a swimlane header:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs2" %}
 
 ### Header customization
 
@@ -83,15 +83,15 @@ The following code example demonstrates comprehensive header customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/headercustomise-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/headercustomise-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/headercustomise-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/headercustomise-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/headercustomise-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/headercustomise-cs1" %}
 
 ### Dynamic header customization
 
@@ -99,15 +99,15 @@ Headers can be modified programmatically during runtime to respond to user inter
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/dynamicheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamicheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/dynamicheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamicheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamicheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamicheader-cs1" %}
 
 ### Header editing
 

@@ -32,15 +32,15 @@ The following code demonstrates basic overview implementation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/overview/overview-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/overview/overview-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/overview/overview-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/overview/overview-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs2" %}
 
 ## Overview Interactions
 
@@ -57,15 +57,15 @@ The overview displays the current viewport as a red rectangle overlay. This rect
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/overview/overview-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/overview/overview-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/overview/overview-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/overview/overview-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs1" %}
 
 The following demonstration shows overview interaction capabilities:
 

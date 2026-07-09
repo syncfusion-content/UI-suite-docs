@@ -21,14 +21,14 @@ To create a gateway in the React Diagram component, set the shape property of th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Gateway-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Gateway-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1" %}
 
 N> By default, the `gateway` will be set as **none**.
 

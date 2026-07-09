@@ -35,15 +35,15 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectors-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectors-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectors-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectors-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-cs1" %}
 
 ## Add/Remove connector at runtime
 
@@ -53,15 +53,15 @@ The following code example illustrates how to add a connector at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsatruntime-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsatruntime-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsatruntime-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsatruntime-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsatruntime-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsatruntime-cs1" %}
 
 ## Add collection of connectors at runtime
 
@@ -71,15 +71,15 @@ The following code illustrates how to add a collection of connectors at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorcollection-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorcollection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorcollection-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorcollection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorcollection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorcollection-cs1" %}
 
 ## Add Connectors from Palette
 
@@ -89,15 +89,15 @@ The following code example illustrates how to add connectors to the palette.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorfrompalette-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorfrompalette-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorfrompalette-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorfrompalette-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorfrompalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorfrompalette-cs1" %}
 
 ## Draw Connectors
 
@@ -107,15 +107,15 @@ To draw a connector, you have to activate the drawing tool by setting `DrawOnce`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectordrawtool-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordrawtool-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectordrawtool-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordrawtool-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordrawtool-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordrawtool-cs1" %}
 
 For more information about drawing connectors, refer to [`Draw Connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram#drawingobject).
 
@@ -127,15 +127,15 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsupdate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsupdate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsupdate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsupdate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsupdate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsupdate-cs1" %}
 
 ## Clone Connector at Runtime
 
@@ -145,15 +145,15 @@ The following code example illustrates how to clone a connector.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorclone-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorclone-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorclone-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorclone-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorclone-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorclone-cs1" %}
 
 ## Configure default connector properties
 
@@ -163,15 +163,15 @@ The following code example explains how to customize connector defaults using [`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectordefaults-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordefaults-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectordefaults-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordefaults-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordefaults-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordefaults-cs1" %}
 
 ## Connections
 
@@ -183,15 +183,15 @@ The following code example illustrates how to connect two nodes.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectNode-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectNode-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectNode-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectNode-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectNode-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectNode-cs1" %}
 
 When you remove NodeConstraints [`InConnect`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeConstraints) from Default, the node accepts only an outgoing connection to dock in it. Similarly, when you remove NodeConstraints [`OutConnect`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeConstraints) from Default, the node accepts only an incoming connection to dock in it.
 
@@ -231,29 +231,29 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsport-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsport-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsport-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsport-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsport-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsport-cs1" %}
 
 The `sourcePortID` or `targetPortID` can be changed at runtime by modifying these properties programmatically.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsportupdate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsportupdate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsportupdate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsportupdate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsportupdate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsportupdate-cs1" %}
 
 When you set PortConstraints to [`InConnect`](https://ej2.syncfusion.com/angular/documentation/api/diagram/portConstraints), the port accepts only an incoming connection to dock in it. Similarly, when you set PortConstraints to [`OutConnect`](https://ej2.syncfusion.com/angular/documentation/api/diagram/portConstraints), the port accepts only an outgoing connection to dock in it.
 
@@ -326,15 +326,15 @@ The following code block shows how to create the diagram with specified nodes, c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorslinerouting-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorslinerouting-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorslinerouting-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorslinerouting-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorslinerouting-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorslinerouting-cs1" %}
 
 The following gif illustrates how the connector automatically re-routes the segments. 
 
@@ -344,15 +344,15 @@ In some situations, diagrams with automatic line routing enabled may need to exc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorslineroutingdisabled-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorslineroutingdisabled-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorslineroutingdisabled-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorslineroutingdisabled-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorslineroutingdisabled-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorslineroutingdisabled-cs1" %}
 
 ## Avoid line overlapping
 
@@ -393,15 +393,15 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/AvoidLineOverlappings/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/AvoidLineOverlappings/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/AvoidLineOverlappings/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/AvoidLineOverlappings/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/AvoidLineOverlappings" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/AvoidLineOverlappings" %}
 
 N> The `AvoidLineOverlapping` feature applies only to orthogonal connectors and requires the `LineRouting` module to be injected with its constraints enabled.
 

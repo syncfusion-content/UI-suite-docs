@@ -77,15 +77,15 @@ The following code example demonstrates the complete locale settings for the con
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/locale/localcontextmenu-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localcontextmenu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/locale/localcontextmenu-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localcontextmenu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/locale/localcontextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/locale/localcontextmenu-cs1" %}
 
 ## Localize Symbol palette
 
@@ -129,14 +129,14 @@ The following code example shows the complete locale settings for the symbol pal
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/locale/localsymbolpalette-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localsymbolpalette-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/locale/localsymbolpalette-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localsymbolpalette-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/locale/localsymbolpalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/locale/localsymbolpalette-cs1" %}
 
 For comprehensive information about localization implementation across all Syncfusion components, refer to the [`localization`](https://ej2.syncfusion.com/angular/documentation/common/localization) documentation.

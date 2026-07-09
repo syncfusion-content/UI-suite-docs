@@ -18,15 +18,15 @@ The following code example illustrates how to create a phase.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phase-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phase-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phase-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phase-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phase-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phase-cs1" %}
 
 ### Dynamically add and remove phases from lanes
 
@@ -36,15 +36,15 @@ The following code example illustrates how to add and remove phases at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addphases-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addphases-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addphases-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addphases-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addphases-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addphases-cs1" %}
 
 ### Customizing phase appearance and properties
 
@@ -59,15 +59,15 @@ The following code example illustrates how to customize phases in a swimlane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs1" %}
 
 #### Dynamic customization of phases
 
@@ -77,15 +77,15 @@ The following code example illustrates how to customize phases at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs2" %}
 
 ### Phase interaction capabilities
 

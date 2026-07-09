@@ -18,14 +18,14 @@ The following code explains how to draw the connector by using the port constrai
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int1" %}
 
 ### Draw different connector types from port
 
@@ -39,14 +39,14 @@ The following code explains how to draw different connectors by using the port c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int2" %}
 
 ## Port drag
 
@@ -56,14 +56,14 @@ The following code explains how to enable port drag.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int3" %}
 
 ## Automatic Port Creation
 
@@ -75,14 +75,14 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/automaticPortCreation/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/automaticPortCreation/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/automaticPortCreation/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/automaticPortCreation/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/automaticPortCreation" %}
 
 ## Port tooltip
 
@@ -92,14 +92,14 @@ The following code explains how to enable port tooltip.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int4" %}
 
 ## Events
 
@@ -116,14 +116,14 @@ The following example shows how to get these events in diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-int5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-int5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int5" %}
 
 ## See also
 

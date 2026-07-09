@@ -28,15 +28,15 @@ The [`offsetX`](https://helpej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs1" %}
 
 ## Text Annotation in Palette
 
@@ -44,15 +44,15 @@ Text annotation nodes can be rendered in the symbol palette alongside other BPMN
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs2" %}
 
 ## Connect the TextAnnotation to BPMN Node
 
@@ -80,12 +80,12 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/text-cs3" %}

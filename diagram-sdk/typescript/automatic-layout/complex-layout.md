@@ -20,14 +20,14 @@ The following example demonstrates how to render a complex hierarchical tree lay
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9" %}
 
 ## Complex hierarchical tree layout with DataSource
 
@@ -35,14 +35,14 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.html %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex" %}
 
 ![Complex hierarchical tree layout](../images//complex-2.png)
 
@@ -57,14 +57,14 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10" %}
 
 N> If you want to use line distribution in diagram layout, you need to inject  LineDistribution module in the diagram.
 
@@ -81,14 +81,14 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2" %}
 
 ## Enable routing for layout
 
@@ -100,11 +100,11 @@ The following example shows how to activate enableRouting in the layout:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3" %}

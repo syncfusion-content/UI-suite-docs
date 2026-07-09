@@ -33,15 +33,15 @@ The following example demonstrates how to configure offset, width, and height fo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs1" %}
 
 ### Update annotation offset at runtime
 
@@ -49,15 +49,15 @@ Annotation offset values can be modified dynamically during application executio
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-run-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-run-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-run-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-run-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs1" %}
 
 N> Call `dataBind()` after property changes to reflect updates instantly.
 
@@ -87,15 +87,15 @@ The following example shows how to configure annotation alignment properties:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
 
 ### Alignment combinations
 
@@ -119,12 +119,12 @@ Annotation alignment properties can be modified dynamically during application e
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-run-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-run-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-run-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-run-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs2" %}

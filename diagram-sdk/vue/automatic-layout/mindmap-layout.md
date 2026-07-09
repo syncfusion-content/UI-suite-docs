@@ -22,14 +22,14 @@ The following code example illustrates how to create an MindMap layout.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1" %}
 
 
 The following table outlines the various orientation types available:
@@ -48,13 +48,13 @@ You can also decide the branch for mind map using [`getBranch`](https://ej2.sync
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2" %}
 
 ![Mind map layout](../images/mindmap.png)

@@ -20,15 +20,15 @@ The following code example demonstrates how to handle the [`click`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs0/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs0/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs0/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs0/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs0" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs0" %}
 
 ## Selection Change Event
 
@@ -38,15 +38,15 @@ The following code example shows how to handle the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs1" %}
 
 Selection can be prevented by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the following code:
 
@@ -67,15 +67,15 @@ The following code example demonstrates how to handle the [`positionChange`](htt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs2" %}
 
 Dragging can be prevented by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/idraggingeventargs) to true:
 
@@ -96,15 +96,15 @@ The following code example shows how to handle the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs3" %}
 
 Resizing can be prevented by setting the `cancel` property of [`SizeChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/isizechangeeventargs) to true:
 
@@ -125,15 +125,15 @@ The following code example demonstrates how to handle the [`rotateChange`](https
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs4" %}
 
 Rotation can be prevented by setting the `cancel` property of [`RotationEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/irotationeventargs) to true:
 
@@ -154,15 +154,15 @@ The following code example shows how to handle the [`propertyChange`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs5" %}
 
 ## Collection Change Event
 
@@ -172,15 +172,15 @@ The following code example demonstrates how to handle the [`collectionChange`](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs6" %}
 
 Collection changes can be prevented by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/icollectionchangeeventargs) to true:
 
@@ -213,12 +213,12 @@ The following code example demonstrates how to handle these mouse events and imp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs7" %}

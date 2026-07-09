@@ -22,15 +22,15 @@ To create a gateway in the Angular Diagram component, set the shape property of 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/gateway-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/gateway-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/gateway-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/gateway-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/gateway-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/gateway-cs1" %}
 
 N> By default, the gateway type is set to **none**.
 

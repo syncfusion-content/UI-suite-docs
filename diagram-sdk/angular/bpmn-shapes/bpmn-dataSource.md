@@ -24,15 +24,15 @@ The following code example demonstrates how to create a basic BPMN data source s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/dataSource-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/dataSource-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/dataSource-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/dataSource-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/dataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/dataSource-cs1" %}
 
 ## Common Use Cases
 

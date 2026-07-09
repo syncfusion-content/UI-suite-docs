@@ -28,27 +28,27 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs1" %}
 
 The following code example illustrates how to draw a path shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs2" %}
 
 ### Text Nodes
 
@@ -56,14 +56,14 @@ Similarly, you can draw a text node by setting the type of shape as 'Text' in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs3" %}
 
 ### Draw Connectors
 
@@ -71,14 +71,14 @@ To draw connectors, set the JSON of the connector to the drawType property. The 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs4" %}
 
 
 ### Polygon shape
@@ -91,14 +91,14 @@ The following code illustrates how to draw a polygon shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs5" %}
 
 ![Polygon drawing](images/polygon-drawing.gif)
 
@@ -112,14 +112,14 @@ The following code illustrates how to draw a polyline connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs6" %}
 
  The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints/) constraint for the connector.
 
@@ -137,14 +137,14 @@ The following code illustrates how to draw a freehand drawing.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs7" %}
 
 The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints/) constraint for the connector.
 
@@ -177,14 +177,14 @@ To activate panning mode set the [`tool`](https://ej2.syncfusion.com/vue/documen
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs8/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/tools-cs8/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs8" %}
 
 N> Please note that panning the diagram is not possible when 'multiplePage' is set to false if any diagram object (node or connector) is outside the defined page break area.
 
@@ -194,12 +194,12 @@ N> Please note that panning the diagram is not possible when 'multiplePage' is s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/connector-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/connector-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/Tools/connector-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/connector-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/connector-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/connector-cs3" %}
 

@@ -24,15 +24,15 @@ The following example shows how to render user handle.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs3" %}
 
 ## Customize user handle click
 
@@ -40,15 +40,15 @@ When a user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs4" %}
 
 ## Alignment
 
@@ -74,15 +74,15 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs5" %}
 
 The following table shows all the possible alignments of user handle around the node.
 
@@ -103,15 +103,15 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandletooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandletooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandletooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandletooltip-cs1" %}
 
 Additional tooltip properties can be customized, such as [`position`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
@@ -123,15 +123,15 @@ The following example demonstrates how to use these properties to customize the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandle-cs2" %}
 
 ## Multiple user handles
 
@@ -145,15 +145,15 @@ In the example below, multiple user handles are utilized for various functionali
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandledisable-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandledisable-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandledisable-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandledisable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandledisable-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandledisable-cs1" %}
 
 ## Different types of user handles
 
@@ -177,15 +177,15 @@ The below example code demonstrates different types of user handles.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandletypes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletypes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandletypes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletypes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandletypes-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandletypes-cs1" %}
 
 ## User handle events
 
@@ -202,15 +202,15 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandleevents-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandleevents-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/userhandleevents-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandleevents-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandleevents-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/userhandleevents-cs1" %}
 
 ## Fixed user handles
 
@@ -224,15 +224,15 @@ The following code example demonstrates how to create fixed user handles for nod
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandle-cs1" %}
 
 >Note: The fixed user handle id need to be unique.
 
@@ -256,15 +256,15 @@ The following example demonstrates how to align fixed user handle for both node 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandle-cs2" %}
 
 The following table shows all the possible alignments of fixed user handle around the node.
 
@@ -326,15 +326,15 @@ The following code explains how to customize the alignment of connector fixed us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/connectorfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/connectorfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1" %}
 
 ### Fixed user handle tooltip
 
@@ -342,15 +342,15 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/tooltipfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/tooltipfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1" %}
 
 Additional tooltip properties can be customized, such as [`position`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
@@ -376,15 +376,15 @@ The following example demonstrates how to use these properties to customize the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/customizingfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/customizingfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1" %}
 
 #### Customizing Fixed User Handles with HTML Templates
 
@@ -392,15 +392,15 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandletemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandletemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1" %}
 
 ### Fixed user handle events
 
@@ -417,12 +417,12 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandleevents-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandleevents-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1" %}

@@ -32,15 +32,15 @@ The following code demonstrates how to enable the default context menu items:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/contextmenu-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/contextmenu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/contextmenu-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/contextmenu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/contextmenu-cs1" %}
 
 ## Customize Context Menu
 
@@ -67,15 +67,15 @@ The following example demonstrates context menu click handling for node cloning 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs1" %}
 
 ### Context Menu Open
 
@@ -85,15 +85,15 @@ The following example shows how to display different custom menu items for nodes
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs2" %}
 
 ### Context Menu with URL
 
@@ -103,15 +103,15 @@ The following example demonstrates context menu items with URLs for three websit
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/custom-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/custom-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/custom-cs3" %}
 
 ## Template Support for Context Menu
 
@@ -121,15 +121,15 @@ The following example renders menu items with shortcut key codes for specific ac
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/menutemplate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/menutemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/menutemplate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/menutemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/menutemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/menutemplate-cs1" %}
 
 ## Context Menu Events
 
@@ -145,15 +145,15 @@ The following example demonstrates how to handle these events:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/events-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/events-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/contextmenu/events-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/contextmenu/events-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/contextmenu/events-cs1" %}
 
 ## See Also
 

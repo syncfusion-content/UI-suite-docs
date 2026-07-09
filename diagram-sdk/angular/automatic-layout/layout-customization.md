@@ -23,15 +23,15 @@ The following example shows how to align the layout within specified layout boun
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-bounds-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-bounds-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-bounds-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-bounds-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-bounds-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-bounds-cs1" %}
 
 For more information about bounds configuration, refer to [`bounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layoutModel#bounds).
 
@@ -45,15 +45,15 @@ The following code illustrates how to configure layout alignment and modify alig
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-alignment-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-alignment-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-alignment-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-alignment-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-alignment-cs1" %}
 
 ## Layout spacing
 
@@ -65,15 +65,15 @@ The following code illustrates how to set initial horizontal and vertical spacin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-spacing-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-spacing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-spacing-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-spacing-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-spacing-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-spacing-cs1" %}
 
 ## Layout margin
 
@@ -85,15 +85,15 @@ The following code demonstrates how to set initial layout margin and modify marg
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-margin-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-margin-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-margin-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-margin-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-margin-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-margin-cs1" %}
 
 ## Layout orientation
 
@@ -114,15 +114,15 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-orientation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-orientation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-orientation-cs1" %}
 
 ## Exclude from layout
 
@@ -134,15 +134,15 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-exclude-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-exclude-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-exclude-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-exclude-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-exclude-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-exclude-cs1" %}
 
 ## Fixed node
 
@@ -152,15 +152,15 @@ This feature is particularly beneficial during expand/collapse operations, where
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-fixed-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-fixed-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-fixed-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-fixed-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-fixed-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-fixed-cs1" %}
 
 ## Expand and collapse
 
@@ -172,15 +172,15 @@ The following code example shows how to expand/collapse the children of a node:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-expandandcollapse-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-expandandcollapse-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-expandandcollapse-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-expandandcollapse-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-expandandcollapse-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-expandandcollapse-cs1" %}
 
 For more details about customizing the expand and collapse icons refer [`expand Collapse`](../nodes/nodes-expandAndCollapse)
 
@@ -194,15 +194,15 @@ The following example demonstrates how layout animation enhances the visual expe
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-animation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-animation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-animation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-animation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-animation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-animation-cs1" %}
 
 N> To enable layout animation, inject the LayoutAnimation module in the diagram.
 
@@ -216,15 +216,15 @@ The following code example creates parent-child relationships between source and
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-parentChildren-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-parentChildren-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-parentChildren-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-parentChildren-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-parentChildren-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-parentChildren-cs1" %}
 
 ![Layout drag and drop](../images/drag-drop-layout.gif)
 
@@ -238,15 +238,15 @@ Additional customization options include [`cornerRadius`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-setNodeTemplete-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-setNodeTemplete-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layout-setNodeTemplete-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layout-setNodeTemplete-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-setNodeTemplete-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layout-setNodeTemplete-cs1" %}
 
 ## Refresh layout
 

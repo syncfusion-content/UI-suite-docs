@@ -29,14 +29,14 @@ The `association` property allows you to define the type of association. The fol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Association-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Association-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1" %}
 
 The following table demonstrates the visual representation of association flows.
 
@@ -60,14 +60,14 @@ The sequence property allows you to define the type of sequence. The following c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Sequence-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Sequence-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1" %}
 
 The following table contains various representation of sequence flows.
 
@@ -91,14 +91,14 @@ The message property allows you to define the type of message. The following cod
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Message-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Message-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1" %}
 
 The following table contains various representation of message flows.
 

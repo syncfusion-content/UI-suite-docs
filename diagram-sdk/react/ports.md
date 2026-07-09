@@ -40,14 +40,14 @@ The following code demonstrates how to add ports during node initialization:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs1" %}
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -59,14 +59,14 @@ The port's ID property defines a unique identifier that can be used to reference
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs2" %}
 
 ## Remove Ports at Runtime
 
@@ -74,14 +74,14 @@ The [`removePorts`](https://ej2.syncfusion.com/react/documentation/api/diagram#r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs3" %}
 
 ## Update Port at Runtime
 
@@ -91,14 +91,14 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs4" %}
 
 ## Specify Connection Direction to Port
 
@@ -106,14 +106,14 @@ The [`connectionDirection`](https://ej2.syncfusion.com/react/documentation/api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/es5Connection/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/es5Connection/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/es5Connection/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/es5Connection/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/es5Connection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/es5Connection" %}
 
 ![connectionDirection](images\connectionDirection2.png)
 
@@ -125,14 +125,14 @@ The `inEdges` and `outEdges` of the port are read-only and cannot be customized.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-edges/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-edges/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-edges/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-edges/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-edges" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-edges" %}
 
 The following code example shows how to get inEdges and outEdges of port.
 

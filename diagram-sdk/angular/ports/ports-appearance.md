@@ -20,15 +20,15 @@ The following code illustrates how to change the appearance of port.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/appear-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/appear-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/appear-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/appear-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/appear-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/appear-cs1" %}
 
 ### Change appearance of port at runtime
 
@@ -36,15 +36,15 @@ The appearance of port can be changed at runtime by customizing the style proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/ports-app1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/ports-app1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app1" %}
 
 ## Port visibility
 
@@ -80,15 +80,15 @@ The following code illustrates how to set custom shape to the port.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/ports-app2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/ports-app2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app2" %}
 
 ## Constraints
 

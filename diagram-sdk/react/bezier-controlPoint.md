@@ -25,14 +25,14 @@ When working with multiple bezier segments, maintain visual consistency by confi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5BezierSegment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5BezierSegment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1" %}
 
 ## How to Show or Hide the Bezier Segment’s Control Points
 

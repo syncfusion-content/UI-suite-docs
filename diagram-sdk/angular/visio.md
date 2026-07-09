@@ -51,15 +51,15 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/visioimportexport/visioImport-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/visioimportexport/visioImport-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/visioimportexport/visioImport-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/visioimportexport/visioImport-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioImport-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioImport-cs1" %}
 
 ### Import options
 
@@ -123,15 +123,15 @@ The following example exports an Angular Diagram to a Microsoft Visio (**.vsdx**
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/visioimportexport/visioExport-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/visioimportexport/visioExport-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/visioimportexport/visioExport-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/visioimportexport/visioExport-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioExport-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioExport-cs1" %}
 
 ### Export options
 

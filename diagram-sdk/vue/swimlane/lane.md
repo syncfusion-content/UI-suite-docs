@@ -22,14 +22,14 @@ The following code example illustrates how to define a swimlane with lane.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/emptylane-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/emptylane-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1" %}
 
 ### Create lane header
 
@@ -39,14 +39,14 @@ The following code example illustrates how to define a lane header.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/laneheader-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/laneheader-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1" %}
 
 ### Customizing lane and lane header
 
@@ -60,14 +60,14 @@ The following code example illustrates how to customize the lane header.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/laneheadercustomize-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/laneheadercustomize-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1" %}
 
 #### Dynamic customization of lane header
 
@@ -75,14 +75,14 @@ You can customize the lane header style and text properties dynamically. The fol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/dynamiclaneheader-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/dynamiclaneheader-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1" %}
 
 ### Add/remove lane at runtime
 
@@ -90,14 +90,14 @@ You can add lanes at runtime by using the [`addLanes`](https://ej2.syncfusion.co
 
  {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addlanes-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addlanes-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1" %}
 
 ### Add children to lane
 
@@ -107,14 +107,14 @@ The following code example illustrates how to add nodes to lane.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildern-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildern-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1" %}
 
 #### Add child dynamically into the lane
 
@@ -122,14 +122,14 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
 
  {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildren-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildren-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2" %}
 
 We can also drag nodes from palette or diagram and drop it inside the lane. 
 
@@ -143,14 +143,14 @@ Here is an example of how to apply these constraints:
 
  {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildren-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/lanechildren-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3" %}
 
 ### AddInfo
 
@@ -158,14 +158,14 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
 
  {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addInfo-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addInfo-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1" %}
 
 ### Lane interaction
 
@@ -190,14 +190,14 @@ The following code illustrates how to disable swimlane lane swapping.
 
  {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addlanes-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/addlanes-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2" %}
 
 #### Resize helper
 

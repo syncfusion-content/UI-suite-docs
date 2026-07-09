@@ -55,14 +55,14 @@ To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syn
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs1" %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
 
@@ -121,14 +121,14 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs2" %}
 
 ## Customize flowchart layout orientation
 
@@ -207,14 +207,14 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs3" %}
 
 The following table will explain the pictorial representation of the behavior:
 
@@ -242,13 +242,13 @@ The following example shows how to set custom text to the yes branch and no bran
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/flowchart-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/flowchart-cs4" %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

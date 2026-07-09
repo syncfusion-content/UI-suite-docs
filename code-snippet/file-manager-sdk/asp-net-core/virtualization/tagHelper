@@ -1,0 +1,12 @@
+<div class=" control-section">
+    <div class="sample-container">
+        <!-- File Manager virtualization feature sample -->
+        <ejs-filemanager id="filemanager" enableVirtualization="true">
+            <e-filemanager-ajaxsettings url="https://ej2-aspcore-service.azurewebsites.net/api/Virtualization/FileOperations"
+                                        downloadUrl="https://ej2-aspcore-service.azurewebsites.net/api/Virtualization/Download"
+                                        uploadUrl="https://ej2-aspcore-service.azurewebsites.net/api/Virtualization/Upload"
+                                        getImageUrl="https://ej2-aspcore-service.azurewebsites.net/api/Virtualization/GetImage">
+            </e-filemanager-ajaxsettings>
+        </ejs-filemanager>
+    </div>
+</div>

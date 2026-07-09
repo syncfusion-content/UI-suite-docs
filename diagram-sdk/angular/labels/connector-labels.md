@@ -30,15 +30,15 @@ The following code example demonstrates how to configure the offset for connecto
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/annotation-connector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-connector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/annotation-connector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-connector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/annotation-connector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/annotation-connector-cs1" %}
 
 The following image illustrates annotation positioning at different offset values along the connector path:
 
@@ -56,15 +56,15 @@ The following code example demonstrates how to configure alignment for connector
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/segment-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segment-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/segment-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segment-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/segment-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/segment-cs1" %}
 
 ## Displacement of annotation
 
@@ -74,15 +74,15 @@ The following example shows how to apply displacement to connector annotations:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/displacement-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/displacement-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/displacement-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/displacement-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/displacement-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/displacement-cs1" %}
 
 N> Displacement functionality is only applicable when the alignment property is set to `Before` or `After`. Center-aligned annotations do not support displacement.
 
@@ -94,15 +94,15 @@ The following code example demonstrates how to configure segment angle rotation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/segmentAngle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segmentAngle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/segmentAngle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segmentAngle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/segmentAngle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/segmentAngle-cs1" %}
 The following table illustrates the visual difference between segment angle settings:
 
 |Segment angle|Output|

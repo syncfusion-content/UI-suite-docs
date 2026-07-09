@@ -17,11 +17,11 @@ A group is used to frame a part of the [Vue Diagram](https://www.syncfusion.com/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Group-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Group-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1" %}

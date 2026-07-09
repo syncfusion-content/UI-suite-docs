@@ -23,14 +23,14 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Activity-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Activity-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Activity-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Activity-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Activity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Activity-cs1" %}
 
 The different activities of BPMN process are listed as follows.
 
@@ -41,14 +41,14 @@ The following code illustrates how to create different types of BPMN tasks.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Task-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Task-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Task-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Task-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Task-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Task-cs1" %}
 
 The various types of BPMN tasks are tabulated as follows.
 
@@ -69,14 +69,14 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/vue/documentation/api/dia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Subprocess-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Subprocess-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Subprocess-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Subprocess-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Subprocess-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Subprocess-cs1" %}
 
 #### Loop
 
@@ -85,14 +85,14 @@ You can define the loop property in subprocess BPMN shape as shown in the follow
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Loop-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Loop-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Loop-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Loop-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Loop-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Loop-cs1" %}
 
 The following table contains various types of BPMN loops.
 
@@ -109,14 +109,14 @@ By default, the `compensation` is set to false.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Compensation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Compensation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Compensation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Compensation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Compensation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Compensation-cs1" %}
 
 #### Call
 
@@ -124,14 +124,14 @@ A [`call`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmntask#cal
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Call-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Call-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Call-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Call-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Call-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Call-cs1" %}
 
 N> This Property is only applicable for task Type activity. 
 
@@ -141,14 +141,14 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Adhoc-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Adhoc-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Adhoc-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Adhoc-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Adhoc-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Adhoc-cs1" %}
 
 #### Boundary
 
@@ -156,14 +156,14 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Boundary-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Boundary-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Boundary-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Boundary-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Boundary-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Boundary-cs1" %}
 
 The following table contains various types of BPMN boundaries.
 
@@ -186,14 +186,14 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/EventSub-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/EventSub-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/EventSub-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/EventSub-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/EventSub-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/EventSub-cs1" %}
 
 ## Transaction Subprocess
 
@@ -209,11 +209,11 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/TransitionSub-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/TransitionSub-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/TransitionSub-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/TransitionSub-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/TransitionSub-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/TransitionSub-cs1" %}

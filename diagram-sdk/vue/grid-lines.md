@@ -22,14 +22,14 @@ If you need to enable snapping, then inject snapping module into the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlines-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlines-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlines-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlines-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlines-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlines-cs1" %}
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
 
@@ -49,14 +49,14 @@ The following code example illustrates how to customize the appearance of gridli
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlinesAppearance-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlinesAppearance-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlinesAppearance-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlinesAppearance-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlinesAppearance-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlinesAppearance-cs1" %}
 
 ![Line appearance](./images/line-appearance.png)
 
@@ -68,14 +68,14 @@ The following code example illustrates how to customize the thickness of lines a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlineIntervals-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlineIntervals-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/gridlineIntervals-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/gridlineIntervals-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlineIntervals-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/gridlineIntervals-cs1" %}
 
 ![Line interval](./images/line-interval.png)
 
@@ -87,14 +87,14 @@ The following code illustrates how to render grid patterns as Dots.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/dotgridlines-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/dotgridlines-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/dotgridlines-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/dotgridlines-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/dotgridlines-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/dotgridlines-cs1" %}
 
 ![Dot Grid](./images/grid-dots.png)
 
@@ -110,14 +110,14 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapping-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapping-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapping-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapping-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapping-cs1" %}
 
 ![Snap to lines](./images/snapToLines.gif)
 
@@ -129,14 +129,14 @@ The [`snapObjectDistance`](https://ej2.syncfusion.com/vue/documentation/api/diag
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapobjects-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapobjects-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapobjects-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapobjects-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapobjects-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapobjects-cs1" %}
 
 ![Snap to object](./images/snapToObject.gif)
 
@@ -150,14 +150,14 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/SnapAngle-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/SnapAngle-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/SnapAngle-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/SnapAngle-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/SnapAngle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/SnapAngle-cs1" %}
 
 ![Snap Angle](./images/snapAngle.gif)
 
@@ -171,14 +171,14 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/SnapLineColor-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/SnapLineColor-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/SnapLineColor-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/SnapLineColor-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/SnapLineColor-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/SnapLineColor-cs1" %}
 
 ## Customization of Snap Intervals
 
@@ -186,14 +186,14 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapintervals-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapintervals-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/gridlines/snapintervals-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/gridlines/snapintervals-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapintervals-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/gridlines/snapintervals-cs1" %}
 
 ## Snap constraints
 

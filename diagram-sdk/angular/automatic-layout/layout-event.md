@@ -49,15 +49,15 @@ The event provides information about the affected node, its current state, and w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layoutEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layoutEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layoutEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layoutEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs1" %}
 
 ## Animation complete event
 
@@ -67,15 +67,15 @@ The event fires at the end of the animation cycle, ensuring that all visual upda
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layoutEvent-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layoutEvent-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/layoutEvent-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/layoutEvent-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs2" %}
 
 ## Layout updated event
 

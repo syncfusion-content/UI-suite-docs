@@ -16,14 +16,14 @@ Gateway is used to control the flow of a process and it is represented as a diam
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Gateway-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Gateway-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Gateway-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Gateway-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Gateway-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Gateway-cs1" %}
 
 N> By default, the `gateway` will be set as **none**.
 

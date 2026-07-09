@@ -20,14 +20,14 @@ The following code example demonstrates how to handle the  [`click`](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs1" %}
 
 ## Selection Change Event
 
@@ -38,14 +38,14 @@ The following code example shows how to handle the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs2" %}
 
 Selection can be prevented by setting the `cancel` property [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/iSelectionChangeEventArgs) to **true**, as shown in the following code:
 ```ts
@@ -67,14 +67,14 @@ The following code example demonstrates how to handle the  [`positionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs3" %}
 
 Dragging can be prevented by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDraggingEventArgs) to **true**:
 
@@ -96,14 +96,14 @@ The following code example shows how to handle the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs4" %}
 
 Resizing can be prevented by setting the `cancel` property of [`SizeChangeEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/isizechangeeventargs) to **true**:
 
@@ -125,14 +125,14 @@ The following code example demonstrates how to handle the [`rotateChange`](https
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs5" %}
 
 Rotation can be prevented by setting the `cancel` property of [`RotationEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/irotationeventargs) to **true**:
 
@@ -154,14 +154,14 @@ The following code example shows how to handle the [`propertyChange`](https://ej
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs6" %}
 
 ## Collection Change Event
 
@@ -171,14 +171,14 @@ The following code example demonstrates how to handle the  [`collectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs7" %}
 
 Collection changes can be prevented by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/icollectionchangeeventargs) to **true**:
 
@@ -212,11 +212,11 @@ The following code example demonstrates how to handle these mouse events and imp
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nEvent-cs8" %}

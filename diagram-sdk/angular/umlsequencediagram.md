@@ -69,15 +69,15 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1" %}
 
 ### Messages
 
@@ -112,15 +112,15 @@ The following example shows how to create different types of messages between pa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2" %}
 
 ### Activation Boxes
 
@@ -140,15 +140,15 @@ The following example demonstrates how to create activation boxes that span spec
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3" %}
 
 ### Fragments
 
@@ -195,15 +195,15 @@ The following example illustrates how to create fragments with different conditi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4" %}
 
 ## Customization Options
 

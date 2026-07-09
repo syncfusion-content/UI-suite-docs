@@ -21,15 +21,15 @@ The following code example demonstrates how to create a mind map layout:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/mindMap-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/mindMap-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1" %}
 
 
 The following table outlines the various orientation types available:
@@ -50,15 +50,15 @@ The `getBranch` method receives a node object as a parameter and should return a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/mindMap-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/mindMap-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2" %}
 
 ![Mind map layout showing branched structure with nodes arranged around a central concept](images/mindmap.png)
 

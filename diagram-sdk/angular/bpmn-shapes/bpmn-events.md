@@ -27,15 +27,15 @@ The [`event`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnE
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/event-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/event-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/event-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/event-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/event-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/event-cs1" %}
 
 ## BPMN event trigger
 

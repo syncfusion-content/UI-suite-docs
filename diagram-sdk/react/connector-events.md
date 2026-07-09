@@ -20,14 +20,14 @@ The following code example demonstrates how to handle the [`click`](https://help
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ClickEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ClickEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1" %}
 
 ## Selection Change Event
 
@@ -37,14 +37,14 @@ The following code example demonstrates how to handle the [`selectionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/iselectionchangeeventargs) to **true**, as shown in the code snippet below:
 
@@ -67,14 +67,14 @@ The following code example demonstrates how to handle the  [`positionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PositionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PositionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1" %}
 
  You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](https://helpej2.syncfusion.com/react/documentation/api/diagram/iDraggingEventArgs) to **true**, as shown in the code snippet below.
 
@@ -97,14 +97,14 @@ The following code example demonstrates how to handle the  [`connectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1" %}
 
 ## Source Point Change Event
 
@@ -114,14 +114,14 @@ The following code example demonstrates how to handle the [`sourcePointChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SourcePointchange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SourcePointchange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1" %}
 
  You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://helpej2.syncfusion.com/react/documentation/api/diagram/iEndChangeEventArgs) to **true**, as shown in the code snippet below:
 
@@ -146,14 +146,14 @@ The following code example demonstrates how to handle the [`targetPointChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5TargetPontChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5TargetPontChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1" %}
 
  You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://helpej2.syncfusion.com/react/documentation/api/diagram/iEndChangeEventArgs) to **true**, as shown in the code snippet below.
 
@@ -180,14 +180,14 @@ Use **CTRL+Shift+Click** on connector to add/remove segments.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentCollChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentCollChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1" %}
 
 ## Segment Change Event
 
@@ -197,14 +197,14 @@ The following code example demonstrates how to handle the [`segmentChange`](http
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1" %}
 
  You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](https://helpej2.syncfusion.com/react/documentation/api/diagram/iSegmentChangeEventArgs) to **true**, as shown in the code snippet below:
 
@@ -227,14 +227,14 @@ The following code example demonstrates how to handle the  [`collectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5CollectionChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/connectors/es5CollectionChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://helpej2.syncfusion.com/react/documentation/api/diagram/iCollectionChangeEventArgs) to **true**, as shown in the code snippet below:
 

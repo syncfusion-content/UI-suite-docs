@@ -67,15 +67,15 @@ The default export format is JPG. The following example shows format specificati
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs1" %}
 
 ## Margin Configuration
 
@@ -83,15 +83,15 @@ The [`margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iExp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs2" %}
 
 
 ## Export Modes
@@ -131,15 +131,15 @@ The following example demonstrates different region export options:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs3" %}
 
 N> When using CustomBounds region, the [`bounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iExportOptions#bounds) property must be defined to specify the export area coordinates.
 
@@ -154,15 +154,15 @@ The following example shows multi-page export configuration:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs4" %}
 
 ## Direct Image Export
 
@@ -170,15 +170,15 @@ The [`exportImage`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs5" %}
 
 ## Diagram Content Retrieval
 
@@ -186,15 +186,15 @@ The [`getDiagramContent`](https://ej2.syncfusion.com/angular/documentation/api/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/export/export-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/export/export-cs6" %}
 
 ## Stretch Option for Enhanced Quality
 

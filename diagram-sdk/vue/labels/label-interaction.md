@@ -14,14 +14,14 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Interaction-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Interaction-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Interaction-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Interaction-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Interaction-cs1" %}
 
 ## Constraints
 
@@ -33,14 +33,14 @@ The [`rotationReference`](https://ej2.syncfusion.com/vue/documentation/api/diagr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Rotation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Rotation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Rotation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Rotation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Rotation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Rotation-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -53,14 +53,14 @@ Diagram allows to create read-only annotations. You have to set the read-only co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Read-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Read-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Read-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Read-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Read-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Read-cs1" %}
 
 ## Edit
 
@@ -71,14 +71,14 @@ By using [`startTextEdit`](https://ej2.syncfusion.com/vue/documentation/api/diag
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Programmatically-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Programmatically-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Programmatically-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Programmatically-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Programmatically-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Programmatically-cs1" %}
 
 ### Interactively
     1. By double-clicking the annotation.
@@ -98,14 +98,14 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Interaction-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Interaction-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Interaction-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Interaction-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Interaction-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Interaction-cs2" %}
 
 ## Multiple annotations
 
@@ -113,11 +113,11 @@ You can add any number of annotations to a node or connector. The following code
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Multiple-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Multiple-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/labels/Multiple-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Multiple-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Multiple-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Multiple-cs1" %}

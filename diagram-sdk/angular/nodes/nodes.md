@@ -33,15 +33,15 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/angular/documen
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs1" %}
 
 N> Node ID must begin with a letter, remain unique across all shapes and connectors, and avoid whitespace or special characters.
 
@@ -51,15 +51,15 @@ Nodes can be generated automatically using the dataSource property. Default prop
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs3" %}
 
 ### Add nodes from symbol palette
 
@@ -67,15 +67,15 @@ Nodes can be predefined in a symbol palette and dragged into the diagram as need
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs2" %}
 
 ### Draw nodes interactively
 
@@ -83,15 +83,15 @@ To enable interactive node drawing, activate the drawing tool by setting `DrawOn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs4" %}
 
 ## Runtime node operations
 
@@ -101,15 +101,15 @@ Nodes can be dynamically added using the [`add`](https://ej2.syncfusion.com/angu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/run-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/run-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/run-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/run-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/run-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/run-cs1" %}
 
 ### Add multiple nodes simultaneously
 
@@ -117,15 +117,15 @@ Collections of nodes can be efficiently added using the [`addElements`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/nodecollection-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/nodecollection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/nodecollection-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/nodecollection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/nodecollection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/nodecollection-cs1" %}
 
 ### Update node properties
 
@@ -133,15 +133,15 @@ Node properties can be modified at runtime with immediate visual updates. Change
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs5" %}
 
 N> Call the `dataBind` method after property updates to ensure immediate reflection of changes.
 
@@ -151,15 +151,15 @@ Node cloning creates new instances with identical properties and attributes. Use
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs6" %}
 
 ## Advanced node integration
 

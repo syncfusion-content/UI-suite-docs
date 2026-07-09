@@ -25,14 +25,14 @@ Diagram provides some default context menu items to ease the execution of some f
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/default-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/default-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/default-cs1" %}
 
 ## Custom context menu
 
@@ -50,14 +50,14 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/custom-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/custom-cs1" %}
 
 ### Context menu open
 
@@ -65,14 +65,14 @@ In certain situations, you may want to hide specific menu items based on the sel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/custom-cs2" %}
 
 
 ### Context menu with Url
@@ -81,14 +81,14 @@ In certain situations, you may want to hide specific menu items based on the sel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/contextmenu-url/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/contextmenu-url/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url" %}
 
 N> To open the links in new tab, set `target` attribute with the value `_blank` in the the [contextMenuBeforeItemRender](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#contextmenubeforeitemrender) event.
 
@@ -100,14 +100,14 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/menutemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/menutemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1" %}
 
 ## Context menu events
 
@@ -122,14 +122,14 @@ The following example shows how to get these events.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/events-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/events-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/contextmenu/events-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/events-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/contextmenu/events-cs1" %}
 
 ## See Also
  

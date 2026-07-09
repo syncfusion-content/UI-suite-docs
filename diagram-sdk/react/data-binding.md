@@ -45,14 +45,14 @@ The following code example illustrates how to bind local data with the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5LocalBinding-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5LocalBinding-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5LocalBinding-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5LocalBinding-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5LocalBinding-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5LocalBinding-cs1" %}
 
 ## Remote Data Binding
 
@@ -64,14 +64,14 @@ For comprehensive DataManager information, see the `dataSourceSettings`. The fol
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5RemoteBinding-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5RemoteBinding-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5RemoteBinding-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5RemoteBinding-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5RemoteBinding-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5RemoteBinding-cs1" %}
 
 ## CRUD operations with Data Binding
 
@@ -107,14 +107,14 @@ The diagram can simultaneously read from two data sources: one for nodes and ano
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5connectionDataSource-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5connectionDataSource-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/dataBinding/es5connectionDataSource-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/dataBinding/es5connectionDataSource-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5connectionDataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/dataBinding/es5connectionDataSource-cs1" %}
 
 ### How to Perform Editing at Runtime
 

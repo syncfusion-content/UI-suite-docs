@@ -20,14 +20,14 @@ This example demonstrates how to create a complex hierarchical tree layout by ma
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1" %}
 
 
 ## Complex Hierarchical Tree Layout with DataSource
@@ -36,14 +36,14 @@ When working with large datasets, binding the layout to a data source provides b
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs2" %}
 
 
 ![Complex hierarchical tree layout](images/complex-2.png)
@@ -60,14 +60,14 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs3" %}
 
 
 N> If you want to use line distribution in diagram layout, you need to inject  LineDistribution module in the diagram.
@@ -89,14 +89,14 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs4" %}
 
 
 
@@ -111,14 +111,14 @@ The following example shows how to activate enableRouting in the layout:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/complexhiertree-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs5" %}
 
 ## Best Practices
 

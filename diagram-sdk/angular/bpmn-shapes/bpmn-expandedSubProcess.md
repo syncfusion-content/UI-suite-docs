@@ -22,15 +22,15 @@ To create an expanded subprocess, configure the shape as [`activity`](https://he
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/expanded-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/expanded-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/expanded-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/expanded-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expanded-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expanded-cs1" %}
 
 ### Add BPMN Nodes into Expanded SubProcess
 
@@ -40,15 +40,15 @@ The following code example demonstrates how to define child processes within an 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/expandedSub-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/expandedSub-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/expandedSub-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/expandedSub-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expandedSub-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expandedSub-cs1" %}
 
 ### Add BPMN Nodes into Expanded SubProcess at Runtime
 
@@ -66,12 +66,12 @@ The following example demonstrates how to implement dynamic process addition and
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/addRemove-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/addRemove-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/bpmnShapes/addRemove-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/addRemove-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/addRemove-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/addRemove-cs1" %}

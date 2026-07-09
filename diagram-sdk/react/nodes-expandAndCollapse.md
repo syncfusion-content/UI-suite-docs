@@ -39,14 +39,14 @@ The following code example demonstrates how to create icons with various shapes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nExpandAndCollapse-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nExpandAndCollapse-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1" %}
 
 ### Styling and appearance
 
@@ -65,14 +65,14 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nExpandAndCollapse-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nExpandAndCollapse-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2" %}
 
 ## Managing node expansion state
 

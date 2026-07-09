@@ -26,15 +26,15 @@ The following code demonstrates how to arrange nodes using symmetric layout:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/symmetric-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/symmetric-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1" %}
  
 
 N> If you want to use symmetric layout in diagram, you need to inject SymmetricLayout in the diagram.

@@ -38,14 +38,14 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/dia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-pos1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-pos1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-pos1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-pos1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-pos1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-pos1" %}
 
 The following table shows all the possible alignments visually with offset (0, 0).
 
@@ -68,14 +68,14 @@ The following table shows all the possible alignments visually with offset (0, 0
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-pos2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-pos2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/ports/ports-pos2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-pos2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-pos2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-pos2" %}
 
 ## See also
 

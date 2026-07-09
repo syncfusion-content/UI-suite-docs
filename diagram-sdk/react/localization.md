@@ -18,7 +18,7 @@ To localize the diagram context menu, we need to define the [`locale`](https://e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/reactCurlyExamples/localization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/reactCurlyExamples/localization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,14 +59,14 @@ The following code example demonstrates the complete locale settings for the con
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/localization/es5localeContextMenu-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/localization/es5localeContextMenu-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1" %}
 
 ## Localize Symbol Palette
 
@@ -112,14 +112,14 @@ The following code example summarizes the locale settings for the symbol palette
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/localization/es5localeSymbolpalette-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/localization/es5localeSymbolpalette-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1" %}
 
 Refer [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization) for more information.
 

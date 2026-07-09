@@ -39,14 +39,14 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectors-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectors-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectors-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectors-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectors-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectors-cs1" %}
 
 ## Add/Remove connector at runtime
 
@@ -56,14 +56,14 @@ The following code example illustrates how to add and remove connector at runtim
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsatruntime-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsatruntime-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1" %}
 
 ## Add collection of connectors at runtime
 
@@ -73,14 +73,14 @@ The following code illustrates how to add a connectors collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorCollection-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorCollection-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1" %}
 
 ## Add Connectors from palette
 
@@ -90,14 +90,14 @@ The following code example illustrates how to add connectors in palette.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorPalette-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorPalette-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1" %}
 
 ## Draw connectors
 
@@ -109,14 +109,14 @@ The following code example illustrates how to draw a connector at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/drawconnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/drawconnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1" %}
 
 For more information about drawing connectors, refer to [`Draw Connectors`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#drawingobject).
 
@@ -128,14 +128,14 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsupdate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsupdate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1" %}
 
 ## Clone connector at runtime
 
@@ -145,14 +145,14 @@ The following code example illustrates how to clone a connector
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/cloneConnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/cloneConnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1" %}
 
 ## Get Connector defaults
 
@@ -162,14 +162,14 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/getConnectorDefault-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/getConnectorDefault-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1" %}
 
 ## Connections
 
@@ -181,14 +181,14 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1" %}
 
 * When you remove NodeConstraints [`InConnect`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) from Default, the node accepts only an outgoing connection to dock in it. Similarly, when you remove NodeConstraints [`OutConnect`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) from Default, the node accepts only an incoming connection to dock in it.
 
@@ -219,27 +219,27 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsportupdate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsportupdate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1" %}
 
 Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by changing the port [`sourcePortID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#sourceportid) or [`targetPortID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#targetportid).
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/updateConnectorPort-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/updateConnectorPort-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1" %}
 
 * When you set PortConstraints to [`InConnect`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portconstraints), the port accepts only an incoming connection to dock in it. Similarly, when you set PortConstraints to [`OutConnect`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portconstraints), the port accepts only an outgoing connection to dock in it.
 
@@ -295,14 +295,14 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRouting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRouting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1" %}
 
 The following image illustrates how the connector automatically re-routes the segments. 
 
@@ -312,14 +312,14 @@ The following image illustrates how the connector automatically re-routes the se
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1" %}
 
 ## Avoid line overlapping
 
@@ -363,14 +363,14 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidLineOverlapping/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidLineOverlapping/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping" %}
 
 N> The `AvoidLineOverlapping` feature applies only to orthogonal connectors and requires the `LineRouting` module to be injected with its constraints enabled.
 

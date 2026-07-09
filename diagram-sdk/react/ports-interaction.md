@@ -20,14 +20,14 @@ The following code explains how to draw the connector by using the port constrai
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int1" %}
 
 ### Draw Different Connector Types from Port
 
@@ -39,14 +39,14 @@ The default connector type can be customized when drawing from ports by configur
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int2" %}
 
 ## Port Drag
 
@@ -56,14 +56,14 @@ The following code explains how to enable port drag.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int3" %}
 
 ## Automatic Port Creation
 
@@ -75,14 +75,14 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/automaticPortCreation/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/automaticPortCreation/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/automaticPortCreation/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/automaticPortCreation/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/automaticPortCreation" %}
 
 ## Port Tooltip
 
@@ -92,14 +92,14 @@ The following code explains how to enable port tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int4" %}
 
 ## Events
 
@@ -116,14 +116,14 @@ The following example shows how to get these events in diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ports/ports-int5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/ports/ports-int5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int5" %}
 
 ## See also
 

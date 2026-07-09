@@ -28,14 +28,14 @@ The [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnT
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1" %}
 
 ### Text Annotation in Palette
 
@@ -43,14 +43,14 @@ Text annotation nodes can be rendered in the symbol palette alongside other BPMN
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text1-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text1-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1" %}
 
 ### Connect the TextAnnotation to BPMN Node
 
@@ -78,11 +78,11 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
  
  {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text2-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text2-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1" %}

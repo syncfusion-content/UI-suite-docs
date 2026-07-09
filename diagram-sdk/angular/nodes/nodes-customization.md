@@ -18,15 +18,15 @@ The following code example shows how to use the getNodeDefaults function to appl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs1" %}
 
 N> The values set in the getNodeDefaults function have higher priority than individual node properties during rendering.
 
@@ -40,15 +40,15 @@ The following code illustrates how to customize the appearance of nodes using st
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs2" %}
 
 ### Apply gradient style to nodes
 
@@ -69,15 +69,15 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs3" %}
 
 #### Radial gradient
 
@@ -87,15 +87,15 @@ A radial gradient's cx, cy, fx, fy properties are used to define the position (r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs4" %}
 
 ## Customize the style of node selector
 
@@ -125,15 +125,15 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs5" %}
 
 ## Apply shadow effect to nodes
 
@@ -143,15 +143,15 @@ The following code illustrates how to apply shadow effects to nodes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs6" %}
 
 ### Customizing shadow effects
 
@@ -161,15 +161,15 @@ The following code example illustrates how to customize shadow properties:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs7" %}
 
 ## Provide additional information to nodes
 
@@ -207,15 +207,15 @@ The [`zIndex`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs8/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs8/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs8" %}
 
 N> By default, the zIndex is generated automatically based on the order in which diagram elements are added to the diagram. The default value is Number.MIN_VALUE.
 
@@ -235,15 +235,15 @@ The following code illustrates how to change the pivot value:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs9/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs9/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-customization-cs9" %}
 
 ## Get connected connectors from node
 

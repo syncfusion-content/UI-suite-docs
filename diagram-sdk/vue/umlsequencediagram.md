@@ -34,14 +34,14 @@ The following code example illustrates how to create participants:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1" %}
 
 ### Messages
 
@@ -72,14 +72,14 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2" %}
 
 ### Activation Boxes
 
@@ -97,14 +97,14 @@ The following code example illustrates how to create activation boxes:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3" %}
 
 ### Fragments
 
@@ -140,14 +140,14 @@ The following code example illustrates how to create fragments:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4" %}
 
 ### Customizing Participant Spacing in Sequence Diagram 
 

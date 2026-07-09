@@ -33,14 +33,14 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/react/documenta
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs1" %}
 
 N> Node id should not begin with numbers(should begin with a letter). Node Id should be unique for all the shapes and connectors.
 
@@ -50,14 +50,14 @@ Nodes can be generated automatically using the dataSource property. Default prop
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs5" %}
 
 ### Add Nodes from Symbol Palette
 
@@ -65,14 +65,14 @@ Nodes can be predefined in a symbol palette and dragged into the diagram as need
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs4" %}
 
 
 ### Draw Nodes Interactively
@@ -83,14 +83,14 @@ The following code example illustrates how to draw a rectangle at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs6" %}
 
 ## Runtime Node Operations
 
@@ -102,14 +102,14 @@ The following code illustrates how to add a node.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs2" %}
 
 ### Add Multiple Nodes Simultaneously
 
@@ -119,14 +119,14 @@ The following code illustrates how to add nodes collection at run time.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs3" %}
 
 
 
@@ -137,14 +137,14 @@ Node properties can be modified at runtime with immediate visual updates. Change
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs7" %}
 
 N> Call the [`dataBind`](./data-binding) method after property updates to ensure immediate reflection of changes.
 
@@ -157,14 +157,14 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nodes-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs8" %}
 
 ## Advanced Node Integration
 

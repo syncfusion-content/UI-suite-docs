@@ -16,15 +16,15 @@ To create a Bezier connector, set the `type` property of the connector to `bezie
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezier-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezier-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezier-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezier-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezier-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezier-cs1" %}
 
 ### Bezier Segment Editing
 
@@ -46,15 +46,15 @@ The following example demonstrates how to configure a Bezier segment using the `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezierpoints-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezierpoints-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1" %}
 
 ![A Bezier connector with control points defined by the point1 and point2 properties.](../../../images/Bezier-point1.gif "Bezier connector with control points defined by point1 and point2 properties.")
 
@@ -64,15 +64,15 @@ The following example shows how to configure a Bezier curve using the `vector1` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbeziervector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbeziervector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbeziervector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbeziervector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbeziervector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbeziervector-cs1" %}
 
 ![A Bezier connector with control points defined by the vector1 and vector2 properties.](../../../images/Bezier-vector1.gif "A Bezier connector with control points defined by vector1 and vector2 properties.")
 
@@ -82,15 +82,15 @@ By default, if no segments are explicitly defined for a Bezier connector, the Di
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorBezierAvoidOverlapping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorBezierAvoidOverlapping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1" %}
 
 ### Segment Reset Behavior
 
@@ -110,15 +110,15 @@ When `allowSegmentReset` is `false`, the custom positions of the control points 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorallowreset-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorallowreset-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorallowreset-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorallowreset-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorallowreset-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorallowreset-cs1" %}
 
 ### Customizing Bezier Segment Thumb Size
 
@@ -130,12 +130,12 @@ To customize the thumb size for a specific connector, you must first disable the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezierthumbsize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbezierthumbsize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1" %}

@@ -26,15 +26,15 @@ In the example below, the vertical scrollbar is positioned 100 pixels down, and 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scroll-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scroll-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scroll-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scroll-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scroll-cs1" %}
 
 ## Update Scroll Offset at Runtime
 
@@ -51,15 +51,15 @@ The scroll offsets of the diagram can be programmatically modified by customizin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/update-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/update-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/update-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/update-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/update-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/update-cs1" %}
 
 ## Update Zoom at Runtime
 
@@ -91,15 +91,15 @@ The following example demonstrates how to zoom in and zoom out of the diagram us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/zoomoptions-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/zoomoptions-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/zoomoptions-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/zoomoptions-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/zoomoptions-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/zoomoptions-cs1" %}
 
 For more information on various ways to zoom and pan the diagram, refer to [`zoom and pan with various methods`](https://support.syncfusion.com/kb/article/12643/how-to-perform-zoom-and-pan-angular-diagram-in-various-ways?highlight=How%20to%20zoom%20and%20pan).
 
@@ -125,15 +125,15 @@ The following example demonstrates how to configure autoscroll with custom borde
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/autoscroll-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/autoscroll-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/autoscroll-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/autoscroll-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/autoscroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/autoscroll-cs1" %}
 
 N> To use autoscroll, the scrollLimit should be set as 'Infinity'.
 
@@ -161,15 +161,15 @@ The following code example illustrates how to specify the scroll limit and custo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrollablearea-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrollablearea-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrollablearea-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrollablearea-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrollablearea-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrollablearea-cs1" %}
 
 ## Scroll Padding
 
@@ -179,15 +179,15 @@ The following code example illustrates how to set scroll padding for the diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrolllimit-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrolllimit-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrolllimit-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrolllimit-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrolllimit-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrolllimit-cs2" %}
 
 ## Reset Scroll and Zoom Settings
 
@@ -215,12 +215,12 @@ The [`scrollChange`](https://helpej2.syncfusion.com/angular/documentation/api/di
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrolllimit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrolllimit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/scrollsettings/scrolllimit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/scrollsettings/scrolllimit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrolllimit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrolllimit-cs1" %}

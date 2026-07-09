@@ -24,14 +24,14 @@ The [`snapConstraints`](https://helpej2.syncfusion.com/react/documentation/api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5grildLines-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5grildLines-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5grildLines-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5grildLines-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5grildLines-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5grildLines-cs1" %}
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
 
@@ -51,14 +51,14 @@ The following code example illustrates how to customize the appearance of gridli
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5gridlineAppearance-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5gridlineAppearance-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5gridlineAppearance-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5gridlineAppearance-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5gridlineAppearance-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5gridlineAppearance-cs1" %}
 
  ![Line appearance](./images/line-appearance.png)
 
@@ -70,14 +70,14 @@ The following code example illustrates how to customize the thickness of lines a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5LineIntervals-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5LineIntervals-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5LineIntervals-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5LineIntervals-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5LineIntervals-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5LineIntervals-cs1" %}
 
  ![Line interval](./images/line-interval.png)
 
@@ -89,14 +89,14 @@ The following code illustrates how to render grid patterns as dots.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5DotGrid-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5DotGrid-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5DotGrid-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5DotGrid-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5DotGrid-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5DotGrid-cs1" %}
 
 ![Dot Grid](./images/grid-dots.png)
 
@@ -112,14 +112,14 @@ Snapping to gridlines can be enabled or disabled using the `snapConstraints` pro
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapToLines-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapToLines-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapToLines-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapToLines-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapToLines-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapToLines-cs1" %}
 
 ![Snap to lines](./images/snapToLines.gif)
 
@@ -131,14 +131,14 @@ The [`snapObjectDistance`](https://helpej2.syncfusion.com/react/documentation/ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapToObject-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapToObject-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapToObject-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapToObject-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapToObject-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapToObject-cs1" %}
 
 ![Snap to object](./images/snapToObject.gif)
 
@@ -152,14 +152,14 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapAngle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapAngle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapAngle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapAngle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapAngle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapAngle-cs1" %}
 
 ![Snap Angle](./images/snapAngle.gif)
 
@@ -173,14 +173,14 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapColor-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapColor-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapColor-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapColor-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapColor-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapColor-cs1" %}
 
 ## Customization of Snap Intervals
 
@@ -188,14 +188,14 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapInterval-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapInterval-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/gridLines/es5SnapInterval-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/gridLines/es5SnapInterval-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapInterval-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/gridLines/es5SnapInterval-cs1" %}
 
 ## Snap Constraints
 

@@ -63,15 +63,15 @@ The following code example illustrates how to align all the selected objects at 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/alignMode-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/alignMode-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/alignMode-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/alignMode-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/alignMode-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/alignMode-cs1" %}
 
 ![Align Sample](images/Commands_img1.png)
 
@@ -102,15 +102,15 @@ The following code example illustrates how the nodes are distributed using the `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/distribute-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/distribute-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/distribute-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/distribute-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/distribute-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/distribute-cs1" %}
 
 ![Distribute Sample](images/Commands_img2.png)
 
@@ -136,15 +136,15 @@ The following code example illustrates how to execute the size commands.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sizing-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sizing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sizing-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sizing-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/sizing-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/sizing-cs1" %}
 
 ![Sizing Sample](images/Commands_img3.png)
 
@@ -164,15 +164,15 @@ The following code illustrates how to execute the clipboard commands.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/clipboard-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/clipboard-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/clipboard-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/clipboard-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/clipboard-cs1" %}
 
 ## Grouping Commands
 
@@ -187,15 +187,15 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/grouping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/grouping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/grouping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/grouping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/grouping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/grouping-cs1" %}
 
 ## Rotate Commands
 
@@ -212,15 +212,15 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/rotate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/rotate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/rotate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/rotate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/rotate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/rotate-cs1" %}
 
 ## Z-Order Commands
 
@@ -232,15 +232,15 @@ The [`bringToFront`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringtofront-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringtofront-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringtofront-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringtofront-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/bringtofront-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/bringtofront-cs1" %}
 
 ### Send to Back Command
 
@@ -248,15 +248,15 @@ The [`sendToBack`](https://ej2.syncfusion.com/angular/documentation/api/diagram#
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sendtoback-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sendtoback-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sendtoback-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sendtoback-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/sendtoback-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/sendtoback-cs1" %}
 
 ### Move Forward Command
 
@@ -264,15 +264,15 @@ The [`moveForward`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/moveforward-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/moveforward-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/moveforward-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/moveforward-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/moveforward-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/moveforward-cs1" %}
 
 ### Send Backward Command
 
@@ -280,15 +280,15 @@ The [`sendBackward`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sendbackward-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sendbackward-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/sendbackward-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/sendbackward-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/sendbackward-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/sendbackward-cs1" %}
 
 The Z-order commands can also be performed using keyboard shortcuts. For more information, refer to the [`keyboard commands`](./interaction#keyboard-shortcuts).
 
@@ -344,15 +344,15 @@ The following code illustrates how to execute the nudge command.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/nudge-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/nudge-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/nudge-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/nudge-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/nudge-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/nudge-cs1" %}
 
 ### Nudge Using Arrow Keys
 
@@ -374,15 +374,15 @@ The following code illustrates how to execute the `bringIntoView` command.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringIntoView-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringIntoView-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringIntoView-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringIntoView-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/bringIntoView-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/bringIntoView-cs1" %}
 
 ## BringToCenter
 
@@ -394,15 +394,15 @@ The following code illustrates how to execute the `bringToCenter` command.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringToCenter-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringToCenter-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/bringToCenter-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/bringToCenter-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/bringToCenter-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/bringToCenter-cs1" %}
 
 ## FitToPage Commands
 
@@ -426,15 +426,15 @@ The following code illustrates how to execute the `FitToPage` command.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/fitToPage-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/fitToPage-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/fitToPage-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/fitToPage-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/fitToPage-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/fitToPage-cs1" %}
 
 ## Command Manager
 
@@ -456,15 +456,15 @@ The following code example illustrates how to use the command manager to clone a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/customCommand-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/customCommand-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/customCommand-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/customCommand-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/customCommand-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/customCommand-cs1" %}
 
 ### Disable/Modify Existing Command
 
@@ -474,15 +474,15 @@ The following code example illustrates how to disable the default cut and delete
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/modify-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/modify-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/commands/modify-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/commands/modify-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/commands/modify-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/commands/modify-cs1" %}
 
 ## Undo/Redo Commands
 

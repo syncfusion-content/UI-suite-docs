@@ -36,14 +36,14 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5class-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5class-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5class-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5class-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5class-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5class-cs1" %}
 
 ### Interface
 
@@ -61,14 +61,14 @@ The following code example illustrates how to create an interface:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5interface-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5interface-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5interface-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5interface-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5interface-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5interface-cs1" %}
 
 ### Enumeration
 
@@ -80,14 +80,14 @@ The following code example illustrates how to create an enumeration.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5enumeration-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5enumeration-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5enumeration-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5enumeration-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5enumeration-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5enumeration-cs1" %}
 
 ## UML Class Relationships
 
@@ -112,14 +112,14 @@ The association property allows you to define the type of association. The defau
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5association-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5association-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5association-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5association-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5association-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5association-cs1" %}
 
 ### Aggregation
 
@@ -129,14 +129,14 @@ The following code example illustrates how to create an aggregation.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5aggregation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5aggregation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5aggregation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5aggregation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5aggregation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5aggregation-cs1" %}
 
 ### Composition
 
@@ -146,14 +146,14 @@ The following code example illustrates how to create a composition.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5composition-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5composition-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5composition-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5composition-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5composition-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5composition-cs1" %}
 
 ### Inheritance
 
@@ -165,14 +165,14 @@ The following code example illustrates how to create an inheritance.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5inheritance-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5inheritance-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5inheritance-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5inheritance-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5inheritance-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5inheritance-cs1" %}
 
 ### Dependency
 
@@ -182,14 +182,14 @@ The following code example illustrates how to create a dependency.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5dependency-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5dependency-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5dependency-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5dependency-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5dependency-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5dependency-cs1" %}
 
 
 
@@ -216,14 +216,14 @@ The following code example illustrates how to customize the multiplicity.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5multiplicity-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5multiplicity-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5multiplicity-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5multiplicity-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5multiplicity-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5multiplicity-cs1" %}
 
 ## How to Add UML Child at Runtime
 
@@ -237,14 +237,14 @@ The following code example illustrates how to add members, methods and attribute
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5Method-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5Method-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5Method-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5Method-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5Method-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5Method-cs1" %}
 
 ### Adding UML Child Through User Interaction
 
@@ -260,14 +260,14 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5preview-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5preview-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5preview-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5preview-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5preview-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5preview-cs4" %}
 
 ## Editing in UML Nodes
 
@@ -313,14 +313,14 @@ The following code illustrates how to create a UmlActivity shapes.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivity-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5UmlActivity-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivity-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5UmlActivity-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivity-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivity-cs1" %}
 
 ### UML Activity Connector
 
@@ -330,11 +330,11 @@ The following code illustrates how to create a UmlActivity connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivityConnector-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5UmlActivityConnector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivityConnector-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/umldiagramshapes/es5UmlActivityConnector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivityConnector-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/umldiagramshapes/es5UmlActivityConnector-cs1" %}

@@ -18,14 +18,14 @@ To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/expand-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/expand-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs1" %}
 
 ### Add BPMN nodes into ExpandedSubProcess
 
@@ -35,14 +35,14 @@ Please refer the following code example.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/expand-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/expand-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/expand-cs2" %}
 
 ### Add BPMN nodes into ExpandedSubProcess at runtime
 
@@ -59,11 +59,11 @@ The process for the expanded sub-process can be added at runtime using the [`add
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/addRemove-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/addRemove-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/bpmn-shapes/addRemove-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/addRemove-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/addRemove-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/addRemove-cs1" %}

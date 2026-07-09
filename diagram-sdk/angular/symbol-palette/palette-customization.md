@@ -26,15 +26,15 @@ The following code example illustrates how to customize palette headers.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/paletteheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/paletteheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/paletteheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/paletteheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/paletteheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/paletteheader-cs1" %}
 
 ## Animation
 
@@ -42,15 +42,15 @@ The expand and collapse operations of the symbol palette can be animated by util
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/palette-animate/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/palette-animate/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/palette-animate/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/palette-animate/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/palette-animate" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/palette-animate" %}
 
 ## Description for symbols
 
@@ -58,15 +58,15 @@ The [`description`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symboldesc-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symboldesc-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1" %}
 
 ### Text wrapping and text overflow
 
@@ -78,15 +78,15 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-textWrp/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-textWrp/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-textWrp/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-textWrp/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-textWrp" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-textWrp" %}
 
 ### Appearance of symbol description
 
@@ -96,15 +96,15 @@ The following code example shows how to customize the symbol description.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-text/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-text/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-text/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-text/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-text" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-text" %}
 
 ## Symbol size and symbol margin
 
@@ -116,15 +116,15 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/size-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/size-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/size-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/size-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/size-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/size-cs1" %}
 
 ## Symbol preview
 
@@ -135,15 +135,15 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-preview/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-preview/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-preview/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-preview/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-preview" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-preview" %}
 
 ## Symbol drag size
 
@@ -151,15 +151,15 @@ The [`symbolDragSize`](https://ej2.syncfusion.com/angular/documentation/api/diag
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-dragSize/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-dragSize/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-dragSize/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-dragSize/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-dragSize" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-dragSize" %}
 
 N> If the size of the symbol is not defined, the default size will be determined based on its shape.
 
@@ -171,15 +171,15 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/expandMode/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/expandMode/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/expandMode/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/expandMode/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/expandMode" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/expandMode" %}
 
 ### Restrict expand/collapse of the palette
 
@@ -189,15 +189,15 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/restrictexpand-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/restrictexpand-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/restrictexpand-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/restrictexpand-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/restrictexpand-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/restrictexpand-cs1" %}
 
 ## Tooltip for symbols in symbol palette
 
@@ -218,15 +218,15 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symboldesc-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symboldesc-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symboldesc-cs1" %}
 
 ### How to enable or disable the default tooltip for shapes in the symbol palette
 
@@ -236,15 +236,15 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/tooltip-custom/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/tooltip-custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/tooltip-custom/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/tooltip-custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/tooltip-custom" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/tooltip-custom" %}
 
 N> This property is effective only when tooltip constraints are disabled for the symbol palette element.
 
@@ -264,15 +264,15 @@ The following code snippet demonstrates how to define two different tooltips for
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-tooltip/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-tooltip/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-tooltip/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-tooltip/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-tooltip" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-tooltip" %}
 
 ## Localization
 
@@ -282,15 +282,15 @@ The following code shows how to localize the symbol palette.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/locale-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/locale-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/locale-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/locale-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/locale-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/locale-cs1" %}
 
 ## Restrict symbol dragging from palette
 
@@ -298,15 +298,15 @@ You can restrict symbols from being dragged from the symbol palette by setting t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/restrict-drag/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/restrict-drag/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/restrict-drag/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/restrict-drag/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/restrict-drag" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/restrict-drag" %}
 
 ## Search symbol
 
@@ -314,15 +314,15 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-search/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-search/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-search/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-search/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-search" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-search" %}
 
 ## Ignore symbols on search
 
@@ -332,15 +332,15 @@ In the following example, the symbol with the ID 'plus' is ignored, so it will n
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-search-ig/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-search-ig/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-search-ig/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-search-ig/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-search-ig" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-search-ig" %}
 
 ## Filter search
 
@@ -348,15 +348,15 @@ You can filter search results based on specific requirements. To achieve this, c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-filter/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-filter/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/symbolpalette/custompalette/symbol-filter/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/custompalette/symbol-filter/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-filter" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/custompalette/symbol-filter" %}
 
 
 N> The diagram provides support to cancel the drag and drop operation from the symbol palette to the diagram when the ESC key is pressed

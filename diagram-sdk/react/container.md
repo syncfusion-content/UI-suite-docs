@@ -20,14 +20,14 @@ Container nodes require specific configuration to enable child element managemen
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/container/container-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/container/container-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/container/container-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/container/container-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-1" %}
 
 ### Setting a Header
 
@@ -37,14 +37,14 @@ The following example shows header configuration with custom styling:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/container/container-2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/container/container-2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/container/container-2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/container/container-2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-2" %}
 
 N> Double-click the header region to enable inline text editing functionality.
 

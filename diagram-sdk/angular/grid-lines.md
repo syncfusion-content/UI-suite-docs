@@ -20,15 +20,15 @@ The [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridLines-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridLines-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridLines-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridLines-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridLines-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridLines-cs1" %}
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
 
@@ -48,15 +48,15 @@ The following code example illustrates how to customize the appearance of gridli
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridlinesAppearance-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridlinesAppearance-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridlinesAppearance-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridlinesAppearance-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridlinesAppearance-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridlinesAppearance-cs1" %}
 
 ![Line appearance](./images/line-appearance.png)
 
@@ -68,15 +68,15 @@ The following code example illustrates how to customize the thickness of lines a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridlinesAppearance-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridlinesAppearance-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/gridlinesAppearance-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/gridlinesAppearance-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridlinesAppearance-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/gridlinesAppearance-cs2" %}
 
 ![Line interval](./images/line-interval.png)
 
@@ -90,15 +90,15 @@ If you need to enable snapping, then inject snapping module into the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/dottedgridline-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/dottedgridline-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/dottedgridline-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/dottedgridline-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/dottedgridline-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/dottedgridline-cs1" %}
 
 ![Dot Grid](./images/grid-dots.png)
 
@@ -114,15 +114,15 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapping-cs1" %}
 
 ![Snap to lines](./images/snapToLines.gif)
 
@@ -134,15 +134,15 @@ The [`snapObjectDistance`](https://ej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapobjects-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapobjects-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapobjects-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapobjects-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapobjects-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapobjects-cs1" %}
 
 ![Snap to object](./images/snapToObject.gif)
 
@@ -156,15 +156,15 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapangle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapangle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapangle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapangle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapangle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapangle-cs1" %}
 
 ![Snap Angle](./images/snapAngle.gif)
 
@@ -178,15 +178,15 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapcolor-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapcolor-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapcolor-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapcolor-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapcolor-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapcolor-cs1" %}
 
 ## Customization of snap intervals
 
@@ -194,15 +194,15 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapintervals-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapintervals-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/gridLines/snapintervals-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/gridLines/snapintervals-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapintervals-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/gridLines/snapintervals-cs1" %}
 
 ## Snap constraints
 

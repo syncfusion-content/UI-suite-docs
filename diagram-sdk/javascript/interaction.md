@@ -97,14 +97,14 @@ The [`canToggleSelection`](../api/diagram/selectorModel#canToggleSelection) prop
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-toggle/index.js %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-toggle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-toggle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-toggle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-toggle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-toggle" %}
 
 ### Select entire elements in diagram programmatically
 
@@ -137,14 +137,14 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-aspect/index.js %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-aspect/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-aspect/index.html %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-aspect/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-aspect" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-aspect" %}
 
 ### Customizing resize-thumb size
 
@@ -152,14 +152,14 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs1" %}
 
 The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
@@ -174,14 +174,14 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-pivot/index.js %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-pivot/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/interaction-pivot/index.html %}
+{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-pivot/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-pivot" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-pivot" %}
 
 ![Node interaction](./images/node-interactions.gif)
 

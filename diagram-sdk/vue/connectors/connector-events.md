@@ -17,14 +17,14 @@ Triggers when the connector is clicked. The following code example explains how 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ClickEvent-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ClickEvent-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ClickEvent-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ClickEvent-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ClickEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ClickEvent-cs1" %}
 
 ## Selection change event
 
@@ -33,14 +33,14 @@ The following code example explains how to get the [`selection change`](https://
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SelectionChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SelectionChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SelectionChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SelectionChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SelectionChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SelectionChange-cs1" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the code snippet below.
 
@@ -60,14 +60,14 @@ The following code example explains how to get the [`position change`](https://e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/positionChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/positionChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/positionChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/positionChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/positionChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/positionChange-cs1" %}
 
  ```ts
   positionChange: (args) => {
@@ -86,14 +86,14 @@ The following code example explains how to get the [`connection change`](https:/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectionChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectionChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/ConnectionChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectionChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectionChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectionChange-cs1" %}
 
 ## Source Point change event
 
@@ -102,14 +102,14 @@ The following code example explains how to get the [`source Point change`](https
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SourcePointChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SourcePointChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SourcePointChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SourcePointChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SourcePointChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SourcePointChange-cs1" %}
 
  You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iendchangeeventargs) to true, as shown in the code snippet below.
 
@@ -130,14 +130,14 @@ The following code example explains how to get the [`target Point change`](https
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/TargetPointChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/TargetPointChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/TargetPointChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/TargetPointChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/TargetPointChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/TargetPointChange-cs1" %}
 
  You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iendchangeeventargs) to true, as shown in the code snippet below.
 
@@ -160,14 +160,14 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SegmentCollchange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SegmentCollchange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SegmentCollchange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SegmentCollchange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SegmentCollchange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SegmentCollchange-cs1" %}
 
 ## Segment Change event
 
@@ -176,14 +176,14 @@ The following code example explains how to get the [`segment change`](https://ej
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SegmentEditing-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SegmentEditing-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/SegmentEditing-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SegmentEditing-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SegmentEditing-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/SegmentEditing-cs1" %}
 
  You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/isegmentchangeeventargs) to true, as shown in the code snippet below.
 
@@ -203,14 +203,14 @@ The following code example explains how to get the [`collection change`](https:/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/CollectionChange-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/CollectionChange-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/connectors/CollectionChange-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/CollectionChange-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/CollectionChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/CollectionChange-cs1" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/icollectionchangeeventargs) to true, as shown in the code snippet below.
 

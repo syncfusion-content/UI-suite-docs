@@ -18,14 +18,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-enter/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-enter/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-enter/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-enter/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-enter" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-enter" %}
 
 ## DragLeave event
 
@@ -33,14 +33,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-leave/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-leave/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-leave/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-leave/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-leave" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-leave" %}
 
 ## DragOver event
 
@@ -48,14 +48,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-over/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-over/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drag-over/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drag-over/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-over" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drag-over" %}
 
 ## Drop event
 
@@ -63,14 +63,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drop/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drop/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/drop/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/drop/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/drop" %}
 
 ## PaletteExpanding event
 
@@ -78,14 +78,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/palette-expand/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/palette-expand/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/palette-expand/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/palette-expand/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/palette-expand" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/palette-expand" %}
 
 ## PaletteSelectionChange event
 
@@ -93,12 +93,12 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/palette-selection/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/palette-selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/symbol-palette/events/palette-selection/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/events/palette-selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/palette-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/events/palette-selection" %}
 

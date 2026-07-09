@@ -37,15 +37,15 @@ The following code demonstrates how to change the pivot value:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-positioning-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-positioning-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-positioning-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-positioning-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs1" %}
 
 ## Size Constraints
 
@@ -57,14 +57,14 @@ These constraints are particularly useful when creating diagrams where nodes nee
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-positioning-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-positioning-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/nodes/node-positioning-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-positioning-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs2" %}
 
 ![MinSize-MaxSize GIF](../images/minSize-MaxSizeGif.gif)

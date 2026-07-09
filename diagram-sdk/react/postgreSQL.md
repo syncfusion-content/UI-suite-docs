@@ -608,7 +608,7 @@ The Diagram component fetches data on mount, binds it to the **DataManager**, an
 
 {% tabs %}
 {% highlight js tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/reactCurlyExamples/postgreSQL-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/reactCurlyExamples/postgreSQL-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

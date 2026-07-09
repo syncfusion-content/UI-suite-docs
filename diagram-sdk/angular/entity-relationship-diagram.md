@@ -29,15 +29,15 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-1" %}
 
 ### Configure the entity header
 
@@ -51,15 +51,15 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-header/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-header/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-header/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-header/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-header" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-header" %}
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -87,15 +87,15 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-fields/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-fields/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-fields/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-fields/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-fields" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-fields" %}
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -153,15 +153,15 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-styling/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-styling/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-styling/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-styling/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-styling" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-styling" %}
 
 ### Track entity field changes
 
@@ -205,15 +205,15 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-cardinality/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-cardinality/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-cardinality/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-cardinality/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-cardinality" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/erdiagram/er-diagram-cardinality" %}
 
 ## See also
 

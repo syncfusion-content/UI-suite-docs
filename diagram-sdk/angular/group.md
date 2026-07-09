@@ -24,15 +24,15 @@ A group can be added to the diagram model through the [`nodes`](https://ej2.sync
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-cs1" %}
 
 Connectors can also be added to a group. To create a group using nodes and connectors in the Angular Diagram, refer to the below video link:
 
@@ -42,15 +42,15 @@ The following code illustrates how to add connectors into a group:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupaddconnector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupaddconnector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupaddconnector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupaddconnector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/groupaddconnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/groupaddconnector-cs1" %}
 
 ## Runtime group operations
 
@@ -62,15 +62,15 @@ The following code illustrates how to group nodes at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-runtime/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-runtime/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-runtime/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-runtime/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-runtime" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-runtime" %}
 
 ### Ungroup nodes at runtime
 
@@ -80,15 +80,15 @@ The following code example shows how to ungroup a group node at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/ungroup-runtime/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/ungroup-runtime/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/ungroup-runtime/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/ungroup-runtime/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/ungroup-runtime" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/ungroup-runtime" %}
 
 ### Add group node at runtime
 
@@ -98,15 +98,15 @@ The following code illustrates how a group node is added at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupadd-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupadd-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupadd-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupadd-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/groupadd-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/groupadd-cs1" %}
 
 ### Add collection of group nodes at runtime
 
@@ -116,15 +116,15 @@ The following code illustrates how to add group node collections at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupcollection-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupcollection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupcollection-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupcollection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/groupcollection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/groupcollection-cs1" %}
 
 ## Manage group children at runtime
 
@@ -152,15 +152,15 @@ this.diagram.removeChildFromGroup (groupNode, childNode);
 ```
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupchild-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupchild-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/groupchild-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/groupchild-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/groupchild-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/groupchild-cs1" %}
 
 ## Group styling and layout
 
@@ -172,15 +172,15 @@ The following code illustrates how to add padding to a node group:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-padding/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-padding/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-padding/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-padding/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-padding" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-padding" %}
 
 
 ### Group flip
@@ -195,15 +195,15 @@ The following example shows how to apply flip transformations to group nodes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-flip/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-flip/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-flip/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-flip/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-flip" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-flip" %}
 
 ### Group flip mode
 
@@ -214,15 +214,15 @@ In the code below, the `flipMode` for the child node `Node1` is set to `LabelTex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-flipMode/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-flipMode/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-flipMode/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-flipMode/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-flipMode" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-flipMode" %}
 
 ## Nested group
 
@@ -234,15 +234,15 @@ The following code illustrates how to create nested group nodes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-nested/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-nested/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-nested/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-nested/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-nested" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-nested" %}
 
 ### Add groups to symbol palette
 
@@ -252,15 +252,15 @@ The following code illustrates how to render group nodes in the palette:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-palette/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-palette/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-palette/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-palette/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-palette" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-palette" %}
 
 ### Update group nodes at runtime
 
@@ -270,15 +270,15 @@ The following code illustrates how to update group nodes at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-update/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-update/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/group-update/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/group-update/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/group-update" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/group-update" %}
 
 ## Container types
 
@@ -309,15 +309,15 @@ The following code illustrates how to add a stack panel:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/stack-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/stack-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/groups/stack-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/groups/stack-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/groups/stack-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/groups/stack-cs1" %}
 
 ### Difference between basic groups and containers
 

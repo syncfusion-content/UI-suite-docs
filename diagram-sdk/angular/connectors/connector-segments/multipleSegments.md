@@ -24,15 +24,15 @@ The following example demonstrates how to create a connector with multiple segme
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectormultiseg-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectormultiseg-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectormultiseg-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectormultiseg-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormultiseg-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormultiseg-cs1" %}
 
 ## Use cases
 
@@ -60,15 +60,15 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectors-segundo/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectors-segundo/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectors-segundo/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectors-segundo/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-segundo" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-segundo" %}
 
 ## Related topics
 

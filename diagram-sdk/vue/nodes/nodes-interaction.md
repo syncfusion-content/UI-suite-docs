@@ -25,14 +25,14 @@ A node can be selected at runtime by using the [`select`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1" %}
 
 |Method | Parameter | Description|
 |----|----|----|
@@ -51,14 +51,14 @@ A node can be dragged at runtime by using the [`drag`](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2" %}
 
 ## Resize
 
@@ -72,14 +72,14 @@ A node can be resized at runtime by using the [`scale`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3" %}
 
 ## Rotate
 
@@ -93,14 +93,14 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4" %}
 
 ## Flip
 
@@ -119,14 +119,14 @@ The following code illustrates how to provide the mirror image of the original e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5" %}
 
 ### Update flip at runtime
 
@@ -135,14 +135,14 @@ The following example demonstrates how to update the flip for a node dynamically
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/node-cs4-flip/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/node-cs4-flip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/node-cs4-flip/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/node-cs4-flip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/node-cs4-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/node-cs4-flip" %}
 
 ### Flip modes
 
@@ -193,11 +193,11 @@ Below are examples of a node undergoing various FlipModes in different flip dire
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nInteraction-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6" %}

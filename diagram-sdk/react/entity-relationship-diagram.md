@@ -29,14 +29,14 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-1" %}
 
 ### Configure the entity header
 
@@ -50,14 +50,14 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-header/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-header/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-header" %}
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -78,14 +78,14 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-fields/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-fields/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields" %}
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -140,14 +140,14 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-styling/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-styling/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling" %}
 
 N> Field-level styles override applicable node-level and field default styles.
 
@@ -189,14 +189,14 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-cardinality/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-cardinality/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality" %}
 
 ## See also
 

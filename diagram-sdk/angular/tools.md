@@ -32,29 +32,29 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/tool-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/tool-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/tool-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/tool-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/tool-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/tool-cs1" %}
 
 Path shapes can be drawn using the same approach with custom path data. The following example shows how to draw a path shape:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/path-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/path-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/path-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/path-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/path-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/path-cs1" %}
 
 ### Text nodes
 
@@ -62,15 +62,15 @@ Text nodes are created by setting the shape type as 'Text' in the [`drawingObjec
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/text-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/text-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/text-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/text-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/text-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/text-cs1" %}
 
 ### Draw connectors
 
@@ -78,15 +78,15 @@ Connectors are drawn by defining the connector configuration in the [`drawingObj
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/connector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/connector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/connector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/connector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/connector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/connector-cs1" %}
 
 ### Polygon shapes
 
@@ -94,15 +94,15 @@ The diagram supports interactive polygon creation through point-and-click intera
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/polygon-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polygon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/polygon-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polygon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/polygon-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/polygon-cs1" %}
 
 ### Polyline connectors
 
@@ -110,15 +110,15 @@ Polyline connectors enable creation of multi-segment connections with straight l
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/polyline-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polyline-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/polyline-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polyline-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/polyline-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/polyline-cs1" %}
 
 ### Freehand drawing
 
@@ -126,15 +126,15 @@ Freehand drawing allows users to create custom paths and sketches by dragging th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/freehand-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/freehand-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/freehand-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/freehand-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/freehand-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/freehand-cs1" %}
 
 Freehand connector segments can be adjusted after creation by dragging the segment thumbs. To enable this functionality, apply the [`DragSegmentThumb`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorModel#constraints) constraint to the connector:
 
@@ -165,15 +165,15 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/zoomPan-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/zoomPan-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/zoomPan-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/zoomPan-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/zoomPan-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/zoomPan-cs1" %}
 
 N> Panning is disabled when 'multiplePage' is set to false and diagram objects exist outside the defined page boundaries.
 
@@ -183,12 +183,12 @@ The [`elementDraw`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/events-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/events-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/tools/events-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/tools/events-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/events-cs1" %}

@@ -32,14 +32,14 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/positioning-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/positioning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/positioning-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/positioning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/positioning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/positioning-cs1" %}
 
 ## Minimum and maximum size for nodes.
 
@@ -47,14 +47,14 @@ The [`minWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#m
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/positioning-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/positioning-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/nodes/positioning-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/positioning-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/positioning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/positioning-cs2" %}
 
 
 ![MinSize-MaxSize GIF](../images/minSize-MaxSizeGif.gif)

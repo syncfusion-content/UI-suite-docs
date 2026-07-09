@@ -28,15 +28,15 @@ The following code demonstrates how to arrange nodes using symmetric layout:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/symmetric-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/symmetric-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/automaticlayout/symmetric-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/symmetric-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/symmetric-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/symmetric-cs1" %}
 
 N> If you want to use symmetric layout in diagram, you need to inject SymmetricLayout in the diagram.
 

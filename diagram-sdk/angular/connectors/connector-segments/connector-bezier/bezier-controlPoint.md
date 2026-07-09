@@ -25,15 +25,15 @@ When working with multiple bezier segments, maintain visual consistency by confi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorbezeirsmoothness-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorbezeirsmoothness-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1" %}
 
 ## Control Bezier Control Points Visibility
 

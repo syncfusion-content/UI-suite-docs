@@ -40,15 +40,15 @@ To implement local data binding, configure the `dataSourceSettings` fields to ma
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/localBinding-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/localBinding-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/localBinding-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/localBinding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/localBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/localBinding-cs1" %}
 
 ## Remote Data Binding
 
@@ -60,15 +60,15 @@ For comprehensive DataManager information, see the [`DataManager documentation`]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/remoteBinding-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/remoteBinding-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/remoteBinding-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/remoteBinding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/remoteBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/remoteBinding-cs1" %}
 
 ## CRUD Operations with Data Binding
 
@@ -93,15 +93,15 @@ The diagram can simultaneously read from two data sources: one for nodes and ano
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/connectionDataSource-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/connectionDataSource-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/dataBinding/connectionDataSource-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/connectionDataSource-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/connectionDataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/connectionDataSource-cs1" %}
 
 ### Runtime Data Modification
 

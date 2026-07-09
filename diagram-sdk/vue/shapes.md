@@ -28,14 +28,14 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/vue/doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Text-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Text-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Text-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Text-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Text-cs1" %}
 
 ## Image
 
@@ -45,14 +45,14 @@ The following code illustrates how an image node is created.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Image-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Image-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Image-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Image-cs1" %}
 
 ### Base64 Encoded Image Into The Image Node:
 
@@ -60,14 +60,14 @@ The following code illustrates how to add Base64 image into image node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Image-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Image-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Image-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Image-cs2" %}
 
 N> Deploy your HTML file in the web application and export the diagram (image node) or else the image node will not be exported in the Chrome and Firefox due to security issues. Refer to the following link.
 
@@ -85,14 +85,14 @@ The following code illustrates how to use scale and align properties to stretch 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs1" %}
 
 The following table illustrates all the possible scale options for the image node.
 
@@ -117,14 +117,14 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs2" %}
 
 #### Functional content template.
 
@@ -134,14 +134,14 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/FunctionalContentTemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/FunctionalContentTemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1" %}
 
 ### HTML Node With nodeTemplate
 
@@ -149,14 +149,14 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/HTML-cs3" %}
 
 #### Functional nodeTemplate
 
@@ -166,14 +166,14 @@ Refer the code example below.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/NodeTemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/NodeTemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1" %}
 
 ## Native
 
@@ -181,14 +181,14 @@ Diagram provides support to embed SVG element into a node. The shape property of
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Native-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Native-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Native-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Native-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Native-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Native-cs1" %}
 
 N> Like HTML node, the native node also cannot be exported to image format. Fill color of native node can be overridden by the inline style or fill of the SVG element specified in the template.
 
@@ -217,14 +217,14 @@ The following code example illustrates how to create a basic shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Basic-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Basic-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Basic-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Basic-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Basic-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Basic-cs1" %}
 
 N> By default, the `shape` property of the node is set as **basic**.
 
@@ -244,14 +244,14 @@ To create a path node, specify the shape as Path. The [`data`](https://ej2.syncf
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Path-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Path-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Path-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Path-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Path-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Path-cs1" %}
 
 ## Flow Shapes
 
@@ -259,14 +259,14 @@ The [`flow`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node/#shap
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Flow-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Flow-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/shapes/Flow-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Flow-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Flow-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/Flow-cs1" %}
 
 The list of flow shapes are as follows.
 

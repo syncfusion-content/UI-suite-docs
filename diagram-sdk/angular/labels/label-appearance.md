@@ -24,15 +24,15 @@ The following code demonstrates comprehensive label appearance customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/appear-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/appear-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/appear-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/appear-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/appear-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/appear-cs1" %}
 
 ## Horizontal and vertical alignment
 
@@ -54,15 +54,15 @@ The following code example shows how to configure label alignment:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/offset-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/offset-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
 
 ## Label Margin
 
@@ -72,15 +72,15 @@ The following example demonstrates label positioning using [`margin`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/margin-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/margin-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/margin-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/margin-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/margin-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/margin-cs1" %}
 
 ## Hyperlink
 
@@ -94,15 +94,15 @@ The following example shows hyperlink implementation and customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/hyperlink-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/hyperlink-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/hyperlink-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/hyperlink-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/hyperlink-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/hyperlink-cs1" %}
 
 ## Rotate Label
 
@@ -112,15 +112,15 @@ The following example demonstrates label rotation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/rotateAngle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/rotateAngle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/rotateAngle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/rotateAngle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/rotateAngle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/rotateAngle-cs1" %}
 
 ## Template support for labels
 
@@ -134,15 +134,15 @@ The following code shows string template implementation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/labeltemplate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/labeltemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/labeltemplate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/labeltemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/labeltemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/labeltemplate-cs1" %}
 
 N> Specify width and height for labels when using templates to ensure proper alignment and rendering.
 
@@ -154,15 +154,15 @@ The following code demonstrates HTML template usage for labels:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/annotationTemp-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotationTemp-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/annotationTemp-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotationTemp-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/annotationTemp-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/annotationTemp-cs1" %}
 
 ## Text align
 
@@ -172,15 +172,15 @@ The following code demonstrates text alignment configuration:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/textalign-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/textalign-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/textalign-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/textalign-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/textalign-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/textalign-cs1" %}
 
 The following table shows different text alignment options:
 
@@ -199,15 +199,15 @@ The following code shows text wrapping implementation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/wrapping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/wrapping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/wrapping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/wrapping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/wrapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/wrapping-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -233,12 +233,12 @@ Available overflow options include:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/overflow-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/overflow-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/overflow-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/overflow-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/overflow-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/overflow-cs1" %}

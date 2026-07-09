@@ -18,15 +18,15 @@ For more fine-grained control, you can define individual segments within the [`s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsortho-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsortho-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsortho-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsortho-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsortho-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsortho-cs1" %}
 
 N> When defining custom segments for an orthogonal connector, ensure that each segment's `type` is also set to `Orthogonal`.
 
@@ -36,15 +36,15 @@ The interactive thumbs on an orthogonal connector allow you to adjust the length
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthosegments-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthosegments-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthosegments-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthosegments-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthosegments-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthosegments-cs1" %}
 
 ![An animation showing how to edit orthogonal connector segments in the Angular Diagram Component.](./../../images/orthoSegEdit.gif)
 
@@ -54,15 +54,15 @@ Orthogonal segments automatically reroute themselves to avoid overlapping with t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectoroverlapping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectoroverlapping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectoroverlapping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectoroverlapping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectoroverlapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectoroverlapping-cs1" %}
 
 ## How to Customize Orthogonal Segment Thumb Shape
 
@@ -87,15 +87,15 @@ You can also customize the style of the thumb shape by overriding the `e-orthogo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsThumbshape-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsThumbshape-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsThumbshape-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsThumbshape-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsThumbshape-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsThumbshape-cs1" %}
 
 ![Diagram showing a connector with a customized segment thumb shape.](./../../images/thumbshape.png)
 
@@ -119,12 +119,12 @@ To customize the thumb size for a specific connector, you must first disable its
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthothumbsize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthothumbsize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1" %}

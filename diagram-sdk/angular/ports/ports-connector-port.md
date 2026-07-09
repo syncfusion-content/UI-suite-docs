@@ -20,15 +20,15 @@ The following code example demonstrates how to create connector ports:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs1" %}
 
 ## Port alignment
 
@@ -42,15 +42,15 @@ The following code example shows how to set different alignment values for conne
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs2" %}
 
 ## Port displacement
 
@@ -60,15 +60,15 @@ The following code example demonstrates how to apply displacement to connector p
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs3" %}
 
 N> Displacement only applies when alignment is set to **Before** or **After**. Center-aligned ports ignore displacement values.
 
@@ -80,15 +80,15 @@ The following code example shows how to connect a connector to a connector port:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/ports/portscon-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portscon-cs4" %}
 
 ## See also
 

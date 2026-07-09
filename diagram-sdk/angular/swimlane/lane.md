@@ -28,15 +28,15 @@ The following code example illustrates how to define a swimlane with a lane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/emptylane-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/emptylane-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/emptylane-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/emptylane-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/emptylane-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/emptylane-cs1" %}
 
 ### Create lane header
 
@@ -46,15 +46,15 @@ The following code example illustrates how to define a lane header.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/laneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/laneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheader-cs1" %}
 
 ### Customizing lane and lane header
 
@@ -68,15 +68,15 @@ The following code example illustrates how to customize the lane header.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/laneheadercustomize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheadercustomize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/laneheadercustomize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheadercustomize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheadercustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheadercustomize-cs1" %}
 
 #### Dynamic customization of lane header
 
@@ -84,15 +84,15 @@ Lane header style and text properties can be customized dynamically. The followi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamiclaneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamiclaneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1" %}
 
 ### Add and remove lanes at runtime
 
@@ -100,15 +100,15 @@ Lanes can be added at runtime by using the [`addLanes`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs1" %}
 
 ### Add children to lane
 
@@ -118,15 +118,15 @@ The following code example illustrates how to add nodes to a lane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildern-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildern-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildern-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildern-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildern-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildern-cs1" %}
 
 #### Add child dynamically into the lane
 
@@ -134,15 +134,15 @@ Child nodes can be inserted into a lane at runtime by using the [`addNodeToLane`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs2" %}
 
 
 Nodes can also be dragged from the palette or diagram and dropped inside the lane.
@@ -157,15 +157,15 @@ Here is an example of how to apply these constraints:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs3" %}
 
 
 ### Additional information storage
@@ -174,15 +174,15 @@ Additional information storage for lanes is similar to nodes. Additional informa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addinfo-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addinfo-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addinfo-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addinfo-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addinfo-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addinfo-cs1" %}
 
 
 ### Lane interaction
@@ -211,15 +211,15 @@ The following code illustrates how to disable a swimlane lane swapping.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs2" %}
 
 #### Resize helper
 

@@ -45,14 +45,14 @@ The following code example illustrates how to print the diagram based on region.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs1" %}
 
 
 ### Multiple page
@@ -63,14 +63,14 @@ The following code example demonstrates how to set multiplePage to true:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs2" %}
 
 ### Margin
 
@@ -78,14 +78,14 @@ The margin for the print region can be set using the [`margin`](https://ej2.sync
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs3" %}
 
 
 ### Page width and Page height
@@ -94,14 +94,14 @@ The [`pageHeight`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ipri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs4" %}
 
 
 ### Page Orientation
@@ -115,14 +115,14 @@ The following example shows how to set pageOrientation for the printOptions.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/print/print-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/print/print-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/print/print-cs5" %}
 
 
 ## Limitations

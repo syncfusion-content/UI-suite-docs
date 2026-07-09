@@ -34,14 +34,14 @@ The method’s [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/class-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/class-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1" %}
 
 ### Interface
 
@@ -59,14 +59,14 @@ The following code example illustrates how to create an interface:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/interface-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/interface-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1" %}
 
 ### Enumeration
 
@@ -78,14 +78,14 @@ The following code example illustrates how to create an enumeration.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/enumeration-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/enumeration-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1" %}
 
 ## UML Class Relationships
 
@@ -110,14 +110,14 @@ The association property allows you to define the type of association. The defau
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/association-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/association-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1" %}
 
 ### Aggregation
 
@@ -127,14 +127,14 @@ The following code example illustrates how to create an aggregation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/aggregation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/aggregation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1" %}
 
 ### Composition
 
@@ -144,14 +144,14 @@ The following code example illustrates how to create a composition.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/composition-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/composition-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1" %}
 
 ### Inheritance
 
@@ -163,14 +163,14 @@ The following code example illustrates how to create an inheritance.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/inheritance-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/inheritance-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1" %}
 
 ### Dependency
 
@@ -180,14 +180,14 @@ The following code example illustrates how to create an dependency.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/dependency-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/dependency-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1" %}
 
 ### Multiplicity
 
@@ -212,14 +212,14 @@ The [`lowerBounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/mul
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/multiplicity-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/multiplicity-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1" %}
 
 ## How to add UML child at runtime
 
@@ -234,14 +234,14 @@ The following code example illustrates how to add members, methods and attribute
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlMethod-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlMethod-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1" %}
 
 ### Adding UML child through user interaction
 
@@ -257,14 +257,14 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlClass-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlClass-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1" %}
 
 ## Editing in UML nodes
 
@@ -310,14 +310,14 @@ The following code illustrates how to create a UMLActivity shapes.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlActivity-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlActivity-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1" %}
 
 ### UMLActivity connector
 
@@ -327,11 +327,11 @@ The following code illustrates how to create a UMLActivity connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlActivityConnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/umldiagramshapes/UmlActivityConnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1" %}

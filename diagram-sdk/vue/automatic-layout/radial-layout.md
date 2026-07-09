@@ -22,14 +22,14 @@ You can create a radial tree layout with DataSource. The following code example 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/radiallayout-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/radiallayout-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs1" %}
 
 N> If you want to convert the data source into layout, you need to inject DataBinding along with RadialTree module in the diagram.
 
@@ -41,14 +41,14 @@ You can render a radial tree layout without using DataSource. The following code
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/radiallayout-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/radiallayout-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/radiallayout-cs2" %}
 
 
 N> If you want to use radial tree layout in diagram, you need to inject RadialTree in the diagram.

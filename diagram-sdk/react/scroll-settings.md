@@ -26,14 +26,14 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/polygon-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/polygon-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/polygon-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/polygon-cs1" %}
 
 ## Update Scroll Offset at Runtime
 
@@ -50,14 +50,14 @@ The scroll offsets of the diagram can be programmatically modified by customizin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/polygon-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/polygon-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/polygon-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/polygon-cs2" %}
 
 ## Update Zoom at Runtime
 
@@ -89,14 +89,14 @@ The following example demonstrates how to zoom in and zoom out of the diagram us
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/zoomOptions-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/Tools/zoomOptions-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1" %}
 
 For more information on various ways to zoom and pan the diagram, refer to [`zoomPan with various ways`](https://support.syncfusion.com/kb/article/15191/how-to-zoom-and-pan-in-react-diagram-with-various-ways?highlight=zoom%20and%20pan)
 
@@ -122,14 +122,14 @@ The following example demonstrates how to configure autoscroll:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1" %}
 
 N> To use auto scroll the scrollLimit should be set as 'Infinity'
 
@@ -157,14 +157,14 @@ The following code example illustrates how to specify the scroll limit and custo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4" %}
 
 ## Scroll Padding
 
@@ -174,14 +174,14 @@ The following code example illustrates how to set scroll padding for the diagram
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3" %}
 
 ## Reset scroll
 
@@ -212,11 +212,11 @@ The [`scrollChange`](https://helpej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2" %}

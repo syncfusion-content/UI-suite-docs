@@ -121,14 +121,14 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/vue/documentation/api/diag
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs1" %}
 
 ## Select entire elements in diagram programmatically
 
@@ -153,14 +153,14 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs2" %}
 
 ## Customize the resize-thumb
 
@@ -168,14 +168,14 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs3" %}
 
 The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
@@ -191,14 +191,14 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/interaction-cs4" %}
 
 ## Connection editing
 

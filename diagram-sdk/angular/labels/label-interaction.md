@@ -14,15 +14,15 @@ The Diagram component allows labels to be interactive through selecting, draggin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/interaction-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/interaction-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/interaction-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/interaction-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/interaction-cs1" %}
 
 ## Constraints
 
@@ -37,15 +37,15 @@ Use the [`startTextEdit`](https://ej2.syncfusion.com/angular/documentation/api/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/programaticallyEdit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/programaticallyEdit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/programaticallyEdit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/programaticallyEdit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/programaticallyEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/programaticallyEdit-cs1" %}
 
 ### Interactive Editing
 Labels can be edited interactively through user actions:
@@ -60,15 +60,15 @@ The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/Rotation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/Rotation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/Rotation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/Rotation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/Rotation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/Rotation-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -81,15 +81,15 @@ The Diagram component supports creating read-only labels that cannot be edited b
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/read-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/read-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/read-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/read-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs1" %}
 
 ## Drag Limits
 
@@ -103,15 +103,15 @@ The following code demonstrates how to configure dragLimit for connector labels:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/dragLimit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/dragLimit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/dragLimit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/dragLimit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/dragLimit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/dragLimit-cs1" %}
 
 ## Multiple Labels
 
@@ -119,12 +119,12 @@ Nodes and connectors support multiple labels. Each label can have independent pr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/read-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/read-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/labels/read-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/angular/angular/labels/read-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs2" %}
