@@ -43,6 +43,41 @@ The chart components are available across JavaScript, Angular, React, Vue, ASP.N
 - **Plot Area Customization** - Configure background, border, margins, and layout for consistent design.
 - **Localization** - Localize UI elements using `.resx` resource files and culture settings.
 
+Available Platforms:
+
+{% doccards %}
+
+{% doccard text="React" link="/chart-sdk/react/chart/getting-started" icon="/grid-sdk/images/React.svg" %}
+
+{% doccard text="Angular" link="/chart-sdk/angular/chart/getting-started" icon="/grid-sdk/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="/chart-sdk/blazor/datachart/getting-started-with-web-app" icon="/grid-sdk/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="/chart-sdk/javascript/chart/es5-getting-started" icon="/grid-sdk/images/JavaScript.svg" %}
+
+{% doccard text="TypeScript" link="/chart-sdk/typescript/chart/getting-started" icon="/grid-sdk/images/Typescript.svg" %}
+
+{% doccard text="Vue" link="/chart-sdk/vue/chart/getting-started" icon="/grid-sdk/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="/chart-sdk/asp-net-core/chart/getting-started" icon="/grid-sdk/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="/chart-sdk/asp-net-mvc/chart/getting-started" icon="/grid-sdk/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="/chart-sdk/maui/datachart/getting-started" icon="/grid-sdk/images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="/chart-sdk/wpf/datachart/getting-started" icon="/grid-sdk/images/WPF.svg" %}
+
+{% doccard text="Windows Forms" link="/chart-sdk/winforms/datachart/getting-started" icon="/grid-sdk/images/Windows Forms.svg" %}
+
+{% doccard text="WinUI" link="/chart-sdk/winui/datachart/getting-started" icon="/grid-sdk/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="/chart-sdk/uwp/sfdatachart/getting-started" icon="/grid-sdk/images/UWP.svg" %}
+
+{% doccard text="Flutter" link="/chart-sdk/flutter/datachart/getting-started" icon="/grid-sdk/images/Flutter.svg" %}
+
+{% enddoccards %}
+
+
 ## Platform-Specific Key Features
 
 The chart component provides rich shared functionality across all platforms. In addition, each platform includes specialized capabilities.
