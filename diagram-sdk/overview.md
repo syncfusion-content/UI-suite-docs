@@ -37,7 +37,8 @@ Explore interactive demos showcasing the capabilities of the Diagram control:
 
 | Platform | UG Link | Sample Link |
 |----------|----------|-------------|
-| JavaScript | [View UG](https://ej2.syncfusion.com/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/diagram/default-functionalities.html) |
+| JavaScript | [View UG](https://ej2.syncfusion.com/javascript/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/diagram/default-functionalities.html) |
+| TypeScript | [View UG](https://ej2.syncfusion.com/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/demos/#/tailwind3/diagram/default-functionalities.html) |
 | React | [View UG](https://ej2.syncfusion.com/react/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/react/demos/#/tailwind3/diagram/default-functionality) |
 | Angular | [View UG](https://ej2.syncfusion.com/angular/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/angular/demos/#/tailwind3/diagram/default-functionalities) |
 | Vue | [View UG](https://ej2.syncfusion.com/vue/documentation/diagram/getting-started/) | [View Demos](https://ej2.syncfusion.com/vue/demos/#/tailwind3/diagram/default-functionality.html) |
