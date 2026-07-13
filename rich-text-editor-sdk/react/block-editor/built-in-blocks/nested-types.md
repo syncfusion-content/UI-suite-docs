@@ -2,11 +2,11 @@
 layout: post
 title: Nested blocks in React Block Editor control | Syncfusion
 description: Checkout and learn about Nested Blocks with React Block Editor control of Syncfusion Essential JS 2 and more.
-platform: ej2-react
+platform: rich-text-editor-sdk
 control: Block Editor
-publishingplatform: ##Platform_Name##
+publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
 # Nested blocks in React Block Editor control
