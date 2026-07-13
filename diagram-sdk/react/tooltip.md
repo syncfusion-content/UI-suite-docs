@@ -60,7 +60,7 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 ## Inherit Diagram Tooltip
 
-The diagram supports inheriting the diagram tooltip when the mouse hovers over any node or connector. To show a tooltip on mouse over, set the diagram's [`tooltip`](https://helpej2.syncfusion.com/react/documentation/api/diagram#tooltip) property with the tooltip [`content`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#content) and [`position`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#position). Ensure that the nodes and connectors have their constraints set to **InheritTooltip**, as shown in the following example.
+The diagram supports inheriting the diagram tooltip when the mouse hovers over any node or connector. To show a tooltip on mouse over, set the diagram's [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) property with the tooltip [`content`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#content) and [`position`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#position). Ensure that the nodes and connectors have their constraints set to **InheritTooltip**, as shown in the following example.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

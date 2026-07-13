@@ -21,8 +21,8 @@ Collaborative editing in diagram allows multiple users to edit and review diagra
 * Use `SignalR` for real-time communication between the React app and a ASP.NET Core SignalR server
 * Use `Redis` as a temporary data store to manage updates and version state
 * Basic setup:
-    * Configure a SignalR server. [Refer link](./collaborative-editing-hub)
-    * Connect the React app to the server. [Refer link](./react-app-collaborative-editing)
+    * Configure a SignalR server. [Refer link](https://help.syncfusion.com/diagram-sdk/react/collaborative-editing/collaborative-editing-hub)
+    * Connect the React app to the server. [Refer link](https://help.syncfusion.com/diagram-sdk/react/collaborative-editing/react-app-collaborative-editing)
 
 ## Limitations
 
@@ -31,7 +31,7 @@ Collaborative editing in diagram allows multiple users to edit and review diagra
 * View-only interactions
     * Zoom and pan are local to each user and are not synchronized, so collaborators may view different areas of the diagram.
 * Unsupported synchronized settings
-    * Changes to [pageSettings](../page-settings), [contextMenuSettings](../context-menu), [snapSettings](../grid-lines#snapping), [rulerSettings](../ruler), [layout](../automatic-layout), and [scrollSettings](../scroll-settings) are not propagated to other users and apply only locally.
+    * Changes to [pageSettings](https://help.syncfusion.com/diagram-sdk/react/page-settings), [contextMenuSettings](https://help.syncfusion.com/diagram-sdk/react/context-menu), [snapSettings](https://help.syncfusion.com/diagram-sdk/react/grid-lines#snapping), [rulerSettings](https://help.syncfusion.com/diagram-sdk/react/ruler), [layout](https://help.syncfusion.com/diagram-sdk/react/automatic-layout), and [scrollSettings](https://help.syncfusion.com/diagram-sdk/react/scroll-settings) are not propagated to other users and apply only locally.
 
 N> Collaboration will work when [DiagramCollaboration](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection) modules are enabled. Collaboration applies to actions that raise the [historyChange](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#historychange) event.
 
