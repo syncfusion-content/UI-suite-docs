@@ -5,7 +5,7 @@ description: Checkout and learn about Embed Blocks with React Block Editor compo
 platform: rich-text-editor-sdk
 control: Block Editor
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
 # Embed Blocks in React Block Editor component

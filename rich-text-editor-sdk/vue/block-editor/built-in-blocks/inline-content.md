@@ -177,7 +177,7 @@ Below is an example of how to configure different types of content in the Block 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/code-snippet/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-types" %}
 
 ## Applying Inline Styles
 

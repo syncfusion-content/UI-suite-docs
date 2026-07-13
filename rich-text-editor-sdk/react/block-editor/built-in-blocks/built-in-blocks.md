@@ -55,7 +55,7 @@ By default, the [indent](https://ej2.syncfusion.com/react/documentation/api/bloc
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/block-editor/blocks/indent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/indent" %}
 
 ## Configure CSS Class
 
@@ -75,7 +75,7 @@ Custom CSS classes allow you to define specialized styling for specific blocks i
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/block-editor/blocks/cssClass" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass" %}
 
 ## Configure templates
 
@@ -93,4 +93,4 @@ The Block Editor allows you to use custom templates for specialized content usin
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/block-editor/blocks/block-types/template-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block" %}
