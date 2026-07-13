@@ -16,7 +16,7 @@ This section explains the key elements of the Gantt Chart interface.
 
 The Gantt component consists of two main sections: a `grid` and a `chart`, separated by a `splitter`. The grid is located on the left side of the Gantt component, while the chart section is on the right side. You can adjust the view of the Gantt by moving the splitter left or right to display only the grid, only the chart, or both.
 
-At the top of Gantt chart, having a [toolbar](../gantt/tool-bar/tool-bar) that allows you to peform **CRUD** operations on tasks.
+At the top of Gantt chart, having a [toolbar](./toolbar) that allows you to peform **CRUD** operations on tasks.
 
 ![Gantt chart](./images/gantt.png)
 
@@ -61,7 +61,7 @@ A milestone is a unique type of task characterized by the following attributes:
 
 ![Milestone](./images/milestone-element.png)
 
->For more information, refer to [Unscheduled Tasks](../gantt/task-scheduling#unscheduled-tasks)
+>For more information, refer to [Unscheduled Tasks](./task-scheduling#unscheduled-tasks)
 
 **Manual taskbar**
 
@@ -69,7 +69,7 @@ It is a type of task where the dates are not automatically validated by the Gant
 
 ![Manual taskbar](./images/manual-task.png)
 
->For more information, refer to [Manual Tasks](../gantt/task-scheduling#manually-scheduled-tasks)
+>For more information, refer to [Manual Tasks](./task-scheduling#manually-scheduled-tasks)
 
 **Baseline**
 
