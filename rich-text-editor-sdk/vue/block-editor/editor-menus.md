@@ -246,4 +246,4 @@ The following example demonstrates how to customize the Inline Toolbar.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/code-snippet/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar" %}
