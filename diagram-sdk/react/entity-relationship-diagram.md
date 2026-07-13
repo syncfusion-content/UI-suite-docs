@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® React Diagram component, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/react/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/react/documentation/api/diagram/erConnectorShapeModel).
 
-ER entity nodes are added to the [nodes](https://ej2.syncfusion.com/react/documentation/api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/react/documentation/api/diagram#connectors) property.
+ER entity nodes are added to the [nodes](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/react/documentation/api/diagram/connectormodel) property.
 
 ## ER diagram elements
 
@@ -46,7 +46,7 @@ The header is the top section of an ER entity node that displays the entity name
 |---|---|
 | [annotation](https://ej2.syncfusion.com/react/documentation/api/diagram/erHeaderModel#annotation) | Defines the text content displayed in the header. |
 | [height](https://ej2.syncfusion.com/react/documentation/api/diagram/erHeaderModel#height) | Defines the height of the header area in pixels. |
-| [style](https://ej2.syncfusion.com/react/documentation/api/diagram/erHeaderModel#style) | Defines style properties such as fill color, text color, and font settings. |
+| [style](https://ej2.syncfusion.com/react/documentation/api/diagram/shapestylemodel) | Defines style properties such as fill color, text color, and font settings. |
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -63,7 +63,7 @@ N> If no header is specified, a default header is automatically added to the ER 
 
 ### Define entity fields
 
-Fields represent the columns or attributes of an entity. They can be defined using the [fields](./api/diagram/erShapeModel#fields) property. Each field can display information such as the field name, data type, and key constraints, including primary key, foreign key, unique, and not null.
+Fields represent the columns or attributes of an entity. They can be defined using the [fields](https://ej2.syncfusion.com/react/documentation/api/diagram/erfieldmodel) property. Each field can display information such as the field name, data type, and key constraints, including primary key, foreign key, unique, and not null.
 
 | ER Field Property | Description |
 |---|---|
@@ -74,7 +74,7 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 | [isForeignKey](https://ej2.syncfusion.com/react/documentation/api/diagram/erFieldModel#isforeignkey) | Indicates whether the field is a foreign key that references another entity. |
 | [constraints](https://ej2.syncfusion.com/react/documentation/api/diagram/erFieldModel#constraints) | Defines additional constraints applied to the field. Accepts one or more [ErFieldConstraint](./api/diagram/erfieldconstraint) values. |
 | [style](https://ej2.syncfusion.com/react/documentation/api/diagram/erFieldModel#style) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
-| [annotation](https://ej2.syncfusion.com/react/documentation/api/diagram/erFieldModel#annotation) | Defines text styling for the ER field row. Only annotation [style](./api/diagram/shapeannotation#style) property is applicable. The annotation [content](./api/diagram/shapeannotation#content) property is ignored. |
+| [annotation](https://ej2.syncfusion.com/react/documentation/api/diagram/erFieldModel#annotation) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeannotation#style) property is applicable. The annotation [content](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeannotation#content) property is ignored. |
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -91,7 +91,7 @@ N> If no fields are specified, a default single field is automatically added to 
 
 ### Add or remove ER fields at runtime
 
-ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/react/documentation/api/diagram#addErField) and [removeErField](https://ej2.syncfusion.com/react/documentation/api/diagram#removeErField) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
+ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/react/documentation/api/diagram#adderfield) and [removeErField](https://ej2.syncfusion.com/react/documentation/api/diagram#removeerfield) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
 
 The `addErField` method adds a field to an ER entity node.
 
@@ -136,7 +136,7 @@ The [fieldDefaults](https://ej2.syncfusion.com/react/documentation/api/diagram/e
 
 ### Style ER entities and fields
 
-The appearance of ER entities and their fields can be customized using style properties. The node-level [style](./api/diagram/node#style) property controls the overall ER entity appearance, while individual field [style](./api/diagram/erfield#style) values can override applicable styles for specific field rows.
+The appearance of ER entities and their fields can be customized using style properties. The node-level [style](https://ej2.syncfusion.com/react/documentation/api/diagram/node#style) property controls the overall ER entity appearance, while individual field [style](https://ej2.syncfusion.com/react/documentation/api/diagram/erfield#style) values can override applicable styles for specific field rows.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

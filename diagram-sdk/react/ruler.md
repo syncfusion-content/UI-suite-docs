@@ -34,7 +34,7 @@ The following code shows how to add a ruler to the diagram.
 
 ## Customizing the Ruler
 
-The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` customize the rulers appearance in the diagram.
+The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramrulermodel) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramrulermodel) properties of `rulerSettings` customize the rulers appearance in the diagram.
 
 By default, the ruler segments are arranged based on pixel values, with each segment representing a unit of measurement on the diagram canvas.
 
@@ -86,4 +86,4 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor)property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
 
-N>  The MarkerColor property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
+N>  The MarkerColor property can be customized using the [`marker`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramruler#markercolor) CSS style.

@@ -24,13 +24,13 @@ The UML class diagram shapes are explained as follows.
 
 * A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassifierShapeModel#class) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the Essential<sup style="font-size:70%">&reg;</sup> characteristics and behavior that objects belonging to the class will exhibit.
 
-* Also, define the [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassModel#name), [`attributes`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassModel#attributes), and [`methods`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassModel#methods) of the class using the class property of node.
+* Also, define the [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassModel#name), [`attributes`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlclassattributemodel), and [`methods`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlclassmethodmodel) of the class using the class property of node.
 
-* The attribute’s [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassAttributeModel#name), [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassAttributeModel#type), and [`scope`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassAttributeModel#scope) properties allow you to define the name, data type, and visibility of the attribute.
+* The attribute’s [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassAttributeModel#name), [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassAttributeModel#type), and [`scope`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlscope) properties allow you to define the name, data type, and visibility of the attribute.
 
-* The method’s [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#name), [`parameters`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#parameters), [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#scope) properties allow you to define the name, parameter, return type, and visibility of the methods.
+* The method’s [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#name), [`parameters`](https://ej2.syncfusion.com/react/documentation/api/diagram/methodargumentsmodel), [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#scope) properties allow you to define the name, parameter, return type, and visibility of the methods.
 
-* The method [`parameters`](https://ej2.syncfusion.com/react/documentation/api/diagram/umlClassMethodModel#parameters)  property allow you to define the name ,type and style of the parameter.
+* The method [`parameters`](https://ej2.syncfusion.com/react/documentation/api/diagram/methodargumentsmodel)  property allow you to define the name ,type and style of the parameter.
 
 * The following code example illustrates how to create a class.
 
@@ -206,7 +206,7 @@ By default, the multiplicity is considered as **OneToOne**.
 
 The multiplicity property in UML allows you to specify a large number of elements or some collection of elements.
 
-The shape multiplicity’s [`source`](https://ej2.syncfusion.com/react/documentation/api/diagram/classifierMultiplicityModel#source) property sets the source label to the connector and the [`target`](https://ej2.syncfusion.com/react/documentation/api/diagram/classifierMultiplicityModel#target) property is used to set the target label to the connector.
+The shape multiplicity’s [`source`](https://ej2.syncfusion.com/react/documentation/api/diagram/multiplicitylabelmodel) property sets the source label to the connector and the [`target`](https://ej2.syncfusion.com/react/documentation/api/diagram/multiplicitylabelmodel) property is used to set the target label to the connector.
 
 To set an optionality or cardinality for the connector source label, use the optional property.
 
