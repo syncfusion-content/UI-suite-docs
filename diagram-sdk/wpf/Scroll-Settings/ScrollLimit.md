@@ -92,6 +92,4 @@ diagram.ScrollSettings = new ScrollSettings()
 [View Sample in GitHub](https://github.com/SyncfusionExamples/WPF-Diagram-Examples/tree/master/Samples/Interaction/DiagramScrollUsingArrowKeys)
 ## See Also
 
-[How to stop infinite scrolling?](https://support.syncfusion.com/kb/article/9869/how-to-stop-infinite-scrolling-in-wpf-diagram-sfdiagram)
-
 [How to stop infinite scrolling in WPF Diagram (SfDiagram)?](https://support.syncfusion.com/kb/article/9869/how-to-stop-infinite-scrolling-in-wpf-diagram-sfdiagram)
