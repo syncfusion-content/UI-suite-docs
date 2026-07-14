@@ -17,6 +17,7 @@ This guide demonstrates how to create an Angular application, configure task dat
 ## Prerequisites
 
 Ensure the following prerequisites are installed:
+
 - Node.js **18.19 or later**
 - npm or yarn package manager
 - Basic knowledge of Angular framework
@@ -28,13 +29,14 @@ Create a new Angular application using the Angular CLI:
 ```bash
 npm install -g @angular/cli
 ```
+
 Once the Angular CLI is installed, run the following command to generate a new application:
 
 ```bash
 ng new syncfusion-angular-app
 ```
 
-* This command will prompt you to configure settings like enabling Angular routing and choosing a stylesheet format.
+- This command will prompt you to configure settings like enabling Angular routing and choosing a stylesheet format.
 
 ```bash
 ? Which stylesheet format would you like to use? (Use arrow keys)
@@ -44,21 +46,21 @@ ng new syncfusion-angular-app
   Less            [ http://lesscss.org                                             ]
 ```
 
-* By default, a CSS-based application is created. Use SCSS if required:
+- By default, a CSS-based application is created. Use SCSS if required:
 
 ```bash
 ng new syncfusion-angular-app --style=scss
 ```
 
-* During project setup, when prompted for the Server-side rendering (SSR) option, choose the appropriate configuration.
+- During project setup, when prompted for the Server-side rendering (SSR) option, choose the appropriate configuration.
 
 ![Initial_setup](./images/SSR.png)
 
-* Select the required AI tool or 'none' if you do not need any AI tool.
+- Select the required AI tool or 'none' if you do not need any AI tool.
 
 ![Initial_setup](./images/Ai.png)
 
-* Navigate to your newly created application directory:
+- Navigate to your newly created application directory:
 
 ```bash
 cd syncfusion-angular-app
@@ -85,30 +87,31 @@ The Gantt Chart component requires specific CSS files for proper rendering.
 Import the basic Gantt Chart styles into `src/styles.css` using the Tailwind theme (you can also use `material3.css`, `bootstrap5.css`, or other available themes):
 
 ```css
-@import '../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
+@import "../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
 ```
 
 > **Note:** Additional styles are required when enabling advanced features such as editing, toolbar, or dialogs:
+>
 > ```css
 > /* For editing, toolbar, and dialog features */
-> @import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css';
-> @import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-> @import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-> @import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-> @import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-> @import '../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css';
-> 
+> @import "../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css";
+>
 > /* For rich text editor in dialog notes tab */
-> @import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+> @import "../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css";
 > ```
 
 **Understanding Style Application**
- 
+
 The imported CSS files are added to the global stylesheet (`src/styles.css`). Angular automatically applies these styles to all components in the application, so no additional configuration is required in the TypeScript (`.ts`) files.
 
 ## Create sample task data
@@ -143,46 +146,89 @@ public taskSettings = {
 
 ### Field mapping reference
 
-| Property | Description | Required |
-|----------|-------------|----------|
-| `id` | Unique task identifier | Yes |
-| `name` | Task display name | Yes |
-| `startDate` | Task start date | Yes |
-| `duration` | Task duration in days | Yes |
-| `parentID` | Parent task ID for hierarchy | No |
+| Property    | Description                  | Required |
+| ----------- | ---------------------------- | -------- |
+| `id`        | Unique task identifier       | Yes      |
+| `name`      | Task display name            | Yes      |
+| `startDate` | Task start date              | Yes      |
+| `duration`  | Task duration in days        | Yes      |
+| `parentID`  | Parent task ID for hierarchy | No       |
 
 ## Render the Angular Gantt Chart Component
 
 Update the component file to render the Gantt Chart using the sample data and task settings defined earlier. Modify the `src/app/app.ts` file (for Angular 20+) with the following code:
 
 ```typescript
-import { Component, ViewEncapsulation } from '@angular/core';
-import { GanttModule } from '@syncfusion/ej2-angular-gantt';
+import { Component, ViewEncapsulation } from "@angular/core";
+import { GanttModule } from "@syncfusion/ej2-angular-gantt";
 
 @Component({
-    imports: [GanttModule],
-    standalone: true,
-    selector: 'app-root',
-    template: `<ejs-gantt [dataSource]="data" [taskFields]="taskSettings"></ejs-gantt>`,
-    encapsulation: ViewEncapsulation.None
+  imports: [GanttModule],
+  standalone: true,
+  selector: "app-root",
+  template: `<ejs-gantt
+    [dataSource]="data"
+    [taskFields]="taskSettings"
+  ></ejs-gantt>`,
+  encapsulation: ViewEncapsulation.None,
 })
 export class App {
-    public data = [
-        {TaskID: 1, TaskName: 'Project initiation', StartDate: new Date('2024-04-01'), EndDate: new Date('2024-04-15')},
-        {TaskID: 2, TaskName: 'Identify site location', StartDate: new Date('2024-04-01'), Duration: 4, ParentID: 1},
-        {TaskID: 3, TaskName: 'Perform site survey', StartDate: new Date('2024-04-01'), Duration: 4, ParentID: 1},
-        {TaskID: 4, TaskName: 'Soil testing', StartDate: new Date('2024-04-01'), Duration: 3, ParentID: 1},
-        {TaskID: 5, TaskName: 'Project estimation', StartDate: new Date('2024-04-15'), EndDate: new Date('2024-04-25')},
-        {TaskID: 6, TaskName: 'Develop floor plan', StartDate: new Date('2024-04-15'), Duration: 5, ParentID: 5},
-        {TaskID: 7, TaskName: 'Estimate project cost', StartDate: new Date('2024-04-15'), Duration: 5, ParentID: 5}
-    ];
-    public taskSettings = {
-        id: 'TaskID',
-        name: 'TaskName',
-        startDate: 'StartDate',
-        duration: 'Duration',
-        parentID: 'ParentID'
-    };
+  public data = [
+    {
+      TaskID: 1,
+      TaskName: "Project initiation",
+      StartDate: new Date("2024-04-01"),
+      EndDate: new Date("2024-04-15"),
+    },
+    {
+      TaskID: 2,
+      TaskName: "Identify site location",
+      StartDate: new Date("2024-04-01"),
+      Duration: 4,
+      ParentID: 1,
+    },
+    {
+      TaskID: 3,
+      TaskName: "Perform site survey",
+      StartDate: new Date("2024-04-01"),
+      Duration: 4,
+      ParentID: 1,
+    },
+    {
+      TaskID: 4,
+      TaskName: "Soil testing",
+      StartDate: new Date("2024-04-01"),
+      Duration: 3,
+      ParentID: 1,
+    },
+    {
+      TaskID: 5,
+      TaskName: "Project estimation",
+      StartDate: new Date("2024-04-15"),
+      EndDate: new Date("2024-04-25"),
+    },
+    {
+      TaskID: 6,
+      TaskName: "Develop floor plan",
+      StartDate: new Date("2024-04-15"),
+      Duration: 5,
+      ParentID: 5,
+    },
+    {
+      TaskID: 7,
+      TaskName: "Estimate project cost",
+      StartDate: new Date("2024-04-15"),
+      Duration: 5,
+      ParentID: 5,
+    },
+  ];
+  public taskSettings = {
+    id: "TaskID",
+    name: "TaskName",
+    startDate: "StartDate",
+    duration: "Duration",
+    parentID: "ParentID",
+  };
 }
 ```
 
@@ -209,11 +255,11 @@ You can preview the following sample by clicking the **Preview Sample** button.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/gantt-sdk/angular/gantt-chart/getting-started/run-application-cs1/src/app.ts %}
+{% include code-snippet/gantt-sdk/angular/gantt/getting-started/run-application-cs1/src/app.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/gantt-sdk/angular/gantt-chart/getting-started/run-application-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/gantt-sdk/angular/gantt/getting-started/run-application-cs1" %}
 
 ## Next Steps
 
