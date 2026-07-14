@@ -28,15 +28,15 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/block-editor/drag-drop/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/block-editor/drag-drop/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/block-editor/drag-drop/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/samples/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/drag-drop" %}
