@@ -2,10 +2,10 @@
 layout: post
 title: Drag and drop in Angular Block Editor Component | Syncfusion
 description: Checkout and learn about Drag and drop with Angular Block Editor component of Syncfusion Essential JS 2 and more.
-platform: rich-text-editor-sdk
+platform: ej2-angular
 control: Block Editor
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: ##DomainURL##
 ---
 
 # Drag and drop in the Angular Block Editor component
@@ -14,7 +14,7 @@ The drag and drop feature in the Block Editor allows users to intuitively rearra
 
 ## Enable Drag and Drop
 
-You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#enabledraganddrop) property. This feature is enabled by default (`true`).
+You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#enabledraganddrop) property. This feature is enabled by default (`true`).
 
 When drag and drop is enabled, users can rearrange blocks in the following ways:
 
@@ -28,15 +28,15 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/app.component.ts %}
+{% include code-snippet/block-editor/drag-drop/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/main.ts %}
+{% include code-snippet/block-editor/drag-drop/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/drag-drop/src/app.component.html %}
+{% include code-snippet/block-editor/drag-drop/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/drag-drop" %}
+{% previewsample "page.domainurl/samples/block-editor/drag-drop" %}
