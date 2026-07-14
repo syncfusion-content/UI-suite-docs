@@ -26,7 +26,7 @@ The Diagram component allows labels to be interactive through selecting, draggin
 
 ## Constraints
 
-The [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationconstraints) property of labels allows enabling or disabling specific label behaviors. Use these constraints to control which interaction types are available for each label.
+The [`constraints`](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#annotation-constraints) property of labels allows enabling or disabling specific label behaviors. Use these constraints to control which interaction types are available for each label.
 
 ## Label Editing
 
