@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Data Binding in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all about Data Binding in Blazor Gantt Chart component and much more details.
-platform: gantt-sdk
+title: Data Binding in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about Data Binding in Syncfusion Blazor Gantt Chart component and much more.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
 
 # Data Binding in Blazor Gantt Chart Component
 
-Data binding connects the [Blazor Gantt](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) component to project data sources, enabling dynamic visualization and management of project information. The component supports both local and remote data integration through the  [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_DataSource) property, which accepts either a list of business objects or a [SfDataManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.SfDataManager.html) instance.
+Data binding connects the Blazor Gantt component to project data sources, enabling dynamic visualization and management of project information. The component supports both local and remote data integration through the  [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_DataSource) property, which accepts either a list of business objects or a [SfDataManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.SfDataManager.html) instance.
 
 It supports the following kinds of data binding method:
 
 * List binding
 * Remote data
 
-N> When using `DataSource` as `IEnumerable<T>`, component type(TValue) will be inferred from its value. When using [SfDataManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.SfDataManager.html) for data binding, the **TValue** must be provided explicitly in the Gantt component.
+N> When using `DataSource` as `IEnumerable<T>`, component type(TValue) will be inferred from its value. When using `SfDataManager` for data binding, the **TValue** must be provided explicitly in the Gantt component.
 
 ## TaskFields mapping
 
@@ -32,40 +32,39 @@ This following sample shows self-referential data binding in the Gantt Chart by 
 @using Syncfusion.Blazor.Gantt
 
 <SfGantt DataSource="@TaskCollection" Height="450px" Width="700px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
 </SfGantt>
 
-@code{
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 
-    private static List<TaskData> GetTaskCollection()
+    public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 07), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 01, 04), Duration = "4", Progress = 40, ParentID = 1, },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 01, 06), EndDate = new DateTime(2022, 01, 10), },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 30, ParentID = 5, },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 40, ParentID = 5, },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 01, 06), Duration = "0", Progress = 30, ParentID = 5, }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05),Duration = "5" , },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), Duration = "4", Progress = 40, ParentId = 1, },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 07), Duration = "5", },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 07), Duration = "3", Progress = 30, ParentId = 5, },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 07), Duration = "3", Progress = 40, ParentId = 5, },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 07), Duration = "0", Progress = 30, ParentId = 5, }
         };
         return Tasks;
     }
@@ -74,7 +73,7 @@ This following sample shows self-referential data binding in the Gantt Chart by 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLeMZLfLAFkPmGF?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZhHNxCIVMXTHwot?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## List binding
 
@@ -85,38 +84,37 @@ To bind list binding to the Gantt component, you can assign a IEnumerable object
 Hierarchical data binding organizes complex parent-child relationships through nested object structures. Each parent task contains multiple child tasks through the `Child` field mapping, creating natural tree structures that represent project hierarchies.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
 <SfGantt DataSource="@TaskCollection" Height="450px" Width="700px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" Child="SubTasks">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" Child="SubTasks">
     </GanttTaskFields>
 </SfGantt>
 
-@code{
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public List<TaskData> SubTasks { get; set; }
+        public List<TaskData>? SubTasks { get; set; }
     }
 
     public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>() {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 21), SubTasks = (new List <TaskData> () { new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, }, new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, }, new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30 }, }) },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 21), SubTasks = (new List <TaskData> () { new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, }, new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40 }, new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, } }) }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 04, 06), Duration="20", SubTasks = (new List <TaskData> () { new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, }, new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 04, 06), Duration = "4", Progress = 40, }, new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30 }, }) },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 07), Duration="20", SubTasks = (new List <TaskData> () { new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 30, }, new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 40 }, new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 07), Duration = "0", Progress = 30, } }) }
         };
         return Tasks;
     }
@@ -125,9 +123,9 @@ Hierarchical data binding organizes complex parent-child relationships through n
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXryWDrzgHBfdbbx?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rNBnjdiSLMekVXKg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-N> * Indent/Outdent is not supported for hierarchy data.
+> * Indent/Outdent is not supported for hierarchy data.
 >* ExpandCollapse state maintenance is not supported for hierarchy data.
 >* Row drag and drop feature is not supported for hierarchy data.
 
@@ -138,40 +136,39 @@ Self-referential data binding uses flat data structures where tasks reference th
 This approach enables the component to reconstruct hierarchical tree structures from relational data, making it ideal for database-driven applications where parent-child relationships are maintained through foreign key references.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 <SfGantt DataSource="@TaskCollection" Height="450px" Width="700px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
 </SfGantt>
 
-@code{
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
-    
+
     public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>() {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2021, 04, 05), EndDate = new DateTime(2021, 04, 21), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2021, 04, 05), Duration = "4", Progress = 50, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2021, 04, 05), Duration = "4", Progress = 50, ParentID = 1 },
-            new TaskData() { TaskID = 4, TaskName = "Prepare product sketch and notes", StartDate = new DateTime(2021, 04, 05), Duration = "2", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 5, TaskName = "Concept approval", StartDate = new DateTime(2021, 04, 08), EndDate = new DateTime(2021, 04, 08), Duration="0", ParentID = 1 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2021, 04, 05),Duration = "20" , },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2021, 04, 05), Duration = "4", Progress = 50, ParentId = 1 },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2021, 04, 05), Duration = "4", Progress = 50, ParentId = 1 },
+            new TaskData() { TaskId = 4, TaskName = "Prepare product sketch and notes", StartDate = new DateTime(2021, 04, 05), Duration = "2", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 5, TaskName = "Concept approval", StartDate = new DateTime(2021, 04, 08), Duration="0", ParentId = 1 }
         };
         return Tasks;
     }
@@ -180,7 +177,7 @@ This approach enables the component to reconstruct hierarchical tree structures 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjhSCDrpKdvgSTeD?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVHXRMSBMPnFGNG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### DynamicObject binding
 
@@ -189,15 +186,15 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 > The [GetDynamicMemberNames](https://learn.microsoft.com/en-us/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames?view=net-8.0) method of the `DynamicObject` class must be overridden to return the property names required for rendering, data operations, editing, and other related functionalities when using **DynamicObject** with the Gantt Chart.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using System.Dynamic
 
 <SfGantt DataSource="@GanttDynamicData" Height="500px" Width="100%" HighlightWeekends="true">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" Progress="Progress" Duration="Duration" ParentID="ParentID"></GanttTaskFields>
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Progress="Progress" Duration="Duration" ParentID="ParentId"></GanttTaskFields>
     <GanttColumns>
-        <GanttColumn Field="TaskID" HeaderText="Task ID" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right" Width="100"></GanttColumn>
+        <GanttColumn Field="TaskId" HeaderText="Task ID" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right" Width="100"></GanttColumn>
         <GanttColumn Field="TaskName" HeaderText="Task Name" Width="250"></GanttColumn>
         <GanttColumn Field="StartDate" HeaderText="Start Date" Width="250"></GanttColumn>
         <GanttColumn Field="Duration" HeaderText="Duration" Width="250"></GanttColumn>
@@ -209,13 +206,13 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 @code {
     private string NumberFormat = "C";
     private static List<DynamicDictionary> Data = new List<DynamicDictionary>();
-    private List<DynamicDictionary> GanttDynamicData { get; set; }
+    private List<DynamicDictionary>? GanttDynamicData { get; set; }
     private static int ParentRecordID { get; set; }
     private static int ChildRecordID { get; set; }
 
     protected override void OnInitialized()
     {
-        this.GanttDynamicData = GetData().ToList();
+        GanttDynamicData = GetData().ToList();
     }
 
     public static List<DynamicDictionary> GetData()
@@ -226,37 +223,37 @@ To handle scenarios where the data model is not defined at compile time, the Gan
         for (var i = 1; i <= 10; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 01, 07);
+            DateTime start = new DateTime(2026, 02, 10);
             int range = (DateTime.Today - start).Days;
             DateTime startingDate = start.AddDays(ran.Next(range));
             dynamic ParentRecord = new DynamicDictionary();
-            ParentRecord.TaskID = ++ParentRecordID;
+            ParentRecord.TaskId = ++ParentRecordID;
             ParentRecord.TaskName = "Parent Task " + i;
             ParentRecord.StartDate = startingDate;
-            ParentRecord.Progress = ran.Next(10, 100);
+            ParentRecord.Progress = ran?.Next(10, 100);
             ParentRecord.Duration = ParentRecordID % 2 == 0 ? (32).ToString() : (76).ToString();
-            ParentRecord.ParentID = null;
+            ParentRecord.ParentId = null;
             Data.Add(ParentRecord);
             AddChildRecords(ParentRecordID);
         }
         return Data;
     }
 
-    public static void AddChildRecords(int ParentID)
+    public static void AddChildRecords(int ParentId)
     {
         for (var i = 1; i < 4; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 01, 07);
+            DateTime start = new DateTime(2026, 02, 10);
             int range = (DateTime.Today - start).Days;
             DateTime startingDate = start.AddDays(ran.Next(range));
             dynamic ChildRecord = new DynamicDictionary();
-            ChildRecord.TaskID = ++ParentRecordID;
+            ChildRecord.TaskId = ++ParentRecordID;
             ChildRecord.TaskName = "Child Task " + ++ChildRecordID;
             ChildRecord.StartDate = startingDate;
-            ChildRecord.Progress = ran.Next(10, 100);
+            ChildRecord.Progress = ran?.Next(10, 100);
             ChildRecord.Duration = ParentRecordID % 3 == 0 ? (64).ToString() : (98).ToString();
-            ChildRecord.ParentID = ParentID;
+            ChildRecord.ParentId = ParentId;
             Data.Add(ChildRecord);
         }
     }
@@ -264,21 +261,25 @@ To handle scenarios where the data model is not defined at compile time, the Gan
     public class DynamicDictionary : DynamicObject
     {
         Dictionary<string, object> dictionary = new Dictionary<string, object>();
-        public override bool TryGetMember(GetMemberBinder binder, out object result)
+        public override bool TryGetMember(GetMemberBinder binder, out object? result)
         {
             string name = binder.Name;
             return dictionary.TryGetValue(name, out result);
         }
 
-        public override bool TrySetMember(SetMemberBinder binder, object value)
+        public override bool TrySetMember(SetMemberBinder? binder, object? value)
         {
-            dictionary[binder.Name] = value;
+            if (binder != null && value != null)
+            {
+                dictionary[binder.Name] = value;
+            }
             return true;
+            
         }
 
         public override System.Collections.Generic.IEnumerable<string> GetDynamicMemberNames()
         {
-            return this.dictionary?.Keys;
+            return dictionary?.Keys;
         }
     }
 }
@@ -286,32 +287,32 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZLIsjrfgbLmeSRq?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLxDnMorBiLbZbh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### ExpandoObject Binding
 
 To handle scenarios where the model type is unknown at compile time, the Gantt Chart can be bound to a list of **ExpandoObject** using the [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_DataSource) property. This enables full support for rendering, data operations, editing, and other related functionalities without requiring a strongly typed model.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using System.Dynamic
 
 <SfGantt TValue="ExpandoObject" DataSource="@TreeData" @ref="Gantt" Height="450px" Width="700px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" Duration="Duration"
-        Progress="Progress" ParentID="ParentID">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration"
+                     Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" AllowTaskbarEditing="true"></GanttEditSettings>
 </SfGantt>
 
 @code {
-    SfGantt<ExpandoObject> Gantt;
-    private List<ExpandoObject> TreeData { get; set; }
+    SfGantt<ExpandoObject>? Gantt;
+    private List<ExpandoObject>? TreeData { get; set; }
 
     protected override void OnInitialized()
     {
-        this.TreeData = GetData().ToList();
+        TreeData = GetData().ToList();
     }
     private static List<ExpandoObject> Data = new List<ExpandoObject>();
     private static int ParentRecordID { get; set; }
@@ -324,36 +325,36 @@ To handle scenarios where the model type is unknown at compile time, the Gantt C
         for (var i = 1; i <= 60; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 03, 07);
+            DateTime start = new DateTime(2026, 03, 07);
             int range = (DateTime.Today - start).Days;
             DateTime startingDate = start.AddDays(ran.Next(range));
             dynamic ParentRecord = new ExpandoObject();
-            ParentRecord.TaskID = ++ParentRecordID;
+            ParentRecord.TaskId = ++ParentRecordID;
             ParentRecord.TaskName = "Parent Task " + i;
             ParentRecord.StartDate = startingDate;
             ParentRecord.Progress = ran.Next(10, 100);
             ParentRecord.Duration = ParentRecordID % 2 == 0 ? (32).ToString() : (76).ToString();
-            ParentRecord.ParentID = null;
+            ParentRecord.ParentId = null;
             Data.Add(ParentRecord);
             AddChildRecords(ParentRecordID);
         }
         return Data;
     }
-    public static void AddChildRecords(int ParentID)
+    public static void AddChildRecords(int ParentId)
     {
         for (var i = 1; i < 4; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 03, 07);
+            DateTime start = new DateTime(2026, 03, 07);
             int range = (DateTime.Today - start).Days;
             DateTime startingDate = start.AddDays(ran.Next(range));
             dynamic ChildRecord = new ExpandoObject();
-            ChildRecord.TaskID = ++ParentRecordID;
+            ChildRecord.TaskId = ++ParentRecordID;
             ChildRecord.TaskName = "Child Task " + ++ChildRecordID;
             ChildRecord.StartDate = startingDate;
             ChildRecord.Progress = ran.Next(10, 100);
             ChildRecord.Duration = ParentRecordID % 3 == 0 ? (64).ToString() : (98).ToString();
-            ChildRecord.ParentID = ParentID;
+            ChildRecord.ParentId = ParentId;
             Data.Add(ChildRecord);
         }
     }
@@ -362,7 +363,7 @@ To handle scenarios where the model type is unknown at compile time, the Gantt C
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtVyWNrfUFwbmcnX?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VDrdDHMIBrBlyKPx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Observable collection and INotifyPropertyChanged
 
@@ -373,7 +374,7 @@ The Gantt chart supports to automatically update data based on `INotifyCollectio
 To handle dynamic changes in the data source, the Gantt Chart supports binding to an [ObservableCollection](https://learn.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1?view=net-6.0). This collection implements the [INotifyCollectionChanged](https://learn.microsoft.com/en-us/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=net-6.0) interface, which automatically notifies the UI when items are added, removed, moved, or cleared.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using Syncfusion.Blazor.Buttons
@@ -389,14 +390,14 @@ To handle dynamic changes in the data source, the Gantt Chart supports binding t
         @StatusMessage
     </div>
     <SfGantt DataSource="@ObservableData" Toolbar="@(new List<string>() { "Add", "Delete" })">
-        <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
+        <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" ParentID="ParentId">
         </GanttTaskFields>
         <GanttEditSettings AllowAdding="true" AllowDeleting="true"></GanttEditSettings>
     </SfGantt>
 </div>
 
 @code {
-    public ObservableCollection<TaskData> ObservableData { get; set; }
+    public ObservableCollection<TaskData>? ObservableData { get; set; }
     public string StatusMessage { get; set; } = "";
 
     protected override void OnInitialized()
@@ -407,54 +408,57 @@ To handle dynamic changes in the data source, the Gantt Chart supports binding t
 
     public void AddRecord()
     {
-        int newId = ObservableData.Any() ? ObservableData.Max(t => t.TaskID) + 1 : 1;
-        Random rand = new Random();
+          int newId = ObservableData.Any() ? ObservableData.Max(t => t.TaskId) + 1 : 1;
+            Random rand = new Random();
 
-        int randomProgress = rand.Next(0, 101);
-        int randomDuration = rand.Next(1, 6);
+            int randomProgress = rand.Next(0, 101);
+            int randomDuration = rand.Next(1, 6);
 
-        ObservableData.Add(new TaskData()
-        {
-            TaskID = newId,
-            TaskName = $"New Task {newId}",
-            StartDate = DateTime.Now,
-            Duration = randomDuration.ToString(),
-            Progress = randomProgress
-        });
+            ObservableData.Add(new TaskData()
+            {
+                TaskId = newId,
+                TaskName = $"New Task {newId}",
+                StartDate = DateTime.Now,
+                Duration = randomDuration.ToString(),
+                Progress = randomProgress
+            });
     }
 
     public void DeleteRecord()
     {
-        if (ObservableData.Count != 0)
-        {
-            int deleteRecordTaskID = ObservableData.First().TaskID;
-            ObservableData.Remove(ObservableData.First());
-            RemoveChild(deleteRecordTaskID);
-        }
+       
+            if (ObservableData.Count != 0)
+            {
+                int deleteRecordTaskID = ObservableData.First().TaskId;
+                ObservableData.Remove(ObservableData.First());
+                RemoveChild(deleteRecordTaskID);
+            }
+        
     }
 
     public void RemoveChild(int id)
     {
-        var childRecords = ObservableData.Where(t => t.ParentID == id).ToList();
-        foreach (var child in childRecords)
-        {
-            RemoveChild(child.TaskID);
-            ObservableData.Remove(child);
-        }
+            var childRecords = ObservableData.Where(t => t.ParentId == id).ToList();
+            foreach (var child in childRecords)
+            {
+                RemoveChild(child.TaskId);
+                ObservableData.Remove(child);
+            }
+        
     }
 
     public ObservableCollection<TaskData> ProjectNewData()
     {
         return new ObservableCollection<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08) },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1 },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08) },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 04, 06), Duration = "10" },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 04, 06), Duration = "4", Progress = 40, ParentId = 1 },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 07), Duration = "10" },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 30, ParentId = 5 },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 40, ParentId = 5 },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 07), Duration = "0", Progress = 30, ParentId = 5 }
         };
     }
 
@@ -473,20 +477,19 @@ To handle dynamic changes in the data source, the Gantt Chart supports binding t
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 }
 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjVeMXhmBmWiglpH?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZVnXHCIVLyxTPmz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### INotifyPropertyChanged
 
@@ -495,7 +498,7 @@ The Gantt chart provides support to update its data automatically when an item's
 This interface is used to notify that a property value has changed. For example, `TaskData` raises the `PropertyChanged` event when **TaskName** is updated, allowing Gantt to reflect the change without a manual refresh.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using Syncfusion.Blazor.Buttons
@@ -508,14 +511,14 @@ This interface is used to notify that a property value has changed. For example,
     </div>
 
     <SfGantt DataSource="@ObservableData" Toolbar="@(new List<string>() { "Cancel", "Edit", "Update" })">
-        <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
+        <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentId">
         </GanttTaskFields>
         <GanttEditSettings AllowEditing="true"></GanttEditSettings>
     </SfGantt>
 </div>
 
 @code {
-    public ObservableCollection<TaskData> ObservableData { get; set; }
+    public ObservableCollection<TaskData>? ObservableData { get; set; }
 
     protected override void OnInitialized()
     {
@@ -535,22 +538,22 @@ This interface is used to notify that a property value has changed. For example,
     {
         return new ObservableCollection<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08) },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1 },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08) },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 04, 06), Duration = "10" },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 04, 06), Duration = "4", Progress = 40, ParentId = 1 },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 07), Duration = "10" },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 30, ParentId = 5 },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 40, ParentId = 5 },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 07), Duration = "0", Progress = 30, ParentId = 5 }
         };
     }
 
     public class TaskData : INotifyPropertyChanged
     {
-        public int TaskID { get; set; }
+        public int TaskId { get; set; }
 
-        private string taskName;
+        private string? taskName;
         public string TaskName
         {
             get => taskName;
@@ -565,12 +568,11 @@ This interface is used to notify that a property value has changed. For example,
         }
 
         public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         private void NotifyPropertyChanged(string propertyName)
         {
@@ -582,11 +584,11 @@ This interface is used to notify that a property value has changed. For example,
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDVysjVQBwoWOmGQ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLdjdCoVhQOJIZn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Remote Data
 
-The Blazor component enables remote data binding by connecting UI components to server-side data sources. This approach facilitates fetching, displaying, and manipulating data stored on remote servers.
+The Syncfusion Blazor component enables remote data binding by connecting UI components to server-side data sources. This approach facilitates fetching, displaying, and manipulating data stored on remote servers.
 
 To bind remote data to the Gantt component, assign service data as an instance of [SfDataManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.SfDataManager.html) to the `DataSource` property or use the `SfDataManager` component.Set the service endpoint using the **Url** property to enable data operations.
 
@@ -598,7 +600,7 @@ To bind remote data to the Gantt component, assign service data as an instance o
 The Gantt Chart component utilizes the **WebApiAdaptor**, an extension of the **ODataAdaptor**, for seamless integration with Web API services, including OData V4 endpoints. This adaptor supports efficient data retrieval and operations such as sorting, filtering, searching, and paging. It communicates with Web API endpoints using HTTP requests in JSON format, ensuring compatibility with OData-formatted queries for stable connectivity to remote data sources.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.Gantt
@@ -606,26 +608,26 @@ The Gantt Chart component utilizes the **WebApiAdaptor**, an extension of the **
 
 <SfGantt TValue="GanttRemoteData" Height="450px">
     <SfDataManager Url="https://blazor.syncfusion.com/services/production/api/GanttData" Adaptor="Adaptors.WebApiAdaptor" CrossDomain="true"></SfDataManager>
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" Dependency="Predecessor" Child="SubTasks">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" Duration="Duration" Progress="Progress" Dependency="Predecessor" Child="SubTasks">
     </GanttTaskFields>
 </SfGantt>
 
-@code{
+@code {
     public class GanttRemoteData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public int? Duration { get; set; }
         public int Progress { get; set; }
-        public string Predecessor { get; set; }
-        public List<GanttRemoteData>SubTasks { get; set; }
+        public string? Predecessor { get; set; }
+        public List<GanttRemoteData>? SubTasks { get; set; }
     }
 }
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZVoMXhzJQuKjqpZ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBxNxMorqBpYhjl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### ODataV4 adaptor
 
@@ -1095,35 +1097,31 @@ N>You can find the sample for load on demand [here](https://github.com/Syncfusio
 To specify custom parameters in a data request, use the `addParams` method of the `Query` class. The configured `Query` object with additional parameters should be assigned to the Gantt component’s [Query](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.Query.html) property to include them in server communication.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
-@using Syncfusion.Blazor
-@using Syncfusion.Blazor.Data
-@using Syncfusion.Blazor.Gantt
- 
 <SfGantt TValue="TaskData" Height="450px" Width="700px" Query=@GanttQuery>
-<SfDataManager Url="/api/Home" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
-<GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
+    <SfDataManager Url="/api/Home" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
+    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
                      Progress="Progress" ParentID="ParentID">
-</GanttTaskFields>
-<GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" AllowTaskbarEditing="true"></GanttEditSettings>
+    </GanttTaskFields>
+    <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" AllowTaskbarEditing="true"></GanttEditSettings>
 </SfGantt>
- 
+
 @code {
-    private Query GanttQuery { get; set; }
- 
+    private Query? GanttQuery { get; set; }
+
     protected override void OnInitialized()
     {
         GanttQuery = new Query().AddParams("TaskID", 1);
     }
- 
+
     public class TaskData
     {
         public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
         public int? ParentID { get; set; }
     }
@@ -1157,14 +1155,14 @@ namespace URLAdaptor.Models
         {
             List<TaskDetails> Tasks = new List<TaskDetails>()
             {
-                new TaskDetails() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 7), },
-                new TaskDetails() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
-                new TaskDetails() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 01, 04), Duration = "4", Progress = 40, ParentID = 1, },
-                new TaskDetails() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
-                new TaskDetails() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 10), },
-                new TaskDetails() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 30, ParentID = 5, },
-                new TaskDetails() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 40, ParentID = 5, },
-                new TaskDetails() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 01, 06), Duration = "0", Progress = 30, ParentID = 5, }
+                new TaskDetails() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 07), },
+                new TaskDetails() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
+                new TaskDetails() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 04), Duration = "4", Progress = 40, ParentID = 1, },
+                new TaskDetails() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 04), Duration = "0", Progress = 30, ParentID = 1, },
+                new TaskDetails() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 04), EndDate = new DateTime(2026, 01, 10), },
+                new TaskDetails() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 06), Duration = "3", Progress = 30, ParentID = 5, },
+                new TaskDetails() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 06), Duration = "3", Progress = 40, ParentID = 5, },
+                new TaskDetails() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 06), Duration = "0", Progress = 30, ParentID = 5, }
             };
             return Tasks;
         }
@@ -1280,38 +1278,41 @@ Exceptions triggered during Gantt operations can be handled effectively without 
 The following sample code demonstrates notifying user when server-side exception has occurred during data operation:
 
 {% tabs %}
-{% highlight razor %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.Data
 @using Syncfusion.Blazor.Gantt
-@using Syncfusion.Blazor.Grids
+
 
 <label class="error" style="display:block; color: red; margin-bottom: 20px;">@ErrorDetails</label>
 <SfGantt TValue="TaskData" Height="450px" Width="700px">
-     <SfDataManager Url="https://some.com/invalidUrl" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
-        Progress="Progress" ParentID="ParentID">
+    <SfDataManager Url="https://some.com/invalidUrl" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
+                     Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEvents TValue="TaskData" OnActionFailure="ActionFailure"></GanttEvents>
 </SfGantt>
 
-@code{
+@code {
     private string ErrorDetails = "";
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 
     public void ActionFailure(Syncfusion.Blazor.Grids.FailureEventArgs args)
     {
-        this.ErrorDetails = args.Error.Message.ToString();
+        if (args != null && args.Error != null)
+        {
+            this.ErrorDetails = args.Error.Message.ToString();
+        }
         StateHasChanged();
     }
 }
@@ -1319,7 +1320,7 @@ The following sample code demonstrates notifying user when server-side exception
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrosNrTBJxCLRgJ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBHDdCoVzBmuLfQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Handling exceptions
 
@@ -1351,38 +1352,40 @@ The following sample code demonstrates notifying user when server-side exception
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.Data
 @using Syncfusion.Blazor.Gantt
-@using Syncfusion.Blazor.Grids
-
 <label class="error" style="display:block; color: red; margin-bottom: 20px;">@ErrorDetails</label>
 <SfGantt TValue="TaskData" Height="450px" Width="700px">
-     <SfDataManager Url="https://some.com/invalidUrl" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
-        Progress="Progress" ParentID="ParentID">
+    <SfDataManager Url="https://some.com/invalidUrl" Adaptor="Adaptors.UrlAdaptor"></SfDataManager>
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration"
+                     Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEvents TValue="TaskData" OnActionFailure="ActionFailure"></GanttEvents>
 </SfGantt>
 
-@code{
+@code {
     private string ErrorDetails = "";
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 
     public void ActionFailure(Syncfusion.Blazor.Grids.FailureEventArgs args)
     {
-        this.ErrorDetails = args.Error.Message.ToString();
+        if (args != null && args.Error != null)
+        {
+            this.ErrorDetails = args.Error.Message.ToString();
+        }
         StateHasChanged();
     }
 }
 
+
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrosNrTBJxCLRgJ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5"  %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VDBdjdsyVpzeOzOT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2"  %}
