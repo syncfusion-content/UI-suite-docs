@@ -2,7 +2,7 @@
 layout: post
 title: Radial Range Pointer in .NET MAUI Radial Gauge control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about Range Pointer feature of Syncfusion<sup>&reg;</sup> .NET MAUI Radial Gauge control with customization support.
-platform: chart-sdk
+platform: maui
 control: SfRadialGauge
 documentation: ug
 ---

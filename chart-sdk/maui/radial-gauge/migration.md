@@ -2,7 +2,7 @@
 layout: post
 title: Migrate from Xamarin to .NET MAUI Radial Gauge | Syncfusion
 description: Learn here all about Migrating from Syncfusion Xamarin SfCircularGauge to Syncfusion<sup>&reg;</sup> .NET MAUI SfRadialGauge control and more.
-platform: chart-sdk
+platform: MAUI
 control: SfRadialGauge
 documentation: ug
 ---  

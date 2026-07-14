@@ -2,7 +2,7 @@
 layout: post
 title: AI-Driven smart location search in .NET MAUI Maps control | Syncfusion
 description: Learn here all about the AI-Driven smart location searching feature of Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

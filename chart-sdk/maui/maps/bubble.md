@@ -2,7 +2,7 @@
 layout: post
 title: Bubbles in .NET MAUI Maps Control | Syncfusion<sup>&reg;</sup>
 description: Learn all about the Bubbles feature of Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control to customize their appearances and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Shape Sublayer in Maps control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about the Shape Sublayer feature of the Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control to customize their appearances and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

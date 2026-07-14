@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in .NET MAUI TreeMap Control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about how to customize the appearance of tooltip in Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap control and more.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

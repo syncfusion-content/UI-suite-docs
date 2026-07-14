@@ -2,7 +2,7 @@
 layout: post
 title: Legend in .NET MAUI TreeMap Control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about how to customize the appearance of legend items in Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap control by changing text color, icon size, and more.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Events in .NET MAUI TreeMap (SfTreemap) Control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about the Events support in the Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap (SfTreemap) control and more.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

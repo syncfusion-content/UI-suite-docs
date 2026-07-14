@@ -2,7 +2,7 @@
 layout: post
 title: Legend in .NET MAUI Maps control | Syncfusion<sup>&reg;</sup>
 description: Learn all about the Legend feature of Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control to customize its appearance including text, icon and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

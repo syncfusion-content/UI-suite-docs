@@ -2,7 +2,7 @@
 layout: post
 title: Shape Selection in .NET MAUI Maps control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about the Shape Selection feature of Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

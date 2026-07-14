@@ -2,7 +2,7 @@
 layout: post
 title: Shape in .NET MAUI Maps control | Syncfusion<sup>&reg;</sup>
 description: Learn all about different shape appearance customization options of the Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 keywords: .net maui maps, .net maui shape maps.

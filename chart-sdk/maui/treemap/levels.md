@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Levels in .NET MAUI TreeMap | Syncfusion<sup>&reg;</sup>
 description: Learn about the levels within Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap control, exploring its fundamental features and functionalities for effective treemap visualization.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

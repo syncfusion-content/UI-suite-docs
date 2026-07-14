@@ -2,7 +2,7 @@
 layout: post
 title: Adding Arc layer in Maps control  | Syncfusion
 description: Learn here all about adding the Arc Layer feature of Syncfusion .NET MAUI Maps (SfMaps) control to customize their appearances and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---

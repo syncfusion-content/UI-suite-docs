@@ -2,7 +2,7 @@
 layout: post
 title: Drilldown support in .NET MAUI TreeMap Control | Syncfusion<sup>&reg;</sup>
 description: Learn here all about Drilldown feature and the header customization of Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap (SfTreeMap) control and more.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

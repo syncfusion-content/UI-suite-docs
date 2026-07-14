@@ -2,7 +2,7 @@
 layout: post
 title: Migrate from Xamarin to .NET MAUI TreeMap (SfTreeMap) | Syncfusion<sup>&reg;</sup>
 description: Learn about Migrating from Syncfusion<sup>&reg;</sup> Xamarin.Forms TreeMap control to .NET MAUI TreeMap (SfTreeMap) control.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

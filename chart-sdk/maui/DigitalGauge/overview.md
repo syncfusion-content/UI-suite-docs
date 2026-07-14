@@ -2,7 +2,7 @@
 layout: post
 title: About .NET MAUI Digital Gauge control | Syncfusion
 description: Learn here all about introduction of Syncfusion<sup>&reg;</sup> .NET MAUI Digital Gauge (SfDigitalGauge) control, its elements and more.
-platform: chart-sdk
+platform: maui
 control: DigitalGauge
 documentation: ug
 keywords: .net maui, .net maui digital gauge, digital gauge, character segments, digital character, character types, character display types

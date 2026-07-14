@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with .NET MAUI Maps control | Syncfusion
 description: Learn here about getting started with Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control, its elements, and more. 
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 keywords: .net maui maps, .net maui maps library.

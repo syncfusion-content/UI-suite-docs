@@ -2,7 +2,7 @@
 layout: post
 title: Brush Settings in .NET MAUI TreeMap Control | Syncfusion®
 description: Learn here how to apply brush settings for tree map items in Syncfusion<sup>&reg;</sup> .NET MAUI TreeMap control, enhancing the tree map visualization.
-platform: chart-sdk
+platform: maui
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Data Labels in .NET MAUI Maps control | Syncfusion<sup>&reg;</sup>
 description: Learn all about the Data Labels feature of Syncfusion<sup>&reg;</sup> .NET MAUI Maps (SfMaps) control to add labels to the shapes and more.
-platform: chart-sdk
+platform: MAUI
 control: SfMaps
 documentation: ug
 ---
