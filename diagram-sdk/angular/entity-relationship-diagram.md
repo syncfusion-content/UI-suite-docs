@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erConnectorShapeModel).
 
-ER entity nodes are added to the [nodes](https://ej2.syncfusion.com/angular/documentation/api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/angular/documentation/api/diagram#connectors) property.
+ER entity nodes are added to the [nodes](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel) property.
 
 ## ER Diagram Elements
 
@@ -45,9 +45,9 @@ The header is the top section of an ER entity node that displays the entity name
 
 | ER Header Property | Description |
 |---|---|
-| [annotation](https://ej2.syncfusion.com/angular/documentation/api/diagram/erHeaderModel#annotation) | Defines the text content displayed in the header. |
+| [annotation](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotationmodel) | Defines the text content displayed in the header. |
 | [height](https://ej2.syncfusion.com/angular/documentation/api/diagram/erHeaderModel#height) | Defines the height of the header area in pixels. |
-| [style](https://ej2.syncfusion.com/angular/documentation/api/diagram/erHeaderModel#style) | Defines style properties such as fill color, text color, and font settings. |
+| [style](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapestylemodel) | Defines style properties such as fill color, text color, and font settings. |
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -83,7 +83,7 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 | [isForeignKey](https://ej2.syncfusion.com/angular/documentation/api/diagram/erFieldModel#isforeignkey) | Indicates whether the field is a foreign key that references another entity. |
 | [constraints](https://ej2.syncfusion.com/angular/documentation/api/diagram/erFieldModel#constraints) | Defines additional constraints applied to the field. Accepts one or more [ErFieldConstraint](./api/diagram/erfieldconstraint) values. |
 | [style](https://ej2.syncfusion.com/angular/documentation/api/diagram/erFieldModel#style) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
-| [annotation](https://ej2.syncfusion.com/angular/documentation/api/diagram/erFieldModel#annotation) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotation#style) property is applicable. The annotation [content](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotation#content) property is ignored. |
+| [annotation](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotationmodel) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotation#style) property is applicable. The annotation [content](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeannotation#content) property is ignored. |
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
