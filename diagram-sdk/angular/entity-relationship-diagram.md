@@ -101,7 +101,7 @@ N> If no fields are specified, a default single field is automatically added to 
 
 ### Add or remove ER fields at runtime
 
-ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/angular/documentation/api/diagram#addErField) and [removeErField](https://ej2.syncfusion.com/angular/documentation/api/diagram#removeErField) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
+ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/angular/documentation/api/diagram#adderfield) and [removeErField](https://ej2.syncfusion.com/angular/documentation/api/diagram#removeerfield) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
 
 The `addErField` method adds a field to an ER entity node.
 
@@ -139,7 +139,7 @@ if (fieldToRemove) {
 
 ### Configure default field appearance
 
-The [fieldDefaults](https://ej2.syncfusion.com/angular/documentation/api/diagram/erFieldDefaults) property defines the default visual appearance for all fields in an ER entity node. These settings are applied to every field unless they are overridden by individual field-level style settings.
+The [fieldDefaults](https://ej2.syncfusion.com/angular/documentation/api/diagram/erfielddefaults) property defines the default visual appearance for all fields in an ER entity node. These settings are applied to every field unless they are overridden by individual field-level style settings.
 
 | ER Field Defaults Property | Description |
 |---|---|
@@ -167,7 +167,7 @@ The appearance of ER entities and their fields can be customized using style pro
 
 N> Field-level styles override applicable node-level and field default styles.
 
-The [erEntityChanged](https://ej2.syncfusion.com/angular/documentation/api/diagram#erEntityChanged) event is triggered when ER entity fields are added, removed, or reordered. This event provides the previous and updated entity states, which can be used to track modifications, validate field changes, or synchronize updates with an external data source.
+The [erEntityChanged](https://ej2.syncfusion.com/angular/documentation/api/diagram#erentitychanged) event is triggered when ER entity fields are added, removed, or reordered. This event provides the previous and updated entity states, which can be used to track modifications, validate field changes, or synchronize updates with an external data source.
 
 ```typescript
 
