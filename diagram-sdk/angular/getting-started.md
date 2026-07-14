@@ -28,7 +28,7 @@ The main files used in this guide are:
 - `src/styles.css` — Contains global styles and Syncfusion® theme references.
 - `src/index.html` — Contains the Angular root element.
 
-N> In newer Angular CLI standalone projects, the root component may be generated as `src/app/app.ts`. In NgModule-based Angular projects, the equivalent file is typically `src/app/app.component.ts`.
+N> In newer Angular CLI standalone projects, the root component may be generated as **src/app/app.ts**. In NgModule-based Angular projects, the equivalent file is typically **src/app/app.component.ts**.
 
 N> If your application uses an older NgModule-based structure, import `DiagramModule` in the application module, such as `app.module.ts`, instead of adding it to the standalone component `imports` collection.
 
@@ -109,7 +109,7 @@ N> Syncfusion® provides multiple built-in themes. If the application uses a dif
 
 Import `DiagramModule` from `@syncfusion/ej2-angular-diagrams` and add it to the `imports` collection of the standalone component. Then, add the Angular Diagram component using the `<ejs-diagram>` selector in the component template.
 
-Update the `src/app/app.ts` file as follows:
+Update the **src/app/app.ts** file as follows:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -127,7 +127,7 @@ export class App {}
 
 This renders an empty diagram in the application.
 
-N> The component selector must match the root element used in the `src/index.html` file. Angular CLI commonly uses `<app-root></app-root>`, so this example uses `selector: 'app-root'`.
+N> The component selector must match the root element used in the **src/index.html** file. Angular CLI commonly uses `<app-root></app-root>`, so this example uses `selector: 'app-root'`.
 
 N> The Diagram component must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
@@ -138,7 +138,7 @@ This section explains how to create a simple flowchart by adding nodes, customiz
 
 The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` properties.
 
-Update the `src/app/app.ts` file as follows:
+Update the **src/app/app.ts** file as follows:
 
 ```typescript
 import { Component } from '@angular/core';
