@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Code Blocks in JavaScript Block Editor control
 
-The Syncfusion Block Editor allows you to render code snippets with syntax highlighting by setting the block's [blockType](../../api/blockeditor/blockModel#blockType) property to [Code](../../api/blockeditor/blocktype). You can customize the available programming languages and set a default language using the [properties](../../api/blockeditor/blockmodel#properties) property.
+The Syncfusion Block Editor allows you to render code snippets with syntax highlighting by setting the block's [blockType](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/blockmodel#blocktype) property to [Code](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/blocktype). You can customize the available programming languages and set a default language using the [properties](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/blockmodel#properties) property.
 
 ## Global Code Settings
 
@@ -21,14 +21,14 @@ The `codeBlockSettings` property supports the following options:
 
 | Property | Description | Default Value |
 |----------|-------------|---------------|
-| [languages](../../api/blockeditor/codeSettingsModel#languages) | Specifies the array of language options for syntax highlighting. | [] |
-| [defaultLanguage](../../api/blockeditor/codeSettingsModel#defaultlanguage) | Defines the default language to use for syntax highlighting. | 'plaintext' |
+| [languages](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/codeblocksettingsmodel#languages) | Specifies the array of language options for syntax highlighting. | [] |
+| [defaultLanguage](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/codeblocksettingsmodel#defaultlanguages) | Defines the default language to use for syntax highlighting. | 'plaintext' |
 
 ## Configure code properties
 
-For Code blocks, you can specify the language for syntax highlighting using the [properties](../../api/blockeditor/blockModel) property. This property supports the following options:
+For Code blocks, you can specify the language for syntax highlighting using the [properties](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/blockmodel#properties) property. This property supports the following options:
 
-- [language](../../api/blockeditor/codeLanguageModel#language): The default language value used for syntax highlighting.
+- [language](https://ej2.syncfusion.com/javascript/documentation/api/blockeditor/codelanguagemodel#language): The default language value used for syntax highlighting.
 
 ### Block type & properties
 ```typescript

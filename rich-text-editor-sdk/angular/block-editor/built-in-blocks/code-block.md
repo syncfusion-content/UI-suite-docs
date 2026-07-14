@@ -27,7 +27,7 @@ The `codeBlockSettings` property supports the following options:
 
 For Code blocks, you can specify the language for syntax highlighting using the [properties](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockmodel) property. This property supports the following options:
 
-- [language](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/codeLanguageModel#language): The default language value used for syntax highlighting.
+- [language](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/codelanguagemodel#language): The default language value used for syntax highlighting.
 
 ### Block type & properties
 ```typescript
