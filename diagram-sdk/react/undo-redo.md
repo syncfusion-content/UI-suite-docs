@@ -109,7 +109,7 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 
 ### Accessing Undo and Redo Stacks
 
-The [`undoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/historyentry) property is used to get the collection of undo actions which should be performed in the diagram. The [`redoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/historyentry) property is used to get the collection of redo actions which should be performed in the diagram. The undoStack/redoStack is the read-only property.
+The [`undoStack`](https://ej2.syncfusion.com/react/documentation/api/diagram/historyentry) property is used to get the collection of undo actions which should be performed in the diagram. The [`redoStack`](https://ej2.syncfusion.com/react/documentation/api/diagram/historyentry) property is used to get the collection of redo actions which should be performed in the diagram. The undoStack/redoStack is the read-only property.
 
 ```ts
 let diagramInstance: DiagramComponent;
@@ -151,7 +151,7 @@ The [`canUndo`](https://helpej2.syncfusion.com/react/documentation/api/diagram/h
 
 ### Current Entry Tracking
 
-During user interactions with nodes or connectors, the current history entry is stored in the [`currentEntry`](https://helpej2.syncfusion.com/react/documentation/api/diagram/historyentry) property of the [`historyManager`](https://ej2.syncfusion.com/react/documentation/api/diagram/history).
+During user interactions with nodes or connectors, the current history entry is stored in the [`currentEntry`](https://ej2.syncfusion.com/react/documentation/api/diagram/historyentry) property of the [`historyManager`](https://ej2.syncfusion.com/react/documentation/api/diagram/history).
 
 The following code shows how to get the current entry from the diagram history:
 
@@ -179,7 +179,7 @@ diagramInstance.clearHistory();
 ```
 ### Retrieving History Stacks
 
-The [`getHistoryStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/historyentry) method retrieves either the [`undoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#undostack) or [`redoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/historyentry) from the history manager. Pass **true** to get the undo stack or false to get the redo stack:
+The [`getHistoryStack`](https://ej2.syncfusion.com/react/documentation/api/diagram/historyentry) method retrieves either the [`undoStack`](https://ej2.syncfusion.com/react/documentation/api/diagram/history#undostack) or [`redoStack`](https://ej2.syncfusion.com/react/documentation/api/diagram/historyentry) from the history manager. Pass **true** to get the undo stack or false to get the redo stack:
 
 ```ts
 // Fetch undoStack from history manager

@@ -18,7 +18,7 @@ The React Diagram component supports two types of user handles:
 
 ## Create user handle
 
-To create user handles, define and add them to the [`userHandles`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userhandlemodel) collection of the [`selectedItems`](https://ej2.syncfusion.com/react/documentation/api/diagram/selectormodel) property. The [`name`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#pathdata) property is used to define the SVG path data that determines the visual appearance of the user handle icon.
+To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/react/documentation/api/diagram/userhandlemodel) collection of the [`selectedItems`](https://ej2.syncfusion.com/react/documentation/api/diagram/selectormodel) property. The [`name`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#pathdata) property is used to define the SVG path data that determines the visual appearance of the user handle icon.
 
 The following example shows how to render user handle.
 
@@ -113,7 +113,7 @@ Additional tooltip properties can be customized, such as [`position`](https://ej
 
 ## Appearance
 
-The appearance of the user handle can be customized by using the [`size`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#size), [`borderColor`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#bordercolor), [`backgroundColor`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#backgroundcolor), [`borderWidth`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#borderwidth), [`visible`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#visible), and [`pathColor`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#pathcolor) properties of the userHandles.  
+The appearance of the user handle can be customized by using the [`size`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#size), [`borderColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#bordercolor), [`backgroundColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#backgroundcolor), [`borderWidth`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#borderwidth), [`visible`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#visible), and [`pathColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#pathcolor) properties of the userHandles.  
 
 The following example demonstrates, how to use these properties to customize the appearance of user handle
 
