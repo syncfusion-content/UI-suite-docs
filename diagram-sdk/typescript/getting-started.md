@@ -37,7 +37,7 @@ After cloning the application in the **ej2-quickstart** folder, run the followin
 cd ej2-quickstart
 ```
 
-## Install Syncfusion TypeScript packages
+## Install Syncfusion® TypeScript packages
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. The quickstart application is preconfigured with the dependent `@syncfusion/ej2` package in the **package.json** file. Use the following command to install the dependent npm packages from the command prompt.
 
@@ -45,17 +45,13 @@ Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style
 npm install
 ```
 
-## Import Syncfusion CSS styles
+## Import Syncfusion® CSS styles
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls come with built-in themes, which are available in the installed packages. It's easy to adapt the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls to match the style of your application by referring to one of the built-in themes.
+The Diagram control needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
 
-You can add the CSS files required for the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Diagram component using one of the following methods.
+### Option 1: Add styles from a theme package
 
-### Option 1: Add CSS references from a theme package
-
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Diagram components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
-
-Install the **Tailwind 3** theme package using the following command:
+Syncfusion® theme packages include ready-to-use styles for supported controls. Install the Tailwind 3 theme package using the following command:
 
 ```
 npm install @syncfusion/ej2-tailwind3-theme --save
@@ -64,12 +60,14 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 Then add the following CSS reference to the **src/styles/styles.css** file:
 
 ```
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+@import "../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
 ```
 
-### Option 2: Add CSS references from component packages
+For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
 
-After installing the Diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/styles/styles.css** file:
+### Option 2: Add styles from control packages
+
+After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the required Syncfusion® styles to the **src/styles/styles.css** file:
 
 ```
 @import "../../node_modules/@syncfusion/ej2-diagrams/styles/tailwind.css";
@@ -78,7 +76,7 @@ After installing the Diagram package, the required CSS files are available in th
 @import "../../node_modules/@syncfusion/ej2-navigations/styles/tailwind.css";
 ```
 
-N> Learn more about [built-in themes and individual control CSS references](https://ej2.syncfusion.com/documentation/appearance/theme).
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
 ### Add the HTML element
 
