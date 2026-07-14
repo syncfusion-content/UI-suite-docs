@@ -119,7 +119,7 @@ N> HTML nodes cannot be exported to image formats (JPEG or PNG) due to canvas re
 
 ### HTML Node with Content Template
 
-To render an HTML node with a content template, we need to define the desired template string within the [`content`](../api/diagram/htmlmodel#content) property. The following code illustrates how to create an HTML node with a content template:
+To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/htmlmodel#content) property. The following code illustrates how to create an HTML node with a content template:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
