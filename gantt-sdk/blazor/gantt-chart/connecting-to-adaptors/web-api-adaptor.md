@@ -182,7 +182,7 @@ app.MapControllers();
 
 Run the application in Visual Studio. The API will be accessible at a URL like **https://localhost:xxxx/api/Gantt** (where **xxxx** represents the port number from **launchSettings.json**). Verify that the API returns the task data before proceeding.
 
-![Gantt WebApiAdaptor](../images/blazor-webapi-adaptors.png)
+![Gantt WebApiAdaptor](../images/blazor-webapi-adaptors.webp)
 
 ## Connecting Blazor Gantt Chart to an API service
 
