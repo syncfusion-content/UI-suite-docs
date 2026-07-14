@@ -106,14 +106,14 @@ The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/block-editor/editor-menus/context-menu/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/block-editor/editor-menus/context-menu/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
