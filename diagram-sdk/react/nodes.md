@@ -46,7 +46,7 @@ N> Node id should not begin with numbers(should begin with a letter). Node Id sh
 
 ### Create Node from Data Source
 
-Nodes can be generated automatically using the dataSource property. Default properties for these nodes are retrieved from([`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getnodedefaults)) settings. For detailed information about data binding, refer to [`DataBinding`](https://help.syncfusion.com/diagram-sdk/react/data-binding).
+Nodes can be generated automatically using the dataSource property. Default properties for these nodes are retrieved from([`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getnodedefaults)) settings. For detailed information about data binding, refer to [`DataBinding`](./data-binding).
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

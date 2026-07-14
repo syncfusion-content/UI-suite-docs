@@ -314,4 +314,4 @@ The output will appear as follows:
 
 ## See also
 
-[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../getting-started)
+[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](https://help.syncfusion.com/diagram-sdk/react/getting-started)
