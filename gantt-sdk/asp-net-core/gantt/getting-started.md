@@ -39,8 +39,9 @@ To get started quickly with the ASP.NET Core Gantt Chart, watch the following vi
 4. Click `Next`.
 
 5. In the Additional information dialog:
-* Select **.NET 10.0**.
-* Verify: **Do not use top-level statements** is **unchecked**.
+
+- Select **.NET 10.0**.
+- Verify: **Do not use top-level statements** is **unchecked**.
 
 6. Click `Create`.
 
@@ -58,23 +59,22 @@ Install-Package Syncfusion.EJ2.AspNet.Core -Version {{ site.releaseversion }}
 {% endhighlight %}
 {% endtabs %}
 
-
 {% endtabcontent %}
 
 {% tabcontent Visual Studio Code %}
 
 ## Prerequisites
 
-* [Visual Studio Code](https://code.visualstudio.com/download)
-* [C# Dev Kit for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
-* [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [C# Dev Kit for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
 ## Create an ASP.NET Core Razor Pages project using Visual Studio Code:
 
-* Install the latest **.NET SDK** that supports **.NET 10.0** or later.
-* Open **Visual Studio Code**.
-* Press **Ctrl + `** to open the integrated terminal.
-* Run the following commands:
+- Install the latest **.NET SDK** that supports **.NET 10.0** or later.
+- Open **Visual Studio Code**.
+- Press **Ctrl + `** to open the integrated terminal.
+- Run the following commands:
 
 {% tabs %}
 {% highlight C# tabtitle=".NET CLI" %}
@@ -94,7 +94,7 @@ To integrate the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core G
 2. Navigate to the directory containing the **.csproj** file.
 3. Run the following commands to install the packages:
 
-* [Syncfusion.EJ2.AspNet.Core](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/)
+- [Syncfusion.EJ2.AspNet.Core](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/)
 
 {% tabs %}
 {% highlight C# tabtitle="Package Manager" %}
@@ -111,12 +111,13 @@ dotnet add package Syncfusion.EJ2.AspNet.Core --version {{ site.releaseversion }
 > Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). Refer to the [NuGet packages topic](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) to learn more about installing NuGet packages in various OS environments. The `Syncfusion.EJ2.AspNet.Core` NuGet package has dependencies: [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) for JSON serialization and [Syncfusion.Licensing](https://www.nuget.org/packages/Syncfusion.Licensing/) for validating the Syncfusion<sup style="font-size:70%">&reg;</sup> license key.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Tag Helper
+
 Open `~/Pages/_ViewImports.cshtml` file and import the `Syncfusion.EJ2` TagHelper.
 
 {% tabs %}
 {% highlight cs tabtitle="~/_ViewImports.cshtml" %}
 
-@addTagHelper *, Syncfusion.EJ2
+@addTagHelper \*, Syncfusion.EJ2
 
 {% endhighlight %}
 {% endtabs %}
@@ -198,15 +199,15 @@ Map your data fields to Gantt Chart properties using `taskFields`:
 
 ### Field mapping reference
 
-| Property | Description | Required |
-|----------|-------------|----------|
-| `id` | Unique task identifier | Yes |
-| `name` | Task display name | Yes |
-| `startDate` | Task start date | Yes |
-| `endDate` | Task end date | No |
-| `duration` | Task duration in days | Yes |
-| `progress` | Task completion percentage (0-100) | No |
-| `parentID` | Parent task ID for hierarchy | No |
+| Property    | Description                        | Required |
+| ----------- | ---------------------------------- | -------- |
+| `id`        | Unique task identifier             | Yes      |
+| `name`      | Task display name                  | Yes      |
+| `startDate` | Task start date                    | Yes      |
+| `endDate`   | Task end date                      | No       |
+| `duration`  | Task duration in days              | Yes      |
+| `progress`  | Task completion percentage (0-100) | No       |
+| `parentID`  | Parent task ID for hierarchy       | No       |
 
 ## Add ASP.NET Core Gantt control
 
@@ -214,10 +215,10 @@ Now, add the ASP.NET Core Gantt tag helper in the `~/Pages/Index.cshtml` page an
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/gantt-sdk/asp-net-core/gantt-chart/getting-started/gantt/tagHelper %}
+{% include code-snippet/gantt-sdk/asp-net-core/gantt/getting-started/gantt/tagHelper %}
 {% endhighlight %}
 {% highlight cs tabtitle="Index.cshtml.cs" %}
-{% include code-snippet/gantt-sdk/asp-net-core/gantt-chart/getting-started/gantt/gantt-core.cs %}
+{% include code-snippet/gantt-sdk/asp-net-core/gantt/getting-started/gantt/gantt-core.cs %}
 {% endhighlight %}
 {% endtabs %}
 

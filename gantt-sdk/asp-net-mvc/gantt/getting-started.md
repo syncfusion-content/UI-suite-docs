@@ -8,7 +8,6 @@ publishingplatform: gantt-sdk
 documentation: ug
 ---
 
-
 # Getting Started with ASP.NET MVC Gantt Control
 
 This guide walks you through setting up and integrating the [ASP.NET MVC Gantt](https://www.syncfusion.com/aspnet-mvc-ui-controls/gantt-chart) control in your application using Visual Studio. You’ll learn how to configure the component, bind task data, map fields, and quickly visualize project timelines in just a few steps.
@@ -21,9 +20,9 @@ This guide walks you through setting up and integrating the [ASP.NET MVC Gantt](
 
 ## Create ASP.NET MVC application with HTML helper
 
-* [Create a Project using Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started#create-your-first-app)
+- [Create a Project using Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started#create-your-first-app)
 
-* [Create a Project using Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Extension](https://ej2.syncfusion.com/aspnetmvc/documentation/visual-studio-integration/create-project)
+- [Create a Project using Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Extension](https://ej2.syncfusion.com/aspnetmvc/documentation/visual-studio-integration/create-project)
 
 ## Install ASP.NET MVC package in the application
 
@@ -138,15 +137,15 @@ TaskFields(ts => ts.Id("TaskId").Name(
 
 ### Field mapping reference
 
-| Property | Description | Required |
-|----------|-------------|----------|
-| `id` | Unique task identifier | Yes |
-| `name` | Task display name | Yes |
-| `startDate` | Task start date | Yes |
-| `endDate` | Task end date | No |
-| `duration` | Task duration in days | Yes |
-| `progress` | Task completion percentage (0-100) | No |
-| `parentID` | Parent task ID for hierarchy | No |
+| Property    | Description                        | Required |
+| ----------- | ---------------------------------- | -------- |
+| `id`        | Unique task identifier             | Yes      |
+| `name`      | Task display name                  | Yes      |
+| `startDate` | Task start date                    | Yes      |
+| `endDate`   | Task end date                      | No       |
+| `duration`  | Task duration in days              | Yes      |
+| `progress`  | Task completion percentage (0-100) | No       |
+| `parentID`  | Parent task ID for hierarchy       | No       |
 
 ## Add ASP.NET MVC Gantt Control
 
@@ -156,7 +155,7 @@ Bind the data with Gantt control by using the [DataSource](https://help.syncfusi
 
 {% tabs %}
 {% highlight razor tabtitle="Index.cshtml" %}
-{% include code-snippet/gantt-sdk/asp-net-mvc/gantt-chart/getting-started/gantt/razor %}
+{% include code-snippet/gantt-sdk/asp-net-mvc/gantt/getting-started/gantt/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
 using System;
@@ -165,35 +164,36 @@ using System.Web.Mvc;
 
 public class HomeController : Controller
 {
-    public ActionResult Index()
-    {
-        return View(ganttData());
-    }
-    public static List<GanttDataSource> ganttData()
-    {
-        List<GanttDataSource> GanttDataSourceCollection = new List<GanttDataSource>()
-        {
-            new GanttDataSource() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2019, 04, 02), EndDate = new DateTime(2019, 04, 21) },
-            new GanttDataSource() { TaskId = 2, TaskName = "Identify site location", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 70, ParentID = 1 },
-            new GanttDataSource() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 50, ParentID = 1 },
-            new GanttDataSource() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 50, ParentID = 1 },
-            new GanttDataSource() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2019, 04, 02), EndDate = new DateTime(2019, 04, 21) },
-            new GanttDataSource() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2019, 04, 04), Duration = 3, Progress = 70, ParentID = 5 },
-            new GanttDataSource() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2019, 04, 04), Duration = 3, Progress = 50, ParentID = 5 }
-        };
+public ActionResult Index()
+{
+return View(ganttData());
+}
+public static List<GanttDataSource> ganttData()
+{
+List<GanttDataSource> GanttDataSourceCollection = new List<GanttDataSource>()
+{
+new GanttDataSource() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2019, 04, 02), EndDate = new DateTime(2019, 04, 21) },
+new GanttDataSource() { TaskId = 2, TaskName = "Identify site location", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 70, ParentID = 1 },
+new GanttDataSource() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 50, ParentID = 1 },
+new GanttDataSource() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2019, 04, 02), Duration = 4, Progress = 50, ParentID = 1 },
+new GanttDataSource() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2019, 04, 02), EndDate = new DateTime(2019, 04, 21) },
+new GanttDataSource() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2019, 04, 04), Duration = 3, Progress = 70, ParentID = 5 },
+new GanttDataSource() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2019, 04, 04), Duration = 3, Progress = 50, ParentID = 5 }
+};
 
         return GanttDataSourceCollection;
     }
+
 }
 public class GanttDataSource
 {
-    public int TaskId { get; set; }
-    public string TaskName { get; set; }
-    public DateTime StartDate { get; set; }
-    public DateTime EndDate { get; set; }
-    public int? Duration { get; set; }
-    public int Progress { get; set; }
-    public int? ParentID { get; set; }
+public int TaskId { get; set; }
+public string TaskName { get; set; }
+public DateTime StartDate { get; set; }
+public DateTime EndDate { get; set; }
+public int? Duration { get; set; }
+public int Progress { get; set; }
+public int? ParentID { get; set; }
 }
 {% endhighlight %}
 {% endtabs %}
