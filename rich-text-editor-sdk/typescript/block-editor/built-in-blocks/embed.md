@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embed Blocks in ##Platform_Name## Block Editor control | Syncfusion
+title: Embed Blocks in TypeScript Block Editor control | Syncfusion
 description: Checkout and learn about Embed Blocks with TypeScript Block Editor control of Syncfusion Essential JS 2 and more.
 platform: rich-text-editor-sdk
 control: Block Editor
