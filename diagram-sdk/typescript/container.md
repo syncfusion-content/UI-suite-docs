@@ -49,7 +49,7 @@ The following code illustrates how to create a container node:
 
 ### Setting a Header
 
-You can provide a textual description for a container using its [header](https://ej2.syncfusion.com/documentation/api/diagram/ContainerModel#header) property. Also, users can customize the header's appearance using the header's [style](https://ej2.syncfusion.com/documentation/api/diagram/HeaderModel#style) property.
+You can provide a textual description for a container using its [header](https://ej2.syncfusion.com/documentation/api/diagram/headermodel) property. Also, users can customize the header's appearance using the header's [style](https://ej2.syncfusion.com/documentation/api/diagram/textstylemodel) property.
 
 The following code example explains how to define a container header and its customization:
 
@@ -106,7 +106,7 @@ The events triggered when interacting with container nodes are similar to those 
 ## See Also
 
 * [How to add nodes to the symbol palette](./symbol-palette)
-* [How to customize nodes](./customization)
+* [How to customize nodes](./nodes/customization)
 * [How to add ports to the node](./ports)
 * [How to enable/disable the behavior of the node](./constraints)
 * [How to create diagram nodes using drawing tools](./tools)
