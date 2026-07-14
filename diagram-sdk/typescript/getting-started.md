@@ -49,7 +49,27 @@ npm install
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls come with built-in themes, which are available in the installed packages. It's easy to adapt the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls to match the style of your application by referring to one of the built-in themes.
 
-To use the `Tailwind` theme in the **~/src/styles/styles.css** file, as shown below:
+You can add the CSS files required for the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Diagram component using one of the following methods.
+
+### Option 1: Add CSS references from a theme package
+
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Diagram components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
+
+Install the **Tailwind 3** theme package using the following command:
+
+```
+npm install @syncfusion/ej2-tailwind3-theme --save
+```
+
+Then add the following CSS reference to the **src/styles/styles.css** file:
+
+```
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+```
+
+### Option 2: Add CSS references from component packages
+
+After installing the Diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/styles/styles.css** file:
 
 ```
 @import "../../node_modules/@syncfusion/ej2-diagrams/styles/tailwind.css";

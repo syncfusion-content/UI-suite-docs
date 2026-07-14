@@ -74,6 +74,26 @@ N> Installing `@syncfusion/ej2-angular-diagrams` automatically installs the requ
 
 ## Step 4: Add the required CSS references
 
+You can add the CSS files required for the Syncfusion® Angular Diagram component using one of the following methods.
+
+### Option 1: Add CSS References from a Theme Package
+
+Themes for Syncfusion® Diagram components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/angular/documentation/appearance/overview) documentation.
+
+Install the Tailwind 3 theme package using the following command:
+
+```bash
+npm install @syncfusion/ej2-tailwind3-theme --save
+```
+
+Then add the following CSS reference to the `src/styles.css` file:
+
+```css
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+```
+
+### Option 2: Add CSS References from Component Packages
+
 Add the required Syncfusion® styles to the `src/styles.css` file.
 
 ```css

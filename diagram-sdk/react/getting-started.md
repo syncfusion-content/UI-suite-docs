@@ -69,9 +69,29 @@ npm install @syncfusion/ej2-react-diagrams
 
 N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
 
-## Step 4: Add the required CSS references
+## Step 4: Add CSS reference
 
-Add the required Syncfusion® styles to the **src/App.css** file by replacing the existing content with the following CSS imports:
+You can add the CSS files required for the Syncfusion React Diagram component using one of the following methods.
+
+### Option 1: Add CSS references from a theme package
+
+Themes for Syncfusion® Diagram component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+
+Install the Tailwind 3 theme package using the following command:
+
+```
+npm install @syncfusion/ej2-tailwind3-theme --save
+```
+
+Then add the following CSS reference to the **src/App.css** file:
+
+```
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css';
+```
+
+### Option 2: Add CSS references from component packages
+
+After installing the Diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.css** file:
 
 ```
 @import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
