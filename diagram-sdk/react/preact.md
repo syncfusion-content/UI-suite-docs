@@ -99,13 +99,11 @@ yarn add @syncfusion/ej2-react-diagrams
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-You can add the CSS files required for the Syncfusion React Diagram component using one of the following methods.
+The Diagram component needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
 
-### Option 1: Add CSS references from a theme package
+### Option 1: Add styles from a theme package
 
-Themes for Syncfusion® Diagram component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
-
-Install the Tailwind 3 theme package using the following command:
+Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 ```bash
 npm install @syncfusion/ej2-tailwind3-theme --save
@@ -117,15 +115,17 @@ or
 yarn add @syncfusion/ej2-tailwind3-theme
 ```
 
-Then add the following CSS reference to the **src/style.css** file:
+Add the following import to the **src/style.css** file:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
 ```
 
-### Option 2: Add CSS references from component packages
+For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-After installing the Diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/style.css** file:
+### Option 2: Add styles from component packages
+
+After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the following imports to the **src/style.css** file:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
@@ -134,7 +134,7 @@ After installing the Diagram package, the required CSS files are available in th
 @import "../node_modules/@syncfusion/ej2-react-diagrams/styles/tailwind3.css";
 ```
 
-> The order of importing CSS styles should be in line with its dependency graph.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
 ## Add the Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 

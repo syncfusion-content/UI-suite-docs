@@ -103,15 +103,13 @@ yarn add @syncfusion/ej2-react-diagrams
 {% endhighlight %}
 {% endtabs %}
 
-## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
+## Add the required styles
 
-You can add the CSS files required for the Syncfusion React Diagram component using one of the following methods.
+The Diagram component needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
 
-### Option 1: Add CSS references from a theme package
+### Option 1: Add styles from a theme package
 
-Themes for Syncfusion® Diagram component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
-
-Install the Tailwind 3 theme package using the following command:
+Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -126,7 +124,7 @@ yarn add @syncfusion/ej2-tailwind3-theme
 {% endhighlight %}
 {% endtabs %}
 
-Then add the following CSS reference to the **app/globals.css** file:
+Add the following import to the global stylesheet. For an App Router project, add it to the **app/globals.css** file: 
 
 {% tabs %}
 {% highlight css tabtitle="globals.css" %}
@@ -136,23 +134,36 @@ Then add the following CSS reference to the **app/globals.css** file:
 {% endhighlight %}
 {% endtabs %}
 
-### Option 2: Add CSS references from component packages
+For a Pages Router project, add it to the global stylesheet imported in **pages/_app.tsx**:
 
-After installing the Diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **app/globals.css** file:
+{% tabs %}
+{% highlight ts tabtitle="pages/_app.tsx" %}
+
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+
+### Option 2: Add styles from component packages
+
+After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the following imports to the global stylesheet:
 
 {% tabs %}
 {% highlight css tabtitle="globals.css" %}
 
 @import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
 @import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css";
 @import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
 @import "../node_modules/@syncfusion/ej2-react-diagrams/styles/tailwind3.css";
 
 {% endhighlight %}
 {% endtabs %}
 
-> To know more about built-in themes and CSS reference for individual components, refer to the [themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) section.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
+
+N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
