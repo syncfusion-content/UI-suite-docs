@@ -2,10 +2,10 @@
 layout: post
 title: Drag and drop in Angular Block Editor Component | Syncfusion
 description: Checkout and learn about Drag and drop with Angular Block Editor component of Syncfusion Essential JS 2 and more.
-platform: ej2-angular
+platform: rich-text-editor-sdk
 control: Block Editor
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
 # Drag and drop in the Angular Block Editor component
