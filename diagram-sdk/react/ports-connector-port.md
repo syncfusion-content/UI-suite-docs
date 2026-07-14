@@ -92,8 +92,8 @@ The following code example shows how to connect a connector to a connector port:
 
 ## See also
 
-* [How to customize the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-appearance)
+* [How to customize the ports.](./ports-appearance)
 
-* [How to set the position of the port.](https://help.syncfusion.com/diagram-sdk/react/ports-positioning)
+* [How to set the position of the port.](./ports-positioning)
 
-* [How to interact with the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-interaction)
+* [How to interact with the ports.](./ports-interaction)

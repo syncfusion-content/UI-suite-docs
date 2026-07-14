@@ -83,8 +83,8 @@ The following table shows all possible alignment combinations when using offset 
 
 ## See also
 
-* [How to interact with the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-interaction)
+* [How to interact with the ports.](./ports-interaction)
 
-* [How to customize the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-appearance)
+* [How to customize the ports.](./ports-appearance)
 
-* [How to create connector port.](https://help.syncfusion.com/diagram-sdk/react/ports-connector-port)
+* [How to create connector port.](./ports-connector-port)

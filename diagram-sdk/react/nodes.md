@@ -146,7 +146,7 @@ Node properties can be modified at runtime with immediate visual updates. Change
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nodes-cs7" %}
 
-N> Call the [`dataBind`](https://help.syncfusion.com/diagram-sdk/react/data-binding) method after property updates to ensure immediate reflection of changes.
+N> Call the [`dataBind`](./data-binding) method after property updates to ensure immediate reflection of changes.
 
 ### Clone Node at Runtime
 
@@ -174,9 +174,9 @@ Custom [`dragEnter`](https://ej2.syncfusion.com/react/documentation/api/diagram#
 
 ## See Also
 
-* [How to add annotations to the node.](https://help.syncfusion.com/diagram-sdk/react/labels)
-* [How to add ports to the node.](https://help.syncfusion.com/diagram-sdk/react/ports)
-* [How to enable/disable the behavior of the node.](https://help.syncfusion.com/diagram-sdk/react/constraints)
-* [How to add nodes to the symbol palette.](https://help.syncfusion.com/diagram-sdk/react/symbol-palette)
-* [How to edit the node visual interface.](https://help.syncfusion.com/diagram-sdk/react/interaction#selection)
-* [How to create diagram nodes using drawing tools.](https://help.syncfusion.com/diagram-sdk/react/tools)
+* [How to add annotations to the node.](./labels)
+* [How to add ports to the node.](./ports)
+* [How to enable/disable the behavior of the node.](./constraints)
+* [How to add nodes to the symbol palette.](./symbol-palette)
+* [How to edit the node visual interface.](./interaction#selection)
+* [How to create diagram nodes using drawing tools.](./tools)

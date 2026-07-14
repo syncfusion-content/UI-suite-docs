@@ -324,4 +324,4 @@ N> The diagram provides support to cancel the drag and drop operation from the s
 
 ## See Also
 
-* [How to add the symbol to the diagram.](https://help.syncfusion.com/diagram-sdk/react/nodes)
+* [How to add the symbol to the diagram.](./nodes)

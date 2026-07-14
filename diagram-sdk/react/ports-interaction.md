@@ -127,8 +127,8 @@ The following example shows how to get these events in diagram.
 
 ## See also
 
-* [How to customize the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-appearance)
+* [How to customize the ports.](./ports-appearance)
 
-* [How to set the position of the port.](https://help.syncfusion.com/diagram-sdk/react/ports-positioning)
+* [How to set the position of the port.](./ports-positioning)
 
-* [How to create connector port.](https://help.syncfusion.com/diagram-sdk/react/ports-connector-port)
+* [How to create connector port.](./ports-connector-port)
