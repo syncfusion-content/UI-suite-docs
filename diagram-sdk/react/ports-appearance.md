@@ -105,8 +105,8 @@ The PortConstraints may have multiple behaviors like listed below:
 
 ## See also
 
-* [How to interact with the ports.](https://help.syncfusion.com/diagram-sdk/react/ports-interaction)
+* [How to interact with the ports.](./ports-interaction)
 
-* [How to set the position of the port.](https://help.syncfusion.com/diagram-sdk/react/ports-positioning)
+* [How to set the position of the port.](./ports-positioning)
 
-* [How to create connector port.](https://help.syncfusion.com/diagram-sdk/react/ports-connector-port)
+* [How to create connector port.](./ports-connector-port)

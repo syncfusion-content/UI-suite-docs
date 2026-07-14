@@ -52,7 +52,7 @@ saveData = localStorage.getItem('fileName');
 
 ### Alternative Save Formats
 
-The diagram can also be saved as raster or vector image files. For more information about saving the diagram as images, refer to the [`Print`](https://help.syncfusion.com/diagram-sdk/react/print) and [`Export`](https://help.syncfusion.com/diagram-sdk/react/export) sections.
+The diagram can also be saved as raster or vector image files. For more information about saving the diagram as images, refer to the [`Print`](./print) and [`Export`](./export) sections.
 
 ## Loading Diagrams
 

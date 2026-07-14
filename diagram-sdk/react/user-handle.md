@@ -341,7 +341,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs3" %}
 
-You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](https://help.syncfusion.com/diagram-sdk/react/tooltip) section.
+You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](../tooltip) section.
 
 ### Appearance
 

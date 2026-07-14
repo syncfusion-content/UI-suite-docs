@@ -86,4 +86,4 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor)property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
 
-N>  The MarkerColor property can be customized using the [`marker`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramruler#markercolor) CSS style.
+N>  The MarkerColor property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
