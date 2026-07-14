@@ -40,7 +40,7 @@ The following code example illustrates how to define a swimlane with a lane.
 
 ### Create lane header
 
-The [`header`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#header) property of a lane allows you to textually describe the lane and customize the appearance of the description.
+The [`header`](https://ej2.syncfusion.com/angular/documentation/api/diagram/headermodel) property of a lane allows you to textually describe the lane and customize the appearance of the description.
 
 The following code example illustrates how to define a lane header.
 
@@ -60,7 +60,7 @@ The following code example illustrates how to define a lane header.
 
 The size of a lane can be controlled by using the [`width`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#height) properties of the lane.
 
-The appearance of a lane can be customized by using the [`style`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#style) properties.
+The appearance of a lane can be customized by using the [`style`](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapestylemodel) properties.
 
 The appearance of the header annotation can be customized by using the `style` property of the header annotation.
 

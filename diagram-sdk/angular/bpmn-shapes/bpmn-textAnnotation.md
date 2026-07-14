@@ -20,7 +20,7 @@ The annotation element can be switched from one BPMN node to another by simply d
 
 ## Key properties
 
-The [`textAnnotationDirection`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/bpmnTextAnnotation#textannotationdirection) property controls the shape direction of the text annotation. By default, this property is set to `Auto`, which automatically determines the optimal direction based on the target's position.
+The [`textAnnotationDirection`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/textannotationdirection) property controls the shape direction of the text annotation. By default, this property is set to `Auto`, which automatically determines the optimal direction based on the target's position.
 
 To set the size for text annotation, use the [`width`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/node#width) and [`height`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/node#height) properties of the node.
 

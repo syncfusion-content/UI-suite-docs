@@ -26,7 +26,7 @@ The Diagram component allows labels to be interactive through selecting, draggin
 
 ## Constraints
 
-The [`constraints`](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#annotation-constraints) property of labels allows enabling or disabling specific label behaviors. Use these constraints to control which interaction types are available for each label.
+The [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationconstraints) property of labels allows enabling or disabling specific label behaviors. Use these constraints to control which interaction types are available for each label.
 
 ## Label Editing
 
@@ -56,7 +56,7 @@ Double-clicking any label enables editing mode. When the editor loses focus, the
 
 ## Label Rotation
 
-The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeAnnotation#rotationreference) property controls whether labels rotate relative to their parent node or remain fixed relative to the page. The following code examples demonstrate how to configure rotationReference for labels.
+The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/diagram/rotationreference) property controls whether labels rotate relative to their parent node or remain fixed relative to the page. The following code examples demonstrate how to configure rotationReference for labels.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

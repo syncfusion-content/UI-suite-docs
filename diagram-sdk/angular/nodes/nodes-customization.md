@@ -137,7 +137,7 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 ## Apply shadow effect to nodes
 
-Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node#shadow) effects to nodes, which is disabled by default. Shadow effects can be enabled using the constraints property of the node to create depth and visual hierarchy in your diagrams.
+Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/angular/documentation/api/diagram/shadowmodel) effects to nodes, which is disabled by default. Shadow effects can be enabled using the constraints property of the node to create depth and visual hierarchy in your diagrams.
 
 The following code illustrates how to apply shadow effects to nodes:
 
@@ -199,7 +199,7 @@ export class AppComponent {
 
 ## Constraints
 
-The [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node#constraints) property of the node allows you to enable or disable certain behaviors of the node. This provides fine-grained control over node interactions and capabilities. For more information about node constraints, refer to the [Node Constraints](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#node-constraints) documentation.
+The [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeconstraints) property of the node allows you to enable or disable certain behaviors of the node. This provides fine-grained control over node interactions and capabilities. For more information about node constraints, refer to the [Node Constraints](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#node-constraints) documentation.
 
 ## Stack order
 
