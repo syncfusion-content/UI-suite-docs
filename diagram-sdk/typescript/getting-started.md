@@ -60,7 +60,7 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 Then add the following CSS reference to the **src/styles/styles.css** file:
 
 ```
-@import "../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
+@import "../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
