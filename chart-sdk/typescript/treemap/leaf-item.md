@@ -17,8 +17,6 @@ A leaf item defines a visualized data element and does not contain child nodes b
 
 Label is represented by item name or value. Label will be appeared by specifying the `labelPath` property and customize the label style using the `labelStyle` property.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs1/index.ts %}
@@ -30,25 +28,9 @@ Label is represented by item name or value. Label will be appeared by specifying
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs1" %}
-{% endif %}
-
 ### Label position and format
 
 Positioning the leaf item label using the `labelPosition` property and the text format can be customized by specifying data source properties name in the `labelFormat` property.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -61,25 +43,9 @@ Positioning the leaf item label using the `labelPosition` property and the text 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs2" %}
-{% endif %}
-
 ### Label template and position
 
 Specifies the template of leaf item label and position of the template to be customized using `labelTemplate` and `templatePosition` properties.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,26 +58,10 @@ Specifies the template of leaf item label and position of the template to be cus
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs3" %}
-{% endif %}
-
 
 ## Item gap
 
 The `gap` property is used to separate an item from another item. Each item rectangle is split into equal space with specified gap.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -123,17 +73,3 @@ The `gap` property is used to separate an item from another item. Each item rect
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/leafitem-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/leafitem-cs4" %}
-{% endif %}

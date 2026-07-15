@@ -13,8 +13,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Tooltip for the accumulation chart can be enabled by using the [`enable`](../api/accumulation-chart/tooltipSettingsModel/#enable) property.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs66/index.ts %}
@@ -26,27 +24,11 @@ Tooltip for the accumulation chart can be enabled by using the [`enable`](../ap
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs66" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs66/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs66/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs66" %}
-{% endif %}
-
 >Note: To use tooltip feature, inject the `AccumulationTooltip` using the `Chart.Inject(AccumulationTooltip)` method.
 
 ## Header
 
 We can specify header for the tooltip using [`header`](../api/accumulation-chart/tooltipSettingsModel/#header) property.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,25 +41,9 @@ We can specify header for the tooltip using [`header`](../api/accumulation-chart
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs67" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs67/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs67/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs67" %}
-{% endif %}
-
 ## Format
 
 By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the format `${series.name} ${point.x}` shows series name and point x value.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -89,20 +55,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs68" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs68/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs68/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs68" %}
-{% endif %}
 
 ## Inline tooltip formatting
 
@@ -149,8 +101,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-format/index.ts %}
@@ -162,25 +112,9 @@ If the specified format does not match the resolved value type, the original val
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-format" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-format/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-format/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-format" %}
-{% endif %}
-
 ## Tooltip Template
 
 Any HTML element can be displayed in the tooltip by using the [`template`](../api/accumulation-chart/tooltipSettingsModel/#template) property.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -193,25 +127,9 @@ Any HTML element can be displayed in the tooltip by using the [`template`](../ap
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs69" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs69/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs69/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs69" %}
-{% endif %}
-
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`location`](../api/accumulation-chart/tooltipSettingsModel/#location) property.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -224,25 +142,9 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs180" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs180/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs180/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs180" %}
-{% endif %}
-
 ## Customization
 
 The [`fill`](../api/accumulation-chart/tooltipSettingsModel/#fill) and [`border`](../api/accumulation-chart/tooltipSettingsModel/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/accumulation-chart/tooltipSettingsModel/#textstyle) property in the tooltip is used to customize the font of the tooltip text. The [`highlightColor`](../api/accumulation-chart/accumulationChartModel/#highlightcolor) property can be used to change the color of the data point when hovering.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -255,25 +157,9 @@ The [`fill`](../api/accumulation-chart/tooltipSettingsModel/#fill) and [`border`
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs70" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs70/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs70/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs70" %}
-{% endif %}
-
 ## To customize individual tooltip
 
 Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs/) event, you can customize a tooltip for particular point. event, you can customize a tooltip for particular point.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -286,25 +172,9 @@ Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs/) 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs71" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs71/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs71/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs71" %}
-{% endif %}
-
 ## Enable highlight
 
 By setting the [`enableHighlight`](../api/accumulation-chart/tooltipSettingsModel/#enablehighlight) property to **true**, the hovered pie slice is highlighted, while the remaining slices are dimmed, enhancing focus and clarity.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -316,20 +186,6 @@ By setting the [`enableHighlight`](../api/accumulation-chart/tooltipSettingsMode
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs476" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs476/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs476/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs476" %}
-{% endif %}
 
 ## Follow pointer
 
@@ -343,8 +199,6 @@ tooltip: {
 	followPointer: true 
 }
 ```
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc/index.ts %}
@@ -355,17 +209,3 @@ tooltip: {
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc" %}
-{% endif %}

@@ -205,8 +205,8 @@ The output appears as follows.
 
 ## See also
 
-* [Getting Started with Next.js](https://ej2.syncfusion.com/react/documentation/circular-gauge/nextjs-getting-started)
-* [Circular Gauge Axes](https://ej2.syncfusion.com/react/documentation/circular-gauge/gauge-axes)
-* [Circular Gauge Ranges](https://ej2.syncfusion.com/react/documentation/circular-gauge/gauge-ranges)
-* [Circular Gauge Pointers](https://ej2.syncfusion.com/react/documentation/circular-gauge/gauge-pointers)
-* [Circular Gauge Annotations](https://ej2.syncfusion.com/react/documentation/circular-gauge/gauge-annotations)
+* [Getting Started with Next.js](./nextjs-getting-started)
+* [Circular Gauge Axes](./gauge-axes)
+* [Circular Gauge Ranges](./gauge-ranges)
+* [Circular Gauge Pointers](./gauge-pointers)
+* [Circular Gauge Annotations](./gauge-annotations)
