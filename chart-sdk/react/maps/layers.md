@@ -16,6 +16,17 @@ Layers are the fundamental building blocks of the Maps component. Each layer can
 
 The Multilayer support allows loading multiple shape files and map providers in a single container, enabling Maps to display more information. The shape layer or map providers are the main layers of the Maps. Multiple layers can be added as **SubLayer** over the main layers using the [`type`](https://ej2.syncfusion.com/react/documentation/api/maps/layerSettingsModel#type) property of [`layers`](https://ej2.syncfusion.com/react/documentation/api/maps#layers).
 
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/default-map-cs44/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/default-map-cs44/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/default-map-cs44" %}	
+
 ## Sublayer
 
 A sublayer is an overlay layer that renders on top of the main layer. It allows displaying multiple shape files in a single map view. For example, a sublayer can highlight specific states, display rivers, valleys, or cities over a country map. Similar to the main layer, sub layers support markers, bubbles, color mapping, and legends.
