@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Getting started with Vue Block Editor Component | Syncfusion
-description: Checkout and learn about getting started with Syncfusion Essential Vue Block Editor component, its elements, and more details.
-platform: rich-text-editor-sdk
-control: Block Editor 
-publishingplatform: rich-text-editor-sdk
+title: Getting started in Vue Block Editor component | Syncfusion
+description: Learn here all about Getting started in Syncfusion Vue Block Editor component of Syncfusion Essential JS 2 and more.
+canonical_url: "https://www.syncfusion.com/vue-components/vue-block-editor"
+control: Getting started 
+platform: ej2-vue
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: ##DomainURL##
 ---
 
 # Getting Started with the Vue Block Editor component in Vue 2
@@ -19,7 +19,7 @@ This section explains how to create a simple Block Editor and configure its avai
 
 ## Dependencies
 
-The list of dependencies required to use the Block Editor component in your application is given as follows:
+The Block Editor component depends on the following packages:
 
 ```js
 |-- @syncfusion/ej2-vue-blockeditor
@@ -33,7 +33,7 @@ The list of dependencies required to use the Block Editor component in your appl
     |-- @syncfusion/ej2-inputs
 ```
 
-## Setting up the Vue 2 project
+## Create a Vue Application
 
 To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. Follow these steps to install Vue CLI and create a new project:
 
@@ -57,13 +57,11 @@ When creating a new project, choose the option `Default ([Vue 2] babel, eslint)`
 
 <img src="https://ej2.syncfusion.com/vue/documentation/appearance/images/vue2-terminal.png" alt="Vue 2 project">
 
-Once the `quickstart` project is set up with default settings, proceed to add Syncfusion<sup style="font-size:70%">&reg;</sup> components to the project.
+Once the `quickstart` project is set up with the default settings, you're ready to add Syncfusion<sup style="font-size:70%">&reg;</sup> components to it.
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages
+## Adding Syncfusion Block Editor package
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> packages are available at [npmjs.com](https://www.npmjs.com/search?q=ej2-vue). To use Vue components, install the required npm package.
-
-This article uses the `Vue Block Editor component` as an example. Install the block editor package by running the following command:
+All Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages are published on [npmjs.com](https://www.npmjs.com/search?q=ej2-vue). Install the Vue Block Editor package by running the following command:
 
 ```bash
 npm install @syncfusion/ej2-vue-blockeditor --save
@@ -74,9 +72,7 @@ or
 yarn add @syncfusion/ej2-vue-blockeditor
 ```
 
-## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
-
-You can import themes for the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue component in various ways, such as using CSS or SASS styles from npm packages, CDN, [CRG](https://ej2.syncfusion.com/javascript/documentation/common/custom-resource-generator) and [Theme Studio](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio). Refer to [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme) to know more about built-in themes and different ways to refer to themes in a Vue project.
+## Adding CSS reference
 
 To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
@@ -96,7 +92,9 @@ To render the Block Editor component, import the required Tailwind3 CSS styles f
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue component
+I> To apply the application-specific styles correctly, remove all the default styles from **src/style.css**.
+
+## Adding Block Editor component
 
 Follow the below steps to add the Vue Block Editor component using `Composition API` or `Options API`:
 
@@ -142,16 +140,18 @@ Here is the summarized code for the above steps in the **src/App.vue** file:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app-composition.vue %}
+{% include code-snippet/block-editor/getting-started/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app.vue %}
+{% include code-snippet/block-editor/getting-started/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-## Run the project
+{% previewsample "page.domainurl/code-snippet/block-editor/getting-started/index" %}
 
-To run the project, use the following command:
+## Run the application
+
+Use the following command to run the application in the browser.
 
 ```bash
 npm run serve
@@ -162,5 +162,6 @@ or
 ```bash
 yarn run serve
 ```
+For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
+N> Looking for the full Vue Block Editor component overview, features, pricing, and documentation? Visit the [Vue Block Editor](https://www.syncfusion.com/vue-components/vue-block-editor) page.
