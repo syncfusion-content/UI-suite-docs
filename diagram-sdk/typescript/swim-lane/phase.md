@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Phase
 
- Phase are the subprocess which will split each lanes as horizontally or vertically based on the swimlane orientation. We can add multiple number of [`Phase`](../../api/diagram/phaseModel) to swimlane.
+ Phase are the subprocess which will split each lanes as horizontally or vertically based on the swimlane orientation. We can add multiple number of [`Phase`](https://ej2.syncfusion.com/documentation/api/diagram/phaseModel) to swimlane.
 
 The following code example illustrates how to create phase.
 
@@ -44,7 +44,7 @@ The following code example illustrates how to create phase.
 
 ### Dynamically add/remove phase to Lane
 
- You can add the a phase at runtime by using [`addPhases`](../../api/diagram#addphases) method and remove phase by using [`removePhase`](../../api/diagram#removephase) method. The following code example illustrates how to add and remove phase at run time.
+ You can add the a phase at runtime by using [`addPhases`](https://ej2.syncfusion.com/documentation/api/diagram#addphases) method and remove phase by using [`removePhase`](https://ej2.syncfusion.com/documentation/api/diagram#removephase) method. The following code example illustrates how to add and remove phase at run time.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -75,10 +75,10 @@ The following code example illustrates how to create phase.
 
 ### Customizing phase
 
-* The length of region can be set by using the  [`offset`](../../api/diagram/phaseModel#offset) property of the phase.
-* Every phase region can be textually described with the [`header`](../../api/diagram/headerModel) property of the phase.
-* You can increase the height of phase by using [`phaseSize`](../../api/diagram/swimLaneModel#phaseSize) property of swimlane.
-* We can provide additional information to the phase by using the [`addInfo`](../../api/diagram/phaseModel#addInfo) property of the phase.
+* The length of region can be set by using the  [`offset`](https://ej2.syncfusion.com/documentation/api/diagram/phaseModel#offset) property of the phase.
+* Every phase region can be textually described with the [`header`](https://ej2.syncfusion.com/documentation/api/diagram/headerModel) property of the phase.
+* You can increase the height of phase by using [`phaseSize`](https://ej2.syncfusion.com/documentation/api/diagram/swimLaneModel#phaseSize) property of swimlane.
+* We can provide additional information to the phase by using the [`addInfo`](https://ej2.syncfusion.com/documentation/api/diagram/phasemodel#addinfo) property of the phase.
 
 The following code example illustrates how to customize the phase in swimlane.
 
