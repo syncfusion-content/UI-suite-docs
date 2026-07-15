@@ -18,15 +18,15 @@ Available Platforms:
 
 {% doccards %}
 
-{% doccard text="React" link="https://help.syncfusion.com/chart-sdk/react/charts/getting-started" icon="/chart-sdk/images/React.svg" %}
+{% doccard text="React" link="https://help.syncfusion.com/chart-sdk/react/chart/getting-started" icon="/chart-sdk/images/React.svg" %}
 
-{% doccard text="Angular" link="https://help.syncfusion.com/chart-sdk/angular/charts/getting-started" icon="/chart-sdk/images/Angular.svg" %}
+{% doccard text="Angular" link="https://help.syncfusion.com/chart-sdk/angular/chart/getting-started" icon="/chart-sdk/images/Angular.svg" %}
 
 {% doccard text="Blazor" link="https://help.syncfusion.com/chart-sdk/blazor/charts/getting-started-with-web-app" icon="/chart-sdk/images/Blazor.svg" %}
 
 {% doccard text="JavaScript" link="https://help.syncfusion.com/chart-sdk/javascript/charts/es5-getting-started" icon="/chart-sdk/images/JavaScript.svg" %}
 
-{% doccard text="TypeScript" link="https://help.syncfusion.com/chart-sdk/typescript/charts/getting-started" icon="/chart-sdk/images/Typescript.svg" %}
+{% doccard text="TypeScript" link="https://help.syncfusion.com/chart-sdk/typescript/chart/getting-started" icon="/chart-sdk/images/Typescript.svg" %}
 
 {% doccard text="Vue" link="https://help.syncfusion.com/chart-sdk/vue/charts/getting-started" icon="/chart-sdk/images/Vue.svg" %}
 

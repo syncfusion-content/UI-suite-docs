@@ -16,8 +16,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 DateTime axis uses date time scale and displays the date time values as axis labels in the specified format. To use DateTime axis, set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `DateTime`.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs10/index.ts %}
@@ -29,27 +27,11 @@ DateTime axis uses date time scale and displays the date time values as axis lab
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs10" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs10/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs10" %}
-{% endif %}
-
 >Note: To use this axis, we need to inject DateTime using `StockChart.Inject(DateTime)` method and set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `DateTime`.
 
 ## DateTimeCategory axis
 
 DateTimeCategory axis in the stock chart is used to display only business days. To use DateTimeCategory axis, set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `DateTimeCategory`.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -62,20 +44,6 @@ DateTimeCategory axis in the stock chart is used to display only business days. 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs38" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs38/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs38/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs38" %}
-{% endif %}
-
 >Note: To use this axis, we need to inject DateTimeCategory using `StockChart.Inject(DateTimeCategory)` method and set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `DateTimeCategory`.
 
 ## Logarithmic axis
@@ -83,8 +51,6 @@ DateTimeCategory axis in the stock chart is used to display only business days. 
 <!-- markdownlint-disable MD033 -->
 
 Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numerical values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>). To use Logarithmic axis, set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `Logarithmic`.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -96,20 +62,6 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs11/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs11" %}
-{% endif %}
 
 >Note: To use this axis, we need to inject Logarithmic using `StockChart.Inject(Logarithmic)` method and set the [`valueType`](../api/stock-chart/stockChartAxisModel/#valuetype) of axis to `Logarithmic`.
 
