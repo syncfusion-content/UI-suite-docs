@@ -121,7 +121,7 @@ Follow either one of the option below to uninstall Syncfusion Essential Studio C
 
 Syncfusion provides the option to uninstall products of the same version directly from the Web Installer application. Select the products to be uninstalled from the list, and Web Installer will uninstall them one by one.
 
-![Platform Selection wizard Installed](images/Step-by-Step-Installation_img4.png)
+![Platform Selection wizard Installed](images/Step-by-Step-Installation_img12.png)
 	
 	
 **Option 2: Uninstall the Chart SDK from Windows Control Panel**  
