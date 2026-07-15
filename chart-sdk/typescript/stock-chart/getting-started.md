@@ -99,7 +99,31 @@ npm install
 
 This command will download and install all necessary dependencies for your project.
 
-### Step 6: Update the HTML Template
+### Step 6: Import Syncfusion® CSS styles
+
+Syncfusion® JavaScript Stock Chart controls provide built-in themes, which are available from the [npm theme packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages). Additionally, themes can be loaded via CDN or customized using the [Theme Studio](https://ej2.syncfusion.com/documentation/appearance/theme-studio). For more information, refer to the [themes documentation](https://ej2.syncfusion.com/documentation/appearance/theme).
+
+The quickstart application is preconfigured to use the `Fluent2` theme. To install the [Fluent2](https://www.npmjs.com/package/@syncfusion/ej2-fluent2-theme) theme package, use the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-fluent2-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **src/styles/styles.css** file:
+ 
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+ 
+@import "../../node_modules/@syncfusion/ej2-fluent2-theme/styles/stock-chart/index.css";
+ 
+{% endhighlight %}
+{% endtabs %}
+
+### Step 7: Update the HTML Template
 
 Open the `ej2-quickstart` folder in Visual Studio Code or any text editor of your choice.
 
@@ -135,7 +159,7 @@ Locate the `~/src/index.html` file in the project. Add the HTML div tag with its
 {% endhighlight %}
 {% endtabs %}
 
-### Step 7: Create the Stock Chart Component with Data
+### Step 8: Create the Stock Chart Component with Data
 
 Locate the `src/app/app.ts` file in your project and add the Stock Chart component with module injection and sample data.
 
@@ -177,7 +201,7 @@ stockchart.appendTo("#element");
 {% endhighlight %}
 {% endtabs %}
 
-### Step 8: Run the Application
+### Step 9: Run the Application
 
 Open the integrated terminal in Visual Studio Code or use your command prompt to run the application. Use the `npm run start` command:
 
@@ -191,7 +215,7 @@ npm run start
 
 The application will compile and automatically start in your default web browser. The application typically runs at `http://localhost:4000`. You should see the Syncfusion<sup style="font-size:70%">&reg;</sup> Stock Chart control displayed on the page.
 
-### Step 9: View Your Chart
+### Step 10: View Your Stock Chart
 
 Wait for the webpack dev server to complete the build process. Once completed, you will see the Stock Chart control rendering in your browser with candlestick data visualization. The chart is now successfully initialized and ready for further customization.
 
