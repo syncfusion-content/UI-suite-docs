@@ -56,8 +56,6 @@ The following properties are used to customize the annotation.
 
 To change the stack order of an annotation element, the [`zIndex`](../api/linear-gauge/annotation/#zindex) property of the [`annotations`](../api/linear-gauge/annotation) can be used.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs1/index.ts %}
@@ -69,25 +67,9 @@ To change the stack order of an annotation element, the [`zIndex`](../api/linea
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs1" %}
-{% endif %}
-
 ### Positioning an annotation
 
 The annotation can be placed anywhere in the Linear Gauge by setting the pixel value to the [`x`](../api/linear-gauge/annotation/#x) and [`y`](../api/linear-gauge/annotation/#y) properties in the [`annotations`](../api/linear-gauge/annotation).
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -100,26 +82,10 @@ The annotation can be placed anywhere in the Linear Gauge by setting the pixel v
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs2" %}
-{% endif %}
-
 
 ### Alignment of annotation
 
 The annotation can be aligned horizontally and vertically by using [`horizontalAlignment`](../api/linear-gauge/annotation/#horizontalalignment) and [`verticalAlignment`](../api/linear-gauge/annotation/#verticalalignment) properties respectively. The possible values can be **Center**, **Far**, **Near**, and **None**. The [`horizontalAlignment`](../api/linear-gauge/annotation/#horizontalalignment) and [`verticalAlignment`](../api/linear-gauge/annotation/#verticalalignment) properties are not applicable when the [`x`](../api/linear-gauge/annotation/#x) and [`y`](../api/linear-gauge/annotation/#y) properties are set in the [`annotations`](../api/linear-gauge/annotation).
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -132,25 +98,9 @@ The annotation can be aligned horizontally and vertically by using [`horizontalA
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs3" %}
-{% endif %}
-
 ## Multiple annotations
 
 Multiple annotations can be added to the Linear Gauge component by adding the multiple [`annotation`](../api/linear-gauge/annotation) in the [`annotations`](../api/linear-gauge/#annotations) and customization for the annotation can be done with the [`annotation`](../api/linear-gauge/annotation).
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -162,17 +112,3 @@ Multiple annotations can be added to the Linear Gauge component by adding the mu
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/annotations-cs4" %}
-{% endif %}

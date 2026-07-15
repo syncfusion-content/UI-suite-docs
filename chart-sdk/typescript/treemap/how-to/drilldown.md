@@ -73,8 +73,6 @@ Show the population of a particular continent in the treemap `loaded` event. In 
 
 Customize the population for drilled countries or states in the header element when drill-down the treemap. The `drillEnd` event will be triggered when treemap is drilled.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/treemap/how-to/drill-down-cs1/index.ts %}
@@ -85,17 +83,3 @@ Customize the population for drilled countries or states in the header element w
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/how-to/drill-down-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/how-to/drill-down-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/how-to/drill-down-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/how-to/drill-down-cs1" %}
-{% endif %}
