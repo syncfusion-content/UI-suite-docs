@@ -171,7 +171,7 @@ Containers are used to automatically measure and arrange the size and position o
 
 * Stack panel is used to arrange its children in a single line or stack order, either vertically or horizontally.
 
-* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panel’s [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.html) is vertical.
+* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panel’s [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Orientation.html) is vertical.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

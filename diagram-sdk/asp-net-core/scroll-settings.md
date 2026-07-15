@@ -249,4 +249,4 @@ Scrolling beyond any particular rectangular area can be restricted by using the 
 
 ## UpdateViewport
 
-The [`updateViewPort`](../api/diagram) method is used to update the diagram page and view size at runtime.
+The [`updateViewPort`](https://ej2.syncfusion.com/documentation/api/diagram/#updateviewport) method is used to update the diagram page and view size at runtime.
