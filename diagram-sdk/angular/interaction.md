@@ -85,7 +85,7 @@ export class AppComponent {
 
 ### Get selected items
 
-Access the currently selected [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectorModel#nodes) and [`connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectorModel#connectors) through the [`selectedItems`](https://ej2.syncfusion.com/angular/documentation/api/diagram#selecteditems) property:
+Access the currently selected [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel) and [`connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel) through the [`selectedItems`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectormodel) property:
 
 ```ts
 this.selectedNodes = this.diagram.selectedItems.nodes;

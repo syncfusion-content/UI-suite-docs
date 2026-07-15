@@ -24,7 +24,7 @@ The [`offset`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diag
 
 ### Side
 
-The [`side`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html#Syncfusion_EJ2_Diagrams_DiagramUserHandle_Side) property of [`userHandles`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html) is used to align the user handle by using the [`Top`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html), [`Bottom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html), [`Left`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html), and [`Right`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html) options.
+The [`side`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html#Syncfusion_EJ2_Diagrams_DiagramUserHandle_Side) property of [`userHandles`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html) is used to align the user handle by using the [`Top`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html#Syncfusion_EJ2_Diagrams_Side_Top), [`Bottom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html#Syncfusion_EJ2_Diagrams_Side_Bottom), [`Left`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html#Syncfusion_EJ2_Diagrams_Side_Left), and [`Right`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Side.html#Syncfusion_EJ2_Diagrams_Side_Right) options.
 
 ### Horizontal and vertical alignments
 
@@ -291,7 +291,7 @@ N> Displacement will not be done if the alignment is set to be center.
 ### Tooltip support for User Handle
 
 The diagram provides support to show tooltip when the mouse hovers over any user handle.
-To show tooltip on mouse over, the [`tooltip`](../api/diagram#tooltip) property of diagram model needs to be set with the tooltip [`content`](../api/diagram/diagramTooltip/#content) and [`position`](../api/diagram/diagramTooltip/#position) as shown in the following example.
+To show tooltip on mouse over, the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html) property of diagram model needs to be set with the tooltip [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) and [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position) as shown in the following example.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -315,7 +315,7 @@ To show tooltip on mouse over, the [`tooltip`](../api/diagram#tooltip) property 
 
 ### Tooltip support for Fixed User Handle
 
-The diagram provides support to show tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse over, the [`tooltip`](../api/diagram#tooltip) property of diagram model needs to be set with the tooltip [`content`](../api/diagram/diagramTooltip/#content) and [`position`](../api/diagram/diagramTooltip/#position) as shown in the following example.
+The diagram provides support to show tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse over, the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html) property of diagram model needs to be set with the tooltip [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) and [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position) as shown in the following example.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -339,7 +339,7 @@ The diagram provides support to show tooltip when the mouse hovers over any fixe
 
 ### Customizing Fixed User Handles with HTML Templates
 
-Fixed user handles are interactive elements added to nodes and connectors. Their appearance can be customized using HTML templates. To render fixed user handle with HTML templates, we need to create an HTML element inside a `<script>` tag then add the template reference using the [`fixedUserHandleTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html) property in the diagram model.
+Fixed user handles are interactive elements added to nodes and connectors. Their appearance can be customized using HTML templates. To render fixed user handle with HTML templates, we need to create an HTML element inside a `<script>` tag then add the template reference using the [`fixedUserHandleTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeFixedUserHandle.html) property in the diagram model.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

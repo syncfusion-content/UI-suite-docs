@@ -36,7 +36,7 @@ For detailed API information, refer to [`expandIcon`](https://ej2.syncfusion.com
 
 Define the size of icons using the [`width`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iconShapeModel#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iconShapeModel#height) properties.
 
-The [`shape`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iconShapeModel#shape) property of expandIcon and collapseIcon allows customization of the icon appearance.
+The [`shape`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iconshapemodel) property of expandIcon and collapseIcon allows customization of the icon appearance.
 
 The following code example demonstrates how to create icons with various shapes:
 

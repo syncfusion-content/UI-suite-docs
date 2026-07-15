@@ -55,7 +55,7 @@ To add a connection port, define the port object and add it to node’s ports co
 
 ## Add ports at runtime
 
-Add ports at runtime by using the client-side method [`addPorts`](../api/diagram#addPorts).
+Add ports at runtime by using the client-side method [`addPorts`](https://ej2.syncfusion.com/documentation/api/diagram/#addports).
 
 The port’s ID property is used to define the unique ID for the port and its further used to find the port at runtime. If ID is not set, then default ID is automatically set.
 
@@ -123,7 +123,7 @@ diagram.addPorts(diagram.nodes[0], port);
 
 ## Remove ports at runtime
 
-Remove ports at runtime by using client-side method [`removePorts`](../api/diagram#removePorts).
+Remove ports at runtime by using client-side method [`removePorts`](https://ej2.syncfusion.com/documentation/api/diagram/#removeports).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -164,7 +164,7 @@ diagram.removePorts(diagram.nodes[0], ports);
 
 ## Update port at runtime
 
-You can change any port properties at runtime and update it through the client-side method [`dataBind`](../api/diagram#dataBind).
+You can change any port properties at runtime and update it through the client-side method [`dataBind`](https://ej2.syncfusion.com/documentation/api/diagram/#databind).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

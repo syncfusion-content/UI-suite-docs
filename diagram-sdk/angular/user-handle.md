@@ -18,7 +18,7 @@ The Angular Diagram component supports two types of user handles:
 
 ## Create user handle
 
-To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectorModel#userhandles) collection of the [`selectedItems`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectorModel) property. The [`name`](https://ej2.syncfusion.com/angular/documentation/api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/angular/documentation/api/diagram/userHandleModel#pathdata) property is used to define the SVG path data that determines the visual appearance of the user handle icon.
+To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/angular/documentation/api/diagram/userhandlemodel) collection of the [`selectedItems`](https://ej2.syncfusion.com/angular/documentation/api/diagram/selectorModel) property. The [`name`](https://ej2.syncfusion.com/angular/documentation/api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/angular/documentation/api/diagram/userHandleModel#pathdata) property is used to define the SVG path data that determines the visual appearance of the user handle icon.
 
 The following example shows how to render user handle.
 

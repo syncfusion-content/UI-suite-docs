@@ -46,7 +46,7 @@ The default tooltip that appears while interacting with nodes can be disabled by
 
 ## Tooltip for specific nodes and connectors
 
-The tooltip can be customized for each node and connector. To show different tooltips for different diagram elements on mouse over, set the [`tooltip`](https://helpej2.syncfusion.com/angular/documentation/api/diagram#tooltip) property of the node or connector with the tooltip [`content`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltip#content) and [`position`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltip#position). The following code example illustrates how to customize the tooltip for individual elements.
+The tooltip can be customized for each node and connector. To show different tooltips for different diagram elements on mouse over, set the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramtooltipmodel) property of the node or connector with the tooltip [`content`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltip#content) and [`position`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/diagramTooltip#position). The following code example illustrates how to customize the tooltip for individual elements.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

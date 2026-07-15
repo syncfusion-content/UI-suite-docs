@@ -56,7 +56,7 @@ Double-clicking any label enables editing mode. When the editor loses focus, the
 
 ## Label Rotation
 
-The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/diagram/shapeAnnotation#rotationreference) property controls whether labels rotate relative to their parent node or remain fixed relative to the page. The following code examples demonstrate how to configure rotationReference for labels.
+The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/diagram/rotationreference) property controls whether labels rotate relative to their parent node or remain fixed relative to the page. The following code examples demonstrate how to configure rotationReference for labels.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

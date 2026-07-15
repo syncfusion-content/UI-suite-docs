@@ -51,7 +51,7 @@ Different flowchart symbols have specific meanings used to represent various sta
 
 ## Render flowchart layout with data source
 
-To render a flowchart layout, set the [`layoutType`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layout#type) property to `Flowchart`. The following code example demonstrates how to render a flowchart layout using a data source.
+To render a flowchart layout, set the [`layoutType`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layouttype) property to `Flowchart`. The following code example demonstrates how to render a flowchart layout using a data source.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -114,7 +114,7 @@ This structure enables comprehensive customization of the flowchart's visual ele
 
 ## Render flowchart layout with nodes and connectors
 
-The following example demonstrates how to render a flowchart layout using predefined nodes and connectors. Define the [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeModel) and [`connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel) collections and assign them to the diagram. Set the [`layoutType`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layout#type) to `Flowchart` to enable automatic arrangement.
+The following example demonstrates how to render a flowchart layout using predefined nodes and connectors. Define the [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeModel) and [`connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel) collections and assign them to the diagram. Set the [`layoutType`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layouttype) to `Flowchart` to enable automatic arrangement.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

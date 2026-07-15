@@ -18,7 +18,7 @@ A group functions as a container for its children (nodes, groups, and connectors
 
 ## Add group when initializing diagram
 
-A group can be added to the diagram model through the [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram#nodes) collection. To define an object as a group, add the child objects to the [`children`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node#children) collection of the group. The following code illustrates how to create a group node.
+A group can be added to the diagram model through the [`nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel) collection. To define an object as a group, add the child objects to the [`children`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node#children) collection of the group. The following code illustrates how to create a group node.
 
 **Important:** When creating a group, child nodes must be declared before the group declaration.
 
@@ -166,7 +166,7 @@ this.diagram.removeChildFromGroup (groupNode, childNode);
 
 ### Group padding
 
-The [`padding`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodeModel#padding) property of a group node defines the spacing between the group node's edges and its children. This property helps maintain visual separation and improves the overall appearance of grouped elements.
+The [`padding`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/marginModel) property of a group node defines the spacing between the group node's edges and its children. This property helps maintain visual separation and improves the overall appearance of grouped elements.
 
 The following code illustrates how to add padding to a node group:
 

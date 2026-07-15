@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 <!-- markdownlint-disable MD010 -->
 
-In graphical user interfaces, a context menu appears when you perform a right-click operation, offering users a set of actions relevant to the current context. The Angular Diagram component provides extensive context menu customization capabilities through the [`contextMenuSettings`](https://ej2.syncfusion.com/angular/documentation/api/diagram#contextmenusettings) property.
+In graphical user interfaces, a context menu appears when you perform a right-click operation, offering users a set of actions relevant to the current context. The Angular Diagram component provides extensive context menu customization capabilities through the [`contextMenuSettings`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextmenusettingsmodel) property.
 
 The Diagram control includes built-in context menu items and allows you to define custom menu items. This flexibility enables you to tailor menus to specific application needs, including creating nested levels of menu items for complex user interactions.
 
@@ -49,7 +49,7 @@ You can customize context menus for individual nodes by defining specific menu i
 Each custom item can be configured with the following properties:
 - [`text`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#text): Display text for the menu item
 - [`ID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#id): Unique identifier for the menu item
-- [`iconCss`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#iconCss): CSS class for font icons
+- [`iconCss`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#iconcss): CSS class for font icons
 - [`target`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#target): Specifies where the menu item should appear
 - [`separator`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuItemModel#separator): Adds visual separation between menu items
 
@@ -57,7 +57,7 @@ For nested menu structures, define child items within the [`items`](https://ej2.
 
 ### Display Custom Menu Only
 
-To display only custom context menu items, set the [`showCustomMenuOnly`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuSettingsModel#showCustomMenuOnly) property to true.
+To display only custom context menu items, set the [`showCustomMenuOnly`](https://ej2.syncfusion.com/angular/documentation/api/diagram/contextMenuSettingsModel#showcustommenuonly) property to true.
 
 ### Context Menu Click
 

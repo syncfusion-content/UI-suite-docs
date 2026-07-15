@@ -106,7 +106,7 @@ The layout orientation determines the primary direction in which the layout flow
 |BottomToTop|Aligns the layout from bottom to top. All root nodes are placed at the bottom of the diagram.|
 |RightToLeft|Aligns the layout from right to left. All root nodes are placed at the right of the diagram.|
 
-The [`orientation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layout#orientation) property can be customized to match specific design requirements or cultural reading patterns.
+The [`orientation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layoutorientation) property can be customized to match specific design requirements or cultural reading patterns.
 
 N> The default orientation in diagram is `TopToBottom`.
 

@@ -145,7 +145,7 @@ The frequency of automatic scrolling in the Diagram component during autoscroll 
 
 ## Scroll Limit
 
-The [`scrollLimit`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#scrolllimit) property allows developers to define the scrollable region of the diagram. It includes the following options:
+The [`scrollLimit`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrolllimit) property allows developers to define the scrollable region of the diagram. It includes the following options:
 
 * **Infinity**: Allows scrolling in all directions without any restriction.
 * **Diagram**: Allows scrolling within the diagram region only.

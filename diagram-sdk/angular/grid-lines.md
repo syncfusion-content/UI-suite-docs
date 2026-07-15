@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Gridlines are crisscross lines drawn in diagram pages similar to lines on traditional graph paper. They help position diagram elements precisely on the diagram page.
 
-The model's [`snapSettings`](https://ej2.syncfusion.com/angular/documentation/api/diagram#snapsettings) property is used to customize the gridlines and control the snapping behavior in the diagram.
+The model's [`snapSettings`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapsettingsmodel) property is used to customize the gridlines and control the snapping behavior in the diagram.
 
 ## Customize the gridlines visibility
 
@@ -110,7 +110,7 @@ When you draw, resize, or move a diagram element on the page, you can set it to 
 
 This feature allows the diagram objects to snap to the nearest intersection of gridlines while being dragged or resized. This feature enables easier alignment during layout or design.
 
-Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapSettings#constraints) property of the SnapSettings class. The default value is All.
+Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapconstraints) property of the SnapSettings class. The default value is All.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -206,4 +206,4 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 ## Snap constraints
 
-The [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapSettings#constraints) property allows you to enable or disable the certain features of the snapping, for detailed information refer to [`constraints`](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#snap-constraints).
+The [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapconstraints) property allows you to enable or disable the certain features of the snapping, for detailed information refer to [`constraints`](https://ej2.syncfusion.com/angular/documentation/diagram/constraints#snap-constraints).

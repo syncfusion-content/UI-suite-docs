@@ -20,7 +20,7 @@ This guide explains how to configure SignalR Hub in an ASP.NET Core application 
 
 ## How to create ASP.NET Core application
 
-To create an ASP.NET Core application, follow the steps outlined in the ASP.NET Core [Getting Started](../../diagram/getting-started) documentation.
+To create an ASP.NET Core application, follow the steps outlined in the ASP.NET Core [Getting Started](../getting-started) documentation.
 
 ## How to add packages in the ASP.NET Core application
 
@@ -41,7 +41,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 * Connect to the `/diagramHub` endpoint with WebSocket transport `skipNegotiation: true` and enable automatic reconnect to handle transient network issues.
 * Subscribe to the `OnConnectedAsync` callback to receive the unique connection ID, confirming a successful handshake with the server.
 * Join a SignalR group by calling `JoinDiagram(roomName)` after connecting. This ensures updates are shared only with users in the same diagram session.
-* Refer to Create ASP.NET Core [Simple Diagram](../../diagram/getting-started)
+* Refer to Create ASP.NET Core [Simple Diagram](../getting-started)
 
 {% if page.publishingplatform == "aspnet-core" %}
 
