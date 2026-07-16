@@ -223,9 +223,9 @@ const taskFields = {
 | `progress`  | Task completion percentage (0-100) | No       |
 | `parentID`  | Parent task ID for hierarchy       | No       |
 
-## Render the Gantt component
+## Render the Gantt Chart component
 
-Replace the default `src/App.vue` content with the following example, or add the sample code to your existing `App.vue` file. Import and register the Gantt component in the `<script>` section, and use the `setup` attribute in the `<script>` tag to enable the Composition API.
+Replace the default `src/App.vue` content with the following example, or add the sample code to your existing `App.vue` file. Import and register the Gantt Chart component in the `<script>` section, and use the `setup` attribute in the `<script>` tag to enable the Composition API.
 
 To display the Gantt Chart, bind your task data using the `dataSource` property and map the corresponding fields using the `taskFields` property.
 
@@ -241,7 +241,7 @@ To display the Gantt Chart, bind your task data using the `dataSource` property 
 </template>
 
 <script setup>
-  // Import and register the Gantt component
+  // Import and register the Gantt Chart component
   import { GanttComponent as EjsGantt} from '@syncfusion/ej2-vue-gantt';
   const data = [
     {TaskID: 1, TaskName: 'Project initiation', StartDate: new Date('2024-04-01'), EndDate: new Date('2024-04-15')},
