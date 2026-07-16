@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with ##Platform_Name## BlockEditor control | Syncfusion
 description: Checkout and learn how to create and run a BlockEditor using a Vite-based TypeScript project and Syncfusion Essential JS 2.
-canonical_url: "https://www.syncfusion.com/javascript-ui-controls/js-block-editor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
 platform: ej2-javascript
 control: Getting started 
 publishingplatform: ##Platform_Name##
@@ -129,4 +129,4 @@ The following example shows a basic BlockEditor control.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/" %}
