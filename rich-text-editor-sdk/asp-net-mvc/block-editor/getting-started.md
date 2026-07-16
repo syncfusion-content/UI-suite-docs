@@ -26,8 +26,7 @@ You can create an ASP.NET MVC web application in one of two ways. Choose one of 
 * [Create a project using Microsoft templates](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started#create-your-first-app)
 * [Create a project using the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC extension](https://ej2.syncfusion.com/aspnetmvc/documentation/visual-studio-integration/create-project)
 
-W> **Important:** W> **Important:** Syncfusion® ASP.NET MVC controls require `System.Web.Mvc` version **5.3.0**. Using earlier versions may result in runtime or build errors. For more information, refer to the [release notes](https://ej2.syncfusion.com/aspnetmvc/documentation/release-notes/30.1.37?type=all). ASP.NET MVC controls require `System.Web.Mvc` version **5.3.0** or later. Using earlier versions may result in runtime or build errors. For more information, refer to the [release notes](https://ej2.syncfusion.com/aspnetmvc/documentation/release-notes/30.1.37?type=all).
-
+W> **Important:** Syncfusion® ASP.NET MVC controls require `System.Web.Mvc` version **5.3.0**. Using earlier versions may result in runtime or build errors. 
 
 N> Refer to the [licensing topic](https://help.syncfusion.com/common/essential-studio/licensing/overview) to learn how to generate and register a license key.
 
