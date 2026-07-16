@@ -2,7 +2,7 @@
 layout: post
 title: Es5 getting started with ##Platform_Name## BlockEditor | Syncfusion
 description:  Checkout and learn about Es5 getting started with ##Platform_Name## BlockEditor control of Syncfusion Essential JS 2 and more details.
-canonical_url: "https://www.syncfusion.com/javascript-ui-controls/js-block-editor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
 platform: ej2-javascript
 control: Es5 getting started
 publishingplatform: ##Platform_Name##
@@ -112,6 +112,6 @@ Output will be displayed as follows.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/" %}
 
 > You can refer to our [JavaScript BlockEditor](https://www.syncfusion.com/javascript-ui-controls/js-block-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript BlockEditor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/block-editor/overview.html) that shows how to render the block editor.
