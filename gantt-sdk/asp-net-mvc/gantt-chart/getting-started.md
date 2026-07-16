@@ -196,7 +196,7 @@ namespace WebApplication1.Controllers
 
 ### Add the Gantt to the view
 
-Open `~/Views/Home/Index.cshtml` and replace its contents with the following. The `@model` directive binds the controller's list as the strongly-typed view model.
+Open `~/Views/Home/Index.cshtml` and replace its contents with the following. The `@model` directive binds the controller's list as the strongly-typed view model. If your application uses a different project namespace than `WebApplication1`, update the namespace in the model, controller, and view snippets consistently.
 
 {% tabs %}
 {% highlight razor tabtitle="Index.cshtml" %}

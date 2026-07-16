@@ -90,7 +90,7 @@ The imported CSS is added to the global stylesheet and styles are automatically 
 Define a simple task list with hierarchical relationships. The data includes two parent tasks (TaskID 1 and 5) with child tasks linked via `ParentID`. Each task must have a `StartDate` and either a `Duration` (in days) or `EndDate` to render properly.
 
 ```typescript
-data = [
+let data: Object[] = [
     {TaskID: 1, TaskName: 'Project initiation', StartDate: new Date('2024-04-01'), EndDate: new Date('2024-04-15')},
     {TaskID: 2, TaskName: 'Identify site location', StartDate: new Date('2024-04-01'), Duration: 4, ParentID: 1},
     {TaskID: 3, TaskName: 'Perform site survey', StartDate: new Date('2024-04-01'), Duration: 4, ParentID: 1},
@@ -106,7 +106,7 @@ data = [
 Map the data fields to Gantt Chart properties using [taskFields](https://ej2.syncfusion.com/documentation/api/gantt#taskfields):
 
 ```typescript
-taskSettings = {
+let taskSettings = {
     id: 'TaskID',
     name: 'TaskName',
     startDate: 'StartDate',

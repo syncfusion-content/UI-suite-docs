@@ -143,8 +143,8 @@ Use the following CDN link format to refer in the `index.html` files:
 
 **Example CDN link:**
 
-> * Script: [https://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js](http://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js)
-> * Styles: [https://cdn.syncfusion.com/ej2/ej2-gantt/styles/tailwind3.css](http://cdn.syncfusion.com/ej2/ej2-gantt/styles/material.css)
+> * Script: [https://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js](https://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js)
+> * Styles: [https://cdn.syncfusion.com/ej2/ej2-gantt/styles/tailwind3.css](https://cdn.syncfusion.com/ej2/ej2-gantt/styles/tailwind3.css)
 
 The following example shows how to reference the Gantt scripts and styles in an HTML file using CDN links:
 

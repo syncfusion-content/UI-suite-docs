@@ -17,10 +17,10 @@ This guide demonstrates how to create an Angular application, configure task dat
 ## Prerequisites
 
 Ensure the following prerequisites are installed:
-- Node.js **18.19 or later**
+- Node.js **20.11 or later** (required by Angular 20/21)
 - npm or yarn package manager
-- Git (for cloning repositories if needed)
 - Basic knowledge of Angular framework
+- A valid Syncfusion<sup style="font-size:70%">&reg;</sup> license key for commercial use. You can obtain a key from your [Syncfusion account](https://www.syncfusion.com/account) and register it as shown in the [licensing documentation](https://ej2.syncfusion.com/angular/documentation/licensing/license-key-registration).
 
 ## Installation
 

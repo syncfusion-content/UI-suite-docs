@@ -39,6 +39,8 @@ npm install @syncfusion/ej2-react-gantt
 
 > To install a specific version (for matching an internal version pin), use `npm install @syncfusion/ej2-react-gantt@<version>`. The `ej2-base` and other dependent `@syncfusion/ej2-*` packages are installed transitively.
 
+If you created the app with the JavaScript Vite template instead of TypeScript, use `src/App.jsx` and keep the same component structure with JSX syntax.
+
 ## Add theme styles
 
 Import the Gantt Chart styles into your `src/App.css`. The first block below is sufficient for this getting-started walkthrough; the optional second block is required only when you later enable features such as editing, toolbar, filtering, or dialogs.
