@@ -74,7 +74,7 @@ ng add @syncfusion/ej2-angular-gantt
 
 This command performs the following automatically:
 
-- Installs the @syncfusion/ej2-angular-gantt package and dependencies
+- Installs the `@syncfusion/ej2-angular-gantt` package and dependencies
 - Imports the Gantt module into your application
 - Registers default theme styles in `angular.json`
 
