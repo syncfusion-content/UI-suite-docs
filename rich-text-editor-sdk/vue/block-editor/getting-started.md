@@ -2,7 +2,7 @@
 layout: post
 title: Getting started in Vue Block Editor component | Syncfusion
 description: Learn here all about Getting started in Syncfusion Vue Block Editor component of Syncfusion Essential JS 2 and more.
-canonical_url: "https://www.syncfusion.com/vue-components/vue-block-editor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor"
 control: Getting started 
 platform: ej2-vue
 documentation: ug
@@ -147,7 +147,7 @@ Here is the summarized code for the above steps in the **src/App.vue** file:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/getting-started/index" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
 
 ## Run the application
 
