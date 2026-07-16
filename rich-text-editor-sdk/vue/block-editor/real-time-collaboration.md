@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Real-time Collaboration in ##Platform_Name## Block Editor control
+# Real-time Collaboration in Vue Block Editor control
 
 The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
@@ -140,10 +140,9 @@ const adapter: YjsAdapter = {
     yXmlFragment: yFragment
 };
 // Create WebSocket provider for real-time synchronization
-// Connects to local WebSocket server on port 1234
 const provider = new WebsocketProvider(
-    'ws://localhost:1234',
-    'default',
+    'wss://your-server-url',
+    'document-room-id',
     yDoc
 );
 provide('blockeditor', [Collaboration]);
@@ -245,7 +244,7 @@ Inject the `VersionHistory` module and configure the `versionHistory` property u
 
 ```vue
 <template>
-  <ejs-blockeditor/>
+  <ejs-blockeditor><ejs-blockeditor/>
 </template>
 
 <script setup>
@@ -270,9 +269,7 @@ Configure collaboration settings with version history:
 
 ```vue
 <template>
-  <ejs-blockeditor 
-      :collaborationSettings="collaborationSettings"
-    ></ejs-blockeditor>
+  <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
 
 <script setup>
@@ -404,7 +401,7 @@ Triggered when a new snapshot is created.
 
 ```vue
 <template>
-    <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
+  <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
 
 <script setup>
@@ -429,7 +426,7 @@ Triggered when a snapshot is restored.
 
 ```vue
 <template>
-    <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
+  <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
 
 <script setup>
