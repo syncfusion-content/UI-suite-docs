@@ -13,7 +13,7 @@ Swimlanes are horizontal categorizations of cards on the [Blazor Kanban Board](h
 
 ## Render swimlane row
 
-Cards can be grouped into swimlane rows based on the `KeyField`, with each row representing a unique value from the data source. To render swimlane rows, the [KeyField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.SfKanban-1.html#Syncfusion_Blazor_Kanban_SfKanban_1_KeyField) must be mapped to a corresponding field in the data source.
+Cards can be grouped into swimlane rows based on the [KeyField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.SfKanban-1.html#Syncfusion_Blazor_Kanban_SfKanban_1_KeyField), with each row representing a unique value from the data source. To render swimlane rows, the `KeyField` must be mapped to a corresponding field in the data source.
 
 ```cshtml
 

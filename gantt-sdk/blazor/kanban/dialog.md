@@ -471,7 +471,7 @@ namespace Blazor_Kanban_Crud_UrlAdaptor.Controllers
 
 ### Inserting a card
 
-Using the `InsertUrl` property, you can specify the controller action mapping URL to perform insert operation on the server-side.
+Using the [InsertUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.DataManager.html#Syncfusion_Blazor_DataManager_InsertUrl) property, you can specify the controller action mapping URL to perform insert operation on the server-side.
 
 ```cshtml
         [HttpPost]
@@ -482,11 +482,11 @@ Using the `InsertUrl` property, you can specify the controller action mapping UR
         }
 ```
 
-The newly added card data is available in the `value` parameter..
+The newly added card data is available in the `value` parameter.
 
 ### Updating a card
 
-Using the `UpdateUrl` property, the controller action mapping URL can be specified to perform save/update operation on the server-side.
+Using the [UpdateUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.DataManager.html#Syncfusion_Blazor_DataManager_UpdateUrl) property, the controller action mapping URL can be specified to perform save/update operation on the server-side.
 
 
 ```cshtml
@@ -502,7 +502,7 @@ The updated card data is available in the `value` parameter.
 
 ### Deleting a card
 
-Using the `RemoveUrl` property, the controller action mapping URL can be specified to perform a delete operation on the server-side.
+Using the [RemoveUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.DataManager.html#Syncfusion_Blazor_DataManager_RemoveUrl) property, the controller action mapping URL can be specified to perform a delete operation on the server-side.
 
 ```cshtml
         [HttpPost]
