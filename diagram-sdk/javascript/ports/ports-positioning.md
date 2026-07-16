@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Ports positioning in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Ports in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -35,20 +35,6 @@ The following table shows the position of port within the shape.
 
 The [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/horizontalAlignment) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/verticalAlignment) property is used to set how the port is vertically aligned at the port position.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -60,8 +46,6 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/
 {% endtabs %}
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
-
-{% endif %}
 
 The following table shows all the possible alignments visually with offset (0, 0).
 
@@ -84,20 +68,6 @@ The following table shows all the possible alignments visually with offset (0, 0
 [`Margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel) is an absolute value used to add some blank space to any one of its four sides. The ports can be displaced with the margin property. The following code example explains how to align a port based on its offset and margin values.
 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -109,8 +79,6 @@ The following table shows all the possible alignments visually with offset (0, 0
 {% endtabs %}
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
-
-{% endif %}
 
 ## See also
 

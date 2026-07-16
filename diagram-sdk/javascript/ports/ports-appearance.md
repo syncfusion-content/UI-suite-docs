@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Ports appearance in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Ports in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -18,20 +18,6 @@ For more information about port visibility refer [`Port Visibility`](#port-visib
 
 The following code illustrates how to change the appearance of port.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -44,27 +30,11 @@ The following code illustrates how to change the appearance of port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
 
-{% endif %}
-
 ### Change appearance of port at runtime
 
 The appearance of port can be changed at runtime by customizing the style of port. The following code illustrates how to change the appearance of port at runtime.
 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,8 +46,6 @@ The appearance of port can be changed at runtime by customizing the style of por
 {% endtabs %}
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
-
-{% endif %}
 
 
 ## Port visibility
@@ -113,20 +81,6 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 
 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-shapes/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-shapes/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,8 +92,6 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 {% endtabs %}
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
-
-{% endif %}
 
 
 ## Constraints

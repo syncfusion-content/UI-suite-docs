@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Scroll settings in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Scroll settings in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -25,20 +25,6 @@ The diagram allows you to pan before loading, ensuring that any desired region o
 
 In the example below, the vertical scrollbar is scrolled down by 100 px, and the horizontal scrollbar is scrolled to the right by 100 px.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -50,7 +36,6 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs1" %}
-{% endif %}
 
 ## Update scroll offset at runtime
 
@@ -65,20 +50,6 @@ There are several ways to update the scroll offset at runtime:
 
 You can programmatically change the scroll offsets of diagram by customizing the [`horizontalOffset`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/scrollSettingsModel#verticaloffset)  of [`Scroll Settings`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/scrollSettingsModel) at runtime. The following code illustrates how to change the scroll offsets at runtime.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -90,7 +61,6 @@ You can programmatically change the scroll offsets of diagram by customizing the
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs2" %}
-{% endif %}
 
 ## Update zoom at runtime
 
@@ -120,21 +90,7 @@ The [`zoomTo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#z
 
  The following example shows how to zoom-in and zoom-out the diagram using zoomTo method
 
- {% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
+ 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs8/index.js %}
@@ -145,7 +101,6 @@ The [`zoomTo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#z
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs8" %}
-{% endif %}
 
 For more information on various ways to zoom and pan the diagram, refer to [`zoomPan with various ways`](https://support.syncfusion.com/kb/article/15147/how-to-zoom-and-pan-in-javascript-diagram-with-various-ways)
 
@@ -169,20 +124,6 @@ The autoscroll border defines the maximum distance from the mouse pointer to the
 
 The following example demonstrates how to configure autoscroll:
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -194,7 +135,6 @@ The following example demonstrates how to configure autoscroll:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs3" %}
-{% endif %}
 
 N> To use auto scroll the `scrollLimit` should be set as **Infinity**.
 
@@ -221,20 +161,6 @@ Scrolling beyond a particular rectangular area can be restricted by using the [`
 
 The following code example illustrates how to specify the scroll limit and customize the scrollable area.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -246,7 +172,6 @@ The following code example illustrates how to specify the scroll limit and custo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs5" %}
-{% endif %}
 
 ## Scroll Padding
 
@@ -254,20 +179,6 @@ The [`padding`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/
 
 The following code example illustrates how to set scroll padding for the diagram region:
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -279,7 +190,6 @@ The following code example illustrates how to set scroll padding for the diagram
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs6" %}
-{% endif %}
 
 ## Reset scroll
 
@@ -307,20 +217,6 @@ diagram.updateViewPort();
 
 The [`scrollChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iScrollChangeEventArgs) event is triggered whenever the scrollbar is updated. This can occur during actions such as zooming in, zooming out, using the mouse wheel, or panning. The following example shows how to capture the `scrollChange` event.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/scrollSettings-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -332,4 +228,3 @@ The [`scrollChange`](https://ej2.syncfusion.com/javascript/documentation/api/dia
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs9" %}
-{% endif %}

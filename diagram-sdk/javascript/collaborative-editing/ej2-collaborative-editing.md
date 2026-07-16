@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Collaborative Editing in JavaScript Diagram | Syncfusion
 description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion JavaScript Diagram.
@@ -21,23 +21,6 @@ To create a JavaScript web application, set up a basic HTML file with the requir
 
 ## How to add packages in the JavaScript application
 
-{% if page.publishingplatform == "typescript" %}
-
-Install the required npm packages in your JavaScript project:
-
-```bash
-npm install @microsoft/signalr
-npm install @syncfusion/ej2-diagrams
-```
-
-Then import the modules in your TypeScript file:
-
-```typescript
-import * as signalR from '@microsoft/signalr';
-import { Diagram } from '@syncfusion/ej2-diagrams';
-```
-
-{% elsif page.publishingplatform == "javascript" %}
 
 Include the required libraries via CDN in your HTML file:
 
@@ -46,8 +29,6 @@ Include the required libraries via CDN in your HTML file:
 <script src="https://cdn.jsdelivr.net/npm/@syncfusion/ej2-diagrams/dist/ej2-diagrams.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/@syncfusion/ej2-base/styles/material.css" rel="stylesheet" />
 ```
-
-{% endif %}
 
 ## Configure SignalR service in JavaScript application
 
@@ -58,18 +39,6 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 * Join a SignalR group by calling `invoke('JoinDiagram', roomName)` after the connection is established. This ensures updates are shared only with users in the same diagram session.
 * Refer to the JavaScript Diagram [Getting Started](../getting-started) guide.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -79,8 +48,6 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 {% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.html %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 >**Notes:**
 >* Use a unique `roomName` per diagram (for example, a diagram ID) to isolate collaboration sessions.
@@ -96,18 +63,6 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 * Each remote user listens for the `ReceiveData` and applies the incoming changes with [setDiagramUpdates](https://ej2.syncfusion.com/javascript/documentation/api/diagram#setdiagramupdates), keeping their view synchronized without reloading the full diagram.
 * Enable the [enableCollaborativeEditing](https://ej2.syncfusion.com/javascript/documentation/api/diagram#enablecollaborativeediting) property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation. This property works in conjunction with the [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) module to batch related changes efficiently. 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -118,26 +73,12 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Conflict policy (optimistic concurrency) in JavaScript application
 
 To maintain consistency during collaborative editing, each user applies incoming changes using [setDiagramUpdates](https://ej2.syncfusion.com/javascript/documentation/api/diagram#setdiagramupdates). The JavaScript application tracks a `userVersion` that is synchronized with the `serverVersion` through version-tracking events. This version-based approach ensures conflicts are resolved without locking, allowing real-time responsiveness while preserving data integrity.
 
 Add the following code in your JavaScript application:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -147,5 +88,3 @@ Add the following code in your JavaScript application:
 {% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.html %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}

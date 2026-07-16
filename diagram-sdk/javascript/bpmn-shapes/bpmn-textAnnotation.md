@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Bpmn Text annotation  in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Bpmn Text annotation shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -29,20 +29,6 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * The `offsetX` and `offsetY` properties are used to set the distance between the BPMN node and the TextAnnotation.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs16/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs16/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -54,26 +40,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
-{% endif %}
 
 ### Text annotation in palette.
 
 Text annotation node can be rendered in symbol palette like other bpmn shapes. The following example shows how to render Bpmn text annotation node in symbol palette.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-textAnnotationPalette/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-textAnnotationPalette/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -85,7 +56,6 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
-{% endif %}
 
 
 ### Connect the TextAnnotation to BPMN node
@@ -112,20 +82,6 @@ There are several types of Text annotation directions as follows:
 
 Text annotations can be added dynamically using either the [`addTextAnnotation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#addtextannotation) method or the [`add`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#add) method of the diagram. The following example shows how to use these methods to add a text annotation node.
  
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-textAnnotationPalette-runtime/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-textAnnotationPalette-runtime/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -137,4 +93,3 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
-{% endif %}
