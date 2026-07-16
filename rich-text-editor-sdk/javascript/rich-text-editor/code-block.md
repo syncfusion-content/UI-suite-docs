@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Code Block 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Code Block in JavaScript Rich Text Editor control

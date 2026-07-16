@@ -6,14 +6,14 @@ platform: rich-text-editor-sdk
 control: Editor value
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Editor value in JavaScript Rich Text Editor control
 
 ## Set placeholder text 
 
-Specifies the placeholder for the Rich Text Editor’s content used when the editor's content area is empty through the [placeholder](https://ej2.syncfusion.com/documentation/api/rich-text-editor#placeholder) property.
+Specifies the placeholder for the Rich Text Editor’s content used when the editor's content area is empty through the [placeholder](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#placeholder) property.
 
 You can customize the appearance of the placeholder text by targeting the `e-rte-placeholder` class in your CSS. This allows you to modify properties such as font family, color, and other styles.
 
@@ -60,15 +60,15 @@ The below sample demonstrates the placeholder option in Rich Text Editor.
 
 You can set the initial content of the Rich Text Editor using the `value` property. There are two methods to accomplish this:
 
-* Using the [value](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#value) property directly.
+* Using the [value](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#value) property directly.
 
-* Using the [valuetemplate](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#valuetemplate) property allows you to customize the content of the Rich Text Editor.
+* Using the [valuetemplate](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#valuetemplate) property allows you to customize the content of the Rich Text Editor.
 
 **Retrieving Values**
 
 To get the content from the Rich Text Editor, use the following approaches:
 
-* Using the [value](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#value) property: This returns the current content of the editor.
+* Using the [value](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#value) property: This returns the current content of the editor.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -97,7 +97,7 @@ To get the content from the Rich Text Editor, use the following approaches:
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/editor-value-cs1" %}
 {% endif %}
 
-* Using the [change](https://ej2.syncfusion.com/documentation/api/rich-text-editor#change) event: The `change` event is triggered when the Rich Text Editor loses focus and its content has been modified. This event allows you to capture and handle content changes dynamically.
+* Using the [change](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#change) event: The `change` event is triggered when the Rich Text Editor loses focus and its content has been modified. This event allows you to capture and handle content changes dynamically.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -128,7 +128,7 @@ To get the content from the Rich Text Editor, use the following approaches:
 
 ## Auto save
 
-The auto-save option in the Rich Text Editor allows the content to be automatically saved during idle periods after you have typed. Once this option is enabled, the editor will save the content based on the [saveInterval](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#saveinterval) property's value, which is specified in milliseconds.
+The auto-save option in the Rich Text Editor allows the content to be automatically saved during idle periods after you have typed. Once this option is enabled, the editor will save the content based on the [saveInterval](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#saveinterval) property's value, which is specified in milliseconds.
 
 The change event will be triggered if the content has been modified since the last saved state, ensuring consistent tracking of changes without manual intervention.
 
@@ -161,7 +161,7 @@ The change event will be triggered if the content has been modified since the la
 
 ## Programmatic content access
 
-You can use the [getHtml](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#gethtml) public method to retrieve the Rich Text Editor content.
+You can use the [getHtml](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#gethtml) public method to retrieve the Rich Text Editor content.
 
 ```typescript
 
@@ -169,7 +169,7 @@ You can use the [getHtml](https://helpej2.syncfusion.com/documentation/api/rich-
 
 ```
 
-To fetch the Rich Text Editor's text content, use [getText](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#gettext) method.
+To fetch the Rich Text Editor's text content, use [getText](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#gettext) method.
 
 ```typescript
 
@@ -179,7 +179,7 @@ To fetch the Rich Text Editor's text content, use [getText](https://helpej2.sync
 
 ## Encoded editor value
 
-The [enableHtmlEncode](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#enablehtmlencode) property in the Rich Text Editor specifies whether the source code is displayed in an encoded format. Additionally, the [value](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#value) property also returns the content in an encoded format. This feature is particularly useful when you want to ensure that HTML content is displayed safely without being interpreted by the browser.
+The [enableHtmlEncode](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#enablehtmlencode) property in the Rich Text Editor specifies whether the source code is displayed in an encoded format. Additionally, the [value](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#value) property also returns the content in an encoded format. This feature is particularly useful when you want to ensure that HTML content is displayed safely without being interpreted by the browser.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -440,11 +440,11 @@ The Character Count feature in the Rich Text Editor allows you to track and disp
 
 ### How to enable character count
 
-To enable the character count feature, set the [showCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor#showcharcount) property to `true`. By default, this property is set to `false`.
+To enable the character count feature, set the [showCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#showcharcount) property to `true`. By default, this property is set to `false`.
 
 When enabled, the character count is displayed at the bottom right corner of the editor.
 
-> To create Rich Text Editor with [showCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor#showcharcount) feature, inject the Count module to the Rich Text Editor using the `RichTextEditor.Inject(Count)` method.
+> To create Rich Text Editor with [showCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#showcharcount) feature, inject the Count module to the Rich Text Editor using the `RichTextEditor.Inject(Count)` method.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -512,13 +512,13 @@ The character count color will be modified based on the characters in the Rich T
 
 ### Setting maximum character limit
 
-You can restrict the number of characters entered in the editor by setting the [maxLength](https://ej2.syncfusion.com/documentation/api/rich-text-editor#maxlength)property to a specific numeric value. When set, the maximum allowable character count is displayed alongside the current count at the bottom right of the editor.
+You can restrict the number of characters entered in the editor by setting the [maxLength](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#maxlength)property to a specific numeric value. When set, the maximum allowable character count is displayed alongside the current count at the bottom right of the editor.
 
 If `maxLength` is not set, there is no limit to the character count in the editor.
 
 ### Retrieving character count programmatically
 
-You can programmatically get the current character count in the editor using the [getCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor#getcharcount) public method.
+You can programmatically get the current character count in the editor using the [getCharCount](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#getcharcount) public method.
 
 ```typescript
 
@@ -535,7 +535,7 @@ The source code is presented with enhanced formatting and consistent indentation
 
 ### Configuring source code tool in the toolbar
 
-You can add the `SourceCode` tool in the Rich Text Editor using the `toolbarSettings` [items](https://helpej2.syncfusion.com/documentation/api/rich-text-editor/toolbarSettingsModel#items) property.
+You can add the `SourceCode` tool in the Rich Text Editor using the `toolbarSettings` [items](https://helpej2.syncfusion.com/documentation/api/rich-text-editor/toolbarsettingsmodel#items) property.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -566,9 +566,9 @@ You can add the `SourceCode` tool in the Rich Text Editor using the `toolbarSett
 
 >This functionality can also be enabled through the use of the [CodeMirror](https://codemirror.net/) plugin. It helps to highlight the HTML content and ensures that any modifications in the code view are instantly reflected in the preview mode.
 
-The Rich Text Editor provides the [showSourceCode](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#showsourcecode) method, which allows you to toggle programmatically between the code view and the formatted text view. When invoked, this method switches the editor’s view to the opposite state.
+The Rich Text Editor provides the [showSourceCode](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#showsourcecode) method, which allows you to toggle programmatically between the code view and the formatted text view. When invoked, this method switches the editor’s view to the opposite state.
 
-N> Looking for the full JavaScript Rich Text Editor component overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) page.
+N> Looking for the full JavaScript Rich Text Editor component overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/javascript-rich-text-editor) page.
 
 ## See also
 
