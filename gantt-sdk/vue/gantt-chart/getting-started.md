@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Getting Started with Vue Gantt Chart Component | Syncfusion
-description:  Checkout and learn about Getting started with Vue Gantt Chart component of Syncfusion Essential JS 2 and more details.
-control: Getting started 
+description: Check out and learn about getting started with the Vue Gantt Chart component of Syncfusion Essential JS 2 and more details.
+control: Getting started
 platform: gantt-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
@@ -10,19 +10,25 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 # Getting Started with the Vue Gantt Chart Component in Vue 2
 
-This article provides a step-by-step guide for setting up a Vue 2 project using [Vue-CLI](https://cli.vuejs.org) and integrating the [Vue Gantt Chart](https://www.syncfusion.com/vue-components/vue-gantt-chart) component.
+This article provides a step-by-step guide for setting up a Vue 2 project using [Vue CLI](https://cli.vuejs.org) and integrating the [Vue Gantt Chart](https://www.syncfusion.com/vue-components/vue-gantt-chart) component.
 
 To get started quickly with Vue Gantt Chart, check this video:
 {% youtube "https://www.youtube.com/watch?v=S1GbWmVcre0" %}
 
-The `Options API` is the traditional way of writing Vue.js components, where the component logic is organized into a series of options that define the component's properties and behavior. These options include data, methods, computed properties, watchers, lifecycle hooks, and more.
+This article uses the standard Vue 2 component registration pattern with Vue CLI.
 
 ## Prerequisites
 
-[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+Before you begin, make sure that:
 
+- Node.js and npm (or Yarn) are installed.
+- Vue CLI is installed globally if it is not already available.
+- You are using a Vue 2 project, since this example is intended for Vue 2.
+- You are using a supported Node.js version for Vue CLI and the Syncfusion package; verify the installation with `node -v` and `npm -v`.
 
-## Setup the Vue 2 project
+For compatibility details, see [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements).
+
+## Set up the Vue 2 project
 
 Create a new Vue 2 project using Vue CLI:
 
@@ -53,6 +59,7 @@ This article uses the [Vue Gantt Chart component](https://www.syncfusion.com/vue
 ```bash
 npm install @syncfusion/ej2-vue-gantt --save
 ```
+
 or
 
 ```bash
@@ -61,7 +68,7 @@ yarn add @syncfusion/ej2-vue-gantt
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-In this article, the `Tailwind3` theme is applied using CSS styles, which are available in installed packages. The necessary `Tailwind3` CSS styles for the Gantt Chart component and its dependents were imported into the `<style>` section of the **src/App.vue** file.
+In this article, the `Tailwind3` theme is applied using CSS styles, which are available in installed packages. Add the necessary `Tailwind3` CSS imports to the `<style>` section of the **src/App.vue** file. The same styles are included in the complete `App.vue` example below.
 
 {% tabs %}
 {% highlight html tabtitle="App.vue" %}
@@ -79,6 +86,7 @@ In this article, the `Tailwind3` theme is applied using CSS styles, which are av
 {% endtabs %}
 
 > **Note:** When using features like editing, toolbar, filtering, or dialogs, you need to import additional component styles:
+>
 > ```css
 > /* For editing, toolbar, and dialog features */
 > @import "../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css";
@@ -87,54 +95,103 @@ In this article, the `Tailwind3` theme is applied using CSS styles, which are av
 > @import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
 > @import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
 > @import "../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css";
-> 
+>
 > /* For rich text editor in dialog notes tab */
 > @import "../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css";
 > ```
 
-
->**Important** The order of CSS imports matters. Import base styles first, then component-specific styles. Missing CSS imports can result in misaligned layouts, buttons without styling, or missing visual elements in popups and dialogs.
+> **Important** The order of CSS imports matters. Import base styles first, then component-specific styles. Missing CSS imports can result in misaligned layouts, buttons without styling, or missing visual elements in popups and dialogs.
 
 ## Create sample data
+
 Define a simple task list with hierarchical relationships. Each task must have a `StartDate` and either a `Duration` or `EndDate` to render properly.
 
 ```js
 const data = [
-  { TaskID: 1, TaskName: 'Project initiation', StartDate: new Date('2024-04-01'), EndDate: new Date('2024-04-15') },
-  { TaskID: 2, TaskName: 'Identify site location', StartDate: new Date('2024-04-01'), Duration: 4, Progress: 70, ParentID: 1 },
-  { TaskID: 3, TaskName: 'Perform site survey', StartDate: new Date('2024-04-01'), Duration: 4, Progress: 50, ParentID: 1 },
-  { TaskID: 4, TaskName: 'Soil testing', StartDate: new Date('2024-04-01'), Duration: 3, Progress: 40, ParentID: 1 },
-  { TaskID: 5, TaskName: 'Project estimation', StartDate: new Date('2024-04-08'), EndDate: new Date('2024-04-18') },
-  { TaskID: 6, TaskName: 'Develop floor plan', StartDate: new Date('2024-04-08'), Duration: 5, Progress: 30, ParentID: 5 },
-  { TaskID: 7, TaskName: 'Estimate project cost', StartDate: new Date('2024-04-08'), Duration: 5, Progress: 20, ParentID: 5 }
-]
+  {
+    TaskID: 1,
+    TaskName: "Project initiation",
+    StartDate: new Date("2024-04-01"),
+    EndDate: new Date("2024-04-15"),
+  },
+  {
+    TaskID: 2,
+    TaskName: "Identify site location",
+    StartDate: new Date("2024-04-01"),
+    Duration: 4,
+    Progress: 70,
+    ParentID: 1,
+  },
+  {
+    TaskID: 3,
+    TaskName: "Perform site survey",
+    StartDate: new Date("2024-04-01"),
+    Duration: 4,
+    Progress: 50,
+    ParentID: 1,
+  },
+  {
+    TaskID: 4,
+    TaskName: "Soil testing",
+    StartDate: new Date("2024-04-01"),
+    Duration: 3,
+    Progress: 40,
+    ParentID: 1,
+  },
+  {
+    TaskID: 5,
+    TaskName: "Project estimation",
+    StartDate: new Date("2024-04-08"),
+    EndDate: new Date("2024-04-18"),
+  },
+  {
+    TaskID: 6,
+    TaskName: "Develop floor plan",
+    StartDate: new Date("2024-04-08"),
+    Duration: 5,
+    Progress: 30,
+    ParentID: 5,
+  },
+  {
+    TaskID: 7,
+    TaskName: "Estimate project cost",
+    StartDate: new Date("2024-04-08"),
+    Duration: 5,
+    Progress: 20,
+    ParentID: 5,
+  },
+];
 ```
+
 ## Configure task fields
+
+Each task object in the `dataSource` array should include a `StartDate` and either a `Duration` or an `EndDate`. The `taskFields` mapping connects your data properties to the Gantt component.
 
 ```js
 const taskFields = {
-  id: 'TaskID',
-  name: 'TaskName',
-  startDate: 'StartDate',
-  duration: 'Duration',
-  progress: 'Progress',
-  parentID: 'ParentID'
+  id: "TaskID",
+  name: "TaskName",
+  startDate: "StartDate",
+  duration: "Duration",
+  progress: "Progress",
+  parentID: "ParentID",
 };
 ```
+
 ### Field mapping reference
 
-| Property | Description | Required |
-|----------|-------------|----------|
-| `id` | Unique task identifier | Yes |
-| `name` | Task display name | Yes |
-| `startDate` | Task start date | Yes |
-| `duration` | Task duration in days | Yes |
-| `progress` | Task completion percentage (0-100) | No |
-| `parentID` | Parent task ID for hierarchy | No |
+| Property    | Description                        | Required |
+| ----------- | ---------------------------------- | -------- |
+| `id`        | Unique task identifier             | Yes      |
+| `name`      | Task display name                  | Yes      |
+| `startDate` | Task start date                    | Yes      |
+| `duration`  | Task duration in days              | Yes      |
+| `progress`  | Task completion percentage (0-100) | No       |
+| `parentID`  | Parent task ID for hierarchy       | No       |
 
 ## Render the Gantt component
 
-Ensure that the Gantt component is imported and registered in the `<script>` section of the `src/App.vue` file so that Vue can recognize and render it within the template.
+Replace the default `src/App.vue` content with the following example, or add the sample code to the existing `App.vue` file. Ensure that the Gantt component is imported and registered in the `<script>` section so that Vue can recognize and render it within the template.
 
 To display the Gantt Chart, bind your task data using the `dataSource` property and map the corresponding fields using the `taskFields` property.
 
@@ -190,13 +247,21 @@ name: "App",
 
 ## Run the application
 
-Now run the following command in the console, 
+Now run the following command in the console:
 
 ```bash
 npm run serve
 ```
 
-It will build your application and open in the web browser.
+If you used Yarn to install the project dependencies, run the following command instead:
+
+```bash
+yarn serve
+```
+
+It will build your application and open it in the web browser.
+
+If the app does not start, verify that the dependencies were installed successfully and that you are running the command from the project folder.
 
 ## Output
 

@@ -13,13 +13,27 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 The [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI component used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
 
-This section explains the steps to create a simple Gantt and demonstrates the basic usage of the gantt component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+This section explains the steps to create a simple Gantt and demonstrates the basic usage of the gantt component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
 
 > This application is integrated with the **webpack.config.js** configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node **v14.15.0** or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started).
 
+## Prerequisites
+
+Ensure you have the following installed on your system before proceeding:
+- **Node.js** v14.15.0 or higher
+- **npm** (included with Node.js)
+- **Git** for cloning the repository
+
+You can verify your installations by running:
+```bash
+node --version
+npm --version
+git --version
+```
+
 ## Setup development environment
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -41,9 +55,9 @@ cd ej2-quickstart-webpack
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control, such as [@syncfusion/ej2-gantt](https://www.npmjs.com/package/@syncfusion/ej2-gantt) for just the Gantt Chart.
 
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package (version 21.x or higher) in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -67,17 +81,13 @@ The quickstart application is preconfigured to use the **Tailwind3** theme in th
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme) section to know more about built-in themes and CSS reference for individual controls.
+> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme) section to know more about built-in themes (material, bootstrap, fabric, etc.) and CSS reference for individual controls. To use a different theme, replace `tailwind3.css` with the desired theme name (e.g., `material.css`, `bootstrap5.css`).
 
-### How styles are applied
-
-The imported CSS is added to the global stylesheet (`~/src/styles/styles.css`) and styles automatically applied to all components during application runtime.
-
-No additional configuration is required in the TypeScript (`.ts`) file.
+The imported CSS is added to the global stylesheet and styles are automatically applied to all Syncfusion components during application runtime. No additional configuration is required in the TypeScript (`.ts`) file.
 
 ## Create sample task data
 
-Define a simple task list with hierarchical relationships. Each task must have a `StartDate` and either a `Duration` or `EndDate` to render properly.
+Define a simple task list with hierarchical relationships. The data includes two parent tasks (TaskID 1 and 5) with child tasks linked via `ParentID`. Each task must have a `StartDate` and either a `Duration` (in days) or `EndDate` to render properly.
 
 ```typescript
 data = [
@@ -112,7 +122,8 @@ taskSettings = {
 | `id` | Unique task identifier | Yes |
 | `name` | Task display name | Yes |
 | `startDate` | Task start date | Yes |
-| `duration` | Task duration in days | Yes |
+| `duration` | Task duration in days | Either Duration or EndDate |
+| `endDate` | Task end date | Either Duration or EndDate |
 | `parentID` | Parent task ID for hierarchy | No |
 
 ## Render the Gantt component
@@ -150,7 +161,7 @@ gantt.appendTo('#Gantt');
 {% endhighlight %}
 {% endtabs %}
 
-Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart component.
+Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart component. Ensure the `<div id="Gantt"></div>` element exists before calling `appendTo()` in your TypeScript code.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -190,6 +201,11 @@ npm start
 {% endhighlight %}
 {% endtabs %}
 
+The application will typically run on `http://localhost:8080` or `http://localhost:3000` depending on your webpack configuration. If you encounter errors:
+- **Port already in use**: Change the port in `webpack.config.js` or kill the process using that port
+- **Build errors**: Run `npm install` again to ensure all dependencies are installed correctly
+- **Module not found**: Verify that all imports reference the correct package names (e.g., `@syncfusion/ej2-gantt`)
+
 ## Output
 
 The Gantt Chart displays:
@@ -212,20 +228,53 @@ You can preview the following sample by clicking the **Preview Sample** button.
 
 ## Error handling
 
-Error handling is used to identify errors, display them and develop recovery strategies to handle errors from gantt. In Gantt, error handling is done by using the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event. Some of the scenarios that this event handles are:
-* Invalid duration : The [duration](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#duration) field accepts only numerical values with an optional decimal point. Entering non-numerical values triggers the `actionFailure` event and displays issue information in the event argument.
-* Invalid dependency: The [dependency](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#dependency) field accepts only a number followed by a predecessor type (FS, FF, SS, SF).  Entering invalid values, such as special characters or incorrect predecessor types, triggers the `actionFailure` event and displays issue information in the event argument.
-* Invalid offset : The [offset](https://ej2.syncfusion.com/documentation/api/gantt/iPredecessor#offset) accepts only numerical values or their word equivalents followed by a unit. Entering invalid values, such as special characters triggers `actionFailure` event and displays issue information in the event argument.
-* Failure to map task fields : The data source fields necessary for rendering tasks should be mapped to the Gantt control using the [taskFields](https://ej2.syncfusion.com/documentation/api/gantt/taskFields) property. Failure to map `taskFields` in the sample triggers `actionFailure` event and displays issue information in the event argument.
-* Failure to map resource fields : To assign resources to a task, resource fields should be mapped to the Gantt control using the [resourceFields](https://ej2.syncfusion.com/documentation/api/gantt/resourceFields). Failure to map `resourceFields` in the sample triggers `actionFailure` event and displays issue information in the event argument.
-* Failure to map `isPrimaryKey` : [isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) field is crucial for CRUD operations. Failure to map [id](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#id) column in gantt column collection or [isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) field in one of the columns will trigger `actionFailure` event and display issue information in the event argument.
-* Invalid date format : [format](https://ej2.syncfusion.com/documentation/api/gantt/iTimelineFormatter) property under `topTier` and `bottomTier` determines how the timelines are displayed in the top tier and bottom tier of the Gantt chart timeline. If the `format` does not contain a valid standard [date format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), it triggers the `actionFailure` event, displaying issue information in the event argument.
-* Failure to map `hasChildMapping` : [hasChildMapping](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#haschildmapping) property should configured for [load-on-demand](https://ej2.syncfusion.com/documentation/gantt/data-binding#load-child-on-demand). Ensure it properly configured in the [taskFields](https://ej2.syncfusion.com/documentation/api/gantt/taskFields). Failure to map `hasChildMapping` in the `load-on-demand` sample triggers `actionFailure` event and displays issue information in the event argument.
-* Invalid day in event markers : [day](https://ej2.syncfusion.com/documentation/api/gantt/eventMarker#day) should configured in [eventMarkers](https://ej2.syncfusion.com/documentation/api/gantt/eventMarker) to render striplines in a particular day. Failure to configure the `day` in `eventMarkers` triggers `actionFailure` event and displays issue information in the event argument.
+Proper error handling helps identify and resolve issues during development. The Gantt control provides the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event to capture validation and runtime errors.
 
->Additionally, TreeGrid side error handling information is also displayed from the Gantt `actionFailure` event. For more details on TreeGrid side error handling, refer [here](https://ej2.syncfusion.com/documentation/treegrid/getting-started#handling-errors).
+### Common error scenarios
 
-The following code example shows how to use the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event in the Gantt control to display an exception when `isPrimaryKey` is not configured properly in the Gantt Chart column.
+The `actionFailure` event is triggered when validation errors or configuration issues occur:
+
+* **Invalid duration** — The [duration](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#duration) field accepts only numerical values with an optional decimal point. Non-numerical values trigger the `actionFailure` event.
+* **Invalid dependency** — The [dependency](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#dependency) field accepts a number followed by a predecessor type (FS, FF, SS, SF). Invalid values, special characters, or incorrect predecessor types trigger the `actionFailure` event.
+* **Invalid offset** — The [offset](https://ej2.syncfusion.com/documentation/api/gantt/iPredecessor#offset) accepts only numerical values or their word equivalents followed by a unit. Invalid values trigger the `actionFailure` event.
+* **Failure to map task fields** — The data source fields must be mapped to the Gantt control using the [taskFields](https://ej2.syncfusion.com/documentation/api/gantt/taskFields) property. Missing mappings trigger the `actionFailure` event.
+* **Failure to map resource fields** — To assign resources to a task, resource fields must be mapped using [resourceFields](https://ej2.syncfusion.com/documentation/api/gantt/resourceFields). Missing mappings trigger the `actionFailure` event.
+* **Missing isPrimaryKey** — The [isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) field is crucial for CRUD operations. Failure to map the [id](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#id) column or set `isPrimaryKey` triggers the `actionFailure` event.
+* **Invalid date format** — The [format](https://ej2.syncfusion.com/documentation/api/gantt/iTimelineFormatter) property in `topTier` and `bottomTier` must use valid [date format strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). Invalid formats trigger the `actionFailure` event.
+* **Missing hasChildMapping** — The [hasChildMapping](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#haschildmapping) property must be configured for [load-on-demand](https://ej2.syncfusion.com/documentation/gantt/data-binding#load-child-on-demand) functionality. Missing mappings trigger the `actionFailure` event.
+* **Invalid event marker day** — The [day](https://ej2.syncfusion.com/documentation/api/gantt/eventMarker#day) property in [eventMarkers](https://ej2.syncfusion.com/documentation/api/gantt/eventMarker) must be a valid date. Invalid dates trigger the `actionFailure` event.
+
+>**Note**: The `actionFailure` event also captures error information from the underlying TreeGrid component. For more details, refer to [TreeGrid error handling](https://ej2.syncfusion.com/documentation/treegrid/getting-started#handling-errors).
+
+### Handling errors with actionFailure event
+
+The following code example shows how to attach the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event handler to display exceptions when configuration issues occur (e.g., `isPrimaryKey` is not configured properly).
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+let gantt: Gantt = new Gantt({
+    dataSource: data,
+    taskFields: {
+        id: 'TaskID',
+        name: 'TaskName',
+        startDate: 'StartDate',
+        duration: 'Duration',
+        parentID: 'ParentID'
+    },
+    actionFailure: (args: any) => {
+        // Display error to user or log it
+        console.error('Gantt Error:', args.error);
+        alert(`Error: ${args.error}`);
+    }
+});
+
+gantt.appendTo('#Gantt');
+
+{% endhighlight %}
+{% endtabs %}
+
+For a complete working example with detailed error scenarios, refer to:
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
