@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Collaborative Editing in Angular Block Editor Control | Syncfusion
-description: Learn how to enable real-time collaborative editing in the Angular Block Editor control, including user presence, version history, and more.
+title: Collaborative Editing in Block Editor Control | Syncfusion
+description: Enable real-time collaborative editing in the Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
 platform: rich-text-editor-sdk
 control: Block Editor
+publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://www.syncfusion.com/angular-components/angular-block-editor/
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Collaborative Editing in Angular Block Editor control
+# Real-time Collaboration in ##Platform_Name## Block Editor control
 
-The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
+The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously.Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
 With collaboration enabled, users can:
 
@@ -20,19 +21,21 @@ With collaboration enabled, users can:
 * Perform collaboration-aware undo and redo operations.
 * Create, restore, compare, export, and import document versions.
 
-*Try the live demo [here](https://ej2.syncfusion.com/showcase/angular/blockeditor-collaborative-editing/)*
+*Try the live demo [here](https://ej2.syncfusion.com/showcase/typescript/blockeditor-collaborative-editing/)*
 
 ## Prerequisites
 
 Before enabling collaboration, install the `yjs` library and a Yjs provider. See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choose the right provider for your use case.
 
-Inject the `Collaboration` module into the Block Editor before use in your Angular component.
+Inject the `Collaboration` module into the Block Editor before use.
 
-```typescript
-import { BlockEditorComponent, Collaboration } from '@syncfusion/ej2-angular-blockeditor';
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+import { BlockEditor, Collaboration } from "@syncfusion/ej2-blockeditor";
+BlockEditor.Inject(Collaboration);
+{% endhighlight %}
+{% endtabs %}
 
-BlockEditorComponent.Inject(Collaboration);
-```
 
 ## Yjs Providers
 
@@ -55,31 +58,38 @@ Use the `collaborationSettings` property of type `CollaborationSettingsModel` to
 
 ## Getting Started
 
-The following steps will help you set up real-time collaboration in the Block Editor using `Yjs` in your Angular application.
+The following steps will help you set up real-time collaboration in the Block Editor using `Yjs`.
 
 ### Step 1: Create a Yjs document
 
-Create a shared Yjs document and XML fragment in your Angular component.
+Create a shared Yjs document and XML fragment.
 
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import * as Y from 'yjs';
 
 const yDoc = new Y.Doc();
 const yFragment = yDoc.getXmlFragment('blockeditor');
-```
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Step 2: Create a Yjs adapter
 
 Create an adapter that provides the Yjs runtime and the shared fragment to the Block Editor.
 
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import * as Y from 'yjs';
+import { YjsAdapter } from '@syncfusion/ej2-blockeditor';
 
-const adapter = new YjsAdapter({
+const adapter: YjsAdapter = {
     yRuntime: Y,
     yXmlFragment: yFragment
-});
-```
+};
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Step 3: Configure a provider
 
@@ -87,7 +97,8 @@ Create a provider that connects users to the same shared document. The following
 
 **Production (y-websocket):**
 
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import { WebsocketProvider } from 'y-websocket';
 
 const provider = new WebsocketProvider(
@@ -95,95 +106,82 @@ const provider = new WebsocketProvider(
     'document-room-id',
     yDoc
 );
-```
+{% endhighlight %}
+{% endtabs %}
+
 
 **Development (y-webrtc):**
 
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import { WebrtcProvider } from 'y-webrtc';
 
 const provider = new WebrtcProvider('document-room-id', yDoc);
-```
+{% endhighlight %}
+{% endtabs %}
 
-### Step 4: Enable Collaboration in Angular Component
 
-Pass the adapter and provider to the Block Editor through the `collaborationSettings` property in your Angular template or component configuration.
+### Step 4: Enable Collaboration
 
-**In component TypeScript file:**
+Pass the adapter and provider to the Block Editor through the `collaborationSettings` property.
 
-```typescript
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { BlockEditorComponent } from '@syncfusion/ej2-angular-blockeditor';
-
-@Component({
-    selector: 'app-block-editor',
-    templateUrl: './block-editor.component.html'
-})
-export class BlockEditorComponent implements OnInit {
-    @ViewChild('blockEditor') blockEditor: BlockEditorComponent;
-    
-    collaborationSettings: any;
-    
-    ngOnInit() {
-        this.collaborationSettings = {
-            adapter: adapter,
-            provider: provider
-        };
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
+        adapter: adapter,
+        provider: provider
     }
-}
-```
+});
+{% endhighlight %}
+{% endtabs %}
 
-**In component template (HTML):**
-
-```html
-<ejs-blockeditor [collaborationSettings]="collaborationSettings"></ejs-blockeditor>
-```
 
 ## User presence and remote cursors
 
 The Block Editor can display remote cursors, text selection overlays, and user details on hover. To enable these user presence features, set `enableAwareness` to `true` in `collaborationSettings` property.
 
-```typescript
-this.collaborationSettings = {
-    adapter: adapter,
-    provider: provider,
-    enableAwareness: true
-};
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
+        adapter: adapter,
+        provider: provider,
+        enableAwareness: true
+    }
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Configure the current user
 
 Set the current user's display name and cursor highlight color using the `users` and `currentUserId` properties. The `avatarBgColor` value is used for that user's remote cursor and text selection overlay. The users property includes `id`, `user` and `avatarBgColor`.
 
-```typescript
-export class BlockEditorComponent implements OnInit {
-    users: any[] = [{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    users: [{
         id: 'user-1',
         user: 'John Doe',
         avatarBgColor: '#e74c3c'
-    }];
-    
-    currentUserId: string = 'user-1';
-    
-    ngOnInit() {
-        // Initialize with users configuration
-    }
-}
-```
+    }],
+    currentUserId: 'user-1'
+});
+{% endhighlight %}
+{% endtabs %}
 
-**In template:**
-
-```html
-<ejs-blockeditor [users]="users" [currentUserId]="currentUserId" [collaborationSettings]="collaborationSettings"></ejs-blockeditor>
-```
 
 ### Get active users
 
 Retrieve all currently connected users using the `users` property in the block editor.
 
-```typescript
-const users = this.blockEditor.users;
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const users = blockEditor.users;
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Version history
 
@@ -191,31 +189,27 @@ const users = this.blockEditor.users;
 
 ### Enable version history
 
-Inject the `VersionHistory` module and configure the `versionHistory` property under `collaborationSettings` property in your Angular component.
+Inject the `VersionHistory` module and configure the `versionHistory` property under `collaborationSettings` property.
 
-```typescript
-import { BlockEditorComponent, Collaboration, VersionHistory } from '@syncfusion/ej2-angular-blockeditor';
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+import { BlockEditor, Collaboration, VersionHistory } from "@syncfusion/ej2-blockeditor";
+BlockEditor.Inject(VersionHistory);
 
-BlockEditorComponent.Inject(Collaboration, VersionHistory);
+const myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
 
-export class BlockEditorComponent implements OnInit {
-    myStorage: any;
-    collaborationSettings: any;
-    
-    ngOnInit() {
-        this.myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
-        
-        this.collaborationSettings = {
-            adapter: adapter,
-            provider: provider,
-            versionHistory: {
-                storage: this.myStorage,
-                snapshotInterval: 3000
-            }
-        };
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
+        adapter: adapter,
+        provider: provider,
+        versionHistory: {
+            storage: myStorage,
+            snapshotInterval: 3000
+        }
     }
-}
-```
+});
+{% endhighlight %}
+{% endtabs %}
 
 ### Configure snapshot storage
 
@@ -235,17 +229,12 @@ The `IVersionStorage` interface defines the following methods:
 
 After the Block Editor initializes, retrieve the version history instance and wait for snapshot data to load before calling any version history methods.
 
-```typescript
-export class BlockEditorComponent implements OnInit {
-    @ViewChild('blockEditor') blockEditor: BlockEditorComponent;
-    
-    async getVersionHistory() {
-        const versionHistory = this.blockEditor.getVersionHistory();
-        await versionHistory.whenReady();
-        return versionHistory;
-    }
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const versionHistory = blockEditor.getVersionHistory();
+await versionHistory.whenReady();
+{% endhighlight %}
+{% endtabs %}
 
 ### Methods
 
@@ -255,56 +244,52 @@ The following are the methods available in the `IVersionHistory`:
 
 Creates a new snapshot of the current document state with an optional label and metadata.
 
-```typescript
-async createSnapshot() {
-    const versionHistory = await this.getVersionHistory();
-    const snapshot = await versionHistory.createSnapshot({
-        label: 'Before major update',
-        modifiedBy: this.currentUserId
-    });
-    return snapshot;
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const snapshot = await versionHistory.createSnapshot({
+    label: 'Before major update',
+    modifiedBy: currentUserId
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 #### List snapshots
 
 Retrieves all saved snapshots or a paginated subset. Snapshots are returned in chronological order.
 
-```typescript
-async listSnapshots() {
-    const versionHistory = await this.getVersionHistory();
-    
-    // Retrieve all snapshots
-    const snapshots = versionHistory.getSnapshots();
-    
-    // Retrieve a paginated subset — getSnapshots(skip, take)
-    const paginatedSnapshots = versionHistory.getSnapshots(20, 40);
-    
-    return paginatedSnapshots;
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+// Retrieve all snapshots
+const snapshots = versionHistory.getSnapshots();
+
+// Retrieve a paginated subset — getSnapshots(skip, take)
+const snapshots = versionHistory.getSnapshots(20, 40);
+{% endhighlight %}
+{% endtabs %}
+
 
 #### Rename a snapshot
 
 Updates the label or metadata of an existing snapshot without modifying its content.
 
-```typescript
-async renameSnapshot(snapshotId: string, newLabel: string) {
-    const versionHistory = await this.getVersionHistory();
-    await versionHistory.renameSnapshot(snapshotId, newLabel);
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+await versionHistory.renameSnapshot(snapshotId, 'Release Candidate');
+{% endhighlight %}
+{% endtabs %}
+
 
 #### Restore a snapshot
 
 Reverts the document to a previously saved snapshot state. The current document state is automatically backed up before restoration.
 
-```typescript
-async restoreSnapshot(snapshotId: string) {
-    const versionHistory = await this.getVersionHistory();
-    await versionHistory.restoreSnapshot(snapshotId);
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+await versionHistory.restoreSnapshot(snapshotId);
+{% endhighlight %}
+{% endtabs %}
+
 
 > **Note:** When a snapshot is restored, the current document state is automatically 
 > backed up before the restore operation is applied.
@@ -313,13 +298,12 @@ async restoreSnapshot(snapshotId: string) {
 
 Compares two snapshots to identify differences such as added, removed, or modified content.
 
-```typescript
-async compareVersions(snapshotIdA: string, snapshotIdB: string) {
-    const versionHistory = await this.getVersionHistory();
-    const diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
-    return diff;
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
+{% endhighlight %}
+{% endtabs %}
+
 
 The returned `VersionDiff` object provides a summary of the differences between the two selected versions.
 
@@ -327,13 +311,12 @@ The returned `VersionDiff` object provides a summary of the differences between 
 
 Serializes a snapshot into a portable format that can be stored externally or transferred between systems.
 
-```typescript
-async exportSnapshot(snapshotId: string) {
-    const versionHistory = await this.getVersionHistory();
-    const exported = await versionHistory.exportSnapshot(snapshotId);
-    return exported;
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const exported = await versionHistory.exportSnapshot(snapshotId);
+{% endhighlight %}
+{% endtabs %}
+
 
 Exported snapshots can be stored externally or transferred between systems.
 
@@ -341,13 +324,12 @@ Exported snapshots can be stored externally or transferred between systems.
 
 Imports a previously exported snapshot back into the version history storage.
 
-```typescript
-async importSnapshot(exported: any) {
-    const versionHistory = await this.getVersionHistory();
-    const imported = await versionHistory.importSnapshot(exported);
-    return imported;
-}
-```
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const imported = await versionHistory.importSnapshot(exported);
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Events
 
@@ -357,31 +339,41 @@ Use the following event callbacks in `versionHistory` settings to respond to sna
 
 Triggered when a new snapshot is created.
 
-```typescript
-this.collaborationSettings = {
-    versionHistory: {
-        storage: this.myStorage,
-        snapshotCreated: ({ snapshot }) => {
-            console.log('Snapshot created:', snapshot.id);
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
+        versionHistory: {
+            storage: myStorage,
+            snapshotCreated: ({ snapshot }) => {
+                console.log(snapshot.id);
+            }
         }
     }
-};
-```
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 #### snapshotRestored
 
 Triggered when a snapshot is restored.
 
-```typescript
-this.collaborationSettings = {
-    versionHistory: {
-        storage: this.myStorage,
-        snapshotRestored: ({ snapshot, backupSnapshot }) => {
-            console.log('Snapshot restored:', snapshot.label);
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
+        versionHistory: {
+            storage: myStorage,
+            snapshotRestored: ({ snapshot, backupSnapshot }) => {
+                console.log(snapshot.label);
+            }
         }
     }
-};
-```
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Best Practices
 
@@ -389,7 +381,7 @@ this.collaborationSettings = {
 * **Use WebSocket-based providers in production** - `y-websocket`, Hocuspocus, or a managed service like Liveblocks provides reliable, low-latency, persistent synchronization at scale.
 * **Use stable room identifiers** - Use a unique document ID as the collaboration room name to prevent unintended document sharing between different documents.
 * **Persist snapshots externally** - Store snapshots in a database or cloud storage to preserve version history across sessions.
-* **Enable awareness selectively** - Disable `enableAwareness` when user presence information is not required to reduce network and processing overhead.
+* **Enable awareness selectively** - Disable `enableAwareness` when user presence information is not required to reduce network and processing overhead.    
 
 ## Troubleshooting
 

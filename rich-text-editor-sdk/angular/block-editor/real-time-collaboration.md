@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Collaborative Editing in React Block Editor component | Syncfusion
-description: Enable real-time collaborative editing in the React Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
+title: Real-Time Collaboration in Angular Block Editor Control | Syncfusion
+description: Learn how to enable real-time collaborative editing in the Angular Block Editor control, including user presence, version history, and more.
 platform: rich-text-editor-sdk
 control: Block Editor
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://www.syncfusion.com/angular-components/angular-block-editor/
 ---
 
-# Collaborative Editing in React Block Editor component
+# Real-Time Collaboration in Angular Block Editor control
 
 The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
@@ -20,21 +20,28 @@ With collaboration enabled, users can:
 * Perform collaboration-aware undo and redo operations.
 * Create, restore, compare, export, and import document versions.
 
-Try the live demo [here](https://ej2.syncfusion.com/showcase/react/blockeditor-collaborative-editing/)*
+*Try the live demo [here](https://ej2.syncfusion.com/showcase/angular/blockeditor-collaborative-editing/)*
 
 ## Prerequisites
 
 Before enabling collaboration, install the `yjs` library and a Yjs provider. See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choose the right provider for your use case.
 
-Inject the `Collaboration` module into the Block Editor before use.
+Inject the `CollaborationService` module into the Block Editor before use in your Angular component.
 
-{% raw %}
 ```typescript
-import { BlockEditorComponent, Collaboration } from '@syncfusion/ej2-react-blockeditor';
+import { Component } from '@angular/core';
+import { BlockEditorModule, CollaborationService } from '@syncfusion/ej2-angular-blockeditor';
 
-BlockEditorComponent.Inject(Collaboration);
+@Component({
+  selector: 'app-block-editor',
+  imports: [BlockEditorModule],
+  template: `
+    <ejs-blockeditor/>
+  `,
+  providers: [CollaborationService]
+})
+export class App {}
 ```
-{% endraw %}
 
 ## Yjs Providers
 
@@ -57,35 +64,31 @@ Use the `collaborationSettings` property of type `CollaborationSettingsModel` to
 
 ## Getting Started
 
-The following steps will help you set up real-time collaboration in the Block Editor using `Yjs`.
+The following steps will help you set up real-time collaboration in the Block Editor using `Yjs` in your Angular application.
 
 ### Step 1: Create a Yjs document
 
-Create a shared Yjs document and XML fragment.
+Create a shared Yjs document and XML fragment in your Angular component.
 
-{% raw %}
 ```typescript
 import * as Y from 'yjs';
 
 const yDoc = new Y.Doc();
 const yFragment = yDoc.getXmlFragment('blockeditor');
 ```
-{% endraw %}
 
 ### Step 2: Create a Yjs adapter
 
 Create an adapter that provides the Yjs runtime and the shared fragment to the Block Editor.
 
-{% raw %}
 ```typescript
 import * as Y from 'yjs';
 
-const adapter = new YjsAdapter({
+const adapter: YjsAdapter = {
     yRuntime: Y,
     yXmlFragment: yFragment
-});
+};
 ```
-{% endraw %}
 
 ### Step 3: Configure a provider
 
@@ -93,7 +96,6 @@ Create a provider that connects users to the same shared document. The following
 
 **Production (y-websocket):**
 
-{% raw %}
 ```typescript
 import { WebsocketProvider } from 'y-websocket';
 
@@ -103,79 +105,91 @@ const provider = new WebsocketProvider(
     yDoc
 );
 ```
-{% endraw %}
 
 **Development (y-webrtc):**
 
-{% raw %}
 ```typescript
 import { WebrtcProvider } from 'y-webrtc';
 
 const provider = new WebrtcProvider('document-room-id', yDoc);
 ```
-{% endraw %}
 
-### Step 4: Enable Collaboration
+### Step 4: Enable Collaboration in Angular Component
 
-Pass the adapter and provider to the Block Editor through the `collaborationSettings` property.
+Pass the adapter and provider to the Block Editor through the `collaborationSettings` property in your Angular template or component configuration.
 
-{% raw %}
-```ts
-import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
+**In component TypeScript file:**
 
+```typescript
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { BlockEditorModule, BlockEditorComponent, CollaborationSettingsModel, CollaborationService } from '@syncfusion/ej2-angular-blockeditor';
 
-<BlockEditorComponent
-    collaborationSettings={{
-        adapter: adapter,
-        provider: provider
-    }}
-/>
+@Component({
+  selector: 'app-block-editor',
+  imports: [BlockEditorModule],
+  template: `
+    <ejs-blockeditor/>
+  `,
+  providers: [CollaborationService]
+})
+export class App implements OnInit{
+  @ViewChild('blockEditor') blockEditor: BlockEditorComponent;
+  collaborationSettings: CollaborationSettingsModel;
+
+    ngOnInit() {
+        this.collaborationSettings = {
+            adapter: adapter,
+            provider: provider
+        };
+    }
+}
 ```
-{% endraw %}
 
 ## User presence and remote cursors
 
 The Block Editor can display remote cursors, text selection overlays, and user details on hover. To enable these user presence features, set `enableAwareness` to `true` in `collaborationSettings` property.
 
-{% raw %}
 ```typescript
-<BlockEditorComponent
-    collaborationSettings={{
-        adapter: adapter,
-        provider: provider,
-        enableAwareness: true
-    }}
-/>
+this.collaborationSettings = {
+    adapter: adapter,
+    provider: provider,
+    enableAwareness: true
+};
 ```
-{% endraw %}
 
 ## Configure the current user
 
 Set the current user's display name and cursor highlight color using the `users` and `currentUserId` properties. The `avatarBgColor` value is used for that user's remote cursor and text selection overlay. The users property includes `id`, `user` and `avatarBgColor`.
 
-{% raw %}
 ```typescript
-<BlockEditorComponent
-    users={[{
+export class App implements OnInit {
+    users: any[] = [{
         id: 'user-1',
         user: 'John Doe',
         avatarBgColor: '#e74c3c'
-    }]}
-    currentUserId='user-1'
-/>
+    }];
+    
+    currentUserId: string = 'user-1';
+    
+    ngOnInit() {
+        // Initialize with users configuration
+    }
+}
 ```
-{% endraw %}
+
+**In template:**
+
+```html
+<ejs-blockeditor [users]="users" [currentUserId]="currentUserId" [collaborationSettings]="collaborationSettings"></ejs-blockeditor>
+```
 
 ### Get active users
 
 Retrieve all currently connected users using the `users` property in the block editor.
 
-{% raw %}
 ```typescript
-const blockEditorRef = useRef(null);
-const users = blockEditorRef.current?.users;
+const users = this.blockEditor.users;
 ```
-{% endraw %}
 
 ## Version history
 
@@ -183,28 +197,40 @@ const users = blockEditorRef.current?.users;
 
 ### Enable version history
 
-Inject the `VersionHistory` module and configure the `versionHistory` property under `collaborationSettings` property.
+Inject the `VersionHistoryService` module and configure the `versionHistory` property under `collaborationSettings` property in your Angular component.
 
-{% raw %}
 ```typescript
-import { BlockEditorComponent, VersionHistory } from '@syncfusion/ej2-react-blockeditor';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { BlockEditorModule, BlockEditorComponent, CollaborationSettingsModel, CollaborationService, VersionHistoryService } from '@syncfusion/ej2-angular-blockeditor';
 
-BlockEditorComponent.Inject(VersionHistory);
+@Component({
+  selector: 'app-block-editor',
+  imports: [BlockEditorModule],
+  template: `
+    <ejs-blockeditor/>
+  `,
+  providers: [CollaborationService, VersionHistoryService]
+})
 
-const myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
+export class App implements OnInit{
+    @ViewChild('blockEditor') blockEditor: BlockEditorComponent;
+    myStorage: any;
+    collaborationSettings: CollaborationSettingsModel;
 
-<BlockEditorComponent
-    collaborationSettings={{
-        adapter: adapter,
-        provider: provider,
-        versionHistory: {
-            storage: myStorage,
-            snapshotInterval: 3000
-        }
-    }}
-/>
+    ngOnInit() {
+        this.myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
+
+        this.collaborationSettings = {
+            adapter: adapter,
+            provider: provider,
+            versionHistory: {
+                storage: this.myStorage,
+                snapshotInterval: 3000
+            }
+        };
+    }
+}
 ```
-{% endraw %}
 
 ### Configure snapshot storage
 
@@ -224,13 +250,17 @@ The `IVersionStorage` interface defines the following methods:
 
 After the Block Editor initializes, retrieve the version history instance and wait for snapshot data to load before calling any version history methods.
 
-{% raw %}
 ```typescript
-const blockEditorRef = useRef(null);
-const versionHistory = blockEditorRef.current?.getVersionHistory();
-await versionHistory.whenReady();
+export class App implements OnInit {
+    @ViewChild('blockEditor') blockEditor: BlockEditorComponent;
+    
+    async getVersionHistory() {
+        const versionHistory = this.blockEditor.getVersionHistory();
+        await versionHistory.whenReady();
+        return versionHistory;
+    }
+}
 ```
-{% endraw %}
 
 ### Methods
 
@@ -240,61 +270,71 @@ The following are the methods available in the `IVersionHistory`:
 
 Creates a new snapshot of the current document state with an optional label and metadata.
 
-{% raw %}
 ```typescript
-const snapshot = await versionHistory.createSnapshot({
-    label: 'Before major update',
-    modifiedBy: currentUserId
-});
+async createSnapshot() {
+    const versionHistory = await this.getVersionHistory();
+    const snapshot = await versionHistory.createSnapshot({
+        label: 'Before major update',
+        modifiedBy: this.currentUserId
+    });
+    return snapshot;
+}
 ```
-{% endraw %}
 
 #### List snapshots
 
 Retrieves all saved snapshots or a paginated subset. Snapshots are returned in chronological order.
 
-{% raw %}
 ```typescript
-// Retrieve all snapshots
-const snapshots = versionHistory.getSnapshots();
-
-// Retrieve a paginated subset — getSnapshots(skip, take)
-const snapshots = versionHistory.getSnapshots(20, 40);
+async listSnapshots() {
+    const versionHistory = await this.getVersionHistory();
+    
+    // Retrieve all snapshots
+    const snapshots = versionHistory.getSnapshots();
+    
+    // Retrieve a paginated subset — getSnapshots(skip, take)
+    const paginatedSnapshots = versionHistory.getSnapshots(20, 40);
+    
+    return paginatedSnapshots;
+}
 ```
-{% endraw %}
 
 #### Rename a snapshot
 
 Updates the label or metadata of an existing snapshot without modifying its content.
 
-{% raw %}
 ```typescript
-await versionHistory.renameSnapshot(snapshotId, 'Release Candidate');
+async renameSnapshot(snapshotId: string, newLabel: string) {
+    const versionHistory = await this.getVersionHistory();
+    await versionHistory.renameSnapshot(snapshotId, newLabel);
+}
 ```
-{% endraw %}
 
 #### Restore a snapshot
 
 Reverts the document to a previously saved snapshot state. The current document state is automatically backed up before restoration.
 
-{% raw %}
 ```typescript
-await versionHistory.restoreSnapshot(snapshotId);
+async restoreSnapshot(snapshotId: string) {
+    const versionHistory = await this.getVersionHistory();
+    await versionHistory.restoreSnapshot(snapshotId);
+}
 ```
-{% endraw %}
 
-> **Note:** When a snapshot is restored, the current document state is automatically 
+> **Note:** For development and testing, `y-webrtc` or PartyKit allow you to get started without a server. For production, use `y-websocket` or a managed provider such as Liveblocks or Hocuspocus for reliable, persistent synchronization.
 > backed up before the restore operation is applied.
 
 #### Compare versions
 
 Compares two snapshots to identify differences such as added, removed, or modified content.
 
-{% raw %}
 ```typescript
-const diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
+async compareVersions(snapshotIdA: string, snapshotIdB: string) {
+    const versionHistory = await this.getVersionHistory();
+    const diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
+    return diff;
+}
 ```
-{% endraw %}
 
 The returned `VersionDiff` object provides a summary of the differences between the two selected versions.
 
@@ -302,11 +342,13 @@ The returned `VersionDiff` object provides a summary of the differences between 
 
 Serializes a snapshot into a portable format that can be stored externally or transferred between systems.
 
-{% raw %}
 ```typescript
-const exported = await versionHistory.exportSnapshot(snapshotId);
+async exportSnapshot(snapshotId: string) {
+    const versionHistory = await this.getVersionHistory();
+    const exported = await versionHistory.exportSnapshot(snapshotId);
+    return exported;
+}
 ```
-{% endraw %}
 
 Exported snapshots can be stored externally or transferred between systems.
 
@@ -314,53 +356,47 @@ Exported snapshots can be stored externally or transferred between systems.
 
 Imports a previously exported snapshot back into the version history storage.
 
-{% raw %}
 ```typescript
-const imported = await versionHistory.importSnapshot(exported);
+async importSnapshot(exported: any) {
+    const versionHistory = await this.getVersionHistory();
+    const imported = await versionHistory.importSnapshot(exported);
+    return imported;
+}
 ```
-{% endraw %}
 
 ### Events
 
-Use the following event callbacks in `versionHistory` settings to respond to snapshot lifecycle events.
+Use the following event callbacks in `versionHistory` settings to respond to snapshot life cycle events.
 
 #### snapshotCreated
 
 Triggered when a new snapshot is created.
 
-{% raw %}
 ```typescript
-<BlockEditorComponent
-    collaborationSettings={{
-        versionHistory: {
-            storage: myStorage,
-            snapshotCreated: ({ snapshot }) => {
-                console.log(snapshot.id);
-            }
+this.collaborationSettings = {
+    versionHistory: {
+        storage: this.myStorage,
+        snapshotCreated: ({ snapshot }) => {
+            console.log('Snapshot created:', snapshot.id);
         }
-    }}
-/>
+    }
+};
 ```
-{% endraw %}
 
 #### snapshotRestored
 
 Triggered when a snapshot is restored.
 
-{% raw %}
 ```typescript
-<BlockEditorComponent
-    collaborationSettings={{
-        versionHistory: {
-            storage: myStorage,
-            snapshotRestored: ({ snapshot, backupSnapshot }) => {
-                console.log(snapshot.label);
-            }
+this.collaborationSettings = {
+    versionHistory: {
+        storage: this.myStorage,
+        snapshotRestored: ({ snapshot, backupSnapshot }) => {
+            console.log('Snapshot restored:', snapshot.label);
         }
-    }}
-/>
+    }
+};
 ```
-{% endraw %}
 
 ## Best Practices
 
