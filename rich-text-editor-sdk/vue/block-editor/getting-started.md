@@ -35,7 +35,7 @@ The Block Editor component depends on the following packages:
 
 ## Create a Vue Application
 
-To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. If Vue CLI is not installed yet, run the first command below. When prompted, choose the option `Default ([Vue 2] babel, eslint)` so the steps in this guide match your setup.
+To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. If Vue CLI is not installed yet, run the first command below.
 
 ```bash
 npm install -g @vue/cli
@@ -53,9 +53,11 @@ cd quickstart
 yarn run serve
 ```
 
-After the project is created, confirm that the `quickstart` folder exists and that the app starts without errors before continuing.
+During project creation, the CLI prompts you to choose a preset. Select **Default ([Vue 2] babel, eslint)** so the steps in this guide match your setup.
 
-<img src="https://ej2.syncfusion.com/vue/documentation/appearance/images/vue2-terminal.png" alt="Vue 2 project">
+<img src="https://ej2.syncfusion.com/vue/documentation/appearance/images/vue2-terminal.png" alt="Selecting the Vue 2 preset during project creation">
+
+After the project is created, confirm that the `quickstart` folder exists and that the app starts without errors before continuing.
 
 Once the `quickstart` project is set up with the default settings, you're ready to add Syncfusion<sup style="font-size:70%">&reg;</sup> components to it.
 
