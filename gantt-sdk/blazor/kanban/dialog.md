@@ -14,7 +14,7 @@ The [Blazor Kanban Board](https://www.syncfusion.com/blazor-components/blazor-ka
 * Built-in dialog module
 * Dialog template
 
-To get started quickly with Blazor Kanban Edit Dialog using Templates, you can check on this video.
+Get started with Blazor Kanban Edit Dialog using Templates by watching this video.
 
 {% youtube
 "youtube:https://www.youtube.com/watch?v=SgiECU-SZBk" %}
@@ -98,7 +98,7 @@ KanbanSwimlaneSettings.KeyField (If applicable) | DropDown | -
 
 ## Customizing Dialog Fields
 
-You can customize the default dialog fields using the [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#Syncfusion_Blazor_Kanban_KanbanDialogSettingsField_Type) property inside the [KanbanDialogSettingsField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#properties) property. The [Key](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#Syncfusion_Blazor_Kanban_KanbanDialogSettingsField_Key) property is used to map the data source value and render the corresponding component based on the specified `Type` property.
+Customize the default dialog fields using the [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#Syncfusion_Blazor_Kanban_KanbanDialogSettingsField_Type) property inside the [KanbanDialogSettingsField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#properties) property. The [Key](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.KanbanDialogSettingsField.html#Syncfusion_Blazor_Kanban_KanbanDialogSettingsField_Key) property is used to map the data source value and render the corresponding component based on the specified `Type` property.
 
 The following types are available in dialog fields.
 
@@ -155,7 +155,7 @@ N> Each of the above types can be used once per custom dialog. The dialog templa
 
 ## Creating a Custom Dialog Template
 
-Using the dialog template, you can render your own form fields with dialog by using the `Template` property.
+The dialog template allows custom form fields to be rendered within the dialog by using the `Template` property.
 
 ```cshtml
 
@@ -471,7 +471,7 @@ namespace Blazor_Kanban_Crud_UrlAdaptor.Controllers
 
 ### Inserting a card
 
-Using the [InsertUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.DataManager.html#Syncfusion_Blazor_DataManager_InsertUrl) property, you can specify the controller action mapping URL to perform insert operation on the server-side.
+Using the [InsertUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.DataManager.html#Syncfusion_Blazor_DataManager_InsertUrl) property, the controller action mapping URL can be specified to perform the insert operation on the server side.
 
 ```cshtml
         [HttpPost]

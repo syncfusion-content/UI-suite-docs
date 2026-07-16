@@ -19,7 +19,7 @@ The [Blazor Kanban](https://www.syncfusion.com/blazor-components/blazor-kanban-b
 
 ## Auto height and width
 
-Use `auto` values when you want the Kanban component to adapt to its content and parent container dynamically.
+`auto` values can be used to allow the Kanban component to adapt dynamically to its content and parent container.
 
 When the Kanban's height and width are set to `auto`, it automatically adjusts to fit the size of its parent container. This ensures the Kanban layout expands or contracts based on its content and surrounding elements. By default, the Kanban component uses `auto` for both [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.SfKanban-1.html#Syncfusion_Blazor_Kanban_SfKanban_1_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Kanban.SfKanban-1.html#Syncfusion_Blazor_Kanban_SfKanban_1_Width), allowing it to adapt seamlessly to its container.
 
