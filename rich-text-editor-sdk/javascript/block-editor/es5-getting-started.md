@@ -10,9 +10,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Es5 getting started in JavaScript Block Editor control
+# ES5 getting started in JavaScript Block Editor control
 
-The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
+The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaScript framework that can be used directly in modern web browsers.
 
 ## Setup for local development
 
@@ -20,7 +20,7 @@ Refer to the following steps to set up your local environment.
 
 **Step 1:** Create an app folder `my-app` for Essential JS 2 JavaScript controls.
 
-**Step 2:** Create a `my-app/resources` folder to store local scripts and styles files.
+**Step 2:** Create a my-app/resources folder if you want to host local scripts and styles. Otherwise, you can use the CDN URLs shown below directly in the HTML page.
 
 **Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 Block Editor control.
 
@@ -69,9 +69,9 @@ Make sure the required base and dependent scripts are included along with the Bl
 
 ## Adding Block Editor control
 
-To get started, add the Block Editor control in index.js and index.html files. Block Editor can be initialized through a div element.
+To get started, add the Block Editor control in index.js and index.html files. Ensure the page contains a container element with the `id="blockeditor_default"` used in the sample. Block Editor can be initialized through a div element.
 
-Block Editor can be initialized on div element as shown below
+Block Editor can be initialized on a div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -84,7 +84,7 @@ Block Editor can be initialized on div element as shown below
 
 ## Run the application
 
-Now, run the index.html in web browser, it will render the Essential JS 2 Block Editor control.
+Open `index.html` in a web browser. The Block Editor renders into the container element and displays the editor UI.
 
 Output will be displayed as follows.
 

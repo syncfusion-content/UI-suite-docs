@@ -16,11 +16,11 @@ This section explains the steps to create a simple Block Editor and demonstrates
 
 ## Prerequisites
 
-This guide uses Vite for bundling and development. Scaffold the project with `npm create vite@latest` and choose the `vanilla` framework with the `typescript` variant. It requires Node `24.13.0` or higher. For more information about Vite and its features, refer to the [Vite documentation](https://vitejs.dev/).
+This guide uses Vite for bundling and development. Scaffold the project with `npm create vite@latest my-app -- --template vanilla-ts`, then select the `vanilla` framework and `TypeScript` variant when prompted. Install a current Node.js Long-Term Support (LTS) release, such as 24.13.0 or later, that is compatible with your package version. For more information about Vite and its features, refer to the [Vite documentation](https://vitejs.dev/).
 
 ## Create a TypeScript application.
 
-To set-up a Typescript application in TypeScript environment, run the following command.
+To set up a TypeScript application in a TypeScript environment, run the following command.
 
 ```bash
 npm create vite@latest my-app -- --template vanilla-ts
@@ -47,7 +47,7 @@ npm install @syncfusion/ej2-blockeditor
 
 ## Adding CSS reference
 
-Syncfusion provides multiple themes for the Block Editor control. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages).
+Syncfusion provides multiple themes f	or the Block Editor control. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages).
 
 To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
 
@@ -55,17 +55,17 @@ To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `~/src/styles.css`.
+The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/style.css`.
 
 ```css
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 ```
 
-I> To apply the application-specific styles correctly, import style.css into **src/main.ts** and remove all the default styles from **src/style.css** and use the Block Editor styles provided above. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+I> To apply the application-specific styles correctly, import `./style.css` into **src/main.ts**, remove the default Vite styles from **src/style.css**, and keep the BlockEditor styles shown above. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
 
 ## Adding Block Editor control
 
-To get started, add the Block Editor control in main.ts and index.html files. Block Editor can be initialized through a div element.
+To get started, add the Block Editor control in main.ts and index.html files. Ensure the page contains a container element with the `id="blockeditor_default"` used in the sample. Block Editor can be initialized through a div element.
 
 Output will be displayed as follows
 
@@ -80,9 +80,9 @@ blockEditor.appendTo('#blockeditor_default');
 
 {% endhighlight %}
 
-{% highlight css tabtitle="styles.css" %}
+{% highlight css tabtitle="style.css" %}
 
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 
 {% endhighlight %}
 
