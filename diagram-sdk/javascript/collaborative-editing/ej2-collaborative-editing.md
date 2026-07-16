@@ -17,7 +17,7 @@ This guide explains how to configure SignalR hub in a JavaScript application for
 
 ## How to create JavaScript sample
 
-To create a JavaScript web application, set up a basic HTML file with the required Diagram scripts and references. Refer to the JavaScript Diagram [Getting Started](../../diagram/getting-started) documentation.
+To create a JavaScript web application, set up a basic HTML file with the required Diagram scripts and references. Refer to the JavaScript Diagram [Getting Started](../getting-started) documentation.
 
 ## How to add packages in the JavaScript application
 
@@ -56,7 +56,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 * Initialize the `HubConnection` when the page loads and start it by calling `start()`.
 * Connect to the `/diagramHub` endpoint using WebSocket transport and enable automatic reconnect to handle transient network issues.
 * Join a SignalR group by calling `invoke('JoinDiagram', roomName)` after the connection is established. This ensures updates are shared only with users in the same diagram session.
-* Refer to the JavaScript Diagram [Getting Started](../../diagram/getting-started) guide.
+* Refer to the JavaScript Diagram [Getting Started](../getting-started) guide.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -90,11 +90,11 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 ## Sending and applying real-time diagram changes
 
-* The JavaScript Diagram component triggers the [historyChange](../../api/diagram/index-default#historychange) event whenever the diagram is modified, such as when nodes or connectors are added, deleted, moved, resized, or edited.
-* Use the [getDiagramUpdates](../../api/diagram/index-default#getdiagramupdates) method to generate a compact set of incremental updates (JSON-formatted changes) that represent only the changes, rather than the entire diagram.
+* The JavaScript Diagram component triggers the [historyChange](https://ej2.syncfusion.com/javascript/documentation/api/diagram#historychange) event whenever the diagram is modified, such as when nodes or connectors are added, deleted, moved, resized, or edited.
+* Use the [getDiagramUpdates](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getdiagramupdates) method to generate a compact set of incremental updates (JSON-formatted changes) that represent only the changes, rather than the entire diagram.
 * Send these changes to the hub method `BroadcastToOtherUsers`, which relays them to all users joined to the same SignalR group (room).
-* Each remote user listens for the `ReceiveData` and applies the incoming changes with [setDiagramUpdates](../../api/diagram/index-default#setdiagramupdates), keeping their view synchronized without reloading the full diagram.
-* Enable the [enableCollaborativeEditing](../../api/diagram/index-default#enablecollaborativeediting) property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation. This property works in conjunction with the [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) module to batch related changes efficiently. 
+* Each remote user listens for the `ReceiveData` and applies the incoming changes with [setDiagramUpdates](https://ej2.syncfusion.com/javascript/documentation/api/diagram#setdiagramupdates), keeping their view synchronized without reloading the full diagram.
+* Enable the [enableCollaborativeEditing](https://ej2.syncfusion.com/javascript/documentation/api/diagram#enablecollaborativeediting) property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation. This property works in conjunction with the [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) module to batch related changes efficiently. 
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -122,7 +122,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 ## Conflict policy (optimistic concurrency) in JavaScript application
 
-To maintain consistency during collaborative editing, each user applies incoming changes using [setDiagramUpdates](../../api/diagram/index-default#setdiagramupdates). The JavaScript application tracks a `userVersion` that is synchronized with the `serverVersion` through version-tracking events. This version-based approach ensures conflicts are resolved without locking, allowing real-time responsiveness while preserving data integrity.
+To maintain consistency during collaborative editing, each user applies incoming changes using [setDiagramUpdates](https://ej2.syncfusion.com/javascript/documentation/api/diagram#setdiagramupdates). The JavaScript application tracks a `userVersion` that is synchronized with the `serverVersion` through version-tracking events. This version-based approach ensures conflicts are resolved without locking, allowing real-time responsiveness while preserving data integrity.
 
 Add the following code in your JavaScript application:
 

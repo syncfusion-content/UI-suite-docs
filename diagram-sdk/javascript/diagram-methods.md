@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Get diagram bounds
 
-The get the diagram bounds, the [`getDiagramBounds`](../api/diagram#getdiagrambounds) method is used. The following code example shows how to get the diagram bounds
+The get the diagram bounds, the [`getDiagramBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getdiagrambounds) method is used. The following code example shows how to get the diagram bounds
 
 ``` javascript
    /**
@@ -26,7 +26,7 @@ The get the diagram bounds, the [`getDiagramBounds`](../api/diagram#getdiagrambo
 
 ## Refresh diagram
 
-Refreshing the diagram will re-render the entire diagram component while preserving all the property changes you have made. The [`refresh`](../api/diagram#refresh) method is used to refresh the diagram. 
+Refreshing the diagram will re-render the entire diagram component while preserving all the property changes you have made. The [`refresh`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#refresh) method is used to refresh the diagram. 
 
 ``` javascript
    /**
@@ -38,7 +38,7 @@ Refreshing the diagram will re-render the entire diagram component while preserv
 
 ## Clear diagram
 
-The [`clear`](../api/diagram#clear) method is used to clear the diagram. It removes all nodes and objects, making the diagram empty.
+The [`clear`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#clear) method is used to clear the diagram. It removes all nodes and objects, making the diagram empty.
 
 ``` javascript
    /**
@@ -50,7 +50,7 @@ The [`clear`](../api/diagram#clear) method is used to clear the diagram. It remo
 
 ## Destroy diagram
 
-The [`destroy`](../api/diagram#destroy) method is used to completely remove the diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
+The [`destroy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#destroy) method is used to completely remove the diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
 
 ``` javascript
    /**
@@ -62,7 +62,7 @@ The [`destroy`](../api/diagram#destroy) method is used to completely remove the 
 
 ## Custom cursor
 
-The [`customCursor`](../api/diagram/customCursorActionModel) collection specified in the diagram is called on every mouse movement within the diagram is used to set the cursor based on the action. The `getCursor` function is then utilized to retrieve the cursor style for the specified action.
+The [`customCursor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/customCursorActionModel) collection specified in the diagram is called on every mouse movement within the diagram is used to set the cursor based on the action. The `getCursor` function is then utilized to retrieve the cursor style for the specified action.
 
 The following example demonstrates how to apply custom cursors for the Select and Drag tools using the `customCursor` property.
 
@@ -95,7 +95,7 @@ The following example demonstrates how to apply custom cursors for the Select an
 
 ## Get custom tool
 
-The  [`getCustomtTool`](../api/diagram#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](../api/diagram#gettool) method is used to retrieve the tool that handles a particular action.
+The  [`getCustomtTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#gettool) method is used to retrieve the tool that handles a particular action.
 
 In the following example, `getCustomTool` is used to clone a node when clicking on the user handle.
 
@@ -166,14 +166,14 @@ In the following example, both `backgroundColor` and `addInfo` are set for the d
 
 ## Mode
 
-There are two types of [`mode`](../api/diagram/renderingMode) available for rendering diagrams:
+There are two types of [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/renderingMode) available for rendering diagrams:
 
 - `SVG Mode:` Renders the diagram objects as SVG elements.
 - `Canvas Mode:` Renders the diagram in a canvas.
 
 ## NodeDefaults and ConnectorDefaults
 
-The [`getNodeDefaults`](../api/diagram#getnodedefaults) and [`getConnectorDefaults`](../api/diagram#getconnectordefaults) properties are used to assign default values to nodes and connectors, respectively. The properties set in [`getNodeDefaults`](../api/diagram#getnodedefaults) and [`getConnectorDefaults`](../api/diagram#getconnectordefaults) have higher priority when setting default values.
+The [`getNodeDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getnodedefaults) and [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getconnectordefaults) properties are used to assign default values to nodes and connectors, respectively. The properties set in [`getNodeDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getnodedefaults) and [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#getconnectordefaults) have higher priority when setting default values.
 
 The following example demonstrates how to set getNodeDefaults and getConnectorDefaults.
 

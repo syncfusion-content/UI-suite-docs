@@ -110,7 +110,7 @@ There are several types of Text annotation directions as follows:
 
 ### Add text annotation at runtime
 
-Text annotations can be added dynamically using either the [`addTextAnnotation`](../../api/diagram#addtextannotation) method or the [`add`](../../api/diagram#add) method of the diagram. The following example shows how to use these methods to add a text annotation node.
+Text annotations can be added dynamically using either the [`addTextAnnotation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#addtextannotation) method or the [`add`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#add) method of the diagram. The following example shows how to use these methods to add a text annotation node.
  
 {% if page.publishingplatform == "typescript" %}
 

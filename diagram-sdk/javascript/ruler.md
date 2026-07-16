@@ -15,9 +15,9 @@ The ruler provides horizontal and vertical guides for measuring in the diagram c
 
 ## Define rulers
 
-The [`rulerSettings`](../api/diagram/rulerSettings) property of diagram is used to control the visibility and appearance of the ruler in the diagram.
+The [`rulerSettings`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/rulerSettings) property of diagram is used to control the visibility and appearance of the ruler in the diagram.
 
-The [`showRulers`](../api/diagram/rulerSettings#showrulers) property is used to show or hide the rulers in the diagram.
+The [`showRulers`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/rulerSettings#showrulers) property is used to show or hide the rulers in the diagram.
 
 The following code shows how to add a ruler to the diagram.
 
@@ -50,15 +50,15 @@ The following code shows how to add a ruler to the diagram.
 
 ## Customizing the Ruler
 
-[`horizontalRuler`](../api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](../api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` are used to customize the rulers appearance in the diagram.
+[`horizontalRuler`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` are used to customize the rulers appearance in the diagram.
 
 By default, the ruler segments are arranged based on pixel values.
 
-The HorizontalRuler’s [`interval`](../api/diagram/diagramRuler#interval) property defines the spacing between ruler segments, and the [`segmentWidth`](../api/diagram/diagramRuler#segmentwidth) property sets the width of each segment. Similarly, the VerticalRuler’s [`interval`](../api/diagram/diagramRuler#interval) and [`segmentWidth`](../api/diagram/diagramRuler#segmentwidth) properties control the interval and segment width for the vertical ruler.
+The HorizontalRuler’s [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#interval) property defines the spacing between ruler segments, and the [`segmentWidth`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#segmentwidth) property sets the width of each segment. Similarly, the VerticalRuler’s [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#interval) and [`segmentWidth`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#segmentwidth) properties control the interval and segment width for the vertical ruler.
 
-The HorizontalRuler’s  [`tickAlignment`](../api/diagram/diagramRuler#tickalignment) property aligns the ruler ticks to the left or right side, while the VerticalRuler’s  [`tickAlignment`](../api/diagram/diagramRuler#tickalignment) aligns them to the top or bottom.
+The HorizontalRuler’s  [`tickAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#tickalignment) property aligns the ruler ticks to the left or right side, while the VerticalRuler’s  [`tickAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#tickalignment) aligns them to the top or bottom.
 
-The HorizontalRuler’s [`thickness`](../api/diagram/diagramRuler#thickness) property sets the thickness of the horizontal ruler, and the VerticalRuler’s [`thickness`](../api/diagram/diagramRuler#thickness) property sets the thickness of the vertical ruler.
+The HorizontalRuler’s [`thickness`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#thickness) property sets the thickness of the horizontal ruler, and the VerticalRuler’s [`thickness`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#thickness) property sets the thickness of the vertical ruler.
 
 The following code shows how the diagram ruler can be customized.
 
@@ -91,7 +91,7 @@ The following code shows how the diagram ruler can be customized.
 
 ### Arrange tick
 
-The HorizontalRuler’s [`arrangeTick`](../api/diagram/diagramRuler#arrangetick) and VerticalRuler’s [`arrangeTick`](../api/diagram/diagramRuler#arrangetick) functions allow you to customize the appearance of ruler ticks. These functions are called for each tick rendering.
+The HorizontalRuler’s [`arrangeTick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#arrangetick) and VerticalRuler’s [`arrangeTick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#arrangetick) functions allow you to customize the appearance of ruler ticks. These functions are called for each tick rendering.
 
 The following code demonstrates how to use the `arrangeTick` function to customize the tickLength.
 
@@ -124,6 +124,6 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 ### Marker color
 
-The HorizontalRuler’s [`markerColor`](../api/diagram/diagramRuler#markercolor) and VerticalRuler’s [`markerColor`](../api/diagram/diagramRuler#markercolor) properties are used to define the ruler marker color and marker will be shown while hovering mouse over the diagram canvas.
+The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#markercolor) and VerticalRuler’s [`markerColor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRuler#markercolor) properties are used to define the ruler marker color and marker will be shown while hovering mouse over the diagram canvas.
 
 N> The MarkerColor property can be customized using the [`marker`](./style#customizing-the-ruler-marker-color) CSS style.

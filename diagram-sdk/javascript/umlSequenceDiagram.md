@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # UML Sequence Diagram Model in JavaScript Diagram Control
 
-A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the [UmlSequenceDiagramModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceDiagramModel). To enable this functionality, assign the `UmlSequenceDiagramModel` to the [model](https://ej2.syncfusion.com/documentation/api/diagram#model) property of the diagram control.
+A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the [UmlSequenceDiagramModel](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceDiagramModel). To enable this functionality, assign the `UmlSequenceDiagramModel` to the [model](https://ej2.syncfusion.com/javascript/documentation/api/diagram#model) property of the diagram control.
 
 ## UML Sequence Diagram Elements
 
@@ -19,7 +19,7 @@ A sequence diagram includes several key elements, such as participants, messages
 
 ### Participants
 
-[UmlSequenceParticipantModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceParticipantModel) represents an entity that interacts with other entities in a sequence diagram. Participants appear at the top of the diagram, with lifelines extending vertically downward.
+[UmlSequenceParticipantModel](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceParticipantModel) represents an entity that interacts with other entities in a sequence diagram. Participants appear at the top of the diagram, with lifelines extending vertically downward.
 
 #### UmlSequenceParticipantModel Properties
 
@@ -33,7 +33,7 @@ A sequence diagram includes several key elements, such as participants, messages
 
 #### Participant Stereotypes
 
-The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
+The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
 
 | Stereotype | Description | Shape |
 |---|---|---|
@@ -75,7 +75,7 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 ### Messages
 
-[UmlSequenceMessageModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceMessageModel) represents communication between participants and are displayed as arrows connecting lifelines.
+[UmlSequenceMessageModel](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceMessageModel) represents communication between participants and are displayed as arrows connecting lifelines.
 
 #### Types of Messages
 
@@ -130,7 +130,7 @@ The following code example illustrates how to create messages:
 
 ### Activation Boxes
 
-[UmlSequenceActivationBoxModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceActivationBoxModel) represents periods when a participant is active and processing a message. They appear as thin rectangles on participant lifelines.
+[UmlSequenceActivationBoxModel](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceActivationBoxModel) represents periods when a participant is active and processing a message. They appear as thin rectangles on participant lifelines.
 
 #### UmlSequenceActivationBoxModel Properties
 
@@ -172,11 +172,11 @@ The following code example illustrates how to create activation boxes:
 
 ### Fragments
 
-[UmlSequenceFragmentModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceFragmentModel) groups a set of messages based on specific conditions in a sequence diagram. They are displayed as rectangular enclosures that visually separate conditional or looping interactions.
+[UmlSequenceFragmentModel](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceFragmentModel) groups a set of messages based on specific conditions in a sequence diagram. They are displayed as rectangular enclosures that visually separate conditional or looping interactions.
 
 #### Types of Fragments
 
-The [UmlSequenceFragmentType](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceFragmentType) enum defines the following fragment types:
+The [UmlSequenceFragmentType](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlSequenceFragmentType) enum defines the following fragment types:
 
 | Fragment Type  | Description  | Example  |  
 |---------------|-------------|--------|  
@@ -232,7 +232,7 @@ The following code example illustrates how to create fragments:
 
 ### Customizing Participant Spacing in Sequence Diagram 
 
-The [spaceBetweenParticipants](https://ej2.syncfusion.com/documentation/api/diagram/umlsequencediagrammodel#spacebetweenparticipants) property in `UmlSequenceDiagramModel` controls the horizontal spacing between participants. The default value is 100, and it can be adjusted based on your layout requirements.
+The [spaceBetweenParticipants](https://ej2.syncfusion.com/javascript/documentation/api/diagram/umlsequencediagrammodel#spacebetweenparticipants) property in `UmlSequenceDiagramModel` controls the horizontal spacing between participants. The default value is 100, and it can be adjusted based on your layout requirements.
 
 ```javascript
 // Define the UML Sequence Diagram model
