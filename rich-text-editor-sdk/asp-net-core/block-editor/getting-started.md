@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Getting Started with ASP.NET Core BlockEditor Control | Syncfusion
-description: Checkout and learn about getting started with Syncfusion Essential ASP.NET Core BlockEditor control, its elements, and more details.
+title: Getting Started with ASP.NET Core Block Editor Control | Syncfusion
+description: Checkout and learn about getting started with Syncfusion Essential ASP.NET Core Block Editor control, its elements, and more details.
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/aspnet-core-block-editor"
 platform: ej2-asp-core-mvc
-control: BlockEditor
+control: Block Editor
 publishingplatform: rich-text-editor-sdk
 documentation: ug
 ---
@@ -12,7 +12,7 @@ documentation: ug
 
 # Getting Started with ASP.NET Core Block Editor control
 
-The Syncfusion ASP .NET Core BlockEditor is a block-based content editing control that enables users to create, edit, and organize rich content using a flexible, block-driven authoring experience. This section briefly explains about how to include `ASP.NET Core BlockEditor` control in your ASP.NET Core application using Visual Studio.
+The Syncfusion ASP .NET Core Block Editor is a block-based content editing control that enables users to create, edit, and organize rich content using a flexible, block-driven authoring experience. This section briefly explains about how to include `ASP.NET Core BlockEditor` control in your ASP.NET Core application using Visual Studio.
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
 
@@ -30,7 +30,7 @@ You can create the ASP.NET Core web application with Razor pages by two types th
 
 ## Install Syncfusion ASP.NET Core package in the application
 
-You can add the Syncfusion BlockEditor to your ASP.NET Core application by installing the Syncfusion ASP.NET Core package. This can be done in two ways, they are mentioned below
+You can add the Syncfusion Block Editor to your ASP.NET Core application by installing the Syncfusion ASP.NET Core package. This can be done in two ways, they are mentioned below
 
 ### 1. Using NuGet Package Manager
 
@@ -102,9 +102,9 @@ Also, register the script manager `<ejs-script>` at the end of `<body>` in the A
 {% endhighlight %}
 {% endtabs %}
 
-## Add ASP.NET Core BlockEditor control
+## Add ASP.NET Core Block Editor control
 
-Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core BlockEditor tag helper in `~/Pages/Index.cshtml` page.
+Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block Editor tag helper in `~/Pages/Index.cshtml` page.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -115,10 +115,10 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block
 {% endhighlight %}
 {% endtabs %}
 
-I> When the BlockEditor control is rendered, the id attribute must be present. If the id is not provided, the control will fail to render.
+I> When the Block Editor control is rendered, the id attribute must be present. If the id is not provided, the control will fail to render.
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core BlockEditor control will be rendered in the default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block Editor control will be rendered in the default web browser.
 
-![ASP.NET Core BlockEditor Control](images/block-editor-control.png)
+![ASP.NET Core Block Editor Control](images/block-editor-control.png)

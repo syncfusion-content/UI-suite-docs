@@ -17,22 +17,6 @@ This section explains how to create a simple Block Editor and configure its avai
 
 [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
 
-## Dependencies
-
-The Block Editor component depends on the following packages:
-
-```js
-|-- @syncfusion/ej2-vue-blockeditor
-    |-- @syncfusion/ej2-vue-base
-    |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-popups
-    |-- @syncfusion/ej2-buttons
-    |-- @syncfusion/ej2-splitbuttons
-    |-- @syncfusion/ej2-navigations
-    |-- @syncfusion/ej2-dropdowns
-    |-- @syncfusion/ej2-inputs
-```
-
 ## Create a Vue Application
 
 To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. If Vue CLI is not installed yet, run the first command below.

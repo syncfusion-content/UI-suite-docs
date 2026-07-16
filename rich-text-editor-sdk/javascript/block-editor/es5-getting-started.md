@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Es5 getting started with JavaScript BlockEditor | Syncfusion
-description:  Checkout and learn about Es5 getting started with ##Platform_Name## BlockEditor control of Syncfusion Essential JS 2 and more details.
+title: Es5 getting started with JavaScript Block Editor | Syncfusion
+description:  Checkout and learn about Es5 getting started with JavaScript Block Editor control of Syncfusion Essential JS 2 and more details.
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
 platform: ej2-javascript
 control: Es5 getting started
@@ -10,25 +10,10 @@ documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Es5 getting started in JavaScript BlockEditor control
+# Es5 getting started in JavaScript Block Editor control
 
 The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
 
-## Dependencies
-
-The following list of dependencies are required to use the `BlockEditor` control in the application.
-
-```javascript
-|-- @syncfusion/ej2-blockeditor
-    |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-popups
-    |-- @syncfusion/ej2-buttons
-    |-- @syncfusion/ej2-splitbuttons
-    |-- @syncfusion/ej2-navigations
-    |-- @syncfusion/ej2-dropdowns
-    |-- @syncfusion/ej2-inputs
-
-```
 ## Setup for local development
 
 Refer to the following steps to set up your local environment.
@@ -37,9 +22,9 @@ Refer to the following steps to set up your local environment.
 
 **Step 2:** Create a `my-app/resources` folder to store local scripts and styles files.
 
-**Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 BlockEditor control.
+**Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 Block Editor control.
 
-## Adding BlockEditor styles
+## Adding Block Editor styles
 
 Add the following styles inside the `my-app/index.html` file to include the `tailwind3` theme styles:
 
@@ -58,11 +43,11 @@ Add the following styles inside the `my-app/index.html` file to include the `tai
 {% endhighlight %}
 {% endtabs %}
 
-I> Ensure that all BlockEditor theme style files are loaded in the exact order shown above. The order is important because these styles have dependencies, and loading them incorrectly may cause styling issues in the controls. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+I> Ensure that all Block Editor theme style files are loaded in the exact order shown above. The order is important because these styles have dependencies, and loading them incorrectly may cause styling issues in the controls. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
 
-## Adding BlockEditor scripts
+## Adding Block Editor scripts
 
-Add the following scripts inside the `my-app/index.html` file to include the BlockEditor functionality:
+Add the following scripts inside the `my-app/index.html` file to include the Block Editor functionality:
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -79,14 +64,14 @@ Add the following scripts inside the `my-app/index.html` file to include the Blo
 {% endhighlight %}
 {% endtabs %}
 
-I> Ensure that all BlockEditor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the BlockEditor from working properly or cause runtime errors.
-Make sure the required base and dependent scripts are included along with the BlockEditor script.
+I> Ensure that all Block Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Block Editor from working properly or cause runtime errors.
+Make sure the required base and dependent scripts are included along with the Block Editor script.
 
-## Adding BlockEditor control
+## Adding Block Editor control
 
-To get started, add the BlockEditor control in index.js and index.html files. BlockEditor can be initialized through a div element.
+To get started, add the Block Editor control in index.js and index.html files. Block Editor can be initialized through a div element.
 
-BlockEditor can be initialized on div element as shown below
+Block Editor can be initialized on div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -99,7 +84,7 @@ BlockEditor can be initialized on div element as shown below
 
 ## Run the application
 
-Now, run the index.html in web browser, it will render the Essential JS 2 BlockEditor control.
+Now, run the index.html in web browser, it will render the Essential JS 2 Block Editor control.
 
 Output will be displayed as follows.
 
@@ -114,4 +99,4 @@ Output will be displayed as follows.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started" %}
 
-> You can refer to our [JavaScript BlockEditor](https://www.syncfusion.com/javascript-ui-controls/js-block-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript BlockEditor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/block-editor/overview.html) that shows how to render the block editor.
+> You can refer to our [JavaScript Block Editor](https://www.syncfusion.com/javascript-ui-controls/js-block-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Block Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/block-editor/overview.html) that shows how to render the block editor.
