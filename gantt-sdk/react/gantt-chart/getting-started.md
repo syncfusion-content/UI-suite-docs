@@ -124,7 +124,7 @@ const taskFields = {
 | `hasChildMapping` | Indicates whether a row has child rows (load-on-demand) | No |
 | `resourceInfo` | Field name that holds resource data | No |
 
-## Render the Gantt component
+## Render the Gantt Chart component
 
 Put it all together in `src/App.tsx`. The `taskData` and `taskFields` variables defined earlier are reused here.
 
