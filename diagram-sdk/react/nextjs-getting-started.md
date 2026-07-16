@@ -165,7 +165,6 @@ N> Syncfusion® provides multiple built-in themes. If the application uses a dif
 
 N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
 
-
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
 Follow the below steps to add the React Diagram component to the Next.js project:

@@ -28,10 +28,10 @@ The following example demonstrates how to enable image insertion in the Markdown
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-image/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-image/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-image/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ The following example demonstrates how to enable image insertion in the Markdown
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-image/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-image/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-image/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

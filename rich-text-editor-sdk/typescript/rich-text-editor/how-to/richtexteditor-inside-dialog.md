@@ -19,25 +19,25 @@ To resolve this issue, we can utilize the [refreshUI](https://helpej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-dialog/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-dialog/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-dialog/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-dialog/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-dialog" %}
 {% endif %}

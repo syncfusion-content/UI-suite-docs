@@ -92,12 +92,12 @@ These shortcuts provide additional functionalities like fullscreen mode.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/getting-started-cs14/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/getting-started-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/getting-started-cs14/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/getting-started-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/getting-started-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/getting-started-cs14" %}

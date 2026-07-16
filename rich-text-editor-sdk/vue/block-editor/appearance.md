@@ -27,11 +27,11 @@ You can use the [cssClass](https://ej2.syncfusion.com/vue/documentation/api/bloc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/appearance/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/appearance/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/appearance/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/appearance/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/appearance" %}

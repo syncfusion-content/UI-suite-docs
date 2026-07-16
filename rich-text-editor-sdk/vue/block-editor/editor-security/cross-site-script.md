@@ -19,13 +19,13 @@ The following example shows XSS prevention removing a `<script>` tag and `onmous
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/enable-html-sanitizer/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/enable-html-sanitizer/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/enable-html-sanitizer/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/enable-html-sanitizer/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/enable-html-sanitizer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/enable-html-sanitizer" %}
         

@@ -142,10 +142,10 @@ Here is the summarized code for the above steps in the **src/App.vue** file:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,4 +163,4 @@ or
 yarn run serve
 ```
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}

@@ -18,11 +18,11 @@ To enable the Markdown preview feature, integrate the third-party [Marked](https
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs7/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs7/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs7" %}

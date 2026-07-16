@@ -18,10 +18,10 @@ To resolve this issue, we can utilize the `refreshUI` method of the Rich Text Ed
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ To resolve this issue, we can utilize the `refreshUI` method of the Rich Text Ed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/richtexteditor-inside-dialog/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

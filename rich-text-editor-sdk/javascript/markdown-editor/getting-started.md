@@ -93,10 +93,10 @@ Markdown Editor can be initialized on div element as shown below:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,14 +108,14 @@ Output will be displayed as follows.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2" %}
 
 > You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-wysiwyg-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Markdown Editor example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/mark-down-editor/overview.html) that shows how to render the markdown editor.
 

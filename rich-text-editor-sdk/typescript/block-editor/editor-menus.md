@@ -49,27 +49,27 @@ The following example demonstrates how to customize the Slash Command menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/slash-command/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/slash-command/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/slash-command/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/slash-command/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/slash-command" %}
 {% endif %}
 
 ## Context menu
@@ -106,27 +106,27 @@ The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/context-menu/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/context-menu" %}
 {% endif %}
 
 ## Block action menu
@@ -166,27 +166,27 @@ The following example demonstrates how to customize the Block action menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/block-action/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/block-action/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/block-action/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/block-action/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/block-action" %}
 {% endif %}
 
 ## Inline Toolbar
@@ -247,32 +247,32 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/transform-item" %}
 {% endif %}
 
 #### Font and background color support
 
-Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#fontcolorsettings), [backgroundColorSettings](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#backgroundcolorsettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
+Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#fontColorSettings), [backgroundColorSettings](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#backgroundColorSettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
 
 The following example demonstrates how to customize the font and background color toolbar items.
 
@@ -280,27 +280,27 @@ The following example demonstrates how to customize the font and background colo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/color-item" %}
 {% endif %}
 
 ### Customize Inline Toolbar
@@ -321,25 +321,25 @@ The following example demonstrates how to customize the Inline Toolbar.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/editor-menus/inline-toolbar/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/editor-menus/inline-toolbar" %}
 {% endif %}

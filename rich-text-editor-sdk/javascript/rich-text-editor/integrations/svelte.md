@@ -117,7 +117,7 @@ Below is the example integration of Rich Text Editor with `Svelte` framework.
 
 {% tabs %}
 {% highlight ts tabtitle="App.svelte" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/integrations/svelte/src/App.svelte %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/integrations/svelte/src/App.svelte %}
 {% endhighlight %}
 
 {% endtabs %}

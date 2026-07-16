@@ -101,14 +101,14 @@ The following example demonstrates the usage of the block editor methods.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/block/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/block/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/block" %}
 
 ## Selection and Cursor Methods
 
@@ -204,14 +204,14 @@ The following example demonstrates the usage of the selection and cursor methods
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/selection/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/selection/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/selection/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/selection/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/selection" %}
 
 ## Focus Management Methods
 
@@ -286,14 +286,14 @@ The following example demonstrates the usage of the formatting and focus methods
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/formatting/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/formatting/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/formatting/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/formatting/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/formatting" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/formatting" %}
 
 ## Data Export Methods
 
@@ -369,11 +369,11 @@ The following example demonstrates the usage of the data export methods.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/data/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/data/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/methods/data/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/methods/data/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/data" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/methods/data" %}

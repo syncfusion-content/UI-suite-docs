@@ -113,9 +113,9 @@ Use the [triggerChar](https://ej2.syncfusion.com/documentation/api/blockeditor/l
 
 ### Label items configuration
 
-Define the labels using the [items](https://ej2.syncfusion.com/documentation/api/blockeditor/labelsettingsmodel#items) array. When a user types the trigger character, a popup will show the given items.
+Define the labels using the [items](https://ej2.syncfusion.com/documentation/api/blockeditor/labelSettingsModel#items) array. When a user types the trigger character, a popup will show the given items.
 
-Each item in the [items](https://ej2.syncfusion.com/documentation/api/blockeditor/labelsettingsmodel#items) array supports the following properties:
+Each item in the [items](https://ej2.syncfusion.com/documentation/api/blockeditor/labelSettingsModel#items) array supports the following properties:
 
 | Property                                          | Description                                         |
 | --------------------------------------------------| --------------------------------------------------- |
@@ -137,27 +137,27 @@ The below sample demonstrates the customization of labels in the Block Editor.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/label-settings/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/label-settings/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/label-settings/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/label-settings/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/label-settings" %}
 {% endif %}
 
 ## Configure mention
@@ -187,27 +187,27 @@ The sample below demonstrates how to configure mentions and other content types.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-types/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-types/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-types/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-types/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-types" %}
 {% endif %}
 
 ## Applying Inline Styles
@@ -236,25 +236,25 @@ You can apply one or more of these styles to any supported content element for r
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-styles/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-styles/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-styles/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/content-styles/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/content-styles" %}
 {% endif %}

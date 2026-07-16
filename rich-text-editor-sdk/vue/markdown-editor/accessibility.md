@@ -62,14 +62,14 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs1" %}
 
 ## Keyboard Navigation
 
@@ -83,14 +83,14 @@ You can customize shortcut keys using the [formatter](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs2" %}
 
 > We need to import `IHtmlFormatterModel` and `HTMLFormatter` to configure the shortcut key.
 

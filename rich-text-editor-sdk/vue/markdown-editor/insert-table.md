@@ -21,14 +21,14 @@ This ensures that users can start formatting and adding content immediately.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs8/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-cs8/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-cs8" %}
 
 ## Changing default content
 
@@ -38,11 +38,11 @@ The following example demonstrates how to customize the table content in the Mar
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-table-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-table-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-table-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-table-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-table-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-table-cs2" %}
