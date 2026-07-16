@@ -15,7 +15,7 @@ An expanded subProcess can contain certain child processess within it.
 
 ### Create BPMN Expanded subProcess
 
-To create expanded subProcess, set shape as [`activity`](../../api/diagram/bpmnActivityModel)  and [`collapsed`](../../api/diagram/bpmnSubProcessModel#collapsed) as false. Enable [`AllowDrop`](../../api/diagram/nodeConstraints) constraint for node to allow child to drop inside the expanded subProcess.
+To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnActivityModel)  and [`collapsed`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnSubProcessModel#collapsed) as false. Enable [`AllowDrop`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints) constraint for node to allow child to drop inside the expanded subProcess.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -46,7 +46,7 @@ To create expanded subProcess, set shape as [`activity`](../../api/diagram/bpmnA
 
 ### Add BPMN nodes into ExpandedSubProcess
 
-[`Processes`](../../api/diagram/bpmnSubProcessModel#processes) is an array collection that defines the children values for BPMN subprocess.
+[`Processes`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnSubProcessModel#processes) is an array collection that defines the children values for BPMN subprocess.
 
 Please refer the following code example.
 
@@ -88,7 +88,7 @@ The following image shows how to add BPMNNode into the BPMN ExpandedSubProcess a
 
 #### Add/remove Process Programmatically
 
-The process for the expanded sub-process can be added at runtime using the [`addProcess`](../../api/diagram#addprocess) method and removed at runtime using the [`removeProcess`](../../api/diagram#removeprocess) method. The following example shows how to add and remove a process at runtime.
+The process for the expanded sub-process can be added at runtime using the [`addProcess`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#addprocess) method and removed at runtime using the [`removeProcess`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#removeprocess) method. The following example shows how to add and remove a process at runtime.
 
 
 {% if page.publishingplatform == "typescript" %}

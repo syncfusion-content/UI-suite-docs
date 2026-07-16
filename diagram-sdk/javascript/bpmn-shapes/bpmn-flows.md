@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # BPMN flows in JavaScript Diagram control
 
-[`BPMN Flows`](../../api/diagram/bpmnFlow#BpmnFlow) are lines that connects BPMN flow objects.
+[`BPMN Flows`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#BpmnFlow) are lines that connects BPMN flow objects.
 
 * Association
 * Sequence
@@ -19,7 +19,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Association flow
 
-[`BPMN Association`](../../api/diagram/bpmnFlow#association) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The types of association are as follows:
+[`BPMN Association`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#association) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The types of association are as follows:
 
 * Directional
 * BiDirectional
@@ -66,7 +66,7 @@ N> The default value for the property `association` is **default**.
 
 ## Sequence flow
 
-A [`sequence`](../../api/diagram/bpmnFlow#sequence) flow shows the order in which the activities are performed in a BPMN process and is represented by a solid graphical line. The types of sequence are as follows:
+A [`sequence`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#sequence) flow shows the order in which the activities are performed in a BPMN process and is represented by a solid graphical line. The types of sequence are as follows:
 
 * Normal
 * Conditional
@@ -113,7 +113,7 @@ N> The default value for the property `sequence` is **normal**.
 
 ## Message flow
 
-A [`message`](../../api/diagram/bpmnFlow#message) flow shows the flow of messages between two participants and is represented by dashed line. The types of message are as follows:
+A [`message`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#message) flow shows the flow of messages between two participants and is represented by dashed line. The types of message are as follows:
 
 * InitiatingMessage
 * NonInitiatingMessage

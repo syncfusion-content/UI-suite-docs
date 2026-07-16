@@ -138,7 +138,7 @@ diagram.distribute('RightToLeft', diagram.selectedItems.nodes);
 
 Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) commands enable to equally size the selected nodes with respect to the first selected object.
 
-[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) are as follows:
+[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/sizingoptions) are as follows:
 
 * Width: Scales the width of the selected objects.
 * Height: Scales the height of the selected objects.

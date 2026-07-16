@@ -334,7 +334,7 @@ graph.view.gridColor = '#e0e0e0';
 {% endhighlight %}
 {% endtabs %}
 
-In Syncfusion® JavaScript Diagram, grid lines are configured using the [snapSettings](api/diagram/index-default#snapsettings) property, allowing for a straightforward setup while also supporting additional customization options that are self-explanatory:
+In Syncfusion® JavaScript Diagram, grid lines are configured using the [snapSettings](api/diagram#snapsettings) property, allowing for a straightforward setup while also supporting additional customization options that are self-explanatory:
 
 {% tabs %}
 {% highlight js tabtitle="Syncfusion" %}
@@ -378,7 +378,7 @@ graph.container.style.backgroundColor = '#f5f5f5';
 {% endhighlight %}
 {% endtabs %}
 
-In Syncfusion® JavaScript Diagram (ej2), the [pageSettings](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#pagesettings) property provides a straightforward way to configure page settings, including support for multiple pages and showing page breaks.
+In Syncfusion® JavaScript Diagram (ej2), the [pageSettings](https://ej2.syncfusion.com/javascript/documentation/api/diagram#pagesettings) property provides a straightforward way to configure page settings, including support for multiple pages and showing page breaks.
 
 {% tabs %}
 {% highlight js tabtitle="Syncfusion" %}
@@ -409,7 +409,7 @@ graph.container.style.overflow = 'auto';
 {% endhighlight %}
 {% endtabs %}
 
-In Syncfusion® JavaScript Diagram, the [scrollSettings](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#scrollsettings) property provides detailed control over scroll behavior, including auto-scroll, scroll limits, and scroll frequency.
+In Syncfusion® JavaScript Diagram, the [scrollSettings](https://ej2.syncfusion.com/javascript/documentation/api/diagram#scrollsettings) property provides detailed control over scroll behavior, including auto-scroll, scroll limits, and scroll frequency.
 
 {% tabs %}
 {% highlight js tabtitle="Syncfusion" %}

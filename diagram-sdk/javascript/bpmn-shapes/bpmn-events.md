@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Event
 
-An [`event`](../../api/diagram/bpmnEvent) is a common BPMN process model element that represents something that happens during a business process and is notated with a circle. The type of events are as follows:
+An [`event`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent) is a common BPMN process model element that represents something that happens during a business process and is notated with a circle. The type of events are as follows:
 
     * Start
     * Intermediate
@@ -21,7 +21,7 @@ An [`event`](../../api/diagram/bpmnEvent) is a common BPMN process model element
     * ThrowingIntermediate
     * End
         
-The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node allows you to define the type of the event. The default value of the event is **start**. The following code example illustrates how to create a BPMN event.
+The [`event`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent#event) property of the node allows you to define the type of the event. The default value of the event is **start**. The following code example illustrates how to create a BPMN event.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -52,7 +52,7 @@ The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node
 
 ## BPMN event trigger
 
-Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](../../api/diagram/bpmnEvent#trigger ) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
+Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent#trigger ) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
 
 | Triggers | Start | Non-Interrupting Start | Intermediate | Non-Interrupting Intermediate | Throwing Intermediate | End |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
