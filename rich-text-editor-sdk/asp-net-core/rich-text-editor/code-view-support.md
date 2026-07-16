@@ -25,10 +25,10 @@ This sample used [`Code mirror`](https://codemirror.net/) plugin helps to highli
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ This sample used [`Code mirror`](https://codemirror.net/) plugin helps to highli
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

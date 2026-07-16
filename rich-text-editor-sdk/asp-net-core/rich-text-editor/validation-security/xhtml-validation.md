@@ -34,10 +34,10 @@ The editor checks the following settings on validation:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/xhtml-validation/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/xhtml-validation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/xhtml-validation/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/xhtml-validation/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ The editor checks the following settings on validation:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/xhtml-validation/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/xhtml-validation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/xhtml-validation/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/xhtml-validation/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

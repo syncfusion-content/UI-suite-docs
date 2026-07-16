@@ -27,15 +27,15 @@ The example below sets the undo/redo history limit to `20` actions.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/undo-redo/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/undo-redo/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/undo-redo/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/undo-redo/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/undo-redo/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/undo-redo/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/undo-redo" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/undo-redo" %}

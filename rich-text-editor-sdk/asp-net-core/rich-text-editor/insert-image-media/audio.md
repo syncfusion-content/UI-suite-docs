@@ -22,10 +22,10 @@ To configure the `Audio` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-import/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-import/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-import/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-import/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ To configure the `Audio` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-import/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-import/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-import/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-import/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -85,10 +85,10 @@ The selected audio can be uploaded to the required destination using the control
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-save/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-save/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-save/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-save/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ The selected audio can be uploaded to the required destination using the control
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-save/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-save/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-save/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-save/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -122,10 +122,10 @@ Refer `rename.cs` controller file for configure the server-side.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-rename/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-rename/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-rename/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-rename/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ Refer `rename.cs` controller file for configure the server-side.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-rename/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-rename/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rename.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-rename/rename.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-rename/rename.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -151,10 +151,10 @@ N> By default, it doesn't support the `UseDefaultCredentials` property; we need 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-authenticate/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-authenticate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-authenticate/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-authenticate/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,10 +162,10 @@ N> By default, it doesn't support the `UseDefaultCredentials` property; we need 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-authenticate/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-authenticate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-authenticate/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-authenticate/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -180,10 +180,10 @@ In the following illustration, the audio size has been validated before uploadin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-audio-size/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-audio-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-audio-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-audio-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -191,10 +191,10 @@ In the following illustration, the audio size has been validated before uploadin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-audio-size/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-audio-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-audio-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-audio-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -223,10 +223,10 @@ Sets the default display property for audio when it is inserted in the Rich Text
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-settings/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-settings/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -234,13 +234,17 @@ Sets the default display property for audio when it is inserted in the Rich Text
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-settings/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-settings/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
+
+## Paste audio files into the editor
+
+The Rich Text Editor supports pasting audio files directly into the editor content. You can paste single or multiple audio files from your file system directly into the editor.
 
 ## Drag and Drop Audio Insertion
 
@@ -252,10 +256,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/audio/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/audio/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/audio/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/audio/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -263,10 +267,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/audio/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/audio/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/audio/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/audio/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -296,10 +300,10 @@ By configuring these options in the [quickToolbarSettings](https://help.syncfusi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-quick-toolbar/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-quick-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-quick-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-quick-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -307,10 +311,10 @@ By configuring these options in the [quickToolbarSettings](https://help.syncfusi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-quick-toolbar/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-quick-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/audio-quick-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/audio-quick-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

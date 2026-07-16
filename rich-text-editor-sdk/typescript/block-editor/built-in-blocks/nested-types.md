@@ -69,27 +69,27 @@ This example shows how to configure `CollapsibleHeading` and `CollapsibleParagra
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
 {% endif %}
 
 ### Configure placeholder
@@ -139,27 +139,27 @@ The following sample demonstrates how to configure quote block.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
 {% endif %}
 
 ## Configure callout block
@@ -190,25 +190,25 @@ The following sample demonstrates how to configure callout block.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
 {% endif %}

@@ -69,15 +69,15 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block" %}
 
 ### Table resizing
 
@@ -91,12 +91,12 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/table-feature/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/table-feature/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature" %}

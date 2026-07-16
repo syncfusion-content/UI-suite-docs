@@ -38,7 +38,7 @@ npm install
 ## Add Syncfusion JavaScript packages
 
 All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in [`npmjs.com`](https://www.npmjs.com/~syncfusionorg) public registry.
-To install Markdown Editor component, use the following command
+To install Markdown Editor control, use the following command
 
 ```
 npm install @syncfusion/ej2-richtexteditor
@@ -46,24 +46,21 @@ npm install @syncfusion/ej2-richtexteditor
 
 ## Adding CSS reference
 
-Add the following imports inside the `~/src/styles.css` file to include the `tailwind3` theme styles:
+Syncfusion provides multiple themes for the Rich Text Editor control. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages).
 
-{% tabs %}
-{% highlight css tabtitle="style.css" %}
+To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
 
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+```bash
+npm install @syncfusion/ej2-tailwind3-theme
+```
 
-{% endhighlight %}
-{% endtabs %}
+The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `~/src/styles.css`.
 
-I> To apply the application-specific styles correctly, import style.css into **src/main.ts** and remove all the default styles from **src/style.css** and use the Rich Text editor styles provided above. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+```css
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/rich-text-editor/index.css';
+```
+
+I> To apply the application-specific styles correctly, import style.css into **src/main.ts** and remove all the default styles from **src/style.css** and use the Rich Text editor styles provided above.
 
 ## Module Injection
 
@@ -100,14 +97,7 @@ editor.appendTo('#editor');
 
 {% highlight css tabtitle="styles.css" %}
 
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/rich-text-editor/index.css';
 
 {% endhighlight %}
 

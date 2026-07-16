@@ -23,27 +23,27 @@ By default, a predefined set of emojis is configured. However, these icons can b
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs2/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs2" %}
 {% endif %}
 
 Additionally, you have the option to customize the icons of toolbar items using the [iconCss](https://ej2.syncfusion.com/documentation/api/rich-text-editor/emojiIconsSet#iconCss) and [code](https://ej2.syncfusion.com/documentation/api/rich-text-editor/emojiIconsSet#code) properties. The `iconCSS` property allows you to define a custom CSS class for the toolbar item icon, while the `code` property enables you to specify the Unicode character code for the icon.
@@ -58,27 +58,27 @@ The following code example shows how to add the emoji picker tool in the Rich Te
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
           
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/emoji-picker-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/emoji-picker-cs1" %}
 {% endif %}
 
 ## Using shortcut keys to open the emoji picker

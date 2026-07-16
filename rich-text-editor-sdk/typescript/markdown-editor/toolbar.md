@@ -39,27 +39,27 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
 {% endif %}
 
 ### Configuring a Multi-row Toolbar
@@ -70,27 +70,27 @@ By setting type: `MultiRow` in [toolbarSettings](../api/rich-text-editor/toolbar
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/expand-toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/multi-row-toolbar-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/multi-row-toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/multi-row-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/multi-row-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/multi-row-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/multi-row-toolbar-cs1" %}
 {% endif %}
 
 ### Implementing a Scrollable Toolbar
@@ -101,27 +101,27 @@ Use `type: 'Scrollable'` in [toolbarSettings](../api/rich-text-editor/toolbarSet
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/scrollable-toolbar-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/scrollable-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/scrollable-toolbar-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/scrollable-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/scrollable-toolbar-cs1" %}
 {% endif %}
 
 ### Creating a Sticky Toolbar
@@ -136,27 +136,27 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/floating-toolbar-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/floating-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/floating-toolbar-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/floating-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/floating-toolbar-cs1" %}
 {% endif %}
 
 ## Custom Toolbar Items
@@ -171,25 +171,25 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/custom-toolbar-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/custom-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/custom-toolbar-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/typescript/markdown-editor/custom-toolbar-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/markdown-editor/custom-toolbar-cs1" %}
 {% endif %}

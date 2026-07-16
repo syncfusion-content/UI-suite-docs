@@ -45,10 +45,10 @@ The following example demonstrates how to customize the number format lists in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/number-format-list/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/number-format-list/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/number-format-list/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/number-format-list/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ The following example demonstrates how to customize the number format lists in t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/number-format-list/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/number-format-list/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/number-format-list/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/number-format-list/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -89,10 +89,10 @@ The following example demonstrates how to customize the bullet format lists in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/format-lists/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/format-lists/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/format-lists/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/format-lists/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The following example demonstrates how to customize the bullet format lists in t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/format-lists/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/format-lists/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/format-lists/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/format-lists/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

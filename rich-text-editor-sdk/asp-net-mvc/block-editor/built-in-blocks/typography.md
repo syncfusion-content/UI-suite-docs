@@ -38,10 +38,10 @@ The below sample demonstrates the configuration of paragraph block in the Block 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paragraph.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/paragraph.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/paragraph.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ The below sample demonstrates the configuration of placeholder in the Block Edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/placeholder/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/placeholder/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Placeholder.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/placeholder/placeholder.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/placeholder/placeholder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The below sample demonstrates the configuration of heading block in the Block Ed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Heading.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/heading-block/heading.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/heading-block/heading.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,10 +142,10 @@ The below sample demonstrates the configuration of divider block in the Block Ed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Divider.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/divider-block/divider.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/divider-block/divider.cs %}
 {% endhighlight %}
 {% endtabs %}
 

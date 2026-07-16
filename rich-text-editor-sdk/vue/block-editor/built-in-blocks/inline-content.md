@@ -136,14 +136,14 @@ The below sample demonstrates the customization of labels in the Block Editor.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/label-settings/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/label-settings/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/label-settings/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/label-settings/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/label-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/label-settings" %}
 
 ## Configure mention
 
@@ -170,14 +170,14 @@ Below is an example of how to configure different types of content in the Block 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/content-types/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-types/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/content-types/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-types/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-types" %}
 
 ## Applying Inline Styles
 
@@ -203,11 +203,11 @@ You can apply one or more of these styles to any supported content element for r
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/content-styles/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-styles/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/content-styles/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-styles/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-styles" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/content-styles" %}

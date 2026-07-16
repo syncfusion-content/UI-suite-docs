@@ -137,14 +137,14 @@ The below sample demonstrates the customization of labels in the Block Editor.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/label-settings/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/label-settings/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/label-settings/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/label-settings/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/label-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/label-settings" %}
 
 ## Configure mention
 
@@ -171,14 +171,14 @@ The sample below demonstrates how to configure mentions and other content types.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/content-types/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-types/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/content-types/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-types/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-types" %}
 
 ## Applying Inline Styles
 
@@ -204,11 +204,11 @@ You can apply one or more of these styles to any supported content element for r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/content-styles/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-styles/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/content-styles/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-styles/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-styles" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/content-styles" %}

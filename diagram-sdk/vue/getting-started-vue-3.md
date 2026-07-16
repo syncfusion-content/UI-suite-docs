@@ -100,7 +100,7 @@ Add the following import to the **src/App.vue** file:
 
 ### Option 2: Add CSS References from component packages
 
-After installing the diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the `src/App.vue` file:
+After installing the diagram package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.vue** file:
 
 ```
 <style>
@@ -112,7 +112,6 @@ After installing the diagram package, the required CSS files are available in th
 ```
 
 N> Syncfusion® provides multiple built-in themes. If your application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
-
 
 ## Step 5: Add the Diagram component
 

@@ -27,25 +27,25 @@ The following example demonstrates how to customize Markdown tags in the editor:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs5/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs5/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs5" %}
 {% endif %}
