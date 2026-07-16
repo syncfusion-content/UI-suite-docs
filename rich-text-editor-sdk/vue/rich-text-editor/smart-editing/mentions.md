@@ -110,4 +110,4 @@ In the following sample, we configured the following properties:
 
 ## See also
 
-* [Mention](https://ej2.syncfusion.com/vue/documentation/mention/getting-started/)
+* [Mention](https://ej2.syncfusion.com/vue/documentation/mention/getting-started)

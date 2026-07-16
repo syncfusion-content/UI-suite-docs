@@ -100,7 +100,7 @@ In the following sample, we configured the following properties:
 
 ![Blazor RichTextEditor mention integration](./images/blazor-richtexteditor-mention-integration.webp)
 
-> [View Sample](https://blazor.syncfusion.com/demos/rich-text-editor/mention-integration?theme=bootstrap5)
+> [View Sample](https://blazor.syncfusion.com/demos/rich-text-editor/mention-integration?theme=fluent2)
 
 ## See also
 
