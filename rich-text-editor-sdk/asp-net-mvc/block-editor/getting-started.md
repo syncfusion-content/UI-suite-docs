@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC BlockEditor Control | Syncfusion
-description: Checkout and learn about getting started with Syncfusion Essential ASP.NET MVC BlockEditor control, its elements, and more.
+title: Getting Started with ASP.NET MVC Block Editor Control | Syncfusion
+description: Checkout and learn about getting started with Syncfusion Essential ASP.NET MVC Block Editor control, its elements, and more.
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/aspnet-mvc-block-editor"
 platform: ej2-asp-core-mvc
-control: BlockEditor
-publishingplatform: ##Platform_Name##
+control: Block Editor
+publishingplatform: rich-text-editor-sdk
 documentation: ug
 ---
 
@@ -30,7 +30,7 @@ W> **Important:** Syncfusion® ASP.NET MVC controls require `System.Web.Mvc` ver
 
 ## Install Syncfusion ASP.NET MVC package in the application
 
-You can add the Syncfusion BlockEditor to your ASP.NET MVC application by installing the Syncfusion ASP.NET MVC package. This can be done in two ways, they are mentioned below
+You can add the Syncfusion Block Editor to your ASP.NET MVC application by installing the Syncfusion ASP.NET MVC package. This can be done in two ways, they are mentioned below
 
 ### 1. Using NuGet Package Manager
 
@@ -98,25 +98,25 @@ Also, register the script manager `EJS().ScriptManager()` at the end of `<body>`
 {% endhighlight %}
 {% endtabs %}
 
-## Add ASP.NET MVC BlockEditor control
+## Add ASP.NET MVC Block Editor control
 
-Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC BlockEditor control in `~/Views/Home/Index.cshtml` page.
+Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Block Editor control in `~/Views/Home/Index.cshtml` page.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/block-editor/getting-started/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/getting-started/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/block-editor/getting-started/gettingstarted.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/getting-started/gettingstarted.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 I> Replace the existing content in the Index.cshtml file by pasting the above code snippet.
 
-I> When the BlockEditor control is rendered, the id attribute must be present. If the id is not provided, the control will fail to render.
+I> When the Block Editor control is rendered, the id attribute must be present. If the id is not provided, the control will fail to render.
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC BlockEditor control will be rendered in the default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Block Editor control will be rendered in the default web browser.
 
-![ASP.NET MVC BlockEditor Control](images/block-editor-control.png)
+![ASP.NET MVC Block Editor Control](images/block-editor-control.png)

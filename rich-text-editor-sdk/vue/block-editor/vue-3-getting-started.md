@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Vue 3 Getting started in Vue BlockEditor component | Syncfusion
-description: Learn here all about Getting started in Syncfusion Vue BlockEditor component of Syncfusion Essential JS 2 and more.
+title: Getting started in Vue Block Editor component | Syncfusion
+description: Learn here all about Getting started in Syncfusion Vue Block Editor component of Syncfusion Essential JS 2 and more.
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor"
-control: BlockEditor
+control: Block Editor
 platform: ej2-vue
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Getting Started with the BlockEditor component in Vue 3
+# Getting Started with the Block Editor component in Vue 3
 
-This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev/) project with a JavaScript environment and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue BlockEditor component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
+This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev/) project with a JavaScript environment and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Block Editor component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
 
 The `Composition API` is a new feature introduced in Vue.js 3 that provides an alternative way to organize and reuse component logic. It allows developers to write components as functions that use smaller, reusable functions called composition functions to manage their properties and behavior.
 
@@ -19,30 +19,32 @@ The `Options API` is the traditional way of writing Vue.js components, where the
 
 ## Prerequisites
 
-This guide uses Vite as the bundler and development environment. Install Node.js 24.13.0 or higher before proceeding. For detailed information about Vite's capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/). For component-specific requirements, refer to [System requirements for Syncfusion Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements).
+This guide uses Vite as the bundler and development environment. Install a current Node.js Long-Term Support (LTS) release, such as 24.13.0 or later, that is compatible with your package version. For the exact supported range, refer to [System requirements for Syncfusion Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements). For detailed information about Vite's capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
 
 ## Create a Vue Application
 
-To set-up a Vue application, run the following command.
+To set up a Vue application, run the following command.
 
 ```bash
 npm create vite@latest my-app -- --template vue
 ```
 
-This command will prompt you to install the required packages and start the application. Select the options as shown below.
+This command prompts you to install the required packages and start the application. Select the options shown in the prompt, and confirm that the `my-app` folder is created before continuing.
 
-![BlockEditor Initial setup](images/Initial-setup.png)
+![Vite project creation prompt](images/initial-setup.png)
 
-As Syncfusion packages are not installed yet, currently, the `No` option will be selected. Then, navigate to the project directory and install the dependencies using the following commands:
+As Syncfusion packages are not installed yet, the `No` option is selected by default. Then, navigate to the project directory and install the dependencies using the following commands:
 
 ```bash
 cd my-app
 npm install
 ```
 
-## Adding Syncfusion BlockEditor package
+After installation completes, confirm that the dependencies were installed successfully before moving to the next step.
 
-All available Essential JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/search?q=ej2-vue) registry. Install the Vue BlockEditor component with the following command:
+## Adding Syncfusion Block Editor package
+
+All available Essential JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/search?q=ej2-vue) registry. Install the Vue Block Editor component with the following command:
 
 ```bash
 npm install @syncfusion/ej2-vue-blockeditor --save
@@ -50,7 +52,7 @@ npm install @syncfusion/ej2-vue-blockeditor --save
 
 ## Adding CSS reference
 
-Syncfusion provides multiple themes for the BlockEditor component. For a complete list of available themes, refer to the [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages).
+Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages).
 
 To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
 
@@ -61,14 +63,14 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into the `<style>` section of **src/App.vue**.
 
 ```css
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 ```
 
 I> To apply the application-specific styles correctly remove all the default styles from **src/style.css**.
 
-## Adding BlockEditor component
+## Adding Block Editor component
 
-Now, you can start adding the Vue BlockEditor component in the application. For getting started, add the BlockEditor component in **src/App.vue** file using following sample.
+Now, you can start adding the Vue Block Editor component in the application. For getting started, add the Block Editor component in **src/App.vue** file using following sample.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -84,7 +86,7 @@ Now, you can start adding the Vue BlockEditor component in the application. For 
 </script>
 
 <style>
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 </style>
 
 {% endhighlight %}
@@ -108,11 +110,17 @@ export default {
 </script>
 
 <style>
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 </style>
 
 {% endhighlight %}
 {% endtabs %}
+
+## Troubleshooting
+
+- If `npm install` fails, confirm that your Node.js version is compatible and that npm can reach the package registry.
+- If the component does not render correctly, verify that the CSS import exists in App.vue and that the default styles from `src/style.css` are removed.
+- If `npm run dev` does not reflect your latest changes, stop the existing Vite process and run the command again.
 
 ## Run the application
 
@@ -128,9 +136,11 @@ The output will appear as follows:
 
 ## See also
 
+For additional Vue 3 examples and related topics, see the following resources:
+
 * [Getting Started with Vue UI Components using Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 * [Getting Started with Vue UI Components using Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)
 
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
 
-N> Looking for the full Vue BlockEditor component overview, features, pricing, and documentation? Visit the [Vue BlockEditor](https://www.syncfusion.com/vue-components/vue-blockeditor) page.
+N> Looking for the full Vue Block Editor component overview, features, pricing, and documentation? Visit the [Vue Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor) page.
