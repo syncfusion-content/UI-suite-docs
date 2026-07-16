@@ -6,8 +6,9 @@ canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block
 platform: ej2-javascript
 control: Getting started 
 publishingplatform: ##Platform_Name##
+publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
 # Getting started in ##Platform_Name## BlockEditor control
@@ -122,10 +123,10 @@ The following example shows a basic BlockEditor control.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/block-editor/getting-started/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/getting-started/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/block-editor/getting-started/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

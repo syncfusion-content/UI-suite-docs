@@ -5,7 +5,7 @@ description: Checkout and learn about getting started with Syncfusion Essential 
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/aspnet-core-block-editor"
 platform: ej2-asp-core-mvc
 control: BlockEditor
-publishingplatform: ##Platform_Name##
+publishingplatform: rich-text-editor-sdk
 documentation: ug
 ---
 
@@ -108,10 +108,10 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/block-editor/getting-started/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/getting-started/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/block-editor/getting-started/gettingstarted.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/getting-started/gettingstarted.cs %}
 {% endhighlight %}
 {% endtabs %}
 

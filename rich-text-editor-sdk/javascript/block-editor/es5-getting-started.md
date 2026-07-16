@@ -5,12 +5,12 @@ description:  Checkout and learn about Es5 getting started with ##Platform_Name#
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
 platform: ej2-javascript
 control: Es5 getting started
-publishingplatform: ##Platform_Name##
+publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Es5 getting started in ##Platform_Name## BlockEditor control
+# Es5 getting started in JavaScript BlockEditor control
 
 The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
 
@@ -90,10 +90,10 @@ BlockEditor can be initialized on div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/block-editor/getting-started/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/block-editor/getting-started/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
