@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Collaborative Editing in React Block Editor component | Syncfusion
-description: Enable real-time collaborative editing in the React Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
+title: Collaborative Editing in Block Editor Control | Syncfusion
+description: Enable real-time collaborative editing in the Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
 platform: rich-text-editor-sdk
 control: Block Editor
+publishingplatform: rich-text-editor-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Collaborative Editing in React Block Editor component
+# Real-time Collaboration in TypeScript Block Editor control
 
-The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
+The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously.Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
 With collaboration enabled, users can:
 
@@ -20,7 +21,7 @@ With collaboration enabled, users can:
 * Perform collaboration-aware undo and redo operations.
 * Create, restore, compare, export, and import document versions.
 
-Try the live demo [here](https://ej2.syncfusion.com/showcase/react/blockeditor-collaborative-editing/)*
+*Try the live demo [here](https://ej2.syncfusion.com/showcase/typescript/blockeditor-collaborative-editing/)*
 
 ## Prerequisites
 
@@ -28,13 +29,13 @@ Before enabling collaboration, install the `yjs` library and a Yjs provider. See
 
 Inject the `Collaboration` module into the Block Editor before use.
 
-{% raw %}
-```typescript
-import { BlockEditorComponent, Collaboration } from '@syncfusion/ej2-react-blockeditor';
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+import { BlockEditor, Collaboration } from "@syncfusion/ej2-blockeditor";
+BlockEditor.Inject(Collaboration);
+{% endhighlight %}
+{% endtabs %}
 
-BlockEditorComponent.Inject(Collaboration);
-```
-{% endraw %}
 
 ## Yjs Providers
 
@@ -63,29 +64,32 @@ The following steps will help you set up real-time collaboration in the Block Ed
 
 Create a shared Yjs document and XML fragment.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import * as Y from 'yjs';
 
 const yDoc = new Y.Doc();
 const yFragment = yDoc.getXmlFragment('blockeditor');
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Step 2: Create a Yjs adapter
 
 Create an adapter that provides the Yjs runtime and the shared fragment to the Block Editor.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import * as Y from 'yjs';
+import { YjsAdapter } from '@syncfusion/ej2-blockeditor';
 
-const adapter = new YjsAdapter({
+const adapter: YjsAdapter = {
     yRuntime: Y,
     yXmlFragment: yFragment
-});
-```
-{% endraw %}
+};
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Step 3: Configure a provider
 
@@ -93,8 +97,8 @@ Create a provider that connects users to the same shared document. The following
 
 **Production (y-websocket):**
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import { WebsocketProvider } from 'y-websocket';
 
 const provider = new WebsocketProvider(
@@ -102,80 +106,82 @@ const provider = new WebsocketProvider(
     'document-room-id',
     yDoc
 );
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 **Development (y-webrtc):**
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 import { WebrtcProvider } from 'y-webrtc';
 
 const provider = new WebrtcProvider('document-room-id', yDoc);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Step 4: Enable Collaboration
 
 Pass the adapter and provider to the Block Editor through the `collaborationSettings` property.
 
-{% raw %}
-```ts
-import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
-
-
-<BlockEditorComponent
-    collaborationSettings={{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
         adapter: adapter,
         provider: provider
-    }}
-/>
-```
-{% endraw %}
+    }
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ## User presence and remote cursors
 
 The Block Editor can display remote cursors, text selection overlays, and user details on hover. To enable these user presence features, set `enableAwareness` to `true` in `collaborationSettings` property.
 
-{% raw %}
-```typescript
-<BlockEditorComponent
-    collaborationSettings={{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
         adapter: adapter,
         provider: provider,
         enableAwareness: true
-    }}
-/>
-```
-{% endraw %}
+    }
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Configure the current user
 
 Set the current user's display name and cursor highlight color using the `users` and `currentUserId` properties. The `avatarBgColor` value is used for that user's remote cursor and text selection overlay. The users property includes `id`, `user` and `avatarBgColor`.
 
-{% raw %}
-```typescript
-<BlockEditorComponent
-    users={[{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    users: [{
         id: 'user-1',
         user: 'John Doe',
         avatarBgColor: '#e74c3c'
-    }]}
-    currentUserId='user-1'
-/>
-```
-{% endraw %}
+    }],
+    currentUserId: 'user-1'
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Get active users
 
 Retrieve all currently connected users using the `users` property in the block editor.
 
-{% raw %}
-```typescript
-const blockEditorRef = useRef(null);
-const users = blockEditorRef.current?.users;
-```
-{% endraw %}
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const users = blockEditor.users;
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Version history
 
@@ -185,26 +191,25 @@ const users = blockEditorRef.current?.users;
 
 Inject the `VersionHistory` module and configure the `versionHistory` property under `collaborationSettings` property.
 
-{% raw %}
-```typescript
-import { BlockEditorComponent, VersionHistory } from '@syncfusion/ej2-react-blockeditor';
-
-BlockEditorComponent.Inject(VersionHistory);
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+import { BlockEditor, Collaboration, VersionHistory } from "@syncfusion/ej2-blockeditor";
+BlockEditor.Inject(VersionHistory);
 
 const myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
 
-<BlockEditorComponent
-    collaborationSettings={{
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
         adapter: adapter,
         provider: provider,
         versionHistory: {
             storage: myStorage,
             snapshotInterval: 3000
         }
-    }}
-/>
-```
-{% endraw %}
+    }
+});
+{% endhighlight %}
+{% endtabs %}
 
 ### Configure snapshot storage
 
@@ -224,13 +229,12 @@ The `IVersionStorage` interface defines the following methods:
 
 After the Block Editor initializes, retrieve the version history instance and wait for snapshot data to load before calling any version history methods.
 
-{% raw %}
-```typescript
-const blockEditorRef = useRef(null);
-const versionHistory = blockEditorRef.current?.getVersionHistory();
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const versionHistory = blockEditor.getVersionHistory();
 await versionHistory.whenReady();
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
 
 ### Methods
 
@@ -240,48 +244,52 @@ The following are the methods available in the `IVersionHistory`:
 
 Creates a new snapshot of the current document state with an optional label and metadata.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 const snapshot = await versionHistory.createSnapshot({
     label: 'Before major update',
     modifiedBy: currentUserId
 });
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 #### List snapshots
 
 Retrieves all saved snapshots or a paginated subset. Snapshots are returned in chronological order.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 // Retrieve all snapshots
 const snapshots = versionHistory.getSnapshots();
 
 // Retrieve a paginated subset — getSnapshots(skip, take)
 const snapshots = versionHistory.getSnapshots(20, 40);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 #### Rename a snapshot
 
 Updates the label or metadata of an existing snapshot without modifying its content.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 await versionHistory.renameSnapshot(snapshotId, 'Release Candidate');
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 #### Restore a snapshot
 
 Reverts the document to a previously saved snapshot state. The current document state is automatically backed up before restoration.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 await versionHistory.restoreSnapshot(snapshotId);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 > **Note:** When a snapshot is restored, the current document state is automatically 
 > backed up before the restore operation is applied.
@@ -290,11 +298,12 @@ await versionHistory.restoreSnapshot(snapshotId);
 
 Compares two snapshots to identify differences such as added, removed, or modified content.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 const diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 The returned `VersionDiff` object provides a summary of the differences between the two selected versions.
 
@@ -302,11 +311,12 @@ The returned `VersionDiff` object provides a summary of the differences between 
 
 Serializes a snapshot into a portable format that can be stored externally or transferred between systems.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 const exported = await versionHistory.exportSnapshot(snapshotId);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 Exported snapshots can be stored externally or transferred between systems.
 
@@ -314,53 +324,56 @@ Exported snapshots can be stored externally or transferred between systems.
 
 Imports a previously exported snapshot back into the version history storage.
 
-{% raw %}
-```typescript
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
 const imported = await versionHistory.importSnapshot(exported);
-```
-{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+
 
 ### Events
 
-Use the following event callbacks in `versionHistory` settings to respond to snapshot lifecycle events.
+Use the following event callbacks in `versionHistory` settings to respond to snapshot life cycle events.
 
 #### snapshotCreated
 
 Triggered when a new snapshot is created.
 
-{% raw %}
-```typescript
-<BlockEditorComponent
-    collaborationSettings={{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
         versionHistory: {
             storage: myStorage,
             snapshotCreated: ({ snapshot }) => {
                 console.log(snapshot.id);
             }
         }
-    }}
-/>
-```
-{% endraw %}
+    }
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 #### snapshotRestored
 
 Triggered when a snapshot is restored.
 
-{% raw %}
-```typescript
-<BlockEditorComponent
-    collaborationSettings={{
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+const blockEditor = new BlockEditor({
+    collaborationSettings: {
         versionHistory: {
             storage: myStorage,
             snapshotRestored: ({ snapshot, backupSnapshot }) => {
                 console.log(snapshot.label);
             }
         }
-    }}
-/>
-```
-{% endraw %}
+    }
+});
+{% endhighlight %}
+{% endtabs %}
+
 
 ## Best Practices
 
@@ -368,7 +381,7 @@ Triggered when a snapshot is restored.
 * **Use WebSocket-based providers in production** - `y-websocket`, Hocuspocus, or a managed service like Liveblocks provides reliable, low-latency, persistent synchronization at scale.
 * **Use stable room identifiers** - Use a unique document ID as the collaboration room name to prevent unintended document sharing between different documents.
 * **Persist snapshots externally** - Store snapshots in a database or cloud storage to preserve version history across sessions.
-* **Enable awareness selectively** - Disable `enableAwareness` when user presence information is not required to reduce network and processing overhead.
+* **Enable awareness selectively** - Disable `enableAwareness` when user presence information is not required to reduce network and processing overhead.    
 
 ## Troubleshooting
 
