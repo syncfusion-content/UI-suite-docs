@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: File attachment 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # File attachment in TypeScript Rich text editor control

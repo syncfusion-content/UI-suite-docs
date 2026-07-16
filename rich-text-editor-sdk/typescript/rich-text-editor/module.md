@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Module 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Module in TypeScript Rich Text Editor control
@@ -69,4 +69,4 @@ The following example demonstrates how to import and inject modules.
 
 These modules should be injected into the richtexteditor using the `RichTextEditor.Inject` method.
 
-N> Looking for the full JavaScript Rich Text Editor component overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) page.
+N> Looking for the full JavaScript Rich Text Editor component overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/javascript-rich-text-editor) page.
