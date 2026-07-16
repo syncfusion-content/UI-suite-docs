@@ -2,7 +2,7 @@
 layout: post
 title: Getting started in Vue Block Editor component | Syncfusion
 description: Learn here all about Getting started in Syncfusion Vue Block Editor component of Syncfusion Essential JS 2 and more.
-canonical_url: "https://www.syncfusion.com/vue-components/vue-block-editor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor"
 control: Getting started 
 platform: ej2-vue
 documentation: ug
@@ -35,7 +35,7 @@ The Block Editor component depends on the following packages:
 
 ## Create a Vue Application
 
-To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. Follow these steps to install Vue CLI and create a new project:
+To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org/#getting-started) command. If Vue CLI is not installed yet, run the first command below. When prompted, choose the option `Default ([Vue 2] babel, eslint)` so the steps in this guide match your setup.
 
 ```bash
 npm install -g @vue/cli
@@ -53,7 +53,7 @@ cd quickstart
 yarn run serve
 ```
 
-When creating a new project, choose the option `Default ([Vue 2] babel, eslint)` from the menu.
+After the project is created, confirm that the `quickstart` folder exists and that the app starts without errors before continuing.
 
 <img src="https://ej2.syncfusion.com/vue/documentation/appearance/images/vue2-terminal.png" alt="Vue 2 project">
 
@@ -80,13 +80,13 @@ To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwin
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-To render the Block Editor component, import the required Tailwind3 CSS styles for the component and its dependencies into the `<style>` section of the **src/App.vue** file. This approach ensures that all necessary dependency styles are loaded, as shown below.
+Use a theme package version that is compatible with the Syncfusion Vue package version installed in your project. To render the Block Editor component, import the required Tailwind3 CSS styles for the component and its dependencies into the `<style>` section of the **src/App.vue** file, as shown below.
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
 
 <style>
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
+@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 </style>
 
 {% endhighlight %}
@@ -96,7 +96,7 @@ I> To apply the application-specific styles correctly, remove all the default st
 
 ## Adding Block Editor component
 
-Follow the below steps to add the Vue Block Editor component using `Composition API` or `Options API`:
+Follow the steps below to add the Vue Block Editor component using `Composition API` or `Options API`:
 
 1\. First, import and register the Block Editor component in the `script` section of the **src/App.vue** file. If you are using the `Composition API`, you should add the `setup` attribute to the `script` tag to indicate that Vue will be using the `Composition API`.
 
@@ -136,7 +136,9 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-Here is the summarized code for the above steps in the **src/App.vue** file:
+The complete example below combines the previous steps into a single **src/App.vue** file.
+
+The following code summarizes the steps:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -147,7 +149,13 @@ Here is the summarized code for the above steps in the **src/App.vue** file:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/getting-started/index" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
+
+## Troubleshooting
+
+- If `npm install` fails, confirm that Node.js and npm are installed correctly and rerun the install command from the project root.
+- If the component does not render with styles, verify that the CSS import exists in App.vue and that the default styles from `src/style.css` are removed.
+- If `npm run serve` fails, stop any process using the same port and run the command again.
 
 ## Run the application
 
