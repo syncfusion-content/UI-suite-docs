@@ -641,7 +641,7 @@ Diagram provides support to map or bind command execution with desired combinati
 To define a custom command, specify the following properties:
 * [`execute`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Execute): A method to be executed.
 * [`canExecute`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_CanExecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers/).
+* [`gesture`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.KeyModifiers.html).
 * [`parameter`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Parameter): Defines any additional parameters that are required at runtime.
 * [`name`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Name): Defines the name of the command.
 
