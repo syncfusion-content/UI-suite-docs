@@ -66,7 +66,7 @@ cd syncfusion-angular-app
 
 > This guide uses Angular 21+ with standalone components. For compatibility with other Angular versions, see the [Angular version support matrix](https://ej2.syncfusion.com/angular/documentation/system-requirement#angular-version-compatibility).
 
-Install the Gantt Chart package (version 21.x or higher) using the Angular CLI command:
+Install the Gantt Chart package using the Angular CLI command:
 
 ```bash
 ng add @syncfusion/ej2-angular-gantt
@@ -75,7 +75,7 @@ ng add @syncfusion/ej2-angular-gantt
 This command performs the following automatically:
 
 - Installs the `@syncfusion/ej2-angular-gantt` package and dependencies
-- Imports the Gantt module into your application
+- Imports the Gantt Chart module into your application
 - Registers default theme styles in `angular.json`
 
 ## Add theme styles
@@ -284,7 +284,7 @@ You can preview the following sample by clicking the **Preview Sample** button.
 
 ## Error handling
 
-Proper error handling helps identify and resolve issues during development. The Gantt control provides events to capture validation and configuration errors.
+Proper error handling helps identify and resolve issues during development. The Gantt Chart provides events to capture validation and configuration errors.
 
 ### Common error scenarios
 
@@ -307,7 +307,7 @@ export class App {
     public taskSettings = {/* ... */};
     
     onActionFailure(args: any) {
-        console.error('Gantt Error:', args.error);
+        console.error('Gantt Chart Error:', args.error);
         alert(`Configuration Error: ${args.error}`);
     }
 }
