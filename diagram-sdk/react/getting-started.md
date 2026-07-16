@@ -10,9 +10,9 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Getting Started with React Diagram Component
 
-This section explains how to create a React application from scratch and build a simple diagram using the Syncfusion® Diagram component.
+This section explains how to create a React application from scratch and build a simple diagram using the Syncfusion® React Diagram component.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/mcp-server/ai-coding-assistant/getting-started)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> Code Studio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/mcp-server/ai-coding-assistant/getting-started)
 
 ## Prerequisites
 
@@ -35,13 +35,11 @@ N> In a Vite React TypeScript application, the root component is commonly genera
 
 N> This guide uses the TypeScript template for better type checking with Diagram models such as `NodeModel`, `ConnectorModel`, and `FlowShapeModel`.
 
-## Step 1: Set up the React environment
+## Step 1: Create a React application
 
 Use [Vite](https://vitejs.dev) to create and manage React applications. Vite provides a fast development environment and optimized builds for modern React applications. Syncfusion® React documentation also recommends Vite for setting up React applications.
 
-## Step 2: Create a React application
-
-Create a new React application using the below command.
+Create a new React application using the following command:
 
 ```
 npm create vite@latest my-diagram-app -- --template react-ts
@@ -57,7 +55,7 @@ cd my-diagram-app
 
 N> If you prefer JavaScript instead of TypeScript, create the application using `npm create vite@latest my-diagram-app -- --template react`.
 
-## Step 3: Install the Syncfusion® React Diagram package
+## Step 2: Install the Syncfusion® React Diagram package
 
 All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) registry.
 
@@ -69,16 +67,18 @@ npm install @syncfusion/ej2-react-diagrams
 
 N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
 
-## Step 4: Add the required styles
+## Step 3: Add the required styles
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
+
+N> Syncfusion styles can be added either through a theme package or through individual component package style references. Theme packages provide a consolidated styling approach, while component package styles allow direct imports from the required packages. Both approaches are fully supported.
 
 ### Option 1: Add styles from a theme package
 
 Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 ```
-npm install @syncfusion/ej2-tailwind3-theme --save
+npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Add the following import to the **src/App.css** file:
@@ -100,11 +100,13 @@ After installing the Diagram package, the required style files are available und
 @import '../node_modules/@syncfusion/ej2-react-diagrams/styles/tailwind3.css';
 ```
 
+N> The **ej2-base**, **ej2-popups**, and **ej2-navigations** packages provide the base, popup, and navigation styles used by internal sub-components of the Diagram, such as tooltips, context menus, and scrollbars.
+
 N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
 N> Ensure that **App.css** is imported in the **src/App.tsx** file so that the theme styles are applied to the Diagram component.
 
-## Step 5: Add the Diagram component
+## Step 4: Add the Diagram component
 
 Import `DiagramComponent` from `@syncfusion/ej2-react-diagrams` and add it to the React component.
 
@@ -133,7 +135,7 @@ N> The Diagram component must have a valid height. If the height is not set, the
 
 N> In a Vite React application, the root element is defined in **index.html** as `<div id="root"></div>`, and the application is rendered from **src/main.tsx**.
 
-## Step 6: Create your first Diagram with nodes and connectors
+## Step 5: Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
@@ -276,7 +278,7 @@ In this example:
 * [`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#getnodedefaults) applies common width, height, fill color, and stroke color to all nodes.
 * [`getConnectorDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#getconnectordefaults) applies common connector settings, such as orthogonal routing and target arrows.
 
-## Step 7: Run the application
+## Step 6: Run the application
 
 Run the application using the following command:
 
