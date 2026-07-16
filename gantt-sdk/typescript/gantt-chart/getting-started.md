@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with TypeScript Gantt Chart Control | Syncfusion
-description: Checkout and learn about Getting started with TypeScript Gantt control of Syncfusion Essential JS 2 and more details.
+description: Checkout and learn about Getting started with TypeScript Gantt Chart control of Syncfusion Essential JS 2 and more details.
 platform: gantt-sdk
 control: Getting started 
 publishingplatform: gantt-sdk
@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 The [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI component used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
 
-This section explains the steps to create a simple Gantt and demonstrates the basic usage of the gantt component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+This section explains the steps to create a simple Gantt Chart and demonstrates the basic usage of the gantt component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
 
 > This application is integrated with the **webpack.config.js** configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node **v14.15.0** or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started).
 
@@ -126,11 +126,11 @@ let taskSettings = {
 | `endDate` | Task end date | Either Duration or EndDate |
 | `parentID` | Parent task ID for hierarchy | No |
 
-## Render the Gantt component
+## Render the Gantt Chart control
 
 Put everything together by adding the following code in the **app.ts** and **index.html** file
 
-Place the following code in the `app.ts` file to create and configure the Gantt Chart component.
+Place the following code in the `app.ts` file to create and configure the Gantt Chart control.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
@@ -161,7 +161,7 @@ gantt.appendTo('#Gantt');
 {% endhighlight %}
 {% endtabs %}
 
-Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart component. Ensure the `<div id="Gantt"></div>` element exists before calling `appendTo()` in your TypeScript code.
+Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart control. Ensure the `<div id="Gantt"></div>` element exists before calling `appendTo()` in your TypeScript code.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -228,7 +228,7 @@ You can preview the following sample by clicking the **Preview Sample** button.
 
 ## Error handling
 
-Proper error handling helps identify and resolve issues during development. The Gantt control provides the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event to capture validation and runtime errors.
+Proper error handling helps identify and resolve issues during development. The Gantt Chart control provides the [actionFailure](https://ej2.syncfusion.com/documentation/api/gantt#actionfailure) event to capture validation and runtime errors.
 
 ### Common error scenarios
 
@@ -237,7 +237,7 @@ The `actionFailure` event is triggered when validation errors or configuration i
 * **Invalid duration** — The [duration](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#duration) field accepts only numerical values with an optional decimal point. Non-numerical values trigger the `actionFailure` event.
 * **Invalid dependency** — The [dependency](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#dependency) field accepts a number followed by a predecessor type (FS, FF, SS, SF). Invalid values, special characters, or incorrect predecessor types trigger the `actionFailure` event.
 * **Invalid offset** — The [offset](https://ej2.syncfusion.com/documentation/api/gantt/iPredecessor#offset) accepts only numerical values or their word equivalents followed by a unit. Invalid values trigger the `actionFailure` event.
-* **Failure to map task fields** — The data source fields must be mapped to the Gantt control using the [taskFields](https://ej2.syncfusion.com/documentation/api/gantt/taskFields) property. Missing mappings trigger the `actionFailure` event.
+* **Failure to map task fields** — The data source fields must be mapped to the Gantt Chart control using the [taskFields](https://ej2.syncfusion.com/documentation/api/gantt/taskFields) property. Missing mappings trigger the `actionFailure` event.
 * **Failure to map resource fields** — To assign resources to a task, resource fields must be mapped using [resourceFields](https://ej2.syncfusion.com/documentation/api/gantt/resourceFields). Missing mappings trigger the `actionFailure` event.
 * **Missing isPrimaryKey** — The [isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) field is crucial for CRUD operations. Failure to map the [id](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#id) column or set `isPrimaryKey` triggers the `actionFailure` event.
 * **Invalid date format** — The [format](https://ej2.syncfusion.com/documentation/api/gantt/iTimelineFormatter) property in `topTier` and `bottomTier` must use valid [date format strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). Invalid formats trigger the `actionFailure` event.
