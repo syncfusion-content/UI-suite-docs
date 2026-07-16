@@ -165,7 +165,7 @@ const data = [
 
 ## Configure task fields
 
-Each task object in the `dataSource` array should include a `StartDate` and either a `Duration` or an `EndDate`. The `taskFields` mapping connects your data properties to the Gantt component.
+Each task object in the `dataSource` array should include a `StartDate` and either a `Duration` or an `EndDate`. The `taskFields` mapping connects your data properties to the Gantt Chart component.
 
 ```js
 const taskFields = {
@@ -190,9 +190,9 @@ const taskFields = {
 | `progress`  | Task completion percentage (0-100) | No       |
 | `parentID`  | Parent task ID for hierarchy       | No       |
 
-## Render the Gantt component
+## Render the Gantt Chart component
 
-Replace the default `src/App.vue` content with the following example, or add the sample code to the existing `App.vue` file. Ensure that the Gantt component is imported and registered in the `<script>` section so that Vue can recognize and render it within the template.
+Replace the default `src/App.vue` content with the following example, or add the sample code to the existing `App.vue` file. Ensure that the Gantt Chart component is imported and registered in the `<script>` section so that Vue can recognize and render it within the template.
 
 To display the Gantt Chart, bind your task data using the `dataSource` property and map the corresponding fields using the `taskFields` property.
 
