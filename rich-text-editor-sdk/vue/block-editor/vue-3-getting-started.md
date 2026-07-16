@@ -2,7 +2,7 @@
 layout: post
 title: Vue 3 Getting started in Vue BlockEditor component | Syncfusion
 description: Learn here all about Getting started in Syncfusion Vue BlockEditor component of Syncfusion Essential JS 2 and more.
-canonical_url: "https://www.syncfusion.com/vue-components/vue-blockeditor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor"
 control: BlockEditor
 platform: ej2-vue
 documentation: ug
@@ -114,8 +114,6 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/block-editor/getting-started-cs1" %}
-
 ## Run the application
 
 Use the following command to run the application in the browser.
@@ -130,8 +128,8 @@ The output will appear as follows:
 
 ## See also
 
-* [Getting Started with Vue UI Components using Composition API and TypeScript](../getting-started/vue-3-ts-composition.md)
-* [Getting Started with Vue UI Components using Options API and TypeScript](../getting-started/vue-3-ts-options.md)
+* [Getting Started with Vue UI Components using Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
+* [Getting Started with Vue UI Components using Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)
 
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
 
