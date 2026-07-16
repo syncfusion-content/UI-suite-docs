@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC Gantt Control | Syncfusion
-description: Checkout and learn about getting started with ASP.NET MVC Gantt control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Gantt Chart Control | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC Gantt Chart control of Syncfusion Essential JS 2 and more details.
 platform: gantt-sdk
 control: Getting Started
 publishingplatform: gantt-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET MVC Gantt Control
+# Getting Started with ASP.NET MVC Gantt Chart Control
 
 This guide walks you through setting up and integrating the [ASP.NET MVC Gantt](https://www.syncfusion.com/gantt-sdk/aspnet-mvc-gantt-chart) control in your application using Visual Studio. You’ll learn how to configure the component, bind task data, map fields, and quickly visualize project timelines in just a few steps.
 
@@ -43,7 +43,7 @@ N> Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC controls are ava
 
 ## Add namespace
 
-Add the `Syncfusion.EJ2` namespace reference to `~/Views/Web.config` so that the Gantt HTML helper is available in every Razor view without an explicit `@using` directive.
+Add the `Syncfusion.EJ2` namespace reference to `~/Views/Web.config` so that the Gantt Chart HTML helper is available in every Razor view without an explicit `@using` directive.
 
 ```xml
 <system.web.webPages.razor>
@@ -148,11 +148,11 @@ List<GanttDataSource> GanttDataSourceCollection = new List<GanttDataSource>()
 };
 ```
 
-## Add ASP.NET MVC Gantt Control
+## Add ASP.NET MVC Gantt Chart Control
 
-Add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Gantt control to `~/Views/Home/Index.cshtml` and configure `~/Controllers/HomeController.cs` to supply the data. The following code snippet initializes a basic Gantt component with default settings.
+Add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Gantt Chart control to `~/Views/Home/Index.cshtml` and configure `~/Controllers/HomeController.cs` to supply the data. The following code snippet initializes a basic Gantt Chart control with default settings.
 
-Bind data to the Gantt control by using the [DataSource](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Gantt.Gantt.html#Syncfusion_EJ2_Gantt_Gantt_DataSource) property. It accepts an array of JavaScript objects or a `DataManager` instance. The data source fields that are required to render tasks are mapped to the Gantt control by using the [TaskFields](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Gantt.Gantt.html#Syncfusion_EJ2_Gantt_Gantt_TaskFields) property.
+Bind data to the Gantt Chart control by using the [DataSource](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Gantt.Gantt.html#Syncfusion_EJ2_Gantt_Gantt_DataSource) property. It accepts an array of JavaScript objects or a `DataManager` instance. The data source fields that are required to render tasks are mapped to the Gantt Chart control by using the [TaskFields](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Gantt.Gantt.html#Syncfusion_EJ2_Gantt_Gantt_TaskFields) property.
 
 ### Configure the controller
 
@@ -194,7 +194,7 @@ namespace WebApplication1.Controllers
 {% endhighlight %}
 {% endtabs %}
 
-### Add the Gantt to the view
+### Add the Gantt Chart to the view
 
 Open `~/Views/Home/Index.cshtml` and replace its contents with the following. The `@model` directive binds the controller's list as the strongly-typed view model. If your application uses a different project namespace than `WebApplication1`, update the namespace in the model, controller, and view snippets consistently.
 
@@ -203,7 +203,7 @@ Open `~/Views/Home/Index.cshtml` and replace its contents with the following. Th
 @model List<WebApplication1.Models.GanttDataSource>
 
 @{
-    ViewBag.Title = "Gantt Overview";
+    ViewBag.Title = "Gantt Chart Overview";
 }
 
 @Html.EJS().Gantt("gantt").DataSource(Model).TaskFields(ts => ts.Id("TaskId")
@@ -212,14 +212,13 @@ Open `~/Views/Home/Index.cshtml` and replace its contents with the following. Th
         .EndDate("EndDate")
         .Duration("Duration")
         .Progress("Progress")
-        .ParentID("ParentID"))
-    .Render()
+        .ParentID("ParentID")).Render()
 {% endhighlight %}
 {% endtabs %}
 
 ### Configure task fields (reference)
 
-The `TaskFields` fluent builder maps each data field to a Gantt property. The most common options are listed below.
+The `TaskFields` fluent builder maps each data field to a Gantt Chart property. The most common options are listed below.
 
 | Property | Description | Required | Maps to sample field |
 |----------|-------------|----------|----------------------|
@@ -240,7 +239,7 @@ The `TaskFields` fluent builder maps each data field to a Gantt property. The mo
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app, then navigate to `/Home/Index` in the default browser. The Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Gantt control will be rendered with a default height of 450 px and a day/week timeline by default.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app, then navigate to `/Home/Index` in the default browser. The Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Gantt Chart control will be rendered with a default height of 450 px and a day/week timeline by default.
 
 ### Troubleshooting
 
@@ -261,7 +260,7 @@ You will see a Gantt Chart with:
 - Progress indicators on each task.
 - End dates automatically calculated from `StartDate` + `Duration` for child tasks.
 
-![ASP.NET MVC Gantt Control](images/gantt-control.png)
+![ASP.NET MVC Gantt Chart Control](images/gantt-control.png)
 
 ## See also
 
