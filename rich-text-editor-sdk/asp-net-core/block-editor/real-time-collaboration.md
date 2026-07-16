@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Collaborative Editing in Block Editor Control | Syncfusion
-description: Enable real-time collaborative editing in the Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
+title: Real-time Collaboration in ASP.NET Core Block Editor | Syncfusion
+description: Checkout and learn about Collaborative Editing with Syncfusion Essential ASP.NET Core BlockEditor control of Syncfusion Essential JS 2 and more.
 platform: rich-text-editor-sdk
-control: Block Editor
+control: BlockEditor
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Collaborative Editing in JavaScript Block Editor control
+# Real-time Collaboration in ASP.NET Core Block Editor control
 
 The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by **Yjs**, a Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
@@ -21,17 +20,11 @@ With collaboration enabled, users can:
 * Perform collaboration-aware undo and redo operations.
 * Create, restore, compare, export, and import document versions.
 
+*Try the live demo [here](https://ej2.syncfusion.com/)*
+
 ## Prerequisites
 
 Before enabling collaboration, install the `yjs` library and a Yjs provider. See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choose the right provider for your use case.
-
-Inject the `Collaboration` module into the Block Editor before use.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-ej.blockeditor.BlockEditor.Inject(Collaboration);
-{% endhighlight %}
-{% endtabs %}
 
 ## Yjs Providers
 
@@ -61,9 +54,14 @@ The following steps will help you set up real-time collaboration in the Block Ed
 Create a shared Yjs document and XML fragment.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var yDoc = new Y.Doc();
-var yFragment = yDoc.getXmlFragment('blockeditor');
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    // Create a shared Yjs document and fragment
+    var yDoc = new Y.Doc();
+    var yFragment = yDoc.getXmlFragment('blockeditor');
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,12 +70,15 @@ var yFragment = yDoc.getXmlFragment('blockeditor');
 Create an adapter that provides the Yjs runtime and the shared fragment to the Block Editor.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
+{% highlight cshtml tabtitle="CSHTML" %}
 
-var adapter = {
-   yRuntime: Y,
-   yXmlFragment: yFragment
-}
+<script>
+    var adapter = {
+        yRuntime: Y,
+        yXmlFragment: yFragment
+    }
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -88,24 +89,31 @@ Create a provider that connects users to the same shared document. The following
 **Production (y-websocket):**
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
+{% highlight cshtml tabtitle="CSHTML" %}
 
-var WebsocketProvider = window.WebsocketProvider;
-var provider = new WebsocketProvider(
-    'wss://your-server-url',
-    'document-room-id',
-    yDoc
-);
+<script>
+    var WebsocketProvider = window.WebsocketProvider;
+    var provider = new WebsocketProvider(
+        'wss://your-server-url',
+        'document-room-id',
+        yDoc
+    );
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
 **Development (y-webrtc):**
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var WebrtcProvider = window.WebrtcProvider;
+{% highlight cshtml tabtitle="CSHTML" %}
 
-var provider = new WebrtcProvider('document-room-id', yDoc);
+<script>
+	var WebrtcProvider = window.WebrtcProvider;
+    
+    var provider = new WebrtcProvider('document-room-id', yDoc);
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,13 +122,15 @@ var provider = new WebrtcProvider('document-room-id', yDoc);
 Pass the adapter and provider to the Block Editor through the `collaborationSettings` property.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var blockEditor = new ej.blockeditor.BlockEditor({
-    collaborationSettings: {
-        adapter: adapter,
-        provider: provider
-    }
-});
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor">
+        <e-blockeditor-collaborationsettings adapter="adapter" provider="provider">
+        </e-blockeditor-collaborationsettings>
+    </ejs-blockeditor>
+</div>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -129,14 +139,15 @@ var blockEditor = new ej.blockeditor.BlockEditor({
 The Block Editor can display remote cursors, text selection overlays, and user details on hover. To enable these user presence features, set `enableAwareness` to `true` in `collaborationSettings` property.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var blockEditor = new ej.blockeditor.BlockEditor({
-    collaborationSettings: {
-        adapter: adapter,
-        provider: provider,
-        enableAwareness: true
-    }
-});
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor">
+        <e-blockeditor-collaborationsettings adapter="adapter" provider="provider" enableAwareness="true">
+        </e-blockeditor-collaborationsettings>
+    </ejs-blockeditor>
+</div>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,25 +156,38 @@ var blockEditor = new ej.blockeditor.BlockEditor({
 Set the current user's display name and cursor highlight color using the `users` and `currentUserId` properties. The `avatarBgColor` value is used for that user's remote cursor and text selection overlay. The users property includes `id`, `user` and `avatarBgColor`.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var blockEditor = new ej.blockeditor.BlockEditor({
-    users: [{
-        id: 'user-1',
-        user: 'John Doe',
-        avatarBgColor: '#e74c3c'
-    }],
-    currentUserId: 'user-1'
-});
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor" created="onCreated"></ejs-blockeditor>
+</div>
+
+<script>
+    var blockEditorObj;
+
+    function onCreated() {
+        blockEditorObj = ej.base.getComponent(document.getElementById('block-editor'), 'blockeditor');
+        blockEditorObj.users = [{ id: 'user-1', user: 'John Doe', avatarBgColor: '#e74c3c' }];
+        blockEditorObj.currentUserId = 'user-1';
+    }
+</script>
+
 {% endhighlight %}
 {% endtabs %}
+
+N> When using the ASP.NET Core Tag Helper, the `users` collection and `currentUserId` can also be passed from the PageModel via `users="@Model.ViewModel.Users"` and `currentUserId="@Model.ViewModel.CurrentUserId"`, or set directly on the client-side instance as shown above.
 
 ### Get active users
 
 Retrieve all currently connected users using the `users` property in the block editor.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var users = ej.blockeditor.users;
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    var users = blockEditorObj.users;
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,24 +197,27 @@ var users = ej.blockeditor.users;
 
 ### Enable version history
 
-Inject the `VersionHistory` module and configure the `versionHistory` property under `collaborationSettings` property.
+Configure the `versionHistory` property under `collaborationSettings` property by passing the storage instance and snapshot interval as attributes, similar to the `adapter` and `provider` properties.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-ej.blockeditor.BlockEditor.Inject(VersionHistory);
+{% highlight cshtml tabtitle="CSHTML" %}
 
-var myStorage = new CustomVersionStorage(`blockeditor-${uniqueId}`);
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor">
+        <e-blockeditor-collaborationsettings adapter="adapter" provider="provider" versionHistory="versionHistorySettings">
+        </e-blockeditor-collaborationsettings>
+    </ejs-blockeditor>
+</div>
 
-var blockEditor = new ej.blockeditor.BlockEditor({
-    collaborationSettings: {
-        adapter: adapter,
-        provider: provider,
-        versionHistory: {
-            storage: myStorage,
-            snapshotInterval: 3000
-        }
-    }
-});
+<script>
+    var myStorage = new CustomVersionStorage('blockeditor-' + uniqueId);
+
+    var versionHistorySettings = {
+        storage: myStorage,
+        snapshotInterval: 3000
+    };
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,38 +228,66 @@ Version snapshots need to be persisted to enable version history across browser 
 The `IVersionStorage` interface defines the following methods:
 
 | Method | Signature | Description |
-| -------- | -------- | ----------- |
+| ------ | --------- | ----------- |
 | `saveSnapshot` | `(snapshot: VersionSnapshot): Promise<void>` | Persist a snapshot. |
 | `loadAllSnapshots` | `(): Promise<VersionSnapshot[]>` | Load all persisted snapshots, ordered by timestamp ascending. |
 | `loadSnapshot` | `(id: string): Promise<VersionSnapshot \| null>` | Load a single snapshot by id. |
 | `deleteSnapshot` | `(id: string): Promise<void>` | Permanently remove a snapshot by id. |
 | `clearAll` | `(): Promise<void>` | Remove all snapshots from storage. |
 
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    /**
+     * Simple IndexedDB-based storage for version snapshots.
+     * Implements IVersionStorage for persistence across browser sessions.
+     */
+    class CustomVersionStorage {
+        // Implement the IVersionStorage interface methods
+    }
+</script>
+
+{% endhighlight %}
+{% endtabs %}
+
 ### Access the version history instance
 
 After the Block Editor initializes, retrieve the version history instance and wait for snapshot data to load before calling any version history methods.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var versionHistory = ej.blockeditor.getVersionHistory();
-await versionHistory.whenReady();
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    var versionHistory = blockEditorObj.getVersionHistory();
+    versionHistory.whenReady().then(function () {
+        // Snapshots are now loaded and ready to use
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
 ### Methods
 
-The following are the methods available in the `IVersionHistory`:
+The following are the methods available in the `IVersionHistory`:   
 
 #### Create a snapshot
 
 Creates a new snapshot of the current document state with an optional label and metadata.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var snapshot = await versionHistory.createSnapshot({
-    label: 'Before major update',
-    modifiedBy: currentUserId
-});
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    versionHistory.createSnapshot({
+        label: 'Before major update',
+        modifiedBy: currentUserId
+    }).then(function (snapshot) {
+        console.log(snapshot.id);
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -241,12 +296,16 @@ var snapshot = await versionHistory.createSnapshot({
 Retrieves all saved snapshots or a paginated subset. Snapshots are returned in chronological order.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-// Retrieve all snapshots
-var snapshots = versionHistory.getSnapshots();
+{% highlight cshtml tabtitle="CSHTML" %}
 
-// Retrieve a paginated subset — getSnapshots(skip, take)
-var snapshots = versionHistory.getSnapshots(20, 40);
+<script>
+    // Retrieve all snapshots
+    var snapshots = versionHistory.getSnapshots();
+
+    // Retrieve a paginated subset — getSnapshots(skip, take)
+    var snapshots = versionHistory.getSnapshots(20, 40);
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -255,8 +314,14 @@ var snapshots = versionHistory.getSnapshots(20, 40);
 Updates the label or metadata of an existing snapshot without modifying its content.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-await versionHistory.renameSnapshot(snapshotId, 'Release Candidate');
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    versionHistory.renameSnapshot(snapshotId, 'Release Candidate').then(function () {
+        // Snapshot renamed
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -265,21 +330,30 @@ await versionHistory.renameSnapshot(snapshotId, 'Release Candidate');
 Reverts the document to a previously saved snapshot state. The current document state is automatically backed up before restoration.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-await versionHistory.restoreSnapshot(snapshotId);
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    versionHistory.restoreSnapshot(snapshotId).then(function () {
+        // Snapshot restored
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
-> **Note:** When a snapshot is restored, the current document state is automatically 
-> backed up before the restore operation is applied.
+> **Note:** When a snapshot is restored, the current document state is automatically backed up before the restore operation is applied.
 
 #### Compare versions
 
 Compares two snapshots to identify differences such as added, removed, or modified content.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    var diff = versionHistory.compareVersions(snapshotIdA, snapshotIdB);
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -290,8 +364,14 @@ The returned `VersionDiff` object provides a summary of the differences between 
 Serializes a snapshot into a portable format that can be stored externally or transferred between systems.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var exported = await versionHistory.exportSnapshot(snapshotId);
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    versionHistory.exportSnapshot(snapshotId).then(function (exported) {
+        // Store externally or transfer between systems
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -302,31 +382,48 @@ Exported snapshots can be stored externally or transferred between systems.
 Imports a previously exported snapshot back into the version history storage.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var imported = await versionHistory.importSnapshot(exported);
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<script>
+    versionHistory.importSnapshot(exported).then(function (imported) {
+        // Snapshot imported
+    });
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
 ### Events
 
-Use the following event callbacks in `versionHistory` settings to respond to snapshot life cycle events.
+Use the following event callbacks in `versionHistory` settings to respond to snapshot lifecycle events.
 
 #### snapshotCreated
 
 Triggered when a new snapshot is created.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var blockEditor = new ej.blockeditor.BlockEditor({
-    collaborationSettings: {
-        versionHistory: {
-            storage: myStorage,
-            snapshotCreated: function (args) {
-                console.log(args.snapshot.id);
-            }
-        }
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor">
+        <e-blockeditor-collaborationsettings versionHistory="versionHistorySettings">
+        </e-blockeditor-collaborationsettings>
+    </ejs-blockeditor>
+</div>
+
+<script>
+
+    var versionHistorySettings = {
+        storage: myStorage,
+        snapshotCreated: onSnapshotCreated
+    };
+
+    function onSnapshotCreated(args) {
+        var snapshot = args.snapshot;
+        console.log(snapshot.id);
     }
-});
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -335,17 +432,29 @@ var blockEditor = new ej.blockeditor.BlockEditor({
 Triggered when a snapshot is restored.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-var blockEditor = new ej.blockeditor.BlockEditor({
-    collaborationSettings: {
-        versionHistory: {
-            storage: myStorage,
-            snapshotRestored: function (args) {
-                console.log(args.snapshot.label);
-            }
-        }
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<div id='blockeditor-container'>
+    <ejs-blockeditor id="block-editor">
+        <e-blockeditor-collaborationsettings versionHistory="versionHistorySettings">
+        </e-blockeditor-collaborationsettings>
+    </ejs-blockeditor>
+</div>
+
+<script>
+
+    var versionHistorySettings = {
+        storage: myStorage,
+        snapshotRestored: onSnapshotRestored
+    };
+
+    function onSnapshotRestored(args) {
+        var snapshot = args.snapshot;
+        var backupSnapshot = args.backupSnapshot;
+        console.log(snapshot.label);
     }
-});
+</script>
+
 {% endhighlight %}
 {% endtabs %}
 
@@ -386,6 +495,5 @@ Verify the following:
 
 Verify the following:
 
-* The `VersionHistory` module is injected into the Block Editor.
-* A valid `IVersionStorage` implementation is provided.
+* A valid `IVersionStorage` implementation is provided through the `versionHistory` settings.
 * `whenReady()` has been awaited before accessing snapshots.
