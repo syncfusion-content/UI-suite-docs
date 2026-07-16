@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with JavaScript Gantt Chart control | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Gantt Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with JavaScript Gantt Chart Control | Syncfusion
+description:  Checkout and learn about getting started with JavaScript Gantt Chart control of Syncfusion Essential JS 2 and more details.
 platform: gantt-sdk
 control: Getting started 
 publishingplatform: gantt-sdk
@@ -9,9 +9,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
 ---
 
-# Getting started in JavaScript Gantt Chart control
+# Getting Started in JavaScript Gantt Chart Control
 
-The [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI component used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
+The [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI control used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
 
 This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt Chart and demonstrates the basic usage of the Gantt Chart control in a JavaScript application.
 
@@ -46,14 +46,14 @@ The Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt Chart control can
 
 ### Using local scripts and styles
 
-To use local scripts and styles for the Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt component:
+To use local scripts and styles for the Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt Chart control:
 
 Follow the steps below to set up the required resources:
 
 **1. Download Essential<sup style="font-size:70%">&reg;</sup> Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2):** Obtain the global scripts and styles from the official website: [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2)
 
 **2. Copy Files to Resources Folder:** After installing the Essential<sup style="font-size:70%">&reg;</sup> JS 2 product build, the required scripts and styles will be available in the installed directory.
-Navigate to the installed location and copy the required Gantt scripts, dependent scripts, and styles into your project structure.
+Navigate to the installed location and copy the required Gantt Chart scripts, dependent scripts, and styles into your project structure.
 
 - **Scripts:** Copy into the `my-app/resources/scripts` folder.
 - **Styles:** Copy into the `my-app/resources/styles` folder.
@@ -74,7 +74,7 @@ Use the following path format to find the required files:
 
 **4. Reference Scripts and Styles:** After copying the files, include the required scripts and styles in the `index.html` file.
 
-Here is a sample configuration for referencing the Gantt scripts and styles in an HTML file:
+Here is a sample configuration for referencing the Gantt Chart scripts and styles in an HTML file:
 
 ```html
 <!DOCTYPE html>
@@ -122,7 +122,7 @@ Here is a sample configuration for referencing the Gantt scripts and styles in a
             <script src="resources/scripts/ej2-gantt.min.js" type="text/javascript"></script>
        </head>
        <body>
-           <!-- Add the HTML <div> element for Gantt  -->
+           <!-- Add the HTML <div> element for Gantt Chart  -->
              <div id="Gantt"></div>
              <script src="index.js" type="text/javascript"></script>
        </body>
@@ -131,7 +131,7 @@ Here is a sample configuration for referencing the Gantt scripts and styles in a
 
 ### Using CDN link for scripts and styles
 
-Using CDN links to include the Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt component's scripts and styles directly in the `index.html` file.
+Using CDN links to include the Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt Chart control's scripts and styles directly in the `index.html` file.
 
 Use the following CDN link format to refer in the `index.html` files:
 
@@ -146,7 +146,7 @@ Use the following CDN link format to refer in the `index.html` files:
 > * Script: [https://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js](https://cdn.syncfusion.com/ej2/ej2-gantt/dist/global/ej2-gantt.min.js)
 > * Styles: [https://cdn.syncfusion.com/ej2/ej2-gantt/styles/tailwind3.css](https://cdn.syncfusion.com/ej2/ej2-gantt/styles/tailwind3.css)
 
-The following example shows how to reference the Gantt scripts and styles in an HTML file using CDN links:
+The following example shows how to reference the Gantt Chart scripts and styles in an HTML file using CDN links:
 
 ```html
 <!DOCTYPE html>
@@ -194,7 +194,7 @@ The following example shows how to reference the Gantt scripts and styles in an 
             <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-gantt/dist/global/ej2-gantt.min.js" type="text/javascript"></script>
        </head>
        <body>
-           <!-- Add the HTML <div> element for Gantt  -->
+           <!-- Add the HTML <div> element for Gantt Chart -->
              <div id="Gantt"></div>
              <script src="index.js" type="text/javascript"></script>
        </body>
@@ -259,13 +259,13 @@ var taskFields = {
 | `hasChildMapping` | Indicates whether a row has child rows (load-on-demand) | No |
 | `resourceInfo` | Field name that holds resource data | No |
 
-## Render the Gantt component
+## Render the Gantt Chart control
 
-Add a container element in the `index.html` file to render the Gantt component. Then, reference the `index.js` file in the `index.html` file.
+Add a container element in the `index.html` file to render the Gantt Chart control. Then, reference the `index.js` file in the `index.html` file.
 
-In this documentation, the **ej2.min.js** script and **tailwind3.css** theme file are used, which include all Essential<sup style="font-size:70%">&reg;</sup> JS 2 components and their dependent scripts and styles.
+In this documentation, the **ej2.min.js** script and **tailwind3.css** theme file are used, which include all Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls and their dependent scripts and styles.
 
-Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart component.
+Add the following HTML element to the `index.html` file. This element acts as the container for rendering the Gantt Chart control.
 
 ```html
 <!DOCTYPE html>
@@ -278,14 +278,14 @@ Add the following HTML element to the `index.html` file. This element acts as th
             <script src="http://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
        </head>
        <body>
-           <!-- Add the HTML <div> element for Gantt  -->
+           <!-- Add the HTML <div> element for Gantt Chart -->
              <div id="Gantt"></div>
              <script src="index.js" type="text/javascript"></script>
        </body>
   </html>
 ```
 
-Place the following code in the `index.js` file to create and configure the Gantt Chart component. The `appendTo` method renders the Gantt control into the target DOM element.
+Place the following code in the `index.js` file to create and configure the Gantt Chart control. The `appendTo` method renders the Gantt Chart control into the target DOM element.
 
 ```javascript
 
@@ -312,7 +312,7 @@ ganttChart.appendTo('#Gantt');
 
 ## Run the application
 
-Run the `index.html` file in a web browser to view the Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt component.
+Run the `index.html` file in a web browser to view the Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt Chart control.
 
 ## Output
 
@@ -339,24 +339,24 @@ You can preview the following sample by clicking the **Preview Sample** button.
 
 ## Deploy the application
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt control features are segregated into individual feature-wise modules. The [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2) build and `CDN` scripts contain code for all features used in Gantt, so you should avoid using them in production. You are strongly recommended to generate script files for production using the Syncfusion<sup style="font-size:70%">&reg;</sup> **Custom Resource Generator ([CRG](https://crg.syncfusion.com))** for Essential<sup style="font-size:70%">&reg;</sup> JS 2. CRG allows you to generate the bundled script for the currently enabled features in Gantt. See the [CRG getting started guide](https://ej2.syncfusion.com/javascript/documentation/common/custom-resource-generator/) for step-by-step instructions.
+The Essential<sup style="font-size:70%">&reg;</sup> JS 2 Gantt Chart control features are segregated into individual feature-wise modules. The [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2) build and `CDN` scripts contain code for all features used in Gantt Chart, so you should avoid using them in production. You are strongly recommended to generate script files for production using the Syncfusion<sup style="font-size:70%">&reg;</sup> **Custom Resource Generator ([CRG](https://crg.syncfusion.com))** for Essential<sup style="font-size:70%">&reg;</sup> JS 2. CRG allows you to generate the bundled script for the currently enabled features in Gantt Chart. See the [CRG getting started guide](https://ej2.syncfusion.com/javascript/documentation/common/custom-resource-generator/) for step-by-step instructions.
 
 ## Error handling
 
-Error handling identifies, displays, and helps recover from errors raised by the Gantt control. In Gantt, error handling is performed by using the [actionFailure](https://ej2.syncfusion.com/javascript/documentation/api/gantt#actionfailure) event. The following scenarios are handled by this event:
+Error handling identifies, displays, and helps recover from errors raised by the Gantt Chart control. In Gantt Chart, error handling is performed by using the [actionFailure](https://ej2.syncfusion.com/javascript/documentation/api/gantt#actionfailure) event. The following scenarios are handled by this event:
 * **Invalid duration:** The [duration](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields#duration) field accepts only numerical values with an optional decimal point. Entering non-numerical values triggers the `actionFailure` event and displays error information in the event argument.
 * **Invalid dependency:** The [dependency](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields#dependency) field accepts only a number followed by a predecessor type (FS, FF, SS, SF). Entering invalid values, such as special characters or incorrect predecessor types, triggers the `actionFailure` event and displays error information in the event argument.
 * **Invalid offset:** The [offset](https://ej2.syncfusion.com/javascript/documentation/api/gantt/iPredecessor#offset) accepts only numerical values or their word equivalents followed by a unit. Entering invalid values, such as special characters, triggers the `actionFailure` event and displays error information in the event argument.
-* **Failure to map task fields:** The data source fields necessary for rendering tasks should be mapped to the Gantt control using the [taskFields](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields) property. Failure to map `taskFields` in the sample triggers the `actionFailure` event and displays error information in the event argument.
-* **Failure to map resource fields:** To assign resources to a task, resource fields should be mapped to the Gantt control using the [resourceFields](https://ej2.syncfusion.com/javascript/documentation/api/gantt/resourceFields) property. Failure to map `resourceFields` in the sample triggers the `actionFailure` event and displays error information in the event argument.
-* **Failure to map `isPrimaryKey`:** The [isPrimaryKey](https://ej2.syncfusion.com/javascript/documentation/api/gantt/column#isprimarykey) field is crucial for CRUD operations. Failure to map the [id](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields#id) column in the Gantt column collection, or to set `isPrimaryKey` on one of the columns, triggers the `actionFailure` event and displays error information in the event argument.
+* **Failure to map task fields:** The data source fields necessary for rendering tasks should be mapped to the Gantt Chart control using the [taskFields](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields) property. Failure to map `taskFields` in the sample triggers the `actionFailure` event and displays error information in the event argument.
+* **Failure to map resource fields:** To assign resources to a task, resource fields should be mapped to the Gantt Chart control using the [resourceFields](https://ej2.syncfusion.com/javascript/documentation/api/gantt/resourceFields) property. Failure to map `resourceFields` in the sample triggers the `actionFailure` event and displays error information in the event argument.
+* **Failure to map `isPrimaryKey`:** The [isPrimaryKey](https://ej2.syncfusion.com/javascript/documentation/api/gantt/column#isprimarykey) field is crucial for CRUD operations. Failure to map the [id](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields#id) column in the Gantt Chart column collection, or to set `isPrimaryKey` on one of the columns, triggers the `actionFailure` event and displays error information in the event argument.
 * **Invalid date format:** The [format](https://ej2.syncfusion.com/javascript/documentation/api/gantt/iTimelineFormatter) property under `topTier` and `bottomTier` determines how the timelines are displayed in the top tier and bottom tier of the Gantt chart. If the `format` does not contain a valid standard [date format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), it triggers the `actionFailure` event and displays error information in the event argument.
 * **Failure to map `hasChildMapping`:** The [hasChildMapping](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields#haschildmapping) property should be configured for [load-on-demand](https://ej2.syncfusion.com/javascript/documentation/gantt/data-binding#load-child-on-demand). Ensure it is properly configured in [taskFields](https://ej2.syncfusion.com/javascript/documentation/api/gantt/taskFields). Failure to map `hasChildMapping` in the `load-on-demand` sample triggers the `actionFailure` event and displays error information in the event argument.
 * **Invalid day in event markers:** The [day](https://ej2.syncfusion.com/javascript/documentation/api/gantt/eventMarker#day) should be configured in [eventMarkers](https://ej2.syncfusion.com/javascript/documentation/api/gantt/eventMarker) to render striplines on a particular day. Failure to configure the `day` in `eventMarkers` triggers the `actionFailure` event and displays error information in the event argument.
 
 > Additionally, TreeGrid-side error handling information is also displayed from the Gantt `actionFailure` event. For more details on TreeGrid-side error handling, refer [here](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started#handling-errors).
 
-The following code example shows how to use the [actionFailure](https://ej2.syncfusion.com/javascript/documentation/api/gantt#actionfailure) event in the Gantt control to display an exception when `isPrimaryKey` is not configured properly in the Gantt Chart column.
+The following code example shows how to use the [actionFailure](https://ej2.syncfusion.com/javascript/documentation/api/gantt#actionfailure) event in the Gantt Chart control to display an exception when `isPrimaryKey` is not configured properly in the Gantt Chart column.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -369,6 +369,6 @@ The following code example shows how to use the [actionFailure](https://ej2.sync
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/javascript/gantt-chart/exception-handling-cs1" %}
 
-The following screenshot represents the Gantt Exception handling in `actionFailure` event.
+The following screenshot represents the Gantt Chart Exception handling in `actionFailure` event.
 
 ![Error Handling](./images/error-handling.png)
