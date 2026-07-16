@@ -71,7 +71,7 @@ The steps below show how to install the Essential Studio Chart SDK installer.
 5.	If any previous versions of the current product is installed, the Uninstall Previous Version(s) wizard will be opened. Select **Uninstall** checkbox to uninstall the previous versions and then click the Proceed button.
 
 
-    ![Advanced options](images/Step-by-Step-Installation_img7.png)
+    ![Advanced options](images/Step-by-Step-Installation_img5.png)
 	
 	
 	N> From the 2021 Volume 1 release, Syncfusion has added the option to uninstall previous versions from 18.1 while installing the new version.
@@ -85,11 +85,11 @@ The steps below show how to install the Essential Studio Chart SDK installer.
 	
 	**Uninstall Progress:**
 	
-	![Uninstalling wizard](images/Step-by-Step-Installation_img9.png)
+	![Uninstalling wizard](images/Step-by-Step-Installation_img7.png)
 	
 	**Install Progress**
 	
-	![Installing wizard](images/Step-by-Step-Installation_img5.png)
+	![Installing wizard](images/Step-by-Step-Installation_img9.png)
 
     N> The Completed screen is displayed once the Chart SDK product is installed. If any version is selected to uninstall, The completed screen will display both install and uninstall status.
 	

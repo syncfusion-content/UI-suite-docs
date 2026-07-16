@@ -22,8 +22,6 @@ Circular gauge can render to its container size. You can set the size via inline
     </div>
   ```
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs1/index.ts %}
@@ -35,20 +33,6 @@ Circular gauge can render to its container size. You can set the size via inline
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs1" %}
-{% endif %}
-
 ## Size for Circular Gauge
 
 You can also set size for the gauge directly through [`width`](../api/circular-gauge/#width-string) and [`height`](../api/circular-gauge/#height-string) properties.
@@ -56,8 +40,6 @@ You can also set size for the gauge directly through [`width`](../api/circular-g
 **In Pixel**
 
 You can set the size of the gauge in pixel as demonstrated below.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -70,25 +52,9 @@ You can set the size of the gauge in pixel as demonstrated below.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs2" %}
-{% endif %}
-
 **In Percentage**
 
 By setting value in percentage, gauge gets its dimension with respect to its container. For example, when the height is ‘50%’, gauge renders to half of the container height.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -100,19 +66,5 @@ By setting value in percentage, gauge gets its dimension with respect to its con
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-dimensions-cs3" %}
-{% endif %}
 
 >Note: When you do not specify the size, it takes `450px` as the height and window size as its width.

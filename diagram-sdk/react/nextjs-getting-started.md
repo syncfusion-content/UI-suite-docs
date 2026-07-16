@@ -129,7 +129,7 @@ Add the following import to the global stylesheet. For an App Router project, ad
 {% tabs %}
 {% highlight css tabtitle="globals.css" %}
 
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 
 {% endhighlight %}
 {% endtabs %}
@@ -139,7 +139,7 @@ For a Pages Router project, add it to the global stylesheet imported in **pages/
 {% tabs %}
 {% highlight ts tabtitle="pages/_app.tsx" %}
 
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 
 {% endhighlight %}
 {% endtabs %}

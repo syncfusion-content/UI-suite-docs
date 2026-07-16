@@ -99,8 +99,6 @@ The font of the legend item text can be customized using the following prope
 
 The following code example shows how to add legend in the gauge.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs1/index.ts %}
@@ -112,25 +110,9 @@ The following code example shows how to add legend in the gauge.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs1" %}
-{% endif %}
-
 ## Toggle option in legend
 
 The toggle option has been provided for legend. So, if you toggle the legend, the given color will be changed to the corresponding circular gauge range. You can enable the toggle option using [`toggleVisibility`]((../api/circular-gauge/legendSettings-toggleVisibility-boolean)) in the `legendSettings` property.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -143,25 +125,9 @@ The toggle option has been provided for legend. So, if you toggle the legend, th
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs2" %}
-{% endif %}
-
 ## Paging support in legend
 
 By default, paging will be enabled if the legend items exceed the legend bounds. You can view each legend item by navigating between the pages using navigation buttons.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -174,25 +140,9 @@ By default, paging will be enabled if the legend items exceed the legend bounds.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs3" %}
-{% endif %}
-
 ## Legend text customization
 
 You can customize the legend text using [`legendText`](../api/circular-gauge/range/#legendtext) property in `ranges`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -204,20 +154,6 @@ You can customize the legend text using [`legendText`](../api/circular-gauge/ran
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/gauge-legend-cs4" %}
-{% endif %}
 
 `legendRendering` event will be triggered before rendering each legend item, using this event you can customize needed legend items using following arguments.
 

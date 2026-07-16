@@ -15,8 +15,6 @@ Crosshair has a vertical and horizontal line to view the value of the axis at mo
 
 Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettingsModel/#enable) property in the `crosshair`.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs12/index.ts %}
@@ -28,25 +26,9 @@ Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettin
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs12" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs12/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs12" %}
-{% endif %}
-
 ## Tooltip for axis
 
 Tooltip label for an axis can be enabled by using [`enable`](../api/chart/crosshairTooltipModel/#enable) property of `crosshairTooltip` in the corresponding axis.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,25 +41,9 @@ Tooltip label for an axis can be enabled by using [`enable`](../api/chart/cross
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs13" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs13/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs13" %}
-{% endif %}
-
 ## Customization
 
 The [`fill`](../api/chart/crosshairTooltipModel/#fill) and [`textStyle`](../api/chart/crosshairTooltipModel/#textstyle) property of the `crosshairTooltip` is used to customize the background color and font style of the crosshair label respectively. Color and width of the crosshair line can be customized by using the [`line`](../api/chart/crosshairSettingsModel/#line) property in the crosshair.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -90,25 +56,9 @@ The [`fill`](../api/chart/crosshairTooltipModel/#fill) and [`textStyle`](../api/
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs14" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs14/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs14" %}
-{% endif %}
-
 **Snap to data**
 
 Enabling the [`snapToData`](../api/chart/crosshairSettingsModel/#snaptodata) property in the crosshair aligns it with the nearest data point instead of following the exact mouse position.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -120,20 +70,6 @@ Enabling the [`snapToData`](../api/chart/crosshairSettingsModel/#snaptodata) pro
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs39" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs39/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs39/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs39" %}
-{% endif %}
 
 >Note: To use crosshair feature, we need to inject `Crosshair` module `StockChart.Inject(Crosshair)` method.
 
@@ -151,8 +87,6 @@ The event arguments include:
 * `fill` – The background color of the crosshair label.
 * `cancel` – Set this to **true** to prevent the label from being rendered.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/crosshair-label-render/index.ts %}
@@ -163,17 +97,3 @@ The event arguments include:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/crosshair-label-render" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/crosshair-label-render/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/crosshair-label-render/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/crosshair-label-render" %}
-{% endif %}

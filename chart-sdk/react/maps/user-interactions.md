@@ -344,6 +344,21 @@ The appearance of the tooltip of the zoom toolbar can be customized by using the
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/preview-sample/default-map-cs107" %}
 
+### Zooming using center position
+
+The center position zooming can be achieved by using the [`centerPosition`](https://ej2.syncfusion.com/react/documentation/api/maps/#centerposition) and [`zoomFactor`](https://ej2.syncfusion.com/react/documentation/api/maps/zoomSettingsModel/#zoomfactor) properties as mentioned in the following example. The center position is used to configure the zoom level of Maps, and the zoom factor is used to specify the center position where the Maps should be displayed.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/default-map-cs45/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/default-map-cs45/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/default-map-cs45" %}
+
 ## Selection
 
 Each shape in the Maps can be selected and deselected during interaction with the shapes. Selection is enabled by setting the [`enable`](https://ej2.syncfusion.com/react/documentation/api/maps/selectionSettingsModel#enable) property of [`selectionSettings`](https://ej2.syncfusion.com/react/documentation/api/maps/selectionSettingsModel) to **true**.

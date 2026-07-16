@@ -118,7 +118,7 @@ yarn add @syncfusion/ej2-tailwind3-theme
 Add the following import to the **src/style.css** file:
 
 ```css
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.

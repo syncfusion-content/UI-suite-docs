@@ -1,36 +1,37 @@
 ---
 layout: post
-title: Column Chooser in Blazor Gantt Chart Component | Syncfusion®
-description: Learn how to dynamically show or hide columns using the column chooser in the Blazor Gantt Chart, including custom templates.
-platform: gantt-sdk
+title: Column Chooser in Blazor Gantt Chart Component | Syncfusion
+description: Learn how to dynamically show or hide columns using the column chooser in the Syncfusion Blazor Gantt Chart, including custom templates.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
 
 # Column Chooser in Blazor Gantt Chart Component
 
-The column chooser feature in the [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) component provides dynamic control over which columns are displayed in the Gantt view.
+The column chooser feature in the Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Gantt Chart component provides dynamic control over which columns are displayed in the Gantt view.
 
 To enable this feature, set the [ShowColumnChooser](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_ShowColumnChooser) property to **true**.
 
 You can add a custom column chooser option to the toolbar using the [Toolbar](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_Toolbar) property. To open the column chooser at a specific position, use the [OpenColumnChooser](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_OpenColumnChooser_System_Nullable_System_Double__System_Nullable_System_Double_) method with optional X and Y coordinates within the [OnToolbarClick](https://blazor.syncfusion.com/documentation/gantt-chart/events#ontoolbarclick) event.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
-<SfGantt @ref="GanttInstance" DataSource="@TaskCollection" Toolbar="@ToolbarItems" ShowColumnChooser="true" Height="450px" Width="700px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
+<SfGantt @ref="Gantt" DataSource="@TaskCollection" Toolbar="@ToolbarItems" ShowColumnChooser="true" Height="450px" Width="700px">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEvents OnToolbarClick="ToolbarClickAsync" TValue="TaskData"></GanttEvents>
 </SfGantt>
 
-@code{
-    public SfGantt<TaskData> GanttInstance;
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+    public SfGantt<TaskData>? Gantt;
+    public List<TaskData>? TaskCollection { get; set; }
     public List<Object> ToolbarItems = new List<Object>() {
-        new Syncfusion.Blazor.Navigations.ToolbarItem() { 
+        new Syncfusion.Blazor.Navigations.ToolbarItem() {
+          
             Text = "Column Chooser", TooltipText = "Column Chooser", Id = "columnchooser"
         }
     };
@@ -39,38 +40,42 @@ You can add a custom column chooser option to the toolbar using the [Toolbar](ht
     {
         if (args.Item.Id == "columnchooser")
         {
-            await GanttInstance.OpenColumnChooser(100, 40);
+            if (Gantt != null)
+            {
+                await Gantt.OpenColumnChooser(100, 40);
+            }
+            
         }
     }
-    
+
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 
     public static List<TaskData> GetTaskCollection()
     {
-        List<TaskData> Tasks = new List<TaskData>() 
+        List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1 },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 04, 06), EndDate = new DateTime(2026, 04, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 04, 06), EndDate = new DateTime(2026, 04, 09), Progress = 40, ParentId = 1 },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 04, 06), Duration = "0", Progress = 30, ParentId = 1 },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 07), EndDate = new DateTime(2026, 04, 08), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 07), EndDate = new DateTime(2026, 04, 09), Progress = 30, ParentId = 5 },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 07), EndDate = new DateTime(2026, 04, 09), Progress = 40, ParentId = 5 },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 07), Duration = "0", Progress = 30, ParentId = 5 }
         };
         return Tasks;
     }
@@ -79,7 +84,7 @@ You can add a custom column chooser option to the toolbar using the [Toolbar](ht
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZVysZWwKLepScXX?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLxDHsfhYPrNVmI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > **Note**: Use <kbd>Tab</kbd> and arrow keys for keyboard navigation in the chooser. Test on mobile devices for responsiveness.
 
@@ -90,7 +95,7 @@ You can customize the column chooser dialog in the Gantt Chart by assigning a cu
 The following sample renders a [ListView](https://blazor.syncfusion.com/documentation/listview/getting-started-webapp) inside the column chooser template to support grouped column selection. It also includes a search box for filtering columns based on user input.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @rendermode InteractiveServer
 @using Syncfusion.Blazor.Gantt
@@ -98,7 +103,7 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
 
 <div style="height: 100%; width: 100%">
     <div style="position: relative; border: 1px solid red; height: 100%; width: 100%; min-height: 450px; min-width: 800px">
-        <SfGantt @ref="Gantt" DataSource="@Orders" ShowColumnChooser="true" ProjectStartDate="new DateTime(2022, 4, 1)" ID="GanttChart" Width="1200px" Height="450px" HighlightWeekends="true" AllowReordering="true" TreeColumnIndex="1" GridLines="Syncfusion.Blazor.Gantt.GridLine.None">
+        <SfGantt @ref="Gantt" DataSource="@Orders" ShowColumnChooser="true" ProjectStartDate="new DateTime(2026, 4, 1)" ID="GanttChart" Width="1200px" Height="450px" HighlightWeekends="true" AllowReordering="true" TreeColumnIndex="1" GridLines="Syncfusion.Blazor.Gantt.GridLine.None">
             <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" ParentID="ParentID" Dependency="Predecessor"></GanttTaskFields>
             <GanttColumnChooserSettings>
                 <Template>
@@ -182,8 +187,8 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
 </style>
 
 @code {
-    public List<TaskData> Orders { get; set; }
-    public SfGantt<TaskData> Gantt;
+    public List<TaskData>? Orders { get; set; }
+    public SfGantt<TaskData>? Gantt;
     public CustomColumnChooser ins;
 
     public async void AfterCompletion(string[] hideColumns, string[] showColumns)
@@ -207,10 +212,14 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
     }
     private async Task OpenColumnChooser(MouseEventArgs e, string columnName)
     {
-        var columns = Gantt.Columns;
-        var columnIndex = columns.Select(c => c.Field).ToList().IndexOf(columnName);
-        var xOffset = columnIndex == columns.Count - 1 ? e.ClientX - 450 : e.ClientX - 300;
-        await Gantt.OpenColumnChooser(xOffset, e.ClientY - 100);
+        var columns = Gantt?.Columns;
+        var columnIndex = columns?.Select(c => c.Field).ToList().IndexOf(columnName);
+        var xOffset = columnIndex == columns?.Count - 1 ? e.ClientX - 450 : e.ClientX - 300;
+        if (Gantt != null)
+        {
+            await Gantt.OpenColumnChooser(xOffset, e.ClientY - 100);
+        }
+        
     }
 
 
@@ -223,30 +232,30 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
     {
         List<TaskData> Tasks = new List<TaskData>
         {
-            new() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 21), Done = "Yes" },
-            new() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "10", Progress = 30, ParentID = 1, Done = "No" },
-            new() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1, Predecessor = "2", Done = "No", IsMilestone = true },
-            new() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "3", Progress = 30, ParentID = 1, Predecessor = "3", Done = "No" },
-            new() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 21), Done = "Yes" },
-            new() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5, Done = "No" },
-            new() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "13", Progress = 40, ParentID = 5, Predecessor = "6+2", Done = "No", IsMilestone = true },
-            new() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "25", Progress = 30, ParentID = 5, Predecessor = "7-2", Done = "No" },
-            new() { TaskID = 9, TaskName = "Demand Analysis", StartDate = new DateTime(2022, 04, 07), EndDate = new DateTime(2022, 04, 21), Done = "Yes" },
-            new() { TaskID = 10, TaskName = "Customer Strength", StartDate = new DateTime(2022, 04, 07), Duration = "3", Progress = 30, ParentID = 9, Done = "Yes" },
-            new() { TaskID = 11, TaskName = "Competitor analysis", StartDate = new DateTime(2022, 04, 07), Duration = "13", Progress = 40, ParentID = 10, Done = "Yes" },
-            new() { TaskID = 12, TaskName = "Product Strength Analysis", StartDate = new DateTime(2022, 04, 07), Duration = "25", Progress = 30, ParentID = 11, Done = "No" },
-            new() { TaskID = 13, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 07), EndDate = new DateTime(2022, 04, 21), Done = "Yes" },
-            new() { TaskID = 14, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 22), Duration = "25", Progress = 30, ParentID = 13, Done = "Yes" },
-            new() { TaskID = 15, TaskName = "List materials", StartDate = new DateTime(2022, 04, 07), Duration = "12", Progress = 40, ParentID = 14, Done = "Yes" },
-            new() { TaskID = 16, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 07), Duration = "6", Progress = 30, ParentID = 15, Done = "Yes" },
-            new() { TaskID = 17, TaskName = "Identifying raw materials", StartDate = new DateTime(2022, 04, 07), Duration = "6", ParentID = 16, Done = "Yes" },
-            new() { TaskID = 18, TaskName = "Define cost plan", StartDate = new DateTime(2022, 04, 12), Progress = 30, ParentID = 17, Done = "Yes" },
-            new() { TaskID = 19, TaskName = "Manufacturing cost", StartDate = new DateTime(2022, 04, 12), Duration = "7", Progress = 40, ParentID = 18, Done = "Yes" },
-            new() { TaskID = 20, TaskName = "Selling cost", StartDate = new DateTime(2022, 04, 12), Duration = "6", Progress = 30, ParentID = 19, Done = "Yes" },
-            new() { TaskID = 21, TaskName = "Development of final design", StartDate = new DateTime(2022, 04, 12), Duration = "5", ParentID = 20, Done = "Yes" },
-            new() { TaskID = 22, TaskName = "Develop dimensions and design", StartDate = new DateTime(2022, 04, 12), Duration = "15", Progress = 30, ParentID = 21, Done = "Yes" },
-            new() { TaskID = 23, TaskName = "Develop designs to meet industry", StartDate = new DateTime(2022, 04, 12), Duration = "15", Progress = 40, ParentID = 22, Done = "Yes" },
-            new() { TaskID = 24, TaskName = "Include all the details", StartDate = new DateTime(2022, 04, 12), Duration = "25", Progress = 30, ParentID = 23, Done = "No" }
+            new() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 04, 06), EndDate = new DateTime(2026, 04, 21), Done = "Yes" },
+            new() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 04, 06), Duration = "10", Progress = 30, ParentID = 1, Done = "No" },
+            new() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 04, 06), Duration = "4", Progress = 40, ParentID = 1, Predecessor = "2", Done = "No", IsMilestone = true },
+            new() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 04, 06), Duration = "3", Progress = 30, ParentID = 1, Predecessor = "3", Done = "No" },
+            new() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 06), EndDate = new DateTime(2026, 04, 21), Done = "Yes" },
+            new() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 06), Duration = "3", Progress = 30, ParentID = 5, Done = "No" },
+            new() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 06), Duration = "13", Progress = 40, ParentID = 5, Predecessor = "6+2", Done = "No", IsMilestone = true },
+            new() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 06), Duration = "25", Progress = 30, ParentID = 5, Predecessor = "7-2", Done = "No" },
+            new() { TaskID = 9, TaskName = "Demand Analysis", StartDate = new DateTime(2026, 04, 07), EndDate = new DateTime(2026, 04, 21), Done = "Yes" },
+            new() { TaskID = 10, TaskName = "Customer Strength", StartDate = new DateTime(2026, 04, 07), Duration = "3", Progress = 30, ParentID = 9, Done = "Yes" },
+            new() { TaskID = 11, TaskName = "Competitor analysis", StartDate = new DateTime(2026, 04, 07), Duration = "13", Progress = 40, ParentID = 10, Done = "Yes" },
+            new() { TaskID = 12, TaskName = "Product Strength Analysis", StartDate = new DateTime(2026, 04, 07), Duration = "25", Progress = 30, ParentID = 11, Done = "No" },
+            new() { TaskID = 13, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 07), EndDate = new DateTime(2026, 04, 21), Done = "Yes" },
+            new() { TaskID = 14, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 22), Duration = "25", Progress = 30, ParentID = 13, Done = "Yes" },
+            new() { TaskID = 15, TaskName = "List materials", StartDate = new DateTime(2026, 04, 07), Duration = "12", Progress = 40, ParentID = 14, Done = "Yes" },
+            new() { TaskID = 16, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 07), Duration = "6", Progress = 30, ParentID = 15, Done = "Yes" },
+            new() { TaskID = 17, TaskName = "Identifying raw materials", StartDate = new DateTime(2026, 04, 07), Duration = "6", ParentID = 16, Done = "Yes" },
+            new() { TaskID = 18, TaskName = "Define cost plan", StartDate = new DateTime(2026, 04, 12), Progress = 30, ParentID = 17, Done = "Yes" },
+            new() { TaskID = 19, TaskName = "Manufacturing cost", StartDate = new DateTime(2026, 04, 12), Duration = "7", Progress = 40, ParentID = 18, Done = "Yes" },
+            new() { TaskID = 20, TaskName = "Selling cost", StartDate = new DateTime(2026, 04, 12), Duration = "6", Progress = 30, ParentID = 19, Done = "Yes" },
+            new() { TaskID = 21, TaskName = "Development of final design", StartDate = new DateTime(2026, 04, 12), Duration = "5", ParentID = 20, Done = "Yes" },
+            new() { TaskID = 22, TaskName = "Develop dimensions and design", StartDate = new DateTime(2026, 04, 12), Duration = "15", Progress = 30, ParentID = 21, Done = "Yes" },
+            new() { TaskID = 23, TaskName = "Develop designs to meet industry", StartDate = new DateTime(2026, 04, 12), Duration = "15", Progress = 40, ParentID = 22, Done = "Yes" },
+            new() { TaskID = 24, TaskName = "Include all the details", StartDate = new DateTime(2026, 04, 12), Duration = "25", Progress = 30, ParentID = 23, Done = "No" }
         };
         return Tasks;
     }
@@ -269,17 +278,17 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
 </SfListView>
 
 @code {
-    public List<DataModel> DataSourceCopy { get; set; } = new();
-    public SfListView<DataModel> ListView { get; set; }
+    public List<DataModel>? DataSourceCopy { get; set; } = new();
+    public SfListView<DataModel>? ListView { get; set; }
 
     [Parameter]
-    public SfGantt<TaskData> CustomGantt { get; set; }
+    public SfGantt<TaskData>? CustomGantt { get; set; }
 
     [Parameter]
-    public Action<string[], string[]> ActionCompleted { get; set; }
+    public Action<string[], string[]>? ActionCompleted { get; set; }
 
     [Parameter]
-    public ColumnChooserTemplateContext ColumnContext { get; set; }
+    public ColumnChooserTemplateContext? ColumnContext { get; set; }
 
     private static readonly List<DataModel> DataSource = new()
     {
@@ -313,7 +322,7 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
 
         string searchText = args.Value?.ToLower() ?? "";
         DataSourceCopy = DataSource
-            .Where(e => e.Text.ToLower().Contains(searchText))
+            .Where(e => e.Text != null && e.Text.ToLower().Contains(searchText))
             .ToList();
         await PreselectVisibleColumns();
     }
@@ -328,8 +337,8 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
             .Select(c => c.Field)
             .ToList();
 
-        var itemsToCheck = DataSourceCopy
-            .Where(item => visibleFields.Contains(item.Text))
+        var itemsToCheck = DataSourceCopy?
+            .Where(item => item.Text != null && visibleFields.Contains(item.Text))
             .ToList();
 
         await ListView.CheckItemsAsync(itemsToCheck);
@@ -349,19 +358,22 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
             var fieldsToHide = allFields.Except(checkedFields).ToList();
 
             // Show checked columns
-            if (checkedFields.Any())
+            if (checkedFields.Any() && checkedFields != null)
             {
                 await CustomGantt.ShowColumnsAsync(checkedFields.ToArray(), "Field");
+                
             }
+            if (fieldsToHide != null && fieldsToHide.ToArray() != null && checkedFields.ToArray()!=null)
+        {
+                // Hide unchecked columns
+                if (fieldsToHide.Any())
+                {
+                    await CustomGantt.HideColumnsAsync(fieldsToHide.ToArray(), "Field");
+                }
 
-            // Hide unchecked columns
-            if (fieldsToHide.Any())
-            {
-                await CustomGantt.HideColumnsAsync(fieldsToHide.ToArray(), "Field");
+                // Notify parent component
+                ActionCompleted?.Invoke(fieldsToHide.ToArray(), checkedFields.ToArray());
             }
-
-            // Notify parent component
-            ActionCompleted?.Invoke(fieldsToHide.ToArray(), checkedFields.ToArray());
         }
         catch (Exception ex)
         {
@@ -371,9 +383,9 @@ The following sample renders a [ListView](https://blazor.syncfusion.com/document
 
     public class DataModel
     {
-        public string Id { get; set; }
-        public string Text { get; set; }
-        public string Type { get; set; }
+        public string? Id { get; set; }
+        public string? Text { get; set; }
+        public string? Type { get; set; }
     }
 }
 
@@ -390,17 +402,17 @@ public class DataModel
 
 public class TaskData
 {
-    public int TaskID { get; set; }
-    public string TaskName { get; set; }
-    public DateTime StartDate { get; set; }
-    public DateTime EndDate { get; set; }
-    public string Duration { get; set; }
-    public int Progress { get; set; }
-    public string Predecessor { get; set; }
+    public int? TaskID { get; set; }
+    public string? TaskName { get; set; }
+    public DateTime? StartDate { get; set; }
+    public DateTime? EndDate { get; set; }
+    public string? Duration { get; set; }
+    public int? Progress { get; set; }
+    public string? Predecessor { get; set; }
     public int? ParentID { get; set; }
-    public bool IsExpanded { get; set; }
-    public string Done { get; set; }
-    public bool IsMilestone { get; set; }
+    public bool? IsExpanded { get; set; }
+    public string? Done { get; set; }
+    public bool? IsMilestone { get; set; }
 }
 
 {% endhighlight %}

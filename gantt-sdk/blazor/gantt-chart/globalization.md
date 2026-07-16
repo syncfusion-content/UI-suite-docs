@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Globalization in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all about Globalization in Blazor Gantt Chart component and more.
-platform: gantt-sdk
+title: Globalization in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about Globalization in Syncfusion Blazor Gantt Chart component and more.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
 
 # Globalization in Blazor Gantt Chart component
 
-The [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) component provides a feature known as Globalization (global and local), which makes the application more accessible and useful for individuals from different regions and language backgrounds. You have the ability to view data in your preferred language and format, resulting in an enhanced overall experience.
+The Syncfusion Blazor Gantt Chart component provides a feature known as Globalization (global and local), which makes the application more accessible and useful for individuals from different regions and language backgrounds. You have the ability to view data in your preferred language and format, resulting in an enhanced overall experience.
 
 Add **UseRequestLocalization** middle-ware in the **Program.cs** file to get browser Culture Info.
 
@@ -185,7 +185,7 @@ N> BlazorServer denotes the ApplicationNameSpace of your project.
 
 ```cshtml
 @using Syncfusion.Blazor.Gantt
-<SfGantt ID="GanttContainer" @ref="Gantt" Locale="de" AllowExcelExport="true" Toolbar="@(new List<string>() { "Add", "Cancel","CollapseAll", "Delete", "Edit", "ExpandAll","NextTimeSpan", "PrevTimeSpan", "Search", "Update", "Indent", "Outdent","ExcelExport", "CsvExport" })" DataSource="@TaskCollection" Height="450px" Width="700px">
+<SfGantt ID="GanttContainer" Locale="de" AllowExcelExport="true" Toolbar="@(new List<string>() { "Add", "Cancel", "CollapseAll", "Delete", "Edit", "ExpandAll", "NextTimeSpan", "PrevTimeSpan", "Search", "Update", "Indent", "Outdent", "ExcelExport", "CsvExport" })" DataSource="@TaskCollection" Height="450px" Width="700px">
     <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentId"></GanttTaskFields>
     <GanttColumns>
         <GanttColumn Field="TaskId" HeaderText="Task Id" Width="150"></GanttColumn>
@@ -197,38 +197,38 @@ N> BlazorServer denotes the ApplicationNameSpace of your project.
     <GanttEditSettings AllowEditing="true" AllowAdding="true" AllowTaskbarEditing="true"></GanttEditSettings>
 </SfGantt>
 
-@code{
-    public SfGantt<TaskData> Gantt;
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+
+    public List<TaskData>? TaskCollection { get; set; }
 
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
         public int TaskId { get; set; }
-        public string TaskName { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
         public int? ParentId { get; set; }
     }
 
-    private static List<TaskData> GetTaskCollection()
+    public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 23), },
-            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentId = 1, },
-            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 01, 04), Duration = "4", Progress = 40, ParentId = 1, },
-            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentId = 1, },
-            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 23), },
-            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 30, ParentId = 5, },
-            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 40, ParentId = 5, },
-            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 01, 06), Duration = "0", Progress = 30, ParentId = 5, }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 1, },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 10), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 30, ParentId = 5, },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 40, ParentId = 5, },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 07), Duration = "0", Progress = 30, ParentId = 5, }
         };
         return Tasks;
     }
@@ -258,7 +258,7 @@ namespace ClientApplication
             builder.Services.AddSyncfusionBlazor();
 
 
-            // Register the locale service to customize the SyncfusionBlazor component locale culture.
+            // Register the Syncfusion locale service to customize the SyncfusionBlazor component locale culture.
             builder.Services.AddSingleton(typeof(ISyncfusionStringLocalizer), typeof(SyncfusionLocalizer));
 
             // Set the default culture of the application.
@@ -303,7 +303,7 @@ N> ClientApplication denotes the ApplicationNameSpace of your project.
 
 ```cshtml
 @using Syncfusion.Blazor.Gantt
-<SfGantt ID="GanttContainer" @ref="Gantt" Locale="de" AllowExcelExport="true" Toolbar="@(new List<string>() { "Add", "Cancel",  "CollapseAll", "Delete", "Edit", "ExpandAll", "NextTimeSpan", "PrevTimeSpan", "Search", "Update", "Indent", "Outdent","ExcelExport", "CsvExport" })" DataSource="@TaskCollection" Height="450px" Width="700px">
+<SfGantt ID="GanttContainer" Locale="de" AllowExcelExport="true" Toolbar="@(new List<string>() { "Add", "Cancel", "CollapseAll", "Delete", "Edit", "ExpandAll", "NextTimeSpan", "PrevTimeSpan", "Search", "Update", "Indent", "Outdent", "ExcelExport", "CsvExport" })" DataSource="@TaskCollection" Height="450px" Width="700px">
     <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentId"></GanttTaskFields>
     <GanttColumns>
         <GanttColumn Field="TaskId" HeaderText="Task Id" Width="150"></GanttColumn>
@@ -315,38 +315,38 @@ N> ClientApplication denotes the ApplicationNameSpace of your project.
     <GanttEditSettings AllowEditing="true" AllowAdding="true" AllowTaskbarEditing="true"></GanttEditSettings>
 </SfGantt>
 
-@code{
-    public SfGantt<TaskData> Gantt;
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+
+    public List<TaskData>? TaskCollection { get; set; }
 
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
         public int TaskId { get; set; }
-        public string TaskName { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
         public int? ParentId { get; set; }
     }
 
-    private static List<TaskData> GetTaskCollection()
+    public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 23), },
-            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentId = 1, },
-            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 01, 04), Duration = "4", Progress = 40, ParentId = 1, },
-            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 01, 04), Duration = "0", Progress = 30, ParentId = 1, },
-            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 01, 04), EndDate = new DateTime(2022, 01, 23), },
-            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 30, ParentId = 5, },
-            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2022, 01, 06), Duration = "3", Progress = 40, ParentId = 5, },
-            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 01, 06), Duration = "0", Progress = 30, ParentId = 5, }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 1, },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 10), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 30, ParentId = 5, },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 40, ParentId = 5, },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 07), Duration = "0", Progress = 30, ParentId = 5, }
         };
         return Tasks;
     }
@@ -365,46 +365,46 @@ You can customize the culture settings of Syncfusion® Blazor UI components usin
 You can enable right-to-left layout and text direction in the Gantt component using the [EnableRtl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_EnableRtl) property, which improves accessibility and user experience for languages such as Arabic, Farsi, and Urdu.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
 <SfGantt EnableRtl="true" DataSource="@TaskCollection" Height="450px" Width="900px">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID"></GanttTaskFields>
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentId"></GanttTaskFields>
     <GanttEditSettings AllowEditing="true" AllowDeleting="true" AllowAdding="true" AllowTaskbarEditing="true"></GanttEditSettings>
 </SfGantt>
 
-@code{
-    private List<TaskData> TaskCollection { get; set; }
+@code {
+    public List<TaskData>? TaskCollection { get; set; }
 
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
     }
 
     public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1 },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 1, },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 10), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 30, ParentId = 5, },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 07), EndDate = new DateTime(2026, 01, 09), Progress = 40, ParentId = 5, },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 07), Duration = "0", Progress = 30, ParentId = 5, }
         };
         return Tasks;
     }
@@ -413,10 +413,10 @@ You can enable right-to-left layout and text direction in the Gantt component us
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNBesDVrThGvRASc?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjBnXRMRBLTyXAzs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> You can refer to our [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) feature tour page for its groundbreaking feature representations. You can also explore our [Blazor Gantt Chart example](https://blazor.syncfusion.com/demos/gantt-chart/default-functionalities?theme=bootstrap5) to know how to render and configure the gantt.
 
 ## See also
 
-* [How to enable RTL based on Blazor service?](https://blazor.syncfusion.com/documentation/common/right-to-left#enable-rtl-for-all-components)
+* [How to enable RTL based on Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor service?](https://blazor.syncfusion.com/documentation/common/right-to-left#enable-rtl-for-all-components)
