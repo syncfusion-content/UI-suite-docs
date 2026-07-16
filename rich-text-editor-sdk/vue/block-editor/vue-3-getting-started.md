@@ -6,7 +6,7 @@ canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor
 control: Block Editor
 platform: ej2-vue
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
 # Getting Started with the Block Editor component in Vue 3

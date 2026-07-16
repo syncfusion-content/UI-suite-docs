@@ -5,13 +5,12 @@ description: Checkout and learn how to create and run a BlockEditor using a Vite
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
 platform: ej2-javascript
 control: Getting started 
-publishingplatform: ##Platform_Name##
 publishingplatform: rich-text-editor-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Getting started in ##Platform_Name## BlockEditor control
+# Getting started in TypeScript BlockEditor control
 
 This section explains the steps to create a simple BlockEditor and demonstrates the basic usage of the BlockEditor control using a Vite-based TypeScript project scaffolded with latest vite version.
 
