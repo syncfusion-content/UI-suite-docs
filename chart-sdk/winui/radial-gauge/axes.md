@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Axis in WinUI Radial Gauge control | Syncfusion
-description: Learn here all about Axis feature of Syncfusion WinUI Radial Gauge(sfRadialGauge) control with custom support.
+description: Learn here all about Axis feature of Syncfusion WinUI Radial Gauge(SfRadialGauge) control with custom support.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
