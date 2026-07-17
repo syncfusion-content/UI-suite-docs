@@ -12,7 +12,7 @@ documentation: ug
 
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the ASP.NET Core Diagram control.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio, and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview).
 
 ## Prerequisites
 
@@ -37,13 +37,13 @@ Create a new ASP.NET Core Razor Pages application using Visual Studio or the .NE
 
 Using the .NET CLI:
 
-```
+```bash
 dotnet new webapp -n MyDiagramApp
 ```
 
 Navigate to the project folder:
 
-```
+```bash
 cd MyDiagramApp
 ```
 
@@ -55,13 +55,13 @@ All Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core packages are a
 
 Install the [Syncfusion.EJ2.AspNet.Core](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/) NuGet package using the Package Manager Console:
 
-```
+```powershell
 Install-Package Syncfusion.EJ2.AspNet.Core -Version {{ site.releaseversion }}
 ```
 
 Or using the .NET CLI:
 
-```
+```bash
 dotnet add package Syncfusion.EJ2.AspNet.Core
 ```
 
@@ -71,7 +71,7 @@ N> The `Syncfusion.EJ2.AspNet.Core` package automatically installs its required 
 
 Open the **~/Pages/_ViewImports.cshtml** file and add the Syncfusion<sup style="font-size:70%">&reg;</sup> tag helper reference.
 
-```
+```cshtml
 @addTagHelper *, Syncfusion.EJ2
 ```
 
@@ -81,7 +81,7 @@ This makes the `<ejs-*>` tag helpers, including `<ejs-diagram>`, available in al
 
 Add the Syncfusion<sup style="font-size:70%">&reg;</sup> theme and script references inside the `<head>` of the **~/Pages/Shared/_Layout.cshtml** file along with the existing content.
 
-```
+```html
 <head>
     ...
     <!-- Syncfusion® ASP.NET Core controls styles -->
@@ -99,7 +99,7 @@ N> Refer to the [Adding Script Reference](https://ej2.syncfusion.com/aspnetcore/
 
 Add the `<ejs-scripts>` tag at the end of the `<body>` in the **~/Pages/Shared/_Layout.cshtml** file. The script manager renders the scripts required for Syncfusion<sup style="font-size:70%">&reg;</sup> controls to function correctly.
 
-```
+```html
 <body>
     ...
     <!-- Syncfusion® ASP.NET Core Script Manager -->
@@ -111,7 +111,7 @@ Add the `<ejs-scripts>` tag at the end of the `<body>` in the **~/Pages/Shared/_
 
 Add the `<ejs-diagram>` tag helper to the **~/Pages/Index.cshtml** file.
 
-```
+```cshtml
 @page
 @model IndexModel
 <ejs-diagram id="diagram" width="100%" height="580px"></ejs-diagram>
@@ -121,17 +121,17 @@ This renders an empty diagram in the application.
 
 N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
-## Create your first Diagram with nodes and connectors
+## Step 7: Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. Nodes and connectors are defined in `Index.cshtml.cs` and passed to the view through `ViewBag`. The view then binds them to the `<ejs-diagram>` tag helper.
+The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. Nodes and connectors are defined in `Index.cshtml.cs` as public properties on the page model and accessed in the view via `@Model`. The view then binds them to the `<ejs-diagram>` tag helper.
 
 ### Define nodes and connectors
 
 Open **~/Pages/Index.cshtml.cs** and declare `nodes` and `connectors` as public properties on the page model. Populate them inside the `OnGet` method so they are available to the view when the page loads.
 
-```
+```csharp
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Syncfusion.EJ2.Diagrams;
 using System.Collections.Generic;
@@ -195,17 +195,15 @@ public class IndexModel : PageModel
 }
 ```
 
+N> Ensure the `using Syncfusion.EJ2.Diagrams;` directive is present in `Index.cshtml.cs`. This namespace provides access to the `DiagramNode`, `DiagramConnector`, and `DiagramNodeAnnotation` types used above.
+
 ### Bind the data
 
-Update **~/Pages/Index.cshtml** to bind `@Model.nodes` and `@Model.connectors` to the `<ejs-diagram>` tag helper. The JavaScript function names are passed as string variables using the Razor `@{ }` block.
+Replace the entire contents of **~/Pages/Index.cshtml** with the following code to bind `@Model.nodes` and `@Model.connectors` to the `<ejs-diagram>` tag helper. The `getNodeDefaults` and `getConnectorDefaults` JavaScript function names are passed as string values to the corresponding tag helper attributes.
 
-```
+```cshtml
 @page
 @model IndexModel
-@{
-    var getNodeDefaults = "getNodeDefaults";
-    var getConnectorDefaults = "getConnectorDefaults";
-}
 
 <ejs-diagram id="diagram" width="100%" height="580px"
              nodes="@Model.nodes"
@@ -247,13 +245,15 @@ In this example:
 * [`getNodeDefaults`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_GetNodeDefaults) applies common width, height, fill color, and stroke color to all nodes.
 * [`getConnectorDefaults`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_GetConnectorDefaults) applies common connector settings such as orthogonal routing and target arrows.
 
-## Step 7: Run the application
+## Step 8: Run the application
 
 Run the application using the following command:
 
-```
+```bash
 dotnet run
 ```
+
+N> Ensure the terminal is in the project folder (e.g., `MyDiagramApp`) before running this command.
 
 Alternatively, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) in Visual Studio.
 
@@ -261,6 +261,6 @@ Open the generated local URL in the browser. The application displays the flowch
 
 The output will appear as follows:
 
-![ASP.NET Core Diagram Control](./images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Diagram/ASP.NET%20Core%20Tag%20Helper%20Examples).
