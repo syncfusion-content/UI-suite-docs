@@ -21,7 +21,7 @@ To localize the diagram context menu, we need to define the [`locale`](https://e
 
 ```javascript
 //Initialize the diagram
-var diagram = new Diagram({
+var diagram = new ej.diagrams.Diagram({
   width: '100%',
   height: '645px',
   //Set locale
