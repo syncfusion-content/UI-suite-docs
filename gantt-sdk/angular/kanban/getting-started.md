@@ -63,7 +63,7 @@ Next, a prompt for AI tooling support appears, as shown below:
 
 Any preferred option can be selected based on the development workflow or project needs.
 
-> Note: Angular CLI 17+ creates the root component file as `src/app/app.component.ts` (not `app.ts`). All file paths in this guide use this default naming.
+> Note: Angular CLI 17+ creates the root component file as `src/app/app.ts` (not `app.ts`). All file paths in this guide use this default naming.
 
 Navigate to the project folder:
 
@@ -205,8 +205,8 @@ This command builds the application and opens it in your default web browser. Th
 For reference, the complete sample used in this section is shown below. The data is extracted to a separate `datasource.ts` file to keep the component focused on configuration.
 
 {% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.component.ts %}
+{% highlight ts tabtitle="app.ts" %}
+{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
