@@ -43,27 +43,39 @@ If you created the app with the JavaScript Vite template instead of TypeScript, 
 
 ## Add theme styles
 
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt Chart component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+Import the Gantt Chart styles into your `src/App.css`. The first block below is sufficient for this getting-started walkthrough; the optional second block is required only when you later enable features such as editing, toolbar, filtering, or dialogs.
 
-Install the **Tailwind 3** theme package using the following command:
+```css
+/* Required styles for the basic Gantt Chart */
+@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
+```
 
-{% tabs %}
-{% highlight bash tabtitle="npm" %}
+> **Note:** When using features like editing, toolbar, filtering, or dialogs, also import the additional component styles:
+> ```css
+> /* For editing, toolbar, and dialog features */
+> @import "../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
+> @import "../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css";
+> 
+> /* For rich text editor in dialog notes tab */
+> @import "../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css";
+> ```
 
-npm install @syncfusion/ej2-tailwind3-theme --save
+> **Vite note:** If your bundler does not resolve `../node_modules/...` paths from CSS, import the theme files in `src/main.tsx` (or `src/main.jsx`) using `import '@syncfusion/ej2-base/styles/tailwind3.css';` instead. To use a different theme, replace `tailwind3.css` with the desired theme name (e.g., `material.css`, `bootstrap5.css`, `fluent2.css`, or `highcontrast.css`).
 
-{% endhighlight %}
-{% endtabs %}
+Import the CSS file in `src/App.tsx`:
 
-Then add the following CSS reference to the **src/App.css** file:
-
-{% tabs %}
-{% highlight css tabtitle="App.css" %}
-
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/gantt/index.css";
-
-{% endhighlight %}
-{% endtabs %}
+```typescript
+import './App.css';
+```
 
 ## Create sample data
 

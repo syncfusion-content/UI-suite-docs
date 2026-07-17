@@ -80,19 +80,43 @@ This command performs the following automatically:
 
 ## Add theme styles
 
-The Gantt Chart component requires specific CSS files for proper rendering. Syncfusion provides multiple themes for the Gantt Chart component. For a complete list of available themes, refer to the [theme packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
+The Gantt Chart component requires specific CSS files for proper rendering. Import the necessary styles into `src/styles.css`.
 
-To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
+**Basic Theme Styles (Required):**
 
-```bash
-npm install @syncfusion/ej2-tailwind3-theme
-```
-
-The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/styles.css`:
+Import the following mandatory styles for the Gantt Chart to render correctly:
 
 ```css
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/gantt/index.css';
+@import '../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
 ```
+
+> **Theme Alternatives**: By default, the Tailwind3 theme is used. To use a different theme, replace `tailwind3.css` with `material3.css`, `bootstrap5.css`, `fabric.css`, or `highcontrast.css` in all imports.
+
+**Additional Styles for Advanced Features:**
+
+If you enable editing, toolbar, dialogs, or rich text notes, add these styles:
+
+```css
+/* For editing, toolbar, and dialog features */
+@import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css';
+
+/* For rich text editor in dialog notes tab */
+@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+```
+
+### How Styles Are Applied
+
+The imported CSS files are added to the global stylesheet (`src/styles.css`). Angular automatically applies these styles to all components in the application, so no additional configuration is required in TypeScript or component files.
 
 ## Create sample task data
 
@@ -296,4 +320,3 @@ export class App {
 - **[Overview](https://ej2.syncfusion.com/angular/documentation/gantt/overview)** - Explore all available features
 
 N> Looking for the full Angular Gantt Chart component overview, features, pricing, and documentation? Visit the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart) page.
-
