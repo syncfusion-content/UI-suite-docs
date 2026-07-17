@@ -55,7 +55,6 @@ Different flowchart symbols have different meanings that are used to represent d
 To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syncfusion.com/documentation/api/diagram/layoutType) property as `Flowchart`. The following code example displays how to render flowchart layout using data source.
 
 
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs1/index.ts %}
@@ -66,7 +65,6 @@ To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syn
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
-
 
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
@@ -134,7 +132,6 @@ The following example demonstrates how to render a flowchart layout using nodes 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
 
 
-
 ## Customize flowchart layout orientation
 
 The sequence of a node's direction can be customized by flowchart's orientation, either vertically from top to bottom or horizontally from left to right. The [orientation](https://ej2.syncfusion.com/documentation/api/diagram/layoutOrientation) property of the layout class allows you to define the flow direction for the flowchart as either `TopToBottom` or `LeftToRight`. The default orientation is `TopToBottom`.
@@ -147,7 +144,7 @@ This orientation arranges elements in the layout vertically, flowing from top to
 
 ```javascript
 //Initialize the diagram
-let diagram = new Diagram({
+var diagram = new ej.diagrams.Diagram({
   width: '100%',
   height: '645px',
   layout: {
@@ -161,13 +158,11 @@ let diagram = new Diagram({
 ```
 
 
-
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
 
 ### LeftToRight orientation
 
 This orientation arranges elements in the layout horizontally, flowing from left to right. It is typically used to represent processes or workflows that move sequentially across the page, emphasizing a linear progression of steps or actions.
-
 
 
 ```javascript
@@ -184,7 +179,6 @@ let diagram = new Diagram({
 });
 
 ```
-
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_LeftToRight.png)
 
@@ -248,7 +242,6 @@ The following example shows how to set custom text to the yes branch and no bran
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
-
 
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)
