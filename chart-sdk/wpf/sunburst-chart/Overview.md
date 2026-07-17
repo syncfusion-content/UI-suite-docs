@@ -2,7 +2,7 @@
 layout: post
 title: About WPF Sunburst Chart control | Syncfusion
 description: Learn here all about introduction of Syncfusion WPF Sunburst Chart (SfSunburstChart) control, its elements and more.
-platform: chart-sdk
+platform: charts-sdk
 control: SfSunburstChart
 documentation: ug
 ---
@@ -15,6 +15,6 @@ Sunburst Chart is useful for visualizing hierarchical data. The center circle re
 
 * Visualize hierarchical data
 * Data label support for better readability
-* Interactively select or highlight segments.
+* Interactively select or highlight segments
 * Interactive legend
 * Colors can be customized
