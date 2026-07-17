@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting started with ##Platform_Name## Diagram control
+# Getting started with JavaScript Diagram control
 
 This section explains how to create and render a simple Essential® JS 2 Diagram in a plain JavaScript application.
 
