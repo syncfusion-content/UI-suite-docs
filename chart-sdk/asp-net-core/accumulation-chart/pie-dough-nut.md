@@ -15,8 +15,6 @@ documentation: ug
 
 To render a pie series, use the series [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pie`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/pie/tagHelper %}
@@ -31,25 +29,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/pie/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pie.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/pie/pie.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Radius Customization
 
 By default, radius of the pie series will be 80% of the size (minimum of chart width and height). You can customize this using [`radius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) property of the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -65,25 +49,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/radius/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/radius/radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Pie Center
 
 The center position of the pie can be changed by Center X and Center Y. By default, center value of the pie series x and y is 50%. You can customize this using [`center`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Center) property of the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -100,25 +70,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/piecenter/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Piecenter.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/piecenter/piecenter.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Various Radius Pie Chart
 
 You can use radius mapping to render the slice with different [`radius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) pie and also use [`border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Border) , fill properties to customize the point. dataLabel is used to represent individual data and its value.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -135,25 +91,11 @@ public class PieRadiusChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/various-radius/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Various-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/various-radius/various-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
     ## Doughnut Chart
 
     To achieve a doughnut in pie series, customize the [`innerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_InnerRadius) property of the series. By setting value greater than 0%, a doughnut will appear. The `innerRadius` property takes value from 0% to 100% of the pie radius.
-
-    {% if page.publishingplatform == "aspnet-core" %}
 
     {% tabs %}
     {% highlight cshtml tabtitle="CSHTML" %}
@@ -168,25 +110,11 @@ public class PieRadiusChartData
     {% endhighlight %}
     {% endtabs %}
 
-    {% elsif page.publishingplatform == "aspnet-mvc" %}
-
-    {% tabs %}
-    {% highlight razor tabtitle="CSHTML" %}
-    {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/doughnut/razor %}
-    {% endhighlight %}
-    {% highlight c# tabtitle="Doughnut.cs" %}
-    {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/doughnut/doughnut.cs %}
-    {% endhighlight %}
-    {% endtabs %}
-    {% endif %}
-
 
 
 ## Multiple Doughnut Series
 
 You can create multiple doughnut within a single chart by adding multiple series with different [`innerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_InnerRadius) and [`radius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) values. This allows you to compare multiple data sets with the same categories. Each series can have different data, colors, and customizations. You can also use the [`mappingKey`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationLegendSettings.html#Syncfusion_EJ2_Charts_AccumulationLegendSettings_MappingKey) property in `legendSettings` to map the legend items based on the specified field from the data source. When set, points with matching `mappingKey` values are grouped into a single legend item.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -203,24 +131,10 @@ public class MultiplePieSeriesData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/multiple-series/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="MultipleSeriesPie.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/multiple-series/multiple-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 ## Start and End angles
 
 You can customize the start and end angle of the pie series using the [`startAngle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_StartAngle) and [`endAngle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_EndAngle) properties. The default value of `startAngle` is 0 degree, and `endAngle` is 360 degrees. By customizing this, you can achieve a semi pie series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -236,23 +150,9 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/start-angle/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Start-angle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/start-angle/start-angle.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Color & Text Mapping
 
 The fill color and the text in the data source can be mapped to the chart using [pointColorMapping](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_PointColorMapping) in series and `name` in datalabel respectively.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -270,25 +170,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/map/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Map.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/map/map.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Border radius
 
 You can create rounded corners for each slice by using the `BorderRadius` option, which gives the chart a modern and polished appearance.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -299,25 +185,11 @@ You can create rounded corners for each slice by using the `BorderRadius` option
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/border-radius/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/border-radius/border-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Customization
 
 Individual points can be customized using the `pointRender` event.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -333,25 +205,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Patterns
 
 You can apply different patterns to the pie slices using the `ApplyPattern` property in the series and the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_PointRender) event.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -362,25 +220,11 @@ You can apply different patterns to the pie slices using the `ApplyPattern` prop
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/patterns/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Patterns.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/patterns/patterns.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Hide pie or doughnut border
 
 By default, the border will appear in the pie or doughnut chart while mouse hover on the chart. You can disable the border by setting `EnableBorderOnMouseMove` property is `false`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -396,25 +240,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Color Palette
 
 You can customize the color of the point using the `palettes` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -429,18 +259,6 @@ public class PieChartData
 }
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/palette/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Palette.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/palette/palette.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Multi-level pie chart
 

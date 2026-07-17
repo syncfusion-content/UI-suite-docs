@@ -13,21 +13,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 You can change the legend label using the `legendRender` client-side event. You can also hide the legend label using this client-side event.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs1/index.js %}
@@ -38,4 +23,3 @@ You can change the legend label using the `legendRender` client-side event. You 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs1" %}
-{% endif %}

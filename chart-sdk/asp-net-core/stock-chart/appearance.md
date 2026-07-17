@@ -15,8 +15,6 @@ documentation: ug
 
 Stock Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Title) property, to show the information about the data plotted.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/title/tagHelper %}
@@ -26,18 +24,6 @@ Stock Chart can be given a title using [`title`](https://help.syncfusion.com/cr/
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 <!-- markdownlint-disable MD036 -->
@@ -45,8 +31,6 @@ Stock Chart can be given a title using [`title`](https://help.syncfusion.com/cr/
 ## Title Customizations
 
 The `textStyle` property of chart title provides options to customize the `size`, `color`, `fontFamily`, `fontWeight`, `fontStyle`, `opacity`, `textAlignment` and `textOverflow`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,18 +41,6 @@ The `textStyle` property of chart title provides options to customize the `size`
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/titlewrap/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titlewrap.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/titlewrap/titlewrap.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Stock Chart Theme
@@ -76,8 +48,6 @@ The `textStyle` property of chart title provides options to customize the `size`
 Changing theme will affect background color,gridlines,tooltip colors and appearance.
 
 [`theme`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Theme) property of Stock chart is shipped with several built-in themes such as `Material`, `Fabric`, `Bootstrap` , `HighContrastLight`, `MaterialDark`, `FabricDark`, `FabricDark`, `HighContrast` and `BootstrapDark`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -87,18 +57,6 @@ Changing theme will affect background color,gridlines,tooltip colors and appeara
 {% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/theme/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/appearance/theme/theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

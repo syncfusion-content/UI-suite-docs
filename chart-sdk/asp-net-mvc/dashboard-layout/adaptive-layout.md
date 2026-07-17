@@ -17,19 +17,6 @@ The Dashboard Layout is designed to automatically adapt with lower resolutions b
 
 The following sample demonstrates the usage of the [`mediaQuery`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~MediaQuery.html) property to turn out the layout into a stacked one in user defined resolution. Here, whenever the window size reaches 700px or lesser, the layout becomes a stacked layout.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/adaptive-layout/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/adaptive-layout/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/adaptive-layout/razor %}
@@ -38,7 +25,6 @@ The following sample demonstrates the usage of the [`mediaQuery`](https://help.s
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/adaptive-layout/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Responsive and adaptive layout](./images/adaptive_layout.PNG)
 
