@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with React Block Editor component | Syncfusion
-description: Check out and learn about Getting started with React Block Editor component of Syncfusion Essential JS 2 and more details.
+description: Checkout and learn about Getting started with React Block Editor component of Syncfusion Essential JS 2 and more details.
 control: Block Editor
 platform: rich-text-editor-sdk
 documentation: ug
