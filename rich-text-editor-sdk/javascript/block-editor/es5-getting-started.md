@@ -90,10 +90,10 @@ Output will be displayed as follows.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

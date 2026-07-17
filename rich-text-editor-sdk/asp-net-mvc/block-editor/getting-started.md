@@ -104,10 +104,10 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Block 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/getting-started/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/getting-started/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/getting-started/gettingstarted.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/getting-started/gettingstarted.cs %}
 {% endhighlight %}
 {% endtabs %}
 

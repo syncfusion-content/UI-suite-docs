@@ -123,10 +123,11 @@ The following example shows a basic Block Editor control.
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/getting-started/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/getting-started/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/" %}
