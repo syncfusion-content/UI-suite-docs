@@ -2,7 +2,7 @@
 layout: post
 title: Ticks in WPF Bullet Graph control | Syncfusion
 description: Learn all about the Ticks support in Syncfusion WPF Bullet Graph (SfBulletGraph) control, its elements, and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
 ---

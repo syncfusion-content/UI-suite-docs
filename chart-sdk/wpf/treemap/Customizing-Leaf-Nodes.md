@@ -2,7 +2,7 @@
 layout: post
 title: Customizing Leaf Nodes in WPF TreeMap control | Syncfusion
 description: Learn here all about Customizing Leaf Nodes support in Syncfusion WPF TreeMap (SfTreeMap) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

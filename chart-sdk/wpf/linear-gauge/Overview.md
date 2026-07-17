@@ -2,7 +2,7 @@
 layout: post
 title: About WPF LinearGauge (SfLinearGauge) control | Syncfusion
 description: Learn here all about introduction of Syncfusion Essential Studio WPF LinearGauge (SfLinearGauge) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

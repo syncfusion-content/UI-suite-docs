@@ -2,7 +2,7 @@
 layout: post
 title: Overview of WPF Surface Chart Control | Syncfusion
 description: Learn here all about the overview of Syncfusion WPF Surface Chart (SfSurfaceChart) control, its elements, and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
 ---

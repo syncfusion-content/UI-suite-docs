@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with Syncfusion® Essential® SfHeatMap for WPF.
 description: This section explains how to integrate the WPF HeatMap (SfHeatMap) into an application and enable its basic features with an example. 
-platform: charts-sdk
+platform: chart-sdk
 control: SfHeatMap
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Legend in WPF HeatMap (SfHeatMap) control | Syncfusion®
 description: Learn how to create and configure a legend for the Syncfusion® Essential Studio® WPF HeatMap (SfHeatMap) control, its elements, and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfHeatMap
 documentation: ug
 ---

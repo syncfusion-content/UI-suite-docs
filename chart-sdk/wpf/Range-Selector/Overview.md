@@ -2,7 +2,7 @@
 layout: post
 title: About WPF Range Selector control | Syncfusion
 description: Learn here all about introduction of Syncfusion® WPF Range Selector (SfDateTimeRangeNavigator) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
 ---
