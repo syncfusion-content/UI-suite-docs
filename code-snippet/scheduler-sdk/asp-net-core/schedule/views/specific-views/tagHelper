@@ -7,5 +7,5 @@
     };
 }
 
-<ejs-schedule id="schedule" height="550" views="viewOption" selectedDate="new DateTime(2022, 2, 15)">
+<ejs-schedule id="schedule" height="550" views="viewOption" selectedDate="new DateTime(2026, 2, 15)">
 </ejs-schedule>
