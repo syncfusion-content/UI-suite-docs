@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with React Block Editor component | Syncfusion
-description: Checkout and learn about Getting started with React Block Editor component of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about Getting started with React Block Editor component of Syncfusion Essential JS 2 and more details.
 control: Block Editor
 platform: rich-text-editor-sdk
 documentation: ug
@@ -17,10 +17,10 @@ This section explains how to create a simple Block Editor and configure its avai
 Run the following commands to set up a React application:
 
 ```bash
-npm create vite@latest my-app -- --template react-ts
+npm create vite@latest my-app 
 ```
 
-This command will prompt you to install the required packages and start the application. Select the options as shown below.
+This command will prompt you to select options for the new project. Choose **React** as the framework and **TypeScript** as the variant. Select the options as shown below.
 
 ![Block Editor Initial setup](images/initial_setup.png)
 
@@ -42,7 +42,13 @@ To install the Block Editor component package, use the following command:
 ```bash
 npm install @syncfusion/ej2-react-blockeditor --save
 ```
-## Adding CSS reference
+
+> **Note:** Syncfusion requires a license key to remove the evaluation watermark. Generate a key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/manage-trials/downloads) and register it in your app's entry point, for example:
+> ```ts
+> import { registerLicense } from '@syncfusion/ej2-base';
+> registerLicense('YOUR_LICENSE_KEY');
+> ```
+## Adding a CSS Reference
 
 To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
@@ -58,29 +64,29 @@ Import the required CSS theme files for the Block Editor and its dependencies in
 
 ## Add the Block Editor Component
 
-Now, you can start adding Block Editor component in the application. For getting started, add the Block Editor component by using `<BlockEditorComponent>` tag directive in `src/App.tsx` file using following code. Now place the below Block Editor code in the `src/App.tsx`.
+Open `src/App.tsx` and add the Block Editor component using the `<BlockEditorComponent>` tag.
+
+> **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
 
 {% raw %}
 ```ts
 import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
-import * as React from 'react';
-import * as ReactDOM from "react-dom";
 
 function App() {
+    // Renders the Block Editor component
     return (
-        // specifies the tag for render the blockeditor component
         <BlockEditorComponent id="blockeditor"></BlockEditorComponent>
     );
 }
 
-ReactDOM.render(<App />, document.getElementById('blockeditor'));
+export default App;
 ```
 {% endraw %}
 
 
 ## Run the application
 
-Now, run the `npm run dev` command in your terminal to start the development server. This command compiles the code and opens the application in your default web browser.
+Now, run the `npm run dev` command in your terminal to start the development server. By default, Vite serves the application at `http://localhost:5173`.
 
 ```
 npm run dev
@@ -97,4 +103,4 @@ The following example shows a basic Block Editor component.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
