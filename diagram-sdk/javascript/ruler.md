@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Ruler in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Ruler in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -21,20 +21,6 @@ The [`showRulers`](https://ej2.syncfusion.com/javascript/documentation/api/diagr
 
 The following code shows how to add a ruler to the diagram.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ruler-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ruler-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,7 +32,6 @@ The following code shows how to add a ruler to the diagram.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
-{% endif %}
 
 ## Customizing the Ruler
 
@@ -62,20 +47,6 @@ The HorizontalRuler’s [`thickness`](https://ej2.syncfusion.com/javascript/docu
 
 The following code shows how the diagram ruler can be customized.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/customRuler-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/customRuler-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -87,7 +58,6 @@ The following code shows how the diagram ruler can be customized.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
-{% endif %}
 
 ### Arrange tick
 
@@ -95,20 +65,6 @@ The HorizontalRuler’s [`arrangeTick`](https://ej2.syncfusion.com/javascript/do
 
 The following code demonstrates how to use the `arrangeTick` function to customize the tickLength.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ruler-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ruler-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -120,7 +76,6 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
-{% endif %}
 
 ### Marker color
 

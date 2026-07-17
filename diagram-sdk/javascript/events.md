@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Events in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Group in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -56,20 +56,6 @@ The [`created`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#
 The following example shows the order of these event triggers and how to handle these events in a diagram.
 
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -81,27 +67,10 @@ The following example shows the order of these event triggers and how to handle 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
-{% endif %}
 
 ## Mouse wheel event
 
 The [`mouseWheel`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iMouseWheelEventArgs) event triggers when the mouse is scrolled over the diagram area. You can use this event to prevent zooming and scrolling with the mouse wheel. The following example demonstrates how to handle this event and customize it to prevent zooming and scrolling using the mouse wheel.
-
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -113,7 +82,6 @@ The [`mouseWheel`](https://ej2.syncfusion.com/javascript/documentation/api/diagr
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
-{% endif %}
 
 ## Other events
 

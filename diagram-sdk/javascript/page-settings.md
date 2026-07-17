@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Page settings in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Page settings in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -21,20 +21,6 @@ To explore those properties, refer to [`Page Settings`](https://ej2.syncfusion.c
 
 The following example shows the customization of page settings.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,7 +32,6 @@ The following example shows the customization of page settings.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
-{% endif %}
 
 ## Set background image
 
@@ -55,20 +40,6 @@ A background image can be attached to the page by using the [`source`](https://e
 
 The following code illustrates how to set background image to the diagram page.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -80,7 +51,6 @@ The following code illustrates how to set background image to the diagram page.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
-{% endif %}
 
 ## Page orientation
 
@@ -92,20 +62,6 @@ There are two types of page orientations:
 Depending on the [`orientation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pagesettingsmodel#orientation) selected, the width and height properties are adjusted accordingly. By default, the `orientation` is set to **Landscape**. In the following example, the height and width properties of `pageSettings` are swapped when setting the `orientation` to **Portrait**.
 
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -117,7 +73,6 @@ Depending on the [`orientation`](https://ej2.syncfusion.com/javascript/documenta
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
-{% endif %}
 
 
 ## Multiple page and page breaks
@@ -126,20 +81,6 @@ When multiple pages are enabled, the page size dynamically adjusts in multiples 
 
 The [`multiplePage`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pageSettingsModel#multiplepage) and [`showPageBreak`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pageSettingsModel#showpagebreaks) properties in page settings control the ability to enable multiple pages and display page break lines, respectively.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -151,7 +92,6 @@ The [`multiplePage`](https://ej2.syncfusion.com/javascript/documentation/api/dia
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
-{% endif %}
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details refer to [`CSS customization`](./style#customizing-the-page-breaks)
 
@@ -167,20 +107,6 @@ To explore these constraints further, refer to [`Boundary Constraints`](./constr
 
 Below is an example illustrating how to define boundary constraints within the diagram:
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -192,7 +118,6 @@ Below is an example illustrating how to define boundary constraints within the d
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
-{% endif %}
 
 ## Fit options
 
@@ -200,20 +125,6 @@ The [`fitOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagr
 
 The following example demonstrates how fitOptions are utilized in diagram page settings.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/pagesettings-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -225,4 +136,3 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
-{% endif %}

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Entity Relationship Diagrams in JavaScript Diagram Control | Syncfusion®
 description: Learn how to create and customize Entity Relationship Diagrams in the Syncfusion® JavaScript Diagram control.
@@ -27,20 +27,6 @@ An ER diagram is built using the following main elements:
 
 An ER entity node represents a database entity, such as a table or object. It appears as a box that displays the entity name in the header and its fields as rows. The node shape can be defined by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shape#type) property to **Er**.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -53,7 +39,6 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-1" %}
 
-{% endif %}
 
 ### Configure the entity header
 
@@ -65,20 +50,6 @@ The header is the top section of an ER entity node that displays the entity name
 | [height](https://ej2.syncfusion.com/javascript/documentation/api/diagram/erHeaderModel#height) | Defines the height of the header area in pixels. |
 | [style](https://ej2.syncfusion.com/javascript/documentation/api/diagram/erHeaderModel#style) | Defines style properties such as fill color, text color, and font settings. |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-header/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-header/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-header" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,7 +62,6 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-header" %}
 
-{% endif %}
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -110,21 +80,6 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 | [style](https://ej2.syncfusion.com/javascript/documentation/api/diagram/erFieldModel#style) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
 | [annotation](https://ej2.syncfusion.com/javascript/documentation/api/diagram/erFieldModel#annotation) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeannotation#style) property is applicable. The annotation [content](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeannotation#content) property is ignored. |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-fields/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-fields/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-fields" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-fields/index.js %}
@@ -135,8 +90,6 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-fields" %}
-
-{% endif %}
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -190,21 +143,6 @@ The [fieldDefaults](https://ej2.syncfusion.com/javascript/documentation/api/diag
 The appearance of ER entities and their fields can be customized using style properties. The node-level [style](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#style) property controls the overall ER entity appearance, while individual field [style](https://ej2.syncfusion.com/javascript/documentation/api/diagram/erfield#style) values can override applicable styles for specific field rows.
 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-styling/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-styling/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-styling" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-styling/index.js %}
@@ -216,7 +154,6 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-styling" %}
 
-{% endif %}
 
 N> Field-level styles override applicable node-level and field default styles.
 
@@ -256,20 +193,6 @@ Multiplicity defines how many instances of one entity can be associated with ins
 | **OneOrMany** | Represents one or more instances. | A department must have one or more employees. | ![OneOrMany Multiplicity](./images/er-diagram-images/cardinality-one-or-many.png) |
 | **ZeroOrMany** | Represents zero or more instances. | A customer may have zero or more wish list items. | ![ZeroOrMany Multiplicity](./images/er-diagram-images/cardinality-zero-or-many.png) |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-cardinality/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/er-diagram-cardinality/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-cardinality" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -281,8 +204,6 @@ Multiplicity defines how many instances of one entity can be associated with ins
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/er-diagram-cardinality" %}
-
-{% endif %}
 
 ## See also
 
