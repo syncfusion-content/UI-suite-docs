@@ -4,7 +4,7 @@ title: Getting Started with ##Platform_Name## Scheduler Control| Syncfusion
 description: Check out and learn about getting started with ##Platform_Name## Scheduler control of Syncfusion Essential JS 2 and more details.
 platform: ej2-asp-core-mvc
 control: Getting Started
-publishingplatform: ##Platform_Name##
+publishingplatform: scheduler-sdk
 documentation: ug
 ---
 
@@ -90,7 +90,7 @@ Add the [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/schedule/default/data/tagHelper %}
+{% include code-snippet/scheduler-sdk/asp-net-core/schedule/default/data/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,7 +104,7 @@ To populate an empty Scheduler with appointments, bind the event data to it by a
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/schedule/getting-started/data/tagHelper %}
+{% include code-snippet/scheduler-sdk/asp-net-core/schedule/getting-started/data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
 public class AppointmentData
@@ -125,7 +125,7 @@ By default, the Scheduler displays the system date as its current date. To chang
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/schedule/getting-started/data/tagHelper %}
+{% include code-snippet/scheduler-sdk/asp-net-core/schedule/getting-started/data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
 public class AppointmentData
@@ -157,7 +157,7 @@ Scheduler displays `Week` view by default. To change the current view, define th
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/schedule/views/specific-views/tagHelper %}
+{% include code-snippet/scheduler-sdk/asp-net-core/schedule/views/specific-views/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -169,7 +169,7 @@ Each individual scheduler view can be customized with its own options such as se
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/schedule/views/individual-views/tagHelper %}
+{% include code-snippet/scheduler-sdk/asp-net-core/schedule/views/individual-views/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
