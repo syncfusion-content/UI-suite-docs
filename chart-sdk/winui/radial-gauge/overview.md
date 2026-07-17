@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About WinUI Radial Gauge control | Syncfusion
-description: Learn here all about introduction of Syncfusion WinUI Radial Gauge(sfRadialGauge) control with key features and more.
+description: Learn here all about introduction of Syncfusion WinUI Radial Gauge(SfRadialGauge) control with key features and more.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
