@@ -3,7 +3,7 @@
 layout: post
 title: Zooming in WPF Sunburst Chart control | Syncfusion
 description: Learn here all about Zooming support in Syncfusion WPF Sunburst Chart (SfSunburstChart) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
 

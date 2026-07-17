@@ -2,7 +2,7 @@
 layout: post
 title: Orientation | SfLinearGauge | WPF | Syncfusion
 description: This section describes the orientation customization support with the Orientation property in the WPF SfLinearGauge control.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

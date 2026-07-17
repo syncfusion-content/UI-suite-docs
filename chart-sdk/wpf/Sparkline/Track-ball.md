@@ -2,7 +2,7 @@
 layout: post
 title: Track ball in WPF Sparkline control | Syncfusion
 description: Learn here all about Track ball support in Syncfusion WPF Sparkline (SfSparkline) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSparkline
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Shapes Color Customization in WPF Maps control | Syncfusion
 description: Learn here all about Shapes Color Customization support in Syncfusion WPF Maps (SfMap) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

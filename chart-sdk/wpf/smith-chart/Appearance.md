@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in WPF Smith Chart control | Syncfusion
 description: Learn here all about Appearance support in Syncfusion WPF Smith Chart (SfSmithChart) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSmithChart
 documentation: ug
 ---

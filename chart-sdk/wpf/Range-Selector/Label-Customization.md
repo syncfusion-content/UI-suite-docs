@@ -2,7 +2,7 @@
 layout: post
 title: Customization in WPF Range Selector control | Syncfusion
 description: Learn here all about Customization support in Syncfusion® WPF Range Selector (SfDateTimeRangeNavigator) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
 ---

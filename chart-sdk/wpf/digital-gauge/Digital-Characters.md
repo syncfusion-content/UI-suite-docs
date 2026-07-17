@@ -2,7 +2,7 @@
 layout: post
 title: Digital Characters in WPF Digital Gauge control | Syncfusion
 description: Learn here all about Digital Characters support in Syncfusion WPF Digital Gauge (SfDigitalGauge) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

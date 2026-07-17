@@ -2,7 +2,7 @@
 layout: post
 title: Series in WPF Smith Chart control | Syncfusion
 description: Learn here all about Series support in Syncfusion WPF Smith Chart (SfSmithChart) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: series
 documentation: ug
 ---

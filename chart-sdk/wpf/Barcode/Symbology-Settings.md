@@ -2,7 +2,7 @@
 layout: post
 title: Symbology Settings in WPF Barcode control | Syncfusion
 description: Learn about Symbology Settings in the Syncfusion WPF SfBarcode control and configure barcode-specific encoding options.
-platform: charts-sdk
+platform: chart-sdk
 control: SfBarcode
 documentation: ug
 ---
