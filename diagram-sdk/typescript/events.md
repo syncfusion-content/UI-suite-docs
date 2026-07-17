@@ -56,7 +56,7 @@ The [`created`](https://ej2.syncfusion.com/documentation/api/diagram#created) ev
 The following example shows the order of these event triggers and how to handle these events in a diagram.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -69,14 +69,14 @@ The following example shows the order of these event triggers and how to handle 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/events-cs1" %}
 
-{% endif %}
+
 
 ## Mouse wheel event
 
 The [`mouseWheel`](https://ej2.syncfusion.com/documentation/api/diagram/iMouseWheelEventArgs) event triggers when the mouse is scrolled over the diagram area. You can use this event to prevent zooming and scrolling with the mouse wheel. The following example demonstrates how to handle this event and customize it to prevent zooming and scrolling using the mouse wheel.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -89,7 +89,7 @@ The [`mouseWheel`](https://ej2.syncfusion.com/documentation/api/diagram/iMouseWh
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/events-cs2" %}
 
-{% endif %}
+
 
 ## Other events
 

@@ -27,7 +27,7 @@ An ER diagram is built using the following main elements:
 
 An ER entity node represents a database entity, such as a table or object. It appears as a box that displays the entity name in the header and its fields as rows. The node shape can be defined by setting the [type](https://ej2.syncfusion.com/documentation/api/diagram/shape#type) property to **Er**.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,7 +40,7 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-1" %}
 
-{% endif %}
+
 
 ### Configure the entity header
 
@@ -52,7 +52,7 @@ The header is the top section of an ER entity node that displays the entity name
 | [height](https://ej2.syncfusion.com/documentation/api/diagram/erHeaderModel#height) | Defines the height of the header area in pixels. |
 | [style](https://ej2.syncfusion.com/documentation/api/diagram/erHeaderModel#style) | Defines style properties such as fill color, text color, and font settings. |
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -65,7 +65,7 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-header" %}
 
-{% endif %}
+
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -84,7 +84,7 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 | [style](https://ej2.syncfusion.com/documentation/api/diagram/shapestylemodel) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
 | [annotation](https://ej2.syncfusion.com/documentation/api/diagram/shapeannotationmodel) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/documentation/api/diagram/textstylemodel) property is ignored. |
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -97,7 +97,7 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-fields" %}
 
-{% endif %}
+
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -151,7 +151,7 @@ The [fieldDefaults](https://ej2.syncfusion.com/documentation/api/diagram/erField
 The appearance of ER entities and their fields can be customized using style properties. The node-level [style](https://ej2.syncfusion.com/documentation/api/diagram/shapestylemodel) property controls the overall ER entity appearance, while individual field [style](https://ej2.syncfusion.com/documentation/api/diagram/shapestylemodel) values can override applicable styles for specific field rows.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -164,7 +164,7 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-styling" %}
 
-{% endif %}
+
 
 N> Field-level styles override applicable node-level and field default styles.
 
@@ -204,7 +204,7 @@ Multiplicity defines how many instances of one entity can be associated with ins
 | **OneOrMany** | Represents one or more instances. | A department must have one or more employees. | ![OneOrMany Multiplicity](./images/er-diagram-images/cardinality-one-or-many.png) |
 | **ZeroOrMany** | Represents zero or more instances. | A customer may have zero or more wish list items. | ![ZeroOrMany Multiplicity](./images/er-diagram-images/cardinality-zero-or-many.png) |
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -217,7 +217,7 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-cardinality" %}
 
-{% endif %}
+
 
 ## See also
 

@@ -27,7 +27,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 The `association` property allows you to define the type of association. The following code example illustrates how to create an association.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,7 +40,7 @@ The `association` property allows you to define the type of association. The fol
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs18" %}
 
-{% endif %}
+
 
 The following table demonstrates the visual representation of association flows.
 
@@ -62,7 +62,7 @@ A [`sequence`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnsequence
 
 The sequence property allows you to define the type of sequence. The following code example illustrates how to create a sequence flow.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ The sequence property allows you to define the type of sequence. The following c
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs19" %}
 
-{% endif %}
+
 
 The following table contains various representation of sequence flows.
 
@@ -97,7 +97,7 @@ A [`message`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnmessagefl
 
 The message property allows you to define the type of message. The following code example illustrates how to define a message flow.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -110,7 +110,7 @@ The message property allows you to define the type of message. The following cod
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs20" %}
 
-{% endif %}
+
 
 The following table contains various representation of message flows.
 

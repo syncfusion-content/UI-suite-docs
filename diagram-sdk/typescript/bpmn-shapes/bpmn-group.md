@@ -16,7 +16,7 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
 ![BPMN Group Shape](../images/Group.png)
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -29,4 +29,3 @@ A group is used to frame a part of the diagram, shows that elements included in 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs17" %}
 
-{% endif %}

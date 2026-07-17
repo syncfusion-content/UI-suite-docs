@@ -15,7 +15,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 The following code example illustrates how to create phase.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,13 +28,13 @@ The following code example illustrates how to create phase.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs12" %}
 
-{% endif %}
+
 
 ### Dynamically add/remove phase to Lane
 
  You can add the a phase at runtime by using [`addPhases`](https://ej2.syncfusion.com/documentation/api/diagram#addphases) method and remove phase by using [`removePhase`](https://ej2.syncfusion.com/documentation/api/diagram#removephase) method. The following code example illustrates how to add and remove phase at run time.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -47,7 +47,7 @@ The following code example illustrates how to create phase.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs13" %}
 
-{% endif %}
+
 
 ### Customizing phase
 
@@ -58,7 +58,7 @@ The following code example illustrates how to create phase.
 
 The following code example illustrates how to customize the phase in swimlane.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -71,7 +71,7 @@ The following code example illustrates how to customize the phase in swimlane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs14" %}
 
-{% endif %}
+
 
 #### Dynamic customization of phase
 
@@ -79,7 +79,7 @@ The following code example illustrates how to customize the phase in swimlane.
 
  The following code example illustrates how to customize the phase at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,7 +92,7 @@ The following code example illustrates how to customize the phase in swimlane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-phaseDynamic" %}
 
-{% endif %}
+
 
 ### Phase interaction
 

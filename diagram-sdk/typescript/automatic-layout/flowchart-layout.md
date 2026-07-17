@@ -54,7 +54,7 @@ Different flowchart symbols have different meanings that are used to represent d
 
 To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syncfusion.com/documentation/api/diagram/layoutType) property as `Flowchart`. The following code example displays how to render flowchart layout using data source.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -67,7 +67,7 @@ To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syn
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
 
-{% endif %}
+
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
 
@@ -120,7 +120,7 @@ This structure allows for easy customization of the flowchart's visual elements 
 
 The following example demonstrates how to render a flowchart layout using nodes and connectors. To achieve this, you need to define the [`nodes`](https://ej2.syncfusion.com/documentation/api/diagram/nodeModel) and [`connectors`](https://ej2.syncfusion.com/documentation/api/diagram/connectormodel) collections and assign them to the diagram. Additionally, you need to set the [`layoutType`](https://ej2.syncfusion.com/documentation/api/diagram/layoutType) to `Flowchart`.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -133,7 +133,7 @@ The following example demonstrates how to render a flowchart layout using nodes 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
 
-{% endif %}
+
 
 ## Customize flowchart layout orientation
 
@@ -143,7 +143,7 @@ The sequence of a node's direction can be customized by flowchart's orientation,
 
 This orientation arranges elements in the layout vertically, flowing from top to bottom. It is commonly used in flowcharts to represent the sequential progression of steps or actions in a process.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 //Initialize the diagram
@@ -159,7 +159,7 @@ let diagram = new Diagram({
 });
 
 ```
-{% endif %}
+
 
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
@@ -168,7 +168,7 @@ let diagram = new Diagram({
 
 This orientation arranges elements in the layout horizontally, flowing from left to right. It is typically used to represent processes or workflows that move sequentially across the page, emphasizing a linear progression of steps or actions.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 //Initialize the diagram
@@ -184,7 +184,7 @@ let diagram = new Diagram({
 });
 
 ```
-{% endif %}
+
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_LeftToRight.png)
 
@@ -199,7 +199,7 @@ The decision symbol in a flowchart represents a question or condition that leads
 
 The following example shows flowchart layout with `yesBranchDirection` as `SameAsFlow` and `noBranchDirection` as `LeftInFlow`.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -212,7 +212,7 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs3" %}
 
-{% endif %}
+
 
 The following table will explain the pictorial representation of the behavior:
 
@@ -236,7 +236,7 @@ Any text can be used as the connector text to describe the flow. Additionally, c
 
 The following example shows how to set custom text to the yes branch and no branch values.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -249,6 +249,6 @@ The following example shows how to set custom text to the yes branch and no bran
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
 
-{% endif %}
+
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

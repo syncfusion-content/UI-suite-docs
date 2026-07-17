@@ -22,7 +22,7 @@ The number of [`lanes`](https://ej2.syncfusion.com/documentation/api/diagram/lan
 
 The following code example illustrates how to define a swimlane with lane.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -35,7 +35,7 @@ The following code example illustrates how to define a swimlane with lane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
 
-{% endif %}
+
 
 ### Create lane header
 
@@ -43,7 +43,7 @@ The following code example illustrates how to define a swimlane with lane.
 
 The following code example illustrates how to define a lane header.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -56,7 +56,7 @@ The following code example illustrates how to define a lane header.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs6" %}
 
-{% endif %}
+
 
 ### Customizing lane and lane header
 
@@ -68,7 +68,7 @@ The following code example illustrates how to define a lane header.
 
 The following code example illustrates how to customize the lane header.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -81,13 +81,13 @@ The following code example illustrates how to customize the lane header.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs7" %}
 
-{% endif %}
+
 
 #### Dynamic customization of lane header
 
  You can customize the lane header style and text properties dynamically. The following code illustrates how to dynamically customize the lane header.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -100,13 +100,13 @@ The following code example illustrates how to customize the lane header.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs8" %}
 
-{% endif %}
+
 
 ### Add/remove lane at runtime
 
  You can add the a lanes at runtime by using the [`addLanes`](https://ej2.syncfusion.com/documentation/api/diagram#addlanes) method and remove lane at runtime using the [`removeLane`](https://ej2.syncfusion.com/documentation/api/diagram#removelane) method. The following code illustrates how to dynamically add and remove lane in swimlane.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -119,7 +119,7 @@ The following code example illustrates how to customize the lane header.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs9" %}
 
-{% endif %}
+
 
 ### Add children to lane
 
@@ -127,7 +127,7 @@ The following code example illustrates how to customize the lane header.
 
 The following code example illustrates how to add nodes to lane.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -140,14 +140,14 @@ The following code example illustrates how to add nodes to lane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs10" %}
 
-{% endif %}
+
 
 #### Add child dynamically into the lane.
 
 The child node can be inserted into the lane at runtime by using the [`addNodetoLane`](https://ej2.syncfusion.com/documentation/api/diagram#addnodetolane) method.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -160,7 +160,7 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-addChild" %}
 
-{% endif %}
+
 
 
 
@@ -175,7 +175,7 @@ To prevent child nodes from moving outside their designated lanes, you can use s
 Here is an example of how to apply these constraints:
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -188,14 +188,14 @@ Here is an example of how to apply these constraints:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5-prevNodeDrag" %}
 
-{% endif %}
+
 
 
 ### AddInfo
 
 AddInfo for lanes similar to the nodes. we can store additional informations about the specific lane by using the [`addInfo`](https://ej2.syncfusion.com/documentation/api/diagram/laneModel#addinfo).
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -208,7 +208,7 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
 
-{% endif %}
+
 
 ### Lane interaction
 
@@ -230,7 +230,7 @@ You can disable swimlane lane swapping by using the property called `canMove`.
 
 The following code illustrates how to disable swimlane lane swapping.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -243,7 +243,7 @@ The following code illustrates how to disable swimlane lane swapping.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs11" %}
 
-{% endif %}
+
 
 #### Resize helper
 

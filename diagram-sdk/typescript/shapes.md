@@ -27,7 +27,7 @@ Diagram provides support to add different kind of nodes. They are as follows:
 
 Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documentation/api/diagram/textmodel) node. The shape property of the node allows you to set the type of node and for text nodes, it should be set as **text**. In addition, define the content object that is used to define the text to be added and style is used to customize the appearance of that text. The following code illustrates how to create a text node.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,7 +40,7 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documen
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs1" %}
 
-{% endif %}
+
 
 ## Image
 
@@ -48,7 +48,7 @@ Diagram allows to add images as [`image`](https://ej2.syncfusion.com/documentati
 
 The following code illustrates how an image node is created.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -61,13 +61,13 @@ The following code illustrates how an image node is created.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs2" %}
 
-{% endif %}
+
 
 ### Base64 Encoded Image Into The Image Node:
 
 The following code illustrates how to add Base64 image into image node.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -80,7 +80,7 @@ The following code illustrates how to add Base64 image into image node.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs3" %}
 
-{% endif %}
+
 
 N> Deploy your HTML file in the web application and export the diagram (image node) or else the image node will not be exported in the Chrome and Firefox due to security issues. Refer to the following link.
 
@@ -96,7 +96,7 @@ The scale property of the node allows to stretch the image as you desired (eithe
 
 The following code illustrates how to use scale and align properties to stretch the image.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -109,7 +109,7 @@ The following code illustrates how to use scale and align properties to stretch 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs4" %}
 
-{% endif %}
+
 
 The following table illustrates all the possible scale options for the image node.
 
@@ -132,7 +132,7 @@ N> HTML node cannot be exported to image format, like JPEG, PNG, and BMP. It is 
 
 To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://ej2.syncfusion.com/documentation/api/diagram/htmlModel#content) property. The following code illustrates how to create an HTML node with a content template:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -145,7 +145,7 @@ To render an HTML node with a content template, we need to define the desired te
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs5" %}
 
-{% endif %}
+
 
 #### Functional content template.
 
@@ -153,7 +153,7 @@ To render an HTML node using a functional template, we define a function that re
 
 The following code illustrates how to render an HTML node using the function and manipulate its content dynamically.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -166,13 +166,13 @@ The following code illustrates how to render an HTML node using the function and
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate" %}
 
-{% endif %}
+
 
 ### HTML Node With nodeTemplate
 
 To render html node with nodeTemplate we need to define the nodeTemplate in the html file and assign it to the [`nodeTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#nodetemplate) property of the diagram. The following code illustrates how to render html node with nodeTemplate.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -185,7 +185,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs6" %}
 
-{% endif %}
+
 
 #### Functional nodeTemplate
 
@@ -193,7 +193,7 @@ We can define a function which returns a template string and assign it directly 
 
 Refer the code example below.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -206,13 +206,13 @@ Refer the code example below.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
 
-{% endif %}
+
 
 ## Native
 
 Diagram provides support to embed SVG element into a node. The shape property of node allows you to set the type of node. To create a [`native`](https://ej2.syncfusion.com/documentation/api/diagram/nativemodel) node, it should be set as **native**. The following code illustrates how a native node is created.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -225,7 +225,7 @@ Diagram provides support to embed SVG element into a node. The shape property of
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs7" %}
 
-{% endif %}
+
 
 N> Like HTML node, the native node also cannot be exported to image format. Fill color of native node can be overridden by the inline style or fill of the SVG element specified in the template.
 
@@ -252,7 +252,7 @@ The following tables illustrates all the possible scale options for the node.
 
 The following code example illustrates how to create a basic shape.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -265,7 +265,7 @@ The following code example illustrates how to create a basic shape.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs8" %}
 
-{% endif %}
+
 
 N> By default, the `shape` property of the node is set as **basic**.
 
@@ -283,7 +283,7 @@ The [`Path`](https://ej2.syncfusion.com/documentation/api/diagram/pathmodel) sha
 
 To create a path node, specify the shape as Path. The [`data`](https://ej2.syncfusion.com/documentation/api/diagram/pathModel#data) property of node allows you to define the path to be drawn. The following code illustrates how a path node is created.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -296,13 +296,13 @@ To create a path node, specify the shape as Path. The [`data`](https://ej2.syncf
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs9" %}
 
-{% endif %}
+
 
 ## Flow Shapes
 
 The [`flow`](https://ej2.syncfusion.com/documentation/api/diagram/flowshapemodel) shapes are used to represent the process flow. It is used for analyzing, designing, and managing for documentation process. To create a flow shape, specify the shape type as **flow**. Flow shapes and by default, it is considered as **process**. The following code example illustrates how to create a flow shape.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -315,7 +315,7 @@ The [`flow`](https://ej2.syncfusion.com/documentation/api/diagram/flowshapemodel
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs10" %}
 
-{% endif %}
+
 
 The list of flow shapes are as follows.
 

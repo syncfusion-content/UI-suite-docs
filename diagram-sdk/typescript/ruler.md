@@ -21,7 +21,7 @@ The [`showRulers`](https://ej2.syncfusion.com/documentation/api/diagram/rulerSet
 
 The following code shows how to add a ruler to the diagram.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +34,7 @@ The following code shows how to add a ruler to the diagram.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs1" %}
 
-{% endif %}
+
 
 ## Customizing the Ruler
 
@@ -50,7 +50,7 @@ The HorizontalRuler’s [`thickness`](https://ej2.syncfusion.com/documentation/a
 
 The following code shows how the diagram ruler can be customized.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -63,7 +63,7 @@ The following code shows how the diagram ruler can be customized.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/customRuler-cs1" %}
 
-{% endif %}
+
 
 ### Arrange tick
 
@@ -71,7 +71,7 @@ The HorizontalRuler’s [`arrangeTick`](https://ej2.syncfusion.com/documentation
 
 The following code demonstrates how to use the `arrangeTick` function to customize the tickLength.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -84,7 +84,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs2" %}
 
-{% endif %}
+
 
 ### Marker color
 

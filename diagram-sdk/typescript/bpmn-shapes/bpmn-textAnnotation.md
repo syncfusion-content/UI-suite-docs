@@ -29,7 +29,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * The `offsetX` and `offsetY` properties are used to set the distance between the BPMN node and the TextAnnotation.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -42,13 +42,13 @@ domainurl: https://help.syncfusion.com/diagram-sdk
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs16" %}
 
-{% endif %}
+
 
 ### Text annotation in palette.
 
 Text annotation node can be rendered in symbol palette like other bpmn shapes. The following example shows how to render Bpmn text annotation node in symbol palette.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -61,7 +61,7 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette" %}
 
-{% endif %}
+
 
 
 ### Connect the TextAnnotation to BPMN node
@@ -88,7 +88,7 @@ There are several types of Text annotation directions as follows:
 
 Text annotations can be added dynamically using either the [`addTextAnnotation`](https://ej2.syncfusion.com/documentation/api/diagram#addtextannotation) method or the [`add`](https://ej2.syncfusion.com/documentation/api/diagram#add) method of the diagram. The following example shows how to use these methods to add a text annotation node.
  
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -101,4 +101,4 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette-runtime" %}
 
-{% endif %}
+

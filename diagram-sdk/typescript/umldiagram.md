@@ -33,7 +33,7 @@ The method [`parameters`](https://ej2.syncfusion.com/documentation/api/diagram/m
 
 The following code example illustrates how to create a class.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -46,7 +46,7 @@ The following code example illustrates how to create a class.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs1" %}
 
-{% endif %}
+
 
 ### Interface
 
@@ -62,7 +62,7 @@ The parameters object within methods allows you to specify the name and type of 
 
 The following code example illustrates how to create an interface:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ The following code example illustrates how to create an interface:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs2" %}
 
-{% endif %}
+
 
 ### Enumeration
 
@@ -85,7 +85,7 @@ You can set a name for the enumeration members collection using the [`name`](htt
 
 The following code example illustrates how to create an enumeration.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -98,7 +98,7 @@ The following code example illustrates how to create an enumeration.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs3" %}
 
-{% endif %}
+
 
 
 ## UML Class Relationships
@@ -123,7 +123,7 @@ A class may be involved in one or more relationships with other classes. A relat
 
 The association property allows you to define the type of association. The default value of association is `“Directional”`. The following code example illustrates how to create an association.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -136,7 +136,7 @@ The association property allows you to define the type of association. The defau
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs4" %}
 
-{% endif %}
+
 
 ### Aggregation
 
@@ -144,7 +144,7 @@ The association property allows you to define the type of association. The defau
 
 The following code example illustrates how to create an aggregation.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -157,7 +157,7 @@ The following code example illustrates how to create an aggregation.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs5" %}
 
-{% endif %}
+
 
 ### Composition
 
@@ -165,7 +165,7 @@ Composition is a strong form of `aggregation`. The composition is decorated with
 
 The following code example illustrates how to create a composition.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -178,7 +178,7 @@ The following code example illustrates how to create a composition.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs6" %}
 
-{% endif %}
+
 
 ### Inheritance
 
@@ -188,7 +188,7 @@ To create an inheritance, define the [`relationship`](https://ej2.syncfusion.com
 
 The following code example illustrates how to create an inheritance.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -201,7 +201,7 @@ The following code example illustrates how to create an inheritance.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs8" %}
 
-{% endif %}
+
 
 ### Dependency
 
@@ -209,7 +209,7 @@ Dependency is a directed relationship, which is used to show that some UML eleme
 
 The following code example illustrates how to create a dependency.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -222,7 +222,7 @@ The following code example illustrates how to create a dependency.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs7" %}
 
-{% endif %}
+
 
 ### Multiplicity
 
@@ -245,7 +245,7 @@ The [`lowerBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multipl
 
 The following code example illustrates how to customize the multiplicity.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -258,7 +258,7 @@ The following code example illustrates how to customize the multiplicity.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs9" %}
 
-{% endif %}
+
 
 ## How to add UML child at runtime
 
@@ -270,7 +270,7 @@ The [addChildToUmlNode](https://ej2.syncfusion.com/documentation/api/diagram#add
 
 The following code example illustrates how to add members, methods and attributes to UML node at rumtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -283,7 +283,7 @@ The following code example illustrates how to add members, methods and attribute
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-addDynamic" %}
 
-{% endif %}
+
 
 ### Adding UML child through user interaction
 
@@ -297,7 +297,7 @@ UML built-in shapes are easily rendered in a symbol palette. The [`symbols`](htt
 
 The following code example showcases the rendering of UML built-in shapes in a symbol palette
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -310,7 +310,7 @@ The following code example showcases the rendering of UML built-in shapes in a s
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs12" %}
 
-{% endif %}
+
 
 ## Editing in UML nodes
 
@@ -354,7 +354,7 @@ To create a UmlActivity, define the [`type`](https://ej2.syncfusion.com/document
 
 The following code illustrates how to create a UmlActivity shapes.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -367,7 +367,7 @@ The following code illustrates how to create a UmlActivity shapes.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs10" %}
 
-{% endif %}
+
 
 ### UML Activity connector
 
@@ -375,7 +375,7 @@ To establish a UML Activity connector, specify the [`type`](https://ej2.syncfusi
 
 The following code illustrates how to create a UmlActivity connector.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -388,4 +388,3 @@ The following code illustrates how to create a UmlActivity connector.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umldiagramshapes-cs11" %}
 
-{% endif %}

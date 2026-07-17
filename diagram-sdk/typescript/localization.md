@@ -17,7 +17,7 @@ The EJ2 Diagram component supports `localization`. In the Diagram component, the
 
 To localize the diagram context menu, we need to define the [`locale`](https://ej2.syncfusion.com/documentation/api/diagram#locale) property of the diagram with our preferred culture. In the example below, we use **de-DE**, which is the locale code for German as used in Germany.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 //Initialize the diagram
@@ -33,14 +33,14 @@ var diagram = new Diagram({
 });
 
 ```
-{% endif %}
+
 
 Next, we need to call the `setCulture('de')` function, which sets the default culture for all EJ2 components. This method takes one parameter, cultureName, which specifies the culture name to be set as the default.
 
 We also need to define the text we want to render in the context menu instead of the default English, as shown below.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 
@@ -71,11 +71,11 @@ L10n.load({
 
 ```
 
-{% endif %}
+
 
 The following code example summarizes the locale settings for the context menu.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -88,7 +88,7 @@ The following code example summarizes the locale settings for the context menu.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs1" %}
 
-{% endif %}
+
 
 ## Localize Symbol palette
 
@@ -99,7 +99,7 @@ To localize the symbol palette search box, we need to define the [`locale`](http
 The following code shows how to localize symbol palette.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 // Set the default culture to German
@@ -127,11 +127,11 @@ L10n.load({
 
 ```
 
-{% endif %}
+
 
 The following code example summarizes the locale settings for the symbol palette.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -144,6 +144,6 @@ The following code example summarizes the locale settings for the symbol palette
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs2" %}
 
-{% endif %}
+
 
 Refer [`localization`](https://ej2.syncfusion.com/javascript/documentation/common/localization) for more information.

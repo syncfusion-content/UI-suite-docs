@@ -15,7 +15,7 @@ BPMN shapes are used to represent the internal business procedure in a graphical
 
 N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in the diagram.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs1" %}
 
-{% endif %}
+
 
 >Note : The default value for the property `shape` is “event”.
 
