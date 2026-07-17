@@ -274,7 +274,7 @@ N> Both `displacement` and `alignment` are applicable only to connector fixed us
 
 #### Customizing the Connector Fixed User Handle
 
-The connector fixed user handle can be aligned relative to the connector boundaries. It has alignment, displacement and offset settings. The [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/pointmodel) property displaces the handle from its aligned position and its functioning only when the [`alignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorFixedUserHandleModel#alignment) property is set to 'After' or 'Before'.
+The connector fixed user handle can be aligned relative to the connector boundaries. It has alignment, displacement and offset settings. The [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorFixedUserHandleModel#displacement) property displaces the handle from its aligned position and its functioning only when the [`alignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorFixedUserHandleModel#alignment) property is set to 'After' or 'Before'.
 
 ##### Offset
 
@@ -300,7 +300,7 @@ The following table shows all the possible offset and alignment combinations of 
 
 ##### Displacement
 
-The [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/pointmodel) property displaces the handle from its aligned position based on the provided x and y value.
+The [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorFixedUserHandleModel#displacement) property displaces the handle from its aligned position based on the provided x and y value.
 
 The following table shows all the possible alignment and displacement combinations of fixed user handle.
 
