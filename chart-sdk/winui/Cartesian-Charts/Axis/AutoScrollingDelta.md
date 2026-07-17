@@ -2,7 +2,7 @@
 layout: post
 title: AutoScrollingDelta feature in WinUI Chart control | Syncfusion
 description: Learn here all about axis AutoScrollingDelta feature in Syncfusion® WinUI Chart (SfCartesianChart) control and more.
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: auto scrolling in winui chart, winui sfcartesianchart auto scrolling, winui chart auto scrolling customization, syncfusion winui chart auto scrolling, winui sfcartesianchart auto scrolling settings.

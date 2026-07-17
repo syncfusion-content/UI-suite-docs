@@ -2,7 +2,7 @@
 layout: post
 title: Axis Tick Line in WinUI Chart control | Syncfusion
 description: Learn here all about chart axis tick line and its customization in Syncfusion® WinUI Chart (SfCartesianChart) control.
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: tick lines in winui chart, winui sfcartesianchart tick lines, winui chart tick lines customization, syncfusion winui chart tick lines.

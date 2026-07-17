@@ -2,7 +2,7 @@
 layout: post
 title: Header for axis in WinUI Chart control | Syncfusion
 description: This section explains about chart axis header, header style, header template and its customization in WinUI chart (SfCartesianChart).
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: axis title in winui chart, winui sfcartesianchart axis title, winui chart axis title customization, syncfusion winui chart axis title, winui sfcartesianchart axis title configuration.

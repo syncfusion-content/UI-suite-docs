@@ -2,7 +2,7 @@
 layout: post
 title: Range padding in WinUI Chart control | Syncfusion
 description: Learn here all about axis range padding and its types features of Syncfusion® WinUI Chart (SfCartesianChart) control.
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: range padding in winui chart, winui sfcartesianchart range padding, winui chart range padding customization, syncfusion winui chart range padding, winui sfcartesianchart range padding configuration.
