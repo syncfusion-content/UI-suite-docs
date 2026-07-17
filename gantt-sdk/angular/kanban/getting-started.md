@@ -63,7 +63,7 @@ Next, a prompt for AI tooling support appears, as shown below:
 
 Any preferred option can be selected based on the development workflow or project needs.
 
-> Note: Angular CLI 17+ creates the root component file as `src/app/app.component.ts` (not `app.ts`). All file paths in this guide use this default naming.
+> Note: Angular CLI 17+ creates the root component file as `src/app/app.ts` (not `app.ts`). All file paths in this guide use this default naming.
 
 Navigate to the project folder:
 
@@ -101,93 +101,96 @@ Include the required styles in the `styles.css` file. If you selected a differen
 
 ## Adding Kanban component
 
-Update the `src/app/app.component.ts` file to render the Kanban component. Add the Angular Kanban by using the `<ejs-kanban>` selector in the `template` section. The `CardSettingsModel` type is imported from `@syncfusion/ej2-kanban` and describes the shape of `cardSettings`.
+Update the `src/app.ts` file to render the Kanban component. Add the Angular Kanban by using the `<ejs-kanban>` selector in the `template` section. The `CardSettingsModel` type is imported from `@syncfusion/ej2-kanban` and describes the shape of `cardSettings`.
 
-`src/app/app.component.ts`
+`src/app.ts`
 
 ```typescript
+import { CardSettingsModel, KanbanModule } from '@syncfusion/ej2-angular-kanban';
 import { Component } from '@angular/core';
-import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
-import { CardSettingsModel } from '@syncfusion/ej2-kanban';
-
+ 
 @Component({
-    imports: [
-        KanbanModule
-    ],
-    standalone: true,
-    selector: 'app-root',
-    template: `<ejs-kanban>
-                [dataSource]='data' keyField='Status' [cardSettings]='cardSettings' 
-                <e-columns>
-                    <e-column headerText='To do' keyField='Open'></e-column>
-                    <e-column headerText='In Progress' keyField='InProgress'></e-column>
-                    <e-column headerText='Testing' keyField='Testing'></e-column>
-                    <e-column headerText='Done' keyField='Close'></e-column>
-                </e-columns>
-            </ejs-kanban>`
-    })
+  imports: [KanbanModule],
+  standalone: true,
+  selector: 'app-root',
+  template: `
+    <ejs-kanban
+      [dataSource]='data'
+      keyField="Status"
+      [cardSettings]="cardSettings"
+    >
+      <e-columns>
+        <e-column headerText="To do" keyField="Open"></e-column>
+        <e-column headerText="In Progress" keyField="InProgress"></e-column>
+        <e-column headerText="Testing" keyField="Testing"></e-column>
+        <e-column headerText="Done" keyField="Close"></e-column>
+      </e-columns>
+    </ejs-kanban>
+  `
+})
 export class App {
-    public data: Object[] =  [
-        {
-            Id: 1,
-            Status: 'Open',
-            Summary: 'Analyze the new requirements gathered from the customer.',
-            Type: 'Story',
-            Priority: 'Low',
-            Tags: 'Analyze,Customer',
-            Estimate: 3.5,
-            Assignee: 'Nancy Davloio',
-            RankId: 1
-        },
-        {
-            Id: 2,
-            Status: 'InProgress',
-            Summary: 'Improve application performance',
-            Type: 'Improvement',
-            Priority: 'Normal',
-            Tags: 'Improvement',
-            Estimate: 6,
-            Assignee: 'Andrew Fuller',
-            RankId: 1
-        },
-        {
-            Id: 3,
-            Status: 'Open',
-            Summary: 'Arrange a web meeting with the customer to get new requirements.',
-            Type: 'Others',
-            Priority: 'Critical',
-            Tags: 'Meeting',
-            Estimate: 5.5,
-            Assignee: 'Janet Leverling',
-            RankId: 2
-        },
-        {
-            Id: 4,
-            Status: 'InProgress',
-            Summary: 'Fix the issues reported in the IE browser.',
-            Type: 'Bug',
-            Priority: 'Release Breaker',
-            Tags: 'IE',
-            Estimate: 2.5,
-            Assignee: 'Janet Leverling',
-            RankId: 2
-        },
-        {
-            Id: 5,
-            Status: 'Testing',
-            Summary: 'Fix the issues reported by the customer.',
-            Type: 'Bug',
-            Priority: 'Low',
-            Tags: 'Customer',
-            Estimate: '3.5',
-            Assignee: 'Steven walker',
-            RankId: 1
-        },
-    ];
-    public cardSettings: CardSettingsModel = {
-        contentField: 'Summary',
-        headerField: 'Id'
-    };
+  public cardSettings: CardSettingsModel = {
+    contentField: 'Summary',
+    headerField: 'Id'
+  };
+ 
+  public data: Object[] = [
+    {
+      Id: 1,
+      Status: 'Open',
+      Summary: 'Analyze the new requirements gathered from the customer.',
+      Type: 'Story',
+      Priority: 'Low',
+      Tags: 'Analyze,Customer',
+      Estimate: 3.5,
+      Assignee: 'Nancy Davloio',
+      RankId: 1
+    },
+    {
+      Id: 2,
+      Status: 'InProgress',
+      Summary: 'Improve application performance',
+      Type: 'Improvement',
+      Priority: 'Normal',
+      Tags: 'Improvement',
+      Estimate: 6,
+      Assignee: 'Andrew Fuller',
+      RankId: 1
+    },
+    {
+      Id: 3,
+      Status: 'Open',
+      Summary: 'Arrange a web meeting with the customer to get new requirements.',
+      Type: 'Others',
+      Priority: 'Critical',
+      Tags: 'Meeting',
+      Estimate: 5.5,
+      Assignee: 'Janet Leverling',
+      RankId: 2
+    },
+    {
+      Id: 4,
+      Status: 'InProgress',
+      Summary: 'Fix the issues reported in the IE browser.',
+      Type: 'Bug',
+      Priority: 'Release Breaker',
+      Tags: 'IE',
+      Estimate: 2.5,
+      Assignee: 'Janet Leverling',
+      RankId: 2
+    },
+    {
+      Id: 5,
+      Status: 'Testing',
+      Summary: 'Fix the issues reported by the customer.',
+      Type: 'Bug',
+      Priority: 'Low',
+      Tags: 'Customer',
+      Estimate: 3.5,
+      Assignee: 'Steven walker',
+      RankId: 1
+    }
+  ];
 }
 ```
 
@@ -204,8 +207,8 @@ This command builds the application and opens it in your default web browser. Th
 For reference, the complete sample used in this section is shown below. The data is extracted to a separate `datasource.ts` file to keep the component focused on configuration.
 
 {% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.component.ts %}
+{% highlight ts tabtitle="app.ts" %}
+{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
