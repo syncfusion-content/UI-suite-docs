@@ -52,7 +52,7 @@ Install the [Syncfusion.AspNetCore.Diagram](https://www.nuget.org/packages/Syncf
 {% tabcontent Visual Studio %}
 
 1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
-2. Search the required NuGet packages (`Syncfusion.AspNetCore.Diagram` and `Syncfusion.AspNetCore.Themes`) and install it.
+2. Search the required NuGet packages (`Syncfusion.AspNetCore.Diagram` and `Syncfusion.AspNetCore.Themes`) and install them.
 
 Alternatively, you can install the same packages using the Package Manager Console with the following commands.
 
@@ -115,7 +115,7 @@ The theme stylesheet and script can be referenced from NuGet through [Static Web
 
 ## Register the Script Manager
 
-Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager `<ejs-scripts>` at the end of the `<body>` element as shown below.
+Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager (`<ejs-scripts>`) at the end of the `<body>` element as shown below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="_Layout.cshtml" %}
@@ -157,7 +157,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 Open **~/Pages/Index.cshtml.cs** and declare `nodes` and `connectors` as public properties on the page model. Populate them inside the `OnGet` method so they are available to the view when the page loads.
 
 {% tabs %}
-{% highlight c# tabtitle="Index.cshtml.cs" %}
+{% highlight C# tabtitle="Index.cshtml.cs" %}
 
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Syncfusion.EJ2.Diagrams;
@@ -226,7 +226,7 @@ public class IndexModel : PageModel
 
 ### Bind the data
 
-Update **~/Pages/Index.cshtml** to bind `@Model.nodes` and `@Model.connectors` to the `<ejs-diagram>` tag helper. The JavaScript function names are passed as string variables using the Razor `@{ }` block.
+To render the diagram using data from the model, bind **@Model.nodes** and **@Model.connectors** to the `<ejs-diagram>` tag helper. When specifying JavaScript callback functions such as **getNodeDefaults** and **getConnectorDefaults**, pass the function names as string variables from the Razor `@{ }` block.
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}

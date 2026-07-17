@@ -71,7 +71,7 @@ The theme stylesheet and script can be referenced from NuGet through [Static Web
 
 ## Register the script manager
 
-Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager `<ejs-scripts>` at the end of the `<body>` element as shown below.
+Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager (`<ejs-scripts>`) at the end of the `<body>` element as shown below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="_Layout.cshtml" %}
@@ -107,7 +107,7 @@ To populate an empty Scheduler with appointments, bind the event data to it by a
 {% highlight cshtml tabtitle="Index.cshtml" %}
 {% include code-snippet/scheduler-sdk/asp-net-core/schedule/getting-started/data/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Index.cshtml.cs" %}
+{% highlight C# tabtitle="Index.cshtml.cs" %}
 public class AppointmentData
 {
     public int Id { get; set; }
@@ -128,7 +128,7 @@ By default, the Scheduler displays the system date as its current date. To chang
 {% highlight cshtml tabtitle="Index.cshtml" %}
 {% include code-snippet/scheduler-sdk/asp-net-core/schedule/getting-started/data/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Index.cshtml.cs" %}
+{% highlight C# tabtitle="Index.cshtml.cs" %}
 public class AppointmentData
 {
     public int Id { get; set; }
