@@ -47,7 +47,7 @@ Diagram constraints allows to enable or disable the following behaviors:
 
 
 
-For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.htmll).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.htmll).
 
 ## Node constraints
 
@@ -84,7 +84,7 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 
 
 
-For more information about node constraints, refer to [`NodeConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.NodeConstraints.html).
+For more information about node constraints, refer to [`NodeConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.NodeConstraints.html).
 
 ## Connector constraints
 
@@ -119,7 +119,7 @@ Connector constraints allows to enable or disable certain behaviors of connector
 
 
 
-For more information about connector constraints, refer to [`ConnectorConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html).
+For more information about connector constraints, refer to [`ConnectorConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html).
 
 ## Port constraints
 
@@ -150,7 +150,7 @@ You can enable or disable certain behaviors of port. They are as follows:
 
 
 
-For more information about port constraints, refer to [`PortConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.PortConstraints.html).
+For more information about port constraints, refer to [`PortConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.PortConstraints.html).
 
 ## Annotation constraints
 
@@ -178,7 +178,7 @@ You can enable or disable read-only mode for the annotations by using the annota
 
 
 
-For more details about annotation constraints, refer to [`AnnotationConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
+For more details about annotation constraints, refer to [`AnnotationConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
 
 ## Selector constraints
 
@@ -210,7 +210,7 @@ Selector visually represents the selected elements with certain editable thumbs.
 
 
 
-For more information about selector constraints, refer to [`SelectorConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SelectorConstraints.html).
+For more information about selector constraints, refer to [`SelectorConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SelectorConstraints.html).
 
 ## Snap constraints
 
@@ -243,7 +243,7 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 
 
 
-For more information about snap constraints, refer to [`SnapConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SnapConstraints.html).
+For more information about snap constraints, refer to [`SnapConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SnapConstraints.html).
 
 ## Boundary constraints
 
@@ -275,7 +275,7 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 
 
 
-For more information about selector constraints, refer to [`BoundaryConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.BoundaryConstraints.html).
+For more information about selector constraints, refer to [`BoundaryConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BoundaryConstraints.html).
 
 ## Inherit behaviors
 

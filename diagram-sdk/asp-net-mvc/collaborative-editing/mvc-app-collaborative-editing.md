@@ -69,7 +69,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 
 ## Sending and applying real-time diagram changes
 
-* The ASP.NET MVC Diagram component triggers the [historyChange](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_HistoryChange) event whenever the diagram is modified (e.g., add, delete, move, resize, or edit nodes/connectors).
+* The ASP.NET MVC Diagram component triggers the [historyChange](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_HistoryChange) event whenever the diagram is modified (e.g., add, delete, move, resize, or edit nodes/connectors).
 * Use [getDiagramUpdates]() to produce a compact set of incremental updates (JSON-formatted changes) representing just the changes, not the entire diagram.
 * Send these changes to the hub method `BroadcastToOtherUsers`, which relays them to all users joined to the same SignalR group (room).
 * Each remote user listens for ReceiveData and applies the incoming changes with [setDiagramUpdates](), keeping their view synchronized without reloading the full diagram.

@@ -15,11 +15,11 @@ Swimlane is a type of diagram nodes, which is typically used to visualize the re
 
 ## Create a swimlane
 
-To create a swimlane, the type of shape should be set as [`swimlane`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html). By Default swimlane's are arranged vertically.
+To create a swimlane, the type of shape should be set as [`swimlane`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html). By Default swimlane's are arranged vertically.
 
 ### Headers
 
-Header was the primary element for swimlanes. The [`header`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of swimlane allows to define its textual description and to customize its appearance.
+Header was the primary element for swimlanes. The [`header`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of swimlane allows to define its textual description and to customize its appearance.
 
 N> By using this header, the swimlane interaction will be performed, like selection, dragging, etc.
 
@@ -47,7 +47,7 @@ N> By using this header, the swimlane interaction will be performed, like select
 
 ### Customization of headers
 
-The height and width of swimlane header can be customized with [`weight`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties of swimlane header. Set fill color of header by using the [`style`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property. The orientation of swimlane can be customized with the [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the header.
+The height and width of swimlane header can be customized with [`weight`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties of swimlane header. Set fill color of header by using the [`style`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property. The orientation of swimlane can be customized with the [`orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the header.
 
 N> By default the swimlane orientation has Horizontal.
 
@@ -93,13 +93,13 @@ Diagram provides the support to edit swimlane headers at runtime. The header edi
 
 Lane is a functional unit or a responsible department of a business process that helps to map a process within the functional unit or in between other functional units.
 
-The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) can be added to swimlane. The lanes are automatically stacked inside swimlane based on the order they are added.
+The number of [`lanes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) can be added to swimlane. The lanes are automatically stacked inside swimlane based on the order they are added.
 
 ### Create an empty lane
 
 * The lanes `id` is used to define the name of the lane and its further used to find the lane at runtime and do any customization.
 
-* The additional information to the lane is provided by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the lane.
+* The additional information to the lane is provided by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the lane.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -125,7 +125,7 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 ### Create lane header
 
-* The [`header`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of lane allows to textually describe the lane and to customize the appearance of the description.
+* The [`header`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of lane allows to textually describe the lane and to customize the appearance of the description.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -151,8 +151,8 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 ### Customizing lane header
 
-* The size of lane can be controlled by using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties of the lane.
-* The appearance of the lane can be set by using the [`style`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties.
+* The size of lane can be controlled by using the [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties of the lane.
+* The appearance of the lane can be set by using the [`style`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -192,7 +192,7 @@ diagram.dataBind();
 
 ### Add children to lane
 
-To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) collection of the lane.
+To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) collection of the lane.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -305,7 +305,7 @@ Diagram provides the support to edit Lane headers at runtime. The header editing
 
 ## Phase
 
-Phase are the subprocess which will split each lane as horizontally or vertically based on the swimlane orientation. The multiple number of [`Phase`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) can be added to swimlane.
+Phase are the subprocess which will split each lane as horizontally or vertically based on the swimlane orientation. The multiple number of [`Phase`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) can be added to swimlane.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -343,10 +343,10 @@ You can add the phase at runtime by using client side API method called `addPhas
 
 ### Customizing phase
 
-* The length of region can be set by using the [`offset`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
-* Every phase region can be textually described with the [`header`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
-* You can increase the width of phase by using [`phaseSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of swimlane.
-* The additional information can be provided to the phase by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
+* The length of region can be set by using the [`offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
+* Every phase region can be textually described with the [`header`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
+* You can increase the width of phase by using [`phaseSize`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of swimlane.
+* The additional information can be provided to the phase by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
