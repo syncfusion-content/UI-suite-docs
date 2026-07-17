@@ -89,7 +89,7 @@ The Kanban component requires specific CSS files for proper rendering. Syncfusio
 To apply the [material 3](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) theme, install the corresponding theme package by using the following command:
 
 ```css
-npm install @syncfusion/ej2-tailwind3-theme
+npm install @syncfusion/ej2-material3-theme
 ```
 
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/styles.css`:
@@ -100,93 +100,95 @@ The installed theme package includes an `index.css` file that automatically impo
 
 ## Adding Kanban component
 
-Update the `src/app/app.component.ts` file to render the Kanban component. Add the Angular Kanban by using the `<ejs-kanban>` selector in the `template` section. The `CardSettingsModel` type is imported from `@syncfusion/ej2-kanban` and describes the shape of `cardSettings`.
+Update the `src/app.ts` file to render the Kanban component. Add the Angular Kanban by using the `<ejs-kanban>` selector in the `template` section. The `CardSettingsModel` type is imported from `@syncfusion/ej2-kanban` and describes the shape of `cardSettings`.
 
-`src/app/app.component.ts`
+`src/app.ts`
 
 ```typescript
+import { CardSettingsModel, KanbanModule } from '@syncfusion/ej2-angular-kanban';
 import { Component } from '@angular/core';
-import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
-import { CardSettingsModel } from '@syncfusion/ej2-kanban';
 
 @Component({
-    imports: [
-        KanbanModule
-    ],
-    standalone: true,
-    selector: 'app-root',
-    template: `<ejs-kanban>
-                [dataSource]='data' keyField='Status' [cardSettings]='cardSettings' 
-                <e-columns>
-                    <e-column headerText='To do' keyField='Open'></e-column>
-                    <e-column headerText='In Progress' keyField='InProgress'></e-column>
-                    <e-column headerText='Testing' keyField='Testing'></e-column>
-                    <e-column headerText='Done' keyField='Close'></e-column>
-                </e-columns>
-            </ejs-kanban>`
-    })
+  imports: [KanbanModule],
+  standalone: true,
+  selector: 'app-root',
+  template: `
+    <ejs-kanban
+      [dataSource]='data'
+      keyField="Status"
+      [cardSettings]="cardSettings"
+    >
+      <e-columns>
+        <e-column headerText="To do" keyField="Open"></e-column>
+        <e-column headerText="In Progress" keyField="InProgress"></e-column>
+        <e-column headerText="Testing" keyField="Testing"></e-column>
+        <e-column headerText="Done" keyField="Close"></e-column>
+      </e-columns>
+    </ejs-kanban>
+  `
+})
 export class App {
-    public data: Object[] =  [
-        {
-            Id: 1,
-            Status: 'Open',
-            Summary: 'Analyze the new requirements gathered from the customer.',
-            Type: 'Story',
-            Priority: 'Low',
-            Tags: 'Analyze,Customer',
-            Estimate: 3.5,
-            Assignee: 'Nancy Davloio',
-            RankId: 1
-        },
-        {
-            Id: 2,
-            Status: 'InProgress',
-            Summary: 'Improve application performance',
-            Type: 'Improvement',
-            Priority: 'Normal',
-            Tags: 'Improvement',
-            Estimate: 6,
-            Assignee: 'Andrew Fuller',
-            RankId: 1
-        },
-        {
-            Id: 3,
-            Status: 'Open',
-            Summary: 'Arrange a web meeting with the customer to get new requirements.',
-            Type: 'Others',
-            Priority: 'Critical',
-            Tags: 'Meeting',
-            Estimate: 5.5,
-            Assignee: 'Janet Leverling',
-            RankId: 2
-        },
-        {
-            Id: 4,
-            Status: 'InProgress',
-            Summary: 'Fix the issues reported in the IE browser.',
-            Type: 'Bug',
-            Priority: 'Release Breaker',
-            Tags: 'IE',
-            Estimate: 2.5,
-            Assignee: 'Janet Leverling',
-            RankId: 2
-        },
-        {
-            Id: 5,
-            Status: 'Testing',
-            Summary: 'Fix the issues reported by the customer.',
-            Type: 'Bug',
-            Priority: 'Low',
-            Tags: 'Customer',
-            Estimate: '3.5',
-            Assignee: 'Steven walker',
-            RankId: 1
-        },
-    ];
-    public cardSettings: CardSettingsModel = {
-        contentField: 'Summary',
-        headerField: 'Id'
-    };
+  public cardSettings: CardSettingsModel = {
+    contentField: 'Summary',
+    headerField: 'Id'
+  };
+  public data: Object[] = [
+    {
+      Id: 1,
+      Status: 'Open',
+      Summary: 'Analyze the new requirements gathered from the customer.',
+      Type: 'Story',
+      Priority: 'Low',
+      Tags: 'Analyze,Customer',
+      Estimate: 3.5,
+      Assignee: 'Nancy Davloio',
+      RankId: 1
+    },
+    {
+      Id: 2,
+      Status: 'InProgress',
+      Summary: 'Improve application performance',
+      Type: 'Improvement',
+      Priority: 'Normal',
+      Tags: 'Improvement',
+      Estimate: 6,
+      Assignee: 'Andrew Fuller',
+      RankId: 1
+    },
+    {
+      Id: 3,
+      Status: 'Open',
+      Summary: 'Arrange a web meeting with the customer to get new requirements.',
+      Type: 'Others',
+      Priority: 'Critical',
+      Tags: 'Meeting',
+      Estimate: 5.5,
+      Assignee: 'Janet Leverling',
+      RankId: 2
+    },
+    {
+      Id: 4,
+      Status: 'InProgress',
+      Summary: 'Fix the issues reported in the IE browser.',
+      Type: 'Bug',
+      Priority: 'Release Breaker',
+      Tags: 'IE',
+      Estimate: 2.5,
+      Assignee: 'Janet Leverling',
+      RankId: 2
+    },
+    {
+      Id: 5,
+      Status: 'Testing',
+      Summary: 'Fix the issues reported by the customer.',
+      Type: 'Bug',
+      Priority: 'Low',
+      Tags: 'Customer',
+      Estimate: 3.5,
+      Assignee: 'Steven walker',
+      RankId: 1
+    }
+  ];
 }
 ```
 
