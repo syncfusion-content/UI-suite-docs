@@ -244,7 +244,7 @@ Inject the `VersionHistory` module and configure the `versionHistory` property u
 
 ```html
 <template>
-  <ejs-blockeditor><ejs-blockeditor/>
+  <ejs-blockeditor></ejs-blockeditor>
 </template>
 
 <script setup>
