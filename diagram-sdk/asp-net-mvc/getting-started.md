@@ -12,7 +12,7 @@ documentation: ug
 
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the ASP.NET MVC Diagram control.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetmvc/documentation/ai-coding-assistant/overview)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio, and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetmvc/documentation/ai-coding-assistant/overview).
 
 ## Prerequisites
 
@@ -41,11 +41,11 @@ Create a new ASP.NET MVC application using one of the following options:
 
 All Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2).
 
-To add `ASP.NET MVC` controls in the application, open the NuGet package manager in Visual Studio (Tools → NuGet Package Manager → Manage NuGet Packages for Solution), search for [Syncfusion.EJ2.MVC5](https://www.nuget.org/packages/Syncfusion.EJ2.MVC5) and then install it.
+To add ASP.NET MVC controls to the application, open the NuGet package manager in Visual Studio (Tools → NuGet Package Manager → Manage NuGet Packages for Solution), search for [Syncfusion.EJ2.MVC5](https://www.nuget.org/packages/Syncfusion.EJ2.MVC5) and then install it.
 
 Install the package using the Package Manager Console:
 
-```
+```powershell
 Install-Package Syncfusion.EJ2.MVC5 -Version {{ site.ej2version }}
 ```
 
@@ -55,7 +55,7 @@ N> The `Syncfusion.EJ2.MVC5` package has dependencies, [Newtonsoft.Json](https:/
 
 Add the **Syncfusion.EJ2** namespace reference in **~/Views/Web.config** under the `<namespaces>` section.
 
-```
+```xml
 <namespaces>
     <add namespace="Syncfusion.EJ2"/>
 </namespaces>
@@ -67,7 +67,7 @@ This makes the `@Html.EJS()` HTML helpers available in all views.
 
 Add the Syncfusion<sup style="font-size:70%">&reg;</sup> theme and script references inside the `<head>` of the **~/Views/Shared/_Layout.cshtml** file along with the existing content.
 
-```
+```html
 <head>
     ...
     <!-- Syncfusion® ASP.NET MVC controls styles -->
@@ -77,7 +77,7 @@ Add the Syncfusion<sup style="font-size:70%">&reg;</sup> theme and script refere
 </head>
 ```
 
-N> Syncfusion<sup style="font-size:70%">&reg;</sup> provides multiple built-in themes. To use a different theme, replace **tailwind3.css** with the corresponding theme file, such as **material3.css** or **fluent.css**. See the [Themes topic](https://ej2.syncfusion.com/aspnetmvc/documentation/appearance/theme) to learn different ways (CDN, NPM package, and [CRG](https://ej2.syncfusion.com/aspnetmvc/documentation/common/custom-resource-generator)) to refer styles in ASP.NET MVC application.
+N> Syncfusion<sup style="font-size:70%">&reg;</sup> provides multiple built-in themes. To use a different theme, replace **tailwind3.css** with the corresponding theme file, such as **material3.css** or **fluent.css**. See the [Themes topic](https://ej2.syncfusion.com/aspnetmvc/documentation/appearance/theme) to learn different ways (CDN, NPM package, and [CRG](https://ej2.syncfusion.com/aspnetmvc/documentation/common/custom-resource-generator)) to reference styles in an ASP.NET MVC application.
 
 N> Refer to the [Adding Script Reference](https://ej2.syncfusion.com/aspnetmvc/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your ASP.NET MVC application.
 
@@ -85,7 +85,7 @@ N> Refer to the [Adding Script Reference](https://ej2.syncfusion.com/aspnetmvc/d
 
 Add the `@Html.EJS().ScriptManager()` at the end of `<body>` in the **~/Views/Shared/_Layout.cshtml** file. The script manager renders the scripts required for Syncfusion<sup style="font-size:70%">&reg;</sup> controls to function correctly.
 
-```
+```html
 <body>
     ...
     <!-- Syncfusion® ASP.NET MVC Script Manager -->
@@ -97,7 +97,7 @@ Add the `@Html.EJS().ScriptManager()` at the end of `<body>` in the **~/Views/Sh
 
 Add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Diagram control in the **~/Views/Home/Index.cshtml** file using the `@Html.EJS().Diagram()` HTML helper.
 
-```
+```cshtml
 @Html.EJS().Diagram("diagram").Width("100%").Height("580px").Render()
 ```
 
@@ -105,7 +105,7 @@ This renders an empty diagram in the application.
 
 N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
-## Create your first Diagram with nodes and connectors
+## Step 7: Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
@@ -115,7 +115,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Open **~/Controllers/HomeController.cs** and populate the nodes and connectors in the `Index` action method, then pass them to the view using `ViewBag`.
 
-```
+```csharp
 using System.Web.Mvc;
 using Syncfusion.EJ2.Diagrams;
 using System.Collections.Generic;
@@ -184,9 +184,9 @@ public class HomeController : Controller
 
 ### Bind the data
 
-Update **~/Views/Home/Index.cshtml** to bind `ViewBag.Nodes` and `ViewBag.Connectors` to the `@Html.EJS().Diagram()` HTML helper.
+Replace the entire contents of **~/Views/Home/Index.cshtml** with the following code to bind `ViewBag.Nodes` and `ViewBag.Connectors` to the `@Html.EJS().Diagram()` HTML helper.
 
-```
+```cshtml
 @Html.EJS().Diagram("diagram")
     .Width("100%")
     .Height("580px")
@@ -229,15 +229,22 @@ In this example:
 * [`getNodeDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_GetNodeDefaults) applies common width, height, fill color, and stroke color to all nodes.
 * [`getConnectorDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_GetConnectorDefaults) applies common connector settings such as orthogonal routing and target arrows.
 
-## Step 7: Run the application
+## Step 8: Run the application
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> in Visual Studio to build and run the application.
+
+Alternatively, run the application from the command line:
+
+```bash
+dotnet run
+```
+
+N> Ensure the terminal is in the project folder before running this command.
 
 Open the generated local URL in the browser. The application displays the flowchart with four connected nodes.
 
 The output will appear as follows:
 
-![ASP.NET MVC Diagram Control](./images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
-
-N> You can refer to our [ASP.NET MVC Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-mvc-diagram) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET MVC Diagram example](https://ej2.syncfusion.com/aspnetmvc/Diagram/DefaultFunctionalities#/material) that shows how to render the Diagram in ASP.NET MVC.
+N> You can refer to our [ASP.NET MVC Diagram](https://www.syncfusion.com/aspnet-mvc-ui-controls/diagram) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET MVC Diagram example](https://ej2.syncfusion.com/aspnetmvc/Diagram/DefaultFunctionalities#/material) that shows how to render the Diagram in ASP.NET MVC.
