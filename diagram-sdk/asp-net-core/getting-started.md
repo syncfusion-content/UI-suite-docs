@@ -199,12 +199,15 @@ N> Ensure the `using Syncfusion.EJ2.Diagrams;` directive is present in `Index.cs
 
 ### Bind the data
 
-Replace the entire contents of **~/Pages/Index.cshtml** with the following code to bind `@Model.nodes` and `@Model.connectors` to the `<ejs-diagram>` tag helper. The `getNodeDefaults` and `getConnectorDefaults` JavaScript function names are passed as string values to the corresponding tag helper attributes.
+Replace the entire contents of **~/Pages/Index.cshtml** with the following code to bind `@Model.nodes` and `@Model.connectors` to the `<ejs-diagram>` tag helper. The JavaScript function names are passed as string variables using the Razor `@{ }` block.
 
 ```cshtml
 @page
 @model IndexModel
-
+@{
+    var getNodeDefaults = "getNodeDefaults";
+    var getConnectorDefaults = "getConnectorDefaults";
+}
 <ejs-diagram id="diagram" width="100%" height="580px"
              nodes="@Model.nodes"
              connectors="@Model.connectors"
