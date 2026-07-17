@@ -13,11 +13,11 @@ documentation: ug
 
 <!-- markdownlint-disable MD010 -->
 
-In graphical user interface (GUI), a context menu is a type of menu that appears when you perform right-click operation. Nested level of context menu items can be created. Diagram provides some in-built context menu items and allows to define custom menu items through the [`contextMenuSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) property.
+In graphical user interface (GUI), a context menu is a type of menu that appears when you perform right-click operation. Nested level of context menu items can be created. Diagram provides some in-built context menu items and allows to define custom menu items through the [`contextMenuSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) property.
 
 ## Customize context menu
 
-The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Show) property helps to enable or disable the context menu. Diagram provides some default context menu items to ease the execution of some frequently used commands.
+The [`show`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Show) property helps to enable or disable the context menu. Diagram provides some default context menu items to ease the execution of some frequently used commands.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -43,9 +43,9 @@ The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 Context menu can be defined for individual node with the desired context menu items.
 
-* Apart from the default context menu items, define some additional context menu items. Those additional items have to be defined and added to the [`items`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Items) property of the context menu.
+* Apart from the default context menu items, define some additional context menu items. Those additional items have to be defined and added to the [`items`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Items) property of the context menu.
 
-* Set text and ID for context menu item using the context menu [`text`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) and [`ID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) properties respectively.
+* Set text and ID for context menu item using the context menu [`text`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) and [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) properties respectively.
 
 * Set an image for the context menu item using the context menu url property.
 

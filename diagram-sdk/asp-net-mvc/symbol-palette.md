@@ -15,7 +15,7 @@ The **SymbolPalette** displays a collection of palettes. The palette shows a s
 
 ## Create symbol palette
 
-The [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Height) properties of the symbol palette allows to define the size of the symbol palette.
+The [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Height) properties of the symbol palette allows to define the size of the symbol palette.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -39,11 +39,11 @@ The [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagr
 
 ## Add palettes to SymbolPalette
 
-A palette allows to display a group of related symbols and it textually annotates the group with its header. A [`Palettes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Palettes) can be added as a collection of symbol groups.
+A palette allows to display a group of related symbols and it textually annotates the group with its header. A [`Palettes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Palettes) can be added as a collection of symbol groups.
 
-The collection of predefined symbols can be added in palettes using the [`symbols`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Symbols) property.
+The collection of predefined symbols can be added in palettes using the [`symbols`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Symbols) property.
 
-To initialize a palette, define a JSON object with the property [`ID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Id) that is unique ID is set to the palettes.
+To initialize a palette, define a JSON object with the property [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Id) that is unique ID is set to the palettes.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -100,15 +100,15 @@ Templates can be defined either as strings or functions and assigned to the node
 
 Palettes can be annotated with its header texts.
 
-The [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Title) displayed as the header text of palette.
+The [`title`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Title) displayed as the header text of palette.
 
-The [`expanded`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Expanded) property of palette allows to expand/collapse its palette items.
+The [`expanded`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Expanded) property of palette allows to expand/collapse its palette items.
 
-The [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Height) property of palette sets the height of the symbol group.
+The [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Height) property of palette sets the height of the symbol group.
 
-The [`iconCss`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_IconCss) property sets the content of the symbol group.
+The [`iconCss`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_IconCss) property sets the content of the symbol group.
 
-The [`description`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextOverflow) defines the text to be displayed and how that is to be handled in `getSymbolInfo`.
+The [`description`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextOverflow) defines the text to be displayed and how that is to be handled in `getSymbolInfo`.
 
 Also, any HTML element into a palette header can be embedded by defining the `getSymbolInfo` property.
 
@@ -203,7 +203,7 @@ The symbol palette panel can be restricted from getting expanded. The `cancel` a
 
 ## Stretch the symbols into the palette
 
-The [`fit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolInfo) property defines whether the symbol has to be fit inside the size, that is defined by the symbol palette. For example, when you resize the rectangle in the symbol, ratio of the rectangle size has to be maintained rather changing into square shape.
+The [`fit`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolInfo) property defines whether the symbol has to be fit inside the size, that is defined by the symbol palette. For example, when you resize the rectangle in the symbol, ratio of the rectangle size has to be maintained rather changing into square shape.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -243,7 +243,7 @@ The [`fit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagram
 
 ## Customize the size of symbols
 
-The size of the individual symbol can be customized. The [`symbolWidth`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolWidth) and  [`symbolHeight`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolHeight) properties of node enables to define the size of the symbols.
+The size of the individual symbol can be customized. The [`symbolWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolWidth) and  [`symbolHeight`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolHeight) properties of node enables to define the size of the symbols.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -267,11 +267,11 @@ The size of the individual symbol can be customized. The [`symbolWidth`](https:/
 
 
 
-The [`symbolMargin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolMargin) property is used to create the space around elements, outside of any defined borders.
+The [`symbolMargin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolMargin) property is used to create the space around elements, outside of any defined borders.
 
 ## Symbol preview
 
-The symbol preview size of the palette items can be customized using [`symbolPreview`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html). The [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Height) properties of SymbolPalette enables to define the preview size to all the symbol palette items. The [`offset`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Offset) of the dragging helper relative to the mouse cursor.
+The symbol preview size of the palette items can be customized using [`symbolPreview`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html). The [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Height) properties of SymbolPalette enables to define the preview size to all the symbol palette items. The [`offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Offset) of the dragging helper relative to the mouse cursor.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -297,7 +297,7 @@ The symbol preview size of the palette items can be customized using [`symbolPre
 
 ## Default settings
 
-While adding more number of symbols such as nodes and connectors to the palette, define the default settings for those objects through the [`getNodeDefaults`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetNodeDefaults) and the [`getConnectorDefaults`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetConnectorDefaults) properties of diagram allows to define the default settings for nodes and connectors.
+While adding more number of symbols such as nodes and connectors to the palette, define the default settings for those objects through the [`getNodeDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetNodeDefaults) and the [`getConnectorDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetConnectorDefaults) properties of diagram allows to define the default settings for nodes and connectors.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

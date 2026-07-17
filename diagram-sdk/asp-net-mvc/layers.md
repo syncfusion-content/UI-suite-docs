@@ -13,7 +13,7 @@ documentation: ug
 
 **Layer** is used to organize related shapes on a diagram control. A layer is a named category of shapes. By assigning shapes to different layers, you can selectively view, remove, and lock different categories of shapes.
 
-In diagram, [Layers](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html) provide a way to change the properties of all shapes that have been assigned to that layer. The following properties can be set.
+In diagram, [Layers](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html) provide a way to change the properties of all shapes that have been assigned to that layer. The following properties can be set.
 
 * Visible
 * Lock
@@ -22,7 +22,7 @@ In diagram, [Layers](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 ## Visible
 
-The layer's [visible](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Visible) property is used to control the visibility of the elements assigned to the layer.
+The layer's [visible](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Visible) property is used to control the visibility of the elements assigned to the layer.
 
 ```typescript
 
@@ -91,7 +91,7 @@ diagram.appendTo('#element');
 
 ## Lock
 
-The layer's [lock](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Lock) property is used to prevent or allow changes to the elements dimension and position.
+The layer's [lock](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Lock) property is used to prevent or allow changes to the elements dimension and position.
 
 ```typescript
 
@@ -167,7 +167,7 @@ diagram.appendTo('#element');
 
 ## Objects
 
-The layer's [objects](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Objects) property defines the diagram elements to the layer.
+The layer's [objects](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Objects) property defines the diagram elements to the layer.
 
 ```typescript
 
@@ -241,7 +241,7 @@ diagram.appendTo('#element');
 
 ## AddInfo
 
-The [`addInfo`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_AddInfo) property of layers allow you to maintain additional information to the layers.
+The [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_AddInfo) property of layers allow you to maintain additional information to the layers.
 
 ```typescript
 
@@ -317,7 +317,7 @@ let diagram: Diagram = new Diagram({
 
 Layers can be added at runtime by using the [`addLayer`](../api/diagram#addLayer) public method.
 
-The layer's [`ID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Id) property defines the ID of the layer, and its further used to find the layer at runtime and do any customization.
+The layer's [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Id) property defines the ID of the layer, and its further used to find the layer at runtime and do any customization.
 
 ```typescript
 

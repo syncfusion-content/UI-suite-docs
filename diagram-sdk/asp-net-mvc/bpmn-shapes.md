@@ -57,7 +57,7 @@ The BPMN shapes and its types are explained as follows.
 
 ## Event
 
-An [`event`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html) is notated with a circle and it represents an event in a business process. The type of events are as follows:
+An [`event`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html) is notated with a circle and it represents an event in a business process. The type of events are as follows:
 
 * Start
 * End
@@ -87,7 +87,7 @@ The event property of the node allows to define the type of the event. The defau
 
 
 
-Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html#Syncfusion_EJ2_Diagrams_DiagramBpmnEvent_Trigger) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
+Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnTriggers.html) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
 
 | Triggers | Start | Non-Interrupting Start | Intermediate | Non-Interrupting Intermediate | Throwing Intermediate | End |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -107,7 +107,7 @@ Event triggers are notated as icons inside the circle and they represent the spe
 
 ## Gateway
 
-Gateway is used to control the flow of a process and it is represented as a diamond shape. To create a gateway, the shape property of the node should be set as “gateway” and the [`gateway`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnGateway.html) property can be set with any of the appropriate gateways.
+Gateway is used to control the flow of a process and it is represented as a diamond shape. To create a gateway, the shape property of the node should be set as “gateway” and the [`gateway`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnGateway.html) property can be set with any of the appropriate gateways.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -147,7 +147,7 @@ There are several types of gateways as tabulated:
 
 ## Activity
 
-The [`activity`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnActivity.html) is the task that is performed in a business process. It is represented by a rounded rectangle.
+The [`activity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnActivities.html) is the task that is performed in a business process. It is represented by a rounded rectangle.
 
 There are two types of activities. They are listed as follows:
 
@@ -182,7 +182,7 @@ The different activities of BPMN process are listed as follows.
 
 ## Tasks
 
-The [`task`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html) property of the node allows to define the type of task such as sending, receiving, user based task, etc. By default, the [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Type) property of task is set as **none**. The following code illustrates how to create different types of BPMN tasks. The events property of tasks allow to represent these results as an event attached to the task.
+The [`task`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnTasks.html) property of the node allows to define the type of task such as sending, receiving, user based task, etc. By default, the [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Type) property of task is set as **none**. The following code illustrates how to create different types of BPMN tasks. The events property of tasks allow to represent these results as an event attached to the task.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -221,7 +221,7 @@ The various types of BPMN tasks are tabulated as follows.
 
 ## Subprocess
 
-A [`sub-process`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html) is a group of tasks, which is used to hide or reveal details of additional levels using the [`collapsed`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Collapsed) property.
+A [`sub-process`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html) is a group of tasks, which is used to hide or reveal details of additional levels using the [`collapsed`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Collapsed) property.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -252,7 +252,7 @@ The different types of subprocess are as follows:
 
 ## Event subprocess
 
-A subprocess is defined as an event subprocess, when it is triggered by an event. An event subprocess is placed within another subprocess which is not part of the normal flow of its parent process. You can set event to a subprocess with the [`event`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Events) and [`trigger`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html#Syncfusion_EJ2_Diagrams_DiagramBpmnEvent_Trigger) property of the subprocess. The [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Type) property of subprocess allows you to define the type of subprocess whether it should be event subprocess or transaction subprocess.
+A subprocess is defined as an event subprocess, when it is triggered by an event. An event subprocess is placed within another subprocess which is not part of the normal flow of its parent process. You can set event to a subprocess with the [`event`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Events) and [`trigger`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnTriggers.html) property of the subprocess. The [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnSubProcessTypes.html) property of subprocess allows you to define the type of subprocess whether it should be event subprocess or transaction subprocess.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -278,7 +278,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 ## Transaction subprocess
 
-* [`transaction`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Transaction) is a set of activities that logically belong together, in which all contained activities must complete their parts of the transaction; otherwise the process is undone. The execution result of a transaction is one of Successful Completion, Unsuccessful Completion (Cancel), and Hazard (Exception). The `events` property of subprocess allows to represent these results as an event attached to the subprocess.
+* [`transaction`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTransactionSubProcess.html) is a set of activities that logically belong together, in which all contained activities must complete their parts of the transaction; otherwise the process is undone. The execution result of a transaction is one of Successful Completion, Unsuccessful Completion (Cancel), and Hazard (Exception). The `events` property of subprocess allows to represent these results as an event attached to the subprocess.
 
 * The event object allows to define the type of event by which the subprocess will be triggered. The name of the event can be defined to identify the event at runtime.
 
@@ -314,7 +314,7 @@ Processes is an array collection that defines the children values for BPMN subpr
 
 ## Loop
 
-[`Loop`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Loop) is a task that is internally being looped. The loop property of task allows to define the type of loop. The default value for `loop` is **none**. You can define the loop property in subprocess BPMN shape as shown in the following code.
+[`Loop`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnLoops.html) is a task that is internally being looped. The loop property of task allows to define the type of loop. The default value for `loop` is **none**. You can define the loop property in subprocess BPMN shape as shown in the following code.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -348,7 +348,7 @@ The following table contains various types of BPMN loops.
 
 ## Compensation
 
-[`Compensation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Compensation) is triggered, when operation is partially failed and enabled it with the compensation property of the task and the subprocess.
+[`Compensation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Compensation) is triggered, when operation is partially failed and enabled it with the compensation property of the task and the subprocess.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -374,7 +374,7 @@ The following table contains various types of BPMN loops.
 
 ## Call
 
-A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Call) activity is a global subprocess that is reused at various points of the business flow and set it with the call property of the task.
+A [`call`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Call) activity is a global subprocess that is reused at various points of the business flow and set it with the call property of the task.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -400,7 +400,7 @@ A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams
 
 ## Adhoc
 
-An adhoc subprocess is a group of tasks that are executed in any order or skipped in order to fulfill the end condition and set it with the [`adhoc`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Adhoc) property of subprocess.
+An adhoc subprocess is a group of tasks that are executed in any order or skipped in order to fulfill the end condition and set it with the [`adhoc`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Adhoc) property of subprocess.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -426,7 +426,7 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 ## Boundary
 
-Boundary represents the type of task that is being processed. The [`boundary`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Boundary) property of subprocess allows to define the type of boundary. By default, it is set as **default**.
+Boundary represents the type of task that is being processed. The [`boundary`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BpmnBoundary.html) property of subprocess allows to define the type of boundary. By default, it is set as **default**.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -460,7 +460,7 @@ The following table contains various types of BPMN boundaries.
 
 ## Data
 
-A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnDataObject.html), set the shape as **DataObject** and the type property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
+A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnDataObject.html), set the shape as **DataObject** and the type property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

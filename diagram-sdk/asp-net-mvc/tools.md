@@ -17,7 +17,7 @@ Drawing tool allows to draw any kind of node or connector during runtime by clic
 
 ## Shapes
 
-To draw a shape, set the JSON of that shape to the drawType property of the diagram and activate the drawing tool by using the [`tool`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) property. 
+To draw a shape, set the JSON of that shape to the drawType property of the diagram and activate the drawing tool by using the [`tool`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) property. 
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -100,7 +100,7 @@ function Created() {
 
 ## Connectors
 
-To draw connectors, set the JSON of the connector to the drawType property. The drawing [`tool`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) can be activated by using the tool property.
+To draw connectors, set the JSON of the connector to the drawType property. The drawing [`tool`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) can be activated by using the tool property.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -277,7 +277,7 @@ As all the three behaviors are completely different, you can achieve only one be
 |5th|SingleSelect|Allows you to select individual nodes or connectors.|
 |6th|None|Disables all tools.|
 
-Set the desired [`tool`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) to the tool property of the diagram model.
+Set the desired [`tool`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) to the tool property of the diagram model.
 
 ```javascript
 function Created() {
@@ -298,7 +298,7 @@ function Created() {
 
 {% if page.publishingplatform == "aspnet-core" %}
 
-[elementDraw](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ElementDraw)  event is triggered when node or connector is drawn using drawing tool.
+[elementDraw](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ElementDraw)  event is triggered when node or connector is drawn using drawing tool.
 
 {% elsif page.publishingplatform == "aspnet-mvc" %}
 

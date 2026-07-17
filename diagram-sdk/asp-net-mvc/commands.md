@@ -583,15 +583,15 @@ diagram.bringToCenter(bound);
 
 The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
 
-The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitModes/) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
+The [`mode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.FitModes.html) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
 
-The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRegions/) parameter defines the region that has to be drawn as an image.
+The [`region`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramRegions.html) parameter defines the region that has to be drawn as an image.
 
-The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions/) parameter defines the region/bounds of the diagram content that is to be fit into the view.
+The [`margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html) parameter defines the region/bounds of the diagram content that is to be fit into the view.
 
-The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#canZoomIn/) parameter enables/disables zooming to fit the smaller content into a larger viewport.
+The [`canZoomIn`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramFitOptions.html#Syncfusion_EJ2_Diagrams_DiagramFitOptions_CanZoomIn) parameter enables/disables zooming to fit the smaller content into a larger viewport.
 
-The [`customBounds`](../api/diagram/iFitOpthttps://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#customBounds) parameter the custom region that has to be fit into the viewport.
+The [`customBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramFitOptions.html#Syncfusion_EJ2_Diagrams_DiagramFitOptions_CustomBounds) parameter the custom region that has to be fit into the viewport.
 
 The following code illustrates how to execute `FitToPage` command.
 
@@ -639,13 +639,13 @@ Diagram provides support to map or bind command execution with desired combinati
 ## Custom command
 
 To define a custom command, specify the following properties:
-* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#execute): A method to be executed.
-* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers/).
-* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#parameter): Defines any additional parameters that are required at runtime.
-* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#name): Defines the name of the command.
+* [`execute`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Execute): A method to be executed.
+* [`canExecute`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_CanExecute): A method to define whether the command can be executed at the moment.
+* [`gesture`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramKeyGesture.html): A combination of [`keys`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Keys.html) and [`KeyModifiers`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.KeyModifiers.html).
+* [`parameter`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Parameter): Defines any additional parameters that are required at runtime.
+* [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Name): Defines the name of the command.
 
-To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/command#commands).
+To explore the properties of custom commands, refer to [`Commands`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

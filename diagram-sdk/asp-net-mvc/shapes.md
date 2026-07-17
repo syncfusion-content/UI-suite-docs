@@ -25,7 +25,7 @@ Diagram provides support to add different kind of nodes. They are as follows:
 
 ## Text
 
-Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of the node allows to set the type of node and for text nodes, it should be set as **text**. In addition, define the content object that is used to define the text to be added and style is used to customize the appearance of that text.
+Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of the node allows to set the type of node and for text nodes, it should be set as **text**. In addition, define the content object that is used to define the text to be added and style is used to customize the appearance of that text.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -51,7 +51,7 @@ Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/asp
 
 ## Image
 
-Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of node allows you to set the type of node and for image nodes, it should be set as **image**. In addition, the source property of shape enables you to set the image source.
+Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of node allows you to set the type of node and for image nodes, it should be set as **image**. In addition, the source property of shape enables you to set the image source.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -109,7 +109,7 @@ N> Deploy your HTML file in the web application and export the diagram (image no
 
 Stretch and align the image content anywhere but within the node boundary.
 
-The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Scale.html) property of the node is set as **meet**.
+The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Scale.html) property of the node is set as **meet**.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -141,13 +141,13 @@ The scale property of the node allows to stretch the image as you desired (eithe
 
 ## HTML
 
-Html elements can be embedded in the diagram through [`Html`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) type node. The shape property of node allows to set the type of node and to create a HTML node it should be set as `HTML`.
+Html elements can be embedded in the diagram through [`Html`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) type node. The shape property of node allows to set the type of node and to create a HTML node it should be set as `HTML`.
 
 N> HTML node cannot be exported to image format, like JPEG, PNG, and BMP. It is by design, while exporting the diagram is drawn in a canvas. Further, this canvas is exported into image formats. Currently, drawing in a canvas equivalent from all possible HTML is not feasible. Hence, this limitation.
 
 ### HTML node with content template
 
-To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramHtml.html#Syncfusion_EJ2_Diagrams_DiagramHtml_Content) property. The following code illustrates how to create an HTML node with a content template:
+To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramHtml.html#Syncfusion_EJ2_Diagrams_DiagramHtml_Content) property. The following code illustrates how to create an HTML node with a content template:
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -197,7 +197,7 @@ The following code illustrates how to render an HTML node using the function and
 
 ### HTML Node With node template
 
-To render html node with nodeTemplate we need to define the nodeTemplate in the html file and assign it to the [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_NodeTemplate) property of the diagram. The following code illustrates how to render html node with nodeTemplate.
+To render html node with nodeTemplate we need to define the nodeTemplate in the html file and assign it to the [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_NodeTemplate) property of the diagram. The following code illustrates how to render html node with nodeTemplate.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -247,13 +247,13 @@ Refer the code example below.
 
 ## Native
 
-Diagram provides support to embed SVG element into a node. The shape property of node allows to set the type of node. To create a [`native`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Native) node, it should be set as **native**.
+Diagram provides support to embed SVG element into a node. The shape property of node allows to set the type of node. To create a [`native`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Native) node, it should be set as **native**.
 
 N> Like HTML node, the native node also cannot be exported to image format. Fill color of native node can be overridden by the inline style or fill of the SVG element specified in the template.
 
 ### Native node with content template
 
-To render an SVG node using a content template, define the desired template string in the node's [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNative.html#Syncfusion_EJ2_Diagrams_DiagramNative_Content) property. The following example demonstrates how to create an SVG node using a content template.
+To render an SVG node using a content template, define the desired template string in the node's [`content`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNative.html#Syncfusion_EJ2_Diagrams_DiagramNative_Content) property. The following example demonstrates how to create an SVG node using a content template.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -303,7 +303,7 @@ The following example demonstrates how to render an SVG node using a function an
 
 ### Native node with node template
 
-The [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_NodeTemplate) property allows defining reusable SVG templates at the diagram level. This approach is efficient when multiple nodes share similar vector graphics or when centralized template management is required.
+The [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_NodeTemplate) property allows defining reusable SVG templates at the diagram level. This approach is efficient when multiple nodes share similar vector graphics or when centralized template management is required.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -368,9 +368,9 @@ The following tables illustrates all the possible scale options for the node.
 
 ## Basic shapes
 
-* The [`Basic`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Basic) shapes are common shapes that are used to represent the geometrical information visually. To create basic shapes, the type of the shape should be set as **basic**. Its shape property can be set with any one of the built-in shape.
+* The [`Basic`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Basic) shapes are common shapes that are used to represent the geometrical information visually. To create basic shapes, the type of the shape should be set as **basic**. Its shape property can be set with any one of the built-in shape.
 
-* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBasicShape.html#Syncfusion_EJ2_Diagrams_DiagramBasicShape_CornerRadius) property to specify the radius of rounded rectangle.
+* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBasicShape.html#Syncfusion_EJ2_Diagrams_DiagramBasicShape_CornerRadius) property to specify the radius of rounded rectangle.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -406,7 +406,7 @@ The list of basic shapes are as follows.
 
 ## Path
 
-The [`Path`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Path) node is a commonly used basic shape that allows visually to represent the geometrical information. To create a path node, specify the shape as **path**. The path property of node allows you to define the path to be drawn.
+The [`Path`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Path) node is a commonly used basic shape that allows visually to represent the geometrical information. To create a path node, specify the shape as **path**. The path property of node allows you to define the path to be drawn.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -432,7 +432,7 @@ The [`Path`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 ## Flow Shapes
 
-The [`flow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Flow) shapes are used to represent the process flow. It is used for analyzing, designing, and managing for documentation process. To create a flow shape, specify the shape type as **flow**. Flow shapes and by default, it is considered as **process**.
+The [`flow`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Flow) shapes are used to represent the process flow. It is used for analyzing, designing, and managing for documentation process. To create a flow shape, specify the shape type as **flow**. Flow shapes and by default, it is considered as **process**.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

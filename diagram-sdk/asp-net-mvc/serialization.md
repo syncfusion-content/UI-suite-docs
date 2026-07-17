@@ -82,7 +82,7 @@ Users can perform customizations or modifications to the diagram elements once t
 
 ## Prevent Default Values
 
-The [`preventDefaults`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramSerializationSettings.html#Syncfusion_EJ2_Diagrams_DiagramSerializationSettings_PreventDefaults) property of serializationSettings is used to simplifying the saved JSON object without adding the default properties that are presented in the diagram.
+The [`preventDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSerializationSettings.html#Syncfusion_EJ2_Diagrams_DiagramSerializationSettings_PreventDefaults) property of serializationSettings is used to simplifying the saved JSON object without adding the default properties that are presented in the diagram.
 
 ```typescript
 var diagram: Diagram = new Diagram({

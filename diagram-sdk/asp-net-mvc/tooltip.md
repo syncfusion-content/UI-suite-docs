@@ -25,7 +25,7 @@ By default, diagram displays a tooltip to provide the size, position, and angle 
 
 ## Common tooltip for all nodes and connectors
 
-The diagram provides support to show tooltip when the mouse hovers over any node or connector. To show tooltip on mouse over, the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property of diagram model needs to be set with the tooltip [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) and [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position).
+The diagram provides support to show tooltip when the mouse hovers over any node or connector. To show tooltip on mouse over, the [`tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property of diagram model needs to be set with the tooltip [`content`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) and [`position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -51,7 +51,7 @@ The diagram provides support to show tooltip when the mouse hovers over any node
 
 ### Disable tooltip at runtime
 
-The tooltip on mouse over can be disabled by assigning the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property as `null`.
+The tooltip on mouse over can be disabled by assigning the [`tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property as `null`.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -77,7 +77,7 @@ The tooltip on mouse over can be disabled by assigning the [`tooltip`](https://h
 
 ## Tooltip for a specific node/connector
 
-The tooltip can be customized for each node and connector. Remove the **InheritTooltip** option from the [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.NodeConstraints.html) of that node or connector.
+The tooltip can be customized for each node and connector. Remove the **InheritTooltip** option from the [`constraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.NodeConstraints.html) of that node or connector.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -104,9 +104,9 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 The tooltip feature has been implemented to support Ports, providing the ability to display information or descriptions when the mouse hovers over them.
 
-To display tooltips on mouseover, set the desired tooltip [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) by utilizing the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property.
+To display tooltips on mouseover, set the desired tooltip [`content`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Content) by utilizing the [`tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTooltipDiagram.html) property.
 
-Tooltips for Ports can be enabled or disabled using the [`PortConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.PortConstraints.html) Tooltip property.
+Tooltips for Ports can be enabled or disabled using the [`PortConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.PortConstraints.html) Tooltip property.
 
 
 ```js
@@ -196,7 +196,7 @@ function getContent() {
 
 ### Tooltip relative to object
 
-The diagram provides support to show tooltip around the node or connector that is hovered by the mouse. The tooltip can be aligned by using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position) property of the tooltip. The [`relativeMode`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_RelativeMode) property of the tooltip defines whether the tooltip has to be displayed around the object or at the mouse position.
+The diagram provides support to show tooltip around the node or connector that is hovered by the mouse. The tooltip can be aligned by using the [`position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Position) property of the tooltip. The [`relativeMode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_RelativeMode) property of the tooltip defines whether the tooltip has to be displayed around the object or at the mouse position.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -222,7 +222,7 @@ The diagram provides support to show tooltip around the node or connector that i
 
 ### Tooltip relative to mouse position
 
-To display the tooltip at mouse position, need to set **mouse** option to the [`relativeMode`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_RelativeMode) property of the tooltip.
+To display the tooltip at mouse position, need to set **mouse** option to the [`relativeMode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_RelativeMode) property of the tooltip.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -248,7 +248,7 @@ To display the tooltip at mouse position, need to set **mouse** option to the [`
 
 ## Tooltip animation
 
-To animate the tooltip, a set of specific animation effects are available, and it can be controlled by using the [`animation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Animation) property. The animation property also allows you to set delay, duration, and various other effects of your choice.
+To animate the tooltip, a set of specific animation effects are available, and it can be controlled by using the [`animation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Animation) property. The animation property also allows you to set delay, duration, and various other effects of your choice.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -273,8 +273,8 @@ To animate the tooltip, a set of specific animation effects are available, and i
 ## Tooltip for Annotation
 
 Tooltips can be added to annotations to display additional information on mouseover. 
-To display tooltips on mouseover, set the desired tooltip text to the [`tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Animation) property of the annotation.
-Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html) property as [`Tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html). 
+To display tooltips on mouseover, set the desired tooltip text to the [`tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramTooltip.html#Syncfusion_EJ2_Diagrams_DiagramDiagramTooltip_Animation) property of the annotation.
+Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html) property as [`Tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html). 
 
 {% if page.publishingplatform == "aspnet-core" %}
 
