@@ -13,21 +13,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Pointers are used to indicate values on an axis. The value of the pointer can be modified using the [value](../api/linear-gauge/pointerModel/#value) property in [pointers](../api/linear-gauge/axisModel/#pointers).
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs1/index.js %}
@@ -38,7 +23,6 @@ Pointers are used to indicate values on an axis. The value of the pointer can be
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs1" %}
-{% endif %}
 
 ## Types of pointer
 
@@ -65,21 +49,6 @@ By default, the marker shape for the pointer is **InvertedTriangle**. To change 
 * Image
 * Text
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs2/index.js %}
@@ -90,24 +59,8 @@ By default, the marker shape for the pointer is **InvertedTriangle**. To change 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs2" %}
-{% endif %}
 
 Image can be rendered instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Image** and setting the source URL of image to  [imageUrl](../api/linear-gauge/pointerModel/#imageurl) property in [pointers](../api/linear-gauge/axisModel/#pointers).
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -119,7 +72,6 @@ Image can be rendered instead of rendering a shape as a pointer. It can be achie
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs11" %}
-{% endif %}
 
 Text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Text**, and the text content can be set using the [text](../api/linear-gauge/pointerModel/#text) property in [pointers](../api/linear-gauge/axisModel/#pointers).
 
@@ -129,21 +81,6 @@ The following properties in the [textStyle](../api/linear-gauge/pointerModel/#te
 * [fontStyle](../api/linear-gauge/textStyleModel/#fontstyle) - It is used to set the font style for the text pointer.
 * [fontWeight](../api/linear-gauge/textStyleModel/#fontweight) - It is used to set the font weight for the text pointer.
 * [size](../api/linear-gauge/textStyleModel/#size) - It is used to set the font size for the text pointer.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -155,7 +92,6 @@ The following properties in the [textStyle](../api/linear-gauge/pointerModel/#te
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs10" %}
-{% endif %}
 
 **Marker Pointer Customization**
 
@@ -171,21 +107,6 @@ The marker pointer can be customized using the following properties.
 * [animationDuration](../api/linear-gauge/pointerModel/#animationduration) - To specify the duration of the animation in pointer.
 * [border](../api/linear-gauge/pointerModel/#border) - To set the color and width for the border of the pointer.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs3/index.js %}
@@ -196,26 +117,10 @@ The marker pointer can be customized using the following properties.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs3" %}
-{% endif %}
 
 ### Bar Pointer
 
 The bar pointer is used to track the axis value. The bar pointer starts from the beginning of the gauge and ends at the pointer value. To enable bar pointer set the [type](../api/linear-gauge/pointerModel/#type) property property in [pointer](../api/linear-gauge/axisModel/#pointers) as **Bar**.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -227,7 +132,6 @@ The bar pointer is used to track the axis value. The bar pointer starts from the
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs4" %}
-{% endif %}
 
 
 **Bar pointer customization**
@@ -244,21 +148,6 @@ The bar pointer can be customized using following properties.
 
 >Note: The placement property is not applicable for the bar pointer.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs5/index.js %}
@@ -269,26 +158,10 @@ The bar pointer can be customized using following properties.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs5" %}
-{% endif %}
 
 ## Multiple pointers
 
 Multiple pointers can be added to the Linear Gauge by adding multiple [pointer](../api/linear-gauge/pointerModel/) objects in the [pointers](../api/linear-gauge/axisModel/#pointers) and customization for the pointers can be done with the [pointer](../api/linear-gauge/pointerModel/) object.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -300,26 +173,10 @@ Multiple pointers can be added to the Linear Gauge by adding multiple [pointer](
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs6" %}
-{% endif %}
 
 ## Pointer animation
 
 Pointer is animated on loading the gauge. This can be handled using the [animationDuration](../api/linear-gauge/pointerModel/#animationduration) property. The duration of the animation can be specified in milliseconds.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -331,7 +188,6 @@ Pointer is animated on loading the gauge. This can be handled using the [animati
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs7" %}
-{% endif %}
 
 ## Gradient Color
 
@@ -344,21 +200,6 @@ Gradient support allows the addition of multiple colors in the pointers of the L
 
 Using linear gradient, colors will be applied in a linear progression. The start value of the linear gradient can be set using the [startValue](../api/linear-gauge/linearGradient/#startvalue) property. The end value of the linear gradient will be set using the [endValue](../api/linear-gauge/linearGradient/#endvalue) property. The color stop values such as [color](../api/linear-gauge/colorStopModel/#color), [opacity](../api/linear-gauge/colorStopModel/#opacity), and [offset](../api/linear-gauge/colorStopModel/#offset) are set using [colorStop](../api/linear-gauge/linearGradient/#colorstop) property. The linear gradient can be rendered for the pointer in the Linear Gauge by using the below example.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs8/index.js %}
@@ -369,26 +210,10 @@ Using linear gradient, colors will be applied in a linear progression. The start
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs8" %}
-{% endif %}
 
 ### Radial Gradient
 
 Using radial gradient, colors will be applied in circular progression. The inner circle position of the radial gradient will be set using the [innerPosition](../api/linear-gauge/radialGradient/#innerposition) property. The outer circle position of the radial gradient can be set using the [outerPosition](../api/linear-gauge/radialGradient/#outerposition) property. The color stop values such as [color](../api/linear-gauge/colorStopModel/#color), [opacity](../api/linear-gauge/colorStopModel/#opacity), and [offset](../api/linear-gauge/colorStopModel/#offset) are set using [colorStop](../api/linear-gauge/radialGradient/#colorstop) property. The radial gradient can be rendered for the pointer in the Linear Gauge by using the below example.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -400,6 +225,5 @@ Using radial gradient, colors will be applied in circular progression. The inner
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/pointers-cs9" %}
-{% endif %}
 
 >Note: If we set both gradients, only the linear gradient gets rendered. If we set the [startValue](../api/linear-gauge/linearGradient/#startvalue) and [endValue](../api/linear-gauge/linearGradient/#endvalue) of the [linearGradient](../api/linear-gauge/linearGradient/) as empty strings, then the radial gradient gets rendered in the pointer of the Linear Gauge.

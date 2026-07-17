@@ -22,19 +22,6 @@ The `dataSource` property accepts collection values as input. For example, a lis
 
 The following code shows, how to bind a flat collection as data source to the TreeMap control.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/flat/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Flat.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/flat/flat.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/flat/razor %}
@@ -43,7 +30,6 @@ The following code shows, how to bind a flat collection as data source to the Tr
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/flat/flat.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -55,19 +41,6 @@ The following code shows, how to bind a hierarchical collection as data source t
 
 <!-- markdownlint-disable MD010 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/hierachical/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Hierachical.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/hierachical/hierachical.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/hierachical/razor %}
@@ -76,7 +49,6 @@ The following code shows, how to bind a hierarchical collection as data source t
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/databind/hierachical/hierachical.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

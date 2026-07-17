@@ -26,8 +26,6 @@ dashboard.removeAll();
 
 The following sample demonstrates how to add and remove the panels dynamically in the Dashboard Layout control. Here, panels can be added in any desired position of required size by selecting them in the numeric boxes and clicking add button and remove them by selecting the ID of the panel.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/add-panel/tagHelper %}
@@ -36,18 +34,6 @@ The following sample demonstrates how to add and remove the panels dynamically i
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/add-panel/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/add-panel/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/add-panel/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Add or remove panels dynamically](./../images/add_panel.PNG)
 

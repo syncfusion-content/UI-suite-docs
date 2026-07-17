@@ -22,21 +22,6 @@ The following properties can be used to customize `majorTicklines` and `minorTic
 * **color** - Specifies the color of ticklines.
 * **useRangeColor** - Specifies the color of ticklines and represents the color from corresponding range colors.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs1/index.js %}
@@ -47,26 +32,10 @@ The following properties can be used to customize `majorTicklines` and `minorTic
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs1" %}
-{% endif %}
 
 ## Tick Placement
 
 You can place major and minor ticks `inside` or `outside` the ranges using the [`tickPosition`](../api/bullet-chart/bulletChartModel/) property of bullet-chart. The major and the minor ticks can be placed **inside** or **outside** the ranges using the `tickPosition` property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,7 +47,6 @@ You can place major and minor ticks `inside` or `outside` the ranges using the [
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs2" %}
-{% endif %}
 
 ## Label Format
 
@@ -86,21 +54,6 @@ You can place major and minor ticks `inside` or `outside` the ranges using the [
 
 Axis numeric labels can be formatted by using the [`labelFormat`](../api/bullet-chart/bulletChartModel/#labelformat)property. Axis labels support all globalize formats. The following table describes the result of applying some commonly used label formats on numeric axis values.
 Axis numeric labels can be formatted by using the `labelFormat` property. Axis labels support all globalize formats.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -112,7 +65,6 @@ Axis numeric labels can be formatted by using the `labelFormat` property. Axis l
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs3" %}
-{% endif %}
 
 The following table describes the result of applying some commonly used formats to numeric axis labels.
 
@@ -179,21 +131,6 @@ The following table describes the result of applying some commonly used formats 
 To separate groups of thousands, use the [`enableGroupSeparator`](../api/bullet-chart/bulletChartModel/#enablegroupseparator) property of bullet-chart.
 To separate the groups of thousands, set the `enableGroupSeparator` property to **true**.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs4/index.js %}
@@ -204,26 +141,10 @@ To separate the groups of thousands, set the `enableGroupSeparator` property to 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs4" %}
-{% endif %}
 
 ## Custom Label Format
 
 Using the `labelFormat` property, axis labels can be specified with a custom defined format in addition to the axis value. The label format uses a placeholder such as **${value}K**, which represents the axis label.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -235,26 +156,10 @@ Using the `labelFormat` property, axis labels can be specified with a custom def
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs5" %}
-{% endif %}
 
 ## Label Placement
 
 You can customize the axis labels `inside` or `outside` the bullet-chart using the [`labelPosition`](../api/bullet-chart/bulletChartModel/#labelposition) property. Label can be placed **Inside** or **Outside** of the ranges using the `labelPosition` property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -266,26 +171,10 @@ You can customize the axis labels `inside` or `outside` the bullet-chart using t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs6" %}
-{% endif %}
 
 ## Opposed Position
 
-To place an axis opposite to its original position, set the [`opposedPosition`](../api/bullet-chart/bulletChartModel/#opposedposition) property to true. To place an axis opposite to its original position, set the `opposedPosition`] property to **true**.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
+To place an axis opposite to its original position, set the [`opposedPosition`](../api/bullet-chart/bulletChartModel/#opposedposition) property to true. To place an axis opposite to its original position, set the `opposedPosition` property to **true**.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -297,26 +186,10 @@ To place an axis opposite to its original position, set the [`opposedPosition`](
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs7" %}
-{% endif %}
 
 ## Category Label
 
 The Bullet Chart supports X-axis label by specifying the property from the data source to the `categoryField`. It helps to understand the input data in a more efficient way.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -328,26 +201,10 @@ The Bullet Chart supports X-axis label by specifying the property from the data 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs8" %}
-{% endif %}
 
 ## Category Label Customization
 
 The label color, opacity, font size, font family, font weight, and font style can be customized by using the `categoryLabelStyle` setting for category and the `labelStyle` setting for axis label. The `useRangeColor` property specifies the color of the axis label and represents the color from the corresponding range colors.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -359,4 +216,3 @@ The label color, opacity, font size, font family, font weight, and font style ca
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/bullet-chart/bullet-chart-axis-cs9" %}
-{% endif %}

@@ -14,8 +14,6 @@ Annotations are used to mark the specific area of interest in the Maps with text
 
 Initialize the Maps component with annotation option, text content or ID of an HTML element or an HTML string can be specified to render a new element that needs to be displayed in the Maps by using the `Content` property. To specify the content position with `X` and `Y` properties as mentioned in the following example.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/howto-annotation/tagHelper %}
@@ -24,18 +22,6 @@ Initialize the Maps component with annotation option, text content or ID of an H
 {% include code-snippet/chart-sdk/asp-net-core/maps/howto-annotation/howto-annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/howto-annotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Howto-annotation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/howto-annotation/howto-annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 Note: Refer the data values for Africa(https://www.syncfusion.com/downloads/support/directtrac/general/ze/Africa1913669070) shape here.
 

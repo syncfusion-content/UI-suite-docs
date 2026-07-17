@@ -13,8 +13,6 @@ documentation: ug
 
 You can change the legend label using the `LegendRender` client-side event. You can also hide the legend label using this client-side event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/how-to/legend/tagHelper %}
@@ -23,16 +21,3 @@ You can change the legend label using the `LegendRender` client-side event. You 
 {% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/how-to/legend/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/how-to/legend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/how-to/legend/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-

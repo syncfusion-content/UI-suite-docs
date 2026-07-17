@@ -13,19 +13,6 @@ documentation: ug
 
 Range is the set of values in the axis. The range can be defined using the [`Start`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRange_Start) and [`End`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRange_End) properties in the [`LinearGaugeRange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html). Any number of ranges can be added to the Linear Gauge using the [`LinearGaugeRanges`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRanges.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/ranges/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Ranges.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/ranges/ranges.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/ranges/razor %}
@@ -34,7 +21,6 @@ Range is the set of values in the axis. The range can be defined using the [`Sta
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/ranges/ranges.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -51,19 +37,6 @@ Ranges can be customized using the following properties in [`LinearGaugeRange`](
 * [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRange_Offset) - To place the range with specified distance from the axis.
 * [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRange_Border) - Customize color and width of range border.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-customization/range-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-customization/razor %}
@@ -72,7 +45,6 @@ Ranges can be customized using the following properties in [`LinearGaugeRange`](
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-customization/range-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -82,19 +54,6 @@ Ranges can be customized using the following properties in [`LinearGaugeRange`](
 
 To set the color of the labels like the range color, set the [`UseRangeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_UseRangeColor) property as **true** in the [`LinearGaugeLabel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-labelcolor/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range-labelcolor.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-labelcolor/range-labelcolor.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-labelcolor/razor %}
@@ -103,7 +62,6 @@ To set the color of the labels like the range color, set the [`UseRangeColor`](h
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/range-labelcolor/range-labelcolor.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -113,19 +71,6 @@ To set the color of the labels like the range color, set the [`UseRangeColor`](h
 
 Multiple ranges can be added to the Linear Gauge by adding collections of [`LinearGaugeRange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html) in the [`LinearGaugeRanges`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRanges.html) and customization of ranges can be done with [`LinearGaugeRange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRange.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/multiple-ranges/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-ranges.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/multiple-ranges/multiple-ranges.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/multiple-ranges/razor %}
@@ -134,7 +79,6 @@ Multiple ranges can be added to the Linear Gauge by adding collections of [`Line
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/multiple-ranges/multiple-ranges.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -151,19 +95,6 @@ Gradient support allows the addition of multiple colors in the range. The follow
 
 Using linear-gradient, colors will be applied in a linear progression. The start value of the linear gradient can be set using the [`StartValue`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_StartValue) property. The end value of the linear gradient will be set using the [`EndValue`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_EndValue) property. The color stop values such as [`Color`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Color), [`Opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Opacity), and [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Offset) to be defined in [`ColorStop`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_ColorStop).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/lineargradient/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Lineargradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/lineargradient/lineargradient.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/lineargradient/razor %}
@@ -172,7 +103,6 @@ Using linear-gradient, colors will be applied in a linear progression. The start
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/lineargradient/lineargradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -182,19 +112,6 @@ Using linear-gradient, colors will be applied in a linear progression. The start
 
 Using radial gradient, colors will be applied in circular progression. The inner circle position of the radial gradient will be set using the [`InnerPosition`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_InnerPosition) property. The outer circle position of the radial gradient can be set using the [`OuterPosition`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_OuterPosition) property. The color stop values such as [`Color`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Color), [`Opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Opacity), and [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Offset) to be defined in [`ColorStop`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_ColorStop).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/radialgradient/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Radialgradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/radialgradient/radialgradient.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/radialgradient/razor %}
@@ -203,7 +120,6 @@ Using radial gradient, colors will be applied in circular progression. The inner
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/ranges/radialgradient/radialgradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

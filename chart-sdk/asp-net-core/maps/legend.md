@@ -26,8 +26,6 @@ Default mode legends having symbols with legend labels, used to identify the sha
 
 The legends can be made interactive with an arrow mark indicating the exact range color in the legend when the mouse hovers over the corresponding shapes. To enable this type of mode by setting the `Mode` property of `MapsLegendSettings` as **Interactive**. The `InvertedPointer` property is used to enable or disable the visibility of the inverted pointer in interactive legend in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-mode/tagHelper %}
@@ -36,18 +34,6 @@ The legends can be made interactive with an arrow mark indicating the exact rang
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-mode/legend-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-mode/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-mode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-mode/legend-mode.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -75,8 +61,6 @@ Legends are positioned in the following locations within the container. The `Pos
 
 The above four positions can be aligned with combination of **Near**, **Center** and **Far** using `Alignment` property in `MapsLegendSettings`. So, the legend can be aligned to 12 positions.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-position/tagHelper %}
@@ -85,18 +69,6 @@ The above four positions can be aligned with combination of **Near**, **Center**
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-position/legend-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-position/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-position/legend-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -108,8 +80,6 @@ Legend for shapes can be generated from color mapping types such as equal color 
 
 The below code snippet demonstrate the equal color mapping legends for the shapes. To bind the given data source to the `DataSource` property of `MapsLayer`. Set the value of `ShapePropertyPath` to **name** and `ShapeDataPath` to **Country**. To enable equal color mapping, set the multiple `MapsColorMapping` to the `MapsShapeSettings`. Finally, set the `Visible` property of `MapsLegendSettings` as **true**. The `Label` property in `MapsColorMapping` is used to set the text name for legend in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legend/tagHelper %}
@@ -118,18 +88,6 @@ The below code snippet demonstrate the equal color mapping legends for the shape
 {% include code-snippet/chart-sdk/asp-net-core/maps/legend/legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legend/legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -169,8 +127,6 @@ The following properties are available in legend to customize the legend shape a
 * `Width` - To customize the width of the Legend.
 * `Opacity` - To apply the opacity to the Legend.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-customization/tagHelper %}
@@ -179,18 +135,6 @@ The following properties are available in legend to customize the legend shape a
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-customization/legend-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-customization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/legend-customization/legend-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -230,8 +174,6 @@ The legend can be enabled for items excluded from the color mapping using the `C
 
 In the following example, color mapping is added for the ranges from **0** to **200**. If there are any records in the data source that are outside of this range, the color mapping will not be applied. To apply the color for these excluded items, set the `Color` property alone in the `MapsColorMapping`. To enable legend for these items, set the `Visible` property of `MapsLegendSettings` to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/excludelegend/tagHelper %}
@@ -241,18 +183,6 @@ In the following example, color mapping is added for the ranges from **0** to **
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/excludelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Excludelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/excludelegend/excludelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Legend for excluded items from color mapping](./images/Legend/legend-excludeitem.PNG)
@@ -260,8 +190,6 @@ In the following example, color mapping is added for the ranges from **0** to **
 ### Hide desired legend items
 
 Use the `ShowLegend` property in the `MapsColorMapping` to show or hide the desired legend items in Maps. If the `ShowLegend` property is set to **false**, the legend item will be hidden. otherwise, it will be visible.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -272,18 +200,6 @@ Use the `ShowLegend` property in the `MapsColorMapping` to show or hide the desi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/hidelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Hidelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/hidelegend/hidelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide desired legend items](./images/Legend/hide-legenditem.PNG)
@@ -291,8 +207,6 @@ Use the `ShowLegend` property in the `MapsColorMapping` to show or hide the desi
 ### Hide legend items based on data source value
 
 Depending on the boolean values provided in the data source, the legend items will be hidden or visible. Bind the field name that contains the visibility state in the data source to the `ShowLegendPath` property of the `MapsLegendSettings` class to achieve this.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -303,18 +217,6 @@ Depending on the boolean values provided in the data source, the legend items wi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/hidelegendbasedDS/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HidelegendbasedDS.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/hidelegendbasedDS/hidelegendbasedDS.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide legend items based on data source value](./images/Legend/Legend-itemDS.PNG)
@@ -322,8 +224,6 @@ Depending on the boolean values provided in the data source, the legend items wi
 ### Binding legend item text from data source
 
 To show the legend text based on values provided in the data source, use the `ValuePath` property in the `MapsLegendSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -334,18 +234,6 @@ To show the legend text based on values provided in the data source, use the `Va
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/bindlegendtext/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bindlegendtext.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/bindlegendtext/bindlegendtext.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide legend items based on data source value](./images/Legend/legend-textDS.PNG)
@@ -353,8 +241,6 @@ To show the legend text based on values provided in the data source, use the `Va
 ### Hide duplicate legend items
 
 To hide the duplicate legend items in Maps, set the `RemoveDuplicateLegend` property to **true** in the `MapsLegendSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -364,18 +250,6 @@ To hide the duplicate legend items in Maps, set the `RemoveDuplicateLegend` prop
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/duplicatelegend/duplicatelegend.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/duplicatelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Duplicatelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/duplicatelegend/duplicatelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -392,8 +266,6 @@ The following properties are available to customize the toggle option in legend.
 * `Opacity` – To customize the transparency for the shapes for which legend item is toggled.
 * `Border` – To customize the color, width and opacity of the border of the shapes in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/togglelegend/tagHelper %}
@@ -403,18 +275,6 @@ The following properties are available to customize the toggle option in legend.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/togglelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Togglelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/legendproperties/togglelegend/togglelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide duplicate legend items](./images/Legend/toggle-legend.PNG)
@@ -422,8 +282,6 @@ The following properties are available to customize the toggle option in legend.
 ## Enable legend for bubbles
 
 To enable the legend for the bubble by setting the `Visible` property of `MapsLegendSettings` as **true** and `Type` property of `MapsLegendSettings` as **Bubbles**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -434,18 +292,6 @@ To enable the legend for the bubble by setting the `Visible` property of `MapsLe
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/bubble/bubble-legend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bubble-legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/bubble/bubble-legend/bubble-legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Enable legend for bubble](./images/Legend/legend-bubble.PNG)
@@ -453,8 +299,6 @@ To enable the legend for the bubble by setting the `Visible` property of `MapsLe
 ## Enable legend for markers
 
 To enable legend for marker by setting the `Visible` property of `MapsLegendSettings` as **true** and `Type` property of `MapsLegendSettings` as **Markers**. The `LegendText` property in the `MapsMarker` can be used to show the legend text based on values provided in the data source.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -465,18 +309,6 @@ To enable legend for marker by setting the `Visible` property of `MapsLegendSett
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/legend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/legend/legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Enable legend for marker](./images/Legend/legend-marker.PNG)
@@ -484,8 +316,6 @@ To enable legend for marker by setting the `Visible` property of `MapsLegendSett
 ### Imitate/Map marker shape to the legend shape
 
 To imitate or map the marker shape with its legend item shape, set the `UseMarkerShape` property to **true** in the `MapsLegendSettings` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -495,17 +325,5 @@ To imitate or map the marker shape with its legend item shape, set the `UseMarke
 {% include code-snippet/chart-sdk/asp-net-core/maps/markers/marker-legend/marker-legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/marker-legend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/marker-legend/marker-legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Marker shape mapped to legend items shape](./images/Legend/marker-legend-shape.PNG)

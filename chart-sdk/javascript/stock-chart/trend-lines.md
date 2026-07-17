@@ -58,21 +58,6 @@ To render a moving average trendline, use trendline [`type`](../api/stock-chart/
 
 `period` property defines the period to find the moving average.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs31/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs31/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs31" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs31/index.js %}
@@ -83,26 +68,10 @@ To render a moving average trendline, use trendline [`type`](../api/stock-chart/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs31" %}
-{% endif %}
 
 **Customization of Trendline**
 
 The [`fill`](../api/stock-chart/stockChartTrendlineModel/#fill) and [`width`](../api/stock-chart/stockChartTrendlineModel/#width) properties are used to customize the appearance of the trendline.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs32/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs32/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs32" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -114,4 +83,3 @@ The [`fill`](../api/stock-chart/stockChartTrendlineModel/#fill) and [`width`](..
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs32" %}
-{% endif %}
