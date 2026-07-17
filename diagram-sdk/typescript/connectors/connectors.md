@@ -30,7 +30,7 @@ N> When setting a Connector's ID, ensure that it does not contain white spaces, 
 
 ## Add connectors through connectors collection
 
-The [`sourcePoint`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) and [`targetPoint`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) properties of connector allow you to define the end points of a connector.
+The [`sourcePoint`](https://ej2.syncfusion.com/documentation/api/diagram/connector#sourcepoint) and [`targetPoint`](https://ej2.syncfusion.com/documentation/api/diagram/connector#targetpoint) properties of connector allow you to define the end points of a connector.
 
 The following code example illustrates how to add a connector through connector collection.
 

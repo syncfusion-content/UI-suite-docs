@@ -15,7 +15,7 @@ Diagram allows you to customize the position of the port efficiently. Port can b
 
 ## Port offset
 
-The [`offset`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) property is used to align the ports based on fractions. 0 represents top/left corner, 1 represents bottom/right corner, and 0.5 represents half of width/height.
+The [`offset`](https://ej2.syncfusion.com/documentation/api/diagram/pointportmodel#offset) property is used to align the ports based on fractions. 0 represents top/left corner, 1 represents bottom/right corner, and 0.5 represents half of width/height.
 
 The following table shows the position of port within the shape.
 
@@ -40,19 +40,6 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.html %}
@@ -89,19 +76,6 @@ The following table shows all the possible alignments visually with offset (0, 0
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.html %}

@@ -35,18 +35,6 @@ Diagram provides some default context menu items to ease the execution of some f
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
 {% endif %}
 
 ## Custom context menu
@@ -77,18 +65,6 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
 {% endif %}
 
 ### Context menu open
@@ -108,18 +84,6 @@ In certain situations, you may want to hide specific menu items based on the sel
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs6/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
 {% endif %}
 
 ### Context menu with Url
@@ -174,49 +138,6 @@ new Diagram({
 
 ```
 
-{% elsif page.publishingplatform == "javascript" %}
-
-```javascript
-
-var nodes = [
-  {
-    id: 'node1', width: 100, height: 100, offsetX: 100, offsetY: 100,
-    style: { fill: '#6BA5D7', strokeColor: 'white', strokeWidth: 1 },
-    annotations: [{
-      id: 'label1', content: 'Rectangle1',
-      offset: { x: 0.5, y: 0.5 },
-      style: { color: 'white' }
-    }]
-  },
-  {
-    id: 'node2', width: 100, height: 100, offsetX: 300, offsetY: 100,
-    style: { fill: '#6BA5D7', strokeColor: 'white', strokeWidth: 1 },
-    annotations: [{
-      id: 'label2', content: 'Rectangle2', offset: { x: 0.5, y: 0.5 },
-      style: { color: 'white' }
-    }]
-  }
-];
-
-var menuItems = [
-  { text: 'Google.com', id: 'google', url: 'https://www.google.co.in/' },
-  { text: 'w3schools.com', id: 'W3Schools', url: 'https://www.w3schools.com/' },
-  { text: 'stackoverflow.com', id: 'stackoverflow', url: 'https://stackoverflow.com/' }
-];
-
-new ej.diagrams.Diagram({
-  width: '100%',
-  height: '350px',
-  nodes,
-  contextMenuSettings: {
-    show: true,
-    items: menuItems.map(item => ({ ...item, target: '.e-diagramcontent' })),
-    showCustomMenuOnly: true
-  }
-}, '#element');
-
-```
-
 {% endif %}
 
 ## Template Support for Context menu
@@ -238,18 +159,6 @@ In the following example, menu items are rendered with shortcut key codes for sp
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
 {% endif %}
 
 
@@ -276,18 +185,6 @@ The following example shows how to get these events.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-events/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-events/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
 {% endif %}
 
 

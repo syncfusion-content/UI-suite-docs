@@ -37,12 +37,12 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 
 * Bezier control points can be positioned in two ways.
 
-* When setting control point positions using the [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) properties, the control point remains fixed in its set position while dragging connector end points.
-* When setting control point positions using the The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/vectormodel) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/vectormodel) properties, the control point dynamically adjusts to maintain the angle and distance originally set while moving the connector end points.
+* When setting control point positions using the [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#point1) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#point2) properties, the control point remains fixed in its set position while dragging connector end points.
+* When setting control point positions using the The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#vector1) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#vector2) properties, the control point dynamically adjusts to maintain the angle and distance originally set while moving the connector end points.
 
 #### Point
 
-The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) properties of bezier segment enable you to set the control points. The following code example illustrates how to configure the bezier segments with control points.
+The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#point1) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#point2) properties of bezier segment enable you to set the control points. The following code example illustrates how to configure the bezier segments with control points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,7 +59,7 @@ The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) 
 
 #### Vector
 
-The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/vectormodel) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/vectormodel) properties of bezier segment enable you to define the vectors. The following code illustrates how to configure a bezier curve with vectors.
+The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#vector1) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment#vector2) properties of bezier segment enable you to define the vectors. The following code illustrates how to configure a bezier curve with vectors.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
