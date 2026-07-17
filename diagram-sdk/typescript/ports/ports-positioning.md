@@ -35,7 +35,7 @@ The following table shows the position of port within the shape.
 
 The [`horizontalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram/horizontalAlignment) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram/verticalAlignment) property is used to set how the port is vertically aligned at the port position.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -48,7 +48,7 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
 
-{% endif %}
+
 
 The following table shows all the possible alignments visually with offset (0, 0).
 
@@ -71,7 +71,7 @@ The following table shows all the possible alignments visually with offset (0, 0
 [`Margin`](https://ej2.syncfusion.com/documentation/api/diagram/marginModel) is an absolute value used to add some blank space to any one of its four sides. The ports can be displaced with the margin property. The following code example explains how to align a port based on its offset and margin values.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -84,7 +84,7 @@ The following table shows all the possible alignments visually with offset (0, 0
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
 
-{% endif %}
+
 
 ## See also
 

@@ -66,7 +66,7 @@ The [`customCursor`](https://ej2.syncfusion.com/documentation/api/diagram/custom
 
 The following example demonstrates how to apply custom cursors for the Select and Drag tools using the `customCursor` property.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -79,7 +79,7 @@ The following example demonstrates how to apply custom cursors for the Select an
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/diagram-cs1" %}
 
-{% endif %}
+
 
 ## Get custom tool
 
@@ -87,7 +87,7 @@ The  [`getCustomtTool`](https://ej2.syncfusion.com/documentation/api/diagram#get
 
 In the following example, `getCustomTool` is used to clone a node when clicking on the user handle.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -100,7 +100,7 @@ In the following example, `getCustomTool` is used to clone a node when clicking 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/diagram-cs2" %}
 
-{% endif %}
+
 
 ## Background color
 
@@ -113,7 +113,7 @@ The `addInfo` property of the diagram is used to store additional information or
 
 In the following example, both `backgroundColor` and `addInfo` are set for the diagram:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -126,7 +126,7 @@ In the following example, both `backgroundColor` and `addInfo` are set for the d
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/diagram-cs3" %}
 
-{% endif %}
+
 
 ## Mode
 
@@ -142,7 +142,7 @@ The [`getNodeDefaults`](https://ej2.syncfusion.com/documentation/api/diagram#get
 The following example demonstrates how to set getNodeDefaults and getConnectorDefaults.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -155,7 +155,7 @@ The following example demonstrates how to set getNodeDefaults and getConnectorDe
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/diagram-cs4" %}
 
-{% endif %}
+
 
 ## Diagram settings
 
@@ -163,7 +163,7 @@ The `inversedAlignment` property in `diagramSettings` controls the alignment of 
 
 The example below demonstrates how to set inversedAlignment for a diagram to align node labels accordingly.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -176,7 +176,7 @@ The example below demonstrates how to set inversedAlignment for a diagram to ali
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/diagram-cs5" %}
 
-{% endif %}
+
 
 
 

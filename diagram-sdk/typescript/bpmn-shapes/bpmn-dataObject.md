@@ -15,7 +15,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnDataObject), set the shape as **DataObject** and the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/bpmndataobjects) property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ A data object represents information flowing through the process, such as data p
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs14" %}
 
-{% endif %}
+
 
 The following table contains various representation of BPMN data object.
 

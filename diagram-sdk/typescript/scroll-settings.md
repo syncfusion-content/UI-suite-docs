@@ -15,7 +15,7 @@ The diagram can be scrolled using both the vertical and horizontal scrollbars. A
 
 ## Access and Customize Scroll Settings
 
-Scroll settings in a diagram allow you to access and customize various properties such as [`horizontalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#horizontaloffset), [`verticalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#verticaloffset), [`viewPortWidth`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#viewportwidth), [`viewPortHeight`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#viewportheight), [`currentZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#currentzoom), [`zoomFactor`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#zoomfactor), [`maxZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#maxzoom), [`minZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#minzoom), [`scrollLimit`](https://ej2.syncfusion.com/documentation/api/diagram/scrolllimit) , [`canAutoScroll`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#canautoscroll) , [`autoScrollBorder`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#autoscrollborder), [`padding`](https://ej2.syncfusion.com/documentation/api/diagram/marginmodel) , [`scrollableArea`](https://ej2.syncfusion.com/documentation/api/diagram/rect). 
+Scroll settings in a diagram allow you to access and customize various properties such as [`horizontalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#horizontaloffset), [`verticalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#verticaloffset), [`viewPortWidth`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#viewportwidth), [`viewPortHeight`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#viewportheight), [`currentZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#currentzoom), [`zoomFactor`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#zoomfactor), [`maxZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#maxzoom), [`minZoom`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#minzoom), [`scrollLimit`](https://ej2.syncfusion.com/documentation/api/diagram/scrolllimit) , [`canAutoScroll`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#canautoscroll) , [`autoScrollBorder`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#autoscrollborder), [`padding`](https://ej2.syncfusion.com/documentation/api/diagram/scrollsettingsmodel#padding) , [`scrollableArea`](https://ej2.syncfusion.com/documentation/api/diagram/rect). 
 
 These properties enable you to read and adjust the scroll status, scroll offset, zoom levels, and more. For a comprehensive overview of these properties, refer to the [`Scroll Settings`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel)
 
@@ -25,7 +25,7 @@ The diagram allows you to pan before loading, ensuring that any desired region o
 
 In the example below, the vertical scrollbar is scrolled down by 100 px, and the horizontal scrollbar is scrolled to the right by 100 px.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -38,7 +38,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs1" %}
 
-{% endif %}
+
 
 ## Update scroll offset at runtime
 
@@ -53,7 +53,7 @@ There are several ways to update the scroll offset at runtime:
 
 You can programmatically change the scroll offsets of diagram by customizing the [`horizontalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#verticaloffset)  of [`Scroll Settings`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel) at runtime. The following code illustrates how to change the scroll offsets at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -66,7 +66,7 @@ You can programmatically change the scroll offsets of diagram by customizing the
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs2" %}
 
-{% endif %}
+
 
 ## Update zoom at runtime
 
@@ -92,11 +92,11 @@ You can programmatically change the current zoom of diagram by utilizing the [`z
 
 #### ZoomOptions
 
-The [`zoomTo`](https://ej2.syncfusion.com/documentation/api/diagram#zoomto) method takes one parameter [`zoomOptions`](https://ej2.syncfusion.com/documentation/api/diagram/zoomOptions). In that zoomOptions we can specify the [`focusPoint`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/zoomtypes) and [`zoomFactor`](https://ej2.syncfusion.com/documentation/api/diagram/zoomOptions#zoomfactor)
+The [`zoomTo`](https://ej2.syncfusion.com/documentation/api/diagram#zoomto) method takes one parameter [`zoomOptions`](https://ej2.syncfusion.com/documentation/api/diagram/zoomOptions). In that zoomOptions we can specify the [`focusPoint`](https://ej2.syncfusion.com/documentation/api/diagram/zoomOptions#focuspoint), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/zoomtypes) and [`zoomFactor`](https://ej2.syncfusion.com/documentation/api/diagram/zoomOptions#zoomfactor)
 
  The following example shows how to zoom-in and zoom-out the diagram using zoomTo method
 
- {% if page.publishingplatform == "typescript" %}
+ 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -109,7 +109,7 @@ The [`zoomTo`](https://ej2.syncfusion.com/documentation/api/diagram#zoomto) meth
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs8" %}
 
-{% endif %}
+
 
 For more information on various ways to zoom and pan the diagram, refer to [`zoomPan with various ways`](https://support.syncfusion.com/kb/article/15147/how-to-zoom-and-pan-in-javascript-diagram-with-various-ways)
 
@@ -133,7 +133,7 @@ The autoscroll border defines the maximum distance from the mouse pointer to the
 
 The following example demonstrates how to configure autoscroll:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -146,7 +146,7 @@ The following example demonstrates how to configure autoscroll:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs3" %}
 
-{% endif %}
+
 
 N> To use auto scroll the `scrollLimit` should be set as **Infinity**.
 
@@ -173,7 +173,7 @@ Scrolling beyond a particular rectangular area can be restricted by using the [`
 
 The following code example illustrates how to specify the scroll limit and customize the scrollable area.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -186,15 +186,15 @@ The following code example illustrates how to specify the scroll limit and custo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs5" %}
 
-{% endif %}
+
 
 ## Scroll Padding
 
-The [`padding`](https://ej2.syncfusion.com/documentation/api/diagram/marginmodel) property of the scroll settings allows you to extend the scrollable region based on the scroll limit. This property is useful for adding extra space around the diagram content, making it easier to navigate and interact with elements near the edges.
+The [`padding`](https://ej2.syncfusion.com/documentation/api/diagram/scrollsettingsmodel#padding) property of the scroll settings allows you to extend the scrollable region based on the scroll limit. This property is useful for adding extra space around the diagram content, making it easier to navigate and interact with elements near the edges.
 
 The following code example illustrates how to set scroll padding for the diagram region:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -207,7 +207,7 @@ The following code example illustrates how to set scroll padding for the diagram
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs6" %}
 
-{% endif %}
+
 
 ## Reset scroll
 
@@ -235,7 +235,7 @@ diagram.updateViewPort();
 
 The [`scrollChange`](https://ej2.syncfusion.com/documentation/api/diagram/iScrollChangeEventArgs) event is triggered whenever the scrollbar is updated. This can occur during actions such as zooming in, zooming out, using the mouse wheel, or panning. The following example shows how to capture the `scrollChange` event.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -248,4 +248,3 @@ The [`scrollChange`](https://ej2.syncfusion.com/documentation/api/diagram/iScrol
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs9" %}
 
-{% endif %}

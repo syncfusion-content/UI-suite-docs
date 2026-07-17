@@ -21,7 +21,7 @@ To create a TypeScript web application, set up a basic HTML file with the requir
 
 ## How to add packages in the TypeScript application
 
-{% if page.publishingplatform == "typescript" %}
+
 
 Install the required npm packages in your TypeScript project:
 
@@ -37,7 +37,7 @@ import * as signalR from '@microsoft/signalr';
 import { Diagram } from '@syncfusion/ej2-diagrams';
 ```
 
-{% endif %}
+
 
 ## Configure SignalR service in TypeScript application
 
@@ -48,7 +48,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 * Join a SignalR group by calling `invoke('JoinDiagram', roomName)` after the connection is established. This ensures updates are shared only with users in the same diagram session.
 * Refer to the TypeScript Diagram [Getting Started](../../typescript/getting-started) guide.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,7 +59,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
+
 
 >**Notes:**
 >* Use a unique `roomName` per diagram (for example, a diagram ID) to isolate collaboration sessions.
@@ -75,7 +75,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 * Each remote user listens for the `ReceiveData` and applies the incoming changes with [setDiagramUpdates](https://ej2.syncfusion.com/documentation/api/diagram/index-default#setdiagramupdates), keeping their view synchronized without reloading the full diagram.
 * Enable the [enableCollaborativeEditing](https://ej2.syncfusion.com/documentation/api/diagram/index-default#enablecollaborativeediting) property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation. This property works in conjunction with the [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) module to batch related changes efficiently. 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -86,7 +86,7 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
+
 
 ## Conflict policy (optimistic concurrency) in TypeScript application
 
@@ -94,7 +94,7 @@ To maintain consistency during collaborative editing, each user applies incoming
 
 Add the following code in your TypeScript application:
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -105,4 +105,3 @@ Add the following code in your TypeScript application:
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}

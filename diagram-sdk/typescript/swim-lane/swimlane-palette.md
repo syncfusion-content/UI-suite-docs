@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
    Diagram provides the support to add swimlane and phases to symbol palette. The following code sample illustrate how to add swimlane and phases to palette.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -26,7 +26,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs15" %}
 
-{% endif %}
+
 
 ### Drag and drop swimlane to palette
 

@@ -23,7 +23,7 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 * While creating group, its child node need to be declared before the group declaration.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -36,7 +36,7 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs1" %}
 
-{% endif %}
+
 
 ## Group nodes at runtime
 
@@ -44,7 +44,7 @@ Groups can be dynamically created during runtime in the diagram by invoking the 
 
 The following code illustrates how a group  at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -57,13 +57,13 @@ The following code illustrates how a group  at runtime.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-runtime" %}
 
-{% endif %}
+
 
 ## UnGroup nodes at runtime
 
 Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](https://ej2.syncfusion.com/documentation/api/diagram#ungroup) method. The following code example shows how to unGroup group node at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -76,7 +76,7 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](https:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs2" %}
 
-{% endif %}
+
 
 ## Add group node at runtime
 
@@ -84,7 +84,7 @@ A group node can be added at runtime by using the diagram method [`add`](https:/
 
 The following code illustrates how a group node is added at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -97,7 +97,7 @@ The following code illustrates how a group node is added at runtime.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs3" %}
 
-{% endif %}
+
 
 ## Add collection of group nodes at runtime
 
@@ -105,7 +105,7 @@ The following code illustrates how a group node is added at runtime.
 
 The following code illustrates how to add a group nodes collection at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -118,7 +118,7 @@ The following code illustrates how to add a group nodes collection at runtime.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs7" %}
 
-{% endif %}
+
 
 ## Add/Remove children from group
 
@@ -150,7 +150,7 @@ diagram.removeChildFromGroup (groupNode, childNode);
 
 ```
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -163,15 +163,15 @@ diagram.removeChildFromGroup (groupNode, childNode);
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs6" %}
 
-{% endif %}
+
 
 ## Group padding
 
-The [`Padding`](https://ej2.syncfusion.com/documentation/api/diagram/marginmodel) property of a group node defines the spacing between the group node’s edges and its children.
+The [`Padding`](https://ej2.syncfusion.com/documentation/api/diagram/node#padding) property of a group node defines the spacing between the group node’s edges and its children.
 
 The following code illustrates how to add Padding to the node group.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -184,7 +184,7 @@ The following code illustrates how to add Padding to the node group.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-padding" %}
 
-{% endif %}
+
 
 ## Group flip
 
@@ -197,7 +197,7 @@ The flip functionality for a group node works similarly to that of normal nodes.
 
 The following example shows how to apply flip for group node.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -210,7 +210,7 @@ The following example shows how to apply flip for group node.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flip" %}
 
-{% endif %}
+
 
 ## Group flip mode
 
@@ -221,7 +221,7 @@ the flipMode for the child node `Node1` is set to `LabelText`.
 The flipMode for the group node is set to `Label`.
 As a result, the effective flipMode for both the child node and the group node will be Label, as the group node’s flipMode overrides the child’s.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -234,14 +234,14 @@ As a result, the effective flipMode for both the child node and the group node w
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flipMode" %}
 
-{% endif %}
+
 
 
 ## Nested group
 
 Nested groups are essentially groups within groups, where a group can contain other groups as its children, creating a hierarchy that helps manage complexity and relationships between different elements. The following code illustrates how to create nested group node.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -254,7 +254,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-nestedGroup" %}
 
-{% endif %}
+
 
 ![Nested Group GIF](images/nestedGroup.gif)
 
@@ -262,7 +262,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
 Group node can be added in symbol palette like the normal nodes.  The following code illustrates how to render group node in palette.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -275,13 +275,13 @@ Group node can be added in symbol palette like the normal nodes.  The following 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-palette" %}
 
-{% endif %}
+
 
 ## Update group node at runtime
 
 Group can be updated dynamically similar to the normal nodes.  The following code illustrates how to update group node at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -294,7 +294,7 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-updateRuntime" %}
 
-{% endif %}
+
 
 
 ## Container
@@ -317,7 +317,7 @@ Containers are used to automatically measure and arrange the size and position o
 
 The following code illustrates how to add canvas panel.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -330,7 +330,7 @@ The following code illustrates how to add canvas panel.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs4" %}
 
-{% endif %}
+
 
 ***Stack***
 
@@ -340,7 +340,7 @@ The following code illustrates how to add canvas panel.
 
 The following code illustrates how to add a stack panel.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -353,7 +353,7 @@ The following code illustrates how to add a stack panel.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs5" %}
 
-{% endif %}
+
 
 ## Difference between a basic group and containers
 

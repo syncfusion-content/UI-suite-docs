@@ -27,7 +27,7 @@ The [`width`](https://ej2.syncfusion.com/documentation/api/overview/overviewMode
 
 The following code illustrates how to create an overview:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,7 +40,7 @@ The following code illustrates how to create an overview:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-create" %}
 
-{% endif %}
+
 
 
 ### Overview interactions
@@ -54,7 +54,7 @@ You can interact with the overview as follows:
 * Click on a position: Navigates to the clicked region.
 * Select a specific region by clicking and dragging: Navigates to the specified region.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -67,7 +67,7 @@ You can interact with the overview as follows:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-cs1" %}
 
-{% endif %}
+
 
 The following Gif image displays the interactions with overview.
 

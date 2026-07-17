@@ -18,7 +18,7 @@ For more information about port visibility refer [`Port Visibility`](#port-visib
 
 The following code illustrates how to change the appearance of port.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -31,14 +31,14 @@ The following code illustrates how to change the appearance of port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs5" %}
 
-{% endif %}
+
 
 ### Change appearance of port at runtime
 
 The appearance of port can be changed at runtime by customizing the style of port. The following code illustrates how to change the appearance of port at runtime.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -51,7 +51,7 @@ The appearance of port can be changed at runtime by customizing the style of por
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs6" %}
 
-{% endif %}
+
 
 
 ## Port visibility
@@ -87,7 +87,7 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -100,7 +100,7 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-shapes" %}
 
-{% endif %}
+
 
 
 ## Constraints

@@ -21,7 +21,7 @@ To explore those properties, refer to [`Page Settings`](https://ej2.syncfusion.c
 
 The following example shows the customization of page settings.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +34,7 @@ The following example shows the customization of page settings.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs1" %}
 
-{% endif %}
+
 
 ## Set background image
 
@@ -43,7 +43,7 @@ A background image can be attached to the page by using the [`source`](https://e
 
 The following code illustrates how to set background image to the diagram page.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -56,7 +56,7 @@ The following code illustrates how to set background image to the diagram page.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs2" %}
 
-{% endif %}
+
 
 ## Page orientation
 
@@ -68,7 +68,7 @@ There are two types of page orientations:
 Depending on the [`orientation`](https://ej2.syncfusion.com/documentation/api/diagram/pageorientation) selected, the width and height properties are adjusted accordingly. By default, the `orientation` is set to **Landscape**. In the following example, the height and width properties of `pageSettings` are swapped when setting the `orientation` to **Portrait**.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -81,7 +81,7 @@ Depending on the [`orientation`](https://ej2.syncfusion.com/documentation/api/di
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs5" %}
 
-{% endif %}
+
 
 
 ## Multiple page and page breaks
@@ -90,7 +90,7 @@ When multiple pages are enabled, the page size dynamically adjusts in multiples 
 
 The [`multiplePage`](https://ej2.syncfusion.com/documentation/api/diagram/pageSettingsModel#multiplepage) and [`showPageBreak`](https://ej2.syncfusion.com/documentation/api/diagram/pageSettingsModel#showpagebreaks) properties in page settings control the ability to enable multiple pages and display page break lines, respectively.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -103,7 +103,7 @@ The [`multiplePage`](https://ej2.syncfusion.com/documentation/api/diagram/pageSe
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs3" %}
 
-{% endif %}
+
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details refer to [`CSS customization`](./style#customizing-the-page-breaks)
 
@@ -119,7 +119,7 @@ To explore these constraints further, refer to [`Boundary Constraints`](./constr
 
 Below is an example illustrating how to define boundary constraints within the diagram:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -132,7 +132,7 @@ Below is an example illustrating how to define boundary constraints within the d
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs4" %}
 
-{% endif %}
+
 
 ## Fit options
 
@@ -140,7 +140,7 @@ The [`fitOptions`](https://ej2.syncfusion.com/documentation/api/diagram/fitOptio
 
 The following example demonstrates how fitOptions are utilized in diagram page settings.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -153,4 +153,3 @@ The following example demonstrates how fitOptions are utilized in diagram page s
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs6" %}
 
-{% endif %}

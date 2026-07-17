@@ -21,7 +21,7 @@ There are two types of activities. They are listed as follows:
 
 To create a BPMN activity, set the shape as **activity**. You also need to set the type of the BPMN activity by using the activity property of the node. By default, the type of the activity is set as **task**. The following code example illustrates how to create an activity.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +34,7 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs4" %}
 
-{% endif %}
+
 
 The different activities of BPMN process are listed as follows.
 
@@ -43,7 +43,7 @@ The different activities of BPMN process are listed as follows.
 The [`task`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnTask#BpmnTask) property of the [`bpmn activity`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnactivitymodel) allows you to define the type of task such as sending, receiving, user based task, etc. By default, the type property of task is set as **none**. The following code illustrates how to create different types of
 BPMN tasks.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -56,7 +56,7 @@ BPMN tasks.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs5" %}
 
-{% endif %}
+
 
 The various types of BPMN tasks are tabulated as follows.
 
@@ -74,7 +74,7 @@ The various types of BPMN tasks are tabulated as follows.
 ### Collapsed Subprocess
 
 A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnSubProcessModel#collapsed) is a group of tasks, which is used to hide or reveal details of additional levels. The following code explains how to create a Collapsed Sub-Process.
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -87,13 +87,13 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/documentation/api/diagram
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs6" %}
 
-{% endif %}
+
 
 #### Loop
 
 [`Loop`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnTask#loop) is a task that is internally being looped. The loop property of `bpmn activity` allows you to define the type of loop. The default value for `loop` is **none**. You can define the loop property in subprocess BPMN shape as shown in the following code.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -106,7 +106,7 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/documentation/api/diagram
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs9" %}
 
-{% endif %}
+
 
 The following table contains various types of BPMN loops.
 
@@ -121,7 +121,7 @@ The following table contains various types of BPMN loops.
 [`Compensation`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnTask#compensation) is triggered, when operation is partially failed and enabled it with the compensation property of the `bpmn activity`.
 By default, the `compensation` is set to false.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -134,14 +134,14 @@ By default, the `compensation` is set to false.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs10" %}
 
-{% endif %}
+
 
 #### Call
 
 A [`call`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnTask#call) activity is a global subprocess that is reused at various points of the business flow and set it with the call property of the task.
 By default, the call property is false.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -154,7 +154,7 @@ By default, the call property is false.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs11" %}
 
-{% endif %}
+
 
 N> This Property is only applicable for task Type activity. 
 
@@ -162,7 +162,7 @@ N> This Property is only applicable for task Type activity.
 
 An adhoc subprocess is a group of tasks that are executed in any order or skipped in order to fulfill the end condition and set it with the [`adhoc`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnSubProcess#adhoc) property of subprocess. By default, the adhoc property is false.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -175,14 +175,14 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs12" %}
 
-{% endif %}
+
 
 
 #### Boundary
 
 Boundary represents the type of task that is being processed. The [`boundary`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnboundary) property of subprocess allows you to define the type of boundary. By default, it is set as **default**.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -195,7 +195,7 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs13" %}
 
-{% endif %}
+
 
 The following table contains various types of BPMN boundaries.
 
@@ -217,7 +217,7 @@ The different types of subprocess are as follows:
 
 A subprocess is defined as an event subprocess, when it is triggered by an event. An event subprocess is placed within another subprocess which is not part of the normal flow of its parent process. You can set event to a subprocess with the [`event`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnevents) and [`trigger`](https://ej2.syncfusion.com/documentation/api/diagram/bpmntriggers) property of the subprocess. The [`type`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnsubprocesstypes) property of subprocess allows you to define the type of subprocess whether it should be event subprocess or transaction subprocess.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -230,7 +230,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs7" %}
 
-{% endif %}
+
 
 ##### Transaction subprocess
 
@@ -244,7 +244,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 * You can also use define ports and labels to subprocess events by using event’s ports and labels properties.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -257,6 +257,6 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs8" %}
 
-{% endif %}
+
 
 

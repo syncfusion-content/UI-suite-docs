@@ -22,7 +22,7 @@ N> If you want to use contextMenu in diagram, you need to inject `DiagramContext
 
 Diagram provides some default context menu items to ease the execution of some frequently used commands. The [`show`](https://ej2.syncfusion.com/documentation/api/diagram/contextMenuSettingsModel#show) property helps you to enable/disable the context menu. The following code illustrates how to enable the default context menu items.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -35,7 +35,7 @@ Diagram provides some default context menu items to ease the execution of some f
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
 
-{% endif %}
+
 
 ## Custom context menu
 
@@ -52,7 +52,7 @@ To display the custom context menu items alone, set the [`showCustomMenuOnly`](h
 Upon clicking custom menu items, actions are handled using the [`contextMenuClick`](https://ej2.syncfusion.com/documentation/api/diagram#contextmenuclick) event in the diagram. This event allows you to define actions based on which menu item is clicked. For instance, in the example below, the cloning of nodes and the change of fill color for nodes and annotations are efficiently managed and implemented through this event.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -65,13 +65,13 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
 
-{% endif %}
+
 
 ### Context menu open
 
 In certain situations, you may want to hide specific menu items based on the selected elements in the diagram. This can be achieved using the [`contextMenuOpen`](https://ej2.syncfusion.com/documentation/api/diagram/diagramBeforeMenuOpenEventArgs) event. When the context menu is opened via right-click, the `contextMenuOpen` event is triggered. Within this event, you can create an array of menu items to hide for the selected element and pass it to the [`hiddenItems`](https://ej2.syncfusion.com/documentation/api/diagram/diagramBeforeMenuOpenEventArgs#hiddenitems) property of the contextMenuOpen event argument. The following example demonstrates how to display different custom menu items for nodes, connectors, and the diagram based on the selection.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -84,13 +84,13 @@ In certain situations, you may want to hide specific menu items based on the sel
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
 
-{% endif %}
+
 
 ### Context menu with Url
 
 [`url`](https://ej2.syncfusion.com/documentation/api/diagram/contextMenuItemModel#url) property of the menu item is used to set the url of any website which will be opened upon clicking on them. The following example shows the context menu with url for three websites.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 ```javascript
 
@@ -138,7 +138,7 @@ new Diagram({
 
 ```
 
-{% endif %}
+
 
 ## Template Support for Context menu
 
@@ -146,7 +146,7 @@ Diagram provides template support for the context menu. The template for the con
 
 In the following example, menu items are rendered with shortcut key codes for specific actions in the context menu using a template. The key codes for cut, copy, and paste actions are displayed at the right corner of the menu items by adding a span element in the `contextMenuBeforeItemRender` event.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -159,7 +159,7 @@ In the following example, menu items are rendered with shortcut key codes for sp
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
 
-{% endif %}
+
 
 
 ## Context menu events
@@ -172,7 +172,7 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
 The following example shows how to get these events.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -185,7 +185,7 @@ The following example shows how to get these events.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
 
-{% endif %}
+
 
 
 ## See Also

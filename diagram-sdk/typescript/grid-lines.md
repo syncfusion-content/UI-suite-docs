@@ -20,7 +20,7 @@ The [`snapSettings`](https://ej2.syncfusion.com/documentation/api/diagram/index-
 The [`snapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/snapconstraints) enables you to show/hide the gridlines. The following code example illustrates how to show the gridlines.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -33,7 +33,7 @@ The [`snapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/sna
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs1" %}
 
-{% endif %}
+
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
 
@@ -51,7 +51,7 @@ The appearance of the gridlines can be customized by using a set of predefined p
 
 The following code example illustrates how to customize the appearance of gridlines.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -64,7 +64,7 @@ The following code example illustrates how to customize the appearance of gridli
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs2" %}
 
-{% endif %}
+
 
 ![Line appearance](./images/line-appearance.png)
 
@@ -74,7 +74,7 @@ Thickness and the space between gridlines can be customized by using horizontal 
 
 The following code example illustrates how to customize the thickness of lines and the line intervals.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -87,7 +87,7 @@ The following code example illustrates how to customize the thickness of lines a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs3" %}
 
-{% endif %}
+
 
 ![Line interval](./images/line-interval.png)
 
@@ -97,7 +97,7 @@ The appearance of the grid lines can be changed into dots by settings [`gridType
 
 The following code illustrates how to render grid patterns as Dots.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -110,7 +110,7 @@ The following code illustrates how to render grid patterns as Dots.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-dots" %}
 
-{% endif %}
+
 
 ![Dot Grid](./images/grid-dots.png)
 
@@ -125,7 +125,7 @@ This feature allows diagram objects to snap to the nearest intersection of gridl
 Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/snapsettings#constraints) property of the SnapSettings class. The default value is All.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -138,7 +138,7 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](h
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs4" %}
 
-{% endif %}
+
 
 ![Snap to lines](./images/snapToLines.gif)
 
@@ -148,7 +148,7 @@ The snap-to-object feature provides visual cues to assist with aligning and spac
 
 The [`snapObjectDistance`](https://ej2.syncfusion.com/documentation/api/diagram/snapsettingsmodel#snapobjectdistance) property allows you to define minimum distance between the selected object and the nearest object. By default, the `snapObjectDistance` is set to **5**.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -161,7 +161,7 @@ The [`snapObjectDistance`](https://ej2.syncfusion.com/documentation/api/diagram/
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs6" %}
 
-{% endif %}
+
 
 ![Snap to object](./images/snapToObject.gif)
 
@@ -173,7 +173,7 @@ For example, if the snapAngle is set to 15 degrees, an object can only be rotate
 
 The following code example demonstrates how to set the `snapAngle` property and update it dynamically.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -186,7 +186,7 @@ The following code example demonstrates how to set the `snapAngle` property and 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapAngle" %}
 
-{% endif %}
+
 
 ![Snap Angle](./images/snapAngle.gif)
 
@@ -198,7 +198,7 @@ This property accepts color values in various formats, such as hexadecimal, RGB,
 
 The following code example demonstrates how to set the `snapLineColor` property and update it dynamically.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -211,14 +211,14 @@ The following code example demonstrates how to set the `snapLineColor` property 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapLineColor" %}
 
-{% endif %}
+
 
 
 ## Customization of snap intervals
 
 By default, the objects are snapped towards the nearest gridline. The gridline or position towards where the diagram object snaps can be customized with the horizontal gridlines’s [`snapInterval`](https://ej2.syncfusion.com/documentation/api/diagram/gridlinesmodel#snapintervals) and the vertical gridlines’s [`snapInterval`](https://ej2.syncfusion.com/documentation/api/diagram/gridlinesmodel#snapintervals) properties.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -231,7 +231,7 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs5" %}
 
-{% endif %}
+
 
 
 ## Snap constraints

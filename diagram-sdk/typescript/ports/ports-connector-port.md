@@ -15,7 +15,7 @@ The creation of connector ports is similar to the creation of node ports. To cre
 
 The following code example shows how to create connector port.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ The following code example shows how to create connector port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort1" %}
 
-{% endif %}
+
 
 
 ## Port alignment
@@ -37,7 +37,7 @@ The port can be aligned before, after, or at the center of the connector by util
 
 The following code example shows how to set alignment to the connector port.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -50,7 +50,7 @@ The following code example shows how to set alignment to the connector port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort3" %}
 
-{% endif %}
+
 
 
 
@@ -60,7 +60,7 @@ The connector port displacement allows users to adjust the position of ports rel
 
 The following code example shows how to set displacement to the connector port.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -73,7 +73,7 @@ The following code example shows how to set displacement to the connector port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort2" %}
 
-{% endif %}
+
 
 
 N> The displacement will work only if we set alignment as after or before.
@@ -85,7 +85,7 @@ To establish a connection between connectors, connector ports are utilized. For 
 The following code example explains how to connect connector to the connector port.
 
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -98,7 +98,7 @@ The following code example explains how to connect connector to the connector po
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-connect-conPort" %}
 
-{% endif %}
+
 
 ## See also
 
