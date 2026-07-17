@@ -166,7 +166,7 @@ this.diagram.removeChildFromGroup (groupNode, childNode);
 
 ### Group padding
 
-The [`padding`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/marginModel) property of a group node defines the spacing between the group node's edges and its children. This property helps maintain visual separation and improves the overall appearance of grouped elements.
+The [`padding`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel) property of a group node defines the spacing between the group node's edges and its children. This property helps maintain visual separation and improves the overall appearance of grouped elements.
 
 The following code illustrates how to add padding to a node group:
 
