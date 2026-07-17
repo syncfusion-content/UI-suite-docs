@@ -479,4 +479,4 @@ Undo/redo commands can be executed through shortcut keys. Shortcut key for undo 
 
 ## See Also
 
-* [How to create the custom context menu items](../context-menu)
+* [How to create the custom context menu items](./context-menu)
