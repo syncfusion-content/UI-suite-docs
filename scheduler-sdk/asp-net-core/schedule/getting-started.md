@@ -96,7 +96,7 @@ Add the [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Schedule](https://www.syncfusion.com/scheduler-sdk/aspnet-core-scheduler) control will render in your default web browser.
 
-![ASP.NET Core Scheduler Control](images/scheduler.png)
+![ASP.NET Core Scheduler Control](images/scheduler-control.webp)
 
 ## Populating appointments
 
@@ -117,7 +117,7 @@ public class AppointmentData
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Scheduler with Appointments](images/appointments.png)
+![ASP.NET Core Scheduler with Appointments](images/appointments.webp)
 
 ## Setting date
 
@@ -161,7 +161,7 @@ Scheduler displays `Week` view by default. To change the current view, define th
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Scheduler with Specific View](images/schedule-with-specific-view.png)
+![ASP.NET Core Scheduler with Specific View](images/schedule-with-specific-view.webp)
 
 ## Individual view customization
 
@@ -173,7 +173,7 @@ Each individual scheduler view can be customized with its own options such as se
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Scheduler with Custom Views](images/schedule-with-custom-views.png)
+![ASP.NET Core Scheduler with Custom Views](images/schedule-with-custom-views.webp)
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Schedule/ASP.NET%20Core%20Tag%20Helper%20Examples).
 
