@@ -18,21 +18,6 @@ The [`addPoint`](../api/accumulation-chart/accumulationSeries/#addpoint) method 
 * The first parameter is the new data point to add to your existing data source.
 * The optional second parameter specifies the animation duration for adding the new data point.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs/index.js %}
@@ -43,7 +28,6 @@ The [`addPoint`](../api/accumulation-chart/accumulationSeries/#addpoint) method 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs" %}
-{% endif %}
 
 ## Removing an existing data point
 
@@ -51,21 +35,6 @@ The [`removePoint`](../api/accumulation-chart/accumulationSeries/#removepoint) m
 
 * The first parameter is the index of the data point that needs to be removed from the existing data source.
 * The optional second parameter specifies the animation duration for removing the data point.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -77,7 +46,6 @@ The [`removePoint`](../api/accumulation-chart/accumulationSeries/#removepoint) m
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs1" %}
-{% endif %}
 
 ## Replacing entire data points
 
@@ -85,21 +53,6 @@ To replace the existing data source in the accumulation chart with a new data so
 
 * The first parameter is the new set of data points to be updated.
 * The optional second parameter specifies the animation duration for updating the new data source.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -111,4 +64,3 @@ To replace the existing data source in the accumulation chart with a new data so
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/addpoint-cs2" %}
-{% endif %}

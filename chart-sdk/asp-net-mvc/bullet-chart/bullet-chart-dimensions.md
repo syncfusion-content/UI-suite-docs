@@ -15,19 +15,6 @@ documentation: ug
 
 The size of the Bullet Chart is determined by the container size, and it can be changed inline or via CSS as following.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/container/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/container/container.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/container/razor %}
@@ -36,7 +23,6 @@ The size of the Bullet Chart is determined by the container size, and it can be 
 {% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/container/container.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -48,19 +34,6 @@ The [`Width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts
 
 Sets the size of the Bullet Chart in pixels as shown below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/pixel/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pixel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/pixel/pixel.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/pixel/razor %}
@@ -69,26 +42,12 @@ Sets the size of the Bullet Chart in pixels as shown below.
 {% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/pixel/pixel.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Percentage
 
 By setting a value in percentage, the Bullet Chart gets its dimension with respect to its container. For example, when the height is **50%**, the Bullet Chart renders to half of the container’s height.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/percentage/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/percentage/percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -98,7 +57,6 @@ By setting a value in percentage, the Bullet Chart gets its dimension with respe
 {% include code-snippet/chart-sdk/asp-net-mvc/bullet-chart/bullet-chart-dimensions/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

@@ -14,8 +14,6 @@ documentation: ug
 
 The rendered Maps can be printed directly from the browser by calling the [`print`](https://ej2.syncfusion.com/documentation/api/maps/#print) method. To use the print functionality, set the [`AllowPrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_AllowPrint) property to "**true**".
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/print/tagHelper %}
@@ -24,18 +22,6 @@ The rendered Maps can be printed directly from the browser by calling the [`prin
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/print/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -51,8 +37,6 @@ To use the image export functionality in Maps, set the `AllowImageExport` proper
 * PNG
 * SVG
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export/tagHelper %}
@@ -62,18 +46,6 @@ To use the image export functionality in Maps, set the `AllowImageExport` proper
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Image export](../maps/images/Print/export.png)
@@ -81,8 +53,6 @@ To use the image export functionality in Maps, set the `AllowImageExport` proper
 ### Exporting Maps as base 64 string of the file
 
 The image can be exported as base64 string for the JPEG and PNG formats. The rendered Maps can be exported to image as a base64 string using the `export` method. There are four parameters required: image type, file name, orientation of the exported PDF document which must be set as **null** for image export and finally **allowDownload** which should be set as **false** to return base64 string.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -93,25 +63,10 @@ The image can be exported as base64 string for the JPEG and PNG formats. The ren
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/base64/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/base64/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ### PDF Export
 
 To use the PDF export functionality, set the `AllowPdfExport` property to **true**. The rendered Maps can be exported as PDF using the `export` method. The `export`  method requires three parameters: file type, file name and orientation of the PDF document. The orientation setting is optional and **0** indicates portrait and **1** indicates landscape.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -121,18 +76,6 @@ To use the PDF export functionality, set the `AllowPdfExport` property to **true
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/exportPdf/export.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/exportPdf/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/exportPdf/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -146,8 +89,6 @@ The rendered Maps with providers such as OSM, Bing and Google static Maps can be
 * PNG
 * PDF
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export-tile/tagHelper %}
@@ -156,18 +97,6 @@ The rendered Maps with providers such as OSM, Bing and Google static Maps can be
 {% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export-tile/export-tile.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export-tile/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export-tile.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/print-export/export-tile/export-tile.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

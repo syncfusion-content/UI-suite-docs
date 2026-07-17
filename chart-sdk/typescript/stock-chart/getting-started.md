@@ -223,4 +223,4 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 
 The following screenshot shows the output of the Syncfusion Stock Chart quick start application:
 
-![Syncfusion Stock Chart Quick Start Output](../images/stockchart.png)
+![Syncfusion Stock Chart Quick Start Output](./images/stockchart.png)
