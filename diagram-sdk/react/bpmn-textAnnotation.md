@@ -20,11 +20,11 @@ The annotation element can be switched from one BPMN node to another by simply d
 
 * By default, the TextAnnotation shape has a connection.
 
-The [`textAnnotationDirection`](https://helpej2.syncfusion.com/react/documentation/api/diagram/bpmnTextAnnotation#textannotationdirection) property controls the shape direction of the text annotation. By default, this property is set to **Auto**, which automatically determines the optimal direction based on the target's position.
+The [`textAnnotationDirection`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnTextAnnotation#textannotationdirection) property controls the shape direction of the text annotation. By default, this property is set to **Auto**, which automatically determines the optimal direction based on the target's position.
 
 To set the size for text annotation, use the [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#width) and [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#height) properties of the node.
 
-The [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnTextAnnotation#offsetx) and [`offsetY`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnTextAnnotation#offsety) properties determine the distance between the BPMN node and the TextAnnotation.
+The [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#offsetx) and [`offsetY`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#offsety) properties determine the distance between the BPMN node and the TextAnnotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

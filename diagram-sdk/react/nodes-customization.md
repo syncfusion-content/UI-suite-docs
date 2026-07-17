@@ -36,7 +36,7 @@ N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
 ### Apply style to nodes
 
-The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokedasharray), ['strokeWidth'](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokewidth), ['strokeColor'](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#opacity). The [`visible`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
+The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokedasharray), [`strokeWidth`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokewidth), [`strokeColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#opacity). The [`visible`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
  
 The following code illustrates how to customize the appearance of nodes using style properties:
  
@@ -137,7 +137,7 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 ## Apply shadow effect to nodes
  
-Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#shadow) effects to nodes, which is disabled by default. Shadow effects can be enabled using the constraints property of the node to create depth and visual hierarchy in your diagrams.
+Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowmodel) effects to nodes, which is disabled by default. Shadow effects can be enabled using the constraints property of the node to create depth and visual hierarchy in your diagrams.
 
 The following code illustrates how to apply shadow effects to nodes:
  
