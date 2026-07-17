@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with React Diagram Component | Syncfusion®
 description: Learn how to get started with the Syncfusion® React Diagram component, explore its elements, and create a simple diagram.
-control: Getting started 
+control: Getting started
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
@@ -16,9 +16,9 @@ This section explains how to create a React application from scratch and build a
 
 ## Prerequisites
 
-Before getting started, ensure that your development environment meets the [system requirements for Syncfusion® React UI components](https://ej2.syncfusion.com/react/documentation/system-requirement)
+Before getting started, ensure that your development environment meets the [system requirements for Syncfusion® React UI components](https://ej2.syncfusion.com/react/documentation/system-requirement).
 
-N> To use **Vite** with a React application, make sure you have **Node.js version 20.19.0 or higher** installed. Older versions may not support Vite’s modern build features. For detailed setup instructions, refer to the [Vite guide](https://vite.dev/guide).
+N> To use **Vite** with a React application, make sure you have **Node.js version 20.9.0 or higher** installed. Older versions may not support Vite's modern build features. For detailed setup instructions, refer to the [Vite guide](https://vite.dev/guide).
 
 ## Before You Begin
 
@@ -37,23 +37,23 @@ N> This guide uses the TypeScript template for better type checking with Diagram
 
 ## Step 1: Create a React application
 
-Use [Vite](https://vitejs.dev) to create and manage React applications. Vite provides a fast development environment and optimized builds for modern React applications. Syncfusion® React documentation also recommends Vite for setting up React applications.
+Use [Vite](https://vite.dev) to create and manage React applications. Vite provides a fast development environment and optimized builds for modern React applications. Syncfusion® recommends using Vite for setting up React applications.
 
 Create a new React application using the following command:
 
-```
-npm create vite@latest my-diagram-app -- --template react-ts
+```bash
+npm create vite@latest my-diagram-app --template react-ts
 ```
 
 If Vite prompts you to install dependencies and start the project immediately, choose **No**. The Syncfusion package is installed in a later step.
 
 Navigate to the project folder:
 
-```
+```bash
 cd my-diagram-app
 ```
 
-N> If you prefer JavaScript instead of TypeScript, create the application using `npm create vite@latest my-diagram-app -- --template react`.
+N> If you prefer JavaScript instead of TypeScript, create the application using `npm create vite@latest my-diagram-app --template react`. The root component file will then be **src/App.jsx** instead of **src/App.tsx**.
 
 ## Step 2: Install the Syncfusion® React Diagram package
 
@@ -61,7 +61,7 @@ All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https:
 
 Install the React Diagram package using the following command:
 
-```
+```bash
 npm install @syncfusion/ej2-react-diagrams
 ```
 
@@ -69,38 +69,19 @@ N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the requir
 
 ## Step 3: Add the required styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-N> Syncfusion styles can be added either through a theme package or through individual component package style references. Theme packages provide a consolidated styling approach, while component package styles allow direct imports from the required packages. Both approaches are fully supported.
-
-### Option 1: Add styles from a theme package
-
-Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
-
-```
+```bash
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Add the following import to the **src/App.css** file:
 
-```
+```css
 @import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 ```
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
-
-### Option 2: Add styles from component packages
-
-After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the following imports to the **src/App.css** file:
-
-```
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-react-diagrams/styles/tailwind3.css';
-```
-
-N> The **ej2-base**, **ej2-popups**, and **ej2-navigations** packages provide the base, popup, and navigation styles used by internal sub-components of the Diagram, such as tooltips, context menus, and scrollbars.
 
 N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
@@ -112,7 +93,7 @@ Import `DiagramComponent` from `@syncfusion/ej2-react-diagrams` and add it to th
 
 Update the **src/App.tsx** file as follows:
 
-```
+```tsx
 import { DiagramComponent } from '@syncfusion/ej2-react-diagrams';
 import './App.css';
 
@@ -141,9 +122,9 @@ This section explains how to create a simple flowchart by adding nodes, customiz
 
 The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` properties.
 
-Update the **src/App.tsx** file as follows:
+Replace the entire contents of **src/App.tsx** with the following code:
 
-```
+```tsx
 import {
   DiagramComponent,
   type ConnectorModel,
@@ -282,9 +263,9 @@ In this example:
 
 Run the application using the following command:
 
-```
+```bash
 npm run dev
 ```
-Open the generated local URL in the browser. The application displays the diagram as shown below:
+Open the generated local URL (by default, `http://localhost:5173`) in the browser. The application displays the diagram as shown below:
 
- ![Getting started](./images/Getting-started.png)
+ ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
