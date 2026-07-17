@@ -42,19 +42,19 @@ The following example demonstrates the usage of `readOnly` and `cssClass` proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/app.component.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/appearance" %}
         

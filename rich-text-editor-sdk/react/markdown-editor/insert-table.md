@@ -23,27 +23,27 @@ This ensures that users can start formatting and adding content immediately.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-cs5/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-cs5/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs5" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-cs6/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-cs6/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-cs6" %}
 
 ## Changing default content
 
@@ -55,24 +55,24 @@ The following example demonstrates how to customize the table content in the Mar
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-table-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-table-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-table-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-table-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-table-cs2" %}

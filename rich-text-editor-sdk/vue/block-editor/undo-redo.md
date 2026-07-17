@@ -28,11 +28,11 @@ The example below sets the undo/redo history limit to `20` actions.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/undo-redo/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/undo-redo/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/undo-redo/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/undo-redo/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/undo-redo" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/undo-redo" %}

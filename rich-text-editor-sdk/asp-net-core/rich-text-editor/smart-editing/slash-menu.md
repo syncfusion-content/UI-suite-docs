@@ -85,10 +85,10 @@ The following code demonstrates how to set up the Custom Slash Menu item in the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/slashmenu/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/slashmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/slashmenu/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/slashmenu/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ The following code demonstrates how to set up the Custom Slash Menu item in the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/slashmenu/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/slashmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/slashmenu/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/slashmenu/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

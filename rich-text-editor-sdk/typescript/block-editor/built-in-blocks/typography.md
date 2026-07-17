@@ -38,27 +38,27 @@ The following sample demonstrates the configuration of a paragraph block in the 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/paragraph-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/paragraph-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/paragraph-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/paragraph-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/paragraph-block" %}
 {% endif %}
 
 ### Configure placeholder
@@ -81,27 +81,27 @@ The below sample demonstrates the configuration of placeholder in the Block Edit
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/placeholder/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/placeholder/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/placeholder/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/placeholder/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/placeholder" %}
 {% endif %}
 
 
@@ -136,27 +136,27 @@ The following sample demonstrates the configuration of a heading block in the Bl
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/heading-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/heading-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/heading-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/heading-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/heading-block" %}
 {% endif %}
 
 ### Configure placeholder
@@ -210,25 +210,25 @@ This sample shows how to place a divider between two blocks.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/divider-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/divider-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/divider-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/divider-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/divider-block" %}
 {% endif %}

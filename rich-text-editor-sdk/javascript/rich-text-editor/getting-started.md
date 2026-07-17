@@ -94,10 +94,10 @@ Rich Text Editor can be initialized on div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,14 +109,14 @@ Output will be displayed as follows.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3" %}
 
 > You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Rich Text Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/rich-text-editor.html) that shows how to render the rich text editor tools. 
 

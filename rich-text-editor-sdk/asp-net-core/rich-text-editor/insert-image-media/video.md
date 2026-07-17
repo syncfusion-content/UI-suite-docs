@@ -22,10 +22,10 @@ To configure the `Video` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-import/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-import/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-import/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-import/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ To configure the `Video` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-import/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-import/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-import/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-import/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -97,10 +97,10 @@ In the following code blocks, you can insert the video files which are saved in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-save/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-save/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-save/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-save/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ In the following code blocks, you can insert the video files which are saved in 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-save/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-save/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-save/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-save/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -127,10 +127,10 @@ Refer `rename.cs` controller file for configure the server-side.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-rename/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-rename/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-rename/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-rename/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ Refer `rename.cs` controller file for configure the server-side.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-rename/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-rename/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rename.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-rename/rename.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-rename/rename.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -156,10 +156,10 @@ N> By default, it doesn't support the `UseDefaultCredentials` property, you can 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-authenticate/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-authenticate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-authenticate/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-authenticate/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ N> By default, it doesn't support the `UseDefaultCredentials` property, you can 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-authenticate/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-authenticate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-authenticate/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-authenticate/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -185,10 +185,10 @@ In the following example, the video size has been validated before uploading and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-video-size/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-video-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-video-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-video-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -196,10 +196,10 @@ In the following example, the video size has been validated before uploading and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-video-size/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-video-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-video-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-video-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -238,10 +238,10 @@ Sets the default display property for the video when it is inserted in the Rich 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-settings/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-settings/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -249,13 +249,17 @@ Sets the default display property for the video when it is inserted in the Rich 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-settings/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-settings/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/video-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/video-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
+
+## Paste video files into the editor
+
+The Rich Text Editor supports pasting video files directly into the editor content. You can paste single or multiple video files from your file system directly into the editor.
 
 ## Drag and Drop Video Insertion
 
@@ -267,10 +271,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/video/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/video/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/video/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/video/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -278,10 +282,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/video/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/video/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/video/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/video/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -113,10 +113,10 @@ Programmatically highlight a portion of the text in the editor by setting the ba
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/highlight-specific-line/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/highlight-specific-line/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/highlight-specific-line/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/highlight-specific-line/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ Programmatically highlight a portion of the text in the editor by setting the ba
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/highlight-specific-line/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/highlight-specific-line/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/highlight-specific-line/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/highlight-specific-line/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

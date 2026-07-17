@@ -31,14 +31,14 @@ Below is an example of how to configure the `codeBlockSettings` using the Rich T
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs15/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs15/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs15/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs15/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/code-block-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/code-block-cs1" %}
 
 In this example:
 

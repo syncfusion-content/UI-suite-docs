@@ -23,27 +23,27 @@ To configure the `Video` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs5/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs5/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs5" %}
 
 {% endif %}
 
@@ -105,10 +105,10 @@ In the following example, the video size has been validated before uploading and
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-size/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-size/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-size/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-size/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,10 +116,10 @@ In the following example, the video size has been validated before uploading and
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-size/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-size/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-size/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-size/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,10 +141,10 @@ In the following code blocks, the video module has been injected and can insert 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-server/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-server/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-server/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-server/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -152,10 +152,10 @@ In the following code blocks, the video module has been injected and can insert 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-server/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-server/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-server/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-server/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,10 +243,10 @@ You can use the [insertVideoSettings](https://ej2.syncfusion.com/documentation/a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-rename/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-rename/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-rename/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-rename/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,10 +254,10 @@ You can use the [insertVideoSettings](https://ej2.syncfusion.com/documentation/a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-rename/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-rename/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-rename/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-rename/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -327,10 +327,10 @@ You can add additional data with the video uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-authentication/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-authentication/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-authentication/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-authentication/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -338,10 +338,10 @@ You can add additional data with the video uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-authentication/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-authentication/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-authentication/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-authentication/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -389,10 +389,10 @@ Sets the default display property for the video when it is inserted in the Rich 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-display/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-display/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-display/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-display/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -400,10 +400,10 @@ Sets the default display property for the video when it is inserted in the Rich 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-display/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-display/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/video-display/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/video-display/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -419,27 +419,27 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs26/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs26/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs26/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs26/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs26" %}
 {% endif %}
 
 ### Disabling video drag and drop
@@ -476,27 +476,27 @@ By configuring these options in the [quickToolbarSettings](https://helpej2.syncf
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-video-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-video-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-video-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-video-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-video-cs1" %}
 
 {% endif %}
 

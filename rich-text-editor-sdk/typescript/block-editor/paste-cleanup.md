@@ -53,27 +53,27 @@ Below example demonstrates the usage of paste settings that allows only specific
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/allowedstyle/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/allowedstyle/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/allowedstyle/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/allowedstyle/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/allowedstyle" %}
 {% endif %}
 
 ## Disable Keep format
@@ -106,27 +106,27 @@ Below example demonstrates the usage of paste settings that disables the keep fo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/plaintext/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/plaintext/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/plaintext/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/paste-cleanup/plaintext/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/paste-cleanup/plaintext" %}
 {% endif %}
 
 ### Events

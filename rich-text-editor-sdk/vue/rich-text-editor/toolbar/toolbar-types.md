@@ -27,14 +27,14 @@ The default mode of the toolbar is `Expand`, configured through [toolbarSettings
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs16/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs16/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs16/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs16/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs16" %}
 
 ## Configuring a multi-row toolbar
 
@@ -42,14 +42,14 @@ Setting the `type` as `MultiRow` in [toolbarSettings](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs17/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs17/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs17/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs17/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs17" %}
 
 ## Implementing a scrollable toolbar
 
@@ -57,14 +57,14 @@ Setting the `type` to `Scrollable` in [toolbarSettings](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/scrollable-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/scrollable-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/scrollable-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/scrollable-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/scrollable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/scrollable-cs1" %}
 
 ## Configuring a popup toolbar
 
@@ -72,14 +72,14 @@ Setting the `type` to `Popup` in [toolbarSettings](https://ej2.syncfusion.com/vu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-popup/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-popup/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-popup/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-popup/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-popup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-popup" %}
 
 ## Creating a sticky toolbar
 
@@ -89,14 +89,14 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs18/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs18/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs18/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs18/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs18" %}
 
 ## See also
 

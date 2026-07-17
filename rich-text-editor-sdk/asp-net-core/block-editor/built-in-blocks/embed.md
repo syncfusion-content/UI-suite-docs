@@ -121,10 +121,10 @@ The below sample demonstrates the configuration of image block in the Block Edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-block/image.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-block/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,10 +142,10 @@ Set the `imageBlockSettings.saveFormat` property to determine whether the image 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-upload-server/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-upload-server/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-upload-server/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-upload-server/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ You can add additional data with the image uploaded from the Block Editor on the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-upload-authentication/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-upload-authentication/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/image-upload-authentication/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/image-upload-authentication/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -23,27 +23,27 @@ To configure the `Image` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs6/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs6/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs6/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs6/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs6" %}
 {% endif %}
 
 ## Supported image save formats
@@ -65,27 +65,27 @@ The code snippet below illustrates the configuration of the [insertImageSettings
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-save-format/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-save-format/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-save-format/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-save-format/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-save-format" %}
 {% endif %}
 
 > The default `saveFormat` property is set to `Blob` format.
@@ -133,10 +133,10 @@ Set the [insertImageSettings.saveFormat](https://helpej2.syncfusion.com/document
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-server/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-server/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-server/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-server/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ Set the [insertImageSettings.saveFormat](https://helpej2.syncfusion.com/document
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-server/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-server/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-server/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-server/index.html %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -230,10 +230,10 @@ You can add additional data with the image uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-authentication/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-authentication/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-authentication/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-authentication/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -241,10 +241,10 @@ You can add additional data with the image uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-authentication/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-authentication/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-upload-authentication/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-upload-authentication/index.html %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -276,27 +276,27 @@ The following sample explains, how to configure the `removeUrl` to remove a save
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs1" %}
 {% endif %}
 
 ## Deleting Images from Server Using Keyboard and Quick Toolbar Actions
@@ -313,10 +313,10 @@ The following sample demonstrates how to use the afterImageDelete event in Rich 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs6/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs6/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -324,10 +324,10 @@ The following sample demonstrates how to use the afterImageDelete event in Rich 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs6/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/remove-url-cs6/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/remove-url-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -375,27 +375,27 @@ Images in the Rich Text Editor can be aligned using the alignment options in the
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-alignment-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-alignment-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-alignment-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/image-alignment-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/image-alignment-cs1" %}
 {% endif %}
 
 ## Text wrapping around images
@@ -406,27 +406,27 @@ The Rich Text Editor provides control over how text flows around images using th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/wrap-text-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/wrap-text-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/wrap-text-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/wrap-text-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/wrap-text-cs1" %}
 {% endif %}
 
 ## Hyperlinking images
@@ -467,27 +467,27 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs7/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs7/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs7/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/getting-started-cs7/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/getting-started-cs7" %}
 {% endif %}
 
 ### Disabling image drag and drop
@@ -514,27 +514,27 @@ By configuring these options in the [quickToolbarSettings](https://helpej2.syncf
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-image-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-image-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-image-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/customize-image-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/customize-image-cs1" %}
 {% endif %}
 
 ## See also

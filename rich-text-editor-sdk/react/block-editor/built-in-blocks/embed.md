@@ -97,14 +97,14 @@ This sample demonstrates the configuration of the `Image` block in the Block Edi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block" %}
 
 ## Uploading images from local machine
 
@@ -118,10 +118,10 @@ Set the [imageBlockSettings.saveFormat](https://ej2.syncfusion.com/react/documen
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/image-upload-server/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/image-upload-server/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/image-upload-server/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/image-upload-server/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -192,10 +192,10 @@ You can add additional data with the image uploaded from the Block Editor on the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/image-upload-authentication/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/image-upload-authentication/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/image-block/image-upload-authentication/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/image-block/image-upload-authentication/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

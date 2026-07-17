@@ -46,14 +46,14 @@ The following example demonstrates how to customize the Slash Command menu.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/slash-command/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/slash-command/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/slash-command/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/slash-command/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/slash-command" %}
 
 ## Context menu
 
@@ -87,14 +87,14 @@ The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/context-menu/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/context-menu/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/context-menu/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/context-menu/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/context-menu" %}
 
 ## Block action menu
 
@@ -133,14 +133,14 @@ The following example demonstrates how to customize the Block action menu.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/block-action/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/block-action/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/block-action/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/block-action/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/block-action" %}
 
 ## Inline Toolbar
 
@@ -198,14 +198,14 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/transform-item/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/transform-item/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/transform-item/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/transform-item/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/transform-item" %}
 
 #### Font and background color support
 
@@ -215,14 +215,14 @@ The following example demonstrates how to customize the font and background colo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/color-item/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/color-item/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/color-item/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/color-item/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/color-item" %}
 
 ### Customize Inline Toolbar
 
@@ -240,11 +240,11 @@ The following example demonstrates how to customize the Inline Toolbar.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/editor-menus/inline-toolbar/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/editor-menus/inline-toolbar" %}

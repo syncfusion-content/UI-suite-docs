@@ -58,27 +58,27 @@ In the following example, **custom toolbar items** are added to the **Header**, 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/custom-toolbar-items" %}
 {% endif %}
 
 ## Styling the Popup
@@ -110,33 +110,33 @@ In the following example, a CSS animation is applied to the popup while the requ
 
 {% tabs %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.css %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.css %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.css %}
 {% endhighlight %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-styling/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-styling" %}
 {% endif %}
 
 ## Use case
@@ -163,25 +163,25 @@ The following example demonstrates a Proofread use case by rendering a button ou
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/usecase/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/usecase/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/usecase/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/usecase/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/usecase" %}
 {% endif %}

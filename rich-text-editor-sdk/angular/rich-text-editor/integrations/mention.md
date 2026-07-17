@@ -112,23 +112,23 @@ It is suggested to use the suffixText property to add a space after the inserted
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-integration/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-integration/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="app.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-integration/src/app.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration/src/app.css %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-integration/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-integration" %}
 
 ## Using Remote Data with Mention in Rich Text Editor
 
@@ -180,19 +180,19 @@ return Ok(payload);
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-remote-data/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-remote-data/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-remote-data/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-remote-data/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/mention-remote-data/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-remote-data/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-remote-data" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/mention-remote-data" %}
 
 ## Additional resources
 

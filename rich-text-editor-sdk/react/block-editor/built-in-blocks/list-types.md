@@ -113,14 +113,14 @@ By default, the [isChecked](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/isChecked/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/isChecked/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/isChecked/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/isChecked/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/isChecked" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/isChecked" %}
 
 ### Configure Placeholder
 
@@ -146,11 +146,11 @@ The following example demonstrates how to render the different types of list blo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/list-block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/list-block/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/list-block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/list-block/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/list-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/list-block" %}

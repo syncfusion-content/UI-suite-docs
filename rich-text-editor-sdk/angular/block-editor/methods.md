@@ -85,18 +85,18 @@ The following example demonstrates the usage of the block editor methods.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/block" %}
 
 ## Selection and Cursor Methods
 
@@ -167,18 +167,18 @@ The following example demonstrates the usage of the selection and cursor methods
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/selection/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/selection/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/selection/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/selection/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/selection/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/selection/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/selection" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/selection" %}
 
 ## Focus Management Methods
 
@@ -242,18 +242,18 @@ The following example demonstrates the usage of the formatting and focus methods
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/formatting/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/formatting/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/formatting/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/formatting/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/formatting/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/formatting/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/formatting" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/formatting" %}
 
 ## Data Export Methods
 
@@ -318,15 +318,15 @@ The following example demonstrates the usage of the data export methods.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/data/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/data/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/data/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/data/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/methods/data/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/methods/data/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/data" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/methods/data" %}

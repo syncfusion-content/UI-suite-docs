@@ -35,14 +35,14 @@ In the following example, the `minLength` is set to 3, so the suggestion list wi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-min-length/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-min-length/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-min-length/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-min-length/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-min-length" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-min-length" %}
 
 ### Customizing suggestion list count
 
@@ -54,14 +54,14 @@ In the example below, the `suggestionCount` is set to 5, so only 5 items will be
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-suggestion-list/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-suggestion-list/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-suggestion-list/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-suggestion-list/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-suggestion-list" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-suggestion-list" %}
 
 ### Customizing suggestion list using templates
 
@@ -97,14 +97,14 @@ In the following sample, we configured the following properties:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-integration-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-integration-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/mention-integration-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-integration-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-integration-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/mention-integration-cs1" %}
 
 > [View Sample](https://ej2.syncfusion.com/vue/demos/#/bootstrap5/rich-text-editor/mention-integration.html)
 

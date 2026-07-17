@@ -34,13 +34,13 @@ The following example demonstrates how to enable Mention support in the Markdown
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Mention.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/mention.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/mention.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,13 +48,13 @@ The following example demonstrates how to enable Mention support in the Markdown
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Mention.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/mention.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/mention.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-mention-support/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-mention-support/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

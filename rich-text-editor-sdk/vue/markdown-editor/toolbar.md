@@ -36,14 +36,14 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/expand-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/expand-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/expand-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/expand-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/expand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/expand-cs1" %}
 
 ### Configuring a Multi-row Toolbar
 
@@ -51,14 +51,14 @@ By setting type: `MultiRow` in [toolbarSettings](https://ej2.syncfusion.com/vue/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/multirow-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/multirow-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/multirow-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/multirow-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/multirow-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/multirow-cs1" %}
 
 ### Implementing a Scrollable Toolbar
 
@@ -66,14 +66,14 @@ Use `type: 'Scrollable'` in [toolbarSettings](https://ej2.syncfusion.com/vue/doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/scrollable-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/scrollable-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/scrollable-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/scrollable-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/scrollable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/scrollable-cs1" %}
 
 ### Creating a Sticky Toolbar
 
@@ -85,14 +85,14 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/floating-toolbar-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/floating-toolbar-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/floating-toolbar-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/floating-toolbar-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/floating-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/floating-toolbar-cs1" %}
 
 ## Custom Toolbar Items
 
@@ -104,11 +104,11 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/custom-toolbar-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/custom-toolbar-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/custom-toolbar-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/custom-toolbar-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/custom-toolbar-cs1" %}

@@ -165,6 +165,7 @@ After installing the Diagram package, the required style files are available und
 
 N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
+N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 

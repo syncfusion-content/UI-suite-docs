@@ -84,14 +84,14 @@ Use the [getBlockCount](https://ej2.syncfusion.com/vue/documentation/api/blocked
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/block/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/block/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/block/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/block/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/block" %}
 
 ## Selection and Cursor Methods
 
@@ -125,14 +125,14 @@ Select all blocks in the editor using the [selectAllBlocks](https://ej2.syncfusi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/selection/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/selection/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/selection" %}
 
 ## Focus Management Methods
 
@@ -160,14 +160,14 @@ Disable specific items in the inline toolbar using the [disableToolbarItems](htt
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/formatting/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/formatting/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/formatting/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/formatting/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/formatting" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/formatting" %}
 
 ## Data Export Methods
 
@@ -209,11 +209,11 @@ Print the editor content using the [print](https://ej2.syncfusion.com/vue/docume
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/data/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/data/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/methods/data/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/methods/data/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/data" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/methods/data" %}

@@ -197,14 +197,14 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/selection/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/selection/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/selection" %}
 
 ## Node selection
 
@@ -214,14 +214,14 @@ The following example demonstrates how to select a paragraph node programmatical
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/node-selection/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/node-selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/node-selection/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/node-selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/node-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/node-selection" %}
 
 ## Cell selection
 
@@ -231,14 +231,14 @@ The following example demonstrates how to select a table cell programmatically u
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/cell-selection/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/cell-selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/cell-selection/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/cell-selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/cell-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/cell-selection" %}
 
 ## Select all content
 
@@ -246,11 +246,11 @@ To select all content within the Rich Text Editor, use the [selectAll](https://e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/select-all-content/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/select-all-content/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/select-all-content/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/select-all-content/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/select-all-content" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/select-all-content" %}

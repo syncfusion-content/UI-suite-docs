@@ -20,10 +20,10 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -49,10 +49,10 @@ In this example, the `beforeClipboardWrite` event is used to customize the selec
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup-customize/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup-customize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup-customize/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup-customize/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In this example, the `beforeClipboardWrite` event is used to customize the selec
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup-customize/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup-customize/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/clipboard-cleanup-customize/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/clipboard-cleanup-customize/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

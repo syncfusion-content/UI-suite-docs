@@ -23,27 +23,27 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup" %}
 {% endif %}
 
 ## Customizing Copied/Cut Content
@@ -56,27 +56,27 @@ In this example, the `beforeClipboardWrite` event is used to customize the selec
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup-customize/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup-customize/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup-customize/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/clipboard-cleanup-customize/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/clipboard-cleanup-customize" %}
 {% endif %}
 
 ## Best Practices & Troubleshooting

@@ -186,13 +186,13 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/getting-started/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started" %}
 
 **Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript BlockEditor` control.

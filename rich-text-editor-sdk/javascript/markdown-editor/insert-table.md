@@ -24,27 +24,27 @@ This ensures that users can start formatting and adding content immediately.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs3/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs3/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs3/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs3/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs3" %}
 {% endif %}
 
 ## Changing default content
@@ -57,25 +57,25 @@ The following example demonstrates how to customize the table content in the Mar
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs4/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs4/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs4/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/markdown-cs4/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/markdown-cs4" %}
 {% endif %}

@@ -37,27 +37,27 @@ Please refer to the sample below to add these basic text styling options in the 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/basic-text-styling-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/basic-text-styling-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/basic-text-styling-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/basic-text-styling-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/basic-text-styling-cs1" %}
 {% endif %}
 
 ## Text alignments
@@ -86,27 +86,27 @@ Please refer to the sample and code snippets below to add these alignment option
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/text-alignment-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/text-alignment-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/text-alignment-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/text-alignment-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/text-alignment-cs1" %}
 {% endif %}
 
 ## Number and bullet format list
@@ -146,27 +146,27 @@ The following example demonstrates how to customize the number format lists in t
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs1" %}
 {% endif %}
 
 ### Unordered lists
@@ -194,27 +194,27 @@ The following example demonstrates how to customize the bullet format lists in t
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs2/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-lists-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-lists-cs2" %}
 {% endif %}
 
 ### Checklist
@@ -240,27 +240,27 @@ Below is an example of how to configure the Checklist in the Rich Text Editor:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/checklist-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/checklist-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/checklist-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/checklist-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/checklist-cs1" %}
 {% endif %}
 
 ## Nested list creation using Tab key
@@ -294,27 +294,27 @@ To configure the `Indent` and `Outdent` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/indent-and-outdent-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/indent-and-outdent-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/indent-and-outdent-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/indent-and-outdent-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/indent-and-outdent-cs1" %}
 {% endif %}
 
 ### Indentation in lists
@@ -368,27 +368,27 @@ Below are examples and code snippets demonstrating how to integrate and utilize 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-format-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-format-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-format-cs1" %}
 {% endif %}
 
 ### Custom format
@@ -408,27 +408,27 @@ Below are examples demonstrating how to customize the format dropdown.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/custom-code-format-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/custom-code-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/custom-code-format-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/custom-code-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/custom-code-format-cs1" %}
 {% endif %}
 
 ## Quotation formatting
@@ -443,27 +443,27 @@ Use the `Blockquote` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/quotation-formatting-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/quotation-formatting-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/quotation-formatting-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/quotation-formatting-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/quotation-formatting-cs1" %}
 {% endif %}
 
 > In a markdown editor, blockquotes are represented using the `>` symbol.
@@ -482,27 +482,27 @@ While the toolbar does not provide a direct method to apply blockquote formattin
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nested-blockquote/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nested-blockquote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nested-blockquote/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nested-blockquote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nested-blockquote" %}
 {% endif %}
 
 ## Line Height
@@ -517,27 +517,27 @@ You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height" %}
 {% endif %}
 
 The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#lineheight) property.
@@ -552,27 +552,27 @@ The [`supportAllValues`](https://ej2.syncfusion.com/documentation/api/rich-text-
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/line-height-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height-cs1" %}
 {% endif %}
 
 ## Horizontal line
@@ -587,27 +587,27 @@ Use the `HorizontalLine` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/horizontal-line/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/horizontal-line/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/horizontal-line/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/horizontal-line/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/horizontal-line" %}
 {% endif %}
 
 ## Format painter
@@ -628,27 +628,27 @@ The following code example shows how to add the format painter tool in the Rich 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs1" %}
 {% endif %}
 
 ### Customizing copy and paste format
@@ -673,27 +673,27 @@ Below is an example illustrating how to define the `allowedFormats` and `deniedF
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs2/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/format-painter-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/format-painter-cs2" %}
 {% endif %}
 
 ### Shortcut keys for copy and paste format
@@ -728,10 +728,10 @@ Here's an example of how to configure the Clear Format feature:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -739,10 +739,10 @@ Here's an example of how to configure the Clear Format feature:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -761,27 +761,27 @@ Using `Clear Format` makes it easy to undo styling changes and keep your text lo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs2/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs2/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/remove-format-cs2/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/remove-format-cs2" %}
 {% endif %}
 
 ## Markdown Auto Format
@@ -827,25 +827,25 @@ Elements such as headings, lists, blockquotes, and code block are converted **on
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/markdown-autoformat-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/markdown-autoformat-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/markdown-autoformat-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/markdown-autoformat-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/markdown-autoformat-cs1" %}
 {% endif %}

@@ -30,10 +30,10 @@ During the drag operation, the editor provides visual cues to indicate where the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/drag-drop/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/drag-drop/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DragDrop.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/drag-drop/dragdrop.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/drag-drop/dragdrop.cs %}
 {% endhighlight %}
 {% endtabs %}
 

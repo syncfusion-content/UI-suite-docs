@@ -32,12 +32,12 @@ The following example demonstrates how to enable Mention support in the Angular 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/mention-support/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/mention-support/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/mention-support/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/mention-support/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/mention-support" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/mention-support" %}

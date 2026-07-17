@@ -90,11 +90,11 @@ The following example shows a basic Block Editor component.
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/getting-started/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/getting-started/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
