@@ -20,7 +20,7 @@ These properties enable developers to read and adjust the scroll status, scroll 
 
 ## Define Scroll Offset
 
-The diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the [`horizontalOffset`](https://ej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the [`scrollLimit`](https://helpej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-limit) section.
+The diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the [`horizontalOffset`](https://ej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the [`scrollLimit`](https://ej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-limit) section.
 
 In the example below, the vertical scrollbar is positioned 100 pixels down, and the horizontal scrollbar is positioned 100 pixels to the right.
 
@@ -113,7 +113,7 @@ The autoscroll behavior activates automatically when any of the following action
 - Connector control point editing
 - Rubber band selection
 
-The client-side event [`ScrollChange`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iScrollChangeEventArgs) is triggered when autoscroll occurs, enabling custom behavior implementation. Refer to the [`scrollChange event`](https://helpej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-change-event) section for more information.
+The client-side event [`ScrollChange`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iScrollChangeEventArgs) is triggered when autoscroll occurs, enabling custom behavior implementation. Refer to the [`scrollChange event`](https://ej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-change-event) section for more information.
 
 Autoscroll behavior can be enabled or disabled using the [`canAutoScroll`](https://ej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#canautoscroll) property of the diagram.
 
