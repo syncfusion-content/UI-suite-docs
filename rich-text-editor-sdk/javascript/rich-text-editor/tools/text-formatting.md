@@ -546,7 +546,7 @@ The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://e
 
 The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#lineheight) property. This allows you to extend the available line height options beyond the default selection.
 
-The [`supportAllValues`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
+The [`supportAllValues`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/lineheight#supportallvalues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
 
 {% if page.publishingplatform == "typescript" %}
 
