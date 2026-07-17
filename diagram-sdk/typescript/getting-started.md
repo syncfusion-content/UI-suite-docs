@@ -222,4 +222,3 @@ The output will appear as follows:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](images/Getting-started.png)
 
-N> If the default port is already in use, start the app on a different port using `npm start -- --port 4001` and open the local URL shown in the terminal.
