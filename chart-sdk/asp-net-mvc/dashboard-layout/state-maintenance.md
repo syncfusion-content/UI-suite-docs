@@ -15,19 +15,6 @@ The current layout structure of the Dashboard Layout control can be obtained and
 
 The following sample demonstrates how to save and restore the state of the panels using the serialize method. Click Save to store the panel's settings and click Restore to restore the previously saved panel settings.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/state-maintenance/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/state-maintenance/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/state-maintenance/razor %}
@@ -36,7 +23,6 @@ The following sample demonstrates how to save and restore the state of the panel
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/state-maintenance/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![State maintenance](./images/state_maintenance.PNG)
 

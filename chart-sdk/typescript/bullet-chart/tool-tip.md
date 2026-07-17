@@ -56,11 +56,11 @@ The following properties can be used to customize the Bullet Chart tooltip.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/bullet-chart/user-interaction-cs4/index.ts %}
+{% include code-snippet/chart-sdk/typescript/charts/user-interaction-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/bullet-chart/user-interaction-cs4/index.html %}
+{% include code-snippet/chart-sdk/typescript/charts/user-interaction-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/bullet-chart/user-interaction-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs4" %}

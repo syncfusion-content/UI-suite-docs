@@ -13,8 +13,6 @@ documentation: ug
 
 Pointers are used to indicate values on an axis. The value of the pointer can be modified using the [`Value`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Value) property in [`e-lineargauge-pointer`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointers/tagHelper %}
@@ -23,18 +21,6 @@ Pointers are used to indicate values on an axis. The value of the pointer can be
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointers/pointers.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointers/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pointers.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointers/pointers.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -128,22 +114,11 @@ The marker pointer can be customized using the following properties and class.
 * [`AnimationDuration`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_AnimationDuration) - To specify the duration of the animation in pointer.
 * [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Border) - To set the color and width for the border of the pointer.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/marker-pointer-customization/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/marker-pointer-customization/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -153,8 +128,6 @@ The marker pointer can be customized using the following properties and class.
 
 The bar pointer is used to track the axis value. The bar pointer starts from the beginning of the gauge and ends at the pointer value. To enable bar pointer set the [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Type) property in [`e-lineargauge-pointer`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html) as **Bar**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer/tagHelper %}
@@ -163,18 +136,6 @@ The bar pointer is used to track the axis value. The bar pointer starts from the
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer/bar-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar-pointer.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer/bar-pointer.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -196,8 +157,6 @@ The bar pointer can be customized using following properties and class.
 
 N>The Placement property is not applicable for the bar pointer.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer-customization/tagHelper %}
@@ -207,18 +166,6 @@ N>The Placement property is not applicable for the bar pointer.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer-customization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar-pointer-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/bar-pointer-customization/bar-pointer-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Linear Gauge with bar pointer customization](../linear-gauge/images/bar-custom.png)
@@ -226,8 +173,6 @@ N>The Placement property is not applicable for the bar pointer.
 ## Multiple pointers
 
 Multiple pointers can be added to the Linear Gauge by adding multiple [`e-lineargauge-pointer`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html) in the [`e-lineargauge-pointer`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointers.html) and customization for the pointers can be done with [`e-lineargauge-pointer`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -238,18 +183,6 @@ Multiple pointers can be added to the Linear Gauge by adding multiple [`e-linear
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/multiple-pointers/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-pointers.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/multiple-pointers/multiple-pointers.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Linear Gauge with multiple pointers](../linear-gauge/images/multiple-pointer.png)
@@ -257,8 +190,6 @@ Multiple pointers can be added to the Linear Gauge by adding multiple [`e-linear
 ## Pointer animation
 
 Pointer is animated on loading the gauge. This can be handled using the [`AnimationDuration`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_AnimationDuration) property. The duration of the animation can be specified in milliseconds.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -268,18 +199,6 @@ Pointer is animated on loading the gauge. This can be handled using the [`Animat
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointer-animation/pointer-animation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointer-animation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pointer-animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/pointer-animation/pointer-animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -296,8 +215,6 @@ Gradient support allows the addition of multiple colors in the pointers of the L
 
 Using linear gradient, colors will be applied in a linear progression. The start value of the linear gradient can be set using the [`StartValue`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_StartValue) property. The end value of the linear gradient will be set using the [`EndValue`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_EndValue) property. The color stop values such as [`Color`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Color), [`Opacity`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Opacity), and [`Offset`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Offset) are set using [`ColorStop`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLinearGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLinearGradient_ColorStop) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/lineargradient/tagHelper %}
@@ -307,18 +224,6 @@ Using linear gradient, colors will be applied in a linear progression. The start
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/lineargradient/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Lineargradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/lineargradient/lineargradient.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Linear Gauge with linear gradient pointer](../linear-gauge/images/linear-pointer.png)
@@ -327,7 +232,6 @@ Using linear gradient, colors will be applied in a linear progression. The start
 
 Using radial gradient, colors will be applied in circular progression. The inner circle position of the radial gradient will be set using the [`InnerPosition`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_InnerPosition) property. The outer circle position of the radial gradient can be set using the [`OuterPosition`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_OuterPosition) property. The color stop values such as [`Color`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Color), [`Opacity`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Opacity), and [`Offset`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeColorStop.html#Syncfusion_EJ2_LinearGauge_LinearGaugeColorStop_Offset) are set using [`ColorStop`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeRadialGradient.html#Syncfusion_EJ2_LinearGauge_LinearGaugeRadialGradient_ColorStop) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -337,18 +241,6 @@ Using radial gradient, colors will be applied in circular progression. The inner
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/radialgradient/radialgradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/radialgradient/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Radialgradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/pointers/radialgradient/radialgradient.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

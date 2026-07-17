@@ -19,21 +19,6 @@ You can place any custom element on the axis area by assigning the id of the ele
 
 >Note: To use annotation feature, we need to inject `Annotations` module using `CircularGauge.Inject(Annotations)` method.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs1/index.js %}
@@ -44,7 +29,6 @@ You can place any custom element on the axis area by assigning the id of the ele
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs1" %}
-{% endif %}
 
 ## Position
 
@@ -52,21 +36,6 @@ Annotation can be placed around the axis by using [`radius`](../api/circular-gau
 For example, if the angle is 90 degree and the radius is 110%, then the annotation, will be placed at the right side of the axis.
 
 Radius of the annotation takes value either in pixel or percentage. By setting value in percentage, annotation gets its position with respect to its axis radius.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,26 +47,10 @@ Radius of the annotation takes value either in pixel or percentage. By setting v
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs2" %}
-{% endif %}
 
 ## Sub Gauge
 
 As the annotation allows you to place any custom element, we can initialize a gauge to the element and can be used to place that in another gauge.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -109,7 +62,6 @@ As the annotation allows you to place any custom element, we can initialize a ga
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-annotations-cs3" %}
-{% endif %}
 
 ## See also
 

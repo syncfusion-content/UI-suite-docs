@@ -17,21 +17,6 @@ Tooltip is used to provide the details of the heat map cell, and this can be dis
 
 You can enable the tooltip by setting the [showTooltip](../api/heatmap/#showtooltip) property to **true** and injecting the `Tooltip` module using the `HeatMap.Inject(Tooltip)`.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs1/index.js %}
@@ -42,26 +27,10 @@ You can enable the tooltip by setting the [showTooltip](../api/heatmap/#showtool
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs1" %}
-{% endif %}
 
 ## Tooltip template
 
 In heat map, you can customize the tooltip using the [tooltipRender](../api/heatmap/#tooltiprender) client-side event.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -73,26 +42,10 @@ In heat map, you can customize the tooltip using the [tooltipRender](../api/heat
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs2" %}
-{% endif %}
 
 ## Customize the appearance of Tooltip
 
 The  [fill](../api/heatmap/tooltipSettings/#fill) and [border](../api/heatmap/tooltipSettings/#border) properties are used to customize the background color and border of the tooltip respectively. The [textStyle](../api/heatmap/tooltipSettings/#textStyle) property in the tooltip is used to customize the font of the tooltip text.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -104,6 +57,5 @@ The  [fill](../api/heatmap/tooltipSettings/#fill) and [border](../api/heatmap/to
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/tooltip-cs3" %}
-{% endif %}
 
 >Note: To use tooltip feature, we need to inject `Tooltip` using `HeatMap.Inject(Tooltip)`.
