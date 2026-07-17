@@ -2,7 +2,7 @@
 layout: post
 title: Crosshair in WPF Charts control | Syncfusion
 description: Learn here all about Crosshair support in Syncfusion® WPF Charts (SfChart) control, its elements and more details.
-platform: chart-sdk
+platform: charts-sdk
 control: SfChart
 documentation: ug
 ---
@@ -35,7 +35,7 @@ chart.Behaviors.Add(behavior);
 
 {% endtabs %}
 
-To view the axis labels then set the [`ShowTrackBallInfo`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAxis.html#Syncfusion_UI_Xaml_Charts_ChartAxis_ShowTrackBallInfo) property to true as in the below code snippet.
+To view the axis labels, set the [`ShowTrackBallInfo`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAxis.html#Syncfusion_UI_Xaml_Charts_ChartAxis_ShowTrackBallInfo) property to `true` as in the below code snippet.
 
 {% tabs %}
 
