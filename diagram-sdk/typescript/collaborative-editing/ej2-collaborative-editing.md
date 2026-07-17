@@ -37,16 +37,6 @@ import * as signalR from '@microsoft/signalr';
 import { Diagram } from '@syncfusion/ej2-diagrams';
 ```
 
-{% elsif page.publishingplatform == "javascript" %}
-
-Include the required libraries via CDN in your HTML file:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@syncfusion/ej2-diagrams/dist/ej2-diagrams.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/@syncfusion/ej2-base/styles/material.css" rel="stylesheet" />
-```
-
 {% endif %}
 
 ## Configure SignalR service in TypeScript application
@@ -63,17 +53,6 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-signalr-config/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-signalr-config/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-signalr-config/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-signalr-config/index.html %}
@@ -107,17 +86,6 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Typ
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-diagram-changes/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-diagram-changes/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
 {% endif %}
 
 ## Conflict policy (optimistic concurrency) in TypeScript application
@@ -131,17 +99,6 @@ Add the following code in your TypeScript application:
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-conflict-policy/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-conflict-policy/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-conflict-policy/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/diagram-sdk/typescript/typescript/typescript/collaborative-editing-conflict-policy/index.html %}

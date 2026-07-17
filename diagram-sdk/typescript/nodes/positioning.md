@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * Position of a node is controlled by using its [`offsetX`](https://ej2.syncfusion.com/documentation/api/diagram/node#offsetx) and [`offsetY`](https://ej2.syncfusion.com/documentation/api/diagram/node#offsety) properties. By default, these offset properties represent the distance between the origin of the diagram’s page and node’s center point.
 
-* You may expect this offset values to represent the distance between page origin and node’s top-left corner instead of center. The Pivot property helps to solve this problem. Default value of node’s [`pivot`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) point is (0.5, 0.5), that means center of the node.
+* You may expect this offset values to represent the distance between page origin and node’s top-left corner instead of center. The Pivot property helps to solve this problem. Default value of node’s [`pivot`](https://ej2.syncfusion.com/documentation/api/diagram/node#pivot) point is (0.5, 0.5), that means center of the node.
 
 * The size of the node can be controlled by using its [`width`](https://ej2.syncfusion.com/documentation/api/diagram/node#width) and [`height`](https://ej2.syncfusion.com/documentation/api/diagram/node#height) properties.
 

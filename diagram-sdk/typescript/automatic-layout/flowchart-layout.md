@@ -67,18 +67,6 @@ To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syn
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
 {% endif %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
@@ -145,18 +133,6 @@ The following example demonstrates how to render a flowchart layout using nodes 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
 {% endif %}
 
 ## Customize flowchart layout orientation
@@ -183,23 +159,6 @@ let diagram = new Diagram({
 });
 
 ```
-{% elsif page.publishingplatform == "javascript" %}
-
-```javascript
-//Initialize the diagram
-var diagram = new ej.diagrams.Diagram({
-  width: '100%',
-  height: '645px',
-  layout: {
-        //Sets layout type
-        type: 'Flowchart',
-        //Sets the orientation of the layout
-        orientation: 'TopToBottom'
-    },
-});
-
-```
-
 {% endif %}
 
 
@@ -225,23 +184,6 @@ let diagram = new Diagram({
 });
 
 ```
-{% elsif page.publishingplatform == "javascript" %}
-
-```javascript
-//Initialize the diagram
-var diagram = new ej.diagrams.Diagram({
-  width: '100%',
-  height: '645px',
-  layout: {
-        //Sets layout type
-        type: 'Flowchart',
-        //Sets the orientation of the layout
-        orientation: 'LeftToRight'
-    },
-});
-
-```
-
 {% endif %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_LeftToRight.png)
@@ -270,18 +212,6 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs3" %}
 {% endif %}
 
 The following table will explain the pictorial representation of the behavior:
@@ -319,18 +249,6 @@ The following example shows how to set custom text to the yes branch and no bran
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-flowchart-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
 {% endif %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)
