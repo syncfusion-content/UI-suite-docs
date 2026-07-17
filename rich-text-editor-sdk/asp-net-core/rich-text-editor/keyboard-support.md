@@ -137,10 +137,10 @@ These miscellaneous shortcuts help with actions like toggling fullscreen, cleari
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-keyboard/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-keyboard/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-keyboard/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-keyboard/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ These miscellaneous shortcuts help with actions like toggling fullscreen, cleari
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-keyboard/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-keyboard/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-keyboard/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-keyboard/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -166,10 +166,10 @@ In the following sample, customize the bold, italic, underline toolbar action wi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/custom-key/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/custom-key/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/custom-key/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/custom-key/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -177,10 +177,10 @@ In the following sample, customize the bold, italic, underline toolbar action wi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/custom-key/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/custom-key/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/custom-key/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/custom-key/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

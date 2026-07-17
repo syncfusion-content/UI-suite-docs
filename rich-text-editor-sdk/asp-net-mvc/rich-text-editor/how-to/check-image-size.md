@@ -19,10 +19,10 @@ In the following, we have validated the image size before uploading and determin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/check-image-size/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/check-image-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/check-image-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/check-image-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ In the following, we have validated the image size before uploading and determin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/check-image-size/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/check-image-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/check-image-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/check-image-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

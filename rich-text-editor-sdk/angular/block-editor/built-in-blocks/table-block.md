@@ -69,18 +69,18 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block" %}
 
 ### Table resizing
 
@@ -94,15 +94,15 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/table-feature/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/table-feature/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/table-feature/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/table-feature/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/table-block/table-feature/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/table-feature/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/table-block/table-feature" %}

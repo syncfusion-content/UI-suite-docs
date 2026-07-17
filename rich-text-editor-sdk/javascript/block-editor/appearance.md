@@ -15,7 +15,7 @@ The Block Editor control provides several properties to customize its visual app
 
 ## Setting width and height
 
-You can specify the width and height for the Block Editor control using the [width](../api/blockeditor#width) and [height](../api/blockeditor#height) properties.
+You can specify the width and height for the Block Editor control using the [width](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#width) and [height](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#height) properties.
 
 ```typescript
 const editor = new BlockEditor({
@@ -32,7 +32,7 @@ const editor = new BlockEditor({
 
 ## Setting readonly mode
 
-You can utilize the [readOnly](../api/blockeditor#readonly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
+You can utilize the [readOnly](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#readonly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
 
 ```typescript
 const editor = new BlockEditor({
@@ -42,7 +42,7 @@ const editor = new BlockEditor({
 
 ## Customization using CSS Class
 
-You can use the [cssClass](../api/blockeditor#cssClass) property to customize the appearance of the Block Editor control.
+You can use the [cssClass](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#cssclass) property to customize the appearance of the Block Editor control.
 
 ```typescript
 const editor = new BlockEditor({
@@ -58,31 +58,31 @@ The following example demonstrates the usage of `readOnly` and `cssClass` proper
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.css %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/appearance/index.css %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/appearance" %}
 {% endif %}

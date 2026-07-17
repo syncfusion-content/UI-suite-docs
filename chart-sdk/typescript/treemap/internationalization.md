@@ -82,8 +82,6 @@ The TreeMap control supports right-to-left rendering for all its elements such a
 
 If set the `enableRtl` property to **true**, then the legend icon will be rendered on the right and the legend text will be rendered on the left of the legend icon.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs1/index.ts %}
@@ -95,25 +93,9 @@ If set the `enableRtl` property to **true**, then the legend icon will be render
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs1" %}
-{% endif %}
-
 ## Tooltip with Rtl support
 
 If the `enableRtl` property is set to **true**, the tooltip data will be rendered in reverse direction.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -125,20 +107,6 @@ If the `enableRtl` property is set to **true**, the tooltip data will be rendere
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs2" %}
-{% endif %}
 
 ## Treemap Item Rendering Direction
 
@@ -153,8 +121,6 @@ The TreeMap can be rendered in the following directions:
 
 The following example demonstrate, how to render the treemap in the RTL direction with `TopLeftBottomRight`.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs3/index.ts %}
@@ -166,23 +132,7 @@ The following example demonstrate, how to render the treemap in the RTL directio
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs3" %}
-{% endif %}
-
 The following example demonstrate, how to render the treemap in the RTL direction with `TopRightBottomLeft`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -195,23 +145,7 @@ The following example demonstrate, how to render the treemap in the RTL directio
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs4" %}
-{% endif %}
-
 The following example demonstrate, how to render the treemap in the RTL direction with `BottomRightTopLeft`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -224,23 +158,7 @@ The following example demonstrate, how to render the treemap in the RTL directio
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs5" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs5" %}
-{% endif %}
-
 The following example demonstrate, how to render the treemap in the RTL direction with `BottomLeftTopRight`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -253,20 +171,6 @@ The following example demonstrate, how to render the treemap in the RTL directio
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs6" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs6/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs6" %}
-{% endif %}
-
 ## Right-to-left rendering
 
 The TreeMap control supports right-to-left rendering for all its elements such as nodes, tooltip, data labels, and legends.
@@ -274,8 +178,6 @@ The TreeMap control supports right-to-left rendering for all its elements such a
 ## Legend with Rtl support
 
 If you set the `enableRtl` property to true, then the legend icon will be rendered on the right and the legend text will be rendered on the left of the legend icon.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -288,27 +190,11 @@ If you set the `enableRtl` property to true, then the legend icon will be render
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs7" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs7/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs7" %}
-{% endif %}
-
 ## Tooltip with Rtl support
 
 If the `enableRtl` property is set to true, the tooltip data will be rendered in reverse direction.
 
 The following example shows the format of the tooltip.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -321,20 +207,6 @@ The following example shows the format of the tooltip.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs8" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs8/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs8" %}
-{% endif %}
-
 ## Treemap Item Rendering Direction
 
 By default, the direction of tree map item is `TopLeftBottomRight`. You can customize the rendering direction of the tree map item by setting the `renderDirection` property.
@@ -345,8 +217,6 @@ The TreeMap can be rendered in the following four different directions.
       `BottomLeftTopRight`
 
 The following example demonstrate how to render the treemap in the RTL direction with `TopLeftBottomRight`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -359,23 +229,7 @@ The following example demonstrate how to render the treemap in the RTL direction
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs9" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs9/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs9" %}
-{% endif %}
-
 The following example demonstrate how to render the treemap in the RTL direction with `TopRightBottomLeft`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -388,23 +242,7 @@ The following example demonstrate how to render the treemap in the RTL direction
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs10" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs10/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs10" %}
-{% endif %}
-
 The following example demonstrate how to render the treemap in the RTL direction with `BottomRightTopLeft`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -417,23 +255,7 @@ The following example demonstrate how to render the treemap in the RTL direction
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs11" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs11/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs11" %}
-{% endif %}
-
 The following example demonstrate how to render the treemap in the RTL direction with `BottomLeftTopRight`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -445,17 +267,3 @@ The following example demonstrate how to render the treemap in the RTL direction
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs12" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs12/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/internationalization-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/internationalization-cs12" %}
-{% endif %}

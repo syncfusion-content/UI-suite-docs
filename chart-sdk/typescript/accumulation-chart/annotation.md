@@ -17,8 +17,6 @@ The annotations are used to mark the specific area of interest in the chart area
 
 By using the <code>content</code> option of annotation property, you can specify the Id of the element that needs to be displayed in the chart area
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs1/index.ts %}
@@ -30,20 +28,6 @@ By using the <code>content</code> option of annotation property, you can specify
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs1" %}
-{% endif %}
-
 >Note: To use the annotations feature, inject the `AccumulationAnnotation` using the
 
 `Chart.Inject(AccumulationAnnotation)` method.
@@ -51,8 +35,6 @@ By using the <code>content</code> option of annotation property, you can specify
 ## Region
 
 The annotation can be placed with respect to either `Series` or `Chart`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -65,25 +47,9 @@ The annotation can be placed with respect to either `Series` or `Chart`.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs2" %}
-{% endif %}
-
 ## Co-ordinate Units
 
 Specifies the coordinate units of an annotation either in `Pixel` or `Point`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -96,25 +62,9 @@ Specifies the coordinate units of an annotation either in `Pixel` or `Point`.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs3" %}
-{% endif %}
-
 ## Alignment
 
 The annotations can be moved vertically and horizontally from its default position by using `verticalAlignment` or `horizontalAlignment` properties. The verticalAlignment property takes value as `Top`, `Bottom` or `Middle` and the horizontalAlignment property takes value as `Near`, `Far` or `Center`.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -126,17 +76,3 @@ The annotations can be moved vertically and horizontally from its default positi
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs4" %}
-{% endif %}

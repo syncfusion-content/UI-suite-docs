@@ -10,11 +10,11 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Table Blocks in Vue Block Editor component
 
-The Syncfusion Block Editor allows you to render structured data in rows and columns by setting the block's [blockType](../../api/blockeditor/blockModel#blockType) property to `Table`. You can customize the table layout, header, row numbers, and define columns and rows using the `properties` property. In addition, you can format cells with keyboard shortcuts, use slash commands inside cells to add blocks, and manage rows and columns quickly with dot and plus buttons.
+The Syncfusion Block Editor allows you to render structured data in rows and columns by setting the block's [blockType](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/blockmodel#blocktype) property to `Table`. You can customize the table layout, header, row numbers, and define columns and rows using the `properties` property. In addition, you can format cells with keyboard shortcuts, use slash commands inside cells to add blocks, and manage rows and columns quickly with dot and plus buttons.
 
 ### Configure table block
 
-For Table blocks, you can configure layout and structure using the [properties](../../api/blockeditor/blockModel#properties) property. This property supports the following options:
+For Table blocks, you can configure layout and structure using the [properties](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/blockmodel#properties) property. This property supports the following options:
 
 | Property | Description | Default Value |
 |----------|-------------|---------------|
@@ -69,15 +69,15 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block" %}
 
 ### Table resizing
 
@@ -91,12 +91,12 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/table-feature/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/table-block/table-feature/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/table-block/table-feature" %}

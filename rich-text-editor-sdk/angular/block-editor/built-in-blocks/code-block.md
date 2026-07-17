@@ -49,15 +49,15 @@ The following example demonstrates how to configure and render a Code block with
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block" %}

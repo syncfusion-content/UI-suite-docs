@@ -25,10 +25,10 @@ Block Editor allows up to `30` Undo/Redo actions by default. You can modify the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/undo-redo/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/undo-redo/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/undo-redo/undoredo.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/undo-redo/undoredo.cs %}
 {% endhighlight %}
 {% endtabs %}
 

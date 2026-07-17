@@ -19,12 +19,12 @@ The following example shows XSS prevention removing a `<script>` tag and `onmous
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/enable-html-sanitizer/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/enable-html-sanitizer/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/enable-html-sanitizer/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/enable-html-sanitizer/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/enable-html-sanitizer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/enable-html-sanitizer" %}
         

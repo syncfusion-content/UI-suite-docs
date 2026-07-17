@@ -15,7 +15,7 @@ The drag and drop feature in the Block Editor allows users to intuitively rearra
 
 ## Enable Drag and Drop
 
-You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](../api/blockeditor#enabledraganddrop) property. This feature is enabled by default (`true`).
+You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](https://ej2.syncfusion.com/documentation/api/blockeditor/index-default#enabledraganddrop) property. This feature is enabled by default (`true`).
 
 ## Dragging blocks
 
@@ -33,25 +33,25 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/drag-drop/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/drag-drop/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/drag-drop/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/drag-drop/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/drag-drop" %}
 {% endif %}

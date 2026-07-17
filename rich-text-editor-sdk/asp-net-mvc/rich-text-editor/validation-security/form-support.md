@@ -40,10 +40,10 @@ Upon submitting the form, `getValue` method will be triggered. Through the `Form
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/form-sample/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/form-sample/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/form-sample/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/form-sample/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ Upon submitting the form, `getValue` method will be triggered. Through the `Form
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/form-sample/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/form-sample/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/form-sample/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/form-sample/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

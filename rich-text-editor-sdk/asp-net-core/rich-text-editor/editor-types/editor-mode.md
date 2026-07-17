@@ -25,10 +25,10 @@ The HTML editing mode is the default mode of Rich Text Editor. Which is used for
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ The HTML editing mode is the default mode of Rich Text Editor. Which is used for
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -58,10 +58,10 @@ The third-party library such as [`Marked`](https://marked.js.org/#/README.md#REA
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ The third-party library such as [`Marked`](https://marked.js.org/#/README.md#REA
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

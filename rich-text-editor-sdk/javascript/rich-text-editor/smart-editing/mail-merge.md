@@ -282,25 +282,25 @@ function replacePlaceholders(template, data) {
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/mail-merge/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/mail-merge/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge/index.html %}
 {% endhighlight %}
 {% endtabs %}
        
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/mail-merge/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/mail-merge/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/mail-merge-cs1" %}
 {% endif %}

@@ -32,14 +32,14 @@ The editor checks the following settings on validation:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs14/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs14/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs14/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs14/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs14" %}
 
 ## Cross-Site scripting (XSS)
 
@@ -53,14 +53,14 @@ In the following sample, we removed the `script` tag and `onmouseover` attribute
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs27/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs27/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs27/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs27/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs27" %}
 
 > The XSS prevention feature is only applicable when the [editorMode](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#editormode) is set to HTML.
 
@@ -78,14 +78,14 @@ The following sample demonstrates how to filter the `script` tag by value.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs28/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs28/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs28/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs28/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs28" %}
 
 You can also filter out the [`e.selectors.tags`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/sanitizeSelectors/#tags) and [`e.selector.attributs`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/sanitizeSelectors/#attributes) in the [beforeSanitizeHtml](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#beforesanitizehtml) event to control which HTML tags and attributes are allowed to appear. 
 
@@ -95,11 +95,11 @@ The following sample demonstrates how to filter the `iframe` tag.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/prevent-cross-site-scripting-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-cross-site-scripting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/prevent-cross-site-scripting-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-cross-site-scripting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-cross-site-scripting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-cross-site-scripting-cs1" %}

@@ -86,7 +86,7 @@ import { Component } from '@angular/core';
     standalone: true,
     selector: 'app-root',
     template: `<!-- To Render BlockEditor component. -->
-    <div class="container" style="width: 40px; margin: 50px auto;">
+    <div class="container" style="margin-top: 50px;">
         <ejs-blockeditor />
     </div>`
 })
@@ -107,12 +107,12 @@ The following example shows a default Block Editor component.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/getting-started/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/getting-started/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/getting-started/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/getting-started/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/getting-started" %}

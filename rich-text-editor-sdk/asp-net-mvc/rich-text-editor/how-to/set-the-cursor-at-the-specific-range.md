@@ -17,10 +17,10 @@ This can be achieved by using `setRange` method in the Rich Text Editor using `N
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/cursor/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/cursor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/cursor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/cursor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ This can be achieved by using `setRange` method in the Rich Text Editor using `N
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/cursor/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/cursor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/cursor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/cursor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

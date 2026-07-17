@@ -27,7 +27,7 @@ npm create vite@latest my-app -- --template vanilla-ts
 ```
 This command will prompt you to install the required packages and start the application. Select the options as shown below.
 
-![Block Editor Initial setup](../images/svelte-ts/npm_setup.png)
+![Block Editor Initial setup](../images/svelte-ts/vite-vanilla-ts-setup.png)
 
 As Syncfusion packages are not installed yet, currently, the `No` option will be selected. Then, navigate to the project directory and install the dependencies using the following commands:
 
@@ -129,4 +129,4 @@ The following example shows a basic Block Editor control.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started" %}

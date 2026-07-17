@@ -15,7 +15,7 @@ The drag and drop feature in the Block Editor allows users to intuitively rearra
 
 ## Enable Drag and Drop
 
-You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](../api/blockeditor#enabledraganddrop) property. This feature is enabled by default (`true`).
+You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#enabledraganddrop) property. This feature is enabled by default (`true`).
 
 ## Dragging blocks
 
@@ -31,11 +31,11 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/drag-drop/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/drag-drop/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop" %}

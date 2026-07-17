@@ -69,15 +69,15 @@ The Markdown Editor is assigned the `application` role:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-cs1" %}
 
 ## Keyboard navigation
 
@@ -91,15 +91,15 @@ You can customize shortcut keys using the [formatter](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-custom-key/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-custom-key/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-custom-key/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-custom-key/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-custom-key" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-custom-key" %}
 
 ## Implementing accessibility best practices
 

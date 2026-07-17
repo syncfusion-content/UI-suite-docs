@@ -35,27 +35,27 @@ The editor checks the following settings on validation:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xhtml-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xhtml-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xhtml-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xhtml-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xhtml-cs1" %}
 {% endif %}
 
 ## Cross-Site scripting (XSS)
@@ -72,27 +72,27 @@ In the following sample, we removed the `script` tag and `onmouseover` attribute
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-cs1" %}
 {% endif %}
 
 > The XSS prevention feature is only applicable when the [editorMode](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#editormode) is set to HTML.
@@ -113,27 +113,27 @@ The following sample demonstrates how to filter the `script` tag by value.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-event-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-event-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-event-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/xss-attack-event-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/xss-attack-event-cs1" %}
 {% endif %}
 
 You can also filter out the [`e.selectors.tags`](https://helpej2.syncfusion.com/documentation/api/rich-text-editor/sanitizeSelectors#tags) and [`e.selector.attributes`](https://helpej2.syncfusion.com/documentation/api/rich-text-editor/sanitizeSelectors#attributes) in the [beforeSanitizeHtml](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#beforesanitizehtml) event to control which HTML tags and attributes are allowed to appear. 
@@ -146,25 +146,25 @@ The following sample demonstrates how to filter the `iframe` tag.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-cross-site-scripting-cs1" %}
 {% endif %}

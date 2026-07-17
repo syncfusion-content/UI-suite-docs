@@ -34,10 +34,10 @@ Please refer to the sample below to add these basic text styling options in the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/basic-text-styling/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/basic-text-styling/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/basic-text-styling/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/basic-text-styling/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Please refer to the sample below to add these basic text styling options in the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/basic-text-styling/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/basic-text-styling/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/basic-text-styling/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/basic-text-styling/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -15,23 +15,23 @@ The Block Editor component provides several properties to customize its visual a
 
 ## Setting width and height
 
-You can specify the width and height for the Block Editor component using the [width](../api/blockeditor#width) and [height](../api/blockeditor#height) properties.
+You can specify the width and height for the Block Editor component using the [width](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#width) and [height](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#height) properties.
 
 ## Setting readonly mode
 
-You can utilize the [readOnly](../api/blockeditor#readOnly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
+You can utilize the [readOnly](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#readonly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
 
 ## Customization using CSS Class
 
-You can use the [cssClass](../api/blockeditor#cssClass) property to customize the appearance of the Block Editor control.
+You can use the [cssClass](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#cssclass) property to customize the appearance of the Block Editor control.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/appearance/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/appearance/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/appearance/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/appearance/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/appearance" %}

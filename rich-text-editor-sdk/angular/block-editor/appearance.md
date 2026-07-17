@@ -14,7 +14,7 @@ The Block Editor component provides several properties to customize its visual a
 
 ## Setting width and height
 
-You can specify the width and height for the Block Editor component using the [width](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#width) and [height](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#height) properties.
+You can specify the width and height for the Block Editor component using the [width](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#width) and [height](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#height) properties.
 
 ```typescript
 <ejs-blockeditor [width]="'100%'" [height]="'80vh'" />
@@ -25,7 +25,7 @@ You can specify the width and height for the Block Editor component using the [w
 
 ## Setting readonly mode
 
-You can utilize the [readOnly](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#readonly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
+You can utilize the [readOnly](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#readonly) property to control whether the editor is in read-only mode. When set to `true`, users cannot edit the content but can still view it.
 
 ```typescript
 <ejs-blockeditor [readOnly]="true" />
@@ -33,7 +33,7 @@ You can utilize the [readOnly](https://ej2.syncfusion.com/angular/documentation/
 
 ## Customization using CSS Class
 
-You can use the [cssClass](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#cssclass) property to customize the appearance of the Block Editor control.
+You can use the [cssClass](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#cssclass) property to customize the appearance of the Block Editor control.
 
 ```typescript
 <ejs-blockeditor [width]="'600px'" [height]="'400px'" [cssClass]="'custom-editor-theme'" />
@@ -42,19 +42,19 @@ The following example demonstrates the usage of `readOnly` and `cssClass` proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/app.component.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/appearance/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/appearance/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/appearance" %}
         

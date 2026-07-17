@@ -35,22 +35,22 @@ The following sample demonstrates the configuration of a paragraph block in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/paragraph-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/paragraph-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/paragraph-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/paragraph-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/paragraph-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/paragraph-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/paragraph-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/paragraph-block" %}
 
 ### Configure placeholder
 
-You can configure placeholder text for block using the [placeholder](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/basestylesprop) property. This text appears when the block is empty. The default placeholder for the paragraph block is `Write something or ‘/’ for commands.`.
+You can configure placeholder text for block using the [placeholder](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/baseplaceholderprop#placeholder) property. This text appears when the block is empty. The default placeholder for the paragraph block is `Write something or ‘/’ for commands.`.
 
 ### Block type & properties
 
@@ -66,18 +66,18 @@ The below sample demonstrates the configuration of placeholder in the Block Edit
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/placeholder/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/placeholder/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/placeholder/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/placeholder/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/placeholder/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/placeholder/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/placeholder" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/placeholder" %}
 
 ## Configure heading block
 
@@ -108,18 +108,18 @@ The following sample demonstrates the configuration of a heading block in the Bl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/heading-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/heading-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/heading-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/heading-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/heading-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/heading-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/heading-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/heading-block" %}
 
 ### Configure placeholder
 
@@ -169,15 +169,15 @@ This sample shows how to place a divider between two blocks.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/divider-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/divider-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/divider-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/divider-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/divider-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/divider-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/divider-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/divider-block" %}

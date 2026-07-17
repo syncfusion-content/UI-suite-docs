@@ -13,18 +13,18 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 ## Configure children
 
-The Block Editor supports hierarchical content structures through the [children](../../api/blockeditor/blockModel#children) property. This can be achieved by using the `properties` property that allows you to create nested blocks, which is applicable only for `Quote`, `Callout` and `Collapsible` blocks.
+The Block Editor supports hierarchical content structures through the [children](https://ej2.syncfusion.com/documentation/api/blockeditor/basechildrenprop#children) property. This can be achieved by using the `properties` property that allows you to create nested blocks, which is applicable only for `Quote`, `Callout` and `Collapsible` blocks.
 
 Child blocks can be configured with all the same properties as top-level blocks.
 
 ## Configure parent id
-To establish a clear parent-child relationship, the [parentId](../../api/blockeditor/blockModel#parentid) of each child block must match the [id](../../api/blockeditor/blockModel#id) of its parent block.
+To establish a clear parent-child relationship, the [parentId](https://ej2.syncfusion.com/documentation/api/blockeditor/blockModel#parentid) of each child block must match the [id](../../api/blockeditor/blockModel#id) of its parent block.
 
 This structure is essential for maintaining nested relationships within the editor.
 
 ## Configure collapsible blocks
 
-You can render Collapsible blocks by setting the [blockType](../../api/blockeditor/blockModel#blockType) property as `CollapsibleParagraph` or `CollapsibleHeading`. Collapsible blocks allow users to expand or collapse sections, providing a way to hide or show content as needed.
+You can render Collapsible blocks by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockModel#blocktype) property as `CollapsibleParagraph` or `CollapsibleHeading`. Collapsible blocks allow users to expand or collapse sections, providing a way to hide or show content as needed.
 
 ### Configure levels
 
@@ -32,7 +32,7 @@ You can configure the CollapsibleHeading using the property `level` inside the `
 
 ### Configure expanded state
 
-You can control whether a block is expanded or collapsed using the [isExpanded](../../api/blockeditor/blockModel#isExpanded) property. By default, this property is set to `false`, meaning the block will be collapsed initially. This setting is only applicable to `Collapsible` blocks.
+You can control whether a block is expanded or collapsed using the [isExpanded](https://ej2.syncfusion.com/documentation/api/blockeditor/icollapsibleblocksettings#isexpanded) property. By default, this property is set to `false`, meaning the block will be collapsed initially. This setting is only applicable to `Collapsible` blocks.
 
 ### Block type & properties
 
@@ -69,32 +69,32 @@ This example shows how to configure `CollapsibleHeading` and `CollapsibleParagra
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/toggle-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/toggle-block" %}
 {% endif %}
 
 ### Configure placeholder
 
-You can configure placeholder text for block using the [placeholder](../../api/blockeditor/blockModel#placeholder) property. This text appears when the block is empty. The default placeholder for collapsible heading and collapsible paragraph is `Collapsible Heading{level}` and `Collapsible Paragraph` respectively.
+You can configure placeholder text for block using the [placeholder](https://ej2.syncfusion.com/documentation/api/blockeditor/baseplaceholderprop#placeholder) property. This text appears when the block is empty. The default placeholder for collapsible heading and collapsible paragraph is `Collapsible Heading{level}` and `Collapsible Paragraph` respectively.
 
 ```typescript
 // Adding placeholder value to collapsible heading
@@ -114,7 +114,7 @@ You can configure placeholder text for block using the [placeholder](../../api/b
 
 ## Configure quote block
 
-Quote blocks are styled for displaying quotations or excerpts. Render a Quote block by setting the [blockType](../../api/blockeditor/blockModel#blockType) to `Quote`. Editing is now more natural with multi‑line support—pressing Enter creates a new line inside the block, and pressing Enter again on an empty line exits the quote.
+Quote blocks are styled for displaying quotations or excerpts. Render a Quote block by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) to `Quote`. Editing is now more natural with multi‑line support—pressing Enter creates a new line inside the block, and pressing Enter again on an empty line exits the quote.
 
 ### Block type & properties
 
@@ -139,32 +139,32 @@ The following sample demonstrates how to configure quote block.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/quote/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/quote" %}
 {% endif %}
 
 ## Configure callout block
 
-Callout blocks highlight important information such as notes, warnings, or tips. Render one by setting the [blockType](../../api/blockeditor/blockModel#blockType) to `Callout`.
+Callout blocks highlight important information such as notes, warnings, or tips. Render one by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) to `Callout`.
 
 ### Block type & properties
 
@@ -190,25 +190,25 @@ The following sample demonstrates how to configure callout block.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/children/callout/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/children/callout" %}
 {% endif %}

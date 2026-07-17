@@ -43,19 +43,6 @@ The localization library allows localizing the default text content of the Maps 
 
 To load translation object in the application, use `load` function of **L10n** class. For more information about localization, refer [here](http://ej2.syncfusion.com/documentation/base/localization.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/localization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/localization/localization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/localization/razor %}
@@ -64,5 +51,4 @@ To load translation object in the application, use `load` function of **L10n** c
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/localization/localization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

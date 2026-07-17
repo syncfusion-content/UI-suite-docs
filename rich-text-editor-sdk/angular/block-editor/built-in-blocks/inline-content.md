@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 In the Syncfusion Block Editor, all content is organized within blocks. Each block contains an array of [content](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockmodel#content) property that define the text and functionality within that block.
 
-Each [contentModel](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel) is an object with properties such as [id](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#id), [contentType](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#contenttype), [content](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#content), and [properties](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#properties), allowing for granular control over its appearance and behavior.
+Each [contentModel](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel) is an object with properties such as [contentType](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#contenttype), [content](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#content), and [properties](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#properties), allowing for granular control over its appearance and behavior.
 
 ## Setting content type
 
@@ -58,7 +58,7 @@ Link settings accepts the following options:
 
 | Option                     | Description                                                       | Default Value |
 | -------------------------  | ----------------------------------------------------------------- | ------------- |
-|[url](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/linkSettingsModel#url)| Specifies the destination URL of the link.     | `''`          |
+|[url](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/ilinkcontentsettings#url)| Specifies the destination URL of the link.     | `''`          |
 
 ### ContentType & Properties
 
@@ -79,7 +79,7 @@ Link settings accepts the following options:
 
 ## Configure Label
 
-To render labels, set the [contentType](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#contentType) property to [Label](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contenttype). The `properties` property allows you to specify which label to display.
+To render labels, set the [contentType](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contentmodel#contenttype) property to [Label](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contenttype). The `properties` property allows you to specify which label to display.
 
 ### Built-in items
 
@@ -109,7 +109,7 @@ You can customize the labels by using the `properties` property along with conte
 
 ### Trigger Character configuration
 
-Use the [triggerChar](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelsettings#labelid) property to define the character that opens the label suggestions popup. The default trigger character is `$`.
+Use the [triggerChar](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelsettings#triggerchar) property to define the character that opens the label suggestions popup. The default trigger character is `$`.
 
 ### Label items configuration
 
@@ -121,7 +121,7 @@ Each item in the [items](https://ej2.syncfusion.com/angular/documentation/api/bl
 | --------------------------------------------------| --------------------------------------------------- |
 | [id](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#id)                   | A unique identifier for the label.                  |
 | [text](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#text)               | The display text for the label.                     |
-| [groupBy](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#groupBy)         | The category name for grouping similar labels.      |
+| [groupBy](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#groupby)         | The category name for grouping similar labels.      |
 | [labelColor](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#labelcolor)   | The background color of the label.                  |
 | [iconCss](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#iconcss)         | A CSS class for an icon to display with the label.  |
 
@@ -130,30 +130,30 @@ When users type the trigger character followed by text, a popup will appear show
 
 ### Using labels with group headers
 
-Labels with the same [groupBy](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#groupBy) value will be grouped together in the label selection popup:
+Labels with the same [groupBy](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/labelitemmodel#groupby) value will be grouped together in the label selection popup:
 
 The below sample demonstrates the customization of labels in the Block Editor.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/label-settings/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/label-settings/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/label-settings/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/label-settings/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/label-settings/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/label-settings/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/label-settings" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/label-settings" %}
 
 ## Configure mention
 
 Mentions are references to users or entities that can be inserted into your content. You can configure mention content by setting the `contentType` property to `Mention`.
 
-Mentions are typically triggered by the `@` character and are linked to the [users](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#users) collection defined in the Block Editor.
+Mentions are typically triggered by the `@` character and are linked to the [users](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#users) collection defined in the Block Editor.
 
 ### ContentType
 
@@ -174,18 +174,18 @@ The sample below demonstrates how to configure mentions and other content types.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-types/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-types/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-types/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-types/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-types/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-types/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/content-types" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/content-types" %}
 
 ## Applying Inline Styles
 
@@ -211,15 +211,15 @@ You can apply one or more of these styles to any supported content element for r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-styles/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-styles/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-styles/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-styles/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/content-styles/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/content-styles/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/content-styles" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/content-styles" %}

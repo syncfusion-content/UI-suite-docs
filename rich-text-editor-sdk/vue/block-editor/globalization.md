@@ -53,26 +53,26 @@ The below example shows adding the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/globalization/localization/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/localization/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/globalization/localization/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/localization/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/localization" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/localization" %}
 
 ## RTL
 
-The Block Editor supports Right-to-Left (RTL) mode, which reverses the layout of the component to accommodate languages read from right to left, such as Arabic, Hebrew, and Persian. This feature can be enabled by setting the [enableRtl](../api/blockeditor#enablertl) property to `true`.
+The Block Editor supports Right-to-Left (RTL) mode, which reverses the layout of the component to accommodate languages read from right to left, such as Arabic, Hebrew, and Persian. This feature can be enabled by setting the [enableRtl](https://ej2.syncfusion.com/vue/documentation/api/blockeditor/index-default#enablertl) property to `true`.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/globalization/rtl/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/rtl/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/globalization/rtl/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/rtl/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/rtl" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/globalization/rtl" %}

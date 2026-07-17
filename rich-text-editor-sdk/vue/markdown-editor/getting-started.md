@@ -48,20 +48,21 @@ npm install @syncfusion/ej2-vue-richtexteditor
 
 ## Adding CSS reference
 
-The following CSS files are available in ../node_modules/@syncfusion package folder. This can be referenced in the `<style>` section of **src/App.vue** file using the following code.
+Syncfusion provides multiple themes for the Rich Text Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages). 
 
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
+
+```bash
+npm install @syncfusion/ej2-tailwind3-theme
 ```
 
-I> To apply the application-specific styles correctly remove all the default styles from **src/style.css**. You can also refer to the [themes section](https://ej2.syncfusion.com/vue/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `<style>` section of `src/App.vue`.
+
+```css
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/rich-text-editor/index.css';
+```
+
+I> To apply the application-specific styles correctly remove all the default styles from **src/style.css**.
 
 ## Module injection
 
@@ -80,10 +81,10 @@ Now, you can start adding Vue Markdown Editor component in the application. For 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/getting-started-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/getting-started-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/getting-started-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/getting-started-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

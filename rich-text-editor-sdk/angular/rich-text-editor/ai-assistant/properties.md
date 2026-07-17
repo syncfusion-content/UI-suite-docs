@@ -45,14 +45,14 @@ In the below example, a set of prompts and texts are configured to demonstrate t
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/commands/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/commands/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/commands/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/commands/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/commands" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/commands" %}
 
 ## Preloading Prompts, Response and Suggestions
 
@@ -64,14 +64,14 @@ In the below sample, the `prompts` and `suggestions` properties of the `aiAssist
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/prompts/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompts/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/prompts/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompts/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompts" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompts" %}
 
 ## Header, Prompt and Response Toolbar
 
@@ -101,14 +101,14 @@ In the below sample, the toolbar settings are configured to modify the order and
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/toolbar-settings/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/toolbar-settings/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/toolbar-settings/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/toolbar-settings/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/toolbar-settings" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/toolbar-settings" %}
 
 ## Popup Dimensions
 
@@ -120,14 +120,14 @@ In the below sample, the popup width and maximum height are configured.
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/popup-dimensions/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-dimensions/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/popup-dimensions/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-dimensions/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-dimensions" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-dimensions" %}
 
 ## Setting Maximum Conversation History Length
 
@@ -139,14 +139,14 @@ In the below sample, the maximum prompt history is configured to `30`, and when 
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/prompt-history/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompt-history/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/prompt-history/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompt-history/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompt-history" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/prompt-history" %}
 
 ## Setting the Banner
 
@@ -158,11 +158,11 @@ In the below sample, a custom banner template is applied to the AI Assistant.
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/banner/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/banner/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/banner/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/banner/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/banner" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/banner" %}

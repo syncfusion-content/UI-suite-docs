@@ -19,21 +19,6 @@ The following properties are available in the [`LinearGauge`](../api/linear-gaug
 * [`border`](../api/linear-gauge/#border) - To customize the color and width of the border in Linear Gauge.
 * [`margin`](../api/linear-gauge/#margin) - To customize the margins of the Linear Gauge.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs1/index.js %}
@@ -44,7 +29,6 @@ The following properties are available in the [`LinearGauge`](../api/linear-gaug
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs1" %}
-{% endif %}
 
 ## Setting up the Linear Gauge title
 
@@ -57,21 +41,6 @@ The title for the Linear Gauge can be set using [`title`](../api/linear-gauge/#t
 * [`opacity`](../api/linear-gauge/fontModel/#opacity) - Specifies the opacity of the title.
 * [`size`](../api/linear-gauge/fontModel/#size) - Specifies the font size of the title.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs2/index.js %}
@@ -82,7 +51,6 @@ The title for the Linear Gauge can be set using [`title`](../api/linear-gauge/#t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs2" %}
-{% endif %}
 
 ## Customizing the Linear Gauge container
 
@@ -104,21 +72,6 @@ The type of the container can be modified by using the [`type`](../api/linear-ga
 
 The **Normal** type will render the container as a rectangle and this is the default container type.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs3/index.js %}
@@ -129,26 +82,10 @@ The **Normal** type will render the container as a rectangle and this is the def
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs3" %}
-{% endif %}
 
 ### Rounded Rectangle
 
 The **RoundedRectangle** type will render the container as a rectangle with rounded corner radius. The rounded corner radius of the container can be customized using the [`roundedCornerRadius`](../api/linear-gauge/containerModel/#roundedcornerradius) property in [`container`](../api/linear-gauge/#container).
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -160,26 +97,10 @@ The **RoundedRectangle** type will render the container as a rectangle with roun
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs4" %}
-{% endif %}
 
 ### Thermometer
 
 The **Thermometer** type will render the container similar to the appearance of thermometer.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -191,26 +112,10 @@ The **Thermometer** type will render the container similar to the appearance of 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs5" %}
-{% endif %}
 
 ## Fitting the Linear Gauge to the control
 
 The Linear Gauge component is rendered with margin by default. To remove the margin around the Linear Gauge, the [`allowMargin`](../api/linear-gauge/#allowmargin) property in [`LinearGauge`](../api/linear-gauge/) is set as **false**.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -222,6 +127,5 @@ The Linear Gauge component is rendered with margin by default. To remove the mar
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-appearance-cs6" %}
-{% endif %}
 
 >To use this feature, set the [`allowMargin`](../api/linear-gauge/#allowmargin) property to **false**, the [`width`](../api/linear-gauge/#width) property to **100%** and the properties of [`margin`](../api/linear-gauge/#margin) to **0**.

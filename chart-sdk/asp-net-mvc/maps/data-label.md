@@ -16,19 +16,6 @@ Data labels provide information to users about the shapes of the Maps component.
 
 To display data labels in the Maps, the `LabelPath` property of `MapsDataLabelSettings` must be used. The value of the `LabelPath` property can be taken from the field name in the shape data or data source. In the following example, the value of the `LabelPath` property is the field name in the shape data of the Maps layer.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label/label.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label/razor %}
@@ -37,26 +24,12 @@ To display data labels in the Maps, the `LabelPath` property of `MapsDataLabelSe
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label/label.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ![Setting label path value](./images/Datalabel/label.PNG)
 
 In the following example, the value of `LabelPath` property is set from the field name in the data source of the layer settings.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-ds/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-ds.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-ds/label-ds.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -66,7 +39,6 @@ In the following example, the value of `LabelPath` property is set from the fiel
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-ds/label-ds.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -81,19 +53,6 @@ The following properties are available in the `MapsDataLabelSettings` to customi
 * `Opacity` - To customize the transparency of the data labels in Maps.
 * `TextStyle` - To customize the text style of the data labels in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-customization/label-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-customization/razor %}
@@ -102,7 +61,6 @@ The following properties are available in the `MapsDataLabelSettings` to customi
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-customization/label-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -110,23 +68,6 @@ The following properties are available in the `MapsDataLabelSettings` to customi
 
 
 ## Label animation
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-The data labels can be animated during the initial rendering of the Maps. This can be enabled by setting the [animationDuration](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.MapsDataLabelSettings.html#Syncfusion_EJ2_Maps_MapsDataLabelSettings_AnimationDuration) property in the `dataLabelSettings` of the Maps. The duration of the animation is specified in milliseconds.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-animation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-animation/label-animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![ASP.NET Core Maps with Data Label Animation](./images/Datalabel/data-label-animation.gif)
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 The data labels can be animated during the initial rendering of the Maps. This can be enabled by setting the [AnimationDuration](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsDataLabelSettings.html#Syncfusion_EJ2_Maps_MapsDataLabelSettings_AnimationDuration) property in the `DataLabelSettings` of the Maps. The duration of the animation is specified in milliseconds.
 
@@ -141,8 +82,6 @@ The data labels can be animated during the initial rendering of the Maps. This c
 
 ![ASP.NET MVC Maps with Data Label Animation](./images/Datalabel/data-label-animation.gif)
 
-{% endif %}
-
 
 ## Smart labels
 
@@ -152,19 +91,6 @@ The Maps component provides an option to handle the labels when they intersect w
 * Hide
 * Trim
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-mode/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-mode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-mode/label-mode.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-mode/razor %}
@@ -173,7 +99,6 @@ The Maps component provides an option to handle the labels when they intersect w
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-mode/label-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -187,19 +112,6 @@ The Maps component provides an option to handle the labels when a label intersec
 * Hide
 * Trim
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-intersection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-intersection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-intersection/label-intersection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-intersection/razor %}
@@ -208,7 +120,6 @@ The Maps component provides an option to handle the labels when a label intersec
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-intersection/label-intersection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -220,19 +131,6 @@ The data label can be added as a template in the Maps component. The `Template` 
 
 N>The properties of data label such as, `SmartLabelMode` , `IntersectionAction`, `AnimationDuration`, `Border`, `Fill`, `Opacity` and `TextStyle` properties are not applicable to `Template` property. The styles can be applied to the label template using the CSS styles of the HTML element.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-template/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-template/label-template.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-template/razor %}
@@ -241,7 +139,6 @@ N>The properties of data label such as, `SmartLabelMode` , `IntersectionAction`,
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/datalabel/label-template/label-template.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

@@ -22,12 +22,12 @@ The following example demonstrates how to enable read-only mode in the Block Edi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/readonly/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/readonly/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/readonly/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/readonly/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/readonly" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/readonly" %}
         

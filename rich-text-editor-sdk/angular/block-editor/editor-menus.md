@@ -31,7 +31,7 @@ The Slash Command menu comes with a set of pre-defined commands for all block ty
 
 ### Customize Slash command menu
 
-You can use the [commandMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#commandmenusettings) property to modify the Slash Command menu. This allows you to add custom commands, remove default items, or change the behavior of existing commands to fit your application's requirements.
+You can use the [commandMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#commandmenusettings) property to modify the Slash Command menu. This allows you to add custom commands, remove default items, or change the behavior of existing commands to fit your application's requirements.
 
 ### Events
 
@@ -46,18 +46,18 @@ The following example demonstrates how to customize the Slash Command menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command" %}
 
 ## Context menu
 
@@ -75,7 +75,7 @@ The Context menu offers the following built-in options:
 
 ### Customize Context menu
 
-You can use the [contextMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#contextmenusettings) property to customize the Context menu. This allows you to add specific actions or modify existing items based on your application needs.
+You can use the [contextMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#contextmenusettings) property to customize the Context menu. This allows you to add specific actions or modify existing items based on your application needs.
 
 ### Events
 
@@ -83,26 +83,26 @@ The following events are available for the Context menu:
 
 |Name|Args|Description|
 |---|---|---|
-|[opening](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contextmenusettingsmodel#opening)|ContextMenuOpeningEventArgs|Triggers before the context menu opens.|
-|[closing](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contextmenusettingsmodel#closing)|ContextMenuClosingEventArgs|Triggers before the context menu closes.|
+|[beforeOpen](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contextmenusettingsmodel#beforeopen)|ContextMenuBeforeOpenEventArgs|Triggers before the context menu opens.|
+|[beforeClose](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contextmenusettingsmodel#beforeclose)|ContextMenuBeforeCloseEventArgs|Triggers before the context menu closes.|
 |[itemSelect](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/contextmenusettingsmodel#itemselect)|ContextMenuItemSelectEventArgs|Triggers when a context menu item is clicked.|
 
 The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu" %}
 
 ## Block action menu
 
@@ -119,11 +119,11 @@ The Block Action menu provides convenient actions for managing individual blocks
 
 ### Customize Block action menu
 
-You can use the [blockActionMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#blockactionmenusettings) property to customize the Block action menu. This enables you to add block-specific commands that are relevant to your application, allowing for a highly tailored user experience.
+You can use the [blockActionMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#blockactionmenusettings) property to customize the Block action menu. This enables you to add block-specific commands that are relevant to your application, allowing for a highly tailored user experience.
 
 #### Show or hide tooltip
 
-By default, a tooltip is displayed when the user hovers over an action item. You can show or hide the tooltip using the [enableTooltip](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockActionmenusettingsmodel#enabletooltip) property in the block action menu settings.
+By default, a tooltip is displayed when the user hovers over an action item. You can show or hide the tooltip using the [enableTooltip](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockactionmenusettingsmodel#enabletooltip) property in the block action menu settings.
 
 ### Events
 
@@ -131,26 +131,26 @@ The following events are available for the Block action menu:
 
 |Name|Args|Description|
 |---|---|---|
-|[opening](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockActionmenusettingsmodel#opening)|BlockActionMenuOpeningEventArgs|Triggers when the block action menu is opened.|
-|[closing](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockActionmenusettingsmodel#closing)|BlockActionMenuClosingEventArgs|Triggers when the block action menu is closed.|
-|[itemSelect](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockActionmenusettingsmodel#itemselect)|BlockActionItemSelectEventArgs|Triggers when a block action menu item is clicked.|
+|[beforeOpen](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockactionmenusettingsmodel#beforeopen)|BlockActionMenuBeforeOpenEventArgs|Triggers before the block action menu opens.|
+|[beforeClose](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockactionmenusettingsmodel#beforeclose)|BlockActionMenuBeforeCloseEventArgs|Triggers before the block action menu closes.|
+|[itemSelect](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockactionmenusettingsmodel#itemselect)|BlockActionItemSelectEventArgs|Triggers when a block action menu item is clicked.|
 
 The following example demonstrates how to customize the Block action menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action" %}
 
 ## Inline Toolbar
 
@@ -168,11 +168,11 @@ The Inline Toolbar includes the following built-in formatting options:
 
 ### Optional items
 
-The inline toolbar can handle custom items like `Transform`, `InlineCode`, `Link` by passing array of string values in `items` property in [inlineToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#inlinetoolbarsettings).
+The inline toolbar can handle custom items like `Transform`, `InlineCode`, `Link` by passing array of string values in `items` property in [inlineToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#inlinetoolbarsettings).
 
 #### Transform block options
 
-The inline toolbar now includes `transform` options to quickly convert blocks between different types. You can use the [transformSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#transformSettings) property to handle customization of the transform menu in the inline toolbar. This allows you to configure available block transformations, define custom menu items with text and icons, and control their behavior.
+The inline toolbar now includes `transform` options to quickly convert blocks between different types. You can use the [transformSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#transformSettings) property to handle customization of the transform menu in the inline toolbar. This allows you to configure available block transformations, define custom menu items with text and icons, and control their behavior.
 
 #### Built-in default transform block options
 
@@ -194,7 +194,7 @@ The following events are available for the transform toolbar item menu:
 
 |Name|Args|Description|
 |---|---|---|
-|[itemSelect](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/transformSettingsModel#itemselect)|TransformItemSelectEventArgs|Triggers when a command item is clicked.|
+|[itemSelect](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/transformsettingsmodel#itemselect)|TransformItemSelectEventArgs|Triggers when a command item is clicked.|
 
 #### Inline code support
 
@@ -208,43 +208,43 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item" %}
 
 #### Font and background color support
 
-Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#fontColorSettings), [backgroundColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#backgroundColorSettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
+Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#fontColorSettings), [backgroundColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#backgroundColorSettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
 
 The following example demonstrates how to customize the font and background color toolbar items.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item" %}
 
 ### Customize Inline Toolbar
 
-You can use the [inlineToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#inlinetoolbarsettings) property to customize the Inline Toolbar by adding or removing formatting options based on your application's needs.
+You can use the [inlineToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#inlinetoolbarsettings) property to customize the Inline Toolbar by adding or removing formatting options based on your application's needs.
 
 ### Events
 
@@ -258,15 +258,15 @@ The following example demonstrates how to customize the Inline Toolbar.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar" %}

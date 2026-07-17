@@ -24,8 +24,6 @@ The following options are available to customize the legend position:
 * Right
 * Float
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/position/tagHelper %}
@@ -34,18 +32,6 @@ The following options are available to customize the legend position:
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/position/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -57,8 +43,6 @@ Legend Alignment is used to align the legend items in specific location. The fol
 * Center
 * Far
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/align/tagHelper %}
@@ -67,18 +51,6 @@ Legend Alignment is used to align the legend items in specific location. The fol
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/align/align.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/align/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Align.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/align/align.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -94,8 +66,6 @@ The TreeMap control supports two different types of legend rendering modes such 
 
 In default mode, the legends have symbols with legend labels that are used to identify the items in the TreeMap.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/default/tagHelper %}
@@ -104,18 +74,6 @@ In default mode, the legends have symbols with legend labels that are used to id
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/default/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -127,8 +85,6 @@ In default mode, the legends have symbols with legend labels that are used to id
 
 The legends can be made interactive with an arrow mark that indicates exact range color in the legend when the mouse hovers on the TreeMap item. Enable this option by setting the `mode` property in the `legendSettings` to **Interactive**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/interactive/tagHelper %}
@@ -138,27 +94,12 @@ The legends can be made interactive with an arrow mark that indicates exact rang
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/interactive/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Interactive.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/interactive/interactive.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ![TreeMap with interactive legend](images/Legend/InteractiveLegend.png)
 
 ## Legend size
 
 Customize the legend size by modifying the `height` and `width` properties in the `legendSettings`. It accepts values in both percentage and pixel.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -169,18 +110,6 @@ Customize the legend size by modifying the `height` and `width` properties in th
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/size/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap with custom legend size](images/Legend/legendSize.png)
@@ -188,8 +117,6 @@ Customize the legend size by modifying the `height` and `width` properties in th
 ### Paging support
 
 TreeMap support legend paging, if the legend items cannot be placed within the provided `height` and `width` of the legend.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -200,18 +127,6 @@ TreeMap support legend paging, if the legend items cannot be placed within the p
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/paging/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Paging.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/paging/paging.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap legend with paging](images/Legend/Paging.png)
@@ -219,8 +134,6 @@ TreeMap support legend paging, if the legend items cannot be placed within the p
 ## Legend for items excluded from color mapping
 
 Based on the mapping ranges in the data source, get the excluded ranges from the color mapping, and show the legend with the excluded range values that are bound to the specific legend.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -231,18 +144,6 @@ Based on the mapping ranges in the data source, get the excluded ranges from the
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/excludelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Excludelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/excludelegend/excludelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap legend for excluded items](images/Legend/ExcludeLegend.png)
@@ -250,8 +151,6 @@ Based on the mapping ranges in the data source, get the excluded ranges from the
 ## Hide desired legend items
 
 To enable or disable the desired legend item for each color mapping, set the `showLegend` property to **true** in the `colorMapping`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -262,18 +161,6 @@ To enable or disable the desired legend item for each color mapping, set the `sh
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/hidelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Hidelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/hidelegend/hidelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide specific legend item in TreeMap](images/Legend/HideLegendDS.png)
@@ -281,8 +168,6 @@ To enable or disable the desired legend item for each color mapping, set the `sh
 ## Hide legend items based data source value
 
 To enable or disable the legend visibility for each item through the data source, bind the appropriate data source field name to `showLegendPath` property in the `legendSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -293,18 +178,6 @@ To enable or disable the legend visibility for each item through the data source
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/hidelegendbasedDS/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HidelegendbasedDS.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/hidelegendbasedDS/hidelegendbasedDS.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Hide TreeMap legend based on datasource](images/Legend/HideLegendDS.png)
@@ -312,8 +185,6 @@ To enable or disable the legend visibility for each item through the data source
 ## Bind legend item text from data source
 
 To show the legend item text from the data source, bind the property name from data source to the `valuePath` property in the `legendSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -324,18 +195,6 @@ To show the legend item text from the data source, bind the property name from d
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/bindlegendtext/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bindlegendtext.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/bindlegendtext/bindlegendtext.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap legend text from datasource](images/Legend/legendTextDS.png)
@@ -343,8 +202,6 @@ To show the legend item text from the data source, bind the property name from d
 ## Hide duplicate legend items
 
 To enable or disable the duplicate legend items, set the `removeDuplicateLegend` property to **true** in the `legendSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -355,18 +212,6 @@ To enable or disable the duplicate legend items, set the `removeDuplicateLegend`
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/duplicatelegend/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Duplicatelegend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/duplicatelegend/duplicatelegend.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Remove duplicate legend item](images/Legend/DuplicateLegend.png)
@@ -374,8 +219,6 @@ To enable or disable the duplicate legend items, set the `removeDuplicateLegend`
 ## Legend Responsiveness
 
 Use a responsive legend that switches positions between the right and the bottom based on the available height and width. To enable the responsive legend, set the `position` property to **Auto** in the `legendSettings` and the legend position is changed based on the available height and width.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -385,18 +228,6 @@ Use a responsive legend that switches positions between the right and the bottom
 {% include code-snippet/chart-sdk/asp-net-core/treemap/legend/legend-responsive/legend-responsive.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/legend-responsive/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-responsive.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/legend/legend-responsive/legend-responsive.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

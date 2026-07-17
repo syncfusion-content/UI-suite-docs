@@ -11,11 +11,11 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Table Blocks in JavaScript Block Editor control
 
-The Syncfusion Block Editor allows you to render structured data in rows and columns by setting the block's [blockType](../../api/blockeditor/blockModel#blockType) property to `Table`. You can customize the table layout, header, row numbers, and define columns and rows using the `properties` property. In addition, you can format cells with keyboard shortcuts, use slash commands inside cells to add blocks, and manage rows and columns quickly with dot and plus buttons.
+The Syncfusion Block Editor allows you to render structured data in rows and columns by setting the block's [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) property to `Table`. You can customize the table layout, header, row numbers, and define columns and rows using the `properties` property. In addition, you can format cells with keyboard shortcuts, use slash commands inside cells to add blocks, and manage rows and columns quickly with dot and plus buttons.
 
 ### Configure table block
 
-For Table blocks, you can configure layout and structure using the [properties](../../api/blockeditor/blockModel#properties) property. This property supports the following options:
+For Table blocks, you can configure layout and structure using the [properties](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#properties) property. This property supports the following options:
 
 | Property | Description | Default Value |
 |----------|-------------|---------------|
@@ -72,27 +72,27 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block" %}
 {% endif %}
 
 ### Table resizing
@@ -109,25 +109,25 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/table-feature/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/table-feature/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/table-block/table-feature" %}
 {% endif %}

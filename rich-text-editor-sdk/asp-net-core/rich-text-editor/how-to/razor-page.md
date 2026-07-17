@@ -23,10 +23,10 @@ This sample explains the form post back properties of the rich text editor rende
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/razor-page/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/razor-page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/razor-page/index.cshtml.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/razor-page/index.cshtml.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,7 +34,7 @@ This sample explains the form post back properties of the rich text editor rende
 
 {% tabs %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/razor-page/index.cshtml.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/razor-page/index.cshtml.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

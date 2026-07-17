@@ -22,10 +22,10 @@ Please refer to the sample and code snippets below to demonstrate how to enable 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/read-only/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/read-only/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/read-only/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/read-only/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ Please refer to the sample and code snippets below to demonstrate how to enable 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/read-only/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/read-only/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/read-only/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/read-only/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

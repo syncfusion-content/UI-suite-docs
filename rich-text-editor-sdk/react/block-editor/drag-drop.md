@@ -14,7 +14,7 @@ The drag and drop feature in the Block Editor allows users to intuitively rearra
 
 ## Enable Drag and Drop
 
-You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](../api/blockeditor/#enabledraganddrop) property. This feature is enabled by default (`true`).
+You can control the drag and drop functionality within the Block Editor using the [enableDragAndDrop](https://ej2.syncfusion.com/react/documentation/api/blockeditor/index-default#enabledraganddrop) property. This feature is enabled by default (`true`).
 
 When drag and drop is enabled, users can rearrange blocks in the following ways:
 
@@ -28,11 +28,11 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/drag-drop/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/drag-drop/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/drag-drop/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/drag-drop/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/drag-drop" %}

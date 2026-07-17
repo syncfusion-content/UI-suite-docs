@@ -11,11 +11,11 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Lists in JavaScript Block Editor control
 
-The Syncfusion Block Editor control uses list blocks to organize content into structured lists. To render a specific list type, set the [blockType](../../api/blockeditor/blockModel#blockType) property of the `BlockModel` to `BulletList`, `NumberedList`, or `Checklist`. Bullet lists are ideal for unordered items, numbered lists for ordered items, and checklists for interactive to-do lists.
+The Syncfusion Block Editor control uses list blocks to organize content into structured lists. To render a specific list type, set the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) property of the `BlockModel` to `BulletList`, `NumberedList`, or `Checklist`. Bullet lists are ideal for unordered items, numbered lists for ordered items, and checklists for interactive to-do lists.
 
 ## Configuring the Bullet List
 
-You can render a Bullet List block by setting the [blockType](../../api/blockeditor/blockModel#blockType) property to `BulletList`. This block type is used to display unordered lists.
+You can render a Bullet List block by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) property to `BulletList`. This block type is used to display unordered lists.
 
 ### BlockType
 
@@ -34,7 +34,7 @@ You can render a Bullet List block by setting the [blockType](../../api/blockedi
 
 ### Configure Placeholder
 
-The [placeholder](../../api/blockeditor/blockModel#placeholder) property sets the text that appears when the block is empty. The default placeholder for a bullet list is `Add item`.
+The [placeholder](https://ej2.syncfusion.com/documentation/api/blockeditor/baseplaceholderprop#placeholder) property sets the text that appears when the block is empty. The default placeholder for a bullet list is `Add item`.
 
 ```typescript
 // Adding placeholder value 
@@ -52,7 +52,7 @@ The [placeholder](../../api/blockeditor/blockModel#placeholder) property sets th
 
 ## Configuring the Numbered List
 
-You can render a Numbered List block by setting the [blockType](../../api/blockeditor/blockModel#blockType) property to `NumberedList`. This block type is used to display ordered lists.
+You can render a Numbered List block by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) property to `NumberedList`. This block type is used to display ordered lists.
 
 ### Type
 
@@ -71,7 +71,7 @@ You can render a Numbered List block by setting the [blockType](../../api/blocke
 
 ### Configure Placeholder
 
-The [placeholder](../../api/blockeditor/blockModel#placeholder) property sets the text that appears when the block is empty. The default placeholder for a numbered list is `Add item`.
+The [placeholder](https://ej2.syncfusion.com/documentation/api/blockeditor/baseplaceholderprop#placeholder) property sets the text that appears when the block is empty. The default placeholder for a numbered list is `Add item`.
 
 ```typescript
 // Adding placeholder value 
@@ -89,7 +89,7 @@ The [placeholder](../../api/blockeditor/blockModel#placeholder) property sets th
 
 ## Configure the Checklist
 
-You can render a Checklist block by setting the [blockType](../../api/blockeditor/blockModel#blockType) property to `Checklist`. This block type is used for creating interactive to-do lists.
+You can render a Checklist block by setting the [blockType](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#blocktype) property to `Checklist`. This block type is used for creating interactive to-do lists.
 
 ### BlockType
 
@@ -108,40 +108,40 @@ You can render a Checklist block by setting the [blockType](../../api/blockedito
 
 ### Configure Checked State
 
-For blocks that support selection states, such as a `Checklist`, you can configure the checked state using the `properties` property with [isChecked](../../api/blockeditor/blockModel#ischecked).
+For blocks that support selection states, such as a `Checklist`, you can configure the checked state using the `properties` property with [isChecked](https://ej2.syncfusion.com/documentation/api/blockeditor/ichecklistblocksettings#ischecked).
 
-By default, the [isChecked](../../api/blockeditor/blockModel#ischecked) property is set to `false`.
+By default, the [isChecked](https://ej2.syncfusion.com/documentation/api/blockeditor/ichecklistblocksettings#ischecked) property is set to `false`.
 
 {% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/isChecked/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/isChecked/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/isChecked/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/isChecked/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/isChecked" %}
 {% endif %}
 
 ### Configure placeholder
 
-The [placeholder](../../api/blockeditor/blockModel#placeholder) property sets the text that appears when the block is empty. The default placeholder for a checklist is `Todo`.
+The [placeholder](https://ej2.syncfusion.com/documentation/api/blockeditor/baseplaceholderprop#placeholder) property sets the text that appears when the block is empty. The default placeholder for a checklist is `Todo`.
 
 ```typescript
 // Adding placeholder value 
@@ -165,25 +165,25 @@ Below example illustrates how to render the different types of list blocks in th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/list-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/list-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/list-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/javascript/block-editor/blocks/block-types/list-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/blocks/block-types/list-block" %}
 {% endif %}

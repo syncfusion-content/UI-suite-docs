@@ -59,8 +59,6 @@ Show the population of a particular continent in the treemap `loaded` event. In 
 
 Customize the population for drilled countries or states in the header element when drill-down the treemap. The `drillEnd` event will be triggered when treemap is drilled.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/header-template/tagHelper %}
@@ -69,18 +67,6 @@ Customize the population for drilled countries or states in the header element w
 {% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/header-template/header.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/header-template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Header.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/header-template/header.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -116,8 +102,6 @@ Create a tree map control and enable the drill-down option.
 
 Add the label template in the `leafItemSettings` options, and then set the `showLabels` property to **false** to hide another labels and show only label template.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/label-template/tagHelper %}
@@ -126,18 +110,6 @@ Add the label template in the `leafItemSettings` options, and then set the `show
 {% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/label-template/label.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/label-template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/how-to/label-template/label.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

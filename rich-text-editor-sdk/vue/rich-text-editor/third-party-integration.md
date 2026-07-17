@@ -39,11 +39,11 @@ Add a custom icon for HTML source editor in the toolbar of Rich Text Editor usin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs11/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs11/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs11" %}
