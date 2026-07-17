@@ -2,22 +2,22 @@
 layout: post
 title: Events in WPF Maps control | Syncfusion
 description: Learn here all about Events support in Syncfusion WPF Maps (SfMap) control, its elements and more details.
-platform: chart-sdk
+platform: charts-sdk
 control: SfMap
 documentation: ug
 ---
 
 # Events in WPF Maps (SfMap)
 
-• [`ZoomedIn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs whenever zooming the map.  
-• [`ZoomedOut`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when zoomed out the map.
+• [`ZoomedIn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs whenever zooming in the map.  
+• [`ZoomedOut`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when zooming out the map.
 • [`Panning`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs while panning the map.
-• [`Panned`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs after panned the map.
+• [`Panned`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs after panning the map.
 • [`MapToolTipOpening`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when any tooltip on the SfMap control is opened.
 
 ### Tooltip opening event
 
-[`MapToolTipOpening`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) event occurs whenever you select a shape, bubble, or marker. You will get the `Data` and `TooltipType` properties as arguments from `TooltipOpeningEventArgs` handler, and you can cancel the event for a particular shape using the `Cancel` property.
+The [`MapToolTipOpening`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) event occurs whenever you select a shape, bubble, or marker. You will get the `Data` and `TooltipType` properties as arguments from the `TooltipOpeningEventArgs` handler, and you can cancel the event for a particular shape using the `Cancel` property.
 
 {% tabs %}
 
@@ -43,13 +43,13 @@ documentation: ug
 
 {% highlight c# %}
 
-         private void SfMaps_TooltipOpening(object sender, TooltipOpeningEventArgs e)
-         {
-            if ((e.Data is MapsZoom.ElectionData) && (e.Data as MapsZoom.ElectionData).State == "North Dakota")
-            {
-                e.Cancel = true;
-            }
-	}
+        private void SfMaps_TooltipOpening(object sender, TooltipOpeningEventArgs e)
+        {
+        if ((e.Data is MapsZoom.ElectionData) && (e.Data as MapsZoom.ElectionData).State == "North Dakota")
+        {
+            e.Cancel = true;
+        }
+        }
 
 {% endhighlight %}
 

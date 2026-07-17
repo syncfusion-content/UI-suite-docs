@@ -2,7 +2,7 @@
 layout: post
 title: Add custom labels to track ball behavior| SfChart | Wpf | Syncfusion
 description: Add custom labels to track ball behavior in Syncfusion® WPF Chart (SfChart) control, its elements and more.
-platform: chart-sdk
+platform: charts-sdk
 control: SfChart
 documentation: ug
 ---

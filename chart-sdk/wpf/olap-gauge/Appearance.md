@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in WPF Olap Gauge control | Syncfusion
 description: Learn about Appearance support in Syncfusion Essential Studio WPF Olap Gauge control, its elements and more details.
-platform: chart-sdk
+platform: charts-sdk
 control: OLAP Gauge
 documentation: ug
 ---
