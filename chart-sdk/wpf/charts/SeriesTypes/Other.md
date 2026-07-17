@@ -2,7 +2,7 @@
 layout: post
 title: Other Chart Types in WPF Charts control | Syncfusion
 description: Learn here all about Other Chart Types support in Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfChart
 documentation: ug
 ---

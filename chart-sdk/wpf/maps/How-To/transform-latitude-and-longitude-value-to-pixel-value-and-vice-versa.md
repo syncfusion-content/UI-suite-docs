@@ -2,7 +2,7 @@
 layout: post
 title: Transform latitude and longitude to pixel | SfMap | Wpf | Syncfusion
 description: Transform SfMap latitude and longitude value to pixel value and vice-versa by using GeopointToViewPoint and GetLatLonFromPoint methods. 
-platform: charts-sdk
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

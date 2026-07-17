@@ -2,7 +2,7 @@
 layout: post
 title: Bubbles in WPF Maps control | Syncfusion
 description: Learn here all about Bubbles support in Syncfusion WPF Maps (SfMap) control, its elements and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

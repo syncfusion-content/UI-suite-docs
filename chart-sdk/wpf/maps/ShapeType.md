@@ -2,7 +2,7 @@
 layout: post
 title: Shape Types in WPF Maps control | Syncfusion
 description: Learn about the Shape Types support in the Syncfusion WPF Maps (SfMaps) control, including its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

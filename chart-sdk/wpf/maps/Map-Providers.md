@@ -2,7 +2,7 @@
 layout: post
 title: Map Providers in WPF Maps control | Syncfusion
 description: Learn here all about Map Providers support in Syncfusion WPF Maps (SfMap) control, its elements and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

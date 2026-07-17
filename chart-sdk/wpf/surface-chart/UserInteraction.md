@@ -2,7 +2,7 @@
 layout: post
 title: User interaction in WPF Surface Chart control | Syncfusion
 description: Learn here all about user interactions like zooming and rotation in Syncfusion WPF Surface Chart. (SfSurfaceChart) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
 ---

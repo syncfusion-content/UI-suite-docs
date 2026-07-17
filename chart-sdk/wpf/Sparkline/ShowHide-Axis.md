@@ -2,7 +2,7 @@
 layout: post
 title: ShowHide Axis in WPF Sparkline control | Syncfusion
 description: Learn here all about ShowHide Axis support in Syncfusion WPF Sparkline (SfSparkline) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSparkline
 documentation: ug
 ---

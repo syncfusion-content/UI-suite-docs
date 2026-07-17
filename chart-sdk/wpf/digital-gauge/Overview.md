@@ -2,7 +2,7 @@
 layout: post
 title: About WPF Digital Gauge control | Syncfusion
 description: Learn here all about introduction of Syncfusion WPF Digital Gauge (SfDigitalGauge) control, its elements and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

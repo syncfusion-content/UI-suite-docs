@@ -2,7 +2,7 @@
 layout: post
 title: Scale | SfLinearGauge | WPF | Syncfusion
 description: Learn how to add a scale to the Syncfusion linear gauge and customize the appearance of the scale in the WPF platform.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

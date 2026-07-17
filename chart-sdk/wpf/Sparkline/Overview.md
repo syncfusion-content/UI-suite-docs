@@ -2,7 +2,7 @@
 layout: post
 title: About WPF Sparkline control | Syncfusion
 description: Learn here all about introduction of Syncfusion WPF Sparkline (SfSparkline) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSparkline
 documentation: ug
 ---

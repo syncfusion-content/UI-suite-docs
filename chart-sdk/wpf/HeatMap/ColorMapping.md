@@ -2,7 +2,7 @@
 layout: post
 title: ColorMapping in WPF HeatMap (SfHeatMap) control | Syncfusion®
 description: Learn how to configure color codes for the Syncfusion® Essential Studio® WPF HeatMap (SfHeatMap) control, its elements, and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfHeatMap
 documentation: ug
 ---

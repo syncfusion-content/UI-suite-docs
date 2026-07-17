@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in WPF Radial Gauge control | Syncfusion
 description: Learn here all about Annotations support in Syncfusion WPF Radial Gauge (SfCircularGauge) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
 ---

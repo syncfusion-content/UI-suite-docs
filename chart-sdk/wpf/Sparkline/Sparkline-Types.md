@@ -2,7 +2,7 @@
 layout: post
 title: Sparkline Types in WPF Sparkline control | Syncfusion
 description: Learn here all about Sparkline Types support in Syncfusion WPF Sparkline (SfSparkline) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSparkline
 documentation: ug
 ---
