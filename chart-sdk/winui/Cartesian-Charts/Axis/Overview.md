@@ -2,7 +2,7 @@
 layout: post
 title: About Axis in WinUI Chart control | Syncfusion
 description: Learn here all about chart axis and its keys features of Syncfusion® WinUI Chart (SfCartesianChart) control.
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: axis in winui chart, winui sfcartesianchart axis, winui chart axis customization, syncfusion winui chart axis, winui sfcartesianchart axis settings.

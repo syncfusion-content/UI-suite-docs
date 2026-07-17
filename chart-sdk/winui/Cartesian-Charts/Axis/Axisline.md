@@ -2,7 +2,7 @@
 layout: post
 title: Axis line in WinUI Chart control | Syncfusion
 description: Learn here all about the chart axis line and its customization in Syncfusion® WinUI Chart (SfCartesianChart) control.
-platform: WinUI
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: axis line in winui chart, winui sfcartesianchart axis line, syncfusion winui chart axis line, customizing axis line in winui, winui sfcartesianchart axis line configuration.
