@@ -345,7 +345,7 @@ When you run the application, the Blazor Gantt Chart loads the task hierarchy di
 
 ## Handling searching operation
 
-OData V4 does not support global search by default. To overcome this limitation, Syncfusion provides a search fallback mechanism that allows a global search experience through the [EnableODataSearchFallback](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.RemoteOptions.html#Syncfusion_Blazor_Data_RemoteOptions_EnableODataSearchFallback) option of `RemoteOptions`. Enable it in the same way as for the Grid - first add the `Filter` option to the OData setup, then flip `EnableODataSearchFallback` on after the Gantt renders.
+OData V4 does not support global search by default. To overcome this limitation, Syncfusion provides a search fallback mechanism that allows a global search experience through the `EnableODataSearchFallback` option of `RemoteOptions`. Enable it in the same way as for the Grid - first add the `Filter` option to the OData setup, then flip `EnableODataSearchFallback` on after the Gantt renders.
 
 {% tabs %}
 {% highlight cs tabtitle="program.cs" %}
