@@ -128,10 +128,10 @@ The following code summarizes the steps:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/getting-started/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
