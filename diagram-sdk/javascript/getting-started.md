@@ -1,42 +1,42 @@
 ---
 layout: post
 title: Getting started with JavaScript Diagram control | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Diagram control of Syncfusion Essential JS 2 and more details.
+description: Checkout and learn about Getting started with JavaScript Diagram control of Syncfusion Essential JS 2 and more details.
 platform: diagram-sdk
-control: Getting started 
+control: Getting started
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting started with JavaScript Diagram control
+# Getting started with ##Platform_Name## Diagram control
 
 This section explains how to create and render a simple Essential® JS 2 Diagram in a plain JavaScript application.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/mcp-server/ai-coding-assistant/getting-started)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/mcp-server/ai-coding-assistant/getting-started).
 
 ## Setup for local environment
 
-Refer to the following steps to set up your local environment.
+Follow these steps to set up your local environment.
 
 **Step 1:** Create a root folder named **my-diagram-app** for your application.
 
-**Step 2:** Create a **my-diagram-app/resources** folder to store local scripts and styles files.
+**Step 2:** Create a **my-diagram-app/resources** folder to store local script and style files.
 
 **Step 3:** Open Visual Studio Code and create **my-diagram-app/index.js** and **my-diagram-app/index.html** files to initialize the Essential® JS 2 Diagram control.
 
 ## Adding Syncfusion® resources
 
-The Essential® JS 2 Diagram control can be initialized by using either of the following ways.
+The Essential® JS 2 Diagram control can be initialized using one of the following methods:
 
 * Using local script and style.
 * Using CDN link for script and style.
 
 ### Using local script and style
 
-**Step 1**: Download [Essential Studio® JavaScript (Essential® JS 2)](https://www.syncfusion.com/downloads/essential-js2) to obtain the global scripts and styles.
+**Step 1:** Download [Essential Studio® JavaScript (Essential® JS 2)](https://www.syncfusion.com/downloads/essential-js2) to obtain the global scripts and styles.
 
-**Step 2**: Identify the location of the script and style files from the build installation location. The syntax for the file paths are as follows:
+**Step 2:** Identify the location of the script and style files from the build installation location. The syntax for the file paths are as follows:
 
 **Syntax:**
 > Script: `**(installed location)**/Syncfusion/Essential Studio/{RELEASE_VERSION}/Web(Essential JS 2)/javascript/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
@@ -46,11 +46,11 @@ The Essential® JS 2 Diagram control can be initialized by using either of the f
 > Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/33.2.3/Web(Essential JS 2)/javascript/ej2-diagrams/dist/global/ej2-diagrams.min.js`
 > Styles: `C:/Program Files (x86)/Syncfusion/Essential Studio/33.2.3/Web(Essential JS 2)/javascript/ej2-diagrams/styles/tailwind3.css`
 
-**Step 3**: Copy the global scripts and style files into the **resources** folders:
+**Step 3:** Copy the global script and style files into the **resources** folder.
 
-**Step 4:** Add References to the scripts and styles into the **index.html** file to render the Syncfusion® Diagram.
+**Step 4:** Add references to the scripts and styles into the **index.html** file to render the Syncfusion® Diagram.
 
-Here's an example of referencing the scripts and styles in an HTML file:
+The following example shows how to reference the script and style in an HTML file:
 
 ```
 <!DOCTYPE html>
@@ -65,6 +65,9 @@ Here's an example of referencing the scripts and styles in an HTML file:
 </head>
 
 <body>
+    <!-- Add the HTML <div> element for diagram  -->
+    <div id="diagram"></div>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 
 </html>
@@ -72,18 +75,17 @@ Here's an example of referencing the scripts and styles in an HTML file:
 
 ### Using CDN link for script and style
 
-Using CDN links, you can directly refer the script and style into the **index.html**.
+Using CDN links, you can reference the scripts and styles directly in the **index.html**.
 
 **Syntax:**
 > Script: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/{PACKAGE_NAME}.min.js`
-> Styles: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/tailwind3.css`
+> Styles: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/styles/tailwind3.css`
 
 **Example:**
-> Script: [`https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js`](https://cdn.syncfusion.com/ej2/ej2-diagrams/dist/global/ej2-diagrams.min.js)
-> Styles: [`https://cdn.syncfusion.com/ej2/ej2-diagrams/styles/tailwind3.css`](https://cdn.syncfusion.com/ej2/ej2-diagrams/styles/tailwind3.css)
+> Script: [`https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2-diagrams.min.js`](https://cdn.syncfusion.com/ej2/ej2-diagrams/dist/global/ej2-diagrams.min.js)
+> Styles: [`https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css`](https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css)
 
-
-Here's an example of referencing the scripts and styles in an HTML file using CDN links to render the Syncfusion® Diagram.
+The following example shows how to reference the scripts and styles in an HTML file using CDN links to render the Syncfusion® Diagram.
 
 ```
 <!DOCTYPE html>
@@ -103,18 +105,23 @@ Here's an example of referencing the scripts and styles in an HTML file using CD
 </head>
 
 <body>
+    <!-- Add the HTML <div> element for diagram  -->
+    <div id="diagram"></div>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 
 </html>
 ```
 
+N> The `{PACKAGE_NAME}.min.js` file (e.g., `ej2-diagrams.min.js`) and the package-specific `{PACKAGE_NAME}/styles/tailwind3.css` file (e.g., `ej2-diagrams/styles/tailwind3.css`) contain only the Diagram package, while the combined `ej2.min.js` bundle and the combined `tailwind3.css` file include all Essential® JS 2 controls.
+
 ## Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` properties.
+The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings through the `getNodeDefaults` and `getConnectorDefaults` callback bindings.
 
-Here is the **index.js** file:
+Replace the entire contents of **my-diagram-app/index.js** with the following code:
 
 ```
 // Node defaults function
@@ -190,7 +197,7 @@ let diagram = new ej.diagrams.Diagram({
 // Render initialized Diagram
 diagram.appendTo('#diagram');
 ```
-Here is the **index.html** file:
+Replace the entire contents of **my-diagram-app/index.html** with the following code (using CDN references; for the local-script setup, replace the CDN URLs with your local **resources/** paths):
 
 ```
 <!DOCTYPE html>
@@ -220,6 +227,8 @@ Here is the **index.html** file:
 
 ## Run the application
 
-Now, run the **index.html** in web browser, it will render the Essential® JS 2 Diagram control.
+Now, run the **index.html** in a web browser. It will render the Essential® JS 2 Diagram control.
 
-![Getting Started](images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](images/Getting-started.png)
+
+N> For the local-script setup, serve the application via a local HTTP server (e.g., **npx http-server** or the Code Studio Live Server extension) instead of opening the HTML file directly with the **file:/** protocol, to avoid browser security restrictions.
