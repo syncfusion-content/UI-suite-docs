@@ -2,7 +2,7 @@
 layout: post
 title: Area Chart in WPF Charts control | Syncfusion
 description: Learn here all about Area Chart support in Syncfusion® WPF Charts (SfChart) control, its elements and more details.
-platform: chart-sdk
+platform: charts-sdk
 control: SfChart
 documentation: ug
 ---
@@ -23,7 +23,7 @@ The following code example initializes the AreaSeries:
     Interior="#BCBCBC" 
     YBindingPath="People" 
     ItemsSource="{Binding Fruits}">
-</chart:StepAreaSeries>  
+</chart:AreaSeries>  
 
 {% endhighlight %}
 

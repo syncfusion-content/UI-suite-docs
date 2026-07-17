@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Resizable Scrollbar in WPF Charts control | Syncfusion
-description: Learn here all about Resizable Scrollbar support in Syncfusion® WPF Charts (SfChart) control and more.
-platform: chart-sdk
+description: Learn here all about Resizable Scrollbar support in Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
+platform: charts-sdk
 control: SfChart
 documentation: ug
 ---
@@ -95,7 +95,7 @@ chart.PrimaryAxis = new CategoryAxis()
 
 ## Scrollbar for Touch Mode
 
-Scrollbar provides a touch mode style by enabling [`EnableTouchMode`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAxisBase2D.html#Syncfusion_UI_Xaml_Charts_ChartAxisBase2D_EnableTouchMode) property to true as in the below code snippet.
+Scrollbar provides a touch mode style by enabling [`EnableTouchMode`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAxisBase2D.html#Syncfusion_UI_Xaml_Charts_ChartAxisBase2D_EnableTouchMode) property to `true` as in the below code snippet.
 
 {% tabs %}
 

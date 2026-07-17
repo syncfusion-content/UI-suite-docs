@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Radar and Polar Chart in WPF Charts control | Syncfusion
-description: Learn here all about Radar and Polar Chart support in Syncfusion® WPF Charts (SfChart) control and more.
-platform: chart-sdk
+description: Learn here all about Radar and Polar Chart support in Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
+platform: charts-sdk
 control: SfChart
 documentation: ug
 ---
@@ -135,7 +135,7 @@ chart.Series.Add(series);
 
 This property defines type of curve, whether its [`Line`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesDrawType.html) or [`Area`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesDrawType.html).
 
-**DrawType** **as** **Area**
+**DrawType as** **Area**
 
 {% tabs %}
 
@@ -172,7 +172,7 @@ chart.Series.Add(series);
 
 ![WPF Polar Chart with Covered Area](Series_images/wpf-polar-chart-covered-area.png)
 
-**DrawType** **as** **Line**
+**DrawType as** **Line**
 
 {% tabs %}
 
