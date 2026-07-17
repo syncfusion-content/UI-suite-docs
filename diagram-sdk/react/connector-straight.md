@@ -14,7 +14,7 @@ Straight connector segments create direct linear connections between two points 
 
 ## Creating Straight Segments
 
-To create a straight line connector, specify the [`type`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#type) of the segment as **straight** and add a straight segment to [`segments`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#segments) collection and need to specify [`type`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#type) property for the connector itself. The following code example demonstrates how to create a basic straight segment connector.
+To create a straight line connector, specify the [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#type) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#type) property for the connector itself. The following code example demonstrates how to create a basic straight segment connector.
 
 The following code example illustrates how to create a default straight segment.
 
