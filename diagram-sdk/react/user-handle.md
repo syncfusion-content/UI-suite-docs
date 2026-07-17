@@ -50,15 +50,15 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 
 ## Alignment
 
-User handles can be precisely positioned relative to node boundaries using alignment properties. The positioning system provides [`margin`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#margin), [`offset`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#offset), [`side`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#side), [`horizontalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#horizontalalignment), and [`verticalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#verticalalignment) properties to align user handles based on specific requirements.
+User handles can be precisely positioned relative to node boundaries using alignment properties. The positioning system provides [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#margin), [`offset`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#offset), [`side`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#side), [`horizontalAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#horizontalalignment), and [`verticalAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#verticalalignment) properties to align user handles based on specific requirements.
 
 ### Offset
 
-The [`offset`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#offset), property of `userHandles` aligns the user handle based on fractions. For example, 0 represents the top-left corner, 1 represents the top-right corner, and 0.5 represents the top-center.
+The [`offset`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#offset), property of `userHandles` aligns the user handle based on fractions. For example, 0 represents the top-left corner, 1 represents the top-right corner, and 0.5 represents the top-center.
 
 ### Side
 
-The [`side`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#side) property of `userHandles` aligns the user handle using the following options: [`Top`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#top), [`Bottom`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#bottom), [`Left`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#left), and [`Right`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#right).
+The [`side`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#side) property of `userHandles` aligns the user handle using the following options: [`Top`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#top), [`Bottom`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#bottom), [`Left`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#left), and [`Right`](https://ej2.syncfusion.com/react/documentation/api/diagram/side#right).
 
 ### Horizontal and Vertical Alignments
 
@@ -66,7 +66,7 @@ The `horizontalAlignment` property of `userHandles`  is used to set how the user
 
 ### Margin for the User Handle
 
-The [`margin`](https://helpej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#margin) property adds blank space to any of the four sides of the user handle, providing precise displacement from the calculated position.
+The [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/userHandleModel#margin) property adds blank space to any of the four sides of the user handle, providing precise displacement from the calculated position.
 
 In the following example, the user handle is aligned to the bottom-right corner of the node.
 
@@ -96,7 +96,7 @@ The following table shows all the possible alignments of user handle around the 
 
 ## User Handle Tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
+The diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -109,7 +109,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs6" %}
 
-Additional tooltip properties can be customized, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) section.
+Additional tooltip properties can be customized, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) section.
 
 ## Appearance
 
@@ -328,7 +328,7 @@ The following code explains how to customize the alignment of connector fixed us
 
 ### Fixed User Handle Tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
+The diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
