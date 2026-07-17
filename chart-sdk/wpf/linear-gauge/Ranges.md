@@ -2,7 +2,7 @@
 layout: post
 title: Ranges | Linear Gauge | WPF | Syncfusion
 description: Ranges in the WPF Linear Gauge are used to specify or group the scale values. It specifies a start value and end value in the LinearGauge within a scale.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

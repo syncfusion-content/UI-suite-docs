@@ -2,7 +2,7 @@
 layout: post
 title: Pointers | Linear Gauge | WPF | Syncfusion
 description: Pointers in the WPF Linear Gauge are used to indicate the value of an attribute with different pointer types.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

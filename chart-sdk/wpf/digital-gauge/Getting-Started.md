@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with WPF Digital Gauge control | Syncfusion
 description: Learn here about getting started with Syncfusion WPF Digital Gauge (SfDigitalGauge) control, its elements and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

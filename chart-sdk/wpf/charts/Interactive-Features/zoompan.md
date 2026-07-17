@@ -2,7 +2,7 @@
 layout: post
 title: Zooming and Panning in WPF Charts control | Syncfusion
 description: Learn here all about Zooming and Panning support in Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfChart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Barcode Customization in WPF Barcode control | Syncfusion
 description: Learn how to customize barcodes in the Syncfusion WPF SfBarcode control, including appearance, styling, and configuration options.
-platform: charts-sdk
+platform: chart-sdk
 control: SfBarcode
 documentation: ug
 ---

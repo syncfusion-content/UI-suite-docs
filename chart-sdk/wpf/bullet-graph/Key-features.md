@@ -2,7 +2,7 @@
 layout: post
 title: Key Features in WPF Bullet Graph control | Syncfusion
 description: Learn all about the Key Features in the Syncfusion WPF Bullet Graph (SfBulletGraph) control and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
 ---

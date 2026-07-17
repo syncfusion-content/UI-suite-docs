@@ -2,7 +2,7 @@
 layout: post
 title: About WPF Bullet Graph control | Syncfusion
 description: Learn all about the introduction of the Syncfusion WPF Bullet Graph (SfBulletGraph) control, its elements, and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with WPF Charts control | Syncfusion
 description: Learn here about getting started with Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
-platform: charts-sdk
+platform: chart-sdk
 control: SfChart
 documentation: ug
 ---

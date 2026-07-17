@@ -2,7 +2,7 @@
 layout: post
 title: Legend in WPF Smith Chart control | Syncfusion
 description: Learn here all about Legend support in Syncfusion WPF Smith Chart (SfSmithChart) control, its elements and more.
-platform: charts-sdk
+platform: chart-sdk
 control: SfSmithChart
 documentation: ug
 ---

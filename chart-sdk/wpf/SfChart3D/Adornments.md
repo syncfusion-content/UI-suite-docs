@@ -2,7 +2,7 @@
 layout: post
 title: Adornments | SfChart | Wpf | Syncfusion
 description: This section explains about adornments behavior and its customization properties in WPF Chart (SfChart3D)
-platform: charts-sdk
+platform: chart-sdk
 control: SfChart3D
 documentation: ug
 ---

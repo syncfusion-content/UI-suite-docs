@@ -2,7 +2,7 @@
 layout: post
 title: Labels | SfLinearGauge | WPF | Syncfusion
 description: This section describes the Labels support with its customization by using LabelStroke, LabelSize, and other properties in the WPF SfLinearGauge control.
-platform: charts-sdk
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
