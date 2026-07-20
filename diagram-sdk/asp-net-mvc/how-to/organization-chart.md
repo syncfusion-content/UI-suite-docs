@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Organization Chart in Syncfusion® ASP.NET MVC Diagram Component
 description: Learn here all about organization chart in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -10,27 +10,13 @@ documentation: ug
 
 # HTML Template and CSS in the Organization chart
 
-An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Type) of layout should be set as an `OrganizationalChart`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CustomizedOrganization.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Type) of layout should be set as an `OrganizationalChart`.
 
 {% tabs %}
 {% highlight c# tabtitle="CustomizedOrganization.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

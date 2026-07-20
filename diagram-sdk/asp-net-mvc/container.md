@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Container in ASP.NET MVC Diagram Component | Syncfusion®
 description: Learn here all about Container in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -18,19 +18,6 @@ A Container is a group of logically related shapes surrounded by a visible bound
 
 The following code illustrates how to create a container node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/Container.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/razor %}
@@ -39,28 +26,14 @@ The following code illustrates how to create a container node.
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![container](./images/container.png)
 
 ### Setting a Header
 
-You can provide a textual description for a container using its `Header` property. Also, users can customize the header's appearance using the header's [Style](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramHeader.html#Syncfusion_EJ2_Diagrams_DiagramHeader_Style) property.
+You can provide a textual description for a container using its `Header` property. Also, users can customize the header's appearance using the header's [Style](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramHeader.html#Syncfusion_EJ2_Diagrams_DiagramHeader_Style) property.
 
 The following code example explains how to define a container header and its customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/Container.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -70,7 +43,6 @@ The following code example explains how to define a container header and its cus
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![container header customization](./images/containerheader.png)
 
@@ -90,7 +62,7 @@ You can interactively add or remove diagram elements from the Container in the r
 
 ## Interaction
 
-Containers support the same interactions as regular nodes—such as selection, dragging, resizing, and rotating. For more information refer to the [`nodes interactions`](./nodes)
+Containers support the same interactions as regular nodes-such as selection, dragging, resizing, and rotating. For more information refer to the [`nodes interactions`](./nodes)
 
 ## Events
 

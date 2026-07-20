@@ -34,7 +34,7 @@ Collaborative editing in diagram control allows multiple users to edit and revie
     * Changes to [pageSettings](../page-settings), [contextMenuSettings](../context-menu), [snapSettings](../grid-lines#snapping), [rulerSettings](../ruler), [layout](../automatic-layout), and [scrollSettings](../scroll-settings) are not propagated to other users and apply only locally.
 
 >**Note:** 
- Collaboration applies to actions that raise the [historyChange](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_HistoryChange) event.
+ Collaboration applies to actions that raise the [historyChange](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_HistoryChange) event.
 
 ## Sample code
 

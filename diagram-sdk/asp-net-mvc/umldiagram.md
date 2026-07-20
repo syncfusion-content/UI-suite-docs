@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Umldiagram in ASP.NET MVC Diagram Component
 description: Learn here all about Umldiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -21,28 +21,15 @@ The UML class diagram shapes are explained as follows.
 
 ### Class
 
-* A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#classshape) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the essential characteristics and behavior that objects belonging to the class will exhibit.
+* A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClass.html) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the essential characteristics and behavior that objects belonging to the class will exhibit.
 
-* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#methods) of the class using the class property of node.
+* Also, define the [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClass.html#Syncfusion_EJ2_Diagrams_DiagramUmlClass_Name), [`attributes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html), and [`methods`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html) of the class using the class property of node.
 
-* The attribute’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#name), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#scope) properties allows to define the name, data type, and visibility of the attribute.
+* The attribute's [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Name), [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Type), and [`scope`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.UmlScope.html) properties allows to define the name, data type, and visibility of the attribute.
 
-* The method’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#name), [`parameters`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
+* The method's [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Name), [`parameters`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
 
 * The method parameters object properties allows to define the name and type of the parameter.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/class/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Class.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/class/class.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -52,34 +39,20 @@ The UML class diagram shapes are explained as follows.
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/class/class.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Interface
 
-* An interface is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the [`interface`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#interfaceshape) notation. This essential concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
+* An interface is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the [`interface`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html) notation. This essential concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
 
-* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#methods) of the interface using the interface property of the node.
+* Also, define the [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Name), [`attributes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Attributes), and [`methods`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Methods) of the interface using the interface property of the node.
 
-* The attribute’s name, type, and scope properties allows to define the name, data type, and visibility of the attribute.
+* The attribute's name, type, and scope properties allows to define the name, data type, and visibility of the attribute.
 
-* The method’s name, parameter, type, and scope properties allows to define the name, parameter, return type, and visibility of the methods.
+* The method's name, parameter, type, and scope properties allows to define the name, parameter, return type, and visibility of the methods.
 
 * The method parameter object properties of name and type allows to define the name and type of the parameter.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/interface/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Interface.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/interface/interface.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -89,28 +62,14 @@ The UML class diagram shapes are explained as follows.
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/interface/interface.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Enumeration
 
-* To establish an enumeration, designate the classifier property of the node as [enumeration](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#enumerationshape). Additionally, define the name and enumerate the members of the enumeration using the appropriate enumeration property of the node. This process encapsulates a set of distinct values within the enumeration, allowing for a clear representation of specific, named constants within a system.
+* To establish an enumeration, designate the classifier property of the node as [enumeration](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlEnumeration.html). Additionally, define the name and enumerate the members of the enumeration using the appropriate enumeration property of the node. This process encapsulates a set of distinct values within the enumeration, allowing for a clear representation of specific, named constants within a system.
 
 * You can set a name for the enumeration members collection using the name property of members collection.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/enumeration/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Enumeration.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/enumeration/enumeration.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -120,7 +79,6 @@ The UML class diagram shapes are explained as follows.
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/enumeration/enumeration.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ## UML Class Relationships
@@ -142,20 +100,7 @@ Association is basically a set of links that connects elements of an UML model. 
 1. Directional
 2. BiDirectional
 
-The association property allows to define the type of association. The default value of association is “Directional”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/association/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/association/association.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+The association property allows to define the type of association. The default value of association is "Directional".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -165,26 +110,12 @@ The association property allows to define the type of association. The default v
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Aggregation
 
-Aggregation is a binary association between a property and one or more composite objects which group together a set of instances. Aggregation is decorated with a hollow diamond. To create an aggregation shape, define the relationship as “aggregation”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/aggregation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Aggregation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/aggregation/aggregation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+Aggregation is a binary association between a property and one or more composite objects which group together a set of instances. Aggregation is decorated with a hollow diamond. To create an aggregation shape, define the relationship as "aggregation".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -194,26 +125,12 @@ Aggregation is a binary association between a property and one or more composite
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/aggregation/aggregation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Composition
 
-Composition is a “strong” form of “aggregation”. Composition is decorated with a black diamond. To create a composition shape, define the relationship property of connector as “composition”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/composition/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Composition.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/composition/composition.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+Composition is a "strong" form of "aggregation". Composition is decorated with a black diamond. To create a composition shape, define the relationship property of connector as "composition".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -223,26 +140,12 @@ Composition is a “strong” form of “aggregation”. Composition is decorate
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/composition/composition.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Dependency
 
-Dependency is a directed relationship, which is used to show that some UML elements needs or depends on other model elements for specifications. Dependency is shown as dashed line with opened arrow. To create a dependency, define the relationship property of connector as “dependency”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/dependency/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dependency.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/dependency/dependency.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+Dependency is a directed relationship, which is used to show that some UML elements needs or depends on other model elements for specifications. Dependency is shown as dashed line with opened arrow. To create a dependency, define the relationship property of connector as "dependency".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -252,28 +155,14 @@ Dependency is a directed relationship, which is used to show that some UML eleme
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/dependency/dependency.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Inheritance
 
-Inheritance is also called as “generalization”. Inheritance is a binary taxonomic directed relationship between a more general classifier (super class) and a more specific classifier (subclass). Inheritance is shown as a line with hollow triangle.
+Inheritance is also called as "generalization". Inheritance is a binary taxonomic directed relationship between a more general classifier (super class) and a more specific classifier (subclass). Inheritance is shown as a line with hollow triangle.
 
-To create an inheritance, define the relationship as “inheritance”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/inheritance/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Inheritance.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/inheritance/inheritance.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+To create an inheritance, define the relationship as "inheritance".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -283,7 +172,6 @@ To create an inheritance, define the relationship as “inheritance”.
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/inheritance/inheritance.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -296,28 +184,15 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 3. OneToMany
 4. ManyToMany
 
-* By default the multiplicity will be considered as “OneToOne”.
+* By default the multiplicity will be considered as "OneToOne".
 
 * The multiplicity property in UML allows to specify large number of elements or some collection of elements.
 
-* The shape multiplicity’s source property is used to set the source label to connector and the target property is used to set the target label to connector.
+* The shape multiplicity's source property is used to set the source label to connector and the target property is used to set the target label to connector.
 
 * To set an optionality or cardinality for the connector source label, use optional property.
 
-* The [`lowerBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicityLabelModel#lowerbounds) and [`upperBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicityLabelModel#upperbounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk ‘\*’ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/multiplicity/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiplicity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/multiplicity/multiplicity.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The [`lowerBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) and [`upperBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk ‘\*’ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -327,7 +202,6 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/multiplicity/multiplicity.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ## How to add UML child at runtime
@@ -379,19 +253,6 @@ UML built-in shapes are efficiently rendered in a symbol palette. The `symbols` 
 
 The following code example showcases the rendering of UML built-in shapes in a symbol palette.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/uml/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Umlclass.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/uml/umlclass.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/uml/razor %}
@@ -400,7 +261,6 @@ The following code example showcases the rendering of UML built-in shapes in a s
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/uml/umlclass.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ## Editing
@@ -442,19 +302,6 @@ To create a UmlActivity, define type as "UmlActivity" and the list of built-in s
 | StructuredNode | ![StructuredNode](images/StructuredNode.png) |
 | Note           | ![Note](images/Note.png)           |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivity/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="UmlActivity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivity/UmlActivity.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivity/razor %}
@@ -463,26 +310,12 @@ To create a UmlActivity, define type as "UmlActivity" and the list of built-in s
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivity/UmlActivity.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### UmlActivity connector
 
 To create an UmlActivity connector, define the type as "UmlActivity" and flow as either "Exception" or "Control" or "Object".
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivityConnector/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="UmlActivityConnector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -492,4 +325,3 @@ To create an UmlActivity connector, define the type as "UmlActivity" and flow as
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

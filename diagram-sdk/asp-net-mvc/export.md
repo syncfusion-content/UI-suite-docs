@@ -57,7 +57,7 @@ diagram.exportDiagram(options);
 
 ## Margin
 
-[`Margin`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#margin) specifies the amount of space that has to be left around the diagram.
+[`Margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html) specifies the amount of space that has to be left around the diagram.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -100,7 +100,7 @@ diagram.exportDiagram(options);
 
 ## Region
 
-You can export any particular [`region`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#region) of the diagram and the region is categorized as follows.
+You can export any particular [`region`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramRegions.html) of the diagram and the region is categorized as follows.
 
 * Region that fits all nodes and connectors that are added to model.
 * Region that fits all pages (single or multiple pages based on page settings).
@@ -148,7 +148,7 @@ diagram.exportDiagram(options);
 
 ## Export diagram with stretch option
 
-Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#stretch) option. The exported images will be clearer but larger in file size.
+Diagram provides support to export the diagram as image for [`stretch`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Stretch.html) option. The exported images will be clearer but larger in file size.
 
 ```javascript
 

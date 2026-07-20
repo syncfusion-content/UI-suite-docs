@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Zoom pan in Syncfusion® ASP.NET MVC Diagram Component
 description: Learn here all about Zoompan in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -11,13 +11,13 @@ documentation: ug
 # Zoom pan in diagram control
 * When a large diagram is loaded, only certain portion of the diagram is visible. The remaining portions are clipped. Clipped portions can be explored by scrolling the scrollbars or panning the diagram.
 * Diagram can be zoomed in or out by using Ctrl + mouse wheel.
-* When the diagram is zoomed or panned, the [`scrollChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange) event gets triggered.
+* When the diagram is zoomed or panned, the [`scrollChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange) event gets triggered.
 
 ![Zoom Pan](../images/Zoom-pan.gif)
 
 ## Zoom pan status
 
-Diagram provides the support to notify the pan status of the zoom pan tool. Whenever the diagram is panning the [`scrollChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange), event is triggered and hence the pan status can be obtained. The pan status is notified with Start, Progress, and Completed.
+Diagram provides the support to notify the pan status of the zoom pan tool. Whenever the diagram is panning the [`scrollChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange), event is triggered and hence the pan status can be obtained. The pan status is notified with Start, Progress, and Completed.
 
 |  Pan Status  | Description|
 |--------------|------------|
@@ -25,25 +25,11 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 | Progress | When the mouse is in motion the status is notified as progress.|
 | Completed | When panning is stopped the status is notified with completed.|
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Panstatus.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/panstatus.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Panstatus.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/panstatus.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

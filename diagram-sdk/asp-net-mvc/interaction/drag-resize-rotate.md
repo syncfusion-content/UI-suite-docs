@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram Component
 description: Learn here all about Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -13,7 +13,7 @@ documentation: ug
 ## Drag
 
 * An object can be dragged by clicking and dragging it. When multiple elements are selected, dragging any one of the selected elements move every selected element.
-* When you drag the elements in the diagram, the [`positionChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_PositionChange) event gets triggered and to do customization in this event.
+* When you drag the elements in the diagram, the [`positionChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_PositionChange) event gets triggered and to do customization in this event.
 
 ![Drag](../images/drag.gif)
 
@@ -21,7 +21,7 @@ documentation: ug
 
 * Selector is surrounded by eight thumbs. When dragging these thumbs, selected items can be resized.
 * When one corner of the selector is dragged, opposite corner is in a static position.
-* When a node is resized, the [`sizeChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_SizeChange) event gets triggered.
+* When a node is resized, the [`sizeChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_SizeChange) event gets triggered.
 
 ![Resize](../images/resize.gif)
 
@@ -31,25 +31,11 @@ documentation: ug
 
 You can change the size of the node resize thumb and the connector end point handle by using the `handleSize` property. The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![handleSize](../images/handlesize.png)
 

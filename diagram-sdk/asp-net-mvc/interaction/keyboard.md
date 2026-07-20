@@ -67,8 +67,8 @@ The following table illustrates those commands with the associated key values.
 
 ## See Also
 
-* [How to create diagram nodes using drawing tools](./tools#shapes)
-* [How to create diagram connectors using drawing tools](./tools#connectors )
-* [How to disable the diagram interaction](./tools)
-* [How to control the diagram history](./undo-redo)
-* [How to create overview control to the diagram](./overview)
+* [How to create diagram nodes using drawing tools](../tools#shapes)
+* [How to create diagram connectors using drawing tools](../tools#connectors )
+* [How to disable the diagram interaction](../tools)
+* [How to control the diagram history](../undo-redo)
+* [How to create overview control to the diagram](../overview)

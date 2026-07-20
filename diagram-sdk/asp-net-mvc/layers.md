@@ -13,7 +13,7 @@ documentation: ug
 
 **Layer** is used to organize related shapes on a diagram control. A layer is a named category of shapes. By assigning shapes to different layers, you can selectively view, remove, and lock different categories of shapes.
 
-In diagram, [Layers](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html) provide a way to change the properties of all shapes that have been assigned to that layer. The following properties can be set.
+In diagram, [Layers](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html) provide a way to change the properties of all shapes that have been assigned to that layer. The following properties can be set.
 
 * Visible
 * Lock
@@ -22,7 +22,7 @@ In diagram, [Layers](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 ## Visible
 
-The layer's [visible](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Visible) property is used to control the visibility of the elements assigned to the layer.
+The layer's [visible](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Visible) property is used to control the visibility of the elements assigned to the layer.
 
 ```typescript
 
@@ -91,7 +91,7 @@ diagram.appendTo('#element');
 
 ## Lock
 
-The layer's [lock](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Lock) property is used to prevent or allow changes to the elements dimension and position.
+The layer's [lock](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Lock) property is used to prevent or allow changes to the elements dimension and position.
 
 ```typescript
 
@@ -167,7 +167,7 @@ diagram.appendTo('#element');
 
 ## Objects
 
-The layer's [objects](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Objects) property defines the diagram elements to the layer.
+The layer's [objects](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Objects) property defines the diagram elements to the layer.
 
 ```typescript
 
@@ -241,7 +241,7 @@ diagram.appendTo('#element');
 
 ## AddInfo
 
-The [`addInfo`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_AddInfo) property of layers allow you to maintain additional information to the layers.
+The [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_AddInfo) property of layers allow you to maintain additional information to the layers.
 
 ```typescript
 
@@ -315,9 +315,9 @@ let diagram: Diagram = new Diagram({
 
 ### Add layer at runtime
 
-Layers can be added at runtime by using the [`addLayer`](../api/diagram#addLayer) public method.
+Layers can be added at runtime by using the [`addLayer`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#addlayer) public method.
 
-The layer's [`ID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Id) property defines the ID of the layer, and its further used to find the layer at runtime and do any customization.
+The layer's [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html#Syncfusion_EJ2_Diagrams_DiagramLayer_Id) property defines the ID of the layer, and its further used to find the layer at runtime and do any customization.
 
 ```typescript
 
@@ -346,7 +346,7 @@ diagram.addLayer({
 
 ### Remove layer at runtime
 
-Layers can be removed at runtime by using the [`removeLayer`](../api/diagram#removeLayer) public method.
+Layers can be removed at runtime by using the [`removeLayer`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#removelayer) public method.
 
 ```typescript
 
@@ -359,7 +359,7 @@ diagram.removeLayer([diagram.model.layers[i]]);
 
 ### moveObjects
 
-Objects of the layers can be moved by using the [`moveObjects`](../api/diagram#moveObjects) public method.
+Objects of the layers can be moved by using the [`moveObjects`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#moveobjects) public method.
 
 ```typescript
 
@@ -372,7 +372,7 @@ diagram.moveObjects(['connector1'], 'layer2');
 
 ### bringLayerForward
 
-Layers can be moved forward at runtime by using the [`bringLayerForward`](../api/diagram#bringLayerForward) public method.
+Layers can be moved forward at runtime by using the [`bringLayerForward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringlayerforward) public method.
 
 ```typescript
 
@@ -385,7 +385,7 @@ diagram.bringLayerForward('layer1');
 
 ### sendLayerBackward
 
-Layers can be moved backward at runtime by using the [`sendLayerBackward`](../api/diagram#sendLayerBackward) public method.
+Layers can be moved backward at runtime by using the [`sendLayerBackward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#sendlayerbackward) public method.
 
 ```typescript
 
@@ -398,7 +398,7 @@ diagram.sendLayerBackward('layer1');
 
 ### cloneLayer
 
-Layers can be cloned with its object by using the [`cloneLayer`](../api/diagram#cloneLayer) public method.
+Layers can be cloned with its object by using the [`cloneLayer`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#clonelayer) public method.
 
 ```typescript
 
@@ -411,7 +411,7 @@ diagram.cloneLayer('layer2');
 
 ### getActiveLayer
 
-To get the active layers back in diagram, use the [`getActiveLayer`](../api/diagram#getActiveLayer) public method.
+To get the active layers back in diagram, use the [`getActiveLayer`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getactivelayer) public method.
 
 ```typescript
 
@@ -424,7 +424,7 @@ diagram.getActiveLayer();
 
 ### setActiveLayer
 
-Set the active layer by using the [`setActiveLayer`](../api/diagram#setActiveLayer) public method.
+Set the active layer by using the [`setActiveLayer`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#setactivelayer) public method.
 
 ```typescript
 
