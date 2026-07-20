@@ -2,7 +2,7 @@
 layout: post
 title: Code block support in .NET MAUI Rich Text Editor control | Syncfusion
 description: Learn here all about inserting and managing code blocks with language support in Syncfusion® .NET MAUI Rich Text Editor (SfRichTextEditor) control.
-platform: maui
+platform: rich-text-editor-sdk
 control: SfRichTextEditor
 documentation: ug
 keywords: maui rich text editor code block, code block language maui rte, syncfusion maui rte code formatting, maui rte syntax code block, rich text editor code snippet maui.

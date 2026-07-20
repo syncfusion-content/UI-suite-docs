@@ -2,7 +2,7 @@
 layout: post
 title: Customization in .NET MAUI Rich Text Editor | Syncfusion®
 description: Learn here all about customization support in the Syncfusion® .NET MAUI Rich Text Editor (SfRichTextEditor) control, including the toolbar, and more.
-platform: maui 
+platform: rich-text-editor-sdk 
 control: Rich Text Editor
 documentation: ug
 ---
