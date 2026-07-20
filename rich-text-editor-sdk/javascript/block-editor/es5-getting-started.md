@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaScript framework that can be used directly in modern web browsers.
 
-## Setup for local development
+## Dependencies
 
 The list of dependencies required to use the BlockEditor control in your application is given as follows:
 
@@ -29,6 +29,8 @@ The list of dependencies required to use the BlockEditor control in your applica
     |-- @syncfusion/ej2-inputs
 
 ```
+
+## Setup for local development
 
 Refer to the following steps to set up your local environment.
 
