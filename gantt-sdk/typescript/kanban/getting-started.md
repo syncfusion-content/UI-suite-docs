@@ -80,27 +80,27 @@ This installs the Kanban package and its required peer dependencies.
 
 ## Import the Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-The Kanban theme files are available in the `ej2-kanban` package and in each sub-component package folder. In a Vite project, add the following `@import` statements to `src/style.css` to use the **Tailwind 3** theme:
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Kanban component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
+
+Install the **Material 3** theme package using the following command:
 
 {% tabs %}
-{% highlight css tabtitle="style.css" %}
+{% highlight bash tabtitle="npm" %}
 
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-kanban/styles/tailwind3.css';
+npm install @syncfusion/ej2-tailwind3-theme
 
 {% endhighlight %}
 {% endtabs %}
 
-> **Note:** Make sure `import './style.css';` is present in `src/main.ts` so Vite bundles the theme files.
+Then add the following CSS reference to the **src/App.css** file:
 
-Refer to the [themes documentation](https://ej2.syncfusion.com/documentation/appearance/theme) for built-in themes and CSS references for individual controls.
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/kanban/index.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Initialize the Kanban
 

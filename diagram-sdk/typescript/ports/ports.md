@@ -38,9 +38,8 @@ Ports act as the connection points of the node and allows creating connections w
 
 ## Create port
 
-To add a connection port, define the port object and add it to node’s [`ports`](../../api/diagram/pointPortModel) collection. The [`offset`](../../api/diagram/pointportmodel#offset) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
+To add a connection port, define the port object and add it to node’s [`ports`](https://ej2.syncfusion.com/documentation/api/diagram/pointportmodel#offset) collection. The [`offset`](https://ej2.syncfusion.com/documentation/api/diagram/pointmodel) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -53,30 +52,16 @@ To add a connection port, define the port object and add it to node’s [`ports`
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs1" %}
-{% endif %}
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
 ## Add ports at runtime
 
-You can add ports to the nodes  at runtime by using the diagram method [`addPorts`](../../api/diagram#addports). The following code illustrates how to add ports to node at runtime.
+You can add ports to the nodes  at runtime by using the diagram method [`addPorts`](https://ej2.syncfusion.com/documentation/api/diagram#addports). The following code illustrates how to add ports to node at runtime.
 
 The port’s ID property is used to define the unique ID for the port and its further used to find the port at runtime.
 If ID is not set, then default ID is automatically set.
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -89,26 +74,11 @@ If ID is not set, then default ID is automatically set.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs2" %}
-
-{% endif %}
 
 ## Remove ports at runtime
 
-You can remove ports at runtime by using diagram method [`removePorts`](../../api/diagram#removeports). Refer to the following example which shows how to remove ports at runtime.
+You can remove ports at runtime by using diagram method [`removePorts`](https://ej2.syncfusion.com/documentation/api/diagram#removeports). Refer to the following example which shows how to remove ports at runtime.
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -121,28 +91,13 @@ You can remove ports at runtime by using diagram method [`removePorts`](../../ap
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs3" %}
-
-{% endif %}
 
 ## Update port at runtime
 
-You can change any port properties at runtime and update it through the diagram method [`dataBind`](../../api/diagram/index-default#databind).
+You can change any port properties at runtime and update it through the diagram method [`dataBind`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#databind).
 
 The following code example illustrates how to change the port offset at runtime.
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -155,27 +110,12 @@ The following code example illustrates how to change the port offset at runtime.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs4" %}
-
-{% endif %}
 
 ## Specify connection direction to port
 
-The [`connectionDirection`](../../api/diagram/port#connectiondirection) property of a port allows users to specify the direction in which a connector should establish a connection. This can be either to the port (incoming) or from the port (outgoing).
+The [`connectionDirection`](https://ej2.syncfusion.com/documentation/api/diagram/portconnectiondirection) property of a port allows users to specify the direction in which a connector should establish a connection. This can be either to the port (incoming) or from the port (outgoing).
 
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -188,32 +128,17 @@ The [`connectionDirection`](../../api/diagram/port#connectiondirection) property
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conDir" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conDir/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conDir/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conDir" %}
-
-{% endif %}
 
 ![connectionDirection](../images/connectionDirection2.png)
 
 ## InEdges and outEdges of ports
 
-The [`inEdges`](../../api/diagram/pointPortModel#inedges) is used to get the incoming connectors of the port that are connected to the port. [`outEdges`](../../api/diagram/pointPortModel#outedges) is used to get the outgoing connectors of the port that are connected to the port.
+The [`inEdges`](https://ej2.syncfusion.com/documentation/api/diagram/pointPortModel#inedges) is used to get the incoming connectors of the port that are connected to the port. [`outEdges`](https://ej2.syncfusion.com/documentation/api/diagram/pointPortModel#outedges) is used to get the outgoing connectors of the port that are connected to the port.
 
 The `inEdges` and `outEdges` of the port are read-only and cannot be customized.
 
 The following code example shows how to get inEdges and outEdges of port.
 
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -226,29 +151,14 @@ The following code example shows how to get inEdges and outEdges of port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-edges" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-edges/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-edges/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-edges" %}
-
-{% endif %}
 
 
 ## Additional information to port
 
-The[ `addInfo`](../../api/diagram/pointPortModel#addinfo) property of the port allows you to maintain additional information to the port. 
+The[ `addInfo`](https://ej2.syncfusion.com/documentation/api/diagram/pointPortModel#addinfo) property of the port allows you to maintain additional information to the port. 
 
 The following code example shows how to set addInfo to the port.
 
-{% if page.publishingplatform == "typescript" %}
 
 ```javascript
 
@@ -256,12 +166,3 @@ let port:PointPortModel = {id:'port1',offset:{x:0.5,y:0},addInfo:{position:'TopC
 
 ```
 
-{% elsif page.publishingplatform == "javascript" %}
-
-```javascript
-
-let port = {id:'port1',offset:{x:0.5,y:0},addInfo:{position:'TopCenter',id:'port1'}};
-
-```
-
-{% endif %}

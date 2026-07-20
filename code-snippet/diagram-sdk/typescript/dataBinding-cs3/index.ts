@@ -39,7 +39,7 @@ let diagram: Diagram = new Diagram({
         doBinding: (nodeModel: NodeModel, data: DataInfo, diagram: Diagram) => {
             nodeModel.annotations = [{
                 /* tslint:disable:no-string-literal */
-                content: data['Name'], margin: { top: 10, left: 10, right: 10, bottom: 0 },
+                content: data['Name'], margin: { top: 10, left: 10, right: 10, bottom: 10 },
                 style: { color: 'black' }
             }
             ];
