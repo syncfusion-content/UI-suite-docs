@@ -70,14 +70,14 @@ npm install @syncfusion/ej2-react-kanban
 
 ## Adding CSS reference
 
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Kanban component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Kanban component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
 Install the **Material 3** theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="npm" %}
 
-npm install @syncfusion/ej2-material3-theme --save
+npm install @syncfusion/ej2-tailwind3-theme --save
 
 {% endhighlight %}
 {% endtabs %}
@@ -87,7 +87,7 @@ Then add the following CSS reference to the **src/App.css** file:
 {% tabs %}
 {% highlight css tabtitle="App.css" %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/kanban/index.css";
 
 {% endhighlight %}
 {% endtabs %}
