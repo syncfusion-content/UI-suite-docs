@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Collaborative Editing in ASP.NET MVC Diagram | Syncfusion
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in SyncfusionÂ® ASP.NET MVC Diagram.
+description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion® ASP.NET MVC Diagram.
 control: Diagram
 documentation: ug
 platform: diagram-sdk

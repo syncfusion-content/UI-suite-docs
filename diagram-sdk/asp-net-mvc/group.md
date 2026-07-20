@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Group in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Group in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Group in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Group in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Group
 publishingplatform: diagram-sdk
@@ -19,13 +19,13 @@ Group is used to cluster multiple nodes and connectors into a single element. It
 
 A group can be added to the diagram model through [`nodes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html) collection. To define an object as group, add the child objects to the [`children`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Children) collection of the group.
 
-* The [`padding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Padding) property of a group node defines the spacing between the group nodeâ€™s edges and its children.
+* The [`padding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Padding) property of a group node defines the spacing between the group node's edges and its children.
 
 * While creating group, its child node needs to be declared before the group declaration.
 
 * Add a node to the existing group child by using the `diagram.group` method.
 
-* The groupâ€™s `diagram.unGroup` method is used to define whether the group can be ungrouped or not.
+* The group's `diagram.unGroup` method is used to define whether the group can be ungrouped or not.
 
 * A group can be added into a child of another group.
 
@@ -115,7 +115,7 @@ Containers are used to automatically measure and arrange the size and position o
 
 * Stack panel is used to arrange its children in a single line or stack order, either vertically or horizontally.
 
-* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panelâ€™s [`orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) is vertical.
+* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panel's [`orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) is vertical.
 
 {% tabs %}
 {% highlight c# tabtitle="Stack.cs" %}
@@ -174,7 +174,7 @@ function getNodeDefaults (node) {
 | -------- | -------- |
 | It arranges the child elements based on the child elements position and size properties. | Each container has a predefined behavior to measure and arrange its child elements. Canvas and stack containers are supported in the diagram. |
 | The Padding, Min, and Max Size properties are not applicable for basic group. | It is applicable for container. |
-| The Childrenâ€™s margin and alignment properties are not applicable for basic group. |  It is applicable for container. |
+| The Children's margin and alignment properties are not applicable for basic group. |  It is applicable for container. |
 
 ## Interaction
 

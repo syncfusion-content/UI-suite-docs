@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Grid Lines in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Grid Lines in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Grid Lines in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Grid Lines in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Grid Lines
 publishingplatform: diagram-sdk
@@ -13,7 +13,7 @@ documentation: ug
 
 Gridlines are the pattern of lines drawn behind the diagram elements. It provides a visual guidance while dragging or arranging the objects on the diagram surface.
 
-The modelâ€™s [`snapSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSnapSettings.html) property is used to customize the gridlines and control the snapping behavior in the diagram.
+The model's [`snapSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSnapSettings.html) property is used to customize the gridlines and control the snapping behavior in the diagram.
 
 ## Customize the gridlines visibility
 
@@ -51,7 +51,7 @@ The appearance of the gridlines can be customized by using a set of predefined p
 
 ## Line intervals
 
-Thickness and the space between gridlines can be customized by using horizontal gridlinesâ€™s [`linesInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_LineIntervals) and vertical gridlinesâ€™s [`linesInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_LineIntervals) properties. In the lines interval collections, values at the odd places are referred as the thickness of lines and values at the even places are referred as the space between gridlines.
+Thickness and the space between gridlines can be customized by using horizontal gridlines's [`linesInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_LineIntervals) and vertical gridlines's [`linesInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_LineIntervals) properties. In the lines interval collections, values at the odd places are referred as the thickness of lines and values at the even places are referred as the space between gridlines.
 
 {% tabs %}
 {% highlight c# tabtitle="Intervals.cs" %}
@@ -79,7 +79,7 @@ Snapping to gridlines can be enabled or disabled with the [`snapSettings.snapCon
 
 ## Customization of snap intervals
 
-By default, the objects are snapped towards the nearest gridline. The gridline or position towards where the diagram object snaps can be customized with the horizontal gridlinesâ€™s [`snapInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_SnapIntervals) and the vertical gridlinesâ€™s [`snapInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_SnapIntervals) properties.
+By default, the objects are snapped towards the nearest gridline. The gridline or position towards where the diagram object snaps can be customized with the horizontal gridlines's [`snapInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_SnapIntervals) and the vertical gridlines's [`snapInterval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramGridlines.html#Syncfusion_EJ2_Diagrams_DiagramGridlines_SnapIntervals) properties.
 
 {% tabs %}
 {% highlight c# tabtitle="SnapIntervals.cs" %}

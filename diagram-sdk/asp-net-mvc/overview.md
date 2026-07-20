@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Overview in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Overview in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Overview in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Overview in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Overview
 publishingplatform: diagram-sdk

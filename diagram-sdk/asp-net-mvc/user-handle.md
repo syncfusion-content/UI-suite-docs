@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: User Handle in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about User Handle in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: User Handle in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about User Handle in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: User Handle
 publishingplatform: diagram-sdk
@@ -186,7 +186,7 @@ The `offset` property of connector fixed user handle is used to align the user h
 
 ### Alignment
 
-The connectorâ€™s fixed user handle can be aligned over its segment path using the `alignment` property of fixed user handle.
+The connector's fixed user handle can be aligned over its segment path using the `alignment` property of fixed user handle.
 
 The following table shows all the possible alignments visually shows the fixed user handle positions.
 

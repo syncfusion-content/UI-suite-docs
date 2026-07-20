@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Commands in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Commands in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Commands in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Commands in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Commands
 publishingplatform: diagram-sdk
@@ -140,11 +140,11 @@ diagram.sameSize('Width', diagram.selectedItems.nodes);
 
 Clipboard commands are used to cut, copy, or paste the selected elements.
 
-* Cuts the selected elements from the diagram to the diagramâ€™s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/#cut).
+* Cuts the selected elements from the diagram to the diagram’s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/#cut).
 
-* Copies the selected elements from the diagram to the diagramâ€™s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/#copy).
+* Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/#copy).
 
-* Pastes the diagramâ€™s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
+* Pastes the diagram's clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
 
 {% tabs %}
 {% highlight c# tabtitle="Paste.cs" %}
@@ -166,7 +166,7 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 ## Grouping
 
-**Grouping commands**Â are used to group or ungroup the selected elements on the diagram.
+**Grouping commands** are used to group or ungroup the selected elements on the diagram.
 
 [`Group`](https://ej2.syncfusion.com/documentation/api/diagram/#group) the selected nodes and connectors in the diagram.
 
@@ -317,7 +317,7 @@ diagram.zoom(1.2, {
 
 ## Nudge command
 
-The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/#nudge)Â commands move the selected elements towards up, down, left, or right by 1 pixel.
+The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
 
 [`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgeDirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
 
@@ -350,7 +350,7 @@ The corresponding arrow keys are used to move the selected elements towards up, 
 
 ![Nudge Command](images/Commands_img4.png)
 
-NudgeÂ commands are particularly useful for accurate placement of elements.
+Nudge commands are particularly useful for accurate placement of elements.
 
 ## BringIntoView
 
@@ -399,7 +399,7 @@ diagram.bringToCenter(bound);
 
 ## FitToPage command
 
-The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage)Â command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
+The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
 
 The [`mode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.FitModes.html) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
 
@@ -411,7 +411,7 @@ The [`canZoomIn`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Di
 
 The [`customBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramFitOptions.html#Syncfusion_EJ2_Diagrams_DiagramFitOptions_CustomBounds) parameter the custom region that has to be fit into the viewport.
 
-The following code illustrates how to executeÂ `FitToPage`Â command.
+The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}

@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Labels in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Labels in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Labels in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Labels in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Labels
 publishingplatform: diagram-sdk
@@ -259,7 +259,7 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 ## Text overflow
 
-The labelâ€™s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextOverflow) property is used control whether to display the overflowed content in node or not.
+The label's [`TextOverflow`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextOverflow) property is used control whether to display the overflowed content in node or not.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -276,9 +276,9 @@ The labelâ€™s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetmvc-js2
 
 * You can change the font style of the annotations with the font specific properties (fontSize, fontFamily, color).
 
-* The labelâ€™s [`bold`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Bold), [`italic`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Italic), and [`textDecoration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextDecoration) properties are used to style the labelâ€™s text.
+* The label's [`bold`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Bold), [`italic`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Italic), and [`textDecoration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextDecoration) properties are used to style the label's text.
 
-* The labelâ€™s [`fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Fill), [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_StrokeColor), and [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_StrokeWidth) properties are used to define the background color and border color of the annotation and the [`opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Opacity) property is used to define the transparency of the annotations.
+* The label's [`fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Fill), [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_StrokeColor), and [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_StrokeWidth) properties are used to define the background color and border color of the annotation and the [`opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_Opacity) property is used to define the transparency of the annotations.
 
 * The [`visible`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Visibility) property of the annotation enables or disables the visibility of annotation.
 

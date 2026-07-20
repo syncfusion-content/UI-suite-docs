@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Undo Redo in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Undo Redo in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Undo Redo in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Undo Redo in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Undo Redo
 publishingplatform: diagram-sdk

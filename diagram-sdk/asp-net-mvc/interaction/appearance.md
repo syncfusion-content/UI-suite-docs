@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Appearence in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Appearence in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Appearence in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Appearence in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Appearence
 publishingplatform: diagram-sdk
