@@ -33,7 +33,11 @@ Run the following commands to set up a React application:
 npm create vite@latest my-app -- --template react-ts
 ```
 
-This command will prompt you to install the required packages and start the application. Select the options as shown below.
+This command prompts you to configure the React application. When prompted to choose a linter, select either Oxlint or ESLint based on your preference.
+
+![Rich Text Editor Linter configuration](images/linter-config.png)
+
+Continue with the project setup and select the options as shown below.
 
 ![Rich Text Editor Initial setup](images/initial_setup.png)
 
