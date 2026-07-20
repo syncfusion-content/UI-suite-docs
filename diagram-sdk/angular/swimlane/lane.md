@@ -170,7 +170,7 @@ Here is an example of how to apply these constraints:
 
 ### Additional information storage
 
-Additional information storage for lanes is similar to nodes. Additional information about a specific lane can be stored by using the [`addInfo`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#addInfo) property.
+Additional information storage for lanes is similar to nodes. Additional information about a specific lane can be stored by using the [`addInfo`](https://ej2.syncfusion.com/angular/documentation/api/diagram/laneModel#addinfo) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
