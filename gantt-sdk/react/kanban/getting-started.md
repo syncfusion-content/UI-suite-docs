@@ -70,31 +70,27 @@ npm install @syncfusion/ej2-react-kanban
 
 ## Adding CSS reference
 
-Syncfusion provides multiple themes (Tailwind, Material, Bootstrap 5, etc.). Import only the CSS files required by your chosen theme.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Kanban component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-> **Tip:** In a Vite project, you can reference package CSS directly using the package name (recommended), or via a relative `node_modules` path. Both work, but the package-name form is more portable.
+Install the **Material 3** theme package using the following command:
 
-Add the following imports to `src/App.css`. The example uses the Tailwind theme:
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
 
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-kanban/styles/tailwind3.css';
-```
+npm install @syncfusion/ej2-material3-theme --save
 
-To use a different theme, replace `tailwind3` with the desired theme name (for example, `material3`, `bootstrap5`, `fabric`) in each path.
+{% endhighlight %}
+{% endtabs %}
 
-Import the CSS file in `src/App.tsx`:
+Then add the following CSS reference to the **src/App.css** file:
 
-```typescript
-import './App.css';
-```
+{% tabs %}
+{% highlight css tabtitle="App.css" %}
+
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding the Kanban component
 

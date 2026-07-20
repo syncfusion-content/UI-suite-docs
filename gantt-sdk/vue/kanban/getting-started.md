@@ -56,23 +56,27 @@ npm install @syncfusion/ej2-vue-kanban --save
 
 ## Adding CSS Reference
 
-The Kanban component depends on several other Syncfusion modules. The following CSS files are located under `node_modules/@syncfusion/`. Add these imports to the `<style>` section of the **src/App.vue** file, or include them in a global CSS file:
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Kanban component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
 
-```css
-<style>
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-vue-kanban/styles/tailwind3.css';
-</style>
-```
+Install the **Material 3** theme package using the following command:
 
-> The order of CSS imports should follow the dependency graph. The `tailwind3` theme is shown here; you can replace it with `material`, `bootstrap5`, `fabric`, `high contrast`, or `fluent` based on your design requirements. Refer to the [themes documentation](https://ej2.syncfusion.com/vue/documentation/appearance/theme) for the full list.
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+npm install @syncfusion/ej2-material3-theme
+
+{% endhighlight %}
+{% endtabs %}
+
+Add these imports to the `<style>` section of the **src/App.vue** file, or include them in a global CSS file:
+
+{% tabs %}
+{% highlight css tabtitle="App.vue" %}
+
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Kanban Component
 

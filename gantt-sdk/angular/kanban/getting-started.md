@@ -83,20 +83,19 @@ npm install @syncfusion/ej2-angular-kanban
 
 ## Adding CSS References
 
-Include the required styles in the `styles.css` file. If you selected a different stylesheet format during project creation (for example, SCSS), add the same imports to `styles.scss` instead.
+The Kanban component requires specific CSS files for proper rendering. Syncfusion provides multiple themes for the Kanban component. For a complete list of available themes, refer to the [theme packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
+
+
+To apply the [material 3](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) theme, install the corresponding theme package by using the following command:
 
 ```css
-/* Required basic Syncfusion Kanban styles */
-@import '../node_modules/@syncfusion/ej2-kanban/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material3.css';
+npm install @syncfusion/ej2-material3-theme
+```
 
-/* Styles for card interactions */
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
+The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/styles.css`:
+
+```css
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css';
 ```
 
 ## Adding Kanban component
