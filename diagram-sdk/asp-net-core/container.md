@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Container in ASP.NET Core Diagram Component | Syncfusion®
 description: Learn here all about Container in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -18,8 +18,6 @@ A Container is a group of logically related shapes surrounded by a visible bound
 
 The following code illustrates how to create a container node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/basiccontainer/tagHelper %}
@@ -28,19 +26,6 @@ The following code illustrates how to create a container node.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/basiccontainer/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/basiccontainer/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/basiccontainer/Container.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![container](./images/container.png)
 
 ### Setting a Header
@@ -48,8 +33,6 @@ The following code illustrates how to create a container node.
 You can provide a textual description for a container using its `Header` property. Also, users can customize the header's appearance using the header's [Style](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramHeader.html#Syncfusion_EJ2_Diagrams_DiagramHeader_Style) property.
 
 The following code example explains how to define a container header and its customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -59,19 +42,6 @@ The following code example explains how to define a container header and its cus
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/containerheader/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/containerheader/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/container/containerheader/Container.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![container header customization](./images/containerheader.png)
 
 N> You can edit the header by double-clicking the region of the container's header.

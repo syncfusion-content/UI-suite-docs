@@ -66,7 +66,7 @@ The following table shows all possible alignment combinations when using offset 
 
 ## Adding margin spacing to ports
 
-The [`Margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel) property applies additional spacing around ports using absolute pixel values. Margin creates blank space on any or all four sides of the port, allowing for precise positioning adjustments beyond the basic offset and alignment settings.
+The [`Margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/pointportmodel#margin) property applies additional spacing around ports using absolute pixel values. Margin creates blank space on any or all four sides of the port, allowing for precise positioning adjustments beyond the basic offset and alignment settings.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

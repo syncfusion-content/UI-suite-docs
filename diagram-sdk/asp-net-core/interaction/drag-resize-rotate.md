@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Drag resize and rotate in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Drag resize and rotate in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -31,8 +31,6 @@ documentation: ug
 
 You can change the size of the node resize thumb and the connector end point handle by using the `handleSize` property. The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/tagHelper %}
@@ -41,16 +39,6 @@ You can change the size of the node resize thumb and the connector end point han
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![handleSize](../images/handlesize.png)
 
 ## Rotate

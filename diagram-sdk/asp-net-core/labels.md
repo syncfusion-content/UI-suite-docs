@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Labels in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Labels in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -19,8 +19,6 @@ documentation: ug
 
 An annotation can be added to a node/connector by defining the annotation object and adding that to the annotation collection of the node/connector. The [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Content) property of annotation defines the text to be displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/tagHelper %}
@@ -30,27 +28,12 @@ An annotation can be added to a node/connector by defining the annotation object
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Add annotations at runtime
 
-* Annotations can be added at runtime by using the client-side method [`addLabels`](../api/diagram/#addLabels).
+* Annotations can be added at runtime by using the client-side method [`addLabels`](https://ej2.syncfusion.com/documentation/api/diagram/#addlabels).
 
 * The annotation's [`ID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Id) property is used to define the name of the annotation and its further used to find the annotation at runtime and do any customization.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -60,19 +43,6 @@ An annotation can be added to a node/connector by defining the annotation object
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -90,9 +60,7 @@ diagram.dataBind();
 
 ## Remove annotation
 
-A collection of annotations can be removed from the node by using client-side method [`removeLabels`](../api/diagram/#removeLabels).
-
-{% if page.publishingplatform == "aspnet-core" %}
+A collection of annotations can be removed from the node by using client-side method [`removeLabels`](https://ej2.syncfusion.com/documentation/api/diagram/#removelabels).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -102,19 +70,6 @@ A collection of annotations can be removed from the node by using client-side me
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -130,9 +85,7 @@ diagram.removeLabels(diagram.nodes[0], annotation);
 
 ## Update annotation at runtime
 
-You can change any annotation properties at runtime and update it through the client-side method [`dataBind`](../api/diagram/#dataBind).
-
-{% if page.publishingplatform == "aspnet-core" %}
+You can change any annotation properties at runtime and update it through the client-side method [`dataBind`](https://ej2.syncfusion.com/documentation/api/diagram/#databind).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -142,19 +95,6 @@ You can change any annotation properties at runtime and update it through the cl
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -176,8 +116,6 @@ The offset property of annotation is used to align the annotations based on frac
 
 Set the size for nodes annotation by using [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Height) properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/tagHelper %}
@@ -186,19 +124,6 @@ Set the size for nodes annotation by using [`width`](https://help.syncfusion.com
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Horizontal and vertical alignment
@@ -220,8 +145,6 @@ The following tables illustrates all the possible alignments visually with 'offs
 | Right |Bottom |![Right Bottom Label Alignment](images/Label9.png) |
 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/tagHelper %}
@@ -231,25 +154,10 @@ The following tables illustrates all the possible alignments visually with 'offs
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Annotation alignment with respect to segments
 
 The offset and alignment properties of annotation allows to align the connector annotations with respect to the segments.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -260,25 +168,10 @@ The offset and alignment properties of annotation allows to align the connector 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Margin
 
 [`Margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Margin) is an absolute value used to add some blank space in any one of its four sides. The annotations can be displaced with the margin property. The following code example illustrates how to align a annotation based on its `offset`, `horizontalAlignment`, `verticalAlignment`, and `margin` values.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -289,25 +182,10 @@ The offset and alignment properties of annotation allows to align the connector 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Text align
 
 The [`textAlign`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextAlign) property of annotation allows to set how the text should be aligned (left, right, center, or justify) inside the text block.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -318,27 +196,12 @@ The [`textAlign`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Hyperlink
 
 Diagram provides a support to add a [`hyperlink`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Hyperlink) for the nodes/connectors annotation. It can also be customized.
 
 A user can open the hyperlink in the new window, the same tab and the new tab by using the [`hyperlinkOpenState`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Hyperlink_HyperlinkOpenState) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -349,25 +212,10 @@ A user can open the hyperlink in the new window, the same tab and the new tab by
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HyperLink.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/hyperLink.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Template Support for Annotation
 
 Diagram provides template support for annotation. You should define a SVG/HTML content as string in the annotation's [`template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Template) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -378,25 +226,10 @@ Diagram provides template support for annotation. You should define a SVG/HTML c
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="LabelTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/labelTemplate.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Wrapping
 
 When text overflows node boundaries, you can control it by using [`text wrapping`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextWrapping). So, it is wrapped into multiple lines. The wrapping property of annotation defines how the text should be wrapped.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -407,19 +240,6 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 | No Wrap | Text will not be wrapped. | ![Label No Wrap](images/Wrap1.png) |
 | Wrap | Text-wrapping occurs, when the text overflows beyond the available node width. | ![Label Wrap](images/Wrap2.png) |
@@ -429,8 +249,6 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTextStyle.html#Syncfusion_EJ2_Diagrams_DiagramTextStyle_TextOverflow) property is used control whether to display the overflowed content in node or not.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/tagHelper %}
@@ -439,19 +257,6 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Appearance
@@ -464,8 +269,6 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 
 * The [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Visibility) property of the annotation enables or disables the visibility of annotation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/tagHelper %}
@@ -475,23 +278,8 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 The fill, border, and opacity appearances of the text can also be customized with appearance specific properties of annotation.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -501,27 +289,12 @@ The fill, border, and opacity appearances of the text can also be customized wit
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Interaction
 
 Diagram allows annotation to be interacted by selecting, dragging, rotating, and resizing. Annotation interaction is disabled, by default. You can enable annotation interaction with the [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html) property of annotation. You can also curtail the services of interaction by enabling either selecting, dragging, rotating, or resizing individually with the respective constraints property of annotation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/tagHelper %}
@@ -531,37 +304,22 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Edit
 
 Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
 
-* Programmatically - By using [`startTextEdit`](../api/diagram/#startTextEdit) method, edit the text through programmatically.
+* Programmatically - By using [`startTextEdit`](https://ej2.syncfusion.com/documentation/api/diagram/#starttextedit) method, edit the text through programmatically.
 
 * Interactively
     1. By double-clicking the annotation.
     2. By selecting the item and pressing the F2 key.
 
-Double-clicking any annotation will enable editing and the node enables first annotation editing. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](../api/diagram/#doubleClick--emittypeidoubleClickeventargs) event gets triggered.
+Double-clicking any annotation will enable editing and the node enables first annotation editing. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](https://ej2.syncfusion.com/documentation/api/diagram/#doubleclick) event gets triggered.
 
 ## Read-only annotations
 
 Diagram allows to create read-only annotations. You have to set the read-only property of annotation to enable/disable the read-only [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -572,19 +330,6 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Drag Limit
 
@@ -593,8 +338,6 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 * You can set the value to dragLimit [`left`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Left), [`right`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Right), [`top`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Top), and [`bottom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Bottom) properties which allows the dragging of connector labels to a certain limit based on the user defined values.
 
 * By default, drag limit will be disabled for the connector. It can be enabled by setting connector constraints as drag.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -605,25 +348,10 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="DragLimit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/dragLimit.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Multiple annotations
 
 You can add any number of annotations to a node or connector.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -633,19 +361,6 @@ You can add any number of annotations to a node or connector.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Constraints

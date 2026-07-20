@@ -83,13 +83,13 @@ The diagram can simultaneously read from two data sources: one for nodes and ano
 * Use the [`id`](https://ej2.syncfusion.com/angular/documentation/api/diagram/dataSourceModel#id) property to specify the unique identifier field
 
 **Connector data source configuration:**
-* Configure the [`connectionDataSource`](https://ej2.syncfusion.com/angular/documentation/api/diagram/dataSourceModel#connectionDataSource) property for connector data
-* Set [`sourceID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourceID) and [`targetID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetID) to establish connections
-* Define connection points using [`sourcePointX`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourcePointX), [`sourcePointY`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourcePointY), [`targetPointX`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetPointX), and [`targetPointY`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetPointY)
+* Configure the [`connectionDataSource`](https://ej2.syncfusion.com/angular/documentation/api/diagram/dataSourceModel#connectiondatasource) property for connector data
+* Set [`sourceID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourceid) and [`targetID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetid) to establish connections
+* Define connection points using [`sourcePointX`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourcepointx), [`sourcePointY`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#sourcepointy), [`targetPointX`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetpointx), and [`targetPointY`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectionDataSourceModel#targetpointy)
 
 **Priority handling:** When both parent-child relationships in the main data source and explicit connectors in the connectionDataSource are defined, the explicit connectors take priority for rendering.
 
-**Custom fields:** Use the [`customFields`](https://ej2.syncfusion.com/angular/documentation/api/diagram/crudActionModel#customFields) property in crudAction to maintain additional information for both nodes and connectors.
+**Custom fields:** Use the [`customFields`](https://ej2.syncfusion.com/angular/documentation/api/diagram/crudActionModel#customfields) property in crudAction to maintain additional information for both nodes and connectors.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

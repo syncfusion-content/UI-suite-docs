@@ -158,7 +158,7 @@ An [`adhoc`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnSu
 
 ## Boundary Types
 
-The [`boundary`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnSubProcess#boundary) property defines the visual boundary style of a subprocess, indicating different subprocess characteristics. The default value is **default**.
+The [`boundary`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnboundary) property defines the visual boundary style of a subprocess, indicating different subprocess characteristics. The default value is **default**.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

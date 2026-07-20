@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Import and Export Visio Files in Syncfusion® ASP.NET Core
 description: Learn how to import and export Microsoft Visio (.vsdx) files using the Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -49,7 +49,7 @@ During the import process:
 
 The following example imports a Visio (**.vsdx**) file by passing a **File** object to the `importFromVisio` method. The method returns a collection of warnings when certain Visio features are not fully supported during import.
 
-{% if page.publishingplatform == "aspnet-core" %}
+
 ej2-asp-core-mvc\code-snippet\diagram\visio\visioImport\visioImport.cs
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -59,16 +59,6 @@ ej2-asp-core-mvc\code-snippet\diagram\visio\visioImport\visioImport.cs
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioImport/visioImport.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="visioImport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioImport/visioImport.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ```javascript
 
 //Method to import visio file
@@ -149,8 +139,6 @@ The Diagram component supports exporting diagrams to Microsoft Visio format usin
 
 The following example exports a Diagram to a Microsoft Visio (**.vsdx**) file using the `exportToVisio` method.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/tagHelper %}
@@ -159,16 +147,6 @@ The following example exports a Diagram to a Microsoft Visio (**.vsdx**) file us
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/visioExport.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="visioExport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/visioExport.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ```javascript
 
   var exportOptions = {

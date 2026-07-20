@@ -103,7 +103,7 @@ The following code example illustrates how to add connectors to the palette.
 
 Connectors can be interactively drawn by clicking and dragging on the diagram surface. This feature enables users to create connections dynamically during diagram creation or editing.
 
-To draw a connector, you have to activate the drawing tool by setting `DrawOnce` or `ContinuousDraw` to the [`tool`](https://ej2.syncfusion.com/documentation/api/diagram#tool) property and you need to set the `connector` object by using the [`drawingObject`](https://ej2.syncfusion.com/documentation/api/diagram#drawingobject) property. The following code example illustrates how to draw a connector at runtime.
+To draw a connector, you have to activate the drawing tool by setting `DrawOnce` or `ContinuousDraw` to the [`tool`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramtools) property and you need to set the `connector` object by using the [`drawingObject`](https://ej2.syncfusion.com/angular/documentation/api/diagram#drawingobject) property. The following code example illustrates how to draw a connector at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

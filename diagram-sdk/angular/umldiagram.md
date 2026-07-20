@@ -22,7 +22,7 @@ The UML class diagram shapes are explained as follows.
 
 ### Class
 
-A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlClassifierShapeModel#class) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the characteristics and behavior that objects belonging to the class will exhibit.
+A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/angular/documentation/api/diagram/classifiershape) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the characteristics and behavior that objects belonging to the class will exhibit.
 
 Define the [`name`](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlClassModel#name), [`attributes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlClassModel#attributes), and [`methods`](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlClassModel#methods) of the class using the class property of node.
 
@@ -216,7 +216,7 @@ The shape multiplicity's [`source`](https://ej2.syncfusion.com/angular/documenta
 
 To set optionality or cardinality for the connector source label, use the [`optional`](https://ej2.syncfusion.com/angular/documentation/api/diagram/multiplicityLabelModel#optional) property.
 
-The [`lowerBounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/multiplicityLabelModel#lowerBounds) and [`upperBounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/multiplicityLabelModel#upperBounds) can be natural constants or constant expressions evaluated to natural (non-negative) numbers. Upper bound can also be specified as asterisk '*' which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
+The [`lowerBounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/multiplicityLabelModel#lowerbounds) and [`upperBounds`](https://ej2.syncfusion.com/angular/documentation/api/diagram/multiplicityLabelModel#upperbounds) can be natural constants or constant expressions evaluated to natural (non-negative) numbers. Upper bound can also be specified as asterisk '*' which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
 
 The following code example illustrates how to customize the multiplicity.
 

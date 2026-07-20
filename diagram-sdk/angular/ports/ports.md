@@ -107,7 +107,7 @@ The following code example illustrates how to change port properties dynamically
 
 ## Specify connection direction to port
 
-The [`connectionDirection`](https://ej2.syncfusion.com/angular/documentation/api/diagram/port#connectiondirection) property controls the allowed connection flow through a port. This property accepts values that specify whether connectors can connect to the port (incoming), from the port (outgoing), or both directions. This feature is essential for creating directional flowcharts and enforcing proper data flow in technical diagrams.
+The [`connectionDirection`](https://ej2.syncfusion.com/angular/documentation/api/diagram/portconnectiondirection) property controls the allowed connection flow through a port. This property accepts values that specify whether connectors can connect to the port (incoming), from the port (outgoing), or both directions. This feature is essential for creating directional flowcharts and enforcing proper data flow in technical diagrams.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

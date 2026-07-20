@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: UmlSequenceDiagram in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about UmlSequenceDiagram in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -32,8 +32,6 @@ A sequence diagram contains several key elements, such as participants, messages
 
 The following code example illustrates how to create participants.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/participants/tagHelper %}
@@ -42,19 +40,6 @@ The following code example illustrates how to create participants.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/participants/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/participants/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/participants/umlseq.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![participants](./images/umlsequencediagrams/Participants.png)
 
 ### Messages
@@ -84,8 +69,6 @@ The following code example illustrates how to create participants.
 
 The following code example illustrates how to create messages:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/messages/tagHelper %}
@@ -94,19 +77,6 @@ The following code example illustrates how to create messages:
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/messages/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/messages/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/messages/umlseq.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![messages](./images/umlsequencediagrams/msg.png)
 
 ### Activation Boxes
@@ -123,8 +93,6 @@ The following code example illustrates how to create messages:
 
 The following code example illustrates how to create activation boxes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/activations/tagHelper %}
@@ -133,19 +101,6 @@ The following code example illustrates how to create activation boxes.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/activations/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/activations/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/activations/umlseq.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![activations](./images/umlsequencediagrams/activations.png)
 
 ### Fragments
@@ -180,8 +135,6 @@ The [UmlSequenceFragmentType](https://help.syncfusion.com/cr/aspnetcore-js2/Sync
 
 The following code example illustrates how to create fragments.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/fragments/tagHelper %}
@@ -190,19 +143,6 @@ The following code example illustrates how to create fragments.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/fragments/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/fragments/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umlsequencediagram/fragments/umlseq.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![fragments](./images/umlsequencediagrams/fragment.png)
 
 ### Customizing Participant Spacing in Sequence Diagram 

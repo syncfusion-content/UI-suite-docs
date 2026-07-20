@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Zoom pan in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Zoompan in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -25,8 +25,6 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 | Progress | When the mouse is in motion the status is notified as progress.|
 | Completed | When panning is stopped the status is notified with completed.|
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/tagHelper %}
@@ -35,16 +33,6 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/panstatus.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Panstatus.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/panstatus.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript

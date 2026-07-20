@@ -55,7 +55,7 @@ Participants can be displayed in two forms:
 
 #### Participant Stereotypes
 
-The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
+The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
 
 | Stereotype | Description | Shape |
 |---|---|---|
@@ -209,7 +209,7 @@ The following example illustrates how to create fragments with different conditi
 
 ### Adjusting Participant Spacing
 
-The [spaceBetweenParticipants](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlSequenceDiagramModel#spaceBetweenParticipants) property controls the horizontal spacing between participants in the sequence diagram. Adjust this value to accommodate longer message labels or improve diagram readability.
+The [spaceBetweenParticipants](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlSequenceDiagramModel#spacebetweenparticipants) property controls the horizontal spacing between participants in the sequence diagram. Adjust this value to accommodate longer message labels or improve diagram readability.
 
 ```ts
 // Define the UML Sequence Diagram model with custom spacing

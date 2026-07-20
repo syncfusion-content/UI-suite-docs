@@ -23,7 +23,7 @@ Diagram.Inject(MindMap);
 
 ## Mind Map Orientation
 
-The [`orientation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layout#orientation) property determines how the mind map tree structure is arranged spatially. By default, the orientation is set to `Horizontal`, positioning the root node centrally with branches extending left and right.
+The [`orientation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/layoutorientation) property determines how the mind map tree structure is arranged spatially. By default, the orientation is set to `Horizontal`, positioning the root node centrally with branches extending left and right.
 
 The following code example demonstrates how to create a mind map layout:
 

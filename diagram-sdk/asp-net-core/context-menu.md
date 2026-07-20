@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Context Menu in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Context Menu in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -19,8 +19,6 @@ In graphical user interface (GUI), a context menu is a type of menu that appears
 
 The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Show) property helps to enable or disable the context menu. Diagram provides some default context menu items to ease the execution of some frequently used commands.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/default/tagHelper %}
@@ -29,16 +27,6 @@ The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 Context menu can be defined for individual node with the desired context menu items.
@@ -55,8 +43,6 @@ Context menu can be defined for individual node with the desired context menu it
 
 * The `separator` property defines the horizontal lines that are used to separate the menu items. You cannot select the separators. You can enable separators to group the menu items using the separator property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/item/tagHelper %}
@@ -65,16 +51,6 @@ Context menu can be defined for individual node with the desired context menu it
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/item/item.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Item.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/item/item.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 To display the custom context menu items alone, set the `showCustomMenuOnly` property to true.
@@ -85,8 +61,6 @@ To display the custom context menu items alone, set the `showCustomMenuOnly` pro
 
 * In the following sample, the menu item is rendered with key code for specified action in ContextMenu using the template. Here, the key code is specified for the cut and copy at right corner of the menu items by adding a span element in the `contextMenuBeforeItemRender` event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/tagHelper %}
@@ -95,24 +69,12 @@ To display the custom context menu items alone, set the `showCustomMenuOnly` pro
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/events.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Context menu events
 
 You would be notified with events, when you try to open the context menu items `contextMenuOpen` and when you click the menu items `contextMenuClick`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/tagHelper %}
@@ -121,16 +83,6 @@ You would be notified with events, when you try to open the context menu items `
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/contextmenu/events/events.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
