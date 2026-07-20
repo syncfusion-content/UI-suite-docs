@@ -66,7 +66,7 @@ To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-Use a theme package version that is compatible with the Syncfusion Vue package version installed in your project. To render the Block Editor component, import the required Tailwind3 CSS styles for the component and its dependencies into the `<style>` section of the **src/App.vue** file, as shown below.
+Then add the following CSS reference to the **src/App.vue** file:
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
