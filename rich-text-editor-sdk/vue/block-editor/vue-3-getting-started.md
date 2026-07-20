@@ -42,7 +42,7 @@ npm install
 
 After installation completes, confirm that the dependencies were installed successfully before moving to the next step.
 
-## Adding Syncfusion Block Editor package
+## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages
 
 All available Essential JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/search?q=ej2-vue) registry. Install the Vue Block Editor component with the following command:
 
