@@ -20,7 +20,7 @@ Run the following commands to set up a React application:
 npm create vite@latest my-app -- --template react-ts
 ```
 
-Select the options as shown below.
+This command prompts you to configure the React application. Select the options as shown below.
 
 ![Block Editor Initial setup](images/initial_setup.png)
 
@@ -61,7 +61,7 @@ Import the required CSS theme files for the Block Editor and its dependencies in
 I> To apply the application-specific styles correctly, import **App.css** into **src/App.tsx** and remove all the default styles from **src/index.css**.
 ## Add the Block Editor Component
 
-Now, You can now add the Block Editor component to your application. Replace the default contents of `src/App.tsx` with the following code, which uses the `<BlockEditorComponent>` directive to render the editor.
+Now, You can add the Block Editor component to your application. Replace the default contents of `src/App.tsx` with the following code, which uses the `<BlockEditorComponent>` directive to render the editor.
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
