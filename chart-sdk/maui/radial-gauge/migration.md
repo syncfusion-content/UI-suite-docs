@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Migrate from Xamarin to .NET MAUI Radial Gauge | Syncfusion®
-description: Learn here all about migrating from the Syncfusion Xamarin SfCircularGauge to the Syncfusion® .NET MAUI SfRadialGauge control and more.
+title: Migrate from Xamarin to .NET MAUI Radial Gauge | Syncfusion
+description: Learn here all about Migrating from Syncfusion Xamarin SfCircularGauge to Syncfusion<sup>&reg;</sup> .NET MAUI SfRadialGauge control and more.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # Migrate from Xamarin.Forms SfCircularGauge to .NET MAUI SfRadialGauge
 
-To make the migration from the [Xamarin SfCircularGauge](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.SfCircularGauge.html) to the [.NET MAUI SfRadialGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfRadialGauge.html) easier, most of the APIs from the Xamarin SfCircularGauge were kept in the .NET MAUI SfRadialGauge. However, to maintain the consistency of API naming in the .NET MAUI SfRadialGauge, some of the APIs have been renamed. Find the differences in the following topics.
+To make the migration from the [Xamarin SfCircularGauge](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.SfCircularGauge.html) to [.NET MAUI SfRadialGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfRadialGauge.html) easier, most of the APIs from the Xamarin SfCircularGauge were kept in the.NET MAUI SfRadialGauge. However, to maintain the consistency of API naming in the.NET MAUI SfRadialGauge, some of the APIs have been renamed. Please find the difference in the following topics.
 
 ## Initialize control
 
@@ -26,15 +26,18 @@ To initialize the control, import the gauge namespace and initialize SfRadialGau
 {% highlight xaml %}
 
 <ContentPage
-xmlns:gauge = "clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms">
+xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms">
+
     <gauge:SfCircularGauge/>
+
 </ContentPage>
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 using Syncfusion.SfGauge.XForms;
+...
 
 SfCircularGauge circularGauge = new SfCircularGauge ();
 this.Content = circularGauge;
@@ -50,15 +53,18 @@ this.Content = circularGauge;
 {% highlight xaml %}
 
 <ContentPage
-xmlns:gauge = "clr-namespace:Syncfusion.Maui.Gauges;assembly=Syncfusion.Maui.Gauges">
+xmlns:gauge="clr-namespace:Syncfusion.Maui.Gauges;assembly=Syncfusion.Maui.Gauges">
+
     <gauge:SfRadialGauge />
+
 </ContentPage>
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 using Syncfusion.Maui.Gauges;
+…
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 this.Content = sfRadialGauge;
@@ -145,7 +151,7 @@ this.Content = sfRadialGauge;
 </tr>
 </table>
 
-The following code example explains how to initialize the axis in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
+The following code example, explains how to initialize the axis in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
 
 <table>
 <tr>
@@ -159,18 +165,18 @@ The following code example explains how to initialize the axis in Xamarin SfCirc
 
 <gauge:SfCircularGauge>
     <gauge:SfCircularGauge.Scales>
-        <gauge:Scale StartValue = "0"
-                     EndValue = "12"
-                     Interval = "1"
-                     StartAngle = "270"
-                     SweepAngle = "360"
-                     ShowFirstLabel = "False"/>
+        <gauge:Scale StartValue="0"
+                     EndValue="12"
+                     Interval="1"
+                     StartAngle="270"
+                     SweepAngle="360"
+                     ShowFirstLabel="False"/>
     </gauge:SfCircularGauge.Scales>
 </gauge:SfCircularGauge>
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge circularGauge = new SfCircularGauge();
 
@@ -198,18 +204,18 @@ this.Content = circularGauge;
 
 <gauge:SfRadialGauge>
     <gauge:SfRadialGauge.Axes>
-        <gauge:RadialAxis Minimum = "0"
-                          Maximum = "12"
-                          Interval = "1"
-                          StartAngle = "270"
-                          EndAngle = "270"
-                          ShowFirstLabel = "False" />
+        <gauge:RadialAxis Minimum="0"
+                          Maximum="12"
+                          Interval="1"
+                          StartAngle="270"
+                          EndAngle="270"
+                          ShowFirstLabel="False" />
     </gauge:SfRadialGauge.Axes>
 </gauge:SfRadialGauge>
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -254,7 +260,7 @@ this.Content = sfRadialGauge;
 </tr>
 </table>
 
-The following code example explains how to initialize the range in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
+The following code example, explains how to initialize the range in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
 
 <table>
 <tr>
@@ -270,12 +276,12 @@ The following code example explains how to initialize the range in Xamarin SfCir
     <gauge:SfCircularGauge.Scales>
         <gauge:Scale>
             <gauge:Scale.Ranges>
-                <gauge:Range StartValue = "10"
-                             EndValue = "80"
+                <gauge:Range StartValue="10"
+                             EndValue="80"
                              InnerStartOffset = "0.83"
                              InnerEndOffset = "0.6"
                              OuterStartOffset = "0.85"
-                             OuterEndOffset  = "0.8"/>
+                             OuterEndOffset =" 0.8"/>
             </gauge:Scale.Ranges>
         </gauge:Scale>
     </gauge:SfCircularGauge.Scales>
@@ -283,7 +289,7 @@ The following code example explains how to initialize the range in Xamarin SfCir
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge circularGauge = new SfCircularGauge();
 
@@ -316,12 +322,12 @@ this.Content = circularGauge;
     <gauge:SfRadialGauge.Axes>
         <gauge:RadialAxis>
             <gauge:RadialAxis.Ranges>
-                <gauge:RadialRange StartValue = "10"
-                                   EndValue = "80"
-                                   OffsetUnit = "Factor"
-                                   RangeOffset = "0.3"
-                                   StartWidth = "5"
-                                   EndWidth = "30" />
+                <gauge:RadialRange StartValue="10"
+                                   EndValue="80"
+                                   OffsetUnit="Factor"
+                                   RangeOffset="0.3"
+                                   StartWidth="5"
+                                   EndWidth="30" />
             </gauge:RadialAxis.Ranges>
         </gauge:RadialAxis>
     </gauge:SfRadialGauge.Axes>
@@ -329,7 +335,7 @@ this.Content = circularGauge;
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -379,7 +385,7 @@ In Xamarin SfCircularGauge and .NET MAUI SfRadialGauge, pointers can be classifi
 </tr>
 </table>
 
-N> In .NET MAUI SfRadialGauge, the marker pointer has been divided into two types: [ShapePointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.ShapePointer.html) and [ContentPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.ContentPointer.html).
+N> In .NET MAUI SfRadialGauge [MarkerPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.MarkerPointer.html) have been divided into two types. They are [ShapePointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.ShapePointer.html) and [ContentPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.ContentPointer.html).
 
 ### Marker pointer
 
@@ -410,7 +416,7 @@ N> In .NET MAUI SfRadialGauge, the marker pointer has been divided into two type
 </tr>
 </table>
 
-The following code example explains how to initialize the marker pointer in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
+The following code example, explains how to initialize the marker pointer in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
 
 <table>
 <tr>
@@ -426,12 +432,12 @@ The following code example explains how to initialize the marker pointer in Xama
     <gauge:SfCircularGauge.Scales>
         <gauge:Scale>
             <gauge:Scale.Pointers>
-                <gauge:MarkerPointer Value = "70"
-                                     Color = "Pink"
-                                     MarkerHeight = "20"
-                                     MarkerWidth = "20"
-                                     EnableDragging = "True"
-                                     Offset = "1"/>
+                <gauge:MarkerPointer Value="70"
+                                     Color="Pink"
+                                     MarkerHeight="20"
+                                     MarkerWidth="20"
+                                     EnableDragging="True"
+                                     Offset="1"/>
             </gauge:Scale.Pointers>
         </gauge:Scale>
     </gauge:SfCircularGauge.Scales>
@@ -439,7 +445,7 @@ The following code example explains how to initialize the marker pointer in Xama
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge circularGauge = new SfCircularGauge();
 
@@ -472,12 +478,12 @@ this.Content = circularGauge;
     <gauge:SfRadialGauge.Axes>
         <gauge:RadialAxis>
             <gauge:RadialAxis.Pointers>
-                <gauge:ShapePointer Value = "70"
-                                    Fill = "Pink"
-                                    IsInteractive = "True"
-                                    ShapeHeight = "20"
-                                    ShapeWidth = "20"
-                                    Offset = "-20"/>
+                <gauge:ShapePointer Value="70"
+                                    Fill="Pink"
+                                    IsInteractive="True"
+                                    ShapeHeight="20"
+                                    ShapeWidth="20"
+                                    Offset="-20"/>
             </gauge:RadialAxis.Pointers>
         </gauge:RadialAxis>
     </gauge:SfRadialGauge.Axes>
@@ -485,7 +491,7 @@ this.Content = circularGauge;
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -511,7 +517,7 @@ this.Content = sfRadialGauge;
 
 ### Content pointer
 
-The ContentPointer in SfRadialGauge allows you to use any content, image, or text as a pointer. In Xamarin, you can add an image as a pointer through the [ImageSource](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.MarkerPointer.html#Syncfusion_SfGauge_XForms_MarkerPointer_ImageSource) property, and in MAUI, you can directly add an image control as a pointer in the content pointer.
+The ContentPointer in SfRadialGauge allows to using of any content or image or text as a pointer. In Xamarin, you can add an image as a pointer through the [ImageSource](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.MarkerPointer.html#Syncfusion_SfGauge_XForms_MarkerPointer_ImageSource) property, and in MAUI, you can directly add an image control as a pointer in the content pointer.
 
 <table>
 <tr>
@@ -525,7 +531,7 @@ The ContentPointer in SfRadialGauge allows you to use any content, image, or tex
 </tr>
 </table>
 
-The following code example explains how to initialize the content pointer in .NET MAUI SfRadialGauge. The content pointer feature is not applicable in the Xamarin SfCircularGauge.
+The following code example, explains how to initialize content pointer .NET MAUI SfRadialGauge. The content pointer feature is not applicable in the Xamarin SfCircularGauge.
 
 {% tabs %}
 
@@ -535,19 +541,19 @@ The following code example explains how to initialize the content pointer in .NE
     <gauge:SfRadialGauge.Axes>
         <gauge:RadialAxis >
             <gauge:RadialAxis.Pointers>
-                <gauge:ContentPointer  Value = "45" Offset = "-20">
+                <gauge:ContentPointer  Value="45" Offset="-20">
                     <gauge:ContentPointer.Content>
-                        <Grid HeightRequest = "37" WidthRequest = "37" >
-                            <RoundRectangle  Fill = "White"
-                                             CornerRadius = "8"
-                                             Stroke = "Black" 
-                                             StrokeThickness = "2" />
+                        <Grid HeightRequest="37" WidthRequest="37" >
+                            <RoundRectangle  Fill="White"
+                                             CornerRadius="8"
+                                             Stroke="Black" 
+                                             StrokeThickness="2" />
                             <VerticalStackLayout>
-                                <Label Text = "45°F" 
-                                       HorizontalOptions = "Center"
-                                       TextColor = "Black" 
-                                       FontAttributes = "Bold"
-                                       FontSize = "10"/>
+                                <Label Text="45°F" 
+                                       HorizontalOptions="Center"
+                                       TextColor="Black" 
+                                       FontAttributes="Bold"
+                                       FontSize="10"/>
                             </VerticalStackLayout>
                         </Grid>
                     </gauge:ContentPointer.Content>
@@ -559,7 +565,7 @@ The following code example explains how to initialize the content pointer in .NE
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -573,7 +579,7 @@ pointer.Offset = -20;
 Grid grid = new Grid();
 grid.HeightRequest = 37;
 grid.WidthRequest = 37;
-grid.Add(new RoundRectangle()
+grid.Children.Add(new RoundRectangle()
 {
     Fill = new SolidColorBrush(Colors.White),
     CornerRadius = 8,
@@ -582,7 +588,7 @@ grid.Add(new RoundRectangle()
 });
 
 VerticalStackLayout verticalStackLayout = new VerticalStackLayout();
-verticalStackLayout.Add(new Label()
+verticalStackLayout.Children.Add(new Label()
 {
     Text = "45°F",
     HorizontalOptions = LayoutOptions.Center,
@@ -591,7 +597,7 @@ verticalStackLayout.Add(new Label()
     FontSize = 10
 });
 
-grid.Add(verticalStackLayout);
+grid.Children.Add(verticalStackLayout);
 pointer.Content = grid;
 
 radialAxis.Pointers.Add(pointer);
@@ -661,10 +667,10 @@ The following code example explains how to initialize the needle pointer in Xama
     <gauge:SfCircularGauge.Scales>
         <gauge:Scale>
             <gauge:Scale.Pointers>
-                <gauge:NeedlePointer  Value = "60"
-                                      Color = "DeepSkyBlue"
-                                      LengthFactor = "0.7"
-                                      Thickness = "7"/>
+                <gauge:NeedlePointer  Value="60"
+                                      Color="DeepSkyBlue"
+                                      LengthFactor="0.7"
+                                      Thickness="7"/>
             </gauge:Scale.Pointers>
         </gauge:Scale>
     </gauge:SfCircularGauge.Scales>
@@ -672,7 +678,7 @@ The following code example explains how to initialize the needle pointer in Xama
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge circularGauge = new SfCircularGauge();
 
@@ -703,12 +709,12 @@ this.Content = circularGauge;
     <gauge:SfRadialGauge.Axes>
         <gauge:RadialAxis>
             <gauge:RadialAxis.Pointers>
-                <gauge:NeedlePointer Value = "60"
-                                     NeedleFill = "DeepSkyBlue"
-                                     NeedleLengthUnit = "Factor"
-                                     NeedleLength = "0.7"
-                                     NeedleStartWidth = "0.1"
-                                     NeedleEndWidth = "10"/>
+                <gauge:NeedlePointer Value="60"
+                                     NeedleFill="DeepSkyBlue"
+                                     NeedleLengthUnit="Factor"
+                                     NeedleLength="0.7"
+                                     NeedleStartWidth="0.1"
+                                     NeedleEndWidth="10"/>
             </gauge:RadialAxis.Pointers>
         </gauge:RadialAxis>
     </gauge:SfRadialGauge.Axes>
@@ -716,7 +722,7 @@ this.Content = circularGauge;
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -760,7 +766,7 @@ this.Content = sfRadialGauge;
 <tr>
 <td>{{'[Thickness](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.RangePointer.html#Syncfusion_SfGauge_XForms_RangePointer_Thickness)'| markdownify }}</td>
 <td>{{'[PointerWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RangePointer.html#Syncfusion_Maui_Gauges_RangePointer_PointerWidth)'| markdownify }}</td>
-<td>Gets or sets the width of the range pointer.</td>
+<td>Gets or sets the width of the knob stroke outline.</td>
 </tr>
 </table>
 
@@ -780,9 +786,9 @@ The following code example explains how to initialize the range pointer in Xamar
     <gauge:SfCircularGauge.Scales>
         <gauge:Scale>
             <gauge:Scale.Pointers>
-                <gauge:RangePointer Value = "50"
-                                    RangeCap = "Both"
-                                    Offset = "0.7"
+                <gauge:RangePointer Value="50"
+                                    RangeCap="Both"
+                                    Offset="0.7"
                                     Thickness = "30"/>
             </gauge:Scale.Pointers>
         </gauge:Scale>
@@ -791,7 +797,7 @@ The following code example explains how to initialize the range pointer in Xamar
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge circularGauge = new SfCircularGauge();
 
@@ -822,11 +828,11 @@ this.Content = circularGauge;
     <gauge:SfRadialGauge.Axes>
         <gauge:RadialAxis>
             <gauge:RadialAxis.Pointers>
-                <gauge:RangePointer Value = "50"
-                                    CornerStyle = "BothCurve"
-                                    OffsetUnit = "Factor"
-                                    PointerOffset = "0.3"
-                                    PointerWidth = "30"/>
+                <gauge:RangePointer Value="50"
+                                    CornerStyle="BothCurve"
+                                    OffsetUnit="Factor"
+                                    PointerOffset="0.3"
+                                    PointerWidth="30"/>
             </gauge:RadialAxis.Pointers>
         </gauge:RadialAxis>
     </gauge:SfRadialGauge.Axes>
@@ -834,7 +840,7 @@ this.Content = circularGauge;
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 
@@ -842,11 +848,11 @@ RadialAxis radialAxis = new RadialAxis();
 sfRadialGauge.Axes.Add(radialAxis);
 
 RangePointer rangePointer = new RangePointer();
-rangePointer.Value = 50;
+rangePointer.Value = 30;
 rangePointer.CornerStyle = CornerStyle.BothCurve;
 rangePointer.OffsetUnit = SizeUnit.Factor;
 rangePointer.PointerOffset = 0.3;
-rangePointer.PointerWidth = 30;
+rangePointer.PointerWidth = 10;
 radialAxis.Pointers.Add(rangePointer);
 
 this.Content = sfRadialGauge;
@@ -869,12 +875,12 @@ Annotations in Xamarin can only be set for circular gauge and cannot be defined 
 <tr>
 <td>{{'[View](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.GaugeAnnotation.html#Syncfusion_SfGauge_XForms_GaugeAnnotation_View)'| markdownify }}</td>
 <td>{{'[Content](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_Content)'| markdownify }}</td>
-<td>Gets or sets the value that represents the content of the annotation.</td>
+<td>Gets or sets the value that represents annotation's content.</td>
 </tr>
 <tr>
 <td>{{'[Angle](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.GaugeAnnotation.html#Syncfusion_SfGauge_XForms_GaugeAnnotation_Angle)'| markdownify }}</td>
 <td>{{'[DirectionValue](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_DirectionValue)'| markdownify }} and {{'[DirectionUnit](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_DirectionUnit)'| markdownify }} is Angle.</td>
-<td>Gets or sets the value to adjust the annotation distance from the center. You can specify the value either in axis value or angle using the {{'[DirectionUnit](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_DirectionUnit)'| markdownify }} property.</td>
+<td>Gets or sets the value to adjusts the annotation distance from center. You can specify value either in axis value or angle using the {{'[DirectionUnit](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_DirectionUnit)'| markdownify }} property.</td>
 </tr>
 <tr>
 <td>{{'[Offset](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.GaugeAnnotation.html#Syncfusion_SfGauge_XForms_GaugeAnnotation_Offset)'| markdownify }}</td>
@@ -883,7 +889,7 @@ Annotations in Xamarin can only be set for circular gauge and cannot be defined 
 </tr>
 </table>
 
-The following code example explains how to initialize the annotation in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
+The following code example explains how to initialize the range pointer in Xamarin SfCircularGauge and .NET MAUI SfRadialGauge.
 
 <table>
 <tr>
@@ -897,13 +903,13 @@ The following code example explains how to initialize the annotation in Xamarin 
 
 <gauge:SfCircularGauge>
     <gauge:SfCircularGauge.Scales>
-        <gauge:Scale/>
+        <gauge:Scale/> 
     </gauge:SfCircularGauge.Scales>
     <gauge:SfCircularGauge.Annotations>
         <gauge:GaugeAnnotation>
             <gauge:GaugeAnnotation.View>
-                <Label Text = "128 GB" 
-                       FontSize = "20" />
+                <Label Text="128 GB" 
+                       FontSize="20" />
             </gauge:GaugeAnnotation.View>
         </gauge:GaugeAnnotation>
     </gauge:SfCircularGauge.Annotations>
@@ -911,7 +917,7 @@ The following code example explains how to initialize the annotation in Xamarin 
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfCircularGauge gauge = new SfCircularGauge();
 
@@ -944,8 +950,8 @@ this.Content = gauge;
             <gauge:RadialAxis.Annotations>
                 <gauge:GaugeAnnotation>
                     <gauge:GaugeAnnotation.Content>
-                        <Label Text = "256 GB"
-                               FontSize = "20" />
+                        <Label Text="256 GB"
+                               FontSize="20" />
                     </gauge:GaugeAnnotation.Content>
                 </gauge:GaugeAnnotation>
             </gauge:RadialAxis.Annotations>
@@ -956,7 +962,7 @@ this.Content = gauge;
 
 {% endhighlight %}
 
-{% highlight c# %}
+{% highlight C# %}
 
 SfRadialGauge sfRadialGauge = new SfRadialGauge();
 

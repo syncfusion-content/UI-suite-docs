@@ -2,7 +2,7 @@
 layout: post
 title: Axis types in .NET MAUI Cartesian Chart control | Syncfusion
 description: Learn here all about axis types and their features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control and more.
-platform: chart-sdk
+platform: maui
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui cartesian charts, .net maui axis types, cartesian chart axis types, syncfusion cartesian charts maui, maui chart axis customization, .NET MAUI Cartesian Chart axis, cartesian chart axis guide maui, .net maui sfCartesianChart axis.
