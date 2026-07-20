@@ -69,4 +69,4 @@ Gantt Chart add and edit dialogs can be opened dynamically by using [OpenAddDial
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLeCtANAbQtiBAd?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhdZwimTIawbYgV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

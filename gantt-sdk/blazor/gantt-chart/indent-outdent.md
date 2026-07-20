@@ -68,4 +68,4 @@ The following example shows how to enable built-in indent and outdent actions us
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXLRNHingXMUjypO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtrHDQhDBbCCPBNs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

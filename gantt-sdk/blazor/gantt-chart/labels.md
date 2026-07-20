@@ -90,4 +90,4 @@ The following example configures labels for task names, IDs, and progress:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNBdjdCHUZxpisgJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLxjQLtLvLQgOkh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

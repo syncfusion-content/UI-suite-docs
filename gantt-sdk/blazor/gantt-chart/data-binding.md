@@ -73,7 +73,7 @@ This following sample shows self-referential data binding in the Gantt Chart by 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZhHNxCIVMXTHwot?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjrHNmBZVjIvqXSH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## List binding
 
@@ -123,7 +123,7 @@ Hierarchical data binding organizes complex parent-child relationships through n
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNBnjdiSLMekVXKg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjVxDGLXBNRgDNIr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > * Indent/Outdent is not supported for hierarchy data.
 >* ExpandCollapse state maintenance is not supported for hierarchy data.
@@ -177,7 +177,7 @@ This approach enables the component to reconstruct hierarchical tree structures 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVHXRMSBMPnFGNG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjhnZQhZhDRQcKmM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### DynamicObject binding
 
@@ -287,7 +287,7 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLxDnMorBiLbZbh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLHNGVNVXmzidTT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### ExpandoObject Binding
 
@@ -363,7 +363,7 @@ To handle scenarios where the model type is unknown at compile time, the Gantt C
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDrdDHMIBrBlyKPx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrdjGBDrDmmfitZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Observable collection and INotifyPropertyChanged
 
@@ -489,7 +489,7 @@ To handle dynamic changes in the data source, the Gantt Chart supports binding t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZVnXHCIVLyxTPmz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXVdZcBjLjPsllmM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### INotifyPropertyChanged
 
@@ -584,7 +584,7 @@ This interface is used to notify that a property value has changed. For example,
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLdjdCoVhQOJIZn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZhRNwLXLXPnOpgb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Remote Data
 
@@ -627,7 +627,7 @@ The Gantt Chart component utilizes the **WebApiAdaptor**, an extension of the **
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBxNxMorqBpYhjl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBRDcBDVZYLdPVF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### ODataV4 adaptor
 
@@ -1320,7 +1320,7 @@ The following sample code demonstrates notifying user when server-side exception
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBHDdCoVzBmuLfQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDBxDmBjBCDMyUhR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Handling exceptions
 
@@ -1388,4 +1388,4 @@ The following sample code demonstrates notifying user when server-side exception
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDBdjdsyVpzeOzOT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2"  %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBdZQVjrWZSdWse?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2"  %}
