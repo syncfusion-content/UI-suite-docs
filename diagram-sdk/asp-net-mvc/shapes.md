@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Shapes in ASP.NET MVC Diagram Control | SyncfusionÂ®
-description: Learn here all about shapes in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Shapes in ASP.NET MVC Diagram Control | Syncfusion®
+description: Learn here all about shapes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Shapes
 publishingplatform: diagram-sdk

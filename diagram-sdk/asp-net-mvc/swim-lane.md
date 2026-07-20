@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Swim Lane in ASP.NET MVC Diagram Component
-description: Learn here all about Swim Lane in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+description: Learn here all about Swim Lane in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Swim Lane
 publishingplatform: diagram-sdk

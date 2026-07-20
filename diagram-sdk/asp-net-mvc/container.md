@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Container in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Container in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Container in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Container in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Container
 publishingplatform: diagram-sdk
@@ -62,7 +62,7 @@ You can interactively add or remove diagram elements from the Container in the r
 
 ## Interaction
 
-Containers support the same interactions as regular nodesâ€”such as selection, dragging, resizing, and rotating. For more information refer to the [`nodes interactions`](./nodes)
+Containers support the same interactions as regular nodes-such as selection, dragging, resizing, and rotating. For more information refer to the [`nodes interactions`](./nodes)
 
 ## Events
 

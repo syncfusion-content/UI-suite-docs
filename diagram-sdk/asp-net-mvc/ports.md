@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Ports in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Ports in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Ports in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Ports in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Ports
 publishingplatform: diagram-sdk
@@ -17,7 +17,7 @@ Diagram provides support to define custom ports for making connections.
 
 <!-- markdownlint-disable MD033 -->
 
-When a connector is connected between two nodes, its end points are automatically docked to the nodeâ€™s nearest boundary.
+When a connector is connected between two nodes, its end points are automatically docked to the node's nearest boundary.
 
 ![Port to Port](images/port2.png)
 
@@ -29,7 +29,7 @@ Ports act as the connection points of the node and allows to create connections 
 
 ## Add ports when initializing nodes
 
-To add a connection port, define the port object and add it to nodeâ€™s ports collection. The `offset` property of port accepts an object of fractions and used to determine the position of ports.
+To add a connection port, define the port object and add it to node's ports collection. The `offset` property of port accepts an object of fractions and used to determine the position of ports.
 
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
@@ -43,7 +43,7 @@ To add a connection port, define the port object and add it to nodeâ€™s por
 
 Add ports at runtime by using the client-side method [`addPorts`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#addports).
 
-The portâ€™s ID property is used to define the unique ID for the port and its further used to find the port at runtime. If ID is not set, then default ID is automatically set.
+The port's ID property is used to define the unique ID for the port and its further used to find the port at runtime. If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}

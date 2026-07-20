@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Page Settings in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Page Settings in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Page Settings in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Page Settings in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Page Settings
 publishingplatform: diagram-sdk

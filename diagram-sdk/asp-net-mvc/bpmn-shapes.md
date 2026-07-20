@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Bpmn Shapes in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Bpmn Shapes in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Bpmn Shapes in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Bpmn Shapes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Bpmn Shapes
 publishingplatform: diagram-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 # Shapes in Diagram Control
 
-BPMN shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, in the node property shape, type should be set as â€œbpmnâ€ and its shape should be set as any one of the built-in shapes.
+BPMN shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, in the node property shape, type should be set as “bpmn” and its shape should be set as any one of the built-in shapes.
 
 N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in the diagram.
 
@@ -23,7 +23,7 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 
 
 
-N> The default value for the property `shape` is â€œeventâ€.
+N> The default value for the property `shape` is “event”.
 
 The list of BPMN shapes are as follows:
 
@@ -79,7 +79,7 @@ Event triggers are notated as icons inside the circle and they represent the spe
 
 ## Gateway
 
-Gateway is used to control the flow of a process and it is represented as a diamond shape. To create a gateway, the shape property of the node should be set as â€œgatewayâ€ and the [`gateway`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnGateway.html) property can be set with any of the appropriate gateways.
+Gateway is used to control the flow of a process and it is represented as a diamond shape. To create a gateway, the shape property of the node should be set as "gateway" and the [`gateway`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnGateway.html) property can be set with any of the appropriate gateways.
 
 {% tabs %}
 {% highlight c# tabtitle="GateWay.cs" %}
@@ -184,11 +184,11 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 * The event object allows to define the type of event by which the subprocess will be triggered. The name of the event can be defined to identify the event at runtime.
 
-* The eventâ€™s offset property is used to set the fraction/ratio (relative to parent) that defines the position of the event shape.
+* The event’s offset property is used to set the fraction/ratio (relative to parent) that defines the position of the event shape.
 
 * The trigger property defines the type of the event trigger.
 
-* You can also use define ports and labels to subprocess events by using eventâ€™s ports and labels properties.
+* You can also use define ports and labels to subprocess events by using event's ports and labels properties.
 
 {% tabs %}
 {% highlight c# tabtitle="Transaction.cs" %}

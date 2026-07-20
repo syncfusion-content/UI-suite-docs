@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Connectors in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Connectors in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Connectors in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Connectors in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Connectors
 publishingplatform: diagram-sdk
@@ -245,7 +245,7 @@ N> You need to mention the segment type as same as what you mentioned in connect
 ## How to customize Orthogonal Segment Thumb Size
 
 Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property.
-To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagramâ€™s model.
+To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagram's model.
 To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
 
 {% tabs %}
@@ -293,7 +293,7 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 ## How to customize Bezier Segment Thumb Size
 
 Bezier segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property.
-To change the thumb size for all Bezier connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagramâ€™s model.
+To change the thumb size for all Bezier connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagram's model.
 To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html)constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
 
 {% tabs %}
@@ -389,7 +389,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 ## Appearance
 
-* The connectorâ€™s [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeWidth), [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeColor), [`strokeDashArray`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeDashArray), and [`opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_Opacity) properties are used to customize the appearance of the connector segments.
+* The connector's [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeWidth), [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeColor), [`strokeDashArray`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_StrokeDashArray), and [`opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramStrokeStyle.html#Syncfusion_EJ2_Diagrams_DiagramStrokeStyle_Opacity) properties are used to customize the appearance of the connector segments.
 
 * The [`visible`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_Visible) property of the connector enables or disables the visibility of connector.
 
@@ -407,7 +407,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 ## Decorator appearance
 
-* The source decoratorâ€™s [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeColor), [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeWidth), and [`strokeDashArray`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeDashArray) properties are used to customize the color, width, and appearance of the decorator.
+* The source decorator's [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeColor), [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeWidth), and [`strokeDashArray`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeDashArray) properties are used to customize the color, width, and appearance of the decorator.
 
 * To set the border stroke color, stroke width, and stroke dash array for the target decorator, use [`strokeColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeColor), [`strokeWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeWidth), and [`strokeDashArray`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramShapeStyle.html#Syncfusion_EJ2_Diagrams_DiagramShapeStyle_StrokeDashArray).
 

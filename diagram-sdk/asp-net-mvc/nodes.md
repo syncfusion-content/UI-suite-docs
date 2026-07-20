@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Nodes in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Nodes in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Nodes in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Nodes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Nodes
 publishingplatform: diagram-sdk
@@ -35,7 +35,7 @@ To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetmvc-j
 
 * Nodes can be added at runtime by using public method, add and can be removed at runtime by using public method, remove. On adding node at runtime, the nodes collection is changed and the [`collectionChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_CollectionChange) event will trigger.
 
-* The nodeâ€™s ID property is used to define the name of the node and its further used to find the node at runtime and do any customization.
+* The node's ID property is used to define the name of the node and its further used to find the node at runtime and do any customization.
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
@@ -82,9 +82,9 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 ## Position
 
-* Position of a node is controlled by using its [`offsetX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetX) and [`offsetY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetY) properties. By default, these offset properties represent the distance between the origin of the diagramâ€™s page and nodeâ€™s center point.
+* Position of a node is controlled by using its [`offsetX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetX) and [`offsetY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetY) properties. By default, these offset properties represent the distance between the origin of the diagram's page and node's center point.
 
-* You may expect this offset values to represent the distance between page origin and nodeâ€™s top-left corner instead of center. The Pivot property helps to solve this problem. Default value of nodeâ€™s [`pivot`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Pivot) point is (0.5, 0.5), that means center of the node.
+* You may expect this offset values to represent the distance between page origin and node's top-left corner instead of center. The Pivot property helps to solve this problem. Default value of node's [`pivot`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Pivot) point is (0.5, 0.5), that means center of the node.
 
 * The size of the node can be controlled by using its [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Height) properties.
 
@@ -92,7 +92,7 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 | Pivot | Offset |
 |-------- | -------- |
-| (0.5,0.5)| offsetX and offsetY values are considered as the nodeâ€™s center point. |
+| (0.5,0.5)| offsetX and offsetY values are considered as the node's center point. |
 | (0,0) | offsetX and offsetY values are considered as the top-left corner of the node. |
 | (1,1) | offsetX and offsetY values are considered as the bottom-right corner of the node. |
 
@@ -158,7 +158,7 @@ The [`gradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Dia
 
 The gradient stop property defines the color and a position, where the previous color transition ends and a new color transition starts.
 
-The gradient stopâ€™s opacity property defines the transparency level of the region.
+The gradient stop's opacity property defines the transparency level of the region.
 
 There are two types of gradients as follows:
 
@@ -170,7 +170,7 @@ There are two types of gradients as follows:
 
 * [`LinearGradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.GradientType.html) defines a smooth transition between a set of colors (so-called stops) on a line.
 
-* A linear gradientâ€™s x1, y1, x2, y2 properties are used to define the position (relative to the node) of the rectangular region that needs to be painted.
+* A linear gradient's x1, y1, x2, y2 properties are used to define the position (relative to the node) of the rectangular region that needs to be painted.
 
 {% tabs %}
 {% highlight c# tabtitle="LinearGrad.cs" %}
@@ -182,7 +182,7 @@ There are two types of gradients as follows:
 
 * [`RadialGradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.GradientType.html) defines a smooth transition between stops on a circle.
 
-* A radial gradientâ€™s cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
+* A radial gradient's cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight c# tabtitle="RadialGrad.cs" %}
@@ -218,7 +218,7 @@ N> Icon can be created only when the node has outEdges.
 
 * To explore the properties of expand and collapse icon, refer to [`expandIcon`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_ExpandIcon) and [`collapseIcon`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_CollapseIcon).
 
-* The expandIconâ€™s and collapseIconâ€™s shape properties allows to define the shape of the icon.
+* The expandIcon's and collapseIcon's shape properties allows to define the shape of the icon.
 
 {% tabs %}
 {% highlight c# tabtitle="Icon.cs" %}

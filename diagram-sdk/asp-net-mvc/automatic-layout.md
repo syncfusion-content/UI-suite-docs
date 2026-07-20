@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Automatic Layout in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Automatic Layout in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Automatic Layout in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Automatic Layout in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Automatic Layout
 publishingplatform: diagram-sdk
@@ -103,7 +103,7 @@ An organizational chart is a diagram that displays the structure of an organizat
         }
 ```
 
-Organizational chart layout starts parsing from root and iterate through all its child elements. The `getLayoutInfo` method provides necessary information of a nodeâ€™s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
+Organizational chart layout starts parsing from root and iterate through all its child elements. The `getLayoutInfo` method provides necessary information of a node’s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
 
 ### GetLayoutInfo
 
@@ -130,7 +130,7 @@ Set chart orientations, chart types, and offset to be left between parent and ch
 
 ```
 
-The following table illustrates the properties that â€œoptionsâ€ argument takes.
+The following table illustrates the properties that “options” argument takes.
 
 | Property | Description | Default Value |
 | -------- | ----------- | ------------- |
@@ -175,7 +175,7 @@ The following table illustrates the different chart orientations and chart types
 
 ### Assistant
 
-Assistants are child item that have a different relationship with the parent node. They are laid out in a dedicated part of the tree. A node can be specified as an assistant of its parent by adding it to the `assistants` property of the argument â€œoptionsâ€.
+Assistants are child item that have a different relationship with the parent node. They are laid out in a dedicated part of the tree. A node can be specified as an assistant of its parent by adding it to the `assistants` property of the argument “options”.
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
@@ -203,7 +203,7 @@ Assistants are child item that have a different relationship with the parent nod
 
 The symmetric layout has been formed using nodes position by closer together or pushing them further apart. This is repeated iteratively until the system comes to an equilibrium state.
 
-The layoutâ€™s [`springLength`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringLength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layoutâ€™s [`springFactor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringFactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layoutâ€™s [`maxIteration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_MaxIteration).
+The layout's [`springLength`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringLength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layout's [`springFactor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringFactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layout's [`maxIteration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_MaxIteration).
 
 {% tabs %}
 {% highlight c# tabtitle="Symmetric.cs" %}
@@ -370,7 +370,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 ### Expand and collapse
 
-Diagram allows to expand/collapse the subtrees of a layout. The nodeâ€™s isExpanded property allows you to expand or collapse its children.
+Diagram allows to expand/collapse the subtrees of a layout. The node's isExpanded property allows you to expand or collapse its children.
 
 {% tabs %}
 {% highlight c# tabtitle="ExpandCollapse.cs" %}

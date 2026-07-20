@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Constraints in ASP.NET MVC Diagram Component | SyncfusionÂ®
-description: Learn here all about Constraints in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Constraints in ASP.NET MVC Diagram Component | Syncfusion®
+description: Learn here all about Constraints in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Constraints
 publishingplatform: diagram-sdk
@@ -183,7 +183,7 @@ Bitwise operations are used to manipulate the flagged enumerations [enum]. In th
 
 ## Add operation
 
-You can add or enable multiple values at a time by using Bitwise â€˜|â€™ (OR) operator.
+You can add or enable multiple values at a time by using Bitwise ‘|’ (OR) operator.
 
 ```typescript
 node.constraints = NodeConstraints.Select | NodeConstraints.Rotate;
@@ -193,7 +193,7 @@ In the previous example, you can do both the selection and rotation operation.
 
 ## Remove Operation
 
-You can remove or disable values by using Bitwise â€˜&~â€™ (XOR) operator.
+You can remove or disable values by using Bitwise ‘&~’ (XOR) operator.
 
 ```typescript
 node.constraints = node.constraints & ~(NodeConstraints.Rotate);
@@ -203,7 +203,7 @@ In the previous example, rotation is disabled but other constraints are enabled.
 
 ## Check operation
 
-You can check any value by using Bitwise â€˜&â€™ (AND) operator.
+You can check any value by using Bitwise ‘&’ (AND) operator.
 
 ```typescript
 if ((node.constraints & (NodeConstraints.Rotate)) == (NodeConstraints.Rotate));

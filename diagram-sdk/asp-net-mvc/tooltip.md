@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: Tooltip in SyncfusionÂ® ASP.NET MVC Diagram Component
-description: Learn here all about Tooltip in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+title: Tooltip in Syncfusion® ASP.NET MVC Diagram Component
+description: Learn here all about Tooltip in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Tooltip
 publishingplatform: diagram-sdk

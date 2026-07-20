@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Umldiagram in ASP.NET MVC Diagram Component
-description: Learn here all about Umldiagram in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
+description: Learn here all about Umldiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Umldiagram
 publishingplatform: diagram-sdk
@@ -25,9 +25,9 @@ The UML class diagram shapes are explained as follows.
 
 * Also, define the [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClass.html#Syncfusion_EJ2_Diagrams_DiagramUmlClass_Name), [`attributes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html), and [`methods`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html) of the class using the class property of node.
 
-* The attributeâ€™s [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Name), [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Type), and [`scope`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.UmlScope.html) properties allows to define the name, data type, and visibility of the attribute.
+* The attribute's [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Name), [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassAttribute.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassAttribute_Type), and [`scope`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.UmlScope.html) properties allows to define the name, data type, and visibility of the attribute.
 
-* The methodâ€™s [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Name), [`parameters`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
+* The method's [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Name), [`parameters`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlClassMethod.html#Syncfusion_EJ2_Diagrams_DiagramUmlClassMethod_Parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
 
 * The method parameters object properties allows to define the name and type of the parameter.
 
@@ -48,9 +48,9 @@ The UML class diagram shapes are explained as follows.
 
 * Also, define the [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Name), [`attributes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Attributes), and [`methods`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramUmlInterface.html#Syncfusion_EJ2_Diagrams_DiagramUmlInterface_Methods) of the interface using the interface property of the node.
 
-* The attributeâ€™s name, type, and scope properties allows to define the name, data type, and visibility of the attribute.
+* The attribute's name, type, and scope properties allows to define the name, data type, and visibility of the attribute.
 
-* The methodâ€™s name, parameter, type, and scope properties allows to define the name, parameter, return type, and visibility of the methods.
+* The method's name, parameter, type, and scope properties allows to define the name, parameter, return type, and visibility of the methods.
 
 * The method parameter object properties of name and type allows to define the name and type of the parameter.
 
@@ -100,7 +100,7 @@ Association is basically a set of links that connects elements of an UML model. 
 1. Directional
 2. BiDirectional
 
-The association property allows to define the type of association. The default value of association is â€œDirectionalâ€.
+The association property allows to define the type of association. The default value of association is "Directional".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -115,7 +115,7 @@ The association property allows to define the type of association. The default v
 
 ### Aggregation
 
-Aggregation is a binary association between a property and one or more composite objects which group together a set of instances. Aggregation is decorated with a hollow diamond. To create an aggregation shape, define the relationship as â€œaggregationâ€.
+Aggregation is a binary association between a property and one or more composite objects which group together a set of instances. Aggregation is decorated with a hollow diamond. To create an aggregation shape, define the relationship as "aggregation".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -130,7 +130,7 @@ Aggregation is a binary association between a property and one or more composite
 
 ### Composition
 
-Composition is a â€œstrongâ€ form of â€œaggregationâ€. Composition is decorated with a black diamond. To create a composition shape, define the relationship property of connector as â€œcompositionâ€.
+Composition is a "strong" form of "aggregation". Composition is decorated with a black diamond. To create a composition shape, define the relationship property of connector as "composition".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -145,7 +145,7 @@ Composition is a â€œstrongâ€ form of â€œaggregationâ€. Composi
 
 ### Dependency
 
-Dependency is a directed relationship, which is used to show that some UML elements needs or depends on other model elements for specifications. Dependency is shown as dashed line with opened arrow. To create a dependency, define the relationship property of connector as â€œdependencyâ€.
+Dependency is a directed relationship, which is used to show that some UML elements needs or depends on other model elements for specifications. Dependency is shown as dashed line with opened arrow. To create a dependency, define the relationship property of connector as "dependency".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -160,9 +160,9 @@ Dependency is a directed relationship, which is used to show that some UML eleme
 
 ### Inheritance
 
-Inheritance is also called as â€œgeneralizationâ€. Inheritance is a binary taxonomic directed relationship between a more general classifier (super class) and a more specific classifier (subclass). Inheritance is shown as a line with hollow triangle.
+Inheritance is also called as "generalization". Inheritance is a binary taxonomic directed relationship between a more general classifier (super class) and a more specific classifier (subclass). Inheritance is shown as a line with hollow triangle.
 
-To create an inheritance, define the relationship as â€œinheritanceâ€.
+To create an inheritance, define the relationship as "inheritance".
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -184,15 +184,15 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 3. OneToMany
 4. ManyToMany
 
-* By default the multiplicity will be considered as â€œOneToOneâ€.
+* By default the multiplicity will be considered as "OneToOne".
 
 * The multiplicity property in UML allows to specify large number of elements or some collection of elements.
 
-* The shape multiplicityâ€™s source property is used to set the source label to connector and the target property is used to set the target label to connector.
+* The shape multiplicity's source property is used to set the source label to connector and the target property is used to set the target label to connector.
 
 * To set an optionality or cardinality for the connector source label, use optional property.
 
-* The [`lowerBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) and [`upperBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk â€˜\*â€™ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
+* The [`lowerBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) and [`upperBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMultiplicityLabel.html#Syncfusion_EJ2_Diagrams_DiagramMultiplicityLabel_LowerBounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk ‘\*’ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
