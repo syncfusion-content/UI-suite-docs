@@ -68,32 +68,6 @@ Open `src/App.tsx` and add the Block Editor component using the `<BlockEditorCom
 
 > **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
 
-{% raw %}
-```ts
-import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
-
-function App() {
-    // Renders the Block Editor component
-    return (
-        <BlockEditorComponent id="blockeditor"></BlockEditorComponent>
-    );
-}
-
-export default App;
-```
-{% endraw %}
-
-
-## Run the application
-
-Now, run the `npm run dev` command in your terminal to start the development server. By default, Vite serves the application at `http://localhost:5173`.
-
-```
-npm run dev
-```
-
-The following example shows a basic Block Editor component.
-
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.tsx %}
@@ -103,4 +77,13 @@ The following example shows a basic Block Editor component.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+
+
+## Run the application
+
+Now, run the `npm run dev` command in your terminal to start the development server. By default, Vite serves the application at `http://localhost:5173`.
+
+```
+npm run dev
+```
