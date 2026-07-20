@@ -16,9 +16,9 @@ This section explains the steps to create a simple Block Editor and demonstrates
 
 ## Prerequisites
 
-This guide uses Vite for bundling and development. Scaffold the project with `npm create vite@latest my-app -- --template vanilla-ts`, then select the `vanilla` framework and `TypeScript` variant when prompted. Install a current Node.js Long-Term Support (LTS) release, such as 24.13.0 or later, that is compatible with your package version. For more information about Vite and its features, refer to the [Vite documentation](https://vitejs.dev/).
+This guide uses Vite as the bundler and development environment. Install Node.js 24.13.0 or higher before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
 
-## Create a TypeScript application.
+## Create a TypeScript application
 
 To set up a TypeScript application in a TypeScript environment, run the following command.
 
@@ -65,7 +65,7 @@ I> To apply the application-specific styles correctly, import `./style.css` into
 
 ## Adding Block Editor control
 
-To get started, add the Block Editor control in main.ts and index.html files. Ensure the page contains a container element with the `id="blockeditor_default"` used in the sample. Block Editor can be initialized through a div element.
+To get started, add the Block Editor control in main.ts and index.html files. Block Editor can be initialized through a div element.
 
 Output will be displayed as follows
 

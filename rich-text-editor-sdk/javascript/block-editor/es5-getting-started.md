@@ -16,6 +16,20 @@ The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaS
 
 ## Setup for local development
 
+The list of dependencies required to use the BlockEditor control in your application is given as follows:
+
+```js
+|-- @syncfusion/ej2-blockeditor
+    |-- @syncfusion/ej2-base
+    |-- @syncfusion/ej2-popups
+    |-- @syncfusion/ej2-buttons
+    |-- @syncfusion/ej2-splitbuttons
+    |-- @syncfusion/ej2-navigations
+    |-- @syncfusion/ej2-dropdowns
+    |-- @syncfusion/ej2-inputs
+
+```
+
 Refer to the following steps to set up your local environment.
 
 **Step 1:** Create an app folder `my-app` for Essential JS 2 JavaScript controls.
@@ -65,6 +79,7 @@ Add the following scripts inside the `my-app/index.html` file to include the Blo
 {% endtabs %}
 
 I> Ensure that all Block Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Block Editor from working properly or cause runtime errors.
+
 Make sure the required base and dependent scripts are included along with the Block Editor script.
 
 ## Adding Block Editor control
@@ -82,7 +97,7 @@ Block Editor can be initialized on a div element as shown below
 
 ## Run the application
 
-Open `index.html` in a web browser. The Block Editor renders into the container element and displays the editor UI.
+Now, run the index.html in web browser, it will render the Essential JS 2 Rich Text Editor control.
 
 Output will be displayed as follows.
 

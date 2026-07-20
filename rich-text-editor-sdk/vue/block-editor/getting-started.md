@@ -137,12 +137,6 @@ The following code summarizes the steps:
 
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
 
-## Troubleshooting
-
-- If `npm install` fails, confirm that Node.js and npm are installed correctly and rerun the install command from the project root.
-- If the component does not render with styles, verify that the CSS import exists in App.vue and that the default styles from `src/style.css` are removed.
-- If `npm run serve` fails, stop any process using the same port and run the command again.
-
 ## Run the application
 
 Use the following command to run the application in the browser.

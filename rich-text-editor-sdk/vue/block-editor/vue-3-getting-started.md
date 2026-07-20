@@ -19,7 +19,7 @@ The `Options API` is the traditional way of writing Vue.js components, where the
 
 ## Prerequisites
 
-This guide uses Vite as the bundler and development environment. Install a current Node.js Long-Term Support (LTS) release, such as 24.13.0 or later, that is compatible with your package version. For the exact supported range, refer to [System requirements for Syncfusion Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements). For detailed information about Vite's capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
+This guide uses Vite as the bundler and development environment. Install Node.js 24.13.0 or higher before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
 
 ## Create a Vue Application
 
@@ -115,12 +115,6 @@ export default {
 
 {% endhighlight %}
 {% endtabs %}
-
-## Troubleshooting
-
-- If `npm install` fails, confirm that your Node.js version is compatible and that npm can reach the package registry.
-- If the component does not render correctly, verify that the CSS import exists in App.vue and that the default styles from `src/style.css` are removed.
-- If `npm run dev` does not reflect your latest changes, stop the existing Vite process and run the command again.
 
 ## Run the application
 
