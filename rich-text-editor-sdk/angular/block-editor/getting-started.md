@@ -102,6 +102,8 @@ The following example shows a default Block Editor component.
 {% endhighlight %}
 {% endtabs %}
 
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/getting-started" %}
+
 ## Run the Application
 
 Run the application in the browser using the following command:
@@ -112,4 +114,3 @@ ng serve --open
 
 The application will be available at `http://localhost:4200/`.
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/getting-started" %}
