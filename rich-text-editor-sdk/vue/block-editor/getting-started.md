@@ -149,8 +149,6 @@ or
 yarn run serve
 ```
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started" %}
-
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
 
 N> Looking for the full Vue Block Editor component overview, features, pricing, and documentation? Visit the [Vue Block Editor](https://www.syncfusion.com/vue-components/vue-block-editor) page.

@@ -55,7 +55,7 @@ To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-Then add the following CSS reference to the src/style.css file:
+Then add the following CSS reference to the `src/style.css` file:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
