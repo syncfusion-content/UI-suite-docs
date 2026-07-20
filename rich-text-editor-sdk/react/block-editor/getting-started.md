@@ -43,11 +43,6 @@ To install the Block Editor component package, use the following command:
 npm install @syncfusion/ej2-react-blockeditor --save
 ```
 
-> **Note:** Syncfusion requires a license key to remove the evaluation watermark. Generate a key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/manage-trials/downloads) and register it in your app's entry point, for example:
-> ```ts
-> import { registerLicense } from '@syncfusion/ej2-base';
-> registerLicense('YOUR_LICENSE_KEY');
-> ```
 ## Adding a CSS Reference
 
 To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
@@ -64,9 +59,7 @@ Import the required CSS theme files for the Block Editor and its dependencies in
 
 ## Add the Block Editor Component
 
-Open `src/App.tsx` and add the Block Editor component using the `<BlockEditorComponent>` tag.
-
-> **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
+You can now add the Block Editor component to your application. Replace the default contents of `src/App.tsx` with the following code, which uses the `<BlockEditorComponent>` directive to render the editor.
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
@@ -79,10 +72,11 @@ Open `src/App.tsx` and add the Block Editor component using the `<BlockEditorCom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
 
+> **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
 
 ## Run the application
 
-Now, run the `npm run dev` command in your terminal to start the development server. By default, Vite serves the application at `http://localhost:5173`.
+Now, run the `npm run dev` command in your terminal to start the development server.
 
 ```
 npm run dev

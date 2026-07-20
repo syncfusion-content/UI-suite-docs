@@ -76,19 +76,15 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 
 > Use a theme package whose major version matches `@syncfusion/ej2-angular-blockeditor`. Other available themes include `@syncfusion/ej2-material-theme`, `@syncfusion/ej2-bootstrap-theme`, and `@syncfusion/ej2-fabric-theme`.
 
-To render the BlockEditor component, add the following import in the [src/styles.css] file to load all required dependency styles:
+To render the Block Editor component, add the following import in the [src/styles.css] file to load all required dependency styles:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 ```
 
-> The theme package does not require any Tailwind configuration to work.
-
 ## Add Syncfusion Block Editor Component
 
 Modify the template in the [src/app/app.ts] file to render the Block Editor component. Add the Angular Block Editor by using the `<ejs-blockeditor>` selector in the `template` section of the `app.ts` file.
-
->  **Note:** Angular CLI 21 and later generates the root component as `src/app/app.ts`. Earlier Angular CLI versions use `src/app/app.component.ts`.
 
 The following example shows a default Block Editor component.
 
@@ -104,6 +100,7 @@ The following example shows a default Block Editor component.
 
 {% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/getting-started" %}
 
+>  **Note:** Angular CLI 21 and later generates the root component as `src/app/app.ts`. Earlier Angular CLI versions use `src/app/app.component.ts`.
 ## Run the Application
 
 Run the application in the browser using the following command:
@@ -111,6 +108,4 @@ Run the application in the browser using the following command:
 ```
 ng serve --open
 ```
-
-The application will be available at `http://localhost:4200/`.
 
