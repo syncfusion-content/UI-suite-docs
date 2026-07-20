@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Diagram Control
+# Getting Started with the ASP.NET Core Diagram Control
 
 This section briefly explains how to include the [ASP.NET Core Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-core-diagram) control in your ASP.NET Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -113,7 +113,7 @@ The theme stylesheet and script can be referenced from NuGet through [Static Web
 {% endhighlight %}
 {% endtabs %}
 
-## Register the Script Manager
+## Register the script manager
 
 Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager (`<ejs-scripts>`) at the end of the `<body>` element as shown below.
 
