@@ -69,8 +69,6 @@ Make sure the required base and dependent scripts are included along with the Bl
 
 ## Adding Block Editor control
 
-To get started, add the Block Editor control in index.js and index.html files. Ensure the page contains a container element with the `id="blockeditor_default"` used in the sample. Block Editor can be initialized through a div element.
-
 Block Editor can be initialized on a div element as shown below
 
 {% tabs %}

@@ -63,7 +63,7 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into the `<style>` section of **src/App.vue**.
 
 ```css
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 ```
 
 I> To apply the application-specific styles correctly remove all the default styles from **src/style.css**.
@@ -86,7 +86,7 @@ Now, you can start adding the Vue Block Editor component in the application. For
 </script>
 
 <style>
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 </style>
 
 {% endhighlight %}
@@ -110,7 +110,7 @@ export default {
 </script>
 
 <style>
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 </style>
 
 {% endhighlight %}
