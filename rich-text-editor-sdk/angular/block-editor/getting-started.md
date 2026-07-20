@@ -62,6 +62,8 @@ npm install @syncfusion/ej2-angular-blockeditor
 
 ## Add CSS Reference
 
+Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
+
 Install a Syncfusion theme package to provide the required styles. The following example installs the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme:
 
 ```bash

@@ -17,7 +17,7 @@ This section explains how to create a simple Block Editor and configure its avai
 Run the following commands to set up a React application:
 
 ```bash
-npm create vite@latest my-app 
+npm create vite@latest my-app -- --template react-ts
 ```
 
 This command will prompt you to select options for the new project. Choose **React** as the framework and **TypeScript** as the variant. Select the options as shown below.
@@ -44,6 +44,8 @@ npm install @syncfusion/ej2-react-blockeditor --save
 ```
 
 ## Adding a CSS Reference
+
+Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
 
 To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
