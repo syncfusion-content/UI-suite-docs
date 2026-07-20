@@ -15,7 +15,7 @@ documentation: ug
 
 ## Save
 
-The diagram is serialized as string while saving. The client-side method, [`saveDiagram`](../api/diagram#saveDiagram) helps to serialize the diagram as a string.
+The diagram is serialized as string while saving. The client-side method, [`saveDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#savediagram) helps to serialize the diagram as a string.
 
 ```javascript
 var diagramElement = document.getElementById('element');
@@ -37,7 +37,7 @@ Diagram can also be saved as raster or vector image files. For more information 
 
 ## Load
 
-Diagram is loaded from the serialized string data by client-side method, [`loadDiagram`](../api/diagram#loadDiagram).
+Diagram is loaded from the serialized string data by client-side method, [`loadDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#loaddiagram).
 
 ```javascript
 var diagramElement = document.getElementById('element');
@@ -52,7 +52,7 @@ N> Before loading a new diagram, existing diagram is cleared.
 
 ## Loaded Event
 
-The [`loaded`](../api/diagram#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](../api/diagram#loadDiagram) method. You can use this event to customize diagram elements during the loading process.
+The [`loaded`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#loaddiagram) method. You can use this event to customize diagram elements during the loading process.
 
 ```javascript
  let diagram: Diagram = new Diagram ({

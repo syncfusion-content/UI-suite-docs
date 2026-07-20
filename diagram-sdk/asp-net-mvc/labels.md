@@ -46,7 +46,7 @@ An annotation can be added to a node/connector by defining the annotation object
 
 ## Add annotations at runtime
 
-* Annotations can be added at runtime by using the client-side method [`addLabels`](../api/diagram/#addLabels).
+* Annotations can be added at runtime by using the client-side method [`addLabels`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#addlabels).
 
 * The annotation's [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Id) property is used to define the name of the annotation and its further used to find the annotation at runtime and do any customization.
 
@@ -90,7 +90,7 @@ diagram.dataBind();
 
 ## Remove annotation
 
-A collection of annotations can be removed from the node by using client-side method [`removeLabels`](../api/diagram/#removeLabels).
+A collection of annotations can be removed from the node by using client-side method [`removeLabels`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#removelabels).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -130,7 +130,7 @@ diagram.removeLabels(diagram.nodes[0], annotation);
 
 ## Update annotation at runtime
 
-You can change any annotation properties at runtime and update it through the client-side method [`dataBind`](../api/diagram/#dataBind).
+You can change any annotation properties at runtime and update it through the client-side method [`dataBind`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#databind).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -549,13 +549,13 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 
 Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
 
-* Programmatically - By using [`startTextEdit`](../api/diagram/#startTextEdit) method, edit the text through programmatically.
+* Programmatically - By using [`startTextEdit`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#starttextedit) method, edit the text through programmatically.
 
 * Interactively
     1. By double-clicking the annotation.
     2. By selecting the item and pressing the F2 key.
 
-Double-clicking any annotation will enable editing and the node enables first annotation editing. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](../api/diagram/#doubleClick--emittypeidoubleClickeventargs) event gets triggered.
+Double-clicking any annotation will enable editing and the node enables first annotation editing. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_DoubleClick) event gets triggered.
 
 ## Read-only annotations
 

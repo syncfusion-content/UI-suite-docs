@@ -418,7 +418,7 @@ The nodes z-order property specifies the stack order of the node. A node with gr
 
 ## Data flow
 
-Node has the InEdges and OutEdges read-only property. In this property, you can find what are all the connectors that are connected to the node, and then you can find these connectors by using the [`getObject`](../api/diagram#getObject) method in the diagram.
+Node has the InEdges and OutEdges read-only property. In this property, you can find what are all the connectors that are connected to the node, and then you can find these connectors by using the [`getObject`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getobject) method in the diagram.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
