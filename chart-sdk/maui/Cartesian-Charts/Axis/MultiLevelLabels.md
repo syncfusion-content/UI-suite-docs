@@ -2,7 +2,7 @@
 layout: post
 title: Multi-Level Labels in .NET MAUI Cartesian Chart control | Syncfusion
 description: Learn here all about multi-level labels and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control and more.
-platform: maui
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui cartesian charts, .net maui multi-level labels, cartesian chart multi-level labels, syncfusion cartesian charts maui, maui cartesian chart axis labels, .net maui cartesian chart axis, multilevel label customization, .net maui sfCartesianChart axis labels.
