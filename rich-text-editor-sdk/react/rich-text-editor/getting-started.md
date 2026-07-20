@@ -44,7 +44,7 @@ cd my-app
 npm install
 ```
 
-> **Note:** To set up a React application with Nextjs or Remix, refer to this [documentation](https://ej2.syncfusion.com/react/documentation/getting-started/quick-start) for more details.
+N> To set up a React application with Nextjs or Remix, refer to this [documentation](https://ej2.syncfusion.com/react/documentation/getting-started/quick-start) for more details.
 
 ## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Rich Text Editor packages
 
