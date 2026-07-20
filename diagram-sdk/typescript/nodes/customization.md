@@ -34,7 +34,7 @@ N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
 ### Apply style to the node
 
-The appearance of a node can be customized by changing its [`fill`](../../api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](../../api/diagram/shapeStyleModel#strokedasharray), [`strokeWidth`](../../api/diagram/shapeStyleModel#strokewidth), [`strokeColor`](../../api/diagram/shapeStyleModel#strokecolor) and [`opacity`](../../api/diagram/shapeStyleModel#strokecolor). The [`visible`](../../api/diagram/node#visible) property of the node enables or disables the visibility of the node.
+The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#strokedasharray), [`strokeWidth`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#strokewidth), [`strokeColor`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/documentation/api/diagram/shapestylemodel#opacity). The [`visible`](https://ej2.syncfusion.com/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
 
 The following code illustrates how to customize the appearance of the shape.
 
@@ -51,7 +51,7 @@ The following code illustrates how to customize the appearance of the shape.
 
 ### Apply gradient style to node
 
-The [`gradient`](../../api/diagram/shapeStyleModel#gradient) property of the node allows you to define and apply the gradient effect to that node.
+The [`gradient`](https://ej2.syncfusion.com/documentation/api/diagram/gradientmodel) property of the node allows you to define and apply the gradient effect to that node.
 
 The gradient stop property defines the color and a position, where the previous color transition ends and a new color transition starts.
 
@@ -65,7 +65,7 @@ There are two types of gradients as follows:
 
 #### Linear gradient
 
-* [`LinearGradient`](../../api/diagram/shapeStyleModel#gradient-lineargradientmodel) defines a smooth transition between a set of colors (so-called stops) on a line.
+* [`LinearGradient`](https://ej2.syncfusion.com/documentation/api/diagram/lineargradientmodel) defines a smooth transition between a set of colors (so-called stops) on a line.
 
 * A linear gradient’s x1, y1, x2, y2 properties are used to define the position (relative to the node) of the rectangular region that needs to be painted.
 
@@ -82,7 +82,7 @@ There are two types of gradients as follows:
 
 #### Radial gradient
 
-* [`RadialGradient`](../../api/diagram/shapeStyleModel#gradient-radialgradientmodel) defines a smooth transition between stops on a circle.
+* [`RadialGradient`](https://ej2.syncfusion.com/documentation/api/diagram/radialgradientmodel) defines a smooth transition between stops on a circle.
 
 * A radial gradient’s cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
 
@@ -120,9 +120,9 @@ Use the following CSS to customize the style of main node on multiple selection.
 
 ## Apply rotate angle and corner radius to the node
 
-- `Rotate angle`: The [`rotateAngle`](../../api/diagram/node#rotateangle) property allows you to rotate nodes within the diagram. It's particularly useful when you want to represent nodes from different perspectives or angles.
+- `Rotate angle`: The [`rotateAngle`](https://ej2.syncfusion.com/documentation/api/diagram/node#rotateangle) property allows you to rotate nodes within the diagram. It's particularly useful when you want to represent nodes from different perspectives or angles.
 
-- `Corner radius`: The [`cornerRadius`](../../api/diagram/basicShapeModel#cornerradius) property allows you to round the corners of nodes in the diagram.
+- `Corner radius`: The [`cornerRadius`](https://ej2.syncfusion.com/documentation/api/diagram/basicShapeModel#cornerradius) property allows you to round the corners of nodes in the diagram.
 It adds a visual styling effect to the nodes, making them appear softer or more polished.
 
 
@@ -141,7 +141,7 @@ The following code shows how to set the rotate angle and corner radius for the n
 
 ## Apply shadow effect to node
 
-Diagram provides support to add [`shadow`](../../api/diagram/node#shadow) effect to a node that is disabled, by default. It can be enabled with the constraints property of the node. The following code illustrates how to drop shadow.
+Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/documentation/api/diagram/shadowmodel) effect to a node that is disabled, by default. It can be enabled with the constraints property of the node. The following code illustrates how to drop shadow.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -156,7 +156,7 @@ Diagram provides support to add [`shadow`](../../api/diagram/node#shadow) effect
 
 ### Customizing shadow effect of the node
 
-The [`angle`](../../api/diagram/shadowModel#angle), [`distance`](../../api/diagram/shadowModel#distance), and [`opacity`](../../api/diagram/shadowModel#opacity) of the shadow can be customized with the `shadow` property of the node. The following code example illustrates how to customize shadow.
+The [`angle`](https://ej2.syncfusion.com/documentation/api/diagram/shadowModel#angle), [`distance`](https://ej2.syncfusion.com/documentation/api/diagram/shadowModel#distance), and [`opacity`](https://ej2.syncfusion.com/documentation/api/diagram/shadowModel#opacity) of the shadow can be customized with the `shadow` property of the node. The following code example illustrates how to customize shadow.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -172,7 +172,7 @@ The [`angle`](../../api/diagram/shadowModel#angle), [`distance`](../../api/diagr
 
 ## Provide additional information to the node
 
-The [`addInfo`](../../api/diagram/nodeModel#addinfo) property of the node allows you to maintain additional information to the node. You can specify either object or string value.
+The [`addInfo`](https://ej2.syncfusion.com/documentation/api/diagram/nodeModel#addinfo) property of the node allows you to maintain additional information to the node. You can specify either object or string value.
 
 The following code shows how to set the AddInfo value.
 
@@ -196,11 +196,11 @@ var nodes = [
 
 ## Constraints
 
-The [`constraints`](../../api/diagram/node#constraints) property of the node allows you to enable/disable certain behaviors of the node. For more information about node constraints refer to the [`Node Constraints`](../constraints)
+The [`constraints`](https://ej2.syncfusion.com/documentation/api/diagram/nodeconstraints) property of the node allows you to enable/disable certain behaviors of the node. For more information about node constraints refer to the [`Node Constraints`](../constraints)
 
 ## Stack order
 
-The nodes [`zIndex`](../../api/diagram/nodeModel#zindex) property specifies the stack order of the node. A node with greater stack order is always in front of a node with a lower stack order.
+The nodes [`zIndex`](https://ej2.syncfusion.com/documentation/api/diagram/nodeModel#zindex) property specifies the stack order of the node. A node with greater stack order is always in front of a node with a lower stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -217,7 +217,7 @@ N> By default, the zIndex will be generated automatically based on the order of 
 
 ## Pivot
 
-Node rotation angle will be based on [`Pivot`](../../api/diagram/pointModel) values which range from 0 to 1 like offset values. By default, the Pivot values are set to X= 0.5 and Y=0.5.
+Node rotation angle will be based on [`Pivot`](https://ej2.syncfusion.com/documentation/api/diagram/pointModel) values which range from 0 to 1 like offset values. By default, the Pivot values are set to X= 0.5 and Y=0.5.
 
 The following table illustrates how pivot relates offset values with node boundaries.
 
@@ -242,7 +242,7 @@ The following code illustrates how to change the `pivot` value.
 
 ## Get connected connector from node
 
-Node has the InEdges and OutEdges read-only property. In this property, you can find what are all the connectors that are connected to the node, and then you can fetch these connectors by using the [`getObject`](../../api/diagram#getObject) method in the diagram.
+Node has the InEdges and OutEdges read-only property. In this property, you can find what are all the connectors that are connected to the node, and then you can fetch these connectors by using the [`getObject`](https://ej2.syncfusion.com/documentation/api/diagram#getobject) method in the diagram.
 
 ```javascript
 

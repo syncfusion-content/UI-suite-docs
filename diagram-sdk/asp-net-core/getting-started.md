@@ -146,11 +146,11 @@ Add the [ASP.NET Core Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-cor
 
 N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
-## Create your first Diagram with nodes and connectors
+## Step 7: Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. Nodes and connectors are defined in `Index.cshtml.cs` and passed to the view through `ViewBag`. The view then binds them to the `<ejs-diagram>` tag helper.
+The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. Nodes and connectors are defined in `Index.cshtml.cs` as public properties on the page model and accessed in the view via `@Model`. The view then binds them to the `<ejs-diagram>` tag helper.
 
 ### Define nodes and connectors
 
@@ -237,7 +237,6 @@ To render the diagram using data from the model, bind **@Model.nodes** and **@Mo
     var getNodeDefaults = "getNodeDefaults";
     var getConnectorDefaults = "getConnectorDefaults";
 }
-
 <ejs-diagram id="diagram" width="100%" height="580px"
              nodes="@Model.nodes"
              connectors="@Model.connectors"

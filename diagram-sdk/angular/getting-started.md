@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Getting started with Angular Diagram component | Syncfusion®
-description:  Check out and learn about getting started with the Angular Diagram component of Syncfusion Essential® JS 2.
+description: Check out and learn about getting started with the Angular Diagram component of Syncfusion Essential® JS 2.
 platform: diagram-sdk
-control: Getting started 
+control: Getting started
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -26,7 +26,7 @@ The main files used in this guide are:
 
 - `src/app/app.ts` — Defines the root standalone component.
 - `src/styles.css` — Contains global styles and Syncfusion® theme references.
-- `src/index.html` — Contains the Angular root element.
+- `src/index.html` — Contains the Angular root element (e.g., `<app-root>`).
 
 N> In newer Angular CLI standalone projects, the root component may be generated as **src/app/app.ts**. In NgModule-based Angular projects, the equivalent file is typically **src/app/app.component.ts**.
 
@@ -74,11 +74,7 @@ N> Installing `@syncfusion/ej2-angular-diagrams` automatically installs the requ
 
 ## Step 4: Add the required styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
-
-### Option 1: Add styles from a theme package
-
-Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 ```bash
 npm install @syncfusion/ej2-tailwind3-theme --save
@@ -92,18 +88,7 @@ Then add the following CSS reference to the **src/styles.css** file:
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/angular/documentation/appearance/overview) documentation.
 
-### Option 2: Add styles from component packages
-
-After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the required Syncfusion® styles to the **src/styles.css** file.
-
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-angular-diagrams/styles/tailwind3.css';
-```
-
-N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the `tailwind3.css` references with the corresponding theme file, such as `material3.css`.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
 ## Step 5: Register the Diagram module and add the component
 
@@ -119,7 +104,6 @@ import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
   selector: 'app-root',
   standalone: true,
   imports: [DiagramModule],
-  providers: [],
   template: `<ejs-diagram id="diagram" width="100%" height="580px"></ejs-diagram>`
 })
 export class App {}
@@ -136,9 +120,9 @@ N> The Diagram component must have a valid height. If the height is not set, the
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` properties.
+The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings through the `getNodeDefaults` and `getConnectorDefaults` callback bindings.
 
-Update the **src/app/app.ts** file as follows:
+Replace the entire contents of **src/app/app.ts** with the following code:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -235,10 +219,19 @@ export class App {
 
 In this example:
 
+**Template directives** (used inside the `<ejs-diagram>` template):
+
+* [`e-nodes`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel), [`e-connectors`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel), and [`e-node-annotations`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationmodel) are Angular Diagram child directives used to define nodes, connectors, and node annotations.
+* [`e-node-annotation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationmodel) adds text inside each node using the [`content`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationmodel#content) property.
+
+**Node and connector configuration:**
+
 * [`offsetX`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel#offsetx) and [`offsetY`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel#offsety) define the position of each node.
 * [`shape`](https://ej2.syncfusion.com/angular/documentation/api/diagram/nodemodel#shape) defines the node shape configuration, and [`FlowShapeModel.shape`](https://ej2.syncfusion.com/angular/documentation/api/diagram/flowshapemodel#shape) specifies flowchart shapes such as `Terminator`, `Process`, or `Decision`.
-* [`e-node-annotation`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationmodel) adds text inside each node using the [`content`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationmodel#content) property.
 * [`sourceID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel#sourceid) and [`targetID`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectormodel#targetid) connect one node to another.
+
+**Common defaults applied via callbacks:**
+
 * [`getNodeDefaults`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#getnodedefaults) applies common width, height, fill color, and stroke color to all nodes.
 * [`getConnectorDefaults`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#getconnectordefaults) applies common connector settings, such as orthogonal routing and target arrows.
 
@@ -250,6 +243,8 @@ Run the application using the following command:
 npm start
 ```
 
-Open the generated local URL in the browser. The application displays the diagram as shown below:
+Open the generated local URL (`http://localhost:4200`) in the browser. The application displays the diagram as shown below:
 
- ![Getting started](./images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
+
+N> If port 4200 is already in use, start the app on a different port with `ng serve --port 4201`.
