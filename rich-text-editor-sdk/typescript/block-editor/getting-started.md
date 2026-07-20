@@ -55,7 +55,7 @@ To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/style.css`.
+Then add the following CSS reference to the src/style.css file:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
@@ -110,6 +110,8 @@ blockEditor.appendTo('#blockeditor_default');
 {% endhighlight %}
 {% endtabs %}
 
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/" %}
+
 ## Run the application
 
 Use the following command to run the application in the browser.
@@ -118,16 +120,3 @@ Use the following command to run the application in the browser.
 npm run dev
 ```
 
-The following example shows a basic Block Editor control.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/getting-started/index.ts %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/getting-started/" %}
