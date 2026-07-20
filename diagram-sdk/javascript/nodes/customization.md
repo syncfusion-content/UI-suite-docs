@@ -34,7 +34,7 @@ N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
 ### Apply style to the node
 
-The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokeDashArray), ['strokeWidth'](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokeWidth), ['strokeColor'](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokeColor) and [`opacity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokeColor). The [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
+The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokedasharray), ['strokeWidth'](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokewidth), ['strokeColor'](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#strokecolor). The [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
 
 The following code illustrates how to customize the appearance of the shape.
 

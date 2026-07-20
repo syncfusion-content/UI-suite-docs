@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Group in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Group in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -29,8 +29,6 @@ A group can be added to the diagram model through [`nodes`](https://help.syncfus
 
 * A group can be added into a child of another group.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/group/tagHelper %}
@@ -40,16 +38,6 @@ A group can be added to the diagram model through [`nodes`](https://help.syncfus
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ```javascript
 var diagram = document.getElementById("container").ej2_instances[0];
@@ -57,8 +45,6 @@ diagram.selectAll();
 // Adding the third node into the existing group
 diagram.group();
 ```
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -68,16 +54,6 @@ diagram.group();
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/ungroup/ungroup.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Ungroup.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/ungroup/ungroup.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -91,8 +67,6 @@ diagram.unGroup();
 
 A group node can be added at runtime by using the client-side method `diagram.add`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/run/tagHelper %}
@@ -101,16 +75,6 @@ A group node can be added at runtime by using the client-side method `diagram.ad
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/run/run.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -128,8 +92,6 @@ diagram.add(group);
 
 * The collection of group nodes can be dynamically added using `addElements` method.Each time an element is added to the diagram canvas, the `collectionChange` event will be triggered.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/groupCollection/tagHelper %}
@@ -138,16 +100,6 @@ diagram.add(group);
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/groupCollection/groupCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="GroupCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/groupCollection/groupCollection.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 ## Container
 
@@ -173,8 +125,6 @@ Containers are used to automatically measure and arrange the size and position o
 
 * It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panel’s [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Orientation.html) is vertical.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/stack/tagHelper %}
@@ -183,16 +133,6 @@ Containers are used to automatically measure and arrange the size and position o
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/stack/stack.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Stack.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/group/stack/stack.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript

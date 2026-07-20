@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Bpmn Shapes in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Bpmn Shapes in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -15,8 +15,6 @@ BPMN shapes are used to represent the internal business procedure in a graphical
 
 N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/tagHelper %}
@@ -25,16 +23,6 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/end.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="End.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/end.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 N> The default value for the property `shape` is “event”.
@@ -65,8 +53,6 @@ An [`event`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 The event property of the node allows to define the type of the event. The default value of the event is **start**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/tagHelper %}
@@ -75,16 +61,6 @@ The event property of the node allows to define the type of the event. The defau
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/trigger.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Trigger.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/trigger.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html#Syncfusion_EJ2_Diagrams_DiagramBpmnEvent_Trigger) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
@@ -109,8 +85,6 @@ Event triggers are notated as icons inside the circle and they represent the spe
 
 Gateway is used to control the flow of a process and it is represented as a diamond shape. To create a gateway, the shape property of the node should be set as “gateway” and the [`gateway`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnGateway.html) property can be set with any of the appropriate gateways.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/tagHelper %}
@@ -119,16 +93,6 @@ Gateway is used to control the flow of a process and it is represented as a diam
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/gateWay.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="GateWay.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/gateWay.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 N> By default, the `gateway` will be set as **none**.
@@ -156,8 +120,6 @@ There are two types of activities. They are listed as follows:
 
 To create a BPMN activity, set the shape as **activity**. You also need to set the type of the BPMN activity by using the activity property of the node. By default, the type of the activity is set as **task**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Activity/tagHelper %}
@@ -167,24 +129,12 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Activity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Activity/Activity.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 The different activities of BPMN process are listed as follows.
 
 ## Tasks
 
 The [`task`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html) property of the node allows to define the type of task such as sending, receiving, user based task, etc. By default, the [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Type) property of task is set as **none**. The following code illustrates how to create different types of BPMN tasks. The events property of tasks allow to represent these results as an event attached to the task.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -194,16 +144,6 @@ The [`task`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/task/task.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Task.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/task/task.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The various types of BPMN tasks are tabulated as follows.
@@ -223,8 +163,6 @@ The various types of BPMN tasks are tabulated as follows.
 
 A [`sub-process`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html) is a group of tasks, which is used to hide or reveal details of additional levels using the [`collapsed`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Collapsed) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/tagHelper %}
@@ -233,16 +171,6 @@ A [`sub-process`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/subProcess.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="SubProcess.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/subProcess.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The different types of subprocess are as follows:
@@ -254,8 +182,6 @@ The different types of subprocess are as follows:
 
 A subprocess is defined as an event subprocess, when it is triggered by an event. An event subprocess is placed within another subprocess which is not part of the normal flow of its parent process. You can set event to a subprocess with the [`event`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Events) and [`trigger`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnEvent.html#Syncfusion_EJ2_Diagrams_DiagramBpmnEvent_Trigger) property of the subprocess. The [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Type) property of subprocess allows you to define the type of subprocess whether it should be event subprocess or transaction subprocess.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/tagHelper %}
@@ -264,16 +190,6 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/subEvent.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="SubEvent.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/subEvent.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Transaction subprocess
@@ -288,8 +204,6 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 * You can also use define ports and labels to subprocess events by using event’s ports and labels properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/tagHelper %}
@@ -298,16 +212,6 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/Transaction.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Transaction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/Transaction.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Process
 
 Processes is an array collection that defines the children values for BPMN subprocess.
@@ -315,8 +219,6 @@ Processes is an array collection that defines the children values for BPMN subpr
 ## Loop
 
 [`Loop`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Loop) is a task that is internally being looped. The loop property of task allows to define the type of loop. The default value for `loop` is **none**. You can define the loop property in subprocess BPMN shape as shown in the following code.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -326,16 +228,6 @@ Processes is an array collection that defines the children values for BPMN subpr
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/loop/loop.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Loop.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/loop/loop.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table contains various types of BPMN loops.
@@ -350,8 +242,6 @@ The following table contains various types of BPMN loops.
 
 [`Compensation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Compensation) is triggered, when operation is partially failed and enabled it with the compensation property of the task and the subprocess.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/compensation/tagHelper %}
@@ -361,22 +251,10 @@ The following table contains various types of BPMN loops.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Compensation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/compensation/compensation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Call
 
 A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnTask.html#Syncfusion_EJ2_Diagrams_DiagramBpmnTask_Call) activity is a global subprocess that is reused at various points of the business flow and set it with the call property of the task.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -387,22 +265,10 @@ A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Call.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/call/call.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Adhoc
 
 An adhoc subprocess is a group of tasks that are executed in any order or skipped in order to fulfill the end condition and set it with the [`adhoc`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Adhoc) property of subprocess.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -413,22 +279,10 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Adhoc.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/adhoc/adhoc.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Boundary
 
 Boundary represents the type of task that is being processed. The [`boundary`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnSubProcess.html#Syncfusion_EJ2_Diagrams_DiagramBpmnSubProcess_Boundary) property of subprocess allows to define the type of boundary. By default, it is set as **default**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -438,16 +292,6 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/boundary/boundary.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table contains various types of BPMN boundaries.
@@ -462,8 +306,6 @@ The following table contains various types of BPMN boundaries.
 
 A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramBpmnDataObject.html), set the shape as **DataObject** and the type property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/tagHelper %}
@@ -472,16 +314,6 @@ A data object represents information flowing through the process, such as data p
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/dataObject.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="DataObject.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/dataObject.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table contains various representation of BPMN data object.
@@ -496,8 +328,6 @@ The following table contains various representation of BPMN data object.
 
 Datasource is used to store or access data associated with a business process. To create a datasource, set the shape as **datasource**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/tagHelper %}
@@ -506,16 +336,6 @@ Datasource is used to store or access data associated with a business process. T
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/Datasource.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Datasource.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/Datasource.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Artifact
@@ -543,8 +363,6 @@ Artifact is used to show additional information about a process in order to make
 
 * The `offsetX` and `offsetY` properties are used to set the distance between the BPMN node and the TextAnnotation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/textAnnotation/tagHelper %}
@@ -554,22 +372,10 @@ Artifact is used to show additional information about a process in order to make
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="TextAnnotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/textAnnotation/textAnnotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Group
 
 A group is used to frame a part of the diagram, shows that elements included in it logically belong together and does not have any other semantics other than organizing elements. To create a group, the shape property of the node should be set as **group**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -579,16 +385,6 @@ A group is used to frame a part of the diagram, shows that elements included in 
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## BPMN flows
@@ -605,8 +401,6 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
 The association property allows you to define the type of association.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/tagHelper %}
@@ -615,16 +409,6 @@ The association property allows you to define the type of association.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/association.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table demonstrates the visual representation of association flows.
@@ -647,8 +431,6 @@ A `Sequence` flow shows the order in which the activities are performed in a BPM
 
 The sequence property allows to define the type of sequence.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/tagHelper %}
@@ -657,16 +439,6 @@ The sequence property allows to define the type of sequence.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/Sequence.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Sequence.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/Sequence.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table contains various representation of sequence flows.
@@ -689,8 +461,6 @@ A `Message` flow shows the flow of messages between two participants and is repr
 
 The message property allows to define the type of message.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/tagHelper %}
@@ -699,16 +469,6 @@ The message property allows to define the type of message.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/Message.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Message.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/Message.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The following table contains various representation of message flows.

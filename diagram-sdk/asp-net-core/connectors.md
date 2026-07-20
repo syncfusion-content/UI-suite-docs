@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Connectors in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Connectors in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -21,8 +21,6 @@ Connector can be created by defining the source and target point of the connecto
 
 The [`sourcePoint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_SourcePoint) and [`targetPoint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetPoint) properties of connector allows to define the end points of a connector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/tagHelper %}
@@ -31,22 +29,10 @@ The [`sourcePoint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Add connector at runtime
 
 Connectors can be added at runtime by using public method, `diagram.add` and can be removed at runtime by using public method, `diagram.remove`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/tagHelper %}
@@ -55,16 +41,6 @@ Connectors can be added at runtime by using public method, `diagram.add` and can
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -104,8 +80,6 @@ diagram.remove(connectors)
 
 * The collection of connectors can be dynamically added using `addElements` method.Each time an element is added to the diagram canvas, the `collectionChange` event will be triggered.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectorCollection/tagHelper %}
@@ -114,16 +88,6 @@ diagram.remove(connectors)
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectorCollection/connectorCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="ConnectorCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectorCollection/connectorCollection.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Connectors from palette
 
 Connectors can be predefined and added to the symbol palette. You can drop those connectors into the diagram, when required.
@@ -140,8 +104,6 @@ For more information about drawing connectors, refer to [`Draw Connectors`](http
 
 Various connector properties such as `sourcePoint`, `targetPoint`, `style`, `sourcePortID`, `targetPortID`, etc., can be updated at the runtime.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/tagHelper %}
@@ -150,16 +112,6 @@ Various connector properties such as `sourcePoint`, `targetPoint`, `style`, `sou
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -181,8 +133,6 @@ diagram.dataBind();
 
 * The [`sourceID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_SourceID) and [`targetID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetID) properties allow to define the nodes to be connected.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connect/tagHelper %}
@@ -191,16 +141,6 @@ diagram.dataBind();
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connect/connect.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Connect.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connect/connect.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 * When you remove NodeConstraints InConnect from Default, the node accepts only an outgoing connection to dock in it. Similarly, when you remove NodeConstraints OutConnect from Default, the node accepts only an incoming connection to dock in it.
@@ -217,8 +157,6 @@ node.constraints =  NodeConstraints.Default & ~NodeConstraints.InConnect,
 
 The [`sourcePortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_SourcePortID) and [`targetPortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetPortID) properties allow to create connections between some specific points of source/target nodes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/tagHelper %}
@@ -227,22 +165,10 @@ The [`sourcePortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/ports.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by changing the port [`sourcePortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_SourcePortID) or [`targetPortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetPortID).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/tagHelper %}
@@ -251,16 +177,6 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/ports/ports.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -288,8 +204,6 @@ The path of the connector is defined with a collection of segments. There are th
 
 To create a straight line, specify the [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_Type) of the segment as **straight** and add a straight segment to [`segments`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_Segments) collection and need to specify [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_Type) for the connector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/tagHelper %}
@@ -298,25 +212,10 @@ To create a straight line, specify the [`type`](https://help.syncfusion.com/cr/a
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/segment.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegment/#point) property of straight segment allows to define the end point of it.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/tagHelper %}
@@ -325,19 +224,6 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/segment/segment.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Orthogonal
@@ -348,8 +234,6 @@ Set the segment [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusio
 
 Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Segments.html) collection.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/orthogonal/tagHelper %}
@@ -359,20 +243,8 @@ Multiple segments can be defined one after another. To create a connector with m
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/orthogonal/orthogonal.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalsegment#length) and [`direction`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalsegment#direction) properties allows to define the flow and length of segment.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -383,16 +255,6 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalse
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Direction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/direction/direction.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 N> You need to mention the segment type as same as what you mentioned in connector type. There should be no contradiction between connector type and segment type.
 
@@ -402,8 +264,6 @@ Orthogonal segment thumbs default to size 10. This can be adjusted globally or f
 To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SegmentThumbShapes.html) property in the diagram’s model.
 To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize) constraint, then set the desired [`segmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SegmentThumbShapes.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/orthogonalThumbSize/tagHelper %}
@@ -412,21 +272,9 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/orthogonalThumbSize/orthogonal.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/orthogonalThumbSize/orthogonal.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Avoid overlapping
 
 Orthogonal segments are automatically re-routed, in order to avoid overlapping with the source and target nodes.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -437,24 +285,12 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Overlapping.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/overlapping/overlapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Bezier
 
 Bezier segments are used to create curve segments and the curves are configurable either with the control points or with vectors.
 
 To create a bezier segment, the [`segment.type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Segments.html) is set as `bezier` and need to specify [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Segments.html) for the connector.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -465,22 +301,10 @@ To create a bezier segment, the [`segment.type`](https://help.syncfusion.com/cr/
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Vector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/vector/vector.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#point1) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#point2) properties of bezier segment enables to set the control points.
 
 The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#vector1) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#vector2) properties of bezier segment enable you to define the vectors.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -490,23 +314,11 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/points/points.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Points.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/points/points.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## How to customize Bezier Segment Thumb Size
 
 Bezier segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SegmentThumbShapes.html) property.
 To change the thumb size for all Bezier connectors, set the [`segmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SegmentThumbShapes.html) property in the diagram’s model.
 To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize)constraint, then set the desired [`segmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SegmentThumbShapes.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -516,16 +328,6 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/bezierThumbSize/bezier.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="bezier.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/bezierThumbSize/bezier.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Decorator
 
 * Starting and ending points of a connector can be decorated with some customizable shapes like arrows, circles, diamond, or path. The connection end points can be decorated with the [`sourceDecorator`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_SourceDecorator) and [`targetDecorator`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetDecorator) properties of the connector.
@@ -534,8 +336,6 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 * To create custom shape for source decorator, use [`pathData`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDecorator.html#Syncfusion_EJ2_Diagrams_DiagramDecorator_PathData) property. Similarly, to create custom shape for target decorator, use [`pathData`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDecorator.html#Syncfusion_EJ2_Diagrams_DiagramDecorator_PathData) property.
 
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -546,16 +346,6 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Srcdecorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/srcdecorator/srcdecorator.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Padding
 
@@ -565,8 +355,6 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 * The [`targetPadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_TargetPadding) property of connector defines space between the end point and the target node of the connector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/padding/tagHelper %}
@@ -575,16 +363,6 @@ Padding is used to leave the space between the Connector's end point and the obj
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Padding.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/padding/padding.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Flip
@@ -599,8 +377,6 @@ The flip types are as follows:
 
 * Both - `Both` is used to interchange the source point as target point and target point as source point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/flip/tagHelper %}
@@ -610,24 +386,12 @@ The flip types are as follows:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/flip/flip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
  N> The flip is not applicable when the connectors connect in nodes.
 
 ## Bridging
 
 Line bridging creates a bridge for lines to smartly cross over the other lines, at points of intersection. By default, [`bridgeDirection`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.BridgeDirection.html) is set to top. Depending upon the direction given bridging direction appears. Bridging can be enabled or disabled either with the `connector.constraints` or `diagram.constraints`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -637,16 +401,6 @@ Line bridging creates a bridge for lines to smartly cross over the other lines, 
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/bridging/bridging.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 N> You need to inject connector bridging module into the diagram.
@@ -659,8 +413,6 @@ Limitation: Bezier segments do not support bridging.
 
 Corner radius allows to create connectors with rounded corners. The radius of the rounded corner is set with the [`cornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_CornerRadius) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/cornerradius/tagHelper %}
@@ -669,16 +421,6 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/cornerradius/cornerradius.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Cornerradius.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/cornerradius/cornerradius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Appearance
@@ -691,8 +433,6 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 ## Segment appearance
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/style/tagHelper %}
@@ -701,16 +441,6 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/style/style.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Style.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/style/style.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Decorator appearance
@@ -721,8 +451,6 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 * To set the size for source and target decorator, use width and height property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/decorator/tagHelper %}
@@ -731,16 +459,6 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/decorator/decorator.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Decorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/decorator/decorator.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Interaction
@@ -755,8 +473,6 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 * The following code block shows how to create the diagram with specifying nodes, connectors, constraints, and necessary modules for line routing.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/linerouting/tagHelper %}
@@ -766,23 +482,8 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/linerouting/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Linerouting.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/linerouting/linerouting.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 * In some situations, automatic line routing enabled diagram needs to ignore a specific connector from automatic line routing. So, in this case, auto routing feature can be disabled to the specific connector using the [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html) property of the connector.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -793,27 +494,12 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/linerouting1/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Linerouting1.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/linerouting1/linerouting1.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Constraints
 
 * The [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html) property of connector allows to enable or disable certain features of connectors.
 
 * To enable or disable the constraints, refer [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -823,16 +509,6 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/constraints/constraints.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Constraints.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/constraints/constraints.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Custom properties
@@ -856,8 +532,6 @@ var connectors = {
 
 The connectors [`zIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConnector.html#Syncfusion_EJ2_Diagrams_DiagramConnector_ZIndex) property specifies the stack order of the connector. A connector with greater stack order is always in front of a connector with a lower stack order.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/zindex/tagHelper %}
@@ -866,16 +540,6 @@ The connectors [`zIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/zindex/zindex.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Zindex.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/zindex/zindex.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Undo/Redo support for connector segments
 
 The Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
@@ -891,8 +555,6 @@ This functionality ensures consistent editing behavior across all connector type
 
 The following example demonstrates undo and redo functionality for connector segments:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectors-segundo/tagHelper %}
@@ -901,16 +563,6 @@ The following example demonstrates undo and redo functionality for connector seg
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectors-segundo/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/connectors/connectors-segundo/segment.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ``` javascript
 function undo(){
     var diagram = document.getElementById("container").ej2_instances[0];

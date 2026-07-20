@@ -55,7 +55,7 @@ Participants can be displayed in two forms:
 
 #### Participant Stereotypes
 
-The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
+The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/angular/documentation/api/diagram/umlSequenceParticipantStereotype) enum defines the visual style of a participant. A stereotype helps show the role of a participant in the interaction.
 
 | Stereotype | Description | Shape |
 |---|---|---|
