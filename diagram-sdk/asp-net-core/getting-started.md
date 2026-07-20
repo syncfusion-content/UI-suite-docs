@@ -256,7 +256,7 @@ Run the application using the following command:
 dotnet run
 ```
 
-N> Ensure the terminal is in the project folder (e.g., `MyDiagramApp`) before running this command.
+N> Ensure the terminal is in the project folder (example: `MyDiagramApp`) before running this command.
 
 Alternatively, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) in Visual Studio.
 
