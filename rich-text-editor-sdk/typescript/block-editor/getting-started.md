@@ -58,7 +58,7 @@ npm install @syncfusion/ej2-tailwind3-theme --save
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/style.css`.
 
 ```css
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 ```
 
 I> To apply the application-specific styles correctly, import `./style.css` into **src/main.ts**, remove the default Vite styles from **src/style.css**, and keep the Block Editor styles shown above. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
@@ -82,7 +82,7 @@ blockEditor.appendTo('#blockeditor_default');
 
 {% highlight css tabtitle="style.css" %}
 
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 
 {% endhighlight %}
 

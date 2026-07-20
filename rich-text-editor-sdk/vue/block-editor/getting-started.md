@@ -72,7 +72,7 @@ Use a theme package version that is compatible with the Syncfusion Vue package v
 {% highlight html tabtitle="~/src/App.vue" %}
 
 <style>
-@import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 </style>
 
 {% endhighlight %}
