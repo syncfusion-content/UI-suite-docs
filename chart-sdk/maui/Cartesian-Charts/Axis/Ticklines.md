@@ -2,7 +2,7 @@
 layout: post
 title: Axis tick lines in .NET MAUI Cartesian Chart control | Syncfusion
 description: Learn here all about chart axis tick line and its customization in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
-platform: chart-sdk
+platform: maui
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui cartesian chart tick lines, .net maui cartesian chart tick customization, .net maui cartesian chart tickline guide, syncfusion maui cartesian chart tick lines, cartesian chart tick lines maui, .net maui cartesian chart axis tick lines, customize tick lines .net maui cartesian chart.

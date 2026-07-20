@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leaf Item Settings in .NET MAUI TreeMap | Syncfusion®
-description: Learn about leaf items in Syncfusion® .NET MAUI TreeMap, including key features and functionalities for effective and insightful TreeMap visualization.
+title: Leaf Item Settings in .NET MAUI TreeMap | Syncfusion<sup>&reg;</sup>
+description: Learn about leaf items in Syncfusion® .NET MAUI TreeMap, including key features and functionalities for effective and insightful treemap visualization.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
@@ -11,40 +11,32 @@ documentation: ug
 
 A leaf item in the TreeMap represents a visualized data element. It does not contain child items but may have a parent item if levels are specified in the TreeMap control. It also allows you to customize the spacing between items, stroke color, stroke width, text style, and text format option in the TreeMap control.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
-
-## Add Labels
+## Add labels
 
 To display text for the leaf items, utilize the [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) property within the [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) of [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). This property allows you to specify the path to the data property containing the text you want to display.
 
 {% tabs %}
-{% highlight xaml hl_lines="7 8 9" %}
+{% highlight XAML hl_lines="7 8 9" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+       <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
-{% highlight c# hl_lines="5"  %}
+{% highlight C# hl_lines="5"  %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country" };
@@ -54,39 +46,33 @@ this.Content = treeMap;
 {% endhighlight %}
 {% endtabs %}
 
-## Label Path
+## Label path
 
 The [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to display text for leaf items. This property enables you to specify the path to the data property containing the text you want to display.
 
 {% tabs %}
-{% highlight xaml hl_lines="7 8 9" %}
+{% highlight XAML hl_lines="7 8 9" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5" %}
+{% highlight C# hl_lines="5" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country" };
@@ -94,7 +80,7 @@ treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brus
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -103,8 +89,9 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
+
 {% endhighlight %}
 {% highlight c# tabtitle="PopulationViewModel.cs" %}
 
@@ -148,7 +135,7 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-![.NET MAUI TreeMap leaf item label path](images/leaf-item-settings/leaf-item-label-path.png)
+ ![leaf-item-label-path-in-maui-tree-map](images/leaf-item-settings/leaf-item-label-path.png)
 
 ## Customize leaf item appearance
 
@@ -156,38 +143,32 @@ The leaf item appearance customization can be achieved by using the [Spacing](ht
 
 ### Customize leaf item appearance using spacing
 
-The [Spacing](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Spacing) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to customize the spacing between the TreeMap leaf items. The default value is `1`.
+The leaf item appearance customization can be achieved by using [Spacing](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Spacing) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). It is used to customize the spacing between the tree map leaf items and its default value is `1.`
 
 {% tabs %}
-{% highlight xaml hl_lines="9" %}
+{% highlight XAML hl_lines="9" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"
-                                             Spacing="3"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"
+                                         Spacing="3"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5" %}
+{% highlight C# hl_lines="5" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country", Spacing = 3 };
@@ -195,7 +176,7 @@ treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brus
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -204,7 +185,7 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
 
 {% endhighlight %}
@@ -250,42 +231,36 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-![.NET MAUI TreeMap leaf item spacing](images/leaf-item-settings/leaf-item-spacing.png)
+ ![leaf-item-spacing-in-maui-tree-map](images/leaf-item-settings/leaf-item-spacing.png)
 
 ### Customize leaf item appearance using stroke
 
-The [Stroke](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Stroke) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to customize the stroke color for the TreeMap leaf items. The default value of the [Stroke](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Stroke) property is `Transparent`.
+The leaf item appearance customization can be achieved by using the [Stroke](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Stroke) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). It is used to customize the stroke color for the tree map leaf items. The default value of [Stroke](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_Stroke) property is `Transparent.`
 
 {% tabs %}
-{% highlight xaml hl_lines="9" %}
+{% highlight XAML hl_lines="9" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"
-                                             Stroke="Red"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"
+                                         Stroke="Red"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5" %}
+{% highlight C# hl_lines="5" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country", Stroke = Brush.Red };
@@ -293,7 +268,7 @@ treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brus
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -302,7 +277,7 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
 
 {% endhighlight %}
@@ -348,43 +323,37 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-![.NET MAUI TreeMap leaf item stroke](images/leaf-item-settings/leaf-item-stroke.png)
+ ![leaf-item-stroke-in-maui-tree-map](images/leaf-item-settings/leaf-item-stroke.png)
 
 ### Customize leaf item appearance using stroke width
 
-The [StrokeWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_StrokeWidth) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to customize the width of the stroke for the TreeMap leaf items. The default value of the [StrokeWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_StrokeWidth) property is `1`.
+The leaf item appearance customization can be achieved by using the [StrokeWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_StrokeWidth) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). It is used to customize the width of the stroke for the tree map leaf items. The default value of [StrokeWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_StrokeWidth) property is `1.`
 
 {% tabs %}
-{% highlight xaml hl_lines="10" %}
+{% highlight XAML hl_lines="10" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"
-                                             Stroke="Red"
-                                             StrokeWidth="2"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"
+                                         Stroke="Red"
+                                         StrokeWidth="2"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5" %}
+{% highlight C# hl_lines="5" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country", Stroke = Brush.Red, StrokeWidth = 2 };
@@ -392,7 +361,7 @@ treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brus
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -401,7 +370,7 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
 
 {% endhighlight %}
@@ -447,42 +416,36 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-![.NET MAUI TreeMap leaf item stroke width](images/leaf-item-settings/leaf-item-stroke-width.png)
+ ![leaf-item-stroke-width-in-maui-tree-map](images/leaf-item-settings/leaf-item-stroke-width.png)
 
 ### Customize leaf item appearance using text format option
 
-The [TextFormatOption](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextFormatOption) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to alter the text appearance of the leaf items. This property is applicable only when [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) is specified, and defaults to [Trim](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Trim). Other options include [Wrap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Wrap) or [Hide](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Hide).
+The leaf item appearance customization can be achieved by using the [TextFormatOption](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextFormatOption) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). This property, applicable only when [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) is specified, defaults to [Trim](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Trim). Options include [Wrap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Wrap) or [Hide](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TextFormatOption.html#Syncfusion_Maui_TreeMap_TextFormatOption_Hide) for altering text appearance.
 
 {% tabs %}
-{% highlight xaml hl_lines="9" %}
+{% highlight XAML hl_lines="9" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country"
-                                             TextFormatOption="Hide"/>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country"
+                                         TextFormatOption="Hide"/>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5" %}
+{% highlight C# hl_lines="5" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings() { LabelPath = "Country", TextFormatOption = TextFormatOption.Hide };
@@ -490,7 +453,7 @@ treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brus
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -499,7 +462,7 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
 
 {% endhighlight %}
@@ -545,47 +508,41 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-![.NET MAUI TreeMap leaf item text format option](images/leaf-item-settings/leaf-item-text-format-option.png)
+ ![leaf-item-text-format-option-in-maui-tree-map](images/leaf-item-settings/leaf-item-text-format-option.png)
 
 ### Customize leaf item appearance using style
 
-The [TextStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextStyle) property of [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) is used to customize the [TextColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_TextColor), [FontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontSize), [FontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontFamily), and [FontAttributes](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontAttributes) of the TreeMap item text.
+The leaf item appearance customization can be achieved by using the [TextStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextStyle) property of  [LeafItemSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LeafItemSettings) in [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html). It is used to customize the [TextColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_TextColor), [FontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontSize), [FontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontFamily), and [FontAttributes](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapTextStyle.html#Syncfusion_Maui_TreeMap_TreeMapTextStyle_FontAttributes) of the treemap item text.
 
 {% tabs %}
-{% highlight xaml hl_lines="9 10 11 12 13" %}
+{% highlight XAML hl_lines="9 10 11 12 13" %}
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
-             xmlns:local="clr-namespace:TreeMapSample">
-    <ContentPage.BindingContext>
+<treemap:SfTreeMap x:Name="treeMap"
+                   DataSource="{Binding PopulationDetails}"
+                   PrimaryValuePath="Population">
+    <treemap:SfTreeMap.BindingContext>
         <local:PopulationViewModel />
-    </ContentPage.BindingContext>
-    <treemap:SfTreeMap x:Name="treeMap"
-                       DataSource="{Binding PopulationDetails}"
-                       PrimaryValuePath="Population">
-        <treemap:SfTreeMap.LeafItemSettings>
-            <treemap:TreeMapLeafItemSettings LabelPath="Country">
-                <treemap:TreeMapLeafItemSettings.TextStyle>
-                    <treemap:TreeMapTextStyle TextColor="Red"
-                                              FontSize="14"
-                                              FontAttributes="Italic"/>
-                </treemap:TreeMapLeafItemSettings.TextStyle>
-            </treemap:TreeMapLeafItemSettings>
-        </treemap:SfTreeMap.LeafItemSettings>
-        <treemap:SfTreeMap.LeafItemBrushSettings>
-           <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
-        </treemap:SfTreeMap.LeafItemBrushSettings>
-    </treemap:SfTreeMap>
-</ContentPage>
+    </treemap:SfTreeMap.BindingContext>
+    <treemap:SfTreeMap.LeafItemSettings>
+        <treemap:TreeMapLeafItemSettings LabelPath="Country">
+            <treemap:TreeMapLeafItemSettings.TextStyle>
+                <treemap:TreeMapTextStyle TextColor="Red"
+                                          FontSize="14"
+                                          FontAttributes="Italic"/>
+            </treemap:TreeMapLeafItemSettings.TextStyle>
+        </treemap:TreeMapLeafItemSettings>
+    </treemap:SfTreeMap.LeafItemSettings>
+    <treemap:SfTreeMap.LeafItemBrushSettings>
+        <treemap:TreeMapUniformBrushSettings Brush="Orange"/>
+    </treemap:SfTreeMap.LeafItemBrushSettings>
+</treemap:SfTreeMap>
 
 {% endhighlight %}
 
-{% highlight c# hl_lines="5 6 7 8 9" %}
+{% highlight C# hl_lines="5 6 7 8 9" %}
 
 SfTreeMap treeMap = new SfTreeMap();
 PopulationViewModel viewModel = new PopulationViewModel();
-treeMap.BindingContext = viewModel;
 treeMap.DataSource = viewModel.PopulationDetails;
 treeMap.PrimaryValuePath = "Population";
 treeMap.LeafItemSettings = new TreeMapLeafItemSettings()
@@ -593,11 +550,12 @@ treeMap.LeafItemSettings = new TreeMapLeafItemSettings()
     LabelPath = "Country",
     TextStyle = new TreeMapTextStyle() { TextColor = Colors.Red, FontSize = 14, FontAttributes = FontAttributes.Italic },
 };
+
 treeMap.LeafItemBrushSettings = new TreeMapUniformBrushSettings() { Brush = Brush.Orange };
 this.Content = treeMap;
 
 {% endhighlight %}
-{% highlight c# tabtitle="PopulationDetails.cs" %}
+{% highlight C# tabtitle="PopulationDetails.cs" %}
 
 /// <summary>    
 /// Represents the custom data properties.
@@ -606,7 +564,7 @@ public class PopulationDetails
 {
     public string Country { get; set; }
     public string Continent { get; set; }
-    public long Population { get; set; }
+    public int Population { get; set; }
 }
 
 {% endhighlight %}
@@ -652,6 +610,6 @@ public class PopulationViewModel
 {% endhighlight %}
 {% endtabs %}
 
-N> The [TextStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextStyle) and [TextFormatOption](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_TextFormatOption) properties are applicable only when the [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) property is specified.
+N> This property is applicable to only when the [LabelPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLeafItemSettings.html#Syncfusion_Maui_TreeMap_TreeMapLeafItemSettings_LabelPath) property is specified.
 
-![.NET MAUI TreeMap leaf item text style](images/leaf-item-settings/leaf-item-text-style.png)
+ ![leaf-item-text-style-in-maui-tree-map](images/leaf-item-settings/leaf-item-text-style.png)
