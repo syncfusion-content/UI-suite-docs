@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: Collaborative Editing in ASP.NET MVC Diagram | Syncfusion
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion® ASP.NET MVC Diagram.
+description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in SyncfusionÂ® ASP.NET MVC Diagram.
 control: Diagram
 documentation: ug
 platform: diagram-sdk
@@ -27,11 +27,7 @@ To create an ASP.NET MVC application, follow the steps outlined in the ASP.NET M
 Open the NuGet Package Manager and install the following packages.
 
 * Microsoft.AspNetCore.SignalR.Client
-{% if page.publishingplatform == "aspnet-core" %}
-* Syncfusion.EJ2.AspNet.Core
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 * Syncfusion.EJ2.MVC5
-{% endif %}
 
 ## Configure SignalR service in ASP.NET MVC application
 
@@ -43,22 +39,11 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 * Join a SignalR group by calling `JoinDiagram(roomName)` after connecting. This ensures updates are shared only with users in the same diagram session.
 * Refer to Create ASP.NET MVC [Simple Diagram](../getting-started.md)
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/config/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/config/razor %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 >**Notes:**
 >* Use a unique `roomName` per diagram (e.g., a diagram ID) to isolate sessions.
@@ -75,22 +60,11 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 * Each remote user listens for ReceiveData and applies the incoming changes with [setDiagramUpdates](), keeping their view synchronized without reloading the full diagram.
 * Enable the `enableCollaborativeEditing` property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/realtimeChanges/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/realtimeChanges/razor %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Conflict policy (optimistic concurrency) in ASP.NET MVC application
 
@@ -98,19 +72,8 @@ To maintain consistency during collaborative editing, each user applies incoming
 
 Add the following code in the ASP.NET MVC application:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/conflict/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/collaborative-editing/conflict/razor %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

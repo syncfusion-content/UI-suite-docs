@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Ports in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Ports in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Ports in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Ports in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Ports
 publishingplatform: diagram-sdk
@@ -17,7 +17,7 @@ Diagram provides support to define custom ports for making connections.
 
 <!-- markdownlint-disable MD033 -->
 
-When a connector is connected between two nodes, its end points are automatically docked to the node’s nearest boundary.
+When a connector is connected between two nodes, its end points are automatically docked to the nodeâ€™s nearest boundary.
 
 ![Port to Port](images/port2.png)
 
@@ -29,27 +29,13 @@ Ports act as the connection points of the node and allows to create connections 
 
 ## Add ports when initializing nodes
 
-To add a connection port, define the port object and add it to node’s ports collection. The `offset` property of port accepts an object of fractions and used to determine the position of ports.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+To add a connection port, define the port object and add it to nodeâ€™s ports collection. The `offset` property of port accepts an object of fractions and used to determine the position of ports.
 
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -57,27 +43,13 @@ To add a connection port, define the port object and add it to node’s ports co
 
 Add ports at runtime by using the client-side method [`addPorts`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#addports).
 
-The port’s ID property is used to define the unique ID for the port and its further used to find the port at runtime. If ID is not set, then default ID is automatically set.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/run.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+The portâ€™s ID property is used to define the unique ID for the port and its further used to find the port at runtime. If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -125,25 +97,11 @@ diagram.addPorts(diagram.nodes[0], port);
 
 Remove ports at runtime by using client-side method [`removePorts`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#removeports).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Remove.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/remove.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Remove.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/remove.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -166,25 +124,11 @@ diagram.removePorts(diagram.nodes[0], ports);
 
 You can change any port properties at runtime and update it through the client-side method [`dataBind`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#databind).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -208,25 +152,11 @@ diagram.dataBind();
 
 * The ports [`visibility`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramPort.html#Syncfusion_EJ2_Diagrams_DiagramPort_Visibility) property allows to define, when the port should be visible.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/appear.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Appear.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -280,19 +210,6 @@ You can also remove a port using the same Ctrl + Click interaction, but only if 
 
 The following example shows how to enable automatic port creation:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/razor %}
@@ -301,6 +218,5 @@ The following example shows how to enable automatic port creation:
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Automatic Port Creation](./gifs/autoport.gif)

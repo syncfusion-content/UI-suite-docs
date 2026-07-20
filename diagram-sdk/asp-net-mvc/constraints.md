@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Constraints in ASP.NET MVC Diagram Component | Syncfusion®
-description: Learn here all about Constraints in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Constraints in ASP.NET MVC Diagram Component | SyncfusionÂ®
+description: Learn here all about Constraints in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Constraints
 publishingplatform: diagram-sdk
@@ -25,25 +25,11 @@ Diagram constraints allows to enable or disable the following behaviors:
 * Undo/redo
 * Tooltip
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -62,25 +48,11 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 * Shadow
 * Tooltip
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -97,25 +69,11 @@ Connector constraints allows to enable or disable certain behaviors of connector
 * Tooltip
 * Bridging
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Connector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/connector.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Connector.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/connector.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -128,25 +86,11 @@ You can enable or disable certain behaviors of port. They are as follows:
 * Connect
 * ConnectOnDrag
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/port.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -156,25 +100,11 @@ For more information about port constraints, refer to [`PortConstraints`](https:
 
 You can enable or disable read-only mode for the annotations by using the annotation constraints.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Annotation.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -188,25 +118,11 @@ Selector visually represents the selected elements with certain editable thumbs.
 * Rotator
 * User handles
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/selector.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Selector.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/selector.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -221,25 +137,11 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 * Snap to either horizontal or vertical gridlines.
 * Snap to both horizontal and vertical gridlines.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/snap.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Snap.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -253,25 +155,11 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 * Diagram sized boundary
 * Page sized boundary
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/page.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Page.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -281,25 +169,11 @@ For more information about selector constraints, refer to [`BoundaryConstraints`
 
 Some of the behaviors can be defined through both the specific object (node/connector) and diagram. When the behaviors are contradictorily defined through both, the actual behavior is set through inherit options.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/bridging.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Bridging.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -309,7 +183,7 @@ Bitwise operations are used to manipulate the flagged enumerations [enum]. In th
 
 ## Add operation
 
-You can add or enable multiple values at a time by using Bitwise ‘|’ (OR) operator.
+You can add or enable multiple values at a time by using Bitwise â€˜|â€™ (OR) operator.
 
 ```typescript
 node.constraints = NodeConstraints.Select | NodeConstraints.Rotate;
@@ -319,7 +193,7 @@ In the previous example, you can do both the selection and rotation operation.
 
 ## Remove Operation
 
-You can remove or disable values by using Bitwise ‘&~’ (XOR) operator.
+You can remove or disable values by using Bitwise â€˜&~â€™ (XOR) operator.
 
 ```typescript
 node.constraints = node.constraints & ~(NodeConstraints.Rotate);
@@ -329,7 +203,7 @@ In the previous example, rotation is disabled but other constraints are enabled.
 
 ## Check operation
 
-You can check any value by using Bitwise ‘&’ (AND) operator.
+You can check any value by using Bitwise â€˜&â€™ (AND) operator.
 
 ```typescript
 if ((node.constraints & (NodeConstraints.Rotate)) == (NodeConstraints.Rotate));

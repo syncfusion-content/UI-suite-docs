@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Nodes in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Nodes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Nodes in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Nodes in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Nodes
 publishingplatform: diagram-sdk
@@ -25,51 +25,23 @@ A node can be created and added to the diagram, either programmatically or inter
 
 To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html) object and add that to nodes collection of the diagram model.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Add/Remove node at runtime
 
 * Nodes can be added at runtime by using public method, add and can be removed at runtime by using public method, remove. On adding node at runtime, the nodes collection is changed and the [`collectionChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_CollectionChange) event will trigger.
 
-* The node’s ID property is used to define the name of the node and its further used to find the node at runtime and do any customization.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/run/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/run/run.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The nodeâ€™s ID property is used to define the name of the node and its further used to find the node at runtime and do any customization.
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -84,25 +56,11 @@ diagram.add(node);
 
 * The collection of nodes can be dynamically added using `addElements` method.Each time an element is added to the diagram canvas, the `collectionChange` event will be triggered.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/nodescollection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Nodescollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/nodescollection/nodescollection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Nodescollection.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/nodescollection/nodescollection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Add node from palette
 
@@ -124,9 +82,9 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 ## Position
 
-* Position of a node is controlled by using its [`offsetX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetX) and [`offsetY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetY) properties. By default, these offset properties represent the distance between the origin of the diagram’s page and node’s center point.
+* Position of a node is controlled by using its [`offsetX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetX) and [`offsetY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_OffsetY) properties. By default, these offset properties represent the distance between the origin of the diagramâ€™s page and nodeâ€™s center point.
 
-* You may expect this offset values to represent the distance between page origin and node’s top-left corner instead of center. The Pivot property helps to solve this problem. Default value of node’s [`pivot`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Pivot) point is (0.5, 0.5), that means center of the node.
+* You may expect this offset values to represent the distance between page origin and nodeâ€™s top-left corner instead of center. The Pivot property helps to solve this problem. Default value of nodeâ€™s [`pivot`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Pivot) point is (0.5, 0.5), that means center of the node.
 
 * The size of the node can be controlled by using its [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Height) properties.
 
@@ -134,29 +92,15 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 | Pivot | Offset |
 |-------- | -------- |
-| (0.5,0.5)| offsetX and offsetY values are considered as the node’s center point. |
+| (0.5,0.5)| offsetX and offsetY values are considered as the nodeâ€™s center point. |
 | (0,0) | offsetX and offsetY values are considered as the top-left corner of the node. |
 | (1,1) | offsetX and offsetY values are considered as the bottom-right corner of the node. |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Position.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Flip
 
@@ -170,25 +114,11 @@ The flip types are as follows:
 
 * Both - `Both` which involves both vertical and horizontal changes of the element.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/flip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/flip/flip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Flip.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/flip/flip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -200,25 +130,11 @@ N> The flip is also applicable for group and BPMN shapes.
 
 * The [`visible`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Visible) property of the node enables or disables the visibility of the node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/appear/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/appear/appear.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Appear.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Customize the style of main node on multi-selection.
 
@@ -242,7 +158,7 @@ The [`gradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Dia
 
 The gradient stop property defines the color and a position, where the previous color transition ends and a new color transition starts.
 
-The gradient stop’s opacity property defines the transparency level of the region.
+The gradient stopâ€™s opacity property defines the transparency level of the region.
 
 There are two types of gradients as follows:
 
@@ -254,101 +170,45 @@ There are two types of gradients as follows:
 
 * [`LinearGradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.GradientType.html) defines a smooth transition between a set of colors (so-called stops) on a line.
 
-* A linear gradient’s x1, y1, x2, y2 properties are used to define the position (relative to the node) of the rectangular region that needs to be painted.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/linearGrad/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LinearGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/linearGrad/linearGrad.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* A linear gradientâ€™s x1, y1, x2, y2 properties are used to define the position (relative to the node) of the rectangular region that needs to be painted.
 
 {% tabs %}
 {% highlight c# tabtitle="LinearGrad.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/linearGrad/linearGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Radial gradient
 
 * [`RadialGradient`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.GradientType.html) defines a smooth transition between stops on a circle.
 
-* A radial gradient’s cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/radialGrad/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="RadialGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/radialGrad/radialGrad.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* A radial gradientâ€™s cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight c# tabtitle="RadialGrad.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/radialGrad/radialGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Shadow
 
 Diagram provides support to add [`shadow`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Shadow) effect to a node that is disabled, by default. It can be enabled with the constraints property of the node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shadow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow/shadow.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Shadow.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow/shadow.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Customizing shadow
 
 The angle, distance, and opacity of the shadow can be customized with the shadow property of the node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow2/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shadow2.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow2/shadow2.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Shadow2.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/shadow2/shadow2.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Icon
 
@@ -358,27 +218,13 @@ N> Icon can be created only when the node has outEdges.
 
 * To explore the properties of expand and collapse icon, refer to [`expandIcon`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_ExpandIcon) and [`collapseIcon`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_CollapseIcon).
 
-* The expandIcon’s and collapseIcon’s shape properties allows to define the shape of the icon.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/icon/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Icon.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/icon/icon.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The expandIconâ€™s and collapseIconâ€™s shape properties allows to define the shape of the icon.
 
 {% tabs %}
 {% highlight c# tabtitle="Icon.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/icon/icon.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Customizing expand icon
 
@@ -420,25 +266,11 @@ The nodes z-order property specifies the stack order of the node. A node with gr
 
 Node has the InEdges and OutEdges read-only property. In this property, you can find what are all the connectors that are connected to the node, and then you can find these connectors by using the [`getObject`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getobject) method in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/dataflow/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dataflow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/dataflow/dataflow.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Dataflow.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/dataflow/dataflow.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## See Also
 

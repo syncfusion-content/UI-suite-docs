@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Automatic Layout in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Automatic Layout in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Automatic Layout in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Automatic Layout in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Automatic Layout
 publishingplatform: diagram-sdk
@@ -26,25 +26,11 @@ Diagram provides support to auto-arrange the nodes in the diagram area that is r
 
 The hierarchical tree layout arranges nodes in a tree-like structure, where the nodes in the hierarchical layout may have multiple parents. There is no need to specify the layout root. To arrange the nodes in a hierarchical structure, specify the layout [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.LayoutType.html) as `HierarchicalTree`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Hierarchical.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Hierarchical.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -84,25 +70,11 @@ The radial tree layout arranges nodes on a virtual concentric circle around a ro
 
 To arrange nodes in a radial tree structure, set the [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.LayoutType.html) of the layout as `RadialTree`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Radial.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/radial.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Radial.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/radial.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -110,25 +82,11 @@ To arrange nodes in a radial tree structure, set the [`type`](https://help.syncf
 
 An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Type) of layout should be set as an `OrganizationalChart`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -145,7 +103,7 @@ An organizational chart is a diagram that displays the structure of an organizat
         }
 ```
 
-Organizational chart layout starts parsing from root and iterate through all its child elements. The `getLayoutInfo` method provides necessary information of a node’s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
+Organizational chart layout starts parsing from root and iterate through all its child elements. The `getLayoutInfo` method provides necessary information of a nodeâ€™s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
 
 ### GetLayoutInfo
 
@@ -154,25 +112,11 @@ Set chart orientations, chart types, and offset to be left between parent and ch
 * node: Parent node to that options are to be customized.
 * options: Object to set the customizable properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -186,7 +130,7 @@ Set chart orientations, chart types, and offset to be left between parent and ch
 
 ```
 
-The following table illustrates the properties that “options” argument takes.
+The following table illustrates the properties that â€œoptionsâ€ argument takes.
 
 | Property | Description | Default Value |
 | -------- | ----------- | ------------- |
@@ -211,25 +155,11 @@ The following table illustrates the different chart orientations and chart types
 ||Right|Arranges the children vertically at the right side of the parent.|![Vertical Right](images/vright.jpg)|
 ||Alternate|Arranges the children vertically at both left and right sides of the parent.|![Vertical Alternate](images/vAlternate.jpg)|
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -245,27 +175,13 @@ The following table illustrates the different chart orientations and chart types
 
 ### Assistant
 
-Assistants are child item that have a different relationship with the parent node. They are laid out in a dedicated part of the tree. A node can be specified as an assistant of its parent by adding it to the `assistants` property of the argument “options”.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+Assistants are child item that have a different relationship with the parent node. They are laid out in a dedicated part of the tree. A node can be specified as an assistant of its parent by adding it to the `assistants` property of the argument â€œoptionsâ€.
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -287,27 +203,13 @@ Assistants are child item that have a different relationship with the parent nod
 
 The symmetric layout has been formed using nodes position by closer together or pushing them further apart. This is repeated iteratively until the system comes to an equilibrium state.
 
-The layout’s [`springLength`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringLength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layout’s [`springFactor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringFactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layout’s [`maxIteration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_MaxIteration).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Symmetric.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/symmetric.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+The layoutâ€™s [`springLength`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringLength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layoutâ€™s [`springFactor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_SpringFactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layoutâ€™s [`maxIteration`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_MaxIteration).
 
 {% tabs %}
 {% highlight c# tabtitle="Symmetric.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/symmetric.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Mind Map layout
 
@@ -336,49 +238,21 @@ N> If you want to use mind map layout in diagram, you need to inject MindMap in 
 
 The following code example illustrates how to create an mindmap layout.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="MindMap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/mindMap.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="MindMap.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/mindMap.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Complex hierarchical tree
 
 Complex hierarchical tree layout is the extended version of the hierarchical tree layout. The child has two or more parents. To create a complex hierarchical tree, the [`type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.LayoutType.html) of layout should be set as `ComplexHierarchicalTree`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="ComplexHierarchicalTree.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="ComplexHierarchicalTree.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -435,25 +309,11 @@ Diagram provides support to align the layout within any custom rectangular area.
 
 The layout can be aligned anywhere over the layout bounds/viewport using the [`horizontalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.HorizontalAlignment.html) and [`verticalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.VerticalAlignment.html) properties of the layout.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LayoutAlign.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="LayoutAlign.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -465,25 +325,11 @@ Layout provides support to add space horizontally and vertically between the nod
 
 Layout provides support to add some blank space between the layout bounds/viewport and the layout. The [`margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.LayoutMarginLayout.html) property of the layout allows to set the blank space.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LayoutMargin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="LayoutMargin.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -502,25 +348,11 @@ Diagram provides support to customize the  [`orientation`](https://help.syncfusi
 
 N> In the diagram the default orientation is TopToBottom.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/orientation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Orientation.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -528,51 +360,23 @@ N> In the diagram the default orientation is TopToBottom.
 
 Layout provides support to arrange the nodes with reference to the position of a fixed node and set it to the [`fixedNode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_FixedNode) of the layout property. This is helpful when you try to expand or collapse a node. It might be expected that the position of the double-clicked node should not be changed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="FixedNode.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="FixedNode.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Expand and collapse
 
-Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpanded property allows you to expand or collapse its children.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="ExpandCollapse.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+Diagram allows to expand/collapse the subtrees of a layout. The nodeâ€™s isExpanded property allows you to expand or collapse its children.
 
 {% tabs %}
 {% highlight c# tabtitle="ExpandCollapse.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -616,25 +420,11 @@ Diagram allows to refresh the layout at runtime. To refresh the layout, refer to
 
 The setNodeTemplate function is provided for the purpose of customizing nodes. It will be called for each node on node initialization. In this function, the node style and its properties can be customized and can bind the custom JSON with node.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="SetNodeTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="SetNodeTemplate.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

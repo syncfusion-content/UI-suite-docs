@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Symbol Palette in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Symbol Palette in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Symbol Palette in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Symbol Palette in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Symbol Palette
 publishingplatform: diagram-sdk
@@ -11,31 +11,17 @@ documentation: ug
 
 # Symbol Palette in Diagram
 
-The **SymbolPalette** displays a collection of palettes. The palette shows a set of nodes and connectors. It allows to drag and drop the nodes and connectors into the diagram.
+TheÂ **SymbolPalette**Â displays a collection of palettes. The palette shows a set of nodes and connectors. It allows to drag and drop the nodes and connectors into the diagram.
 
 ## Create symbol palette
 
 The [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_Height) properties of the symbol palette allows to define the size of the symbol palette.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/palette.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Palette.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Add palettes to SymbolPalette
 
@@ -45,25 +31,11 @@ The collection of predefined symbols can be added in palettes using the [`symbol
 
 To initialize a palette, define a JSON object with the property [`ID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalettePalette.html#Syncfusion_EJ2_Diagrams_SymbolPalettePalette_Id) that is unique ID is set to the palettes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Symbols.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Template-based symbols
 
@@ -76,25 +48,11 @@ The Symbol Palette supports the creation of complex nodes using HTML or SVG temp
 
 Templates can be defined either as strings or functions and assigned to the node's `content` property. Function-based templates offer the flexibility to generate dynamic content based on node-specific properties or external data sources.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="palette.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Customize the palette header
 
@@ -112,25 +70,11 @@ The [`description`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 
 Also, any HTML element into a palette header can be embedded by defining the `getSymbolInfo` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Symbols.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -165,25 +109,11 @@ Also, any HTML element into a palette header can be embedded by defining the `ge
 
 The symbol palette panel can be restricted from getting expanded. The `cancel` argument of the `paletteExpanding` property defines whether the palette's panel should be expanded or collapsed. By default, the panel is expanded. This restriction can be done for each of the palettes in the symbol palette as desired. In the following code example the basic shapes palette is restricted from getting collapsed whereas the swimlane shapes palette can be expanded or collapsed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Restrict.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Restrict.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -205,25 +135,11 @@ The symbol palette panel can be restricted from getting expanded. The `cancel` a
 
 The [`fit`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolInfo) property defines whether the symbol has to be fit inside the size, that is defined by the symbol palette. For example, when you resize the rectangle in the symbol, ratio of the rectangle size has to be maintained rather changing into square shape.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Fit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/fit.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Fit.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/fit.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -245,25 +161,11 @@ The [`fit`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams
 
 The size of the individual symbol can be customized. The [`symbolWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolWidth) and  [`symbolHeight`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_SymbolHeight) properties of node enables to define the size of the symbols.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Margin.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/margin.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -273,44 +175,17 @@ The [`symbolMargin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2
 
 The symbol preview size of the palette items can be customized using [`symbolPreview`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html). The [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Width) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Height) properties of SymbolPalette enables to define the preview size to all the symbol palette items. The [`offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPaletteSymbolPreview.html#Syncfusion_EJ2_Diagrams_SymbolPaletteSymbolPreview_Offset) of the dragging helper relative to the mouse cursor.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Preview.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/preview.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Preview.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/preview.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Default settings
 
 While adding more number of symbols such as nodes and connectors to the palette, define the default settings for those objects through the [`getNodeDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetNodeDefaults) and the [`getConnectorDefaults`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.SymbolPalette.html#Syncfusion_EJ2_Diagrams_SymbolPalette_GetConnectorDefaults) properties of diagram allows to define the default settings for nodes and connectors.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -320,7 +195,6 @@ While adding more number of symbols such as nodes and connectors to the palette,
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -352,25 +226,11 @@ function getSymbolInfo(symbol) {
 The diagram provides support to add symbol description below each symbol of a palette. This descriptive representation of each symbol will enhance the details of the symbol visually. The height and width of the symbol description can also be set individually.
 * The property `getSymbolInfo` can be used to add the symbol description at runtime.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/description.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/description.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -418,25 +278,11 @@ To customize the tooltips for symbols in the symbol palette, assign a custom too
 
 Here, the code provided below demonstrates how to define tooltip content to symbols within a symbol palette.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ### How to enable or disable the default tooltip for shapes in the symbol palette
@@ -445,25 +291,11 @@ By default, the symbol ID is displayed as a tooltip when hovering over a symbol 
 
 The following example demonstrates how to configure selective tooltip display:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ```javascript
 

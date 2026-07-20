@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Group in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Group in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Group in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Group in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Group
 publishingplatform: diagram-sdk
@@ -19,35 +19,21 @@ Group is used to cluster multiple nodes and connectors into a single element. It
 
 A group can be added to the diagram model through [`nodes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html) collection. To define an object as group, add the child objects to the [`children`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Children) collection of the group.
 
-* The [`padding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Padding) property of a group node defines the spacing between the group node’s edges and its children.
+* The [`padding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Padding) property of a group node defines the spacing between the group nodeâ€™s edges and its children.
 
 * While creating group, its child node needs to be declared before the group declaration.
 
 * Add a node to the existing group child by using the `diagram.group` method.
 
-* The group’s `diagram.unGroup` method is used to define whether the group can be ungrouped or not.
+* The groupâ€™s `diagram.unGroup` method is used to define whether the group can be ungrouped or not.
 
 * A group can be added into a child of another group.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Group.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -58,25 +44,11 @@ diagram.selectAll();
 diagram.group();
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Ungroup.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/ungroup.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Ungroup.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/ungroup.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -91,25 +63,11 @@ diagram.unGroup();
 
 A group node can be added at runtime by using the client-side method `diagram.add`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/run.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -128,25 +86,11 @@ diagram.add(group);
 
 * The collection of group nodes can be dynamically added using `addElements` method.Each time an element is added to the diagram canvas, the `collectionChange` event will be triggered.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="GroupCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/groupCollection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="GroupCollection.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/groupCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ## Container
@@ -171,27 +115,13 @@ Containers are used to automatically measure and arrange the size and position o
 
 * Stack panel is used to arrange its children in a single line or stack order, either vertically or horizontally.
 
-* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panel’s [`orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) is vertical.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stack.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/stack.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* It controls spacing by setting margin properties of child and padding properties of group. By default, a stack panelâ€™s [`orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) is vertical.
 
 {% tabs %}
 {% highlight c# tabtitle="Stack.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/stack.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -244,7 +174,7 @@ function getNodeDefaults (node) {
 | -------- | -------- |
 | It arranges the child elements based on the child elements position and size properties. | Each container has a predefined behavior to measure and arrange its child elements. Canvas and stack containers are supported in the diagram. |
 | The Padding, Min, and Max Size properties are not applicable for basic group. | It is applicable for container. |
-| The Children’s margin and alignment properties are not applicable for basic group. |  It is applicable for container. |
+| The Childrenâ€™s margin and alignment properties are not applicable for basic group. |  It is applicable for container. |
 
 ## Interaction
 
