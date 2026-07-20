@@ -66,41 +66,31 @@ or
 yarn add @syncfusion/ej2-vue-gantt
 ```
 
-## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
+## Adding CSS reference
 
-In this article, the `Tailwind3` theme is applied using CSS styles, which are available in installed packages. Add the necessary `Tailwind3` CSS imports to the `<style>` section of the **src/App.vue** file. The same styles are included in the complete `App.vue` example below.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt Chart components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
+
+Install the **Tailwind 3** theme package using the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+npm install @syncfusion/ej2-tailwind3-theme --save
+
+{% endhighlight %}
+{% endtabs %}
+
+Then add the following CSS reference to the **src/App.vue** file:
 
 {% tabs %}
 {% highlight html tabtitle="App.vue" %}
 
 <style>
-@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
+    @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/gantt/index.css";
 </style>
 
 {% endhighlight %}
 {% endtabs %}
-
-> **Note:** When using features like editing, toolbar, filtering, or dialogs, you need to import additional component styles:
->
-> ```css
-> /* For editing, toolbar, and dialog features */
-> @import "../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css";
-> @import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
-> @import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
-> @import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
-> @import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
-> @import "../node_modules/@syncfusion/ej2-notifications/styles/tailwind3.css";
->
-> /* For rich text editor in dialog notes tab */
-> @import "../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css";
-> ```
-
-> **Important** The order of CSS imports matters. Import base styles first, then component-specific styles. Missing CSS imports can result in misaligned layouts, buttons without styling, or missing visual elements in popups and dialogs.
 
 ## Create sample data
 
@@ -235,12 +225,7 @@ name: "App",
 };
 </script>
 <style>
-@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-gantt/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-treegrid/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-layouts/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
+    @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/gantt/index.css";
 </style>
 
 {% endhighlight %}
