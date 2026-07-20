@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Zoom pan in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Zoompan in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Zoom pan in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Zoompan in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Zoompan
 publishingplatform: diagram-sdk
@@ -25,25 +25,11 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 | Progress | When the mouse is in motion the status is notified as progress.|
 | Completed | When panning is stopped the status is notified with completed.|
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Panstatus.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/panstatus.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Panstatus.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/interaction/panstatus/panstatus.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

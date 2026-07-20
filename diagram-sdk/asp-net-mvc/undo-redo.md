@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Undo Redo in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Undo Redo in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Undo Redo in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Undo Redo in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Undo Redo
 publishingplatform: diagram-sdk
@@ -43,19 +43,6 @@ History list allows to revert or restore multiple changes through a single undo/
 
 The client-side method [`startGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#startgroupaction) is used to notify the diagram to start grouping the changes. The client-side method [`endGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#endgroupaction) is used to notify to stop grouping the changes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/undoRedo/undoRedo/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/undoRedo/undoRedo/undoRedo.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/undoRedo/undoRedo/razor %}
@@ -64,7 +51,6 @@ The client-side method [`startGroupAction`](https://ej2.syncfusion.com/documenta
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/undoRedo/undoRedo/undoRedo.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

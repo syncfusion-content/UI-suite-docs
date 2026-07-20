@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Data Binding in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Data Binding in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Data Binding in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Data Binding in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Data Binding
 publishingplatform: diagram-sdk
@@ -36,25 +36,11 @@ Diagram can be populated based on the user defined JSON data (Local Data) by map
 
 To map the user defined JSON data with diagram, configure the fields of [`dataSourceSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/local.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Local.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/local.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -100,27 +86,27 @@ This feature allows to read the data source and perform add or edit or delete th
 
 * This feature allows to define the nodes and connectors collection in the data source and connectionDataSource respectively.
 
-* You can set the data collection in the model’s dataSourceSettings [`dataManager`](https://ej2.syncfusion.com/documentation/api/diagram/connectionDataSourceModel/#datamanager) property. The nodes will be generated based on the data specified in the data source.
+* You can set the data collection in the modelâ€™s dataSourceSettings [`dataManager`](https://ej2.syncfusion.com/documentation/api/diagram/connectionDataSourceModel/#datamanager) property. The nodes will be generated based on the data specified in the data source.
 
-* You can set the connector collection in the model’s dataSourceSettings [`connectionDataSource`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html) property.
+* You can set the connector collection in the modelâ€™s dataSourceSettings [`connectionDataSource`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html) property.
 
 * The dataSourceSettings connectionDataSource [`dataManager`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_DataManager) property is used to set the data source for the connection data source items.
 
 * If you have a data (data will be set in the dataSource property) with parent relationship in the database and also defined the connector in the connectionDataSource simultaneously, then the connectors set in the connectionDataSource will be considered as a priority to render the connector.
 
-* The dataSourceSettings [`crudAction’s`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_CrudAction) [`read`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Read) property specifies the method, which is used to read the data source and it populates the nodes in the diagram.
+* The dataSourceSettings [`crudActionâ€™s`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_CrudAction) [`read`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Read) property specifies the method, which is used to read the data source and it populates the nodes in the diagram.
 
-* The connectionDataSource crudAction’s [`read`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Read) specifies the method, which is used to read the data source and it populates the connectors in the diagram.
+* The connectionDataSource crudActionâ€™s [`read`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Read) specifies the method, which is used to read the data source and it populates the connectors in the diagram.
 
-* The dataSourceSettings’s [`id`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_Id) and connectionDataSource’s [`id`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_Id) properties are used to define the unique field of each JSON data.
+* The dataSourceSettingsâ€™s [`id`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_Id) and connectionDataSourceâ€™s [`id`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_Id) properties are used to define the unique field of each JSON data.
 
-* The connectionDataSource’s [`sourceID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourceID) and [`targetID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetID) properties are used to set the sourceID and targetID for connection data source item.
+* The connectionDataSourceâ€™s [`sourceID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourceID) and [`targetID`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetID) properties are used to set the sourceID and targetID for connection data source item.
 
-* The connectionDataSource’s [`sourcePointX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourcePointX), [`sourcePointY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourcePointY), [`targetPointX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetPointX), and [`targetPointY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetPointY) properties are used to define the sourcePoint and targetPoint values for connector from data source.
+* The connectionDataSourceâ€™s [`sourcePointX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourcePointX), [`sourcePointY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_SourcePointY), [`targetPointX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetPointX), and [`targetPointY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_TargetPointY) properties are used to define the sourcePoint and targetPoint values for connector from data source.
 
-* The dataSourceSettings crudAction’s [`customFields`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_CustomFields) property is used to maintain the additional information for nodes.
+* The dataSourceSettings crudActionâ€™s [`customFields`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_CustomFields) property is used to maintain the additional information for nodes.
 
-* Similarly, connectionDataSource’s crudAction’s [`customFields`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_CustomFields) is used to maintain the additional information for connectors.
+* Similarly, connectionDataSourceâ€™s crudActionâ€™s [`customFields`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_CustomFields) is used to maintain the additional information for connectors.
 
 ## How to perform Editing at runtime
 
@@ -130,29 +116,15 @@ This feature allows to read the data source and perform add or edit or delete th
 
 ## InsertData
 
-* The dataSourceSettings crudAction’s [`create`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Create) property specifies the method, which is used to get the nodes added from the client-side to the server-side.
+* The dataSourceSettings crudActionâ€™s [`create`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Create) property specifies the method, which is used to get the nodes added from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s [`create`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Create) specifies the method, which is used to get the connectors added from the client-side to the server-side.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Insertdata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The connectionDataSource crudActionâ€™s [`create`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Create) specifies the method, which is used to get the connectors added from the client-side to the server-side.
 
 {% tabs %}
 {% highlight c# tabtitle="Insertdata.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ```javascript
@@ -165,29 +137,15 @@ diagram.insertData();
 
 ## UpdateData
 
-* The dataSourceSettings crudAction’s [`update`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Update) property specifies the method, which is used to get the modified nodes from the client-side to the server-side.
+* The dataSourceSettings crudActionâ€™s [`update`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Update) property specifies the method, which is used to get the modified nodes from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s [`update`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Update) specifies the method, which is used to get the modified connectors from the client-side to the server-side.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Updatedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The connectionDataSource crudActionâ€™s [`update`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Update) specifies the method, which is used to get the modified connectors from the client-side to the server-side.
 
 {% tabs %}
 {% highlight c# tabtitle="Updatedata.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -201,29 +159,15 @@ diagram.updateData();
 
 ## DeleteData
 
-* The dataSourceSettings crudAction’s [`destroy`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Destroy) property specifies the method, which is used to get the deleted nodes from the client-side to the server-side.
+* The dataSourceSettings crudActionâ€™s [`destroy`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Destroy) property specifies the method, which is used to get the deleted nodes from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s [`destroy`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Destroy) specifies the method, which is used to get the deleted connectors from the client-side to the server-side.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Deletedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* The connectionDataSource crudActionâ€™s [`destroy`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Destroy) specifies the method, which is used to get the deleted connectors from the client-side to the server-side.
 
 {% tabs %}
 {% highlight c# tabtitle="Deletedata.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

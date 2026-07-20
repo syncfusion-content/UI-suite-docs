@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: Swim Lane in ASP.NET MVC Diagram Component
-description: Learn here all about Swim Lane in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Learn here all about Swim Lane in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Swim Lane
 publishingplatform: diagram-sdk
@@ -23,25 +23,11 @@ Header was the primary element for swimlanes. The [`header`](https://help.syncfu
 
 N> By using this header, the swimlane interaction will be performed, like selection, dragging, etc.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/swimlaneheader/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Swimlaneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/swimlaneheader/swimlaneheader.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Swimlaneheader.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/swimlaneheader/swimlaneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -51,25 +37,11 @@ The height and width of swimlane header can be customized with [`weight`](https:
 
 N> By default the swimlane orientation has Horizontal.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/headercustomize/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Headercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/headercustomize/headercustomize.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Headercustomize.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/headercustomize/headercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -101,25 +73,11 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 
 * The additional information to the lane is provided by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the lane.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/emptylane/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Emptylane.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/emptylane/emptylane.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Emptylane.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/emptylane/emptylane.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -127,25 +85,11 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 
 * The [`header`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of lane allows to textually describe the lane and to customize the appearance of the description.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheader/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Laneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheader/laneheader.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Laneheader.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheader/laneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -154,25 +98,11 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 * The size of lane can be controlled by using the [`width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) and [`height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties of the lane.
 * The appearance of the lane can be set by using the [`style`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheadercustomize/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Laneheadercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheadercustomize/laneheadercustomize.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Laneheadercustomize.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/laneheadercustomize/laneheadercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -194,19 +124,6 @@ diagram.dataBind();
 
 To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) collection of the lane.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/lanechildren/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Lanechildren.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/lanechildren/lanechildren.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/lanechildren/razor %}
@@ -215,7 +132,6 @@ To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/lanechildren/lanechildren.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -307,25 +223,11 @@ Diagram provides the support to edit Lane headers at runtime. The header editing
 
 Phase are the subprocess which will split each lane as horizontally or vertically based on the swimlane orientation. The multiple number of [`Phase`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) can be added to swimlane.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/phase.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Phase.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -348,25 +250,11 @@ You can add the phase at runtime by using client side API method called `addPhas
 * You can increase the width of phase by using [`phaseSize`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of swimlane.
 * The additional information can be provided to the phase by using the [`addInfo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Shapes.html) property of the phase.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/phase.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Phase.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -392,25 +280,11 @@ Diagram provides the support to edit phase headers at runtime. The header editin
 
 Diagram provides support to add swimlane and phases to symbol palette.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

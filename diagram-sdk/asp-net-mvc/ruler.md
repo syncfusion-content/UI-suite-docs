@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: Ruler in ASP.NET MVC Diagram Component
-description: Learn here all about Ruler in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Learn here all about Ruler in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Ruler
 publishingplatform: diagram-sdk
@@ -20,22 +20,11 @@ The Ruler provides a horizontal and vertical guide for measuring in the Diagram 
 
 * The RulerSettings [`horizontalRuler`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_HorizontalRuler) and [`verticalRuler`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_VerticalRuler) properties are used to customize the rulers appearance in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Ruler.cshtml" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/ruler/ruler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Ruler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/ruler/ruler.cshtml %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -45,30 +34,19 @@ The Ruler provides a horizontal and vertical guide for measuring in the Diagram 
 
 By default, the ruler segments are arranged based on pixel values.
 
-* The HorizontalRuler’s [`interval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_Interval) property allows to define the interval between ruler segments and the [`segmentWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_SegmentWidth) property allows to define the segment width of the ruler. Similarly, you can use the VerticalRuler’s [`interval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_Interval) and [`segmentWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_SegmentWidth) properties are used to define the interval and segment width of the vertical ruler.
+* The HorizontalRulerâ€™s [`interval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_Interval) property allows to define the interval between ruler segments and the [`segmentWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_SegmentWidth) property allows to define the segment width of the ruler. Similarly, you can use the VerticalRulerâ€™s [`interval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_Interval) and [`segmentWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_SegmentWidth) properties are used to define the interval and segment width of the vertical ruler.
 
-* The HorizontalRuler’s [`tickAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_TickAlignment) property is used to align the ruler tick either left or right side of the ruler. The VerticalRuler’s [`tickAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_TickAlignment) property is used to align the ruler tick either top or bottom side of the ruler.
+* The HorizontalRulerâ€™s [`tickAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_TickAlignment) property is used to align the ruler tick either left or right side of the ruler. The VerticalRulerâ€™s [`tickAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_TickAlignment) property is used to align the ruler tick either top or bottom side of the ruler.
 
-* The HorizontalRuler’s [`arrangeTick`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_ArrangeTick) and VerticalRuler’s [`arrangeTick`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_ArrangeTick) function is provided for the purpose of customizing the appearance of ruler ticks. It will be called for each tick rendering.
+* The HorizontalRulerâ€™s [`arrangeTick`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_ArrangeTick) and VerticalRulerâ€™s [`arrangeTick`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_ArrangeTick) function is provided for the purpose of customizing the appearance of ruler ticks. It will be called for each tick rendering.
 
-* The HorizontalRuler’s [`markerColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) and VerticalRuler’s [`markerColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) properties are used to define the ruler marker color and marker will be shown when performing the interaction in the diagram.
-
-{% if page.publishingplatform == "aspnet-core" %}
+* The HorizontalRulerâ€™s [`markerColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) and VerticalRulerâ€™s [`markerColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) properties are used to define the ruler marker color and marker will be shown when performing the interaction in the diagram.
 
 {% tabs %}
 {% highlight c# tabtitle="CustomRuler.cshtml" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="CustomRuler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

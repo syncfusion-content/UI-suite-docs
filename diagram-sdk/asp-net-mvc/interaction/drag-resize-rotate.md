@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Drag resize and rotate in SyncfusionÂ® ASP.NET MVC Diagram Component
+description: Learn here all about Drag resize and rotate in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Drag resize rotate
 publishingplatform: diagram-sdk
@@ -31,25 +31,11 @@ documentation: ug
 
 You can change the size of the node resize thumb and the connector end point handle by using the `handleSize` property. The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![handleSize](../images/handlesize.png)
 
@@ -63,7 +49,7 @@ You can change the size of the node resize thumb and the connector end point han
 
 ## Restrict Interaction in Negative Axis Area
 
-The Diagram component includes a built-in option to restrict user interactions within the negative axis region—areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
+The Diagram component includes a built-in option to restrict user interactions within the negative axis regionâ€”areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
 
 * **Dragging**: Diagram elements cannot be dragged into areas with negative coordinates.
 * **Resizing**: The size of diagram objects cannot be adjusted to extend into the negative axis.
@@ -80,4 +66,4 @@ The Diagram component includes a built-in option to restrict user interactions w
 
 ![Negative axis restrict](../gifs/negativeaxis.gif)
 
-N> A symbol dragged from the palette will only be added to the diagram if it’s fully positioned within the positive coordinate space.
+N> A symbol dragged from the palette will only be added to the diagram if itâ€™s fully positioned within the positive coordinate space.

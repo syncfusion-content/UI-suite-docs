@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Page Settings in ASP.NET MVC Diagram Component | Syncfusion®
-description: Learn here all about Page Settings in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Page Settings in ASP.NET MVC Diagram Component | SyncfusionÂ®
+description: Learn here all about Page Settings in SyncfusionÂ® ASP.NET MVC Diagram component of Syncfusion EssentialÂ® JS 2 and more.
 platform: diagram-sdk
 control: Page Settings
 publishingplatform: diagram-sdk
@@ -25,25 +25,11 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 * To explore those properties, refer to [`Page Settings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/page.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Page.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -51,19 +37,6 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 Stretch and align the background image anywhere over the diagram area. The [`source`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBackground.html#Syncfusion_EJ2_Diagrams_DiagramBackground_Source) property of [`background`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBackground.html) allows to set the path of the image. The [`scale`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBackground.html#Syncfusion_EJ2_Diagrams_DiagramBackground_Scale) and the [`align`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramBackground.html#Syncfusion_EJ2_Diagrams_DiagramBackground_Align) properties help to stretch/align the background images.
 
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -73,7 +46,6 @@ Stretch and align the background image anywhere over the diagram area. The [`sou
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -83,19 +55,6 @@ When multiple page is enabled, the size of the page dynamically increases or dec
 
 The [`multiplePage`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html#Syncfusion_EJ2_Diagrams_DiagramPageSettings_MultiplePage) and [`showPageBreak`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html#Syncfusion_EJ2_Diagrams_DiagramPageSettings_ShowPageBreaks) properties of page settings allows you to enable/disable multiple pages and page breaks respectively.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/razor %}
@@ -104,26 +63,12 @@ The [`multiplePage`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Boundary constraints
 
 The diagram provides support to restrict/customize the interactive region, out of which the elements cannot be dragged, resized, or rotated. The [`boundaryConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BoundaryConstraints.html) property of page settings allows you to customize the interactive region. To explore the boundary constraints, refer to [`Boundary Constraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.BoundaryConstraints.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/boundary.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -133,5 +78,4 @@ The diagram provides support to restrict/customize the interactive region, out o
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
