@@ -86,16 +86,16 @@ npm install @syncfusion/ej2-angular-kanban
 The Kanban component requires specific CSS files for proper rendering. Syncfusion provides multiple themes for the Kanban component. For a complete list of available themes, refer to the [theme packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
 
 
-To apply the [material 3](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) theme, install the corresponding theme package by using the following command:
+To apply the [tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
 
 ```css
-npm install @syncfusion/ej2-material3-theme
+npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/styles.css`:
 
 ```css
-@import '../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css';
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/kanban/index.css';
 ```
 
 ## Adding Kanban component
