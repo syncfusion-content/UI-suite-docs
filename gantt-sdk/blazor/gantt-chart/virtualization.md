@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Virtualization in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all about Virtualization in Blazor Gantt Chart component and more.
-platform: gantt-sdk
+title: Virtualization in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about Virtualization in Syncfusion Blazor Gantt Chart component and more.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
 
 # Virtualization in Blazor Gantt Chart Component
 
-Virtual scrolling in the [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) improves performance by rendering only visible rows, columns, and timeline segments, reducing DOM operations for large datasets or extended timelines. Row virtualization handles large task volumes (e.g. displaying 10,000 tasks in a project), timeline virtualization loads timeline cells on-demand during horizontal scrolling (e.g. navigating multi-year timelines), and column virtualization renders only the columns currently in view. These techniques enable efficient and scalable project management.
+Virtual scrolling in the Blazor Gantt Chart improves performance by rendering only visible rows, columns, and timeline segments, reducing DOM operations for large datasets or extended timelines. Row virtualization handles large task volumes (e.g. displaying 10,000 tasks in a project), timeline virtualization loads timeline cells on-demand during horizontal scrolling (e.g. navigating multi-year timelines), and column virtualization renders only the columns currently in view. These techniques enable efficient and scalable project management.
 
 ## Configure row virtualization
 
@@ -18,39 +18,38 @@ Row virtualization, enabled by setting [EnableRowVirtualization](https://help.sy
 The following example enables row virtualization for a large dataset:
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
 <SfGantt DataSource="@TaskCollection" Height="450px" Width="100%" AutoCalculateDateScheduling="@autoCalculateDateScheduling" TreeColumnIndex="1" EnableRowVirtualization="true" ProjectStartDate="ProjectStartDate" ProjectEndDate="ProjectEndDate" Toolbar="@(new List<string>() { "Add", "Delete", "Edit", "ZoomIn", "ZoomOut" })" ScrollToTaskbarOnClick="true">
     <GanttLabelSettings LeftLabel="TaskName" TValue="TaskData"></GanttLabelSettings>
-    <GanttTaskFields ParentID="ParentID" Work="Work" Id="ID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" TaskType="TaskType" Dependency="Predecessor">
+    <GanttTaskFields ParentID="ParentId" Work="Work" Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" TaskType="TaskType">
     </GanttTaskFields>
     <GanttColumns>
-    <GanttColumn Field="ID" HeaderText="TaskId" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
-    <GanttColumn Field="TaskName" HeaderText="TaskName"></GanttColumn>
-    <GanttColumn Field="StartDate" HeaderText="Start Date"></GanttColumn>
-    <GanttColumn Field="EndDate" HeaderText="End Date"></GanttColumn>
-    <GanttColumn Field="Duration" HeaderText="Duration"></GanttColumn>
-    <GanttColumn Field="Assignee" HeaderText="Assignee"></GanttColumn>
-    <GanttColumn Field="Reporter" HeaderText="Reporter"></GanttColumn>
-    <GanttColumn Field="Progress" HeaderText="Progress" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
+        <GanttColumn Field="TaskId" HeaderText="TaskId" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
+        <GanttColumn Field="TaskName" HeaderText="TaskName"></GanttColumn>
+        <GanttColumn Field="StartDate" HeaderText="Start Date"></GanttColumn>
+        <GanttColumn Field="EndDate" HeaderText="End Date"></GanttColumn>
+        <GanttColumn Field="Duration" HeaderText="Duration"></GanttColumn>
+        <GanttColumn Field="Assignee" HeaderText="Assignee"></GanttColumn>
+        <GanttColumn Field="Reporter" HeaderText="Reporter"></GanttColumn>
+        <GanttColumn Field="Progress" HeaderText="Progress" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
     </GanttColumns>
     <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" Mode="Syncfusion.Blazor.Gantt.EditMode.Auto" ShowDeleteConfirmDialog="true">
     </GanttEditSettings>
     <GanttSplitterSettings Position="40%"></GanttSplitterSettings>
 </SfGantt>
 @code {
-    private SfGantt<TaskData> Obj { get; set; }
-    private DateTime ProjectStartDate = new DateTime(2000, 1, 1);
-    private DateTime ProjectEndDate = new DateTime(2025, 12, 31);
+    private DateTime ProjectStartDate = new DateTime(2026, 1, 1);
+    private DateTime ProjectEndDate = new DateTime(2026, 12, 31);
     private bool autoCalculateDateScheduling = false;
-    private List<TaskData> TaskCollection { get; set; }
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = VirtualData.GetTreeVirtualData(1000);
+        TaskCollection = VirtualData.GetTreeVirtualData(1000);
     }
-    
+
     public class VirtualData
     {
         public static List<TaskData> GetTreeVirtualData(int count)
@@ -59,41 +58,41 @@ The following example enables row virtualization for a large dataset:
             Random rand = new Random();
             var x = 0;
             int duration = 0;
-            DateTime startDate = new DateTime(2000, 1, 5);
-            DateTime endDate = new DateTime(2000, 1, 12);
+            DateTime startDate = new DateTime(2026, 1, 5);
+            DateTime endDate = new DateTime(2026, 1, 12);
             string[] assignee = { "Allison Janney", "Bryan Fogel", "Richard King", "Alex Gibson" };
             string[] reporter = { "James Ivory", "Jordan Peele", "Guillermo del Toro", "Gary Oldman" };
             for (var i = 1; i <= count / 5; i++)
             {
                 var name = rand.Next(0, 100);
                 TaskData Parent = new TaskData()
-                    {
-                        ID = ++x,
-                        TaskName = "Task " + x,
-                        StartDate = startDate,
-                        EndDate = startDate.AddDays(26),
-                        Duration = "20",
-                        Assignee = "Mark Bridges",
-                        Reporter = "Kobe Bryant",
-                        Progress = 50,
-                    };
+                {
+                    TaskId = ++x,
+                    TaskName = "Task " + x,
+                    StartDate = startDate,
+                    EndDate = startDate.AddDays(26),
+                    Duration = "20",
+                    Assignee = "Mark Bridges",
+                    Reporter = "Kobe Bryant",
+                    Progress = 50,
+                };
                 DataCollection.Add(Parent);
                 for (var j = 1; j <= 4; j++)
                 {
                     startDate = startDate.AddDays(j == 1 ? 0 : duration + 2);
                     duration = 5;
                     DataCollection.Add(new TaskData()
-                        {
-                            ID = ++x,
-                            TaskName = "Task " + x,
-                            StartDate = startDate,
-                            EndDate = startDate.AddDays(5),
-                            Duration = duration.ToString(),
-                            Assignee = assignee[j - 1],
-                            Reporter = reporter[j - 1],
-                            Progress = 50,
-                            ParentID = Parent.ID,
-                        });
+                    {
+                        TaskId = ++x,
+                        TaskName = "Task " + x,
+                        StartDate = startDate,
+                        EndDate = startDate.AddDays(5),
+                        Duration = duration.ToString(),
+                        Assignee = assignee[j - 1],
+                        Reporter = reporter[j - 1],
+                        Progress = 50,
+                        ParentId = Parent.TaskId,
+                    });
                 }
             }
             return DataCollection;
@@ -101,23 +100,23 @@ The following example enables row virtualization for a large dataset:
     }
     public class TaskData
     {
-        public int ID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
-        public string Assignee { get; set; }
-        public string Reporter { get; set; }
+        public string? Duration { get; set; }
+        public string? Assignee { get; set; }
+        public string? Reporter { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
+        public int? ParentId { get; set; }
+
     }
 }
 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjBeDasmfrkOvUON?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjBnDHLLIfJOxhob?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Managing records count
 
@@ -133,17 +132,17 @@ By default, the number of records rendered per page will be twice the Gantt char
     •	During both virtual scrolling and initial rendering, extra rows are rendered to provide a buffer around the current page area. This minimizes the need for frequent rendering during scrolling, providing a smoother user experience.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
-<SfGantt @ref="GanttChart" PageSize="15" OverscanCount="5" ID="GanttContainer" EnableContextMenu="true" AllowFiltering="true" AllowSorting="true" DataSource="@TaskCollection" Height="450px" Width="100%" TreeColumnIndex="1" EnableRowVirtualization="true" EnableTimelineVirtualization="true" ProjectStartDate="ProjectStartDate" ProjectEndDate="ProjectEndDate"
+<SfGantt PageSize="15" OverscanCount="5" ID="GanttContainer" EnableContextMenu="true" AllowFiltering="true" AllowSorting="true" DataSource="@TaskCollection" Height="450px" Width="100%" TreeColumnIndex="1" EnableRowVirtualization="true" EnableTimelineVirtualization="true" ProjectStartDate="ProjectStartDate" ProjectEndDate="ProjectEndDate"
          Toolbar="@(new List<string>() { "Add", "Delete", "Edit","Cancel","ExpandAll","CollapseAll" })" ScrollToTaskbarOnClick="true">
     <GanttLabelSettings LeftLabel="TaskName" TValue="TaskData"></GanttLabelSettings>
-    <GanttTaskFields ParentID="ParentID" Work="Work" Id="ID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" TaskType="TaskType" Dependency="Predecessor">
+    <GanttTaskFields ParentID="ParentId" Work="Work" Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" TaskType="TaskType" Dependency="Predecessor">
     </GanttTaskFields>
     <GanttColumns>
-        <GanttColumn Field="ID" HeaderText="TaskId" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
+        <GanttColumn Field="TaskId" HeaderText="TaskId" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Center"></GanttColumn>
         <GanttColumn Field="TaskName" HeaderText="TaskName"></GanttColumn>
         <GanttColumn Field="StartDate" HeaderText="Start Date"></GanttColumn>
         <GanttColumn Field="EndDate" HeaderText="End Date"></GanttColumn>
@@ -155,14 +154,13 @@ By default, the number of records rendered per page will be twice the Gantt char
     <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" Mode="Syncfusion.Blazor.Gantt.EditMode.Dialog" AllowTaskbarEditing="true" ShowDeleteConfirmDialog="true">
     </GanttEditSettings>
     <GanttSplitterSettings Position="40%"></GanttSplitterSettings>
-</SfGantt>       
-         
- @code {
-    SfGantt<TaskData> GanttChart { get; set; }
-    private DateTime ProjectStartDate = new DateTime(2000, 1, 1);
-    private DateTime ProjectEndDate = new DateTime(2021, 12, 31);
+</SfGantt>
+
+@code {
+    private DateTime ProjectStartDate = new DateTime(2026, 1, 1);
+    private DateTime ProjectEndDate = new DateTime(2026, 12, 31);
     public int Value { get; set; } = 1000;
-    private List<TaskData> TaskCollection { get; set; }
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
         this.TaskCollection = VirtualData.GetTreeVirtualData(500);
@@ -176,43 +174,43 @@ By default, the number of records rendered per page will be twice the Gantt char
             Random rand = new Random();
             var x = 0;
             int duration = 0;
-            DateTime startDate = new DateTime(2000, 1, 5);
-            DateTime endDate = new DateTime(2000, 1, 12);
+            DateTime startDate = new DateTime(2026, 1, 5);
+            DateTime endDate = new DateTime(2026, 1, 12);
             string[] assignee = { "Allison Janney", "Bryan Fogel", "Richard King", "Alex Gibson" };
             string[] reporter = { "James Ivory", "Jordan Peele", "Guillermo del Toro", "Gary Oldman" };
             for (var i = 1; i <= count / 5; i++)
             {
                 var name = rand.Next(0, 100);
                 TaskData Parent = new TaskData()
-                    {
-                        ID = ++x,
-                        TaskName = "Task " + x,
-                        StartDate = startDate,
-                        EndDate = startDate.AddDays(26),
-                        Duration = "20",
-                        Assignee = "Mark Bridges",
-                        Reporter = "Kobe Bryant",
-                        Progress = rand.Next(100),
-                        Predecessor = null
-                    };
+                {
+                    TaskId = ++x,
+                    TaskName = "Task " + x,
+                    StartDate = startDate,
+                    EndDate = startDate.AddDays(26),
+                    Duration = "20",
+                    Assignee = "Mark Bridges",
+                    Reporter = "Kobe Bryant",
+                    Progress = rand.Next(100),
+                    Predecessor = null
+                };
                 DataCollection.Add(Parent);
                 for (var j = 1; j <= 4; j++)
                 {
                     startDate = startDate.AddDays(j == 1 ? 0 : duration + 2);
                     duration = 5;
                     DataCollection.Add(new TaskData()
-                        {
-                            ID = ++x,
-                            TaskName = "Task " + x,
-                            StartDate = startDate,
-                            EndDate = startDate.AddDays(5),
-                            Duration = duration.ToString(),
-                            Assignee = assignee[j - 1],
-                            Reporter = reporter[j - 1],
-                            Progress = rand.Next(100),
-                            ParentID = Parent.ID,
-                            Predecessor = j > 1 ? (x - 1) + "FS" : ""
-                        });
+                    {
+                        TaskId = ++x,
+                        TaskName = "Task " + x,
+                        StartDate = startDate,
+                        EndDate = startDate.AddDays(5),
+                        Duration = duration.ToString(),
+                        Assignee = assignee[j - 1],
+                        Reporter = reporter[j - 1],
+                        Progress = rand.Next(100),
+                        ParentId = Parent.TaskId,
+                        Predecessor = j > 1 ? (x - 1) + "FS" : ""
+                    });
                 }
             }
             return DataCollection;
@@ -220,38 +218,38 @@ By default, the number of records rendered per page will be twice the Gantt char
     }
     public class TaskData
     {
-        public int ID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
-        public string Assignee { get; set; }
-        public string Reporter { get; set; }
+        public string? Duration { get; set; }
+        public string? Assignee { get; set; }
+        public string? Reporter { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
+        public int? ParentId { get; set; }
+        public string? Predecessor { get; set; }
     }
 }
 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBSjuWwppImKWKv?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXrRNRBLSTmNlXHM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Configure column virtualization
 
 Column virtualization, enabled by setting [EnableRowVirtualization](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_EnableRowVirtualization) and [EnableColumnVirtualization](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_EnableColumnVirtualization) to **true**, renders only the columns visible in the viewport while other columns are loaded on-demand during horizontal scrolling. This approach ensures high-performance rendering when working with a large number of columns.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
-<SfGantt ID="Gantt" DataSource="@TaskCollection" 
-    EnableRowVirtualization="true" EnableColumnVirtualization="true"  Height="450px" Width="1000px">
+<SfGantt ID="Gantt" DataSource="@TaskCollection"
+         EnableRowVirtualization="true" EnableColumnVirtualization="true" Height="450px" Width="1000px">
     <GanttTaskFields Id="ProjectId" Name="ProjectName" StartDate="ProjectStartDate" EndDate="ProjectEndDate" Duration="ProjectDuration" Progress="ProjectProgress" Dependency="Predecessor" ParentID="ParentID">
     </GanttTaskFields>
-     <GanttColumns>
+    <GanttColumns>
         <GanttColumn Field="ProjectId" HeaderText="Task ID"></GanttColumn>
         <GanttColumn Field="ProjectName" HeaderText="Task Name"> </GanttColumn>
         <GanttColumn Field="ProjectStartDate" HeaderText="Start Date"></GanttColumn>
@@ -271,7 +269,7 @@ Column virtualization, enabled by setting [EnableRowVirtualization](https://help
     </GanttColumns>
 </SfGantt>
 @code {
-    public List<TaskData> TaskCollection { get; set; }
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
         this.TaskCollection = VirtualData.GetTreeVirtualData();
@@ -286,13 +284,13 @@ Column virtualization, enabled by setting [EnableRowVirtualization](https://help
             var x = 0;
             for (var i = 1; i <= 100; i++)
             {
-                var name = random.Next(0, 100);
+                var name = random?.Next(0, 100);
                 TaskData Parent = new TaskData()
                 {
                     ProjectId = ++x,
                     ProjectName = "Task " + x,
-                    ProjectStartDate = new DateTime(2022, 1, 9),
-                    ProjectEndDate = new DateTime(2022, 1, 13),
+                    ProjectStartDate = new DateTime(2026, 1, 9),
+                    ProjectEndDate = new DateTime(2026, 1, 13),
                     ProjectDuration = "10",
                     ProjectProgress = 50,
                     ParentID = null,
@@ -301,13 +299,13 @@ Column virtualization, enabled by setting [EnableRowVirtualization](https://help
                 DataCollection.Add(Parent);
                 for (var j = 1; j <= 50; j++)
                 {
-                    var childName = random.Next(0, 100);
+                    var childName = random?.Next(0, 100);
                     DataCollection.Add(new TaskData()
                     {
                         ProjectId = ++x,
                         ProjectName = "Task " + x,
-                        ProjectStartDate = new DateTime(2022, 1, 9),
-                        ProjectEndDate = new DateTime(2022, 1, 13),
+                        ProjectStartDate = new DateTime(2026, 1, 9),
+                        ProjectEndDate = new DateTime(2026, 1, 13),
                         ProjectDuration = "10",
                         ProjectProgress = 50,
                         ParentID = Parent.ProjectId,
@@ -333,14 +331,14 @@ Column virtualization, enabled by setting [EnableRowVirtualization](https://help
     public class TaskData
     {
         public int ProjectId { get; set; }
-        public string ProjectName { get; set; }
+        public string? ProjectName { get; set; }
         public DateTime? ProjectStartDate { get; set; }
         public DateTime? ProjectEndDate { get; set; }
-        public string ProjectDuration { get; set; }
+        public string? ProjectDuration { get; set; }
         public int ProjectProgress { get; set; }
         public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
-        public string Field1 { get; set; }
+        public string? Predecessor { get; set; }
+        public string? Field1 { get; set; }
         public int FIELD2 { get; set; }
         public int FIELD3 { get; set; }
         public int FIELD4 { get; set; }
@@ -358,7 +356,7 @@ Column virtualization, enabled by setting [EnableRowVirtualization](https://help
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDryXYCmpzdIEKPs?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjhdZnLreflsbmai?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> Column's [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttColumn.html#Syncfusion_Blazor_Gantt_GanttColumn_Width) is required for column virtualization. If the column's width is not defined, then the Gantt Chart will consider its value as **150px**.
 
@@ -369,29 +367,28 @@ Timeline virtualization, enabled by setting [EnableTimelineVirtualization](https
 The following example enables timeline virtualization for a wide timeline:
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 
-<SfGantt @ref="Gantt" Width="480px" Height="350px" ID="Gantt" DataSource="@TaskCollection"  Toolbar="@(new  List<string>() { "ZoomIn", "ZoomOut", "ZoomToFit"})" GridLines="Syncfusion.Blazor.Gantt.GridLine.Both" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd"
-        EnableTimelineVirtualization="true" EnableColumnVirtualization="true">
-    <GanttTaskFields Id="ProjectId" Name="ProjectName" StartDate="ProjectStartDate" EndDate="ProjectEndDate"     Duration="ProjectDuration" Progress="ProjectProgress"  Dependency="Predecessor" ParentID="ParentID">
+<SfGantt @ref="Gantt" Width="480px" Height="350px" ID="Gantt" DataSource="@TaskCollection" Toolbar="@(new List<string>() { "ZoomIn", "ZoomOut", "ZoomToFit" })" GridLines="Syncfusion.Blazor.Gantt.GridLine.Both" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd"
+         EnableTimelineVirtualization="true" EnableColumnVirtualization="true">
+    <GanttTaskFields Id="ProjectId" Name="ProjectName" StartDate="ProjectStartDate" EndDate="ProjectEndDate" Duration="ProjectDuration" Progress="ProjectProgress" Dependency="Predecessor" ParentID="ParentID">
     </GanttTaskFields>
-      <GanttEditSettings 
-        AllowTaskbarEditing="true" 
-        AllowEditing="true" 
-        AllowAdding="true" 
-        AllowDeleting="true" 
-        Mode="Syncfusion.Blazor.Gantt.EditMode.Auto" 
-        ShowDeleteConfirmDialog="true"> </GanttEditSettings >
-        <GanttSplitterSettings ColumnIndex=1></GanttSplitterSettings>
-     <GanttColumns>
+    <GanttEditSettings AllowTaskbarEditing="true"
+                       AllowEditing="true"
+                       AllowAdding="true"
+                       AllowDeleting="true"
+                       Mode="Syncfusion.Blazor.Gantt.EditMode.Auto"
+                       ShowDeleteConfirmDialog="true"> </GanttEditSettings>
+    <GanttSplitterSettings ColumnIndex=1></GanttSplitterSettings>
+    <GanttColumns>
         <GanttColumn Field="ProjectId" HeaderText="Task ID"></GanttColumn>
         <GanttColumn Field="ProjectName" HeaderText="Task Name"> </GanttColumn>
         <GanttColumn Field="ProjectStartDate" HeaderText="Start Date"></GanttColumn>
         <GanttColumn Field="ProjectEndDate" HeaderText="End Date"></GanttColumn>
         <GanttColumn Field="ProjectDuration" HeaderText="Duration"></GanttColumn>
-         <GanttColumn Field="Predecessor" HeaderText="Predecessor"></GanttColumn>
+        <GanttColumn Field="Predecessor" HeaderText="Predecessor"></GanttColumn>
         <GanttColumn Field="Field1" HeaderText="Rebounds" Width="150"></GanttColumn>
         <GanttColumn Field="FIELD2" HeaderText="Year" Width="150"></GanttColumn>
         <GanttColumn Field="FIELD3" HeaderText="Stint" Width="150"></GanttColumn>
@@ -407,14 +404,14 @@ The following example enables timeline virtualization for a wide timeline:
 </SfGantt>
 
 @code {
-    public SfGantt<TaskData> Gantt;
-    public DateTime ProjectStart = new DateTime(2000, 2, 6);
-    public DateTime ProjectEnd = new DateTime(2100, 12, 31);
+    public SfGantt<TaskData>? Gantt;
+    public DateTime ProjectStart = new DateTime(2026, 2, 6);
+    public DateTime ProjectEnd = new DateTime(2026, 12, 31);
 
-    public List<TaskData> TaskCollection { get; set; }
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = VirtualData.GetTreeVirtualData();
+        TaskCollection = VirtualData.GetTreeVirtualData();
     }
     public class VirtualData
     {
@@ -426,13 +423,13 @@ The following example enables timeline virtualization for a wide timeline:
             var x = 0;
             for (var i = 1; i <= 100; i++)
             {
-                var name = random.Next(0, 100);
+                var name = random?.Next(0, 100);
                 TaskData Parent = new TaskData()
                 {
                     ProjectId = ++x,
                     ProjectName = "Task " + x,
-                    ProjectStartDate = new DateTime(2017, 1, 9),
-                    ProjectEndDate = new DateTime(2017, 1, 13),
+                    ProjectStartDate = new DateTime(2026, 1, 9),
+                    ProjectEndDate = new DateTime(2026, 1, 13),
                     ProjectDuration = "10",
                     ProjectProgress = 50,
                     ParentID = null,
@@ -441,13 +438,13 @@ The following example enables timeline virtualization for a wide timeline:
                 DataCollection.Add(Parent);
                 for (var j = 1; j <= 10; j++)
                 {
-                    var childName = random.Next(0, 100);
+                    var childName = random?.Next(0, 100);
                     DataCollection.Add(new TaskData()
                     {
                         ProjectId = ++x,
                         ProjectName = "Task " + x,
-                        ProjectStartDate = j <= 3 ? new DateTime(2000, 2, 10) : j > 3 && j <= 6 ? new DateTime(2031, 5, 1) : new DateTime(2061, 8, 1),
-                        ProjectEndDate = new DateTime(2021, 1, 13),
+                        ProjectStartDate = j <= 3 ? new DateTime(2026, 2, 10) : j > 3 && j <= 6 ? new DateTime(2031, 5, 1) : new DateTime(2061, 8, 1),
+                        ProjectEndDate = new DateTime(2026, 1, 13),
                         ProjectDuration = "10650",
                         ProjectProgress = 50,
                         ParentID = Parent.ProjectId,
@@ -472,14 +469,14 @@ The following example enables timeline virtualization for a wide timeline:
     public class TaskData
     {
         public int ProjectId { get; set; }
-        public string ProjectName { get; set; }
+        public string? ProjectName { get; set; }
         public DateTime? ProjectStartDate { get; set; }
         public DateTime? ProjectEndDate { get; set; }
-        public string ProjectDuration { get; set; }
+        public string? ProjectDuration { get; set; }
         public int ProjectProgress { get; set; }
         public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
-        public string Field1 { get; set; }
+        public string? Predecessor { get; set; }
+        public string? Field1 { get; set; }
         public int FIELD2 { get; set; }
         public int FIELD3 { get; set; }
         public int FIELD4 { get; set; }
@@ -494,10 +491,11 @@ The following example enables timeline virtualization for a wide timeline:
     }
 }
 
+
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZLSZYsmJzvPFSdf?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDhdZRrrIyXilQTc?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Limitations for virtualization
 
@@ -507,3 +505,4 @@ The following example enables timeline virtualization for a wide timeline:
 * Programmatic selection using the [SelectRowsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.SfGantt-1.html#Syncfusion_Blazor_Gantt_SfGantt_1_SelectRowsAsync_System_Int32___) method is not supported in virtual scrolling.
 * Collapse all and expand all actions are performed only for the current view-port data in virtual scrolling.
 * While using column virtualization, column width should be in the pixel. Percentage values are not accepted.
+* When row virtualization is enabled, reordering rows is limited to only the records currently visible in the viewport.

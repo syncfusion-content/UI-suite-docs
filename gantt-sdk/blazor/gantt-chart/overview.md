@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Index in Blazor Gantt Chart Component | Syncfusion®
-description: Explore the overview of the Blazor Gantt Chart component, covering key concepts, functionalities, and usage guidelines.
-platform: gantt-sdk
+title: Index in Blazor Gantt Chart Component | Syncfusion
+description: Explore the overview of the Syncfusion Blazor Gantt Chart component, covering key concepts, functionalities, and usage guidelines.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
@@ -16,7 +16,7 @@ The Gantt Chart in Blazor offers a project management interface similar to Micro
 **1. Data & Handling** 
 Supports flexible data integration and efficient processing through structured field mapping, remote data connectivity, and performance-optimized rendering for large datasets.
    * [Data Binding](https://blazor.syncfusion.com/documentation/gantt-chart/data-binding): The Gantt component supports both **hierarchical** and **self-referential** JSON structures. It also integrates seamlessly with remote data sources using the DataManager component, enabling RESTful API connections, OData, and other services. This flexibility allows dynamic data loading. 
-   * [Task Field Mapping](https://blazor.syncfusion.com/documentation/gantt-chart/getting-started-with-web-app#binding-gantt-chart-with-data-and-mapping-task-fields): Maps specific data fields to Gantt chart properties using the `GanttTaskFields` configuration. Required fields include Id, Name, and StartDate, with optional fields like Duration, Progress, and ParentID to define task hierarchy and scheduling.
+   * [Task Field Mapping](https://blazor.syncfusion.com/documentation/gantt-chart/getting-started-with-web-app#binding-gantt-chart-with-data-and-mapping-task-fields): Maps specific data fields to Gantt chart properties using the [GanttTaskFields](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTaskFields.html) configuration. Required fields include Id, Name, and StartDate, with optional fields like Duration, Progress, and ParentID to define task hierarchy and scheduling.
    * [Large Data](https://blazor.syncfusion.com/documentation/gantt-chart/data-binding#load-child-on-demand): Optimized for large datasets using **virtualization** and **load-on-demand** techniques. Improves performance by rendering only visible rows and timeline cells during scroll operations.
 
 **2. Task Management** 

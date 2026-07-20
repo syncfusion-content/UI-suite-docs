@@ -13,11 +13,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Draw connector from port
 
-The port can be used to create connector by enabling `Draw` constraints to the [`constraints`](../../api/diagram/portconstraints) property. By default, the connector segment type is set to **Orthogonal**.
+The port can be used to create connector by enabling `Draw` constraints to the [`constraints`](https://ej2.syncfusion.com/documentation/api/diagram/portconstraints) property. By default, the connector segment type is set to **Orthogonal**.
 
 The following code explains how to draw the connector by using the port constraints.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,20 +30,7 @@ The following code explains how to draw the connector by using the port constrai
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact1" %}
-
-{% endif %}
 
 ### Draw different connector types from port
 
@@ -55,7 +42,7 @@ You can change the default connector type while drawing the connector from the p
 
 The following code explains how to draw different connectors by using the port constraints.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -68,20 +55,7 @@ The following code explains how to draw different connectors by using the port c
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact2" %}
-
-{% endif %}
 
 ## Port drag
 
@@ -89,7 +63,7 @@ The port drag feature allows users to click and drag a port using the mouse. Thi
 
 The following code explains how to enable port drag.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -102,20 +76,7 @@ The following code explains how to enable port drag.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact3" %}
-
-{% endif %}
 
 ## Automatic Port Creation
 
@@ -125,7 +86,7 @@ You can also remove a port using the same Ctrl + Click interaction, but only if 
 
 The following example shows how to enable automatic port creation:
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -138,20 +99,7 @@ The following example shows how to enable automatic port creation:
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/automaticPortCreation" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/automaticPortCreation/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/automaticPortCreation/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/automaticPortCreation" %}
-
-{% endif %}
 
 ## Port tooltip
 
@@ -159,7 +107,7 @@ The port tooltip feature allows a tooltip to be displayed when hovering over a p
 
 The following code explains how to enable port tooltip.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -172,20 +120,7 @@ The following code explains how to enable port tooltip.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact4" %}
-
-{% endif %}
 
 ## Events
 
@@ -193,14 +128,14 @@ There are several events that can be triggered while interacting with ports. The
 
 | Event| Description|
 |----|----|
-| [`Click`](../../api/diagram/iClickEventArgs)   | Triggers when the port is clicked. |
-| [`Element Draw`](../../api/diagram/iElementDrawEventArgs)  | Triggers when drawing a connector from the port. |
-| [`Position Change`](../../api/diagram/iDraggingEventArgs)  | Triggers when the port is dragged. |
-| [`Connection Change`](../../api/diagram/iConnectionChangeEventArgs) | Triggers when a connector is connected or disconnected from the port|
+| [`Click`](https://ej2.syncfusion.com/documentation/api/diagram/iClickEventArgs)   | Triggers when the port is clicked. |
+| [`Element Draw`](https://ej2.syncfusion.com/documentation/api/diagram/iElementDrawEventArgs)  | Triggers when drawing a connector from the port. |
+| [`Position Change`](https://ej2.syncfusion.com/documentation/api/diagram/iDraggingEventArgs)  | Triggers when the port is dragged. |
+| [`Connection Change`](https://ej2.syncfusion.com/documentation/api/diagram/iConnectionChangeEventArgs) | Triggers when a connector is connected or disconnected from the port|
 
 The following example shows how to get these events in diagram.
 
-{% if page.publishingplatform == "typescript" %}
+
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -213,20 +148,7 @@ The following example shows how to get these events in diagram.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact5" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-interact5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact5" %}
-
-{% endif %}
 
 
 

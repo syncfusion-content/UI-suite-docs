@@ -12,7 +12,41 @@ domainurl: https://helpstaging.syncfusion.com/chart-sdk
 
 Syncfusion® Chart SDK provides a powerful collection of high-performance, feature-rich chart and data visualization controls. It enables developers to create stunning, interactive visualizations with exceptional performance and cross-platform capabilities.
 
-The chart components are available across JavaScript, Angular, React, Vue, ASP.NET MVC, ASP.NET Core, Blazor, WPF, UWP, WinUI, Windows Forms, and .NET MAUI frameworks. The SDK supports a wide range of chart types including Cartesian, circular, funnel, pyramid, polar, radar, financial, and hierarchical visualizations.
+The SDK supports a wide range of chart types including Cartesian, circular, funnel, pyramid, polar, radar, financial, and hierarchical visualizations.
+
+Available Platforms:
+
+{% doccards %}
+
+{% doccard text="React" link="https://help.syncfusion.com/chart-sdk/react/chart/getting-started" icon="/chart-sdk/images/React.svg" %}
+
+{% doccard text="Angular" link="https://help.syncfusion.com/chart-sdk/angular/chart/getting-started" icon="/chart-sdk/images/Angular.svg" %}
+
+{% doccard text="Blazor" link="https://help.syncfusion.com/chart-sdk/blazor/charts/getting-started-with-web-app" icon="/chart-sdk/images/Blazor.svg" %}
+
+{% doccard text="JavaScript" link="https://help.syncfusion.com/chart-sdk/javascript/charts/es5-getting-started" icon="/chart-sdk/images/JavaScript.svg" %}
+
+{% doccard text="TypeScript" link="https://help.syncfusion.com/chart-sdk/typescript/chart/getting-started" icon="/chart-sdk/images/Typescript.svg" %}
+
+{% doccard text="Vue" link="https://help.syncfusion.com/chart-sdk/vue/charts/getting-started" icon="/chart-sdk/images/Vue.svg" %}
+
+{% doccard text="ASP.NET Core" link="https://help.syncfusion.com/chart-sdk/asp-net-core/charts/getting-started" icon="/chart-sdk/images/ASP.NET Core.png" %}
+
+{% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/asp-net-mvc/charts/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
+
+{% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/funnel-chart/overview" icon="/chart-sdk/images/dotnet_maui.svg" %}
+
+{% doccard text="WPF" link="https://help.syncfusion.com/chart-sdk/wpf/charts/getting-started" icon="/chart-sdk/images/WPF.svg" %}
+
+{% doccard text="Windows Forms" link="https://help.syncfusion.com/chart-sdk/winforms/charts/getting-started" icon="/chart-sdk/images/Windows Forms.svg" %}
+
+{% doccard text="WinUI" link="https://help.syncfusion.com/chart-sdk/winui/cartesian-chart/getting-started" icon="/chart-sdk/images/WinUI.svg" %}
+
+{% doccard text="UWP" link="https://help.syncfusion.com/chart-sdk/uwp/charts/getting-started" icon="/chart-sdk/images/UWP.svg" %}
+
+{% doccard text="Flutter" link="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started" icon="/chart-sdk/images/Flutter.svg" %}
+
+{% enddoccards %}
 
 ## Key Capabilities
 
@@ -42,6 +76,7 @@ The chart components are available across JavaScript, Angular, React, Vue, ASP.N
 - **Zooming & Panning** - Interactive zoom and pan using mouse, touch, and gestures.
 - **Plot Area Customization** - Configure background, border, margins, and layout for consistent design.
 - **Localization** - Localize UI elements using `.resx` resource files and culture settings.
+
 
 ## Platform-Specific Key Features
 

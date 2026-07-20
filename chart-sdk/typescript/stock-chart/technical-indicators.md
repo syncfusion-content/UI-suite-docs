@@ -61,8 +61,6 @@ Moving average Indicators are used to define the direction of the trend. To rend
 A StockChart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices. To render a Bollinger Band, use indicator [`type`](../api/stock-chart/stockChartIndicator/#type) as `BollingerBand` and inject `BollingerBands` module using `StockChart.Inject(BollingerBands)` method. Bollinger band will be represented by three lines (upperLine, lowerLine, signalLine).
 The default values of the Bollinger Band [`period`](../api/stock-chart/stockChartIndicator/#period) is 14 and [`standardDeviations`](../api/stock-chart/stockChartIndicator/#standarddeviation) is 2.
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs27/index.ts %}
@@ -74,20 +72,6 @@ The default values of the Bollinger Band [`period`](../api/stock-chart/stockChar
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs27" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs27/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs27/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs27" %}
-{% endif %}
-
 ## Indicator Events
 
 The StockChart component supports **indicator lifecycle events**, allowing you to monitor and control indicator add and remove operations triggered through the built-in toolbar indicator dropdown. These events are useful for validating user actions, restricting specific indicators, tracking indicator changes, and integrating indicator interactions with application logic.
@@ -97,8 +81,6 @@ The following indicator events are supported by the StockChart component:
 - **`beforeIndicatorChange`** – Fired before an indicator is added or removed. This event allows you to review the requested action in advance and cancel it by setting `cancel` to `true`.
 
 - **`indicatorChanged`** – Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -110,17 +92,3 @@ The following indicator events are supported by the StockChart component:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs40" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs40/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs40/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs40" %}
-{% endif %}

@@ -15,7 +15,7 @@ Diagram provides some events support for connectors that triggers when interacti
 
 ## Click event
 
-Triggers when the connector is clicked. The following code example explains how to get the [`click`](../../api/diagram/iClickEventArgs) event in the diagram.
+Triggers when the connector is clicked. The following code example explains how to get the [`click`](https://ej2.syncfusion.com/documentation/api/diagram/iClickEventArgs) event in the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,7 +59,7 @@ The following code example explains how to get the [`selectionChange`](https://e
 ## Position change event
 
 Triggers when the connector's position is changed in diagram.
-The following code example explains how to get the [`positionChange`](../../api/diagram/iDraggingEventArgs) event in the diagram.
+The following code example explains how to get the [`positionChange`](https://ej2.syncfusion.com/documentation/api/diagram/iDraggingEventArgs) event in the diagram.
 
 
 {% tabs %}
@@ -73,7 +73,7 @@ The following code example explains how to get the [`positionChange`](../../api/
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-PositionEvent" %}
 
- You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](../../api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below.
+ You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below.
 
  ```ts
    positionChange: function (args: IDraggingEventArgs) {
@@ -88,7 +88,7 @@ The following code example explains how to get the [`positionChange`](../../api/
 ## Connection change event
 
 Triggers when the connector’s source or target point is connected or disconnected from the source or target.
-The following code example explains how to get the [`connectionChange`](../../api/diagram/iConnectionChangeEventArgs) event in the diagram.
+The following code example explains how to get the [`connectionChange`](https://ej2.syncfusion.com/documentation/api/diagram/iConnectionChangeEventArgs) event in the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -104,7 +104,7 @@ The following code example explains how to get the [`connectionChange`](../../ap
 ## Source Point change event
 
 Triggers when the connector's source point is changed.
-The following code example explains how to get the [`sourcePointChange`](../../api/diagram/iEndChangeEventArgs) event in the diagram.
+The following code example explains how to get the [`sourcePointChange`](https://ej2.syncfusion.com/documentation/api/diagram/iEndChangeEventArgs) event in the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -117,7 +117,7 @@ The following code example explains how to get the [`sourcePointChange`](../../a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-SourcePointEvent" %}
 
- You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
+ You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
 ```javascript
 
@@ -134,7 +134,7 @@ The following code example explains how to get the [`sourcePointChange`](../../a
 ## Target Point change event
 
 Triggers when the connector's target point is changed.
-The following code example explains how to get the [`targetPointChange`](../../api/diagram/iEndChangeEventArgs) event in the diagram.
+The following code example explains how to get the [`targetPointChange`](https://ej2.syncfusion.com/documentation/api/diagram/iEndChangeEventArgs) event in the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -147,7 +147,7 @@ The following code example explains how to get the [`targetPointChange`](../../a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-TargetPointEvent" %}
 
- You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
+ You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
 ```javascript
 
@@ -164,7 +164,7 @@ targetPointChange: function (args: IEndChangeEventArgs) {
 ## Segment Collection Change event
 
 Triggers when the connector's segments added or removed at runtime.
-The following code example explains how to get the [`segmentCollectionChange`](../../api/diagram/iSegmentCollectionChangeEventArgs) event in the diagram. 
+The following code example explains how to get the [`segmentCollectionChange`](https://ej2.syncfusion.com/documentation/api/diagram/iSegmentCollectionChangeEventArgs) event in the diagram. 
 
 Use `CTRL+Shift+Click` on connector to add/remove segments.
 
@@ -182,7 +182,7 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 ## Segment Change event
 
 Triggers when the connector's segments were adjusted or edited.
-The following code example explains how to get the [`segmentChange`](../../api/diagram/iSegmentChangeEventArgs) event in the diagram.
+The following code example explains how to get the [`segmentChange`](https://ej2.syncfusion.com/documentation/api/diagram/iSegmentChangeEventArgs) event in the diagram.
 
 
 {% tabs %}
@@ -196,7 +196,7 @@ The following code example explains how to get the [`segmentChange`](../../api/d
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-SegmentEditEvent" %}
 
- You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
+ You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
 ``` javascript
  segmentChange: function (args: ISegmentChangeEventArgs) {
@@ -211,7 +211,7 @@ The following code example explains how to get the [`segmentChange`](../../api/d
 ## Collection change event
 
 Triggers when the connector is added or removed from diagram.
-The following code example explains how to get the [`collectionChange`](../../api/diagram/iCollectionChangeEventArgs) event in the diagram.
+The following code example explains how to get the [`collectionChange`](https://ej2.syncfusion.com/documentation/api/diagram/iCollectionChangeEventArgs) event in the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -224,7 +224,7 @@ The following code example explains how to get the [`collectionChange`](../../ap
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-CollectionEvent" %}
 
-You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](../../api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below.
+You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below.
 
 ``` javascript
 collectionChange: function (args: ICollectionChangeEventArgs) {

@@ -18,6 +18,8 @@ This article provides a step-by-step guide for setting up a [Preact](https://pre
 
 [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> React UI components](../system-requirement)
 
+Before you begin, ensure Node.js **20.19.0** or later is installed on your machine.
+
 ## Set up the Preact project
 
 To create a new `Preact` project, use one of the commands that are specific to either NPM or Yarn.
@@ -73,7 +75,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 —
 ```
 
-5\. Upon completing the aforementioned steps to create `my-project`, run the following command to jump into the project directory:
+4\. Upon completing the aforementioned steps to create `my-project`, run the following command to jump into the project directory:
 
 ```bash
 cd my-project
@@ -88,7 +90,7 @@ Syncfusion<sup style="font-size:70%">&reg;</sup> React component packages are av
 This article uses the [React Diagram component](https://www.syncfusion.com/diagram-sdk/react-diagram) as an example. To use the React Diagram component in the project, the `@syncfusion/ej2-react-diagrams` package needs to be installed using the following command:
 
 ```bash
-npm install @syncfusion/ej2-react-diagrams --save
+npm install @syncfusion/ej2-react-diagrams
 ```
 
 or
@@ -99,26 +101,31 @@ yarn add @syncfusion/ej2-react-diagrams
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-You can import themes for the Syncfusion<sup style="font-size:70%">&reg;</sup> React component in various ways, such as using CSS or SASS styles from npm packages, CDN, CRG and [Theme Studio](https://ej2.syncfusion.com/react/documentation/appearance/theme-studio). Refer to [themes topic](https://ej2.syncfusion.com/react/documentation/appearance/theme) to know more about built-in themes and different ways to refer to theme's in a React project.
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-In this article, the `Material 3` theme is applied using CSS styles, which are available in installed packages. The necessary `Material 3` CSS styles for the Diagram component and its dependents were imported into the **src/style.css** file.
+```bash
+npm install @syncfusion/ej2-tailwind3-theme
+```
 
-{% tabs %}
-{% highlight css tabtitle="~/src/style.css" %}
+or
 
-@import "../node_modules/@syncfusion/ej2-base/styles/material3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/material3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/material3.css";
-@import "../node_modules/@syncfusion/ej2-react-diagrams/styles/material3.css";
+```bash
+yarn add @syncfusion/ej2-tailwind3-theme
+```
 
-{% endhighlight %}
-{% endtabs %}
+Add the following import to the **src/style.css** file:
 
-> The order of importing CSS styles should be in line with its dependency graph.
+```css
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+```
+
+For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
 ## Add the Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
-Follow the below steps to add the React Diagram component to the Vite project:
+Follow these steps to add the React Diagram component to the Preact project:
 
 1\. Before adding the Diagram component to your markup, create a **datasource.jsx** file within the **src** folder and add the Diagram component data.
 
@@ -158,7 +165,7 @@ export let data = [{
 },
 {
     'Id': 4,
-    'Name': 'Christina kaff',
+    'Name': 'Christina Kaff',
     'Designation': 'S/w Engg',
     'IsExpand': 'false',
     'RatingColor': '#93B85A',
@@ -288,10 +295,9 @@ or
 yarn run dev
 ```
 
-The output will appear as follows:
+Open the generated local URL (for example, **http://localhost:5173**) from the terminal in the browser. The application displays the diagram as shown below:
 
 ![preact](./images/preact.png)
 
 ## See also
-
-[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](https://help.syncfusion.com/diagram-sdk/react/getting-started)
+[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../getting-started/quick-start)

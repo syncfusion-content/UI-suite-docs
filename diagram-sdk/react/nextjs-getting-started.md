@@ -21,9 +21,11 @@ This section provides a step-by-step guide for setting up a Next.js application 
 
 Before getting started with the Next.js application, ensure the following prerequisites are met:
 
-* [Node.js 16.8](https://nodejs.org/en) or later.
+* [Node.js 18.17.0](https://nodejs.org/en) or later.
 
 * The application is compatible with macOS, Windows, and Linux operating systems.
+
+* Basic knowledge of Next.js and React
 
 ## Create a Next.js application
 
@@ -44,7 +46,7 @@ yarn create next-app
 
 Running the above command starts the project configuration process.
 
-1.Define the project name: Users can specify the name of the project directly. Let's specify the name of the project as `ej2-nextjs-diagram`.
+1. Define the project name: Users can specify the name of the project directly. Let's specify the name of the project as `ej2-nextjs-diagram`.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -56,7 +58,7 @@ Running the above command starts the project configuration process.
 
 This creates a new project folder with the specified name.
 
-2.Select Configuration Options.
+2. Select Configuration Options.
 
 Choose the required configuration. For a quick setup, select the recommended defaults:
 
@@ -65,14 +67,14 @@ Choose the required configuration. For a quick setup, select the recommended def
 
 ? Would you like to use the recommended Next.js defaults? » - Use arrow-keys. Return to submit.
 >   Yes, use recommended defaults
-    TypeScript, ESLint, No React Compiler, Tailwind CSS, No src/ directory, App Router, AGENTS.md
+    TypeScript, ESLint, Tailwind CSS, App Router, AGENTS.md
     No, reuse previous settings
     No, customize settings
 
 {% endhighlight %}
 {% endtabs %}
 
-3.Navigate to the project directory using the below command:
+3. Navigate to the project directory using the below command:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -93,7 +95,7 @@ Here, the [React Diagram component](https://www.syncfusion.com/react-components/
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
 
- npm install @syncfusion/ej2-react-diagrams --save
+npm install @syncfusion/ej2-react-diagrams
 
 {% endhighlight %}
 {% highlight bash tabtitle="YARN" %}
@@ -103,31 +105,54 @@ yarn add @syncfusion/ej2-react-diagrams
 {% endhighlight %}
 {% endtabs %}
 
-## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
+## Add the required styles
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> React components come with [built-in themes](https://ej2.syncfusion.com/react/documentation/appearance/theme), which are available in the installed packages. It’s easy to adapt the Syncfusion<sup style="font-size:70%">&reg;</sup> React components to match the style of your application by referring to one of the built-in themes.
-
-Import the `Material` theme into the **app/globals.css** file and removed the existing styles in that file, as shown below:
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 {% tabs %}
-{% highlight css tabtitle="globals.css" %}
+{% highlight bash tabtitle="NPM" %}
 
-@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
-@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
-@import "../node_modules/@syncfusion/ej2-react-diagrams/styles/material.css";
+npm install @syncfusion/ej2-tailwind3-theme
+
+{% endhighlight %}
+{% highlight bash tabtitle="YARN" %}
+
+yarn add @syncfusion/ej2-tailwind3-theme
 
 {% endhighlight %}
 {% endtabs %}
 
-> To know more about built-in themes and CSS reference for individual components, refer to the [themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) section.
+Add the following import to the global stylesheet. For an App Router project, add it to the **app/globals.css** file: 
+
+{% tabs %}
+{% highlight css tabtitle="globals.css" %}
+
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+For a Pages Router project, add it to the global stylesheet imported in **pages/_app.tsx**:
+
+{% tabs %}
+{% highlight ts tabtitle="pages/_app.tsx" %}
+
+import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
+
+N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
 Follow the below steps to add the React Diagram component to the Next.js project:
 
-1.Before adding the Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the Diagram component data.
+1. Before adding the Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the Diagram component data.
 
 {% tabs %}
 {% highlight ts tabtitle="datasource.tsx" %}
@@ -165,7 +190,7 @@ export let data: object[] = [{
 },
 {
     'Id': 4,
-    'Name': 'Christina kaff',
+    'Name': 'Christina Kaff',
     'Designation': 'S/w Engg',
     'IsExpand': 'false',
     'RatingColor': '#93B85A',
@@ -183,7 +208,7 @@ export let data: object[] = [{
 {% endhighlight %}
 {% endtabs %}
 
-2.Then, import and define the Diagram component in the **app/page.tsx** file, as shown below: 
+2. Then, import and define the Diagram component in the **app/page.tsx** file, as shown below:
 
 {% raw %}
 
@@ -199,7 +224,7 @@ export default function Home() {
   return (
     <>
       <h2>Syncfusion React Diagram Component</h2>
-      <DiagramComponent id="container" height={'450px'} layout={{
+      <DiagramComponent id="container" width={'100%'} height={'450px'} layout={{
         type: 'HierarchicalTree',
         margin: {
           top: 20,
@@ -295,6 +320,10 @@ yarn run dev
 {% endhighlight %}
 {% endtabs %}
 
+Open the generated local URL (for example, http://localhost:3000) from the terminal in the browser. The application displays the diagram as shown below:
+
+![nextjs](./images/preact.png)
+
 To learn more about the functionality of the Diagram component, refer to the [documentation](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection).
 
-> [View the NEXT.js Diagram sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-diagram).
+> [View the Next.js Diagram sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-diagram).

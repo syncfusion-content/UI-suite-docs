@@ -1,19 +1,19 @@
 ---
 layout: post
-title: PDF Headers and Footers in Blazor Gantt Chart Component | Syncfusion®
-description: Learn how to customize headers and footers in PDF exports of the Blazor Gantt Chart component with text, lines, page numbers, and images.
-platform: gantt-sdk
+title: PDF Headers and Footers in Syncfusion Blazor Gantt Chart Component
+description: Learn how to customize headers and footers in PDF exports of the Syncfusion Blazor Gantt Chart component with text, lines, page numbers, and images.
+platform: Blazor
 control: header and footer of PDF exporting
 documentation: ug
 ---
 
 # Header and Footer of PDF Exporting in Blazor Gantt Chart Component
 
-Customizing headers and footers in PDF exports of the [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) component allows adding text, lines, page numbers, and images to enhance document professionalism for projects. Use [GanttPdfExportProperties](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttPdfExportProperties.html) with [Header](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Grids.PdfExportPropertiesBase.html#Syncfusion_Blazor_Grids_PdfExportPropertiesBase_Header) and [Footer](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Grids.PdfExportPropertiesBase.html#Syncfusion_Blazor_Grids_PdfExportPropertiesBase_Footer) to define content arrays, specifying `Type` (e.g., Text, Line), `Value`, `Position`, `Style`, or `Src` for images with `Base64` encoding.
+Customizing headers and footers in PDF exports of the Blazor Gantt Chart component allows adding text, lines, page numbers, and images to enhance document professionalism for projects. Use [GanttPdfExportProperties](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttPdfExportProperties.html) with [Header](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Grids.PdfExportPropertiesBase.html#Syncfusion_Blazor_Grids_PdfExportPropertiesBase_Header) and [Footer](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Grids.PdfExportPropertiesBase.html#Syncfusion_Blazor_Grids_PdfExportPropertiesBase_Footer) to define content arrays, specifying `Type` (e.g., Text, Line), `Value`, `Position`, `Style`, or `Src` for images with `Base64` encoding.
 
 ## Adding text in header and footer
 
-The Blazor Gantt Chart allows you to add custom text to the header and footer sections when exporting the Gantt content to PDF.
+The Syncfusion Blazor Gantt Chart allows you to add custom text to the header and footer sections when exporting the Gantt content to PDF.
 
 * The **header** appears at the top of each exported page and is typically used to display a document title, company branding, logos, dates, or other identifying information.
 * The **footer** appears at the bottom of each page and commonly includes page numbers, copyright notices, disclaimers, or similar supporting details.
@@ -40,22 +40,22 @@ The appearance of the header or footer text can be customized using the `Style` 
 These style options allow full control over text color, size, alignment, and appearance. The [HAlign](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Grids.PdfContentStyle.html#Syncfusion_Blazor_Grids_PdfContentStyle_HAlign) property is especially useful for aligning text horizontally within the header or footer area, ensuring a consistent and professional layout in the exported PDF.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using Syncfusion.Blazor.Grids
-@using Syncfusion.Blazor.Navigations
+
 
 <SfGantt @ref="Gantt" ID="GanttExport" DataSource="@TaskCollection" Height="450px" Width="900px" AllowPdfExport="true" Toolbar="toolbarItem">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Dependency="Predecessor"
-                     Duration="Duration" Progress="Progress" ParentID="ParentID">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Dependency="Predecessor"
+                     Duration="Duration" Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEvents OnToolbarClick="ToolbarClickHandler" TValue="TaskData"></GanttEvents>
 </SfGantt>
 
 @code {
-    private List<TaskData> TaskCollection { get; set; }
-    private SfGantt<TaskData> Gantt;
+    public List<TaskData>? TaskCollection { get; set; }
+    public SfGantt<TaskData>? Gantt;
     private List<object> toolbarItem = new List<Object>() { new Syncfusion.Blazor.Navigations.ToolbarItem() { Text = "PDF Export", TooltipText = "PDF Export", Id = "PdfExport", PrefixIcon = "e-pdfexport" } };
     public List<PdfHeaderFooterContent> HeaderContent = new List<PdfHeaderFooterContent>
     {
@@ -67,7 +67,7 @@ These style options allow full control over text color, size, alignment, and app
     };
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
     public async void ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs args)
     {
@@ -75,47 +75,51 @@ These style options allow full control over text color, size, alignment, and app
         {
             GanttPdfExportProperties exportProperties = new GanttPdfExportProperties();
             PdfHeader Header = new PdfHeader()
-                {
-                    FromTop = 0,
-                    Height = 100,
-                    Contents = HeaderContent
-                };
+            {
+                FromTop = 0,
+                Height = 100,
+                Contents = HeaderContent
+            };
             PdfFooter Footer = new PdfFooter()
-                {
-                    FromBottom = 250,
-                    Height = 100,
-                    Contents = FooterContent
-                };
+            {
+                FromBottom = 250,
+                Height = 100,
+                Contents = FooterContent
+            };
             exportProperties.Header = Header;
             exportProperties.Footer = Footer;
-            await Gantt.ExportToPdfAsync(exportProperties);
+            if(Gantt!=null)
+            {
+                await Gantt.ExportToPdfAsync(exportProperties);
+            }
+            
         }
     }
-   
+
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
+        public int? ParentId { get; set; }
+        public string? Predecessor { get; set; }
     }
 
     public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1, Predecessor = "2" },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 , Predecessor = "3" },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 1, Predecessor="2", },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, Predecessor="3", },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 10), EndDate = new DateTime(2026, 01, 17), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 06), EndDate = new DateTime(2026, 01, 08), Progress = 30, ParentId = 5, Predecessor="4", },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 06), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 5, Predecessor="6", },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 06), Duration = "0", Progress = 30, ParentId = 5, Predecessor="7", }
         };
         return Tasks;
     }
@@ -124,7 +128,7 @@ These style options allow full control over text color, size, alignment, and app
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhyiDXArUzpgPqb?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrnDxidrVnLOhzT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Draw a line in header and footer
 
@@ -138,22 +142,20 @@ Customize lines in headers or footers using the [Header](https://help.syncfusion
 These options provide flexibility for adding separators or visual structure to the header and footer areas in the exported PDF.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 @using Syncfusion.Blazor.Grids
-@using Syncfusion.Blazor.Navigations
-
 <SfGantt @ref="Gantt" ID="GanttExport" DataSource="@TaskCollection" Height="450px" Width="900px" AllowPdfExport="true" Toolbar="toolbarItem">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Dependency="Predecessor"
-                     Duration="Duration" Progress="Progress" ParentID="ParentID">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Dependency="Predecessor"
+                     Duration="Duration" Progress="Progress" ParentID="ParentId">
     </GanttTaskFields>
     <GanttEvents OnToolbarClick="ToolbarClickHandler" TValue="TaskData"></GanttEvents>
 </SfGantt>
 
 @code {
-    private List<TaskData> TaskCollection { get; set; }
-    private SfGantt<TaskData> Gantt;
+    public List<TaskData>? TaskCollection { get; set; }
+    public SfGantt<TaskData>? Gantt;
     private List<object> toolbarItem = new List<Object>() { new Syncfusion.Blazor.Navigations.ToolbarItem() { Text = "PDF Export", TooltipText = "PDF Export", Id = "PdfExport", PrefixIcon = "e-pdfexport" } };
     public List<PdfHeaderFooterContent> HeaderContent = new List<PdfHeaderFooterContent>
     {
@@ -165,7 +167,7 @@ These options provide flexibility for adding separators or visual structure to t
     };
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
     public async void ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs args)
     {
@@ -173,47 +175,47 @@ These options provide flexibility for adding separators or visual structure to t
         {
             GanttPdfExportProperties exportProperties = new GanttPdfExportProperties();
             PdfHeader Header = new PdfHeader()
-                {
-                    FromTop = 0,
-                    Height = 100,
-                    Contents = HeaderContent
-                };
+            {
+                FromTop = 0,
+                Height = 100,
+                Contents = HeaderContent
+            };
             PdfFooter Footer = new PdfFooter()
-                {
-                    FromBottom = 250,
-                    Height = 100,
-                    Contents = FooterContent
-                };
+            {
+                FromBottom = 250,
+                Height = 100,
+                Contents = FooterContent
+            };
             exportProperties.Header = Header;
             exportProperties.Footer = Footer;
             await Gantt.ExportToPdfAsync(exportProperties);
         }
     }
-   
+
     public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
-        public string Predecessor { get; set; }
+        public int? ParentId { get; set; }
+        public string? Predecessor { get; set; }
     }
 
     public static List<TaskData> GetTaskCollection()
     {
         List<TaskData> Tasks = new List<TaskData>()
         {
-            new TaskData() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2022, 04, 05), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 },
-            new TaskData() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2022, 04, 05), Duration = "4", Progress = 40, ParentID = 1, Predecessor = "2" },
-            new TaskData() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2022, 04, 05), Duration = "0", Progress = 30, ParentID = 1 , Predecessor = "3" },
-            new TaskData() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2022, 04, 06), EndDate = new DateTime(2022, 04, 08), },
-            new TaskData() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 30, ParentID = 5 },
-            new TaskData() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2022, 04, 06), Duration = "3", Progress = 40, ParentID = 5 },
-            new TaskData() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2022, 04, 06), Duration = "0", Progress = 30, ParentID = 5 }
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 01, 05), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 1, Predecessor="2", },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 01, 05), Duration = "0", Progress = 30, ParentId = 1, Predecessor="3", },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 01, 10), EndDate = new DateTime(2026, 01, 17), },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 01, 06), EndDate = new DateTime(2026, 01, 08), Progress = 30, ParentId = 5, Predecessor="4", },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 01, 06), EndDate = new DateTime(2026, 01, 08), Progress = 40, ParentId = 5, Predecessor="6", },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 01, 06), Duration = "0", Progress = 30, ParentId = 5, Predecessor="7", }
         };
         return Tasks;
     }
@@ -222,7 +224,7 @@ These options provide flexibility for adding separators or visual structure to t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZBIWtXKVKPSwLAW?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNVxNRsxVLwWpgwN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 - [How to export to PDF?](https://blazor.syncfusion.com/documentation/gantt-chart/pdf-export)
