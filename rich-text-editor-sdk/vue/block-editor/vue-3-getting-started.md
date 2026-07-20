@@ -60,13 +60,11 @@ To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into the `<style>` section of **src/App.vue**.
+Then add the following CSS reference to the **src/App.vue** file:
 
 ```css
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 ```
-
-I> To apply the application-specific styles correctly remove all the default styles from **src/style.css**.
 
 ## Adding Block Editor component
 

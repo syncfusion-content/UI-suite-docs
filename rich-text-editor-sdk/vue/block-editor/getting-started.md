@@ -58,7 +58,9 @@ yarn add @syncfusion/ej2-vue-blockeditor
 
 ## Adding CSS reference
 
-To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
+Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages).
+
+To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
 
 ```bash
 npm install @syncfusion/ej2-tailwind3-theme --save
