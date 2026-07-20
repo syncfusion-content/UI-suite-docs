@@ -32,7 +32,7 @@ The [`snapConstraints`](https://ej2.syncfusion.com/angular/documentation/api/dia
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
 
-To show only horizontal/vertical gridlines or to hide gridlines, refer to [`Constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapSettings#constraints-SnapConstraints).
+To show only horizontal/vertical gridlines or to hide gridlines, refer to [`Constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/snapconstraints).
 
 ## Appearance
 
