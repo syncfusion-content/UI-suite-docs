@@ -86,6 +86,8 @@ Make sure the required base and dependent scripts are included along with the Bl
 
 ## Adding Block Editor control
 
+To get started, add Block Editor control in `index.js` and `index.html` files.
+
 Block Editor can be initialized on a div element as shown below
 
 {% tabs %}

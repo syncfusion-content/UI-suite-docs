@@ -24,8 +24,6 @@ To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuej
 ```bash
 npm install -g @vue/cli
 vue create quickstart
-cd quickstart
-npm run serve
 ```
 
 or
@@ -33,17 +31,17 @@ or
 ```bash
 yarn global add @vue/cli
 vue create quickstart
-cd quickstart
-yarn run serve
 ```
 
-During project creation, the CLI prompts you to choose a preset. Select **Default ([Vue 2] babel, eslint)** so the steps in this guide match your setup.
+When creating a new project, choose the option `Default ([Vue 2] babel, eslint)` from the menu.
 
 <img src="https://ej2.syncfusion.com/vue/documentation/appearance/images/vue2-terminal.png" alt="Selecting the Vue 2 preset during project creation">
 
-After the project is created, confirm that the `quickstart` folder exists and that the app starts without errors before continuing.
+Navigate to the project directory:
 
-Once the `quickstart` project is set up with the default settings, you're ready to add Syncfusion<sup style="font-size:70%">&reg;</sup> components to it.
+```bash
+cd quickstart
+```
 
 ## Adding Syncfusion Block Editor package
 
