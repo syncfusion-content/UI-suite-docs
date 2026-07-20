@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET Core Block Editor Control | Syncfusion
-description: Checkout and learn about getting started with Syncfusion Essential ASP.NET Core Block Editor control, its elements, and more details.
+description: Check out and learn about getting started with Syncfusion Essential ASP.NET Core Block Editor control, its elements, and more details.
 canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/aspnet-core-block-editor"
 platform: ej2-asp-core-mvc
 control: Block Editor
@@ -20,9 +20,9 @@ This section briefly explains about how to include `ASP.NET Core BlockEditor` co
 
 [System requirements for ASP.NET Core controls](https://ej2.syncfusion.com/aspnetcore/documentation/system-requirements)
 
-## Create ASP.NET Core web application with Razor pages
+## Create an ASP.NET Core Web Application with Razor pages
 
-You can create the ASP.NET Core web application with Razor pages by two types they are mentioned below along with the steps. Follow one of these types to create an ASP .NET Core project.
+You can add the Syncfusion Block Editor to your ASP.NET Core application by installing the Syncfusion ASP.NET Core package. This can be done in two ways described below:
 
 * [Create a Project using Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio#create-a-razor-pages-web-app)
 
@@ -30,7 +30,7 @@ You can create the ASP.NET Core web application with Razor pages by two types th
 
 ## Install Syncfusion ASP.NET Core package in the application
 
-You can add the Syncfusion Block Editor to your ASP.NET Core application by installing the Syncfusion ASP.NET Core package. This can be done in two ways, they are mentioned below
+You can add the Syncfusion Block Editor to your ASP.NET Core application by installing the Syncfusion ASP.NET Core package. This can be done in two ways, as mentioned below:
 
 ### 1. Using NuGet Package Manager
 
@@ -82,13 +82,13 @@ Here, the theme and script is referred using CDN inside the `<head>` of `~/Pages
 {% endhighlight %}
 {% endtabs %}
 
-N> Checkout the [Themes topic](https://ej2.syncfusion.com/aspnetcore/documentation/appearance/theme) to learn different ways ([CDN](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references#cdn-reference), [NPM package](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references#node-package-manager-npm), and [CRG](https://ej2.syncfusion.com/aspnetcore/documentation/common/custom-resource-generator)) to refer styles in ASP.NET Core application, and to have the expected appearance for Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls.
+N> Check out the [Themes topic](https://ej2.syncfusion.com/aspnetcore/documentation/appearance/theme) to learn different ways ([CDN](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references#cdn-reference), [NPM package](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references#node-package-manager-npm), and [CRG](https://ej2.syncfusion.com/aspnetcore/documentation/common/custom-resource-generator)) to refer styles in ASP.NET Core application, and to have the expected appearance for Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls.
 
-N> Checkout the [Adding Script Reference](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your ASP.NET Core application.
+N> Check out the [Adding Script Reference](https://ej2.syncfusion.com/aspnetcore/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your ASP.NET Core application.
 
 ## Register Syncfusion<sup style="font-size:70%">&reg;</sup> Script Manager
 
-Also, register the script manager `<ejs-script>` at the end of `<body>` in the ASP.NET Core application as follows.
+Also, register the Script Manager `<ejs-script>` at the end of `<body>` in the ASP.NET Core application as follows.
 
 {% tabs %}
 {% highlight cshtml tabtitle="~/_Layout.cshtml" %}
@@ -104,7 +104,7 @@ Also, register the script manager `<ejs-script>` at the end of `<body>` in the A
 
 ## Add ASP.NET Core Block Editor control
 
-Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block Editor tag helper in `~/Pages/Index.cshtml` page.
+Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block Editor tag helper to `~/Pages/Index.cshtml` page.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -115,7 +115,7 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Block
 {% endhighlight %}
 {% endtabs %}
 
-I> When the Block Editor control is rendered, the id attribute must be present. If the id is not provided, the control will fail to render.
+I> When the Block Editor control is rendered, the `id` attribute must be provided; otherwise, the control will fail to render.
 
 ## Run the application
 
