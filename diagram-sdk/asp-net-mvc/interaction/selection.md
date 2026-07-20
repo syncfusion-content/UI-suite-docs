@@ -38,10 +38,10 @@ Multiple elements can be selected with the following ways:
 
 ## Select/Unselect elements using program
 
-The client-side methods [`select`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) and [`clearSelection`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) helps to select or clear the selection of the elements at runtime.
+The client-side methods [`select`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#select) and [`clearSelection`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#clearselection) helps to select or clear the selection of the elements at runtime.
 
-Get the current selected items from the [`nodes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSelector.html#Syncfusion_EJ2_Diagrams_DiagramSelector_Nodes) and [`connectors`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSelector.html#Syncfusion_EJ2_Diagrams_DiagramSelector_Connectors) collection of the [`selectedItems`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_SelectedItems) property of the diagram model.
+Get the current selected items from the [`nodes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSelector.html#Syncfusion_EJ2_Diagrams_DiagramSelector_Nodes) and [`connectors`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSelector.html#Syncfusion_EJ2_Diagrams_DiagramSelector_Connectors) collection of the [`selectedItems`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramSelector.html) property of the diagram model.
 
 ## Select entire elements in diagram programmatically
 
-The client-side method [`selectAll`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) is used to select all the elements such as nodes/connectors in the diagram. Refer to the following link which shows how to use [`selectAll`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.html) method on the diagram.
+The client-side method [`selectAll`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#selectall) is used to select all the elements such as nodes/connectors in the diagram. Refer to the following link which shows how to use [`selectAll`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#selectall) method on the diagram.
