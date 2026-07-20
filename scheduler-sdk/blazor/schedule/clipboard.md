@@ -107,7 +107,7 @@ To use these shortcuts, simply click on the appointment and press **Ctrl+C** to 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBojgVmMamGGqYM?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htBRDGiwVHPaRVJk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> For Mac users, use **Cmd** instead of **Ctrl** for copy, cut, and paste operations.
 
@@ -287,7 +287,7 @@ By using these methods, you can programmatically cut, copy, and paste appointmen
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNVojqVGhZgDmVrp?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htLdDwMGVxEkzjiR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Modifying content before pasting
 
@@ -450,4 +450,4 @@ In this example, the `Paste` event can be utilized to intercept the event detail
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXroNUhmrDOIbXBe?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVntmiQBcMQVeCP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
