@@ -55,7 +55,7 @@ N> To convert the data source into nodes and connectors, `DataBinding` should be
 
 You can bind the diagram with remote data by using [`dataManager`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/datasourcemodel#datamanager). 
 
-[`DataManager`](https://ej2.syncfusion.com/documentation/data) can be bound to remote data source by assigning service end point URL to the `url` property. With the provided url, the DataManager handles all communication with the data server with help of queries.
+[`DataManager`](https://ej2.syncfusion.com/javascript/documentation/data) can be bound to remote data source by assigning service end point URL to the `url` property. With the provided url, the DataManager handles all communication with the data server with help of queries.
 
 When querying data, the `DataManager` will convert the query object(Query) into server request after calling [`executeQuery`](https://ej2.syncfusion.com/javascript/documentation/api/data/dataManager#executequery) and waits for the server response(`JSON` format).
 
@@ -98,7 +98,7 @@ This feature allows you to read the data source and perform add or edit or delet
 
 * The connectionDataSource’s [`sourcePointX`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#sourcepointx), [`sourcePointY`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#sourcepointy), [`targetPointX`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#targetpointx), and [`targetPointY`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#targetpointy) properties are used to define the sourcePoint and targetPoint values for connector from data source.
 
-* The dataSourceSettings crudAction’s [`customFields`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#customFields) property is used to maintain the additional information for nodes.
+* The dataSourceSettings crudAction’s [`customFields`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#customfields) property is used to maintain the additional information for nodes.
 
 * Similarly, connectionDataSource’s crudAction’s [`customFields`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#customfields) is used to maintain the additional information for connectors.
 

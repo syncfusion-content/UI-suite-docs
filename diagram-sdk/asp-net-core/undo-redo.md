@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Undo Redo in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Undo Redo in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -43,8 +43,6 @@ History list allows to revert or restore multiple changes through a single undo/
 
 The client-side method [`startGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/#startgroupaction) is used to notify the diagram to start grouping the changes. The client-side method [`endGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/#endgroupaction) is used to notify to stop grouping the changes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/tagHelper %}
@@ -53,19 +51,6 @@ The client-side method [`startGroupAction`](https://ej2.syncfusion.com/documenta
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript

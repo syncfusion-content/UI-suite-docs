@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Activity
 
-The [`activity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnActivity#BpmnActivity) is the task that is performed in a business process. It is represented by a rounded rectangle.
+The [`activity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnActivity) is the task that is performed in a business process. It is represented by a rounded rectangle.
 
 There are two types of activities. They are listed as follows:
 

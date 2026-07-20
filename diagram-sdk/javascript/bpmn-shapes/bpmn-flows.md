@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # BPMN flows in JavaScript Diagram control
 
-[`BPMN Flows`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#BpmnFlow) are lines that connects BPMN flow objects.
+[`BPMN Flows`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow) are lines that connects BPMN flow objects.
 
 * Association
 * Sequence

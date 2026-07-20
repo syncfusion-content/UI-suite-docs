@@ -93,7 +93,7 @@ var selectedObjects = diagram.selectedItems.selectedObjects;
 
 ### Toggle selection
 
-The [`canToggleSelection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#canToggleSelection) property determines whether the selection state of a diagram element should toggle with a mouse click at runtime. By default, this property is set to false. In the following example, the node can be selected with the first click and unselected with the second click.
+The [`canToggleSelection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#cantoggleselection) property determines whether the selection state of a diagram element should toggle with a mouse click at runtime. By default, this property is set to false. In the following example, the node can be selected with the first click and unselected with the second click.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,7 +108,7 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/javascript/documentation/a
 
 ### Select entire elements in diagram programmatically
 
-The [`selectAll`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#selectAll) method of diagram is used to select all the elements such as nodes/connectors in the diagram. Refer to the following code snippet.
+The [`selectAll`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#selectall) method of diagram is used to select all the elements such as nodes/connectors in the diagram. Refer to the following code snippet.
 
 ```javascript
 //Selects all the nodes and connectors in diagram

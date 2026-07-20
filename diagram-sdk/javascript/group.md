@@ -275,9 +275,9 @@ Containers are used to automatically measure and arrange the size and position o
 
 * It allows elements to be either vertically or horizontally aligned.
 
-* Child can be defined with the collection [`canvas.children`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/canvas#children-DiagramElement) property.
+* Child can be defined with the collection [`canvas.children`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/canvas#children) property.
 
-* Basic element can be defined with the collection of [`basicElements`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#basicElements-DiagramElement).
+* Basic element can be defined with the collection of `basicElements`.
 
 The following code illustrates how to add canvas panel.
 

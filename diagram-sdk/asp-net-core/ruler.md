@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Ruler in ASP.NET Core Diagram Component
 description: Learn here all about Ruler in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -20,23 +20,11 @@ The Ruler provides a horizontal and vertical guide for measuring in the Diagram 
 
 * The RulerSettings [`horizontalRuler`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_HorizontalRuler) and [`verticalRuler`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_VerticalRuler) properties are used to customize the rulers appearance in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Ruler.cshtml" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/ruler/ruler/ruler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Ruler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/ruler/ruler/ruler.cshtml %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Ruler](images/Ruler.png)
@@ -53,23 +41,11 @@ By default, the ruler segments are arranged based on pixel values.
 
 * The HorizontalRuler’s [`markerColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) and VerticalRuler’s [`markerColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDiagramRuler.html#Syncfusion_EJ2_Diagrams_DiagramDiagramRuler_MarkerColor) properties are used to define the ruler marker color and marker will be shown when performing the interaction in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight c# tabtitle="CustomRuler.cshtml" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/ruler/customRuler/customRuler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="CustomRuler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/ruler/customRuler/customRuler.cshtml %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 N> The MarkerColor property can be customized using the [`Marker`](./style/#customizing-the-ruler) CSS style.

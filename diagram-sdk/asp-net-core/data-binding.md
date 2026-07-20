@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Data Binding in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Data Binding in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -36,8 +36,6 @@ Diagram can be populated based on the user defined JSON data (Local Data) by map
 
 To map the user defined JSON data with diagram, configure the fields of [`dataSourceSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/local/tagHelper %}
@@ -46,16 +44,6 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/local/local.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/local/local.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -134,8 +122,6 @@ This feature allows to read the data source and perform add or edit or delete th
 
 * The connectionDataSource crudAction’s [`create`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Create) specifies the method, which is used to get the connectors added from the client-side to the server-side.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/insertdata/tagHelper %}
@@ -144,16 +130,6 @@ This feature allows to read the data source and perform add or edit or delete th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/insertdata/insertdata.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Insertdata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/insertdata/insertdata.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 ```javascript
 var diagramElement = document.getElementById('element');
@@ -169,8 +145,6 @@ diagram.insertData();
 
 * The connectionDataSource crudAction’s [`update`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Update) specifies the method, which is used to get the modified connectors from the client-side to the server-side.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/updatedata/tagHelper %}
@@ -179,16 +153,6 @@ diagram.insertData();
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/updatedata/updatedata.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Updatedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/updatedata/updatedata.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -205,8 +169,6 @@ diagram.updateData();
 
 * The connectionDataSource crudAction’s [`destroy`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramCrudAction.html#Syncfusion_EJ2_Diagrams_DiagramCrudAction_Destroy) specifies the method, which is used to get the deleted connectors from the client-side to the server-side.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/deletedata/tagHelper %}
@@ -215,16 +177,6 @@ diagram.updateData();
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/deletedata/deletedata.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Deletedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/data-binding/deletedata/deletedata.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
  ```javascript

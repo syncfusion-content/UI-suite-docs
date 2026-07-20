@@ -192,7 +192,7 @@ The following code illustrates how to disable selection.
 
 ## Add info for connector
 
-The [`addInfo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#addinfo-Object) property of connectors allow you to maintain additional information to the connectors.
+The [`addInfo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#addinfo) property of connectors allow you to maintain additional information to the connectors.
 
 ``` Javascript
 

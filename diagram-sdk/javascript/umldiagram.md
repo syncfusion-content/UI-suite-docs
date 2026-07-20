@@ -217,7 +217,7 @@ The shape multiplicity’s [`source`](https://ej2.syncfusion.com/javascript/docu
 
 To set an optionality or cardinality for the connector source label, use the [`optional`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/multiplicityLabelModel#optional) property.
 
-The [`lowerBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/multiplicityLabelModel#lowerBounds) and [`upperBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/multiplicityLabelModel#upperBounds) could be natural constants or constant expressions evaluated to a natural (non negative) number. The upper bound could also be specified as an asterisk ‘\*’ which denotes an unlimited number of elements. The upper bound should be greater than or equal to the lower bound.
+The [`lowerBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/multiplicityLabelModel#lowerbounds) and [`upperBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/multiplicityLabelModel#upperbounds) could be natural constants or constant expressions evaluated to a natural (non negative) number. The upper bound could also be specified as an asterisk ‘\*’ which denotes an unlimited number of elements. The upper bound should be greater than or equal to the lower bound.
 
 The following code example illustrates how to customize the multiplicity.
 

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Tools in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Tools in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -19,8 +19,6 @@ Drawing tool allows to draw any kind of node or connector during runtime by clic
 
 To draw a shape, set the JSON of that shape to the drawType property of the diagram and activate the drawing tool by using the [`tool`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) property. 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
@@ -29,16 +27,6 @@ To draw a shape, set the JSON of that shape to the drawType property of the diag
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -55,8 +43,6 @@ function Created() {
     }
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
@@ -65,16 +51,6 @@ function Created() {
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -102,8 +78,6 @@ function Created() {
 
 To draw connectors, set the JSON of the connector to the drawType property. The drawing [`tool`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramTools.html) can be activated by using the tool property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
@@ -112,16 +86,6 @@ To draw connectors, set the JSON of the connector to the drawType property. The 
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -143,8 +107,6 @@ function Created() {
 
 Diagram allows to create a textNode, when you click on the diagram page.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
@@ -153,16 +115,6 @@ Diagram allows to create a textNode, when you click on the diagram page.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -186,8 +138,6 @@ Once you activate the TextTool, perform label editing of a node/connector.
 
 Diagram allows to create the polygon shape by clicking and moving the mouse at runtime on the diagram page.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
@@ -196,16 +146,6 @@ Diagram allows to create the polygon shape by clicking and moving the mouse at r
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -226,8 +166,6 @@ function Created() {
 
 Diagram allows to create the polyline segments with straight lines and angled vertices at the control points by clicking and moving the mouse at runtime on the diagram page.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
@@ -236,16 +174,6 @@ Diagram allows to create the polyline segments with straight lines and angled ve
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -296,17 +224,11 @@ function Created() {
 
 ## Events
 
-{% if page.publishingplatform == "aspnet-core" %}
+
 
 [elementDraw](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ElementDraw)  event is triggered when node or connector is drawn using drawing tool.
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
-[elementDraw](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ElementDraw)  event is triggered when node or connector is drawn using drawing tool.
-
-{% endif %}
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -316,16 +238,6 @@ function Created() {
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -350,8 +262,6 @@ Diagram has support for free-hand drawing to draw anything on the diagram page i
 
 The following code illustrates how to draw a freehand drawing.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
@@ -360,16 +270,6 @@ The following code illustrates how to draw a freehand drawing.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
