@@ -114,6 +114,8 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/getting-started/index" %}
+
 ## Run the application
 
 Use the following command to run the application in the browser.
@@ -121,10 +123,6 @@ Use the following command to run the application in the browser.
 ```bash
 npm run dev
 ```
-
-The output will appear as follows:
-
-![Output](./images/block-editor-component.png)
 
 ## See also
 

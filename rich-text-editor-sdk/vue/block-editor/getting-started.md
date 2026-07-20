@@ -78,8 +78,6 @@ Use a theme package version that is compatible with the Syncfusion Vue package v
 {% endhighlight %}
 {% endtabs %}
 
-I> To apply the application-specific styles correctly, remove all the default styles from **src/style.css**.
-
 ## Adding Block Editor component
 
 Follow the steps below to add the Vue Block Editor component using `Composition API` or `Options API`:
