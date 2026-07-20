@@ -45,7 +45,7 @@ npm install @syncfusion/ej2-react-blockeditor --save
 
 ## Adding a CSS Reference
 
-Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
+Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/react/documentation/appearance/theme#theme-packages).
 
 To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
@@ -53,12 +53,12 @@ To install the [tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwin
 npm install @syncfusion/ej2-tailwind3-theme --save
 ```
 
-Import the required CSS theme files for the Block Editor and its dependencies in your `src/index.css` file.
+Import the required CSS theme files for the Block Editor and its dependencies in your `src/App.css` file.
 
 ```css
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 ```
-
+I> To apply the application-specific styles correctly, import **App.css** into **src/App.tsx** and remove all the default styles from **src/index.css**.
 ## Add the Block Editor Component
 
 You can now add the Block Editor component to your application. Replace the default contents of `src/App.tsx` with the following code, which uses the `<BlockEditorComponent>` directive to render the editor.
