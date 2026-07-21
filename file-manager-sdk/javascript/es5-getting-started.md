@@ -9,13 +9,22 @@ documentation: ug
 domainurl: https://help.syncfusion.com/file-manager-sdk
 ---
 
-# Getting started in JavaScript File Manager control
+# Getting started with JavaScript File Manager control
 
 This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager and demonstrate the basic usage of the File Manager control in a JavaScript application.
 
+Before getting started, ensure the following requirements are met:
+
+| Requirement | Notes |
+|-------------|-------|
+| Modern web browser | Chrome, Firefox, Edge, or Safari — latest version recommended |
+| Code editor | Visual Studio Code is recommended |
+| Local HTTP server | Required to serve the application. Opening HTML files directly via `file://` may block script loading in some browsers. VS Code Live Server extension is recommended |
+| Syncfusion<sup style="font-size:70%">&reg;</sup> license key | Required from version 16.2.0.17 onwards. Refer to the [Registering a license key](#registering-a-license-key) section |
+
 ## Dependencies
 
-A list of dependencies to use the file manager with all features.
+The following list shows the dependencies required to use the File Manager with all its features.
 
 ```javascript
 |-- @syncfusion/ej2-filemanager
@@ -33,13 +42,19 @@ A list of dependencies to use the file manager with all features.
 
 ## Setup for local environment
 
-Refer to the following steps to set up your local environment.
+Follow these steps to set up your local environment.
 
 **Step 1:** Create a root folder named **my-app** for your application.
 
-**Step 2:** Create a **my-app/resources** folder to store local scripts and styles files.
+**Step 2:** Open Visual Studio Code and create two files inside the **my-app** folder:
+- **index.html** — the main HTML file that loads the CDN resources and provides the File Manager container element.
+- **index.js** — the JavaScript file where the File Manager control is initialized.
 
-**Step 3:** Open Visual Studio Code and create **my-app/index.js** and **my-app/index.html** files to initialize the Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control.
+**Step 3:** In **index.html**, add a `<script>` tag at the end of `<body>` to link **index.js**:
+
+```html
+<script src="index.js" type="text/javascript"></script>
+```
 
 ## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> resources
 
@@ -105,7 +120,7 @@ This setup includes only the necessary scripts and styles required to render the
 
 ```
 
-**b.Extended Dependency (Additional Controls)**
+**b. Extended Dependency (Additional Controls)**
 This setup includes additional dependencies required for more advanced functionalities of the file manager, such as buttons, dropdowns, navigations, and other controls. Use this setup when you need to integrate additional features like filtering, sorting, context menu and more.
 
 ```html
@@ -155,7 +170,7 @@ This setup includes additional dependencies required for more advanced functiona
 ```
 
 **c. Comprehensive Dependency (All Controls)**
-This setup includes all possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
+This setup includes all the possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
 
 ```html
 <!DOCTYPE html>
@@ -177,9 +192,9 @@ This setup includes all possible dependencies for Syncfusion<sup style="font-siz
 
 ### Using CDN link for script and style
 
-Using CDN links, you can directly refer the file manager control's script and style into the `index.html`.
+Using CDN links, you can directly add the File Manager control's script and style to the `index.html`.
 
-Refer the file manager's CDN links as below
+Refer to the File Manager's CDN links below.
 
 **Syntax:**
 
@@ -194,7 +209,7 @@ Refer the file manager's CDN links as below
 
 Here's an example of referencing the file manager's scripts and styles in an HTML file using CDN links:
 
-**a.Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
+**a. Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
 
 This setup includes only the necessary scripts and styles required to render the File Manager. Use this setup for a lightweight application that requires basic file manager functionality.
 
@@ -222,9 +237,9 @@ This setup includes only the necessary scripts and styles required to render the
   </html>
 ```
 
-**b.Extended Dependency (Additional Controls)**
+**b. Extended Dependency (Additional Controls)**
 
-This setup includes additional dependencies required for more advanced functionalities of the file manager, such as buttons, dropdowns, navigations and other controls. Use this setup when you need to integrate additional features like filtering, sorting, context menu and more.
+This setup includes additional dependencies required for more advanced functionalities of the file manager, such as buttons, dropdowns, navigations, and other controls. Use this setup when you need to integrate additional features like filtering, sorting, context menu and more.
 
 ```html
 <!DOCTYPE html>
@@ -282,7 +297,7 @@ This setup includes additional dependencies required for more advanced functiona
 
 **c. Comprehensive Dependency (All Controls)**
 
-This setup includes all possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
+This setup includes all the possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
 
 ```html
 <!DOCTYPE html>
@@ -312,7 +327,7 @@ You can start adding Essential<sup style="font-size:70%">&reg;</sup> JS 2 file m
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+var hostUrl = 'https://physical-service.syncfusion.com/';
 var filemanagerInstance = new ej.filemanager.FileManager({
     ajaxSettings: {
         url: hostUrl + 'api/FileManager/FileOperations'
@@ -346,7 +361,28 @@ filemanagerInstance.appendTo('#filemanager');
 
 {% endtabs %}
 
->Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) must be defined when initializing the File Manager. The File Manager uses the URLs specified in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in `hostUrl`.
+### Server-side setup
+
+The sample uses `https://physical-service.syncfusion.com` as the `url` endpoint in `ajaxSettings`.
+
+To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](../file-system-provider) documentation for setup details.
+
+>Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) property must be defined while initializing the File Manager. File Manager utilizes the URLs mentioned in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in the `hostUrl` variable.
+
+## Registering a license key
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
+
+**Step 1:** Obtain your license key from the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) or from the [licensing FAQ page](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot).
+
+**Step 2:** Register the license key in your **index.js** file before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control.
+
+```javascript
+// Register Syncfusion license key
+ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
+```
+
+> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
 
 ## Run the application
 
@@ -361,6 +397,21 @@ Output will be displayed as follows.
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
+
+## Troubleshooting
+
+**File Manager renders blank / no files appear**
+- Verify that the `ajaxSettings` `url` property is set and points to a valid, running File Manager service endpoint.
+- Open the browser developer console (F12) and check for JavaScript errors.
+
+**License validation warning in the console**
+- Register your license key before instantiating any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](#registering-a-license-key) section.
+
+**CDN resources fail to load**
+- Check your internet connection.
+- Confirm the version number in the CDN URLs matches a valid published release. See the [Syncfusion CDN page](https://cdn.syncfusion.com/ej2/) for available versions.
+
+N> Looking for the full JavaScript File Manager component overview, features, pricing, and documentation? Visit the [JavaScript File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) page
 
 ## See also
 

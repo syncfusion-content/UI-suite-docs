@@ -15,7 +15,7 @@ let tabObj: Tab = new Tab({
 tabObj.appendTo('#tab_orientation');
 
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 let fileObject: FileManager = new FileManager({
     ajaxSettings: {
         url: hostUrl + 'api/FileManager/FileOperations',
