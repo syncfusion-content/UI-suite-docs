@@ -282,6 +282,6 @@ N> To build the application for production, run `ng build`. The generated output
 
 To explore the Diagram component in more depth, refer to the following topics:
 
-* [Nodes](https://ej2.syncfusion.com/angular/documentation/diagram/nodes/nodes)
-* [Connectors](https://ej2.syncfusion.com/angular/documentation/diagram/connectors/connectors)
-* [Annotations](https://ej2.syncfusion.com/angular/documentation/diagram/labels/labels)
+* [Nodes](https://help.syncfusion.com/diagram-sdk/angular/nodes/nodes)
+* [Connectors](https://help.syncfusion.com/diagram-sdk/angular/connectors/connectors)
+* [Annotations](https://help.syncfusion.com/diagram-sdk/angular/labels/labels)
