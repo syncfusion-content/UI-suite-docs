@@ -77,7 +77,7 @@ You can trigger export operations using the [ExportToExcelAsync](https://help.sy
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htrHXRiyzWxEsbHp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZhHDchjVrWdGAdk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Binding custom data source while exporting
 
@@ -160,7 +160,7 @@ You can bind a custom data source for Excel or CSV export in the Blazor Gantt co
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDBHjnCIfrMyrngO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htrntmBDLBWEFjJv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 
 ## Export Gantt Chart Data
@@ -305,7 +305,7 @@ In the following example, [EnableRowVirtualization](https://help.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNVnjxioJLyLKMiy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNrnjmBDLLrUXEhq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize the excel export
 
@@ -384,7 +384,7 @@ To include hidden columns during Excel or CSV export in the Gantt Chart componen
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhdtRCyJVvHxjJt?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNrHtGBjVBBHHfcc?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Add header and footer to export
 
@@ -494,7 +494,7 @@ To add header and footer content to exported Excel or CSV files in the Gantt com
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDhRDnMeJUyQUezQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htBdjcLDVLgDSvSS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Add additional worksheets to Excel document while exporting
 
@@ -587,7 +587,7 @@ To add additional worksheets during export, follow the steps below:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXVHNxseTTDMfHvz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rtLdtwBNrrKnynGy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Apply font and color themes
 
@@ -669,7 +669,7 @@ To apply a custom theme, set the [Theme](https://help.syncfusion.com/cr/blazor/S
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhxDRCoJTsBtxjg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjhnXwLjhhzNzUss?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> By default, material theme is applied to the exported Excel document.
 
@@ -760,7 +760,7 @@ To assign a custom name to the exported Excel or CSV file in the Gantt Chart com
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rXVHDRCezJVzDSoL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRNGrthhTKvOpW?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 
 N> You can refer to our [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) feature tour page for its groundbreaking feature representations. You can also explore our [Blazor Gantt Chart example](https://blazor.syncfusion.com/demos/gantt-chart/default-functionalities?theme=bootstrap4) to know how to render and configure the Gantt.

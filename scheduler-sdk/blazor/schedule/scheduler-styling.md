@@ -96,7 +96,7 @@ This CSS selector targets the work cells in the vertical views (Day, Week, and W
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDLSjzXQfGnvGHlh?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in vertical views](images/blazor-scheduler-verticalview-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXLdZcWchbLFYygM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in vertical views](images/blazor-scheduler-verticalview-workcells.webp)" %}
 
 ### Work cells in month view of scheduler
 
@@ -139,7 +139,7 @@ This CSS selector targets the work cells (day cells) that belong to the current 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXBSXpMdpcPUpdLW?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in month view](images/blazor-scheduler-monthview-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDLRDcimhvSIoZyZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in month view](images/blazor-scheduler-monthview-workcells.webp)" %}
 
 ###  Work cells of other month in month view of scheduler
 
@@ -183,7 +183,7 @@ This CSS selector targets the work cells that represent days from adjacent month
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDVoDfinplIYBcIi?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Other month work cells in month view](images/blazor-scheduler-othermonth-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htVdNwscBvnVudwk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Other month work cells in month view](images/blazor-scheduler-othermonth-workcells.webp)" %}
 
 ###  Work cells in timeline views of scheduler
 
@@ -228,7 +228,7 @@ This CSS selector targets the work cells in the standard timeline views of the S
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtVetzsdeXJJNgsX?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in timeline views](images/blazor-scheduler-timelineview-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjLnZGWQqtBsyoGh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in timeline views](images/blazor-scheduler-timelineview-workcells.webp)" %}
 
 ###  Work cells in timeline month view of scheduler
 
@@ -271,7 +271,7 @@ This CSS selector targets the work cells in the timeline month view of the Sched
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZhSXIXUeKvJllyA?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in timeline month views](images/blazor-scheduler-timelinemonth-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDLdXQicKNgTQKjO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in timeline month views](images/blazor-scheduler-timelinemonth-workcells.webp)" %}
 
 ###  Work cells in timeline year view of scheduler
 
@@ -314,7 +314,7 @@ This CSS selector targets the work cells in the timeline year view of the Schedu
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBIZSXKozTrvbOf?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in timeline year views](images/blazor-scheduler-timelineyear-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVRNciQUNxVaFrp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in timeline year views](images/blazor-scheduler-timelineyear-workcells.webp)" %}
 
 ###  Work cells of other month in timeline year view of scheduler
 
@@ -357,7 +357,7 @@ This CSS selector targets the work cells representing days from adjacent months 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VNLIteDUymCFDFFp?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in timeline other month views](images/blazor-scheduler-timeline-othermonth-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjVHXcMGqhCNmywI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in timeline other month views](images/blazor-scheduler-timeline-othermonth-workcells.webp)" %}
 
 ### Work cells in month agenda view of scheduler
 
@@ -399,7 +399,7 @@ This CSS selector targets the work cells that represent the days in the month ag
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjBItIMpzmNyLBhW?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work cells in month agenda view](images/blazor-scheduler-monthagenda-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VDLnNQCQgxUuzwjF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work cells in month agenda view](images/blazor-scheduler-monthagenda-workcells.webp)" %}
 
 ### Work cells of other month in month agenda view of scheduler
 
@@ -446,7 +446,7 @@ This CSS selector targets the work cells representing days that belong to adjace
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htrINyszfvZfowQQ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Other month work cells in month agenda view](images/blazor-scheduler-monthagenda-othermonth-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBRjcCwUdnqqnxx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Other month work cells in month agenda view](images/blazor-scheduler-monthagenda-othermonth-workcells.webp)" %}
 
 
 ### Work Cells of Other Month in Year View of Scheduler
@@ -489,7 +489,7 @@ This CSS selector targets the work cells representing days from adjacent months 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXBeNIMOzziiJCIN?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Other month work cells in Year view](images/blazor-scheduler-yearview-othermonth-workcells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDBHZwswKdQHFEUF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Other month work cells in Year view](images/blazor-scheduler-yearview-othermonth-workcells.webp)" %}
 
 
 ### All Day Cells in Vertical Views of Scheduler
@@ -534,7 +534,7 @@ This CSS selector targets the all-day cells in the vertical views (Day, Week, an
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNByDoMYpJcFHjMv?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[All-Day cells in vertical view](images/blazor-scheduler-Alldaycells-verticalview.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDLdjcCmKHOMpSTo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[All-Day cells in vertical view](images/blazor-scheduler-Alldaycells-verticalview.webp)" %}
 
 
 ### Work Hour Cells in Vertical Views of Scheduler
@@ -579,7 +579,7 @@ This CSS selector targets the work hour cells in vertical views (Day, Week, Work
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rtrSDeiOfoMsMoZt?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work hour cells in vertical view](images/blazor-scheduler-work-hour-cells-verticalview.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXVRjcsQUwhGePmT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work hour cells in vertical view](images/blazor-scheduler-work-hour-cells-verticalview.webp)" %}
 
 
 ### Work Day Cells in Month View of Scheduler
@@ -623,7 +623,7 @@ This CSS selector targets the work day cells in the month view of the Scheduler.
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNVStIiapeGmfItK?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work day cells in month view](images/blazor-scheduler-work-Day-cells-monthview.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htrRjQCQUQfsvlQo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work day cells in month view](images/blazor-scheduler-work-Day-cells-monthview.webp)" %}
 
 
 ### Work Day Cells in Month Agenda View of Scheduler
@@ -667,7 +667,7 @@ This CSS selector targets the work day cells that represent the days in the mont
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNVStIiapeGmfItK?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work day cells in month agenda view](images/blazor-scheduler-work-day-cells-monthagenda-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhnXQWQgGnTxSXQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work day cells in month agenda view](images/blazor-scheduler-work-day-cells-monthagenda-view.webp)" %}
 
 
 ### Work Hour Cells in Timeline Views of Scheduler
@@ -712,7 +712,7 @@ This CSS selector targets the work hour cells in the timeline views (TimelineDay
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBIXyCYpxaMcIgD?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work hour cells in timeline view](images/blazor-scheduler-work-hour-cells-timeline-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDBxXwicUwRFSMGB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work hour cells in timeline view](images/blazor-scheduler-work-hour-cells-timeline-view.webp)" %}
 
 
 ### Work Day Cells in Timeline Month View of Scheduler
@@ -756,7 +756,7 @@ This CSS selector targets the work day cells in the timeline month view of the S
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rthIXICaJwbDIMPr?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work day cells in timeline month view](images/blazor-scheduler-work-day-cells-timeline-monthview.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtVxXwWcgGcQZrKr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work day cells in timeline month view](images/blazor-scheduler-work-day-cells-timeline-monthview.webp)" %}
 
 
 ### Work Day Cells in Timeline Year View of Scheduler
@@ -800,7 +800,7 @@ This CSS selector targets the work day cells in the timeline year view of the Sc
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtLytSsaTviyMXFM?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Work day cells in timeline year view](images/blazor-scheduler-work-day-cells-timeline-yearview.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrxZQiGUGvUwhwz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Work day cells in timeline year view](images/blazor-scheduler-work-day-cells-timeline-yearview.webp)" %}
 
 ### Appointment in vertical views of scheduler
 
@@ -855,7 +855,7 @@ This CSS selector targets the regular appointments that appear in these vertical
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXLSXlXiqeOnoBFt?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in vertical view](images/blazor-scheduler-appointments-vertical-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZVdNciQqwFFEDKp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in vertical view](images/blazor-scheduler-appointments-vertical-view.webp)" %}
 
 ### All day Appointment in vertical views of scheduler
 
@@ -911,7 +911,7 @@ This CSS selector targets the all-day appointments that appear in the vertical v
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjhINvDCqxEWFfUp?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[All day appointments in vertical view](images/blazor-scheduler-allday-appointments-vertical-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhdXQMQgmYzhvEF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[All day appointments in vertical view](images/blazor-scheduler-allday-appointments-vertical-view.webp)" %}
 
 ### Appointment in month view of scheduler
 
@@ -964,7 +964,7 @@ This CSS selector targets appointment elements in the month view of the Blazor S
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNVyjbDigwxldZQH?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in month view](images/blazor-scheduler-appointments-month-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVHDcCwqPXZVMUp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in month view](images/blazor-scheduler-appointments-month-view.webp)" %}
 
 ### Appointment in timeline views of scheduler
 
@@ -1016,7 +1016,7 @@ This CSS selector targets appointment elements in the timeline views of the Blaz
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDrSNbjiqlpgpavw?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in timeline view](images/blazor-scheduler-appointments-Timeline-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZrxjwWcgFteogCU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in timeline view](images/blazor-scheduler-appointments-Timeline-view.webp)" %}
 
 ### Appointment in timeline month view of scheduler
 
@@ -1069,7 +1069,7 @@ This CSS selector targets appointment elements specifically in the timeline mont
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtrSDFZMJTeCySrl?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in timeline Month view](images/blazor-scheduler-appointments-TimelineMonth-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rNLntwMmqbsWLVJQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in timeline Month view](images/blazor-scheduler-appointments-TimelineMonth-view.webp)" %}
 
 ### Appointment in timeline year view of scheduler
 
@@ -1121,7 +1121,7 @@ This CSS selector targets appointment elements specifically in the timeline year
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZBIDvNfqjpWspUW?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in timeline year view](images/blazor-scheduler-appointments-TimelineYear-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrHDwsGgbsGMnoU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in timeline year view](images/blazor-scheduler-appointments-TimelineYear-view.webp)" %}
 
 ### Appointment in year view of scheduler
 
@@ -1169,7 +1169,7 @@ This CSS selector targets appointment elements specifically in the year view of 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDrSjbXpKSaxvJSU?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments indicator in year view](images/blazor-scheduler-appointments-Year-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZhRXwiwKPVhsWBP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments indicator in year view](images/blazor-scheduler-appointments-Year-view.webp)" %}
 
 ### Appointment in agenda view of scheduler
 
@@ -1220,7 +1220,7 @@ This CSS selector targets appointment elements specifically in the agenda view o
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZLyNlZJAnFDusMl?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in agenda view](images/blazor-scheduler-appointments-agenda-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBnjcWmqlJxLYrP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in agenda view](images/blazor-scheduler-appointments-agenda-view.webp)" %}
 
 ### Appointment in month agenda view of scheduler
 
@@ -1274,7 +1274,7 @@ This CSS selector targets appointment elements specifically in the month agenda 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LNBotPNTAGcpjRvV?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Appointments in month agenda view](images/blazor-scheduler-appointments-monthAgenda-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htVdjmWGgPIAkELW?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Appointments in month agenda view](images/blazor-scheduler-appointments-monthAgenda-view.webp)" %}
 
 ### Block appointment in scheduler
 
@@ -1330,7 +1330,7 @@ This CSS selector targets appointment elements specifically designated as blocke
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZVytvNTTzoPWdKC?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blocked Appointment in schedule](images/blazor-scheduler-blocked-appointments.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrdZQMcKFRBVLEC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blocked Appointment in schedule](images/blazor-scheduler-blocked-appointments.webp)" %}
 
 ### Read only appointment in scheduler.
 
@@ -1384,7 +1384,7 @@ This CSS selector targets appointment elements that are specifically marked as r
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDBojvXpJoKirsVN?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[ReadOnly Appointment in schedule](images/blazor-scheduler-readonly-appointments.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDVRtmswglGHdrqP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[ReadOnly Appointment in schedule](images/blazor-scheduler-readonly-appointments.webp)" %}
 
 ### Selected Appointments in scheduler.
 
@@ -1439,7 +1439,7 @@ This CSS selector targets appointment elements that are specifically marked as s
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htLoDlZJfSbnzyVC?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Selected Appointment in schedule](images/blazor-scheduler-selected-appointments.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjVdZGWmqlYZQPLo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Selected Appointment in schedule](images/blazor-scheduler-selected-appointments.webp)" %}
 
 ### Selected Cells in scheduler.
 
@@ -1493,7 +1493,7 @@ This CSS selector targets the cells that are specifically marked as selected in 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDrStPtfpRsutkic?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Selected cells in schedule](images/blazor-scheduler-selected-cells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrdDQCGKEDEwAGr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Selected cells in schedule](images/blazor-scheduler-selected-cells.webp)" %}
 
 ### Header Cells in scheduler.
 
@@ -1544,7 +1544,7 @@ This CSS selector targets the cells that are specifically marked as header cells
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZVSNPNpfmXnWpnA?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Header cells in schedule](images/blazor-scheduler-header-cells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDLxXwWwUkWlPQyG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Header cells in schedule](images/blazor-scheduler-header-cells.webp)" %}
 
 ### Resource cells in vertical views of scheduler.
 
@@ -1616,7 +1616,7 @@ This CSS selector targets the cells that are specifically marked as resource cel
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLeNvjJTccyxmoh?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Resource cells in schedule](images/blazor-scheduler-resource-cells.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLRtciQKEqXKyPW?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resource cells in schedule](images/blazor-scheduler-resource-cells.webp)" %}
 
 ### Resource cells in month views of scheduler.
 
@@ -1689,7 +1689,7 @@ This CSS selector targets the resource cells in the Blazor Scheduler Month view.
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hNLetFtpplJIudiI?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Resource cells in month view](images/blazor-scheduler-resource-cells-month-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZBRZmWwAuJchhTH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resource cells in month view](images/blazor-scheduler-resource-cells-month-view.webp)" %}
 
 ### Resource cells in timeline views of scheduler.
 
@@ -1763,7 +1763,7 @@ This CSS selector targets the cells that are specifically marked as resource cel
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZBINbjTfvuqAUlm?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Resource cells in timeline view](images/blazor-scheduler-resource-cells-timeline-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjVdtmWcqkydJjMR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resource cells in timeline view](images/blazor-scheduler-resource-cells-timeline-view.webp)" %}
 
 ### Resource cells in timeline month views of scheduler.
 
@@ -1835,7 +1835,7 @@ This CSS selector targets the cells that are specifically marked as resource cel
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhoNbXzpaIzpSch?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Resource cells in timeline month view](images/blazor-scheduler-resource-cells-timeline-month-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZrHtcCcKEdosPTs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resource cells in timeline month view](images/blazor-scheduler-resource-cells-timeline-month-view.webp)" %}
 
 ### Resource cells in timeline month views of scheduler.
 
@@ -1907,7 +1907,7 @@ This CSS selector targets the cells that are specifically marked as resource cel
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhoNbXzpaIzpSch?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Resource cells in timeline month view](images/blazor-scheduler-resource-cells-timeline-month-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZrHtcCcKEdosPTs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resource cells in timeline month view](images/blazor-scheduler-resource-cells-timeline-month-view.webp)" %}
 
 ### Parent and child resource cells in timeline views of scheduler.
 
@@ -1995,4 +1995,4 @@ This CSS selector targets the parent and child resource cells in the timeline vi
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXVSZvjTejMOiBfs?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Parent and child resource cells in timeline month view](images/blazor-scheduler-parentandchild-resource-cells-timeline-month-view.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNhnjGiGqOckJIkA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Parent and child resource cells in timeline month view](images/blazor-scheduler-parentandchild-resource-cells-timeline-month-view.webp)" %}
