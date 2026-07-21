@@ -15,7 +15,7 @@ The hierarchical tree layout arranges nodes in a tree-like structure, where the 
 
 ## Hierarchical tree layout with nodes and connectors
 
-To arrange the nodes in a hierarchical structure, specify the layout [`type`](../../api/diagram/layoutModel#type) as **HierarchicalTree**. The following example shows how to arrange the nodes in a hierarchical structure.
+To arrange the nodes in a hierarchical structure, specify the layout [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) as **HierarchicalTree**. The following example shows how to arrange the nodes in a hierarchical structure.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

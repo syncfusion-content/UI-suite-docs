@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Installing Syncfusion Chart SDK Linux installer-Syncfusion
-description: Learn here about how to install Syncfusion Chart SDK Linux installer after downloading from our Syncfusion website.
+title: Installing Syncfusion Chart SDK Linux installer - Syncfusion
+description: Learn here about how to install the Syncfusion Chart SDK Linux installer after downloading it from our Syncfusion website.
 platform: Chart SDK
 control: Installation and Deployment
 documentation: ug
@@ -12,9 +12,9 @@ documentation: ug
 
 ## Step-by-Step Installation
 
-The steps below show how to install Chart SDK Linux installer.
+The steps below show how to install the Chart SDK Linux installer.
 
-1. Extract the Syncfusion Chart SDK Linux installer(.zip) file. The files are extracted in your machine.
+1. Extract the Syncfusion Chart SDK Linux installer (.zip) file to a local directory of your choice. The files are extracted to your machine.
 
    ![Welcome wizard](images/Linux_Installer1.png)
    
@@ -26,14 +26,13 @@ The steps below show how to install Chart SDK Linux installer.
    N> The Unlock key is not required to install the Linux installer.
 
 
-4. You can launch the demo source and use the NuGet packages included in the Linux installer.
-
+4. After the installation completes, you can launch the demo source and use the NuGet packages included in the Linux installer.
 
 5. Run the following command in linux machine to deploy the ASP.NET Core samples
  
   **dotnet restore projectname -s \nuget** in order to restore.
 
-## License key registration in samples
+## License Key Registration in Samples
 
 After the installation, the license key is required to register the demo source that is included in the Linux installer. To learn about the steps for license registration for the ASP.NET Core - EJ2 samples in the Essential Studio Chart SDK linux installer, please refer to this.
 

@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Getting started with TypeScript Diagram control | Syncfusion®
-description:  Checkout and learn about Getting started with TypeScript Diagram control of Syncfusion Essential® JS 2 and more details.
+description: Checkout and learn about Getting started with TypeScript Diagram control of Syncfusion Essential® JS 2 and more details.
 platform: diagram-sdk
-control: Getting started 
+control: Getting started
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting Started with TypeScript Diagram Component
+# Getting Started with TypeScript Diagram Control
 
-This section explains the steps required to create a simple diagram and demonstrates the basic usage of the diagram component using a seed application.
+This section explains the steps required to create a simple diagram and demonstrates the basic usage of the diagram control using a seed application.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/documentation/mcp-server/ai-coding-assistant/getting-started)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript control with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/documentation/mcp-server/ai-coding-assistant/getting-started).
 
 ## Prerequisites
 
@@ -31,15 +31,16 @@ Open the command prompt from the required directory, and run the following comma
 git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
 ```
 
-After cloning the application in the **ej2-quickstart** folder, run the following command line to navigate to the folder.
+After cloning the application in the **ej2-quickstart** folder, run the following command to navigate to the folder.
 
 ```
 cd ej2-quickstart
 ```
 
-## Install Syncfusion® TypeScript packages
+## Install Syncfusion TypeScript packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. The quickstart application is preconfigured with the dependent `@syncfusion/ej2` package in the **package.json** file. Use the following command to install the dependent npm packages from the command prompt.
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the **package.json** file.
+Use the following command to install the dependent npm packages from the command prompt.
 
 ```
 npm install
@@ -47,38 +48,25 @@ npm install
 
 ## Import Syncfusion® CSS styles
 
-The Diagram control needs Syncfusion® theme styles to display correctly. Add the styles using one of the following options.
+The Diagram control needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported control.
 
-### Option 1: Add styles from a theme package
-
-Syncfusion® theme packages include ready-to-use styles for supported controls. Install the Tailwind 3 theme package using the following command:
+To add the styles, install the Tailwind theme package using the following command:
 
 ```
-npm install @syncfusion/ej2-tailwind3-theme --save
+npm install @syncfusion/ej2-tailwind-theme
 ```
 
 Then add the following CSS reference to the **src/styles/styles.css** file:
 
 ```
-@import "../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+@import "../../node_modules/@syncfusion/ej2-tailwind-theme/styles/diagram/index.css";
 ```
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
 
-### Option 2: Add styles from control packages
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace **@syncfusion/ej2-tailwind-theme/styles/diagram/index.css** with the corresponding stylesheet from the desired theme package. For example, to use the Material 3 theme, import **@syncfusion/ej2-material3-theme/styles/diagram/index.css**.
 
-After installing the Diagram package, the required style files are available under the **node_modules/@syncfusion** directory. Add the required Syncfusion® styles to the **src/styles/styles.css** file:
-
-```
-@import "../../node_modules/@syncfusion/ej2-diagrams/styles/tailwind.css";
-@import "../../node_modules/@syncfusion/ej2-base/styles/tailwind.css";
-@import "../../node_modules/@syncfusion/ej2-popups/styles/tailwind.css";
-@import "../../node_modules/@syncfusion/ej2-navigations/styles/tailwind.css";
-```
-
-N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
-
-### Add the HTML element
+## Add the HTML element
 
 Open the **~/src/index.html** file and add the following HTML element for the Diagram component.
 
@@ -99,11 +87,11 @@ Open the **~/src/index.html** file and add the following HTML element for the Di
 </html>
 ```
 
-### Create your first Diagram with nodes and connectors
+## Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` properties.
+The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings through the `getNodeDefaults` and `getConnectorDefaults` callback bindings.
 
 Open the **src/app/app.ts** file and add the following code to render the Diagram control.
 
@@ -222,14 +210,15 @@ In this example:
 
 ## Run the application
 
-Now, run the application in the browser using the following command.
+Run the application in the browser using the following command:
 
 ```
 npm start
 ```
 
-Open the generated local URL in the browser. The application displays a flowchart diagram with four nodes connected by orthogonal connectors.
+Then open the local URL shown in the terminal, such as `http://localhost:4000`. The application displays a flowchart diagram with four nodes connected by orthogonal connectors.
 
 The output will appear as follows:
 
-![Getting started](images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](images/Getting-started.png)
+

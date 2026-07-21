@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Installing Syncfusion Chart SDK web installer - Syncfusion
-description: Learn here about how to install Syncfusion Chart SDK web installer after downloading from our Syncfusion website.
-platform: file-formats
+title: Installing Syncfusion Chart SDK Web Installer - Syncfusion
+description: Learn here about how to install the Syncfusion Chart SDK Web Installer after downloading it from our Syncfusion website.
+platform: Chart SDK
 control: Installation and Deployment
 documentation: ug
 ---
@@ -12,12 +12,11 @@ documentation: ug
 
 ## Overview
 
-For the Essential Studio Chart SDK product, Syncfusion offers a Web Installer. This installer alleviates the burden of downloading a larger installer. You can simply download and run the online installer, which will be smaller in size and will download and install the Essential Studio products you have chosen. You can get the most recent version of Essential Studio Web Installer [here](https://www.syncfusion.com/downloads/latest-version). 
+For the Syncfusion Chart SDK product, Syncfusion offers a Web Installer. The web installer is a small bootstrapper that downloads and installs the Chart SDK components during installation, avoiding the need to download a large installer upfront. You can get the most recent version of the Essential Studio Web Installer from the [Syncfusion downloads page](https://www.syncfusion.com/downloads/latest-version).
 
- 
 ## Installation
 
-The steps below show how to install Essential Studio Chart SDK Web Installer.
+The steps below show how to install the Syncfusion Chart SDK using the Web Installer.
 
 1.  Open the Syncfusion Essential Studio Chart SDK Web Installer file from downloaded location by double-clicking it. The Installer Wizard automatically opens and extracts the package.
 
@@ -110,75 +109,74 @@ The steps below show how to install Essential Studio Chart SDK Web Installer.
 	
 ## Uninstallation
 
-Syncfusion Chart SDK installer can be uninstalled in two ways.
+The Syncfusion Chart SDK installer can be uninstalled in two ways.
 
-   * Uninstall the Chart SDK using the Syncfusion Chart SDK web installer
-   * Uninstall the Chart SDK from Windows Control Panel
+- Uninstall the Chart SDK using the Syncfusion Chart SDK Web Installer.
+- Uninstall the Chart SDK from the Windows Control Panel.
 
-Follow either one of the option below to uninstall Syncfusion Essential Studio Chart SDK installer.
-  
-**Option 1: Uninstall the Chart SDK using the Syncfusion Chart SDK web installer**
+Follow one of the options below to uninstall the Syncfusion Chart SDK installer.
 
-Syncfusion provides the option to uninstall products of the same version directly from the Web Installer application. Select the products to be uninstalled from the list, and Web Installer will uninstall them one by one.
+### Option 1: Uninstall the Chart SDK using the Syncfusion Chart SDK Web Installer
+
+Syncfusion provides the option to uninstall products of the same version directly from the Web Installer application. Select the products to be uninstalled from the list, and the Web Installer will uninstall them one by one.
 
 ![Platform Selection wizard Installed](images/Step-by-Step-Installation_img12.png)
-	
-	
-**Option 2: Uninstall the Chart SDK from Windows Control Panel**  
-	
+
+### Option 2: Uninstall the Chart SDK from Windows Control Panel
+    
 You can uninstall all the installed products by selecting the **Syncfusion Essential Studio {version}** entry (element 1 in the below screenshot) from the Windows control panel, or you can uninstall Chart SDK alone by selecting the **Syncfusion Essential Studio for Chart SDK {version}** entry (element 2 in the below screenshot) from the Windows control panel.
 
 ![Control Panel](images/Step-by-Step-Installation_img22.png)
-	
+    
 N> If the **Syncfusion Essential Studio for Chart SDK {version}** entry is selected from the Windows control panel, the Syncfusion Essential Studio Chart SDK alone will be removed and the below default MSI uninstallation window will be displayed.	
 
-1.  The Syncfusion Chart SDK Web Installer's welcome wizard will be displayed. Click the Next button
-	
-    ![Welcome wizard uninstall](images/Step-by-Step-Installation_img2.png)
-	
-2.  The Platform Selection Wizard will appear. From the **Installed** tab, select the products to be uninstalled. To select all products, check the **Uninstall All** checkbox. Click the Next button.
-    
-	<em>**Installed**</em>
-	
-	![Platform Selection wizard Installed](images/Step-by-Step-Installation_img4.png)
-	
-	You can also select the products to be installed from the **Available** tab.Click the Next button.
-	
-	<em>**Available**</em>
-	
-	![Platform Selection wizard Available](images/Step-by-Step-Installation_img25.png)
-	
-3.  If any other products selected for installation, Uninstall previous version wizard will be displayed with previous version(s) installed for the selected products. Here you can view the list of installed previous versions for the selected products. Select **Uninstall All** checkbox to select all the versions. Click Next.
+1. The welcome wizard of the Web Installer appears. Click **Next**.
 
-	![Existing Version for install](images/Step-by-Step-Installation_img26.png)
-	
-4.	Pop up screen will be displayed to get the confirmation to uninstall selected previous versions.
+   ![Welcome wizard uninstall](images/Step-by-Step-Installation_img2.png)
 
-	![Existing Version for install](images/Step-by-Step-Installation_img21.png)	
-	
-5.  The Confirmation Wizard will appear with the list of products to be installed/uninstalled. Here you can view and modify the list of products that will be installed/uninstalled.
+2. The Platform Selection wizard appears. From the **Installed** tab, select the products to uninstall. To select all products, select the **Uninstall All** check box. Click **Next**.
 
-    ![Confirmation for install/uninstall](images/Step-by-Step-Installation_img15.png)
-	
-	N> By clicking the **Download Size and Installation** Size links, you can determine the approximate size of the download and installation
-	
-6.	The Configuration Wizard will appear. You can change the Download, Install, and Demos locations from here. You can also change the Additional settings on a product-by-product basis. Click Next to install with the default settings.
+   **Installed**
 
-    ![Install and samples location install/uninstall](images/Step-by-Step-Installation_img23.png)
-	
-7.	After reading the License Terms and Conditions, check the **I agree to the License Terms and Privacy Policy** check box. Click the Next button.
+   ![Platform Selection wizard Installed](images/Step-by-Step-Installation_img4.png)
 
-8.	The login wizard will appear. You must enter your Syncfusion email address and password. If you do not already have a Syncfusion account, you can create one by clicking on **Create an Account**. If you have forgotten your password, click **Forgot Password** to create a new one. Click the Install button.
+   You can also select products to install from the **Available** tab. Click **Next**.
 
-    ![Login wizard install/uninstall](images/Step-by-Step-Installation_img9.png)
-	
-	I> The products you have chosen will be installed based on your Syncfusion License (Trial or Licensed).
+   **Available**
 
-9.	The download, installation, and uninstallation progresses will be shown.
+   ![Platform Selection wizard Available](images/Step-by-Step-Installation_img25.png)
 
-    ![Download and Installation progress install/uninstall](images/Step-by-Step-Installation_img17.png)
+3. If any other products are also selected for installation, the **Uninstall previous version** wizard appears with the previous versions installed for the selected products. Here you can view the list of installed previous versions. Select the **Uninstall All** check box to select all versions. Click **Next**.
 
-10.	When the installation is finished, the **Summary** wizard will appear. Here you can see the list of products that have been successfully and unsuccessfully installed/uninstalled. To close the Summary wizard, click Finish.
+   ![Existing Version for install](images/Step-by-Step-Installation_img26.png)
+
+4. A pop-up screen appears to confirm the uninstall of the selected previous versions.
+
+   ![Existing Version for install](images/Step-by-Step-Installation_img21.png)
+
+5. The Confirmation wizard appears with the list of products to install and uninstall. You can view and modify the list from this page.
+
+   ![Confirmation for install/uninstall](images/Step-by-Step-Installation_img15.png)
+
+   N> By clicking the **Download Size** and **Installation Size** links, you can determine the approximate size of the download and installation.
+
+6. The Configuration wizard appears. You can change the Download, Install, and Demos locations from here, and configure the additional settings on a product-by-product basis. Click **Next** to install with the default settings.
+
+   ![Install and samples location install/uninstall](images/Step-by-Step-Installation_img23.png)
+
+7. Read the License Terms and Privacy Policy, then select the **I agree to the License Terms and Privacy Policy** check box. Click **Next**.
+
+8. The login wizard appears. Enter your Syncfusion email address and password. If you do not have a Syncfusion account, click **Create an Account** to sign up. If you have forgotten your password, click **Forgot Password** to reset it. Click **Install**.
+
+   ![Login wizard install/uninstall](images/Step-by-Step-Installation_img9.png)
+
+   I> The products you have chosen will be installed based on your Syncfusion license (Trial or Licensed).
+
+9. The download, installation, and uninstallation progress is shown.
+
+   ![Download and Installation progress install/uninstall](images/Step-by-Step-Installation_img17.png)
+
+10. When the installation is finished, the **Summary** wizard appears. Here you can see the list of products that have been successfully and unsuccessfully installed or uninstalled. To close the **Summary** wizard, click **Finish**.
 
     ![Summary install/uninstall](images/Step-by-Step-Installation_img18.png)
 	
