@@ -13,6 +13,27 @@ domainurl: https://help.syncfusion.com/grid-sdk
 
 This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 DataGrid and demonstrate the basic usage of the DataGrid control in a JavaScript application.
 
+## Prerequisites
+
+To get started with application, ensure the following software to be installed in the machine.
+
+* [git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en/)
+
+### Browser support
+
+| Browser | Supported versions |
+|----------|----------|
+| Chrome | 63+ |
+| Firefox | 58+ |
+| Opera | 50+ |
+| Edge | 13+ |
+| IE | 11+ |
+| Safari | 9+ |
+| iOS | 9+ |
+| Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
 ## Dependencies
 
 A list of dependencies to use the DataGrid with all features.
