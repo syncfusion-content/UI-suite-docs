@@ -67,9 +67,7 @@ dotnet add package Syncfusion.EJ2.AspNet.Core
 
 N> The `Syncfusion.EJ2.AspNet.Core` package automatically installs its required dependencies, including [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) and [Syncfusion.Licensing](https://www.nuget.org/packages/Syncfusion.Licensing/).
 
-N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/overview).
-
-N> For the latest tested version of the Diagram package, refer to the [`Syncfusion.EJ2.AspNet.Core` package page](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/).
+N> A Syncfusion® license key is not required for local development. However, a valid Syncfusion® license key must be registered before deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/overview).
 
 ## Step 3: Register the Syncfusion® Tag Helper
 
@@ -281,6 +279,6 @@ N> To build the application for production, run `dotnet publish`. The generated 
 
 To explore the Diagram control in more depth, refer to the following topics:
 
-* [Nodes](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/nodes)
-* [Connectors](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/connectors)
-* [Annotations](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/labels)
+* [Nodes](https://help.syncfusion.com/diagram-sdk/asp-net-core/nodes)
+* [Connectors](https://help.syncfusion.com/diagram-sdk/asp-net-core/connectors)
+* [Annotations](https://help.syncfusion.com/diagram-sdk/asp-net-core/labels)
