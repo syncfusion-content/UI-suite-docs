@@ -14,7 +14,7 @@ L10n.load({
     }
 })
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager control.
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
