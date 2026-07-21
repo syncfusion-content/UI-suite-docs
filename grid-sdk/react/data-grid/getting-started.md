@@ -1,7 +1,7 @@
 ---
 layout: post
-title: React DataGrid Getting Started (Quick Setup Guide) | Syncfusion
-description: Learn how to install and configure the Syncfusion React DataGrid. Set up a new React app and enable paging, sorting, filtering, and grouping.
+title: React Data Grid Getting Started (Quick Setup Guide) | Syncfusion
+description: Learn how to install and configure the Syncfusion React Data Grid. Set up a new React app and enable paging, sorting, filtering, and grouping.
 control: Getting started 
 platform: grid-sdk
 documentation: ug
@@ -128,9 +128,11 @@ The DataGrid code should be added to the **src/App.tsx** file.
 {% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started/app/App.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
+{% raw %}
 
 @import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
