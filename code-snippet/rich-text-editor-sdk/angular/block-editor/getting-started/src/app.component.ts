@@ -13,5 +13,5 @@ import { BlockEditorModule } from "@syncfusion/ej2-angular-blockeditor"
 })
 
 
-export class AppComponent {
+export class App {
 }
