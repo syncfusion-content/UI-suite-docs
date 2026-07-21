@@ -147,8 +147,8 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Markdown Editor is 
 * [How to change the editor type](../rich-text-editor/editor-types/editor-mode.md)
 * [How to render the iframe](../rich-text-editor/editor-types/iframe)
 * [How to render the toolbar in inline mode](../rich-text-editor/editor-types/inline-editing)
-* [Accessibility in Rich Text Editor](../rich-text-editor/accessibility)
-* [Keyboard support in Rich Text Editor](../rich-text-editor/keyboard-support)
+* [Accessibility in Markdown Editor](./accessibility)
+* [Keyboard support in Markdown Editor](./keyboard-support)
 * [Globalization in Rich Text Editor](../rich-text-editor/globalization)
 
 **Live samples**

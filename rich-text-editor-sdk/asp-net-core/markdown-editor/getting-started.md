@@ -130,8 +130,8 @@ Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (m
 * [How to change the editor type](../rich-text-editor/editor-types/editor-mode)
 * [How to render the iframe](../rich-text-editor/editor-types/iframe)
 * [How to render the toolbar in inline mode](../rich-text-editor/editor-types/inline-editing)
-* [Accessibility in Rich Text Editor](./accessibility)
-* [Keyboard support in Rich Text Editor](./keyboard-support)
+* [Accessibility in Markdown Editor](./accessibility)
+* [Keyboard support in Markdown Editor](./keyboard-support)
 * [Globalization in Rich Text Editor](../rich-text-editor/globalization)
 
 **Live samples**
