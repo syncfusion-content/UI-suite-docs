@@ -25,13 +25,13 @@ This section explains the steps required to create a simple diagram and demonstr
 
 | Angular Version | Minimum Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Diagram Version |
 |-----------------|-----------------------------------------------|
-|[Angular v20](https://www.syncfusion.com/blogs/post/whats-new-in-angular-20)| 29.2.8|
-|[Angular v19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/)| 26.1.35 |
+| [Angular v20](https://www.syncfusion.com/blogs/post/whats-new-in-angular-20)| 29.2.8|
+| [Angular v19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/)| 26.1.35 |
 | [Angular v18](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/) | 25.2.3 |
 | [Angular v17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b/)| 23.2.4 |
 | [Angular v16](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d/)| 21.1.39 |
 | [Angular v15](https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8/) | 20.4.38 |
-|[Angular v14](https://blog.angular.io/angular-v14-is-now-available-391a6db736af/)| 20.2.36 |
+| [Angular v14](https://blog.angular.io/angular-v14-is-now-available-391a6db736af/)| 20.2.36 |
 | [Angular v13](https://blog.angular.io/angular-v13-is-now-available-cce66f7bc296/) | 19.4.38 and above |
 | [Angular v12](https://blog.angular.io/angular-v12-is-now-available-32ed51fbfd49/)| 19.3.43 |
 
@@ -62,7 +62,7 @@ N> If your application uses an older NgModule-based structure, import `DiagramMo
 
 Use [Angular CLI](https://github.com/angular/angular-cli) to create and manage Angular applications. Install Angular CLI globally using the following command:
 
-```bash
+```
 npm install -g @angular/cli
 ```
 
@@ -70,7 +70,7 @@ npm install -g @angular/cli
 
 Create a new Angular application using the following command.
 
-```bash
+```
 ng new my-diagram-app
 ```
 
@@ -82,7 +82,7 @@ During project creation, Angular CLI may prompt you to choose stylesheet, SSR/SS
 
 Navigate to the project folder:
 
-```bash
+```
 cd my-diagram-app
 ```
 
@@ -92,27 +92,25 @@ All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https:
 
 Install the Angular Diagram package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-angular-diagrams
 ```
 
 N> Installing `@syncfusion/ej2-angular-diagrams` automatically installs the required dependency packages.
 
-N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/angular/documentation/licensing/overview).
-
-N> For the latest tested version of the Diagram package, refer to the [`@syncfusion/ej2-angular-diagrams` package page](https://www.npmjs.com/package/@syncfusion/ej2-angular-diagrams).
+N> A Syncfusion® license key is not required for local development. However, a valid Syncfusion® license key must be registered before deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/angular/documentation/licensing/overview).
 
 ## Step 4: Add the required styles
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Then add the following CSS reference to the **src/styles.css** file:
 
-```css
+```
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
@@ -126,7 +124,7 @@ Import `DiagramModule` from `@syncfusion/ej2-angular-diagrams` and add it to the
 
 Update the **src/app/app.ts** file as follows:
 
-```typescript
+```
 import { Component } from '@angular/core';
 import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
 
@@ -153,7 +151,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Replace the entire contents of **src/app/app.ts** with the following code:
 
-```typescript
+```
 import { Component } from '@angular/core';
 import {
   ConnectorModel,
@@ -268,19 +266,15 @@ In this example:
 
 Run the application using the following command:
 
-```bash
+```
 npm start
 ```
-
-N> The `npm start` script runs `ng serve` by default in an Angular CLI project. You can also run `ng serve` directly.
 
 Open the generated local URL (`http://localhost:4200`) in the browser. The application displays the diagram as shown below:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
-N> If port 4200 is already in use, start the app on a different port with `ng serve --port 4201`.
-
-N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+N> If port 4200 is already in use, start the app on a different port with `ng serve --port 4201`, and to stop the development server, press `Ctrl + C` in the terminal where it is running.
 
 N> To build the application for production, run `ng build`. The generated output is placed in the `dist` folder.
 
