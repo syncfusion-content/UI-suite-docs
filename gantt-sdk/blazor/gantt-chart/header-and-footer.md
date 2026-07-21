@@ -128,7 +128,7 @@ These style options allow full control over text color, size, alignment, and app
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrnDxidrVnLOhzT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNVnXmBNVwlJSzXC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Draw a line in header and footer
 
@@ -224,7 +224,7 @@ These options provide flexibility for adding separators or visual structure to t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hNVxNRsxVLwWpgwN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZLnZmVXrwFkDRny?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 - [How to export to PDF?](https://blazor.syncfusion.com/documentation/gantt-chart/pdf-export)

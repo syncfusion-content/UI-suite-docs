@@ -254,7 +254,7 @@ N> If the **Interactivity Location** is set to `Global` with `Auto` or `WebAssem
     ```
 3. The application will start and display in your default web browser.
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNhnNHsRVrjYFbWx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDhdjcrXJjgihVLC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 
