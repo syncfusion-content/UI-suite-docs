@@ -135,7 +135,7 @@ The [ajaxSettings](https://ej2.syncfusion.com/angular/documentation/api/file-man
 
 ### Server-side setup
 
-The sample uses `https://physical-service.syncfusion.com/` as the `url` endpoint in `ajaxSettings`.
+The sample uses `https://physical-service.syncfusion.com/` as the [`url`](https://ej2.syncfusion.com/angular/documentation/api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](https://ej2.syncfusion.com/angular/documentation/api/file-manager/ajaxsettings).
 
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
 
@@ -202,8 +202,6 @@ Then open the URL displayed in the terminal.
   ```bash
   ng serve --port 3000
   ```
-
-N> Looking for the full Angular File Manager component overview, features, pricing, and documentation? Visit the [Angular File Manager](https://www.syncfusion.com/angular-components/angular-file-manager) page.
 
 ## See also
 

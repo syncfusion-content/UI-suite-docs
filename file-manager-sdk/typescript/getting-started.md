@@ -15,62 +15,52 @@ This section explains how to create a simple File Manager and demonstrates the b
 
 ## Prerequisites
 
-Before getting started, ensure the following tools are installed on your machine:
+To get started with application, ensure the following software to be installed in the machine.
 
-| Tool | Version / Notes |
-|------|----------------|
-| Node.js | v14.15.0 or higher |
-| npm | Bundled with Node.js |
-| Git | Required to clone the quickstart repository |
-| Visual Studio Code | Recommended code editor |
+| Requirement | Version |
+|-------------|---------|
+| [git](https://git-scm.com/downloads) | Latest version |
+| [Node.js](https://nodejs.org/en/) | 14.15.0 or above |
+| [Visual Studio Code](https://code.visualstudio.com/) | Latest version |
 
-You can verify your Node.js and npm versions by running:
 
-```
-node -v
-npm -v
-```
+### Browser support
 
-## Registering the license key
+| Browser | Supported versions |
+|----------|----------|
+| Chrome | 63+ |
+| Firefox | 58+ |
+| Opera | 50+ |
+| Edge | 13+ |
+| IE | 11+ |
+| Safari | 9+ |
+| iOS | 9+ |
+| Android | 4.4+ |
+| Windows Mobile | IE 11+ |
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
+## Setup for local development
 
-**Steps to register the license key:**
-
-1. Sign in to the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) and copy your license key.
-2. Register the key in your **src/app/app.ts** file, before instantiating any Syncfusion component:
-
-```ts
-import { registerLicense } from '@syncfusion/ej2-base';
-
-registerLicense('YOUR_LICENSE_KEY_HERE');
-```
-
-> For more details on obtaining and registering a license key, refer to the [License Key Generation](https://ej2.syncfusion.com/documentation/licensing/license-key-generation) and [License Key Registration](https://ej2.syncfusion.com/documentation/licensing/license-key-registration) documentation.
-
-## Create a TypeScript application.
-
-To set-up a Typescript application in TypeScript environment, run the following command.
-
-```bash
-npm create vite@latest my-app -- --template vanilla-ts
-```
-This command will prompt you to install the required packages and start the application. Select the options as shown below.
-
-![File Manager Initial setup](images/npm_setup.png)
-
-As Syncfusion packages are not installed yet, currently, the `No` option will be selected. Then, navigate to the project directory using the following command:
-
-```bash
-cd my-app
-```
-
-## Adding File Manager package
-
-All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. To install the File Manager package, use the following command.
+Clone the Essential<sup style="font-size:70%">&reg;</sup> JS 2 quickstart application project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) using the following command line scripts.
 
 ```
-npm install @syncfusion/ej2-filemanager
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack
+cd ej2-quickstart-webpack
+```
+
+## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript File Manager package
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+
+Use the following command to install the `@syncfusion/ej2-filemanager` package:
+
+```
+npm install @syncfusion/ej2-filemanager --save
+```
+
+Then, install the remaining dependent npm packages using the following command:
+
+```
+npm install
 ```
 
 ## Adding CSS reference
@@ -146,7 +136,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 ### Server-side setup
 
-The sample uses `https://physical-service.syncfusion.com` as the `url` endpoint in `ajaxSettings`.
+The sample uses `https://physical-service.syncfusion.com` as the [`url`](../api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](../api/file-manager#ajaxsettings).
 
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](../file-system-provider) documentation for setup details.
 
@@ -159,6 +149,36 @@ Use the following command to run the application in the browser.
 ```bash
 npm run dev
 ```
+
+## Registering the license key
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
+
+**Steps to register the license key:**
+
+1. Sign in to the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) and copy your license key.
+2. Register the key in your **src/app/app.ts** file, before instantiating any Syncfusion component:
+
+```ts
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY_HERE');
+```
+
+> For more details on obtaining and registering a license key, refer to the [License Key Generation](https://ej2.syncfusion.com/documentation/licensing/license-key-generation) and [License Key Registration](https://ej2.syncfusion.com/documentation/licensing/license-key-registration) documentation.
+
+## Troubleshooting
+
+**File Manager renders blank / no files appear**
+- Verify that the [`ajaxSettings`](../api/file-manager#ajaxsettings) [`url`](../api/file-manager/ajaxsettings#url) property is set and points to a valid, running File Manager service endpoint.
+- Open the browser developer console (F12) and check for JavaScript errors.
+
+**License validation warning in the console**
+- Register your license key before instantiating any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](#registering-a-license-key) section.
+
+**CDN resources fail to load**
+- Check your internet connection.
+- Confirm the version number in the CDN URLs matches a valid published release. See the [Syncfusion CDN page](https://cdn.syncfusion.com/ej2/) for available versions.
 
 ## See also
 
