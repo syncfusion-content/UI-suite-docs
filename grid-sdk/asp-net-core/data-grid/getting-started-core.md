@@ -163,12 +163,10 @@ Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager 
 Add the [ASP.NET Core DataGrid](https://www.syncfusion.com/aspnet-core-ui-controls/grid) control in the **~/Pages/Index.cshtml** file.
 
 {% tabs %}
-{% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/grid/getting-start-core/gridcolumns/tagHelper %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/getting-start-core/gridcolumns/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Index.cshtml.cs" %}
-....
-....
+{% highlight c# tabtitle="CSHTML.cs" %}
 public class IndexModel : PageModel
 {
     public void OnGet() { }
