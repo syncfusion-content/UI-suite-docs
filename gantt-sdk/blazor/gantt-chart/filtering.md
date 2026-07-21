@@ -573,6 +573,7 @@ You can retrieve filtered records from the Gantt Chart component using the [GetF
 {% highlight razor tabtitle="Index.razor" %}
 
 @using Syncfusion.Blazor.Gantt
+@using Syncfusion.Blazor.Buttons
 
 <div style="margin-bottom: 20px;">
     <SfButton OnClick="click" CssClass="e-primary" style="margin-right: 10px;">Get Filtered Records</SfButton>
@@ -669,7 +670,7 @@ You can retrieve filtered records from the Gantt Chart component using the [GetF
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDrSCDNSodAFQiMa?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rthHDmjchYkgROXC?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Customize filtering action
 

@@ -250,9 +250,7 @@ dotnet run
 
 {% endtabcontents %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VthyWNVzLgvAOlvq?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
-
-N> Looking for the full Blazor Gantt Chart component overview, features, pricing, and documentation? Visit the [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) page.
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLHNwtGAZLLPdpw?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## See also
 

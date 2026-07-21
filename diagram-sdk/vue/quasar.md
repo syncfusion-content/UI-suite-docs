@@ -314,5 +314,3 @@ npm run dev
 Then open the generated local URL (typically `http://localhost:9000`) in the browser. The application displays the flowchart diagram as shown below:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
-
-N> Looking for the full Vue Diagram component overview, features, pricing, and documentation? Visit the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) page.

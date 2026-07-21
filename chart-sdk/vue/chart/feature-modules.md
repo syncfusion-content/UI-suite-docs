@@ -81,4 +81,3 @@ The available chart modules are
 
 These modules should be injected into the `provide` section and use `chart` as a key of the object.
 
-N> Looking for the full Vue Charts component overview, features, pricing, and documentation? Visit the [Vue Charts](https://www.syncfusion.com/vue-components/vue-charts) page.
