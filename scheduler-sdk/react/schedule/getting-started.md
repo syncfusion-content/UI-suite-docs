@@ -248,8 +248,6 @@ export default App;
 {% endhighlight %}
 {% endtabs %}
 
-N> Looking for the full React Scheduler component overview, features, pricing, and documentation? Visit the [React Scheduler](https://www.syncfusion.com/react-components/react-scheduler) page.
-
 ## See also
 
 * [Explore available views and their customization options](./views.md)

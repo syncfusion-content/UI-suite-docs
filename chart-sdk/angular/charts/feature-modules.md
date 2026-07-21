@@ -79,4 +79,3 @@ The following available modules should be injected to extend the Chart's functio
 
 These modules should be injected into the `modules` section of the root `NgModule` or into a standalone component that requires the feature.
 
-N> Looking for the full Angular Charts component overview, features, pricing, and documentation? Visit the [Angular Charts](https://www.syncfusion.com/angular-components/angular-charts) page.
