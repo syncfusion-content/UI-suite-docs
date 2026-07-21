@@ -22,7 +22,7 @@ Before you begin, ensure Node.js **20.19.0** or later is installed on your machi
 
 ## Set up the Preact project
 
-To create a new `Preact` project, use one of the commands that are specific to either NPM or Yarn.
+To create and initialize a new `Preact` project, use one of the following commands for NPM or Yarn.
 
 ```bash
 npm init preact
@@ -46,7 +46,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 —      
 ```
 
-2\. Choose `JavaScript` as the framework variant to build this Preact project using JavaScript and React.
+2\. Choose `JavaScript` as the project language.
 
 ```bash
 T  Preact - Fast 3kB alternative to React with the same modern API
@@ -75,7 +75,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 —
 ```
 
-4\. Upon completing the aforementioned steps to create `my-project`, run the following command to jump into the project directory:
+4\. Upon completing the aforementioned steps to create `my-project`, run the following command to navigate to the project directory:
 
 ```bash
 cd my-project
@@ -99,7 +99,11 @@ or
 yarn add @syncfusion/ej2-react-diagrams
 ```
 
-## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
+N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
+
+N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/react/documentation/licensing/overview).
+
+## Add the required styles
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
@@ -119,9 +123,11 @@ Add the following import to the **src/style.css** file:
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
+N> Ensure that `style.css` is imported in the **src/index.jsx** file (for example, `import './style.css';`) so that the theme styles are applied to the Diagram component.
+
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the `@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css` reference with the corresponding theme path, such as `@syncfusion/ej2-material3-theme/styles/diagram/index.css`.
 
 ## Add the Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
@@ -193,13 +199,14 @@ import { DataManager, Query } from '@syncfusion/ej2-data';
 import { StackPanel, TextElement, DataBinding, HierarchicalTree, DiagramComponent, Inject } from "@syncfusion/ej2-react-diagrams";
 import { data } from './datasource';
 import { render } from 'preact';
+import './style.css';
 
 export default function App() {
   let items = new DataManager(data , new Query().take(7));
 
   return (
     <>
-      <DiagramComponent id="container" height={'450px'} layout={{
+      <DiagramComponent id="container" width={'100%'} height={'450px'} layout={{
         type: 'HierarchicalTree',
         margin: {
           top: 20,
@@ -299,6 +306,18 @@ Open the generated local URL (for example, **http://localhost:5173**) from the t
 
 ![preact](./images/preact.png)
 
+N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+
+N> To build the project for production, run `npm run build`. The generated output is placed in the `dist` folder.
+
 ## See also
 
 [Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../getting-started/quick-start)
+
+## Next steps
+
+To explore the Diagram component in more depth, refer to the following topics:
+
+* [Nodes](https://ej2.syncfusion.com/react/documentation/diagram/nodes)
+* [Connectors](https://ej2.syncfusion.com/react/documentation/diagram/connectors)
+* [Annotations](https://ej2.syncfusion.com/react/documentation/diagram/labels)

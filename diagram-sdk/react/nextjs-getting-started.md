@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
-# Creating a Next.js Application 
+# Getting Started with React Diagram in Next.js
 
 This section provides a step-by-step guide for setting up a Next.js application and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> React Diagram component.
 
@@ -24,8 +24,6 @@ Before getting started with the Next.js application, ensure the following prereq
 * [Node.js 18.17.0](https://nodejs.org/en) or later.
 
 * The application is compatible with macOS, Windows, and Linux operating systems.
-
-* Basic knowledge of Next.js and React
 
 ## Create a Next.js application
 
@@ -90,7 +88,7 @@ The application is ready to run with default settings. Now, let's add Syncfusion
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> React component packages are available at [npmjs.com](https://www.npmjs.com/search?q=ej2-react). To use Syncfusion<sup style="font-size:70%">&reg;</sup> React components in the project, install the corresponding npm package.
 
-Here, the [React Diagram component](https://www.syncfusion.com/react-components/react-diagram) is used in the project. To install the React Diagram component, use the following command:
+Here, the [React Diagram component](https://www.syncfusion.com/react-components/react-diagram) is added to the project. To install the React Diagram component, use the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -104,6 +102,12 @@ yarn add @syncfusion/ej2-react-diagrams
 
 {% endhighlight %}
 {% endtabs %}
+
+N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
+
+N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/react/documentation/licensing/overview).
+
+N> For the latest tested version of the Diagram package, refer to the [`@syncfusion/ej2-react-diagrams` package page](https://www.npmjs.com/package/@syncfusion/ej2-react-diagrams).
 
 ## Add the required styles
 
@@ -144,18 +148,16 @@ import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
-
-N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the `@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css` reference with the corresponding theme path, such as `@syncfusion/ej2-material3-theme/styles/diagram/index.css`.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
-Follow the below steps to add the React Diagram component to the Next.js project:
+Follow these steps to add the React Diagram component to the Next.js project:
 
-1. Before adding the Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the Diagram component data.
+1. Before adding the Diagram component to your markup, create a `datasource.ts` file. For an App Router project, place it in the **app** folder. For a Pages Router project, place it in the **pages** folder.
 
 {% tabs %}
-{% highlight ts tabtitle="datasource.tsx" %}
+{% highlight ts tabtitle="datasource.ts" %}
 
 export let data: object[] = [{
     'Id': 'parent',
@@ -217,6 +219,7 @@ export let data: object[] = [{
 import { DataManager, Query } from '@syncfusion/ej2-data';
 import { StackPanel, TextElement, DataBinding, HierarchicalTree, DiagramComponent, Inject } from "@syncfusion/ej2-react-diagrams";
 import { data } from './datasource';
+
 
 export default function Home() {
   let items: DataManager = new DataManager(data as JSON[], new Query().take(7));
@@ -324,6 +327,18 @@ Open the generated local URL (for example, http://localhost:3000) from the termi
 
 ![nextjs](./images/preact.png)
 
+N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+
+N> To build the application for production, run `npm run build`. The generated output is placed in the `.next` folder.
+
 To learn more about the functionality of the Diagram component, refer to the [documentation](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection).
 
 > [View the Next.js Diagram sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-diagram).
+
+## Next steps
+
+To explore the Diagram component in more depth, refer to the following topics:
+
+* [Nodes](https://ej2.syncfusion.com/react/documentation/diagram/nodes)
+* [Connectors](https://ej2.syncfusion.com/react/documentation/diagram/connectors)
+* [Annotations](https://ej2.syncfusion.com/react/documentation/diagram/labels)
