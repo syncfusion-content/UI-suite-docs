@@ -12,7 +12,7 @@ documentation: ug
 
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the ASP.NET Core Diagram control.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio, and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview).
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> Code Studio, and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview).
 
 ## Prerequisites
 
@@ -67,6 +67,8 @@ dotnet add package Syncfusion.EJ2.AspNet.Core
 
 N> The `Syncfusion.EJ2.AspNet.Core` package automatically installs its required dependencies, including [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) and [Syncfusion.Licensing](https://www.nuget.org/packages/Syncfusion.Licensing/).
 
+N> A Syncfusion® license key is not required for local development. However, a valid Syncfusion® license key must be registered before deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/overview).
+
 ## Step 3: Register the Syncfusion® Tag Helper
 
 Open the **~/Pages/_ViewImports.cshtml** file and add the Syncfusion<sup style="font-size:70%">&reg;</sup> tag helper reference.
@@ -117,7 +119,7 @@ Add the `<ejs-diagram>` tag helper to the **~/Pages/Index.cshtml** file.
 <ejs-diagram id="diagram" width="100%" height="580px"></ejs-diagram>
 ```
 
-This renders an empty diagram in the application.
+This renders an empty diagram in the application. The next step replaces this code with a more complete example.
 
 N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
@@ -260,7 +262,7 @@ N> Ensure the terminal is in the project folder (e.g., `MyDiagramApp`) before ru
 
 Alternatively, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) in Visual Studio.
 
-Open the generated local URL in the browser. The application displays the flowchart with four connected nodes.
+Open the generated local URL (for example, `http://localhost:5000`) in the browser. The application displays the flowchart with four connected nodes.
 
 The output will appear as follows:
 
@@ -268,3 +270,15 @@ The output will appear as follows:
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Diagram/ASP.NET%20Core%20Tag%20Helper%20Examples).
 
+N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+
+N> To build the application for production, run `dotnet publish`. The generated output is placed in the `bin/Release` folder.
+
+
+## Next steps
+
+To explore the Diagram control in more depth, refer to the following topics:
+
+* [Nodes](https://help.syncfusion.com/diagram-sdk/asp-net-core/nodes)
+* [Connectors](https://help.syncfusion.com/diagram-sdk/asp-net-core/connectors)
+* [Annotations](https://help.syncfusion.com/diagram-sdk/asp-net-core/labels)
