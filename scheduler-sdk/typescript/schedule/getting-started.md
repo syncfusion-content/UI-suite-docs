@@ -206,8 +206,6 @@ scheduleObj.appendTo('#Schedule');
 {% endhighlight %}
 {% endtabs %}
 
-N> Looking for the full JavaScript Scheduler Control overview, features, pricing, and documentation? Visit the [JavaScript Scheduler](https://www.syncfusion.com/javascript-ui-controls/js-scheduler) page.
-
 ## See also
  
 * [Explore available views and their customization options](../views.md)

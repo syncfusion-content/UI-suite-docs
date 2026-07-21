@@ -154,8 +154,6 @@ N> If you encounter any errors while using the Android Emulator, refer to [Troub
 
 ![Blazor File Manager Component](images/blazor-filemanager-component.webp)
 
-N> Looking for the full Blazor File Manager Component component overview, features, pricing, and documentation? Visit the [Blazor File Manager Component](https://www.syncfusion.com/blazor-components/blazor-file-manager) page.
-
 ## See also
 
 1. [Getting Started with Blazor File Manager Data Binding](https://blazor.syncfusion.com/documentation/file-manager/data-binding)
