@@ -11,15 +11,15 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Getting started in TypeScript Markdown Editor control
 
-The Syncfusion Typescript Markdown Editor is a web-based editor that enables users to create, edit, and format Markdown content with features such as table support and structured content formatting. This section explains the steps to create a simple Markdown Editor and demonstrates the basic usage of the Markdown Editor control using a Vite-based TypeScript project scaffolded with Vite latest vite version.
+The Syncfusion TypeScript Markdown Editor is a web-based editor that enables users to create, edit, and format Markdown content with features such as table support and structured content formatting. This section explains the steps to create a simple Markdown Editor and demonstrates the basic usage of the Markdown Editor control using a Vite-based TypeScript project scaffolded with Vite latest Vite version.
 
 ## Prerequisites
 
-This guide uses Vite as the bundler and development environment. Install Node.js `24.13.0` or higher before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
+This guide uses Vite as the bundler and development environment. Install Node.js `24.13.0` or `higher` before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
 
 ## Create a TypeScript application.
 
-To set-up a Typescript application in TypeScript environment, run the following command.
+To set up a TypeScript application, run the following command.
 
 ```bash
 npm create vite@latest my-app -- --template vanilla-ts
@@ -38,51 +38,61 @@ npm install
 ## Add Syncfusion JavaScript packages
 
 All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in [`npmjs.com`](https://www.npmjs.com/~syncfusionorg) public registry.
-To install Markdown Editor component, use the following command
+To install the Markdown Editor control, use the following command
 
-```
+```bash
 npm install @syncfusion/ej2-richtexteditor
 ```
 
 ## Adding CSS reference
 
-Add the following imports inside the `~/src/styles.css` file to include the `tailwind3` theme styles:
+Syncfusion provides multiple themes for the Rich Text Editor control. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages).
 
-{% tabs %}
-{% highlight css tabtitle="style.css" %}
+To apply the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package using the following command:
 
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+```bash
+npm install @syncfusion/ej2-tailwind3-theme
+```
 
-{% endhighlight %}
-{% endtabs %}
+The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/style.css`.
 
-I> To apply the application-specific styles correctly, import style.css into **src/main.ts** and remove all the default styles from **src/style.css** and use the Rich Text editor styles provided above. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+```css
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/rich-text-editor/index.css';
+```
+
+I> To apply the application-specific styles correctly, import **style.css** into **src/main.ts** and remove all the default styles from **src/style.css** and use the Rich Text Editor styles provided above.
 
 ## Module Injection
 
 The following modules provide the basic features of the Markdown Editor.
 
-* `Toolbar` - Inject this module to use Toolbar feature.
-* `Link` - Inject this module to use link feature in Markdown Editor.
-* `Image`- Inject this module to use image feature in Markdown Editor.
-* `MarkdownEditor` - Inject this module to use Rich Text Editor as Markdown editor.
+* `Toolbar` - Inject this module to use the Toolbar feature.
+* `Link` - Inject this module to use the link feature in Markdown Editor.
+* `Image`- Inject this module to use the image feature in Markdown Editor.
+* `MarkdownEditor` - Inject this module to use the Rich Text Editor as Markdown editor.
 
-These modules should be injected into the Markdown Editor using the `RichTextEditor.Inject` method.
+These modules should be injected into the Rich Text Editor using the `RichTextEditor.Inject` method as demonstrated in the following example:
+
+{% tabs %}
+{% highlight ts hl_lines="3" tabtitle="app.ts" %}
+
+import './style.css';
+import { RichTextEditor, Toolbar, Link, Image, MarkdownEditor } from '@syncfusion/ej2-richtexteditor';
+RichTextEditor.Inject(Toolbar, Link, Image, MarkdownEditor);
+
+let editor: RichTextEditor = new RichTextEditor({
+    editorMode: 'Markdown'
+});
+editor.appendTo('#editor');
+
+{% endhighlight %}
+{% endtabs %}
 
 T> Additional feature modules are available [here](https://ej2.syncfusion.com/documentation/rich-text-editor/module)
 
 ## Adding Markdown Editor control
 
-To get started, add the Markdown Editor control in `main.ts` and `index.html` files. Markdown Editor can be initialized through div element or textarea element.
-
-Output will be displayed as follows
+Now, you can start adding the Markdown Editor control to the application. For getting started, add the Markdown Editor initialization code in the **src/main.ts** file and add the target element in the **index.html** file using the following sample.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
@@ -98,16 +108,9 @@ editor.appendTo('#editor');
 
 {% endhighlight %}
 
-{% highlight css tabtitle="styles.css" %}
+{% highlight css tabtitle="style.css" %}
 
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/rich-text-editor/index.css';
 
 {% endhighlight %}
 
@@ -140,15 +143,23 @@ Use the following command to run the application.
 ```bash
 npm run dev
 ```
+The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Markdown Editor is displayed in the browser as shown below.
+
+![Syncfusion TypeScript Markdown Editor output](images/getting-started.png)
 
 ## See Also
+
+**Documentation:**
 
 * [How to change the editor type](./editor-modes)
 * [How to render the iframe](./iframe)
 * [How to render the toolbar in inline mode](./inline-mode)
+* [Accessibility in Rich text editor](../rich-text-editor/accessibility)
+* [Keyboard support in Rich text editor](../rich-text-editor/keyboard-support)
+* [Globalization in Rich text editor](../rich-text-editor/globalization)
+
+**Live examples:**
+
 * [How to insert Emoticons](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/insert-emoticons)
 * [Blog posting using Rich Text Editor](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/blog-posting)
 * [Reactive Form with Rich Text Editor](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/reactive-form)
-* [Accessibility in Rich text editor](https://ej2.syncfusion.com/documentation/rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](https://ej2.syncfusion.com/documentation/rich-text-editor/keyboard-support)
-* [Globalization in Rich text editor](https://ej2.syncfusion.com/documentation/rich-text-editor/globalization)
