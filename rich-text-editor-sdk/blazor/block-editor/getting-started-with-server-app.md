@@ -9,9 +9,9 @@ documentation: ug
 
 # Getting started with Blazor Block Editor in Blazor Server App
 
-The [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents and articles content using customizable blocks such as headings, paragraphs, lists, and more. The WebAssembly deployment model allows the editor to run entirely in the browser, providing a responsive client-side experience.
+The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents and articles content using customizable blocks such as headings, paragraphs, lists, and more. The WebAssembly deployment model allows the editor to run entirely in the browser, providing a responsive client-side experience.
 
-This section briefly explains how to include the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component in a Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section briefly explains how to include the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component in a Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 ## Create a new Blazor Server App 
 
@@ -161,7 +161,7 @@ The theme stylesheet and script can be accessed from NuGet through [Static Web A
 
 ## Add Blazor Block Editor component
 
-Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component inside the razor file.
+Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component inside the razor file.
 
 N> If the interactivity location is set to `Per page/component`, define a render mode at the top of the razor file. (For example `InteractiveServer`). If the Interactivity is set to `Global`, the render mode is automatically configured in the `App.razor` file by default.
 
@@ -238,7 +238,7 @@ public class EditorBlockData
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component will render in your default web browser.
 
 {% endtabcontent %}
 

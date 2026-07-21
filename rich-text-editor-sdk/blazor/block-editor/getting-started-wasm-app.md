@@ -9,9 +9,9 @@ documentation: ug
 
 # Getting Started with Blazor Block Editor Component in Blazor WASM App
 
-The [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents and articles content using customizable blocks such as headings, paragraphs, lists, and more. The WebAssembly deployment model allows the editor to run entirely in the browser, providing a responsive client-side experience.
+The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents and articles content using customizable blocks such as headings, paragraphs, lists, and more. The WebAssembly deployment model allows the editor to run entirely in the browser, providing a responsive client-side experience.
 
-This section explains briefly how to include the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component in a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section explains briefly how to include the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component in a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 ## Create a new Blazor WebAssembly (Standalone) App
 
@@ -159,7 +159,7 @@ The theme stylesheet and script can be accessed from NuGet through [Static Web A
 
 ## Add Blazor Block Editor component
 
-Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component inside the razor file.
+Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component inside the razor file.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -233,7 +233,7 @@ public class EditorBlockData
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component will render in your default web browser.
 
 {% endtabcontent %}
 
