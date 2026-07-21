@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with JavaScript Tree Grid control | Syncfusion
-description: Checkout and learn about Getting started with JavaScript Tree Grid control of Syncfusion Essential JS 2 and more details.
+title: Getting started with TypeScript Tree Grid control | Syncfusion
+description:  Checkout and learn about Getting started with TypeScript Tree Grid control of Syncfusion Essential JS 2 and more details.
 platform: grid-sdk
 control: Getting started 
 publishingplatform: grid-sdk
@@ -9,16 +9,24 @@ documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Getting started in JavaScript Tree Grid control
+#  Getting started in TypeScript Tree Grid control
 
-This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 Tree Grid and demonstrates the basic usage of the Tree Grid control in a JavaScript application.
+The Tree Grid component is essential for displaying hierarchical data in a tabular format. It is commonly used for project management (displaying tasks and subtasks), organizational structures (displaying company hierarchies), file systems, and any scenario where data has parent-child relationships.
+
+This section explains the steps to create a simple Tree Grid and demonstrates the basic usage of the Tree Grid component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
+
 
 ## Prerequisites
 
 To get started with application, ensure the following software to be installed in the machine.
 
-* [git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en/)
+| Requirement | Version |
+|-------------|---------|
+| [git](https://git-scm.com/downloads) | Latest Version |
+| [Node.js](https://nodejs.org/en/) | 14.15.0 or above, Recommended: Latest Version |
+| [Visual Studio Code](https://code.visualstudio.com/) | Latest Version |
 
 ### Browser support
 
@@ -34,112 +42,64 @@ To get started with application, ensure the following software to be installed i
 | Android | 4.4+ |
 | Windows Mobile | IE 11+ |
 
-## Dependencies
+## Set up development environment
 
-A list of dependencies to use the Tree Grid with all features.
+Clone the Essential<sup style="font-size:70%">&reg;</sup> JS 2 quickstart application project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) using the following command line scripts.
 
-```javascript
-	|-- @syncfusion/ej2-treegrid
-     |-- @syncfusion/ej2-treegrid
-          |-- @syncfusion/ej2-base
-          |-- @syncfusion/ej2-data
-          |-- @syncfusion/ej2-buttons
-          |-- @syncfusion/ej2-popups
-          |-- @syncfusion/ej2-navigations
-          |-- @syncfusion/ej2-dropdowns
-          |-- @syncfusion/ej2-lists
-          |-- @syncfusion/ej2-inputs
-          |-- @syncfusion/ej2-splitbuttons
-          |-- @syncfusion/ej2-calendars
-          |-- @syncfusion/ej2-excel-export
-          |-- @syncfusion/ej2-pdf-export
-          |-- @syncfusion/ej2-file-utils
-          |-- @syncfusion/ej2-compression
-          |-- @syncfusion/ej2-grids
+```
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack
+cd ej2-quickstart-webpack
 ```
 
-## Setup for local environment
+## Add Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Tree Grid package
 
-Follow these steps to set up your local environment.
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available in the public registry on [npmjs.com](https://www.npmjs.com/~syncfusionorg). You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls are available either as a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or as individual packages for each control.
 
-**Step 1:** Create a root folder named **my-app** for your application.
+Use the following command to install the `@syncfusion/ej2-treegrid` package:
 
-**Step 2:** Open Visual Studio Code and create two files inside the **my-app** folder:
-- **index.html** — the main HTML file that loads the CDN resources and provides the tree grid container element.
-- **index.js** — the JavaScript file where the DataGrid control is initialized.
-
-Refer to the [Adding Syncfusion® Tree Grid CDN resources](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started#adding-syncfusion-tree-grid-cdn-resources) and [Adding Tree Grid control](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started#adding-tree-grid-control) sections below for the content to add to each file.
-
-**Step 3:** In **index.html**, add a `<script>` tag at the end of `<body>` to link **index.js**:
-
-```html
-<script src="index.js" type="text/javascript"></script>
+```
+npm install @syncfusion/ej2-treegrid --save
 ```
 
-## Adding Syncfusion® Tree Grid CDN resources
+Then, install the remaining dependent npm packages using the following command:
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 Tree Grid control can be initialized by the following way.
-
-This setup includes additional dependencies required for more advanced functionalities of the tree grid, such as buttons, dropdowns, navigations and other components. Use this setup when you need to integrate additional features like filtering, paging, column menu and more.
-
-```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title>Essential JS 2 Tree Grid</title>
-
-    <!-- Essential JS 2 Tree Grid's dependent material theme -->
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/styles/material.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-treegrid/styles/material.css" rel="stylesheet" type="text/css" />
-
-    <!-- Essential JS 2 Tree Grid's dependent scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/dist/global/ej2-navigations.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/dist/global/ej2-calendars.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/dist/global/ej2-notifications.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-treegrid/dist/global/ej2-treegrid.min.js" type="text/javascript"></script>
-</head>
-
-<body>
-</body>
-
-</html>
 ```
-> To include all required Essential JS 2 styles and scripts, use the following CDN links.
->
-> <!-- Essential JS 2 combined material theme (all components) -->
-> <!-- <link href="https://cdn.syncfusion.com/ej2/34.1.29/material.css" rel="stylesheet" type="text/css" /> -->
->
-> <!-- Essential JS 2 combined script (all components) -->
-> <!-- <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script> -->
+npm install
+```
 
-## Adding Tree Grid control
+## Adding CSS reference
 
-Add the Tree Grid control in **index.js** file using the following code.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
+
+Install the **Material 3** theme package using the following command:
 
 {% tabs %}
-{% highlight ts tabtitle="index.js" %}
+{% highlight bash tabtitle="npm" %}
 
-var data = [
+npm install @syncfusion/ej2-material3-theme --save
+
+{% endhighlight %}
+{% endtabs %}
+
+Then add the following CSS reference to the **src/styles/styles.css** file:
+
+{% tabs %}
+{% highlight css tabtitle="App.css" %}
+
+@import "../../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+## Adding Tree Grid component
+
+Add the Tree Grid component in `[src/app/app.ts]` file using the following code and define a Tree Grid container element in [src/index.html] to render the component.
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+import { TreeGrid } from '@syncfusion/ej2-treegrid';
+const data: object[] = [
     { 
         TaskID: 1, TaskName: 'Planning', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4,
         subtasks: [
@@ -157,7 +117,7 @@ var data = [
     },
 ];
 
-var treeGridObj = new ej.treegrid.TreeGrid({
+let treeGridObj: TreeGrid = new TreeGrid({
     dataSource: data,
     childMapping: 'subtasks',
     treeColumnIndex: 1,
@@ -191,55 +151,70 @@ treeGridObj.appendTo('#TreeGrid');
 {% highlight html tabtitle="index.html" %}
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Essential JS 2 Tree Grid</title>
+<html lang="en">
 
-    <!-- Essential JS 2 combined material theme (all components) -->
-    <link href="https://cdn.syncfusion.com/ej2/34.1.29/material.css" rel="stylesheet" type="text/css" />
-    <!-- Essential JS 2 combined script (all components) -->
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
+<head>
+    <title>Essential JS 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Syncfusion styling reference -->
+    <link href="./styles/styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <!-- Add the HTML <div> element for Tree Grid  -->
-    <div id="TreeGrid"></div>
-    
-    <!-- Your Tree Grid initialization script -->
-    <script src="index.js" type="text/javascript"></script>
+    <div>
+        <!--HTML Tree Grid element, which is going to render as Essential JS 2 Tree Grid-->
+        <div id="TreeGrid"></div>
+    </div>
 </body>
+
 </html>
+
+{% endhighlight %}
+
+{% highlight html tabtitle="styles.css" %}
+
+@import '../../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css';
 
 {% endhighlight %}
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/tree-grid-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/tree-grid-cs4" %}
 
 ## Run the application
 
-Now, run the **index.html** in web browser, it will render the Essential<sup style="font-size:70%">&reg;</sup> JS 2 Tree Grid control.
+```
+npm start
+```
 
 ## Registering Syncfusion license
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
 
-**Step 1:** Obtain your license key from the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) or from the [licensing FAQ page](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot).
+**Steps to register the license key:**
 
-**Step 2:** Register the license key in your **index.js** file before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control.
+1. Sign in to the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) and copy your license key.
+2. Register the key in your **src/app/app.ts** file, before instantiating any Syncfusion component:
 
-```javascript
-// Register Syncfusion license key
-ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
+```ts
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY_HERE');
 ```
 
-> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
+> For more details on obtaining and registering a license key, refer to the [License Key Generation](https://ej2.syncfusion.com/documentation/licensing/license-key-generation) and [License Key Registration](https://ej2.syncfusion.com/documentation/licensing/license-key-registration) documentation.
 
 ## Troubleshooting
 
-**Tree Grid styles are not applied:** Ensure that the required Syncfusion theme CDN link is correctly included in `index.html` file. Verify that the CDN links are accessible and loaded before the Tree Grid is rendered.
+**Tree Grid styles are not applied:** Ensure that the required Syncfusion theme package is installed and the theme CSS is imported correctly in the `src/styles/styles.css` file.
 
-**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration#javascript-es5) section.
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](#registering-a-license-key) section.
 
-## See Also
+## See also
 
-* [Tree Grid Feature Modules](https://ej2.syncfusion.com/javascript/documentation/treegrid/module)
+* [Tree Grid Feature Modules](https://ej2.syncfusion.com/documentation/treegrid/module)
