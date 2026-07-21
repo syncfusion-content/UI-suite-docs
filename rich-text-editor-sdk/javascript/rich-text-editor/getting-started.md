@@ -99,7 +99,7 @@ Rich Text Editor can be initialized on a div element as shown below
 {% endhighlight %}
 {% endtabs %}
 
-## Run the application
+## Run the Application
 
 Now, run the `index.html` file in a web browser.
 
@@ -107,7 +107,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript Rich Text Editor
 
 ![Syncfusion JavaScript Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
 **Documentation:**
 

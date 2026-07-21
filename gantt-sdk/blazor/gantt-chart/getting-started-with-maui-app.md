@@ -181,7 +181,7 @@ Add the Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Gantt Chart comp
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LNrxjnWxBsnSlHzC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZBRZcLXBwzqJvDV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Run the application
 

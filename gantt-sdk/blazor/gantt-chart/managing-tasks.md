@@ -60,7 +60,7 @@ The following code example demonstrates editing in the Gantt component.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLdZHMHAdNOXvzs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhxZcVtUXMHfOha?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 Editing feature requires a primary key column for CRUD operations. When defining columns in Gantt using the [GanttColumns](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttColumns.html) property,  at least one column must be marked as the primary key. By default, the [Id](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTaskFields.html#Syncfusion_Blazor_Gantt_GanttTaskFields_Id) column will be the primary key column.  If `Id` column is not defined, we need to enable [IsPrimaryKey](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttColumn.html#Syncfusion_Blazor_Gantt_GanttColumn_IsPrimaryKey) for any one of the columns defined in the `GanttColumns` property.
 
@@ -152,7 +152,7 @@ Below is the combined content from the provided markdown sections in bullet poin
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLRNHsdAnBHxqmN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXVdtmVXqXBAYNQH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > If edit type is not defined in the column, then it will be considered as the **StringEdit** type (Textbox component).
 
@@ -242,7 +242,7 @@ The following code example demonstrates how to define an edit template for a spe
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BthRDxiHqxpgLLlZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNBRZcrDUXVOvYJF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Disable editing for particular column
 
@@ -304,7 +304,7 @@ In the following demo, editing is disabled for the **TaskName** column.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrntdiHUHoqehkT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNhRDmrtANKexGLG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Troubleshoot: Editing works only when primary key column is defined
 
@@ -395,7 +395,7 @@ The taskbar editing tooltip can be integrated in Gantt chart by using the [Gantt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hDBnjRWHqdlbpinR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjVHDQVNqZfLRmtL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Template
 
@@ -481,7 +481,7 @@ The taskbar editing tooltip can be customized using the [GanttTooltipSettings.Ed
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjVxjnCRgGDnMAYy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZhdNGBjKXJOOTyr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 - [How to add new tasks?](https://blazor.syncfusion.com/documentation/gantt-chart/adding-new-tasks)

@@ -134,7 +134,7 @@ editor.appendTo('#editor');
 {% endhighlight %}
 {% endtabs %}
           
-## Run the application
+## Run the Application
 
 Use the following command to run the application in the browser.
 
@@ -146,7 +146,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Rich Text Editor
 
 ![Syncfusion TypeScript Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
 **Documentation:**
 
@@ -162,5 +162,3 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Rich Text Editor
 * [Insert Emoticons](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/insert-emoticons)
 * [Blog posting using Rich Text Editor](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/blog-posting)
 * [Reactive Form with Rich Text Editor](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/reactive-form)
-
-N> Looking for the full JavaScript Rich Text Editor control overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) page.

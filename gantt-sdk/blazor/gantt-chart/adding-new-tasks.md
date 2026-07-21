@@ -64,7 +64,7 @@ Enable task addition through the toolbar by setting [EditSettings.AllowAdding](h
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDLHXniVCaQbAxXK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtrRjGCGJxlBrjHB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > **Note**: A unique `TaskID` is required to avoid silent failures. Use the [OnActionFailure](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttEvents-1.html#Syncfusion_Blazor_Gantt_GanttEvents_1_OnActionFailure) event to handle errors like invalid input or duplicate IDs.
 
@@ -121,7 +121,7 @@ Enable context menu task addition by setting [EnableContextMenu](https://help.sy
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rtVRDnMVBZWApGQq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjhnDwiGTdlIgfkv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > **Note**: The context menu supports keyboard navigation (e.g., <kbd>Enter</kbd> to select "Add Above"). Refer to the [Accessibility in Blazor Gantt Chart](https://blazor.syncfusion.com/documentation/gantt-chart/accessibility) for keyboard shortcuts.
 
@@ -192,7 +192,7 @@ Tasks can be added programmatically using the [AddRecordAsync](https://help.sync
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VjLdDxMVrZHVObxK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjrdjwCQpnblFWSL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
                            
 > **Note**: Ensure the `TaskID` is unique to prevent runtime errors. Use try-catch blocks with `AddRecordAsync` to handle exceptions, such as invalid data or missing dependencies. For keyboard accessibility, use <kbd>Ctrl</kbd> + <kbd>Insert</kbd> (Windows) or <kbd>⌘</kbd> + <kbd>Insert</kbd> (Mac) to open the add dialog programmatically.
 

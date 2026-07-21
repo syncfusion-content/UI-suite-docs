@@ -90,7 +90,7 @@ Here is a sample code demonstrating how to render a [DropDownList](https://blazo
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhHZnMIeldTdqLq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZhRDcLDBUXAPORv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Hide default filter icon while perform filtering through method
 
@@ -190,7 +190,7 @@ You can perform filtering programmatically using the [FilterByColumnAsync](https
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNVRjnioSFcOqMij?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LthHjwhZBgjnbGlv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize the default input component of filter menu dialog
 
@@ -291,4 +291,4 @@ The following sample demonstrates how to disable the autofill feature by setting
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNBnXHiISPYLYCKl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZBxjwhXBKsLDlLE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
