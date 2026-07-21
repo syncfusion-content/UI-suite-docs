@@ -82,4 +82,4 @@ You can render the Syncfusion<sup style="font-size:70%">&reg;</sup> [Button](htt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rXBRXxWTSdlgAGIs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXVntQiQfFsfAScX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

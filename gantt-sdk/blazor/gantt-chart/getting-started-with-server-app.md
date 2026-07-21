@@ -230,7 +230,7 @@ N> If the Interactivity Location is set to `Global`, the render mode is automati
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDrnZdsHhWbnfhrH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZBxDcVZJXhRLlgm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Run the application
 

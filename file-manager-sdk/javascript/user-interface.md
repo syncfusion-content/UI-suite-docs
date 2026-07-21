@@ -130,5 +130,3 @@ File Manager control allows to perform the files or folder [upload](https://ej2.
 ![Uploading a file](./images/filemanager-fileupload.png)
 
 ![Uploading a folder](./images/filemanager-folderupload.png)
-
-N> Looking for the full JavaScript File Manager component overview, features, pricing, and documentation? Visit the [JavaScript File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) page

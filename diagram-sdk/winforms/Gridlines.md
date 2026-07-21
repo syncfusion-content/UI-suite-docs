@@ -87,5 +87,3 @@ diagram1.View.Grid.SnapToGrid = true;
 {% endtabs %}
 
 ![Diagram-Gridlines](Diagram-Grid_images/Diagram-Grid_img1.jpeg)
-
-N> Looking for the full WinForms Diagram component overview, features, pricing, and documentation? Visit the [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram) page.

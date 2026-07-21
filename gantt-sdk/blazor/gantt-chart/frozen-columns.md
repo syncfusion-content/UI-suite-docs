@@ -64,7 +64,7 @@ The following example demonstrates setting the `FrozenColumns` value to 2, which
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLdZxWHLXbvMCVB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjhdDwrtLeRhEboy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Freeze particular column
 
@@ -129,7 +129,7 @@ The following example demonstrates that the **TaskID** and **TaskName** columns 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZVHDdCRLiLtzwjB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNhnDGBZLodwoWWV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Freeze direction
 
@@ -199,7 +199,7 @@ The following example demonstrates that the **TaskID** column is frozen on the l
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXBdNnixhMqZXriS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNhnjwhZLScVsHVL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Add or remove frozen columns by dragging the column separator
 
@@ -264,7 +264,7 @@ To enable this feature, set the [AllowFreezeLineMoving](https://help.syncfusion.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZLRjdWdriAQQeDd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDrRjmBjLSQovPbb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Change default frozen line color
   
@@ -331,7 +331,7 @@ The following example demonstrates how to change the frozen line color to blue.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhHZdCdVWzeGWrx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDLnDwBZLRwVTCGc?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Limitations
 

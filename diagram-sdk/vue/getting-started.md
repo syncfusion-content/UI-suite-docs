@@ -298,5 +298,3 @@ Then open the local URL shown in the terminal, such as `http://localhost:8080`. 
 The output will appear as follows:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
-
-N> Looking for the full Vue Diagram component overview, features, pricing, and documentation? Visit the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) page.

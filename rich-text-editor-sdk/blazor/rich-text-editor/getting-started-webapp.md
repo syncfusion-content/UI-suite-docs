@@ -223,7 +223,7 @@ To launch the application, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> in Visual Studio,
 
 N> When using the .NET CLI or Visual Studio Code, ensure that you run the application from the **server (host) project directory**, not from the `.Client` project. The client project does not run independently and is hosted by the server application.
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBdjohZVVUMIRjO?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Rich Text Editor Component](./images/blazor-richtexteditor.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZLxtwjxtVYcLqMj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Rich Text Editor Component](./images/blazor-richtexteditor.webp)" %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/RichTextEditor).
 
@@ -244,5 +244,3 @@ N> [View Sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-
 * [Keyboard support in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/keyboard-support)
 
 * [Globalization in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/globalization)
-
-N> Looking for the full Blazor Rich Text Editor component overview, features, pricing, and documentation? Visit the [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-rich-text-editor) page.

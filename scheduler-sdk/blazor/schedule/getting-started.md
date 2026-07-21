@@ -237,7 +237,7 @@ dotnet run
 
 {% endtabcontents %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VthHjyMbgFhiIMjE?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Scheduler Component](images/blazor-scheduler.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhnNwiwhcqwkVnX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Scheduler Component](images/blazor-scheduler.webp)" %}
 
 N> [View sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/Scheduler).
 
@@ -284,7 +284,7 @@ To populate the Scheduler with appointments, bind the event data to it by assign
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VNVyDujgpxNVnpFG?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Scheduler with Appointments](images/blazor-scheduler-appointments.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNLdZQsGVmIcfqKX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Scheduler with Appointments](images/blazor-scheduler-appointments.webp)" %}
 
 ## Setting date
 
@@ -378,9 +378,6 @@ You can configure only the required views as needed, and include additional view
 
 {% endhighlight %}
 {% endtabs %}
-
-N> Looking for the full Blazor Scheduler component overview, features, pricing, and documentation? Visit the 
-The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) page.
 
 ## See also
 

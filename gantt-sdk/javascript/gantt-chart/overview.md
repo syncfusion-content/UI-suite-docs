@@ -33,5 +33,3 @@ The Gantt chart is a project management tool which provides a Microsoft Project-
 * [**Data markers or indicators**](./data-markers): Displays indicators and flags along with taskbars and task labels.
 * [**Event markers**](./event-markers): Highlights important days or events in a project using the event markers.
 * [**Holidays**](./holidays): Defines non-working days in a project using holidays.
-
-N> Looking for the full JavaScript Gantt Chart component overview, features, pricing, and documentation? Visit the [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) page.

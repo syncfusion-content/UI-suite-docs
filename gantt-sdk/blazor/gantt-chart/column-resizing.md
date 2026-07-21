@@ -61,7 +61,7 @@ Column width can be adjusted by dragging the right edge of the header, changes a
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBxjxsJoePAAKaB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrnXGCwpbNZcLVN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 >* In RTL mode, you can click and drag the left edge of header cell to resize the column.
 >* The [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttColumn.html#Syncfusion_Blazor_Gantt_GanttColumn_Width) property of the column can be set initially to define the default width of the column. However, when column resizing is enabled, you can override the default width by manually resizing the columns.
@@ -128,7 +128,7 @@ The following example demonstrates how the **TaskName** column can be configured
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZrRtnWTeSuQmWgF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDVxZcCmfPNcnOoB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Touch interaction
 

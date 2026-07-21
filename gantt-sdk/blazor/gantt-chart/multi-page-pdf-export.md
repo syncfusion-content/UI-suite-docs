@@ -76,7 +76,7 @@ To export the Gantt Chart across multiple PDF pages, set the `enableMultiPage` p
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXhxZnCHgwKTvBwo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVHXmBXADwCYntg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## PDF export scaling in Blazor Gantt Chart
 
@@ -177,7 +177,7 @@ These properties provide precise control over scaling and pagination, enabling c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZhHNdsdAQesofDb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZhnXwhNKswnzTjy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Export Gantt Chart to PDF with custom scaling
 
@@ -259,7 +259,7 @@ This approach provides precise control over the overall Gantt Chart size while p
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjrxtRWngQxyjQQL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhdNmBNqsbUgBRR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Limitations
 

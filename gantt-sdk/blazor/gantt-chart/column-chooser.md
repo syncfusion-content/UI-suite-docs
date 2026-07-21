@@ -84,7 +84,7 @@ You can add a custom column chooser option to the toolbar using the [Toolbar](ht
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLxDHsfhYPrNVmI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXBnDGicTcHAphKF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > **Note**: Use <kbd>Tab</kbd> and arrow keys for keyboard navigation in the chooser. Test on mobile devices for responsiveness.
 

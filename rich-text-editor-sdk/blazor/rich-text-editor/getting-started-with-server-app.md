@@ -214,7 +214,7 @@ N> If the Interactivity Location is set to `Global`, the render mode is automati
 
 To launch the application, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> in Visual Studio, run `dotnet run` from the CLI or integrated terminal in VS Code, or use the Run command in your preferred IDE to render the Blazor RichTextEditor component in the default web browser.
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBdjohZVVUMIRjO?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Rich Text Editor Component](./images/blazor-richtexteditor.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDLRXGNxjgWIEsaL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Rich Text Editor Component](./images/blazor-richtexteditor.webp)" %}
 
 N> [View sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/RichTextEditor).
 
@@ -233,5 +233,3 @@ N> [View sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-
 * [Keyboard support in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/keyboard-support)
 
 * [Globalization in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/globalization)
-
-N> Looking for the full Blazor Rich Text Editor component overview, features, pricing, and documentation? Visit the [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-rich-text-editor) page.

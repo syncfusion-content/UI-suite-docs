@@ -131,7 +131,6 @@ or
 ```bash
 yarn run serve
 ```
-N> Looking for the full Vue Data Grid component overview, features, pricing, and documentation? Visit the [Vue Data Grid](https://www.syncfusion.com/vue-components/vue-grid) page.
 
 ## See also
 
