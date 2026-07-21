@@ -14,7 +14,7 @@ This section briefly explains how to create [**React Scheduler**](https://www.sy
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/ai-coding-assistant/overview)
 
-To get start quickly with React Scheduler using the Create React App, you can check on this video:
+To get start quickly with React Scheduler using the Create React App, you can check on this video
 
 {% youtube "https://www.youtube.com/watch?v=iNkryf_TtZw" %}
 
