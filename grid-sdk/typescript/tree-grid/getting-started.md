@@ -48,7 +48,7 @@ Clone the Essential<sup style="font-size:70%">&reg;</sup> JS 2 quickstart applic
 
 ```
 git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack-
-cd ej2-quickstart-webpack-
+cd ej2-quickstart-webpack
 ```
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Tree Grid package
