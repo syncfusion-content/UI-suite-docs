@@ -86,7 +86,7 @@ Then add the following CSS reference to the **src/styles/styles.css** file:
 {% tabs %}
 {% highlight css tabtitle="App.css" %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css";
+@import "../../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css";
 
 {% endhighlight %}
 {% endtabs %}
