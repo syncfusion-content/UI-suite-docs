@@ -45,9 +45,6 @@ This section explains how to create a React application from scratch and build a
 | Android Browser / Chrome for Android | 4.4+ |
 | Windows Mobile | IE 11+ |
 
-### Security
-
-Syncfusion® React Diagram includes built-in support for common security practices such as Cross-Site Scripting (XSS) protection, Content Security Policy (CSP) compliance, Cross-Site Request Forgery (CSRF) prevention, and protection against injection attacks. These features help build secure and enterprise-ready applications.
 
 ## Before You Begin
 
