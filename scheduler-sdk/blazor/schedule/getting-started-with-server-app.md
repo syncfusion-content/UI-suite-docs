@@ -11,9 +11,13 @@ documentation: ug
 
 This section briefly explains how to include the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) component in your Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
+> **Prerequisites:** .NET 8 or later is required to use Syncfusion Blazor Scheduler components.
+
 > **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
 ## Create a new Blazor Server App
+
+N> **Interactivity Configuration:** Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) (e.g., `--interactivity Server`) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating your Blazor Server App. The `--interactivity Server` flag ensures components render on the server and maintain real-time interactivity. For detailed information, refer to the [interactive render mode documentation](https://blazor.syncfusion.com/documentation/common/interactive-render-mode).
 
 {% tabcontents %}
 
@@ -56,8 +60,6 @@ cd BlazorApp
 {% endtabcontent %}
 
 {% endtabcontents %}
-
-N> Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating a Blazor Server App. For detailed information, refer to the [interactive render mode documentation](https://blazor.syncfusion.com/documentation/common/interactive-render-mode).
 
 ## Install the required Blazor packages
 
@@ -117,6 +119,7 @@ dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
 
 ## Add import namespaces
 
+After the packages are installed, open the **~/_Imports.razor** file and import the required Syncfusion namespaces. The `Syncfusion.Blazor` namespace is required for core functionality, and `Syncfusion.Blazor.Schedule` provides the Scheduler component.
 After the packages are installed, open the **~/Components/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Schedule` namespaces.
 
 {% tabs %}
@@ -199,6 +202,11 @@ N> If the interactivity location is set to `Per page/component` in the Server Ap
 {% endhighlight %}
 {% endtabs %}
 
+**Required vs. Optional Fields:**
+- **Required:** `Id`, `Subject`, `StartTime`, `EndTime` — These fields must be populated for appointments to display correctly.
+- **Optional:** `Location`, `Description`, `IsAllDay`, `RecurrenceRule`, `RecurrenceException`, `RecurrenceID` — Use these to add additional appointment details as needed.
+
+**Run the application**
 ## Run the application
 
 {% tabcontents %}
@@ -243,7 +251,7 @@ dotnet run
 
 ## Populating appointments
 
-To populate the Scheduler with appointments, bind the event data to it by assigning the `DataSource` property under [ScheduleEventSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.ScheduleEventSettings-1.html#Syncfusion_Blazor_Schedule_ScheduleEventSettings_1__ctor).
+To populate the Scheduler with appointments, bind the event data to it by assigning the `DataSource` property under [ScheduleEventSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.ScheduleEventSettings-1.html#Syncfusion_Blazor_Schedule_ScheduleEventSettings_1__ctor). The `SelectedDate` property uses two-way binding (`@bind-SelectedDate`) to synchronize the currently displayed date between the component and your code.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -288,7 +296,7 @@ To populate the Scheduler with appointments, bind the event data to it by assign
 
 ## Setting date
 
-The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) usually displays the system date as its current date. To change the current date of Scheduler with specific date, define the two-way binding for [SelectedDate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_SelectedDate) property.
+The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) displays the system date by default. To display a specific date, use the two-way binding (`@bind-SelectedDate`) to set the [SelectedDate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_SelectedDate) property. The specified date will be the initial date displayed when the Scheduler loads.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -304,7 +312,7 @@ The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler
 </SfSchedule>
 
 @code {
-    DateTime CurrentDate = new DateTime(2020, 1, 10);
+    DateTime CurrentDate = new DateTime(2025, 2, 14);
     public class AppointmentData
     {
         public int Id { get; set; }
@@ -325,26 +333,26 @@ The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler
 
 ## Setting view
 
-The Scheduler displays `Week` view by default. To change the current view, define the applicable view name to the two-way binding of [CurrentView](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_CurrentView) property.
+The Scheduler displays `Week` view by default. To change the current view, use two-way binding (`@bind-CurrentView`) to set the [CurrentView](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_CurrentView) property.
 
 ### Available Views
 
 The Scheduler supports the following built-in views:
 
-* Day
-* Week
-* WorkWeek
-* Month
-* Agenda
-* MonthAgenda
-* TimelineDay
-* TimelineWeek
-* TimelineWorkWeek
-* TimelineMonth
-* TimelineYear
-* Year
+* **Day** — Single day with hourly slots
+* **Week** — 7 days with hourly slots (default)
+* **WorkWeek** — Monday to Friday with hourly slots
+* **Month** — Monthly calendar view
+* **Agenda** — Compact list view of appointments
+* **MonthAgenda** — Month view with agenda sidebar
+* **TimelineDay** — Single day in horizontal timeline format
+* **TimelineWeek** — 7 days in horizontal timeline format
+* **TimelineWorkWeek** — Work week in horizontal timeline format
+* **TimelineMonth** — Month in horizontal timeline format
+* **TimelineYear** — Year in horizontal timeline format
+* **Year** — Year overview
 
-You can configure only the required views as needed, and include additional views based on your application requirements.
+Configure only the required views based on your use case. For example, use **Day** and **Week** for detail-oriented scheduling, **Month** for overview, or **Agenda** for quick appointment scanning.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
