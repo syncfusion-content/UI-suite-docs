@@ -88,12 +88,12 @@ The following sample demonstrates an initial search where `Fields` is set to **T
 <SfGantt DataSource="@TaskCollection" Height="450px" Width="900px" Toolbar="@(new List<string>() { "Search" })">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
     </GanttTaskFields>
-    <GanttSearchSettings Fields="@(new string[] { "TaskName" })" Operator="Operator.Contains" Key="Perförm" IgnoreCase="true" IgnoreAccent="true"></GanttSearchSettings>
+    <GanttSearchSettings Fields="@(new string[] { "TaskName" })" Operator=SearchOperator Key="Perförm" IgnoreCase="true" IgnoreAccent="true"></GanttSearchSettings>
 </SfGantt>
 
 @code{
     private List<TaskData> TaskCollection { get; set; }
-
+    public Syncfusion.Blazor.Operator SearchOperator { get; set; } = Syncfusion.Blazor.Operator.Contains;
     protected override void OnInitialized()
     {
         this.TaskCollection = GetTaskCollection();
@@ -130,7 +130,7 @@ The following sample demonstrates an initial search where `Fields` is set to **T
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLyiDDSIBEAoMzK?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhnXQhMhNrCjhbV?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Search operators
 
@@ -381,14 +381,14 @@ To clear the search results in the Blazor Gantt Chart from an external button, y
 <SfGantt @ref="GanttInstance" DataSource="@TaskCollection" Height="450px" Width="900px" Toolbar="@(new List<string>() { "Search" })">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
     </GanttTaskFields>
-    <GanttSearchSettings Fields="@(new string[] { "TaskName" })" Operator="Operator.Contains"
+    <GanttSearchSettings Fields="@(new string[] { "TaskName" })" Operator=SearchOperator
           Key="List" IgnoreCase="true"></GanttSearchSettings>
 </SfGantt>
 
 @code{
     public SfGantt<TaskData> GanttInstance;
     private List<TaskData> TaskCollection { get; set; }
-
+    public Syncfusion.Blazor.Operator SearchOperator { get; set; } = Syncfusion.Blazor.Operator.Contains;
     protected override void OnInitialized()
     {
         this.TaskCollection = GetTaskCollection();
@@ -430,4 +430,4 @@ To clear the search results in the Blazor Gantt Chart from an external button, y
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VjVIstNSeXFfGxal?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjrntwLsBjUngoQQ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}

@@ -181,7 +181,7 @@ Add the Blazor Gantt Chart component in the **~/Pages/Home.razor** file.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VthyWNVzLgvAOlvq?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhdZGNQgZNBCUzC?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ### Run the application
 

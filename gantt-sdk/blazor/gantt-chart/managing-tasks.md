@@ -192,7 +192,7 @@ The following code example demonstrates how to define an edit template for a spe
 @code{
     SfDropDownList<string, string> dropdown;
 
-    private void CellSaveHandler(CellSaveArgs<TaskData> args)
+    private void CellSaveHandler(Syncfusion.Blazor.Grids.CellSaveArgs<TaskData> args)
     {
         if (args.ColumnName == "TaskName")
         {
@@ -238,7 +238,7 @@ The following code example demonstrates how to define an edit template for a spe
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZreMXtqsakSUdPq?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNBRtwDGqNUtDIFR?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Disable editing for particular column
 
