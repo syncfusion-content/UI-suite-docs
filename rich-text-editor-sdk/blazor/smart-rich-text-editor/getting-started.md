@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started with Blazor Smart Rich Text Editor in Server App
 
-This section explains how to add the [Blazor Smart Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-smart-rich-text-editor) component to a Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section explains how to add the [Blazor Smart Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-smart-rich-text-editor) component to a Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 ## Create a new Blazor Server App
 
@@ -360,7 +360,7 @@ The theme stylesheet and script can be accessed from NuGet through [Static Web A
 
 ## Add Blazor Smart Rich Text Editor component
 
-Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Smart Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-smart-rich-text-editor) component inside the razor file.
+Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Smart Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-smart-rich-text-editor) component inside the razor file.
 
 N> If the interactivity location is set to `Per page/component`, define a render mode at the top of the razor file. (For example `InteractiveServer`). If the Interactivity is set to `Global`, the render mode is automatically configured in the `App.razor` file by default.
 
@@ -392,7 +392,7 @@ N> If the interactivity location is set to `Per page/component`, define a render
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor [Blazor Smart Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-smart-rich-text-editor) component will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor [Blazor Smart Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-smart-rich-text-editor) component will render in your default web browser.
 
 {% endtabcontent %}
 
@@ -436,5 +436,5 @@ N> [View Sample in GitHub](https://github.com/syncfusion/smart-ai-samples).
 
 ## See also
 
-1. [Getting Started with Smart Rich Text Editor in Web App](https://blazor.syncfusion.com/documentation/smart-rich-text-editor/getting-started-webapp)
+1. [Getting Started with Blazor Smart Rich Text Editor in Web App](https://blazor.syncfusion.com/documentation/smart-rich-text-editor/getting-started-webapp)
 2. [Rich Text Editor Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor)
