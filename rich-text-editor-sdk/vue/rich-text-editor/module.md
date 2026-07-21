@@ -67,4 +67,3 @@ The following example demonstrates how to import and inject modules.
 
 These modules should be injected into the `provide` section and use `richtexteditor` as a key of the object.
 
-N> Looking for the full Vue Rich Text Editor component overview, features, pricing, and documentation? Visit the [Vue Rich Text Editor](https://www.syncfusion.com/vue-components/vue-wysiwyg-rich-text-editor) page.

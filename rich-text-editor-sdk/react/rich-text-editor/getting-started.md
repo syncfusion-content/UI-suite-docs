@@ -79,13 +79,13 @@ I> To apply the application-specific styles correctly, import **App.css** into *
 
 ## Module injection
 
-The following modules provide the basic features of the Rich Text Editor.
+The following modules provide the basic features of the the Rich Text Editor.
 
-* **HtmlEditor** - Inject this module to use Rich Text Editor as html editor.
-* **Image** - Inject this module to use image feature in Rich Text Editor.
-* **Link** - Inject this module to use link feature in Rich Text Editor.
-* **QuickToolbar** - Inject this module to use quick toolbar feature for the target element.
-* **Toolbar** - Inject this module to use Toolbar feature.
+* **HtmlEditor** - Inject this module to use the Rich Text Editor as HTML editor.
+* **Image** - Inject this module to use image feature in the Rich Text Editor.
+* **Link** - Inject this module to use link feature in the Rich Text Editor.
+* **QuickToolbar** - Inject this module to use the quick toolbar feature for the target element.
+* **Toolbar** - Inject this module to use the Toolbar feature.
 
 These modules can be injected into the `services` prop of the `<Inject>` component, as demonstrated in the following example.
 
@@ -118,7 +118,7 @@ Now, you can start adding the React Rich Text Editor component in the applicatio
 {% endhighlight %}
 {% endtabs %}
 
-## Run the application
+## Run the Application
 
 Now run the `npm run dev` command in the console to start the development server. This command compiles your code and serves the application locally, opening it in the browser.
 
@@ -129,10 +129,10 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> React Rich Text Editor is d
 
 ![Syncfusion React Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
-* [Accessibility in Rich text editor](./accessibility.md)
-* [Keyboard support in Rich text editor](./keyboard-support.md)
-* [Globalization in Rich text editor](./globalization.md)
+* [Accessibility in Rich Text Editor](./accessibility.md)
+* [Keyboard support in Rich Text Editor](./keyboard-support.md)
+* [Globalization in Rich Text Editor](./globalization.md)
 
 N> Looking for the full React Rich Text Editor component overview, features, pricing, and documentation? Visit the [React Rich Text Editor](https://www.syncfusion.com/react-components/react-rich-text-editor) page.

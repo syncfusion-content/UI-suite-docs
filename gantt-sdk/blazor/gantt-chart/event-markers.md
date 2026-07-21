@@ -92,7 +92,7 @@ The following implementation demonstrates event marker integration within a Gant
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNVoiXhJTzbnRpdT?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rtBxtchjrBZplHLu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 
