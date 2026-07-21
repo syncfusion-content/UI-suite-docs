@@ -3,9 +3,9 @@ layout: post
 title: Getting started with Vue Schedule component | Syncfusion
 description:  Checkout and learn about Getting started with Vue Schedule component of Syncfusion Essential JS 2 and more details.
 control: Getting started 
-platform: ej2-vue
+platform: scheduler-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/scheduler-sdk
 ---
 
 # Getting Started with the Vue Schedule Component in Vue 2

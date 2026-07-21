@@ -3,9 +3,9 @@ layout: post
 title: Getting started with React Schedule component | Syncfusion
 description: Checkout and learn about Getting started with React Schedule component of Syncfusion Essential JS 2 and more details.
 control: Getting started 
-platform: ej2-react
+platform: scheduler-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/scheduler-sdk
 ---
 
 # Getting Started with React Schedule Component

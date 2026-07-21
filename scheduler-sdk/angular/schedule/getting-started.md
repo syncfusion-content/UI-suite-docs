@@ -2,10 +2,10 @@
 layout: post
 title: Getting started with Angular Schedule component | Syncfusion
 description:  Checkout and learn about Getting started with Angular Schedule component of Syncfusion Essential JS 2 and more details.
-platform: ej2-angular
+platform: scheduler-sdk
 control: Schedule
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/scheduler-sdk
 ---
 
 # Getting started with Angular Schedule component

@@ -3,9 +3,9 @@ layout: post
 title: React schedule getting started with Next.js | Syncfusion
 description: Checkout and learn about Getting started with React Schedule component of Syncfusion Essential JS 2 in the Next.js project.
 control: Next.js
-platform: ej2-react
+platform: scheduler-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/scheduler-sdk
 ---
 
 

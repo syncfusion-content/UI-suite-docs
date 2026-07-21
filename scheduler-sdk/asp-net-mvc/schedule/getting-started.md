@@ -17,7 +17,22 @@ This section briefly explains about how to include [ASP.NET MVC Scheduler](https
 
 ## Prerequisites
 
-[System requirements for ASP.NET MVC controls](https://ej2.syncfusion.com/aspnetmvc/documentation/system-requirements)
+### .NET and Visual Studio compatibility
+
+| .NET Version | Visual Studio Version |
+|--------------|------------------------------|
+| .NET Framework 4.6.2 | Visual Studio 2015 Update 3 or later |
+
+### Browser support
+
+|    Browser    |    Versions    |
+|--------------|---------------|
+|    Google Chrome, including Android & iOS    |    Latest Version  |
+|    Mozilla Firefox    |    Latest Version  |
+|    Microsoft Edge    |    Latest Version  |
+|    Apple Safari, including iOS    |    Latest Version  |
+|    Opera    |    Latest Version  |
+|    Microsoft Internet Explorer    |    11  |
 
 ## Create ASP.NET MVC application with HTML helper
 
@@ -67,11 +82,11 @@ Here, the theme and script is referred using CDN inside the `<head>` of `~/Views
 {% endhighlight %}
 {% endtabs %}
 
-N> Checkout the [Themes topic](https://ej2.syncfusion.com/aspnetmvc/documentation/appearance/theme) to learn different ways (CDN, NPM package, and [CRG](https://ej2.syncfusion.com/aspnetmvc/documentation/common/custom-resource-generator)) to refer styles in ASP.NET MVC application, and to have the expected appearance for Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC controls. Checkout the [Adding Script Reference](https://ej2.syncfusion.com/aspnetmvc/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your ASP.NET MVC application.
+N> Check out the [Themes topic](https://ej2.syncfusion.com/aspnetmvc/documentation/appearance/theme) to learn different ways (CDN, NPM package, and [CRG](https://ej2.syncfusion.com/aspnetmvc/documentation/common/custom-resource-generator)) to refer styles in ASP.NET MVC application, and to have the expected appearance for Syncfusion® ASP.NET MVC controls. Check out the [Adding Script Reference](https://ej2.syncfusion.com/aspnetmvc/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your ASP.NET MVC application. **Supported Browsers**: Chrome, Firefox, Safari, Edge, and Internet Explorer 11+.
 
-## Register Syncfusion<sup style="font-size:70%">&reg;</sup> script manager
+## Register Syncfusion® script manager
 
-Also, register the script manager `EJS().ScriptManager()` at the end of `<body>` in the `~/Views/Shared/_Layout.cshtml` file as follows.
+Register the script manager `EJS().ScriptManager()` at the end of the `<body>` tag in the `~/Views/Shared/_Layout.cshtml` file. This step is **required** for all Syncfusion® controls to function properly.
 
 {% tabs %}
 {% highlight cshtml tabtitle="~/_Layout.cshtml" %}
@@ -87,7 +102,7 @@ Also, register the script manager `EJS().ScriptManager()` at the end of `<body>`
 
 ## Add ASP.NET MVC Scheduler control
 
-Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Scheduler control in `~/Views/Home/Index.cshtml` page.
+Now, add the Syncfusion® ASP.NET MVC Scheduler control in the `~/Views/Home/Index.cshtml` page.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -118,15 +133,15 @@ public class HomeController : Controller
     {
         List<AppointmentData> appData = new List<AppointmentData>();
         appData.Add(new AppointmentData
-        { Id = 1, Subject = "Explosion of Betelgeuse Star", StartTime = new DateTime(2022, 2, 11, 9, 30, 0), EndTime = new DateTime(2022, 2, 11, 11, 0, 0) });
+        { Id = 1, Subject = "Explosion of Betelgeuse Star", StartTime = new DateTime(2026, 2, 11, 9, 30, 0), EndTime = new DateTime(2026, 2, 11, 11, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 2, Subject = "Thule Air Crash Report", StartTime = new DateTime(2022, 2, 12, 12, 0, 0), EndTime = new DateTime(2022, 2, 12, 14, 0, 0) });
+        { Id = 2, Subject = "Thule Air Crash Report", StartTime = new DateTime(2026, 2, 12, 12, 0, 0), EndTime = new DateTime(2026, 2, 12, 14, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 3, Subject = "Blue Moon Eclipse", StartTime = new DateTime(2022, 2, 13, 9, 30, 0), EndTime = new DateTime(2022, 2, 13, 11, 0, 0) });
+        { Id = 3, Subject = "Blue Moon Eclipse", StartTime = new DateTime(2026, 2, 13, 9, 30, 0), EndTime = new DateTime(2026, 2, 13, 11, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 4, Subject = "Meteor Showers in 2018", StartTime = new DateTime(2022, 2, 14, 13, 0, 0), EndTime = new DateTime(2022, 2, 14, 14, 30, 0) });
+        { Id = 4, Subject = "Meteor Showers in 2018", StartTime = new DateTime(2026, 2, 14, 13, 0, 0), EndTime = new DateTime(2026, 2, 14, 14, 30, 0) });
         appData.Add(new AppointmentData
-        { Id = 5, Subject = "Milky Way as Melting pot", StartTime = new DateTime(2022, 2, 15, 12, 0, 0), EndTime = new DateTime(2022, 2, 15, 14, 0, 0) });
+        { Id = 5, Subject = "Milky Way as Melting pot", StartTime = new DateTime(2026, 2, 15, 12, 0, 0), EndTime = new DateTime(2026, 2, 15, 14, 0, 0) });
         return appData;
     }
 }
@@ -161,15 +176,15 @@ public class HomeController : Controller
     {
         List<AppointmentData> appData = new List<AppointmentData>();
         appData.Add(new AppointmentData
-        { Id = 1, Subject = "Explosion of Betelgeuse Star", StartTime = new DateTime(2022, 2, 11, 9, 30, 0), EndTime = new DateTime(2022, 2, 11, 11, 0, 0) });
+        { Id = 1, Subject = "Explosion of Betelgeuse Star", StartTime = new DateTime(2026, 2, 11, 9, 30, 0), EndTime = new DateTime(2026, 2, 11, 11, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 2, Subject = "Thule Air Crash Report", StartTime = new DateTime(2022, 2, 12, 12, 0, 0), EndTime = new DateTime(2022, 2, 12, 14, 0, 0) });
+        { Id = 2, Subject = "Thule Air Crash Report", StartTime = new DateTime(2026, 2, 12, 12, 0, 0), EndTime = new DateTime(2026, 2, 12, 14, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 3, Subject = "Blue Moon Eclipse", StartTime = new DateTime(2022, 2, 13, 9, 30, 0), EndTime = new DateTime(2022, 2, 13, 11, 0, 0) });
+        { Id = 3, Subject = "Blue Moon Eclipse", StartTime = new DateTime(2026, 2, 13, 9, 30, 0), EndTime = new DateTime(2026, 2, 13, 11, 0, 0) });
         appData.Add(new AppointmentData
-        { Id = 4, Subject = "Meteor Showers in 2018", StartTime = new DateTime(2022, 2, 14, 13, 0, 0), EndTime = new DateTime(2022, 2, 14, 14, 30, 0) });
+        { Id = 4, Subject = "Meteor Showers in 2018", StartTime = new DateTime(2026, 2, 14, 13, 0, 0), EndTime = new DateTime(2026, 2, 14, 14, 30, 0) });
         appData.Add(new AppointmentData
-        { Id = 5, Subject = "Milky Way as Melting pot", StartTime = new DateTime(2022, 2, 15, 12, 0, 0), EndTime = new DateTime(2022, 2, 15, 14, 0, 0) });
+        { Id = 5, Subject = "Milky Way as Melting pot", StartTime = new DateTime(2026, 2, 15, 12, 0, 0), EndTime = new DateTime(2026, 2, 15, 14, 0, 0) });
         return appData;
     }
 }
@@ -242,6 +257,22 @@ public ActionResult Index()
 
 ![ASP.NET MVC Scheduler with Custom Views](images/schedule-with-custom-views.png)
 
+## Troubleshooting
+
+**Scheduler control not rendering:**
+- Verify that `@Html.EJS().ScriptManager()` is registered in `_Layout.cshtml`
+- Ensure the CDN links for styles and scripts are correct (check for 404 errors in browser console)
+- Confirm the Syncfusion® EJ2 namespace is added to `Web.config` under Views folder
+
+**Events not displaying:**
+- Verify that the `EventSettings.DataSource` property is properly bound
+- Check that `StartTime` and `EndTime` are valid DateTime objects
+- Ensure the Controller returns data via ViewBag or Model
+
+**View customization not working:**
+- Confirm `StartHour` and `EndHour` are in "HH:mm" format (e.g., "09:00")
+- Verify that `Readonly` property is set as a boolean, not a string
+
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-MVC-Getting-Started-Examples/tree/main/Schedule/ASP.NET%20MVC%20Razor%20Examples).
 
-N> You can also explore our [ASP.NET MVC Scheduler example](https://ej2.syncfusion.com/aspnetmvc/Schedule/Overview#/material) that shows how to use the toolbar buttons to play with Scheduler functionalities.
+N> Explore our [ASP.NET MVC Scheduler example](https://ej2.syncfusion.com/aspnetmvc/Schedule/Overview#/material) to learn how to use toolbar buttons and other Scheduler features.
