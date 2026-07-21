@@ -129,3 +129,4 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> React Markdown Editor is di
 
 * [Accessibility in Markdown Editor](./accessibility.md)
 * [Keyboard support in Markdown Editor](./keyboard-support.md)
+* [Globalization in Rich Text editor](../rich-text-editor/globalization)
