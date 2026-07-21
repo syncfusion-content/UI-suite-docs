@@ -68,7 +68,7 @@ Interaction keys |Description
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDBxtHsrUdfdICxg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXVnjcCQzQrbSlds?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Copy to clipboard by external buttons
 
@@ -150,7 +150,7 @@ To copy selected rows or cells to the clipboard using external buttons, invoke t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrxDniLKRwJHIuf?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhdZmCQfQqVVFwn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Copy hierarchy modes
 
@@ -278,7 +278,7 @@ The Gantt Chart component supports multiple copy modes using the [CopyHierarchyM
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjBHDxiBTVBIusaq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDVnjQscTQqPQlQz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Paste
 
@@ -433,7 +433,7 @@ You can use the [RowSelected](https://blazor.syncfusion.com/documentation/gantt-
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjrRjHCVfyHPujIi?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNhxjciczQTnxtbW?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 **Selected Cell Copy and Paste:** 
 
@@ -571,7 +571,7 @@ You can use the [CellSelected](https://blazor.syncfusion.com/documentation/gantt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDVRNdCLJuqLzPrm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrdjGWcTwIhkTLR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Autofill
 
@@ -703,4 +703,4 @@ This customization enables users to quickly update multiple cells, improving dat
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VNVxXnMhyZHAfuGJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXVHXmMwzmIdVdcG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

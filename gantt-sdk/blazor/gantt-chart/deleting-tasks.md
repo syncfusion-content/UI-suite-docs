@@ -72,7 +72,7 @@ Enable task deletion through the toolbar by setting [GanttEditSettings.AllowDele
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LNhdZxsSBeHoRChg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BthHXQVjrMVMDuPE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> You should set the `AllowDeleting` value to `true` to delete the record dynamically.
 
@@ -128,4 +128,4 @@ Enable a confirmation dialog for task deletion by setting [GanttEditSettings.Sho
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrxjRsSBeGPAarI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBdDmrNLiBprIHU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

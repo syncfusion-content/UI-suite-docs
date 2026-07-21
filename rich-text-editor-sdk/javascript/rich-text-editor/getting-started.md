@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with JavaScript Rich text editor | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Rich text editor control of Syncfusion Essential JS 2 and more details.
+title: Getting started with JavaScript Rich Text Editor | Syncfusion
+description:  Check out and learn about Getting started with JavaScript Rich Text Editor control of Syncfusion Essential JS 2 and more details.
 canonical_url: "https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor"
 platform: rich-text-editor-sdk
 control: Getting started 
@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Getting started in JavaScript Rich text editor control
 
-The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
+The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaScript framework that can be directly used in the latest web browsers.
 
 ## Dependencies
 
@@ -22,7 +22,6 @@ The following list of dependencies are required to use the `Rich Text Editor` co
 |-- @syncfusion/ej2-richtexteditor
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-buttons
-    |-- @syncfusion/ej2-data
     |-- @syncfusion/ej2-inputs
     |-- @syncfusion/ej2-lists
     |-- @syncfusion/ej2-navigations
@@ -37,7 +36,7 @@ Refer to the following steps to set up your local environment.
 
 **Step 1:** Create an app folder `my-app` for Essential JS 2 JavaScript controls.
 
-**Step 2:** Create a `my-app/resources` folder to store local scripts and styles files.
+**Step 2:** Create a `my-app/resources` folder to store local script and style files.
 
 **Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 Rich Text Editor control.
 
@@ -83,14 +82,13 @@ Add the following scripts inside the `my-app/index.html` file to include the Ric
 {% endhighlight %}
 {% endtabs %}
 
-I> Ensure that all Rich Text Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Rich Text Editor from working properly or cause runtime errors.
-Make sure the required base and dependent scripts are included along with the Rich Text Editor script.
+I> Ensure that all Rich Text Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Rich Text Editor from working properly or cause runtime errors. Make sure the required base and dependent scripts are included along with the Rich Text Editor script.
 
 ## Adding Rich Text Editor control
 
-To get started, add the Rich Text Editor control in index.js and index.html files. Rich Text Editor can be initialized through div element or textarea element.
+Now, you can start adding the Rich Text Editor control to the application. For getting started, add the Rich Text Editor initialization code in the **index.js** file and add the target element in the **index.html** file using the following sample.
 
-Rich Text Editor can be initialized on div element as shown below
+Rich Text Editor can be initialized on a div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -103,31 +101,27 @@ Rich Text Editor can be initialized on div element as shown below
 
 ## Run the application
 
-Now, run the index.html in web browser, it will render the Essential JS 2 Rich Text Editor control.
+Now, run the `index.html` file in a web browser.
 
-Output will be displayed as follows.
+The Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript Rich Text Editor is displayed as shown below.
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/text-area-sample-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/text-area-sample-cs3" %}
-
-> You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Rich Text Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/rich-text-editor.html) that shows how to render the rich text editor tools. 
+![Syncfusion JavaScript Rich Text Editor output](images/getting-started.png)
 
 ## See also
 
-* [How to change the editor type](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/editor-types/editor-modes)
-* [How to render the iframe](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/editor-types/iframe)
-* [How to render the toolbar in inline mode](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/editor-types/inline-editing)
+**Documentation:**
+
+* [Accessibility in Rich Text Editor](./accessibility.md)
+* [Keyboard support in Rich Text Editor](./keyboard-support.md)
+* [Globalization in Rich Text Editor](./globalization.md)
+* [How to change the editor type](./editor-types/editor-modes.md)
+* [How to render the iframe](./editor-types/iframe.md)
+* [How to render the toolbar in inline mode](./editor-types/inline-editing.md)
+
+**Live examples:**
+
 * [How to insert Emoticons](https://ej2.syncfusion.com/demos/#/tailwind3/rich-text-editor/insert-emoticons.html)
 * [Blog posting using Rich Text Editor](https://ej2.syncfusion.com/demos/#/tailwind3/rich-text-editor/blog-posting.html)
 * [Reactive Form with Rich Text Editor](https://ej2.syncfusion.com/angular/demos/#/tailwind3/rich-text-editor/reactive-form)
-* [Accessibility in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/keyboard-support)
-* [Globalization in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/globalization)
+
+N> You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Rich Text Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/rich-text-editor.html) that shows how to render the rich text editor tools. 

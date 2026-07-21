@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Installing Syncfusion Chart SDK Mac installer - Syncfusion
-description: Learn here about how to install Syncfusion Chart SDK Mac installer after downloading from our Syncfusion website.
-platform: file-formats
+description: Learn here about how to install the Syncfusion Chart SDK Mac installer after downloading it from our Syncfusion website.
+platform: Chart SDK
 control: Installation and Deployment
 documentation: ug
 ---
@@ -11,67 +11,64 @@ documentation: ug
 
 ## Steps to resolve the warning message in Catalina OS or later
 
-   While running Essential Studio Chart SDK Mac Installers on Catalina MacOS or later, the below alert will be displayed.
+While running the Syncfusion Chart SDK Mac Installer on Catalina macOS or later, the alert below is displayed.
 
-   ![Alert Image](images/Mac_Catalina_MacOS_Alert1.png)  
-     
-   If you receive this alert, follow the below steps for the easiest solution.   
+![Catalina macOS Gatekeeper alert](images/Mac_Catalina_MacOS_Alert1.png)
 
-   1.	Right-click the downloaded pkg file.
-   2.	Select the "Open With" option and choose "Installer (Default)". The following pop-up appears.
+If you receive this alert, follow the steps below for the easiest solution.
 
-		![pop-up Image](images/Mac_Catalina_MacOS_Alert2.png)
+1. Right-click the downloaded `.pkg` file in Finder.
+2. Select the **Open With** option and choose **Installer (default)**. The pop-up shown below appears.
 
-   3.	When you click "Open" the installer window will be opened.
+   ![Open With Installer pop-up](images/Mac_Catalina_MacOS_Alert2.png)
+
+3. Click **Open**. The installer window opens.
 
 ## Step-by-Step Installation
 
-The steps below show how to install Essential Studio Chart SDK Mac installer.
+The steps below show how to install the Syncfusion Chart SDK Mac Installer.
 
-1. Open the Syncfusion Essential Studio Chart SDK Mac installer(.pkg) file. The installer Wizard opens. Click Continue.
+1. Open the Syncfusion Chart SDK Mac installer (.pkg) file. The installer wizard opens. Click **Continue**.
 
    ![Welcome wizard](images/Mac_Installer1.png)
-   
 
-2. The Software License Agreement wizard will appear. Click the Continue button.
+2. The Software License Agreement wizard appears. Click the **Continue** button.
 
-   ![License Agreement](images/Mac_Installer2.png)   
-   
+   ![License Agreement](images/Mac_Installer2.png)
 
-3. The License Agreement's Confirmation window will appear. If you have read the Software License Agreement, click **Agree**.
+3. The License Agreement confirmation window appears. If you have read the Software License Agreement, click **Agree**.
 
-   ![License Agree Confirmation](images/Mac_Installer3.png)
-   
-   N> The Unlock key is not required to install the Essential Studio Chart SDK Mac installer.
+   ![License Agreement confirmation](images/Mac_Installer3.png)
 
+   N> The Unlock key is not required to install the Syncfusion Chart SDK Mac installer.
 
-4. The Destination select wizard will appear. You can choose which disc to install the Syncfusion Essential Studio Chart SDK Mac installer on here.
+4. The Destination Select wizard appears. You can choose the disk on which to install the Syncfusion Chart SDK Mac installer.
 
    ![Destination](images/Mac_Installer5.png)
 
-5. The Installation Type wizard will appear. Click Install to begin the standard installation of the Syncfusion Essential Studio Chart SDK Mac installer.
+5. The Installation Type wizard appears. Click **Install** to begin the standard installation of the Syncfusion Chart SDK Mac installer.
 
-   ![Install Location](images/Mac_Installer6.png)
+   ![Install location](images/Mac_Installer6.png)
 
-6. The Authentication window will appear. To begin the installation, enter the Mac machine's password and click **Install Software**.
+6. The Authentication window appears. To begin the installation, enter the Mac machine's password and click **Install Software**.
 
    ![Authentication](images/Mac_Installer7.png)
 
-7. The installation process will begin on your machine. 
-   
-   ![Installation progress](images/Mac_Installer8.png)
-   
-8. Once the installation is complete, the completed screen will be displayed. To exit the installation wizard, click Close. 
+7. The installation process begins on your machine. Wait for it to complete.
 
-   ![Installation Completed](images/Mac_Installer9.png)
-   
-   By default, Mac installer will install the files in following location.
+   ![Installation progress](images/Mac_Installer8.png)
+
+8. Once the installation is complete, the completion screen is displayed. To exit the installation wizard, click **Close**.
+
+   ![Installation completed](images/Mac_Installer9.png)
+
+   By default, the Mac installer installs the files in the following location:
 
    **Location:** {Documents}/Syncfusion/{version}/Chart SDK
    
    ![Installed Location](images/Mac_Installer10.png)
 
-## License key registration in samples
+## License Key Registration in Samples
 
 After the installation, the license key is required to register the demo source that is included in the Mac installer. To learn about the steps for license registration for the ASP.NET Core - EJ2 samples in the Essential Studio Chart SDK Mac installer, please refer to this.
 

@@ -2,19 +2,16 @@
 layout: post
 title: Downloading Syncfusion Chart SDK Mac installer - Syncfusion
 description: Learn here about the how to download Syncfusion Chart SDK Mac installer from our syncfusion website with license.
-platform: file-formats
+platform: Chart SDK
 control: Installation and Deployment
 documentation: ug
---- 
+---
 
 # Downloading Syncfusion Chart SDK Mac Installer
 
 The Syncfusion installer can be downloaded from the [Syncfusion](https://www.syncfusion.com/) website. You can either download the licensed installer or try our trial installer depending on your license.
 
-   -	Trial Installer
-   -	Licensed Installer
-
-You can download the Syncfusion installer from [Syncfusion.com](https://www.syncfusion.com/) website 
+You can download the Syncfusion installer from the [Syncfusion.com](https://www.syncfusion.com/) website.
 
 ## Download the Trial Version
 
@@ -26,15 +23,15 @@ Our 30-day trial can be downloaded in two ways.
 
 ### Download Free Trial Setup
 
-1. You can evaluate our 30-day free trial by visiting the [Download Free Trial](https://www.syncfusion.com/downloads) page and select the product
-2. After completing the required form or logging in with your registered Syncfusion account, you can download the trial installer from the confirmation page. (as shown in below screenshot.)
+1. You can evaluate our 30-day free trial by visiting the [Download Free Trial](https://www.syncfusion.com/downloads) page and select the product.
+2. After completing the required form or logging in with your registered Syncfusion account, you can download the trial installer from the confirmation page (as shown in the screenshot below).
 
    ![Trial and downloads of Syncfusion Essential Studio](images/trial-confirmation.png)
    
 3. With a trial license, only the latest version’s trial installer can be downloaded.
 4. Unlock key is not required to install the Syncfusion Chart SDK Mac trial installer.
-5. Before the trial expires, you can download the trial installer at any time from your registered account’s [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page (as shown in below screenshot.)
- 
+5. Before the trial expires, you can download the trial installer at any time from your registered account’s [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page (as shown in the screenshot below).
+
    ![Trial and downloads of Syncfusion Essential Studio](images/trial-download.png)
 
 6. Click the More Download Options (element 2 in the above screenshot) button to get the Essential Studio Chart SDK Mac trial installer which is available in PKG format.
@@ -50,13 +47,13 @@ You should initiate an evaluation if you have already obtained our components th
    N> You can generate the license key for your active trial products from [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page. This license key will be mandatory to use our trial products in your application. To know more about License key, refer this [help topic](https://help.syncfusion.com/file-formats/licensing/overview).
 	
     ![Trial and downloads of Syncfusion Essential Studio](images/start-trial-download.png)
-   
-2. To access this page, you must sign up\log in with your Syncfusion account.
-3. Begin your trial by selecting the Syncfusion product. 
+
+2. To access this page, you must sign up or log in with your Syncfusion account.
+3. Begin your trial by selecting the Syncfusion product.
 
    N> If you've already used the trial products and they haven't expired, you won't be able to start the trial for the same product again.
 
-4. After you've started the trial, go to the [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page to get the latest version trial installer. You can generate the [unlock key](https://www.syncfusion.com/kb/8069/how-to-generate-unlock-key-for-essentials-studio-products) and [license key](https://help.syncfusion.com/file-formats/licensing/how-to-generate) here at any time before the trial period expires. (as shown in below screenshot.)
+4. After you've started the trial, go to the [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page to get the latest version trial installer. You can generate the [unlock key](https://www.syncfusion.com/kb/8069/how-to-generate-unlock-key-for-essentials-studio-products) and [license key](https://help.syncfusion.com/common/essential-studio/licensing/how-to-generate) here at any time before the trial period expires (as shown in the screenshot below).
 
    ![License and downloads of Syncfusion Essential Studio](images/start-trial-download-installer.png)
 
@@ -67,13 +64,13 @@ You should initiate an evaluation if you have already obtained our components th
 
 1. Syncfusion licensed products will be available in the [License & Downloads](https://www.syncfusion.com/account/downloads) page under your registered Syncfusion account.
 2. You can view all the licenses (both active and expired) associated with your account.
-3. You can download Chart SDK Mac licensed installer by going to More Downloads Options (element 3 in the screenshot below).
+3. You can download the Chart SDK Mac licensed installer by going to **More Download Options** (element 3 in the screenshot below).
 
    ![License and downloads of Syncfusion Essential Studio](images/license-download.png)
-   
-4. Unlock key is not required to install the Syncfusion Chart SDK Mac trial installer.   
-5. For Mac OS, PKG formats is available for download.
-   
+
+4. For macOS, the PKG format is available for download.
+5. After the download completes, verify the integrity of the PKG file before opening it.
+
    ![License and downloads of Syncfusion Essential Studio](images/Mac_Download.PNG)
 
 You can also refer to the [**Chart SDK Mac installer**](https://help.syncfusion.com/common/essential-studio/installation/mac-installer/how-to-install) links for step-by-step installation guidelines.	

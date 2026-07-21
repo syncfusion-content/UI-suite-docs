@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Installing Syncfusion Chart SDK offline installer-Syncfusion
-description: Learn here about how to install Syncfusion Chart SDK offline installer after downloading from our Syncfusion website.
-platform: file-formats
+title: Installing Syncfusion Chart SDK Offline Installer - Syncfusion
+description: Learn here about how to install the Syncfusion Chart SDK Offline Installer after downloading it from our Syncfusion website.
+platform: Chart SDK
 control: Installation and Deployment
 documentation: ug
 
@@ -11,115 +11,100 @@ documentation: ug
 # Installing Syncfusion Chart SDK offline installer
 
 
-## Installing with UI   
+## Installing with UI
 
-The steps below show how to install the Essential Studio Chart SDK installer.
+The steps below show how to install the Syncfusion Chart SDK using the installer UI.
 
-1.	Open the Syncfusion Chart SDK offline installer file from downloaded location by double-clicking it. The Installer Wizard automatically opens and extracts the package.
+1. Open the Syncfusion Chart SDK Offline Installer file from the downloaded location by double-clicking it. The installer wizard automatically opens and extracts the package.
 
     ![Installer extraction wizard](images/Step-by-Step-Installation_img1.png)
 
-    N> The Installer wizard extracts the syncfusionessentialchartsdk_(version).exe dialog, which displays the package's unzip operation.
+    N> The installer extracts the `syncfusionessentialchartsdk_(version).exe` package to a temporary directory and displays the unzip progress.
 
-2.	To unlock the Syncfusion offline installer, you have two options:
+2. To unlock the Syncfusion Offline Installer, you have two options:
 
-   
-    * *Login To Install*
-   
-    * *Use Unlock Key*
-   
-   
-   
-    **Login To Install**
-   
-    You must enter your Syncfusion email address and password. If you don't already have a Syncfusion account, you can sign up for one by clicking **"Create an account"**. If you have forgotten your password, click on **"Forgot Password"** to create a new one. Once you've entered your Syncfusion email and password, click Next.
+   - **Login to install** (recommended)
+   - **Use unlock key**
 
-    ![Login credentials](images/Step-by-Step-Installation_img2.png)   
+   **Login to install**
 
+   Enter your Syncfusion email address and password. If you do not have a Syncfusion account, click **Create an account** to sign up. If you have forgotten your password, click **Forgot Password** to reset it. Once you have entered your credentials, click **Next**.
 
-    **Use Unlock Key**
-   
-    Unlock keys are used to unlock the Syncfusion offline installer, and they are platform and version specific. You should use either Syncfusion licensed or trial Unlock key to unlock Syncfusion Chart SDK installer.
-   
-    The trial unlock key is only valid for 30 days, and the installer will not accept an expired trial key. 
-   
-    To learn how to generate an unlock key for both trial and licensed products, see [this](https://www.syncfusion.com/kb/2326) Knowledge Base article.
+   ![Login credentials](images/Step-by-Step-Installation_img2.png)
 
-    ![Product key](images/Step-by-Step-Installation_img3.png)   
+   **Use unlock key**
 
+   Unlock keys are platform- and version-specific. You can use either a Syncfusion licensed or a trial unlock key to unlock the Syncfusion Chart SDK installer. The trial unlock key is valid for 30 days only; the installer rejects expired trial keys.
 
-3.	After reading the License Terms and Privacy Policy, check the **“I agree to the License Terms and Privacy Policy”** check box. Click the Next button.
+   To learn how to generate an unlock key for both trial and licensed products, see the [Generate Unlock Key](https://www.syncfusion.com/kb/2326) Knowledge Base article.
 
+   ![Product key](images/Step-by-Step-Installation_img3.png)
 
-4.	Change the install and sample locations here. You can also change the Additional settings. Click Next\Install to install with the default settings.
+3. Read the License Terms and Privacy Policy, then select the **I agree to the License Terms and Privacy Policy** check box. Click **Next**.
+
+4. Change the install and sample locations, and configure the Additional settings as needed. Click **Install** to install with the default settings, or click **Next** to review the choices.
 
 
     ![Advanced options](images/Step-by-Step-Installation_img4.png)
 
     **Additional Settings**
     
-	* Select the **Install Demos** check box to install Syncfusion samples, or leave the check box unchecked, if you do not want to install Syncfusion samples
-	* Select the **Register Syncfusion Assemblies in GAC** check box to install the latest Syncfusion assemblies in GAC, or clear this check box when you do not want to install the latest assemblies in GAC.
-    * Select the **Configure Syncfusion controls in Visual Studio** check box to configure the Syncfusion controls in the Visual Studio toolbox, or clear this check box when you do not want to configure the Syncfusion controls in the Visual Studio toolbox during installation. Note that you must also select the Register Syncfusion assemblies in GAC check box when you select this check box.
-    * Select the **Configure Syncfusion Extensions controls in Visual Studio** checkbox to configure the Syncfusion Extensions in Visual Studio or clear this check box when you do not want to configure the Syncfusion Extensions in Visual Studio.
-    * Check the **Create Desktop Shortcut** checkbox to add a desktop shortcut for Syncfusion Control Panel
-    * Check the **Create Start Menu Shortcut** checkbox to add a shortcut to the start menu for Syncfusion Control Panel
+- **Install Demos** — select to install Syncfusion samples, or leave unchecked if you do not want them.
+    - **Register Syncfusion Assemblies in GAC** — select to install the latest Syncfusion assemblies in the GAC, or clear if you do not want to install them.
+    - **Configure Syncfusion controls in Visual Studio** — select to add the Syncfusion controls to the Visual Studio toolbox, or clear if you do not want to configure them. You must also select **Register Syncfusion Assemblies in GAC** when this option is selected.
+    - **Configure Syncfusion Extensions in Visual Studio** — select to configure the Syncfusion Extensions in Visual Studio, or clear if you do not want to configure them.
+    - **Create Desktop Shortcut** — select to add a desktop shortcut for the Syncfusion Control Panel.
+    - **Create Start Menu Shortcut** — select to add a start menu shortcut for the Syncfusion Control Panel.
 
 
 
 
-5.	If any previous versions of the current product is installed, the Uninstall Previous Version(s) wizard will be opened. Select **Uninstall** checkbox to uninstall the previous versions and then click the Proceed button.
+5. If any previous versions of the current product are installed, the **Uninstall Previous Version(s)** wizard opens. Select the **Uninstall** check box to remove the previous versions, then click **Proceed**.
 
+   ![Uninstall previous versions wizard](images/Step-by-Step-Installation_img5.png)
 
-    ![Advanced options](images/Step-by-Step-Installation_img5.png)
-	
-	
-	N> From the 2021 Volume 1 release, Syncfusion has added the option to uninstall previous versions from 18.1 while installing the new version.
-	
-	
-	N> If any version is selected to uninstall, a confirmation screen will appear; if continue is selected, the Progress screen will display the uninstall and install progress, respectively. If none of the versions are chosen to be uninstalled, only the installation progress will be displayed.
-	
-	**Confirmation Alert**
-	
-	![Confirmation wizard](images/Step-by-Step-Installation_img8.png)
-	
-	**Uninstall Progress:**
-	
-	![Uninstalling wizard](images/Step-by-Step-Installation_img7.png)
-	
-	**Install Progress**
-	
-	![Installing wizard](images/Step-by-Step-Installation_img9.png)
+   N> From the 2021 Volume 1 release, Syncfusion has added the option to uninstall previous versions (from 18.1 onward) while installing the new version.
 
-    N> The Completed screen is displayed once the Chart SDK product is installed. If any version is selected to uninstall, The completed screen will display both install and uninstall status.
-	
-	![Completed wizard](images/Step-by-Step-Installation_img6.png)
-	
-7.  After installing, click the **Launch Control Panel** link to open the Syncfusion Control Panel.
+   N> If a version is selected for uninstall, a confirmation screen appears. After confirming, the **Progress** screen displays the uninstall and install progress. If no versions are selected, only the installation progress is displayed.
+   
+   **Uninstall Progress**
 
+   ![Uninstalling wizard](images/Step-by-Step-Installation_img7.png)
 
-8.  Click the Finish button. Your system has been installed with the Syncfusion Essential Studio Chart SDK product.
+   **Install Progress**
 
-## Installing in silent mode
+   ![Installing wizard](images/Step-by-Step-Installation_img9.png)
 
-The Syncfusion Essential Studio Chart SDK Installer supports installation and uninstallation via the command line.
+   N> The **Completed** screen is displayed once the Chart SDK product is installed. If a version was selected for uninstall, the completed screen displays both the install and uninstall status.
+
+   ![Completed wizard](images/Step-by-Step-Installation_img6.png)
+
+6. After the installation completes, click the **Launch Control Panel** link to open the Syncfusion Control Panel.
+
+7. Click **Finish**. The Syncfusion Chart SDK is now installed on your system.
+
+## Installing in Silent Mode
+
+The Syncfusion Chart SDK Installer supports installation and uninstallation via the command line.
 
 ### Command Line Installation
 
-To install through the Command Line in Silent mode, follow the steps below.
+To install through the command line in silent mode, follow the steps below.
 
-1.	Run the Syncfusion Chart SDK installer by double-clicking it. The Installer Wizard automatically opens and extracts the package.
-2.	The file syncfusionessentialchartsdk_(version).exe file will be extracted into the Temp directory.
-3.	Run %temp%. The Temp folder will be opened. The syncfusionessentialchartsdk_(version).exe file will be located in one of the folders.
-4.	Copy the extracted syncfusionessentialchartsdk_(version).exe file in local drive.
-5.	Exit the Wizard.
-6.	Run Command Prompt in administrator mode and enter the following arguments.
+1. Run the Syncfusion Chart SDK installer by double-clicking it. The installer wizard automatically opens and extracts the package.
+2. The `syncfusionessentialchartsdk_(version).exe` file is extracted into the temporary directory.
+3. Open the temporary directory by running `%temp%` in the Run dialog (`Win + R`) or in Command Prompt. The extracted `syncfusionessentialchartsdk_(version).exe` will be in one of the folders.
+4. Copy the extracted `syncfusionessentialchartsdk_(version).exe` file to a stable local drive, for example `D:\Temp\`.
+5. Exit the installer wizard.
+6. Run Command Prompt in administrator mode and enter the following arguments.
 
-   
-    **Arguments:** “installer file path\SyncfusionEssentialStudio(platform)_(version).exe” /Install silent /UNLOCKKEY:“(product unlock key)” [/log “{Log file path}”] [/InstallPath:{Location to install}] [/InstallSamples:{true/false}] [/InstallAssemblies:{true/false}] [/UninstallExistAssemblies:{true/false}] [/InstallToolbox:{true/false}]
+    **Arguments:**
 
+    ```bat
+    "<installer-file-path>\SyncfusionEssentialStudio(platform)_(version).exe" /Install silent /UNLOCKKEY:"<product-unlock-key>" [/log "<log-file-path>"] [/InstallPath:<install-location>] [/InstallSamples:{true|false}] [/InstallAssemblies:{true|false}] [/UninstallExistAssemblies:{true|false}] [/InstallToolbox:{true|false}]
+    ```
 
-    N> [..] – Arguments inside the square brackets are optional.
+    N> Arguments inside the square brackets are optional.
 
     **Example:** “D:\Temp\syncfusionessentialchartsdk_x.x.x.x.exe” /Install silent /UNLOCKKEY:“product unlock key” /log “C:\Temp\EssentialStudio_Platform.log” /InstallPath:C:\Syncfusion\x.x.x.x /InstallSamples:true /InstallAssemblies:true /UninstallExistAssemblies:true /InstallToolbox:true
 
@@ -131,20 +116,26 @@ To install through the Command Line in Silent mode, follow the steps below.
 
 ### Command Line Uninstallation
 
-Syncfusion Essential Chart SDK can be uninstalled silently using the Command Line.
+The Syncfusion Chart SDK can also be uninstalled silently using the command line.
 
-1.	Run the Syncfusion Chart SDK installer by double-clicking it. The Installer Wizard automatically opens and extracts the package.
-2.	The file syncfusionessentialchartsdk_(version).exe file will be extracted into the Temp directory.
-3.	Run %temp%. The Temp folder will be opened. The syncfusionessentialchartsdk_(version).exe file will be located in one of the folders.
-4.	Copy the extracted syncfusionessentialchartsdk_(version).exe file in local drive.
-5.	Exit the Wizard.
-6.	Run Command Prompt in administrator mode and enter the following arguments.
-   
-    **Arguments:** “Copied installer file path\syncfusionessentialchartsdk_(version).exe” /uninstall silent 
+1. Run the Syncfusion Chart SDK installer by double-clicking it. The installer wizard automatically opens and extracts the package.
+2. The `syncfusionessentialchartsdk_(version).exe` file is extracted into the temporary directory.
+3. Open the temporary directory by running `%temp%` in the Run dialog (`Win + R`) or in Command Prompt. The extracted `syncfusionessentialchartsdk_(version).exe` will be in one of the folders.
+4. Copy the extracted `syncfusionessentialchartsdk_(version).exe` file to a stable local drive, for example `D:\Temp\`.
+5. Exit the installer wizard.
+6. Run Command Prompt in administrator mode and enter the following arguments.
 
-    **Example:** “D:\Temp\syncfusionessentialchartsdk_x.x.x.x.exe" /uninstall silent
+    **Arguments:**
 
+    ```bat
+    "<copied-installer-file-path>\syncfusionessentialchartsdk_(version).exe" /uninstall silent
+    ```
 
-7.  Essential Studio for WPF is uninstalled.
-   
+    **Example:**
+
+    ```bat
+    "D:\Temp\syncfusionessentialchartsdk_x.x.x.x.exe" /uninstall silent
+    ```
+
+7. The Syncfusion Chart SDK is uninstalled.
    

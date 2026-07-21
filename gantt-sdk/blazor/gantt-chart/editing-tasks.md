@@ -63,7 +63,7 @@ Enable cell editing by setting [GanttEditSettings.AllowEditing](https://help.syn
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjhnZHMervLWnhAm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhdtcVZVWnbFVFP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> When the edit mode is set to `Auto`, double-clicking on the Tree Grid side changes the cells to editable mode. Double-clicking on the chart side opens the edit dialog for editing the task details.
 
@@ -119,7 +119,7 @@ Enable dialog editing by setting [GanttEditSettings.AllowEditing](https://help.s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLdZHsShbBvEzbb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXVxNGhjLWmKLWte?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> In dialog editing mode, the edit dialog appears when the Tree Grid or Gantt chart sides are double-clicked.
 
@@ -235,7 +235,7 @@ Customize the edit dialog by defining tabs with [GanttAddDialogFields](https://h
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BjrxDnWyVvmtPjkJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLHjGBjBMwEGlxu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Limit fields in general tab
 
@@ -313,7 +313,7 @@ Restrict fields in the dialog’s General tab using [GanttAddDialogFields](https
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLnXxCoLOTipFeG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htVxXQVZLiPdBxAA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Edit task dependencies
 
@@ -378,7 +378,7 @@ Enable dependency editing by mapping the [GanttTaskFields.Dependency](https://he
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjVdNxiSracUNPmJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNhRZmhXrCYjQxMd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Edit tasks programmatically
 
@@ -440,7 +440,7 @@ Update tasks programmatically using the [UpdateRecordByIDAsync](https://help.syn
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rXrnNHMeAXtnJEWk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDrdZcBDrMapltlw?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 - [How to add new tasks?](https://blazor.syncfusion.com/documentation/gantt-chart/adding-new-tasks)

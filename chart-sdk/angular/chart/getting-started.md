@@ -178,5 +178,3 @@ npm start
 Open the generated local URL (for example, `http://localhost:4200/`) from terminal in the browser. The application displays the chart as shown below:
 
 ![Getting started](../images/chart-getting-started.png) 
-
-N> Looking for the full Angular Charts component overview, features, pricing, and documentation? Visit the [Angular Charts](https://www.syncfusion.com/angular-components/angular-charts) page.
