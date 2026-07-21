@@ -123,8 +123,4 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Rich Text Editor is dis
 
 ## See also
 
-* [Accessibility in Rich text editor](./accessibility.md)
-* [Keyboard support in Rich text editor](./keyboard-support)
-* [Globalization in Rich text editor](./globalization)
-
-N> Looking for the full Vue Rich Text Editor component overview, features, pricing, and documentation? Visit the [Vue Rich Text Editor](https://www.syncfusion.com/vue-components/vue-wysiwyg-rich-text-editor) page.
+For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.

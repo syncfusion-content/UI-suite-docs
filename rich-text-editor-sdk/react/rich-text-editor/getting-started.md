@@ -134,5 +134,3 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> React Rich Text Editor is d
 * [Accessibility in Rich text editor](./accessibility.md)
 * [Keyboard support in Rich text editor](./keyboard-support.md)
 * [Globalization in Rich text editor](./globalization.md)
-
-N> Looking for the full React Rich Text Editor component overview, features, pricing, and documentation? Visit the [React Rich Text Editor](https://www.syncfusion.com/react-components/react-rich-text-editor) page.

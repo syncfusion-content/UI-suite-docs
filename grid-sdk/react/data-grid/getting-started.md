@@ -90,8 +90,6 @@ The DataGrid code should be added to the **src/App.tsx** file.
 npm run dev
 ```
 
-N> Looking for the full React Data Grid component overview, features, pricing, and documentation? Visit the [React Data Grid](https://www.syncfusion.com/react-components/react-data-grid) page.
-
 ## See also
 
 * [DataGrid Feature Modules](./module)

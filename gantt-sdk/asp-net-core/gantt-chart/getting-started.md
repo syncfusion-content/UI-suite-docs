@@ -231,8 +231,6 @@ dotnet run
 
 ![ASP.NET Core Gantt Control](images/gantt-control.webp)
 
-> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Gantt/ASP.NET%20Core%20Tag%20Helper%20Examples).
-
 ## See also
 
 - **[Key Elements](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/key-elements)** - Learn about UI components and interactions

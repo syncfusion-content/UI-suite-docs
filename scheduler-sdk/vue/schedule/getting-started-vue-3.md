@@ -468,8 +468,6 @@ Refer the sample [Vue 3 using Composition API Scheduler getting started](https:/
 
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
 
-N> Looking for the full Vue Scheduler component overview, features, pricing, and documentation? Visit the [Vue Scheduler](https://www.syncfusion.com/vue-components/vue-scheduler) page.
-
 ## See also
 
 * [Getting Started with Vue UI Components using Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)

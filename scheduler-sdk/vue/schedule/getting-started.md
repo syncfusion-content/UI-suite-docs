@@ -347,5 +347,3 @@ The output will display the Scheduler with the specified view configuration.
 {% previewsample "https://help.syncfusion.com/code-snippet/scheduler-sdk/vue/schedule/view-cs1" %}
 
 > Explore the live demo at [Vue Scheduler example](https://ej2.syncfusion.com/vue/demos/#/material3/schedule/overview.html) to see Scheduler view customizations in action.
-
-N> Looking for the full Vue Scheduler component overview, features, pricing, and documentation? Visit the [Vue Scheduler](https://www.syncfusion.com/vue-components/vue-scheduler) page.

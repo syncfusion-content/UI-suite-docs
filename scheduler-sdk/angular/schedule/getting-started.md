@@ -201,7 +201,6 @@ export class App {
 	public currentView: View = 'Day';
 }
 ```
-N> Looking for the full Angular Scheduler component overview, features, pricing, and documentation? Visit the [Angular Scheduler](https://www.syncfusion.com/angular-components/angular-scheduler) page.
 
 ## See also
 
