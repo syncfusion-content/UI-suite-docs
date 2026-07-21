@@ -165,7 +165,6 @@ Open the generated local URL (for example, `/localhost:5174/`) from terminal in 
 
 ![preact](./images/preact.png)
 
-N> Looking for the full React Charts component overview, features, pricing, and documentation? Visit the [React Charts](https://www.syncfusion.com/react-components/react-charts) page.
 
 ## See also
 

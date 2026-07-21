@@ -198,5 +198,3 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 The following screenshot shows the output of the Syncfusion Chart quick start application:
 
 ![Syncfusion Chart Quick Start Output](./images/chart.png)
-
-N> Looking for the full JavaScript Charts component overview, features, pricing, and documentation? Visit the [JavaScript Charts](https://www.syncfusion.com/javascript-ui-controls/js-charts) page.

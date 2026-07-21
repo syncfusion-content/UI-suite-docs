@@ -81,5 +81,3 @@ The available chart modules are:
 | [`MultiLevelLabel`](./api-multiLevelLabel)| Inject this module to use the multi level label feature.|
 
 These modules should be injected into the chart using the `Chart.Inject` method or into a standalone component that requires the feature.
-
-N> Looking for the full JavaScript Charts component overview, features, pricing, and documentation? Visit the [JavaScript Charts](https://www.syncfusion.com/javascript-ui-controls/js-charts) page.
