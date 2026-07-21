@@ -58,31 +58,31 @@ This setup includes additional dependencies required for more advanced functiona
     <title>Essential JS 2 DataGrid</title>
 
     <!-- Essential JS 2 DataGrid's dependent bootstrap5.3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-buttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-dropdowns/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-lists/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-inputs/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-calendars/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-notifications/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-splitbuttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-grids/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
 
     <!-- Essential JS 2 DataGrid's dependent scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/dist/global/ej2-navigations.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-calendars/dist/global/ej2-calendars.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-notifications/dist/global/ej2-notifications.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/dist/global/ej2-navigations.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/dist/global/ej2-calendars.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/dist/global/ej2-notifications.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -93,10 +93,10 @@ This setup includes additional dependencies required for more advanced functiona
 > To include all required Essential JS 2 styles and scripts, use the following CDN links.
 >
 > Essential JS 2 combined bootstrap5.3 theme (all components)
-> <link href="https://cdn.syncfusion.com/ej2/33.2.3/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+> <link href="https://cdn.syncfusion.com/ej2/34.1.29/bootstrap5.3.css" rel="stylesheet" type="text/css" />
 >
 > Essential JS 2 combined script (all components)
-> <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
+> <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 
 ## Adding DataGrid control
 
@@ -138,9 +138,9 @@ grid.appendTo('#Grid');
     <title>Essential JS 2 DataGrid</title>
     
     <!-- Essential JS 2 combined bootstrap5.3 theme (all components) -->
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/bootstrap5.3.css" rel="stylesheet" type="text/css" />
     <!-- Essential JS 2 combined script (all components) -->
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -161,6 +161,28 @@ grid.appendTo('#Grid');
 ## Run the application
 
 Now, run the **index.html** in web browser, it will render the Essential<sup style="font-size:70%">&reg;</sup> JS 2 DataGrid control.
+
+
+## Registering Syncfusion license
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
+
+**Step 1:** Obtain your license key from the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) or from the [licensing FAQ page](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot).
+
+**Step 2:** Register the license key in your **index.js** file before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control.
+
+```javascript
+// Register Syncfusion license key
+ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
+```
+
+> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
+
+## Troubleshooting
+
+**Grid styles are not applied:** Ensure that the required Syncfusion theme CDN link is correctly included in `index.html` file. Verify that the CDN links are accessible and loaded before the Data Grid is rendered.
+
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration#javascript-es5) section.
 
 ## See also
 
