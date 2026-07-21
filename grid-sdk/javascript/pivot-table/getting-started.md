@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Getting started in ##Platform_Name## Pivot Table control
+# Getting started in JavaScript Pivot Table control
 
 This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 Pivot Table and demonstrate the basic usage of the Pivot Table control in a JavaScript application.
 
