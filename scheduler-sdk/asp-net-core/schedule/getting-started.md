@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET Core Scheduler Control| Syncfusion
-description: Check out and learn about getting started with ##Platform_Name## Scheduler control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about getting started with ASP.NET Core Scheduler control of Syncfusion Essential JS 2 and more details.
 platform: scheduler-sdk
 control: Getting Started
 publishingplatform: scheduler-sdk
