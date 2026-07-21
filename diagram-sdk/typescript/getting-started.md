@@ -9,6 +9,8 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
+# Getting Started with TypeScript Diagram Control
+
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the diagram control using a seed application.
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript control with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/documentation/mcp-server/ai-coding-assistant/getting-started).
