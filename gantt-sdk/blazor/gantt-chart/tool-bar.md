@@ -100,6 +100,7 @@ By default, custom toolbar items are aligned to the left. However, you can chang
 {% tabs %}
 {% highlight razor tabtitle="Index.razor" %}
 
+@using Syncfusion.Blazor.Gantt
 <SfGantt @ref="Gantt" DataSource="@TaskCollection" Toolbar="Toolbaritems" Height="450px" Width="900px" AllowFiltering="true">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate"
                      Duration="Duration" Progress="Progress" ParentID="ParentID">
@@ -164,7 +165,7 @@ By default, custom toolbar items are aligned to the left. However, you can chang
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNhIWtrBAcHEYwhs?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNLRDGZGKZyBXiRT?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5"" %}
 
 > * If a toolbar item does not match the built-in items, it will be treated as a custom toolbar item.
 
@@ -235,7 +236,7 @@ The Gantt component supports using both built-in and custom toolbar items simult
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLyMDLVJigSxqLs?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLyMDLVJigSxqLs?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Enable or disable toolbar items
 

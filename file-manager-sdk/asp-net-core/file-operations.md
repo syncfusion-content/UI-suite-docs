@@ -804,7 +804,7 @@ The following table represents the request parameters of *download* operations.
             permission:null,
             _fm_created:"2019-07-22T12:15:45.081Z",
             _fm_modified:"2019-07-22T12:15:45.097Z",
-            _fm_imageUrl:"https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage?path=/1.png",
+            _fm_imageUrl:"https://physical-service.syncfusion.com/api/FileManager/GetImage?path=/1.png",
             _fm_imageAttr:
             {
                 alt:"1.png"
@@ -1107,5 +1107,3 @@ To perform the image preview support in the File Manager control, need to initia
 ![File Manager Sample](images/getimage.png)
 
 {% endif %}
-
-N> Looking for the full ASP.NET Core File Manager component overview, features, pricing, and documentation? Visit the [ASP.NET Core File Manager](https://www.syncfusion.com/aspnet-core-ui-controls/file-manager) page.

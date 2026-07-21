@@ -568,8 +568,6 @@ You can add the `SourceCode` tool in the Rich Text Editor using the `toolbarSett
 
 The Rich Text Editor provides the [showSourceCode](https://helpej2.syncfusion.com/documentation/api/rich-text-editor#showsourcecode) method, which allows you to toggle programmatically between the code view and the formatted text view. When invoked, this method switches the editor’s view to the opposite state.
 
-N> Looking for the full JavaScript Rich Text Editor component overview, features, pricing, and documentation? Visit the [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-rich-text-editor) page.
-
 ## See also
 
 * [Customizing the placeholder in Styles](./style#customizing-placeholder-text)

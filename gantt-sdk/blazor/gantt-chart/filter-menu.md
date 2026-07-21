@@ -24,6 +24,7 @@ Here is a sample code demonstrating how to render a [DropDownList](https://blazo
 
 @using Syncfusion.Blazor.Gantt
 @using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Grids
 
 <SfGantt DataSource="@TaskCollection" AllowFiltering="true" Height="450px" Width="700px">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
@@ -89,7 +90,7 @@ Here is a sample code demonstrating how to render a [DropDownList](https://blazo
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDBeCjZUpcIouXer?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDBnNGNwhYvjOhvZ?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Hide default filter icon while perform filtering through method
 

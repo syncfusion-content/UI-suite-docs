@@ -15,19 +15,6 @@ documentation: ug
 
 The rendered chart can be printed directly from the browser by calling the public method print.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/print/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/print/razor %}
@@ -36,26 +23,12 @@ The rendered chart can be printed directly from the browser by calling the publi
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Export
 
 The rendered chart can be exported to `Image`(jpeg or png) or `SVG` or `PDF` format by using the export method. Input parameters for this method are `Export` Type for `format` and `fileName` of result.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/export/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/export/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,5 +38,4 @@ The rendered chart can be exported to `Image`(jpeg or png) or `SVG` or `PDF` for
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/chart-print/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

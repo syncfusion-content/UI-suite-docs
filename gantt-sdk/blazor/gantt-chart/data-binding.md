@@ -194,7 +194,7 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 @using Syncfusion.Blazor.Gantt
 @using System.Dynamic
 
-<SfGantt DataSource="@GanttDynamicData" Height="500px" Width="100%" HighlightWeekends="true">
+<SfGantt DataSource="@GanttDynamicData" Height="500px" Width="100%" HighlightWeekends="true" ProjectStartDate="@ProjectStartDate" ProjectEndDate="@ProjectEndDate">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" Progress="Progress" Duration="Duration" ParentID="ParentID"></GanttTaskFields>
     <GanttColumns>
         <GanttColumn Field="TaskID" HeaderText="Task ID" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right" Width="100"></GanttColumn>
@@ -212,7 +212,8 @@ To handle scenarios where the data model is not defined at compile time, the Gan
     private List<DynamicDictionary> GanttDynamicData { get; set; }
     private static int ParentRecordID { get; set; }
     private static int ChildRecordID { get; set; }
-
+    private DateTime ProjectStartDate = DateTime.Today.AddDays(-5);
+    private DateTime ProjectEndDate = DateTime.Today.AddDays(160);
     protected override void OnInitialized()
     {
         this.GanttDynamicData = GetData().ToList();
@@ -226,9 +227,7 @@ To handle scenarios where the data model is not defined at compile time, the Gan
         for (var i = 1; i <= 10; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 01, 07);
-            int range = (DateTime.Today - start).Days;
-            DateTime startingDate = start.AddDays(ran.Next(range));
+            DateTime startingDate = DateTime.Today.AddDays(ran.Next(0, 15));
             dynamic ParentRecord = new DynamicDictionary();
             ParentRecord.TaskID = ++ParentRecordID;
             ParentRecord.TaskName = "Parent Task " + i;
@@ -247,9 +246,7 @@ To handle scenarios where the data model is not defined at compile time, the Gan
         for (var i = 1; i < 4; i++)
         {
             Random ran = new Random();
-            DateTime start = new DateTime(2022, 01, 07);
-            int range = (DateTime.Today - start).Days;
-            DateTime startingDate = start.AddDays(ran.Next(range));
+            DateTime startingDate = DateTime.Today.AddDays(ran.Next(0, 15));
             dynamic ChildRecord = new DynamicDictionary();
             ChildRecord.TaskID = ++ParentRecordID;
             ChildRecord.TaskName = "Child Task " + ++ChildRecordID;
@@ -286,7 +283,7 @@ To handle scenarios where the data model is not defined at compile time, the Gan
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZLIsjrfgbLmeSRq?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZLxjmZchEwXSkue?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ### ExpandoObject Binding
 

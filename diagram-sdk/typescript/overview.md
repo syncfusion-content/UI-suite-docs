@@ -21,13 +21,13 @@ The Overview control addresses these issues by providing a preview, or overall v
 
 ## Create overview
 
-To create an overview, the [`sourceID`](../api/overview/overviewModel#sourceid) property of the overview should be set with the corresponding diagram Id for the overall view.
+To create an overview, the [`sourceID`](https://ej2.syncfusion.com/documentation/api/overview/overviewModel#sourceid) property of the overview should be set with the corresponding diagram Id for the overall view.
 
-The [`width`](../api/overview/overviewModel#width) and [`height`](../api/overview/overviewModel#height) properties of the overview allow you to define its size.
+The [`width`](https://ej2.syncfusion.com/documentation/api/overview/overviewModel#width) and [`height`](https://ej2.syncfusion.com/documentation/api/overview/overviewModel#height) properties of the overview allow you to define its size.
 
 The following code illustrates how to create an overview:
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,19 +40,7 @@ The following code illustrates how to create an overview:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-create" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/overview-create/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/overview-create/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-create" %}
-{% endif %}
 
 
 ### Overview interactions
@@ -66,7 +54,7 @@ You can interact with the overview as follows:
 * Click on a position: Navigates to the clicked region.
 * Select a specific region by clicking and dragging: Navigates to the specified region.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -79,19 +67,7 @@ You can interact with the overview as follows:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/overview-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/overview-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-cs1" %}
-{% endif %}
 
 The following Gif image displays the interactions with overview.
 

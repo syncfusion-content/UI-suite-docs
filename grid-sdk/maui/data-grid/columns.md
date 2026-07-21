@@ -477,5 +477,3 @@ this.Content = dataGrid;
 {% endtabs %}
 
 <img alt="Maui DataGrid Column Chooser" src="Images\columns/maui-datagrid-columnchooser.png" width="404"/>
-
-N> Looking for the full .NET MAUI DataGrid component overview, features, pricing, and documentation? Visit the [.NET MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid) page.

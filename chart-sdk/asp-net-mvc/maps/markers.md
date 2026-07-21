@@ -19,19 +19,6 @@ To add the markers, the `DataSource` property of the `MapsMarker` has a list of 
 * latitude - The latitude point which determines the X location of the marker.
 * longitude - The longitude point which determines the Y location of the marker.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-adding/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-adding.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-adding/marker-adding.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-adding/razor %}
@@ -40,7 +27,6 @@ To add the markers, the `DataSource` property of the `MapsMarker` has a list of 
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-adding/marker-adding.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -50,19 +36,6 @@ To add the markers, the `DataSource` property of the `MapsMarker` has a list of 
 
 The Marker can be added as a template in the Maps component. The `Template` property of the `MapsMarker` is used to set the HTML element or id of an element as a template.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-label/marker-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-label/razor %}
@@ -71,7 +44,6 @@ The Marker can be added as a template in the Maps component. The `Template` prop
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-label/marker-label.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -91,19 +63,6 @@ The following properties are available in `MapsMarker` class to customize the Ma
 * `AnimationDelay` - To change the time delay in the transition for markers.
 * `AnimationDuration` - To change the time duration of animation for markers.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-customization/marker-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-customization/razor %}
@@ -112,7 +71,6 @@ The following properties are available in `MapsMarker` class to customize the Ma
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-customization/marker-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -137,19 +95,6 @@ The Maps component supports the following marker shapes. To set the shape of the
 
 To render a marker as an image in Maps, set the `Shape` property of `MapsMarker` as **Image** and specify the path of the image to `ImageUrl` property. There is another way to render a marker as an image using the `ImageUrlValuePath` property of the `MapsMarker`. Bind the field name that contains the path of the image in the data source to the `ImageUrlValuePath` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-image/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-image.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-image/marker-image.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-image/razor %}
@@ -158,7 +103,6 @@ To render a marker as an image in Maps, set the `Shape` property of `MapsMarker`
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-image/marker-image.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -168,19 +112,6 @@ To render a marker as an image in Maps, set the `Shape` property of `MapsMarker`
 
 Multiple groups of markers can be added in the Maps by adding multiple `MapsMarker` in the `MapsMarkers` and customization for the markers can be done with the `MapsMarker`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-group/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-group.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-group/marker-group.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-group/razor %}
@@ -189,7 +120,6 @@ Multiple groups of markers can be added in the Maps by adding multiple `MapsMark
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-group/marker-group.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -201,19 +131,6 @@ Multiple groups of markers can be added in the Maps by adding multiple `MapsMark
 
 Using the `ShapeValuePath` and `ColorValuePath` properties, the color and shape of the marker can be applied from the given data source. Bind the data source to the `DataSource` property of the `MapsMarker` class and set the field names that contains the shape and color values in the data source to the `ShapeValuePath` and `ColorValuePath` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/shape/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shape.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/shape/shape.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/shape/razor %}
@@ -222,7 +139,6 @@ Using the `ShapeValuePath` and `ColorValuePath` properties, the color and shape 
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/shape/shape.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Bind different colors and shapes to the marker from data source](./images/Marker/marker-DS.PNG)
@@ -230,19 +146,6 @@ Using the `ShapeValuePath` and `ColorValuePath` properties, the color and shape 
 ### Setting value path from the data source
 
 The latitude and longitude values are used to determine the location of each marker in the Maps. The `LatitudeValuePath` and `LongitudeValuePath` properties are used to specify the value path that presents in the data source of the marker. In the following example, the field name from the data source is set to the `LatitudeValuePath` and `LongitudeValuePath` properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-valuepath/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-valuepath.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-valuepath/marker-valuepath.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -252,27 +155,11 @@ The latitude and longitude values are used to determine the location of each mar
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-valuepath/marker-valuepath.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Setting value path from the data source](./images/Marker/marker-adding.PNG)
 
 ### Setting different sizes for markers individually
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-The size of the markers in a marker group can be customized using the `widthValuePath` and `heightValuePath` properties, which allow the user to change the width and height of the markers based on values from the given data source. Bind the data source to the `dataSource` property of the `e-layersettings-marker` tag, and specify the field names containing the width and height values in the data source for the `widthValuePath` and `heightValuePath` properties.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-size-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-valuepath.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-size-customization/marker-size-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 The size of the markers in a marker group can be customized using the `WidthValuePath` and `HeightValuePath` properties, which allow the user to change the width and height of the markers based on values from the given data source. Bind the data source to the `DataSource`property of the `MapsMarker`, and specify the field names containing the width and height values in the data source for the `WidthValuePath` and `HeightValuePath` properties.
 
@@ -284,52 +171,10 @@ The size of the markers in a marker group can be customized using the `WidthValu
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-size-customization/marker-size-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Maps with Different Marker Size for Individual Markers](./images/Marker/different-size-for-individual-marker.PNG)
 
 ## Repositioning the marker using drag and drop
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-The markers on the map can be dragged and dropped to change their position. To enable marker drag and drop, set the [enableDrag](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.MapsMarker.html#Syncfusion_EJ2_Maps_MapsMarker_EnableDrag) property to **true** in the [markerSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsMarker.html) property.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-draganddrop/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-draganddrop.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-draganddrop/marker-draganddrop.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![Marker with drag and drop functionality](./images/Marker/marker-drag-and-drop.gif)
-
-The data of the drag and dropped marker in the marker data source can be customized using the [markerDragStart](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_MarkerDragStart) and [markerDragEnd](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_MarkerDragEnd) events. When you change the appropriate marker data, the tooltip and legend item text of that marker are automatically updated. The following properties are available in the event argument of the marker drag events.
-
-|   Argument Name      |   Description                               |
-|----------------------| --------------------------------------------|
-|   dataIndex          |   It represents the index of the data of the dragged marker in the marker data source.                          |
-|   latitude           |   It represents the latitude coordinate point of the dragged marker.                                            |
-|   longitude          |   It represents the longitude coordinate point for the dragged marker.                                          |
-|   markerIndex        |   It represents the index of the marker setting.                                                                |
-|   layerIndex         |   It represents the index of the layer in which the marker belongs.                                             |
-|   name               |   It represents the name of the event.                                                                          |
-|   x                  |   It represents the horizontal location of the mouse pointer on the map when the drag action is performed.      |
-|   y                  |   It represents the vertical location of the mouse pointer on the map when the drag action is performed.        |
-
-The following example shows how to use marker drag events to customize the data of the drag and dropped marker in the marker data source.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-dragevents/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-dragevents.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-dragevents/marker-dragevents.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 The markers on the map can be dragged and dropped to change their position. To enable marker drag and drop, set the [EnableDrag](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsMarker.html#Syncfusion_EJ2_Maps_MapsMarker_EnableDrag) property to **true** in the [MarkerSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsMarker.html) property.
 
@@ -367,26 +212,12 @@ The following example shows how to use marker drag events to customize the data 
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-dragevents/marker-dragevents.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Marker customization using marker drag events](./images/Marker/marker-drag-events.gif)
 
 ## Marker zooming
 
 The Maps can be initially scaled to the center value based on the marker distance. This can be achieved by setting the `ShouldZoomInitially` property in `MapsZoomSettings` as **true**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-zoom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-zoom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-zoom/marker-zoom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -396,7 +227,6 @@ The Maps can be initially scaled to the center value based on the marker distanc
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-zoom/marker-zoom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -405,21 +235,6 @@ The Maps can be initially scaled to the center value based on the marker distanc
 ## Marker clustering
 
 Maps support hiding and clustering markers when they overlap. The number on a cluster indicates how many overlapping markers it contains. When zooming into any cluster location on the map, the number on the cluster decreases, and individual markers become visible. When zooming out, the overlapping markers increase, causing them to cluster again, which increases the count on the cluster.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-To enable clustering for markers within a layer, set the [AllowClustering](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.MapsMarkerClusterSettings.html) property of [MarkerClusterSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.MapsMarkerClusterSettings.html) in the `MapsLayer` to **true**. Customization of clustering can be done using the `MarkerClusterSettings` property.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-cluster/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-cluster.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-cluster/marker-cluster.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 To enable clustering for markers within a layer, set the [AllowClustering](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsMarkerClusterSettings.html#Syncfusion_EJ2_Maps_MapsMarkerClusterSettings_AllowClustering) property of [MarkerClusterSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsMarkerClusterSettings.html) in the `MapsLayer` to **true**. Customization of clustering can be done using the `MarkerClusterSettings` property.
 
@@ -431,7 +246,6 @@ To enable clustering for markers within a layer, set the [AllowClustering](https
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-cluster/marker-cluster.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -453,19 +267,6 @@ The following properties are available to customize the marker clustering in the
 * `Shape` - To customize the shape for the cluster of markers.
 * `Width` - To customize the width of the marker cluster in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cluster-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster-customization/cluster-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster-customization/razor %}
@@ -474,7 +275,6 @@ The following properties are available to customize the marker clustering in the
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster-customization/cluster-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -484,19 +284,6 @@ The following properties are available to customize the marker clustering in the
 
 The cluster is formed by grouping an identical and non-identical marker from the surrounding area. By clicking on the cluster and setting the `AllowClusterExpand` property in `MapsMarkerClusterSettings` as **true** to expand the identical markers. If zooming is performed in any of the locations of the cluster, the number on the cluster will decrease and the overlapping marker will be split into an individual marker on the map. When performing zoom out, it will increase the marker count and then cluster it again.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cluster.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster/cluster.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster/razor %}
@@ -505,29 +292,11 @@ The cluster is formed by grouping an identical and non-identical marker from the
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/cluster/cluster.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Marker cluster expand](./images/Marker/cluster-expand.PNG)
 
 ### Clustering markers within each marker group
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-Marker clustering can be enabled for each marker group in the map by using the `ClusterSettings` property within the `markerSettings` property in the `e-maps-layer`. This allows for individual customization of clusters for each marker group which group markers that are located near each other to reduce clutter and improve readability. When the `AllowClustering` property is set to **true**, the markers within each group are clustered and visually represented as separate clusters. As users zoom in, the clusters expand to reveal individual markers, enabling more detailed exploration. Clusters can also be expanded manually by setting the `AllowClusterExpand` property to **true**. The appearance of the clusters and their expansion behavior can be customized using the `ClusterSettings` property, similar to the `MarkerClusterSettings` property, as explained in the sections above.
-
-N> When the `ClusterSettings` property is enabled for an individual marker group, the `MarkerClusterSettings` property within the layers becomes ineffective.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-clustering/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-clusters.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-clustering/marker-clustering.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 Marker clustering can be enabled for each marker group in the map by using the `ClusterSettings` property within the `MarkerSettings` property in the `MapsLayer`. This allows for individual customization of clusters for each marker group which group markers that are located near each other to reduce clutter and improve readability. When the `AllowClustering` property is set to **true**, the markers within each group are clustered and visually represented as separate clusters. As users zoom in, the clusters expand to reveal individual markers, enabling more detailed exploration. Clusters can also be expanded manually by setting the `AllowClusterExpand` property to **true**. The appearance of the clusters and their expansion behavior can be customized using the `ClusterSettings` property, similar to the `MarkerClusterSettings` property, as explained in the sections above.
 
@@ -541,26 +310,12 @@ N> When the `ClusterSettings` property is enabled for an individual marker group
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-clustering/marker-clustering.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Maps with Marker Clustering for Specfic Marker Group](./images/Marker/marker-clustering-for-specfic-marker-group.PNG)
 
 ## Tooltip for marker
 
 Tooltip is used to display more information about a marker on mouse over or touch end event. This can be enabled separately for marker by setting the `Visible` property of `MapsTooltipSettings` to **true**. The `ValuePath` property in the `MapsTooltipSettings` takes the field name that presents in dataSource and displays that value as tooltip text.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-tooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-tooltip/marker-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -570,7 +325,6 @@ Tooltip is used to display more information about a marker on mouse over or touc
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/markers/marker-tooltip/marker-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

@@ -128,10 +128,10 @@ Add the Blazor FileManager component in the **~/Pages/Home.razor** file.
 {% highlight razor tabtitle="Home.razor" %}
 
 <SfFileManager TValue="FileManagerDirectoryContent">
-    <FileManagerAjaxSettings Url="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/FileOperations"
-                             UploadUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/Upload"
-                             DownloadUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/Download"
-                             GetImageUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage">
+    <FileManagerAjaxSettings Url="https://physical-service.syncfusion.com/api/FileManager/FileOperations"
+                             UploadUrl="https://physical-service.syncfusion.com/api/FileManager/Upload"
+                             DownloadUrl="https://physical-service.syncfusion.com/api/FileManager/Download"
+                             GetImageUrl="https://physical-service.syncfusion.com/api/FileManager/GetImage">
     </FileManagerAjaxSettings>
 </SfFileManager>
 
@@ -153,8 +153,6 @@ Refer [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/devi
 N> If you encounter any errors while using the Android Emulator, refer to [Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting) for guidance.
 
 ![Blazor File Manager Component](images/blazor-filemanager-component.webp)
-
-N> Looking for the full Blazor File Manager Component component overview, features, pricing, and documentation? Visit the [Blazor File Manager Component](https://www.syncfusion.com/blazor-components/blazor-file-manager) page.
 
 ## See also
 

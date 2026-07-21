@@ -12,16 +12,6 @@ documentation: ug
 
 Pointers are used to indicate values on the axis. Value of the pointer can be modified using the [value](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_Value) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/pointers/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/pointers/razor %}
@@ -30,7 +20,6 @@ Pointers are used to indicate values on the axis. Value of the pointer can be mo
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/pointers/pointers.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -40,16 +29,6 @@ Gauge supports 3 types of pointers such as `Needle`, `RangeBar` and `Marker`. Yo
 
 A needle pointer contains three parts, a needle, a cap / knob and a tail. The length of the needle can be customized by using [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_Radius) property. The length of the tail can be customized by using [length](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property. The radius of the cap can be customized by using [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) in cap object. The needle and tail length takes value either in `percentage` or `pixel`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/needle-pointers/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/needle-pointers/razor %}
@@ -58,7 +37,6 @@ A needle pointer contains three parts, a needle, a cap / knob and a tail. The le
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/needle-pointers/needle-pointers.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -68,16 +46,6 @@ A needle pointer contains three parts, a needle, a cap / knob and a tail. The le
 
 Needle color and width can be customized by using [color](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) and [pointerWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property. Cap and tails can be customized by using [cap](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) and [needleTail](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) object.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/customization/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/customization/razor %}
@@ -86,21 +54,10 @@ Needle color and width can be customized by using [color](https://help.syncfusio
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/customization/customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 The appearance of the needle pointer can be customized by using [NeedleStartWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_NeedleStartWidth) and [NeedleEndWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_NeedleEndWidth).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/needle-customization/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -110,23 +67,12 @@ The appearance of the needle pointer can be customized by using [NeedleStartWidt
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/needle-customization/needle-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## RangeBar Pointer
 
 RangeBar pointer is like ranges in an axis, that can be placed on gauge to mark the pointer value. RangeBar starts from the beginning of the gauge and ends at the pointer value.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/rangebar-pointer/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -136,23 +82,12 @@ RangeBar pointer is like ranges in an axis, that can be placed on gauge to mark 
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/rangebar-pointer/rangebar-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **Customization**
 
 RangeBar can be customized in terms of color, border and thickness by using [color](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html), [border](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) and [pointerWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/pointer-customization/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -162,23 +97,12 @@ RangeBar can be customized in terms of color, border and thickness by using [col
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/pointer-customization/pointer-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Rounded corner for range bar pointer
 
 The start and end pointers of range bar in the circular gauge are rounded to form arc gauges.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/rangebarroundedcorner/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -188,7 +112,6 @@ The start and end pointers of range bar in the circular gauge are rounded to for
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/rangebarroundedcorner/rangebar-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -203,16 +126,6 @@ Different type of marker shape can be used to mark the pointer value in axis. Yo
 
 The image can be used instead of rendering marker shape to denote the pointer value. It can be achieved by setting [markerShape](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) to Image and assigning  image path to [imageUrl](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) in pointer.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/marker-pointer/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/marker-pointer/razor %}
@@ -221,23 +134,12 @@ The image can be used instead of rendering marker shape to denote the pointer va
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/marker-pointer/marker-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **Customization**
 
 The marker can be customized in terms of color, border, width and height by using [color](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html), [border](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html), [markerWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) and [markerHeight](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property in [pointer](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/marker-customization/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -247,23 +149,10 @@ The marker can be customized in terms of color, border, width and height by usin
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/marker-customization/marker-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Dragging Pointer
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-The pointers can be dragged along the axis line by clicking and dragging them. To enable or disable the drag functionality for all pointers across all axes, use the [EnablePointerDrag](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_EnablePointerDrag) property. When this property is set to **true**, all pointers can be dynamically adjusted by dragging. Setting it to **false** keeps all pointers fixed in their specified positions.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/dragging-pointer/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 The pointers can be dragged along the axis line by clicking and dragging them. To enable or disable the drag functionality for all pointers across all axes, use the [EnablePointerDrag](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_EnablePointerDrag) property. When this property is set to **true**, all pointers can be dynamically adjusted by dragging. Setting it to **false** keeps all pointers fixed in their specified positions.
 
@@ -275,25 +164,8 @@ The pointers can be dragged along the axis line by clicking and dragging them. T
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/dragging-pointer/dragging-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Enabling drag functionality for a specific pointer
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-To enable or disable the drag functionality for specific pointers along the axis line, use the `enableDrag` property in the required pointer model.
-
-N> When the `enableDrag` property is enabled for any individual pointer model, the `enablePointerDrag` property becomes ineffective.
-
-The following example demonstrates how to enable the drag functionality for multiple pointers individually.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/gauge-pointers-drag/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 To enable or disable the drag functionality for specific pointers along the axis line, use the `EnableDrag` property in the required pointer model.
 
@@ -309,21 +181,10 @@ The following example demonstrates how to enable the drag functionality for mult
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/gauge-pointers-drag/gauge-pointers-drag.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Multiple Pointers
 
 In addition to the default pointer, you can add n number of pointer to an axis by using `pointers` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/multiple-pointer/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -333,23 +194,12 @@ In addition to the default pointer, you can add n number of pointer to an axis b
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/multiple-pointer/multiple-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Animation
 
 Pointer will get animate on loading the gauge, this can be handled by using [animation](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property in pointer. The [enable](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property in animation allows to enable or disable the animation. The [duration](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property specifies the duration of the animation in milliseconds.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/animation/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -359,7 +209,6 @@ Pointer will get animate on loading the gauge, this can be handled by using [ani
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -376,16 +225,6 @@ Using linear gradient, colors will be applied in a linear progression. The start
 
 The linear gradient can be applied to all pointer types like marker, range bar and needle.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/lineargradient/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/lineargradient/razor %}
@@ -394,7 +233,6 @@ The linear gradient can be applied to all pointer types like marker, range bar a
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/lineargradient/lineargradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -404,16 +242,6 @@ Using radial gradient, colors will be applied in circular progression. The inner
 
 The radial gradient can be applied to all pointer types like marker, range bar and needle.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/radialgradient/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/radialgradient/razor %}
@@ -422,6 +250,5 @@ The radial gradient can be applied to all pointer types like marker, range bar a
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-pointers/radialgradient/radialgradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/PointersUGSample).

@@ -15,19 +15,6 @@ The floating functionality of the control allows to effectively use the entire l
 
 The following sample demonstrates how to enable or disable the floating of panels in the DashboardLayout control using [`allowFloating`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/floating-panels/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/floating-panels/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/floating-panels/razor %}
@@ -36,7 +23,6 @@ The following sample demonstrates how to enable or disable the floating of panel
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/floating-panels/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

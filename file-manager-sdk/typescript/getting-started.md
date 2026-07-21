@@ -9,13 +9,44 @@ documentation: ug
 domainurl: https://help.syncfusion.com/file-manager-sdk
 ---
 
-# Getting started in TypeScript File Manager control
+# Getting started with TypeScript File Manager control
 
 This section explains how to create a simple File Manager and demonstrates the basic usage of the [File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) control.
 
 ## Prerequisites
 
-This guide uses Vite as the bundler and development environment. Install Node.js 24.13.0 or higher before proceeding. For detailed information about Vite's capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
+Before getting started, ensure the following tools are installed on your machine:
+
+| Tool | Version / Notes |
+|------|----------------|
+| Node.js | v14.15.0 or higher |
+| npm | Bundled with Node.js |
+| Git | Required to clone the quickstart repository |
+| Visual Studio Code | Recommended code editor |
+
+You can verify your Node.js and npm versions by running:
+
+```
+node -v
+npm -v
+```
+
+## Registering the license key
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
+
+**Steps to register the license key:**
+
+1. Sign in to the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) and copy your license key.
+2. Register the key in your **src/app/app.ts** file, before instantiating any Syncfusion component:
+
+```ts
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY_HERE');
+```
+
+> For more details on obtaining and registering a license key, refer to the [License Key Generation](https://ej2.syncfusion.com/documentation/licensing/license-key-generation) and [License Key Registration](https://ej2.syncfusion.com/documentation/licensing/license-key-registration) documentation.
 
 ## Create a TypeScript application.
 
@@ -36,25 +67,35 @@ cd my-app
 
 ## Adding File Manager package
 
-All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. To install [File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager), use the following command.
+All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. To install the File Manager package, use the following command.
 
 ```
-npm i @syncfusion/ej2-filemanager
+npm install @syncfusion/ej2-filemanager
 ```
 
 ## Adding CSS reference
 
-To install the [Tailwind3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> File Manager components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-```bash
-npm i @syncfusion/ej2-tailwind3-theme
-```
-
-In this package, the File Manager control includes an `index.css` file that automatically loads all the required dependency styles. Add the following import to the `~/src/styles.css` file.
-
-```css
+Install the **Tailwind 3** theme package using the following command:
+ 
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-tailwind3-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **~src/style.css** file:
+ 
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+ 
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/file-manager/index.css";
-```
+ 
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding File Manager control
 
@@ -68,7 +109,7 @@ import './style.css';
 
 FileManager.Inject(Toolbar, NavigationPane, DetailsView);
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 let filemanagerInstance: FileManager = new FileManager({
   ajaxSettings: {
     url: hostUrl + 'api/FileManager/FileOperations'
@@ -103,7 +144,13 @@ filemanagerInstance.appendTo('#filemanager');
 {% endhighlight %}
 {% endtabs %}
 
->Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) must be defined when initializing the File Manager. The File Manager uses the URLs specified in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in `hostUrl`.
+### Server-side setup
+
+The sample uses `https://physical-service.syncfusion.com` as the `url` endpoint in `ajaxSettings`.
+
+To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](../file-system-provider) documentation for setup details.
+
+>Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) property must be defined while initializing the File Manager. File Manager utilizes the URLs mentioned in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in the `hostUrl` variable.
 
 ## Run the application
 

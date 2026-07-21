@@ -16,8 +16,6 @@ Data Labels are used to identify the name of items or groups in the TreeMap comp
 
 Customize the labels for each item using the `labelFormat` property in the `leafItemSettings`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/format/tagHelper %}
@@ -27,18 +25,6 @@ Customize the labels for each item using the `labelFormat` property in the `leaf
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap with data label format](images/datalabel/Format.png)
@@ -46,8 +32,6 @@ Customize the labels for each item using the `labelFormat` property in the `leaf
 ## Template
 
 The template supports customizing labels of each leaf node using the `labelTemplate` property. It uses Essential<sup style="font-size:70%">&reg;</sup> JS2 template engine to render elements and the position of templates can be customize using the `templatePosition` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -58,18 +42,6 @@ The template supports customizing labels of each leaf node using the `labelTempl
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap label with template](images/datalabel/Template.png)
@@ -77,8 +49,6 @@ The template supports customizing labels of each leaf node using the `labelTempl
 ## InterSectAction
 
 When the label size in each item exceeds the actual size, use the `interSectAction` property in the `leafItemSettings` to customise the labels.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -88,18 +58,6 @@ When the label size in each item exceeds the actual size, use the `interSectActi
 {% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/intersectaction/intersectaction.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/intersectaction/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Intersectaction.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/datalabel/intersectaction/intersectaction.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

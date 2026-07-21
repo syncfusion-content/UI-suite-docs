@@ -11,11 +11,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Phase
 
- Phase are the subprocess which will split each lanes as horizontally or vertically based on the swimlane orientation. We can add multiple number of [`Phase`](../../api/diagram/phaseModel) to swimlane.
+ Phase are the subprocess which will split each lanes as horizontally or vertically based on the swimlane orientation. We can add multiple number of [`Phase`](https://ej2.syncfusion.com/documentation/api/diagram/phaseModel) to swimlane.
 
 The following code example illustrates how to create phase.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,25 +28,13 @@ The following code example illustrates how to create phase.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs12" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs12/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs12" %}
-{% endif %}
 
 ### Dynamically add/remove phase to Lane
 
- You can add the a phase at runtime by using [`addPhases`](../../api/diagram#addphases) method and remove phase by using [`removePhase`](../../api/diagram#removephase) method. The following code example illustrates how to add and remove phase at run time.
+ You can add the a phase at runtime by using [`addPhases`](https://ej2.syncfusion.com/documentation/api/diagram#addphases) method and remove phase by using [`removePhase`](https://ej2.syncfusion.com/documentation/api/diagram#removephase) method. The following code example illustrates how to add and remove phase at run time.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -59,30 +47,18 @@ The following code example illustrates how to create phase.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs13" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs13/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs13" %}
-{% endif %}
 
 ### Customizing phase
 
-* The length of region can be set by using the  [`offset`](../../api/diagram/phaseModel#offset) property of the phase.
-* Every phase region can be textually described with the [`header`](../../api/diagram/headerModel) property of the phase.
-* You can increase the height of phase by using [`phaseSize`](../../api/diagram/swimLaneModel#phaseSize) property of swimlane.
-* We can provide additional information to the phase by using the [`addInfo`](../../api/diagram/phaseModel#addInfo) property of the phase.
+* The length of region can be set by using the  [`offset`](https://ej2.syncfusion.com/documentation/api/diagram/phaseModel#offset) property of the phase.
+* Every phase region can be textually described with the [`header`](https://ej2.syncfusion.com/documentation/api/diagram/headerModel) property of the phase.
+* You can increase the height of phase by using [`phaseSize`](https://ej2.syncfusion.com/documentation/api/diagram/swimLaneModel#phaseSize) property of swimlane.
+* We can provide additional information to the phase by using the [`addInfo`](https://ej2.syncfusion.com/documentation/api/diagram/phasemodel#addinfo) property of the phase.
 
 The following code example illustrates how to customize the phase in swimlane.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -95,19 +71,7 @@ The following code example illustrates how to customize the phase in swimlane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs14" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs14/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs14" %}
-{% endif %}
 
 #### Dynamic customization of phase
 
@@ -115,7 +79,7 @@ The following code example illustrates how to customize the phase in swimlane.
 
  The following code example illustrates how to customize the phase at runtime.
 
-{% if page.publishingplatform == "typescript" %}
+
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -128,19 +92,7 @@ The following code example illustrates how to customize the phase in swimlane.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-phaseDynamic" %}
 
-{% elsif page.publishingplatform == "javascript" %}
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-phaseDynamic/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-phaseDynamic/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-phaseDynamic" %}
-{% endif %}
 
 ### Phase interaction
 
