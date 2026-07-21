@@ -2,11 +2,11 @@
 layout: post
 title: Getting started with JavaScript Schedule Control | Syncfusion
 description: Learn how to create and configure the JavaScript Scheduler control in your application, including setup, initialization, and basic customization.
-platform: scheduler-sdk
+platform: ej2-javascript
 control: Getting started 
-publishingplatform: scheduler-sdk
+publishingplatform: ##Platform_Name##
 documentation: ug
-domainurl: https://help.syncfusion.com/scheduler-sdk
+domainurl: ##DomainURL##
 ---
 
 # Getting started with JavaScript Schedule Control
@@ -14,6 +14,16 @@ domainurl: https://help.syncfusion.com/scheduler-sdk
 This guide explains how to create a [**JavaScript Scheduler**](https://www.syncfusion.com/javascript-ui-controls/js-scheduler) component and configure its core features in a JavaScript application.
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/ai-coding-assistant/overview)
+
+## Prerequisites
+
+Before getting started, ensure the following requirements are met:
+
+| Requirement | Notes |
+|-------------|-------|
+| Modern web browser | Chrome, Firefox, Edge, or Safari — latest version recommended |
+| Code editor | Visual Studio Code is recommended |
+| Local HTTP server | Required to serve the application. Opening HTML files directly via `file://` may block script loading in some browsers. VS Code Live Server extension is recommended |
 
 ## Dependencies
 
@@ -329,16 +339,16 @@ The output will display the Scheduler with the specified view configuration.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/index.js %}
+{% include code-snippet/schedule/views-model-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/index.html %}
+{% include code-snippet/schedule/views-model-cs1/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="es5-datasource.js" %}
-{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/es5-datasource.js %}
+{% include code-snippet/schedule/views-model-cs1/es5-datasource.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1" %}
+{% previewsample "page.domainurl/code-snippet/schedule/views-model-cs1" %}
 
 > You can also explore the [JavaScript Scheduler example](https://ej2.syncfusion.com/javascript/demos/#/material/schedule/overview.html) to see how toolbar buttons interact with Scheduler functionalities.
