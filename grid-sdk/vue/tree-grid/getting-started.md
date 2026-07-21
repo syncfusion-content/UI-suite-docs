@@ -1,68 +1,100 @@
 ---
 layout: post
-title: Getting started with Vue Tree Grid component | Syncfusion
-description:  Checkout and learn about Getting started with Vue Tree Grid component of Syncfusion Essential JS 2 and more details.
-control: Getting started 
+title: Vue 3 getting started with the Tree Grid component | Syncfusion
+description: Check out and learn about Vue 3 getting started with the Vue Tree Grid component of Syncfusion Essential JS 2 and more details.
+control: Vue 3 getting started
 platform: grid-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Getting Started with the Vue Tree Grid component in Vue 2
+# Getting Started with the Vue Tree Grid Component in Vue 3
 
-This article provides a step-by-step guide for setting up a Vue 2 project using [Vue-CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid component
+This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev/) project with a JavaScript environment and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
 
-To get started quickly with Vue tree grid, check out this video:
-{% youtube "https://www.youtube.com/watch?v=FEMyOHKjjao" %}
+The `Composition API`, introduced in Vue.js 3, provides an alternative way to organize and reuse component logic.
+
+The `Options API` is the traditional approach to writing Vue.js components, organizing component logic into a series of options that define the component's properties and behavior. These options include data, methods, computed properties, watchers, life cycle hooks, and more.
 
 ## Prerequisites
 
-[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+| Requirement | Version |
+|-------------|---------|
+| Vue | 3.0 or higher |
+| Node.js | 16.0.0 or above |
 
-## Setting up the Vue 2 project
+### Vue supported versions
 
-To generate a Vue 2 project using Vue-CLI, execute the [vue create](https://cli.vuejs.org#getting-started) command. Follow these steps to install Vue CLI and create a new project:
+| Vue version | Minimum Syncfusion Vue Tree Grid version |
+| ------------- | ------------------------------------------- |
+|[Vue v3.0](https://blog.vuejs.org/posts/vue-3-as-the-new-default) | 19.2.44 and above |
+
+### Browser support
+
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
+## Setup for local development
+
+Easily set up a Vue 3 application using [Vite](https://vitejs.dev), which provides a faster development environment, smaller bundle sizes, and optimized builds compared to traditional tools. For detailed steps, refer to the Vite [installation instructions](https://vitejs.dev/guide). Vite sets up your environment using JavaScript and optimizes your application for production.
+
+> **Note:** To create a Vue application using `create-vue`, refer to this [documentation](https://ej2.syncfusion.com/vue/documentation/getting-started) for more details.
+
+To create a new Vue 3 application, run one of the following commands based on your preferred language:
+
+***Vue with JavaScript***
 
 ```bash
-npm install -g @vue/cli
-vue create quickstart
+npm create vite@latest my-app -- --template vue
 ```
 
-or
+***Vue with TypeScript***
 
 ```bash
-yarn global add @vue/cli
-vue create quickstart
+npm create vite@latest my-app -- --template vue-ts
 ```
 
-When creating a new project, select the option `Default ([Vue 2] babel, eslint)` from the menu.
+During the setup process, the CLI will prompt you for a few configuration options. Select the following:
 
-![Vue 2 project](images/vue2-terminal.png)
+- **Which linter to use?** → **Default ([Vue 3] babel, eslint)**
+- **Install with npm and start now?** → **Yes**
 
-Navigate to the project directory:
+Selecting **Yes** automatically installs the project dependencies and starts the development server.
+
+After verifying that the application starts successfully, terminate the development server in the terminal and proceed to the next step.
+
+Then, navigate to the project directory:
 
 ```bash
-cd quickstart
+cd my-app
 ```
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid packages
+## Add Vue Tree Grid packages
 
 To install the Tree Grid component, use the following command:
 
 ```bash
 npm install @syncfusion/ej2-vue-treegrid --save
 ```
+
 or
 
 ```bash
 yarn add @syncfusion/ej2-vue-treegrid
 ```
 
+> Before including Syncfusion styles, make sure to remove the default styles defined in **style.css**. This helps prevent unintended style overrides and ensures that Syncfusion components render correctly.
+
 ## Adding CSS reference
-
-You can add the CSS files required for the Syncfusion Vue Tree Grid component using one of the following methods.
-
-### Option 1: Add CSS References from a theme package
 
 Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
  
@@ -79,7 +111,7 @@ npm install @syncfusion/ej2-material3-theme --save
 Then add the following CSS reference to the **src/App.vue** file:
 
 {% tabs %}
-{% highlight html tabtitle="Options API ~/src/App.vue" %}
+{% highlight html tabtitle="Composition API ~/src/App.vue" %}
 
 <style>
     @import "../node_modules/@syncfusion/ej2-material3-theme/treegrid/treegrid/index.css";
@@ -88,50 +120,156 @@ Then add the following CSS reference to the **src/App.vue** file:
 {% endhighlight %}
 {% endtabs %}
 
-### Option 2: Add CSS References from component packages
-
-After installing the treegrid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.vue** file:
-
-```css
-<style>
-    @import "../node_modules/@syncfusion/ej2-base/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-buttons/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-calendars/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-inputs/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-navigations/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-popups/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css";
-    @import '../node_modules/@syncfusion/ej2-notifications/styles/material3.css';
-    @import "../node_modules/@syncfusion/ej2-vue-treegrid/styles/material3.css";
-</style>
-```
-
 ## Adding Tree Grid component
 
 The tree grid code should be added in the **src/App.vue** file.
 
 {% tabs %}
-{% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/getting-started/default-cs4/app.vue %}
+{% highlight html tabtitle="Composition API ~/src/App.vue" %}
+{% raw %}
+<template>
+    <div id="app">
+        <!-- Assigns the dataset to the TreeGrid component -->
+        <ejs-treegrid :dataSource="data" :treeColumnIndex='1' childMapping='subtasks'>
+          <!-- Define the columns to be displayed -->
+          <e-columns>
+                <e-column field='TaskID' headerText='Task ID' textAlign='Right' width=150></e-column>
+                <e-column field='TaskName' headerText='Task Name' width=170></e-column>
+                <e-column field='StartDate' headerText='Start Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='EndDate' headerText='End Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='Duration' headerText='Duration' textAlign='Right' width=100></e-column>
+            </e-columns>
+        </ejs-treegrid>
+    </div>
+</template>
+<script setup>
+import { TreeGridComponent as EjsTreegrid, ColumnDirective as EColumn, ColumnsDirective as EColumns } from "@syncfusion/ej2-vue-treegrid";
+// Defines the data to be displayed in the TreeGrid
+const dataSource = [
+    {
+        TaskID: 1, TaskName: 'Planning', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4,
+        subtasks: [
+            { TaskID: 2, TaskName: 'Plan timeline', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+            { TaskID: 3, TaskName: 'Plan budget', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+        ],
+    },
+    {
+        TaskID: 4, TaskName: 'Design', StartDate: new Date('02/10/2025'), EndDate: new Date('02/14/2025'), Duration: 5,
+        subtasks: [
+            { TaskID: 5, TaskName: 'Software Specification', StartDate: new Date('02/10/2025'), EndDate: new Date('02/12/2025'), Duration: 3, },
+            { TaskID: 6, TaskName: 'Design Documentation', StartDate: new Date('02/13/2025'), EndDate: new Date('02/14/2025'), Duration: 2, },
+            { TaskID: 7, TaskName: 'Design complete', StartDate: new Date('02/14/2025'), EndDate: new Date('02/14/2025'), Duration: 1 },
+        ],
+    }
+];
+
+const data = dataSource;
+</script>
+<style>
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+</style>
+{% endraw %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API ~/src/App.vue" %}
+{% raw %}
+<template>
+    <div id="app">
+        <!-- Assigns the dataset to the TreeGrid component -->
+        <ejs-treegrid :dataSource="data" :treeColumnIndex='1' childMapping='subtasks'>
+          <!-- Define the columns to be displayed -->
+          <e-columns>
+                <e-column field='TaskID' headerText='Task ID' textAlign='Right' width=150></e-column>
+                <e-column field='TaskName' headerText='Task Name' width=170></e-column>
+                <e-column field='StartDate' headerText='Start Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='EndDate' headerText='End Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='Duration' headerText='Duration' textAlign='Right' width=100></e-column>
+            </e-columns>
+        </ejs-treegrid>
+    </div>
+</template>
+<script>
+import { TreeGridComponent, ColumnDirective, ColumnsDirective } from "@syncfusion/ej2-vue-treegrid";
+// Defines the data to be displayed in the TreeGrid
+const dataSource = [
+    {
+        TaskID: 1, TaskName: 'Planning', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4,
+        subtasks: [
+            { TaskID: 2, TaskName: 'Plan timeline', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+            { TaskID: 3, TaskName: 'Plan budget', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+        ],
+    },
+    {
+        TaskID: 4, TaskName: 'Design', StartDate: new Date('02/10/2025'), EndDate: new Date('02/14/2025'), Duration: 5,
+        subtasks: [
+            { TaskID: 5, TaskName: 'Software Specification', StartDate: new Date('02/10/2025'), EndDate: new Date('02/12/2025'), Duration: 3, },
+            { TaskID: 6, TaskName: 'Design Documentation', StartDate: new Date('02/13/2025'), EndDate: new Date('02/14/2025'), Duration: 2, },
+            { TaskID: 7, TaskName: 'Design complete', StartDate: new Date('02/14/2025'), EndDate: new Date('02/14/2025'), Duration: 1 },
+        ],
+    }
+];
+
+export default {
+name: "App",
+components: {
+"ejs-treegrid":TreeGridComponent,
+"e-columns":ColumnsDirective,
+"e-column":ColumnDirective,
+  },
+  data() {
+    return {
+      data: dataSource
+    };
+  },
+}
+</script>
+<style>
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+</style>
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
-        
+   
 {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
 
 ## Run the application
 
 ```bash
-npm run serve
+npm run dev
 ```
 
-## See Also
+or
+
+```bash
+yarn run dev
+```
+
+## Registering Syncfusion license
+
+Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it before rendering your Vue 3 application:
+
+{% tabs %}
+{% highlight html tabtitle="main.js" %}
+
+```javascript
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY');
+```
+
+{% endhighlight %}
+{% endtabs %}
+
+> **Note:** A valid Syncfusion license is required for production use. Without a valid license, a trial license warning message will be displayed.
+
+## Troubleshooting
+
+- **Tree Grid not rendering styles:** Ensure the theme CSS is imported in `src/App.vue` and that you removed any default Vue CLI starter styles that may override the Tree Grid styles.
+- **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
+
+N> Looking for the full Vue Tree Grid component overview, features, pricing, and documentation? Visit the [Vue Tree Grid](https://www.syncfusion.com/vue-components/vue-tree-grid) page.
+
+## See also
 
 * [Grid Feature Modules](./module)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript documentation](https://ej2.syncfusion.com/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) documentation](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> Angular documentation](https://ej2.syncfusion.com/angular/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> React documentation](https://ej2.syncfusion.com/react/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core documentation](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/getting-started-core)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC documentation](https://ej2.syncfusion.com/aspnetmvc/documentation/tree-grid/getting-started-mvc)
-* [Getting Started with Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor documentation](https://blazor.syncfusion.com/documentation/treegrid/getting-started-webapp)
+* [Getting Started with Vue UI Components using Composition API and TypeScript](../getting-started/vue-3-ts-composition.md)
+* [Getting Started with Vue UI Components using Options API and TypeScript](../getting-started/vue-3-ts-options.md)
