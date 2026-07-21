@@ -73,7 +73,7 @@ The following modules provide the basic features of the Markdown Editor.
 * `Toolbar` - Inject this module to use the Toolbar feature.
 * `Link` - Inject this module to use the link feature in Markdown Editor.
 * `Image`- Inject this module to use the image feature in Markdown Editor.
-* `MarkdownEditor` - Inject this module to use the Rich Text Editor as markdown editor.
+* `MarkdownEditor` - Inject this module to use the Rich Text Editor as Markdown Editor.
 
 These modules can be injected as `services` using Vue's `provide` function as demonstrated in the following example.
 
@@ -118,6 +118,6 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Markdown Editor is disp
 * [How to change the editor type](./editor-modes)
 * [How to render the iframe](./iframe)
 * [How to render the toolbar in inline mode](./inline-mode)
-* [Accessibility in Rich text editor](../rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](../rich-text-editor/keyboard-support)
+* [Accessibility in Markdown Editor](./accessibility)
+* [Keyboard support in Markdown Editor](./keyboard-support)
 * [Globalization in Rich text editor](../rich-text-editor/globalization)

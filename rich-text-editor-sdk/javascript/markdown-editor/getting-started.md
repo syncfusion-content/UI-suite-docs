@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with JavaScript Markdown Editor | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Markdown Editor control of Syncfusion Essential JS 2 and more details.
+description:  Check out and learn about Getting started with JavaScript Markdown Editor control of Syncfusion Essential JS 2 and more details.
 platform: rich-text-editor-sdk
 control: Getting started 
 publishingplatform: rich-text-editor-sdk
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Getting started in JavaScript Markdown Editor control
 
-The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
+The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaScript framework that can be directly used in the latest web browsers.
 
 ## Dependencies
 
@@ -21,7 +21,6 @@ The following list of dependencies are required to use the `Rich Text Editor` co
 |-- @syncfusion/ej2-richtexteditor
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-buttons
-    |-- @syncfusion/ej2-data
     |-- @syncfusion/ej2-inputs
     |-- @syncfusion/ej2-lists
     |-- @syncfusion/ej2-navigations
@@ -36,7 +35,7 @@ Refer to the following steps to set up your local environment.
 
 **Step 1:** Create an app folder `my-app` for Essential JS 2 JavaScript controls.
 
-**Step 2:** Create a `my-app/resources` folder to store local scripts and styles files.
+**Step 2:** Create a `my-app/resources` folder to store local script and style file.
 
 **Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 Markdown Editor control.
 
@@ -82,29 +81,13 @@ Add the following scripts inside the `my-app/index.html` file to include the Mar
 {% endhighlight %}
 {% endtabs %}
 
-I> Ensure that all Syncfusion Markdown Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Markdown Editor from working properly or cause runtime errors.
-Make sure the required base and dependent scripts are included along with the Markdown Editor script.
+I> Ensure that all Syncfusion Markdown Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Markdown Editor from working properly or cause runtime errors. Make sure the required base and dependent scripts are included along with the Markdown Editor script.
 
 ## Adding Markdown Editor control
 
-To get started, add the Markdown Editor control in index.js and index.html files. Markdown Editor can be initialized through div element or textarea element.
+Now, you can start adding the Markdown Editor control to the application. For getting started, add the Markdown Editor initialization code in the **index.js** file and add the target element in the **index.html** file using the following sample.
 
-Markdown Editor can be initialized on div element as shown below:
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-## Run the application
-
-Now, run the index.html in web browser, it will render the Essential JS 2 Markdown Editor control.
-
-Output will be displayed as follows.
+Markdown Editor can be initialized on a div element as shown below:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -114,18 +97,30 @@ Output will be displayed as follows.
 {% include code-snippet/rich-text-editor-sdk/javascript/markdown-editor/javascript/markdown-editor/getting-started-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/markdown-editor/getting-started-cs2" %}
 
-> You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-wysiwyg-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Markdown Editor example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/mark-down-editor/overview.html) that shows how to render the markdown editor.
+## Run the Application
+
+Now, run the `index.html` file in a web browser.
+
+The Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript Markdown Editor is displayed as shown below.
+
+![Syncfusion JavaScript Markdown Editor output](images/getting-started.png)
+
 
 ## See Also
 
-* [How to change the editor type](./editor-modes)
-* [How to render the iframe](./iframe)
-* [How to render the toolbar in inline mode](./inline-mode)
+**Documentation:**
+
+* [How to change the editor type](../rich-text-editor/editor-types/editor-modes.md)
+* [How to render the iframe](../rich-text-editor/editor-types/iframe.md)
+* [How to render the toolbar in inline mode](../rich-text-editor/editor-types/inline-editing.md)
+* [Accessibility in Rich Text Editor](./accessibility)
+* [Keyboard support in Rich Text Tditor](./keyboard-support)
+* [Globalization in Rich Text Tditor](../rich-text-editor/globalization)
+
+**Live examples:**
+
 * [How to insert Emoticons](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/insert-emoticons)
 * [Blog posting using Rich Text Editor](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/rich-text-editor/blog-posting)
-* [Accessibility in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/keyboard-support)
-* [Globalization in Rich text editor](https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/globalization)
+
+> You can refer to our [JavaScript Rich Text Editor](https://www.syncfusion.com/javascript-ui-controls/js-wysiwyg-rich-text-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Markdown Editor example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/mark-down-editor/overview.html) that shows how to render the Markdown Editor.

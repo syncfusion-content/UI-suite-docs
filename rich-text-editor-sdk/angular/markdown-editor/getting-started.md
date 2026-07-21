@@ -51,7 +51,7 @@ Then the CLI also displays an additional prompt asking whether to enable Serverâ
 
 ![Server_Side_Rendering_Setup](../rich-text-editor/images/getting-started/SSR.png)
 
-For this setup, when prompted for the Server-side rendering (SSR) option, choose the appropriate configuration.
+For this setup, when prompted for the Server-side rendering (SSR) option, choose an appropriate configuration.
 
 Then the CLI displays another prompt related to AI tooling support, as shown below:
 
@@ -96,7 +96,7 @@ I> You can also refer to the [themes section](https://ej2.syncfusion.com/angular
 
 The following modules are used to utilize the basic capabilities of the Markdown Editor:
 
-* **MarkdownEditor** - Inject this module to use the Rich Text Editor as markdown editor.
+* **MarkdownEditor** - Inject this module to use the Rich Text Editor as Markdown Editor.
 * **Image** - Inject this module to use the image feature in Markdown Editor.
 * **Link** - Inject this module to use the link feature in Markdown Editor.
 * **Toolbar** - Inject this module to use the Toolbar feature.
@@ -140,16 +140,16 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Markdown Editor is 
 
 ![Syncfusion Angular Markdown Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
 **Documentation links**
 
 * [How to change the editor type](../rich-text-editor/editor-types/editor-mode.md)
 * [How to render the iframe](../rich-text-editor/editor-types/iframe)
 * [How to render the toolbar in inline mode](../rich-text-editor/editor-types/inline-editing)
-* [Accessibility in Rich text editor](../rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](../rich-text-editor/keyboard-support)
-* [Globalization in Rich text editor](../rich-text-editor/globalization)
+* [Accessibility in Rich Text Editor](../rich-text-editor/accessibility)
+* [Keyboard support in Rich Text Editor](../rich-text-editor/keyboard-support)
+* [Globalization in Rich Text Editor](../rich-text-editor/globalization)
 
 **Live samples**
 

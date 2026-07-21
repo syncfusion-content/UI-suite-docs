@@ -154,9 +154,9 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Markdown Editor 
 * [How to change the editor type](./editor-modes)
 * [How to render the iframe](./iframe)
 * [How to render the toolbar in inline mode](./inline-mode)
-* [Accessibility in Rich text editor](../rich-text-editor/accessibility)
-* [Keyboard support in Rich text editor](../rich-text-editor/keyboard-support)
-* [Globalization in Rich text editor](../rich-text-editor/globalization)
+* [Accessibility in Markdown Editor](./accessibility)
+* [Keyboard support in Markdown Editor](./keyboard-support)
+* [Globalization in Rich Text Editor](../rich-text-editor/globalization)
 
 **Live examples:**
 

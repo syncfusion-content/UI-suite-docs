@@ -95,7 +95,7 @@ Now, you can start adding Vue Rich Text Editor component in the application. For
 
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs21" %}
 
-## Run the application
+## Run the Application
 
 Use the following command to run the application in the browser.
 
@@ -103,7 +103,7 @@ Use the following command to run the application in the browser.
 npm run dev
 ```
 
-## See also
+## See Also
 
 * [Accessibility in Rich text editor](https://ej2.syncfusion.com/vue/documentation/rich-text-editor/accessibility)
 * [Keyboard support in Rich text editor](https://ej2.syncfusion.com/vue/documentation/rich-text-editor/keyboard-support)
