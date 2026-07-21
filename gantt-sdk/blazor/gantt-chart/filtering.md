@@ -65,7 +65,7 @@ To enable filtering, set [AllowFiltering](https://help.syncfusion.com/cr/blazor/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZBRtHiSSEzYklmi?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNLnXwVNhUrulAZx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Filter hierarchy modes
 
@@ -159,7 +159,7 @@ The Blazor Gantt Chart component supports multiple filtering modes, which can be
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZLdXxioxZMwCGRI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDLRtmBtVAASXhdJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Initial filter
 
@@ -223,7 +223,7 @@ The following sample demonstrates how to apply an initial filter where **TaskNam
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXLxXdMoRNdbfNtt?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjrdXmVZhfuDSYhw?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Filter operators
 
@@ -300,7 +300,7 @@ The following sample demonstrates this behavior: when filtering the **TaskName**
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjVnDRWeHWiPAlzI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rthHtcrNrzkefheL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Filtering a specific column by method
 
@@ -369,7 +369,7 @@ The example below demonstrates how to filter the **TaskName** and **TaskID** col
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZrxXxWyHMTGrwFP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNrHjGBZhytWsHzC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Clear filtered columns
 
@@ -444,7 +444,7 @@ You can clear all the filtering conditions applied in the Gantt Chart component 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rtVdXxCSdiROzwYl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBdZQVDLyNocFnC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Enable different filter for a column
 
@@ -574,7 +574,7 @@ You can enable different filter types for individual columns in the Syncfusion<s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjVdjxCoxicEYlVg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZhxXwrZhSWZgBMK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Get filtered records
 
@@ -685,7 +685,7 @@ You can retrieve filtered records from the Gantt Chart component using the [GetF
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNhRDdCSdLNLHrei?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDrHjmLZreiSYiXl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2 %}
 
 ## Customize filtering action
 
@@ -794,4 +794,4 @@ The following `Filtering` event cancels the filter action for the **TaskName** c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDHWyHLDEqpRk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXBRtGVjVSBdtboB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

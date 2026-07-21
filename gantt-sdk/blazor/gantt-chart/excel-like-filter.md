@@ -65,7 +65,7 @@ To enable this feature, configure [GanttFilterSettings.FilterType](https://help.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjBHZRWSTzwLcgAT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjhnXGBXhrnQIqnZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > * The Excel-like filter feature supports various filter conditions, including text-based filters for task names, number-based filters for task Id and progress, and date-based filters for project timelines.
 > * The filter dialog provides additional options, such as searching for specific task values, and clearing applied project filters.
@@ -133,7 +133,7 @@ To customize this behavior, the [FilterChoiceCount](https://help.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjrnNxWeJyCNtWmg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rtBRXcLZLrGUqbly?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > The specified filter choice count value determines the display of unique items as a checkbox list in the Excel type filter dialog. This can result in a delay in rendering these checkbox items when opening the filter dialog. Therefore, it is advisable to set a restricted filter choice count value for optimal project management performance.
 
@@ -207,7 +207,7 @@ In the example below, the filter checkbox list for the **Status** column is cust
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjBxZxCIoebzAQaq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXLRXGVXhVQwfoLt?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize the Excel filter using CSS
 
@@ -283,7 +283,7 @@ To remove the context menu from the filter dialog, apply the following CSS rule 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hNVRXRMISGbxPFVr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBRZQLXLhvVgGJk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Customize the height and width of filter dialog
 
@@ -346,7 +346,7 @@ You can adjust the height and width of the filter dialog for each column using C
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtLnXdiIIlsKWfNN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rNBRDmVtLVbyPPBT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Customize filter icon for filtered columns
 
@@ -443,6 +443,6 @@ When a column is filtered, the Gantt Chart displays a default icon with predefin
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZhdZnWySPrlNOnl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNhdDGBNLBYifbYM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > The [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt-chart) feature tour page provides comprehensive feature representations. The [Blazor Gantt Chart example](https://blazor.syncfusion.com/demos/gantt-chart/overview?theme=bootstrap4) demonstrates how to present and manipulate project data effectively.

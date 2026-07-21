@@ -224,7 +224,7 @@ Add the Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Gantt Chart comp
     ```
 2. The application will start and display in your default web browser.
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BjhRZdMdVBVDRhGY?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtLnjGrtTXAxUBbg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also
 

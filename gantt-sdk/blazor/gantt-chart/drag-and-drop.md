@@ -61,7 +61,7 @@ To enable this feature, set the [AllowRowDragAndDrop](https://help.syncfusion.co
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZrxNdsoVdWZEBWj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjrdZmLtVMUGFxeT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Multiple row drag and drop
 
@@ -117,7 +117,7 @@ You can drag and drop multiple rows simultaneously in the Gantt Chart component.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjBdjnioBxCGTTPX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBRtmrjLMftdLGa?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Perform row drag and drop action programmatically
 
@@ -188,7 +188,7 @@ In the example below, the row at index 2 is moved below the row at index 6 using
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDhdNnieBHrErOgh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVHNQrXBizTmbSN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize the drag and drop action
 
@@ -263,4 +263,4 @@ In this example, the row drop action is canceled when the **TaskID** is 2.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrdNxMSLRfZkiDJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXVntcBXBioXySWL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

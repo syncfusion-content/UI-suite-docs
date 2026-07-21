@@ -74,7 +74,7 @@ This support is used to view all the tasks available in a project within availab
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrIMZicUTszPxmp?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZhRDwBjzMwPBelF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customizing zooming levels
 

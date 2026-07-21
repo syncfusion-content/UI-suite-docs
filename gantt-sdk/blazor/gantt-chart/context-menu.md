@@ -81,7 +81,7 @@ Items| Description
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBdNxWoMJThyqLh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNVHDcVDiwaHCwGS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Custom context menu items
 
@@ -151,7 +151,7 @@ You can configure custom context menu items by assigning a collection of `Contex
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLnNHioCJkZUmSV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXrdtGBjsQEautnB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Built-in and custom context menu items
 
@@ -218,7 +218,7 @@ You can configure built-in and custom context menu items at the same time in the
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXLHXnWSiejblJov?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXVHNGLjCbXKyDrH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Sub context menu items
 
@@ -311,7 +311,7 @@ The following example demonstrates how to configure a sub-context menu titled **
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZLSMDsnBVFIKLRF?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBRtmLXWPMyufhb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Disable the context menu for specific columns
 
@@ -395,7 +395,7 @@ The following sample code demonstrates how to disable the context menu for the *
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BthnXRseWeeSSVcF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rNhxXmhZiPiExACn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 
 ## Disable context menu items dynamically 
@@ -498,4 +498,4 @@ The following sample code demonstrates how to disable the context menu items for
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNBHjRCIMyGVGSPt?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDLdZwhNiPrLwlIM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
