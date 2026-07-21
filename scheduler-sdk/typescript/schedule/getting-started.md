@@ -13,6 +13,22 @@ domainurl: https://help.syncfusion.com/scheduler-sdk
 
 This section explains how to create the [**JavaScript Scheduler**](https://www.syncfusion.com/javascript-ui-controls/js-scheduler) component and configure its available functionalities in a TypeScript environment.
 
+## Prerequisites
+
+Before getting started, ensure the following tools are installed on your machine:
+
+| Tool | Version / Notes |
+|------|----------------|
+| Node.js | v14.15.0 or higher |
+| npm | Bundled with Node.js |
+
+You can verify your Node.js and npm versions by running:
+
+```
+node -v
+npm -v
+```
+
 ## Installation and configuration
 
 To build a high-performance TypeScript application with a smooth development workflow, Vite is the recommended tool. Unlike traditional setups, Vite is designed for speed and simplicity, providing near-instant startup and fast updates during development. For detailed steps, refer to the Vite [installation instructions](https://vite.dev/guide/)
@@ -37,20 +53,28 @@ npm install @syncfusion/ej2-schedule --save
 
 ## Adding CSS reference
 
-Add the Scheduler component styles as shown below in the `src/style.css` file:
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Schedule component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-```css
-@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-schedule/styles/tailwind3.css";
-```
+Install the **Tailwind 3** theme package using the following command:
+ 
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-tailwind3-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **src/styles/styles.css** file:
+ 
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+ 
+@import "../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/schedule/index.css";
+ 
+{% endhighlight %}
+{% endtabs %}
+
 >To refer `style.css` in the application then import it in the `src/main.ts` file.
 
 ## Module injection

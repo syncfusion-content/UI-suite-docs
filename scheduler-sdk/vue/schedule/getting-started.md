@@ -20,7 +20,32 @@ Check the following video to learn how to build a [Vue Scheduler](https://www.sy
 
 ## Prerequisites
 
-[System requirements for Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+| Requirement | Version |
+|-------------|---------|
+| Vue | 2.6 or higher |
+| Node.js | 16.0.0 or above |
+
+### Vue supported versions
+
+| Vue version | Minimum Syncfusion Vue Schedule version |
+| ------------- | ------------------------------------------- |
+|[Vue v2.7](https://blog.vuejs.org/posts/vue-2-7-naruto) | 20.3.47 and above |
+
+### Browser Support
+
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
+> **Note:** This guide is for Vue 2. For Vue 3, refer to the [Getting Started with Vue 3](./getting-started-vue-3.md) guide.
 
 ## Setting up the Vue 2 project
 
@@ -67,22 +92,25 @@ yarn add @syncfusion/ej2-vue-schedule
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-You can import themes for the Vue component in various ways, such as using CSS or SASS styles from npm packages, CDN, [CRG](https://crg.syncfusion.com) and [Theme Studio](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio). Refer to [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme) to know more about built-in themes and different ways to refer to themes in a Vue project.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Schedule component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). The following example uses the **Tailwind 3** theme. For other available themes (Bootstrap, Material, Fluent, etc.), refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
 
-In this article, the `material3` theme is applied using CSS styles, which are available in installed packages. The necessary `material3` CSS styles for the Schedule component and its dependents were imported into the `<style>` section of **src/App.vue** file.
+Install the **Material 3** theme package using the following command:
 
 {% tabs %}
-{% highlight html tabtitle="~/src/App.vue" %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-material3-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **src/App.vue** file:
+
+{% tabs %}
+{% highlight html tabtitle="Options API ~/src/App.vue" %}
 
 <style>
-@import '/node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-calendars/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-popups/styles/material3.css';
-@import '/node_modules/@syncfusion/ej2-vue-schedule/styles/material3.css';
+    @import '../node_modules/@syncfusion/ej2-material3-theme/styles/schedule/index.css';
 </style>
 
 {% endhighlight %}
@@ -90,48 +118,47 @@ In this article, the `material3` theme is applied using CSS styles, which are av
 
 ## Add Vue component
 
-Follow the below steps to add the Vue Schedule component using:
+Follow the below steps to add the Vue Schedule component:
 
-1\. First, import and register the Schedule component in the `script` section of the **src/App.vue** file.
-
-{% tabs %}
-{% highlight html tabtitle="~/src/App.vue" %}
-
-<script>
-import { ScheduleComponent } from '@syncfusion/ej2-vue-schedule';
-</script>
-
-{% endhighlight %}
-{% endtabs %}
-
-2\. In the `template` section, define the Schedule component property.
+Import and register the Schedule component in the `script` section, and define the component in the `template` section of the **src/App.vue** file.
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
 
 <template>
   <div id='app'>
-    <ejs-schedule ></ejs-schedule>
+    <ejs-schedule></ejs-schedule>
   </div>
 </template>
+<script>
+import { ScheduleComponent } from '@syncfusion/ej2-vue-schedule';
+
+export default {
+  components: {
+    'ejs-schedule': ScheduleComponent
+  }
+}
+</script>
 
 {% endhighlight %}
 {% endtabs %}
 
 ## Module injection
 
-The crucial step on creating a Schedule with specific views, is to inject the required modules. The modules that are available with common Schedule basic functionality are as follows.
+The crucial step in creating a Schedule with specific views is to inject the required modules. Without module injection, only the default views will be available. The modules that are available with common Schedule basic functionality are as follows:
 
 * **Day** - Inject this module for displaying day view.
 * **Week** - Inject this module for displaying week view.
 * **WorkWeek** - Inject this module for displaying work week view.
 * **Month** - Inject this module for displaying month view.
-* **Agenda** - Inject this module for  displaying agenda view.
+* **Agenda** - Inject this module for displaying agenda view.
 * **MonthAgenda** - Inject this module for displaying month agenda view.
-* **TimelineViews** - Inject this module for displaying timeline day, timeline week, timeline work week view.
+* **Year** - Inject this module for displaying year view.
+* **TimelineViews** - Inject this module for displaying timeline day, timeline week, and timeline work week views.
 * **TimelineMonth** - Inject this module for displaying timeline month view.
+* **TimelineYear** - Inject this module for displaying timeline year view.
 
-These modules should be injected into the Schedule using the `provide` method within the `app.vue` file as shown below. On doing so, only the injected views will be loaded and displayed on the Schedule.
+These modules should be injected into the Schedule using the `provide` method within the `app.vue` file as shown below. Once injected, only the injected views will be loaded and displayed on the Schedule.
 
 `[src/app/app.vue]`
 
@@ -173,7 +200,11 @@ The output will display the empty Scheduler.
 
 ## Populating Appointments
 
-To populate the empty Scheduler with appointments, define either the local JSON data or remote data through the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/schedule/eventSettings#datasource) property available within the [`eventSettings`](https://ej2.syncfusion.com/vue/documentation/api/schedule/eventSettings) option. To define any appointments, start and end time fields are mandatory. In the following example, you can see the appointment defined with default fields such as Id, Subject, StartTime and EndTime.
+To populate the empty Scheduler with appointments, define either local JSON data or remote data through the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/schedule/eventSettings#datasource) property available within the [`eventSettings`](https://ej2.syncfusion.com/vue/documentation/api/schedule/eventSettings) option. To define any appointments, start and end time fields are mandatory.
+
+**Using Default Field Names:**
+
+In the following example, you can see the appointment defined with default fields such as Id, Subject, StartTime, and EndTime:
 
 ```html
 <template>
@@ -192,10 +223,10 @@ To populate the empty Scheduler with appointments, define either the local JSON 
           selectedDate: new Date(2018, 1, 15),
           eventSettings: {
             dataSource: [{
-              Id: 1,
-              Subject: 'Meeting',
-              StartTime: new Date(2018, 1, 15, 10, 0),
-              EndTime: new Date(2018, 1, 15, 12, 30)
+              Id: 1,
+              Subject: 'Meeting',
+              StartTime: new Date(2018, 1, 15, 10, 0),
+              EndTime: new Date(2018, 1, 15, 12, 30)
             }]
           }
         }
@@ -207,7 +238,9 @@ To populate the empty Scheduler with appointments, define either the local JSON 
 </script>
 ```
 
-You can also provide different names to these default fields, for which the custom names of those fields must be mapped appropriately within fields property as shown below.
+**Using Custom Field Names:**
+
+If your data uses different field names, map the custom field names using the `fields` property as shown below:
 
 ```html
 <template>
@@ -219,11 +252,11 @@ You can also provide different names to these default fields, for which the cust
   import { ScheduleComponent, Day, Week, WorkWeek, Month, Agenda } from '@syncfusion/ej2-vue-schedule';
   
   let data = [{
-    Id: 2,
-    EventName: 'Meeting',
-    StartTime: new Date(2018, 1, 15, 10, 0),
-    EndTime: new Date(2018, 1, 15, 12, 30),
-    IsAllDay: false
+    Id: 2,
+    EventName: 'Meeting',
+    StartTime: new Date(2018, 1, 15, 10, 0),
+    EndTime: new Date(2018, 1, 15, 12, 30),
+    IsAllDay: false
   }];
 
   export default {
@@ -256,7 +289,7 @@ The other fields available in Scheduler can be referred from [here](./appointmen
 
 ## Setting Date
 
-Scheduler usually displays the system date as its current date. To change the current date of Scheduler with specific date, define the [`selectedDate](../api/schedule#selecteddate) property.
+By default, the Scheduler displays the system date as its current date. To change the Scheduler's current date to a specific date, set the [`selectedDate`](../api/schedule#selecteddate) property to a JavaScript Date object.
 
 `[src/app/app.vue]`
 
@@ -287,7 +320,7 @@ Scheduler usually displays the system date as its current date. To change the cu
 
 ## Setting View
 
-Scheduler displays `week` view by default. To change the current view, define the applicable view name to the [`currentView`](../api/schedule#currentview) property. The applicable view names are,
+Scheduler displays `week` view by default. To change the current view, define the applicable view name to the [`currentView`](../api/schedule#currentview) property. The applicable view names are:
 
 * Day
 * Week
@@ -330,8 +363,7 @@ Scheduler displays `week` view by default. To change the current view, define th
 
 ## Individual View Customization
 
-Each individual Scheduler views can be customized with its own options such as setting different start and end hour on Week and Work Week views, whereas hiding the weekend days on Month view alone.
-This can be achieved by defining views property to accept the array of object type, where each object depicts the individual view customization.
+Each individual Scheduler view can be customized with its own options, such as setting different start and end hours on Week and Work Week views, or hiding weekend days on Month view alone. This is achieved by defining the `views` property as an array of objects, where each object represents an individual view with its customization options.
 
 The output will display the Scheduler with the specified view configuration.
 
