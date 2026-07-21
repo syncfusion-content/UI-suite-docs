@@ -88,8 +88,6 @@ N> While a Syncfusion® license is not required for local development, you must 
 
 N> For the latest tested version of the Diagram package, refer to the [`Syncfusion.EJ2.AspNet.Core` package page](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/).
 
-## Step 3: Register the Syncfusion® Tag Helper
-
 ## Add ASP.NET Core tag helpers
 
 After the packages are installed, open the **~/Pages/_ViewImports.cshtml** file and import the `Syncfusion.AspNetCore.Diagram` and `Syncfusion.AspNetCore.Base` tag helpers.
@@ -315,7 +313,7 @@ dotnet run
 
 ![ASP.NET Core Diagram Control](./images/core-diagram-control.webp)
   
- Open the generated local URL (for example, `http://localhost:5000`) in the browser. The application displays the flowchart with four connected nodes.
+Open the generated local URL (for example, `http://localhost:5000`) in the browser. The application displays the flowchart with four connected nodes.
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Diagram/ASP.NET%20Core%20Tag%20Helper%20Examples).
 

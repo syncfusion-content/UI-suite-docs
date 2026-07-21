@@ -18,18 +18,17 @@ This section explains how to create a React application from scratch and build a
 
 | Requirement | Version |
 |-------------|---------|
-| React | 15.5.4 or higher |
-| Node.js | 14.0.0 or above |
-| Yarn (optional) | 0.25 or above |
+| React | 16 or higher |
+| Node.js | 18.0.0 or above |
 
 ### React supported versions
 
-| React version | Minimum Syncfusion React Diagram version |
+| React version | Minimum Syncfusion® React Diagram version |
 | ------------- | ------------------------------------------- |
 | [React v19](https://react.dev/blog/2024/12/05/react-19) | 29.1.33 and above |
 | [React v18](https://reactjs.org/blog/2022/03/29/react-v18.html) | 20.2.36 and above |
 | [React v17](https://reactjs.org/blog/2020/10/20/react-v17.html) | 18.3.50 and above |
-| [React v16](https://reactjs.org/blog/2017/09/26/react-v16.0.html) | 16.2.45 and above | |
+| [React v16](https://reactjs.org/blog/2017/09/26/react-v16.0.html) | 16.2.45 and above |
 
 ### Browser Support
 
@@ -38,13 +37,10 @@ This section explains how to create a React application from scratch and build a
 | Chrome | Latest |
 | Firefox | Latest |
 | Opera | Latest |
-| Edge | 13+ |
-| Internet Explorer (IE) | 11+ |
+| Edge | 79+ (Chromium) |
 | Safari | 9+ |
 | iOS Safari | 9+ |
 | Android Browser / Chrome for Android | 4.4+ |
-| Windows Mobile | IE 11+ |
-
 
 ## Before You Begin
 
@@ -65,19 +61,19 @@ Use [Vite](https://vite.dev) to create and manage React applications. Vite provi
 
 Create a new React application using the following command:
 
-```bash
-npm create vite@latest my-diagram-app --template react-ts
+```
+npm create vite@latest my-diagram-app -- --template react-ts
 ```
 
-If Vite prompts you to install dependencies and start the project immediately, choose **No**. The Syncfusion package is installed in a later step.
+If Vite prompts to install dependencies and start the project immediately, choose **No**. The base dependencies and the Syncfusion® package are installed in the next steps.
+
+N> To use JavaScript instead of TypeScript, create the application using `npm create vite@latest my-diagram-app -- --template react`. The root component file will then be **src/App.jsx** instead of **src/App.tsx**.
 
 Navigate to the project folder:
 
-```bash
+```
 cd my-diagram-app
 ```
-
-N> If you prefer JavaScript instead of TypeScript, create the application using `npm create vite@latest my-diagram-app --template react`. The root component file will then be **src/App.jsx** instead of **src/App.tsx**.
 
 ## Step 2: Install the Syncfusion® React Diagram package
 
@@ -85,25 +81,27 @@ All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https:
 
 Install the React Diagram package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-react-diagrams
 ```
 
 N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
 
-N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/react/documentation/licensing/overview).
+N> A Syncfusion® license key is not required for local development. However, a valid Syncfusion® license key must be registered before deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/react/documentation/licensing/overview).
 
 ## Step 3: Add the required styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components.
 
-```bash
+Install the Tailwind 3 theme package using the following command:
+
+```
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Add the following import to the **src/App.css** file:
 
-```css
+```
 @import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 ```
 
@@ -113,13 +111,15 @@ N> Syncfusion® provides multiple built-in themes. If the application uses a dif
 
 N> Ensure that **App.css** is imported in the **src/App.tsx** file so that the theme styles are applied to the Diagram component.
 
+N> The `@import` path depth (`../node_modules/...`) assumes `App.css` lives in `src/`. If `App.css` is at the project root, use `./node_modules/...` instead.
+
 ## Step 4: Add the Diagram component
 
 Import `DiagramComponent` from `@syncfusion/ej2-react-diagrams` and add it to the React component.
 
 Update the **src/App.tsx** file as follows:
 
-```tsx
+```
 import { DiagramComponent } from '@syncfusion/ej2-react-diagrams';
 import './App.css';
 
@@ -148,7 +148,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Replace the entire contents of **src/App.tsx** with the following code:
 
-```tsx
+```
 import {
   DiagramComponent,
   type ConnectorModel,
@@ -287,12 +287,13 @@ In this example:
 
 Run the application using the following command:
 
-```bash
+```
 npm run dev
 ```
+
 Open the generated local URL (by default, `http://localhost:5173`) in the browser. The application displays the diagram as shown below:
 
- ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
+![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
 N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
 
