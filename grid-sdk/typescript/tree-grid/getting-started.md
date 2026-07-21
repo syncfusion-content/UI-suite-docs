@@ -47,7 +47,7 @@ To get started with application, ensure the following software to be installed i
 Clone the Essential<sup style="font-size:70%">&reg;</sup> JS 2 quickstart application project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) using the following command line scripts.
 
 ```
-git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack-
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack
 cd ej2-quickstart-webpack
 ```
 
