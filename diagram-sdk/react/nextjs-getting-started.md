@@ -303,6 +303,6 @@ N> To create a production build, run `npm run build` (or `yarn build`). The gene
 
 To explore the Diagram component in more depth, refer to the following topics:
 
-* [Nodes](https://ej2.syncfusion.com/react/documentation/diagram/nodes)
-* [Connectors](https://ej2.syncfusion.com/react/documentation/diagram/connectors)
-* [Annotations](https://ej2.syncfusion.com/react/documentation/diagram/labels)
+* [Nodes](https://help.syncfusion.com/diagram-sdk/react/nodes)
+* [Connectors](https://help.syncfusion.com/diagram-sdk/react/connectors)
+* [Annotations](https://help.syncfusion.com/diagram-sdk/react/labels)
