@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with Blazor Scheduler in Blazor MAUI App | Syncfusion
-description: Checkout and learn about the documentation for getting started with Blazor Scheduler Component in Blazor MAUI App.
+description: Check out and learn about the documentation for getting started with Blazor Scheduler Component in Blazor MAUI App.
 platform: scheduler-sdk
 control: Scheduler
 documentation: ug
