@@ -373,7 +373,7 @@ The following example enables timeline virtualization for a wide timeline:
 
 @using Syncfusion.Blazor.Gantt
 
-<SfGantt @ref="Gantt" Width="480px" Height="350px" ID="Gantt" DataSource="@TaskCollection"  Toolbar="@(new  List<string>() { "ZoomIn", "ZoomOut", "ZoomToFit"})" GridLines="Syncfusion.Blazor.Gantt.GridLine.Both" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd"
+<SfGantt @ref="Gantt" Width="1000px" Height="450px" ID="Gantt" DataSource="@TaskCollection"  Toolbar="@(new  List<string>() { "ZoomIn", "ZoomOut", "ZoomToFit"})" GridLines="Syncfusion.Blazor.Gantt.GridLine.Both" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd"
         EnableTimelineVirtualization="true" EnableColumnVirtualization="true">
     <GanttTaskFields Id="ProjectId" Name="ProjectName" StartDate="ProjectStartDate" EndDate="ProjectEndDate"     Duration="ProjectDuration" Progress="ProjectProgress"  Dependency="Predecessor" ParentID="ParentID">
     </GanttTaskFields>
@@ -497,7 +497,7 @@ The following example enables timeline virtualization for a wide timeline:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZLSZYsmJzvPFSdf?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNBHXmNcKwiVYaUL?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
 ## Limitations for virtualization
 
