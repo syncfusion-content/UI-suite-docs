@@ -134,7 +134,7 @@ editor.appendTo('#editor');
 {% endhighlight %}
 {% endtabs %}
           
-## Run the application
+## Run the Application
 
 Use the following command to run the application in the browser.
 
@@ -146,7 +146,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Rich Text Editor
 
 ![Syncfusion TypeScript Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
 **Documentation:**
 

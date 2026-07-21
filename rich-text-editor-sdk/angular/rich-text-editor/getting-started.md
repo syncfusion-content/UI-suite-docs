@@ -122,8 +122,6 @@ Modify the template in the `src/app/app.ts` file to render the Rich Text Editor 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Run the Application
 
 Use the following command to run the application in the browser.
@@ -136,7 +134,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Rich Text Editor is
 
 ![Syncfusion Angular Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
 
 **Documentation links**
 

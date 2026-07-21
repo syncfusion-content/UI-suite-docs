@@ -109,7 +109,7 @@ Now, you can start adding the Vue Rich Text Editor component in the application.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs21" %}
 
-## Run the application
+## Run the Application
 
 Use the following command to run the application in the browser.
 
@@ -121,6 +121,10 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Rich Text Editor is dis
 
 ![Syncfusion Vue Rich Text Editor output](images/getting-started.png)
 
-## See also
+## See Also
+
+* [Accessibility in Rich text editor](./accessibility.md)
+* [Keyboard support in Rich text editor](./keyboard-support)
+* [Globalization in Rich text editor](./globalization)
 
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
