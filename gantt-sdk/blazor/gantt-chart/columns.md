@@ -83,7 +83,7 @@ You can define columns using the [GanttColumns](https://help.syncfusion.com/cr/b
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhxXxWpyYhnqSEo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtVdZmCGTENeXlHG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Column types
 
@@ -170,7 +170,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Gantt component lets
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLRjdsTyuTrylpp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLRjdsTyuTrylpp?appbar=false&editor=true&result=true&errorlist=false&theme=fluent2" %}
 
 ## Column formatting
 
@@ -231,7 +231,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Gantt Chart component for B
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rtBxDnMTIEFlCWDJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjBdXGimTaWPDDSs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 >* The Gantt uses the `Internalization` library to format values based on the specified format and culture.
 >* By default, the number and date values are formatted in **en-US** locale. You can localize the currency and date to a different locale as explained [here](https://www.syncfusion.com/blazor-components/blazor-gantt-chart).
@@ -308,7 +308,7 @@ The following example code demonstrates the formatting of data for the **TaskID*
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZBxXRspokkvVqGo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNLnZwsGzELppUHH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Date formatting
 
@@ -378,7 +378,7 @@ Format | Formatted value
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDhxDxsJxXLWcTii?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VDVRNcMwfuVvOscr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## AutoFit columns
 
@@ -450,7 +450,7 @@ The Syncfusion<sup style="font-size:70%">®</sup> Gantt component for Blazor sup
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjVHNnMoWhmSlfXI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZVnXcMcTkAKgaxa?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Resizing a column to fit its content using method
 
@@ -531,7 +531,7 @@ You can resize a column in Gantt Chart to fit its content using the [AutoFitColu
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDBntnCSCUtNsRxM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrxXGWQzYUYBZir?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Change tree column
 
@@ -583,7 +583,7 @@ The Syncfusion<sup style="font-size:70%">®</sup> Blazor Gantt Chart component d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDBxNRCIigrZolBz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjBntQMQfEfUoBDe?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Show or hide columns
 
@@ -681,7 +681,7 @@ The following example demonstrates hiding and showing the **Duration** column us
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXrRjnCysUJRgosu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNrdtmiwTkeYplGs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 **Based on field:**
 
@@ -765,7 +765,7 @@ The following example demonstrates hiding and showing the **TaskName** and **Dur
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htBRZnCIWAekIlkZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNVnNGswoXLZrmWV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Controlling Gantt actions
 
@@ -840,7 +840,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Gantt Chart componen
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNhdNxsoCUbQCdBB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZhRtwicoNByltaj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Responsive columns
 
@@ -902,6 +902,6 @@ The following example demonstrates a Gantt chart where the **Job Name** column i
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BZrHjRWeiTZDEQue?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZVnZcMGyXKNUpMu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 

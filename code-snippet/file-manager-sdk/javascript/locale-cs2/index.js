@@ -98,7 +98,7 @@ ej.base.L10n.load({
     }
 })
 
-var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+var hostUrl = 'https://physical-service.syncfusion.com/';
 // inject feature modules of the File Manager
 ej.filemanager.FileManager.Inject(ej.filemanager.DetailsView, ej.filemanager.Toolbar, ej.filemanager.NavigationPane);
 // initialize File Manager control

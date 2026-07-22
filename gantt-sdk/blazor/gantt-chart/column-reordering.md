@@ -61,7 +61,7 @@ To enable column reordering, set the [AllowReordering](https://help.syncfusion.c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXLRXHWfKhXdBeEt?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDVnDmCwzGFmhnlb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > You can disable the reordering of a particular column by setting the [GanttColumn.AllowReordering](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttColumn.html#Syncfusion_Blazor_Gantt_GanttColumn_AllowReordering) property to **false**.
 
@@ -152,4 +152,4 @@ The following demonstrates how to reorder columns by placing **Progress** before
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtLxZnspUhdKmgKj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNLHZGimzQaDVWJX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

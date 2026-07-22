@@ -82,7 +82,7 @@ Set the exported PDF file name using the [FileName](https://help.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hNrnNxseicNGrNSk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDrRZQVXWajslewx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## How to change the page orientation
 
@@ -156,7 +156,7 @@ The following code snippet demonstrates how to set the page orientation to `Land
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDLnNRsSMmBLoknw?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNBHZmBXsYNxTFAp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize page size
 
@@ -242,7 +242,7 @@ The supported page sizes are:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDLnNdiIiQgShlbx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDVxjQLXikiVEFTe?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Export current view records
 
@@ -366,7 +366,7 @@ The following code demonstrates how to use the `PdfExporting` event to export th
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rDBnNxVxJbGkxtkF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhnZcLDMYskOirW?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## How to export Gantt chart with custom timeline range
 
@@ -487,7 +487,7 @@ The following code demonstrates how to use the `PdfExporting` event to export a 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hNrxXHLdpvcLjKbs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZrHZcVtsaBzCoJI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Export hidden columns
 
@@ -566,7 +566,7 @@ PDF export provides an option to export hidden columns of Gantt by defining the 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hDLHtniyWcYVmKxR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNLRDmhtCYrwQBnA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize column width in exported PDF document
 
@@ -650,7 +650,7 @@ To customize column widths in the exported PDF document, set the [Width](https:/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLnXdWSibtIfOYY?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNLHjQBNWaAWgqWE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## How to export Gantt chart with specific columns
 
@@ -738,7 +738,7 @@ The following code snippet demonstrates how to configure the `Columns` property 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBnjdiSCPWozvYU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjhRjQhXMYUmEuhF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Through event
 
@@ -826,7 +826,7 @@ The following code demonstrates how to use the `PdfExporting` event to export sp
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXrHNHseMbgXjdUA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZrRNGVjMapswqZI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customizing taskbar appearance
 
@@ -928,7 +928,7 @@ The following code snippet demonstrates how to customize taskbar colors in the e
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VDLnZdWyilTQbKki?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNrnZQBDiEJywuwb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Through event 
 
@@ -1021,7 +1021,7 @@ The following code snippet demonstrates how to use the `PdfQueryTaskbarInfo` eve
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDrxDHCoiOHAyvTl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjrRDGhtMOJaexRh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Exporting with templates
 
@@ -1127,7 +1127,7 @@ The following code snippet demonstrates how to use the `PdfQueryCellInfo` event 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZVxNniorNBxonFf?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjrHtGLXsESgEqaD?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Exporting with column header template
 
@@ -1153,7 +1153,7 @@ In the following sample, header template with images and text are exported to PD
         <GanttColumn Field="TaskName" HeaderText="Job Name" Width="250">
             <HeaderTemplate>
                 <div>
-                    <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.webp" width="20" height="20" style="margin-right: 8px">
+                    <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" width="20" height="20" style="margin-right: 8px">
                     @((context as GridColumn)?.HeaderText)
                 </div>
             </HeaderTemplate>
@@ -1161,7 +1161,7 @@ In the following sample, header template with images and text are exported to PD
         <GanttColumn Field="StartDate" HeaderText="Start Date" Width="250">
             <HeaderTemplate>
                 <div>
-                    <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.webp" width="20" height="20" style="margin-right: 8px">
+                    <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" width="20" height="20" style="margin-right: 8px">
                     @((context as GridColumn)?.HeaderText)
                 </div>
             </HeaderTemplate>
@@ -1182,7 +1182,7 @@ In the following sample, header template with images and text are exported to PD
     protected override async Task OnInitializedAsync()
     {
         TaskCollection = GetTaskCollection();
-        var imageBytes = await Http.GetByteArrayAsync("https://cdn.syncfusion.com/content/images/landing-page/yes.webp");
+        var imageBytes = await Http.GetByteArrayAsync("https://cdn.syncfusion.com/content/images/landing-page/yes.png");
         using var imageStream = new MemoryStream(imageBytes);
         image = PdfImage.FromStream(imageStream);
     }
@@ -1233,7 +1233,7 @@ In the following sample, header template with images and text are exported to PD
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjBHNRsohDfFCtRE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtLdXmBXiuEtbbdR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Exporting with task label template
 
@@ -1272,7 +1272,7 @@ In the following sample, task label template with images and text are exported t
                 if ((context as TaskData).TaskId == 5)
                 {
                     <div class="e-right-label-inner-div" style="height:22px;margin-top:7px;">
-                        <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.webp" />
+                        <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" />
                     </div>
                 }
                 else
@@ -1336,7 +1336,7 @@ In the following sample, task label template with images and text are exported t
         TaskCollection = GetTaskCollection();
 
         using var httpClient = new HttpClient();
-        var imageBytes = await httpClient.GetByteArrayAsync("https://cdn.syncfusion.com/content/images/landing-page/yes.webp");
+        var imageBytes = await httpClient.GetByteArrayAsync("https://cdn.syncfusion.com/content/images/landing-page/yes.png");
         var imageStream = new MemoryStream(imageBytes);
         image = PdfImage.FromStream(imageStream);
     }
@@ -1414,7 +1414,7 @@ In the following sample, task label template with images and text are exported t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjBdXRMIVtGnLvaB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rtBdZQhjrjiDBlso?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Best practices for exporting PDF with templates
 
