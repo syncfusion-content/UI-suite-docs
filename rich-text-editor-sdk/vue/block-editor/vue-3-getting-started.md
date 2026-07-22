@@ -89,9 +89,7 @@ Now, add the Vue Block Editor component to the **src/App.vue** file using the fo
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
 <template>
-    <div>
-        <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
-    </div>
+    <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
 </template>
 
 <script>
