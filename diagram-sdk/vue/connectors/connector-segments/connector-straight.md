@@ -15,10 +15,10 @@ The following code example illustrates how to create a default straight segment.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsSegmentsPoints-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsSegmentsPoints-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsSegmentsPoints-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsSegmentsPoints-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -30,10 +30,10 @@ The following code example illustrates how to define the end point of a straight
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOrthoSegments-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegments-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOrthoSegments-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegments-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ The following example shows how to add segments at runtime for the straight conn
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/StraightSegEdit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/StraightSegEdit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/StraightSegEdit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/StraightSegEdit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

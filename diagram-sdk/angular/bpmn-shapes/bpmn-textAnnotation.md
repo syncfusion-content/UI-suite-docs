@@ -28,11 +28,11 @@ The [`offsetX`](https://helpej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -44,11 +44,11 @@ Text annotation nodes can be rendered in the symbol palette alongside other BPMN
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -80,11 +80,11 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/text-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/text-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

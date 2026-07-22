@@ -18,11 +18,11 @@ The following code example shows how to use the getNodeDefaults function to appl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,11 +40,11 @@ The following code illustrates how to customize the appearance of nodes using st
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -69,11 +69,11 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -87,11 +87,11 @@ A radial gradient's cx, cy, fx, fy properties are used to define the position (r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -125,11 +125,11 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -143,11 +143,11 @@ The following code illustrates how to apply shadow effects to nodes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -161,11 +161,11 @@ The following code example illustrates how to customize shadow properties:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -207,11 +207,11 @@ The [`zIndex`](https://ej2.syncfusion.com/angular/documentation/api/diagram/node
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs8/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs8/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -235,11 +235,11 @@ The following code illustrates how to change the pivot value:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs9/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-customization-cs9/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-customization-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

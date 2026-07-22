@@ -16,10 +16,10 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/vue/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezier-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezier-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bezierse
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierPoints-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierPoints-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -61,10 +61,10 @@ The [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziers
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierVector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierVector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierVector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierVector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -80,10 +80,10 @@ By default, when there are no segments defined for a bezier connector, the bezie
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidOverlapping-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AvoidOverlapping-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidOverlapping-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AvoidOverlapping-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -103,10 +103,10 @@ This feature allows users to choose whether to reset the control points of bezie
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AllowReset-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AllowReset-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AllowReset-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AllowReset-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -120,10 +120,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierSegmentsSize-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierSegmentsSize-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierSegmentsSize-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierSegmentsSize-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

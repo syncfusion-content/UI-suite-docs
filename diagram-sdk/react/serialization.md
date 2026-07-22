@@ -110,7 +110,7 @@ When enabled, only explicitly set properties are included in the JSON output, si
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/reactCurlyExamples/serialization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/serialization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,11 +146,11 @@ The uploader requires:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,11 +188,11 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -204,11 +204,11 @@ The following example demonstrates loading a mind map diagram from Mermaid synta
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -220,11 +220,11 @@ The following example demonstrates loading a UML Sequence diagram from Mermaid s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/serialization/serialization-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

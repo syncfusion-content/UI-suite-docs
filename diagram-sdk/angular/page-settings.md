@@ -22,11 +22,11 @@ The following example demonstrates how to customize basic page settings includin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/pagesettings-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/pagesettings-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/pagesettings-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/pagesettings-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,11 +40,11 @@ The following code example shows how to configure a background image for the dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/background-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/background-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/background-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/background-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -63,11 +63,11 @@ The following example demonstrates how orientation affects page dimensions by sw
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/orientation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/orientation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -81,11 +81,11 @@ The [`multiplePage`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/pagebreak-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/pagebreak-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/pagebreak-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/pagebreak-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -109,11 +109,11 @@ The following example shows how to configure boundary constraints to restrict el
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/boundary-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/boundary-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/boundary-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/boundary-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -138,11 +138,11 @@ The following example demonstrates the configuration and usage of fit options fo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/fitoption-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/fitoption-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/pagesettings/fitoption-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/pagesettings/fitoption-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

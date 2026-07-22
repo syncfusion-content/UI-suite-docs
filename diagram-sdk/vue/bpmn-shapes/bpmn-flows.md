@@ -29,10 +29,10 @@ The `association` property allows you to define the type of association. The fol
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Association-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Association-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Association-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ The sequence property allows you to define the type of sequence. The following c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Sequence-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Sequence-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Sequence-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -91,10 +91,10 @@ The message property allows you to define the type of message. The following cod
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Message-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Message-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Message-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

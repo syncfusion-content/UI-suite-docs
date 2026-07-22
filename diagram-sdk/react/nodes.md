@@ -33,10 +33,10 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/react/documenta
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ Nodes can be generated automatically using the dataSource property. Default prop
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -65,10 +65,10 @@ Nodes can be predefined in a symbol palette and dragged into the diagram as need
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -83,10 +83,10 @@ The following code example illustrates how to draw a rectangle at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -102,10 +102,10 @@ The following code illustrates how to add a node.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ The following code illustrates how to add nodes collection at run time.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -137,10 +137,10 @@ Node properties can be modified at runtime with immediate visual updates. Change
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -157,10 +157,10 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nodes-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nodes-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           

@@ -72,10 +72,10 @@ The diagram provides support to export the desired region of the diagram to vari
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -88,10 +88,10 @@ The diagram provides support to export the desired region of the diagram to vari
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ The following example shows how to export diagram with different regions.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -171,10 +171,10 @@ The following code example demonstrates how to export the diagram as multiple im
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -187,10 +187,10 @@ You can pass the base64 data of an image to the [`exportImage`](https://ej2.sync
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -204,10 +204,10 @@ To get the html diagram content, the [`getDiagramContent`](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/export/export-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/export/export-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

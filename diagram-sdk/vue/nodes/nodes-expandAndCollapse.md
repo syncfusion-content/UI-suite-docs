@@ -35,10 +35,10 @@ The following code example illustrates how to create an icon of various shapes.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/ExpandAndCollapse-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/ExpandAndCollapse-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/ExpandAndCollapse-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/ExpandAndCollapse-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -58,10 +58,10 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/ExpandAndCollapse-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/ExpandAndCollapse-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/ExpandAndCollapse-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/ExpandAndCollapse-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

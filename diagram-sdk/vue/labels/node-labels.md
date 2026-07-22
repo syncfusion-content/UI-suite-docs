@@ -27,10 +27,10 @@ The following code shows how to set offset, height and width for the annotation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -75,10 +75,10 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Alignment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Alignment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Alignment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Alignment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -104,10 +104,10 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Alignment-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Alignment-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Alignment-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Alignment-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

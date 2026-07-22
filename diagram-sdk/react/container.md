@@ -20,10 +20,10 @@ Container nodes require specific configuration to enable child element managemen
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/container/container-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/container/container-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/container/container-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/container/container-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -37,10 +37,10 @@ The following example shows header configuration with custom styling:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/container/container-2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/container/container-2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/container/container-2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/container/container-2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           

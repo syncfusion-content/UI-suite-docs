@@ -29,15 +29,15 @@ The following code example demonstrates how to create a mind map layout:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/mindMap-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/mindmap-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/mindMap-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/mindmap-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindMap-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindmap-cs1" %}
 
 The following table outlines the available orientation options:
 
@@ -56,15 +56,15 @@ The following code example shows how to position all branches on the right side 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/mindMap-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/mindmap-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/mindMap-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/mindmap-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindMap-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindmap-cs2" %}
 
 ![Mind map layout showing branched structure with nodes arranged around a central concept](../images/mindmap.png)
 

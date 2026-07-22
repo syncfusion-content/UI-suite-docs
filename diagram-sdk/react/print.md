@@ -63,11 +63,11 @@ The following code example illustrates how to print the diagram based on differe
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,11 +81,11 @@ The following code example demonstrates how to enable multiple page printing:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,11 +97,11 @@ The margin for the print region can be set using the [`margin`](https://ej2.sync
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -113,11 +113,11 @@ The [`pageHeight`](https://ej2.syncfusion.com/react/documentation/api/diagram/iP
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,11 +134,11 @@ The following example shows how to configure page orientation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs5/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/print/print-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

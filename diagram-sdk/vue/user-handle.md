@@ -20,10 +20,10 @@ The following example shows how to render user handle.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -68,10 +68,10 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -96,10 +96,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -115,10 +115,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -136,10 +136,10 @@ In the example below, multiple user handles are utilized for various functionali
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandle-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandle-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -167,10 +167,10 @@ The below example code demonstrating different types of user handles.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandleTypes-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandleTypes-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandleTypes-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandleTypes-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -191,10 +191,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandleEvents-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandleEvents-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/UserHandleEvents-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/UserHandleEvents-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -212,10 +212,10 @@ The following code example demonstrates how to create fixed user handles for nod
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -243,10 +243,10 @@ The following example demonstrates how to align fixed user handle for both node 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -312,10 +312,10 @@ The following code explains how to customize the alignment of connector fixed us
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/ConnectorFixedUserHandle-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/ConnectorFixedUserHandle-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/ConnectorFixedUserHandle-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/ConnectorFixedUserHandle-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -327,10 +327,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -360,10 +360,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandle-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -375,10 +375,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandleTemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandleTemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandleTemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandleTemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -400,10 +400,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandleEvents-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandleEvents-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/FixedUserHandleEvents-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/FixedUserHandleEvents-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

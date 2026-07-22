@@ -120,10 +120,10 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/react/documentation/api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -207,10 +207,10 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -222,10 +222,10 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/interaction-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -247,10 +247,10 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/es5Node-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/es5Node-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/es5Node-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/es5Node-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

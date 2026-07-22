@@ -20,10 +20,10 @@ The following code example illustrates how to create an organizational chart wit
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ You can render an org-chart layout without using DataSource. The following code 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -93,10 +93,10 @@ The following example shows how to utilize the `getLayoutInfo` function to custo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -110,10 +110,10 @@ The following code example illustrates how to set the vertical arrangement to th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ The following code example illustrates how to add assistants to layout.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/organizational-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

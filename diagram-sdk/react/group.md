@@ -23,10 +23,10 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
@@ -36,10 +36,10 @@ Connectors can be added to a group. The following code illustrates how to add co
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupaddconnector-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/groupaddconnector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupaddconnector-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/groupaddconnector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
@@ -55,10 +55,10 @@ The following code illustrates how to group at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-runtime/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-runtime/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-runtime/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-runtime/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
@@ -71,10 +71,10 @@ The following code example shows how to ungroup a group node at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/ungroup-runtime/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/ungroup-runtime/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/ungroup-runtime/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/ungroup-runtime/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -88,10 +88,10 @@ The following code illustrates how a group node is added at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupadd-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/groupadd-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupadd-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/groupadd-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,10 +105,10 @@ The following code illustrates how to add group nodes collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupcollection-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/groupcollection-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupcollection-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/groupcollection-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ diagram.removeChildFromGroup (groupNode, childNode);
 ```
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupchild-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/groupchild-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/groupchild-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/groupchild-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -160,10 +160,10 @@ The following code illustrates how to add padding to a node group:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-padding/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-padding/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-padding/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-padding/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ The following example shows how to apply flip transformations to group nodes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-flip/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-flip/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-flip/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-flip/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -199,10 +199,10 @@ In the code below, the `flipMode` for the child node `Node1` is set to `LabelTex
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-flipMode/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-flipMode/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-flipMode/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-flipMode/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -220,10 +220,10 @@ Nested groups are groups within groups, where a group can contain other groups a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-nested/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-nested/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-nested/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-nested/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -237,10 +237,10 @@ The following code illustrates how to render group nodes in the palette:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-palette/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-palette/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-palette/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-palette/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,10 +254,10 @@ The following code illustrates how to update group nodes at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-update/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/group-update/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/group-update/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/group-update/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -282,10 +282,10 @@ The following code illustrates how to add canvas panel.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/es5canvas-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/es5canvas-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/es5canvas-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/es5canvas-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -305,10 +305,10 @@ The following code illustrates how to add a stack panel:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/es5stack-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/group/es5stack-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/group/es5stack-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/group/es5stack-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -26,10 +26,10 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scroll-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scroll-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scroll-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scroll-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ You can programmatically change the scroll offsets of diagram by customizing the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollSettings-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollSettings-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -89,10 +89,10 @@ The following example shows how to zoom-in and zoom-out the diagram using zoomTo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollSettings-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollSettings-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -122,10 +122,10 @@ The following example demonstrates how to configure autoscroll:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/autoScroll-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/autoScroll-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/autoScroll-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/autoScroll-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -157,10 +157,10 @@ The following code example illustrates how to specify the scroll limit and custo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollArea-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollArea-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollArea-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollArea-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -174,10 +174,10 @@ The following code example illustrates how to set scroll padding for the diagram
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollLimit-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollLimit-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -211,10 +211,10 @@ The [`scrollChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iS
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollLimit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/scroll-settings/scrollLimit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

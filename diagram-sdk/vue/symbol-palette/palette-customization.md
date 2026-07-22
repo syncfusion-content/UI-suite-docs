@@ -26,10 +26,10 @@ The following code example illustrates how to customize palette headers.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/palette-header/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/palette-header/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/palette-header/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/palette-header/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -41,10 +41,10 @@ The expand and collapse operation of symbol palette can be animated by utilizing
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/palette-animate/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/palette-animate/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/palette-animate/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/palette-animate/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -56,10 +56,10 @@ The [`description`](https://ej2.syncfusion.com/vue/documentation/api/diagram/sym
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symboldesc/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symboldesc/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symboldesc/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symboldesc/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -75,10 +75,10 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-textWrp/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-textWrp/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-textWrp/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-textWrp/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code example shows how to customize the symbol description.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-text/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-text/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-text/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-text/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -111,10 +111,10 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/size-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/size-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/size-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/size-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-preview/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-preview/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-preview/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-preview/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -144,10 +144,10 @@ The [`symbolDragSize`](https://ej2.syncfusion.com/vue/documentation/api/diagram/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-dragSize/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-dragSize/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-dragSize/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-dragSize/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -163,10 +163,10 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/expandmode/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/expandmode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/expandmode/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/expandmode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -180,10 +180,10 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/restrict-expand/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/restrict-expand/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/restrict-expand/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/restrict-expand/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -209,10 +209,10 @@ The code provided below demonstrates how to define tooltip content to symbols wi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symboldesc/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symboldesc/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symboldesc/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symboldesc/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -226,10 +226,10 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/tooltip-custom/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/tooltip-custom/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/tooltip-custom/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/tooltip-custom/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -254,10 +254,10 @@ The following code snippet will demonstrate how to define two different tooltip 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-tooltip/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-tooltip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-tooltip/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-tooltip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -271,10 +271,10 @@ The following code shows how to localize symbol palette.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/locale-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/locale-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/locale-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/locale-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -286,10 +286,10 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/restrict-drag/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/restrict-drag/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/restrict-drag/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/restrict-drag/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -301,10 +301,10 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-search/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-search/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-search/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-search/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -318,10 +318,10 @@ In the following example, we ignored the symbol with the ID of 'plus', so it wil
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-search-ig/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-search-ig/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-search-ig/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-search-ig/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -333,10 +333,10 @@ You can filter the search results based on your specific requirements. To achiev
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-filter/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-filter/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/custompalette/symbol-filter/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/custompalette/symbol-filter/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

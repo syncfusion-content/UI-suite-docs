@@ -51,10 +51,10 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/visioimportexport/visioImport-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/visioimportexport/visioImport-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -122,10 +122,10 @@ The following example exports an React Diagram to a Microsoft Visio (**.vsdx**) 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/visioimportexport/visioExport-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/visioimportexport/visioExport-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  

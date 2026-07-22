@@ -24,11 +24,11 @@ The following example shows how to align the layout within specified layout boun
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-bounds-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-bounds-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,11 +48,11 @@ The following code illustrates how to configure layout alignment and modify alig
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-alignment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-alignment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,11 +69,11 @@ The following code illustrates how to set initial horizontal and vertical spacin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-spacing-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-spacing-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,11 +89,11 @@ The following code demonstrates how to set initial layout margin and modify marg
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-margin-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-margin-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -120,11 +120,11 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-orientation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-orientation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,11 +141,11 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-exclude-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-exclude-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,11 +159,11 @@ This feature is particularly beneficial during expand/collapse operations, where
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-fixed-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-fixed-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -179,11 +179,11 @@ The following code example shows how to expand/collapse the children of a node:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -202,11 +202,11 @@ The following example demonstrates how layout animation enhances the visual expe
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-animation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-animation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,11 +225,11 @@ The following code example creates parent-child relationships between source and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-parentChildren-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-parentChildren-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -250,11 +250,11 @@ The [`orientation`](https://ej2.syncfusion.com/react/documentation/api/diagram/s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

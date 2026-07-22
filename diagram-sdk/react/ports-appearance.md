@@ -20,10 +20,10 @@ The following code illustrates how to change the appearance of port.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The appearance of port can be changed at runtime by customizing the style proper
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,10 +77,10 @@ If you need to render a custom shape, then you can set shape as **Custom** and d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-shapes/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-shapes/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-shapes/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-shapes/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -30,11 +30,11 @@ The following code example demonstrates how to configure the offset for connecto
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-connector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/annotation-connector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-connector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/annotation-connector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -56,11 +56,11 @@ The following code example demonstrates how to configure alignment for connector
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segment-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/segment-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segment-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/segment-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -74,11 +74,11 @@ The following example shows how to apply displacement to connector annotations:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/displacement-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/displacement-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/displacement-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/displacement-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,11 +94,11 @@ The following code example demonstrates how to configure segment angle rotation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segmentAngle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/segmentAngle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/segmentAngle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/segmentAngle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

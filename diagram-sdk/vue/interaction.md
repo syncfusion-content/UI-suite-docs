@@ -121,10 +121,10 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/vue/documentation/api/diag
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -153,10 +153,10 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -168,10 +168,10 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -191,10 +191,10 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/interaction/interaction-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/interaction/interaction-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

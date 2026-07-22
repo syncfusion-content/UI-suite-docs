@@ -20,11 +20,11 @@ Container nodes require specific configuration to enable child element managemen
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/container/container-1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/container/container-1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/container/container-1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/container/container-1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -38,11 +38,11 @@ The following example shows header configuration with custom styling:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/container/container-2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/container/container-2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/container/container-2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/container/container-2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
