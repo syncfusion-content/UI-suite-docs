@@ -21,7 +21,7 @@ We have explained the Automatic Layout with Employee class and DataSourceSetting
 
 Now, you have to create a class, Employee with properties to store the employee’s information like Team, Role, ID, reporting person ID, etc. You also have to create a collection that stores a collection of the employees.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Employee Business Object
 public class Employee
@@ -162,7 +162,7 @@ User can change ChartType and Orientation by using GetLayoutInfo event of the Sf
 | | Type | Gets or sets the organizational chart type. |
 | | Orientation | Gets or sets the organizational chart orientation. |
 
-{% highlight C# %}
+{% highlight c# %}
 
 // Registering an event 
 
@@ -271,7 +271,7 @@ The Radial-Tree Layout is a specification of the Directed Tree Layout Manager th
 
 When changes are made to content in the SfDiagram. For example, linking new Nodes or adding new Connectors, the layout had to be updated to create space for adding the new content. The following code example illustrates how to update the layout in the SfDiagram.
 
-{% highlight C# %}
+{% highlight c# %}
 
 SfDiagram diagramcontrol = new SfDiagram(); 
 //Update the Layout
@@ -289,7 +289,7 @@ Example
 
 Layout Alignments and Bounds
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagramcontrol.LayoutManager = new LayoutManager()
 {
