@@ -17,7 +17,7 @@ Preview Dragging can be enabled by assigning values other than [PreviewMode.Prev
 By default, Outline of the connectors connected to the dragging objects will be in disabled state. But, you can able to view the outline of the connectors, by holding dragging objects for certain time span. [`ConnectorRefreshingSpan`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PreviewSettings.html#Syncfusion_UI_Xaml_Diagram_PreviewSettings_ConnectorRefreshingSpan) property of [PreviewSettings](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PreviewSettings.html) allows you to specify the time span and the value should be greater than 300ms.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 this.diagram.PreviewSettings = new PreviewSettings() { PreviewMode = PreviewMode.Preview, ConnectorRefreshingSpan = 300 };
 
@@ -31,7 +31,7 @@ this.diagram.PreviewSettings = new PreviewSettings() { PreviewMode = PreviewMode
 Appearance of the preview can be modified using [`PreviewStyle`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PreviewSettings.html#Syncfusion_UI_Xaml_Diagram_PreviewSettings_PreviewStyle) property of `PreviewSettings`.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 var previewStyle = new Style();
 previewStyle.TargetType = typeof(Shape);

@@ -19,7 +19,7 @@ The `DeleteParameter` is used to represent the item's parameters for executing t
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 List<IGroupable> deleteableObjects = new List<IGroupable>();
 

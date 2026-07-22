@@ -66,7 +66,7 @@ The following code example represents how to define custom command to Save Comma
 
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 // To define the mouse and keyboard gesture for the commands
 GestureCommand saveGesture = new GestureCommand()

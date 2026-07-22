@@ -364,7 +364,7 @@ The symbol sizes for the built-in symbol categories are equivalent to the Visio 
 Also, you can decide whether a symbol can be added to the stencil symbol collection or not. It can be achieved by using the `Cancel` property of [CanAddSymbol](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.Stencil.html#Syncfusion_UI_Xaml_Diagram_Stencil_Stencil_CanAddSymbol_System_String_System_String_), the virtual method of stencil class. 
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 /// <summary>
 /// The custom class for the stencil view model.
 /// </summary>

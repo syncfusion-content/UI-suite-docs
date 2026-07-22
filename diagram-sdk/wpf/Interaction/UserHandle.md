@@ -21,7 +21,7 @@ Quick Commands are used to execute the commonly or frequently used commands arou
 
 {% tabs %}
 
-{% highlight Xaml %}
+{% highlight xaml %}
 
 <Style TargetType="Path" x:Key="QuickCommandstyle">
     <Setter Property="Stretch" Value="Fill"/>
@@ -31,7 +31,7 @@ Quick Commands are used to execute the commonly or frequently used commands arou
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
  // Element to represent the frequently used commands
 QuickCommandViewModel quick = new QuickCommandViewModel()

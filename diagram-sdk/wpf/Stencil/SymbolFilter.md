@@ -120,7 +120,7 @@ The following code explains how to create a symbol filter in the stencil.
      </stencil:Stencil>
 </Grid>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 public class StencilVM : INotifyPropertyChanged
 {
