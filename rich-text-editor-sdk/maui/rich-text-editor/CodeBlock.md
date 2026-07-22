@@ -10,7 +10,7 @@ keywords: maui rich text editor code block, code block language maui rte, syncfu
 
 # Code block support in .NET MAUI Rich Text Editor
 
-The [.NET MAUI SfRichTextEditor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html) includes built-in support for inserting and managing code blocks. This feature enables developers and end users to embed formatted code snippets within rich text content while preserving structure, readability, and formatting consistency.
+The Syncfusion .NET MAUI SfRichTextEditor includes built-in support for inserting and managing code blocks. This feature enables developers and end users to embed formatted code snippets within rich text content while preserving structure, readability, and formatting consistency.
 
 Code blocks are especially useful in applications that involve technical documentation, blogging platforms, or developer-centric tools.
 
@@ -23,28 +23,26 @@ You can insert a code block using the `CodeBlock` toolbar item available in the 
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
- <richTextEditor:SfRichTextEditor ShowToolbar="True">
-        <richTextEditor:SfRichTextEditor.ToolbarItems>
-            <richTextEditor:RichTextToolbarItem Type="CodeBlock" />
-        </richTextEditor:SfRichTextEditor.ToolbarItems>
-</richTextEditor:SfRichTextEditor>
+ <rte:SfRichTextEditor ShowToolbar="True">
+        <rte:SfRichTextEditor.ToolbarItems>
+            <rte:RichTextToolbarItem Type="CodeBlock" />
+        </rte:SfRichTextEditor.ToolbarItems>
+</rte:SfRichTextEditor>
 
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
+
 
 // Create the Rich Text Editor
-SfRichTextEditor richTextEditor = new SfRichTextEditor
+var editor = new SfRichTextEditor
 {
     ShowToolbar = true
 };
 
 // Add CodeBlock toolbar item
-// For default toolbar behavior, see: https://help.syncfusion.com/maui/rich-text-editor/toolbar#customizing-the-toolbar
-richTextEditor.ToolbarItems.Add(new RichTextToolbarItem
+editor.ToolbarItems.Add(new RichTextToolbarItem
 {
     Type = RichTextToolbarOptions.CodeBlock
 });
