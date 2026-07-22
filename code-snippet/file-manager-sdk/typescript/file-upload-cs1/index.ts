@@ -27,7 +27,7 @@ let dialogObj: Dialog = new Dialog({
 });
 dialogObj.appendTo('#dialog');
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 
 let openBtnElement: HTMLElement = document.getElementById('openBtn');
 

@@ -840,7 +840,7 @@ The following table represents the request parameters of *download* operations.
             permission:null,
             _fm_created:"2019-07-22T12:15:45.081Z",
             _fm_modified:"2019-07-22T12:15:45.097Z",
-            _fm_imageUrl:"https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage?path=/1.png",
+            _fm_imageUrl:"https://physical-service.syncfusion.com/api/FileManager/GetImage?path=/1.png",
             _fm_imageAttr:
             {
                 alt:"1.png"
@@ -962,7 +962,7 @@ To perform the download operation, initialize the [`downloadUrl`](../api/file-ma
 
 import { FileManager } from '@syncfusion/ej2-filemanager';
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
@@ -981,7 +981,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 ```html
 <script>
-        var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+        var hostUrl = 'https://physical-service.syncfusion.com/';
         // initialize File Manager Control
         var filemanagerInstance = new ej.filemanager.FileManager({
             ajaxSettings: {
@@ -1007,7 +1007,7 @@ To perform the upload operation, initialize the [`uploadUrl`](../api/file-manage
 
 import { FileManager } from '@syncfusion/ej2-filemanager';
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
@@ -1026,7 +1026,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 ```html
 <script>
-        var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+        var hostUrl = 'https://physical-service.syncfusion.com/';
         // initialize File Manager Control
         var filemanagerInstance = new ej.filemanager.FileManager({
             ajaxSettings: {

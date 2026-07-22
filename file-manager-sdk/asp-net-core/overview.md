@@ -61,3 +61,4 @@ Types of navigation support available in File Manager are:
 * Supports right-to-left (RTL) direction alignment for users working in right-to-left languages like Hebrew and Arabic.
 
 * The File Manager control uses localization library (l10) to localize the text values. The texts and messages displayed in the user interface can be localized to any desired language as needed.
+

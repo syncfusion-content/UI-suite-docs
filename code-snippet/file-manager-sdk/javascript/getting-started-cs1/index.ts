@@ -1,6 +1,6 @@
 import { FileManager } from '@syncfusion/ej2-filemanager';
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {

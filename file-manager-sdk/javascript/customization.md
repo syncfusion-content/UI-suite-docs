@@ -408,7 +408,7 @@ import { FileManager, Toolbar, NavigationPane, DetailsView } from '@syncfusion/e
 
 FileManager.Inject(Toolbar, NavigationPane, DetailsView)
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
@@ -430,7 +430,7 @@ filemanagerInstance.appendTo('#filemanager');
 {% elsif page.publishingplatform == "javascript" %}
 
 ```javascript
-var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+var hostUrl = 'https://physical-service.syncfusion.com/';
 // inject feature modules of the File Manager
 ej.filemanager.FileManager.Inject(ej.filemanager.DetailsView,ej.filemanager.Toolbar,ej.filemanager.NavigationPane);
 // initialize File Manager Control
