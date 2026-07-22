@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Commands in ASP.NET MVC Diagram Component | Syncfusion®
 description: Learn here all about Commands in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -50,25 +50,11 @@ Alignment commands enables to align the selected or defined objects such as node
 </table>
 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Align.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/align.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Align.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/align.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -100,25 +86,11 @@ The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion
 * Bottom: Distributes the objects based on the distance between the bottom sides of the adjacent objects.
 * Middle: Distributes the objects based on the distance between the vertical center of the adjacent objects.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Distribute.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/distribute.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Distribute.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/distribute.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -144,25 +116,11 @@ Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesi
 * Height: Scales the height of the selected objects.
 * Size: Scales the selected objects both vertically and horizontally.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Size.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -186,27 +144,13 @@ Clipboard commands are used to cut, copy, or paste the selected elements.
 
 * Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/#copy).
 
-* Pastes the diagram’s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/paste.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+* Pastes the diagram's clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
 
 {% tabs %}
 {% highlight c# tabtitle="Paste.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -228,25 +172,11 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 [`Ungroup`](https://ej2.syncfusion.com/documentation/api/diagram/#ungroup) the selected nodes and connectors in the diagram.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Group.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -268,25 +198,11 @@ diagram.group();
 
 The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/#bringtofront) command visually brings the selected element to front over all the other overlapped elements. The following code illustrates how to execute the `bringToFront` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -307,25 +223,11 @@ diagram.bringToFront();
 
 The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/#sendtoback) command visually moves the selected element behind all the other overlapped elements. The following code illustrates how to execute the `sendToBack` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -345,25 +247,11 @@ diagram.sendToBack();
 
 The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/#moveforward) command visually moves the selected element over the nearest overlapping element. The following code illustrates how to execute the `moveForward` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -383,25 +271,11 @@ diagram.moveForward();
 
 The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/#sendbackward) command visually moves the selected element behind the underlying element. The following code illustrates how to execute the `sendBackward` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -420,25 +294,11 @@ diagram.sendBackward();
 
 The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/#zoom) command is used to zoom-in and zoom-out the diagram view.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -468,25 +328,11 @@ The accepted values of the argument "direction" are as follows:
 * Left: Moves the selected elements towards left by the specified delta value.
 * Right: Moves the selected elements towards right by the specified delta value.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -512,25 +358,11 @@ The [`bringIntoView`](https://ej2.syncfusion.com/documentation/api/diagram/#brin
 
 The following code illustrates how to execute the `bringIntoView` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -548,25 +380,11 @@ The [`bringToCenter`](https://ej2.syncfusion.com/documentation/api/diagram/#brin
 
 The following code illustrates how to execute the `bringToCenter` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -583,37 +401,23 @@ diagram.bringToCenter(bound);
 
 The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
 
-The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitModes/) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
+The [`mode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.FitModes.html) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
 
-The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRegions/) parameter defines the region that has to be drawn as an image.
+The [`region`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramRegions.html) parameter defines the region that has to be drawn as an image.
 
-The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions/) parameter defines the region/bounds of the diagram content that is to be fit into the view.
+The [`margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html) parameter defines the region/bounds of the diagram content that is to be fit into the view.
 
-The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#canZoomIn/) parameter enables/disables zooming to fit the smaller content into a larger viewport.
+The [`canZoomIn`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramFitOptions.html#Syncfusion_EJ2_Diagrams_DiagramFitOptions_CanZoomIn) parameter enables/disables zooming to fit the smaller content into a larger viewport.
 
-The [`customBounds`](../api/diagram/iFitOpthttps://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#customBounds) parameter the custom region that has to be fit into the viewport.
+The [`customBounds`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramFitOptions.html#Syncfusion_EJ2_Diagrams_DiagramFitOptions_CustomBounds) parameter the custom region that has to be fit into the viewport.
 
 The following code illustrates how to execute `FitToPage` command.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -639,33 +443,19 @@ Diagram provides support to map or bind command execution with desired combinati
 ## Custom command
 
 To define a custom command, specify the following properties:
-* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#execute): A method to be executed.
-* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers/).
-* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#parameter): Defines any additional parameters that are required at runtime.
-* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#name): Defines the name of the command.
+* [`execute`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Execute): A method to be executed.
+* [`canExecute`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_CanExecute): A method to define whether the command can be executed at the moment.
+* [`gesture`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramKeyGesture.html): A combination of [`keys`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.Keys.html) and [`KeyModifiers`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.KeyModifiers.html).
+* [`parameter`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Parameter): Defines any additional parameters that are required at runtime.
+* [`name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html#Syncfusion_EJ2_Diagrams_DiagramCommand_Name): Defines the name of the command.
 
-To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/command#commands).
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="ExistingCommand.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
+To explore the properties of custom commands, refer to [`Commands`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramCommand.html).
 
 {% tabs %}
 {% highlight c# tabtitle="ExistingCommand.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -694,19 +484,6 @@ To explore the properties of custom commands, refer to [`Commands`](https://ej2.
 
 When any one of the default commands is not desired, they can be disabled. To change the functionality of a specific command, the command can be completely modified.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Nudge.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/nudge.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/razor %}
@@ -715,7 +492,6 @@ When any one of the default commands is not desired, they can be disabled. To ch
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/nudge.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

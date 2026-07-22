@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Import and Export Visio Files in Syncfusion® ASP.NET MVC
 description: Learn how to import and export Microsoft Visio (.vsdx) files using the Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -24,7 +24,7 @@ Many organizations maintain existing diagrams created using Microsoft Visio. Rec
 - Visualize and edit Visio diagrams using the Diagram component.  
 - Export diagrams created or modified in Diagram component for use in Microsoft Visio.  
 
-This integration enables seamless collaboration between desktop‑based Visio tools and web‑based diagramming applications.
+This integration enables seamless collaboration between desktop-based Visio tools and web-based diagramming applications.
 
 ## Visio support in the Diagram
 
@@ -49,25 +49,11 @@ During the import process:
 
 The following example imports a Visio (**.vsdx**) file by passing a **File** object to the `importFromVisio` method. The method returns a collection of warnings when certain Visio features are not fully supported during import.
 
-{% if page.publishingplatform == "aspnet-core" %}
-ej2-asp-core-mvc\code-snippet\diagram\visio\visioImport\visioImport.cs
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioImport/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="visioImport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioImport/visioImport.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="visioImport.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioImport/visioImport.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ```javascript
 
@@ -86,7 +72,7 @@ Import behavior can be customized using the `VisioImportOptions`object.
 
 ### Import lifecycle event
 
-The [`diagramImporting`](https://help.syncfusion.com/cr/aspnetcore-js2/syncfusion.ej2.diagrams.diagram.html#Syncfusion_EJ2_Diagrams_Diagram_DiagramImporting) event is triggered during the Visio import process. This event provides information about the current import status, available pages, warnings or errors, and supports page selection or cancellation of the import operation.
+The [`diagramImporting`](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.diagrams.diagram.html#Syncfusion_EJ2_Diagrams_Diagram_DiagramImporting) event is triggered during the Visio import process. This event provides information about the current import status, available pages, warnings or errors, and supports page selection or cancellation of the import operation.
 
 ```javascript
 diagramImporting: function(args) {
@@ -149,25 +135,11 @@ The Diagram component supports exporting diagrams to Microsoft Visio format usin
 
 The following example exports a Diagram to a Microsoft Visio (**.vsdx**) file using the `exportToVisio` method.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioExport/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="visioExport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioExport/visioExport.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight c# tabtitle="visioExport.cs" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/visio/visioExport/visioExport.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ```javascript
 
@@ -191,7 +163,7 @@ Export behavior can be controlled using the `VisioExportOptions` object.
 
 ### Export lifecycle event
 
-The [`diagramExporting`](https://help.syncfusion.com/cr/aspnetcore-js2/syncfusion.ej2.diagrams.diagram.html#Syncfusion_EJ2_Diagrams_Diagram_DiagramExporting) event provides status updates, reports warnings or errors, and supports cancellation of the export operation.
+The [`diagramExporting`](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.diagrams.diagram.html#Syncfusion_EJ2_Diagrams_Diagram_DiagramExporting) event provides status updates, reports warnings or errors, and supports cancellation of the export operation.
 
 ```javascript
   diagramExporting: function (args) {
@@ -236,13 +208,13 @@ The table below outlines Visio's import and export limitations, offering a conci
 
 | Import Limitations | Export Limitations |
 |--------------------------|--------------------------|
-| **Gradient page backgrounds:** Only solid fills are imported; gradient page background fills are not supported. | **Diagram-level tooltips:** Diagram‑level tooltips are not exported. |
+| **Gradient page backgrounds:** Only solid fills are imported; gradient page background fills are not supported. | **Diagram-level tooltips:** Diagram-level tooltips are not exported. |
 | **Gradient types:** Only linear and radial gradient types are supported; other gradient styles are ignored. | **Connector segment thumbs:** Connector segment thumb customizations are not supported. |
-| **Ruler settings:** Ruler settings may not be preserved accurately due to coordinate origin differences (Visio uses bottom‑left; Diagram component uses top‑left). | **Templates & tools:** Templates and custom tool configurations are not exported. |
-| **Layer support:** Only a single layer per shape is supported. | **Layer Z‑index ordering:** Layer Z‑index ordering is not preserved. |
+| **Ruler settings:** Ruler settings may not be preserved accurately due to coordinate origin differences (Visio uses bottom-left; Diagram component uses top-left). | **Templates & tools:** Templates and custom tool configurations are not exported. |
+| **Layer support:** Only a single layer per shape is supported. | **Layer Z-index ordering:** Layer Z-index ordering is not preserved. |
 | **Line styles:** Rounded line caps and compound line styles are not supported. | **Annotation properties:** Annotation displacement and flip properties are not supported. |
 | **Image formatting:** Image formatting options such as brightness, contrast, and cropping are not supported. | **Port customization:** Port customization properties are not exported. |
-| **Connector types:** Only basic connector types—straight, right‑angle, and curved—are supported. | **Page margins & boundaries:** Page margin and boundary constraints may require manual adjustment after export. |
+| **Connector types:** Only basic connector types-straight, right-angle, and curved-are supported. | **Page margins & boundaries:** Page margin and boundary constraints may require manual adjustment after export. |
 | **Connector gradients:** Connector gradient styles are not supported. | |
 | **Multiple hyperlinks:** Multiple hyperlinks within a single shape are not supported. | |
 | **Rich text:** Rich text formatting is not supported; text is rendered using a single, uniform style. | |

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Overview in ASP.NET MVC Diagram Component | Syncfusion®
 description: Learn here all about Overview in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
@@ -33,19 +33,6 @@ In overview, the view port of the diagram is highlighted with a red colored rect
 * Choose a particular region by clicking and dragging: Navigates to the specified region.
 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/overView/overView/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="OverView.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/overView/overView/overView.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/overView/overView/razor %}
@@ -54,6 +41,5 @@ In overview, the view port of the diagram is highlighted with a red colored rect
 {% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/overView/overView/overView.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
