@@ -1,124 +1,102 @@
 ---
 layout: post
-title: Getting started with Angular Tree Grid component | Syncfusion
-description: Learn how to get started with the Angular Tree Grid component in Syncfusion Essential JS 2, including installation, configuration, and basic usage.
-platform: grid-sdk
+title: React Data Grid Getting Started (Quick Setup Guide) | Syncfusion
+description: Learn how to install and configure the Syncfusion React Data Grid. Set up a new React app and enable paging, sorting, filtering, and grouping.
 control: Getting started 
+platform: grid-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Getting Started With Angular Tree Grid Component
+# Getting Started with React Data Grid
 
-This section outlines the steps required to create an Essential<sup style="font-size:70%">&reg;</sup> JS 2 Tree Grid and demonstrates basic usage of the [Angular Tree Grid control](https://www.syncfusion.com/angular-components/angular-tree-grid) within an Angular CLI application.
+This section explains the steps required to create a simple [React Data Grid](https://www.syncfusion.com/react-components/react-data-grid) component and demonstrate its basic usage in a React environment.
 
-> Note: This guide supports **Angular 21** and other recent Angular versions. For detailed compatibility with other Angular versions, please refer to the [Angular version support matrix](https://ej2.syncfusion.com/angular/documentation/system-requirement#angular-version-compatibility). Starting from Angular 19, standalone components are the default, and this guide reflects that architecture.
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/ai-coding-assistant/overview).
 
-To get started quickly with the Angular Tree Grid using CLI and Schematics, refer to the following video:
+To get started quickly with React Data Grid, you can watch this video:
 
-{% youtube "https://www.youtube.com/watch?v=2LJKv7rao6Y" %}
+{% youtube "https://www.youtube.com/watch?v=IGLlZiuFdbA" %}
 
 ## Prerequisites
 
 | Requirement | Version |
 |-------------|---------|
-| Angular | 12 and above |
-| Node.js | 14.0.0 or above, Recommended: Latest Version |
+| React | 15.5.4 or higher |
+| Node.js | 14.0.0 or above |
+| Yarn (optional) | 0.25 or above |
 
-### Angular supported versions
+### React supported versions
 
-| Angular Version | Minimum Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Tree Grid Version |
-|-----------------|-----------------------------------------------|
-|[Angular v20](https://www.syncfusion.com/blogs/post/whats-new-in-angular-20)| 29.2.8|
-|[Angular v19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/)| 26.1.35 |
-| [Angular v18](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/) | 25.2.3 |
-| [Angular v17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b/)| 23.2.4 |
-| [Angular v16](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d/)| 21.1.39 |
-| [Angular v15](https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8/) | 20.4.38 |
-|[Angular v14](https://blog.angular.io/angular-v14-is-now-available-391a6db736af/)| 20.2.36 |
-| [Angular v13](https://blog.angular.io/angular-v13-is-now-available-cce66f7bc296/) | 19.4.38 and above |
-| [Angular v12](https://blog.angular.io/angular-v12-is-now-available-32ed51fbfd49/)| 19.3.43 |
+| React version | Minimum Syncfusion React Data Grid version |
+| ------------- | ------------------------------------------- |
+| [React v19](https://react.dev/blog/2024/12/05/react-19) | 29.1.33 and above |
+| [React v18](https://reactjs.org/blog/2022/03/29/react-v18.html) | 20.2.36 and above |
+| [React v17](https://reactjs.org/blog/2020/10/20/react-v17.html) | 18.3.50 and above |
+| [React v16](https://reactjs.org/blog/2017/09/26/react-v16.0.html) | 16.2.45 and above | |
 
 ### Browser support
 
-| Browser | Supported Versions |
-|:--------|:-------------------|
-| Google Chrome, including Android & iOS  | Latest 2 versions |
-| Mozilla Firefox	 | Latest version |
-| Microsoft Edge	    | Latest 2 versions |
-| Apple Safari, including iOS	  | Latest 2 versions |
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
 
-## Setup Angular environment
+## Setup for local development
 
-Use the [Angular CLI](https://github.com/angular/angular-cli) to set up Angular applications. To install Angular CLI, execute:
+Easily set up a React application using `create-vite-app`, which provides a faster development environment, smaller bundle sizes, and optimized builds compared to traditional tools like `create-react-app`. For detailed steps, refer to the Vite [installation instructions](https://vitejs.dev/guide). Vite sets up your environment using JavaScript and optimizes your application for production.
 
-```bash
-npm install -g @angular/cli
-```
-> **Angular 21 Standalone Architecture:** Standalone components are the default in Angular 21. This guide uses the modern standalone architecture. For more information about the standalone architecture, refer to the [Standalone Guide](./angular-standalone).
+> **Note:**  To create a React application using `create-react-app`, refer to this [documentation](https://ej2.syncfusion.com/react/documentation/getting-started/create-app) for more details.
 
-### Installing a specific version
-To install a particular version of Angular CLI, use:
+To create a new React application, run one of the following commands based on your preferred language:
 
-```bash
-npm install -g @angular/cli@21.0.0
-```
-
-## Create a new application
-
-With Angular CLI installed, execute this command to generate a new application:
-
-```bash
-ng new syncfusion-angular-app
-```
-
-* This command will prompt to configure settings like enabling Angular routing and choosing a stylesheet format.
-
-```bash
-
-? Which stylesheet format would you like to use? (Use arrow keys)
-> CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
-  Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
-  Sass (Indented) [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
-  Less            [ http://lesscss.org                                             ]
+***React with JavaScript***
 
 ```
-
-* By default, a CSS-based application is created. Use SCSS if required:
-
-```bash
-ng new syncfusion-angular-app --style=scss
+npx create-vite@latest my-app --template react
 ```
 
-* During project setup, when prompted for the Server-side rendering (SSR) option, choose the appropriate configuration.
-
-![Initial_setup](images/SSR.png)
-
-* Select the required AI tool or 'none' if you do not need any AI tool.
-
-![Initial_setup](images/Ai.png)
-
-* Navigate to your newly created application directory:
-
-```bash
-cd syncfusion-angular-app
-```
-
-> Note: In Angular 19 and below, it uses `app.component.ts`, `app.component.html`, `app.component.css` etc. In Angular 20+, the CLI generates a simpler structure with `src/app/app.ts`, `app.html`, and `app.css` (no `.component.` suffixes).
-
-## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Tree Grid packages
-
-To install the Tree Grid component, use the following command:
-
-```bash
-npm install @syncfusion/ej2-angular-treegrid --save
+***React with TypeScript***
 
 ```
+npx create-vite@latest my-app --template react-ts
+```
+
+During the setup process, the CLI will prompt you for a few configuration options. Select the following:
+
+- **Which linter to use?** → **ESLint**
+- **Install with npm and start now?** → **Yes**
+
+Selecting **Yes** automatically installs the project dependencies and starts the development server.
+
+After verifying that the application starts successfully, terminate the development server in the terminal and proceed to the next step.
+
+Then, navigate to the project directory:
+
+```
+cd my-app
+```
+
+## Adding React Grid packages
+
+To install the Grids package, use the following command:
+
+```
+npm install @syncfusion/ej2-react-grids --save
+```
+
 ## Adding CSS reference
 
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/angular/documentation/appearance/overview) documentation.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Data Grid component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-Install the Material 3 theme package using the following command:
+Install the **Material 3** theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="npm" %}
@@ -128,77 +106,69 @@ npm install @syncfusion/ej2-material3-theme --save
 {% endhighlight %}
 {% endtabs %}
 
-Then add the following CSS reference to the **src/styles.css** file:
+Then add the following CSS reference to the **src/App.css** file:
 
 {% tabs %}
-{% highlight css tabtitle="styles.css" %}
+{% highlight css tabtitle="App.css" %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
 
 {% endhighlight %}
 {% endtabs %}
 
+## Adding Data Grid component
 
-## Add Tree Grid component
-
-Modify the template in the **src/app/app.ts** file to render the tree grid component. Add the Angular Tree Grid by using `<ejs-treegrid>` selector in `template` section of the **app.ts** file.
+The DataGrid code should be added to the **src/App.tsx** file.
 
 {% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/getting-started/src/app.ts %}
+{% highlight js tabtitle="App.jsx" %}
+{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started/app/App.jsx %}
 {% endhighlight %}
-{% highlight ts tabtitle="main.ts" %}
-import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { App } from './app/app';
-
-bootstrapApplication(App, appConfig)
-  .catch((err) => console.error(err));
+{% highlight ts tabtitle="App.tsx" %}
+{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started/app/App.tsx %}
 {% endhighlight %}
-{% highlight css tabtitle="styles.css" %}
+{% highlight css tabtitle="App.css" %}
 {% raw %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
 
 {% endraw %}
 {% endhighlight %}
 {% endtabs %}
-  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/getting-started-cs1" %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/getting-started-cs1" %}
 
 ## Run the application
 
-```bash
-ng serve --open
 ```
-
-Then open the URL displayed in the terminal.
+npm run dev
+```
 
 ## Registering Syncfusion license
 
-Before using Syncfusion components, generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register
-
-Open the `main.ts` file and add the following code:
-
-{% tabs %}
-{% highlight html tabtitle="main.ts" %}
-
+Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it in the main.jsx or main.tsx file before rendering your React application:
+ 
+```
 import { registerLicense } from '@syncfusion/ej2-base';
 
 registerLicense('YOUR_LICENSE_KEY_HERE');
+```
 
-{% endhighlight %}
-{% endtabs %}
-
-> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/angular/documentation/licensing/license-key-registration).
+> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/react/documentation/licensing/license-key-registration).
 
 ## Troubleshooting
 
-- **Grid styles are not applied:** Ensure the required Syncfusion theme CSS is imported in `src/styles.css`.
-- **Trial license warning message:** Register a valid Syncfusion license key using the `registerLicense()` method from `@syncfusion/ej2-base`.
+- **Grid not rendering styles:** Ensure the theme CSS is imported in `App.css` and that you removed the default Vite CSS in `index.css`.
+- **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
 
-N> Looking for the full Angular Tree Grid component overview, features, pricing, and documentation? Visit the [Angular Tree Grid](https://www.syncfusion.com/angular-components/angular-tree-grid) page.
+N> Looking for the full React Data Grid component overview, features, pricing, and documentation? Visit the [React Data Grid](https://www.syncfusion.com/react-components/react-data-grid) page.
 
 ## See also
 
-* [Grid Feature Modules](./module)
+* [Data Grid Feature Modules](./module)
+* [Data Binding](./data-binding)
+* [Top 5 Features of React Data Data Grid](https://www.syncfusion.com/blogs/post/top-5-features-react-data-grid.aspx)
+* [How to render React Data Grid with bootstrap theme](https://support.syncfusion.com/kb/article/10054/how-to-render-react-grid-with-bootstrap-theme)
+* [Getting Started with Next.js](./nextjs-getting-started)
+* [Getting Started with SharePoint](./sharepoint)
+* [Getting Started with Preact](./preact)
