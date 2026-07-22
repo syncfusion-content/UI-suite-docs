@@ -24,7 +24,7 @@ To insert a hyperlink:
 
 | Options | Description |
 |----------------|--------------------------------------|
-| Web Address | Enter or paste the destination URL for your link (e.g., `https://example.com`)|
+| Web Address | Enter or paste the destination URL for your link (e.g., `https://google.com`)|
 | Display Text | Enter or edit the required text that you want to display text for the link|
 | Tooltip | To display additional helpful information when you place the pointer on the hyperlink, type the required text in the “Tooltip” field. |
 | Open Link in New Window | Specify whether, the given link will be open in new window (`target="_blank"`) or not. |
@@ -80,5 +80,5 @@ The following example demonstrates disabling auto-link protocol prefixing:
 ## See also
 
 * [Link Quick Toolbar](./toolbar/quick-toolbar#link-quick-toolbar)
-* [Image with links](https://ej2.syncfusion.com/angular/documentation/rich-text-editor/insert-images#hyperlinking-images)
+* [Image with links](https://ej2.syncfusion.com/angular/documentation/rich-text-editor/insert-image-media/insert-images#hyperlinking-images)
 * [Insert File Attachments](./how-to/file-attachments)

@@ -75,5 +75,5 @@ However, if you want to accept the given URL without validating it for hyperlink
 ## See also
 
 * [Link Quick Toolbar](./toolbar/quick-toolbar#link-quick-toolbar)
-* [Image with links](https://ej2.syncfusion.com/vue/documentation/rich-text-editor/insert-images#hyperlinking-images)
+* [Image with links](https://ej2.syncfusion.com/vue/documentation/rich-text-editor/insert-image-media/insert-images#hyperlinking-images)
 * [Insert File Attachments](./how-to/file-attachments)

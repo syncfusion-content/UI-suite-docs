@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Rename Images on the Server in the Angular Rich Text Editor Component
 
-By using the [insertImageSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/imageSettings/#imageSettings) property, you can specify the server handler that uploads the selected image. Then, by binding the [imageUploadSuccess](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/imageSuccessEventArgs/#imageSuccessEventArgs) event, you can receive the renamed file from the server and update it in the Rich Text Editor’s insert image dialog.
+By using the [insertImageSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/imagesettings#imageSettings) property, you can specify the server handler that uploads the selected image. Then, by binding the [imageUploadSuccess](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/imagesuccesseventargs#imageSuccessEventArgs) event, you can receive the renamed file from the server and update it in the Rich Text Editor’s insert image dialog.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

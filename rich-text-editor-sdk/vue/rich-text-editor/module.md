@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Module in Vue Rich Text Editor Component
 
-The [Vue Rich Text Editor](https://www.syncfusion.com/vue-components/vue-wysiwyg-rich-text-editor) component follows a modular architecture, enabling users to include or exclude features as needed to ensure optimal performance and customization.
+The [Vue Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/vue-rich-text-editor) component follows a modular architecture, enabling users to include or exclude features as needed to ensure optimal performance and customization.
 
 ## What is a module in Vue Rich Text Editor?
 
