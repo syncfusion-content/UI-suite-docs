@@ -14,10 +14,10 @@ The Diagram component allows labels to be interactive through selecting, draggin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Interaction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Interaction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ By using [`startTextEdit`](https://helpej2.syncfusion.com/react/documentation/ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Opacity-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Opacity-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ The [`rotationReference`](https://helpej2.syncfusion.com/react/documentation/api
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Rotation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Rotation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ The Diagram component supports creating read-only labels that cannot be edited b
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Read-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Read-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Read-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Read-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ The following code demonstrates how to configure dragLimit for connector labels:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Interaction-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Interaction-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ Nodes and connectors support multiple labels. Each label can have independent pr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Multiple-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Multiple-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

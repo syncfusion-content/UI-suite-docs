@@ -20,11 +20,11 @@ The following code example demonstrates how to create connector ports:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -42,11 +42,11 @@ The following code example shows how to set different alignment values for conne
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -60,11 +60,11 @@ The following code example demonstrates how to apply displacement to connector p
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -80,11 +80,11 @@ The following code example shows how to connect a connector to a connector port:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portscon-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portscon-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

@@ -25,10 +25,10 @@ Diagram provides some default context menu items to ease the execution of some f
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/default-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/default-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ In certain situations, you may want to hide specific menu items based on the sel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/custom-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/custom-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ In certain situations, you may want to hide specific menu items based on the sel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/contextmenu-url/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/contextmenu-url/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/contextmenu-url/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -100,10 +100,10 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/menutemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/menutemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/menutemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -122,10 +122,10 @@ The following example shows how to get these events.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/events-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/events-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/contextmenu/events-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/contextmenu/events-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

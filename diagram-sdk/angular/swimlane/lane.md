@@ -28,11 +28,11 @@ The following code example illustrates how to define a swimlane with a lane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/emptylane-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/emptylane-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/emptylane-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/emptylane-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -46,11 +46,11 @@ The following code example illustrates how to define a lane header.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/laneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/laneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -68,11 +68,11 @@ The following code example illustrates how to customize the lane header.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheadercustomize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/laneheadercustomize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/laneheadercustomize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/laneheadercustomize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -84,11 +84,11 @@ Lane header style and text properties can be customized dynamically. The followi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamiclaneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamiclaneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -100,11 +100,11 @@ Lanes can be added at runtime by using the [`addLanes`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -118,11 +118,11 @@ The following code example illustrates how to add nodes to a lane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildern-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildern-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildern-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildern-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -134,11 +134,11 @@ Child nodes can be inserted into a lane at runtime by using the [`addNodeToLane`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -157,11 +157,11 @@ Here is an example of how to apply these constraints:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/lanechildren-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/lanechildren-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -174,11 +174,11 @@ Additional information storage for lanes is similar to nodes. Additional informa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addinfo-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addinfo-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addinfo-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addinfo-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -211,11 +211,11 @@ The following code illustrates how to disable a swimlane lane swapping.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addlanes-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addlanes-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

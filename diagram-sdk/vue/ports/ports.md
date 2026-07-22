@@ -42,10 +42,10 @@ To add a connection port, define the port object and add it to node’s [`ports`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -62,10 +62,10 @@ If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/Node-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/Node-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/Node-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/Node-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -77,10 +77,10 @@ You can remove ports at runtime by using diagram method [`removePorts`](https://
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/Remove-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/Remove-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/Remove-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/Remove-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -94,10 +94,10 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -111,10 +111,10 @@ The [`connectionDirection`](https://ej2.syncfusion.com/vue/documentation/api/dia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -132,10 +132,10 @@ The following code example shows how to get inEdges and outEdges of port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
           

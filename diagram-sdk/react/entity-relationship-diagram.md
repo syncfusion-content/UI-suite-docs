@@ -29,10 +29,10 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-header/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-header/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-fields/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-fields/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-styling/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-styling/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -189,10 +189,10 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-cardinality/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/erDiagram/er-diagram-cardinality/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

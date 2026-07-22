@@ -20,10 +20,10 @@ The following code example demonstrates how to handle the [`click`](https://help
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ClickEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ClickEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ClickEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ The following code example demonstrates how to handle the [`selectionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ The following code example demonstrates how to handle the  [`positionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PositionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PositionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5PositionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ The following code example demonstrates how to handle the  [`connectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectionChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectionChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectionChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ The following code example demonstrates how to handle the [`sourcePointChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SourcePointchange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SourcePointchange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SourcePointchange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ The following code example demonstrates how to handle the [`targetPointChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5TargetPontChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5TargetPontChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5TargetPontChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -180,10 +180,10 @@ Use **CTRL+Shift+Click** on connector to add/remove segments.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentCollChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentCollChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SegmentCollChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -197,10 +197,10 @@ The following code example demonstrates how to handle the [`segmentChange`](http
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentChangeEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SegmentChangeEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SegmentChangeEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -227,10 +227,10 @@ The following code example demonstrates how to handle the  [`collectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5CollectionChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5CollectionChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5CollectionChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

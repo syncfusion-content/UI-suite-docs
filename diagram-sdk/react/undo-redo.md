@@ -67,10 +67,10 @@ Use [`startGroupAction`](https://helpej2.syncfusion.com/react/documentation/api/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/groupAction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/groupAction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/groupAction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/groupAction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The [`stackLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ The [`canUndo`](https://helpej2.syncfusion.com/react/documentation/api/diagram/h
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Undo-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Undo-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Undo-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Undo-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ The following code shows how to get the current entry from the diagram history:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5CurrentEntry-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5CurrentEntry-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -198,10 +198,10 @@ The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/dia
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5HistoryChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5HistoryChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

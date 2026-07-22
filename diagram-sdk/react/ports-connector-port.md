@@ -20,10 +20,10 @@ The following code example shows how to create connector port.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The following code example shows how to set different alignment values for conne
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -61,10 +61,10 @@ The following code example demonstrates how to apply displacement to connector p
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following code example shows how to connect a connector to a connector port:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-con4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

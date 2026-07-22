@@ -36,11 +36,11 @@ The following code example illustrates how to create a class.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/class-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/class-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/class-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/class-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -62,11 +62,11 @@ The following code example illustrates how to create an interface.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/interface-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/interface-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/interface-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/interface-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -82,11 +82,11 @@ The following code example illustrates how to create an enumeration.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/enumeration-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/enumeration-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/enumeration-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/enumeration-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -115,11 +115,11 @@ The association property allows you to define the type of association. The defau
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/association-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/association-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/association-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/association-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -133,11 +133,11 @@ The following code example illustrates how to create an aggregation.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/aggregation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/aggregation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/aggregation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/aggregation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -151,11 +151,11 @@ The following code example illustrates how to create a composition.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/composition-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/composition-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/composition-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/composition-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -171,11 +171,11 @@ The following code example illustrates how to create an inheritance.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/inheritance-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/inheritance-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/inheritance-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/inheritance-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -189,11 +189,11 @@ The following code example illustrates how to create a dependency.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/dependency-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/dependency-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/dependency-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/dependency-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -222,11 +222,11 @@ The following code example illustrates how to customize the multiplicity.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/multiplicity-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/multiplicity-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/multiplicity-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/multiplicity-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -244,11 +244,11 @@ The following code example illustrates how to add members, methods and attribute
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/umlmethod-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/umlmethod-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/umlmethod-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/umlmethod-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -268,11 +268,11 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/uml-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/uml-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/uml-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/uml-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -319,11 +319,11 @@ To create a UmlActivity, define type as "UmlActivity" and set the list of built-
 The following code illustrates how to create UmlActivity shapes.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/UmlActivity-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/UmlActivity-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/UmlActivity-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/UmlActivity-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -337,11 +337,11 @@ The following code illustrates how to create a UmlActivity connector.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/UmlActivityConnector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/UmlActivityConnector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umldiagramshapes/UmlActivityConnector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umldiagramshapes/UmlActivityConnector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

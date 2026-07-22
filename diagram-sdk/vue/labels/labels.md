@@ -26,10 +26,10 @@ The following code illustrates how to create a annotation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Annotation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Annotation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Annotation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Annotation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -45,10 +45,10 @@ The annotation's [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Run-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Run-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Run-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Run-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ A collection of annotations can be removed from the node by using diagram method
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -76,10 +76,10 @@ The following code example illustrates how to change the annotation properties.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Update-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Update-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -24,11 +24,11 @@ To create and add annotations to Nodes and Connectors using the Angular Diagram,
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/annotation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/annotation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/annotation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -44,11 +44,11 @@ The annotation's [`id`](https://ej2.syncfusion.com/angular/documentation/api/dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/run-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/run-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/run-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/run-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -62,11 +62,11 @@ The following code example illustrates how to change the annotation properties.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/update-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/update-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/update-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/update-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -78,11 +78,11 @@ A collection of annotations can be removed from the node by using the diagram me
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/remove-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/remove-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/remove-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/remove-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

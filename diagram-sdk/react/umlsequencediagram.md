@@ -50,10 +50,10 @@ The following code example demonstrates how to create different types of partici
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The following example shows how to create different types of messages between pa
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ The following example demonstrates how to create activation boxes that span spec
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ The following example illustrates how to create fragments with different conditi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/umlsequencediagram/umlsequencediagram-4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

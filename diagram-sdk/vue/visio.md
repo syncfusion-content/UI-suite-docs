@@ -51,10 +51,10 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/visioimportexport/visioImport-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/visioimportexport/visioImport-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/visioimportexport/visioImport-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/visioimportexport/visioImport-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -122,10 +122,10 @@ The following example exports an Vue Diagram to a Microsoft Visio (**.vsdx**) fi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/visioimportexport/visioExport-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/visioimportexport/visioExport-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/visioimportexport/visioExport-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/visioimportexport/visioExport-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

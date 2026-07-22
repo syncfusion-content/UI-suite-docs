@@ -28,10 +28,10 @@ The following code illustrates how to create an overview:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/overview/overview-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/overview/overview-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/overview/overview-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/overview/overview-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ You can interact with the overview as follows:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/overview/overview-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/overview/overview-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/overview/overview-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/overview/overview-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

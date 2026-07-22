@@ -22,10 +22,10 @@ The following example shows the customization of page settings.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/pagesettings-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/pagesettings-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ The following code illustrates how to set background image to the diagram page.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/BGImage-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/BGImage-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/BGImage-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/BGImage-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -59,10 +59,10 @@ Depending on the orientation selected, the width and height properties are adjus
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/pagesettings-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/pagesettings-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -76,10 +76,10 @@ The [`multiplePage`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pa
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/multiplepage-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/multiplepage-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/multiplepage-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/multiplepage-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ Below is an example illustrating how to define boundary constraints within the d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/boundaryconstraints-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/boundaryconstraints-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/boundaryconstraints-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/boundaryconstraints-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -118,10 +118,10 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/fitoptions-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/fitoptions-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/page-settings/fitoptions-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/page-settings/fitoptions-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

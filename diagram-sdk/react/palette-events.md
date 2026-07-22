@@ -18,10 +18,10 @@ The [`DragEnter`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-enter/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-enter/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-enter/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-enter/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ The [`DragLeave`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-leave/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-leave/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-leave/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-leave/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,10 +48,10 @@ The [`DragOver`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-over/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-over/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drag-over/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drag-over/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ The [`Drop`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDropEve
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drop/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drop/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/drop/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/drop/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ The [`PaletteExpanding`](https://ej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/palette-expand/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/palette-expand/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/palette-expand/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/palette-expand/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -93,10 +93,10 @@ The [`PaletteSelectionChange`](https://ej2.syncfusion.com/react/documentation/ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/palette-selection/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/palette-selection/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/events/palette-selection/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/events/palette-selection/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

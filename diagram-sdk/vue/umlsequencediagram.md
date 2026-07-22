@@ -46,10 +46,10 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -84,10 +84,10 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -109,10 +109,10 @@ The following code example illustrates how to create activation boxes:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -152,10 +152,10 @@ The following code example illustrates how to create fragments:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/umlsequencediagram/umlsequencediagram-4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

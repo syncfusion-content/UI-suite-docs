@@ -28,10 +28,10 @@ The [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnT
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ Text annotation nodes can be rendered in the symbol palette alongside other BPMN
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text1-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text1-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
  
  {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text2-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Text2-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -29,11 +29,11 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -51,11 +51,11 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-header/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-header/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-header/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-header/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -87,11 +87,11 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-fields/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-fields/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-fields/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-fields/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -153,11 +153,11 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-styling/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-styling/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-styling/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-styling/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -205,11 +205,11 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-cardinality/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-cardinality/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/erdiagram/er-diagram-cardinality/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/erdiagram/er-diagram-cardinality/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           

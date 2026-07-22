@@ -42,11 +42,11 @@ The following code example demonstrates how to create icons with various shapes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-expandAndCollapse-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-expandAndCollapse-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-expandAndCollapse-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-expandAndCollapse-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,11 +67,11 @@ The following code example illustrates comprehensive icon customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-expandAndCollapse-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-expandAndCollapse-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-expandAndCollapse-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-expandAndCollapse-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

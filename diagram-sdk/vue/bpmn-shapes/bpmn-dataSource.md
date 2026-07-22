@@ -20,10 +20,10 @@ Datasource is used to store or access data associated with a business process. T
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Datasource-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Datasource-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Datasource-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Datasource-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

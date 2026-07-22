@@ -30,11 +30,11 @@ Creating a radial tree layout with a data source provides automatic node generat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/radiallayout-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/radiallayout-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/radiallayout-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/radiallayout-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,11 +48,11 @@ For scenarios requiring manual control over node creation and positioning, the r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/radiallayout-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/radiallayout-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/radiallayout-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/radiallayout-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

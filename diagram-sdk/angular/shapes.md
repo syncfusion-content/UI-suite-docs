@@ -33,11 +33,11 @@ To create a text node, set the shape property to [`text`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/text-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/text-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/text-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/text-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -51,11 +51,11 @@ To create an image node, set the shape property to [`image`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/image-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/image-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/image-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/image-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,11 +67,11 @@ For scenarios where you need to embed images directly without external dependenc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/image-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/image-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/image-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/image-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -87,11 +87,11 @@ The [`scale`](https://ej2.syncfusion.com/angular/documentation/api/diagram/image
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/alignment-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/alignment-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/alignment-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/alignment-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -122,11 +122,11 @@ Define HTML content directly within the [`content`](https://ej2.syncfusion.com/a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/html-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/html-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/html-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/html-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -138,11 +138,11 @@ For complex HTML structures, use the [`nodeTemplate`](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/html-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/html-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/html-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/html-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -156,11 +156,11 @@ To create a [`native`](https://ej2.syncfusion.com/angular/documentation/api/diag
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/native-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/native-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/native-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/native-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -189,11 +189,11 @@ To create [`basic`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/basic-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/basic-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/basic-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/basic-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -215,11 +215,11 @@ To create a [`path`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/path-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/path-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/path-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/path-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -233,11 +233,11 @@ To create [`flow`](https://ej2.syncfusion.com/angular/documentation/api/diagram/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/path-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/path-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/shapes/path-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/shapes/path-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

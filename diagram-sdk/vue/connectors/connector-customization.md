@@ -24,10 +24,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorDec-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorDec-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorDec-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorDec-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -45,10 +45,10 @@ The following code example illustrates how to customize the appearance of the de
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsDecorator-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsDecorator-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ The following code example illustrates how to apply gradient for the decorator.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorGradient-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorGradient-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorGradient-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorGradient-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -85,10 +85,10 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ Bridging can be enabled/disabled either with the `connector.constraints` or `dia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBridging-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBridging-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBridging-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBridging-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ Limitation: Bezier segments do not support bridging.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorHitpadding-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorHitpadding-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorHitpadding-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorHitpadding-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -139,10 +139,10 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsCornerRadius-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsCornerRadius-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsCornerRadius-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsCornerRadius-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -163,10 +163,10 @@ The following code example illustrates how to customize the segment appearance.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsAppearance-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsAppearance-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsAppearance-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsAppearance-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -182,10 +182,10 @@ The following code illustrates how to disable selection.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsConstraints-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsConstraints-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsConstraints-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsConstraints-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -215,10 +215,10 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/zindex-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/zindex-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/zindex-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/zindex-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -230,10 +230,10 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorSpacing-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorSpacing-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorSpacing-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorSpacing-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -245,10 +245,10 @@ The property [`maxSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/ap
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/MaxSegment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/MaxSegment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/MaxSegment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/MaxSegment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -263,10 +263,10 @@ The [`resetSegments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/i
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ResetSegment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ResetSegment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ResetSegment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ResetSegment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -280,10 +280,10 @@ The following code illustrates how to split the connector and create a connectio
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorSplit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorSplit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorSplit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorSplit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -299,10 +299,10 @@ The following example demonstrates how to apply the same style of the original c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/PreserveSplit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/PreserveSplit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/PreserveSplit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/PreserveSplit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

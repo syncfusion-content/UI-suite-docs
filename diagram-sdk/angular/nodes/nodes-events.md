@@ -20,11 +20,11 @@ The following code example demonstrates how to handle the [`click`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs0/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs0/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs0/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs0/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -38,11 +38,11 @@ The following code example shows how to handle the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,11 +67,11 @@ The following code example demonstrates how to handle the [`positionChange`](htt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -96,11 +96,11 @@ The following code example shows how to handle the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -125,11 +125,11 @@ The following code example demonstrates how to handle the [`rotateChange`](https
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -154,11 +154,11 @@ The following code example shows how to handle the [`propertyChange`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -172,11 +172,11 @@ The following code example demonstrates how to handle the [`collectionChange`](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -213,11 +213,11 @@ The following code example demonstrates how to handle these mouse events and imp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-events-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-events-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

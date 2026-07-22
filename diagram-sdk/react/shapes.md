@@ -34,10 +34,10 @@ To create a text node, set the shape property to [`text`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Text-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Text-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Text-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Text-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ To create an image node, set the shape property to [`image`](https://helpej2.syn
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ For scenarios where you need to embed images directly without external dependenc
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ The following code illustrates how to use scale and align properties to stretch 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image2-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image2-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Image2-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image2-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5ContentTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5ContentTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,10 +155,10 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5NodeTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5NodeTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -172,10 +172,10 @@ Refer the code example below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -189,10 +189,10 @@ To create a [`native`](https://helpej2.syncfusion.com/react/documentation/api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Native-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Native-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Native-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Native-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,10 +225,10 @@ The following code example illustrates how to create a basic shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Basic-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Basic-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Basic-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Basic-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -253,10 +253,10 @@ To create a [`Path`](https://helpej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Path-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Path-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Path-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Path-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -270,10 +270,10 @@ To create [`flow`](https://helpej2.syncfusion.com/react/documentation/api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Flow-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Flow-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/shapes/es5Flow-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Flow-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

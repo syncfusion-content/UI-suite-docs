@@ -21,10 +21,10 @@ The following example demonstrates how to render a complex hierarchical tree lay
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -61,10 +61,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -86,10 +86,10 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -107,10 +107,10 @@ The following example shows how to activate enableRouting in the layout:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/complexhiertree-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

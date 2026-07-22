@@ -40,10 +40,10 @@ The following code demonstrates how to add ports during node initialization:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ The port's ID property defines a unique identifier that can be used to reference
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ The [`removePorts`](https://ej2.syncfusion.com/react/documentation/api/diagram#r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,10 +91,10 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -106,10 +106,10 @@ The [`connectionDirection`](https://ej2.syncfusion.com/react/documentation/api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/es5Connection/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/es5Connection/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/es5Connection/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/es5Connection/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,10 +125,10 @@ The `inEdges` and `outEdges` of the port are read-only and cannot be customized.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-edges/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-edges/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ports/ports-edges/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-edges/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

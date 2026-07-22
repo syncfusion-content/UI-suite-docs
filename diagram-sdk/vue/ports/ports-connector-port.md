@@ -16,10 +16,10 @@ The following code example shows how to create connector port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -33,10 +33,10 @@ The following code example shows how to set alignment to the connector port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ The following code example shows how to set displacement to the connector port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -69,10 +69,10 @@ The following code example explains how to connect connector to the connector po
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-con4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-con4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

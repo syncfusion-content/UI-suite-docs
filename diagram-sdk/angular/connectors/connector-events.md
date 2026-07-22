@@ -20,11 +20,11 @@ The following code example demonstrates how to handle the [`click`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorclickevent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorclickevent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorclickevent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorclickevent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,11 +38,11 @@ The following code example demonstrates how to handle the [`selection change`](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSelectEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSelectEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSelectEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSelectEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,11 +68,11 @@ The following code example demonstrates how to handle the [`position change`](ht
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorpositionEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorpositionEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorpositionEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorpositionEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,11 +97,11 @@ The following code example demonstrates how to handle the [`connection change`](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorconnectionEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorconnectionEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorconnectionEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorconnectionEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -115,11 +115,11 @@ The following code example demonstrates how to handle the [`source Point change`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSourcepointEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSourcepointEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSourcepointEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSourcepointEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,11 +144,11 @@ The following code example demonstrates how to handle the [`target Point change`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorTargetpointEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorTargetpointEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorTargetpointEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorTargetpointEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -176,11 +176,11 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSegCollectionEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSegCollectionEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSegCollectionEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSegCollectionEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -194,11 +194,11 @@ The following code example demonstrates how to handle the [`segment change`](htt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSegmentEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSegmentEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSegmentEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSegmentEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,11 +225,11 @@ The following code example demonstrates how to handle the [`collection change`](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorcollectionEvent-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorcollectionEvent-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorcollectionEvent-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorcollectionEvent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

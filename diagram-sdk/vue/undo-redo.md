@@ -61,10 +61,10 @@ The diagram method [`startGroupAction`](https://ej2.syncfusion.com/vue/documenta
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -76,10 +76,10 @@ The [`stackLimit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hist
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -91,10 +91,10 @@ Undo, Redo process can be avoided for particular element by using [`canLog`](htt
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -134,10 +134,10 @@ The following code demonstrates how to use these properties:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -151,10 +151,10 @@ The following code shows how to get the current entry from the diagram history:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-current/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-current/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-current/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-current/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -189,10 +189,10 @@ The [`historyChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/i
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/undo-redo/undo-redo-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

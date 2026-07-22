@@ -32,10 +32,10 @@ The following code demonstrates how to enable the default context menu items:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ The following example demonstrates context menu click handling for node cloning 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ The following example shows how to display different custom menu items for nodes
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/contextmenu-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/contextmenu-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -166,10 +166,10 @@ The following example renders menu items with shortcut key codes for specific ac
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/es5menutemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/es5menutemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/es5menutemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/es5menutemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -187,10 +187,10 @@ The following example shows how to get these events.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/es5events-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/es5events-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/contextmenu/es5events-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/contextmenu/es5events-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
