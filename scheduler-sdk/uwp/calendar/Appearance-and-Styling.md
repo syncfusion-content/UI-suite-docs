@@ -17,7 +17,7 @@ The active calendar day button template can be modified using `CellTemplate` pro
 
 {% tabs %}
 
-{% highlight XAML %}
+{% highlight xaml %}
 
 <input:SfCalendar x:Name="calendar">
 

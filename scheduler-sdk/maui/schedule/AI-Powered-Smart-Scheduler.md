@@ -30,7 +30,7 @@ To connect your .NET MAUI app to Azure OpenAI, create a service class that handl
 
 {% tabs %}
 
-{% highlight c# %}
+{% highlight csharp %}
 
 /// <summary>
 /// Represents Class to interact with Azure AI.
@@ -96,7 +96,6 @@ In this service, define a method called `GetResultsFromAI`. This method takes a 
             return string.Empty;
         }
     }
-}
 
 {% endhighlight %}
 
