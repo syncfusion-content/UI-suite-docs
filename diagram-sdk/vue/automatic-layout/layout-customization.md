@@ -24,10 +24,10 @@ The following example shows how to align the layout within the given layout boun
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-bounds-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-bounds-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-bounds-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-bounds-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ The following code illustrates how to align the layout and how to change layout 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-alignment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-alignment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-alignment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-alignment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code illustrates how to set the initial horizontal and vertical sp
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-spacing-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-spacing-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-spacing-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-spacing-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -84,10 +84,10 @@ The following code demonstrates how to set the initial layout margin and how to 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-margin-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-margin-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-margin-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-margin-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -114,10 +114,10 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-orientation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-orientation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-orientation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-orientation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -133,10 +133,10 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-exclude-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-exclude-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-exclude-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-exclude-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -150,10 +150,10 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-fixed-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-fixed-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-fixed-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-fixed-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -167,10 +167,10 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-expandandcollapse-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-expandandcollapse-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-expandandcollapse-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-expandandcollapse-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -188,10 +188,10 @@ In the following example, the enableAnimation property ensures that the layout c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-animation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-animation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-animation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-animation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -209,10 +209,10 @@ Find the code example to create parent - child relation between source and targe
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-parentChildren-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-parentChildren-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-parentChildren-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-parentChildren-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -232,10 +232,10 @@ The [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/sta
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-setNodeTemplete-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-setNodeTemplete-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/layout-setNodeTemplete-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/layout-setNodeTemplete-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

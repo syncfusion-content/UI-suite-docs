@@ -31,11 +31,11 @@ This approach is ideal when working with dynamic data from databases, APIs, or w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,11 +49,11 @@ This manual approach provides complete control over the chart structure and is s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -107,11 +107,11 @@ The following example demonstrates customizing subtree alignment for horizontal 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,11 +123,11 @@ This example shows how to implement vertical arrangement for leaf-level organiza
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -139,11 +139,11 @@ Assistant nodes represent positions with specialized relationships to their pare
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/organizationalchart-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/organizationalchart-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

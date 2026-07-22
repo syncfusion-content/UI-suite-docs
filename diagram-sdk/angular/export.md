@@ -67,11 +67,11 @@ The default export format is JPG. The following example shows format specificati
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -83,11 +83,11 @@ The [`margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iExp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -131,11 +131,11 @@ The following example demonstrates different region export options:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -154,11 +154,11 @@ The following example shows multi-page export configuration:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -170,11 +170,11 @@ The [`exportImage`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -186,11 +186,11 @@ The [`getDiagramContent`](https://ej2.syncfusion.com/angular/documentation/api/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/export/export-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/export/export-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           

@@ -28,10 +28,10 @@ The following code illustrates, how to set offset for the connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Offset-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Offset-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Offset-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Offset-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Segment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Segment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Segment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Segment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Displacement-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Displacement-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/Displacement-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/Displacement-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ The [`segmentAngle`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pa
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/SegmentAngle-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/SegmentAngle-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/SegmentAngle-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/SegmentAngle-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

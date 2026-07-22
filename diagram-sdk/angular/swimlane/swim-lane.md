@@ -22,11 +22,11 @@ The following code example demonstrates how to define a basic swimlane object:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -47,11 +47,11 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/orientation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/orientation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -65,11 +65,11 @@ The following code example shows how to define and configure a swimlane header:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/swimlaneheader-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/swimlaneheader-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -83,11 +83,11 @@ The following code example demonstrates comprehensive header customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/headercustomise-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/headercustomise-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/headercustomise-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/headercustomise-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -99,11 +99,11 @@ Headers can be modified programmatically during runtime to respond to user inter
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamicheader-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/dynamicheader-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/dynamicheader-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/dynamicheader-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

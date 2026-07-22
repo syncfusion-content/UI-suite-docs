@@ -20,11 +20,11 @@ This feature is particularly useful in scenarios where users need to create conn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,11 +40,11 @@ The default connector type can be customized when drawing from ports by configur
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -58,11 +58,11 @@ Port dragging is valuable when fine-tuning diagram layouts or adapting to changi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -77,11 +77,11 @@ Ports can also be removed using the same Ctrl + Click interaction, provided the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/automaticPortCreation/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/automaticPortCreation/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/automaticPortCreation/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/automaticPortCreation/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -95,11 +95,11 @@ Tooltips are especially beneficial in complex diagrams where ports may not be im
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -118,11 +118,11 @@ Port interactions trigger specific events that enable custom handling and applic
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-int5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-int5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

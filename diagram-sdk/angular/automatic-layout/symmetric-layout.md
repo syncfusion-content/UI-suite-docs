@@ -28,11 +28,11 @@ The following code demonstrates how to arrange nodes using symmetric layout:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/symmetric-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/symmetric-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/symmetric-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/symmetric-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

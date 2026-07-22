@@ -40,11 +40,11 @@ To implement local data binding, configure the `dataSourceSettings` fields to ma
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/localBinding-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/localBinding-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/localBinding-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/localBinding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -60,11 +60,11 @@ For comprehensive DataManager information, see the [`DataManager documentation`]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/remoteBinding-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/remoteBinding-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/remoteBinding-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/remoteBinding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -93,11 +93,11 @@ The diagram can simultaneously read from two data sources: one for nodes and ano
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/connectionDataSource-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/connectionDataSource-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/dataBinding/connectionDataSource-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/dataBinding/connectionDataSource-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

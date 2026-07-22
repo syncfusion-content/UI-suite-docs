@@ -28,10 +28,10 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -41,10 +41,10 @@ The following code example illustrates how to draw a path shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -56,10 +56,10 @@ Similarly, you can draw a text node by setting the type of shape as 'Text' in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -71,10 +71,10 @@ To draw connectors, set the JSON of the connector to the drawType property. The 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -91,10 +91,10 @@ The following code illustrates how to draw a polygon shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -112,10 +112,10 @@ The following code illustrates how to draw a polyline connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ The following code illustrates how to draw a freehand drawing.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ To activate panning mode set the [`tool`](https://ej2.syncfusion.com/vue/documen
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs8/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/tools-cs8/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/tools-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -194,10 +194,10 @@ N> Please note that panning the diagram is not possible when 'multiplePage' is s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/connector-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/connector-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/Tools/connector-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/Tools/connector-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

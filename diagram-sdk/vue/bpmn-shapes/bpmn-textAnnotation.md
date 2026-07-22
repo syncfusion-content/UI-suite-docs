@@ -30,10 +30,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -45,10 +45,10 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Text-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

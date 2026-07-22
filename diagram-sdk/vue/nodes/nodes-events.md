@@ -18,10 +18,10 @@ Triggers when the node is clicked. The following code example explains how to ge
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ The following code example explains how to get the [`positionChange`](https://ej
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code example explains how to get the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -120,10 +120,10 @@ The following code example explains how to get the [`rotateChange`](https://ej2.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -147,10 +147,10 @@ Triggers when there is any property change occurred for the node. The following 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -163,10 +163,10 @@ The following code example explains how to get the [`collectionChange`](https://
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -202,10 +202,10 @@ The following code example shows how to handle these events in the diagram and c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs8/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/nEvents-cs8/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/nEvents-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

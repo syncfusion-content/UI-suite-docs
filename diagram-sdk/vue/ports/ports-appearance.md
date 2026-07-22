@@ -20,10 +20,10 @@ The following code illustrates how to change the appearance of port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The appearance of port can be changed at runtime by customizing the style of por
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -77,10 +77,10 @@ The following code illustrates how to set custom shape to the port.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/ports/ports-app3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/ports/ports-app3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

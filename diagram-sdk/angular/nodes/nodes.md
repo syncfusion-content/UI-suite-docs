@@ -33,11 +33,11 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/angular/documen
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -51,11 +51,11 @@ Nodes can be generated automatically using the dataSource property. Default prop
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,11 +67,11 @@ Nodes can be predefined in a symbol palette and dragged into the diagram as need
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -83,11 +83,11 @@ To enable interactive node drawing, activate the drawing tool by setting `DrawOn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -101,11 +101,11 @@ Nodes can be dynamically added using the [`add`](https://ej2.syncfusion.com/angu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/run-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/run-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/run-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/run-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -117,11 +117,11 @@ Collections of nodes can be efficiently added using the [`addElements`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/nodecollection-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/nodecollection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/nodecollection-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/nodecollection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -133,11 +133,11 @@ Node properties can be modified at runtime with immediate visual updates. Change
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -151,11 +151,11 @@ Node cloning creates new instances with identical properties and attributes. Use
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

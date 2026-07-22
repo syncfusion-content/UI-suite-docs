@@ -38,11 +38,11 @@ The following code example illustrates how to define symbols in a palette and ho
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palettes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palettes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palettes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palettes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -55,11 +55,11 @@ The following example shows how to render connectors in the symbol palette:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-con/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-con/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-con/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-con/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -71,11 +71,11 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-grp/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-grp/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-grp/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-grp/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,11 +94,11 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/content-template/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/content-template/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/content-template/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/content-template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -120,11 +120,11 @@ In the following example, the fill color of the node and target decorator shape 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/default-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/default-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/default-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/default-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -138,11 +138,11 @@ Symbols can be added to the palette at runtime using the public method [`addPale
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/symbol-add/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/symbol-add/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/symbol-add/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/symbol-add/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -154,11 +154,11 @@ Symbols can be removed from the palette at runtime using the public method [`rem
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/symbol-rmv/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/symbol-rmv/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/symbol-rmv/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/symbol-rmv/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -173,11 +173,11 @@ In the following example, the fill color of node and target decorator shape of c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/default-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/default-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/default-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/default-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -190,11 +190,11 @@ You can dynamically add palettes to the symbol palette at runtime to enhance fle
 Follow the example below to see how to add a palette at runtime:
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-add/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-add/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-add/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-add/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -211,11 +211,11 @@ Follow the example below to see how to remove palettes at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-rmv/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-rmv/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/palette-rmv/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/palette-rmv/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -227,11 +227,11 @@ The [`fit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/symbolI
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/fit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/fit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/palettes/fit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/palettes/fit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

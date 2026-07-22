@@ -39,10 +39,10 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectors-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectors-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectors-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectors-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -56,10 +56,10 @@ The following code example illustrates how to add and remove connector at runtim
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsatruntime-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsatruntime-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsatruntime-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ The following code illustrates how to add a connectors collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorCollection-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorCollection-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectorCollection-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -90,10 +90,10 @@ The following code example illustrates how to add connectors in palette.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorPalette-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectorPalette-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectorPalette-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -109,10 +109,10 @@ The following code example illustrates how to draw a connector at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/drawconnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/drawconnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/drawconnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -128,10 +128,10 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsupdate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsupdate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsupdate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -145,10 +145,10 @@ The following code example illustrates how to clone a connector
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/cloneConnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/cloneConnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/cloneConnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -162,10 +162,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/getConnectorDefault-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/getConnectorDefault-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/getConnectorDefault-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -181,10 +181,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectNode-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -219,10 +219,10 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsportupdate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/Connectorsportupdate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/Connectorsportupdate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -232,10 +232,10 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/updateConnectorPort-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/updateConnectorPort-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/updateConnectorPort-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -295,10 +295,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRouting-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRouting-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRouting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -312,10 +312,10 @@ The following image illustrates how the connector automatically re-routes the se
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsLineRoutingDisabled-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -363,10 +363,10 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidLineOverlapping/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/AvoidLineOverlapping/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/AvoidLineOverlapping/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

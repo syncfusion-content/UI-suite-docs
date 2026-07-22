@@ -18,11 +18,11 @@ For more fine-grained control, you can define individual segments within the [`s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsortho-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsortho-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsortho-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsortho-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -36,11 +36,11 @@ The interactive thumbs on an orthogonal connector allow you to adjust the length
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthosegments-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthosegments-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthosegments-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthosegments-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -54,11 +54,11 @@ Orthogonal segments automatically reroute themselves to avoid overlapping with t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectoroverlapping-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectoroverlapping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectoroverlapping-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectoroverlapping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -87,11 +87,11 @@ You can also customize the style of the thumb shape by overriding the `e-orthogo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsThumbshape-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsThumbshape-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsThumbshape-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsThumbshape-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -119,11 +119,11 @@ To customize the thumb size for a specific connector, you must first disable its
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthothumbsize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsorthothumbsize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

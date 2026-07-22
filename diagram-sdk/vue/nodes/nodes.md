@@ -28,10 +28,10 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/vue/documentati
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -48,10 +48,10 @@ The following code illustrates how to add a node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -120,10 +120,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -135,10 +135,10 @@ You can modify any node properties at runtime, and the changes will be instantly
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -155,10 +155,10 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs8/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/nodes/Node-cs8/app.vue %}
+{% include code-snippet/diagram-sdk/vue/nodes/Node-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

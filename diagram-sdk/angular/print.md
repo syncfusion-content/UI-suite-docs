@@ -50,11 +50,11 @@ The following code example illustrates how to print the diagram based on differe
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -68,11 +68,11 @@ The following code example demonstrates how to enable multiple page printing:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -84,11 +84,11 @@ Print margins can be customized using the [`margin`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -100,11 +100,11 @@ The [`pageWidth`](https://ej2.syncfusion.com/angular/documentation/api/diagram/i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -121,11 +121,11 @@ The following example shows how to configure page orientation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/print/print-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/print/print-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           

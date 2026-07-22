@@ -22,10 +22,10 @@ The [`keyDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyeve
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/KeyDown-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/KeyDown-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/KeyDown-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/KeyDown-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -37,10 +37,10 @@ The [`keyUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyevent
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/KeyUp-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/KeyUp-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/KeyUp-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/KeyUp-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ The [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ido
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/DoubleClick-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/DoubleClick-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/DoubleClick-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/DoubleClick-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ The [`textEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/itexte
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/TextEdit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/TextEdit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/TextEdit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/TextEdit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

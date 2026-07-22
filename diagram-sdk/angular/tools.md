@@ -32,11 +32,11 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/tool-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/tool-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/tool-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/tool-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -46,11 +46,11 @@ Path shapes can be drawn using the same approach with custom path data. The foll
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/path-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/path-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/path-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/path-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -62,11 +62,11 @@ Text nodes are created by setting the shape type as 'Text' in the [`drawingObjec
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/text-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/text-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/text-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/text-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -78,11 +78,11 @@ Connectors are drawn by defining the connector configuration in the [`drawingObj
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/connector-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/connector-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/connector-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/connector-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,11 +94,11 @@ The diagram supports interactive polygon creation through point-and-click intera
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polygon-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/polygon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polygon-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/polygon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -110,11 +110,11 @@ Polyline connectors enable creation of multi-segment connections with straight l
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polyline-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/polyline-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/polyline-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/polyline-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -126,11 +126,11 @@ Freehand drawing allows users to create custom paths and sketches by dragging th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/freehand-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/freehand-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/freehand-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/freehand-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -165,11 +165,11 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/zoomPan-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/zoomPan-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/zoomPan-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/zoomPan-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -183,11 +183,11 @@ The [`elementDraw`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/events-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/events-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tools/events-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tools/events-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

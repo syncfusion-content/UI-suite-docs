@@ -40,11 +40,11 @@ The following code demonstrates how to add ports during node initialization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/port-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/port-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/port-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/port-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -60,11 +60,11 @@ The port's ID property defines a unique identifier that can be used to reference
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/add-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/add-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/add-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/add-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -76,11 +76,11 @@ The [`removePorts`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/remove-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/remove-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/remove-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/remove-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,11 +94,11 @@ The following code example illustrates how to change port properties dynamically
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/node-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/node-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/node-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/node-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -111,11 +111,11 @@ The [`connectionDirection`](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/connectionPort/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/connectionPort/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/connectionPort/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/connectionPort/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -131,11 +131,11 @@ The following code example demonstrates how to access the incoming and outgoing 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/edges-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/edges-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/edges-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/edges-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

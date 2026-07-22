@@ -20,11 +20,11 @@ Connectors can be selected programmatically at runtime using the `select` method
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorSelect-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorSelect-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorSelect-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorSelect-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,11 +40,11 @@ A connector can be dragged programmatically at runtime using the `drag` method. 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorDrag-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorDrag-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorDrag-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorDrag-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,11 +62,11 @@ The following code example demonstrates how to drag connector end points at runt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorEndPointDrag-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorEndPointDrag-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorEndPointDrag-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorEndPointDrag-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,11 +99,11 @@ The available flip types are:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecorator-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecorator-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecorator-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecorator-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -34,11 +34,11 @@ The default tooltip that appears while interacting with nodes can be disabled by
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/disabletooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/disabletooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/disabletooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/disabletooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -50,11 +50,11 @@ The tooltip can be customized for each node and connector. To show different too
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -66,11 +66,11 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipnodes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipnodes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipnodes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipnodes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -133,11 +133,11 @@ Here, the code provided below demonstrates the port tooltip interaction.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipports-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipports-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipports-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipports-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -155,11 +155,11 @@ The following code example illustrates how to add formatted HTML content to the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltiptemplate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltiptemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltiptemplate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltiptemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -175,11 +175,11 @@ The following code example illustrates how to position the tooltip around object
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipobject-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipobject-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipobject-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipobject-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -193,11 +193,11 @@ The following code example illustrates how to show tooltip at mouse position.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipmouse-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipmouse-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipmouse-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipmouse-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -211,11 +211,11 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipanimation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipanimation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipanimation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipanimation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -229,11 +229,11 @@ The following example shows how to render sticky tooltip.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/stickytooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/stickytooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/stickytooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/stickytooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -245,11 +245,11 @@ The [`showTipPointer`](https://helpej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/hidetooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/hidetooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/hidetooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/hidetooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -263,11 +263,11 @@ The following code example shows how to set the size for the tooltip:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipsize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipsize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/tooltipsize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/tooltipsize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -281,11 +281,11 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/showhidetooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/showhidetooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/showhidetooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/showhidetooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -299,11 +299,11 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/annotationtooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/annotationtooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/tooltip/annotationtooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/tooltip/annotationtooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

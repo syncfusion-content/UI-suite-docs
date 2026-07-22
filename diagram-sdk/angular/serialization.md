@@ -161,11 +161,11 @@ The uploader requires:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -202,11 +202,11 @@ The following example demonstrates loading a flowchart diagram from Mermaid synt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -218,11 +218,11 @@ The following example demonstrates loading a mind map diagram from Mermaid synta
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -234,11 +234,11 @@ The following example demonstrates loading a UML Sequence diagram from Mermaid s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/serialisation/serialisation-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/serialisation/serialisation-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
           

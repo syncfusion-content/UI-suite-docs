@@ -34,11 +34,11 @@ The `association` property allows you to define the type of association. The fol
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/association-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/association-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/association-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/association-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -68,11 +68,11 @@ The `sequence` property allows you to define the type of sequence flow. The foll
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/sequence-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/sequence-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/sequence-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/sequence-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -102,11 +102,11 @@ The `message` property allows you to define the type of message flow. The follow
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/message-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/message-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/message-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/message-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
