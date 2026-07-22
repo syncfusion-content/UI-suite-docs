@@ -15,24 +15,10 @@ This section explains the steps required to create a simple Essential<sup style=
 
 ## Prerequisites
 
-To get started with application, ensure the following software to be installed in the machine.
+Ensure the following tools are installed on your machine:
 
-* [git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en/)
-
-### Browser support
-
-| Browser | Supported versions |
-|----------|----------|
-| Chrome | 63+ |
-| Firefox | 58+ |
-| Opera | 50+ |
-| Edge | 13+ |
-| IE | 11+ |
-| Safari | 9+ |
-| iOS | 9+ |
-| Android | 4.4+ |
-| Windows Mobile | IE 11+ |
+* [Visual Studio Code](https://code.visualstudio.com) (or any text editor) to create the HTML file
+* A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
 
 ## Dependencies
 
@@ -221,18 +207,7 @@ Now, run the **index.html** in web browser, it will render the Essential<sup sty
 
 ## Registering Syncfusion license
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
-
-**Step 1:** Obtain your license key from the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) or from the [licensing FAQ page](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot).
-
-**Step 2:** Register the license key in your **index.js** file before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control.
-
-```javascript
-// Register Syncfusion license key
-ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
-```
-
-> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
+The Syncfusion® Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/javascript/documentation/licensing/overview) documentation.
 
 ## Troubleshooting
 
