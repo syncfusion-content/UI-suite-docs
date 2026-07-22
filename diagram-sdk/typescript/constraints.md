@@ -152,10 +152,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -274,10 +274,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -359,10 +359,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -431,10 +431,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -496,10 +496,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -555,10 +555,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -602,10 +602,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

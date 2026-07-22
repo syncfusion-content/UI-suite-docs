@@ -31,10 +31,10 @@ The following code illustrates how to create an overview:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-create/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/overview-create/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-create/index.html %}
+{% include code-snippet/diagram-sdk/javascript/overview-create/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The following code illustrates how to create an overview:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-create/index.js %}
+{% include code-snippet/diagram-sdk/javascript/overview-create/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-create/index.html %}
+{% include code-snippet/diagram-sdk/javascript/overview-create/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,10 +70,10 @@ You can interact with the overview as follows:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/overview-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/overview-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ You can interact with the overview as follows:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/overview-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/overview-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/overview-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

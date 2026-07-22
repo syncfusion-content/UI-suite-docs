@@ -29,10 +29,10 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -57,10 +57,10 @@ You can programmatically change the scroll offsets of diagram by customizing the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -100,10 +100,10 @@ The [`zoomTo`](https://ej2.syncfusion.com/documentation/api/diagram#zoomto) meth
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ The following example demonstrates how to configure autoscroll:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ The following code example illustrates how to specify the scroll limit and custo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -198,10 +198,10 @@ The following code example illustrates how to set scroll padding for the diagram
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -239,10 +239,10 @@ The [`scrollChange`](https://ej2.syncfusion.com/documentation/api/diagram/iScrol
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/scrollSettings-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/scrollSettings-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

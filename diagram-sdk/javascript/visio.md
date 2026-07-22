@@ -52,10 +52,10 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioImport-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/visioImport-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioImport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/visioImport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ The following example exports an JavaScript Diagram to a Microsoft Visio (**.vsd
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioExport-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/visioExport-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioExport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/visioExport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

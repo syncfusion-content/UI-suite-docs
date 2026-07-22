@@ -27,10 +27,10 @@ The following example demonstrates how to customize the palette properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-header/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-header/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-header/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The expand and collapse operation of symbol palette can be animated by utilizing
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The [`description`](../../api/diagram/symbolDescription) property defines the de
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-wrap/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-wrap/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-wrap/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-wrap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -93,10 +93,10 @@ The following code example shows how to customize the symbol description.
 
  {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -130,10 +130,10 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -145,10 +145,10 @@ The [`symbolDragSize`](../../api/diagram/symbolPaletteModel#symboldragsize) prop
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-dragSize/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-dragSize/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-dragSize/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-dragSize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-expandMode/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-expandMode/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-expandMode/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-expandMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -184,10 +184,10 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -212,10 +212,10 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -229,10 +229,10 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs25/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs25/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs25/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs25/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -248,10 +248,10 @@ The following code example demonstrates how to define different tooltips for the
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -271,10 +271,10 @@ The following code shows how to localize symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -287,10 +287,10 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -303,10 +303,10 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-search/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-search/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-search/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-search/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -320,10 +320,10 @@ In the following example, we ignored the symbol with the ID of 'plus', so it wil
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-ignoreSearch/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-ignoreSearch/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-ignoreSearch/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-ignoreSearch/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -335,10 +335,10 @@ You can filter the search results based on your specific requirements. To achiev
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -19,10 +19,10 @@ Triggers when the connector is clicked. The following code example explains how 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clickEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clickEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clickEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clickEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SelectEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SelectEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SelectEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SelectEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ The following code example explains how to get the [`positionChange`](../../api/
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-PositionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-PositionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-PositionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-PositionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code example explains how to get the [`connectionChange`](../../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-ConnectionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-ConnectionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-ConnectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-ConnectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -108,10 +108,10 @@ The following code example explains how to get the [`sourcePointChange`](../../a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SourcePointEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SourcePointEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SourcePointEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SourcePointEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -138,10 +138,10 @@ The following code example explains how to get the [`targetPointChange`](../../a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-TargetPointEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-TargetPointEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-TargetPointEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-TargetPointEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -170,10 +170,10 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SegmentEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SegmentEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SegmentEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SegmentEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -187,10 +187,10 @@ The following code example explains how to get the [`segmentChange`](../../api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SegmentEditEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SegmentEditEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-SegmentEditEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-SegmentEditEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -215,10 +215,10 @@ The following code example explains how to get the [`collectionChange`](../../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-CollectionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-CollectionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-CollectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-CollectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

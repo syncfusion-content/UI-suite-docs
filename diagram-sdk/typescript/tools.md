@@ -29,10 +29,10 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](https://ej2
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ The following code example illustrates how to draw a path shape.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -57,10 +57,10 @@ Similarly, you can draw a text node by setting the type of shape as **Text** in 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](https
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ The following code illustrates how to draw a Polyline connector at runtime:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -136,10 +136,10 @@ The following code illustrates how to perform freehand drawing:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -176,10 +176,10 @@ To activate panning mode set the [`tool`](https://ej2.syncfusion.com/documentati
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -193,10 +193,10 @@ The [`elementDraw`](https://ej2.syncfusion.com/documentation/api/diagram/iElemen
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

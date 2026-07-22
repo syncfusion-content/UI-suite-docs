@@ -29,10 +29,10 @@ The following code illustrates, how to set offset for the connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conOffset/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conOffset/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conOffset/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conOffset/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conDisp/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conDisp/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conDisp/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conDisp/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ The [`segmentAngle`](../../api/diagram/pathAnnotationModel#segmentangle) propert
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conSegAngle/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conSegAngle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-conSegAngle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-conSegAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

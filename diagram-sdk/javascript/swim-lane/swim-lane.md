@@ -25,10 +25,10 @@ The following code example illustrates how to define a swimlane object.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ The following code example illustrates how to define a swimlane object.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ The following code example illustrates how to define a swimlane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -75,10 +75,10 @@ The following code example illustrates how to define a swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ The following code example illustrates how to customize the swimlane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -110,10 +110,10 @@ The following code example illustrates how to customize the swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -128,10 +128,10 @@ The following code example illustrates how to customize the swimlane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -141,10 +141,10 @@ The following code example illustrates how to customize the swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,10 +163,10 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-orientation/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-orientation/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-orientation/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-orientation/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -176,10 +176,10 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-orientation/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-orientation/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-orientation/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-orientation/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

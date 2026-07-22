@@ -65,10 +65,10 @@ The following code example illustrates how to align all the selected objects at 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -105,10 +105,10 @@ The following code example illustrates how the nodes are distributed using the `
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -138,10 +138,10 @@ The following code example illustrates how to execute the size commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs15/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs15/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ The following code illustrates how to execute the clipboard commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -188,10 +188,10 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -212,10 +212,10 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -232,10 +232,10 @@ The [`bringToFront`](../api/diagram#bringtofront) command moves the selected ele
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -247,10 +247,10 @@ The [`sendToBack`](../api/diagram#sendtoback) command moves the selected element
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -262,10 +262,10 @@ The [`moveForward`](../api/diagram#moveforward) command moves the selected eleme
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -277,10 +277,10 @@ The [`sendBackward`](../api/diagram#sendbackward) command moves the selected ele
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -338,10 +338,10 @@ The following code illustrates how to execute the nudge command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -367,10 +367,10 @@ The following code illustrates how to execute the bringIntoView command:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -386,10 +386,10 @@ The following code illustrates how to execute the bringToCenter command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -418,10 +418,10 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -447,10 +447,10 @@ The following code example illustrates how to use the command manager to clone a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -464,10 +464,10 @@ The following code example illustrates how to disable the default cut and delete
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs18/index.js %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/commands-cs18/index.html %}
+{% include code-snippet/diagram-sdk/javascript/commands-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

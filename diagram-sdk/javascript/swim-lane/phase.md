@@ -19,10 +19,10 @@ The following code example illustrates how to create phase.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ The following code example illustrates how to create phase.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ The following code example illustrates how to create phase.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -63,10 +63,10 @@ The following code example illustrates how to create phase.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -99,10 +99,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-phaseDynamic/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-phaseDynamic/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -132,10 +132,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-phaseDynamic/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-phaseDynamic/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -27,10 +27,10 @@ The following example demonstrates how to customize the palette properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-header/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-header/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-header/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The expand and collapse operation of symbol palette can be animated by utilizing
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The [`description`](https://ej2.syncfusion.com/documentation/api/diagram/symbolD
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-wrap/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-wrap/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-wrap/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-wrap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -93,10 +93,10 @@ The following code example shows how to customize the symbol description.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -130,10 +130,10 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -145,10 +145,10 @@ The [`symbolDragSize`](https://ej2.syncfusion.com/documentation/api/diagram/symb
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-dragSize/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-dragSize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-dragSize/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-dragSize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-expandMode/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-expandMode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-expandMode/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-expandMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -184,10 +184,10 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -212,10 +212,10 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -229,10 +229,10 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs25/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs25/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs25/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs25/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -248,10 +248,10 @@ The following code example demonstrates how to define different tooltips for the
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -271,10 +271,10 @@ The following code shows how to localize symbol palette.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -287,10 +287,10 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs11/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -303,10 +303,10 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-search/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-search/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-search/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-search/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -320,10 +320,10 @@ In the following example, we ignored the symbol with the ID of 'plus', so it wil
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-ignoreSearch/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-ignoreSearch/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-ignoreSearch/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-ignoreSearch/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -335,10 +335,10 @@ You can filter the search results based on your specific requirements. To achiev
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

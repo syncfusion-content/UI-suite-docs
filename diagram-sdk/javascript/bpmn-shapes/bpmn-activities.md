@@ -25,10 +25,10 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ BPMN tasks.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ BPMN tasks.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ A [`Collapsed Sub-Process`](../../api/diagram/bpmnSubProcessModel#collapsed) is 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -115,10 +115,10 @@ A [`Collapsed Sub-Process`](../../api/diagram/bpmnSubProcessModel#collapsed) is 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ A [`Collapsed Sub-Process`](../../api/diagram/bpmnSubProcessModel#collapsed) is 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -146,10 +146,10 @@ A [`Collapsed Sub-Process`](../../api/diagram/bpmnSubProcessModel#collapsed) is 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ By default, the `compensation` is set to false.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -186,10 +186,10 @@ By default, the `compensation` is set to false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -205,10 +205,10 @@ By default, the call property is false.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -218,10 +218,10 @@ By default, the call property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -238,10 +238,10 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -251,10 +251,10 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -270,10 +270,10 @@ Boundary represents the type of task that is being processed. The [`boundary`](.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -283,10 +283,10 @@ Boundary represents the type of task that is being processed. The [`boundary`](.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -317,10 +317,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -330,10 +330,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -356,10 +356,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -369,10 +369,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -27,10 +27,10 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -48,10 +48,10 @@ The following code illustrates how a group  at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-runtime/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-runtime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-runtime/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](https:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -88,10 +88,10 @@ The following code illustrates how a group node is added at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -109,10 +109,10 @@ The following code illustrates how to add a group nodes collection at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -154,10 +154,10 @@ diagram.removeChildFromGroup (groupNode, childNode);
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -175,10 +175,10 @@ The following code illustrates how to add Padding to the node group.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-padding/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-padding/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-padding/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-padding/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -201,10 +201,10 @@ The following example shows how to apply flip for group node.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-flip/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-flip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-flip/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -225,10 +225,10 @@ As a result, the effective flipMode for both the child node and the group node w
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-flipMode/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-flipMode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -245,10 +245,10 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-nestedGroup/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-nestedGroup/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-nestedGroup/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-nestedGroup/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -266,10 +266,10 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-palette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-palette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-palette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -285,10 +285,10 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-updateRuntime/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-updateRuntime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-updateRuntime/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-updateRuntime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -321,10 +321,10 @@ The following code illustrates how to add canvas panel.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -344,10 +344,10 @@ The following code illustrates how to add a stack panel.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/group-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/group-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/group-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
