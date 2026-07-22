@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Controlling Editor Access
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Controlling Editor Access in the JavaScript Rich Text Editor control

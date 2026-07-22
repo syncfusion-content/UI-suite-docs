@@ -7,7 +7,7 @@ platform: rich-text-editor-sdk
 control: Getting started 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Getting started in JavaScript Rich text editor control

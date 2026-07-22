@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Shortcut key 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Shortcut key in JavaScript Rich text editor control

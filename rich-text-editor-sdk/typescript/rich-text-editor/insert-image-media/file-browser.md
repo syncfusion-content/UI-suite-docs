@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: File browser 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # File browser in TypeScript Rich text editor control
@@ -48,7 +48,7 @@ Map the above packages style and script reference in sample as like below
 The following example explains about how to configure the file browser within the Rich Text Editor component.
 
 * Configure the `FileManager` toolbar item in the `toolbarSettings` API `items` property.
-* Set [`enable`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/fileManagerSettings#enable) property as `true` on [`fileManagerSettings`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#fileManagerSettings) property to make the file browser in the Rich Text Editor to appear on the `FileManager` toolbar click action.
+* Set [`enable`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/filemanagersettings#enable) property as `true` on [`fileManagerSettings`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#filemanagersettings) property to make the file browser in the Rich Text Editor to appear on the `FileManager` toolbar click action.
 
 {% if page.publishingplatform == "typescript" %}
 

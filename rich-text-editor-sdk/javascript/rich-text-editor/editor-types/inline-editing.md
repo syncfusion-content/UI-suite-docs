@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Inline mode 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Inline Editing in the JavaScript  Rich Text Editor component

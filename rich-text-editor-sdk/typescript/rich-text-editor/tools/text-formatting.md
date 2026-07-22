@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Text Formatting and Structure
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Text Formatting in TypeScript Rich Text Editor
@@ -511,7 +511,7 @@ The Rich Text Editor supports line height feature which allows users to adjust t
 
 ### Built-in line height
 
-You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -540,11 +540,11 @@ You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/line-height" %}
 {% endif %}
 
-The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#lineheight) property.
+The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#lineheight) property.
 
 ### Custom line height
 
-The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#lineheight) property. This allows you to extend the available line height options beyond the default selection.
+The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#lineheight) property. This allows you to extend the available line height options beyond the default selection.
 
 The [`supportAllValues`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
 
@@ -612,7 +612,7 @@ Use the `HorizontalLine` tool in the editor below to see the feature in action.
 
 ## Format painter
 
-The format painter tool enables users to replicate formatting from one text segment and apply it to another. It can be accessed through the toolbar or keyboard shortcuts, allowing for the transfer of formatting styles from individual words to entire paragraphs. Customization options for the format painter are available through the [formatPainterSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/formatPainterSettings) property.
+The format painter tool enables users to replicate formatting from one text segment and apply it to another. It can be accessed through the toolbar or keyboard shortcuts, allowing for the transfer of formatting styles from individual words to entire paragraphs. Customization options for the format painter are available through the [formatPainterSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/formatpaintersettings) property.
 
 ### Configuring format painter tool in the toolbar
 
@@ -653,7 +653,7 @@ The following code example shows how to add the format painter tool in the Rich 
 
 ### Customizing copy and paste format
 
-You can customize the format painter tool in the Rich Text Editor using the [formatPainterSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/formatPainterSettings) property.
+You can customize the format painter tool in the Rich Text Editor using the [formatPainterSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/formatpaintersettings) property.
 
 The [allowedFormats](https://ej2.syncfusion.com/documentation/api/rich-text-editor/formatpaintersettings#allowedformats) property helps you to specify tag names that allow the formats to be copied from the selected text. For instance, you can include formats from the selected text using tags like `p; h1; h2; h3; div; ul; ol; li; span; strong; em; code;`. The following example demonstrates how to customize this functionality.
 
