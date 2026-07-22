@@ -21,10 +21,10 @@ To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs21/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ Please refer the following code example.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs22/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs22/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs22/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -71,10 +71,10 @@ The process for the expanded sub-process can be added at runtime using the [`add
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-addProcess/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-addProcess/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-addProcess/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-addProcess/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

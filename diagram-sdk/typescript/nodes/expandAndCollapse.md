@@ -37,10 +37,10 @@ The following code example illustrates how to create an icon of various shapes.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -60,10 +60,10 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs101/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs101/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs101/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs101/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

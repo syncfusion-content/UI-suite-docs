@@ -23,10 +23,10 @@ The following example shows how to render user handle.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ The following example shows how to render user handle.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](../api/diagram#on
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](../api/diagram#on
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,10 +105,10 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -118,10 +118,10 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -149,10 +149,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -162,10 +162,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -185,10 +185,10 @@ The following example demonstrates, how to use these properties to customize the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -198,10 +198,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -223,10 +223,10 @@ In the example below, multiple user handles are utilized for various functionali
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -236,10 +236,10 @@ In the example below, multiple user handles are utilized for various functionali
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -270,10 +270,10 @@ The below example code demonstrating different types of user handles.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -283,10 +283,10 @@ The below example code demonstrating different types of user handles.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -310,10 +310,10 @@ In the following example, the above events are used to customize the appearance 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -323,10 +323,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/userhandle-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/userhandle-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -347,10 +347,10 @@ The following code example demonstrates how to create fixed user handles for nod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -360,10 +360,10 @@ The following code example demonstrates how to create fixed user handles for nod
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -395,10 +395,10 @@ The following example demonstrates how to align fixed user handle for both node 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -408,10 +408,10 @@ The following example demonstrates how to align fixed user handle for both node 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -480,10 +480,10 @@ The following code explains how to customize the alignment of connector fixed us
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -493,10 +493,10 @@ The following code explains how to customize the alignment of connector fixed us
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -512,10 +512,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -525,10 +525,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -561,10 +561,10 @@ The following example demonstrates, how to use these properties to customize the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -574,10 +574,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -592,10 +592,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -605,10 +605,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -634,10 +634,10 @@ In the following example, the above events are used to customize the appearance 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -647,10 +647,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/fixeduserhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

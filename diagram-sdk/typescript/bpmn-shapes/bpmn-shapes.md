@@ -19,10 +19,10 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

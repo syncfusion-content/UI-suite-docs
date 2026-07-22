@@ -22,10 +22,10 @@ The following code illustrates how to change the appearance of port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -42,10 +42,10 @@ The appearance of port can be changed at runtime by customizing the style of por
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -91,10 +91,10 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-shapes/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-shapes/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-shapes/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-shapes/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

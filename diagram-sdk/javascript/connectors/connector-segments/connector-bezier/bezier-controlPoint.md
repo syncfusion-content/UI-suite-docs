@@ -24,10 +24,10 @@ While interacting with multiple bezier segments, maintain their control points a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

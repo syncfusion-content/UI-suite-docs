@@ -25,10 +25,10 @@ Diagram allows you to customize the connector appearances. The following topics 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-decorator/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-decorator/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-decorator/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-decorator/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ The following code example illustrates how to customize the appearance of the de
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code example illustrates how to apply gradient for the decorator.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs24/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs24/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs24/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs24/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -86,10 +86,10 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -102,10 +102,10 @@ Bridging can be enabled/disabled either with the `connector.constraints` or `dia
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs21/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs21/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ Limitation: Bezier segments do not support bridging.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs60/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs60/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs60/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs60/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -140,10 +140,10 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs22/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs22/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs22/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -163,10 +163,10 @@ The following code example illustrates how to customize the segment appearance.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs23/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs23/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs23/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs23/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -182,10 +182,10 @@ The following code illustrates how to disable selection.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs27/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs27/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs27/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs27/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -216,10 +216,10 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs28/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs28/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs28/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs28/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -231,10 +231,10 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -246,10 +246,10 @@ The property [`maxSegmentThumb`](https://ej2.syncfusion.com/documentation/api/di
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs38/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs38/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs38/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs38/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -263,10 +263,10 @@ The [`resetSegments`](https://ej2.syncfusion.com/documentation/api/diagram#reset
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-resetSeg/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-resetSeg/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-resetSeg/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-resetSeg/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -280,10 +280,10 @@ The following code illustrates how to split the connector and create a connectio
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs29/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs29/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs29/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs29/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -299,10 +299,10 @@ The following example demonstrates how to apply the same style of the original c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-split/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-split/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-split/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-split/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

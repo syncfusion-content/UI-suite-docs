@@ -53,10 +53,10 @@ The diagram method [`startGroupAction`](https://ej2.syncfusion.com/documentation
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -68,10 +68,10 @@ The [`stackLimit`](https://ej2.syncfusion.com/documentation/api/diagram/history#
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ Undo, Redo process can be avoided for particular element by using [`canLog`](htt
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -118,10 +118,10 @@ The following code demonstrates how to use these properties:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-canUndo/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-canUndo/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-canUndo/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-canUndo/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ The following code shows how to get the current entry from the diagram history:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-currentEntry/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-currentEntry/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-currentEntry/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-currentEntry/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -172,10 +172,10 @@ The [`historyChange`](https://ej2.syncfusion.com/documentation/api/diagram/index
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-historyEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-historyEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/undoredo-historyEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/undoredo-historyEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

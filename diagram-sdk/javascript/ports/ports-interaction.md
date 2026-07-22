@@ -21,10 +21,10 @@ The following code explains how to draw the connector by using the port constrai
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -34,10 +34,10 @@ The following code explains how to draw the connector by using the port constrai
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -59,10 +59,10 @@ The following code explains how to draw different connectors by using the port c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -72,10 +72,10 @@ The following code explains how to draw different connectors by using the port c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -93,10 +93,10 @@ The following code explains how to enable port drag.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -106,10 +106,10 @@ The following code explains how to enable port drag.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -129,10 +129,10 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/automaticPortCreation/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/automaticPortCreation/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/automaticPortCreation/index.html %}
+{% include code-snippet/diagram-sdk/javascript/automaticPortCreation/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -142,10 +142,10 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/automaticPortCreation/index.js %}
+{% include code-snippet/diagram-sdk/javascript/automaticPortCreation/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/automaticPortCreation/index.html %}
+{% include code-snippet/diagram-sdk/javascript/automaticPortCreation/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -163,10 +163,10 @@ The following code explains how to enable port tooltip.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -176,10 +176,10 @@ The following code explains how to enable port tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -204,10 +204,10 @@ The following example shows how to get these events in diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -217,10 +217,10 @@ The following example shows how to get these events in diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-interact5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-interact5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

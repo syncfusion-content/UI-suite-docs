@@ -24,10 +24,10 @@ The [`snapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/sna
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -55,10 +55,10 @@ The following code example illustrates how to customize the appearance of gridli
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following code example illustrates how to customize the thickness of lines a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ The following code illustrates how to render grid patterns as Dots.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-dots/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-dots/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-dots/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-dots/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](h
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -152,10 +152,10 @@ The [`snapObjectDistance`](https://ej2.syncfusion.com/documentation/api/diagram/
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-snapAngle/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-snapAngle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-snapAngle/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-snapAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -202,10 +202,10 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-snapLineColor/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-snapLineColor/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-snapLineColor/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-snapLineColor/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -222,10 +222,10 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/gridlines-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/gridlines-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

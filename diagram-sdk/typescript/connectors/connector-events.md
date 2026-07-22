@@ -19,10 +19,10 @@ Triggers when the connector is clicked. The following code example explains how 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SelectEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SelectEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SelectEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SelectEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ The following code example explains how to get the [`positionChange`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-PositionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-PositionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-PositionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-PositionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code example explains how to get the [`connectionChange`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-ConnectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-ConnectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-ConnectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-ConnectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -108,10 +108,10 @@ The following code example explains how to get the [`sourcePointChange`](https:/
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SourcePointEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SourcePointEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SourcePointEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SourcePointEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -138,10 +138,10 @@ The following code example explains how to get the [`targetPointChange`](https:/
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-TargetPointEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-TargetPointEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-TargetPointEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-TargetPointEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -170,10 +170,10 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SegmentEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SegmentEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SegmentEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SegmentEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -187,10 +187,10 @@ The following code example explains how to get the [`segmentChange`](https://ej2
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SegmentEditEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SegmentEditEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-SegmentEditEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-SegmentEditEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -215,10 +215,10 @@ The following code example explains how to get the [`collectionChange`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-CollectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-CollectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-CollectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-CollectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

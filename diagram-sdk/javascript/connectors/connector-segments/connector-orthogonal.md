@@ -21,10 +21,10 @@ The [`length`](../../../api/diagram/orthogonalSegment) and [`direction`](../../.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -41,10 +41,10 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The orthogonal connector can have any number of segments in between the source a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -128,10 +128,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs62/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs62/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs62/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs62/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

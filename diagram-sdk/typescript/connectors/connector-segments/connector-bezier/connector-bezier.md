@@ -17,10 +17,10 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegmen
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs14/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -63,10 +63,10 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -82,10 +82,10 @@ By default, when there are no segments defined for a bezier connector, the bezie
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs16/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs16/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -108,10 +108,10 @@ This feature allows users to choose whether to reset the control points of bezie
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-allowSegReset/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-allowSegReset/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-allowSegReset/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-allowSegReset/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -125,10 +125,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs63/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs63/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs63/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs63/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

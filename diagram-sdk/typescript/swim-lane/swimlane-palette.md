@@ -17,10 +17,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

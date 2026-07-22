@@ -21,10 +21,10 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSe
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -41,10 +41,10 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs11/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The orthogonal connector can have any number of segments in between the source a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -127,10 +127,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs62/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs62/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs62/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs62/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

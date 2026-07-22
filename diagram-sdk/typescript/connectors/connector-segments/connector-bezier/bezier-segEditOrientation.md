@@ -23,10 +23,10 @@ The following code illustrates how to interact with Bezier efficiently by using 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-segEdit/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-segEdit/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-segEdit/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-segEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

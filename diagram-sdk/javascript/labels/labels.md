@@ -21,10 +21,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -40,10 +40,10 @@ The annotation's [`id`](../../api/diagram/annotationModel#id) property is used t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -55,10 +55,10 @@ A collection of annotations can be removed from the node by using diagram method
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs22/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs22/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs22/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ The following code example illustrates how to change the annotation properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -38,10 +38,10 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -59,10 +59,10 @@ To bind remote data to the diagram, configure the fields of [`dataSourceSettings
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -100,10 +100,10 @@ This feature allows you to read the data source and perform add or edit or delet
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/dataBinding-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/dataBinding-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

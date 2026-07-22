@@ -60,10 +60,10 @@ The diagram provides support to export the desired region of the diagram to vari
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following code example demonstrates how to set margin for the exported image
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ The following example shows how to export diagram with different regions.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -143,10 +143,10 @@ The following code example demonstrates how to export the diagram as multiple im
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -158,10 +158,10 @@ You can pass the base64 data of an image to the [`exportImage`](../api/diagram/i
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -173,10 +173,10 @@ To get the html diagram content, the [`getDiagramContent`](../api/diagram/index-
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/export-cs-6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/export-cs-6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -79,10 +79,10 @@ The following code example summarizes the locale settings for the context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -135,10 +135,10 @@ The following code example summarizes the locale settings for the symbol palette
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/locale-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/locale-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

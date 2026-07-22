@@ -23,10 +23,10 @@ The following example shows how to render user handle.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ The following example demonstrates, how to use these properties to customize the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -163,10 +163,10 @@ In the example below, multiple user handles are utilized for various functionali
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -198,10 +198,10 @@ The below example code demonstrating different types of user handles.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -226,10 +226,10 @@ In the following example, the above events are used to customize the appearance 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/userhandle-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -251,10 +251,10 @@ The following code example demonstrates how to create fixed user handles for nod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -287,10 +287,10 @@ The following example demonstrates how to align fixed user handle for both node 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -360,10 +360,10 @@ The following code explains how to customize the alignment of connector fixed us
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/interaction-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/interaction-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -380,10 +380,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -417,10 +417,10 @@ The following example demonstrates, how to use these properties to customize the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -436,10 +436,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -466,10 +466,10 @@ In the following example, the above events are used to customize the appearance 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/fixeduserhandle-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/fixeduserhandle-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

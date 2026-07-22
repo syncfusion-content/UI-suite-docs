@@ -19,10 +19,10 @@ Triggers when the node is clicked. The following code example explains how to ge
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-selectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-selectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-selectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-selectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code example explains how to get the [`positionChange`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-positionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-positionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-positionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-positionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -93,10 +93,10 @@ The following code example explains how to get the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resizeEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resizeEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resizeEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resizeEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The following code example explains how to get the [`rotateChange`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotateEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotateEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotateEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotateEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -148,10 +148,10 @@ Triggers when there is any property change occurred for the node. The following 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-propertyChange/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-propertyChange/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-propertyChange/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-propertyChange/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -164,10 +164,10 @@ The following code example explains how to get the [`collectionChange`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-collectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-collectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-collectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-collectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -203,10 +203,10 @@ The following code example shows how to handle these events in the diagram and c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-mouseEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-mouseEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-mouseEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-mouseEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -18,10 +18,10 @@ Gateway is used to control the flow of a process and it is represented as a diam
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -31,10 +31,10 @@ Gateway is used to control the flow of a process and it is represented as a diam
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
