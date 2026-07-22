@@ -180,7 +180,7 @@ Then open the URL displayed in the terminal.
 
 ## Registering Syncfusion license
 
-The Syncfusion® Angular Data Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/angular/documentation/licensing/overview) documentation.
+The Syncfusion® Angular Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/angular/documentation/licensing/overview) documentation.
 
 ## Troubleshooting
 
