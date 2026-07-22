@@ -32,10 +32,10 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -47,10 +47,10 @@ The [`minWidth`](https://ej2.syncfusion.com/documentation/api/diagram/node#minwi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-minWidth/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-minWidth/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-minWidth/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-minWidth/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

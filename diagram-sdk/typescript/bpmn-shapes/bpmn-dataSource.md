@@ -23,10 +23,10 @@ Datasource is used to store or access data associated with a business process. T
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -17,10 +17,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs15/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -30,10 +30,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs15/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs15/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

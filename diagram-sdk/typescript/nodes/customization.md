@@ -19,10 +19,10 @@ The following code example shows how to use getNodeDefaults function.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-nodeDef/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-nodeDef/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -40,10 +40,10 @@ The following code illustrates how to customize the appearance of the shape.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -71,10 +71,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs16/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs16/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -88,10 +88,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs17/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs17/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -130,10 +130,10 @@ The following code shows how to set the rotate angle and corner radius for the n
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-customization-rotate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-customization-rotate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-customization-rotate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-customization-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/documentat
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -160,10 +160,10 @@ The [`angle`](https://ej2.syncfusion.com/documentation/api/diagram/shadowModel#a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -204,10 +204,10 @@ The nodes [`zIndex`](https://ej2.syncfusion.com/documentation/api/diagram/nodeMo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-zIndex/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-zIndex/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-zIndex/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-zIndex/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -231,10 +231,10 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

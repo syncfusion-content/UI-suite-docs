@@ -29,10 +29,10 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](../api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ The following code example illustrates how to draw a path shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -57,10 +57,10 @@ Similarly, you can draw a text node by setting the type of shape as **Text** in 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ The following code illustrates how to draw a Polyline connector at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -136,10 +136,10 @@ The following code illustrates how to perform freehand drawing:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -176,10 +176,10 @@ To activate panning mode set the [`tool`](../api/diagram#tool) property of the d
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -193,10 +193,10 @@ The [`elementDraw`](../api/diagram/iElementDrawEventArgs) event is triggered whe
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -43,10 +43,10 @@ The following code example illustrates how to define symbols in a palette and ho
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -59,10 +59,10 @@ The following example shows how to render connectors in the symbol palette:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-con/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-con/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-con/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-con/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -74,10 +74,10 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-group/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-group/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-group/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-group/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -96,10 +96,10 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-contentFnTemplate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-contentFnTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-contentFnTemplate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-contentFnTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -117,10 +117,10 @@ Symbols can be added to palette at runtime by using public method, `addPaletteIt
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-add/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-add/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-add/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-add/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -132,10 +132,10 @@ Symbols can be removed from palette at runtime by using public method, `removePa
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-remove/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-remove/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-remove/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-remove/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ In the following example, the fill color of node and target decorator shape of c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ Follow the example below to see how to add a palette at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-addPalette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-addPalette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-addPalette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-addPalette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -187,10 +187,10 @@ Follow the example below to see how to remove palettes at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-removePalette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-removePalette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-removePalette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-removePalette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -203,10 +203,10 @@ The [`fit`](../../api/diagram/symbolInfo#fit-boolean) property defines whether t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

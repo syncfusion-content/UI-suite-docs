@@ -31,10 +31,10 @@ The `association` property allows you to define the type of association. The fol
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The `association` property allows you to define the type of association. The fol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ The sequence property allows you to define the type of sequence. The following c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -91,10 +91,10 @@ The sequence property allows you to define the type of sequence. The following c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,10 +125,10 @@ The message property allows you to define the type of message. The following cod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs20/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -138,10 +138,10 @@ The message property allows you to define the type of message. The following cod
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

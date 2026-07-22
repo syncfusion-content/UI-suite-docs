@@ -20,10 +20,10 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs17/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -33,10 +33,10 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

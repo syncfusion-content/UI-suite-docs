@@ -24,10 +24,10 @@ The following example shows how to align the layout within the given layout boun
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The following code illustrates how to align the layout and how to change layout 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs11/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -62,10 +62,10 @@ The following code illustrates how to set the initial horizontal and vertical sp
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -79,10 +79,10 @@ The following code demonstrates how to set the initial layout margin and how to 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -107,10 +107,10 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-exclude/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-exclude/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-exclude/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-exclude/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -140,10 +140,10 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs14/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -155,10 +155,10 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -175,10 +175,10 @@ In the following example, the enableAnimation property ensures that the layout c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cust3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cust3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -194,10 +194,10 @@ Find the code example to create parent - child relation between source and targe
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs17/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs17/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -216,10 +216,10 @@ The [`orientation`](https://ej2.syncfusion.com/documentation/api/diagram/orienta
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs16/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs16/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

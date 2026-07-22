@@ -29,10 +29,10 @@ The following code shows how to set offset, height and width for the annotation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-offsetUpdate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-offsetUpdate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-offsetUpdate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-offsetUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -109,10 +109,10 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-alignUpdate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-alignUpdate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-alignUpdate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-alignUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

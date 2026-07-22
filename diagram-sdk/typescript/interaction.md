@@ -98,10 +98,10 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/documentation/api/diagram/
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-toggle/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/interaction-toggle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-toggle/index.html %}
+{% include code-snippet/diagram-sdk/typescript/interaction-toggle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -139,10 +139,10 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-aspect/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/interaction-aspect/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-aspect/index.html %}
+{% include code-snippet/diagram-sdk/typescript/interaction-aspect/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -154,10 +154,10 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/interaction-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/interaction-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-pivot/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/interaction-pivot/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/interaction-pivot/index.html %}
+{% include code-snippet/diagram-sdk/typescript/interaction-pivot/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

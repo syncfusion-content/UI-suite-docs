@@ -19,10 +19,10 @@ Triggers when the node is clicked. The following code example explains how to ge
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clickEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clickEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clickEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clickEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-selectionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-selectionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-selectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-selectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code example explains how to get the [`positionChange`](../../api/
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-positionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-positionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-positionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-positionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -93,10 +93,10 @@ The following code example explains how to get the [`sizeChange`](../../api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-resizeEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-resizeEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-resizeEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-resizeEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The following code example explains how to get the [`rotateChange`](../../api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-rotateEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-rotateEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-rotateEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-rotateEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -148,10 +148,10 @@ Triggers when there is any property change occurred for the node. The following 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-propertyChange/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-propertyChange/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-propertyChange/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-propertyChange/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -164,10 +164,10 @@ The following code example explains how to get the [`collectionChange`](../../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-collectionEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-collectionEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-collectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-collectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -203,10 +203,10 @@ The following code example shows how to handle these events in the diagram and c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-mouseEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-mouseEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-mouseEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-mouseEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -60,10 +60,10 @@ The diagram provides support to export the desired region of the diagram to vari
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following code example demonstrates how to set margin for the exported image
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ The following example shows how to export diagram with different regions.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -143,10 +143,10 @@ The following code example demonstrates how to export the diagram as multiple im
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -158,10 +158,10 @@ You can pass the base64 data of an image to the [`exportImage`](https://ej2.sync
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -173,10 +173,10 @@ To get the html diagram content, the [`getDiagramContent`](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/export-cs-6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/export-cs-6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

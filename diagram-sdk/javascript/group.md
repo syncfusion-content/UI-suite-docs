@@ -27,10 +27,10 @@ A group can be added to the diagram model through [`nodes`](../api/diagram#nodes
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -40,10 +40,10 @@ A group can be added to the diagram model through [`nodes`](../api/diagram#nodes
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ The following code illustrates how a group  at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-runtime/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-runtime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-runtime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ The following code illustrates how a group  at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-runtime/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-runtime/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-runtime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,10 +91,10 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](../api
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -104,10 +104,10 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](../api
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ The following code illustrates how a group node is added at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ The following code illustrates how a group node is added at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ The following code illustrates how to add a group nodes collection at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -170,10 +170,10 @@ The following code illustrates how to add a group nodes collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -214,10 +214,10 @@ diagram.removeChildFromGroup (groupNode, childNode);
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -227,10 +227,10 @@ diagram.removeChildFromGroup (groupNode, childNode);
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -247,10 +247,10 @@ The following code illustrates how to add Padding to the node group.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-padding/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-padding/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-padding/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-padding/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -260,10 +260,10 @@ The following code illustrates how to add Padding to the node group.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-padding/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-padding/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-padding/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-padding/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -285,10 +285,10 @@ The following example shows how to apply flip for group node.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flip/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-flip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flip/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -298,10 +298,10 @@ The following example shows how to apply flip for group node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flip/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-flip/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flip/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -321,10 +321,10 @@ As a result, the effective flipMode for both the child node and the group node w
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flipMode/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-flipMode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -334,10 +334,10 @@ As a result, the effective flipMode for both the child node and the group node w
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flipMode/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-flipMode/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -353,10 +353,10 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-nestedGroup/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-nestedGroup/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-nestedGroup/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-nestedGroup/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -366,10 +366,10 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-nestedGroup/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-nestedGroup/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-nestedGroup/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-nestedGroup/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -386,10 +386,10 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-palette/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-palette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-palette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -399,10 +399,10 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-palette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-palette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-palette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -417,10 +417,10 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-updateRuntime/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-updateRuntime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-updateRuntime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-updateRuntime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -430,10 +430,10 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-updateRuntime/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-updateRuntime/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-updateRuntime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-updateRuntime/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -465,10 +465,10 @@ The following code illustrates how to add canvas panel.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -478,10 +478,10 @@ The following code illustrates how to add canvas panel.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -500,10 +500,10 @@ The following code illustrates how to add a stack panel.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/group-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -513,10 +513,10 @@ The following code illustrates how to add a stack panel.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/group-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/group-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/group-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

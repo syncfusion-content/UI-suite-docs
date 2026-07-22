@@ -19,10 +19,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs20/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs20/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs21/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs22/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs22/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs22/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -79,10 +79,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs23/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs23/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs23/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs23/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -94,10 +94,10 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs24/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs24/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs24/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs24/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

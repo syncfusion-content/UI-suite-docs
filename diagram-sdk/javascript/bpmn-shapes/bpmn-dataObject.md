@@ -19,10 +19,10 @@ A data object represents information flowing through the process, such as data p
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ A data object represents information flowing through the process, such as data p
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

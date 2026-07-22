@@ -58,10 +58,10 @@ To render `flowchart` layout, you need to set the [`layoutType`](../../api/diagr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -71,10 +71,10 @@ To render `flowchart` layout, you need to set the [`layoutType`](../../api/diagr
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -136,10 +136,10 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -261,10 +261,10 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -274,10 +274,10 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -310,10 +310,10 @@ The following example shows how to set custom text to the yes branch and no bran
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -323,10 +323,10 @@ The following example shows how to set custom text to the yes branch and no bran
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-flowchart-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

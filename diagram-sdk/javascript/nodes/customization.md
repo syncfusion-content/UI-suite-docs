@@ -19,10 +19,10 @@ The following code example shows how to use getNodeDefaults function.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cust-nodeDef/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cust-nodeDef/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cust-nodeDef/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cust-nodeDef/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -40,10 +40,10 @@ The following code illustrates how to customize the appearance of the shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs15/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs15/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -71,10 +71,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs16/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs16/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs16/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -88,10 +88,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -130,10 +130,10 @@ The following code shows how to set the rotate angle and corner radius for the n
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-customization-rotate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-customization-rotate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-customization-rotate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-customization-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ Diagram provides support to add [`shadow`](../../api/diagram/nodemodel#shadow) e
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs18/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -160,10 +160,10 @@ The [`angle`](../../api/diagram/shadowmodel#angle), [`distance`](../../api/diagr
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -204,10 +204,10 @@ The nodes [`zIndex`](../../api/diagram/nodeModel#zindex) property specifies the 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cust-zIndex/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cust-zIndex/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cust-zIndex/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cust-zIndex/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -231,10 +231,10 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

@@ -26,10 +26,10 @@ A node can be selected at runtime by using the [`select`](../../api/diagram#sele
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-select/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-select/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-select/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-select/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ A node can be dragged at runtime by using the [`drag`](../../api/diagram#drag) m
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-drag/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-drag/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-drag/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-drag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ A node can be resized at runtime by using the [`scale`](../../api/diagram#scale)
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-resize/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-resize/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-resize/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-resize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -94,10 +94,10 @@ A node can be rotated at runtime by using the [`rotate`](../../api/diagram#rotat
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-rotate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-rotate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-rotate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -121,10 +121,10 @@ The following code illustrates how to provide the mirror image of the original e
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ The following example demonstrates how to update the flip for a node dynamically
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs4-flip/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs4-flip/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs4-flip/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs4-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -193,10 +193,10 @@ Below are examples of a node undergoing various FlipModes in different flip dire
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-flipMode/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-flipMode/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

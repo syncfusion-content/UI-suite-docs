@@ -26,10 +26,10 @@ A node can be selected at runtime by using the [`select`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-select/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-select/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-select/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-select/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ A node can be dragged at runtime by using the [`drag`](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-drag/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-drag/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-drag/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-drag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ A node can be resized at runtime by using the [`scale`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resize/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resize/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -94,10 +94,10 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -120,10 +120,10 @@ The following code illustrates how to provide the mirror image of the original e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -136,10 +136,10 @@ The following example demonstrates how to update the flip for a node dynamically
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4-flip/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4-flip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4-flip/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -191,10 +191,10 @@ Below are examples of a node undergoing various FlipModes in different flip dire
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-flipMode/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-flipMode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

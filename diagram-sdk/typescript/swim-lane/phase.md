@@ -19,10 +19,10 @@ The following code example illustrates how to create phase.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ The following code example illustrates how to create phase.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -62,10 +62,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-cs14/index.html %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-phaseDynamic/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-phaseDynamic/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/swimlane-phaseDynamic/index.html %}
+{% include code-snippet/diagram-sdk/typescript/swimlane-phaseDynamic/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

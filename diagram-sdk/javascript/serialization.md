@@ -99,10 +99,10 @@ When a JSON file is uploaded, it undergoes parsing to extract its JSON data. Thi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -133,10 +133,10 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -148,10 +148,10 @@ The following example shows how to load mind map diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -163,10 +163,10 @@ The following example shows how to load UML Sequence diagram from mermaid syntax
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

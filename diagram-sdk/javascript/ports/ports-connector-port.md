@@ -19,10 +19,10 @@ The following code example shows how to create connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -32,10 +32,10 @@ The following code example shows how to create connector port.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -54,10 +54,10 @@ The following code example shows how to set alignment to the connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -67,10 +67,10 @@ The following code example shows how to set alignment to the connector port.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -90,10 +90,10 @@ The following code example shows how to set displacement to the connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -103,10 +103,10 @@ The following code example shows how to set displacement to the connector port.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conPort2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conPort2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -128,10 +128,10 @@ The following code example explains how to connect connector to the connector po
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-connect-conPort/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-connect-conPort/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-connect-conPort/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-connect-conPort/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -141,10 +141,10 @@ The following code example explains how to connect connector to the connector po
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-connect-conPort/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-connect-conPort/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-connect-conPort/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-connect-conPort/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

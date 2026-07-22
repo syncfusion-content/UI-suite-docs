@@ -35,10 +35,10 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ The following code example illustrates how to add connector at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -69,10 +69,10 @@ The following code illustrates how to add a connectors collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs61/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs61/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs61/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs61/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ The following code example illustrates how to add connectors in palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-palette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-palette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-palette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -104,10 +104,10 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-draw/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-draw/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-draw/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-draw/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -123,10 +123,10 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -140,10 +140,10 @@ The following code example illustrates how to clone a connector
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-clone/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-clone/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-clone/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-clone/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -157,10 +157,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-getConDef/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-getConDef/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-getConDef/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-getConDef/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -176,10 +176,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -213,10 +213,10 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -226,10 +226,10 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -290,10 +290,10 @@ ej.diagrams.Diagram.Inject(ej.diagrams.LineRouting);
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs25/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs25/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs25/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs25/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -307,10 +307,10 @@ The following image illustrates how the connector automatically re-routes the se
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs26/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs26/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs26/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -356,10 +356,10 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs64/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs64/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs64/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs64/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
