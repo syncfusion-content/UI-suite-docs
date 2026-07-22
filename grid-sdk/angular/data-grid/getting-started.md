@@ -29,8 +29,6 @@ To get started quickly with Angular Data Grid using CLI and Schematics, you can 
 
 ### Angular supported versions
 
-### Angular supported versions
-
 | Angular Version | Minimum Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Data Grid Version |
 |-----------------|-----------------------------------------------|
 |[Angular v22](https://blog.angular.dev/announcing-angular-v22-c52bb83a4664) | 34.1.29 |
