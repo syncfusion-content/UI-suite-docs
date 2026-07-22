@@ -24,7 +24,7 @@ These tools are essential for building complex diagrams and provide the foundati
 
 ## Drawing Tools
 
-Drawing tools enable real-time creation of diagram elements by clicking and dragging on the diagram canvas. All drawing operations are configured through the [`drawingObject`](https://ej2.syncfusion.com/react/documentation/api/diagram#drawingobject) property and activated using the [`tool`](https://ej2.syncfusion.com/react/documentation/api/diagram#tool) property.
+Drawing tools enable real-time creation of diagram elements by clicking and dragging on the diagram canvas. All drawing operations are configured through the [`drawingObject`](https://ej2.syncfusion.com/react/documentation/api/diagram#drawingobject) property and activated using the [`tool`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtools) property.
 
 ### Draw Nodes
 

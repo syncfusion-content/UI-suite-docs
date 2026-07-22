@@ -132,7 +132,7 @@ The following code example illustrates how to change the preview size of a palet
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview" %}
 
 ## Symbol Drag Size
-The [`symbolDragSize`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolPaletteModel#symboldragsize) property sets the dimensions (height and width) of a shape while it is being dragged from the palette to the diagram canvas. This differs from the preview size, which only affects how symbols appear in the palette itself. The following code illustrates how to set `symbolDragSize` for the symbol palette.
+The [`symbolDragSize`](https://ej2.syncfusion.com/react/documentation/api/diagram/symboldragsizemodel) property sets the dimensions (height and width) of a shape while it is being dragged from the palette to the diagram canvas. This differs from the preview size, which only affects how symbols appear in the palette itself. The following code illustrates how to set `symbolDragSize` for the symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -190,7 +190,7 @@ Refer to the image below for an illustration of the tooltip behavior in the symb
 ![SymmbolPaletteTooltip](./images/SymbolPalatteTooltip.gif)
 
 ### Custom Tooltip for Symbols
-To customize tooltips for symbols in the symbol palette, assign a custom tooltip to the [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) property of [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeModel#tooltip) for each symbol. Once you define the custom tooltip, enable the [`Tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeConstraints) constraints for each symbol, ensuring that the tooltips are displayed when users hover over them.
+To customize tooltips for symbols in the symbol palette, assign a custom tooltip to the [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#content) property of [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramtooltipmodel) for each symbol. Once you define the custom tooltip, enable the [`Tooltip`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeConstraints) constraints for each symbol, ensuring that the tooltips are displayed when users hover over them.
 The code provided below demonstrates how to define tooltip content for symbols within a symbol palette.
 
 {% tabs %}

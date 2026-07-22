@@ -17,7 +17,7 @@ A group functions as a container for its children (nodes, groups, and connectors
 
 ## Add Group when Initializing Diagram
 
-A group can be added to the diagram model through [`nodes`](https://ej2.syncfusion.com/react/documentation/api/diagram#nodes) collection. To define an object as group, add the child objects to the [`children`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#children) collection of the group.  The following code illustrates how to create a group node.
+A group can be added to the diagram model through [`nodes`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel) collection. To define an object as group, add the child objects to the [`children`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#children) collection of the group.  The following code illustrates how to create a group node.
 
 * While creating group, its child node need to be declared before the group declaration.
 

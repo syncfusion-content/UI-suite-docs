@@ -14,7 +14,7 @@ Connectors are objects used to create links between two points, nodes, or ports 
 
 ## Create Connector
 
-Connectors can be created by defining the source and target points. The path to be drawn can be defined with a collection of segments. To explore the properties of a [`connector`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector), refer to [`Connector Properties`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector). The [`id`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connectorModel#id) property of a connector is used to define its unique identifier and can later be used to find the connector at runtime for customization.
+Connectors can be created by defining the source and target points. The path to be drawn can be defined with a collection of segments. To explore the properties of a [`connector`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector), refer to [`Connector Properties`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector). The [`id`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorModel#id) property of a connector is used to define its unique identifier and can later be used to find the connector at runtime for customization.
 
 ```ts
 let connectors = [{
@@ -28,7 +28,7 @@ N> When setting a Connector's ID, ensure that it does not contain white spaces, 
 
 ## Add connectors through Connectors Collection
 
-The [`sourcePoint`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#sourcepoint) and [`targetPoint`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#targetpoint) properties of connector allow you to define the end points of a connector.
+The [`sourcePoint`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#sourcepoint) and [`targetPoint`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#targetpoint) properties of connector allow you to define the end points of a connector.
 
 The following code example illustrates how to add a connector through connector collection.
 
@@ -45,7 +45,7 @@ The following code example illustrates how to add a connector through connector 
 
 ## Add/Remove Connector at Runtime
 
-Connectors can be added at runtime by using public method, [`add`](https://helpej2.syncfusion.com/react/documentation/api/diagram#add) and can be removed at runtime by using public method, [`remove`](https://helpej2.syncfusion.com/react/documentation/api/diagram#remove).These methods are useful when you need to dynamically modify diagram structure based on user interactions or data changes.
+Connectors can be added at runtime by using public method, [`add`](https://ej2.syncfusion.com/react/documentation/api/diagram#add) and can be removed at runtime by using public method, [`remove`](https://ej2.syncfusion.com/react/documentation/api/diagram#remove).These methods are useful when you need to dynamically modify diagram structure based on user interactions or data changes.
 
 The following code example illustrates how to add connector at runtime.
 
@@ -62,7 +62,7 @@ The following code example illustrates how to add connector at runtime.
 
 ## Add Collection of Connectors at Runtime
 
-The collection of connectors can be dynamically added using [`addElements`](https://helpej2.syncfusion.com/react/documentation/api/diagram#addelements) method.Each time an element is added to the diagram canvas, the [`collectionChange`](https://helpej2.syncfusion.com/react/documentation/api/diagram#collectionchange) event will be triggered.
+The collection of connectors can be dynamically added using [`addElements`](https://ej2.syncfusion.com/react/documentation/api/diagram#addelements) method.Each time an element is added to the diagram canvas, the [`collectionChange`](https://ej2.syncfusion.com/react/documentation/api/diagram#collectionchange) event will be triggered.
 
 The following code illustrates how to add connectors collection at runtime.
 
@@ -98,7 +98,7 @@ The following code example illustrates how to add connectors in palette.
 
 Connectors can be interactively drawn by clicking and dragging on the diagram surface. This feature enables users to create connections dynamically during diagram creation or editing.
 
-To draw a shape, you have to activate the drawing tool by setting **DrawOnce** or **ContinuousDraw** to the [`tool`](https://helpej2.syncfusion.com/react/documentation/api/diagram#tool) property and you need to set the `connector` object by using the [`drawingObject`](https://helpej2.syncfusion.com/react/documentation/api/diagram#drawingobject) property.
+To draw a shape, you have to activate the drawing tool by setting **DrawOnce** or **ContinuousDraw** to the [`tool`](https://ej2.syncfusion.com/react/documentation/api/diagram#tool) property and you need to set the `connector` object by using the [`drawingObject`](https://ej2.syncfusion.com/react/documentation/api/diagram#drawingobject) property.
 
 The following code example illustrates how to draw a connector at runtime.
 
@@ -153,7 +153,7 @@ The following code example illustrates how to clone a connector.
 
 The connector defaults functionality allows you to define default properties for all connectors in the diagram. This is triggered when the diagram is initialized, providing an opportunity to customize connector properties globally rather than setting them individually for each connector.
 
-The following code example explains how to customize connector defaults using [`getConnectorDefaults`](https://helpej2.syncfusion.com/react/documentation/api/diagram#getconnectordefaults).
+The following code example explains how to customize connector defaults using [`getConnectorDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getconnectordefaults).
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -170,7 +170,7 @@ The following code example explains how to customize connector defaults using [`
 
 ### Connection with Nodes
 
-* The [`sourceID`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#sourceid) and [`targetID`](https://helpej2.syncfusion.com/react/documentation/api/diagram/connector#targetid) properties allow you to define the nodes to be connected. When these properties are set, the connector will automatically attach to the specified nodes and move with them when the nodes are repositioned.
+* The [`sourceID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#sourceid) and [`targetID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#targetid) properties allow you to define the nodes to be connected. When these properties are set, the connector will automatically attach to the specified nodes and move with them when the nodes are repositioned.
 
 The following code example illustrates how to connect two nodes.
 
