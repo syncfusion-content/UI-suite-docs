@@ -80,7 +80,7 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/vue/documentation/api/dia
 
 #### Loop
 
-[`Loop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmntask#loop) is a task that is internally being looped. The loop property of task allows you to define the type of loop. The default value for `loop` is **none**.
+[`Loop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnloops) is a task that is internally being looped. The loop property of task allows you to define the type of loop. The default value for `loop` is **none**.
 You can define the loop property in subprocess BPMN shape as shown in the following code.
 
 {% tabs %}
@@ -152,7 +152,7 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 #### Boundary
 
-Boundary represents the type of task that is being processed. The [`boundary`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocess#boundary) property of subprocess allows you to define the type of boundary. By default, it is set as **default**.
+Boundary represents the type of task that is being processed. The [`boundary`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnboundary) property of subprocess allows you to define the type of boundary. By default, it is set as **default**.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -177,8 +177,8 @@ The following table contains various types of BPMN boundaries.
 
 The different types of subprocess are as follows:
 
-    * Event subprocess
-    * Transaction
+* Event subprocess
+* Transaction
 
 ##### Event subprocess
 
@@ -197,7 +197,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 ## Transaction Subprocess
 
-* [`transaction`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocess#transaction) is a set of activities that logically belong together, in which all contained activities must complete their parts of the transaction; otherwise the process is undone. The execution result of a transaction is one of Successful Completion, Unsuccessful Completion (Cancel), and Hazard (Exception). The [`events`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocess#events) property of subprocess allows to represent these results as an event attached to the subprocess.
+* [`transaction`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmntransactionsubprocess) is a set of activities that logically belong together, in which all contained activities must complete their parts of the transaction; otherwise the process is undone. The execution result of a transaction is one of Successful Completion, Unsuccessful Completion (Cancel), and Hazard (Exception). The [`events`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocess#events) property of subprocess allows to represent these results as an event attached to the subprocess.
 
 * The event object allows you to define the type of event by which the subprocess will be triggered. The name of the event can be defined to identify the event at runtime.
 

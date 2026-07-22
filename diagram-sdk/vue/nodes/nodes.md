@@ -95,7 +95,7 @@ The following code illustrates how to add a nodes collection at runtime.
 ### Create node through data source
 
 Nodes can be generated automatically with the information provided through data source. The default properties for
-these nodes are fetched from default settings ([`getNodeDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#getnodedefaults)). For more information about data source, refer to  [`DataBinding`](https://ej2.syncfusion.com/vue/documentation/diagram/data-binding).
+these nodes are fetched from default settings [`getNodeDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#getnodedefaults). For more information about data source, refer to  [`DataBinding`](https://ej2.syncfusion.com/vue/documentation/diagram/data-binding).
 
 The following code illustrates how to add a nodes collection at runtime.
 

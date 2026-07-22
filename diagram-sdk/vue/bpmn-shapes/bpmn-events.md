@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Event
 
-An [`event`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnevent) is notated with a circle and it represents an event in a business process. The type of events are as follows:
+An [`event`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmneventmodel) is notated with a circle and it represents an event in a business process. The type of events are as follows:
 
     * Start
     * Intermediate

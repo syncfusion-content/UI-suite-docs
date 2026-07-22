@@ -50,7 +50,7 @@ The following code illustrates how to customize the appearance of the shape.
 
 ### Apply gradient style to node
 
-The [`gradient`](https://ej2.syncfusion.com/vue/documentation/api/diagram/gradientmodel) property of the node allows you to define and apply the gradient effect to that node.
+The [`gradient`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel#gradient) property of the node allows you to define and apply the gradient effect to that node.
 
 The gradient stop property defines the color and a position, where the previous color transition ends and a new color transition starts.
 
@@ -217,7 +217,7 @@ N> By default, the zIndex will be generated automatically based on the order of 
 
 ## Pivot
 
-Node rotation angle will be based on [`Pivot`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointmodel) values which range from 0 to 1 like offset values. By default, the Pivot values are set to X= 0.5 and Y=0.5.
+Node rotation angle will be based on [`Pivot`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#pivot) values which range from 0 to 1 like offset values. By default, the Pivot values are set to X= 0.5 and Y=0.5.
 
 The following table illustrates how pivot relates offset values with node boundaries.
 
