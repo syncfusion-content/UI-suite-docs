@@ -175,12 +175,17 @@ Before using Syncfusion components, generate a license key from the [Syncfusion 
 
 Open the `main.ts` file and add the following code:
 
-```typescript
-import { registerLicense } from '@syncfusion/ej2-base';
-registerLicense('YOUR_LICENSE_KEY');
-```
+{% tabs %}
+{% highlight html tabtitle="main.ts" %}
 
-> **Note:** A valid Syncfusion license is required for production use. If a valid license is not registered, a trial license warning message will be displayed when the application runs.
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY_HERE');
+
+{% endhighlight %}
+{% endtabs %}
+
+> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/angular/documentation/licensing/license-key-registration).
 
 ## Troubleshooting
 
