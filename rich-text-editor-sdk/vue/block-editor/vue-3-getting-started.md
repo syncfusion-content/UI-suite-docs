@@ -68,15 +68,13 @@ Then add the following CSS reference to the **src/App.vue** file:
 
 ## Adding Block Editor component
 
-Now, you can start adding the Vue Block Editor component in the application. For getting started, add the Block Editor component in **src/App.vue** file using following sample.
+Now, add the Vue Block Editor component to the **src/App.vue** file using the following sample.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
 
 <template>
-    <div style="margin: 50px auto;">
-        <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
-    </div>
+    <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
 </template>
 
 <script setup>
@@ -91,9 +89,7 @@ Now, you can start adding the Vue Block Editor component in the application. For
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
 <template>
-    <div style="margin: 50px auto;">
-        <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
-    </div>
+    <ejs-blockeditor id="BlockEditor"></ejs-blockeditor>
 </template>
 
 <script>
@@ -132,5 +128,3 @@ For additional Vue 3 examples and related topics, see the following resources:
 * [Getting Started with Vue UI Components using Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)
 
 For migrating from Vue 2 to Vue 3, refer to the [`migration`](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-vue-cli#migration-from-vue-2-to-vue-3) documentation.
-
-N> Looking for the full Vue Block Editor component overview, features, pricing, and documentation? Visit the [Vue Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/vue-block-editor) page.
