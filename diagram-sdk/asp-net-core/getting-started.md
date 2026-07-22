@@ -12,7 +12,7 @@ documentation: ug
 
 This section briefly explains how to include the [ASP.NET Core Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-core-diagram) control in your ASP.NET Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
-> **Ready to streamline your ASP.NET Core development?** Discover the full potential of ASP.NET Core controls with AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, CodeStudio and more. [Explore AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
+> **Ready to streamline your ASP.NET Core development?** Discover the full potential of ASP.NET Core controls with AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Code Studio and more. [Explore AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
 
 ## Create an ASP.NET Core Web App with Razor Pages
 
@@ -84,6 +84,10 @@ dotnet add package Syncfusion.AspNetCore.Themes --version {{ site.releaseversion
 
 {% endtabcontents %}
 
+N> While a Syncfusion® license is not required for local development, you must register a valid Syncfusion® license key when deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/overview).
+
+N> For the latest tested version of the Diagram package, refer to the [`Syncfusion.EJ2.AspNet.Core` package page](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/).
+
 ## Add ASP.NET Core tag helpers
 
 After the packages are installed, open the **~/Pages/_ViewImports.cshtml** file and import the `Syncfusion.AspNetCore.Diagram` and `Syncfusion.AspNetCore.Base` tag helpers.
@@ -143,6 +147,8 @@ Add the [ASP.NET Core Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-cor
 
 {% endhighlight %}
 {% endtabs %}
+
+This renders an empty diagram in the application. The next step replaces this code with a more complete example.
 
 N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
@@ -306,5 +312,20 @@ dotnet run
 {% endtabcontents %}
 
 ![ASP.NET Core Diagram Control](./images/core-diagram-control.webp)
+  
+Open the generated local URL (for example, `http://localhost:5000`) in the browser. The application displays the flowchart with four connected nodes.
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Diagram/ASP.NET%20Core%20Tag%20Helper%20Examples).
+
+N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+
+N> To build the application for production, run `dotnet publish`. The generated output is placed in the `bin/Release` folder.
+
+
+## Next steps
+
+To explore the Diagram control in more depth, refer to the following topics:
+
+* [Nodes](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/nodes)
+* [Connectors](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/connectors)
+* [Annotations](https://ej2.syncfusion.com/aspnetcore/documentation/diagram/labels)
