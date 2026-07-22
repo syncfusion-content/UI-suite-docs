@@ -32,7 +32,7 @@ ej.diagrams.Diagram.Inject(ej.diagrams.DataBinding, ej.diagrams.HierarchicalTree
             //binds the external data with node
             doBinding: function (nodeModel, data, diagram) {
                 nodeModel.annotations = [{
-                    content: data.Name, margin: { top: 10, left: 10, right: 10, bottom: 0 },
+                    content: data.Name, margin: { top: 10, left: 10, right: 10, bottom: 10 },
                     style: { color: 'black' }
                 }
                 ];

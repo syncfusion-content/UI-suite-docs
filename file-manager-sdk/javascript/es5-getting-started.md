@@ -9,13 +9,34 @@ documentation: ug
 domainurl: https://help.syncfusion.com/file-manager-sdk
 ---
 
-# Getting started in JavaScript File Manager control
+# Getting started with JavaScript File Manager control
 
 This section explains the steps required to create a simple Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager and demonstrate the basic usage of the File Manager control in a JavaScript application.
 
+## Prerequisites
+
+To get started with application, ensure the following software to be installed in the machine.
+
+* [git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en/)
+
+### Browser support
+
+| Browser | Supported versions |
+|----------|----------|
+| Chrome | 63+ |
+| Firefox | 58+ |
+| Opera | 50+ |
+| Edge | 13+ |
+| IE | 11+ |
+| Safari | 9+ |
+| iOS | 9+ |
+| Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
 ## Dependencies
 
-A list of dependencies to use the file manager with all features.
+The following list shows the dependencies required to use the File Manager with all its features.
 
 ```javascript
 |-- @syncfusion/ej2-filemanager
@@ -33,203 +54,31 @@ A list of dependencies to use the file manager with all features.
 
 ## Setup for local environment
 
-Refer to the following steps to set up your local environment.
+Follow these steps to set up your local environment.
 
 **Step 1:** Create a root folder named **my-app** for your application.
 
-**Step 2:** Create a **my-app/resources** folder to store local scripts and styles files.
+**Step 2:** Open Visual Studio Code and create two files inside the **my-app** folder:
+- **index.html** — the main HTML file that loads the CDN resources and provides the File Manager container element.
+- **index.js** — the JavaScript file where the File Manager control is initialized.
 
-**Step 3:** Open Visual Studio Code and create **my-app/index.js** and **my-app/index.html** files to initialize the Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control.
+Refer to the [Adding Syncfusion File Manager CDN resources](#adding-syncfusion-file-manager-cdn-resources) and [Adding File Manager control](#adding-file-manager-control) sections below for the content to add to each file.
 
-## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> resources
-
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control can be initialized by using either of the following ways.
-
-* Using local script and style.
-* Using CDN link for script and style.
-
-### Using local script and style
-
-To use local scripts and styles for File Manager, you can follow these steps:
-
-**1. Download Essential<sup style="font-size:70%">&reg;</sup> Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2):** Obtain the global scripts and styles from the [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installation location.
-
-**2. Copy Files to Resources Folder:** After installing the Essential<sup style="font-size:70%">&reg;</sup> JS 2 product build, copy the file manager's scripts, and dependencies scripts and style file into the designated folders:
-
-**Scripts:** Copy the scripts to the **resources/scripts** folder.
-**Styles:** Copy the styles to the **resources/styles** folder.
-
-**3. Locate Script and Style Files:** Identify the location of the file manager's script and style files. The syntax for the file paths are as follows:
-
-**Syntax:**
->Script: `**(installed location)**/Syncfusion/Essential Studio/{RELEASE_VERSION}/Essential JS 2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->Styles: `**(installed location)**/Syncfusion/Essential Studio/{RELEASE_VERSION}/Essential JS 2/{PACKAGE_NAME}/styles/bootstrap5.3.css`
-
-**Example:**
->Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/25.1.35/Essential JS 2/ej2-filemanager/dist/global/ej2-filemanager.min.js`
->Styles: `C:/Program Files (x86)/Syncfusion/Essential Studio/25.1.35/Essential JS 2/ej2-filemanager/styles/bootstrap5.3.css`
-
-**4. Referencing in HTML File:** Once the files are copied, reference the file manager's scripts and styles into the **index.html** file.
-
-Here's an example of referencing the file manager's scripts and styles in an HTML file:
-
-**a.Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
-
-This setup includes only the necessary scripts and styles required to render the File Manager. Use this setup for a lightweight application that requires basic file manager functionality.
+**Step 3:** In **index.html**, add a `<script>` tag at the end of `<body>` to link **index.js**:
 
 ```html
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title>Essential JS 2 File Manager</title>
-
-    <!-- Essential JS 2 File Manager's dependent bootstrap5.3 theme -->
-    <link href="resources/base/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/popups/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/filemanager/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <!-- Essential JS 2 File Manager's dependent scripts -->
-    <script src="resources/scripts/ej2-base.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-data.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-popups.min.js" type="text/javascript"></script>
-
-    <!-- Essential JS 2 File Manager's global script -->
-    <script src="resources/scripts/ej2-filemanager.min.js" type="text/javascript"></script>
-</head>
-
-<body>
-</body>
-
-</html>
-
+<script src="index.js" type="text/javascript"></script>
 ```
 
-**b.Extended Dependency (Additional Controls)**
-This setup includes additional dependencies required for more advanced functionalities of the file manager, such as buttons, dropdowns, navigations, and other controls. Use this setup when you need to integrate additional features like filtering, sorting, context menu and more.
+## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> File Manager CDN resources
+
+The Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control can be initialized by the following way.
+
+This setup includes additional dependencies required for more advanced functionalities of the File Manager, such as buttons, dropdowns, navigations and other components. Use this setup when you need to integrate additional features like filtering, sorting, context menu, and more.
 
 ```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title>Essential JS 2 File Manager</title>
-
-    <!-- Essential JS 2 File Manager's dependent bootstrap5.3 theme -->
-    <link href="resources/base/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/popups/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/filemanager/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/buttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/navigations/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/dropdowns/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/lists/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/inputs/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/splitbuttons/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/layouts/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <link href="resources/grids/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-
-    <!-- Essential JS 2 File Manager's dependent scripts -->
-    <script src="resources/scripts/ej2-base.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-data.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-popups.min.js" type="text/javascript"></script>
-
-    <!-- Essential JS 2 File Manager's global script -->
-    <script src="resources/scripts/ej2-filemanager.min.js" type="text/javascript"></script>
-
-    <!-- Include Essential JS 2 other control's script based on features used -->
-    <script src="resources/scripts/ej2-buttons.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-navigations.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-dropdowns.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-lists.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-inputs.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-splitbuttons.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-layouts.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-grids.min.js" type="text/javascript"></script>
-
-</head>
-
-<body>
-</body>
-
-</html>
-```
-
-**c. Comprehensive Dependency (All Controls)**
-This setup includes all possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
-
-```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title>Essential JS 2 File Manager</title>
-
-    <!-- Essential JS 2 bootstrap5.3 theme -->
-    <link href="resources/styles/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <!-- Essential JS 2 script -->
-    <script src="resources/scripts/ej2.min.js" type="text/javascript"></script>
-</head>
-
-<body>
-</body>
-</html>
-```
-
-### Using CDN link for script and style
-
-Using CDN links, you can directly refer the file manager control's script and style into the `index.html`.
-
-Refer the file manager's CDN links as below
-
-**Syntax:**
-
-> Script: `http://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-> Styles: `http://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/bootstrap5.3.css`
-
-**Example:**
-
-> Script: [https://cdn.syncfusion.com/ej2/ej2-filemanager/dist/global/ej2-filemanager.min.js](http://cdn.syncfusion.com/ej2/ej2-filemanager/dist/global/ej2-filemanager.min.js)
->
-> Styles: [https://cdn.syncfusion.com/ej2/ej2-filemanager/styles/bootstrap5.3.css](http://cdn.syncfusion.com/ej2/ej2-filemanager/styles/bootstrap5.3.css)
-
-Here's an example of referencing the file manager's scripts and styles in an HTML file using CDN links:
-
-**a.Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
-
-This setup includes only the necessary scripts and styles required to render the File Manager. Use this setup for a lightweight application that requires basic file manager functionality.
-
-```html
-<!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-          <title>Essential JS 2 File Manager</title>
-          
-          <!-- Essential JS 2 File Manager's dependent bootstrap5.3 theme -->
-          <link href="http://cdn.syncfusion.com/ej2/ej2-base/styles/bootstrap5.3.css" rel="stylesheet" type="text/css"/>
-          <link href="http://cdn.syncfusion.com/ej2/ej2-popups/styles/bootstrap5.3.css" rel="stylesheet" type="text/css"/>
-          <link href="https://cdn.syncfusion.com/ej2/ej2-filemanager/styles/bootstrap5.3.css" rel="stylesheet" type="text/css"/>
-
-          <!-- Essential JS 2 File Manager's dependent script -->
-          <script src="http://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-          <script src="http://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-          <script src="http://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
-
-          <!-- Essential JS 2 File Manager's global script -->
-          <script src="https://cdn.syncfusion.com/ej2/ej2-filemanager/dist/global/ej2-filemanager.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-```
-
-**b.Extended Dependency (Additional Controls)**
-
-This setup includes additional dependencies required for more advanced functionalities of the file manager, such as buttons, dropdowns, navigations and other controls. Use this setup when you need to integrate additional features like filtering, sorting, context menu and more.
-
-```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <title>Essential JS 2 File Manager</title>
     <!-- Essential JS 2 File Manager's dependent bootstrap5.3 theme -->
@@ -248,63 +97,29 @@ This setup includes additional dependencies required for more advanced functiona
     <!-- Essential JS 2 File Manager's dependent scripts -->
     <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
     <script src="https://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js"
-        type="text/javascript"></script>
-
-    <!-- Essential JS 2 File Manager's global script -->
+    <script src="https://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
     <script src="https://cdn.syncfusion.com/ej2/ej2-filemanager/dist/global/ej2-filemanager.min.js" type="text/javascript"></script>
-
-    <!-- Include Essential JS 2 other control's script based on features used -->
-    <script src="https://cdn.syncfusion.com/ej2/ej2-buttons/dist/global/ej2-buttons.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-navigations/dist/global/ej2-navigations.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-dropdowns/dist/global/ej2-dropdowns.min.js"
-        type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-navigations/dist/global/ej2-navigations.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
     <script src="https://cdn.syncfusion.com/ej2/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-inputs/dist/global/ej2-inputs.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-layouts/dist/global/ej2-layouts.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js"
-        type="text/javascript"></script>
-
+    <script src="https://cdn.syncfusion.com/ej2/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-layouts/dist/global/ej2-layouts.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
 </head>
-
 <body>
 </body>
-
-</html>
-
-```
-
-**c. Comprehensive Dependency (All Controls)**
-
-This setup includes all possible dependencies for Syncfusion<sup style="font-size:70%">&reg;</sup> controls in a single comprehensive file, ensuring maximum compatibility and functionality. Use this setup for a complex application that utilizes a wide range of Syncfusion<sup style="font-size:70%">&reg;</sup> controls.
-
-```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title>Essential JS 2 File Manager</title>
-
-    <!-- Essential JS 2 bootstrap5.3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/bootstrap5.3.css" rel="stylesheet" type="text/css" />
-    <!-- Essential JS 2 all script -->
-    <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
-
-</head>
-
-<body>
-</body>
-
 </html>
 ```
 
-Based on your requirement, additional dependencies can be included as needed. In this documentation, the common **ej2.min.js** and **bootstrap5.3.css** are used, which include all the Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls and their dependent scripts and theme files.
+> To include all required Essential JS 2 styles and scripts, use the following CDN links.
+>
+> Essential JS 2 combined bootstrap5.3 theme (all components)
+> <link href="https://cdn.syncfusion.com/ej2/34.1.29/bootstrap5.3.css" rel="stylesheet" type="text/css" />
+>
+> Essential JS 2 combined script (all components)
+> <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 
 ## Adding File Manager control
 
@@ -312,7 +127,7 @@ You can start adding Essential<sup style="font-size:70%">&reg;</sup> JS 2 file m
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+var hostUrl = 'https://physical-service.syncfusion.com/';
 var filemanagerInstance = new ej.filemanager.FileManager({
     ajaxSettings: {
         url: hostUrl + 'api/FileManager/FileOperations'
@@ -346,23 +161,41 @@ filemanagerInstance.appendTo('#filemanager');
 
 {% endtabs %}
 
->Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) must be defined when initializing the File Manager. The File Manager uses the URLs specified in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in `hostUrl`.
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
+
+### Server-side setup
+
+The sample uses `https://physical-service.syncfusion.com` as the [`url`](../api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](../api/file-manager#ajaxsettings).
+
+To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](../file-system-provider) documentation for setup details.
+
+>Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) property must be defined while initializing the File Manager. File Manager utilizes the URLs mentioned in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in the `hostUrl` variable.
 
 ## Run the application
 
 Now, run the **index.html** in web browser, it will render the Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control.
 
-Output will be displayed as follows.
 
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/es5-getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
+## Registering Syncfusion license
 
-N> Looking for the full JavaScript File Manager component overview, features, pricing, and documentation? Visit the [JavaScript File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) page
+Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
+
+**Step 1:** Obtain your license key from the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) or from the [licensing FAQ page](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot).
+
+**Step 2:** Register the license key in your **index.js** file before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control.
+
+```javascript
+// Register Syncfusion license key
+ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
+```
+
+> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
+
+## Troubleshooting
+
+**File Manager styles are not applied:** Ensure that the required Syncfusion theme CDN link is correctly included in `index.html` file. Verify that the CDN links are accessible and loaded before the File Manager is rendered.
+
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration#javascript-es5) section.
 
 ## See also
 

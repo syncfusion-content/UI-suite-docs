@@ -23,8 +23,6 @@ The accumulation chart control has a number of characteristics that enable acces
 * [`focusBorderWidth`](../api/accumulation-chart/#focusborderwidth) - Specifies the width of the focus border.
 * [`tabIndex`](../api/accumulation-chart/accessibilityModel/#tabindex) - Specifies the tab order for the accumulation chart element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs477/index.ts %}
@@ -36,20 +34,6 @@ The accumulation chart control has a number of characteristics that enable acces
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs477" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs477/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs477/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs477" %}
-{% endif %}
-
 ## Series
 
 The [`series`](../api/accumulation-chart/#series) supports the customization of accessibility for data points, allowing key characteristics to be adjusted for enhanced accessibility, such as:
@@ -58,8 +42,6 @@ The [`series`](../api/accumulation-chart/#series) supports the customization of 
 * [`accessibilityRole`](../api/accumulation-chart/accessibilityModel/#accessibilityrole) - Specifies the role of the series, helping screen readers to identify the element appropriately.
 * [`focusable`](../api/accumulation-chart/accessibilityModel/#focusable) - Allows the series to receive focus, making it accessible via keyboard navigation.
 * [`tabIndex`](../api/accumulation-chart/accessibilityModel/#tabindex) - Specifies the tab order of the series element, enabling efficient keyboard navigation.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -72,20 +54,6 @@ The [`series`](../api/accumulation-chart/#series) supports the customization of 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs478" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs478/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs478/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs478" %}
-{% endif %}
-
 ## Legend
 
 The [`legendSettings`](../api/accumulation-chart/#legendsettings) provide information about the series shown in the accumulation chart. The following [`accessibility`](../api/accumulation-chart/legendSettingsModel/#accessibility) properties in [`legendSettings`](../api/accumulation-chart/#legendsettings) can be used to alter the accessibility of the accumulation chart's legend:
@@ -94,8 +62,6 @@ The [`legendSettings`](../api/accumulation-chart/#legendsettings) provide inform
 * [`accessibilityRole`](../api/accumulation-chart/accessibilityModel/#accessibilityrole) - Specifies the role of the legend items to screen readers, providing appropriate context.
 * [`focusable`](../api/accumulation-chart/accessibilityModel/#focusable) - Specifies whether legend items are focusable via keyboard navigation.
 * [`tabIndex`](../api/accumulation-chart/accessibilityModel/#tabindex) - Specifies the tab order of the legend element, enabling efficient keyboard navigation.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -107,17 +73,3 @@ The [`legendSettings`](../api/accumulation-chart/#legendsettings) provide inform
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs479" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs479/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs479/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/chart-types-cs479" %}
-{% endif %}

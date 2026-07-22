@@ -49,8 +49,6 @@ In the `gradientColorStop`:
 
 Apply a linear gradient to a series by adding `linearGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs1/index.ts %}
@@ -62,25 +60,9 @@ Apply a linear gradient to a series by adding `linearGradient` inside the target
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs1" %}
-{% endif %}
-
 ### Technical Indicators
 
 Apply a linear gradient to a technical indicator by adding `linearGradient` inside the target Indicator.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,20 +74,6 @@ Apply a linear gradient to a technical indicator by adding `linearGradient` insi
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs3" %}
-{% endif %}
 
 ## Radial gradient
 
@@ -131,8 +99,6 @@ In the `gradientColorStop`:
 
 Apply a radial gradient to a series by adding `radialGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs4/index.ts %}
@@ -144,25 +110,9 @@ Apply a radial gradient to a series by adding `radialGradient` inside the target
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs4" %}
-{% endif %}
-
 ### Technical Indicators
 
 Apply a radial gradient to a technical indicator by adding `radialGradient` inside the target Indicator.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -174,17 +124,3 @@ Apply a radial gradient to a technical indicator by adding `radialGradient` insi
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/chart-gradient-cs5" %}
-{% endif %}

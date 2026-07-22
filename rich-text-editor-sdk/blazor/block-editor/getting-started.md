@@ -9,9 +9,9 @@ documentation: ug
 
 # Getting Started with Blazor Block Editor in Blazor Web App
 
-The [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents, and articles content using customizable blocks such as headings, paragraphs, lists, and more.
+The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) is a modular, block-based content editor component that enables rich, structured content creation. It provides an intuitive interface for building documents, and articles content using customizable blocks such as headings, paragraphs, lists, and more.
 
-This section explains how to integrate the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component into a Blazor Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section briefly explains how to include the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component in your Blazor Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 ## Create a new Blazor Web App
 
@@ -19,7 +19,7 @@ This section explains how to integrate the [Blazor Block Editor](https://www.syn
 
 {% tabcontent Visual Studio %}
 
-Create a **Blazor Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+Create a **Blazor Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
 
 {% endtabcontent %}
 
@@ -37,7 +37,7 @@ cd BlazorWebApp.Client
 {% endhighlight %}
 {% endtabs %}
 
-Alternatively, create a **Blazor Web App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc), the [Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+Alternatively, create a **Blazor Web App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc), the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
 
 {% endtabcontent %}
 
@@ -122,7 +122,7 @@ dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
 After the packages are installed, open the **~/_Imports.razor** file in the `.Client` project and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.BlockEditor` namespaces.
 
 {% tabs %}
-{% highlight C# tabtitle="~/_Imports.razor" %}
+{% highlight C# tabtitle="_Imports.razor" %}
 
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.BlockEditor
@@ -148,7 +148,7 @@ builder.Services.AddSyncfusionBlazor();
 
 ## Add stylesheet and script resources
  
-The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [stylesheet](https://blazor.syncfusion.com/documentation/appearance/themes) and [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) in the **App.razor** file.
+The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [stylesheet](https://blazor.syncfusion.com/documentation/appearance/themes) and [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) in the **~/Components/App.razor** file.
 
 {% tabs %}
 {% highlight html tabtitle="App.razor" %}
@@ -163,7 +163,7 @@ The theme stylesheet and script can be accessed from NuGet through [Static Web A
 
 ## Add Blazor Block Editor component
 
-Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/blazor-components/blazor-block-editor) component inside the razor file.
+Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component inside the razor file.
 
 N> If the interactivity location is set to `Per page/component` in the Web App, define a render mode at the top of the razor file. (For example, `InteractiveServer`, `InteractiveWebAssembly` or `InteractiveAuto`). If the **Interactivity** is set to `Global` with `Auto` or `WebAssembly`, the render mode is automatically configured in the `App.razor` file by default.
 
@@ -238,13 +238,13 @@ public class EditorBlockData
 {% endhighlight %}
 {% endtabs %}
 
-**Run the application**
+## Run the application
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor Block Editor component will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-block-editor) component will render in your default web browser.
 
 {% endtabcontent %}
 

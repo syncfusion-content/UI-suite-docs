@@ -66,7 +66,7 @@ Single cell selection in the Gantt chart is enabled by setting [GanttSelectionSe
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDBxXxsLVGYfkbeE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VthxNmMQJdOQATuu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
   
 ## Multiple cell selection
 
@@ -122,7 +122,7 @@ Multiple cell selection in the Gantt Chart is enabled by setting [GanttSelection
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXLnNRWhBbvFjObA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZLntQicTQXDLumT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
   
 > **Note**: Multiple cell selection requires <kbd>Ctrl</kbd> + click on Windows or <kbd>Cmd</kbd> + click on Mac. Ensure selections are visible on smaller screens for mobile responsiveness.
 
@@ -194,7 +194,7 @@ Select a specific cell in the Gantt Chart by calling the  [SelectCellAsync](http
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BDBnjnMVLagJBEnG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjVdXcsGfQtpePiO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Customize cell selection action
 
@@ -297,7 +297,7 @@ The following sample demonstrates selection is canceled in the `cellSelecting` e
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htVdjdMVKNWUHUit?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rNhHtwiwTcDcIOUp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 > **Note**: Use `CellSelecting` to restrict selections based on task properties. Log selected cell details with `CellSelected` for custom actions. Ensure selections are accessible via keyboard (e.g., <kbd>Shift</kbd> + arrow keys for range selection).
 

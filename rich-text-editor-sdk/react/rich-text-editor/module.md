@@ -81,5 +81,3 @@ The following example demonstrates how to import and inject modules.
 | `AIAssistant` | Injecting this module provides AI Assistant functionalities to the Rich Text Editor. |
 
 These modules should be injected using the `<Inject>` component inside the Rich Text Editor component.
-
-N> Looking for the full React Rich Text Editor component overview, features, pricing, and documentation? Visit the [React Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/react-rich-text-editor) page.
