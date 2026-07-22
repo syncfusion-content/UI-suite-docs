@@ -27,8 +27,6 @@ To get started quickly with the Angular Tree Grid using CLI and Schematics, refe
 
 ### Angular supported versions
 
-### Angular supported versions
-
 | Angular Version | Minimum Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Tree Grid Version |
 |-----------------|-----------------------------------------------|
 |[Angular v22](https://blog.angular.dev/announcing-angular-v22-c52bb83a4664) | 34.1.29 |
@@ -180,7 +178,7 @@ Then open the URL displayed in the terminal.
 
 ## Registering Syncfusion license
 
-The Syncfusion® Angular Data Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/angular/documentation/licensing/overview) documentation.
+The Syncfusion® Angular Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/angular/documentation/licensing/overview) documentation.
 
 ## Troubleshooting
 
