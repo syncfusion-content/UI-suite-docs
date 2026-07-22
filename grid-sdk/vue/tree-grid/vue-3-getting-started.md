@@ -245,7 +245,7 @@ yarn run dev
 
 ## Registering Syncfusion license
 
-Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it before rendering your Vue 2 application:
+Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it before rendering your Vue 3 application:
 
 {% tabs %}
 {% highlight html tabtitle="main.js" %}
