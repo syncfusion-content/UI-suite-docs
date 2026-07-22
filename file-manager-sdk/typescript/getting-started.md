@@ -11,7 +11,10 @@ domainurl: https://help.syncfusion.com/file-manager-sdk
 
 # Getting started with TypeScript File Manager control
 
-This section explains how to create a simple File Manager and demonstrates the basic usage of the [File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) control.
+This section explains the steps to create a simple File Manager and demonstrates the basic usage of the File Manager component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2
+[quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+
+> This application is integrated with the **webpack.config.js** configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
@@ -89,10 +92,10 @@ Then add the following CSS reference to the **~src/style.css** file:
 
 ## Adding File Manager control
 
-To get started, add the [File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) control in `main.ts` and `index.html` files. File Manager can be initialized through div element.
+Add the File Manager component in **src/app/app.ts** file using the following code.
 
 {% tabs %}
-{% highlight ts tabtitle="main.ts" %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { FileManager, Toolbar, NavigationPane, DetailsView } from '@syncfusion/ej2-filemanager';
 import './style.css';
@@ -134,6 +137,8 @@ filemanagerInstance.appendTo('#filemanager');
 {% endhighlight %}
 {% endtabs %}
 
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/getting-started-cs1" %}
+
 ### Server-side setup
 
 The sample uses `https://physical-service.syncfusion.com` as the [`url`](../api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](../api/file-manager#ajaxsettings).
@@ -150,7 +155,7 @@ Use the following command to run the application in the browser.
 npm run dev
 ```
 
-## Registering the license key
+## Registering Syncfusion license
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
 
@@ -169,16 +174,9 @@ registerLicense('YOUR_LICENSE_KEY_HERE');
 
 ## Troubleshooting
 
-**File Manager renders blank / no files appear**
-- Verify that the [`ajaxSettings`](../api/file-manager#ajaxsettings) [`url`](../api/file-manager/ajaxsettings#url) property is set and points to a valid, running File Manager service endpoint.
-- Open the browser developer console (F12) and check for JavaScript errors.
+**File Manager styles are not applied:** Ensure that the required Syncfusion theme package is installed and the theme CSS is imported correctly in the `src/styles/styles.css` file.
 
-**License validation warning in the console**
-- Register your license key before instantiating any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](#registering-a-license-key) section.
-
-**CDN resources fail to load**
-- Check your internet connection.
-- Confirm the version number in the CDN URLs matches a valid published release. See the [Syncfusion CDN page](https://cdn.syncfusion.com/ej2/) for available versions.
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/documentation/licensing/license-key-registration#register-syncfusion-license-key-in-the-project) section.
 
 ## See also
 

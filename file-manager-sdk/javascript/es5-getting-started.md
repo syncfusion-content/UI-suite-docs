@@ -62,6 +62,8 @@ Follow these steps to set up your local environment.
 - **index.html** — the main HTML file that loads the CDN resources and provides the File Manager container element.
 - **index.js** — the JavaScript file where the File Manager control is initialized.
 
+Refer to the [Adding Syncfusion File Manager CDN resources](#adding-syncfusion-file-manager-cdn-resources) and [Adding File Manager control](#adding-file-manager-control) sections below for the content to add to each file.
+
 **Step 3:** In **index.html**, add a `<script>` tag at the end of `<body>` to link **index.js**:
 
 ```html
@@ -159,6 +161,8 @@ filemanagerInstance.appendTo('#filemanager');
 
 {% endtabs %}
 
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
+
 ### Server-side setup
 
 The sample uses `https://physical-service.syncfusion.com` as the [`url`](../api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](../api/file-manager#ajaxsettings).
@@ -167,7 +171,12 @@ To use your own files, host a File Manager service and replace the `url` value w
 
 >Note: The [`ajaxSettings`](../api/file-manager#ajaxsettings) property must be defined while initializing the File Manager. File Manager utilizes the URLs mentioned in `ajaxSettings` to send file operation requests to the server. The File Manager service link is provided in the `hostUrl` variable.
 
-## Registering a license key
+## Run the application
+
+Now, run the **index.html** in web browser, it will render the Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control.
+
+
+## Registering Syncfusion license
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 controls require a valid license key from version 16.2.0.17 onwards. Without a license key, a license validation message will appear in the browser console.
 
@@ -182,33 +191,11 @@ ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
 
 > Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
 
-## Run the application
-
-Now, run the **index.html** in web browser, it will render the Essential<sup style="font-size:70%">&reg;</sup> JS 2 File Manager control.
-
-Output will be displayed as follows.
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/es5-getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
-
 ## Troubleshooting
 
-**File Manager renders blank / no files appear**
-- Verify that the [`ajaxSettings`](../api/file-manager#ajaxsettings) [`url`](../api/file-manager/ajaxsettings#url) property is set and points to a valid, running File Manager service endpoint.
-- Open the browser developer console (F12) and check for JavaScript errors.
+**File Manager styles are not applied:** Ensure that the required Syncfusion theme CDN link is correctly included in `index.html` file. Verify that the CDN links are accessible and loaded before the File Manager is rendered.
 
-**License validation warning in the console**
-- Register your license key before instantiating any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](#registering-a-license-key) section.
-
-**CDN resources fail to load**
-- Check your internet connection.
-- Confirm the version number in the CDN URLs matches a valid published release. See the [Syncfusion CDN page](https://cdn.syncfusion.com/ej2/) for available versions.
-
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration#javascript-es5) section.
 
 ## See also
 
