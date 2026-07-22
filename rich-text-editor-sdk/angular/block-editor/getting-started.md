@@ -64,16 +64,16 @@ npm install @syncfusion/ej2-angular-blockeditor
 
 Syncfusion provides multiple themes for the Block Editor component. For a complete list of available themes, refer to the [themes packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
 
-Install a Syncfusion theme package to provide the required styles. The following example installs the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme:
+Install a Syncfusion theme package to provide the required styles. The following example installs the [Material 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme:
 
 ```bash
-npm install @syncfusion/ej2-tailwind3-theme --save
+npm install @syncfusion/ej2-material3-theme --save
 ```
 
 To render the Block Editor component, add the following import in the [src/styles.css] file to load all required dependency styles:
 
 ```css
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/blockeditor/index.css';
 ```
 
 ## Add Syncfusion Block Editor Component
