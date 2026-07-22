@@ -28,10 +28,7 @@ To enable AI functionality in your .NET MAUI Scheduler, first ensure that you ha
 
 To connect your .NET MAUI app to Azure OpenAI, create a service class that handles communication with the AI model. 
 
-{% tabs %}
-
 {% highlight c# %}
-
 /// <summary>
 /// Represents Class to interact with Azure AI.
 /// </summary>
@@ -42,13 +39,10 @@ public class AzureAIServices : AzureBaseService
     /// </summary>
     public AzureAIServices()
     {
-        
+
     }
 }
-
 {% endhighlight %}
-
-{% endtabs %}
 
 In this service, define a method called `GetResultsFromAI`. This method takes a user prompt from the SfAIAssistView control as input, sends it to the deployed model (e.g., GPT35Turbo), and returns the AI-generated response.
 
@@ -96,7 +90,6 @@ In this service, define a method called `GetResultsFromAI`. This method takes a 
             return string.Empty;
         }
     }
-}
 
 {% endhighlight %}
 
