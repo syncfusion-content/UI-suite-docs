@@ -19,10 +19,10 @@ The following example demonstrates how to create a connector with multiple segme
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5multipleSegment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5multipleSegment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,10 +46,10 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/connectors-segundo/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/connectors-segundo/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/connectors-segundo/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/connectors-segundo/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

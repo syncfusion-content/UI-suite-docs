@@ -23,10 +23,10 @@ The following code shows how to add a ruler to the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/ruler-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/ruler-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ The following code shows how the diagram ruler can be customized.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/customRuler-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/customRuler-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/customRuler-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/ruler/customRuler-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

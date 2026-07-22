@@ -18,10 +18,10 @@ To create a BPMN shape, set the node's shape type property to **BPMN** and speci
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5bpmn-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5bpmn-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

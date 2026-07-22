@@ -34,10 +34,10 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectors-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectors-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectors-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectors-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ The following code example illustrates how to add connector at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsatruntime-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsatruntime-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsatruntime-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsatruntime-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ The following code illustrates how to add connectors collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectoraddatRunTime-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectoraddatRunTime-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectoraddatRunTime-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectoraddatRunTime-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -85,10 +85,10 @@ The following code example illustrates how to add connectors in palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorfrompalette-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorfrompalette-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorfrompalette-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorfrompalette-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ The following code example illustrates how to draw a connector at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectordrawTool-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectordrawTool-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectordrawTool-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectordrawTool-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsupdate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsupdate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsupdate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsupdate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ The following code example illustrates how to clone a connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorClone-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorClone-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorClone-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorClone-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ The following code example explains how to customize connector defaults using [`
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5getConnectordefaults-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5getConnectordefaults-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5getConnectordefaults-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5getConnectordefaults-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -176,10 +176,10 @@ The following code example illustrates how to connect two nodes.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -233,10 +233,10 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsport-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsport-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsport-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsport-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -246,10 +246,10 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsportupdate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsportupdate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5Connectorsportupdate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Connectorsportupdate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -327,13 +327,13 @@ The line routing constraints must be included in the default diagram constraints
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRouting-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRouting-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRouting-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRouting-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRouting-cs1/index.html %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRouting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -347,13 +347,13 @@ The following image illustrates how the connector automatically re-routes the se
 
  {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/index.html %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsLineRoutingDisabled-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -394,13 +394,13 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/AvoidLineOverlappings/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/AvoidLineOverlappings/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/AvoidLineOverlappings/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/AvoidLineOverlappings/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/AvoidLineOverlappings/index.html %}
+{% include code-snippet/diagram-sdk/react/connectors/AvoidLineOverlappings/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

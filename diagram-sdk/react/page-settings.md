@@ -26,10 +26,10 @@ The following example shows the customization of page settings.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5pagesettings-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5pagesettings-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ The following code illustrates how to set background image to the diagram page.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5BGImage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5BGImage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ The following example demonstrates how orientation affects page dimensions by sw
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5pagesettings-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5pagesettings-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ The [`multiplePage`](https://helpej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5multiplepage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5multiplepage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ The following example shows how to configure boundary constraints to restrict el
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5boundaryconstraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5boundaryconstraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,10 +126,10 @@ The following example demonstrates the configuration and usage of fit options fo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5FitOption-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/pagesettings/es5FitOption-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

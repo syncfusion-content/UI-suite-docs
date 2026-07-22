@@ -32,10 +32,10 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Path shapes can be drawn using the same approach with custom path data. The foll
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -61,10 +61,10 @@ Similarly, you can draw a text node by setting the type of shape as 'Text' in th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,10 +77,10 @@ Connectors are drawn by defining the connector configuration in the `drawingObje
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The diagram supports interactive polygon creation through point-and-click intera
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ The following code illustrates how to draw a polyline connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ The following code illustrates how to perform freehand drawing:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -172,10 +172,10 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -189,10 +189,10 @@ The [`elementDraw`](https://ej2.syncfusion.com/react/documentation/api/diagram#e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs9/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs9/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/tools-cs9/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs9/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

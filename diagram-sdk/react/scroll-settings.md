@@ -26,10 +26,10 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/polygon-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/polygon-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ The scroll offsets of the diagram can be programmatically modified by customizin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/polygon-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/polygon-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/polygon-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ The following example demonstrates how to zoom in and zoom out of the diagram us
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/zoomOptions-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/Tools/zoomOptions-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/zoomOptions-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -122,10 +122,10 @@ The following example demonstrates how to configure autoscroll:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ The following code example illustrates how to specify the scroll limit and custo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,10 +174,10 @@ The following code example illustrates how to set scroll padding for the diagram
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ The [`scrollChange`](https://helpej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/undoredo/es5Connect-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

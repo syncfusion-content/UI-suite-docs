@@ -23,7 +23,7 @@ The following code example explains the data loaded event in the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/reactCurlyExamples/layout-event-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/layout-event-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,11 +35,11 @@ The event provides information about the affected node, its current state, and w
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layoutEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layoutEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,11 +54,11 @@ The event fires at the end of the animation cycle, ensuring that all visual upda
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layoutEvent-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/layoutEvent-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,7 +72,7 @@ The event includes a state parameter that indicates whether the layout process i
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/reactCurlyExamples/layout-event-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/layout-event-cs2/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
