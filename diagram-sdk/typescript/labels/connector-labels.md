@@ -29,10 +29,10 @@ The following code illustrates, how to set offset for the connector.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conOffset/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conOffset/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conOffset/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conOffset/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -50,10 +50,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -65,10 +65,10 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conDisp/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conDisp/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conDisp/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conDisp/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ The [`segmentAngle`](https://ej2.syncfusion.com/documentation/api/diagram/pathAn
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conSegAngle/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conSegAngle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conSegAngle/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conSegAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

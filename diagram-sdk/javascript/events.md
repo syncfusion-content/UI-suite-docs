@@ -60,10 +60,10 @@ The following example shows the order of these event triggers and how to handle 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/events-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/events-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ The following example shows the order of these event triggers and how to handle 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/events-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/events-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/events-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/events-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -105,10 +105,10 @@ The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/events-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/events-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/events-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

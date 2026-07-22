@@ -21,10 +21,10 @@ You can create a radial tree layout with DataSource. The following code example 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -38,10 +38,10 @@ You can render a radial tree layout without using DataSource. The following code
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-radialTree/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-radialTree/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

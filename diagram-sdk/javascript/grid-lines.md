@@ -24,10 +24,10 @@ The [`snapConstraints`](../api/diagram/snapsettings#constraints) enables you to 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -37,10 +37,10 @@ The [`snapConstraints`](../api/diagram/snapsettings#constraints) enables you to 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ The following code example illustrates how to customize the appearance of gridli
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -80,10 +80,10 @@ The following code example illustrates how to customize the appearance of gridli
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The following code example illustrates how to customize the thickness of lines a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -115,10 +115,10 @@ The following code example illustrates how to customize the thickness of lines a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -137,10 +137,10 @@ The following code illustrates how to render grid patterns as Dots.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -150,10 +150,10 @@ The following code illustrates how to render grid patterns as Dots.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -177,10 +177,10 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -190,10 +190,10 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ The [`snapObjectDistance`](../api/diagram/snapsettingsmodel#snapobjectdistance) 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -225,10 +225,10 @@ The [`snapObjectDistance`](../api/diagram/snapsettingsmodel#snapobjectdistance) 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -249,10 +249,10 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -262,10 +262,10 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -286,10 +286,10 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -299,10 +299,10 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -318,10 +318,10 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -331,10 +331,10 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

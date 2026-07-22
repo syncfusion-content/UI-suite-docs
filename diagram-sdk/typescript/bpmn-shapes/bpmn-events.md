@@ -27,10 +27,10 @@ The [`event`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnevents) p
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -23,10 +23,10 @@ The following code illustrates how to arrange the nodes in a radial tree structu
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

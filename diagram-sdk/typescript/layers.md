@@ -28,10 +28,10 @@ In the following example, the basic shapes are categorized in layer 1, and the f
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -45,10 +45,10 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ In the following example the objects in layer one is locked. By default, the `lo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -139,10 +139,10 @@ The following code illustrates how to add a new layer with new connectors stored
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -159,10 +159,10 @@ The following code illustrates how to remove a layer.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ The following code illustrates how to move objects from one layer to another lay
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -214,10 +214,10 @@ The following code illustrates how to send the layer forward/backward to another
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -238,10 +238,10 @@ The following code illustrates how to clone the layer.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/layers-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/layers-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

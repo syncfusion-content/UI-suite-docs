@@ -23,10 +23,10 @@ The following code illustrates how to create a container node:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/container-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/container-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ The following code illustrates how to create a container node:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/container-1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/container-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The following code example explains how to define a container header and its cus
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/container-2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/container-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -70,10 +70,10 @@ The following code example explains how to define a container header and its cus
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/container-2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/container-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/container-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

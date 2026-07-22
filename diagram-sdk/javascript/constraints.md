@@ -152,10 +152,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -274,10 +274,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -359,10 +359,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -431,10 +431,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -496,10 +496,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -555,10 +555,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -602,10 +602,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

@@ -19,10 +19,10 @@ The following code example illustrates how to create an organizational chart wit
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ You can render an org-chart layout without using DataSource. The following code 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-orgChart/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-orgChart/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-orgChart/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-orgChart/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -88,10 +88,10 @@ The following example shows how to utilize the `getLayoutInfo` function to custo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -103,10 +103,10 @@ The following code example illustrates how to set the vertical arrangement to th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -121,10 +121,10 @@ The following code example illustrates how to add assistants to layout.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

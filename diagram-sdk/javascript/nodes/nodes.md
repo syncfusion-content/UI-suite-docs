@@ -29,10 +29,10 @@ To create a node, define the [`node`](../../api/diagram/node) object and add tha
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ The following code illustrates how to add a node and remove a selected node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -66,10 +66,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs21/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ Nodes can be predefined and added to the palette, and can be dropped into the di
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-palette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-palette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-palette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -97,10 +97,10 @@ Nodes can be generated automatically with the information provided through dataS
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-dataBind/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-dataBind/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-dataBind/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-dataBind/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ You can modify any node properties at runtime, and the changes will be instantly
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-update/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-update/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-update/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-update/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clone/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clone/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clone/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clone/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ The following code example demonstrates how to convert a tree view element into 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-treeView/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-treeView/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-treeView/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-treeView/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

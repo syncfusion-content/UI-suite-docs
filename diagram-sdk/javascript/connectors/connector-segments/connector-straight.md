@@ -14,10 +14,10 @@ To create a straight line, specify the [`type`](../../../api/diagram/segments) o
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -27,10 +27,10 @@ The [`point`](../../../api/diagram/straightSegment#point-PointModel) property of
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ The following example shows how to add segments at runtime for the straight conn
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-straightSegEdit/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-straightSegEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-straightSegEdit/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-straightSegEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

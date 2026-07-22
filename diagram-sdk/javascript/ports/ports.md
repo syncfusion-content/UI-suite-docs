@@ -44,10 +44,10 @@ To add a connection port, define the port object and add it to node’s [`ports`
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -57,10 +57,10 @@ To add a connection port, define the port object and add it to node’s [`ports`
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -80,10 +80,10 @@ If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -93,10 +93,10 @@ If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -112,10 +112,10 @@ You can remove ports at runtime by using diagram method [`removePorts`](../../ap
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -125,10 +125,10 @@ You can remove ports at runtime by using diagram method [`removePorts`](../../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -146,10 +146,10 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -159,10 +159,10 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -179,10 +179,10 @@ The [`connectionDirection`](../../api/diagram/port#connectiondirection) property
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conDir/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-conDir/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conDir/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conDir/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -192,10 +192,10 @@ The [`connectionDirection`](../../api/diagram/port#connectiondirection) property
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conDir/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-conDir/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-conDir/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-conDir/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -217,10 +217,10 @@ The following code example shows how to get inEdges and outEdges of port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-edges/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-edges/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-edges/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-edges/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -230,10 +230,10 @@ The following code example shows how to get inEdges and outEdges of port.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-edges/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-edges/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-edges/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-edges/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

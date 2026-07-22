@@ -24,10 +24,10 @@ The [`keyDown`](../../api/diagram/iKeyEventArgs) event is triggered whenever any
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-keyDown/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-keyDown/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-keyDown/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-keyDown/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ The [`keyUp`](../../api/diagram/iKeyEventArgs) event is triggered whenever we pr
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-keyUp/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-keyUp/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-keyUp/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-keyUp/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -54,10 +54,10 @@ The [`doubleClick`](../../api/diagram/idoubleclickeventargs) event is triggered 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-doubleClick/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-doubleClick/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-doubleClick/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-doubleClick/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -69,10 +69,10 @@ The [`textEdit`](../../api/diagram/iTextEditEventArgs) event triggers when you f
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-textEdit/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-textEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-textEdit/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-textEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

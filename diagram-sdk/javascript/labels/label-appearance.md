@@ -23,10 +23,10 @@ The [`visible`](../../api/diagram/annotationmodel#visibility) property of the an
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -88,10 +88,10 @@ The [`textDecoration`](../../api/diagram/textDecoration) property is used to dec
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -103,10 +103,10 @@ Annotation can be rotated by setting the [`rotateAngle`](../../api/diagram/shape
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-rotate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-rotate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-rotate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ The following code illustrates how to define a template in annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -143,10 +143,10 @@ The following code illustrates how to define a annotationTemplate in annotation 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-annotationTemplate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-annotationTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-annotationTemplate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-annotationTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -160,10 +160,10 @@ The following code illustrates how to define a functional template.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-functionalTemplate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-functionalTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-functionalTemplate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-functionalTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -175,10 +175,10 @@ The [`textAlign`](../../api/diagram/textStyleModel#textalign) property of annota
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -199,10 +199,10 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -232,10 +232,10 @@ Types of text overflow are shown in below table.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

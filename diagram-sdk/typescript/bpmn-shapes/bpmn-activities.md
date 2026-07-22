@@ -25,10 +25,10 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -47,10 +47,10 @@ BPMN tasks.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/documentation/api/diagram
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -97,10 +97,10 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/documentation/api/diagram
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -125,10 +125,10 @@ By default, the `compensation` is set to false.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -145,10 +145,10 @@ By default, the call property is false.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs11/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -186,10 +186,10 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -221,10 +221,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -248,10 +248,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

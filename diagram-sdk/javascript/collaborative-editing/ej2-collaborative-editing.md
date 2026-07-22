@@ -62,10 +62,10 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-signalr-config/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-signalr-config/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.js %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-signalr-config/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-signalr-config/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-signalr-config/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-diagram-changes/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-diagram-changes/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ To enable real-time collaboration, configure SignalR `HubConnection` in your Jav
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.js %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-diagram-changes/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-diagram-changes/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-diagram-changes/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -130,10 +130,10 @@ Add the following code in your JavaScript application:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-conflict-policy/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-conflict-policy/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,10 +141,10 @@ Add the following code in your JavaScript application:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.js %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-conflict-policy/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/collaborative-editing-conflict-policy/index.html %}
+{% include code-snippet/diagram-sdk/javascript/collaborative-editing-conflict-policy/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

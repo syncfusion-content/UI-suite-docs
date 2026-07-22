@@ -21,10 +21,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -40,10 +40,10 @@ The annotation's [`id`](https://ej2.syncfusion.com/documentation/api/diagram/ann
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -55,10 +55,10 @@ A collection of annotations can be removed from the node by using diagram method
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs22/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs22/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs22/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ The following code example illustrates how to change the annotation properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

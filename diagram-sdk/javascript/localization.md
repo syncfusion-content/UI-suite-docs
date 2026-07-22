@@ -128,10 +128,10 @@ The following code example summarizes the locale settings for the context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -141,10 +141,10 @@ The following code example summarizes the locale settings for the context menu.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -224,10 +224,10 @@ The following code example summarizes the locale settings for the symbol palette
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -237,10 +237,10 @@ The following code example summarizes the locale settings for the symbol palette
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/locale-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/locale-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
