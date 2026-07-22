@@ -245,19 +245,7 @@ yarn run dev
 
 ## Registering Syncfusion license
 
-Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it before rendering your Vue 3 application:
-
-{% tabs %}
-{% highlight html tabtitle="main.js" %}
-
-import { registerLicense } from '@syncfusion/ej2-base';
-
-registerLicense('YOUR_LICENSE_KEY_HERE');
-
-{% endhighlight %}
-{% endtabs %}
-
-> Replace `'YOUR_LICENSE_KEY_HERE'` with the actual license key obtained from your Syncfusion account. For more information, refer to the [Syncfusion Licensing documentation](https://ej2.syncfusion.com/vue/documentation/licensing/license-key-registration).
+The Syncfusion® Vue Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/vue/documentation/licensing/overview) documentation.
 
 ## Troubleshooting
 
