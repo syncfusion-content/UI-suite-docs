@@ -19,8 +19,6 @@ Row virtualization, enabled by setting [enableVirtualization](../../api/gantt#en
 
 The following example enables row virtualization for a large dataset:
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs3/index.ts %}
@@ -32,27 +30,11 @@ The following example enables row virtualization for a large dataset:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs3" %}
-{% endif %}
-
 ## Configure timeline virtualization
 
 Timeline virtualization, enabled by setting [enableTimelineVirtualization](../../api/gantt#enabletimelinevirtualization) to **true**, renders three times the Gantt's width initially, loading additional timeline cells during horizontal scrolling. This optimizes performance for wide timelines, such as multi-year projects, by rendering only visible segments. It depends on [timelineSettings](../../api/gantt/timelineSettings) for scale (e.g., monthly or daily tiers). Inject [VirtualScroll](../../api/gantt#virtualscrollmodule) to enable this feature.
 
 The following example enables timeline virtualization for a wide timeline:
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -64,20 +46,6 @@ The following example enables timeline virtualization for a wide timeline:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/virtual-scroll-cs5" %}
-{% endif %}
 
 ## Virtual scroll limitations
 

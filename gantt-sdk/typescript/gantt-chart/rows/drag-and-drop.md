@@ -19,8 +19,6 @@ To enable this feature, inject the `RowDD` module in Gantt. Once injected, enabl
 
 The Gantt Chart control allows you to rearrange rows using a drag icon. To enable this feature, set the [allowRowDragAndDrop](../api/gantt#allowrowdraganddrop) property to **true**.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs7/index.ts %}
@@ -31,20 +29,6 @@ The Gantt Chart control allows you to rearrange rows using a drag icon. To enabl
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs7/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs7" %}
-{% endif %}
 
 ## Different drop positions
 
@@ -76,8 +60,6 @@ If the border line appears at both the top and bottom of the target row (e.g., T
 
 You can drag rows from the Gantt Chart component into custom components for seamless data transfer. To enable this feature, set the [allowRowDragAndDrop](../api/gantt#allowrowdraganddrop) property to **true**, and configure the `targetID` property within the `rowDropSettings` object of the `treeGrid` in the Gantt instance, inside the [load](../api/gantt#load) event. The value of `targetID` must match the ID of the destination component. You can use the [rowDrop](../api/gantt#rowdrop) event to handle the drop and perform necessary actions.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-custom/index.ts %}
@@ -89,25 +71,9 @@ You can drag rows from the Gantt Chart component into custom components for seam
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-custom" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-custom/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-custom/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-custom" %}
-{% endif %}
-
 ## Drag and drop multiple rows together
 
 You can drag and drop multiple rows simultaneously in the Gantt Chart control. To enable this functionality, set the [selectionSettings.type](../api/gantt/selectionSettings#type) property to **Multiple** , and set the [allowRowDragAndDrop](../api/gantt#allowrowdraganddrop) property is set to **true**.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -120,25 +86,9 @@ You can drag and drop multiple rows simultaneously in the Gantt Chart control. T
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs8" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs8/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs8" %}
-{% endif %}
-
 ## Taskbar drag and drop between rows
 
 You can rearrange rows in the Gantt Chart control by dragging the taskbar element. This functionality is enabled by setting the [allowTaskbarDragAndDrop](../api/gantt#allowtaskbardraganddrop) property to **true**, allowing taskbars to be repositioned across rows for improved scheduling control.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -151,20 +101,6 @@ You can rearrange rows in the Gantt Chart control by dragging the taskbar elemen
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs2" %}
-{% endif %}
-
 ## Perform row drag and drop action programmatically
 
 To rearrange rows programmatically in the Gantt Chart control, use the [reorderRows](../api/gantt#reorderrows) method. This method accepts the following parameters: 
@@ -174,8 +110,6 @@ To rearrange rows programmatically in the Gantt Chart control, use the [reorderR
 - **position**: Placement relative to the target (e.g., above or below).
 
 In the example, a [click](..api/button#click) event on an external button moves the row at index 1 **below** the row at index 2.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -188,27 +122,11 @@ In the example, a [click](..api/button#click) event on an external button moves 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/dynamicDrag-cs1" %}
-{% endif %}
-
 ## Customize the drag and drop action
 
 Customize the drag and drop behavior in the Gantt Chart control using the [rowDragStartHelper](../api/gantt#rowdragstarthelper), [rowDragStart](../api/gantt#rowdragstart), [rowDrag](../api/gantt#rowdrag), and [rowDrop](../api/gantt#rowdrop) events. These events provide control over the drag lifecycle, allowing precise handling of row interactions.
 
 In this example, drag and drop actions are customized using event hooks. The `rowDragStartHelper` event prevents dragging for the row where **TaskID** is 2, while the `rowDrop` event cancels the drop action for the row where **TaskID** is 4. Additionally, `rowDragStart` and `rowDrag` apply background styling based on the values in the **Progress** column.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -221,27 +139,11 @@ In this example, drag and drop actions are customized using event hooks. The `ro
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-action" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-action/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-action/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/drag-drop-action" %}
-{% endif %}
-
 ### Prevent reordering a row as child to another row
 
 To prevent rows from being reordered as children, set `args.cancel` to **true** in the [rowDrop](../api/gantt#rowdrop) event. After canceling the default drop action, use the [reorderRows](../api/gantt#reorderrows) method to reposition the row at a specific index. 
  
 In the example, the drop action in **Child** position is blocked, and the dragged row is reordered **above** the target row.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -253,17 +155,3 @@ In the example, the drop action in **Child** position is blocked, and the dragge
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs11/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/rows-cs11" %}
-{% endif %}

@@ -9,7 +9,6 @@ documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
 ---
 
-
 # Key Elements in Gantt UI
 
 This section explains the key elements of the Gantt Chart interface.
@@ -28,14 +27,12 @@ At the top of Gantt chart, having a [toolbar](../gantt/tool-bar/tool-bar) that a
 
 ![Grid](./images/tabular.png)
 
-
 **Chart section**
 
 * The `X-axis` of the chart represents the timeline scale.
 * In the chart section, task details are displayed in a taskbar format over a time range along with their activities.
 
 ![Chart](./images/chart.png)
-
 
 **Elements in taskbar**
 

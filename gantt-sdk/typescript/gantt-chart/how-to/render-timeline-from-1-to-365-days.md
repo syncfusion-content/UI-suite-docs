@@ -15,8 +15,6 @@ Gantt chart contains different types of in-built timeline view modes and it can 
 
 In the [bottomTier.unit](../../api/gantt/timelineTierSettingsModel#unit) timescale mode, it is possible to display timeline from 1 to 365 days by making use of the formatter in the `timelineSettings` property. The following example shows how to use the formatter method for timeline cells.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/render-timeline-from-1-to-365-days-cs1/index.ts %}
@@ -27,17 +25,3 @@ In the [bottomTier.unit](../../api/gantt/timelineTierSettingsModel#unit) timesca
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/render-timeline-from-1-to-365-days-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/render-timeline-from-1-to-365-days-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/render-timeline-from-1-to-365-days-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/render-timeline-from-1-to-365-days-cs1" %}
-{% endif %}

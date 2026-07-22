@@ -20,8 +20,6 @@ To enable WBS in the Gantt Chart control:
 - **Enable WBS Codes**: Set [enableWBS](../../api/gantt#enablewbs) to **true**  to automatically generate unique task codes and define their predecessors.
 - **Auto-Update Codes**: Set [enableAutoWbsUpdate](../../api/gantt#enableautowbsupdate) to **true** to maintain accurate WBS codes during operations such as sorting, editing, or drag-and-drop.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs1/index.ts %}
@@ -33,28 +31,11 @@ To enable WBS in the Gantt Chart control:
 
 {% previewsample "https://help.syncfusion.com/samples/gantt-sdk/typescript/gantt-chart/wbscolumn-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs1" %}
-
-{% endif %}
-
 ## Managing WBS code updates
 
 To optimize performance, WBS code updates can be controlled using the [actionBegin](../../gantt/events#actionbegin) and [dataBound](../../gantt/events#databound) events. This is especially useful during operations like row drag-and-drop, where auto-update is triggered only during that specific action to ensure efficient and accurate code handling.
 
 In the following example, WBS auto-update is enabled only during the row drag and drop action using these events.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -66,21 +47,6 @@ In the following example, WBS auto-update is enabled only during the row drag an
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/samples/gantt-sdk/typescript/gantt-chart/wbscolumn-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/wbscolumn-cs2" %}
-
-{% endif %}
 
 ## Limitations
 

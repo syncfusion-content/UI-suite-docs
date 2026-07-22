@@ -37,8 +37,6 @@ The following items are available in the default context menu:
 
 The following example demonstrates context menu implementation with default items, where menu options adapt based on the clicked element and `editSettings` configuration.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1/index.ts %}
@@ -49,20 +47,6 @@ The following example demonstrates context menu implementation with default item
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1" %}
-{% endif %}
 
 > If a required feature is not enabled, the related context menu item will be disabled or hidden to prevent unsupported actions.
 
@@ -76,8 +60,6 @@ The [contextMenuOpen](../../api/gantt#contextmenuopen) event enables dynamic mod
 
 The following sample shows context menu items for parent rows to expand or collapse child rows in the content area and a context menu item to hide columns in the header area.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1/index.ts %}
@@ -89,20 +71,6 @@ The following sample shows context menu items for parent rows to expand or colla
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1" %}
-{% endif %}
-
 This implementation shows custom context menu integration with event handling. The `contextMenuClick` event receives parameters including the selected item's id, text, and the current row data, enabling specific actions based on the context.
 
 ## Touch interaction
@@ -111,12 +79,4 @@ On touch devices, context menu functionality is accessible through **long press*
 
 This touch interaction ensures consistent experience across different device types and input methods while maintaining full functionality through intuitive gesture-based navigation.
 
-{% if page.publishingplatform == "typescript" %}
-
 > For a comprehensive demonstration of context menu functionality, including default items, custom items, and sub-menus, explore the [interactive sample](https://ej2.syncfusion.com/demos/#/tailwind3/gantt/contextMenu.html).
-
-{% elsif page.publishingplatform == "javascript" %}
-
-> For a comprehensive demonstration of context menu functionality, including default items, custom items, and sub-menus, explore the [interactive sample](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/gantt/contextMenu.html).
-
-{% endif %}

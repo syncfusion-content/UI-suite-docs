@@ -27,8 +27,6 @@ This support is used to increase the timeline width and timeline unit from minut
 
 This support is used to view all the tasks available in a project within available area on the chart part of Gantt. When users click the `ZoomToFit` icon, then all the tasks are rendered within the available chart container width.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs1/index.ts %}
@@ -40,25 +38,9 @@ This support is used to view all the tasks available in a project within availab
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs1" %}
-{% endif %}
-
 ## Customizing zooming levels
 
 Zoom actions are governed by predefined zooming levels specified in the [zoomingLevels](../../api/gantt#zoominglevels) property. These levels can be customized by assigning a collection of zoom configurations to the `zoomingLevels` property.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -71,20 +53,6 @@ Zoom actions are governed by predefined zooming levels specified in the [zooming
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zooming-cs2" %}
-{% endif %}
-
 ## Zoom actions via methods
 
 Zooming actions can be triggered dynamically or through external controls using the following methods:
@@ -92,8 +60,6 @@ Zooming actions can be triggered dynamically or through external controls using 
 * **Zoom In** - Use [zoomIn](../../api/gantt#zoomin) when `ZoomIn` external button was clicked, the timeline cell width is increased when the cell size exceeds the specified range and the timeline unit is changed based on the current zoom levels.
 * **Zoom Out** - Use [zoomOut](../../api/gantt#zoomout) when the `ZoomOut` external button was clicked, the timeline cell width is decreased when the cell size falls behind the specified range and the timeline view mode is changed based on the current zooming levels.
 * **Zoom To Fit** - Use [fitToProject](../../api/gantt#fittoproject) When `ZoomToFit` external button was clicked then all the tasks are rendered within the available chart container width.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -105,17 +71,3 @@ Zooming actions can be triggered dynamically or through external controls using 
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zoomingMethods-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zoomingMethods-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/zoomingMethods-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/zoomingMethods-cs1" %}
-{% endif %}

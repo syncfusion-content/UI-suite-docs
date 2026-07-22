@@ -26,8 +26,6 @@ To apply filtering during the initial render of the TypeScript Gantt Chart contr
 
 The following sample demonstrates how to apply an initial filter where **TaskName** starts with **Identify** and **TaskID** equals **2**, using a `Predicate` condition set to **and**.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/initialLoadFiltering-cs4/index.ts %}
@@ -38,20 +36,6 @@ The following sample demonstrates how to apply an initial filter where **TaskNam
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/initialLoadFiltering-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/initialLoadFiltering-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/initialLoadFiltering-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/initialLoadFiltering-cs4" %}
-{% endif %}
 
 ## Supported filter operators
 
@@ -85,8 +69,6 @@ The TypeScript Gantt Chart control supports multiple filtering modes, which can 
 
 - **None**: Displays only the filtered records without any parent or child context.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs1/index.ts %}
@@ -98,27 +80,11 @@ The TypeScript Gantt Chart control supports multiple filtering modes, which can 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs1" %}
-{% endif %}
-
 ## Enable diacritic-sensitive filtering
 
 By default, the TypeScript Gantt Chart control ignores diacritic characters during filtering. To enable filtering with diacritic sensitivity, set the [filterSettings.ignoreAccent](../../api/gantt/filterSettings#ignoreaccent) property to **true**.
 
 The following sample demonstrates this behavior: when filtering the **TaskName** column, entries containing diacritic characters (e.g., �Pr�ject�, �Proj�ct�) will be matched if you enter the base text **Project**.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -131,27 +97,11 @@ The following sample demonstrates this behavior: when filtering the **TaskName**
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/diacriticsFilter-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/diacriticsFilter-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/diacriticsFilter-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/diacriticsFilter-cs1" %}
-{% endif %}
-
 ## Programmatic filtering using method
 
 You can apply dynamic filtering in the TypeScript Gantt by using the [filterByColumn](../../api/gantt#filterbycolumn) method. This enables programmatic filtering without relying on UI interactions.
 
 The following sample demonstrates how to filter the **TaskName** and **TaskID** columns using single and multiple values. The filtering is triggered through an external button click by calling the `filterByColumn` method.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -164,25 +114,9 @@ The following sample demonstrates how to filter the **TaskName** and **TaskID** 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filterByColumn-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filterByColumn-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filterByColumn-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filterByColumn-cs1" %}
-{% endif %}
-
 ## Clear all applied filters
 
 You can clear all the filtering conditions applied in the Gantt Chart contol by using the [clearFiltering](../../api/gantt#clearfiltering) method.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -195,25 +129,9 @@ You can clear all the filtering conditions applied in the Gantt Chart contol by 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/clearFilter-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/clearFilter-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/clearFilter-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/clearFilter-cs1" %}
-{% endif %}
-
 ## Set different filter types per column
 
 You can enable different filter types for individual columns in the Gantt Chart control by setting the `column.filter.type` property.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -226,20 +144,6 @@ You can enable different filter types for individual columns in the Gantt Chart 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filtering-cs2" %}
-{% endif %}
-
 ## Customize filtering behavior using events
 
 You can customize the filtering behavior in the TypeScript Gantt using the [actionBegin](../../documentation/gantt/events#actionbegin) and [actionComplete](../../gantt/events#actioncomplete) events. These events allow you to inject custom logic at different stages of the filtering workflow.
@@ -249,8 +153,6 @@ The following sample demonstrates how to handle different filtering stages using
 - For **filterBeforeOpen**, customize filter operators based on `args.columnType` (number or string).  
 - For **filtering**, cancel the action if `args.currentFilteringColumn` is **StartDate**.  
 - For **filterAfterOpen**, apply background styling to the filter dialog content and footer.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -262,17 +164,3 @@ The following sample demonstrates how to handle different filtering stages using
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filter-events-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filter-events-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/filter-events-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/filter-events-cs1" %}
-{% endif %}

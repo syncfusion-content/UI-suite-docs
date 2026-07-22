@@ -46,8 +46,6 @@ To apply custom icons, override the default styles with the following CSS:
 }
 ```
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs1/index.ts %}
@@ -59,27 +57,11 @@ To apply custom icons, override the default styles with the following CSS:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs1" %}
-{% endif %}
-
 ## Customize indentation of tree column text 
 
 The Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Gantt Chart control allows customization of the indent space in tree column cells using the [queryCellInfo](../../gantt/events#querycellinfo) event.  
 
 In the following demonstration, indentation is applied by dynamically adding a CSS class to the tree column cell of **TaskName** using the `queryCellInfo` event.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,25 +74,9 @@ In the following demonstration, indentation is applied by dynamically adding a C
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs2" %}
-{% endif %}
-
 ## Render parent rows in collapsed state
 
 You can collapse all parent rows during initial rendering by setting the [collapseAllParentTasks](../../api/gantt#collapseallparenttasks) property in the Gantt Chart control.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -123,25 +89,9 @@ You can collapse all parent rows during initial rendering by setting the [collap
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs3" %}
-{% endif %}
-
 ## Retain expand/collapse state on initial load
 
 You can retain the expanded or collapsed state of parent rows during initial rendering by using the [expandState](../../api/gantt/taskFields#expandstate) property in the data source. This property indicates whether a parent row should be expanded or collapsed when the Gantt Chart control loads.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -153,20 +103,6 @@ You can retain the expanded or collapsed state of parent rows during initial ren
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs4" %}
-{% endif %}
 
 ## Persist expand/collapse state across page refresh using localStorage
  
@@ -180,8 +116,6 @@ This approach ensures that row states are preserved across browser sessions, enh
 
 In the following demo, the steps mentioned above are used to persist the expanded and collapsed state of rows during a browser page refresh.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs5/index.ts %}
@@ -192,20 +126,6 @@ In the following demo, the steps mentioned above are used to persist the expande
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs5" %}
-{% endif %}
 
 ## Programmatically expand or collapse rows   
 
@@ -259,8 +179,6 @@ gantt.treegrid.expandRow(tr); //Here pass the row element as parameter.
 gantt.treegrid.collapseRow(tr); //Here pass the row element as parameter.
 ```
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs6/index.ts %}
@@ -272,25 +190,9 @@ gantt.treegrid.collapseRow(tr); //Here pass the row element as parameter.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs6" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs6/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs6" %}
-{% endif %}
-
 ## Retrieve expanded records
 
 To retrieve the currently expanded rows in the Gantt Chart control, use the [getExpandedRecords](../../api/gantt#getexpandedrecords) method. 
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -303,20 +205,6 @@ To retrieve the currently expanded rows in the Gantt Chart control, use the [get
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs7" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs7/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs7" %}
-{% endif %}
-
 ## Customize expand/collapse behavior using events
 
 You can customize expand and collapse behavior in the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript Gantt Chart control using the [expanding](../../gantt/events#expanding), [expanded](../../gantt/events#expanded), [collapsing](../../api/gantt#collapsing), and [collapsed](../../api/gantt#collapsed) events.  These events allow you to control and respond to row state changes programmatically based on your application logic.
@@ -328,8 +216,6 @@ The following sample demonstrates how to customize expand and collapse actions i
 - When a row is expanded and its **Progress** is greater than 50, a green background is applied.  
 - When a row is collapsed and its **Progress** is less than 50, a red background is applied.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs8/index.ts %}
@@ -340,17 +226,3 @@ The following sample demonstrates how to customize expand and collapse actions i
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs8/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/tree-column-cs8" %}
-{% endif %}

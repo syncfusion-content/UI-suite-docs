@@ -131,8 +131,6 @@ The Gantt Chart control provides comprehensive keyboard navigation support follo
 
 The Gantt Chart control provides accessible error handling and validation feedback patterns for Gantt-specific scenarios including dependency validation, resource conflicts, and date constraint violations.
 
-{% if page.publishingplatform == "typescript" %}
-
 ```ts
 import { Gantt, Edit, Selection, FailureEventArgs, TaskFieldsModel, EditSettingsModel } from '@syncfusion/ej2-gantt';
 import { data } from './datasource';
@@ -188,61 +186,6 @@ const gantt: Gantt = new Gantt({
 
 gantt.appendTo('#Gantt');
 ```
-
-{% elsif page.publishingplatform == "javascript" %}
-
-```js
-var taskFields = {
-  id: 'TaskID',
-  name: 'TaskName',
-  startDate: 'StartDate',
-  duration: 'Duration',
-  progress: 'Progress',
-  parentID: 'ParentID'
-};
-
-var editSettings = {
-  allowEditing: true,
-  allowAdding: true,
-  allowDeleting: true
-};
-
-function formatErrorMessage(error) {
-  var msg = (error && error.message) ? error.message : 'Unknown error';
-  return 'Error: ' + msg + '. Please review your input and try again.';
-}
-
-function manageFocusForError(args) {
-  var taskId = args && args.data && (args.data.taskId || args.data.TaskID);
-  if (!taskId) { return; }
-
-  var targetElement = document.querySelector('[data-task-id="' + taskId + '"]');
-  if (targetElement && typeof targetElement.focus === 'function') {
-    targetElement.focus();
-  }
-}
-
-function onActionFailure(args) {
-  var errorMessage = formatErrorMessage(args && args.error);
-  var region = document.getElementById('error-region');
-  if (region) {
-    region.textContent = errorMessage;
-  }
-  manageFocusForError(args);
-}
-
-ej.gantt.Gantt.Inject(ej.gantt.Edit, ej.gantt.Selection);
-
-var gantt = new ej.gantt.Gantt({
-  dataSource: data,
-  taskFields: taskFields,
-  editSettings: editSettings,
-  actionFailure: onActionFailure
-});
-
-gantt.appendTo('#Gantt');
-```
-{% endif %}
 
 ## Mobile and touch accessibility
 

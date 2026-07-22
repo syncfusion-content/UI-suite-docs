@@ -19,8 +19,6 @@ Enable resource view by setting [viewType](../api/gantt#viewtype) to **ResourceV
 
 The following example configures resource view:
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs1/index.ts %}
@@ -32,20 +30,6 @@ The following example configures resource view:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs1" %}
-{% endif %}
-
 This configuration groups tasks by resources, displaying them as child nodes.
 
 ## Visualize resource overallocation
@@ -53,8 +37,6 @@ This configuration groups tasks by resources, displaying them as child nodes.
 Overallocation occurs when tasks exceed a resource’s daily capacity, calculated from [dayWorkingTime](../api/gantt#dayworkingtime) and resource unit in [resourceFields.unit](../api/gantt/resourceFields#unit). Enable indicators with [showOverAllocation](../api/gantt#showoverallocation) set to **true** (default: **false**), highlighting affected date ranges with square brackets.
 
 The following example toggles overallocation visibility:
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -66,20 +48,6 @@ The following example toggles overallocation visibility:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs2" %}
-{% endif %}
 
 This configuration highlights scheduling conflicts for workload management.
 
@@ -95,8 +63,6 @@ Enable taskbar drag-and-drop between resources with [allowTaskbarDragAndDrop](..
 
 The following example enables drag-and-drop:
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbardragdrop-cs1/index.ts %}
@@ -108,25 +74,9 @@ The following example enables drag-and-drop:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbardragdrop-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbardragdrop-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbardragdrop-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbardragdrop-cs1" %}
-{% endif %}
-
 ## Customize the taskbar based on resource view
 
 You can customize the taskbar appearance based on resource view using the [queryTaskbarInfo](../api/gantt/iQueryTaskbarInfoEventArgs) event.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -139,25 +89,9 @@ You can customize the taskbar appearance based on resource view using the [query
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs4" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs4" %}
-{% endif %}
-
 ## Hide columns in resource tab
 
 To hide a column in the Gantt Chart's resource view, handle the [actionBegin](../gantt/events#actionbegin) event and set the `visible` property of the target column to **false** when the `requestType` is `beforeOpenAddDialog` or `beforeOpenEditDialog`.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -169,20 +103,6 @@ To hide a column in the Gantt Chart's resource view, handle the [actionBegin](..
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs5" %}
-{% endif %}
 
 ## Limitations
 

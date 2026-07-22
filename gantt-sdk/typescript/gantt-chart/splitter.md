@@ -19,8 +19,6 @@ Set the splitter position using [splitterSettings.position](../api/gantt/splitte
 
 The following example sets a percentage-based splitter position. This configuration allocates 50% width to the TreeGrid panel.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-splitter-cs1/index.ts %}
@@ -31,20 +29,6 @@ The following example sets a percentage-based splitter position. This configurat
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-splitter-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-splitter-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-splitter-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-splitter-cs1" %}
-{% endif %}
 
 > If both [position](../api/gantt/splitterSettings#position) and [columnIndex](../api/gantt/splitterSettings#columnindex) are defined in [splitterSettings](../api/gantt/splitterSettings), only `position` is applied because it takes precedence over `columnIndex`.
 
@@ -57,8 +41,6 @@ Set predefined view modes with [splitterSettings.view](../api/gantt/splitterSett
 
 The following example configures the Grid view mode. This configuration prioritizes the TreeGrid for detailed task analysis.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/splitter-view/index.ts %}
@@ -70,27 +52,11 @@ The following example configures the Grid view mode. This configuration prioriti
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/splitter-view" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/splitter-view/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/splitter-view/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/splitter-view" %}
-{% endif %}
-
 ## Adjust splitter position dynamically
 
 Change the splitter position using the [setSplitterPosition](../api/gantt#setsplitterposition) method with pixel, percentage, or column index values, triggered by events like window resizing or button clicks.
 
 The following example adjusts the splitter dynamically:
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -103,27 +69,11 @@ The following example adjusts the splitter dynamically:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/changeSplitterDynamically-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/changeSplitterDynamically-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/changeSplitterDynamically-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/changeSplitterDynamically-cs1" %}
-{% endif %}
-
 ## Customize splitter appearance
 
 Customize the splitter’s appearance in the Gantt Chart control by handling the [dataBound](../api/gantt#databound), [splitterResizing](../api/gantt#splitterresizing) and [splitterResized](../api/gantt#splitterresized) events to dynamically adjust styles, such as the background color or visibility of the resize handler. This enhances visual feedback during splitter interactions, improving usability for resizing the TreeGrid and Chart panels. The splitter retains ARIA labels for accessibility, ensuring screen reader compatibility.
 
 The following example customizes the splitter’s background and hides the resize handler during resizing:
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -135,17 +85,3 @@ The following example customizes the splitter’s background and hides the resiz
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/splitter-events" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/splitter-events/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/splitter-events/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/splitter-events" %}
-{% endif %}

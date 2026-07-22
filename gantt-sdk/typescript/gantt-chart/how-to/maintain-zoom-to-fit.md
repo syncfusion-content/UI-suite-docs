@@ -14,8 +14,6 @@ The zoom-to-fit functionality in the [TypeScript Gantt Chart](https://www.syncfu
 
 The following example demonstrates how to use `fitToProject` after performing edit actions:
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofit-cs1/index.ts %}
@@ -27,23 +25,7 @@ The following example demonstrates how to use `fitToProject` after performing ed
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofit-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofit-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofit-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofit-cs1" %}
-{% endif %}
-
 The following example demonstrates how to use `fitToProject` after dynamically changing the data source:
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -55,20 +37,6 @@ The following example demonstrates how to use `fitToProject` after dynamically c
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofitdatasource-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofitdatasource-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofitdatasource-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-maintainzoomtofitdatasource-cs1" %}
-{% endif %}
 
 ## See also
 - [How to configure timeline settings?](../../gantt/timeline)

@@ -33,7 +33,6 @@ In the Gantt chart component, by default it automatically calculates the start a
 
 >When setting `autocalculatedatescheduling` property to **false**, you must provide the valid data source; otherwise, the Gantt chart will render with invalid dates.
 
-
 ## How to improve loading performance by binding large data by showing custom text or element
 
 When integrating image or template elements into a gantt column, it's recommended to utilize the [Column Template](../gantt/columns/column-template) feature instead of customizing data through the [rowDataBound](../api/gantt#rowdatabound) or [queryCellInfo](../api/gantt#querycellinfo) events. These events are triggered for each row and cell rendering, which can introduce delays in the component's rendering process. Moreover, rendering custom elements using these events may lead to the persistence of rendered elements, potentially causing longer rendering times over time. By opting for the column template feature, you can efficiently fulfill this requirement without experiencing rendering delays and ensure a more streamlined rendering process.

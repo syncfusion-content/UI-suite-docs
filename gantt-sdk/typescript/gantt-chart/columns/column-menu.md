@@ -26,8 +26,6 @@ The following built-in column menu items are available:
 | ColumnChooser  | Allows toggling column visibility .                                                                                                   |
 | Filter         | Displays filter options based on [filterSettings.type](../../api/gantt/filtersettings#type). |
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/columns-cs1/index.ts %}
@@ -38,20 +36,6 @@ The following built-in column menu items are available:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/columns-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/columns-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/columns-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/columns-cs1" %}
-{% endif %}
 
 > * You can disable the column menu for specific columns by setting [columns.showColumnMenu](../../api/gantt/column#showcolumnmenu) to **false**.
 
@@ -65,8 +49,6 @@ Define the behavior of custom items through the [columnMenuClick](../../gantt/ev
 
 The following example demonstrates how to add a custom column menu item to clear the sorting in the Gantt chart.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/columnMenu-custom-item-cs1/index.ts %}
@@ -78,27 +60,11 @@ The following example demonstrates how to add a custom column menu item to clear
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/columnMenu-custom-item-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/columnMenu-custom-item-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/columnMenu-custom-item-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/columnMenu-custom-item-cs1" %}
-{% endif %}
-
 ## Customize column menu items per column
 
 Control the visibility of column menu items for specific columns by using the [columnMenuOpen](../../gantt/events#columnmenuopen) event. To hide an item, set `args.hide` to **true** for the target item.
 
 The following example demonstrates hiding the **Filter** item when the column menu opens for the **TaskName** column.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -111,27 +77,11 @@ The following example demonstrates hiding the **Filter** item when the column me
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/colMenu-customAction-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/colMenu-customAction-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/colMenu-customAction-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/colMenu-customAction-cs1" %}
-{% endif %}
-
 ## Render nested column menu items
 
 Extend the column menu in Gantt Chart control by adding nested items using the [columnMenuItems](../../api/gantt#columnmenuitems) property. This property accepts an array of built-in item names or custom objects to define additional actions.
 
 The following example demonstrates how to configure `columnMenuItems` to include a nested menu.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -143,20 +93,6 @@ The following example demonstrates how to configure `columnMenuItems` to include
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs1" %}
-{% endif %}
 
 ## Customize the column menu icon
 
@@ -179,8 +115,6 @@ To customize the column menu icon, follow these steps:
 <link href="https://cdn.syncfusion.com/ej2/ej2-icons/styles/bootstrap5.css" rel="stylesheet" />
 ```
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs2/index.ts %}
@@ -191,17 +125,3 @@ To customize the column menu icon, follow these steps:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/column-menu-cs2" %}
-{% endif %}

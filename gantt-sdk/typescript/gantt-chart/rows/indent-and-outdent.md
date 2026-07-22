@@ -20,8 +20,6 @@ To enable indent and outdent functionality, set [editSettings.allowEditing](../a
 
 The following sample demonstrates how to enable indent and outdent functionalities in the Gantt using the [toolbar](../api/gantt#toolbar) property.
 
-{% if page.publishingplatform == "typescript" %}
-
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent/index.ts %}
@@ -33,27 +31,11 @@ The following sample demonstrates how to enable indent and outdent functionaliti
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent" %}
-{% endif %}
-
 ## Indent and outdent a row programmatically
 
 You can programmatically adjust a row's hierarchy in the TypeScript Gantt Chart control using the [indent](../api/gantt#indent) and [outdent](../api/gantt#outdent) methods. Before performing these actions, select the target row by calling the [selectRow](../api/gantt#selectrow) method with the appropriate row index.
 
 The following sample demonstrates how to programmatically select row index **2** and perform indent or outdent actions using an external button click.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -66,25 +48,9 @@ The following sample demonstrates how to programmatically select row index **2**
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-externally" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-externally/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-externally/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-externally" %}
-{% endif %}
-
 ## Retrieve Indent and outdent details
 
 You can retrieve indent and outdent details using the [actionComplete](../api/gantt#actioncomplete) event, where the `args.requestType` value will be either **indented** or **outdented**, indicating the type of action performed.
-
-{% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -96,20 +62,6 @@ You can retrieve indent and outdent details using the [actionComplete](../api/ga
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-events" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-events/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-events/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/indent-outdent-events" %}
-{% endif %}
 
 ## Limitation 
 

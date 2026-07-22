@@ -17,8 +17,6 @@ The resource multi taskbar feature in the TypeScript Gantt Chart control visuali
 
 Enable the multi taskbar feature by setting [enableMultiTaskbar](../api/gantt#enablemultitaskbar) to **true** and `viewType` to **ResourceView**, with `taskFields.resourceInfo` mapping to a resource ID field. Resources are collapsed or expanded using grid-side arrows, and tasks are displayed in a single row when collapsed.
 
-{% if page.publishingplatform == "typescript" %}
-
 ```ts
 import { Gantt } from '@syncfusion/ej2-gantt';
 import { GanttData } from './datasource.ts';
@@ -55,42 +53,6 @@ The following example demonstrates multi taskbar configuration:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs3" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-```js
-var ganttChart = new ej.gantt.Gantt({
-    dataSource: GanttData,
-    height: '450px',
-    enableMultiTaskbar: true,
-    viewType: 'ResourceView',
-    taskFields: {
-        id: 'TaskID',
-        name: 'TaskName',
-        startDate: 'StartDate',
-        endDate: 'EndDate',
-        duration: 'Duration',
-        progress: 'Progress',
-        resourceInfo: 'Resources'
-    }
-});
-
-ganttChart.appendTo('#Gantt');
-```
-
-The following example demonstrates multi taskbar configuration:
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-cs3" %}
-{% endif %}
-
 ## Configure taskbar overlap
 
 The [allowTaskbarOverlap](../api/gantt#allowtaskbaroverlap) property controls how multiple taskbars are displayed in a resource row:
@@ -99,8 +61,6 @@ The [allowTaskbarOverlap](../api/gantt#allowtaskbaroverlap) property controls ho
 - **Non-overlapping mode (false)**: Taskbars are vertically arranged in an extended row height, preventing overlap for clearer visibility of overallocation. Dependencies between tasks of the same resource are not supported due to vertical stacking, though inter-resource dependencies work.
 
 The following example disables taskbar overlap:
-
-{% if page.publishingplatform == "typescript" %}
 
 ```ts
 import { Gantt } from '@syncfusion/ej2-gantt';
@@ -138,40 +98,3 @@ The following example demonstrates non-overlapping multi taskbar:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbaroverlap-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-```js
-var ganttChart = new ej.gantt.Gantt({
-    dataSource: GanttData,
-    height: '450px',
-    viewType: 'ResourceView',
-    enableMultiTaskbar: true,
-    allowTaskbarOverlap: false,
-    taskFields: {
-        id: 'TaskID',
-        name: 'TaskName',
-        startDate: 'StartDate',
-        endDate: 'EndDate',
-        duration: 'Duration',
-        progress: 'Progress',
-        resourceInfo: 'Resources'
-    }
-});
-
-ganttChart.appendTo('#Gantt');
-```
-
-The following example demonstrates non-overlapping multi taskbar:
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbaroverlap-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbaroverlap-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/resource-view-taskbaroverlap-cs1" %}
-{% endif %}
