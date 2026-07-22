@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with ##Platform_Name## Schedule control | Syncfusion
-description: Learn how to create and configure the ##Platform_Name## Scheduler control in TypeScript using the Essential JS 2 quickstart seed repository.
+title: Getting started with TypeScript Schedule control | Syncfusion
+description: Learn how to create and configure the TypeScript Scheduler control in TypeScript using the Essential JS 2 quickstart seed repository.
 platform: scheduler-sdk
 control: Getting started 
 publishingplatform: scheduler-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/scheduler-sdk
 ---
 
-# Getting started in ##Platform_Name## Schedule control
+# Getting started in TypeScript Schedule control
 
 This section explains how to create the [**JavaScript Scheduler**](https://www.syncfusion.com/javascript-ui-controls/js-scheduler) component and configure its available functionalities in a TypeScript environment.
 

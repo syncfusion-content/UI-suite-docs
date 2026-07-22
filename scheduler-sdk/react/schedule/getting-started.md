@@ -14,7 +14,7 @@ This section briefly explains how to create [**React Scheduler**](https://www.sy
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/ai-coding-assistant/overview)
 
-To get started quickly with React Scheduler using the Create React App, you can check on this video:
+To get started quickly with React Scheduler using the Create React App, you can check on this video
 
 {% youtube "https://www.youtube.com/watch?v=iNkryf_TtZw" %}
 
@@ -67,19 +67,14 @@ npm create vite@latest my-app -- --template react-ts
 npm create vite@latest my-app -- --template react
 ```
 
-After running the above commands, the project will be created and all required dependencies will be installed automatically. Then navigate into the project directory and start the dev server:
-
-```bash
-cd my-app
-npm install
-```
+After running the above commands, the project will be created and all required dependencies will be installed automatically.
 
 ## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Schedule package
 
 All the available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in the [`npmjs.com`](https://www.npmjs.com/~syncfusionorg) public registry.
 To install the Schedule component, use the following command:
 
-```bash
+```
 cd my-app
 npm install @syncfusion/ej2-react-schedule --save
 ```
@@ -106,7 +101,7 @@ Then add the following CSS reference to the **src/App.css** file:
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/schedule/index.css";
 ```
 
-## Initializing the Schedule and configuring module injection
+## Initialize the Schedule and configure module injection
 
 Import the Schedule component into your **src/App.tsx** (or **src/App.jsx**) file and inject the required modules. Since each view in the Schedule is maintained as a separate module, you need to inject the modules required for the desired views.
 
@@ -117,7 +112,7 @@ import './App.css';
 
 function App () {
   return (
-    <ScheduleComponent>
+    <ScheduleComponent width="100%" height="550px">
       <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
     </ScheduleComponent>
   );
@@ -131,7 +126,7 @@ import './App.css';
 
 function App () {
   return (
-    <ScheduleComponent width="100%" height="550px">
+    <ScheduleComponent>
       <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
     </ScheduleComponent>
   );
@@ -178,7 +173,7 @@ import './App.css';
 
 function App () {
   return (
-    <ScheduleComponent width="100%" height="550px" selectedDate={new Date(2026, 4, 18)}>
+    <ScheduleComponent selectedDate={new Date(2026, 4, 18)}>
       <Inject services={[Day, Week, WorkWeek, Agenda, Month]} />
     </ScheduleComponent>
   )
@@ -190,15 +185,13 @@ export default App;
 
 ## Setting the current view
 
-The Schedule displays the `Week` view by default. To change the current view, set the desired view name on the `currentView` property. The available view names are:
+Scheduler displays `week` view by default. To change the current view, define the applicable view name to the `currentView` property. The default applicable view names are:
 
 * Day
 * Week
 * WorkWeek
 * Month
 * Agenda
-
-For more advanced view configuration (such as customizing the time interval or display name per view), use the `views` property. See [views.md](./views.md) for details.
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
@@ -221,7 +214,7 @@ import './App.css';
 
 function App () {
   return (
-    <ScheduleComponent width="100%" height="550px" currentView='Day'>
+    <ScheduleComponent currentView='Day'>
       <Inject services={[Day, Week, WorkWeek, Agenda, Month]} />
     </ScheduleComponent>
   )
@@ -309,5 +302,3 @@ export default App;
 
 * [Explore available views and their customization options](./views.md)
 * [Explore appointments and event data handling](./appointments.md)
-* [Bind data to the Schedule](./data-binding.md)
-* [Configure module injection](./module-injection.md)

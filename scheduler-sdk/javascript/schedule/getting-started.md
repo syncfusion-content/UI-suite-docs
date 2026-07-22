@@ -339,16 +339,16 @@ The output will display the Scheduler with the specified view configuration.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/schedule/views-model-cs1/index.js %}
+{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/schedule/views-model-cs1/index.html %}
+{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="es5-datasource.js" %}
-{% include code-snippet/schedule/views-model-cs1/es5-datasource.js %}
+{% include code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1/es5-datasource.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/schedule/views-model-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/scheduler-sdk/javascript/schedule/views-model-cs1" %}
 
 > You can also explore the [JavaScript Scheduler example](https://ej2.syncfusion.com/javascript/demos/#/material/schedule/overview.html) to see how toolbar buttons interact with Scheduler functionalities.

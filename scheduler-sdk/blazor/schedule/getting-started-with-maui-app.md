@@ -9,9 +9,9 @@ documentation: ug
 
 # Getting Started with Blazor Scheduler component
 
-This section walks you through the step-by-step process of integrating the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
+This section explains you through the step-by-step process of integrating the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
-**Supported Framework:** .NET 8.0 or later with MAUI
+> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
 {% tabcontents %}
 
@@ -19,15 +19,23 @@ This section walks you through the step-by-step process of integrating the [Blaz
 
 ## Prerequisites
 
-- .NET 8.0 SDK or later
-- Visual Studio Code
-- C# DevKit extension for Visual Studio Code
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/MAUI/get-started/installation?tabs=vswin) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
 
-For more details, see the [MAUI installation guide for VS Code](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code). Optionally, install the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project) for additional project creation options.
+## Create a new Blazor MAUI App in Visual Studio
+
+You can create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=vswin). For detailed instructions, refer to [this guide](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app). For detailed instructions, refer to [this Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+## Prerequisites
+
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio Code. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project).
 
 ## Create a new Blazor MAUI App in Visual Studio Code
 
-Create a Blazor MAUI App using Visual Studio Code via [Microsoft templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, see the [Blazor MAUI App Getting Started guide](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app).
+Create a Blazor MAUI App using Visual Studio Code via [Microsoft templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
 
 Alternatively, create a MAUI application by using the following command in the integrated terminal (<kbd>Ctrl</kbd>+<kbd>`</kbd>).
 
@@ -44,13 +52,9 @@ cd MauiBlazorApp
 
 {% endtabcontents %}
 
-## Install required NuGet packages
+## Install required Blazor packages
 
-Install the following NuGet packages:
-- [Syncfusion.Blazor.Schedule](https://www.nuget.org/packages/Syncfusion.Blazor.Schedule/) — Scheduler component
-- [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) — Styling themes
-
-Replace `{{ site.releaseversion }}` with the desired package version (e.g., `27.1.50`). All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages documentation](https://blazor.syncfusion.com/documentation/nuget-packages) for version details.
+Install [Syncfusion.Blazor.Schedule](https://www.nuget.org/packages/Syncfusion.Blazor.Schedule/) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages. All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
 {% tabcontents %}
 
@@ -83,7 +87,7 @@ dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
 
 ## Add import namespaces
 
-After the packages are installed, open the **~/_Imports.razor** file in your project root and add the following namespace imports.
+After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Schedule` namespaces.
 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
@@ -96,31 +100,23 @@ After the packages are installed, open the **~/_Imports.razor** file in your pro
 
 ## Register Blazor service
 
-Register the Blazor service in the **~/MauiProgram.cs** file by adding the using statement and calling `AddSyncfusionBlazor()` in the service collection.
+Register the Blazor service in the **~/MauiProgram.cs** file.
 
 {% tabs %}
 {% highlight c# tabtitle="~/MauiProgram.cs" %}
 
+....
 using Syncfusion.Blazor;
 
-namespace MauiBlazorApp
+....
+
+public static class MauiProgram
 {
-    public static class MauiProgram
+    public static MauiApp CreateMauiApp()
     {
-        public static MauiApp CreateMauiApp()
-        {
-            var builder = MauiApp.CreateBuilder()
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                });
-
-            builder.Services.AddMauiBlazorWeb();
-            builder.Services.AddSyncfusionBlazor();  // Add this line
-
-            return builder.Build();
-        }
+        ....
+        builder.Services.AddSyncfusionBlazor();
+        ....
     }
 }
 
@@ -129,47 +125,27 @@ namespace MauiBlazorApp
 
 ## Add stylesheet and script resources
 
-The theme stylesheet and script are accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the stylesheet and script references in the **~/index.html** file within the `<head>` section.
+The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the stylesheet and script references in the **~/index.html** file.
 
 ```html
+
 <link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
 <script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
+
 ```
 
-**Note:** For other theme options (Material, Bootstrap, Tailwind, etc.) and referencing methods, see the [Blazor Themes documentation](https://blazor.syncfusion.com/documentation/appearance/themes). To learn about alternative ways to add script references, see [Adding Script References](https://blazor.syncfusion.com/documentation/common/adding-script-references).
+N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/appearance/themes) topic to discover various methods ([Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets), [CDN](https://blazor.syncfusion.com/documentation/appearance/themes#cdn-reference), and [CRG](https://blazor.syncfusion.com/documentation/common/custom-resource-generator)) for referencing themes in your Blazor application. Also, check out the [Adding Script Reference](https://blazor.syncfusion.com/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your Blazor application.
 
 ## Add Blazor Scheduler component
 
-Add the Blazor Scheduler component to your **~/Pages/Home.razor** file (or create it if it doesn't exist). The component displays the Scheduler with multiple view options.
-
-### AppointmentData model
-
-Define the data model for scheduler appointments:
-
-```csharp
-public class AppointmentData
-{
-    public int Id { get; set; }                          // Unique identifier
-    public string Subject { get; set; }                  // Appointment title
-    public string Location { get; set; }                // Appointment location
-    public DateTime StartTime { get; set; }             // Start datetime
-    public DateTime EndTime { get; set; }               // End datetime
-    public string Description { get; set; }             // Appointment description
-    public bool IsAllDay { get; set; }                  // All-day event flag
-    public string RecurrenceRule { get; set; }          // Recurrence pattern (RRULE)
-    public string RecurrenceException { get; set; }     // Recurrence exceptions
-    public Nullable<int> RecurrenceID { get; set; }     // Parent event ID for recurring instances
-}
-```
-
-### Basic Scheduler
+Add the Blazor Scheduler component in the **~/Pages/Home.razor** file.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Schedule
 
-<SfSchedule TValue="AppointmentData">
+<SfSchedule TValue=AppointmentData>
     <ScheduleViews>
         <ScheduleView Option="View.Day"></ScheduleView>
         <ScheduleView Option="View.Week"></ScheduleView>
@@ -178,7 +154,6 @@ public class AppointmentData
         <ScheduleView Option="View.Agenda"></ScheduleView>
     </ScheduleViews>
 </SfSchedule>
-
 @code {
     public class AppointmentData
     {
@@ -198,9 +173,25 @@ public class AppointmentData
 {% endhighlight %}
 {% endtabs %}
 
-## Populate appointments
+### How to run the sample on Windows
 
-To display appointments in the Scheduler, bind event data to the [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.ScheduleEventSettings-1.html) property under [ScheduleEventSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.ScheduleEventSettings-1.html).
+Run the sample in Windows Machine mode, and it will run Blazor MAUI in Windows.
+
+![Blazor Scheduler Component](images/blazor-scheduler-maui-app.webp)
+
+### How to run the sample on Android
+
+To run the Blazor Scheduler in a Blazor Android MAUI application using the Android emulator, follow these steps:
+
+Refer [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch Android emulator.
+
+N> If encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
+
+![Blazor Scheduler Component](images/blazor-scheduler.webp)
+
+## Populating appointments
+
+To populate the Scheduler with appointments, bind the event data to it by assigning the `DataSource` property under [ScheduleEventSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.ScheduleEventSettings-1.html#Syncfusion_Blazor_Schedule_ScheduleEventSettings_1__ctor).
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -220,25 +211,11 @@ To display appointments in the Scheduler, bind event data to the [DataSource](ht
 
 @code{
     DateTime CurrentDate = new DateTime(2025, 2, 14);
-    
     List<AppointmentData> DataSource = new List<AppointmentData>
     {
-        new AppointmentData 
-        { 
-            Id = 1, 
-            Subject = "Paris", 
-            StartTime = new DateTime(2025, 2, 13, 10, 0, 0), 
-            EndTime = new DateTime(2025, 2, 13, 12, 0, 0) 
-        },
-        new AppointmentData 
-        { 
-            Id = 2, 
-            Subject = "Germany", 
-            StartTime = new DateTime(2025, 2, 15, 10, 0, 0), 
-            EndTime = new DateTime(2025, 2, 15, 12, 0, 0) 
-        }
+        new AppointmentData { Id = 1, Subject = "Paris", StartTime = new DateTime(2025, 2, 13, 10, 0, 0) , EndTime = new DateTime(2025, 2, 13, 12, 0, 0) },
+        new AppointmentData { Id = 2, Subject = "Germany", StartTime = new DateTime(2025, 2, 15, 10, 0, 0) , EndTime = new DateTime(2025, 2, 15, 12, 0, 0) }
     };
-
     public class AppointmentData
     {
         public int Id { get; set; }
@@ -257,9 +234,11 @@ To display appointments in the Scheduler, bind event data to the [DataSource](ht
 {% endhighlight %}
 {% endtabs %}
 
-## Set the initial date
+![Blazor Scheduler with Appointments](images/blazor-scheduler-appointments.webp)
 
-By default, the Scheduler displays the system date. To display a specific date, use two-way binding on the [SelectedDate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_SelectedDate) property.
+## Setting date
+
+The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) usually displays the system date as its current date. To change the current date of Scheduler with specific date, define the two-way binding for [SelectedDate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_SelectedDate) property.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -277,8 +256,7 @@ By default, the Scheduler displays the system date. To display a specific date, 
 </SfSchedule>
 
 @code{
-    DateTime CurrentDate = new DateTime(2025, 1, 10);  // Change to desired initial date
-    
+    DateTime CurrentDate = new DateTime(2020, 1, 10);
     public class AppointmentData
     {
         public int Id { get; set; }
@@ -297,30 +275,28 @@ By default, the Scheduler displays the system date. To display a specific date, 
 {% endhighlight %}
 {% endtabs %}
 
-## Set the default view
+## Setting view
 
-The Scheduler displays `Week` view by default. To change the initial view, use two-way binding on the [CurrentView](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_CurrentView) property.
+The Scheduler displays `Week` view by default. To change the current view, define the applicable view name to the two-way binding of [CurrentView](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_CurrentView) property.
 
-### Available views
+### Available Views
 
-The Scheduler supports these built-in views:
+The Scheduler supports the following built-in views:
 
-| View | Description |
-|------|-------------|
-| Day | Single day view |
-| Week | 7-day week view (default) |
-| WorkWeek | 5-day work week view (Mon-Fri) |
-| Month | Month grid view |
-| Agenda | List view of upcoming appointments |
-| MonthAgenda | Month view with agenda side panel |
-| TimelineDay | Horizontal day timeline |
-| TimelineWeek | Horizontal week timeline |
-| TimelineWorkWeek | Horizontal work week timeline |
-| TimelineMonth | Horizontal month timeline |
-| TimelineYear | Horizontal year timeline |
-| Year | Annual overview view |
+* Day
+* Week
+* WorkWeek
+* Month
+* Agenda
+* MonthAgenda
+* TimelineDay
+* TimelineWeek
+* TimelineWorkWeek
+* TimelineMonth
+* TimelineYear
+* Year
 
-Configure only the views your application needs by adding `ScheduleView` components.
+You can configure only the required views as needed, and include additional views based on your application requirements.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -331,13 +307,14 @@ Configure only the views your application needs by adding `ScheduleView` compone
     <ScheduleViews>
         <ScheduleView Option="View.Day"></ScheduleView>
         <ScheduleView Option="View.Week"></ScheduleView>
+        <ScheduleView Option="View.WorkWeek"></ScheduleView>
         <ScheduleView Option="View.Month"></ScheduleView>
+        <ScheduleView Option="View.Agenda"></ScheduleView>
     </ScheduleViews>
 </SfSchedule>
 
 @code{
-    View CurrentView = View.Month;  // Set initial view
-    
+    View CurrentView = View.Month;
     public class AppointmentData
     {
         public int Id { get; set; }
@@ -358,7 +335,6 @@ Configure only the views your application needs by adding `ScheduleView` compone
 
 ## See also
 
-1. [Blazor Scheduler API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html)
-2. [Blazor Scheduler Features](https://blazor.syncfusion.com/documentation/scheduler/getting-started)
-3. [Getting Started with Blazor WebAssembly](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-dotnet-cli)
-4. [Getting Started with Blazor Server](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-dotnet-cli)
+1. [Getting Started with Blazor for client-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-dotnet-cli)
+2. [Getting Started with Blazor for client-side in Visual Studio](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-visual-studio)
+3. [Getting Started with Blazor for server-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-dotnet-cli)

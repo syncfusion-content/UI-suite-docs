@@ -18,12 +18,6 @@ To get started quickly with a Blazor Web App Scheduler, watch the following vide
 {% youtube
 "youtube:https://www.youtube.com/watch?v=PwjvHHMtL3U"%}
 
-## Prerequisites
-
-Ensure you have the following installed:
-- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) or later
-- [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), or [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/)
-
 ## Create a new Blazor Web App
 
 {% tabcontents %}
@@ -74,9 +68,7 @@ N> Configure the appropriate [Interactive render mode](https://learn.microsoft.c
 
 ## Install the required Blazor packages
 
-Install the [Syncfusion.Blazor.Schedule](https://www.nuget.org/packages/Syncfusion.Blazor.Schedule) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages. All Syncfusion® Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details. 
-
-**Important:** If using `WebAssembly` or `Auto` [render modes](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) in the Blazor Web App, install these packages in the `.Client` project. For `Server` render mode, install in the main project.
+Install the [Syncfusion.Blazor.Schedule](https://www.nuget.org/packages/Syncfusion.Blazor.Schedule) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages. All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details. If using the `WebAssembly` or `Auto` render modes in the Blazor Web App, install these packages in the `.Client` project.
 
 {% tabcontents %}
 
@@ -284,11 +276,11 @@ To populate the Scheduler with appointments, bind the event data to it by assign
 </SfSchedule>
 
 @code {
-    DateTime CurrentDate = new DateTime(2026, 7, 20);
+    DateTime CurrentDate = new DateTime(2025, 2, 14);
     List<AppointmentData> DataSource = new List<AppointmentData>
     {
-        new AppointmentData { Id = 1, Subject = "Paris", StartTime = new DateTime(2026, 7, 20, 10, 0, 0) , EndTime = new DateTime(2026, 7, 20, 12, 0, 0) },
-        new AppointmentData { Id = 2, Subject = "Germany", StartTime = new DateTime(2026, 7, 21, 10, 0, 0) , EndTime = new DateTime(2026, 7, 21, 12, 0, 0) }
+        new AppointmentData { Id = 1, Subject = "Paris", StartTime = new DateTime(2025, 2, 13, 10, 0, 0) , EndTime = new DateTime(2025, 2, 13, 12, 0, 0) },
+        new AppointmentData { Id = 2, Subject = "Germany", StartTime = new DateTime(2025, 2, 15, 10, 0, 0) , EndTime = new DateTime(2025, 2, 15, 12, 0, 0) }
     };
     public class AppointmentData
     {
@@ -356,20 +348,20 @@ The Scheduler displays `Week` view by default. To change the current view, defin
 
 The Scheduler supports the following built-in views:
 
-* **Day** — Shows a single day with hourly time slots
-* **Week** — Shows a seven-day week view (default)
-* **WorkWeek** — Shows Monday through Friday only
-* **Month** — Shows a full month calendar
-* **Agenda** — Shows a list of upcoming appointments
-* **MonthAgenda** — Combines Month and Agenda views
-* **TimelineDay** — Horizontal timeline for a single day
-* **TimelineWeek** — Horizontal timeline for a week
-* **TimelineWorkWeek** — Horizontal timeline for work week (Mon-Fri)
-* **TimelineMonth** — Horizontal timeline for a month
-* **TimelineYear** — Horizontal timeline for a year
-* **Year** — Shows a yearly calendar
+* Day
+* Week
+* WorkWeek
+* Month
+* Agenda
+* MonthAgenda
+* TimelineDay
+* TimelineWeek
+* TimelineWorkWeek
+* TimelineMonth
+* TimelineYear
+* Year
 
-Configure only the views your application requires by adding `<ScheduleView>` tags for each needed view.
+You can configure only the required views as needed, and include additional views based on your application requirements.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -405,32 +397,8 @@ Configure only the views your application requires by adding `<ScheduleView>` ta
 {% endhighlight %}
 {% endtabs %}
 
-## Troubleshooting
-
-**Issue: Scheduler component is not rendering**
-- Verify that the CSS and JavaScript resources in `App.razor` are correctly linked with `_content/Syncfusion.Blazor.Themes/` and `_content/Syncfusion.Blazor.Core/`.
-- Check that the Syncfusion Blazor service is registered in `Program.cs` with `builder.Services.AddSyncfusionBlazor()`.
-- Ensure the render mode on your Razor page matches the configured interactivity setting.
-- Open the browser developer console (F12) for any JavaScript errors.
-
-**Issue: Appointments are not displaying**
-- Confirm that the `DataSource` property is correctly bound to a `List<AppointmentData>`.
-- Verify that appointment objects have required properties: `Id`, `Subject`, `StartTime`, and `EndTime`.
-- Ensure `DateTime` values are in the correct format and not null.
-
-**Issue: Package installation failed**
-- Verify internet connectivity to access nuget.org.
-- Clear the NuGet cache and try reinstalling: `dotnet nuget locals all --clear`.
-- Ensure you're installing packages in the correct project (`.Client` for Auto/WebAssembly render modes).
-
-**Issue: Render mode conflicts**
-- If using `Auto` or `WebAssembly` modes, ensure packages are installed in the `.Client` project, not the main project.
-- Verify the `@rendermode` directive matches your configured interactivity setting.
-
 ## See also
 
-1. [Interactive Render Modes Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes)
-2. [Getting Started with Blazor for client-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-dotnet-cli)
-3. [Getting Started with Blazor for client-side in Visual Studio](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-visual-studio)
-4. [Getting Started with Blazor for server-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-dotnet-cli)
-5. [Syncfusion Blazor Scheduler API Documentation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html)
+1. [Getting Started with Blazor for client-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-dotnet-cli)
+2. [Getting Started with Blazor for client-side in Visual Studio](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-visual-studio)
+3. [Getting Started with Blazor for server-side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-dotnet-cli)

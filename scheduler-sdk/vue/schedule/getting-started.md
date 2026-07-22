@@ -27,7 +27,7 @@ Check the following video to learn how to build a [Vue Scheduler](https://www.sy
 
 ### Vue supported versions
 
-| Vue version | Minimum Syncfusion Vue Data Grid version |
+| Vue version | Minimum Syncfusion Vue Schedule version |
 | ------------- | ------------------------------------------- |
 |[Vue v2.7](https://blog.vuejs.org/posts/vue-2-7-naruto) | 20.3.47 and above |
 
@@ -365,15 +365,18 @@ Scheduler displays `week` view by default. To change the current view, define th
 
 Each individual Scheduler view can be customized with its own options, such as setting different start and end hours on Week and Work Week views, or hiding weekend days on Month view alone. This is achieved by defining the `views` property as an array of objects, where each object represents an individual view with its customization options.
 
+The output will display the Scheduler with the specified view configuration.
+
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
-{% include code-snippet/schedule/view-cs1/app.vue %}
+{% include code-snippet/scheduler-sdk/vue/schedule/view-cs1/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="~/src/datasource.js" %}
-{% include code-snippet/schedule/view-cs1/datasource.js %}
+{% include code-snippet/scheduler-sdk/vue/schedule/view-cs1/datasource.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/schedule/view-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/scheduler-sdk/vue/schedule/view-cs1" %}
 
 > Explore the live demo at [Vue Scheduler example](https://ej2.syncfusion.com/vue/demos/#/material3/schedule/overview.html) to see Scheduler view customizations in action.
+
