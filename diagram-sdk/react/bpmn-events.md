@@ -27,10 +27,10 @@ The `event`property of the node allows you to define the type of the event. The 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Event-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Event-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Event-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Event-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

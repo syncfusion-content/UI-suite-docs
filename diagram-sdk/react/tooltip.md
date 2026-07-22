@@ -34,10 +34,10 @@ The default tooltip that appears while interacting with nodes can be disabled by
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5tooltip-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5tooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5tooltip-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5tooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipNodes-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipNodes-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipNodes-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipNodes-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5InheritTooltip-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5InheritTooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5InheritTooltip-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5InheritTooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipPorts-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipPorts-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipPorts-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipPorts-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ The following code example illustrates how to add formatted HTML content to the 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -164,10 +164,10 @@ The following code example illustrates how to position the tooltip around object
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipObject-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipObject-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipObject-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipObject-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ The following code example illustrates how to show tooltip at mouse position.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipMouse-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipMouse-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipMouse-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipMouse-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -198,10 +198,10 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipAnimation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipAnimation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipAnimation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipAnimation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -215,10 +215,10 @@ The following example shows how to render sticky tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5stickyTooltip-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5stickyTooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5stickyTooltip-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5stickyTooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -230,10 +230,10 @@ The [`showTipPointer`](https://helpej2.syncfusion.com/react/documentation/api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5hideTooltip-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5hideTooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5hideTooltip-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5hideTooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -247,10 +247,10 @@ The following code example shows how to set the size for the tooltip:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5ToolTipSize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5ToolTipSize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5ToolTipSize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5ToolTipSize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -264,10 +264,10 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5ShowHideTooltip-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5ShowHideTooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5ShowHideTooltip-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5ShowHideTooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -281,10 +281,10 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipAnnotation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipAnnotation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/tooltip/es5TooltipAnnotation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/tooltip/es5TooltipAnnotation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

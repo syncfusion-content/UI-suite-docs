@@ -39,11 +39,11 @@ The following code example illustrates how to define symbols in a palette and ho
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5palettes-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5palettes-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5palettes-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5palettes-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,11 +56,11 @@ The following example shows how to render connectors in the symbol palette:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-con/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-con/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-con/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-con/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,11 +71,11 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-grp/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-grp/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-grp/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-grp/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,11 +94,11 @@ Templates can be defined as strings and assigned to the node's `content` propert
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-contentTemplate/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-contentTemplate/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-contentTemplate/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-contentTemplate/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -113,11 +113,11 @@ Symbols can be added to palette at runtime by using public method, [`addPaletteI
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/symbol-add/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-add/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/symbol-add/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-add/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -128,11 +128,11 @@ Symbols can be removed from the palette at runtime using the public method [`rem
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/symbol-rmv/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-rmv/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/symbol-rmv/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-rmv/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -147,11 +147,11 @@ In the following example, the fill color of node and target decorator shape of c
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5defaultsettings-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5defaultsettings-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5defaultsettings-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5defaultsettings-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,11 +163,11 @@ Follow the example below to see how to add a palette at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-add/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-add/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-add/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-add/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,11 +184,11 @@ Follow the example below to see how to remove palettes at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-rmv/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-rmv/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/palette-rmv/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-rmv/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -202,11 +202,11 @@ The following code example demonstrates how to customize symbol sizing using the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5fit-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5fit-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/palettes/es5fit-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/palettes/es5fit-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

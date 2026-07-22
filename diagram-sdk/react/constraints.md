@@ -229,10 +229,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -419,10 +419,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -515,10 +515,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -603,10 +603,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -708,10 +708,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -792,10 +792,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -850,10 +850,10 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/constraints/constraints-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  

@@ -21,10 +21,10 @@ The following code example demonstrates how to define a basic swimlane object:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Swimlaneheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Swimlaneheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,10 +44,10 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5SwimlaneOrientation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5SwimlaneOrientation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ The following code example illustrates how to define a swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Swimlaneheader-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Swimlaneheader-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,10 +83,10 @@ The following code example illustrates how to customize the swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5HeaderCustomize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5HeaderCustomize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,10 +98,10 @@ Headers can be modified programmatically during runtime to respond to user inter
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Dynamicheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Dynamicheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

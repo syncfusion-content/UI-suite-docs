@@ -21,10 +21,10 @@ To create a gateway in the React Diagram component, set the shape property of th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Gateway-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Gateway-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Gateway-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

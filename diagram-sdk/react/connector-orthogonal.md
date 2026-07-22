@@ -20,10 +20,10 @@ The [`length`](https://helpej2.syncfusion.com/react/documentation/api/diagram/or
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrthoSegments-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoSegments-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrthoSegments-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoSegments-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrtho-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrtho-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrtho-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrtho-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ Orthogonal segments automatically reroute themselves to avoid overlapping with t
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOverlapping-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOverlapping-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOverlapping-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOverlapping-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -88,10 +88,10 @@ You can also customize the style of the thumb shape by overriding the `e-orthogo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsThumbshape-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsThumbshape-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsThumbshape-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsThumbshape-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ To customize the thumb size for a specific connector, you must first disable its
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrthoThumbSize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoThumbSize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsOrthoThumbSize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoThumbSize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

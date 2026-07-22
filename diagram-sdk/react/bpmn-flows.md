@@ -34,10 +34,10 @@ The `association` property allows you to define the type of association. The fol
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Association-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Association-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Association-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Association-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ The `sequence` property allows you to define the type of sequence flow. The foll
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Sequence-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Sequence-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Sequence-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Sequence-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The `message` property allows you to define the type of message flow. The follow
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Message-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Message-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/bpmnShapes/es5Message-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Message-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -20,10 +20,10 @@ Connectors can be selected programmatically at runtime using the **select** meth
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectUnselect-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5SelectUnselect-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ A connector can be dragged at runtime by using the Drag method. The following co
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5DragConnector-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5DragConnector-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ The following code example demonstrates how to drag connector end points at runt
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5dragEnd-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5dragEnd-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ The available flip types are:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -24,10 +24,10 @@ The following code example illustrates how to define a swimlane with lane.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Emptylane-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Emptylane-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Emptylane-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Emptylane-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following code example illustrates how to define a lane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Laneheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Laneheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Laneheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Laneheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ The following code example illustrates how to customize the lane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Laneheadercustomize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Laneheadercustomize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Laneheadercustomize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Laneheadercustomize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,10 +77,10 @@ Lane header style and text properties can be customized dynamically. The followi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Dynamiclaneheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamiclaneheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Dynamiclaneheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamiclaneheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ Lanes can be added at runtime by using the [`addLanes`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ The following code example illustrates how to add nodes to lane.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildern-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildern-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildern-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildern-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ Here is an example of how to apply these constraints:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -160,10 +160,10 @@ Additional information storage for lanes is similar to nodes. Additional informa
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Lanechildren-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Lanechildren-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -192,10 +192,10 @@ The following code illustrates how to disable swimlane lane swapping.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

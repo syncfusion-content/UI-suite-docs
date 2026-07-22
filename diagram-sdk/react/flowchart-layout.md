@@ -54,10 +54,10 @@ To render a flowchart layout, set the [`layoutType`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -122,10 +122,10 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -209,10 +209,10 @@ The following example shows a flowchart layout with `yesBranchDirection` set to 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -250,10 +250,10 @@ The following example demonstrates how to set custom text values for yes and no 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/flowchart-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
