@@ -20,27 +20,11 @@ This section explains the steps to create a simple Tree Grid and demonstrates th
 
 ## Prerequisites
 
-To get started with application, ensure the following software to be installed in the machine.
-
-| Requirement | Version |
-|-------------|---------|
-| [git](https://git-scm.com/downloads) | Latest Version |
-| [Node.js](https://nodejs.org/en/) | 14.15.0 or above, Recommended: Latest Version |
-| [Visual Studio Code](https://code.visualstudio.com/) | Latest Version |
-
-### Browser support
-
-| Browser | Supported versions |
-|----------|----------|
-| Chrome | 63+ |
-| Firefox | 58+ |
-| Opera | 50+ |
-| Edge | 13+ |
-| IE | 11+ |
-| Safari | 9+ |
-| iOS | 9+ |
-| Android | 4.4+ |
-| Windows Mobile | IE 11+ |
+Ensure the following tools are installed on your machine:
+ 
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Set up development environment
 
@@ -194,20 +178,7 @@ npm start
 
 ## Registering Syncfusion license
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Essential<sup style="font-size:70%">&reg;</sup> JS 2 components require a valid license key from version **16.2.0.41** onwards. Using the components without a license key will display a **license validation message** in the browser console.
-
-**Steps to register the license key:**
-
-1. Sign in to the [Syncfusion License Portal](https://www.syncfusion.com/account/downloads) and copy your license key.
-2. Register the key in your **src/app/app.ts** file, before instantiating any Syncfusion component:
-
-```ts
-import { registerLicense } from '@syncfusion/ej2-base';
-
-registerLicense('YOUR_LICENSE_KEY_HERE');
-```
-
-> For more details on obtaining and registering a license key, refer to the [License Key Generation](https://ej2.syncfusion.com/documentation/licensing/license-key-generation) and [License Key Registration](https://ej2.syncfusion.com/documentation/licensing/license-key-registration) documentation.
+The Syncfusion® Tree Grid requires a valid license key to be registered within the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/documentation/licensing/overview) documentation.
 
 ## Troubleshooting
 
