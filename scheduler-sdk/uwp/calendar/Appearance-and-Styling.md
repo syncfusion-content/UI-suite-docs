@@ -47,7 +47,7 @@ The inactive/disabled calendar day button template can be modified using `Disabl
 
 {% tabs %}
 
-{% highlight XAML %}
+{% highlight xaml %}
 
 <input:SfCalendar x:Name="calendar">
 
@@ -74,7 +74,7 @@ The inactive/disabled calendar day button template can be modified using `Disabl
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 calendar.VisibleMinDate = new DateTime(2015, 12, 5);
 
@@ -82,7 +82,7 @@ calendar.VisibleMaxDate = new DateTime(2015, 12, 25);
 
 {% endhighlight %}
 
-{% highlight VB %}
+{% highlight vb %}
 
 calendar.VisibleMinDate = New Date(2015, 12, 5)
 
@@ -102,7 +102,7 @@ The template of day names can also be modified using `DayNameCellTemplate` prope
 
 {% tabs %}
 
-{% highlight XAML %}
+{% highlight xaml %}
 
 <input:SfCalendar x:Name="calendar">
 
@@ -131,7 +131,7 @@ The template of header in SfCalendar can be modified using `HeaderTemplate` prop
 
 {% tabs %}
 
-{% highlight XAML %}
+{% highlight xaml %}
 
 <input:SfCalendar x:Name="calendar" >
 
@@ -160,7 +160,7 @@ The background of selected date can be set using `SelectedDateBackground` proper
 
 {% tabs %}
 
-{% highlight XAML %}
+{% highlight xaml %}
 
 <input:SfCalendar x:Name="calendar" SelectedDateBackground="Red"/>
 
@@ -170,13 +170,13 @@ The background of selected date can be set using `SelectedDateBackground` proper
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 calendar.SelectedDateBackground = new SolidColorBrush(Windows.UI.Colors.Red);
 
 {% endhighlight %}
 
-{% highlight VB %}
+{% highlight vb %}
 
 calendar.SelectedDateBackground = New SolidColorBrush(Windows.UI.Colors.Red)
 
