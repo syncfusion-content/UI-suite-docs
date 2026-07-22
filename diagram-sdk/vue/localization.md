@@ -68,10 +68,10 @@ The following code example summarizes the locale settings for the context menu.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/locale/contextMenu-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/locale/contextMenu-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/locale/contextMenu-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/locale/contextMenu-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -113,10 +113,10 @@ L10n.load({
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/locale/SymbolPalette-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/locale/SymbolPalette-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/locale/SymbolPalette-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/locale/SymbolPalette-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

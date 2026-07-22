@@ -14,10 +14,10 @@ Multiple segments can be defined one after another. To create a connector with m
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/multipleSegment-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/multipleSegment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/multipleSegment-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/multipleSegment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -40,10 +40,10 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectors-segundo/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectors-segundo/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/connectors-segundo/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/connectors-segundo/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

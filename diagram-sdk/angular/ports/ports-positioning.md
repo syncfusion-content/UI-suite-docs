@@ -40,11 +40,11 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portspos-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portspos-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portspos-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portspos-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -70,11 +70,11 @@ The [`Margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marg
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portspos-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portspos-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/portspos-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/portspos-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

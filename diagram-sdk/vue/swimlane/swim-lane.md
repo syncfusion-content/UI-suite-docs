@@ -22,10 +22,10 @@ The following code example illustrates how to define a swimlane object.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/swimlaneheader-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/swimlaneheader-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -43,10 +43,10 @@ The following code example illustrates how to define a swimlane header.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/swimlaneheader-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/swimlaneheader-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -62,10 +62,10 @@ The following code example illustrates how to customize the swimlane header.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/headercustomize-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/headercustomize-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/headercustomize-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/headercustomize-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -77,10 +77,10 @@ You can customize the swimlane header style and text properties dynamically. The
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/dynamicheader-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/dynamicheader-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/dynamicheader-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/dynamicheader-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -96,10 +96,10 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/orientation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/orientation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/orientation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/orientation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

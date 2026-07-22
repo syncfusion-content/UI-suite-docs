@@ -28,10 +28,10 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-header/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-header/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-header/app.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-header/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -77,10 +77,10 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-fields/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-fields/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-fields/app.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-fields/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -139,10 +139,10 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-styling/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-styling/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-styling/app.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-styling/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -188,10 +188,10 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-cardinality/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-cardinality/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/er-diagram/er-diagram-cardinality/app.vue %}
+{% include code-snippet/diagram-sdk/vue/er-diagram/er-diagram-cardinality/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

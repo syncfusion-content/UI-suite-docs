@@ -25,10 +25,10 @@ The [`event`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnevent
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Event-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Event-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/bpmn-shapes/Event-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/bpmn-shapes/Event-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

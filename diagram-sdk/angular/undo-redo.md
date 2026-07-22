@@ -70,11 +70,11 @@ Use [`startGroupAction`](https://ej2.syncfusion.com/angular/documentation/api/di
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/groupAction-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/groupAction-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/groupAction-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/groupAction-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -86,11 +86,11 @@ The [`stackLimit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canLog-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canLog-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canLog-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canLog-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -102,11 +102,11 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canLog-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canLog-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canLog-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canLog-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -142,11 +142,11 @@ The [`canUndo`](https://ej2.syncfusion.com/angular/documentation/api/diagram/his
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canUndo-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canUndo-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/canUndo-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/canUndo-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -158,11 +158,11 @@ During user interactions with nodes or connectors, the current history entry is 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/currentEntry-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/currentEntry-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/currentEntry-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/currentEntry-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -201,11 +201,11 @@ The [`historyChange`](https://ej2.syncfusion.com/angular/documentation/api/diagr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/histroyChange-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/histroyChange-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/undoRedo/histroyChange-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/undoRedo/histroyChange-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

@@ -69,11 +69,11 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -112,11 +112,11 @@ The following example shows how to create different types of messages between pa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -140,11 +140,11 @@ The following example demonstrates how to create activation boxes that span spec
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -195,11 +195,11 @@ The following example illustrates how to create fragments with different conditi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/umlsequencediagram/umlsequencediagram-4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

@@ -22,10 +22,10 @@ The following code example illustrates how to create an MindMap layout.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -48,10 +48,10 @@ You can also decide the branch for mind map using [`getBranch`](https://ej2.sync
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/automatic-layout/mindmap-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

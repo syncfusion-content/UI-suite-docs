@@ -20,11 +20,11 @@ The following code illustrates how to change the appearance of port.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/appear-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/appear-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/appear-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/appear-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -36,11 +36,11 @@ The appearance of port can be changed at runtime by customizing the style proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-app1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-app1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -80,11 +80,11 @@ The following code illustrates how to set custom shape to the port.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-app2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ports/ports-app2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ports/ports-app2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

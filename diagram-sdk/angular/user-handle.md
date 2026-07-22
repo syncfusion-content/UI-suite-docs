@@ -24,11 +24,11 @@ The following example shows how to render user handle.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,11 +40,11 @@ When a user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -74,11 +74,11 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -103,11 +103,11 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletooltip-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandletooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletooltip-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandletooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -123,11 +123,11 @@ The following example demonstrates how to use these properties to customize the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandle-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandle-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -145,11 +145,11 @@ In the example below, multiple user handles are utilized for various functionali
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandledisable-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandledisable-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandledisable-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandledisable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -177,11 +177,11 @@ The below example code demonstrates different types of user handles.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletypes-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandletypes-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandletypes-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandletypes-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -202,11 +202,11 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandleevents-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandleevents-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/userhandleevents-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/userhandleevents-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -224,11 +224,11 @@ The following code example demonstrates how to create fixed user handles for nod
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -256,11 +256,11 @@ The following example demonstrates how to align fixed user handle for both node 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandle-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandle-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -326,11 +326,11 @@ The following code explains how to customize the alignment of connector fixed us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/connectorfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/connectorfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/connectorfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -342,11 +342,11 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/tooltipfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/tooltipfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/tooltipfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -376,11 +376,11 @@ The following example demonstrates how to use these properties to customize the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/customizingfixeduserhandle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/customizingfixeduserhandle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/customizingfixeduserhandle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -392,11 +392,11 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandletemplate-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandletemplate-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandletemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -417,11 +417,11 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandleevents-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/fixeduserhandleevents-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/fixeduserhandleevents-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

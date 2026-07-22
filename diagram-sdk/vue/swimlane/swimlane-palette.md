@@ -14,10 +14,10 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/palette-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/palette-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/swimlane/palette-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/swimlane/palette-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

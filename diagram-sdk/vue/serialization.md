@@ -123,10 +123,10 @@ When a JSON file is uploaded, it undergoes parsing to extract its JSON data. Thi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -156,10 +156,10 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -172,10 +172,10 @@ The following example shows how to load mind map diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -187,10 +187,10 @@ The following example shows how to load UML Sequence diagram from mermaid syntax
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

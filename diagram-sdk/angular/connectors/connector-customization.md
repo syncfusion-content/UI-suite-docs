@@ -28,11 +28,11 @@ The following code example illustrates how to create decorators of various shape
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecorator-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecorator-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecorator-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecorator-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -48,11 +48,11 @@ The following code example illustrates how to customize the appearance of the de
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordecoratorappearnce-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectordecoratorappearnce-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectordecoratorappearnce-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectordecoratorappearnce-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -70,11 +70,11 @@ The following code example illustrates how to apply gradient effects to decorato
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecoratorstyle-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecoratorstyle-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsdecoratorstyle-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsdecoratorstyle-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,11 +94,11 @@ The following code example illustrates how to leave space between the connection
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectNode-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectNode-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectNode-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectNode-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -114,11 +114,11 @@ Bridging can be enabled or disabled using either `connector.constraints` or `dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbridging-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsbridging-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsbridging-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsbridging-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -138,11 +138,11 @@ The following code example illustrates how to specify hit padding for connectors
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorHitPadding-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorHitPadding-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorHitPadding-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorHitPadding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -154,11 +154,11 @@ Corner radius creates connectors with rounded corners instead of sharp angles, p
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorscornerradius-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorscornerradius-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorscornerradius-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorscornerradius-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -178,11 +178,11 @@ The following code example illustrates how to customize the segment appearance.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegappear-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegappear-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegappear-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegappear-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -199,11 +199,11 @@ The following code illustrates how to disable selection for a connector.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsconstraints-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsconstraints-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsconstraints-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsconstraints-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -229,11 +229,11 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/zindex-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/zindex-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/zindex-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/zindex-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -247,11 +247,11 @@ The following code example illustrates how to configure connector spacing.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSpacing-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSpacing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSpacing-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSpacing-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -263,11 +263,11 @@ The [`maxSegmentThumb`](https://ej2.syncfusion.com/angular/documentation/api/dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectormaxthumb-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectormaxthumb-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectormaxthumb-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectormaxthumb-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -281,11 +281,11 @@ The [`resetSegments`](https://ej2.syncfusion.com/angular/documentation/api/diagr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorresetseg-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorresetseg-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorresetseg-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorresetseg-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -300,11 +300,11 @@ The following code illustrates how to enable connector splitting functionality.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorSplit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorSplit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/ConnectorSplit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/ConnectorSplit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -320,11 +320,11 @@ The following example demonstrates how to preserve the original connector's styl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSplitpreserve-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSplitpreserve-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorSplitpreserve-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorSplitpreserve-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
