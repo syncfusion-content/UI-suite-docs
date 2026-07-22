@@ -16,7 +16,7 @@ Selected objects can be deleted by using the Delete key or In-built Delete comma
 * [ItemDeletingEvent](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IGraphInfo.html#Syncfusion_UI_Xaml_Diagram_IGraphInfo_ItemDeletingEvent) will notify you with the item , option to cancel the deleting operation of item and option to decide on deleting dependent Connector when its Source/Target gets deleting. To explore about arguments , please refer to [ItemDeletingEventArgs](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ItemDeletingEventArgs.html).  
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 (diagram.Info as IGraphInfo).ItemDeletingEvent += MainWindow_ItemDeletingEvent;
 

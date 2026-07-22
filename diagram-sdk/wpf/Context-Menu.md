@@ -16,7 +16,7 @@ In graphical user interface (GUI), a ContextMenu is a type of Menu that appears 
 The `ContextMenu` Constraint helps you to enable/disable the context menu. The following code illustrates how to enable/disable the default context menu items.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Disable context menu
 diagram.Constraints = GraphConstraints.Default & ~GraphConstraints.ContextMenu;
@@ -46,7 +46,7 @@ Diagram provides some default context menu items to ease the execution of some f
 The following code example illustrates how to add custom context menu items to Menu property of SfDiagram.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 DiagramMenuItem menu = new DiagramMenuItem() 
 {
@@ -66,7 +66,7 @@ diagram.Menu.MenuItems.Add(menu);
 The default value of Menu property for Node and Connector is null.The following code example illustrates how to set ContextMenu and ContextMenuItems to Node.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 node.Constraints = node.Constraints | NodeConstraints.Menu;
 node.Constraints = node.Constraints & ~NodeConstraints.InheritMenu;
@@ -94,7 +94,7 @@ DiagramMenuItem mi = new DiagramMenuItem()
 The following code example illustrates how to define those events.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 (diagram.Info as IGraphInfo).MenuItemClickedEvent += 
 	MainPage_MenuItemClickedEvent;

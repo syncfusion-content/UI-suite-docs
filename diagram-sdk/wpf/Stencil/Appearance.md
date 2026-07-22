@@ -194,7 +194,7 @@ Stencil has option to control how the symbols should be displayed. By default, s
 </Stencil:Stencil>
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Defines symbols display mode as name under icons.
 stencil.SymbolsDisplayMode = SymbolsDisplayMode.NamesUnderIcons;

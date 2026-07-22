@@ -39,7 +39,7 @@ The following code illustrates how to customize the page size and the appearance
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Sets Page background
 diagram.Background = new SolidColorBrush(Colors.WhiteSmoke);
@@ -71,7 +71,7 @@ When MultiplePage is enabled, size of the page dynamically increases or decrease
 
 `MultiplePage` and `ShowPageBreak` properties of page settings allow you to enable/disable multiple pages and page breaks respectively. The following code illustrates how to enable multiple page and page break lines.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Enables the PageBreak lines
 diagram.PageSettings.ShowPageBreaks = true;
@@ -107,7 +107,7 @@ This method will be customized the Origin based the Size of the Page.
 </tr>
 </table>
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Need to create a custom class which should be derived from PageSetting class.
 public class PageCustomClass : PageSettings
