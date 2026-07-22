@@ -43,7 +43,7 @@ Navigate to the project directory:
 cd quickstart
 ```
 
-## Adding Syncfusion Block Editor package
+## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages
 
 All Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages are published on [npmjs.com](https://www.npmjs.com/search?q=ej2-vue). Install the Vue Block Editor package by running the following command:
 
@@ -112,17 +112,13 @@ export default {
 {% highlight html tabtitle="~/src/App.vue" %}
 
 <template>
-    <div id='container' style="margin: 50px auto;">
-        <ejs-blockeditor></ejs-blockeditor>
-    </div>
+  <ejs-blockeditor></ejs-blockeditor>
 </template>
 
 {% endhighlight %}
 {% endtabs %}
 
 The complete example below combines the previous steps into a single **src/App.vue** file.
-
-The following code summarizes the steps:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
