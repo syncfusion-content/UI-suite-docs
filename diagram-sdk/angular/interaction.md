@@ -104,11 +104,11 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -143,11 +143,11 @@ Aspect ratio constraints ensure that when resizing a node by dragging its corner
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -159,11 +159,11 @@ Customize the size of resize handles and connector endpoint handles using the [`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -183,11 +183,11 @@ Adjust the rotation handle position by modifying the node's [`pivot`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/interaction/interactions-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/interaction/interactions-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

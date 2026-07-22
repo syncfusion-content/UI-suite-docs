@@ -18,11 +18,11 @@ The [`DragEnter`](https://ej2.syncfusion.com/angular/documentation/api/diagram/i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-enter/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-enter/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-enter/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-enter/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -34,11 +34,11 @@ The [`DragLeave`](https://ej2.syncfusion.com/angular/documentation/api/diagram/i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-leave/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-leave/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-leave/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-leave/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -50,11 +50,11 @@ The [`DragOver`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iD
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-over/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-over/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drag-over/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drag-over/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -66,11 +66,11 @@ The [`Drop`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iDropE
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drop/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drop/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/drop/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/drop/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -82,11 +82,11 @@ The [`PaletteExpanding`](https://ej2.syncfusion.com/angular/documentation/api/di
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/palette-expand/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/palette-expand/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/palette-expand/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/palette-expand/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -98,11 +98,11 @@ The [`PaletteSelectionChange`](https://ej2.syncfusion.com/angular/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/palette-selection/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/palette-selection/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/symbolpalette/events/palette-selection/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/symbolpalette/events/palette-selection/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

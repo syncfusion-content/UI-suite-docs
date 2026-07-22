@@ -22,10 +22,10 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ Connectors can be added to a group. The following code illustrates how to add co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupaddconnector-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupaddconnector-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupaddconnector-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupaddconnector-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ The following code illustrates how to group at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-runtime/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-runtime/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-runtime/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-runtime/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ Group node can be ungrouped dynamically, by using the [`diagram.unGroup`](https:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/ungroup-runtime/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/ungroup-runtime/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/ungroup-runtime/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/ungroup-runtime/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -84,10 +84,10 @@ The following code illustrates how a group node is added at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupadd-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupadd-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupadd-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupadd-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ The following code illustrates how to add group nodes collection at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupcollection-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupcollection-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupcollection-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupcollection-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -140,10 +140,10 @@ diagramInstance.removeChildFromGroup (groupNode, childNode);
 ```
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupchild-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupchild-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/groupchild-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/groupchild-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -157,10 +157,10 @@ The following code illustrates how to add Padding to the node group.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-padding/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-padding/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-padding/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-padding/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -180,10 +180,10 @@ The following example shows how to apply flip for group node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-flip/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-flip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-flip/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-flip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -201,10 +201,10 @@ As a result, the effective flipMode for both the child node and the group node w
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-flipMode/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-flipMode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-flipMode/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-flipMode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -222,10 +222,10 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-nested/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-nested/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-nested/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-nested/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -237,10 +237,10 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-palette/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-palette/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-palette/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-palette/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -252,10 +252,10 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-update/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-update/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/group-update/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/group-update/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -289,10 +289,10 @@ The following code illustrates how to add a stack panel.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/stack-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/group/stack-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/group/stack-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/group/stack-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

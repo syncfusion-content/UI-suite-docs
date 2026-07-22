@@ -18,11 +18,11 @@ The following code example illustrates how to create a phase.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phase-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phase-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phase-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phase-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -36,11 +36,11 @@ The following code example illustrates how to add and remove phases at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addphases-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addphases-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/addphases-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/addphases-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -59,11 +59,11 @@ The following code example illustrates how to customize phases in a swimlane.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -77,11 +77,11 @@ The following code example illustrates how to customize phases at runtime.
 
  {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/swimlane/phasecustomize-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/swimlane/phasecustomize-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

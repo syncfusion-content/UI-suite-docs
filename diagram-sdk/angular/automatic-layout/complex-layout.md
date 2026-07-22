@@ -20,11 +20,11 @@ This example demonstrates how to create a complex hierarchical tree layout by ma
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,11 +36,11 @@ When working with large datasets, binding the layout to a data source provides b
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -61,11 +61,11 @@ The [`connectionPointOrigin`](https://ej2.syncfusion.com/angular/documentation/a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,11 +86,11 @@ When line distribution is enabled, linear arrangement activates automatically. T
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,11 +105,11 @@ Set the [`enableRouting`](https://ej2.syncfusion.com/angular/documentation/api/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/complexhiertree-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/complexhiertree-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

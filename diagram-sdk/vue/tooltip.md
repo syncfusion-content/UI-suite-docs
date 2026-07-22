@@ -28,10 +28,10 @@ The default tooltip that appears while interacting with nodes can be disabled by
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -43,10 +43,10 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -58,10 +58,10 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/inheritTooltip-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/inheritTooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/inheritTooltip-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/inheritTooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -119,10 +119,10 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs7/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs7/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -140,10 +140,10 @@ The following code example illustrates how to add formatted HTML content to the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -159,10 +159,10 @@ The following code example illustrates how to position the tooltip around object
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -176,10 +176,10 @@ The following code example illustrates how to show tooltip at mouse position.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs5/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs5/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -193,10 +193,10 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs6/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltip-cs6/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltip-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -210,10 +210,10 @@ The following example shows how to render sticky tooltip.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/StickyTooltip-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/StickyTooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/StickyTooltip-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/StickyTooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -225,10 +225,10 @@ The [`showTipPointer`](https://ej2.syncfusion.com/vue/documentation/api/diagram/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/ShowHidePointer-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/ShowHidePointer-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/ShowHidePointer-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/ShowHidePointer-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -242,10 +242,10 @@ The following code example shows how to set the size for the tooltip:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltipSize-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltipSize-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/tooltipSize-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/tooltipSize-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -259,10 +259,10 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/ShowhideTooltip-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/ShowhideTooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/tooltip/ShowhideTooltip-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/tooltip/ShowhideTooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -276,10 +276,10 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/AnnotationTooltip-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/AnnotationTooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/labels/AnnotationTooltip-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/labels/AnnotationTooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

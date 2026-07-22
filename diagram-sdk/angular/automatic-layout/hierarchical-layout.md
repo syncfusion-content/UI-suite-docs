@@ -18,11 +18,11 @@ To arrange nodes in a hierarchical structure, specify the layout [`type`](https:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/hierarchicallayout-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/hierarchicallayout-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -36,11 +36,11 @@ For data-driven scenarios, hierarchical layout can be created using a DataSource
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/hierarchicallayout-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/hierarchicallayout-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

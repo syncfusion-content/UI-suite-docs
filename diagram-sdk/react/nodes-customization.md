@@ -21,10 +21,10 @@ The following code example shows how to use the getNodeDefaults function to appl
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -42,10 +42,10 @@ The following code illustrates how to customize the appearance of nodes using st
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -70,10 +70,10 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -87,10 +87,10 @@ A radial gradient's cx, cy, fx, fy properties are used to define the position (r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -126,10 +126,10 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -143,10 +143,10 @@ The following code illustrates how to apply shadow effects to nodes:
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -160,10 +160,10 @@ The following code example illustrates how to customize shadow properties:
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -222,10 +222,10 @@ The [`zIndex`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#z
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nCustomization-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -249,10 +249,10 @@ The following code illustrates how to change the `pivot` value.
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  

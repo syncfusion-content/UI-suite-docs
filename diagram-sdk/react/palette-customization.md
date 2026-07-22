@@ -25,10 +25,10 @@ The following code example illustrates how to customize palette headers.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/palette-header/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-header/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/palette-header/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-header/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,10 +40,10 @@ The expand and collapse operations of the symbol palette can be animated by util
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/palette-animate/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-animate/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/palette-animate/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-animate/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ The [`description`](https://ej2.syncfusion.com/react/documentation/api/diagram/s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-textWrp/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-textWrp/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-textWrp/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-textWrp/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,10 +87,10 @@ The following code example shows how to customize the symbol description.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-text/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-text/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-text/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-text/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/size-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/size-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/size-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/size-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -122,10 +122,10 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-preview/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-preview/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -136,10 +136,10 @@ The [`symbolDragSize`](https://ej2.syncfusion.com/react/documentation/api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-dragSize/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-dragSize/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-dragSize/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-dragSize/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,10 +155,10 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/expandMode/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/expandMode/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/expandMode/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/expandMode/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -171,10 +171,10 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/restrict-expand/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-expand/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/restrict-expand/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-expand/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/tooltip-custom/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/tooltip-custom/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/tooltip-custom/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/tooltip-custom/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -238,10 +238,10 @@ The following code snippet demonstrates how to define two different tooltips for
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-tooltip/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-tooltip/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-tooltip/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-tooltip/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,10 +254,10 @@ The following code shows how to localize symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/locale/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/locale/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/locale/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/locale/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -268,10 +268,10 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/restrict-drag/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/restrict-drag/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -282,10 +282,10 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-search/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-search/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -297,10 +297,10 @@ In the following example, the symbol with the ID 'plus' is ignored, so it will n
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-search-ig/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search-ig/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-search-ig/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search-ig/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -311,10 +311,10 @@ You can filter the search results based on your specific requirements. To achiev
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-filter/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-filter/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/symbol-palette/custompalette/symbol-filter/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-filter/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -31,11 +31,11 @@ In the following example, basic shapes are categorized in layer 1, and flow shap
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -51,11 +51,11 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -71,11 +71,11 @@ In the following example, the objects in layer one are locked. By default, the `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -145,11 +145,11 @@ The following code illustrates how to add a layer.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -165,11 +165,11 @@ The following code illustrates how to remove a layer.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -183,11 +183,11 @@ The following code illustrates how to move objects from one layer to another lay
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -218,11 +218,11 @@ The following code illustrates how to send the layer forward/backward to another
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -244,11 +244,11 @@ The following code illustrates how to clone a layer:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs8/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/layers/layers-cs8/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/layers/layers-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

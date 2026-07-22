@@ -37,10 +37,10 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/LocalBinding-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/LocalBinding-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/LocalBinding-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/LocalBinding-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -58,10 +58,10 @@ To bind remote data to the diagram,configure the fields of [`dataSourceSettings`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/RemoteBinding-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/RemoteBinding-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/RemoteBinding-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/RemoteBinding-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -99,10 +99,10 @@ This feature allows you to read the data source and perform add or edit or delet
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/connectionDataSource-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/connectionDataSource-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/data-binding/connectionDataSource-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/data-binding/connectionDataSource-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

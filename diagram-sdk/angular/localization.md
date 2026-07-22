@@ -77,11 +77,11 @@ The following code example demonstrates the complete locale settings for the con
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localcontextmenu-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/locale/localcontextmenu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localcontextmenu-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/locale/localcontextmenu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -129,11 +129,11 @@ The following code example shows the complete locale settings for the symbol pal
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localsymbolpalette-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/locale/localsymbolpalette-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/locale/localsymbolpalette-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/locale/localsymbolpalette-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

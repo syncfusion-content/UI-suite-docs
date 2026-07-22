@@ -33,10 +33,10 @@ The following example demonstrates how to configure offset, width, and height fo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,10 +48,10 @@ Annotation offset values can be modified dynamically during application executio
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Update-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -85,10 +85,10 @@ The following example shows how to configure annotation alignment properties:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Alignment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Alignment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,10 +116,10 @@ Annotation alignment properties can be modified dynamically during application e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Alignment-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/annotations/es5Alignment-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

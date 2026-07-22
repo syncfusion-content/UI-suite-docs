@@ -20,10 +20,10 @@ The following code example demonstrates how to handle the  [`click`](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -38,10 +38,10 @@ The following code example shows how to handle the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -67,10 +67,10 @@ The following code example demonstrates how to handle the  [`positionChange`](ht
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -96,10 +96,10 @@ The following code example shows how to handle the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -125,10 +125,10 @@ The following code example demonstrates how to handle the [`rotateChange`](https
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -154,10 +154,10 @@ The following code example shows how to handle the [`propertyChange`](https://ej
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -171,10 +171,10 @@ The following code example demonstrates how to handle the  [`collectionChange`](
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
@@ -212,10 +212,10 @@ The following code example demonstrates how to handle these mouse events and imp
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nEvent-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nEvent-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  

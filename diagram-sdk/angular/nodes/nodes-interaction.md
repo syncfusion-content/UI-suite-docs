@@ -24,11 +24,11 @@ Nodes can be selected at runtime using the [`select`](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -53,11 +53,11 @@ Nodes can be moved programmatically using the [`drag`](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -75,11 +75,11 @@ Node dimensions can be modified at runtime using the [`scale`](https://ej2.syncf
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -97,11 +97,11 @@ Nodes can be rotated at runtime using the [`rotate`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -124,11 +124,11 @@ The following example demonstrates how to apply flip transformations to nodes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -140,11 +140,11 @@ Node flip properties can be updated dynamically at runtime using the `^` operato
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4-flip/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs4-flip/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-cs4-flip/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-cs4-flip/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -200,11 +200,11 @@ The following example demonstrates implementing different flip modes:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/nodes/node-interaction-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/nodes/node-interaction-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

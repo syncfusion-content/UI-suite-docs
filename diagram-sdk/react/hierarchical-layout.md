@@ -18,10 +18,10 @@ To arrange nodes in a hierarchical structure, specify the layout [`type`](https:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/hierarchicallayout-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/hierarchicallayout-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ For data-driven scenarios, hierarchical layout can be created using a DataSource
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/hierarchicallayout-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/hierarchicallayout-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

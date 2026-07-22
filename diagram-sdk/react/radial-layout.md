@@ -22,11 +22,11 @@ Creating a radial tree layout with a data source provides automatic node generat
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,11 +42,11 @@ For scenarios requiring manual control over node creation and positioning, the r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

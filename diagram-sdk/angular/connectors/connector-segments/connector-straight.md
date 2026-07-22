@@ -18,11 +18,11 @@ To create a straight line connector, specify the [`type`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegments-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegments-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegments-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegments-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -34,11 +34,11 @@ The [`point`](https://ej2.syncfusion.com/angular/documentation/api/diagram/strai
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegmentspoints-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegmentspoints-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorssegmentspoints-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorssegmentspoints-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -64,11 +64,11 @@ The following example demonstrates how to add segments to a straight connector p
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsegEdit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsegEdit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/connectors/connectorsegEdit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/connectors/connectorsegEdit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

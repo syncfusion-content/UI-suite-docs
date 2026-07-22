@@ -28,10 +28,10 @@ Decorators are visual elements that appear at the starting and ending points of 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorDecorators-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorDecorators-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorDecorators-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorDecorators-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ The following code example illustrates how to customize the appearance of the de
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsDecorator-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecorator-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsDecorator-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecorator-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,10 +72,10 @@ The following code example illustrates how to apply gradient effects to decorato
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorGradient-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorGradient-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorGradient-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorGradient-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,10 +105,10 @@ Padding creates visual separation between connector endpoints and the nodes they
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectNode-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ Bridging can be enabled or disabled using either **connector.constraints** or **
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsBridging-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBridging-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsBridging-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBridging-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ The [`bridgeSpace`](https://helpej2.syncfusion.com/react/documentation/api/diagr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorHitPadding-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorHitPadding-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorHitPadding-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorHitPadding-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -161,10 +161,10 @@ Corner radius creates connectors with rounded corners instead of sharp angles, p
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsCornerRadius-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsCornerRadius-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsCornerRadius-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsCornerRadius-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following code example illustrates how to customize the segment appearance.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsAppearance-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsAppearance-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsAppearance-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsAppearance-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,10 +203,10 @@ The following code illustrates how to disable selection for a connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsConstraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsConstraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsConstraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsConstraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -239,10 +239,10 @@ The following code illustrates how to render connectors based on stack order.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5zindex-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5zindex-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5zindex-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5zindex-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -256,10 +256,10 @@ The following code example illustrates how to configure connector spacing.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsDecAppearance-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecAppearance-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorsDecAppearance-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecAppearance-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -271,10 +271,10 @@ The [`maxSegmentThumb`](https://helpej2.syncfusion.com/react/documentation/api/d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5MaxSegThump-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5MaxSegThump-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5MaxSegThump-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5MaxSegThump-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -288,10 +288,10 @@ The [`resetSegments`](https://helpej2.syncfusion.com/react/documentation/api/dia
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ResetSegment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ResetSegment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ResetSegment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ResetSegment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -307,10 +307,10 @@ The following code illustrates how to enable connector splitting functionality..
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorSplit-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorSplit-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5ConnectorSplit-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorSplit-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -326,10 +326,10 @@ The following example demonstrates how to preserve the original connector's styl
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PreserveStyle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5PreserveStyle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/connectors/es5PreserveStyle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5PreserveStyle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -27,11 +27,11 @@ The [`event`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnE
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/event-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/event-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/event-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/event-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

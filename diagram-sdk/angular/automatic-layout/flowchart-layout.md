@@ -55,11 +55,11 @@ To render a flowchart layout, set the [`layoutType`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -118,11 +118,11 @@ The following example demonstrates how to render a flowchart layout using predef
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -196,11 +196,11 @@ The following example shows a flowchart layout with `yesBranchDirection` set to 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -240,11 +240,11 @@ The following example demonstrates how to set custom text values for yes and no 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/automaticlayout/flowchart-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/automaticlayout/flowchart-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

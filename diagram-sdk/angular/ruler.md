@@ -24,11 +24,11 @@ The following code shows how to add a ruler to the diagram.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -56,11 +56,11 @@ The following code shows how the diagram ruler can be customized.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -74,11 +74,11 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/ruler/ruler-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

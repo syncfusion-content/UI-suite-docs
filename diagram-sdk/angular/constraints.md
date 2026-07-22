@@ -243,11 +243,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -432,11 +432,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs2/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs2/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -572,11 +572,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs3/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs3/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -663,11 +663,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs4/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs4/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -756,11 +756,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs5/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs5/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -835,11 +835,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs6/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs6/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -891,11 +891,11 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs7/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/constraints/constraints-cs7/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/constraints/constraints-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

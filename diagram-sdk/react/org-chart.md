@@ -19,11 +19,11 @@ This approach is ideal when working with dynamic data from databases, APIs, or w
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,11 +39,11 @@ You can render an org-chart layout without using DataSource. The following code 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -101,11 +101,11 @@ The following example demonstrates customizing subtree alignment for horizontal 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -117,11 +117,11 @@ This example shows how to implement vertical arrangement for leaf-level organiza
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -137,11 +137,11 @@ The following code example illustrates how to add assistants to layout.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/AutomaticLayout/organizationalchart-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

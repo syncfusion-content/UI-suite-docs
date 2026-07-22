@@ -20,10 +20,10 @@ A connector can be selected at runtime by using the Select method and clear the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SelectUnselect-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/SelectUnselect-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/SelectUnselect-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/SelectUnselect-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ A connector can be dragged at runtime by using the Drag method. The following co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/DragEnter-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/DragEnter-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/DragEnter-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/DragEnter-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ The following code example shows the ways to drag connector end point at runtime
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/EndPointDrag-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/EndPointDrag-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/EndPointDrag-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/EndPointDrag-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -102,10 +102,10 @@ The flip types are as follows:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsDecorator-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsDecorator-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

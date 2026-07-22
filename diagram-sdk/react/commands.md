@@ -64,10 +64,10 @@ The following code example illustrates how to align all the selected objects at 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/alignMode-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/alignMode-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/alignMode-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/alignMode-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The following code example illustrates how the nodes are distributed using the *
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/distribute-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/distribute-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/distribute-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/distribute-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -135,10 +135,10 @@ The following code example illustrates how to execute the size commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/sizing-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/sizing-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/sizing-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/sizing-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,10 +162,10 @@ The following code illustrates how to execute the clipboard commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5clipboard-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5clipboard-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5clipboard-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5clipboard-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5grouping-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5grouping-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5grouping-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5grouping-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -208,10 +208,10 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/rotate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/rotate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/rotate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/rotate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -227,10 +227,10 @@ The [`bringToFront`](https://ej2.syncfusion.com/react/documentation/api/diagram#
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5bringfront-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5bringfront-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5bringfront-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5bringfront-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +242,10 @@ The [`sendToBack`](https://ej2.syncfusion.com/react/documentation/api/diagram#se
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5sendback-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendback-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5sendback-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendback-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -257,10 +257,10 @@ The [`moveForward`](https://ej2.syncfusion.com/react/documentation/api/diagram#m
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5moveforward-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5moveforward-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5moveforward-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5moveforward-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -272,10 +272,10 @@ The [`sendBackward`](https://ej2.syncfusion.com/react/documentation/api/diagram#
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5sendbackward-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendbackward-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/es5sendbackward-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendbackward-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -346,10 +346,10 @@ The following code illustrates how to execute the nudge command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/nudge-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/nudge-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/nudge-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/nudge-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -375,10 +375,10 @@ The following code illustrates how to execute the `bringIntoView` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/bringIntoView-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringIntoView-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/bringIntoView-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringIntoView-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -394,10 +394,10 @@ The following code illustrates how to execute the `bringToCenter` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/bringToCenter-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringToCenter-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/bringToCenter-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringToCenter-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -425,10 +425,10 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/fitToPage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/fitToPage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/fitToPage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/fitToPage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -454,10 +454,10 @@ The following code example illustrates how to use the command manager to clone a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/customCommand-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/customCommand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/customCommand-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/customCommand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -471,10 +471,10 @@ The following code example illustrates how to disable the default cut and delete
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/modifyCommand-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/modifyCommand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/commands/modifyCommand-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/modifyCommand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

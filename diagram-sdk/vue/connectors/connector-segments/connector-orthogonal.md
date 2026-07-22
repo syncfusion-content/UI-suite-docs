@@ -20,10 +20,10 @@ The [`length`](https://ej2.syncfusion.com/vue/documentation/api/diagram/orthogon
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOverlapping-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOverlapping-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOverlapping-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOverlapping-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezier-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezier-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -56,10 +56,10 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierPoints-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsBezierPoints-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -89,10 +89,10 @@ The orthogonal connector can have any number of segments in between the source a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsThumbshape-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsThumbshape-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsThumbshape-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsThumbshape-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOrthoSegmentsSize-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegmentsSize-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/connectors/ConnectorsOrthoSegmentsSize-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegmentsSize-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

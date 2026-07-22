@@ -76,10 +76,10 @@ The following code example illustrates how to define symbols in a palette and ho
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -92,10 +92,10 @@ The following example shows how to render connectors in the symbol palette:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-con/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-con/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-con/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-con/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -107,10 +107,10 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-grp/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-grp/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palettes-grp/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-grp/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/Palette-contentTemplate/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/Palette-contentTemplate/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/Palette-contentTemplate/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/Palette-contentTemplate/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -150,10 +150,10 @@ Symbols can be added to palette at runtime by using public method, [`addPaletteI
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/symbol-add/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-add/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/symbol-add/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-add/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -165,10 +165,10 @@ Symbols can be removed from palette at runtime by using public method, [`removeP
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/symbol-rmv/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-rmv/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/symbol-rmv/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-rmv/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -183,10 +183,10 @@ In the following example, the fill color of node and target decorator shape of c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/defaults-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/defaults-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/defaults-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/defaults-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -200,10 +200,10 @@ Follow the example below to see how to add a palette at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palette-add/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-add/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palette-add/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-add/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -220,10 +220,10 @@ Follow the example below to see how to remove palettes at runtime.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palette-rmv/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-rmv/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/palette-rmv/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-rmv/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -235,10 +235,10 @@ The [`fit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolInfo/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/fit-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/fit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/symbol-palette/palettes/fit-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/symbol-palette/palettes/fit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

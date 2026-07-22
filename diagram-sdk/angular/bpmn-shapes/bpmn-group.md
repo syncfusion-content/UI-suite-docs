@@ -22,11 +22,11 @@ To create a BPMN group, set the [`shape`](https://ej2.syncfusion.com/angular/doc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/group-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/group-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/group-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/group-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

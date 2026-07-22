@@ -41,10 +41,10 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ These constraints are particularly useful when creating diagrams where nodes nee
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/nodes/nPositioning-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

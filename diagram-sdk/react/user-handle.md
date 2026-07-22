@@ -24,10 +24,10 @@ The following example shows how to render user handle.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,10 +72,10 @@ In the following example, the user handle is aligned to the bottom-right corner 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandle-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ In the example below, multiple user handles are utilized for various functionali
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5MultipleUserHandle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5MultipleUserHandle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5MultipleUserHandle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5MultipleUserHandle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -171,10 +171,10 @@ The below example code demonstrates different types of user handles.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandleTypes-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandleTypes-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandleTypes-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandleTypes-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandleEvents-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandleEvents-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5UserHandleEvents-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5UserHandleEvents-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -216,10 +216,10 @@ The following code example demonstrates how to create fixed user handles for nod
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -248,10 +248,10 @@ The following example demonstrates how to align fixed user handle for both node 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandle-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandle-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -317,10 +317,10 @@ The following code explains how to customize the alignment of connector fixed us
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5ConnectorFixedUserHandle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5ConnectorFixedUserHandle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -332,10 +332,10 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5ConnectorFixedUserHandle-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5ConnectorFixedUserHandle-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -365,10 +365,10 @@ The following example demonstrates, how to use these properties to customize the
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5CustomizingFixedUserHandle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5CustomizingFixedUserHandle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5CustomizingFixedUserHandle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5CustomizingFixedUserHandle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -380,10 +380,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
  {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandleTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandleTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -405,10 +405,10 @@ In the following example, the above events are used to customize the appearance 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandleEvents-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleEvents-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/interaction/es5FixedUserHandleEvents-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleEvents-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -18,10 +18,10 @@ The following code example illustrates how to create phase.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Phase-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5Phase-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The following code example illustrates how to add and remove phases at runtime.
 
   {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The following code example illustrates how to customize the phase in swimlane.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ The following code example illustrates how to customize the phase at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/react/react/swimlane/es5PhaseCustomize-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

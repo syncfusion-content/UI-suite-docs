@@ -28,10 +28,10 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/vue/doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Text-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Text-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Text-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Text-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -45,10 +45,10 @@ The following code illustrates how an image node is created.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Image-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Image-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -60,10 +60,10 @@ The following code illustrates how to add Base64 image into image node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Image-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Image-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Image-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -85,10 +85,10 @@ The following code illustrates how to use scale and align properties to stretch 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -117,10 +117,10 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -134,10 +134,10 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/FunctionalContentTemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/FunctionalContentTemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/FunctionalContentTemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/HTML-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/HTML-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ Refer the code example below.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/NodeTemplate-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/NodeTemplate-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -181,10 +181,10 @@ Diagram provides support to embed SVG element into a node. The shape property of
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Native-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Native-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Native-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Native-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -217,10 +217,10 @@ The following code example illustrates how to create a basic shape.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Basic-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Basic-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Basic-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Basic-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -244,10 +244,10 @@ To create a path node, specify the shape as Path. The [`data`](https://ej2.syncf
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Path-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Path-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Path-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Path-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -259,10 +259,10 @@ The [`flow`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node/#shap
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Flow-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Flow-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/shapes/Flow-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/shapes/Flow-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

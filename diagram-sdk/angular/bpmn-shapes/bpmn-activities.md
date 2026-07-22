@@ -23,11 +23,11 @@ To create a BPMN activity, set the shape property to **Activity**. Specify the a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/activity-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/activity-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/activity-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/activity-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -39,11 +39,11 @@ The [`task`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnTa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/task-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/task-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/task-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/task-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -72,11 +72,11 @@ A [`collapsed subprocess`](https://ej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/subprocess-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/subprocess-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/subprocess-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/subprocess-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -88,11 +88,11 @@ A [`collapsed subprocess`](https://ej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/loop-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/loop-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/loop-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/loop-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -112,11 +112,11 @@ The following table shows the available loop types for both tasks and subprocess
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/compensation-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/compensation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/compensation-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/compensation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -128,11 +128,11 @@ A [`call`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnTask
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/call-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/call-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/call-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/call-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -146,11 +146,11 @@ An [`adhoc`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnSu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/adhoc-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/adhoc-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/adhoc-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/adhoc-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -162,11 +162,11 @@ The [`boundary`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/boundary-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/boundary-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/boundary-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/boundary-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -192,11 +192,11 @@ Configure an event subprocess using the [`event`](https://ej2.syncfusion.com/ang
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/eventSubprocess-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/eventSubprocess-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/eventSubprocess-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/eventSubprocess-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -216,11 +216,11 @@ The [`event`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnE
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/transitionSubprocess-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/transitionSubprocess-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/bpmnShapes/transitionSubprocess-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/bpmnShapes/transitionSubprocess-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

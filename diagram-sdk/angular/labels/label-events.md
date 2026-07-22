@@ -28,11 +28,11 @@ The event arguments include details about the pressed key, modifier keys, and th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/keyDown-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/keyDown-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/keyDown-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/keyDown-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -46,11 +46,11 @@ Unlike the keyDown event, keyUp ensures that the key action has been fully compl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/keyUp-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/keyUp-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/keyUp-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/keyUp-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -64,11 +64,11 @@ The event provides information about the clicked element, mouse position, and cu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/doubleClick-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/doubleClick-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/doubleClick-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/doubleClick-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -82,11 +82,11 @@ This event is particularly useful for implementing text validation, formatting, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/textEdit-cs1/src/app.component.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/textEdit-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/diagram-sdk/angular/angular/angular/labels/textEdit-cs1/src/main.ts %}
+{% include code-snippet/diagram-sdk/angular/labels/textEdit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
