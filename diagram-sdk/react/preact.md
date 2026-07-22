@@ -24,13 +24,13 @@ Before you begin, ensure Node.js **20.19.0** or later is installed on your machi
 
 To create a new `Preact` project, use one of the commands that are specific to either NPM or Yarn.
 
-```bash
+```
 npm init preact
 ```
 
 or
 
-```bash
+```
 yarn init preact
 ```
 
@@ -38,7 +38,7 @@ Using one of the above commands will lead you to set up additional configuration
 
 1\. Define the project name: We can specify the name of the project directly. Let's specify the name of the project as `my-project` for this article.
 
-```bash
+```
 T  Preact - Fast 3kB alternative to React with the same modern API
 |
 *  Project directory:
@@ -48,7 +48,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 
 2\. Choose `JavaScript` as the framework variant to build this Preact project using JavaScript and React.
 
-```bash
+```
 T  Preact - Fast 3kB alternative to React with the same modern API
 |
 *  Project language:
@@ -59,7 +59,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 
 3\. Then configure the project as below for this article.
 
-```bash
+```
 T  Preact - Fast 3kB alternative to React with the same modern API
 |
 *  Use router?
@@ -77,7 +77,7 @@ T  Preact - Fast 3kB alternative to React with the same modern API
 
 4\. Upon completing the aforementioned steps to create `my-project`, run the following command to jump into the project directory:
 
-```bash
+```
 cd my-project
 ```
 
@@ -89,13 +89,13 @@ Syncfusion<sup style="font-size:70%">&reg;</sup> React component packages are av
 
 This article uses the [React Diagram component](https://www.syncfusion.com/react-components/react-diagram) as an example. To use the React Diagram component in the project, the `@syncfusion/ej2-react-diagrams` package needs to be installed using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-react-diagrams
 ```
 
 or
 
-```bash
+```
 yarn add @syncfusion/ej2-react-diagrams
 ```
 
@@ -103,19 +103,19 @@ yarn add @syncfusion/ej2-react-diagrams
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 or
 
-```bash
+```
 yarn add @syncfusion/ej2-tailwind3-theme
 ```
 
 Add the following import to the **src/style.css** file:
 
-```css
+```
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
@@ -285,13 +285,13 @@ render(<App />, document.querySelector('#app'));
 
 To run the project, use the following command:
 
-```bash
+```
 npm run dev
 ```
 
 or
 
-```bash
+```
 yarn run dev
 ```
 
