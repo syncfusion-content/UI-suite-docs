@@ -32,10 +32,10 @@ Collaborative editing in diagram control allows multiple users to edit and revie
 * View-only interactions
     * Zoom and pan are local to each user and are not synchronized, so collaborators may view different areas of the diagram.
 * Unsupported synchronized settings
-    * Changes to [pageSettings](../page-settings), [contextMenuSettings](../context-menu), [snapSettings](../grid-lines#snapping), [rulerSettings](../ruler), [layout](https://ej2.syncfusion.com/documentation/diagram/automatic-layout/automatic-layout), and [scrollSettings](../scroll-settings) are not propagated to other users and apply only locally.
+    * Changes to [pageSettings](../page-settings), [contextMenuSettings](../context-menu), [snapSettings](../grid-lines#snapping), [rulerSettings](../ruler), [layout](https://ej2.syncfusion.com/javascript/documentation/diagram/automatic-layout), and [scrollSettings](../scroll-settings) are not propagated to other users and apply only locally.
 
 >**Note:** 
-Collaboration will work when [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) modules are enabled. Collaboration applies to actions that raise the [historyChange](../../api/diagram/index-default#historychange) event.
+Collaboration will work when [DiagramCollaboration](https://ej2.syncfusion.com/javascript/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/javascript/documentation/diagram/getting-started#module-injection) modules are enabled. Collaboration applies to actions that raise the [historyChange](https://ej2.syncfusion.com/javascript/documentation/api/diagram#historychange) event.
 
 
 ## Sample code

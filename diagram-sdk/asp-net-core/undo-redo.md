@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Undo Redo in Syncfusion® ASP.NET Core Diagram Component
 description: Learn here all about Undo Redo in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -23,7 +23,7 @@ Undo/redo commands can be executed through shortcut keys. Shortcut key for undo 
 
 ## Undo/redo through public APIs
 
-The client-side methods [`undo`](../api/diagram) and [`redo`](../api/diagram) helps to revert/restore the changes.
+The client-side methods [`undo`](https://ej2.syncfusion.com/documentation/api/diagram/#undo) and [`redo`](https://ej2.syncfusion.com/documentation/api/diagram/#redo) helps to revert/restore the changes.
 
 ``` javascript
 var diagram = document.getElementById("diagram").ej2_instances[0];
@@ -41,9 +41,7 @@ When a change in the diagram is reverted or restored (undo/redo), the historyCha
 
 History list allows to revert or restore multiple changes through a single undo/redo command. For example, revert/restore the fill color change of multiple elements at a time.
 
-The client-side method [`startGroupAction`](../api/diagram) is used to notify the diagram to start grouping the changes. The client-side method [`endGroupAction`](../api/diagram) is used to notify to stop grouping the changes.
-
-{% if page.publishingplatform == "aspnet-core" %}
+The client-side method [`startGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/#startgroupaction) is used to notify the diagram to start grouping the changes. The client-side method [`endGroupAction`](https://ej2.syncfusion.com/documentation/api/diagram/#endgroupaction) is used to notify to stop grouping the changes.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -53,19 +51,6 @@ The client-side method [`startGroupAction`](../api/diagram) is used to notify th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ```javascript
@@ -125,7 +110,7 @@ let redoStack = diagram.historyList.redoStack;
 
 ## History change event
 
-The [`historyChange`](../api/diagram) event triggers, whenever the interaction of the node and connector is take place.
+The [`historyChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_HistoryChange) event triggers, whenever the interaction of the node and connector is take place.
 
 ```javascript
 var diagram = document.getElementById('container').ej2_instances[0];

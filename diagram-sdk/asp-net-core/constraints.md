@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Constraints in ASP.NET Core Diagram Component | Syncfusion®
 description: Learn here all about Constraints in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
@@ -25,8 +25,6 @@ Diagram constraints allows to enable or disable the following behaviors:
 * Undo/redo
 * Tooltip
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/default/tagHelper %}
@@ -36,18 +34,8 @@ Diagram constraints allows to enable or disable the following behaviors:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
-{% tabs %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
-
-For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.htmll).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.html).
 
 ## Node constraints
 
@@ -62,8 +50,6 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 * Shadow
 * Tooltip
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/node/tagHelper %}
@@ -72,16 +58,6 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/node/node.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For more information about node constraints, refer to [`NodeConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.NodeConstraints.html).
@@ -97,8 +73,6 @@ Connector constraints allows to enable or disable certain behaviors of connector
 * Tooltip
 * Bridging
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/connector/tagHelper %}
@@ -107,16 +81,6 @@ Connector constraints allows to enable or disable certain behaviors of connector
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/connector/connector.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Connector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/connector/connector.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For more information about connector constraints, refer to [`ConnectorConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html).
@@ -128,8 +92,6 @@ You can enable or disable certain behaviors of port. They are as follows:
 * Connect
 * ConnectOnDrag
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/port/tagHelper %}
@@ -139,24 +101,12 @@ You can enable or disable certain behaviors of port. They are as follows:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/port/port.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 For more information about port constraints, refer to [`PortConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.PortConstraints.html).
 
 ## Annotation constraints
 
 You can enable or disable read-only mode for the annotations by using the annotation constraints.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -166,16 +116,6 @@ You can enable or disable read-only mode for the annotations by using the annota
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/annotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For more details about annotation constraints, refer to [`AnnotationConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
@@ -188,8 +128,6 @@ Selector visually represents the selected elements with certain editable thumbs.
 * Rotator
 * User handles
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/selector/tagHelper %}
@@ -198,16 +136,6 @@ Selector visually represents the selected elements with certain editable thumbs.
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/selector/selector.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Selector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/selector/selector.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For more information about selector constraints, refer to [`SelectorConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SelectorConstraints.html).
@@ -221,8 +149,6 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 * Snap to either horizontal or vertical gridlines.
 * Snap to both horizontal and vertical gridlines.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/snap/tagHelper %}
@@ -231,16 +157,6 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/snap/snap.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For more information about snap constraints, refer to [`SnapConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.SnapConstraints.html).
@@ -253,8 +169,6 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 * Diagram sized boundary
 * Page sized boundary
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/page/tagHelper %}
@@ -264,24 +178,12 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/page/page.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 For more information about selector constraints, refer to [`BoundaryConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.BoundaryConstraints.html).
 
 ## Inherit behaviors
 
 Some of the behaviors can be defined through both the specific object (node/connector) and diagram. When the behaviors are contradictorily defined through both, the actual behavior is set through inherit options.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -291,16 +193,6 @@ Some of the behaviors can be defined through both the specific object (node/conn
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/constraints/bridging/bridging.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Bitwise operations

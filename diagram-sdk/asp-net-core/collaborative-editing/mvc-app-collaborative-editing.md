@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Collaborative Editing in ASP.NET Core Diagram | Syncfusion
 description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion® ASP.NET Core Diagram.
@@ -20,18 +20,16 @@ This guide explains how to configure SignalR Hub in an ASP.NET Core application 
 
 ## How to create ASP.NET Core application
 
-To create an ASP.NET Core application, follow the steps outlined in the ASP.NET Core [Getting Started](../../diagram/getting-started) documentation.
+To create an ASP.NET Core application, follow the steps outlined in the ASP.NET Core [Getting Started](../getting-started) documentation.
 
 ## How to add packages in the ASP.NET Core application
 
 Open the NuGet Package Manager and install the following packages.
 
 * Microsoft.AspNetCore.SignalR.Client
-{% if page.publishingplatform == "aspnet-core" %}
+
 * Syncfusion.EJ2.AspNet.Core
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-* Syncfusion.EJ2.MVC5
-{% endif %}
+
 
 ## Configure SignalR service in ASP.NET Core application
 
@@ -41,25 +39,13 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 * Connect to the `/diagramHub` endpoint with WebSocket transport `skipNegotiation: true` and enable automatic reconnect to handle transient network issues.
 * Subscribe to the `OnConnectedAsync` callback to receive the unique connection ID, confirming a successful handshake with the server.
 * Join a SignalR group by calling `JoinDiagram(roomName)` after connecting. This ensures updates are shared only with users in the same diagram session.
-* Refer to Create ASP.NET Core [Simple Diagram](../../diagram/getting-started)
-
-{% if page.publishingplatform == "aspnet-core" %}
+* Refer to Create ASP.NET Core [Simple Diagram](../getting-started)
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/config/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/config/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 >**Notes:**
 >* Use a unique `roomName` per diagram (e.g., a diagram ID) to isolate sessions.
 >* If `WebSockets` may be unavailable, remove `SkipNegotiation` so SignalR can fall back to SSE or Long Polling.
@@ -75,30 +61,16 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 * Each remote user listens for ReceiveData and applies the incoming changes with [setDiagramUpdates](), keeping their view synchronized without reloading the full diagram.
 * Enable the `enableCollaborativeEditing` property on the diagram to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/realtimeChanges/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/realtimeChanges/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Conflict policy (optimistic concurrency) in ASP.NET Core application
 
 To maintain consistency during collaborative editing, each user applies incoming changes using `setDiagramUpdates`. After applying changes, the ASP.NET Core sample synchronizes its `userVersion` with the  `serverVersion` through the `UpdateVersion` event. This version-based approach ensures conflicts are resolved without locking, allowing real-time responsiveness while preserving data integrity.
 
 Add the following code in the ASP.NET Core application:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -106,11 +78,4 @@ Add the following code in the ASP.NET Core application:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/conflict/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}

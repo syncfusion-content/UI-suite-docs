@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Bpmn Flows in JavaScript Diagram control | Syncfusion®
 description: Learn here all about Bpmn Flow shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # BPMN flows in JavaScript Diagram control
 
-[`BPMN Flows`](../../api/diagram/bpmnFlow#BpmnFlow) are lines that connects BPMN flow objects.
+[`BPMN Flows`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow) are lines that connects BPMN flow objects.
 
 * Association
 * Sequence
@@ -19,7 +19,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Association flow
 
-[`BPMN Association`](../../api/diagram/bpmnFlow#association) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The types of association are as follows:
+[`BPMN Association`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#association) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The types of association are as follows:
 
 * Directional
 * BiDirectional
@@ -27,20 +27,6 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 The `association` property allows you to define the type of association. The following code example illustrates how to create an association.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs18/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs18" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -52,7 +38,6 @@ The `association` property allows you to define the type of association. The fol
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs18" %}
-{% endif %}
 
 The following table demonstrates the visual representation of association flows.
 
@@ -66,7 +51,7 @@ N> The default value for the property `association` is **default**.
 
 ## Sequence flow
 
-A [`sequence`](../../api/diagram/bpmnFlow#sequence) flow shows the order in which the activities are performed in a BPMN process and is represented by a solid graphical line. The types of sequence are as follows:
+A [`sequence`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#sequence) flow shows the order in which the activities are performed in a BPMN process and is represented by a solid graphical line. The types of sequence are as follows:
 
 * Normal
 * Conditional
@@ -74,20 +59,6 @@ A [`sequence`](../../api/diagram/bpmnFlow#sequence) flow shows the order in whic
 
 The sequence property allows you to define the type of sequence. The following code example illustrates how to create a sequence flow.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs19/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs19" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -99,7 +70,6 @@ The sequence property allows you to define the type of sequence. The following c
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs19" %}
-{% endif %}
 
 The following table contains various representation of sequence flows.
 
@@ -113,7 +83,7 @@ N> The default value for the property `sequence` is **normal**.
 
 ## Message flow
 
-A [`message`](../../api/diagram/bpmnFlow#message) flow shows the flow of messages between two participants and is represented by dashed line. The types of message are as follows:
+A [`message`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnFlow#message) flow shows the flow of messages between two participants and is represented by dashed line. The types of message are as follows:
 
 * InitiatingMessage
 * NonInitiatingMessage
@@ -121,20 +91,6 @@ A [`message`](../../api/diagram/bpmnFlow#message) flow shows the flow of message
 
 The message property allows you to define the type of message. The following code example illustrates how to define a message flow.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs20/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs20" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -146,7 +102,6 @@ The message property allows you to define the type of message. The following cod
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs20" %}
-{% endif %}
 
 The following table contains various representation of message flows.
 
