@@ -29,10 +29,10 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/documentation/a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -49,10 +49,10 @@ The following code illustrates how to add a node and remove a selected node.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -66,10 +66,10 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs21/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ Nodes can be predefined and added to the palette, and can be dropped into the di
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-palette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-palette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-palette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -97,10 +97,10 @@ Nodes can be generated automatically with the information provided through dataS
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-dataBind/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-dataBind/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-dataBind/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-dataBind/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -129,10 +129,10 @@ You can modify any node properties at runtime, and the changes will be instantly
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-update/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-update/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-update/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-update/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -149,10 +149,10 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clone/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clone/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clone/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clone/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -166,10 +166,10 @@ The following code example demonstrates how to convert a tree view element into 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-treeView/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-treeView/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-treeView/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-treeView/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

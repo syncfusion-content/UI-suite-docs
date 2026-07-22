@@ -23,10 +23,10 @@ The following example shows how to align the layout within the given layout boun
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -43,10 +43,10 @@ The following code illustrates how to align the layout and how to change layout 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -61,10 +61,10 @@ The following code illustrates how to set the initial horizontal and vertical sp
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following code demonstrates how to set the initial layout margin and how to 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -106,10 +106,10 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -123,10 +123,10 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-exclude/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-exclude/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-exclude/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-exclude/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -138,10 +138,10 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -153,10 +153,10 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs15/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs15/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -173,10 +173,10 @@ In the following example, the enableAnimation property ensures that the layout c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cust3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cust3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -192,10 +192,10 @@ Find the code example to create parent - child relation between source and targe
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -214,10 +214,10 @@ You can also set the [`cornerRadius`](../../api/diagram/stackPanel#cornerradius)
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs16/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs16/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs16/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

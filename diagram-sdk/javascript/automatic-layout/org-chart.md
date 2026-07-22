@@ -19,10 +19,10 @@ The following code example illustrates how to create an organizational chart wit
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ You can render an org-chart layout without using DataSource. The following code 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-orgChart/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-orgChart/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-orgChart/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-orgChart/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -88,10 +88,10 @@ The following example shows how to utilize the `getLayoutInfo` function to custo
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -103,10 +103,10 @@ The following code example illustrates how to set the vertical arrangement to th
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -121,10 +121,10 @@ The following code example illustrates how to add assistants to layout.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

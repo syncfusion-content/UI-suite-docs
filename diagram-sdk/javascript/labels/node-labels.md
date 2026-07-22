@@ -29,10 +29,10 @@ The following code shows how to set offset, height and width for the annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-offsetUpdate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-offsetUpdate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-offsetUpdate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-offsetUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -78,10 +78,10 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -109,10 +109,10 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-alignUpdate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-alignUpdate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-alignUpdate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-alignUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

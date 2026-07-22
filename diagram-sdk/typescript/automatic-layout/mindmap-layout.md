@@ -21,10 +21,10 @@ The following code example illustrates how to create an mindmap layout.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ You can also decide the branch for mind map using [`getBranch`](https://ej2.sync
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-mindmap/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-mindmap/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-mindmap/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-mindmap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -19,10 +19,10 @@ The following code example shows how to create connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -41,10 +41,10 @@ The following code example shows how to set alignment to the connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -64,10 +64,10 @@ The following code example shows how to set displacement to the connector port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conPort2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-conPort2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -89,10 +89,10 @@ The following code example explains how to connect connector to the connector po
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-connect-conPort/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-connect-conPort/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-connect-conPort/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-connect-conPort/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

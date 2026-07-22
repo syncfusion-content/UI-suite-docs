@@ -31,10 +31,10 @@ The `association` property allows you to define the type of association. The fol
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -66,10 +66,10 @@ The sequence property allows you to define the type of sequence. The following c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ The message property allows you to define the type of message. The following cod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs20/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs20/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs20/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

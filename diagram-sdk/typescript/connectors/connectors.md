@@ -36,10 +36,10 @@ The following code example illustrates how to add a connector through connector 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -53,10 +53,10 @@ The following code example illustrates how to add connector at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -70,10 +70,10 @@ The following code illustrates how to add a connectors collection at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs61/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs61/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs61/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs61/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,10 +87,10 @@ The following code example illustrates how to add connectors in palette.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-palette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-palette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-palette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -105,10 +105,10 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-draw/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-draw/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-draw/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-draw/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -124,10 +124,10 @@ The following code example illustrates how to update a connector's source point,
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -141,10 +141,10 @@ The following code example illustrates how to clone a connector
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-clone/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-clone/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-clone/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-clone/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -158,10 +158,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-getConDef/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-getConDef/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-getConDef/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-getConDef/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -177,10 +177,10 @@ The following code example explains how to customize the connector using [`getCo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -214,10 +214,10 @@ The following code example illustrates how to create port to port connections.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -227,10 +227,10 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -291,10 +291,10 @@ The following code block shows how to create the diagram with specifying nodes, 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs25/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs25/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs25/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs25/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -308,10 +308,10 @@ The following image illustrates how the connector automatically re-routes the se
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs26/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs26/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs26/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -357,10 +357,10 @@ The following example demonstrates how to enable the AvoidLineOverlapping featur
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs64/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs64/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs64/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs64/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

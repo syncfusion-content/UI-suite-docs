@@ -19,10 +19,10 @@ To arrange the nodes in a hierarchical structure, specify the layout [`type`](..
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-hierTree/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-hierTree/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-hierTree/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-hierTree/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ You can create a hierarchical layout with data Source. The following code demons
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

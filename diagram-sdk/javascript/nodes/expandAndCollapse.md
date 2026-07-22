@@ -36,10 +36,10 @@ The following code example illustrates how to create an icon of various shapes.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
@@ -59,10 +59,10 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs101/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs101/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs101/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs101/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

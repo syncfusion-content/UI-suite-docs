@@ -15,10 +15,10 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs16/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs16/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs16/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ The [`rotationReference`](../../api/diagram/shapeAnnotationModel#rotationreferen
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs39/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs39/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs39/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs39/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ Diagram allows to create read-only annotations. You have to set the read-only co
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs17/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs17/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ By using [`startTextEdit`](../../api/diagram#starttextedit) method, edit the tex
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-startTextEdit/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-startTextEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-startTextEdit/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-startTextEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -99,10 +99,10 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs18/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs18/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -114,10 +114,10 @@ You can add any number of annotations to a node or connector. The following code
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

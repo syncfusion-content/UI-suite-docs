@@ -21,10 +21,10 @@ The following code example illustrates how to create an mindmap layout.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ You can also decide the branch for mind map using [`getBranch`](../../api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-mindmap/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-mindmap/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -14,10 +14,10 @@ To create a straight line, specify the [`type`](https://ej2.syncfusion.com/docum
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -27,10 +27,10 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -46,10 +46,10 @@ The following example shows how to add segments at runtime for the straight conn
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-straightSegEdit/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-straightSegEdit/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-straightSegEdit/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-straightSegEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

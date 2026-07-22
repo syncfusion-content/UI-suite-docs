@@ -23,10 +23,10 @@ The following code illustrates how to create a container node:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/container-1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/container-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/container-1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/container-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ The following code example explains how to define a container header and its cus
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/container-2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/container-2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/container-2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/container-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

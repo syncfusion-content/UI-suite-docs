@@ -25,10 +25,10 @@ The following example shows the customization of page settings.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -47,10 +47,10 @@ The following code illustrates how to set background image to the diagram page.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -72,10 +72,10 @@ Depending on the [`orientation`](https://ej2.syncfusion.com/documentation/api/di
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -94,10 +94,10 @@ The [`multiplePage`](https://ej2.syncfusion.com/documentation/api/diagram/pageSe
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -123,10 +123,10 @@ Below is an example illustrating how to define boundary constraints within the d
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -144,10 +144,10 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/pagesettings-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/pagesettings-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

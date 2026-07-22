@@ -40,10 +40,10 @@ To map user-defined JSON data to the diagram, configure the fields in [`dataSour
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -63,10 +63,10 @@ When querying data, the `DataManager` will convert the query object(Query) into 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -104,10 +104,10 @@ This feature allows you to read the data source and perform add or edit or delet
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/dataBinding-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/dataBinding-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -26,10 +26,10 @@ Diagram provides some default context menu items to ease the execution of some f
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ Diagram provides some default context menu items to ease the execution of some f
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ In certain situations, you may want to hide specific menu items based on the sel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -112,10 +112,10 @@ In certain situations, you may want to hide specific menu items based on the sel
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -229,10 +229,10 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -242,10 +242,10 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -267,10 +267,10 @@ The following example shows how to get these events.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -280,10 +280,10 @@ The following example shows how to get these events.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

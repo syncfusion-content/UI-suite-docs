@@ -25,10 +25,10 @@ The following code example demonstrates how to enable Virtualization mode in the
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/virtualization-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/virtualization-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/virtualization-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/virtualization-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

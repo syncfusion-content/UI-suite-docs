@@ -24,10 +24,10 @@ The following code illustrates how to interact with Bezier efficiently by using 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-segEdit/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-segEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-segEdit/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-segEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

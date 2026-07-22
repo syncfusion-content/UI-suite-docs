@@ -53,10 +53,10 @@ The diagram method [`startGroupAction`](../api/diagram#startgroupaction) allows 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -68,10 +68,10 @@ The [`stackLimit`](../api/diagram/history#stacklimit) property of history manage
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -83,10 +83,10 @@ Undo, Redo process can be avoided for particular element by using [`canLog`](../
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -118,10 +118,10 @@ The following code demonstrates how to use these properties:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-canUndo/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-canUndo/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-canUndo/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-canUndo/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ The following code shows how to get the current entry from the diagram history:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-currentEntry/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-currentEntry/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-currentEntry/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-currentEntry/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -173,10 +173,10 @@ The [`historyChange`](../api/diagram/index-default#historychange) event triggers
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-historyEvent/index.js %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-historyEvent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/undoredo-historyEvent/index.html %}
+{% include code-snippet/diagram-sdk/javascript/undoredo-historyEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
