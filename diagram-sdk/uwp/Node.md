@@ -38,7 +38,7 @@ To create a Node, You have to define the Node object and add that to Nodes colle
 </syncDiagram:SfDiagram.Nodes>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 // Creating the NodeViewModel
 NodeViewModel Begin = new NodeViewModel()
@@ -115,7 +115,7 @@ The following table illustrates how pivot relates Offset values with Node bounda
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 //Define the NodeCollection
 diagram.Nodes = new NodeCollection();
 //Define the Node
@@ -198,7 +198,7 @@ You can customize the appearance of a Node by changing its `ShapeStyle`. The fol
   <Setter Property="StrokeThickness" Value="2"></Setter>
 </Style>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 Style style = new Style(typeof(Path));
 style.Setters.Add(new Setter(Path.FillProperty, Brushes.SteelBlue));
 style.Setters.Add(new Setter(Path.StrokeProperty, Brushes.WhiteSmoke));

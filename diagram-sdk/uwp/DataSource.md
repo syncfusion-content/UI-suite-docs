@@ -168,7 +168,7 @@ Sample Link : [DataSource Sample](https://github.com/SyncfusionExamples/UWP-Diag
 By default, the node without parent is treated as root of the layout. Now, `DataSourceSettings` have option to specify the root node of the layout.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //object with id “CEO”, is considered as root of tree layout.
 diagram.DataSourceSettings.Root = “CEO”;

@@ -53,7 +53,7 @@ Connector can be created by defining the start and end points. The Path to be dr
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 //Define the ConnectorType
 diagram.DefaultConnectorType = ConnectorType.Line;
 //Define the ConnectorCollection
@@ -92,7 +92,7 @@ Connectors can be interactively drawn by clicking and dragging on the Diagram su
 The `SourceNode` and `TargetNode` properties allow to define the Nodes to be connected.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the NodeCollection
 diagram.Nodes = new NodeCollection();
@@ -153,7 +153,7 @@ The path of the Connector is defined with a collection of `Segments`.
 Straight segment allows to create a straight line. To create a straight line, you should specify the segment as `StraightSegment` and add a straight segment to collection.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 //Define the ConnectorCollection
 diagram.Connectors = new ConnectorCollection();
 //Define the Connector
@@ -180,7 +180,7 @@ ConnectorViewModel connector = new ConnectorViewModel()
 Orthogonal segments are used to create segments that are perpendicular to each other. Set the segment as `OrthogonalSegment` to create the default orthogonal segment.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 //Define the ConnectorCollection
 diagram.Connectors = new ConnectorCollection();
 //Define the Connector
@@ -207,7 +207,7 @@ ConnectorViewModel connector = new ConnectorViewModel()
 Cubic curve segments are used to create curve segments and the curves are configurable with the control points.To create a Curve line, you should specify the segment as `CubicCurveSegment` and add a CubicCurveSegment  to collection.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Adding Connector to Collection
 (diagram.Connectors as ConnectorCollection).Add(connector);
@@ -257,7 +257,7 @@ The `SourceDecoratorPivot` and `TargetDecoratorPivot` properties allows to Custo
  `SegmentDecorator` property allows to customize the shape within the Connector. `SegmentDecoratorStyle` property allows to customize the Style of SegmentDecorator.
  
  {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
  
  //Define the collection of SegmentDecorator
 SegmentDecorators = new ObservableCollection<ISegmentDecorator>()
@@ -297,7 +297,7 @@ Corner radius allows to create Connectors with rounded corners. The radius of th
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the ConnectorCollection
 diagram.Connectors = new ConnectorCollection();
@@ -322,7 +322,7 @@ ConnectorViewModel connector1 = new ConnectorViewModel()
 Padding is used to leave space between the Connector’s end point and the object to where it is connected. The `SourcePadding` and `TargetPadding` properties of Connector define the space to be left between the connection end points and the source and target Nodes of Connector.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the ConnectorCollection
 diagram.Connectors = new ConnectorCollection();
@@ -371,7 +371,7 @@ The Direction of Bridge can be customized with property `BridgeDirection`.
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the BridgeDirection
 diagram.BridgeDirection = BridgeDirection.Bottom;

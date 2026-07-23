@@ -38,13 +38,13 @@ The [`Cut`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stenci
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Cut" Click="CutBtn_Click" ToolTip="Ctrl + X"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void CutBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -63,13 +63,13 @@ The [`Copy`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stenc
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Copy" Click="CopyBtn_Click" ToolTip="Ctrl + C"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void CopyBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -88,13 +88,13 @@ The [`Paste`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Sten
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Paste" Click="PasteBtn_Click" ToolTip="Ctrl + V"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void PasteBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -114,13 +114,13 @@ The [`Delete`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Ste
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Delete" Click="DeleteBtn_Click" ToolTip="Delete"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void DeleteBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -141,13 +141,13 @@ The [`SelectAll`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="SelectAll" Click="SelectAllBtn_Click" ToolTip="Ctrl + A"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void SelectAllBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -167,13 +167,13 @@ The [`UnSelect`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.S
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="UnSelect" Click="UnSelect_Click" ToolTip="Esc"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void UnSelect_Click(object sender, RoutedEventArgs e)
 {
@@ -194,7 +194,7 @@ The [`MoveUp`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Ste
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="MoveRight" Click="MoveRightBtn_Click" ToolTip="Right Arrow"></Button>
 <Button Height="50" Content="MoveLeft" Click="MoveLeftBtn_Click" ToolTip="Left  Arrow"></Button>
@@ -203,7 +203,7 @@ The [`MoveUp`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Ste
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void MoveRightBtn_Click(object sender, RoutedEventArgs e)
 {
@@ -246,13 +246,13 @@ The [`MoveToFirstInRow`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.D
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="MoveToFirstInRow" Click="MoveToFirstInRow_Click" ToolTip="Home"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void MoveToFirstInRow_Click(object sender, RoutedEventArgs e)
 {
@@ -271,13 +271,13 @@ The [`MoveToLastInRow`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Di
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="MoveToLastInRow" Click="MoveToLastInRow_Click" ToolTip="End"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void MoveToLastInRow_Click(object sender, RoutedEventArgs e)
 {
@@ -296,13 +296,13 @@ The [`MoveToFirstInColumn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xam
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="MoveToFirstInColumn" Click="MoveToFirstInColumn_Click" ToolTip="Page Up"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void MoveToFirstInColumn_Click(object sender, RoutedEventArgs e)
 {
@@ -322,13 +322,13 @@ The [`MoveToLastInColumn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="MoveToLastInColumn" Click="MoveToLastInColumn_Click" ToolTip="Page Down"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 private void MoveToLastInColumn_Click(object sender, RoutedEventArgs e)
 {
@@ -350,7 +350,7 @@ Removing a command from the `CommandManager` is straightforward. To do this, you
 Here is an example of how to remove a specific command from the CommandManager:
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 // Removing a particular stencil command from the CommandManager
 if (Stencil != null)
@@ -371,13 +371,13 @@ Here's an example of how to add a custom command to the CommandManager:
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button x:Name="CustomCommandBtn" Content="Custom Command" Click="CustomCommandBtn_Click" ToolTip="Custom Command"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 ICommand Custom;
 if (Stencil != null)

@@ -31,7 +31,7 @@ As all the three behaviors are completely different, You can achieve only one be
 You can set the desired tool to the [`Tool`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SfDiagram.html#Syncfusion_UI_Xaml_Diagram_SfDiagram_Tool) property of the Diagram. The following code illustrates how to enable single/multiple tools.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //To Enable Single Tool
 diagram.Tool = Tool.SingleSelect;
@@ -71,7 +71,7 @@ To draw a shape, You have to activate the drawing tool by using the `Tool` prope
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //GetDrawType event is used to specify which item have to be drawn by the user.
 
@@ -115,7 +115,7 @@ Diagram allows you to create a text Node as soon as you click on the Diagram pag
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.DrawingTool = DrawingTool.TextNode;
 diagram.Tool = Tool.ContinuesDraw;
@@ -148,7 +148,7 @@ To draw Connectors, you have to set the Connector to `DrawingTool` property. The
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.DrawingTool = DrawingTool.Connector;
 diagram.Tool = Tool.DrawOnce;
@@ -181,7 +181,7 @@ Free hand connections will be drawn by using `DrawingTool` property.
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 // Enable the FreeHand drawing
 diagram.DrawingTool = DrawingTool.FreeHand;
@@ -212,7 +212,7 @@ Diagram allows you to create a ellipse shaped node as soon as you click and drag
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.DrawingTool = DrawingTool.Ellipse;
 diagram.Tool = Tool.ContinuesDraw;
@@ -239,7 +239,7 @@ Diagram allows you to create a rectangle shaped node as soon as you click and dr
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.DrawingTool = DrawingTool.Rectangle;
 diagram.Tool = Tool.ContinuesDraw;
@@ -263,7 +263,7 @@ Each objects in diagram control have deafult actions while interact on them. Tho
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Create custom class of SfDiagram to override the tools.
 public class CustomClass:SfDiagram
@@ -322,7 +322,7 @@ These cursors can be customized by overriding the virtual method [SetCursor()](h
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Create custom class of SfDiagram to override the cursor.
 public class CustomClass:SfDiagram

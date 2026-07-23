@@ -22,7 +22,7 @@ Below are the specific nudge commands:
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Syncfusion:MoveParameter MoveDelta="5" x:Key="MoveupCommandParameter"/> 
 
@@ -30,7 +30,7 @@ Below are the specific nudge commands:
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 

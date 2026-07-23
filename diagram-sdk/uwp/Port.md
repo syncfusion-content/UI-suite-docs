@@ -73,7 +73,7 @@ The following code illustrates how to add ports to Node.
 
 [C#]
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Create port collection
 public class PortCollection : ObservableCollection<IPort>
@@ -178,7 +178,7 @@ The following code illustrates how to add ports to Connector.
 
 [C#]
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Create port collection
 public class PortCollection : ObservableCollection<IPort>
