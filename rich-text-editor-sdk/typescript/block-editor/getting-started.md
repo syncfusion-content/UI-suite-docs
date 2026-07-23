@@ -65,9 +65,7 @@ I> To apply the application-specific styles correctly, import `./style.css` into
 
 ## Adding Block Editor control
 
-To get started, add the Block Editor control in main.ts and index.html files. Block Editor can be initialized through a div element.
-
-Output will be displayed as follows
+To get started, add the Block Editor control in `main.ts` and `index.html` files. Block Editor can be initialized through a div element.
 
 {% tabs %}
 {% highlight ts tabtitle="main.ts" %}
@@ -99,9 +97,7 @@ blockEditor.appendTo('#blockeditor_default');
 </head>
 
 <body>
-    <div id="container" style="margin-top: 50px;">
-        <div id="blockeditor_default"></div>
-    </div>
+    <div id="blockeditor_default"></div>
     <script type="module" src="/src/main.ts"></script>
 </body>
 
