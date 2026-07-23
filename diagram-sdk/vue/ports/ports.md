@@ -37,7 +37,7 @@ Ports act as the connection points of the node and allows creating connections w
 
 ## Create Port
 
-To add a connection port, define the port object and add it to node’s [`ports`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel) collection. The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#offset) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
+To add a connection port, define the port object and add it to node’s [`ports`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#ports) collection. The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#offset) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
 
 
 {% tabs %}

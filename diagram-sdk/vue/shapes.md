@@ -79,7 +79,7 @@ Link 2: `http://stackoverflow.com/questions/4761711/local-image-in-canvas-in-chr
 
 Stretch and align the image content anywhere but within the node boundary.
 
-The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/vue/documentation/api/diagram/image/#scale) property of the node is set as **meet**. The [`align`](https://ej2.syncfusion.com/vue/documentation/api/diagram/imageAlignment) property is used to set the alignment of the image.
+The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/vue/documentation/api/diagram/imagemodel#scale) property of the node is set as **meet**. The [`align`](https://ej2.syncfusion.com/vue/documentation/api/diagram/imagemodel#align) property is used to set the alignment of the image.
 
 The following code illustrates how to use scale and align properties to stretch the image.
 
@@ -113,7 +113,7 @@ N> HTML node cannot be exported to image format, like JPEG, PNG, and BMP. It is 
 
 ### HTML Node with contentTemplate.
 
-To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/htmlModel/#content) property. The following code illustrates how to create an HTML node with a content template:
+To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/htmlmodel#content) property. The following code illustrates how to create an HTML node with a content template:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -196,7 +196,7 @@ N> Like HTML node, the native node also cannot be exported to image format. Fill
 
 Stretch and align the svg content anywhere but within the node boundary.
 
-The scale property of the node allows to stretch the svg content as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nativeModel/#scale) property of native shape is set as **meet**.
+The scale property of the node allows to stretch the svg content as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nativemodel#scale) property of native shape is set as **meet**.
 
 The following tables illustrates all the possible scale options for the node.
 
@@ -211,7 +211,7 @@ The following tables illustrates all the possible scale options for the node.
 
 * The [`Basic`](https://ej2.syncfusion.com/vue/documentation/api/diagram/basicshapemodel) shapes are common shapes that are used to represent the geometrical information visually. To create basic shapes, the type of the shape should be set as **basic**. Its shape property can be set with any one of the built-in shape.
 
-* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/basicShapeModel/#cornerradius) property to specify the radius of rounded rectangle.
+* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/basicshapemodel#cornerradius) property to specify the radius of rounded rectangle.
 
 The following code example illustrates how to create a basic shape.
 
@@ -240,7 +240,7 @@ The list of basic shapes are as follows.
 
 The [`Path`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathmodel) shape is a commonly used basic shape that allows visually to represent the geometrical information. As node path data, any geometrical data can be provided. You can create your own Geometry and assign it to data if you want anything different from the standard figures. A geometry does not require any dimension specifications, such as width or height, because it specifies its own size. If the node’s size is set, the geometry is extended to fit the node’s dimensions.
 
-To create a path node, specify the shape as Path. The [`data`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathModel/#data) property of node allows you to define the path to be drawn. The following code illustrates how a path node is created.
+To create a path node, specify the shape as Path. The [`data`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathmodel#data) property of node allows you to define the path to be drawn. The following code illustrates how a path node is created.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

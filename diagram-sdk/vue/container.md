@@ -31,7 +31,7 @@ The following code illustrates how to create a container node:
 
 ### Setting a Header
 
-You can provide a textual description for a container using its [header](https://ej2.syncfusion.com/vue/documentation/api/diagram/containerModel/#header) property. Also, users can customize the header's appearance using the header's [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#style) property.
+You can provide a textual description for a container using its [header](https://ej2.syncfusion.com/vue/documentation/api/diagram/containermodel#header) property. Also, users can customize the header's appearance using the header's [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/headermodel#style) property.
 
 The following code example explains how to define a container header and its customization:
 

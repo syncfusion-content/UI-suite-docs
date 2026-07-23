@@ -34,7 +34,7 @@ The following table shows the position of port within the shape.
 
 ## Horizontal and vertical alignment
 
-The [`horizontalAlignment`](https://ej2.syncfusion.com/angular/documentation/api/diagram/horizontalalignment) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/verticalalignment) property is used to set how the port is vertically aligned at the port position.
+The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#horizontalalignment) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#verticalalignment) property is used to set how the port is vertically aligned at the port position.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

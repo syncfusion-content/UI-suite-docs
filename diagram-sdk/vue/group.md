@@ -218,7 +218,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
 ![Nested Group GIF](images/nestedGroup.gif)
 
- The following code illustrates how to create nested group node.
+The following code illustrates how to create nested group node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

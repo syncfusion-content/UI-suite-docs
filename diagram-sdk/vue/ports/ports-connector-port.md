@@ -27,7 +27,7 @@ The following code example shows how to create connector port.
 
 ## Port alignment
 
-The port can be aligned before, after, or at the center of the connector by utilizing the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portalignment) property. By default, the port alignment is set to **center**.
+The port can be aligned before, after, or at the center of the connector by utilizing the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathportmodel#alignment) property. By default, the port alignment is set to **center**.
 
 The following code example shows how to set alignment to the connector port.
 
