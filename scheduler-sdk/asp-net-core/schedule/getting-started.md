@@ -11,7 +11,7 @@ documentation: ug
 
 # Getting Started with the ASP.NET Core Scheduler Control
 
-This section briefly explains how to include the [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet-core-scheduler) control in your ASP.NET Core Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/).
+This section briefly explains how to include the [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet-core-scheduler) control in your ASP.NET Core Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
 > **Ready to streamline your ASP.NET Core development?** Discover the full potential of ASP.NET Core controls with AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, CodeStudio and more. [Explore AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
 
@@ -22,11 +22,43 @@ To get started quickly with ASP.NET Core Scheduler control, you can check out th
 
 ## Create an ASP.NET Core web App with Razor Pages
 
+{% tabcontents %}
+
+{% tabcontent Visual Studio %}
+
 Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project).
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+Run the following command to create a new ASP.NET Core Web App.
+
+{% tabs %}
+{% highlight C# tabtitle="Terminal" %}
+
+dotnet new webapp -o SchedulerSample
+code -r SchedulerSample
+
+{% endhighlight %}
+{% endtabs %}
+
+Alternatively, create an ASP.NET Core Web App using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio-code#create-a-razor-pages-web-app) or the [ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+
+{% endtabcontent %}
+
+{% endtabcontents %}
 
 ## Install the required ASP.NET Core packages
 
-To add **ASP.NET Core Scheduler** control in the app, open the NuGet package manager in Visual Studio (Tools → NuGet Package Manager → Manage NuGet Packages for Solution), then search and install [Syncfusion.AspNetCore.Schedule](https://www.nuget.org/packages/Syncfusion.AspNetCore.Schedule) and [Syncfusion.AspNetCore.Themes](https://www.nuget.org/packages/Syncfusion.AspNetCore.Themes). All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for the details.
+Install the [Syncfusion.AspNetCore.Schedule](https://www.nuget.org/packages/Syncfusion.AspNetCore.Schedule) and [Syncfusion.AspNetCore.Themes](https://www.nuget.org/packages/Syncfusion.AspNetCore.Themes) NuGet packages. All Syncfusion ASP.NET Core packages are available on [nuget.org](https://www.nuget.org/packages?q=Syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
+
+{% tabcontents %}
+
+{% tabcontent Visual Studio %}
+
+1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
+2. Search the required NuGet packages (`Syncfusion.AspNetCore.Schedule` and `Syncfusion.AspNetCore.Themes`) and install them.
 
 Alternatively, you can install the same packages using the Package Manager Console with the following commands.
 
@@ -38,6 +70,25 @@ Install-Package Syncfusion.AspNetCore.Themes -Version {{ site.releaseversion }}
 
 {% endhighlight %}
 {% endtabs %}
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+Open the terminal and run the following commands.
+
+{% tabs %}
+{% highlight C# tabtitle="Terminal" %}
+
+dotnet add package Syncfusion.AspNetCore.Schedule --version {{ site.releaseversion }}
+dotnet add package Syncfusion.AspNetCore.Themes --version {{ site.releaseversion }}
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
+{% endtabcontents %}
 
 ## Add ASP.NET Core tag helpers
 
@@ -95,7 +146,31 @@ Add the [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet
 {% endhighlight %}
 {% endtabs %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Schedule](https://www.syncfusion.com/scheduler-sdk/aspnet-core-scheduler) control will render in your default web browser.
+## Run the application
+
+{% tabcontents %}
+
+{% tabcontent Visual Studio %}
+
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Scheduler](https://www.syncfusion.com/scheduler-sdk/aspnet-core-scheduler) control will render in your default web browser.
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+Open the terminal and run the following command.
+
+{% tabs %}
+{% highlight C# tabtitle="Terminal" %}
+
+dotnet run
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
+{% endtabcontents %}
 
 ![ASP.NET Core Scheduler Control](images/scheduler-control.webp)
 
