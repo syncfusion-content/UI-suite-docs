@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## DataLoaded event
 
-The [`dataLoaded`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idataloadedeventargs) event is triggered after the diagram is populated from the external data source.
+The [`dataLoaded`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#dataloaded) event is triggered after the diagram is populated from the external data source.
 
 The following code example explains the data loaded event in the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram).
 
@@ -47,7 +47,7 @@ The following code example explains the data loaded event in the [Vue Diagram](h
 
 ## ExpandStateChange event
 
-The [`expandStateChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iexpandstatechangeeventargs) will be triggered when the state of the expand and collapse icon change for a node.
+The [`expandStateChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#expandstatechange) will be triggered when the state of the expand and collapse icon change for a node.
 
 The following code example explains the `expandStateChange` event in the diagram.
 

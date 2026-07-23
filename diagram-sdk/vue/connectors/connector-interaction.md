@@ -87,7 +87,7 @@ N> To edit a connector segment, you need to inject the `ConnectorEditing` module
 
 ## Flip
 
-The diagram Provides support to flip the connector. The [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#flip) is performed to give the mirrored image of the original element.
+The diagram Provides support to flip the connector. The [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#flip) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 

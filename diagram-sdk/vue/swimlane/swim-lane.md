@@ -54,7 +54,7 @@ The following code example illustrates how to define a swimlane header.
 
 ### Customization of headers
 
-The height and width of swimlane header can be customized with [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#height) properties of swimlane header. set fill color of header by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#style)property. The orientation of the swimlane can be customized with the [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimLaneModel/#orientation) property of the header.
+The height and width of swimlane header can be customized with [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#height) properties of swimlane header. set fill color of header by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#style) property. The orientation of the swimlane can be customized with the [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimLaneModel/#orientation) property of the header.
 
 N> By default, the swimlane orientation is horizontal.
 

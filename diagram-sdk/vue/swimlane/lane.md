@@ -12,11 +12,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Lane is a functional unit or a responsible department of a business process that helps to map a  process within the functional unit or in between other functional units..
 
-The number of [`lanes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/laneModel/)  can be added to swimlane. The lanes are automatically stacked inside  swimlane based on the order they are added.
+The number of [`lanes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/laneModel)  can be added to swimlane. The lanes are automatically stacked inside  swimlane based on the order they are added.
 
 ### Create an empty lane
 
-* The lane `id` is used to define the name of the lane and its further used to find the lane at runtime and do any customization.
+* The lane [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram/lanemodel#id) is used to define the name of the lane and its further used to find the lane at runtime and do any customization.
 
 The following code example illustrates how to define a swimlane with lane.
 
@@ -33,7 +33,7 @@ The following code example illustrates how to define a swimlane with lane.
 
 ### Create lane header
 
-* The [`header`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/)  property of lane allows you to textually describe the lane and to customize the appearance of the description.
+* The [`header`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel)  property of lane allows you to textually describe the lane and to customize the appearance of the description.
 
 The following code example illustrates how to define a lane header.
 
@@ -50,9 +50,9 @@ The following code example illustrates how to define a lane header.
 
 ### Customizing lane and lane header
 
-* The size of lane can be controlled by using [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#height) properties of the lane.
+* The size of lane can be controlled by using [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/lanemodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/lanemodel#height) properties of the lane.
 
-* The appearance of lane can be set by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#style) properties.
+* The appearance of lane can be set by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel) properties.
 
 * The appearance of header annotation can be customized by using the `style` property of header annotation.
 
@@ -184,7 +184,7 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
 
 #### Disable Swimlane Lane swapping
 
-You can disable swimlane lane swapping by using the property called `canMove`.
+You can disable swimlane lane swapping by using the property called [`canMove`](https://ej2.syncfusion.com/vue/documentation/api/diagram/lanemodel#canmove).
 
 The following code illustrates how to disable swimlane lane swapping.
 

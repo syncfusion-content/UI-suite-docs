@@ -20,9 +20,9 @@ The UML class diagram shapes are explained as follows.
 
 ### Class
 
- A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassifiershapemodel#class) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the Essential<sup style="font-size:70%">&reg;</sup> characteristics and behavior that objects belonging to the class will exhibit.
+ A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassifiershapemodel) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the Essential<sup style="font-size:70%">&reg;</sup> characteristics and behavior that objects belonging to the class will exhibit.
 
- Also, define the [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#name), [`attributes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#attributes-umlClassAttributeModel), and [`methods`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#methods-umlClassMethodModel) of the class using the class property of node.
+ Also, define the [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#name), [`attributes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#attributes), and [`methods`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassmodel#methods) of the class using the class property of node.
 
 The attribute’s [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassattributemodel#name), [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassattributemodel#type), and [`scope`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassattributemodel#scope) properties allow you to define the name, data type, and visibility of the attribute.
 
@@ -45,7 +45,7 @@ The method’s [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram
 
 ### Interface
 
-* An [`interface`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlclassifiershapemodel#interface) is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the interface notation. This Essential<sup style="font-size:70%">&reg;</sup> concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
+* An [`interface`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlinterfacemodel) is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the interface notation. This Essential<sup style="font-size:70%">&reg;</sup> concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
 
 Additionally, you can define the [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlinterfacemodel#name), [`attributes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlinterfacemodel#attributes), and [`methods`](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlinterfacemodel#methods) of the interface using the interface property of the node.
 

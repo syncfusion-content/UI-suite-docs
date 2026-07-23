@@ -66,11 +66,11 @@ export default {
 
 ## Add nodes and palettes to SymbolPalette
 
-The collection of predefined symbols can be added to palettes using the [`symbols`](https://ej2.syncfusion.com/vue/documentation/api/diagram/paletteModel/#symbols) property.
+The collection of predefined symbols can be added to palettes using the [`symbols`](https://ej2.syncfusion.com/vue/documentation/api/diagram/palettemodel#symbols) property.
 
-A palette displays a group of related symbols and textually annotates the group with its header. A [`Palettes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/palette/) can be added as a collection of symbol groups.
+A palette displays a group of related symbols and textually annotates the group with its header. A [`Palettes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/palettemodel) can be added as a collection of symbol groups.
 
-To initialize a palette, define a JSON object with the unique property [`ID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/paletteModel/#id). Additionally, include the symbols property, which contains an array of different symbols.
+To initialize a palette, define a JSON object with the unique property [`ID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/palettemodel#id). Additionally, include the symbols property, which contains an array of different symbols.
 
 The following code example illustrates how to define symbols in a palette and how to add them to the symbol palette:
 
@@ -176,7 +176,7 @@ Symbols can be removed from palette at runtime by using public method, [`removeP
 
 ## Symbol defaults
 
-While adding more symbols such as nodes and connectors to the palette, you can define the default settings for those objects using the [`getNodeDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolPaletteModel/#getnodedefaults) and the [`getConnectorDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolPaletteModel/#getconnectordefaults) properties of symbol palette.
+While adding more symbols such as nodes and connectors to the palette, you can define the default settings for those objects using the [`getNodeDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolpalettemodel#getnodedefaults) and the [`getConnectorDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolpalettemodel#getconnectordefaults) properties of symbol palette.
 These properties allow you to specify default configurations for nodes and connectors, ensuring consistency and saving time when adding multiple symbols. By setting these properties, you can predefine attributes such as size, color, shape for nodes and line style, thickness, for connectors. 
 
 In the following example, the fill color of node and target decorator shape of connector is defined in getNodeDefaults and getConnectorDefaults respectively.

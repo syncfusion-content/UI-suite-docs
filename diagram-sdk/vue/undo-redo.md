@@ -185,7 +185,7 @@ diagramInstance.getHistoryStack(false)
 
 ## History change event
 
-The [`historyChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ihistorychangeargs) event triggers, whenever the interaction of the node and connector is take place. When interacting, the entries get added to the history manager to trigger this event. The following example shows how to get this event in diagram.
+The [`historyChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#historychange) event triggers, whenever the interaction of the node and connector is take place. When interacting, the entries get added to the history manager to trigger this event. The following example shows how to get this event in diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
