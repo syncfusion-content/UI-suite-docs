@@ -74,7 +74,7 @@ Install-Package Syncfusion.AspNetCore.Themes -Version {{ site.releaseversion }}
 
 {% tabcontent Visual Studio Code %}
 
-Open the terminal and run the following command.
+Open the terminal and run the following commands.
 
 {% tabs %}
 {% highlight C# tabtitle="Terminal" %}
