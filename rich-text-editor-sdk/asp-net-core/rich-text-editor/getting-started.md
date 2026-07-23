@@ -150,9 +150,31 @@ Add the [ASP.NET Core Rich Text Editor](https://www.syncfusion.com/rich-text-edi
 
 I> When the Rich Text Editor control is rendered, the `id` attribute must be provided; otherwise, the control will fail to render.
 
-## Run the Application
+## Run the application
+
+{% tabcontents %}
+
+{% tabcontent Visual Studio %}
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/aspnet-core-rich-text-editor) control will render in your default web browser.
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+Open the terminal and run the following command.
+
+{% tabs %}
+{% highlight razor tabtitle="Terminal" %}
+
+dotnet run
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
+{% endtabcontents %}
 
 ![ASP.NET Core Rich Text Editor Control](/images/richtexteditor-control.webp)
 
