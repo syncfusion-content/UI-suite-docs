@@ -17,13 +17,13 @@ The [`BringToFront`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagr
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="BringToFront" Name="BringToFront" Command="Syncfusion:DiagramCommands.BringToFront"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 
@@ -39,13 +39,13 @@ The [`SendToBack`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="SendToBack" Name="SendToBack" Command="Syncfusion:DiagramCommands.SendToBack"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 
@@ -63,13 +63,13 @@ The [`SendBackward`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagr
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="SendBackward" Name="SendBackward" Command="Syncfusion:DiagramCommands.SendBackward"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 
@@ -85,13 +85,13 @@ The [`BringForward`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagr
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="BringForward" Name="BringForward" Command="Syncfusion:DiagramCommands.BringForward"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 

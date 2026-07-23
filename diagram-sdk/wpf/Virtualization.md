@@ -18,7 +18,7 @@ This feature gives optimized performance and low memory consumption while loadin
 <!--Initialize the SfDiagram and enable the virtualize constraint-->
 <syncfusion:SfDiagram x:Name="diagram" Constraints="Default,Virtualize"/>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -39,7 +39,7 @@ To improve scrolling performance, the outline of a diagram element will be displ
 <!--Initialize the SfDiagram and enable the virtualize and outline constraint-->
 <syncfusion:SfDiagram x:Name="diagram" Constraints="Default,Virtualize,Outline"/>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -81,7 +81,7 @@ Options are provided to override the appearance, style, and interval time of out
 </syncfusion:SfDiagram>
 	
 {% endhighlight %}	
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();

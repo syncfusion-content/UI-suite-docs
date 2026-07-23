@@ -15,7 +15,7 @@ The Ruler provides a Horizontal and Vertical guide for measuring in the Diagram 
 
 Use the following code example to add the ruler to the Diagram.
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagramcontrol.HorizontalRuler = new Ruler();
 diagramcontrol.VerticalRuler = new Ruler() { Orientation = Orientation.Vertical };
@@ -30,7 +30,7 @@ By default, ruler segments are arranged based on measurement units.
 
 Segment width, the textual description of the ruler segment, and the appearance of the ruler ticks can be customized. Use the following code example to customize the ruler.
 
-{% highlight C# %}
+{% highlight c# %}
 
 // Customizing the Ruler
 public class CustomRuler : Ruler

@@ -40,7 +40,7 @@ To draw a shape, You have to activate the drawing tool by using the Tool propert
 
 [C#]
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Registering an event
 (diagram.Info as IGraphInfo).GetDrawType += MainWindow_GetDrawType;
@@ -87,7 +87,7 @@ The following code example illustrates how to draw a path.
 
 [C#]
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Registering an Event
 (diagram.Info as IGraphInfo).GetDrawType += MainWindow_GetDrawType;
@@ -136,7 +136,7 @@ To draw Connectors, you have to set the Connector to DrawingTool property. The d
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.DrawingTool = DrawingTool.Connector;
 
@@ -151,7 +151,7 @@ diagram.Tool = Tool.DrawOnce;
 
 Diagram allows you to create a text Node as soon as you click on the Diagram page. The following code illustrates how to draw a text.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Registering an Event
 (diagram.Info as IGraphInfo).GetDrawType += MainWindow_GetDrawType;
@@ -193,7 +193,7 @@ As all the three behaviors are completely different, You can achieve only one be
 
 You can set the desired tool to the Tool property of the Diagram. The following code illustrates how to enable single/multiple tools.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //To Enable Single Tool
 diagram.Tool = Tool.SingleSelect;

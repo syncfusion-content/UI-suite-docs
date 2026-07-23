@@ -23,7 +23,7 @@ SfDiagram can be exported in the following File formats.
 The following code explains how to export the diagram as image.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the diagram
 SfDiagram diagram = new SfDiagram();
@@ -43,7 +43,7 @@ SfDiagram provides various options to customize the exported diagram using the [
 You can use the [`ExportBitmapEncoder`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExportSettings.html#Syncfusion_UI_Xaml_Diagram_ExportSettings_ExportBitmapEncoder) or [`ExportType`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExportSettings.html#Syncfusion_UI_Xaml_Diagram_ExportSettings_ExportType) properties to specify the type/format of the exported image file.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the diagram
 SfDiagram diagram = new SfDiagram();
@@ -62,7 +62,7 @@ diagram.Export();
 You can save the exported image as stream or file system using the [`ExportStream`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExportSettings.html#Syncfusion_UI_Xaml_Diagram_ExportSettings_ExportStream) or [`FileName`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExportSettings.html#Syncfusion_UI_Xaml_Diagram_ExportSettings_FileName) properties of `ExportSettings` class respectively.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings
 ExportSettings settings = new ExportSettings()
@@ -96,7 +96,7 @@ diagram.Export();
   </syncfusion:SfDiagram.ExportSettings>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings
 ExportSettings settings = new ExportSettings()
@@ -116,7 +116,7 @@ diagram.Export();
 SfDiagram has in-built support to export the diagram as XPS file instead of image file. To export diagram as XPS file, set the [`IsSaveToXps`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExportSettings.html#Syncfusion_UI_Xaml_Diagram_ExportSettings_IsSaveToXps) property of `ExportSettings` class to `true` and specify the file name with ".xps" extension.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings
 ExportSettings settings = new ExportSettings()
@@ -150,7 +150,7 @@ SfDiagram provides the supports to export any specific region of the diagram by 
   </syncfusion:SfDiagram.ExportSettings>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings with clipping area
 ExportSettings settings = new ExportSettings()
@@ -181,7 +181,7 @@ SfDiagram provides the supports to change the size of the exported image using t
   </syncfusion:SfDiagram.ExportSettings>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings with image size
 ExportSettings settings = new ExportSettings()
@@ -217,7 +217,7 @@ SfDiagram provides the supports to strech the exported image within given image 
   </syncfusion:SfDiagram.ExportSettings>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings with image shrunk options as expand
 ExportSettings settings = new ExportSettings()
@@ -246,7 +246,7 @@ SfDiagram provides the supports to change the background color of the exported i
   </syncfusion:SfDiagram.ExportSettings>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the export settings with clipping area
 ExportSettings settings = new ExportSettings()
