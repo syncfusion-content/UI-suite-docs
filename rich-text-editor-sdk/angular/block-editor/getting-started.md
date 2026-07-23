@@ -53,7 +53,7 @@ npm install -g @angular/cli
     cd my-app
     ```
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Block Editor packages
+## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Block Editor package
 
 All available Essential JS 2 packages are published in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) registry. The `@syncfusion/ej2-angular-blockeditor` package supports Angular 14 and later. Install the Block Editor component with the following command:
 
