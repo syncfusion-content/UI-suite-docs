@@ -42,7 +42,7 @@ The following image shows the search result of the symbol.
 
 Stencil provides support to add keywords for a symbol that can be used when you search for it. Keywords can be added to the symbols using the [`SearchTags`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.SymbolViewModel.html#Syncfusion_UI_Xaml_Diagram_Stencil_SymbolViewModel_SearchTags) property of [SymbolViewModel](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.SymbolViewModel.html) class.
 
-{% highlight C# %}
+{% highlight c# %}
 
 // Defining tags to a symbol to make search easier.
 var tags = new List() { "Process", "Input" };

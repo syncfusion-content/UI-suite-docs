@@ -62,7 +62,7 @@ In order to add control manually in XAML, follow the steps below:
 3. Create SfDiagram control instance and add it to the Grid.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 using Syncfusion.UI.Xaml.Diagram;
 
 namespace Flow_Diagram

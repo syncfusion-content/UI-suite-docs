@@ -60,7 +60,7 @@ npm install @syncfusion/ej2-material3-theme --save
 Then add the following CSS reference to the **src/styles/styles.css** file:
  
 {% tabs %}
-{% highlight css tabtitle="style.css" %}
+{% highlight css tabtitle="styles.css" %}
  
 @import "../../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css";
  

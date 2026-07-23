@@ -17,13 +17,13 @@ The [`Group`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Diag
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Cancel" Name="Cancel" Command="Syncfusion:DiagramCommands.Group"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 
@@ -39,13 +39,13 @@ The [`UnGroup`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ID
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Cancel" Name="Cancel" Command="Syncfusion:DiagramCommands.UnGroup"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 
