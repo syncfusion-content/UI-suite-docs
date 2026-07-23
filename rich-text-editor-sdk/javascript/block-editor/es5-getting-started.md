@@ -92,8 +92,7 @@ Block Editor can be initialized on a div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-var blockeditor = new ej.blockeditor.BlockEditor({
-});
+var blockeditor = new ej.blockeditor.BlockEditor({});
 
 blockeditor.appendTo('#blockeditor_default');
 {% endhighlight %}
