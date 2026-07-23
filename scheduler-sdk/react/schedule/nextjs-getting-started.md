@@ -311,4 +311,9 @@ To learn more about the functionality of the Schedule component, refer to the [S
 * **A view (Week/Month/Agenda) is missing** — verify the corresponding module is included in `Inject services` and that a matching `ViewDirective` is declared.
 * **Server-rendering errors** — the Schedule component depends on browser APIs; the containing page must be a client component (`'use client'`).
 
-> [View the NEXT.js Schedule sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-schedule).
+## See also
+
+* [Module injection](./module-injection.md)
+* [Resources](./resources.md)
+* [Views](./views.md)
+* [Appointments and event data handling](./appointments.md)
