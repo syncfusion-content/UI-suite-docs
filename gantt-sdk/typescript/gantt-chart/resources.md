@@ -11,11 +11,11 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 # Resources in TypeScript Gantt Chart Control
 
-Resources in the  TypeScript Gantt Chart control represent people, equipment, or materials allocated to tasks, visualized in taskbars and labels for clear utilization tracking. Assigned via the [resources](../api/gantt#resources) property, resources map to tasks using [resourceFields](../api/gantt#resourcefields) for ID, name, unit, and group. This enables display of resource names in columns or labels with [labelSettings](../api/gantt/labelSettings), highlighting workloads and overallocation. The [queryTaskbarInfo](../gantt/events#querytaskbarinfo) event customizes taskbar styles based on resources, such as color-coding. Resources include ARIA labels for accessibility, ensuring screen reader compatibility, and adapt to responsive designs, though narrow screens may truncate names for multiple assignments. By default, resources allocate 100% unit if unspecified.
+Resources in the TypeScript Gantt Chart control represent people, equipment, or materials allocated to tasks, visualized in taskbars and labels for clear utilization tracking. Assigned via the [resources](https://ej2.syncfusion.com/documentation/api/gantt#resources) property, resources map to tasks using [resourceFields](https://ej2.syncfusion.com/documentation/api/gantt#resourcefields) for ID, name, unit, and group. This enables display of resource names in columns or labels with [labelSettings](https://ej2.syncfusion.com/documentation/api/gantt/labelSettings), highlighting workloads and overallocation. The [queryTaskbarInfo](https://ej2.syncfusion.com/documentation/gantt/events#querytaskbarinfo) event customizes taskbar styles based on resources, such as color-coding. Resources include ARIA labels for accessibility, ensuring screen reader compatibility, and adapt to responsive designs, though narrow screens may truncate names for multiple assignments. By default, resources allocate 100% unit if unspecified.
 
 ## Configure resource collection
 
-The resource collection defines available resources as JSON objects with ID, name, unit, and group, mapped via [resourceFields](../api/gantt#resourcefields):
+The resource collection defines available resources as JSON objects with ID, name, unit, and group, mapped via [resourceFields](https://ej2.syncfusion.com/documentation/api/gantt#resourcefields):
 
 - **id**: Maps to a unique identifier for task assignment.
 - **name**: Maps to the resource name displayed in labels or columns.
@@ -26,19 +26,46 @@ The following code demonstrates resource collection setup:
 
 ```ts
 var projectResources: Object[] = [
-    { resourceId: 1, resourceName: 'Martin Tamer', resourceGroup: 'Planning Team', resourceUnit: 50 },
-    { resourceId: 2, resourceName: 'Rose Fuller', resourceGroup: 'Testing Team', resourceUnit: 70 },
-    { resourceId: 3, resourceName: 'Margaret Buchanan', resourceGroup: 'Approval Team' },
-    { resourceId: 4, resourceName: 'Fuller King', resourceGroup: 'Development Team' },
-    { resourceId: 5, resourceName: 'Davolio Fuller', resourceGroup: 'Approval Team' },
-    { resourceId: 6, resourceName: 'Van Jack', resourceGroup: 'Development Team', resourceUnit: 40 }
+  {
+    resourceId: 1,
+    resourceName: "Martin Tamer",
+    resourceGroup: "Planning Team",
+    resourceUnit: 50,
+  },
+  {
+    resourceId: 2,
+    resourceName: "Rose Fuller",
+    resourceGroup: "Testing Team",
+    resourceUnit: 70,
+  },
+  {
+    resourceId: 3,
+    resourceName: "Margaret Buchanan",
+    resourceGroup: "Approval Team",
+  },
+  {
+    resourceId: 4,
+    resourceName: "Fuller King",
+    resourceGroup: "Development Team",
+  },
+  {
+    resourceId: 5,
+    resourceName: "Davolio Fuller",
+    resourceGroup: "Approval Team",
+  },
+  {
+    resourceId: 6,
+    resourceName: "Van Jack",
+    resourceGroup: "Development Team",
+    resourceUnit: 40,
+  },
 ];
 
 var resourceFields: ResourceFieldsModel = {
-    id: 'resourceId',
-    name: 'resourceName',
-    unit: 'resourceUnit',
-    group: 'resourceGroup'
+  id: "resourceId",
+  name: "resourceName",
+  unit: "resourceUnit",
+  group: "resourceGroup",
 };
 ```
 
@@ -46,7 +73,7 @@ This configuration maps resources for assignment and display.
 
 ## Assign resources to tasks
 
-Resources are assigned to tasks using resource IDs in the data source, mapped via [taskFields.resourceInfo](../api/gantt/taskFields#resourceinfo). Assignments can be added or edited dynamically via cell or dialog editing, triggered by double-clicking.
+Resources are assigned to tasks using resource IDs in the data source, mapped via [taskFields.resourceInfo](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#resourceinfo). Assignments can be added or edited dynamically via cell or dialog editing, triggered by double-clicking.
 
 **Single resource assignment:**
 
@@ -105,7 +132,7 @@ _Alt text: Resource dialog editing tab for multiple allocations and units._
 
 ## Customize resource styling
 
-Customize resource display using column templates for the resource column and the [queryTaskbarInfo](../gantt/events#querytaskbarinfo) event for taskbar styling based on assigned resources.
+Customize resource display using column templates for the resource column and the [queryTaskbarInfo](https://ej2.syncfusion.com/documentation/gantt/events#querytaskbarinfo) event for taskbar styling based on assigned resources.
 
 The following example demonstrates custom resource styling:
 
@@ -124,6 +151,6 @@ This configuration applies background colors to resource columns and taskbars, w
 
 ## See also
 
-- [How to configure resource view?](../gantt/resource-view)
-- [How to manage task dependencies?](../gantt/task-dependency)
-- [How to customize taskbars?](../gantt/taskbar)
+- [How to configure resource view?](https://ej2.syncfusion.com/documentation/gantt/resource-view)
+- [How to manage task dependencies?](https://ej2.syncfusion.com/documentation/gantt/task-dependency)
+- [How to customize taskbars?](https://ej2.syncfusion.com/documentation/gantt/taskbar)

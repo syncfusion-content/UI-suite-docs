@@ -3,7 +3,7 @@ layout: post
 title: Excel Like Filter in Gantt Chart Control | Syncfusion
 description: Learn here all about excel like filter in Syncfusion TypeScript Gantt Chart control of Syncfusion Essential JS 2 and more.
 platform: gantt-sdk
-control: Excel like filter 
+control: Excel like filter
 publishingplatform: gantt-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 The Excel-like filter in Gantt Chart control enables column-level filtering similar to Microsoft Excel. It supports sorting, clearing filters, and applying advanced conditions through a submenu available in each column header. This feature is highly effective for working with large datasets and applying multiple filter criteria.
 
-To enable this feature, configure [filterSettings.type](../../api/gantt/filtersettings#type) as **Excel** and set [allowFiltering](../../api/gantt#allowfiltering) to **true**.
+To enable this feature, configure [filterSettings.type](https://ej2.syncfusion.com/documentation/api/gantt/filtersettings#type) as **Excel** and set [allowFiltering](https://ej2.syncfusion.com/documentation/api/gantt#allowfiltering) to **true**.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -23,7 +23,7 @@ To enable this feature, configure [filterSettings.type](../../api/gantt/filterse
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs1" %}
 
 ## Show customized text in checkbox list data
@@ -38,7 +38,7 @@ To customize the text displayed in a checkbox list, use `filterItemTemplate` and
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs2" %}
 
 ## Hide Excel filter dialog elements
@@ -47,19 +47,18 @@ You can hide elements such as the context menu, search box, sorting options, and
 
 ```css
 .e-gantt .e-excelfilter .e-contextmenu-wrapper {
-    display: none;
+  display: none;
 }
 ```
 
 If you want to hide only the built-in sorting options (ascending, descending, and separator), apply the following CSS:
 
 ```css
- .e-excel-ascending,
- .e-excel-descending,
- .e-separator.e-excel-separator {
-    display: none;
-  }
-
+.e-excel-ascending,
+.e-excel-descending,
+.e-separator.e-excel-separator {
+  display: none;
+}
 ```
 
 {% tabs %}
@@ -70,7 +69,7 @@ If you want to hide only the built-in sorting options (ascending, descending, an
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs3" %}
 
 ## Customize filter choice count
@@ -87,12 +86,12 @@ To customize this behavior, the `filterChoiceCount` property can be adjusted to 
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs4" %}
 
 ## Bind custom remote data source for Excel-like filtering
 
-You can dynamically bind a custom remote data source to the Excel filter in the Gantt Chart control by using a [DataManager](../../data/getting-started) with [WebApiAdaptor](../../data/adaptors#web-api-adaptor). This can be done by assigning the data source directly or storing fetched data in a global variable. Then, bind it to the filter module's `dataSource` within the [actionBegin](../../gantt/events#actionbegin) event when `requestType` is **filterBeforeOpen**.
+You can dynamically bind a custom remote data source to the Excel filter in the Gantt Chart control by using a [DataManager](https://ej2.syncfusion.com/documentation/data/getting-started) with [WebApiAdaptor](https://ej2.syncfusion.com/documentation/data/adaptors#web-api-adaptor). This can be done by assigning the data source directly or storing fetched data in a global variable. Then, bind it to the filter module's `dataSource` within the [actionBegin](https://ej2.syncfusion.com/documentation/gantt/events#actionbegin) event when `requestType` is **filterBeforeOpen**.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -102,5 +101,5 @@ You can dynamically bind a custom remote data source to the Excel filter in the 
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/excel-filter-cs5" %}

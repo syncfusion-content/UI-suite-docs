@@ -3,7 +3,7 @@ layout: post
 title: Context Menu in TypeScript Gantt Chart Control | Syncfusion
 description: Learn here all about context menu in Syncfusion TypeScript Gantt Chart control of Syncfusion Essential JS 2 and more.
 platform: gantt-sdk
-control: Context menu 
+control: Context menu
 publishingplatform: gantt-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
@@ -15,7 +15,7 @@ The context menu in the Syncfusion TypeScript Gantt Chart control provides right
 
 ## Enabling context menu
 
-To enable the context menu, set the [enableContextMenu](../../api/gantt#enablecontextmenu) property to **true** and import `ContextMenu` service from `@syncfusion/ej2-react-gantt` in the `providers` of the control.
+To enable the context menu, set the [enableContextMenu](https://ej2.syncfusion.com/documentation/api/gantt#enablecontextmenu) property to **true** and import `ContextMenu` service from `@syncfusion/ej2-react-gantt` in the `providers` of the control.
 
 The following items are available in the default context menu:
 
@@ -45,18 +45,18 @@ The following example demonstrates context menu implementation with default item
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/contextMenu-cs1" %}
 
 > If a required feature is not enabled, the related context menu item will be disabled or hidden to prevent unsupported actions.
 
 ## Custom context menu items
 
-Extend the context menu functionality by adding custom items using the [contextMenuItems](../../api/gantt#contextmenuitems) property. Custom items are defined as a collection of [contextMenuItemModel](../../api/grid/contextMenuItemModel/) objects with properties for `id` (unique identifier), `text` (display label), `target` (CSS selector for appearance context), and `iconCss` (icon styling class).
+Extend the context menu functionality by adding custom items using the [contextMenuItems](https://ej2.syncfusion.com/documentation/api/gantt#contextmenuitems) property. Custom items are defined as a collection of [contextMenuItemModel](https://ej2.syncfusion.com/documentation/api/grid/contextMenuItemModel/) objects with properties for `id` (unique identifier), `text` (display label), `target` (CSS selector for appearance context), and `iconCss` (icon styling class).
 
 The `target` property determines where custom menu items appear: **.e-content** for task-related operations, like add, delete, save, and cancel, `.e-gridheader` for column-related operations.
 
-The [contextMenuOpen](../../api/gantt#contextmenuopen) event enables dynamic modification, such as hiding items based on row selection. The [contextMenuClick](../../api/gantt#contextmenuclick) event handles custom item actions, providing details like the selected item’s `id`, `text`, and row data.
+The [contextMenuOpen](https://ej2.syncfusion.com/documentation/api/gantt#contextmenuopen) event enables dynamic modification, such as hiding items based on row selection. The [contextMenuClick](https://ej2.syncfusion.com/documentation/api/gantt#contextmenuclick) event handles custom item actions, providing details like the selected item’s `id`, `text`, and row data.
 
 The following sample shows context menu items for parent rows to expand or collapse child rows in the content area and a context menu item to hide columns in the header area.
 
@@ -68,7 +68,7 @@ The following sample shows context menu items for parent rows to expand or colla
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/customContextMenu-cs1" %}
 
 This implementation shows custom context menu integration with event handling. The `contextMenuClick` event receives parameters including the selected item's id, text, and the current row data, enabling specific actions based on the context.

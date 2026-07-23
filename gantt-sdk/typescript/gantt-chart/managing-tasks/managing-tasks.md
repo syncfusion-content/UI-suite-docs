@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 # Managing Tasks in TypeScript Gantt Chart Control
 
-Managing tasks in the TypeScript Gantt Chart control enables dynamic project updates, such as inserting, deleting, or editing tasks and dependencies, by enabling [allowAdding](../../api/gantt/editSettings#allowadding), [allowDeleting](../../api/gantt/editSettings#allowdeleting), [allowEditing](../../api/gantt/editSettings#allowediting), and [allowTaskbarEditing](../../api/gantt/editSettings#allowtaskbarediting) with `Edit` module injected. A primary key column, defined by [columns.isPrimaryKey](../../api/gantt/column#isprimarykey) set to **true** (e.g., on id), ensures reliable CRUD operations and task identification. Editing modes include cell editing for quick TreeGrid updates, dialog editing for comprehensive changes, taskbar dragging for duration or date adjustments, and connector line dragging for dependencies. Customize dialogs with templates or fields using [addDialogFields](../../api/gantt#adddialogfields) and [editDialogFields](../../api/gantt#editdialogfields). Methods like [addRecord](../../api/gantt#addrecord), [deleteRow](../../api/gantt#deleterow), and [updateRecordById](../../api/gantt#updaterecordbyid) support programmatic management. Ensure valid `taskFields` mappings and a primary key to enable editing seamlessly.
+Managing tasks in the TypeScript Gantt Chart control enables dynamic project updates, such as inserting, deleting, or editing tasks and dependencies, by enabling [allowAdding](https://ej2.syncfusion.com/documentation/api/gantt/editSettings#allowadding), [allowDeleting](https://ej2.syncfusion.com/documentation/api/gantt/editSettings#allowdeleting), [allowEditing](https://ej2.syncfusion.com/documentation/api/gantt/editSettings#allowediting), and [allowTaskbarEditing](https://ej2.syncfusion.com/documentation/api/gantt/editSettings#allowtaskbarediting) with `Edit` module injected. A primary key column, defined by [columns.isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) set to **true** (e.g., on id), ensures reliable CRUD operations and task identification. Editing modes include cell editing for quick TreeGrid updates, dialog editing for comprehensive changes, taskbar dragging for duration or date adjustments, and connector line dragging for dependencies. Customize dialogs with templates or fields using [addDialogFields](https://ej2.syncfusion.com/documentation/api/gantt#adddialogfields) and [editDialogFields](https://ej2.syncfusion.com/documentation/api/gantt#editdialogfields). Methods like [addRecord](https://ej2.syncfusion.com/documentation/api/gantt#addrecord), [deleteRow](https://ej2.syncfusion.com/documentation/api/gantt#deleterow), and [updateRecordById](https://ej2.syncfusion.com/documentation/api/gantt#updaterecordbyid) support programmatic management. Ensure valid `taskFields` mappings and a primary key to enable editing seamlessly.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -24,11 +24,11 @@ Managing tasks in the TypeScript Gantt Chart control enables dynamic project upd
 
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/getting-started-cs12" %}
 
-Editing feature requires a primary key column for CRUD operations. While defining columns in Gantt Chart using the [columns](../../api/gantt#columns) property, it is mandatory that any one of the columns, must be a primary column. By default, the [id](../../api/gantt/taskFields#id) column will be the primary key column. If [id](../../api/gantt/taskFields#id) column is not defined, we need to enable [isPrimaryKey](../../api/gantt/column#isprimarykey) for any one of the columns defined in the [columns](../../api/gantt#columns) property.
+Editing feature requires a primary key column for CRUD operations. While defining columns in Gantt Chart using the [columns](https://ej2.syncfusion.com/documentation/api/gantt#columns) property, it is mandatory that any one of the columns, must be a primary column. By default, the [id](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#id) column will be the primary key column. If [id](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#id) column is not defined, we need to enable [isPrimaryKey](https://ej2.syncfusion.com/documentation/api/gantt/column#isprimarykey) for any one of the columns defined in the [columns](https://ej2.syncfusion.com/documentation/api/gantt#columns) property.
 
 ## Open new task dialog with default values
 
-You can set default values when new task dialog opens using [actionBegin](../../api/gantt#actionbegin) event when `requestType` is **beforeOpenAddDialog**.
+You can set default values when new task dialog opens using [actionBegin](https://ej2.syncfusion.com/documentation/api/gantt#actionbegin) event when `requestType` is **beforeOpenAddDialog**.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -43,20 +43,20 @@ You can set default values when new task dialog opens using [actionBegin](../../
 
 ## Cell edit type and its params
 
-The [columns.editType](../../api/gantt/column#edittype) is used to define the edit type for any particular column. You can set the [columns.editType](../../api/gantt/column#edittype) based on data type of the column.
+The [columns.editType](https://ej2.syncfusion.com/documentation/api/gantt/column#edittype) is used to define the edit type for any particular column. You can set the [columns.editType](https://ej2.syncfusion.com/documentation/api/gantt/column#edittype) based on data type of the column.
 
 Below is the combined content from the provided markdown sections in bullet points, as requested, ensuring clarity and conciseness while preserving the original information:
 
 - **Cell edit types and components**:
-  - **numericedit**: Uses the [NumericTextBox](../../numerictextbox) control for editing integers, doubles, and decimals.
-  - **defaultedit**: Uses the [TextBox](../../textbox) control for editing string data.
-  - **dropdownedit**: Uses the [DropDownList](../../drop-down-list) control to display all unique values for a field.
-  - **booleanedit**: Uses the [CheckBox](../../check-box) control for editing boolean data.
-  - **datepickeredit**: Uses the [DatePicker](../../datepicker) control for editing date data.
-  - **datetimepickeredit**: Uses the [DateTimePicker](../../datetimepicker) control for editing date-time data.
+  - **numericedit**: Uses the [NumericTextBox](https://ej2.syncfusion.com/documentation/numerictextbox) control for editing integers, doubles, and decimals.
+  - **defaultedit**: Uses the [TextBox](https://ej2.syncfusion.com/documentation/textbox) control for editing string data.
+  - **dropdownedit**: Uses the [DropDownList](https://ej2.syncfusion.com/documentation/drop-down-list) control to display all unique values for a field.
+  - **booleanedit**: Uses the [CheckBox](https://ej2.syncfusion.com/documentation/check-box) control for editing boolean data.
+  - **datepickeredit**: Uses the [DatePicker](https://ej2.syncfusion.com/documentation/datepicker) control for editing date data.
+  - **datetimepickeredit**: Uses the [DateTimePicker](https://ej2.syncfusion.com/documentation/datetimepicker) control for editing date-time data.
 
 - **Customization**:
-  - Customize editor control behavior using the [columns.edit.params](../../api/gantt/column#edit) property.
+  - Customize editor control behavior using the [columns.edit.params](https://ej2.syncfusion.com/documentation/api/gantt/column#edit) property.
 
 - **Edit type parameters**:
   - **numericedit**: Supports parameters like `decimals: 2`, `value: 5`.
@@ -78,9 +78,9 @@ Below is the combined content from the provided markdown sections in bullet poin
 
 ## Prevent particular column and taskbar editing
 
-You can prevent editing for the particular column by setting [columns.allowEditing](../../api/gantt/column/#allowEditing) to **false**.
+You can prevent editing for the particular column by setting [columns.allowEditing](https://ej2.syncfusion.com/documentation/api/gantt/column/#allowEditing) to **false**.
 
-To restrict taskbar editing, set `args.cancel` to **true** in the [actionBegin](../../gantt/events#actionbegin) event based on `taskbarEditAction`.
+To restrict taskbar editing, set `args.cancel` to **true** in the [actionBegin](https://ej2.syncfusion.com/documentation/gantt/events#actionbegin) event based on `taskbarEditAction`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -118,7 +118,7 @@ The cell edit template is used to create a custom control for a particular colum
 
 ## Disable editing for particular column
 
-You can disable editing for particular columns, by using the [columns.allowEditing](../../api/gantt/column#allowediting) property.
+You can disable editing for particular columns, by using the [columns.allowEditing](https://ej2.syncfusion.com/documentation/api/gantt/column#allowediting) property.
 
 In the following demo, editing is disabled for the **TaskName** column.
 
@@ -135,13 +135,13 @@ In the following demo, editing is disabled for the **TaskName** column.
 
 ## Customize control in add/edit dialog
 
-In Gantt Chart, the controls such as form elements, grid and RTE in add and edit dialog can be customized by using [additionalParams](../../api/gantt/addDialogFieldSettingsModel#additionalParams) property.
+In Gantt Chart, the controls such as form elements, grid and RTE in add and edit dialog can be customized by using [additionalParams](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettingsModel#additionalParams) property.
 
 ### Customize general tab of dialog
 
-The form element in the General tab of the add/edit dialog can be added or removed by using the [fields](../../api/gantt/addDialogFieldSettings#fields) property within the [addDialogFields](../../api/gantt/addDialogFieldSettings) and [editDialogFields](../../api/gantt/editDialogFieldSettings) settings respectively.
+The form element in the General tab of the add/edit dialog can be added or removed by using the [fields](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettings#fields) property within the [addDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettings) and [editDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/editDialogFieldSettings) settings respectively.
 
-The controls of the `fields` can be customized by using the [edit](../../gantt/managing-tasks/managing-tasks#cell-edit-template) template feature.
+The controls of the `fields` can be customized by using the [edit](https://ej2.syncfusion.com/documentation/gantt/managing-tasks/managing-tasks#cell-edit-template) template feature.
 
 In the below sample, General tab is customized using the `fields` property. The fields **TaskID**, **TaskName** and **newInput** are added in both `addDialogFields` and `editDialogFields` settings.
 
@@ -158,13 +158,13 @@ In the below sample, General tab is customized using the `fields` property. The 
 
 ### Customize dependency, segments and resources tab of dialog
 
-You can customize the dependency, segments, and resource tabs of the dialog box using the [additionalParams](../../api/gantt/addDialogFieldSettingsModel#additionalParams) property within the [addDialogFields](../../api/gantt/addDialogFieldSettings) and [editDialogFields](../../api/gantt/editDialogFieldSettings) settings respectively. This customization involves defining properties from the [grid](../../api/grid) within the `additionalParams` property.
+You can customize the dependency, segments, and resource tabs of the dialog box using the [additionalParams](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettingsModel#additionalParams) property within the [addDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettings) and [editDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/editDialogFieldSettings) settings respectively. This customization involves defining properties from the [grid](https://ej2.syncfusion.com/documentation/api/grid) within the `additionalParams` property.
 
 In the example below:
 
-- The dependency tab enables [sorting](../../api/grid#allowsorting) and [toolbar](../../api/grid#toolbar) options.
-- The segments tab enables `sorting` and `toolbar` options and includes a new column `newData` defined with a specified [field](../../api/grid/columnModel#field).
-- The resources tab defines a new column **Segment Task** with specific properties such as `field`, [width](../../api/grid/columnModel#width) and [headerText](../../api/grid/columnModel#headertext).
+- The dependency tab enables [sorting](https://ej2.syncfusion.com/documentation/api/grid#allowsorting) and [toolbar](https://ej2.syncfusion.com/documentation/api/grid#toolbar) options.
+- The segments tab enables `sorting` and `toolbar` options and includes a new column `newData` defined with a specified [field](https://ej2.syncfusion.com/documentation/api/grid/columnModel#field).
+- The resources tab defines a new column **Segment Task** with specific properties such as `field`, [width](https://ej2.syncfusion.com/documentation/api/grid/columnModel#width) and [headerText](https://ej2.syncfusion.com/documentation/api/grid/columnModel#headertext).
   These customizations are applied to both `addDialogFields` and `editDialogFields` settings.
 
 {% tabs %}
@@ -180,9 +180,9 @@ In the example below:
 
 ### Customize note dialog tab
 
-You can customize the note dialog tab using the [additionalParams](../../api/gantt/addDialogFieldSettingsModel#additionalParams) property within the [addDialogFields](../../api/gantt/addDialogFieldSettings) and [editDialogFields](../../api/gantt/editDialogFieldSettings) settings respectively. This customization involves defining properties from the [RTE](../../api/rich-text-editor) module within the `additionalParams` property.
+You can customize the note dialog tab using the [additionalParams](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettingsModel#additionalParams) property within the [addDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/addDialogFieldSettings) and [editDialogFields](https://ej2.syncfusion.com/documentation/api/gantt/editDialogFieldSettings) settings respectively. This customization involves defining properties from the [RTE](https://ej2.syncfusion.com/documentation/api/rich-text-editor) module within the `additionalParams` property.
 
-In the following example, the notes tab is customized with the [inlinemode](../../api/rich-text-editor#inlinemode) property enabled, allowing for in-place editing. Additionally, the `OnSelection` property is enabled, which opens the toolbar inline upon selecting text.
+In the following example, the notes tab is customized with the [inlinemode](https://ej2.syncfusion.com/documentation/api/rich-text-editor#inlinemode) property enabled, allowing for in-place editing. Additionally, the `OnSelection` property is enabled, which opens the toolbar inline upon selecting text.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -237,7 +237,7 @@ The following table explains the taskbar state in dependency edit mode.
 
 ## Taskbar editing tooltip
 
-The taskbar editing tooltip can be customized using the [tooltipSettings.editing](../../api/gantt/tooltipSettings/#editing) property. The following code example shows how to customize the taskbar editing tooltip in Gantt.
+The taskbar editing tooltip can be customized using the [tooltipSettings.editing](https://ej2.syncfusion.com/documentation/api/gantt/tooltipSettings/#editing) property. The following code example shows how to customize the taskbar editing tooltip in Gantt.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -252,7 +252,7 @@ The taskbar editing tooltip can be customized using the [tooltipSettings.editing
 
 ## See also
 
-- [How to add new tasks?](../../gantt/managing-tasks/adding-new-tasks)
-- [How to delete tasks?](../../gantt/managing-tasks/deleting-tasks)
-- [How to manage task dependencies?](../../gantt/task-dependency)
-- [How to configure critical path?](../../gantt/critical-path)
+- [How to add new tasks?](https://ej2.syncfusion.com/documentation/gantt/managing-tasks/adding-new-tasks)
+- [How to delete tasks?](https://ej2.syncfusion.com/documentation/gantt/managing-tasks/deleting-tasks)
+- [How to manage task dependencies?](https://ej2.syncfusion.com/documentation/gantt/task-dependency)
+- [How to configure critical path?](https://ej2.syncfusion.com/documentation/gantt/critical-path)

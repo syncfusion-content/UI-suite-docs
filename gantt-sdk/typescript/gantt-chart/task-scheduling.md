@@ -3,7 +3,7 @@ layout: post
 title: Task scheduling in TypeScript Gantt control | Syncfusion
 description: Learn here all about Task scheduling in Syncfusion TypeScript Gantt control of Syncfusion Essential JS 2 and more.
 platform: gantt-sdk
-control: Task scheduling 
+control: Task scheduling
 publishingplatform: gantt-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/gantt-sdk
@@ -11,19 +11,19 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 # Task scheduling in TypeScript Gantt control
 
-The Gantt provides support for automatic and manual task scheduling modes. It is used to indicate whether the start date and end date of all the tasks will be automatically validated or not. [taskMode](../api/gantt#taskmode) is the property used to change the schedule mode of a task.
+The Gantt provides support for automatic and manual task scheduling modes. It is used to indicate whether the start date and end date of all the tasks will be automatically validated or not. [taskMode](https://ej2.syncfusion.com/documentation/api/gantt#taskmode) is the property used to change the schedule mode of a task.
 
 The Gantt control supports three types of mode. They are:
 
-* `Auto`: All the tasks are automatically validate.
-* `Manual`: All the tasks are manually validate by the user.
-* `Custom`: Both Auto and Manual tasks are render by mapped from data source.
+- `Auto`: All the tasks are automatically validate.
+- `Manual`: All the tasks are manually validate by the user.
+- `Custom`: Both Auto and Manual tasks are render by mapped from data source.
 
->Note: The default value of [taskMode](../api/gantt#taskmode) is `Auto`.
+> Note: The default value of [taskMode](https://ej2.syncfusion.com/documentation/api/gantt#taskmode) is `Auto`.
 
 ## Automatically scheduled Tasks
 
-When the [taskMode](../api/gantt#taskmode) property is set as `Auto`, the start date and end date of all the tasks in the project will be automatically validated. That is, dates are validated based on various factors such as working time, holidays, weekends and predecessors.
+When the [taskMode](https://ej2.syncfusion.com/documentation/api/gantt#taskmode) property is set as `Auto`, the start date and end date of all the tasks in the project will be automatically validated. That is, dates are validated based on various factors such as working time, holidays, weekends and predecessors.
 
 In auto scheduling mode, the parent taskbar will be rendered according to the minimum start date and maximum end date of its child records, irrespective of the dates provided to it in the data source.
 
@@ -39,12 +39,12 @@ The rendering of the parent taskbar in auto-scheduling mode also takes into acco
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs1" %}
 
 ## Manually scheduled Tasks
 
-When the [taskMode](../api/gantt#taskmode) property is set as `Manual`, the start date and end date of all the tasks in the project will be same as given in the data source. That is, dates are not validated based on various factors such as dependencies between tasks, holidays, weekends, working time. We can restrict this mode in predecessor validation alone. That is, we can automatically validate the dates based on predecessor values by enabling the [validateManualTasksOnLinking](../api/gantt#validatemanualtasksonlinking) property.
+When the [taskMode](https://ej2.syncfusion.com/documentation/api/gantt#taskmode) property is set as `Manual`, the start date and end date of all the tasks in the project will be same as given in the data source. That is, dates are not validated based on various factors such as dependencies between tasks, holidays, weekends, working time. We can restrict this mode in predecessor validation alone. That is, we can automatically validate the dates based on predecessor values by enabling the [validateManualTasksOnLinking](https://ej2.syncfusion.com/documentation/api/gantt#validatemanualtasksonlinking) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -54,12 +54,12 @@ When the [taskMode](../api/gantt#taskmode) property is set as `Manual`, the star
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs2" %}
 
 ## Custom
 
-When the [taskMode](../api/gantt#taskmode) property is set as `Custom`, the scheduling mode for each tasks will be mapped from the data source field. The `Boolean` property [taskFields.manual](../api/gantt/taskFields#manual) is used to map the manual scheduling mode field from the data source.
+When the [taskMode](https://ej2.syncfusion.com/documentation/api/gantt#taskmode) property is set as `Custom`, the scheduling mode for each tasks will be mapped from the data source field. The `Boolean` property [taskFields.manual](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#manual) is used to map the manual scheduling mode field from the data source.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -69,12 +69,12 @@ When the [taskMode](../api/gantt#taskmode) property is set as `Custom`, the sche
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/task-schedule-cs3" %}
 
 ## Unscheduled Tasks
 
-Unscheduled tasks are planned for a project without any definite schedule dates. The Gantt control supports rendering the unscheduled tasks. You can create or update the tasks with anyone of start date, end date, and duration values or none. You can enable or disable the unscheduled tasks by using the [allowUnscheduledTasks](../api/gantt#allowunscheduledtasks) property. The following images represent the various types of unscheduled tasks in Gantt.
+Unscheduled tasks are planned for a project without any definite schedule dates. The Gantt control supports rendering the unscheduled tasks. You can create or update the tasks with anyone of start date, end date, and duration values or none. You can enable or disable the unscheduled tasks by using the [allowUnscheduledTasks](https://ej2.syncfusion.com/documentation/api/gantt#allowunscheduledtasks) property. The following images represent the various types of unscheduled tasks in Gantt.
 
 | Taskbar state     | Auto                                      | Manual                                      |
 | ----------------- | ----------------------------------------- | ------------------------------------------- |
@@ -83,7 +83,7 @@ Unscheduled tasks are planned for a project without any definite schedule dates.
 | `Duration Only`   | ![Alt text](../images/duration-only.png)  | ![Alt text](../images/duration-manual.png)  |
 | `Milestone`       | ![Alt text](../images/milestone.png)      | ![Alt text](../images/milestone.png)        |
 
->Note: A milestone is a task that has no start and end dates, but it has a duration value of zero
+> Note: A milestone is a task that has no start and end dates, but it has a duration value of zero
 
 ## Define unscheduled tasks in data source
 
@@ -97,15 +97,15 @@ You can define the various types of unscheduled tasks in the data source as foll
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/unscheduledTasks-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/unscheduledTasks-cs2" %}
 
 > NOTE
-> If the [allowUnscheduledTasks](../api/gantt#allowunscheduledtasks) property is set to false, then the Gantt control automatically calculates the scheduled date values with a default value of duration 1 and the project start date is considered as the start date for the task.
+> If the [allowUnscheduledTasks](https://ej2.syncfusion.com/documentation/api/gantt#allowunscheduledtasks) property is set to false, then the Gantt control automatically calculates the scheduled date values with a default value of duration 1 and the project start date is considered as the start date for the task.
 
 ## Working time range
 
-In the Gantt control, working hours for all days of a project can be defined by using the [dayWorkingTime](../api/gantt/dayWorkingTime) property. Based on the working hours, automatic date scheduling and duration validations for a task are performed.
+In the Gantt control, working hours for all days of a project can be defined by using the [dayWorkingTime](https://ej2.syncfusion.com/documentation/api/gantt/dayWorkingTime) property. Based on the working hours, automatic date scheduling and duration validations for a task are performed.
 
 The following code snippet explains how to define the working time range for the project in Gantt.
 
@@ -117,12 +117,13 @@ The following code snippet explains how to define the working time range for the
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/workingtimerange-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/workingtimerange-cs2" %}
 
 > NOTE
->* Individual tasks can lie between any time within the defined working time range of the project.
->* The [dayWorkingTime](../api/gantt/dayWorkingTime) property is used to define the working time for the whole project.
+>
+> - Individual tasks can lie between any time within the defined working time range of the project.
+> - The [dayWorkingTime](https://ej2.syncfusion.com/documentation/api/gantt/dayWorkingTime) property is used to define the working time for the whole project.
 
 ### Working time range for specific day in a week
 
@@ -140,18 +141,19 @@ The following code snippet explains how to define the week working time range fo
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/week-workingtime-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/week-workingtime-cs1" %}
-  
+
 > NOTE
->* By default working time range for all days will be `8` to `12` and `13` to `17` hours.
->* If both `dayWorkingTime` and `weekWorkingTime` are mapped, priority will be given to `weekWorkingTime` property.
->* Default working time defined in `dayWorkingTime` property will be used for the days left out in the `weekWorkingTime` property.
->* If a day is a holiday or non-working day and also initialized in `weekWorkingTime` property, it will only be considered as a non-working day.
+>
+> - By default working time range for all days will be `8` to `12` and `13` to `17` hours.
+> - If both `dayWorkingTime` and `weekWorkingTime` are mapped, priority will be given to `weekWorkingTime` property.
+> - Default working time defined in `dayWorkingTime` property will be used for the days left out in the `weekWorkingTime` property.
+> - If a day is a holiday or non-working day and also initialized in `weekWorkingTime` property, it will only be considered as a non-working day.
 
 ## Weekend/non-working days
 
-Non-working days/weekend are used to represent the non-productive days in a project. You can define the non-working days in a week using the [workWeek](../api/gantt#workweek) property in Gantt.
+Non-working days/weekend are used to represent the non-productive days in a project. You can define the non-working days in a week using the [workWeek](https://ej2.syncfusion.com/documentation/api/gantt#workweek) property in Gantt.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -161,28 +163,28 @@ Non-working days/weekend are used to represent the non-productive days in a proj
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/how-to-changeworkweek-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/how-to-changeworkweek-cs2" %}
 
 > By default, Saturdays and Sundays are considered as non-working days/weekend in a project.
-> In the Gantt control, you can make weekend as working day by setting the [includeWeekend](../api/gantt#includeweekend) property to `true`.
+> In the Gantt control, you can make weekend as working day by setting the [includeWeekend](https://ej2.syncfusion.com/documentation/api/gantt#includeweekend) property to `true`.
 
 ## Duration units
 
 In Gantt, the task's duration value can be measured by the following duration units,
 
-* Day
-* Hour
-* Minute
+- Day
+- Hour
+- Minute
 
-In Gantt, we can define duration unit for whole project by using [durationUnit](../api/gantt#durationunit) property, when we defines the value for this property, this unit will be applied for all task which don't has duration unit value. And each task in the project can be defined with different duration units and the duration unit of a task can be defined by the following ways,
+In Gantt, we can define duration unit for whole project by using [durationUnit](https://ej2.syncfusion.com/documentation/api/gantt#durationunit) property, when we defines the value for this property, this unit will be applied for all task which don't has duration unit value. And each task in the project can be defined with different duration units and the duration unit of a task can be defined by the following ways,
 
-* Using [taskFields.durationUnit](../api/gantt/taskFields#durationunit) property, to map the duration unit data source field.
-* Defining the duration unit value along with the duration field in the data source.
+- Using [taskFields.durationUnit](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#durationunit) property, to map the duration unit data source field.
+- Defining the duration unit value along with the duration field in the data source.
 
 ### Mapping the duration unit field
 
-The below code snippet explains the mapping of duration unit data source field to the Gantt control using the [taskFields.durationUnit](../api/gantt/taskFields#durationunit) property.
+The below code snippet explains the mapping of duration unit data source field to the Gantt control using the [taskFields.durationUnit](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#durationunit) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -192,11 +194,11 @@ The below code snippet explains the mapping of duration unit data source field t
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/durationUnits-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/durationUnits-cs1" %}
 
 > NOTE
-The default value of the [durationUnit](../api/gantt/taskFields#durationunit) property is `day`.
+> The default value of the [durationUnit](https://ej2.syncfusion.com/documentation/api/gantt/taskFields#durationunit) property is `day`.
 
 ### Defining duration unit along with duration field
 
@@ -210,8 +212,8 @@ Duration units for the tasks can also be defined along with the duration values,
 {% include code-snippet/gantt-sdk/typescript/gantt-chart/durationUnits-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
 {% previewsample "https://help.syncfusion.com/code-snippet/gantt-sdk/typescript/gantt-chart/durationUnits-cs2" %}
 
->NOTE:
-The edit type of the duration column in Gantt is string, to support editing the duration field along with duration units.
+> NOTE:
+> The edit type of the duration column in Gantt is string, to support editing the duration field along with duration units.
