@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/gantt-sdk
 
 # Getting Started in TypeScript Gantt Chart Control
 
-The [JavaScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI component used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
+The [TypeScript Gantt Chart](https://www.syncfusion.com/javascript-ui-controls/js-gantt-chart) is a UI component used to visualize and manage project schedules using a timeline view. It supports hierarchical task data, scheduling, and rich interactive features.
 
 This section explains the steps to create a simple Gantt Chart and demonstrates the basic usage of the gantt component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
 
@@ -33,7 +33,7 @@ git --version
 
 ## Setup development environment
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
+Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -53,9 +53,9 @@ cd ej2-quickstart-webpack
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+## Add Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control, such as [@syncfusion/ej2-gantt](https://www.npmjs.com/package/@syncfusion/ej2-gantt) for just the Gantt Chart.
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control, such as [@syncfusion/ej2-gantt](https://www.npmjs.com/package/@syncfusion/ej2-gantt) for just the Gantt Chart.
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package (version 21.x or higher) in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
@@ -69,19 +69,19 @@ npm install
 
 ## Import the Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme), which are available in the installed packages. It's easy to adapt the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls to match the style of your application by referring to one of the built-in themes.
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme), which are available in the installed packages. It's easy to adapt the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript controls to match the style of your application by referring to one of the built-in themes.
 
-Install the **Tailwind 3** theme package using the following command:
+The quickstart application is preconfigured to use the **Fluent 2** theme. To use the Tailwind 3 theme instead, install the **Tailwind 3** theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="npm" %}
- 
+
 npm install @syncfusion/ej2-tailwind3-theme --save
- 
+
 {% endhighlight %}
 {% endtabs %}
 
-The quickstart application is preconfigured to use the **Tailwind3** theme in the `~/src/styles/styles.css` file, as shown below: 
+After installing the Tailwind 3 theme, update the `~/src/styles/styles.css` file as shown below:
 
 {% tabs %}
 {% highlight css tabtitle="style.css" %}
@@ -91,7 +91,7 @@ The quickstart application is preconfigured to use the **Tailwind3** theme in th
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme) section to know more about built-in themes (material, bootstrap, fabric, etc.) and CSS reference for individual controls. To use a different theme, replace `tailwind3.css` with the desired theme name (e.g., `material.css`, `bootstrap5.css`).
+> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme) section to know more about built-in themes (material, bootstrap, fabric, etc.) and CSS reference for individual controls. To use a different theme, replace the theme name in the import statement with the desired theme name (e.g., `material.css`, `bootstrap5.css`).
 
 The imported CSS is added to the global stylesheet and styles are automatically applied to all Syncfusion components during application runtime. No additional configuration is required in the TypeScript (`.ts`) file.
 
