@@ -80,7 +80,7 @@ Then add the following CSS reference to the **src/App.vue** file:
 
 ## Adding Block Editor component
 
-Add the Vue Block Editor component using either the Composition API or Options API, the following code should be added to the **src/App.vue** file
+The Block Editor code should be added in the **src/App.vue** file, using either the Composition API or the Options API.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

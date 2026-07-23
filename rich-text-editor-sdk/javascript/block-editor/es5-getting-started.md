@@ -92,8 +92,7 @@ Block Editor can be initialized on a div element as shown below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-var blockeditor = new ej.blockeditor.BlockEditor({});
-
+var blockeditor = new ej.blockeditor.BlockEditor({ }); 
 blockeditor.appendTo('#blockeditor_default');
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
@@ -131,6 +130,6 @@ blockeditor.appendTo('#blockeditor_default');
 
 ## Run the application
 
-Now, run the index.html in web browser, it will render the Essential JS 2 Rich Text Editor control.
+Now, run the index.html in web browser, it will render the Essential JS 2 Block Editor control.
 
 > You can refer to our [JavaScript Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Block Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/block-editor/overview.html) that shows how to render the block editor.
