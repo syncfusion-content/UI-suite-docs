@@ -24,7 +24,7 @@ Ensure the following tools are installed on your machine:
 
 A list of dependencies to use the DataGrid with all features.
 
-```javascript
+```
 |-- @syncfusion/ej2-grids
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-data
