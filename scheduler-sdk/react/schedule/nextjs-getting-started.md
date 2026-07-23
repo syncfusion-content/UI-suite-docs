@@ -3,15 +3,15 @@ layout: post
 title: React schedule getting started with Next.js | Syncfusion
 description: Checkout and learn about Getting started with React Schedule component of Syncfusion Essential JS 2 in the Next.js project.
 control: Next.js
-platform: scheduler-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/scheduler-sdk
+domainurl: ##DomainURL##
 ---
 
 
 # Next.js Application Using Syncfusion® React Components
 
-This section provides a step-by-step guide for setting up a Next.js application and integrating the [React Scheduler](https://www.syncfusion.com/scheduler-sdk/react-scheduler) component.
+This section provides a step-by-step guide for setting up a Next.js application and integrating the [React Schedule](https://www.syncfusion.com/react-components/react-scheduler) component.
 
 ## Prerequisites
 
@@ -45,7 +45,7 @@ Using one of the above commands will lead you to set up additional configuration
 
 > The exact prompts vary between major versions of `create-next-app`. The example below reflects Next.js 14+.
 
-1.Define the project name: Users can specify the name of the project directly. Let's specify the name of the project as `ej2-nextjs-schedule`.
+1. Define the project name: Users can specify the name of the project directly. Let's specify the name of the project as `ej2-nextjs-schedule`.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -55,7 +55,7 @@ Using one of the above commands will lead you to set up additional configuration
 {% endhighlight %}
 {% endtabs %}
 
-2.Select the required packages. This guide assumes the choices shown in **bold**:
+2. Select the required packages. This guide assumes the choices shown in **bold**:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -96,7 +96,10 @@ npm install @syncfusion/ej2-react-schedule --save
 
 {% endhighlight %}
 {% highlight bash tabtitle="YARN" %}
-cd ej2-nextjs-schedule
+
+cd ej2-nextjs-schedule{% endhighlight %}
+{% highlight bash tabtitle="YARN" %}
+
 yarn add @syncfusion/ej2-react-schedule
 
 {% endhighlight %}
