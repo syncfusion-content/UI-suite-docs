@@ -24,10 +24,10 @@ The following example demonstrates how to utilize the `rowDataBound` event to cu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -55,10 +55,10 @@ The following example demonstrates how to use the **.e-selectionbackground** cla
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-style-selected-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-style-selected-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-style-selected-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-style-selected-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -78,10 +78,10 @@ The following example demonstrates how to use the `getRowByIndex` method to cust
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/rows-event-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/rows-event-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/rows-event-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/rows-event-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -103,10 +103,10 @@ Please refer to the following example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/alt-row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/alt-row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -122,10 +122,10 @@ Please refer to the following example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/alt-row-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/alt-row-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -139,10 +139,10 @@ The following example demonstrates how to dynamically alter row height using the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-height-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-height-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -162,10 +162,10 @@ In the following example, the row height for the row with **taskID** as '5' is s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-height-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-height-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -185,10 +185,10 @@ The following example demonstrates how to enable/disable the Row Hover feature:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-hover-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-hover-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -284,7 +284,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-hover-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -301,10 +301,10 @@ The following example demonstrates how to use the `rowDataBound` event and `getR
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-hover-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-hover-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -334,10 +334,10 @@ The following example demonstrates how to add a new row using the `addRecord` me
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/add-new-row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/add-new-row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/add-new-row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/add-new-row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -428,7 +428,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-treegrid-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-treegrid-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

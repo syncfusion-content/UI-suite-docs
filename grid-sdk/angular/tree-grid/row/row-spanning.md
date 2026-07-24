@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Row spanning in Angular TreeGrid component | Syncfusion
 description: Learn here all about Row spanning in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,10 +18,10 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-spanning-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-spanning-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -50,10 +50,10 @@ The row spanning feature in the Syncfusion Angular TreeGrid can be enabled using
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-spanning-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-spanning-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

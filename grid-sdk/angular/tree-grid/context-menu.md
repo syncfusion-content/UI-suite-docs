@@ -37,11 +37,11 @@ The following table lists the default context menu items:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -55,11 +55,11 @@ In the sample below, a context menu item is added for parent rows to expand or c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -71,11 +71,11 @@ Context menu items can be enabled or disabled dynamically using the [`enableItem
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/context-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/context-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
