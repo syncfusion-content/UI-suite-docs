@@ -18,10 +18,10 @@ In the following example, Employee Information with Employee Photo is presented 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template/row-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template/row-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ Here is an example of how to define a global formatting function for a date colu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/format-row-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/format-row-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/format-row-template/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/format-row-template/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ Here is an example that demonstrates rendering Syncfusion<sup style="font-size:7
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template-component/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template-component/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template-component/template.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template-component/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ Here is an example that demonstrates rendering Syncfusion Chart within a row tem
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template-chart/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template-chart/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-template-chart/templateCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-template-chart/templateCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 

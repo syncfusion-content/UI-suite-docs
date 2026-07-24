@@ -27,27 +27,27 @@ Here's an example of how to enable single row selection using properties:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs182/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs182/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs182/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs182/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs182" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs182" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs182/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs182/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs182/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs182/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs182" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs182" %}
 {% endif %}
 
 ## Multiple row selection 
@@ -62,27 +62,27 @@ Here's an example of how to enable multiple rows selection using properties:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-index-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-index-cs3" %}
 {% endif %}
 
 ## Select row at initial rendering
@@ -95,27 +95,27 @@ In the following example, it demonstrates how to select a row at initial renderi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs162/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs162/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs162/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs162/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs162" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs162" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs162/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs162/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs162/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs162/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs162" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs162" %}
 {% endif %}
 
 ## Select rows in any page based on index value 
@@ -132,27 +132,27 @@ The following example demonstrates how to select rows in any page based on index
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs184/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs184/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs184/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs184/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs184" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs184" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs184/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs184/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs184/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs184/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs184" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs184" %}
 {% endif %}
 
 ## Multiple row selection by single click on row 
@@ -167,27 +167,27 @@ The following example demonstrates how to enable multiple row selection with a s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs185/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs185/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs185/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs185/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs185" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs185" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs185/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs185/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs185/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs185/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs185" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs185" %}
 {% endif %}
 
 ## Select rows externally 
@@ -206,27 +206,27 @@ The following example demonstrates how to select a single row within the Grid by
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs186/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs186/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs186/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs186/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs186" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs186" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs186/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs186/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs186/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs186/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs186" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs186" %}
 {% endif %}
 
 ### Multiple rows selection
@@ -241,27 +241,27 @@ The following example, demonstrates how to select multiple rows in the Grid by c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs187/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs187/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs187/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs187/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs187" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs187" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs187/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs187/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs187/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs187/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs187" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs187" %}
 {% endif %}
 
 ### Range of rows selection 
@@ -276,27 +276,27 @@ The following example, demonstrates how to select a range of rows within the Gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs188/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs188/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs188/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs188/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs188" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs188" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs188/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs188/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs188/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs188/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs188" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs188" %}
 {% endif %}
 
 ## Select grid rows based on certain condition
@@ -309,27 +309,27 @@ In the below demo, we have selected the grid rows only when **EmployeeID** colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs189/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs189/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs189/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs189/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs189" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs189" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs189/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs189/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs189/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs189/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs189" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs189" %}
 {% endif %}
 
 ## How to get selected row indexes 
@@ -344,27 +344,27 @@ The following example demonstrates how to get selected row indexes using  `getSe
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-index-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-index-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-index-cs2" %}
 {% endif %}
 
 ## How to get selected records on various pages 
@@ -381,27 +381,27 @@ The following example demonstrates how to retrieve selected records from various
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs163/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs163/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs163/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs163/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs163" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs163" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs163/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs163/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs163/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs163/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs163" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs163" %}
 {% endif %}
 
 > To persist the grid selection, it is necessary to define any one of the columns as a primary key using the [columns](../../api/grid/#columns) property.
@@ -418,27 +418,27 @@ Here's an example that displays the selected row count using the `getSelectedRec
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-records-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-records-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-records-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-records-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/selected-records-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-records-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/selected-records-cs1" %}
 {% endif %}
 
 ## Clear row selection programmatically 
@@ -453,27 +453,27 @@ The following example demonstrates how to clear row selection by calling the [cl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-selection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-selection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-selection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-selection-cs1" %}
 {% endif %}
 
 ## Row selection events 
@@ -494,27 +494,27 @@ In the following example, row selection is canceled when the value of **Customer
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs192/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs192/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs192/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs192/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs192" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs192" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs192/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs192/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs192/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs192/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs192" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs192" %}
 {% endif %}
 
 ## Pass selected records to server using AJAX

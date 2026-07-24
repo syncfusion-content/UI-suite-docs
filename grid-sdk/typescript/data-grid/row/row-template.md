@@ -21,27 +21,27 @@ In the following example, Employee Information with Employee Photo is presented 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs30/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs30/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs30/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs30/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs30" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs30" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs30/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs30/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs30/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs30/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs30" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs30" %}
 {% endif %}
 
 ## Row template with formatting
@@ -58,27 +58,27 @@ Here is an example of how to define a global formatting function for a date colu
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-format-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-format-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-format-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-format-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-format-cs1" %}
 {% endif %}
 
 >When using the `rowTemplate` feature in Syncfusion<sup style="font-size:70%">&reg;</sup> Grid, keep in mind that any formatting applied to columns using the `columns->format` property will not work inside the template.
@@ -95,27 +95,27 @@ Here is an example that demonstrates rendering Syncfusion<sup style="font-size:7
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-component-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-component-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-component-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-component-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-component-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-component-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-component-cs1" %}
 {% endif %}
 
 ## Render Syncfusion<sup style="font-size:70%">&reg;</sup> Chart in row template
@@ -130,27 +130,27 @@ Here is an example that demonstrates rendering Syncfusion<sup style="font-size:7
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-chart/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-chart/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-chart/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-chart/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-chart" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-chart" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-chart/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-chart/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-chart/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-chart/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-chart" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-chart" %}
 {% endif %}
 
 ## Limitations

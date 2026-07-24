@@ -41,27 +41,27 @@ Refresh the grid after the data source change by using the [`refresh`](../api/gr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/refresh-grid-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/refresh-grid-cs2" %}
 {% endif %}
 
 ## Toolbar
@@ -95,27 +95,27 @@ To render the DropDownList component, use the [`dataBound`](../api/grid/#databou
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs2" %}
 {% endif %}
 
 ## Enable/Disable Grid and its actions
@@ -163,27 +163,27 @@ In the below demo, the button click will enable/disable the Grid and its actions
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/disablegrid-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/disablegrid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/disablegrid-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/disablegrid-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/disablegrid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/disablegrid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/disablegrid-cs1" %}
 {% endif %}
 
 ## Columns
@@ -218,27 +218,27 @@ grid.refreshHeader();
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/change-header-text-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/change-header-text-cs2" %}
 {% endif %}
 
 ### Customize column styles
@@ -281,27 +281,27 @@ Add the custom CSS class to the specified column by using the [`customAttributes
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-column-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-column-cs2" %}
 {% endif %}
 
 ### Display custom tooltip for columns in grid
@@ -323,27 +323,27 @@ function tooltip (args: QueryCellInfoEventArgs) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-tooltip-cs2" %}
 {% endif %}
 
 ### Render other components in a column
@@ -384,27 +384,27 @@ Using the [`queryCellInfo`](../api/grid/#querycellinfo) event, you can render th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-sync-comp-cs2" %}
 {% endif %}
 
 ### Change the orientation of the header text
@@ -452,27 +452,27 @@ function setHeaderHeight(args) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/orientation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/orientation-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/orientation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/orientation-cs2" %}
 {% endif %}
 
 ### Customize the icon for column menu
@@ -491,27 +491,27 @@ In the below sample, grid is rendered with a customized column menu icon.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-column-menu-icon-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-column-menu-icon-cs2" %}
 {% endif %}
 
 ## Editing
@@ -526,27 +526,27 @@ In the below demo, the `ShipCountry` column is rendered with the template.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/edit-column-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/edit-column-template-cs2" %}
 {% endif %}
 
 ### Customize the edit dialog
@@ -559,27 +559,27 @@ In the following example, the dialog's header text has been changed for editing 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/customizedialog-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/customizedialog-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/customizedialog-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/customizedialog-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/customizedialog-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/customizedialog-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/customizedialog-cs1" %}
 {% endif %}
 
 ### Show or Hide columns in Dialog editing
@@ -596,27 +596,27 @@ In the below example, we have rendered the grid columns `CustomerID` as hidden c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs91/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs91/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs91/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs91/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs91" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs91" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs91/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs91/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs91/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs91/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs91" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs91" %}
 {% endif %}
 
 ### Cascading drop-down list with grid editing
@@ -629,27 +629,27 @@ In the below demo, Cascading DropDownList is rendered for the `ShipCountry` and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs92/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs92/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs92/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs92/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs92" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs92" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs92/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs92/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs92/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs92/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs92" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs92" %}
 {% endif %}
 
 ### Provide custom data source and enabling filtering to DropDownList
@@ -677,27 +677,27 @@ In the below demo, DropDownList is rendered with custom Datasource for the `Ship
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs93/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs93/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs93/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs93/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs93" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs93" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs93/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs93/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs93/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs93/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs93" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs93" %}
 {% endif %}
 
 ### Access Editor components
@@ -710,27 +710,27 @@ In the below demo, you can access the Editor component instance while adding or 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs94/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs94/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs94/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs94/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs94" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs94" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs94/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs94/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs94/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs94/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs94" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs94" %}
 {% endif %}
 
 ### Use Wizard like Dialog Editing
@@ -743,27 +743,27 @@ The following example demonstrates the wizard-like editing in the grid with obtr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/wizardtemplate-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/wizardtemplate-cs2" %}
 {% endif %}
 
 ### Using the tab inside the dialog template
@@ -842,27 +842,27 @@ The following example demonstrates rendering the tab control inside the edit dia
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/tabtemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/tabtemplate-cs1" %}
 {% endif %}
 
 ### Disable editing for a particular row/cell
@@ -875,27 +875,27 @@ In the below demo, the rows which are having the value for `ShipCountry` column 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs95/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs95/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs95/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs95/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs95" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs95" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs95/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs95/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs95/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs95/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs95" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs95" %}
 {% endif %}
 
 For batch mode of editing, you can use [`cellEdit`](../api/grid/#celledit) event of Grid. In the below demo, the cells which are having the value as "France" is prevented from editing.
@@ -904,27 +904,27 @@ For batch mode of editing, you can use [`cellEdit`](../api/grid/#celledit) event
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs96/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs96/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs96/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs96/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs96" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs96" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs96/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs96/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs96/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs96/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs96" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs96" %}
 {% endif %}
 
 ### Perform Grid actions by keyboard shortcut keys
@@ -939,27 +939,27 @@ The following example demonstrates on `Adding` a new row when `Enter` key is pre
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs97/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs97/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs97/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs97/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs97" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs97" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs97/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs97/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs97/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs97/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs97" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs97" %}
 {% endif %}
 
 ### Make a cell editable on a single click with batch editing
@@ -972,27 +972,27 @@ Bind the click event for Grid and in the click event handler call the [`editCell
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs98/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs98/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs98/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs98/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs98" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs98" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs98/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs98/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs98/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs98/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs98" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs98" %}
 {% endif %}
 
 ## Filter
@@ -1012,27 +1012,27 @@ The following sample illustrates customizing the string filter operators.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs99/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs99/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs99/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs99/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs99" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs99" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs99/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs99/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs99/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs99/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs99" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs99" %}
 {% endif %}
 
 ## Sort
@@ -1064,27 +1064,27 @@ In the below demo, click on the corresponding button to perform single-column or
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-how-to-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-how-to-cs1" %}
 {% endif %}
 
 ### Dynamically clear sort for particular/entire sorted columns in Grid
@@ -1119,27 +1119,27 @@ In the below demo, click on the corresponding button to clear sort for particula
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-sort-how-to-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-sort-how-to-cs1" %}
 {% endif %}
 
 ## Foreign Key
@@ -1154,27 +1154,27 @@ In the following code example, the `Employee Name` is a foreign key column. When
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs7" %}
 {% endif %}
 
 ### Customize filter UI in foreign key column
@@ -1187,27 +1187,27 @@ In the following example, The `Employee Name` is a foreign key column. DropDownL
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs3" %}
 {% endif %}
 
 ### Use filter bar template in foreign key column
@@ -1220,27 +1220,27 @@ In the following example, The `Employee Name` is a foreign key column. This colu
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs9" %}
 {% endif %}
 
 ### Perform aggregation in Foreign Key Column
@@ -1253,27 +1253,27 @@ In the following example, The `Employee Name` is a foreign key column and the ag
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/foreign-key-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/foreign-key-cs5" %}
 {% endif %}
 
 ### Bind foreign key dataSource on dropdown edit
@@ -1284,27 +1284,27 @@ When editing, you can bind foreign key datasource to a dropdown list by using [`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs100/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs100/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs100/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs100/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs100" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs100" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs100/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs100/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs100/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs100/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs100" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs100" %}
 {% endif %}
 
 > * By default, the foreign key column's `editType` will be set as `dropdownedit`.
@@ -1319,27 +1319,27 @@ Cordova application does not support direct file download. So we have to use the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-blob-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-blob-data-cs1" %}
 {% endif %}
 
 ### Exporting Filtered Data Only
@@ -1352,27 +1352,27 @@ In the below Pdf exporting demo, We have gotten the filtered data by applying fi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs1" %}
 {% endif %}
 
 ## Pager
@@ -1385,27 +1385,27 @@ To customize the default values of pager drop-down, you need to define the [`pag
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/pagerdropdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/pagerdropdown-cs2" %}
 {% endif %}
 
 ## Hide the expand/collapse icon in parent row with no record in child grid
@@ -1454,27 +1454,27 @@ In the below demo, the expand/collapse icon in the row with `EmployeeID` as `1` 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs101/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs101/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs101/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs101/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs101" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs101" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs101/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs101/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs101/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs101/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs101" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs101" %}
 {% endif %}
 
 ## Render images in the dropdownList editor component using the item template
@@ -1487,25 +1487,25 @@ The below example shows how to use the itemTemplate property in the DropDownList
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs102/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs102/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs102/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs102/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs102" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs102" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs102/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs102/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs102/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs102/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs102" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs102" %}
 {% endif %}

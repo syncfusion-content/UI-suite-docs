@@ -21,27 +21,27 @@ The following example demonstrates, how to render the custom toolbar using `tool
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-template-cs2" %}
 {% endif %}
 
 ## Render image with text in custom toolbar
@@ -56,27 +56,27 @@ The following example demonstrates how to render an image in the toolbar of the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-renderimage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-renderimage-cs1" %}
 {% endif %}
 
 > You can further customize the styles and layout of the image and text in the custom toolbar to suit your specific design requirements.
@@ -101,27 +101,27 @@ In the **onChange** method, the text of the selected item is checked to determin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-dropdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-dropdown-cs3" %}
 {% endif %}
 
 ## Render a control or element using the toolbar template
@@ -144,25 +144,25 @@ The following example demonstrates how to render a **Button** control in the too
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-template-cs3" %}
 {% endif %}

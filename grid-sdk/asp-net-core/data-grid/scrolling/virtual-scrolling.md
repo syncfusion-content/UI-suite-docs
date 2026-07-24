@@ -25,10 +25,10 @@ The following example enable row virtualization using `enableVirtualization` pro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/row-virtualization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/scrolling/row-virtualization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-virtualization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/row-virtualization/row-virtualization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/scrolling/row-virtualization/row-virtualization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ The following example enable column virtualization using `enableColumnVirtualiza
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/column-virtualization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/scrolling/column-virtualization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-virtualization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/column-virtualization/column-virtualization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/scrolling/column-virtualization/column-virtualization.cs %}
 {% endhighlight %}
 {% endtabs %}
 

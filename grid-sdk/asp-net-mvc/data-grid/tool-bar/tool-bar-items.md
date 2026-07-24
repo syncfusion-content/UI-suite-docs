@@ -36,10 +36,10 @@ The following example demonstrates how to enable built-in toolbar items such as 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/builtin-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/builtin-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/builtin-toolbar/builtin-custom.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/builtin-toolbar/builtin-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ This is demonstrated in the following sample:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbaricon/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbaricon/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="toolbaricon.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbaricon/toolbaricon.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbaricon/toolbaricon.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,10 +83,10 @@ The following example demonstrate how to customize the toolbar by disabling and 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customize-builtin-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customize-builtin-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customize-builtin-toolbar/builtin-custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customize-builtin-toolbar/builtin-custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ By default, custom toolbar items are positioned on the **left** side of the tool
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ The following example demonstrates, how to use both built-in and custom toolbar 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/builtin-custom-items/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/builtin-custom-items/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/builtin-custom-items/builtin-custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/builtin-custom-items/builtin-custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -143,10 +143,10 @@ Additionally, the [Change](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar-items/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar-items/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar-items/custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar-items/custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,10 +162,10 @@ In the following sample, the **Collapse All** toolbar item is positioned on the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar-position/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar-position/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar-position.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/custom-toolbar-position/custom-toolbar-position.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/custom-toolbar-position/custom-toolbar-position.cs %}
 {% endhighlight %}
 {% endtabs %}
 

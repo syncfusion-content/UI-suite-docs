@@ -28,18 +28,18 @@ In this example, a `FormGroup` with relevant `FormControls` is created during th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/reactive-form-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/reactive-form-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="reactive-form.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/reactive-form-cs1/src/reactive-form.html %}
+{% include code-snippet/grid-sdk/angular/grid/reactive-form-cs1/src/reactive-form.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/reactive-form-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/reactive-form-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/reactive-form-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/reactive-form-cs1" %}
 
 **Using Template-driven Forms**
 
@@ -49,18 +49,18 @@ In the following example, a `FormGroup` is created using the `ngForm` directive.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/dialogTemplate-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/dialogTemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="template-driven.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/dialogTemplate-cs1/src/template-driven.html %}
+{% include code-snippet/grid-sdk/angular/grid/dialogTemplate-cs1/src/template-driven.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/dialogTemplate-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/dialogTemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/dialogTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/dialogTemplate-cs1" %}
 
 > Each form field must have a `name` attribute.
 
@@ -180,18 +180,18 @@ The following example renders a tab component inside the edit dialog. The tab co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/tablikeedit-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/tablikeedit-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="tablikeedit.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/tablikeedit-cs1/src/tablikeedit.html %}
+{% include code-snippet/grid-sdk/angular/grid/tablikeedit-cs1/src/tablikeedit.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/tablikeedit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/tablikeedit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/tablikeedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/tablikeedit-cs1" %}
 
 ## See also
 

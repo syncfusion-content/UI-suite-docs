@@ -18,10 +18,10 @@ Here's an example of how to enable column selection using `AllowColumnSelection`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-selection/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-selection/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ Here's an example of how to enable single column selection using `AllowColumnSel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-single-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-single-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-single-selection/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-single-selection/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ Here's an example of how to enable multiple column selection using `AllowColumnS
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-multiple-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-multiple-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-multiple-selection/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-multiple-selection/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following example, demonstrates how to select a single column within the Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-single-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-single-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-single-method/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-single-method/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The following example demonstrates how to select multiple columns in the Grid by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-multiple-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-multiple-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-multiple-method/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-multiple-method/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The following example demonstrates how to select a range of columns within the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-range/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-range/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-range/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-range/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ The following example demonstrates how to select a column with an existing colum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-existing/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-existing/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-existing/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-existing/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ In the following example, it demonstrates how to clear column selection by calli
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-clear/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-clear/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-clear/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-clear/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ In the following example, column selection is canceled when the value of `Field`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/column-events/column-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/selection/column-events/column-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 

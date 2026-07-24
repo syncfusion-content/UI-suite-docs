@@ -18,10 +18,10 @@ The following example demonstrates how to customize the group header caption in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-template/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-template/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The following example demonstrates how to add a custom text to the group caption
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-customtext-caption-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-customtext-caption-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-customtext-caption-template/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-customtext-caption-template/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ The following example demonstrates, how to customize group caption text based on
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-locale/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-locale/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-locale/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-locale/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ The following example demonstrates how to add a custom component to the group ca
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-component/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-component/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-caption-component/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-caption-component/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -54,20 +54,20 @@ The following sample code demonstrates the customization applied to `TextBox` co
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs9" %}
 
 ## Customize built-in NumericTextBox editor
 
@@ -81,20 +81,20 @@ The following sample code demonstrates the customization applied to `NumericText
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs1" %}
 
 ### Restrict decimal points in NumericTextBox during numeric column editing
 
@@ -108,20 +108,20 @@ In the below demo, while editing the row the decimal point value is restricted t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs4" %}
 
 ## Customize built-in DropDownList editor
 
@@ -135,20 +135,20 @@ The following sample code demonstrates the customization applied to `DropDownLis
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs2" %}
 
 ### Provide custom data source for DropDownList editor
 
@@ -162,20 +162,20 @@ In the below demo, DropDownList is rendered with custom data source for the "Shi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/cascade-drop-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/cascade-drop-cs1" %}
 
 ### Enable filtering in DropDownList editor
 
@@ -187,20 +187,20 @@ In the following demo, filtering is enabled for the "Ship Country" column:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs3" %}
 
 ### Open DropDownList editor popup on cell focus
 
@@ -214,20 +214,20 @@ The following sample demonstrates how to open the popup when focusing on the edi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs4" %}
 
 ## Customize built-in CheckBox editor
 
@@ -241,20 +241,20 @@ The following sample code demonstrates the customization applied to `CheckBox` c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs5" %}
 
 ## Customize built-in DatePicker editor
 
@@ -268,20 +268,20 @@ The following sample code demonstrates the customization applied to `DatePicker`
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs6" %}
 
 ### Disable the date value prior to the selected date value in DatePicker
 
@@ -291,20 +291,20 @@ The following example demonstrates configuration of the `DatePicker` within the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hide-dates-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hide-dates-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hide-dates-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hide-dates-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hide-dates-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hide-dates-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hide-dates-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hide-dates-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hide-dates-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hide-dates-cs1" %}
 
 ## Customize built-in DateTimePicker editor
 
@@ -318,20 +318,20 @@ The following sample code demonstrates the customization applied to DateTimePick
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs7" %}
 
 ## Access editor components using instance
 
@@ -343,20 +343,20 @@ In the below demo, access the editor component instance while adding or editing 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs8" %}
 
 ## Render custom cell editors
 
@@ -379,20 +379,20 @@ The following example demonstrates rendering a textArea component in the "Ship A
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs9" %}
 
 **Prevent the enter key functionality in multiline textbox while editing**
 
@@ -404,20 +404,20 @@ The following example demonstrates preventing the <kbd>ENTER</kbd> key action in
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs10/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs10" %}
 
 ### Render AutoComplete component in edit form 
 
@@ -427,20 +427,20 @@ The following example demonstrates rendering an `AutoComplete` component in the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs11" %}
 
 ### Render MaskedTextBox component in edit form 
 
@@ -450,20 +450,20 @@ The following example demonstrates rendering a `MaskedTextBox` component in the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs13/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs13" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs13" %}
 
 ### Render DropDownList component in edit form 
 
@@ -473,20 +473,20 @@ The following example demonstrates rendering a `DropDownList` component in the "
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs13/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs13" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs13" %}
 
 ### Render images in the DropDownList editor component using the item template 
 
@@ -498,20 +498,20 @@ The following example demonstrates rendering images in the `DropDownList` editor
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs14/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs14" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs14" %}
 
 ### Render multiple columns in DropDownList component  
 
@@ -523,20 +523,20 @@ The following example demonstrates rendering a `DropDownList` component with mul
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/multicolumn-dropdown-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/multicolumn-dropdown-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/multicolumn-dropdown-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/multicolumn-dropdown-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/multicolumn-dropdown-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/multicolumn-dropdown-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/multicolumn-dropdown-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/multicolumn-dropdown-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/multicolumn-dropdown-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/multicolumn-dropdown-cs1" %}
 
 ### Render ComboBox component in edit form 
 
@@ -546,20 +546,20 @@ The following example demonstrates rendering a `ComboBox` component in the "Ship
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/edit-type-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/edit-type-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-type-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/edit-type-cs12" %}
 
 ### Render TimePicker component in edit form 
 
@@ -569,20 +569,20 @@ The following example demonstrates rendering a `TimePicker` component in the "Or
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs10/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs10" %}
 
 > The `TimePicker` component displays only the time portion. However, all grid data operations—including editing, validation, and CRUD actions—are performed using a Date object value. The displayed time format does not change the underlying data type used by the grid.
 
@@ -594,20 +594,20 @@ The following example demonstrates rendering a `MultiSelect` component in the "S
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs12" %}
 
 > When a `MultiSelect` editor is used, values are stored as a comma‑separated string in the grid data source. All grid data operations are performed based on this combined string value, as grid columns do not support array‑type values
 
@@ -621,20 +621,20 @@ The following example demonstrates rendering a `RichTextEditor` component in the
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs14/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs14" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs14" %}
 
 ### Render Uploader component in edit form  
 
@@ -644,20 +644,20 @@ The following example demonstrates rendering an `Uploader` component in the "Ord
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs15/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs15/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs15/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs15/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs15/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs15" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs15" %}
 
 > By default, the grid saves the cell when clicking outside the editor component. If components, like multiple popups, are dynamically rendered, the grid may not recognize them, causing the editor to close when the popup is clicked. To prevent this, apply the `edit-custom-template` class to both the main component and sub-components. If Syncfusion<sup style="font-size:70%">&reg;</sup> components are being used, set their `cssClass` property to include the `edit-custom-template` class.
 
@@ -685,26 +685,26 @@ The following example demonstrates how to render a `Autocomplete` in the "Custom
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs11/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs11/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="datasource.jsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs11/app/datasource.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="datasource.tsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs11" %}
 
 ### Render cascading DropDownList in edit form 
 
@@ -717,23 +717,23 @@ In the below demo, cascading `DropDownList` rendered for "Ship Country" and "Shi
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs2/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs2/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="datasource.jsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs2/app/datasource.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="datasource.tsx" %}
 
-{% include code-snippet/grid-sdk/react/data-grid/cascade-drop-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/cascade-drop-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/cascade-drop-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/cascade-drop-cs2" %}

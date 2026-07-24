@@ -20,14 +20,14 @@ In the following demo, **Davolio** cell is spanned to two rows in the **Employee
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-spanning/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-spanning/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-spanning/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-spanning/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-spanning" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-spanning" %}
 
 > To disable the spanning for particular grid page, you need to use **requestType** from `queryCellInfo` event argument.
 > The `rowSpan` and `colSpan` attributes can be used together to merge cells both vertically and horizontally.
@@ -55,14 +55,14 @@ Here is an example of how to use the `enableRowSpan` property to merge cells ver
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-spanning-cs1" %}
 
 > You can also control spanning at the column level. To prevent merging for specific columns, set `enableRowSpan` to **false** in the column definition.
 

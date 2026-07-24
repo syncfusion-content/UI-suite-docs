@@ -313,7 +313,7 @@ td {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-detail" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-detail" %}
 
 ## Rendering custom component
 
@@ -327,14 +327,14 @@ For example, to render grid inside the detail row, place an HTML div element as 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-detail-custom/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-detail-custom/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-detail-custom/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-detail-custom/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-detail-custom" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-detail-custom" %}
 
 ## Expand by external button
 
@@ -680,7 +680,7 @@ td {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-detail-expand" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-detail-expand" %}
 
 ## Customize detail template icon
 
@@ -975,7 +975,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-detail-icon" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-detail-icon" %}
 
 ## Limitations
 

@@ -20,10 +20,10 @@ In the following code example, **Davolio** cell is spanned to two rows in the **
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-span/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-span/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Span.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-span/row-span.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-span/row-span.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ Here is an example of how to use the `enableRowSpan` property to merge cells ver
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-spanning/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-spanning/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Span.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/row-spanning/row-span.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/row-spanning/row-span.cs %}
 {% endhighlight %}
 {% endtabs %}
 

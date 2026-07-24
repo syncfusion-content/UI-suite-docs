@@ -427,23 +427,23 @@ The following example demonstrates binding observable data using the async pipe 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-async/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-async/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="crud.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-async/src/crud.service.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-async/src/crud.service.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="data.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-async/src/data.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-async/src/data.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="customers.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-async/src/customers.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-async/src/customers.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="config.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-async/src/app.config.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-async/src/app.config.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/observables-async" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/observables-async" %}
 
 > * While working with grid edit operation, defining the `isPrimaryKey` property of column is a mandatory step. In case the primary key column is not defined, the edit or delete action will take place on the first row of the grid.
 > * Need to maintain the same instance for all grid actions.
@@ -1009,23 +1009,23 @@ The following example demonstrates binding observable data without using the asy
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-non-async/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-non-async/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="order.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-non-async/src/crud.service.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-non-async/src/crud.service.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="data.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-non-async/src/data.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-non-async/src/data.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="customers.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-non-async/src/customers.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-non-async/src/customers.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="config.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-non-async/src/app.config.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-non-async/src/app.config.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/observables-non-async" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/observables-non-async" %}
 
 > Improper handling of observables and subscriptions may lead to memory leaks and unexpected behavior. Ensure proper subscription management, especially when dealing with long-lived observables.
 
@@ -1209,15 +1209,15 @@ The following example demonstrates the process of sending additional parameters 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-additional-parameters/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-additional-parameters/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="order.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/observables-additional-parameters/src/order.service.ts %}
+{% include code-snippet/grid-sdk/angular/grid/observables-additional-parameters/src/order.service.ts %}
 {% endhighlight %}
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/observables-additional-parameters" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/observables-additional-parameters" %}
 
 ![AdditionalParameters](../images/additional_parameters.png)
 
@@ -1265,11 +1265,11 @@ The following example demonstrates the process of fetching data from the server 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/adapter-result/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/adapter-result/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/adapter-result/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/adapter-result/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/adapter-result" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/adapter-result" %}

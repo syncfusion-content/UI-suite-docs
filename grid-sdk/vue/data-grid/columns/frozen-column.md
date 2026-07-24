@@ -16,14 +16,14 @@ In the following example, the [frozenColumns](https://ej2.syncfusion.com/vue/doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/frozen-column-cs1" %}
 
 > * Frozen columns should not be set outside the grid view port.
 > * Frozen Grid support column virtualization feature, which helps to improve the Grid performance while loading a large dataset.
@@ -41,14 +41,14 @@ The following example demonstrates how to freeze particular column in grid using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/frozen-column-cs2" %}
 
 ## Freeze direction
 
@@ -68,14 +68,14 @@ In the following example, the **ShipCountry** column is frozen on the left side,
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/frozen-column-cs3" %}
 
 > * Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/vue/documentation/api/grid/column#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/vue/documentation/api/grid#frozencolumns) properties.
 
@@ -114,14 +114,14 @@ The following example demonstrates how to change the default frozen line color u
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/frozen-column-cs4" %}
 
 ## Render DatePicker in frozen columns in Grid
 
@@ -133,15 +133,15 @@ The following example demonstrates how to render the `DatePicker` in the **Order
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs5/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/frozen-column-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/frozen-column-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/frozen-column-cs5" %}
 
 ## Deprecated methods 
 

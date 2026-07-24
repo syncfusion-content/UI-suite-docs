@@ -21,27 +21,27 @@ Here's an example for column reordering in your Grid control:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs8/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs8/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs8" %}
 {% endif %}
 
 >* You can customize the appearance of the column headers during drag and drop by using the [columnDrag](../../api/grid#columndrag) and [columnDrop](../../api/grid#columndrop) events.
@@ -57,27 +57,27 @@ In this example, the **ShipCity** column is prevented from being reordered by se
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-preventReordering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-preventReordering-cs1" %}
 {% endif %}
 
 ## Reorder columns externally
@@ -101,27 +101,27 @@ In this example, we are moving the column at index **1** to index **3**.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorderColumnByIndex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorderColumnByIndex-cs1" %}
 {% endif %}
 
 ### Reorder column based on target index
@@ -137,27 +137,27 @@ Here is an example of how to use the `reorderColumnByTargetIndex` method to reor
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-SingleColumn-ByTargetIndex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-SingleColumn-ByTargetIndex-cs1" %}
 {% endif %}
 
 ### Reorder column based on field names
@@ -173,27 +173,27 @@ Here is an example of how to use the `reorderColumns` method to reorder single c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-column-ByFieldName-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-column-ByFieldName-cs1" %}
 {% endif %}
 
 ### Reorder columns using the column model (ideal for stacked headers)
@@ -213,27 +213,27 @@ In this example, **Order Details** is moved before **Customer Name**, and **Ship
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderByColumnModel/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderByColumnModel/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorderByColumnModel" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderByColumnModel/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorderByColumnModel/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorderByColumnModel" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorderByColumnModel" %}
 {% endif %}
 
 ## Reorder events
@@ -252,25 +252,25 @@ In the following example, we have implemented the `columnDragStart`, `columnDrag
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs9/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs9/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs9" %}
 {% endif %}

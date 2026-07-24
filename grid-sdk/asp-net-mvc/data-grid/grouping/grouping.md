@@ -14,10 +14,10 @@ The grouping feature in the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ The following example demonstrates how to set an initial grouping for the **Cust
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/initial-group/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/initial-group/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="initial-group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/initial-group/initial-group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/initial-group/initial-group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ The Grid component provides the ability to prevent grouping for a particular col
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-prevent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-prevent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-prevent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-prevent/group-prevent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-prevent/group-prevent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/hide-drop-area/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/hide-drop-area/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="hide-drop-area.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/hide-drop-area/hide-drop-area.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/hide-drop-area/hide-drop-area.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,10 +87,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-show/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-show/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-show/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-show/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ To enable this feature, you have to set the [GroupSettings.AllowReordering](http
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-reorder/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-reorder/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The following example demonstrates how to sort the **CustomerID** column by sett
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-sort-descending/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-sort-descending/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-sort-descending/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-sort-descending/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ The following example demonstrates how to perform a group action using the `Enab
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-format/group-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-format/group-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to collapse all grouped rows at the initi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-collapse-initial/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-collapse-initial/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-collapse-initial/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-collapse-initial/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ The following example demonstrates how to group and ungroup the columns in a gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-ungroup/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-ungroup/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-ungroup/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-ungroup/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -216,10 +216,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-expand-collapse/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-expand-collapse/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-expand-collapse/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-expand-collapse/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,10 +243,10 @@ The following example demonstrates the function that collapses the selected row 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-selected/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-selected/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-selected/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-selected/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -262,10 +262,10 @@ The following example demonstrates how to clear the grouping using `clearGroupin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-clearing/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-clearing/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-clearing/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/group-clearing/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ The following example demonstrates how the `ActionBegin` and `ActionComplete` ev
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/grouping-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/grouping-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="grouping-events.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/grouping-events/grouping-events.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/grouping/grouping-events/grouping-events.cs %}
 {% endhighlight %}
 {% endtabs %}
 

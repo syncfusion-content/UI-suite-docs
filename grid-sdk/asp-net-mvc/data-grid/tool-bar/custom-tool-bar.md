@@ -18,10 +18,10 @@ The following example demonstrates, how to render the custom toolbar using `Tool
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ The following example demonstrates how to render an image in the toolbar of the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-image/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-image/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-image/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ In the **onChange** method, the text of the selected item is checked to determin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-dropdownlist/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-dropdownlist/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-dropdownlist/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-dropdownlist/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,10 +77,10 @@ The following example demonstrates how to render a **Button** component in the t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customtoolbar-template/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customtoolbar-template/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 

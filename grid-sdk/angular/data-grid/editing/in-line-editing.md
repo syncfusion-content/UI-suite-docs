@@ -16,14 +16,14 @@ To enable in-line editing in the grid component, set the [editSettings.mode](htt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs25/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs25" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs25" %}
 
 > * `Normal` edit mode is default mode of editing.
 > * When enabling editing, it is necessary to set the [isPrimaryKey](https://ej2.syncfusion.com/angular/documentation/api/grid/columnModel#isprimarykey) property value to `true` for the unique column.
@@ -41,15 +41,15 @@ In the following example, the "Total Cost" column value is updated based on chan
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs26/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs26/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs26/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs26/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs26" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs26" %}
 
 ## Cancel edit based on condition
 
@@ -72,15 +72,15 @@ Example: Prevent CRUD actions for rows where the "Role" column equals "Admin".
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs27" %}
 
 ## Perform CRUD actions programmatically
 
@@ -98,15 +98,15 @@ Programmatic CRUD operations enable creating, reading, updating, and deleting da
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs28/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs28/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs28" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs28" %}
 
 ## Show confirmation dialog for deletion
 
@@ -114,15 +114,15 @@ The built-in confirmation dialog enhances data safety by requesting user confirm
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs29/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs29/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs29/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs29/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs29" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs29" %}
 
 > The [showDeleteConfirmDialog](https://ej2.syncfusion.com/angular/documentation/api/grid/editSettings#showdeleteconfirmdialog) property supports all editing modes. 
 
@@ -134,15 +134,15 @@ Example using default column values:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs30/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs30/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs30/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs30/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs30" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs30" %}
 
 ## Delete multiple rows
 
@@ -152,15 +152,15 @@ Multiple row deletion is supported via the in-built toolbar or through methods.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-toolbar-cs1" %}
 
 > Selected records can also be deleted using the `Delete` key.
 
@@ -187,15 +187,15 @@ Multiple rows can be deleted programmatically using the following methods.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-multiple-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-multiple-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-multiple-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-multiple-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-multiple-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-multiple-cs1" %}
 
 ## Add new rows at the bottom of the grid
 
@@ -207,15 +207,15 @@ Example using `newRowPosition`:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs31/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs31/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs31/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs31/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs31" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs31" %}
 
 > * The [newRowPosition](https://ej2.syncfusion.com/angular/documentation/api/grid/editSettings#newrowposition) property is supported for `Normal` and `Batch` editing modes.
 > * When [newRowPosition](https://ej2.syncfusion.com/angular/documentation/api/grid/editSettings#newrowposition) is set to `Bottom`, the grid displays a blank row form at the bottom by default for data entry. However, when the data is saved or updated, it is inserted at the top of the grid.
@@ -229,15 +229,15 @@ The following sample demonstrates to add a new record continuously using `showAd
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs54/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs54/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs54/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs54/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs54" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs54" %}
 
 > To save newly added records, press the <kbd>Enter</kbd> key or click the <kbd>Update</kbd> button on the toolbar after filling the add form.
 
@@ -257,15 +257,15 @@ Example moving focus to a specific cell:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs32/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs32/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs32/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs32/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs32" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs32" %}
 
 ## Enable single-click editing
 
@@ -277,15 +277,15 @@ The following sample demonstrates to enable editing in a single click using the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/single-click-batch-editing-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/single-click-batch-editing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/single-click-batch-editing-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/single-click-batch-editing-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/single-click-batch-editing-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/single-click-batch-editing-cs1" %}
 
 ## Disable editing for specific rows
 
@@ -295,12 +295,12 @@ In the below demo, the rows which are having the value for "Ship Country" column
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs21/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs21/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs21/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs21/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs21" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs21" %}

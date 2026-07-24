@@ -236,10 +236,10 @@ The following example demonstrates how to load a translation object for **Deutsc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/localization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/localization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/localization/localization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/localization/localization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -253,10 +253,10 @@ The following example demonstrates how to load a translation object for **French
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/localization-fr-culture/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/localization-fr-culture/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/localization-fr-culture/localization-fr-culture.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/localization-fr-culture/localization-fr-culture.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -286,10 +286,10 @@ To switch to the **French** culture and set the currency code as **EUR**, you ca
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/switch-localization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/switch-localization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/switch-localization/switch-localization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/switch-localization/switch-localization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -305,11 +305,11 @@ For example, when the first Grid is set to use the **fr-FR** Locale, it applies 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/two-localization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/two-localization/tagHelper %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/two-localization/localization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/two-localization/localization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -323,10 +323,10 @@ You need to load the culture format files corresponding to the desired locale. T
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/internationalization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/internationalization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Internationalization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/internationalization/internationalization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/internationalization/internationalization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -345,10 +345,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/righttoleft/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/righttoleft/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Righttoleft.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/globalization/righttoleft/righttoleft.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/globalization/righttoleft/righttoleft.cs %}
 {% endhighlight %}
 {% endtabs %}
 

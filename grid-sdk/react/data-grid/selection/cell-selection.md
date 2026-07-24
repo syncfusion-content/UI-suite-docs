@@ -24,20 +24,20 @@ The following example demonstrates single cell selection:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs1" %}
 
 ## Multiple cell selection 
 
@@ -49,20 +49,20 @@ The following example demonstrates multiple cell selection:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs2" %}
 
 ## Cell selection mode 
 
@@ -148,14 +148,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cs1" %}
 
 ## Select cells programmatically 
 
@@ -261,14 +261,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs6" %}
 
 ### Multiple cell selection
 
@@ -360,14 +360,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs4" %}
 
 > Cell Selection requires the `selectionSettings.mode` to be `Cell` or `Both` and [type](https://ej2.syncfusion.com/react/documentation/api/grid/selectionSettings#type) should be `Multiple`.
 
@@ -500,14 +500,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs5" %}
 
 ## Get selected row cell indexes
 
@@ -517,20 +517,20 @@ The following example demonstrates how to obtain the selected row cell indexes u
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs3" %}
 
 ## Clear cell selection programmatically 
 
@@ -542,20 +542,20 @@ The following example demonstrates how to clear cell selection by calling the `c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs7" %}
 
 ## Cell selection events 
 
@@ -573,20 +573,20 @@ In the following example, cell selection is canceled when the value of "Ship Cou
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cell-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cell-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cell-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cell-cs8" %}
 
 ## See also
 - [Selection overview](./selection)

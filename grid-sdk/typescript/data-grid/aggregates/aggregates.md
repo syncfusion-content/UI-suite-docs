@@ -29,27 +29,27 @@ By default, the aggregate values are displayed in the footer, group, and caption
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-values-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-values-cs1" %}
 {% endif %}
 
 > * When using local data, the total summary is calculated based on the entire dataset available in the grid. The aggregate values will reflect calculations across all the rows in the grid.
@@ -76,27 +76,27 @@ Here is an example that demonstrates how to use built-in aggregates types in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-buildin-type-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-buildin-type-cs1" %}
 {% endif %}
 
 ## Multiple aggregates for a column
@@ -113,25 +113,25 @@ Here's an example of how to use multiple aggregates in the TypeScript Grid:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-multiple-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-multiple-cs1" %}
 {% endif %}

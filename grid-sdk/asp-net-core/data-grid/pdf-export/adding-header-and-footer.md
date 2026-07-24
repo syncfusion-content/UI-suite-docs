@@ -167,10 +167,10 @@ The following example demonstrates how to add a header and footer to the exporte
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/header-footer/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/pdf-export/header-footer/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/pdf-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,9 +184,9 @@ The following example demonstrates how to repeat the column header on every page
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/repeat-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/pdf-export/repeat-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/repeat-header/pdf-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/pdf-export/repeat-header/pdf-export.cs %}
 {% endhighlight %}
 {% endtabs %}

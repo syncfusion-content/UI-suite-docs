@@ -46,15 +46,15 @@ Restoring the initial state of the grid can be achieved by changing the componen
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs1" %}
 
 ### Clearing local storage
 
@@ -62,15 +62,15 @@ Clearing the local storage associated with the grid component resets the grid by
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs2" %}
 
 ## Restore to specific state version
 
@@ -149,11 +149,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs3" %}
 
 ## Restore to previous state
 
@@ -165,7 +165,7 @@ The code below demonstrates saving and restoring the previous state of a Angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.html" %}
 {% raw %}
@@ -195,11 +195,11 @@ The code below demonstrates saving and restoring the previous state of a Angular
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs4" %}
 
 ## Maintaining custom query in a persistent state
 
@@ -207,11 +207,11 @@ When [enablePersistence](https://ej2.syncfusion.com/angular/documentation/api/gr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -231,19 +231,19 @@ The following example demonstrates using the [created](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="order.service.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs9/src/order.service.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs9/src/order.service.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs9" %}
 
 ## Get or set local storage value
 
@@ -272,15 +272,15 @@ The following example demonstrates preventing grid columns from persisting. Over
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs6" %}
 
 ## Add to persist
 
@@ -292,15 +292,15 @@ When the [enablePersistence](https://ej2.syncfusion.com/angular/documentation/ap
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs7" %}
 
 > Adding new columns using `ColumnDirectives` directly in the grid initialization is not recommended when intending to persist new columns with the existing columns list. 
 
@@ -382,8 +382,8 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/state-persistence-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/state-persistence-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/state-persistence-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/state-persistence-cs8" %}

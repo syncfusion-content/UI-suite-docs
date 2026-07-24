@@ -18,10 +18,10 @@ Here's an example how to enable dialog editing in the ASP.NET MVC grid component
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ The following example that demonstrates how to customize the edit dialog using t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/customizedialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/customizedialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/customizedialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/customizedialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In the following example, the **CustomerID** column is rendered as a hidden colu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/show-hide-edit-dialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/show-hide-edit-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/show-hide-edit-dialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/show-hide-edit-dialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ The following example demonstrate the wizard like editing in the grid with the u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/wizardediting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/wizardediting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/wizardediting/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/wizardediting/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ In the following sample, using the `dialog` argument of the `ActionComplete` eve
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/custombutton/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/custombutton/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custombutton.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/custombutton/custombutton.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/custombutton/custombutton.cs %}
 {% endhighlight %}
 {% endtabs %}
 

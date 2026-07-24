@@ -212,15 +212,15 @@ To disable the default key action in the grid, use the [keyPressed](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/keyboard-navigation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/keyboard-navigation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/keyboard-navigation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/keyboard-navigation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/keyboard-navigation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/keyboard-navigation-cs1" %}
 
 ### Custom shortcut keys to perform grid actions
 
@@ -250,15 +250,15 @@ Add further custom shortcuts and actions as required to enhance the capabilities
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs51/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs51/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs51/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs51/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs51" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs51" %}
 
 ## Ensuring accessibility
 
@@ -356,11 +356,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/ensuring-accessibility/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/ensuring-accessibility/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/ensuring-accessibility" %} 
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/ensuring-accessibility" %} 
 
 ## See also
 

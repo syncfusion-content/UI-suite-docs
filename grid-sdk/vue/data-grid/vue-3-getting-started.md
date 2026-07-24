@@ -208,7 +208,7 @@ name: "App",
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/getting-started/default-cs6" %}
 
 ## Run the application
 

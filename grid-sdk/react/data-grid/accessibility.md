@@ -213,19 +213,19 @@ This allows the application to intercept and modify the response when specific k
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/keyboard-navigation-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/keyboard-navigation-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/keyboard-navigation-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/keyboard-navigation-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/keyboard-navigation-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/keyboard-navigation-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/keyboard-navigation-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/keyboard-navigation-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/keyboard-navigation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/keyboard-navigation-cs1" %}
 
 ### Custom shortcut keys
 
@@ -255,19 +255,19 @@ Additional custom shortcuts and actions can be added as needed to enhance the ca
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs8" %}
 
 ## Ensuring Accessibility
 
@@ -276,19 +276,19 @@ The accessibility standards of the Grid component are verified using the softwar
 The compliance of the Grid component with accessibility requirements is demonstrated in the example below. Open the [sample](https://ej2.syncfusion.com/accessibility/grid.html) in a new window to assess the Grid component's accessibility using appropriate tools.
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/ensuring-accessibility/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/ensuring-accessibility/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/ensuring-accessibility/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/ensuring-accessibility/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/ensuring-accessibility/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/ensuring-accessibility/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/ensuring-accessibility/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/ensuring-accessibility/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/ensuring-accessibility" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/ensuring-accessibility" %}
 
 ## See also
 

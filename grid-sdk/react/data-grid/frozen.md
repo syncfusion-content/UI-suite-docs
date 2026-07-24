@@ -17,20 +17,20 @@ is set as **'3'**. Hence, the left two columns and top three rows are frozen.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/scrolling-cs1" %}
 
 > Frozen rows and columns should not be set outside the grid view port.
 > Frozen Grid will support row and column virtualization feature, which helps to improve the Grid performance while loading a large dataset.
@@ -56,20 +56,20 @@ In this demo, the **ShipCountry** column is frozen at the left and the **Custome
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/scrolling-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/scrolling-cs2" %}
 
 > * Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/react/documentation/api/grid/column/#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/react/documentation/api/grid/#frozencolumns) properties.
 

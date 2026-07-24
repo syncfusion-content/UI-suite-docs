@@ -19,27 +19,27 @@ In the following example, the [frozenColumns](../../api/grid#frozencolumns) prop
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs1" %}
 {% endif %}
 
 > * Frozen columns should not be set outside the grid view port.
@@ -60,27 +60,27 @@ The following example demonstrates how to freeze particular column in grid using
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs2" %}
 {% endif %}
 
 ## Freeze direction
@@ -103,27 +103,27 @@ In the following example, the **ShipCountry** column is frozen on the left side,
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs3" %}
 {% endif %}
 
 > * Freeze Direction is not compatible with the [isFrozen](../../api/grid/column#isfrozen) and [frozenColumns](../../api/grid#frozencolumns) properties.
@@ -165,27 +165,27 @@ The following example demonstrates how to change the default frozen line color u
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs4" %}
 {% endif %}
 
 ## Render DatePicker in frozen columns in Grid
@@ -200,27 +200,27 @@ The following example demonstrates how to render the `DatePicker` in the **Order
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/frozen-columns-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/frozen-columns-cs5" %}
 {% endif %}
 
 ## Deprecated methods 

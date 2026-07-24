@@ -200,10 +200,10 @@ The following complete example demonstrates how to integrate Charts into a Grid 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/chart-intergartion/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/chart-intergartion/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="chart.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/chart-intergartion/chart.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/chart-intergartion/chart.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -353,10 +353,10 @@ The following complete example demonstrates how to enable the property panel by 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/chart-intergartion1/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/chart-intergartion1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="chart.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/chart-intergartion1/chart.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/chart-intergartion1/chart.cs %}
 {% endhighlight %}
 {% endtabs %}
 

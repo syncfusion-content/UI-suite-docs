@@ -26,14 +26,14 @@ Here's an example code snippet that demonstrates how to define columns manually 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columns-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columns-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columns-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columns-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/columns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/columns-cs1" %}
 
 ## Auto generated columns
 
@@ -43,14 +43,14 @@ You can use the following code snippet to enable auto-generated columns in the V
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs2" %}
 
 >* When the columns are auto-generated, the column [type](https://ej2.syncfusion.com/vue/documentation/api/grid/column#type) is determined from the first record of the [dataSource](https://ej2.syncfusion.com/vue/documentation/api/grid#datasource).
 >* If you have a large dataset, auto-generating columns can result in performance issues. In this case, it is recommended to specify the columns manually in the columns property during initialization or else use column virtualization feature by setting [enableColumnVirtualization](https://ej2.syncfusion.com/vue/documentation/api/grid#enablecolumnvirtualization) property value as **true**.
@@ -65,14 +65,14 @@ Here is an example code snippet that shows how to set a primary key for an auto-
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs3" %}
 
 If the column [field](https://ej2.syncfusion.com/vue/documentation/api/grid/column#field) name is known, the [getColumnByField](https://ej2.syncfusion.com/vue/documentation/api/grid#getcolumnbyfield) method can be used to retrieve the column object. Then, the `isPrimaryKey` property can be set to **true** for that column, as demonstrated in the code snippet below:
 
@@ -94,14 +94,14 @@ In the below example, `width` is set for **OrderID** column, **date** `type` is 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs4" %}
 
 ## Dynamic column generation 
 
@@ -115,14 +115,14 @@ Here is an example for dynamically generate columns in the grid using v-for dire
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs1" %}
 
 > You can change the data source or columns dynamically in the Vue Data Grid by using the [changeDataSource](https://ej2.syncfusion.com/vue/documentation/api/grid/index-default#changedatasource) method. For more information, please refer to [this](https://ej2.syncfusion.com/vue/documentation/grid/data-binding/data-binding#dynamically-change-the-datasource-or-columns-or-both) section.
 
@@ -138,14 +138,14 @@ In the provided code, the **currencyFormatter** function takes the Freight value
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs19/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs19/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs19/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs19/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs19" %}
 
 > The `valueAccessor` function can have performance implications if it is used to access a large number of data records or to perform complex data manipulations. To avoid performance issues, you can enable the virtualization feature while using the `valueAccessor` property. This ensures that only the visible rows are rendered, resulting in faster rendering times.
 
@@ -159,14 +159,14 @@ This will display the concatenated value of **FirstName** and **LastName** in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/arraytypecolumn-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/arraytypecolumn-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/arraytypecolumn-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/arraytypecolumn-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/arraytypecolumn-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/arraytypecolumn-cs1" %}
 
 ### Expression column
 
@@ -176,14 +176,14 @@ In this example, we have a grid with columns **Food Name**, **Protein**, **Fat**
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/expression-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/expression-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/expression-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/expression-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/expression-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/expression-cs1" %}
 
 ### Display serial number
 
@@ -195,14 +195,14 @@ Here is an example code snippet that demonstrates how to display serial numbers 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/dynamic-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/dynamic-column-cs2" %}
 
 ## Complex data binding
 
@@ -216,14 +216,14 @@ In the below example, we have bound the nested **Employee** object's **FirstName
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/complex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/complex-cs1" %}
 
 ### Using remote data
 
@@ -233,14 +233,14 @@ In the below example, we have used the `expand` query to load the nested Employe
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/complex-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/complex-cs3" %}
 
 ### Complex data binding with list of array of objects
 
@@ -250,14 +250,14 @@ The following example shows how to set complex field for datasource having array
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/complex-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/complex-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/complex-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/complex-cs2" %}
 
 ### How to set complex column as foreign key column
 
@@ -267,11 +267,11 @@ The following example demonstrates how to set the **Employee.EmployeeID** column
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs4" %}

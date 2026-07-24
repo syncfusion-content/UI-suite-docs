@@ -24,14 +24,14 @@ In the following example demonstrates how to enable single cell selection using 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-single/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-single/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-single" %}
 
 ## Multiple cell selection 
 
@@ -43,14 +43,14 @@ In the following example demonstrates how to enable multiple cell selection usin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple" %}
 
 ## Cell selection mode 
 
@@ -68,14 +68,14 @@ In the following example demonstrates how to dynamically enable and change the `
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-mode/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-mode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-mode/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-mode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-mode" %}
 
 ## Select cells externally 
 
@@ -91,14 +91,14 @@ The following example demonstrates how to select a single cell within the Grid b
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-single-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-single-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-single-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-single-method" %}
 
 ### Multiple cell selection
 
@@ -110,14 +110,14 @@ In the following example, it demonstrates how to select multiple cells in the Gr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-multiple-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-multiple-method" %}
 
 > Cell Selection requires the `selectionSettings.mode` to be **Cell** or  **Both** and [type](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings/#type) should be **Multiple**.
 
@@ -134,14 +134,14 @@ The following example demonstrates how to select a range of cells within the Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-range/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-range/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-range/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-range/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-range" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-range" %}
 
 ##  How to get selected row cell indexes
 
@@ -151,14 +151,14 @@ The following example demonstrates how to obtain the selected row cell indexes u
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-indexes/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-indexes/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-indexes/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-indexes/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-indexes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-indexes" %}
 
 ##  Clear cell selection programmatically 
 
@@ -170,14 +170,14 @@ The following example demonstrates how to clear cell selection by calling the `c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-clear/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-clear/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-cell-clear/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-cell-clear/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-clear" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-clear" %}
 
 ## Cell selection events 
 
@@ -342,4 +342,4 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-cell-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-cell-events" %}

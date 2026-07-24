@@ -66,18 +66,18 @@ The DataGrid components support two size modes to optimize user experience acros
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs2/index.html %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs2/index.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/style-appearance-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/style-appearance-cs2" %}
 
 ## Theme Customization
 
@@ -145,18 +145,18 @@ The Fluent 2 theme leverages modern CSS custom properties to provide a clean and
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs1/index.html %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs1/index.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/style-appearance-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/style-appearance-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/style-appearance-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/style-appearance-cs1" %}
 
 ### Using Theme Studio
 

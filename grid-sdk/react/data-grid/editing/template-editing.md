@@ -30,22 +30,22 @@ The following example demonstrates a grid enabled with dialog template editing.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/datasource.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="orderModel.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/orderModel.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/orderModel.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="orderModel.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs28/app/orderModel.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs28/app/orderModel.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="template.jsx" %}
 {% raw %}
@@ -171,7 +171,7 @@ export class DialogFormTemplate extends React.Component<{}, {}> {
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs28" %}
 
 > The `Dialog` and `Inline` template form editors must have **name** attribute.
 
@@ -301,16 +301,16 @@ The following example renders a tab component inside the edit dialog. The tab co
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/tabediting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/tabediting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/tabediting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/tabediting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/tabediting-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/tabediting-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/tabediting-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/tabediting-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="tabOne.jsx" %}
 {% raw %}
@@ -621,8 +621,8 @@ export class DialogFormTemplate extends React.Component {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="wizardTab.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/tabediting-cs1/app/wizardTab.tsx %}
+{% include code-snippet/grid-sdk/react/grid/tabediting-cs1/app/wizardTab.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/tabediting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/tabediting-cs1" %}

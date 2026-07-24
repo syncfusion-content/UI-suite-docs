@@ -18,10 +18,10 @@ The following example demonstrates how to enable toolbar items in the grid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbar/toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbar/toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ In the following example, the [EJ2 Toggle Switch Button component](https://ej2.s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/enable-disable/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/enable-disable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="enable-disable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/enable-disable/enable-disable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/enable-disable/enable-disable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ The following example shows how to add the toolbar items at the bootom using `Cr
  
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbar-bottom/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbar-bottom/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="toolbar-bottom.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/toolbar-bottom/toolbar-bottom.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/toolbar-bottom/toolbar-bottom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ The following example demonstrates how to change the background color of the `Ad
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customize-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customize-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/toolbar/customize-toolbar/toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/toolbar/customize-toolbar/toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 

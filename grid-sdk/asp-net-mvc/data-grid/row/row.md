@@ -24,10 +24,10 @@ Here's an example of how you can use the `RowDataBound` event to customize the s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-style-event/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-style-event/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-style-event/event-style.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-style-event/event-style.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ Here's an example of how to use the **.e-altrow** class to style alternate rows:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/style-alt-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/style-alt-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style-alt-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/style-alt-row/style-alt-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/style-alt-row/style-alt-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -80,10 +80,10 @@ Here's an example of how to use the **.e-selectionbackground** class to style th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/select-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/select-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Select-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/select-row/select-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/select-row/select-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ The following example demonstrates how to use `getRowByIndex` methods to customi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-style-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-style-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-style-method/style.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-style-method/style.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ In the below example, we will demonstrate how to dynamically change the height o
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-height.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-height/row-height.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-height/row-height.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ In the below example, the row height for the row with **OrderID** as '10249' is 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/particluar-row-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/particluar-row-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Particular-row-height-.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/particluar-row-height/row-height.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/particluar-row-height/row-height.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ Here is an example that demonstrates how to enable/disable row hover based on th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-hover/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-hover/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hover.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-hover/hover.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-hover/hover.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -189,10 +189,10 @@ Here's an example that demonstrates how to use the `RowDataBound` event and `get
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-info/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-info/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-info.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-info/row-info.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-info/row-info.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -208,10 +208,10 @@ In the following example, the [FrozenRows](https://help.syncfusion.com/cr/aspnet
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/frozen-rows/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/frozen-rows/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/frozen-rows/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/frozen-rows/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -237,10 +237,10 @@ By applying this CSS class, you can set the background color of frozen rows to t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/frozen-rows-style/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/frozen-rows-style/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/frozen-rows-style/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/frozen-rows-style/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -276,10 +276,10 @@ Here's an example of how to add a new row using the `addRecord` method:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/add-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/add-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Add-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/add-row/add-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/add-row/add-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -303,10 +303,10 @@ If the checkbox is unchecked, the method iterates through the hiddenRows array a
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/show-hide-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/show-hide-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Add-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/show-hide-row/show-hide-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/show-hide-row/show-hide-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -16,12 +16,12 @@ For instance, the sample below demonstrates columns **OrderID** and **Freight** 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filtering1-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filtering1-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filtering1-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filtering1-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filtering1-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filtering1-cs12" %}

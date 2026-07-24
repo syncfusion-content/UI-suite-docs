@@ -29,27 +29,27 @@ Here's an example that demonstrates how to use the custom aggregate feature in t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs1" %}
 {% endif %}
 
 > To access the custom aggregate value inside template, use the key as **Custom**
@@ -64,27 +64,27 @@ Here's an example that demonstrates how to show the count of distinct values for
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-agg-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-agg-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-agg-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-agg-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-agg-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-agg-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-agg-cs1" %}
 {% endif %}
 
 > To display the aggregate value of the current column in another column, you can use the [columnName](../../api/grid/aggregateColumn#columnname) property. If the `columnName` property is not defined, the field name value will be assigned to the `columnName` property.

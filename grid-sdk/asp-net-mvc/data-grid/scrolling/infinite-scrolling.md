@@ -23,10 +23,10 @@ The following an example that demonstrates how to enable infinite scroll in the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-normal/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-normal/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinite-scroll-normal.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-normal/infinite-scroll-normal.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-normal/infinite-scroll-normal.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The following an example of how you can use the `InitialBlocks` property to set 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-initialblocks/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-initialblocks/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="infinite-scroll-initialblocks.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-initialblocks/infinite-scroll-initialblocks.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-initialblocks/infinite-scroll-initialblocks.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ The following example that demonstrates how to enable/disable cache mode in infi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-cache/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-cache/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="infinite-scroll-cache.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/infinite-scroll-cache/infinite-scroll-cache.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/infinite-scroll-cache/infinite-scroll-cache.cs %}
 {% endhighlight %}
 {% endtabs %}
 

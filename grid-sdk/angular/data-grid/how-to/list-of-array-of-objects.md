@@ -16,12 +16,12 @@ The following example demonstrates how to configure a complex field and bind a d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/complex-data-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/complex-data-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/complex-data-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/complex-data-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/complex-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/complex-data-cs1" %}

@@ -53,10 +53,10 @@ Here is an example code to change the component id dynamically to restore initia
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-changing-id/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-changing-id/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="persist.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-changing-id/persist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-changing-id/persist.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,10 +70,10 @@ Here is an example code on how to clear local storage to retain its default stat
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/clearing-local-storage/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/clearing-local-storage/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="local-storage.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/clearing-local-storage/local-storage.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/clearing-local-storage/local-storage.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ Here is an example of how to integrate version-based persistence into your ASP.N
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-state-version/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-state-version/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="state-version.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-state-version/state-version.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-state-version/state-version.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ The provided code demonstrates how to save and restore the previous state of a S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-previous-state/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-previous-state/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="previous-state.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-previous-state/previous-state.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-previous-state/previous-state.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ When [EnablePersistence](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-custom-query/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-custom-query/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-query.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-custom-query/custom-query.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-custom-query/custom-query.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,11 +146,11 @@ Except for the initial render, state persistence ensures that manually performed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/observable/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/observable/razor %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="observable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/observable/observable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/observable/observable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ The following example demonstrates how to prevent Grid columns from persisting. 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-prevent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-prevent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="state-prevent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/state-prevent/state-prevent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/state-prevent/state-prevent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -202,10 +202,10 @@ Here's an example of how to add a new column to a list of persisted columns:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/column-add/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/column-add/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-add.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/column-add/column-add.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/column-add/column-add.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -221,10 +221,10 @@ To restore these column properties and achieve persistence, you can follow the a
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/column-persist/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/column-persist/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="persist.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/state-persist/column-persist/persist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/state-persist/column-persist/persist.cs %}
 {% endhighlight %}
 {% endtabs %}
 

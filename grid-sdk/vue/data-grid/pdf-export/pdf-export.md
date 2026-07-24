@@ -20,14 +20,14 @@ The following example demonstrates how to perform a PDF export action in the gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs14/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs14/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs14/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs14/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/default-cs14" %}
 
 ## Show spinner while exporting
 
@@ -43,14 +43,14 @@ The following example demonstrates how to show and hide the spinner during PDF e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs15/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs15/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs15/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs15/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/default-cs15" %}
 
 ## Binding custom data source while exporting
 
@@ -62,14 +62,14 @@ The following example demonstrates how to render custom data source during PDF e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs16/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs16/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs16/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/default-cs16/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/default-cs16" %}
 
 > Make sure to utilize the [field](https://ej2.syncfusion.com/vue/documentation/api/grid/column/#field) property that you have declared in the grid columns when modifying the data source for exporting.
 
@@ -227,7 +227,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/custom-aggregate-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/custom-aggregate-export-cs1" %}
 
 ## Exporting with cell and row spanning
 
@@ -239,14 +239,14 @@ The following example demonstrates how to perform export with cell and row spann
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-span-data/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-span-data/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-span-data/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-span-data/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-span-data" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-span-data" %}
 
 > * The [updateCell](https://ej2.syncfusion.com/vue/documentation/api/grid/#updatecell) method does not support row and column spanning.
 
@@ -258,14 +258,14 @@ Here’s an example demonstrating how to merge duplicate cells in the **OrderID*
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-option-merge/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-option-merge/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-option-merge/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-option-merge/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-option-merge" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-option-merge" %}
 
 ## Exporting with custom date format
 
@@ -277,14 +277,14 @@ The following example demonstrates how to export the grid data with custom date 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-with-custom-date/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-with-custom-date/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-with-custom-date/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-with-custom-date/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-with-custom-date" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-with-custom-date" %}
 
 ## Exporting multiple grids
 
@@ -298,14 +298,14 @@ The following example demonstrates how to export multiple grids to the same page
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/multiple-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/multiple-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/multiple-cs1" %}
 
 ### New page
 
@@ -323,14 +323,14 @@ The following example demonstrates how to export multiple grids to a PDF file wh
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/multiple-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/multiple-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/multiple-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/multiple-cs3" %}
 
 ### Limitations
 
@@ -354,14 +354,14 @@ The following example demonstrates how to export hierarchical grid to PDF docume
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid" %}
 
 ### Format the child Grid columns before exporting
 
@@ -371,15 +371,15 @@ In the following example, the `exportDetailDataBound` event is used to modify th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid-cs2/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-hierarchy-grid-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-hierarchy-grid-cs2" %}
 
 ## Remove header row while exporting
 
@@ -391,14 +391,14 @@ The following example demonstrates how to perform export without header using `p
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-remove-header/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-remove-header/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-remove-header/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/export-remove-header/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-remove-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/export-remove-header" %}
 
 ## See Also
 

@@ -29,14 +29,14 @@ The default column menu items are displayed in following table.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs7" %}
 
 > You can disable column menu for a particular column by defining the [columns.showColumnMenu](https://ej2.syncfusion.com/vue/documentation/api/grid/column#showcolumnmenu) as false.
 
@@ -52,14 +52,14 @@ The following example demonstrates how to prevent the column menu for a specific
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-prevent/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-prevent/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-prevent/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-prevent/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-prevent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-prevent" %}
 
 ## Add custom column menu item
 
@@ -69,14 +69,14 @@ Consider the following example, which demonstrates how to add a custom column me
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs9" %}
 
 ## Customize menu items for particular columns
 
@@ -86,14 +86,14 @@ The following sample, **Filter** item was hidden in column menu when opens for t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs10" %}
 
 ## Render nested column menu
 
@@ -105,14 +105,14 @@ Here is an example of how to configure the `columnMenuItems` property to include
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs35/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs35/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs35/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs35/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs35" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs35" %}
 
 ## Customize the icon of column menu
 
@@ -133,14 +133,14 @@ Here is an example that demonstrates how to customize the column menu icon in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs1" %}
 
 ## Column menu events
 
@@ -262,4 +262,4 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs8" %}

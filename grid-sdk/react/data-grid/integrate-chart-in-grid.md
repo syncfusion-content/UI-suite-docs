@@ -330,20 +330,20 @@ The following example demonstrates integrating charts into the grid context menu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/chart-integration" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/chart-integration" %}
 
 ## Enable export functionality in GridChart
 
@@ -570,17 +570,17 @@ The following example demonstrates enabling the property panel by setting `enabl
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/chart-integration-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/chart-integration-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/chart-integration-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/chart-integration-cs1" %}

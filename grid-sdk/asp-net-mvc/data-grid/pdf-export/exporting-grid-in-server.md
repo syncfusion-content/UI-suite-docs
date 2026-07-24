@@ -35,10 +35,10 @@ The following code snippet shows server configuration using ASP.NET MVC Controll
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/server-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/server-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/server-export/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/server-export/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,10 +201,10 @@ In the following demo, the `DrawString` method from the `Graphics` is used to ro
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/rotate-header/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/rotate-header/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate-Header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/rotate-header/rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/rotate-header/rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -219,10 +219,10 @@ The following example demonstrates how to pass additional parameters to the serv
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/additonal-parameter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/additonal-parameter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate-Header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/additonal-parameter/additional-parameter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/additonal-parameter/additional-parameter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
