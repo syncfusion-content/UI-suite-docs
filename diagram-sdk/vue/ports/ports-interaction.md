@@ -25,7 +25,7 @@ The following code explains how to draw the connector by using the port constrai
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int1" %}
 
 ### Draw different connector types from port
 
@@ -46,7 +46,7 @@ The following code explains how to draw different connectors by using the port c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int2" %}
 
 ## Port drag
 
@@ -63,7 +63,7 @@ The following code explains how to enable port drag.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int3" %}
 
 ## Automatic Port Creation
 
@@ -82,7 +82,7 @@ The following example shows how to enable automatic port creation:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/automaticPortCreation" %}
 
 ## Port tooltip
 
@@ -99,7 +99,7 @@ The following code explains how to enable port tooltip.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int4" %}
 
 ## Events
 
@@ -123,7 +123,7 @@ The following example shows how to get these events in diagram.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-int5" %}
 
 ## See also
 

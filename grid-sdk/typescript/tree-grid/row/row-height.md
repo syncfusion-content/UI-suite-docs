@@ -19,27 +19,27 @@ In the below example, the `rowHeight` is set as '60px'.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs1" %}
 {% endif %}
 
 ## Customize row height for particular row
@@ -52,25 +52,25 @@ In the below example, the row height for the row with Task ID as '3' is set as '
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-cs2" %}
 {% endif %}

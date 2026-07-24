@@ -24,10 +24,10 @@ To perform the multi-selection, press and hold CTRL key and click the desired ro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection/selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ To perform the multi-selection, press and hold CTRL key and click the desired ro
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection/selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -57,10 +57,10 @@ The treegrid supports three types of selection mode that can be set by using the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selection-mode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection-mode/selection-mode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection-mode/selection-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ The treegrid supports three types of selection mode that can be set by using the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selection-mode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/selection-mode/selection-mode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/selection-mode/selection-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -14,13 +14,13 @@ In cell edit mode, double-clicking a cell switches it to edit state. Modify the 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs2" %}
 
 > Cell edit mode is the default editing mode.

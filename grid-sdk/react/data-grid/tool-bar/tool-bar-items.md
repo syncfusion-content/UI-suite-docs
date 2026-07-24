@@ -34,20 +34,20 @@ The following example demonstrates enabling built-in toolbar items such as `Prin
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs1" %}
 
 ### Show only icons in built-in toolbar items
 
@@ -64,20 +64,20 @@ This is demonstrated in the following sample:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbaricon-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbaricon-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbaricon-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbaricon-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbaricon-cs1" %}
 
 ### Customize the built-in toolbar items
 
@@ -183,14 +183,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-built/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-built/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-built/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-built/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-built" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-built" %}
 
 ## Custom toolbar items
 
@@ -200,20 +200,20 @@ By default, custom toolbar items are positioned on the left side of the toolbar.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs2" %}
 
 ## Both built-in and custom items in toolbar
 
@@ -294,14 +294,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs3" %}
 
 ## Add custom components to the Grid toolbar using template
 
@@ -313,20 +313,20 @@ Additionally, the [change](https://ej2.syncfusion.com/react/documentation/api/au
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs8" %} 
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs8" %} 
 
 ## Custom toolbar items in a specific position
 
@@ -338,17 +338,17 @@ In the following sample, the "Collapse All" toolbar item is positioned on the `R
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs4" %}

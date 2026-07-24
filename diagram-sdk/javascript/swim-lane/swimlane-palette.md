@@ -24,7 +24,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs15" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -37,7 +37,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs15" %}
 {% endif %}
 
 ### Drag and drop swimlane to palette

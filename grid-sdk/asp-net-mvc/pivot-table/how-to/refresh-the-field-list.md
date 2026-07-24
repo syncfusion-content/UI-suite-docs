@@ -16,10 +16,10 @@ You can refresh pivot table and field list with new data source dynamically.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/field-list/refresh/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/field-list/refresh/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Refresh.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/field-list/refresh/Refresh.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/field-list/refresh/Refresh.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ You can refresh pivot table and field list with new data source dynamically.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/field-list/refresh/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/field-list/refresh/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Refresh.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/field-list/refresh/Refresh.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/field-list/refresh/Refresh.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -16,10 +16,10 @@ You can toggle column visibility based on media queries which are defined at the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/responsive/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/responsive/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Responsive.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/responsive/responsive.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/responsive/responsive.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ You can toggle column visibility based on media queries which are defined at the
 
 {% tabs %}
 {% highlight c# tabtitle="Responsive.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/responsive/responsive.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/responsive/responsive.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

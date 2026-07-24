@@ -20,14 +20,14 @@ To get start quickly with filtering options, you can check on this video:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs6" %}
 
 > * You can apply and clear filtering by using [`filterByColumn`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#filterbycolumn) and [`clearFiltering`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#clearfiltering) methods.
 > * To disable filtering for a particular column, set
@@ -48,14 +48,14 @@ The below are the type of filter mode available in TreeGrid.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs7" %}
 
 ## Initial filter
 
@@ -64,14 +64,14 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs8" %}
 
 ## Filter operators
 
@@ -99,14 +99,14 @@ You can change the default filter operator by extending `filterModule.filterOper
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs9" %}
 
 ## Diacritics
 
@@ -116,11 +116,11 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/filtering/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs10" %}

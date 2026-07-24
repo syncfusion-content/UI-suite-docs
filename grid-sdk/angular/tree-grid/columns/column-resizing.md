@@ -18,14 +18,14 @@ To use the column resize feature, inject **ResizeService** in the provider secti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs1" %}
 
 >* Resizing can be disabled for a particular column by specifying [columns.allowResizing](https://ej2.syncfusion.com/angular/documentation/api/treegrid/columnDirective/#allowresizing) to **false**.
 >* In RTL mode, click and drag the left edge of header cell to resize the column.
@@ -41,14 +41,14 @@ In the following code, **TaskName** and **duration** columns are defined with mi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs2" %}
 
 ## Prevent resizing for particular column
 
@@ -58,14 +58,14 @@ Resizing can be disabled for a particular column by setting the [allowResizing](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs3" %}
 
 > Resizing can also be prevented by setting `args.cancel` to **true** in the [resizeStart](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#resizestart) event.
 
@@ -77,14 +77,14 @@ In the following code, resize has been disabled for the **Shipped Date** column.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs4" %}
 
 ## Resizing modes
 
@@ -100,14 +100,14 @@ The following example demonstrates how to set the [resizeSettings.mode](https://
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs5" %}
 
 > When the [autoFit](https://ej2.syncfusion.com/angular/documentation/api/grid/#autofit) property is set to **true**, the TreeGrid will automatically adjust its column width based on the content inside them. In `normal` resize mode, if the `autoFit` property is set to **true**, the TreeGrid will maintain any empty space that is left over after resizing the columns. However, in `auto` resize mode, the TreeGrid will ignore any empty space.
 
@@ -139,14 +139,14 @@ The following example demonstrates how to resize the columns in a TreeGrid. This
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs6" %}
 
 > The [refreshColumns](https://ej2.syncfusion.com/angular/documentation/api/treegrid#refreshcolumns) method is used to refresh the TreeGrid after the column widths are updated. Column resizing externally is useful for providing a custom interface for resizing columns.
 
@@ -164,13 +164,13 @@ The following example demonstrates using the resizing events, the [resizeStart](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/resize-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/resize-cs7" %}
 
 > The ResizeArgs object passed to the events contains information such as the current column width, new column width, column index, and the original event. The [resizing](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#resizing) event is triggered multiple times during a single resize operation, so be careful when performing heavy operations in this event.

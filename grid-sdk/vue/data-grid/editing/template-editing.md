@@ -29,14 +29,14 @@ In the following sample, grid enabled with dialog template editing.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/dialogtemplate-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/dialogtemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/dialogtemplate-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/dialogtemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/dialogtemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/dialogtemplate-cs1" %}
 
 > The Dialog/Inline template form editors should have **name** attribute.
 
@@ -163,12 +163,12 @@ The following example renders a tab component inside the edit dialog. The tab co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-tab-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-tab-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-tab-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-tab-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-tab-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-tab-cs1" %}
 

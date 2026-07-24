@@ -16,11 +16,11 @@ The following example illustrates how to export a Vue Data Grid in a Cordova app
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs8" %}

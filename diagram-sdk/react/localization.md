@@ -66,7 +66,7 @@ The following code example demonstrates the complete locale settings for the con
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1" %}
 
 ## Localize Symbol Palette
 
@@ -119,7 +119,7 @@ The following code example summarizes the locale settings for the symbol palette
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1" %}
 
 Refer [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization) for more information.
 

@@ -112,7 +112,7 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/angular/documentation/api/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs1" %}
 
 ## Select entire elements in diagram programmatically
 
@@ -151,7 +151,7 @@ Aspect ratio constraints ensure that when resizing a node by dragging its corner
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs2" %}
 
 ### Customizing resize handle size
 
@@ -167,7 +167,7 @@ Customize the size of resize handles and connector endpoint handles using the [`
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs3" %}
 
 Customize the appearance of resize handles and connector endpoints by overriding the `e-diagram-resize-handle` and `e-diagram-endpoint-handle` CSS classes to modify fill, stroke, and stroke width properties.
 
@@ -191,7 +191,7 @@ Adjust the rotation handle position by modifying the node's [`pivot`](https://ej
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/interaction/interactions-cs4" %}
 
 ![Node interaction](./images/node-interactions.gif)
 

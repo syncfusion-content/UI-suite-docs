@@ -53,7 +53,7 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-1" %}
 
 ### Messages
 
@@ -91,7 +91,7 @@ The following code example illustrates how to create messages:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-2" %}
 
 ### Activation Boxes
 
@@ -116,7 +116,7 @@ The following code example illustrates how to create activation boxes:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-3" %}
 
 ### Fragments
 
@@ -159,7 +159,7 @@ The following code example illustrates how to create fragments:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umlsequencediagram/umlsequencediagram-4" %}
 
 ### Customizing Participant Spacing in Sequence Diagram 
 

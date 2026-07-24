@@ -16,15 +16,15 @@ When binding large volumes of raw data, the pivot table processes all raw data t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs301/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs301/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs301/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs301/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs301" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs301" %}
 
 **Limitations during data compression:**
 

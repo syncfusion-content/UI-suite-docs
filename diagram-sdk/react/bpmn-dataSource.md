@@ -33,4 +33,4 @@ The following code example demonstrates how to create a basic BPMN data source s
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Datasource-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Datasource-cs1" %}

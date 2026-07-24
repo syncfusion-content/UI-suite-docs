@@ -17,14 +17,14 @@ column [`type`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2" %}
 
 > By default selection is allowed by clicking a treegrid row or checkbox in that row. To allow Selection only through checkbox, you can set
 [`selectionSettings.checkboxOnly`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionSettings#checkboxonly) property to true.
@@ -43,14 +43,14 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3" %}
 
 > Checkbox Selection feature is intended for row selection only; it is not compatible with cell selection mode.
 
@@ -66,11 +66,11 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/selection/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7" %}

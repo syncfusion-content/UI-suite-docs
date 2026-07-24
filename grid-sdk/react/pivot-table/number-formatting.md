@@ -47,20 +47,20 @@ Use these standard format codes to specify the formatting type:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs184/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs184/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs184/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs184/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs184/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs184/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs184/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs184/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs184" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs184" %}
 
 You can also format the values at runtime using the formatting dialog. This option can be enabled by setting the [`allowNumberFormatting`](https://ej2.syncfusion.com/react/documentation/api/pivotview/#allownumberformatting) property to **true**. The same has been discussed in some of the upcoming topics.
 
@@ -84,20 +84,20 @@ Custom format lets you display numbers in your preferred pattern by setting the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs185/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs185/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs185/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs185/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs185/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs185/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs185/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs185/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs185" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs185" %}
 
 ## Toolbar
 
@@ -105,20 +105,20 @@ Number formatting can be applied instantly at runtime through the built-in dialo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs186/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs186/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs186/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs186/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs186/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs186/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs186/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs186/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs186" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs186" %}
 
 ## Invoking formatting dialog through external button
 
@@ -126,20 +126,20 @@ The number formatting dialog can be opened programmatically by clicking an exter
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs187/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs187/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs187/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs187/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs187/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs187/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs187/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs187/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs187" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs187" %}
 
 ## Events
 
@@ -157,20 +157,20 @@ The following sample demonstrates how to prevent number formatting changes for t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs188/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs188/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs188/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs188/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs188/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs188/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs188/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs188/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs188" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs188" %}
 
 ## See Also
 

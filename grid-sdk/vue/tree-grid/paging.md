@@ -16,14 +16,14 @@ To use paging, inject the [`Page`](https://ej2.syncfusion.com/vue/documentation/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs1" %}
 
 > You can achieve better performance by using treegrid paging to fetch only a pre-defined number of records from the data source.
 
@@ -38,14 +38,14 @@ With [`pageSizeMode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs2" %}
 
 ## Template
 
@@ -55,14 +55,14 @@ To use the pager template, you need to specify the [pagerTemplate](https://ej2.s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs4" %}
 
 ## Pager with Page Size Dropdown
 
@@ -82,14 +82,14 @@ By default, Pager will be rendered at the bottom of the TreeGrid. You can also r
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/paging/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/paging/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/paging/default-cs3" %}
 
 > During the paging action, the pager component triggers the below three events.
 > * The `created` event triggers when Pager is created.

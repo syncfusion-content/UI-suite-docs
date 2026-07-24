@@ -35,7 +35,7 @@ Decorators are visual elements that appear at the starting and ending points of 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorDecorators-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorDecorators-cs1" %}
 
 ### Customize the Decorator Appearance
 
@@ -58,7 +58,7 @@ The following code example illustrates how to customize the appearance of the de
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecorator-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecorator-cs1" %}
 
 ### Gradient Styling for Decorators
 
@@ -79,7 +79,7 @@ The following code example illustrates how to apply gradient effects to decorato
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorGradient-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorGradient-cs1" %}
 
 ## Connector Appearance and Styling
 
@@ -112,7 +112,7 @@ Padding creates visual separation between connector endpoints and the nodes they
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs2" %}
 
 ## Advanced Connector Features
 
@@ -130,7 +130,7 @@ Bridging can be enabled or disabled using either **connector.constraints** or **
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBridging-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBridging-cs1" %}
 
 N> The connector bridging module must be injected into the diagram to use this feature.
 
@@ -153,7 +153,7 @@ The [`bridgeSpace`](https://helpej2.syncfusion.com/react/documentation/api/diagr
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorHitPadding-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorHitPadding-cs1" %}
 
 ## Corner Radius for Rounded Connectors
 
@@ -168,7 +168,7 @@ Corner radius creates connectors with rounded corners instead of sharp angles, p
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsCornerRadius-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsCornerRadius-cs1" %}
 
 ## Connector Appearance
 
@@ -191,7 +191,7 @@ The following code example illustrates how to customize the segment appearance.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsAppearance-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsAppearance-cs1" %}
 
 ## Connector Constraints and Behavior
 
@@ -210,7 +210,7 @@ The following code illustrates how to disable selection for a connector.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsConstraints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsConstraints-cs1" %}
 
 ## Additional Connector Properties
 
@@ -246,7 +246,7 @@ The following code illustrates how to render connectors based on stack order.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5zindex-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5zindex-cs1" %}
 
 ### Connector Spacing for Routing
 
@@ -263,7 +263,7 @@ The following code example illustrates how to configure connector spacing.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecAppearance-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsDecAppearance-cs1" %}
 
 #### Maximum Segment Thumbs
 
@@ -278,7 +278,7 @@ The [`maxSegmentThumb`](https://helpej2.syncfusion.com/react/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5MaxSegThump-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5MaxSegThump-cs1" %}
 
 ![maxSegmentThumb](images/maxSegmentThumb.png)
 
@@ -295,7 +295,7 @@ The [`resetSegments`](https://helpej2.syncfusion.com/react/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ResetSegment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ResetSegment-cs1" %}
 
 ## Dynamic Connector Manipulation
 
@@ -314,7 +314,7 @@ The following code illustrates how to enable connector splitting functionality..
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorSplit-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorSplit-cs1" %}
 
 ![Enable Connector Split](images/EnableSplit.gif)
 
@@ -333,4 +333,4 @@ The following example demonstrates how to preserve the original connector's styl
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5PreserveStyle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5PreserveStyle-cs1" %}

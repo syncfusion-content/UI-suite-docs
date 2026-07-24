@@ -86,7 +86,7 @@ The following code example summarizes the locale settings for the context menu.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs1" %}
 
 
 
@@ -142,7 +142,7 @@ The following code example summarizes the locale settings for the symbol palette
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs2" %}
 
 
 

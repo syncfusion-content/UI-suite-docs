@@ -28,7 +28,7 @@ This feature is particularly useful in scenarios where users need to create conn
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int1" %}
 
 ### Draw different connector types from port
 
@@ -48,7 +48,7 @@ The default connector type can be customized when drawing from ports by configur
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int2" %}
 
 ## Port drag
 
@@ -66,7 +66,7 @@ Port dragging is valuable when fine-tuning diagram layouts or adapting to changi
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int3" %}
 
 ## Automatic Port Creation
 
@@ -85,7 +85,7 @@ Ports can also be removed using the same Ctrl + Click interaction, provided the 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/automaticPortCreation" %}
 
 ## Port tooltip
 
@@ -103,7 +103,7 @@ Tooltips are especially beneficial in complex diagrams where ports may not be im
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int4" %}
 
 ## Events
 
@@ -126,7 +126,7 @@ Port interactions trigger specific events that enable custom handling and applic
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-int5" %}
 
 ## See also
 

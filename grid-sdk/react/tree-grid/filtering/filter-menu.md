@@ -14,14 +14,14 @@ Enable the filter menu by setting [filterSettings.type](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs6" %}
 
 > * [allowFiltering](https://ej2.syncfusion.com/react/documentation/api/treegrid/#allowfiltering) must be set to true.
 > * Setting [columns.allowFiltering](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#allowfiltering) to false disables the filter menu for that column.
@@ -71,11 +71,11 @@ In the following sample, Menu filtering is enabled globally, and Excel filtering
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs7" %}

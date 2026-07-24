@@ -25,27 +25,27 @@ The following example demonstrates how to define a [template](../../api/grid/col
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs1" %}
 {% endif %}
 
 > The [template](../../api/grid/column#template) option allows to define any HTML content within a column.
@@ -60,27 +60,27 @@ The following example demonstrates, how to render hyperlink column in the Grid u
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs3" %}
 {% endif %}
 
 >The window.open() method is a built-in JavaScript function that opens a new browser window or tab with the specified URL.
@@ -105,27 +105,27 @@ In the following example, we have rendered the Sparkline Chart control in the Gr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs4" %}
 {% endif %}
 
 ### Render ColorPicker control in a column
@@ -173,27 +173,27 @@ function colorPicker(args) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs5" %}
 {% endif %}
 
 ### Render DropDownList control in a column
@@ -246,27 +246,27 @@ function dropdown(args) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-sync-comp-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-sync-comp-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-sync-comp-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-sync-comp-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-sync-comp-cs1" %}
 {% endif %}
 
 ### Render Chip control in a column
@@ -305,27 +305,27 @@ function queryCellInfo(args) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs6" %}
 {% endif %}
 
 ### Render ProgressBar control in a column
@@ -380,27 +380,27 @@ function queryCellInfo(args) {
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs9" %}
 {% endif %}
 
 ### Render RadioButton in a column 
@@ -458,27 +458,27 @@ function initializeRadioButtons(args) {
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-radiobutton/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-radiobutton/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-radiobutton/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-radiobutton/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-radiobutton" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-radiobutton" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-radiobutton/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-radiobutton/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-radiobutton/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-radiobutton/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-radiobutton" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-radiobutton" %}
 {% endif %}
 
 ## Using condition template
@@ -501,27 +501,27 @@ The following example demonstrates how to use the `template` property with the `
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/condition-inside-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/condition-inside-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/condition-inside-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/condition-inside-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/condition-inside-template-cs1" %}
 {% endif %}
 
 >You can use any template element or custom control instead of the checkbox in the conditional template based on your requirement.
@@ -536,27 +536,27 @@ In the following code, the button element is rendered in the **Employee Data** c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs7" %}
 {% endif %}
 
 ## Use custom helper inside the template
@@ -571,27 +571,27 @@ The following example demonstrates how to use a custom helper function inside th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs8" %}
 {% endif %}
 
 > Custom helpers can only be used inside the template property of a column. 
@@ -616,27 +616,27 @@ The following example demonstrates how to add template column using external but
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs10/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs10/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-template-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-template-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-cs10" %}
 {% endif %}
 
 ## Enhancing Grid performance by enabling or disabling Aria Labels
@@ -651,25 +651,25 @@ The example below enables Aria labels for the **Employee Image** column and disa
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-aria-label/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-aria-label/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-aria-label/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-aria-label/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-aria-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-aria-label" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-aria-label/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-aria-label/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/template-aria-label/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/template-aria-label/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-aria-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/template-aria-label" %}
 {% endif %}

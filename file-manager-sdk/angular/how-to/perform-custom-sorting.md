@@ -18,14 +18,14 @@ The following example demonstrates how to define a custom sort comparer function
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/custom-sorting-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/custom-sorting-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/custom-sorting-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/custom-sorting-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/custom-sorting-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/custom-sorting-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/custom-sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/custom-sorting-cs1" %}

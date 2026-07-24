@@ -46,7 +46,7 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
 
 
 
@@ -82,7 +82,7 @@ The following table shows all the possible alignments visually with offset (0, 0
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
 
 
 

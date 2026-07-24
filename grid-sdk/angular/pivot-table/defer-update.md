@@ -23,15 +23,15 @@ To enable deferred updates in the pivot table, set the [`allowDeferLayoutUpdate`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs39/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs39/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs39/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs39/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs39" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs39" %}
 
 ## Stand-alone Field List (Fixed)
 
@@ -43,12 +43,12 @@ To enable deferred updates in the static fieldlist, set the [`allowDeferLayoutUp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs40/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs40/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs40/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs40/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs40" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs40" %}

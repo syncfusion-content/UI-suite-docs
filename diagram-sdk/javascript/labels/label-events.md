@@ -31,7 +31,7 @@ The [`keyDown`](../../api/diagram/iKeyEventArgs) event is triggered whenever any
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-keyDown" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-keyDown" %}
 
 ## KeyUp event
 
@@ -46,7 +46,7 @@ The [`keyUp`](../../api/diagram/iKeyEventArgs) event is triggered whenever we pr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-keyUp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-keyUp" %}
 
 ## Double click event
 
@@ -61,7 +61,7 @@ The [`doubleClick`](../../api/diagram/idoubleclickeventargs) event is triggered 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-doubleClick" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-doubleClick" %}
 
 ## TextEdit event
 
@@ -76,7 +76,7 @@ The [`textEdit`](../../api/diagram/iTextEditEventArgs) event triggers when you f
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-textEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-textEdit" %}
 
 You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](../../api/diagram/iTextEditEventArgs) to true.
 

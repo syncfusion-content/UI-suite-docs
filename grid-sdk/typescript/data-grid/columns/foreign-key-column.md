@@ -58,27 +58,27 @@ In this example, **data** is the local data source for the Grid, and **employeeD
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1" %}
 {% endif %}
 
 ## Binding remote data
@@ -91,27 +91,27 @@ This example demonstrates how to use the foreign key column with remote data bin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1remote/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1remote/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1remote/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs1remote/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs1remote" %}
 {% endif %}
 
 > * For remote data, the sorting and grouping is done based on [column.foreignKeyField](../../api/grid/column#foreignkeyfield) instead of [column.foreignKeyValue](../../api/grid/column#foreignkeyvalue).
@@ -134,27 +134,27 @@ In this example, an [AutoComplete](https://ej2.syncfusion.com/javascript/demos/#
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs2" %}
 {% endif %}
 
 ## Customize filter UI in foreignkey column
@@ -175,27 +175,27 @@ In this example, a [DropDownList](https://ej2.syncfusion.com/javascript/demos/#/
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs3" %}
 {% endif %}
 
 ## Use filter bar template in foreignkey column
@@ -208,27 +208,27 @@ In this example, the **"EmployeeID"** column is a foreign key column, and the **
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs4" %}
 {% endif %}
 
 ## Perform aggregation in foreignkey column
@@ -249,27 +249,27 @@ In the provided example, the `customAggregateFn` function is used to filter the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs5" %}
 {% endif %}
 
 ## Render foreign key value in column template
@@ -284,27 +284,27 @@ The following example demonstrates how to render foreign key values in a column 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreignkey-column-template/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreignkey-column-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreignkey-column-template/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreignkey-column-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreignkey-column-template" %}
 {% endif %}
 
 ## Enable multiple foreign key columns
@@ -317,27 +317,27 @@ In the following example, **Customer Name** and **Ship City** are foreign key co
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/foreign-key-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/foreign-key-cs6" %}
 {% endif %}
 
 ## Edit template in foreign key column using remote data

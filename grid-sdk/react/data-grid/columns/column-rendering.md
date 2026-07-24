@@ -18,20 +18,20 @@ Columns in the React Data Grid can be manually defined using the [ColumnDirectiv
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs42/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs42/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs42/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs42/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs42/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs42/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs42/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs42/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs42" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs42" %}
 
 ## Auto-generated columns
 
@@ -39,20 +39,20 @@ Columns are automatically created when the `columns` option is not defined durin
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs2" %}
 
 >* When the columns are auto-generated, the column `type` is determined from the first record of the `dataSource`.
 >* Auto-generating columns for large datasets can affect performance. To improve efficiency, columns can be defined manually in the `columns` option during initialization. Alternatively, the column virtualization feature can be enabled by setting [enableColumnVirtualization](https://ej2.syncfusion.com/react/documentation/api/grid#enablecolumnvirtualization) to `true`.
@@ -63,20 +63,20 @@ Primary key configuration for auto-generated columns is necessary when editing i
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs3" %}
 
 If the column `field` name is known, the [getColumnByField](https://ej2.syncfusion.com/react/documentation/api/grid#getcolumnbyfield) method can be used to retrieve the column object. Then, the `isPrimaryKey` property can be set to "true" for that column, as demonstrated in the code snippet below:
 
@@ -97,20 +97,20 @@ In the below example, `width` is set for the "OrderID" column, `type` is set for
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs4" %}
 
 ## Custom cell display text
 
@@ -132,20 +132,20 @@ To implement `valueAccessor`, define a function for the column that returns the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs19" %}
 
 > It is recommended to enable the [Virtual Scrolling](https://ej2.syncfusion.com/react/documentation/api/grid#enablevirtualization) or [Paging](https://ej2.syncfusion.com/react/documentation/api/grid#allowpaging) feature when binding large datasets to the Grid.
 
@@ -157,20 +157,20 @@ For example, consider a column named "Name" that contains an array of two object
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/array-of-string-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/array-of-string-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/array-of-string-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/array-of-string-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/array-of-string-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/array-of-string-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/array-of-string-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/array-of-string-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/array-of-string-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/array-of-string-cs1" %}
 
 ### Expression column
 
@@ -184,20 +184,20 @@ const Calories = (Protein × 4) + (Fat × 9) + (Carbohydrate × 4);
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/expression-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/expression-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/expression-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/expression-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/expression-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/expression-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/expression-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/expression-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/expression-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/expression-cs1" %}
 
 ### Display serial number
 
@@ -211,20 +211,20 @@ This formula ensures that serial numbers continue correctly across pages. Once c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs38/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs38/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs38/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs38/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs38/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs38/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs38/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs38/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs38" %}
 
 ## Complex data binding
 
@@ -238,20 +238,20 @@ In the below example, the nested "Employee" object's "FirstName" and "LastName" 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs1" %}
 
 ### Using remote data
 
@@ -261,14 +261,14 @@ In the below example, the `expand` query loads the nested "Employee" object's "C
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs3" %}
 
 ### Complex data binding with list of array of objects
 
@@ -276,20 +276,20 @@ Complex data binding with lists of arrays of objects is supported in the Grid. T
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/complex-binding-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/complex-binding-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/complex-binding-cs2" %}
 
 ### Setting a complex column as a foreign key column
 
@@ -299,17 +299,17 @@ The following example demonstrates how to set the "Employee.EmployeeID" column a
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs6" %}

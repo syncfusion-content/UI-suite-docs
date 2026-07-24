@@ -212,19 +212,19 @@ The following complete example demonstrates chart integration into grid context 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs2/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs2/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/chart-intergration-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/chart-intergration-cs1" %}
 
 ### Enable export functionality in GridChart
 
@@ -356,16 +356,16 @@ The following example demonstrates enabling the property panel by setting `enabl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs2/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs2/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/chart-intergration-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/chart-intergration-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/chart-intergration-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/chart-intergration-cs2" %}

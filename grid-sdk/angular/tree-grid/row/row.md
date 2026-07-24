@@ -24,14 +24,14 @@ The following example demonstrates how to utilize the `rowDataBound` event to cu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs1" %}
 
 >The [queryCellInfo](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#querycellinfo) event can also be used to customize cells and is triggered for every cell in the TreeGrid. This is useful when you need to customize cells based on specific conditions or criteria.
 
@@ -55,14 +55,14 @@ The following example demonstrates how to use the **.e-selectionbackground** cla
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-style-selected-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-style-selected-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-style-selected-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-style-selected-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-style-selected-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-style-selected-cs1" %}
 
 ### Using method 
 
@@ -78,14 +78,14 @@ The following example demonstrates how to use the `getRowByIndex` method to cust
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/rows-event-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/rows-event-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/rows-event-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/rows-event-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/rows-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/rows-event-cs1" %}
 
 ## Styling alternate rows
 
@@ -103,14 +103,14 @@ Please refer to the following example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/alt-row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/alt-row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/alt-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/alt-row-cs1" %}
 
 ## Styling parent and child rows
 
@@ -122,14 +122,14 @@ Please refer to the following example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/alt-row-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/alt-row-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/alt-row-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/alt-row-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/alt-row-cs2" %}
 
 ## Row height
 
@@ -139,14 +139,14 @@ The following example demonstrates how to dynamically alter row height using the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-height-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-height-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-height-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-height-cs1" %}
 
 >* The `rowHeight` property can only be used to set the height of entire TreeGrid rows. It cannot be used to set the height of individual cells within a row.
 >* The `rowHeight` property applies height to all rows in the TreeGrid, including header and footer rows.
@@ -162,14 +162,14 @@ In the following example, the row height for the row with **taskID** as '5' is s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-height-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-height-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-height-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-height-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-height-cs2" %}
 
 >* In virtual scrolling mode, it is not applicable to set different row heights.
 >* You can customize the row height of multiple rows by checking relevant criteria in the `rowDataBound` event and setting the `rowHeight` property accordingly.
@@ -185,14 +185,14 @@ The following example demonstrates how to enable/disable the Row Hover feature:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-hover-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-hover-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs1" %}
 
 > The `enableHover` property applies to the entire TreeGrid, not individual rows or columns.
 
@@ -284,11 +284,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-hover-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs3" %}
 
 ### How to get the row information when hovering over the cell
 
@@ -301,14 +301,14 @@ The following example demonstrates how to use the `rowDataBound` event and `getR
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-hover-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-hover-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-hover-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-hover-cs2" %}
 
 >The `getRowInfo` method can only be used in the `rowDataBound` event. Attempting to use it elsewhere will result in an error.
 
@@ -334,14 +334,14 @@ The following example demonstrates how to add a new row using the `addRecord` me
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/add-new-row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/add-new-row-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/add-new-row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/add-new-row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/add-new-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/add-new-row-cs1" %}
 
 >* If you want to add a new record to the beginning of the data source, you can pass **0** as the second parameter to the `addRecord` method.
 >* If you do not specify an index, the new row will be added at the end of the TreeGrid.
@@ -428,11 +428,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-treegrid-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-treegrid-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-treegrid-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-treegrid-cs1" %}
 
 ## How to get the row data and element
 

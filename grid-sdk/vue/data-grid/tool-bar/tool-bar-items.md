@@ -36,14 +36,14 @@ The following example demonstrates how to enable built-in toolbar items such as 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1" %}
 
 > The [toolbar](https://ej2.syncfusion.com/vue/documentation/api/grid/#toolbar) has options to define both built-in and custom toolbar items.
 
@@ -64,14 +64,14 @@ This is demonstrated in the following sample:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs2" %}
 
 ### Customize the built-in toolbar items
 
@@ -83,14 +83,14 @@ The following example demonstrate how to customize the toolbar by disabling and 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-toolbar/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-toolbar/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-toolbar/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-toolbar/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-toolbar" %}
 
 ## Custom toolbar items
 
@@ -102,14 +102,14 @@ By default, custom toolbar items are positioned on the **left** side of the tool
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs3" %}
 
 > * The [toolbar](https://ej2.syncfusion.com/vue/documentation/api/grid/#toolbar) has options to define both built-in and custom toolbar items.
 > * If a toolbar item does not match with built-in items, it will be treated as custom toolbar item.
@@ -238,7 +238,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs4" %}
 
 ## Add custom components to the Grid toolbar using template
 
@@ -420,7 +420,7 @@ Additionally, the [change](https://ej2.syncfusion.com/vue/documentation/api/auto
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-toolbar" %}
 
 ## Custom toolbar items in a specific position
 
@@ -432,11 +432,11 @@ In the following sample, the **Collapse All** toolbar item is positioned on the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/toolbar/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs5" %}

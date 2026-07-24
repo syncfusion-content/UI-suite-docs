@@ -120,7 +120,7 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC DataGr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/getting-start-mvc/columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/getting-start-mvc/columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
 public class HomeController : Controller

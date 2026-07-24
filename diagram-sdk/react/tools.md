@@ -39,7 +39,7 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs1" %}
 
 Path shapes can be drawn using the same approach with custom path data. The following example shows how to draw a path shape:
 
@@ -52,7 +52,7 @@ Path shapes can be drawn using the same approach with custom path data. The foll
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs2" %}
 
 ### Text Nodes
 
@@ -68,7 +68,7 @@ Similarly, you can draw a text node by setting the type of shape as 'Text' in th
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs3" %}
 
 ### Draw Connectors
 
@@ -84,7 +84,7 @@ Connectors are drawn by defining the connector configuration in the `drawingObje
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs4" %}
 
 ### Polygon Shapes
 
@@ -99,7 +99,7 @@ The diagram supports interactive polygon creation through point-and-click intera
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs5" %}
 
 ![Polygon drawing](images/polygon-drawing.gif)
 
@@ -118,7 +118,7 @@ The following code illustrates how to draw a polyline connector.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs6" %}
 
  The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
@@ -141,7 +141,7 @@ The following code illustrates how to perform freehand drawing:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs7" %}
 
 The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
@@ -179,7 +179,7 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs8" %}
 
 N> Please note that panning the diagram is not possible when 'multiplePage' is set to false if any diagram object (node or connector) is outside the defined page break area.
 
@@ -196,4 +196,4 @@ The [`elementDraw`](https://ej2.syncfusion.com/react/documentation/api/diagram#e
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs9" %}

@@ -58,14 +58,14 @@ The following example demonstrates how to enable context menu feature in the gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs1" %}
 
 ## Custom context menu items
 
@@ -79,14 +79,14 @@ The following example demonstrates how to add custom context menu items in the G
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs2" %}
 
 ## Show context menu on left click
 
@@ -100,14 +100,14 @@ The following example demonstrates how to show context menu on left click using 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs3" %}
 
 > You can hide or show an item in context menu for specific area inside of grid by defining the [target](https://ej2.syncfusion.com/vue/documentation/api/grid/contextMenuItemModel/#target) property.
 
@@ -121,14 +121,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs4" %}
 
 ## Show or hide context menu items
 
@@ -140,11 +140,11 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/contextMenu/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/contextMenu/default-cs5" %}

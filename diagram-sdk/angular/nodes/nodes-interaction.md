@@ -32,7 +32,7 @@ Nodes can be selected at runtime using the [`select`](https://ej2.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs1" %}
 
 ### Selection Methods Reference
 
@@ -61,7 +61,7 @@ Nodes can be moved programmatically using the [`drag`](https://ej2.syncfusion.co
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs2" %}
 
 ## Resize
 
@@ -83,7 +83,7 @@ Node dimensions can be modified at runtime using the [`scale`](https://ej2.syncf
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs3" %}
 
 ## Rotate
 
@@ -105,7 +105,7 @@ Nodes can be rotated at runtime using the [`rotate`](https://ej2.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs4" %}
 
 ## Flip
 
@@ -132,7 +132,7 @@ The following example demonstrates how to apply flip transformations to nodes:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs5" %}
 
 ### Runtime Flip Updates
 
@@ -148,7 +148,7 @@ Node flip properties can be updated dynamically at runtime using the `^` operato
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs4-flip" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-cs4-flip" %}
 
 ### Flip Modes
 
@@ -208,4 +208,4 @@ The following example demonstrates implementing different flip modes:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-interaction-cs6" %}

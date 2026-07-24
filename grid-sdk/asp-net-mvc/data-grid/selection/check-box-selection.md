@@ -18,10 +18,10 @@ Here's an example of how to enable check box selection using `Type` property in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-selection/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-selection/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ In the following example, it demonstrates how to dynamically enable and change t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-mode/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-mode/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ Here's an example of how to hide selectall checkbox in column header using empty
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-hide/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-hide/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ In the example below, it prevents selection of rows with canceled orders.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/prevent-checkbox-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/prevent-checkbox-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/prevent-checkbox-selection/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/prevent-checkbox-selection/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ Here's an example of how to select a single row in checkbox selection mode using
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-select/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-select/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-select/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-select/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -117,10 +117,10 @@ Here's an example of how to enable selection only through checkbox click using `
  
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-only/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-only/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/checkbox-only/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/checkbox-only/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 

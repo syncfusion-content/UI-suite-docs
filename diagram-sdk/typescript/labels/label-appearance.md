@@ -30,7 +30,7 @@ The [`visible`](https://ej2.syncfusion.com/documentation/api/diagram/annotationM
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs14" %}
 
 ## Horizontal and vertical alignment
 
@@ -59,7 +59,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
 
 ## Annotation Margin
 
@@ -74,7 +74,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs8" %}
 
 
 ## Hyperlink
@@ -95,7 +95,7 @@ The [`textDecoration`](https://ej2.syncfusion.com/documentation/api/diagram/text
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs10" %}
 
 ## Rotate Annotation
 
@@ -110,7 +110,7 @@ Annotation can be rotated by setting the [`rotateAngle`](https://ej2.syncfusion.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-rotate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-rotate" %}
 
 ## Template support for annotation
 
@@ -131,7 +131,7 @@ The following code illustrates how to define a template in annotation.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs11" %}
 
 N> For the proper alignment of template, we need to mention width and height for the annotation while using template.
 
@@ -150,7 +150,7 @@ The following code illustrates how to define a annotationTemplate in annotation 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-annotationTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-annotationTemplate" %}
 
 ### Functional template
 
@@ -167,7 +167,7 @@ The following code illustrates how to define a functional template.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-functionalTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-functionalTemplate" %}
 
 ## Text align
 
@@ -182,7 +182,7 @@ The [`textAlign`](https://ej2.syncfusion.com/documentation/api/diagram/textalign
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs9" %}
 
 The following table shows the different text alignment.
 
@@ -206,7 +206,7 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs12" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -239,5 +239,5 @@ Types of text overflow are shown in below table.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs13" %}
 

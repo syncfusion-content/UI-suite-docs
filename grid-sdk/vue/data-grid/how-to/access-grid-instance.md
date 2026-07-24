@@ -16,11 +16,11 @@ The following example demonstrates how to access the grid instance and change th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/dropdown-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/dropdown-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs3" %}

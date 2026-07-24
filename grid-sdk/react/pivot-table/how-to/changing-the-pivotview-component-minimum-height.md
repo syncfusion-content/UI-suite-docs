@@ -16,17 +16,17 @@ When the content exceeds the minimum height, the component automatically adjusts
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs156/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs156/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs156/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs156/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs156/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs156/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs156/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs156/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs156" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs156" %}

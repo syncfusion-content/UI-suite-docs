@@ -36,7 +36,7 @@ Aggregates can also be integrated using the [aggregates](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
 {% raw %}
@@ -65,11 +65,11 @@ Aggregates can also be integrated using the [aggregates](https://ej2.syncfusion.
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs1" %}
 
 
 **Displaying aggregate values**
@@ -82,7 +82,7 @@ By default, aggregate values are shown in the footer, group footer, and group ca
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
 {% raw %}
@@ -111,11 +111,11 @@ By default, aggregate values are shown in the footer, group footer, and group ca
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs1" %}
 
 > * For local data, the aggregate values are calculated over the entire dataset currently loaded in the grid. Summary values reflect calculations across all grid rows.
 > * With remote data and paging enabled, aggregate values in the footer are calculated based on records displayed in the current page. This means the summary reflects only the visible rows, not the entire dataset.
@@ -136,7 +136,7 @@ The following example demonstrates using built-in aggregate types in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
 {% raw %}
@@ -173,11 +173,11 @@ The following example demonstrates using built-in aggregate types in the grid:
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs2" %}
 
 ## Multiple aggregates for a column
 
@@ -187,18 +187,18 @@ By specifying the aggregate [type](https://ej2.syncfusion.com/angular/documentat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs3/src/app.template.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs3/src/app.template.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-cs3" %}
 
 ## See also
 - [Custom aggregates](./custom-aggregate)

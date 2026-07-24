@@ -36,15 +36,15 @@ The following example demonstrates setting the `loadingIndicator.indicatorType` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/loading-indicator/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/loading-indicator/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/loading-indicator/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/loading-indicator/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/loading-indicator" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/loading-indicator" %}
 
 ## Refresh the datasource using property
 
@@ -71,15 +71,15 @@ The following example demonstrates adding a new record to the data source throug
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs2" %}
 
 ## Dynamically change the datasource or columns or both
 
@@ -169,15 +169,15 @@ this.gridInstance.changeDataSource(employeeData);
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/data-datasource/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/data-datasource/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/data-datasource/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/data-datasource/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/data-datasource" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/data-datasource" %}
 
 > * The Grid state persistence feature does not support the `changeDataSource` method.
 > * In this document, the above sample uses local data for the `changeDataSource` method. For those using remote data sources, refer to the [FlexibleData](https://ej2.syncfusion.com/angular/demos/#/bootstrap5/grid/flexible-data) resource.
@@ -192,15 +192,15 @@ The following example demonstrates preventing local time zone conversion for dat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/databinding-timezone/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/databinding-timezone/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/databinding-timezone/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/databinding-timezone/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/databinding-timezone" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/databinding-timezone" %}
 
 ## Set custom headers using a custom adaptor
 
@@ -214,18 +214,18 @@ The following example demonstrates setting custom headers using the custom adapt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-headers-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-headers-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-headers-cs1/src/app.template.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-headers-cs1/src/app.template.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-headers-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-headers-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-headers-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-headers-cs1" %}
 
 ![CustomHeaders](../images/custom-headers.png)
 

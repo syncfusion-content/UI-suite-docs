@@ -36,13 +36,13 @@ In this example, **data** is the local data source for the Grid, and **employeeD
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="foreign.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreign/foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreign/foreign.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="employeeView.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreign/employeeView.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreign/employeeView.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,7 +56,7 @@ This example demonstrates how to use the foreign key column with remote data bin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreign-remote/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreign-remote/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ In this example, an [AutoComplete](https://ej2.syncfusion.com/aspnetcore/documen
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/edit-template-foreign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/edit-template-foreign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="edit-template-foreign.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/edit-template-foreign/edit-template-foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/edit-template-foreign/edit-template-foreign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ In this example, a [DropDownList](https://ej2.syncfusion.com/aspnetcore/document
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/filter-ui-foreign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/filter-ui-foreign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-ui-foreign.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/filter-ui-foreign/filter-ui-foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/filter-ui-foreign/filter-ui-foreign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -107,10 +107,10 @@ In this example, the **"EmployeeID"** column is a foreign key column, and the **
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/filterbar-temp-foreign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/filterbar-temp-foreign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filterbar-temp-foreign.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/filterbar-temp-foreign/filterbar-temp-foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/filterbar-temp-foreign/filterbar-temp-foreign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -132,10 +132,10 @@ In the provided example, the `customAggregateFn` function is used to filter the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/aggregate-foreign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/aggregate-foreign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="aggregate-foreign.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/how-to/aggregate-foreign/aggregate-foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/aggregate-foreign/aggregate-foreign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -151,16 +151,16 @@ The following example demonstrates how to render foreign key values in a column 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey-columntemplate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey-columntemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="foreignkey-columntemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey-columntemplate/foreignkey-columntemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey-columntemplate/foreignkey-columntemplate.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="OrdersDetails.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey-columntemplate/OrdersDetails.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey-columntemplate/OrdersDetails.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="EmployeeDetails.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey-columntemplate/EmployeeDetails.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey-columntemplate/EmployeeDetails.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,10 +174,10 @@ In the following example, **Customer Name** and **Ship City** are foreign key co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkeycol-multiple/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkeycol-multiple/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="foreignkeycol-multiple.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkeycol-multiple/foreignkeycol-multiple.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkeycol-multiple/foreignkeycol-multiple.cs %}
 {% endhighlight %}
 {% endtabs %}
 

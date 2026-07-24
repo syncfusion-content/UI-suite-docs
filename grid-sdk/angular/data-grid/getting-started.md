@@ -142,7 +142,7 @@ Modify the template in the **src/app/app.ts** file to render the Data Grid compo
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/getting-started/src/app.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/getting-started/src/app.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
 import { bootstrapApplication } from '@angular/platform-browser';
@@ -161,7 +161,7 @@ bootstrapApplication(App, appConfig)
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging-cs1" %}
 
 ## Run the application
 

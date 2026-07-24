@@ -29,10 +29,10 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pageSettings/page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/page.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pageSettings/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,7 +40,7 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 {% tabs %}
 {% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pageSettings/page/page.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pageSettings/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -56,10 +56,10 @@ Stretch and align the background image anywhere over the diagram area. The [`sou
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ Stretch and align the background image anywhere over the diagram area. The [`sou
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -87,10 +87,10 @@ The [`multiplePage`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,10 +98,10 @@ The [`multiplePage`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -116,10 +116,10 @@ The diagram provides support to restrict/customize the interactive region, out o
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/boundary/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/boundary.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -127,10 +127,10 @@ The diagram provides support to restrict/customize the interactive region, out o
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/boundary/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/pagesettings/boundary/boundary.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/pagesettings/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -19,27 +19,27 @@ To make the tree grid adaptive, set the [`enableAdaptiveUI`](../api/treegrid/#en
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/adaptive-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/adaptive-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/adaptive-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/adaptive-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/adaptive-cs1" %}
 {% endif %}
 
 > Please refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to learn how to present and manipulate data.

@@ -26,20 +26,20 @@ In the following example, the scrollbar is enabled, and the grid's `height` is s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs4" %}
 
 ## Responsive with parent container
 
@@ -93,14 +93,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs5" %}
 
 ## Sticky header configuration
 
@@ -110,20 +110,20 @@ The following demo enables sticky header behavior during parent container scroll
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs6" %}
 
 ## Auto-scroll to selected row
 
@@ -237,14 +237,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs7" %}
 
 ## Hide the empty placeholder of scrollbar
 
@@ -254,20 +254,20 @@ The following example demonstrates the `hideScroll` method implementation with t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs8" %}
 
 ## Render scrollbar in both top and bottom
 
@@ -286,17 +286,17 @@ The following example demonstrates how to use the `created` event to insert a sc
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/scrolling-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/scrolling-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/scrolling-cs9" %}

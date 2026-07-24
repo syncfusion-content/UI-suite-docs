@@ -38,7 +38,7 @@ The `association` property allows you to define the type of association. The fol
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs18" %}
 
 
 
@@ -73,7 +73,7 @@ The sequence property allows you to define the type of sequence. The following c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs19" %}
 
 
 
@@ -108,7 +108,7 @@ The message property allows you to define the type of message. The following cod
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs20" %}
 
 
 

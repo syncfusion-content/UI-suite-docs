@@ -203,7 +203,7 @@ function App() {
     const toolbar = ['Add', 'Edit', 'Update', 'Delete', 'Cancel', 'ExpandAll', 'CollapseAll', 'Indent', 'Outdent'];
 
     return (
-        <div style={{ margin: '20px' }}>
+        <div style={% raw %}{{ margin: '20px' }}{% endraw %}>
             <h2>ODataV4Adaptor with Gantt</h2>
             <GanttComponent dataSource={data} taskFields={taskFields} resourceFields={resourceFields} resources={resources} showColumnMenu= {true}
                 editSettings={editSettings} height='400px' toolbar={toolbar} allowReordering={true} allowResizing={true} allowRowDragAndDrop={true} enableContextMenu={true} allowFiltering={true} allowSorting={true}>
@@ -375,7 +375,7 @@ function App() {
     const toolbar = ['Add', 'Edit', 'Update', 'Delete', 'Cancel', 'ExpandAll', 'CollapseAll', 'Indent', 'Outdent'];
 
     return (
-        <div style={{ margin: '20px' }}>
+        <div style={% raw %}{{ margin: '20px' }}{% endraw %}>
             <h2>ODataV4Adaptor with Gantt</h2>
             <GanttComponent dataSource={data} taskFields={taskFields} resourceFields={resourceFields} resources={resources} showColumnMenu= {true}
                 editSettings={editSettings} height='400px' toolbar={toolbar} allowReordering={true} allowResizing={true} allowRowDragAndDrop={true} enableContextMenu={true} allowFiltering={true} allowSorting={true}>

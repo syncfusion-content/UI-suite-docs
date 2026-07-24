@@ -20,20 +20,20 @@ The following example pins rows with "Critical" priority and "Open" status at th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs1" %}
 
 > Pinning rows requires a primary key column to map pinned rows to their original records. Set [columns->isPrimaryKey](https://ej2.syncfusion.com/react/documentation/api/grid/column#isprimarykey) to `true` for the key column.
 
@@ -43,20 +43,20 @@ Row pinning keeps important rows visible at the top while navigating pages. Pinn
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs2" %}
 
 ## Pinned rows selection
 
@@ -64,20 +64,20 @@ Pinned rows can be selected like regular rows, with their selection state synchr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs3" %}
 
 > The [selectionSettings->persistSelection](https://ej2.syncfusion.com/react/documentation/api/grid/selectionsettings#persistselection) is automatically enabled when using the `isRowPinned` callback function.
 
@@ -89,20 +89,20 @@ When sorting is applied, pinned rows are reordered using the same sorting rules 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs4" %}
 
 ## CRUD operations with row pinning
 
@@ -110,20 +110,20 @@ Row pinning fully supports CRUD operations with automatic synchronization betwee
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs5" %}
 
 ## Dynamic row pinning
 
@@ -131,20 +131,20 @@ Dynamic row pinning is available through the built-in context menu, allowing qui
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-pinning-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-pinning-cs6" %}
 
 ## Limitations
 

@@ -26,7 +26,7 @@ The [`DragEnter`](https://ej2.syncfusion.com/angular/documentation/api/diagram/i
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-enter" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-enter" %}
 
 ## DragLeave event
 
@@ -42,7 +42,7 @@ The [`DragLeave`](https://ej2.syncfusion.com/angular/documentation/api/diagram/i
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-leave" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-leave" %}
 
 ## DragOver event
 
@@ -58,7 +58,7 @@ The [`DragOver`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iD
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-over" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drag-over" %}
 
 ## Drop event
 
@@ -74,7 +74,7 @@ The [`Drop`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iDropE
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drop" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/drop" %}
 
 ## PaletteExpanding event
 
@@ -90,7 +90,7 @@ The [`PaletteExpanding`](https://ej2.syncfusion.com/angular/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/palette-expand" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/palette-expand" %}
 
 ## PaletteSelectionChange event
 
@@ -106,4 +106,4 @@ The [`PaletteSelectionChange`](https://ej2.syncfusion.com/angular/documentation/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/palette-selection" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/events/palette-selection" %}

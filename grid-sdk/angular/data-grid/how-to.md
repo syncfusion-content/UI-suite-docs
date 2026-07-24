@@ -38,15 +38,15 @@ Refresh the grid after the data source change by using the [`refresh`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs3" %}
 
 ## Enable/Disable Grid and its actions
 
@@ -91,15 +91,15 @@ In the below demo, the button click will enable or disable the Grid and its acti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs36/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs36/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs36/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs36/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs36" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs36" %}
 
 ## Print the expanded state from other pages
 
@@ -109,15 +109,15 @@ In the following example, expanded child grids from other pages are printed.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs13" %}
 
 ## Columns
 
@@ -149,15 +149,15 @@ this.grid.refreshColumns();
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs4" %}
 
 ### Customize Column Styles
 
@@ -192,15 +192,15 @@ Add the custom CSS class to particular column by using [`customAttributes`](http
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-cs2" %}
 
 ### Custom Tooltip for Columns
 
@@ -219,15 +219,15 @@ tooltip (args: QueryCellInfoEventArgs) {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-tooltip-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-tooltip-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-tooltip-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-tooltip-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-tooltip-cs2" %}
 
 ### Render other components in a column
 
@@ -244,15 +244,15 @@ Initialize the column template for your custom component. The [`template`](https
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/column-sync-comp-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/column-sync-comp-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/column-sync-comp-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/column-sync-comp-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-sync-comp-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-sync-comp-cs2" %}
 
 ### Change the Orientation of Header Text
 
@@ -297,15 +297,15 @@ setHeaderHeight(args) {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-orientation-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-orientation-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-orientation-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-orientation-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-orientation-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-orientation-cs2" %}
 
 ### Customize the icon for column menu
 
@@ -321,15 +321,15 @@ In the below sample, grid is rendered with a customized column menu icon.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-menu-icon-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-menu-icon-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-menu-icon-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-menu-icon-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-menu-icon-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-menu-icon-cs2" %}
 
 ## Editing
 
@@ -341,15 +341,15 @@ In the below demo, the **ShipCountry** column is rendered with the template.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs37/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs37/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs37/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs37/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs37" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs37" %}
 
 ### Customize the Edit Dialog
 
@@ -359,15 +359,15 @@ In the below example, we have changed the dialog's header text for editing and a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs38/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs38/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs38/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs38/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs38" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs38" %}
 
 ### Show or Hide columns in Dialog editing
 
@@ -381,15 +381,15 @@ In the below example, we have rendered the grid columns **CustomerID** as hidden
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs39/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs39/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs39/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs39/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs39" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs39" %}
 
 ### Cascading DropDownList with Grid editing
 
@@ -399,15 +399,15 @@ In the below demo, Cascading DropDownList rendered for **ShipCountry** and **Shi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs40/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs40/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs40/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs40/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs40" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs40" %}
 
 ### Provide custom data source and enabling filtering to DropDownList
 
@@ -436,15 +436,15 @@ In the below demo, DropDownList is rendered with custom data source for the **Sh
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs41/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs41/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs41/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs41/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs41" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs41" %}
 
 ### Use Wizard like Dialog Editing
 
@@ -454,15 +454,15 @@ The following example demonstrates the wizard like editing in the grid with the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/wizardtemplate-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/wizardtemplate-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/wizardtemplate-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/wizardtemplate-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/wizardtemplate-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/wizardtemplate-cs2" %}
 
 ### Using Tab Inside the Dialog Editing
 
@@ -538,15 +538,15 @@ The following example, we have rendered tab control inside the edit dialog. The 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/tablikeedit-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/tablikeedit-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/tablikeedit-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/tablikeedit-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/tablikeedit-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/tablikeedit-cs2" %}
 
 ### Disable editing for a particular row/cell
 
@@ -556,29 +556,29 @@ In the below demo, the rows which are having the value for **ShipCountry** colum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs42/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs42/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs42/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs42/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs42" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs42" %}
 
 For batch mode of editing, you can use [`cellEdit`](https://ej2.syncfusion.com/angular/documentation/api/grid/#celledit) event of Grid. In the below demo, the cells which are having the value as "France" is prevented from editing.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs43/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs43/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs43/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs43/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs43" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs43" %}
 
 ### Perform Grid actions by keyboard shortcut keys
 
@@ -590,15 +590,15 @@ The following example demonstrates on **Adding** a new row when Enter key is pre
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs44/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs44/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs44/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs44/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs44" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs44" %}
 
 ### Make a cell editable on a single click with batch editing
 
@@ -608,15 +608,15 @@ Bind the click event for the Grid and in the click event handler call the [`edit
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs45/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs45/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs45/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs45/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs45" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs45" %}
 
 ## Sort
 
@@ -647,15 +647,15 @@ In the below demo, click on the corresponding button to perform single-column or
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs46/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs46/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs46/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs46/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs46" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs46" %}
 
 ### Dynamically clear sort for particular/entire sorted columns in Grid
 
@@ -688,15 +688,15 @@ In the below demo, click on the corresponding button to clear sort for particula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs47/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs47/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs47/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs47/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs47" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs47" %}
 
 ## Foreign Key
 
@@ -710,15 +710,15 @@ In the following example, The **Employee Name** is a foreign key column and whil
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs6" %}
 
 ### Customizing filter menu operators list
 
@@ -732,15 +732,15 @@ You can customize the default filter operator list by defining the [`filterSetti
 In the following sample, we have customized string filter operators.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs4" %}
 
 ### Customize filter UI in foreign key column
 
@@ -751,15 +751,15 @@ In the following example, The **Employee Name** is a foreign key column. DropDow
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs7" %}
 
 ### Use filter bar template in foreign key column
 
@@ -771,15 +771,15 @@ This column header shows the custom filter bar template and you can select filte
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs8" %}
 
 ### Perform aggregation in Foreign Key Column
 
@@ -791,15 +791,15 @@ In the following example, The **Employee Name** is a foreign key column and the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs9" %}
 
 ### Bind foreign key data source on dropdown edit
 
@@ -807,15 +807,15 @@ When editing, you can bind foreign key data source to a dropdown list by using [
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/foreignkey-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/foreignkey-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/foreignkey-cs10" %}
 
 > * By default, the foreign key column's **editType** will be set as **dropdownedit**.
 
@@ -828,15 +828,15 @@ You can use corresponding exporting methods and exportComplete events to get the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs3" %}
 
 ### Exporting Filtered Data Only
 
@@ -846,15 +846,15 @@ In the provided PDF exporting demo, filtered data is obtained by applying a filt
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-filtered-data-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-filtered-data-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-filtered-data-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-filtered-data-cs2" %}
 
 ## Pager
 
@@ -864,15 +864,15 @@ To customize default values of pager dropdown, you need to define [`pageSizes`](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-column-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-cs3" %}
 
 ## Hide the expand/collapse icon in parent row when no records in child grid
 
@@ -918,12 +918,12 @@ In the below demo, the expand/collapse icon in the row with **EmployeeID** as **
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/template-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/template-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/template-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/template-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/template-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/template-cs3" %}

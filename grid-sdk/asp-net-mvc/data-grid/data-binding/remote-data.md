@@ -593,13 +593,13 @@ The following example demonstrates how to bind custom data to handle grid action
 
 {% tabs %}
 {% highlight razor tabtitle="Index.cshtml" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-custom-handle/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-custom-handle/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-custom-handle/custombinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-custom-handle/custombinding.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="OrdersDetails.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-custom-handle/OrdersDetails.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-custom-handle/OrdersDetails.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -651,10 +651,10 @@ The following code example demonstrates how to export all records on the client 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="remotedata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-export/remotedatamvc.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-export/remotedatamvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -678,10 +678,10 @@ The following example demonstrates how to send additional parameters to the serv
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-prams/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-prams/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="remotedata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/remote-prams/custombinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/remote-prams/custombinding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -693,10 +693,10 @@ On remote data binding, all grid actions such as paging, sorting, editing, group
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/offline/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/offline/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Offline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/offline/offline.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/offline/offline.cs %}
 {% endhighlight %}
 {% endtabs %} 
 

@@ -37,33 +37,33 @@ To render the root-level folder, specify the `parentId` as null, or there is no 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/flat-data-cs" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/flat-data-cs" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/flat-data-cs/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/flat-data-cs/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/flat-data-cs" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/flat-data-cs" %}
 {% endif %}
 
 ## Rendering flat JSON data from Google Drive

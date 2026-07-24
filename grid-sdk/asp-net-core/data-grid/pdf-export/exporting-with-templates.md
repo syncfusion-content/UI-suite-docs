@@ -22,10 +22,10 @@ In the following sample, the hyperlinks and images are exported to PDF using `hy
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/column-template-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/column-template-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/column-template-export/column-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/column-template-export/column-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ In the following sample, the detail row content is formatted by specifying the `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/detail-template-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/detail-template-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Detail-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/detail-template-export/detail-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/detail-template-export/detail-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ In the following sample, the customized caption text is exported to PDF using `c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/caption-template-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/caption-template-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Caption-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/caption-template-export/caption-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/caption-template-export/caption-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 

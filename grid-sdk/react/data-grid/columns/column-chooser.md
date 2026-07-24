@@ -22,20 +22,20 @@ The column chooser dialog displays the header text of each column. If a column d
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs5" %}
 
 ## Hide column in column chooser dialog
 
@@ -45,20 +45,20 @@ In this example, the `showInColumnChooser` property is set to `false` for the "O
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs1" %}
 
 > The `showInColumnChooser` property is applied to each `<ColumnDirective>` element individually. Setting it to `false` hides specific columns from the Column Chooser dialog.
 
@@ -68,20 +68,20 @@ The column chooser dialog can be opened using an external button through the [op
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs6" %}
 
 ## Customize column chooser dialog size
 	
@@ -100,20 +100,20 @@ The column chooser dialog comes with a default size, but height and width can be
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs2" %}
 
 ## Customize column order in column chooser dialog
 
@@ -131,20 +131,20 @@ Option     | Description
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-sorting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-sorting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-sorting-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-sorting-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/columnchooser-sorting-cs1" %}
 
 ### Displaying selected columns in the column chooser
 
@@ -154,20 +154,20 @@ Specific columns can be shown in the column chooser by setting [selectedColumns]
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/specified-columnchooser-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/specified-columnchooser-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/specified-columnchooser-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/specified-columnchooser-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/specified-columnchooser-cs1" %}
 
 ## Change default search operator in the column chooser
 
@@ -177,20 +177,20 @@ The following example demonstrates changing the default search operator to `cont
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs3" %}
 
 ## Diacritics searching in column chooser
 
@@ -198,20 +198,20 @@ By default, diacritic characters are ignored when performing a search in the col
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-cs4" %}
 
 ## Column chooser template
 
@@ -227,20 +227,20 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-template/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-template/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-template/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-template/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-template/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-template/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-chooser-template/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-chooser-template/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-chooser-template" %}
 
 ## Enable or disable search in column chooser
 
@@ -255,17 +255,17 @@ The following example demonstrates dynamically enabling or disabling the search 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-enable-disable/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-enable-disable/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-enable-disable/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/columnchooser-enable-disable/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/columnchooser-enable-disable" %}

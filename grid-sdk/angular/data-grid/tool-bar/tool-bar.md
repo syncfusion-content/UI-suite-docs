@@ -18,15 +18,15 @@ The following example demonstrates enabling toolbar items in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs2" %}
 
 ## Enable or disable toolbar items
 
@@ -36,15 +36,15 @@ In the following example, the [EJ2 Toggle Switch Button component](https://ej2.s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-enable-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-enable-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-enable-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-enable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-enable-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-enable-cs1" %}
 
 ## Add toolbar at the bottom of the Grid
 
@@ -56,15 +56,15 @@ The following example shows adding toolbar items at the bottom using the grid's 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-enable-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-enable-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-enable-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-enable-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-enable-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-enable-cs2" %}
 
 ## Customize toolbar buttons using CSS
 
@@ -83,15 +83,15 @@ The following example demonstrates changing the background color of the `Add`, `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/toolbar-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs3" %}
 
 ## See Also
 

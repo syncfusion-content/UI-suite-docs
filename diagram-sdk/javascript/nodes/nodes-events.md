@@ -26,7 +26,7 @@ Triggers when the node is clicked. The following code example explains how to ge
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clickEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clickEvent" %}
 
 ## Selection change event
 
@@ -43,7 +43,7 @@ The following code example explains how to get the [`selectionChange`](https://e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-selectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-selectionEvent" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the code snippet below.
 
@@ -72,7 +72,7 @@ The following code example explains how to get the [`positionChange`](../../api/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-positionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-positionEvent" %}
 
  You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](../../api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below.
 
@@ -100,7 +100,7 @@ The following code example explains how to get the [`sizeChange`](../../api/diag
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-resizeEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-resizeEvent" %}
 
  You can prevent resizing by setting the `cancel` property of [`SizeChangeEventArgs`](../../api/diagram/iSizeChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -128,7 +128,7 @@ The following code example explains how to get the [`rotateChange`](../../api/di
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-rotateEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-rotateEvent" %}
 
  You can prevent rotation by setting the `cancel` property of [`RotationEventArgs`](../../api/diagram/iRotationEventArgs) to true, as shown in the code snippet below.
 
@@ -155,7 +155,7 @@ Triggers when there is any property change occurred for the node. The following 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-propertyChange" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-propertyChange" %}
 
 ## Collection change event
 
@@ -171,7 +171,7 @@ The following code example explains how to get the [`collectionChange`](../../ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-collectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-collectionEvent" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting nodes, by setting the `cancel` property of [`CollectionChangeEventArgs`](../../api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -210,7 +210,7 @@ The following code example shows how to handle these events in the diagram and c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-mouseEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-mouseEvent" %}
 
 
 

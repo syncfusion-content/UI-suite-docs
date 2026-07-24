@@ -19,27 +19,27 @@ To search records, inject the [`Filter`](../api/treegrid/#fitermodule) module in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs1" %}
 {% endif %}
 
 ## Initial search
@@ -50,27 +50,27 @@ To apply search at initial rendering, set the fields, operator, key, and ignoreC
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs2" %}
 {% endif %}
 
 > By default, treegrid searches all the bound column values. To customize this behavior define the [`searchSettings.fields`](../api/treegrid/searchSettingsModel/#fields) property.
@@ -99,27 +99,27 @@ To search treegrid records from an external button, invoke the [`search`](../api
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/search-method-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/search-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/search-method-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/search-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/search-method-cs1" %}
 {% endif %}
 
 ## Search specific columns
@@ -130,27 +130,27 @@ By default, treegrid searches all visible columns. You can search specific colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/searching-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/searching-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/searching-cs3" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

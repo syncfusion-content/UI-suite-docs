@@ -114,15 +114,15 @@ The following example demonstrates the TreeGrid localized to `Deutsch` culture.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs1" %}
 
 ### Localization of dependent components in TreeGrid
 
@@ -193,15 +193,15 @@ The [`Internationalization`](https://ej2.syncfusion.com/angular/documentation/co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs2" %}
 
 > In the above sample, the `Price` column is formatted using `NumberFormatOptions`.
 > By default, the [`locale`](https://ej2.syncfusion.com/angular/documentation/api/treegrid#locale) value is `en-US`. To use another culture, update the `locale` property accordingly.
@@ -212,15 +212,15 @@ RTL support allows the TreeGrid's text direction and layout to switch from left 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/internationalization-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/internationalization-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/internationalization-cs3" %}
 
 ## See also
 

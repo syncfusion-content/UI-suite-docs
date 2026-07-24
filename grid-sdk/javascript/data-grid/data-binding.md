@@ -22,14 +22,14 @@ To bind local data to the grid, you can assign a JavaScript object array to the 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs120/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs120/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs120/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs120/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs120" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs120" %}
 
 > By default, [`DataManager`](../data) uses **JsonAdaptor** for local data-binding.
 
@@ -39,14 +39,14 @@ To bind remote data to grid component, assign service data as an instance of [`D
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs121/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs121/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs121/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs121/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs121" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs121" %}
 
 > By default, [`DataManager`](../data) uses **ODataAdaptor** for remote data-binding.
 
@@ -56,14 +56,14 @@ To bind remote data to grid component, assign service data as an instance of [`D
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs122/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs122/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs122/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs122/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs122" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs122" %}
 
 ### Binding with OData v4 services
 
@@ -71,14 +71,14 @@ The ODataV4 is an improved version of OData protocols, and the [`DataManager`](.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs123/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs123/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs123/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs123/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs123" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs123" %}
 
 ### Web API
 
@@ -177,14 +177,14 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs124/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs124/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs124/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs124/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs124" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs124" %}
 
 ### Offline mode
 
@@ -192,14 +192,14 @@ On remote data binding, all grid actions such as paging, sorting, editing, group
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs125/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs125/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs125/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs125/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs125" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs125" %}
 
 ### Sending additional parameters to the server
 
@@ -207,14 +207,14 @@ To add a custom parameter to the data request, use the **addParams** method of *
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs126/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs126/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs126/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs126/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs126" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs126" %}
 
 > The parameters added using the [`query`](../api/grid/#query) property will be sent along with the data request for every grid action.
 
@@ -227,10 +227,10 @@ The argument passed to the [`actionFailure`](../api/grid/#actionfailure) event c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs127/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs127/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs127/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs127/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -207,7 +207,7 @@ For reference, the complete sample used in this section is shown below. The data
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.ts %}
+{% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}

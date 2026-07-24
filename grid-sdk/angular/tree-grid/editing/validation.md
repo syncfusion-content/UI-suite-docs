@@ -22,14 +22,14 @@ The following code example demonstrates how to define a validation rule for Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs1" %}
 
 ## Custom validation
 
@@ -39,14 +39,14 @@ In the following demo, custom validation is applied for **Priority** column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs2" %}
 
 ### Custom validation based on dropdown change
 
@@ -56,14 +56,14 @@ In the following sample, dropdownlist edit type is used for the **Role** and **S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs3" %}
 
 ### Custom validation for numeric column
 
@@ -73,14 +73,14 @@ In the following example, custom validation functions are defined for the progre
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs4" %}
 
 ## Dynamically add or remove validation rules from the form
 
@@ -92,14 +92,14 @@ The following example demonstrates how to dynamically add or remove a required v
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs5" %}
 
 >To remove an existing validation rule from an input element, you can use the [removeRules](https://ej2.syncfusion.com/angular/documentation/api/form-validator/#removerules) method. 
 
@@ -113,11 +113,11 @@ The following example demonstrates how to change the position of the validation 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/validation-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/validation-cs6" %}

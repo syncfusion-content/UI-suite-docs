@@ -14,15 +14,15 @@ In Cell edit mode, double-clicking a cell switches it to an editable state. You 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs7" %}
 
 > Cell edit mode is the default editing mode in TreeGrid.
 > The following events occur during cell editing:

@@ -68,20 +68,20 @@ For instance, if an order has "EmployeeID: 1", the Grid looks up the employee wi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs28/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs28/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs28/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs28/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs28/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs28/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs28/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs28/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs28" %}
 
 > If `foreignKeyField` is not defined, the column uses [field](https://ej2.syncfusion.com/react/documentation/api/grid/column#field).
 
@@ -93,20 +93,20 @@ The following example demonstrates foreign key column implementation with remote
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs7" %}
 
 > For remote data, sorting and grouping operations are performed based on `foreignKeyField` (the ID field) instead of `foreignKeyValue` (the display field) for better performance.
 
@@ -123,20 +123,20 @@ In the following example, an [AutoComplete](https://ej2.syncfusion.com/react/dem
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs1" %}
 
 ## Customize filter UI of foreign key column
 
@@ -150,20 +150,20 @@ In the following example, a [DropDownList](https://ej2.syncfusion.com/react/demo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs2" %}
 
 ## Use filter bar template in foreign key column
 
@@ -178,20 +178,20 @@ In the following example, the "EmployeeID" column is a foreign key column with t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs3" %}
 
 ## Perform aggregation in foreign key column
 
@@ -214,20 +214,20 @@ The custom aggregate function receives the Grid data and processes it to calcula
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs4" %}
 
 ## Render foreign key value in column template
 
@@ -235,20 +235,20 @@ Foreign key values can be rendered within column templates to enhance display of
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreignkey-column-template/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreignkey-column-template/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreignkey-column-template/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreignkey-column-template/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreignkey-column-template/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreignkey-column-template/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreignkey-column-template/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreignkey-column-template/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreignkey-column-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreignkey-column-template" %}
 
 ## Enable multiple foreign key columns
 
@@ -258,20 +258,20 @@ In the following example, "Customer Name" and "Ship City" are foreign key column
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/foreign-key-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/foreign-key-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/foreign-key-cs5" %}
 
 ## Edit template in foreign key column using remote data
 

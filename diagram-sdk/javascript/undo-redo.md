@@ -60,7 +60,7 @@ The diagram method [`startGroupAction`](../api/diagram#startgroupaction) allows 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs1" %}
 
 ## Stack Limit
 
@@ -75,7 +75,7 @@ The [`stackLimit`](../api/diagram/history#stacklimit) property of history manage
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs3" %}
 
 ## Restrict Undo/Redo
 
@@ -90,7 +90,7 @@ Undo, Redo process can be avoided for particular element by using [`canLog`](../
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-cs2" %}
 
 
 ## undo/redo stack
@@ -140,7 +140,7 @@ The following code shows how to get the current entry from the diagram history:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-currentEntry" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-currentEntry" %}
 
 
 ## Clear history
@@ -180,6 +180,6 @@ The [`historyChange`](../api/diagram/index-default#historychange) event triggers
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-historyEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/undoredo-historyEvent" %}
 
 While interacting with diagram, this event can be used to do the customization.

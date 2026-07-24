@@ -32,7 +32,7 @@ The following code shows how to add a ruler to the diagram.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -45,7 +45,7 @@ The following code shows how to add a ruler to the diagram.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs1" %}
 {% endif %}
 
 ## Customizing the Ruler
@@ -73,7 +73,7 @@ The following code shows how the diagram ruler can be customized.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -86,7 +86,7 @@ The following code shows how the diagram ruler can be customized.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/customRuler-cs1" %}
 {% endif %}
 
 ### Arrange tick
@@ -106,7 +106,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -119,7 +119,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ruler-cs2" %}
 {% endif %}
 
 ### Marker color

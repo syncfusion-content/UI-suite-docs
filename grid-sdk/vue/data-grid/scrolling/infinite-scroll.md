@@ -23,14 +23,14 @@ The following an example that demonstrates how to enable infinite scroll in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs1" %}
 
 ## Number of blocks rendered during initial loading
 
@@ -42,14 +42,14 @@ The following an example of how you can use the `initialBlocks` property to set 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs2" %}
 
 ## Efficient data caching and DOM management in grid cache mode
 
@@ -63,14 +63,14 @@ The following example that demonstrates how to enable/disable cache mode in infi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs3" %}
 
 > If [Hierarchy Grid](https://ej2.syncfusion.com/vue/documentation/grid/hierarchy-grid) or [Detail Template](https://ej2.syncfusion.com/vue/documentation/grid/row/detail-template) feature is enabled along with infinite scrolling without defining the height property, it will take a default height of **300px**. Since the [height](https://ej2.syncfusion.com/vue/documentation/api/grid/#height) property is mandatory for the hierarchy grid and detail template features, ensure to define it accordingly. 
 

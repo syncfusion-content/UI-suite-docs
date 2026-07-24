@@ -44,7 +44,7 @@ The following code example illustrates how to create a class.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/class-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/class-cs1" %}
 
 ### Interface
 
@@ -70,7 +70,7 @@ The following code example illustrates how to create an interface.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/interface-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/interface-cs1" %}
 
 ### Enumeration
 
@@ -90,7 +90,7 @@ The following code example illustrates how to create an enumeration.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/enumeration-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/enumeration-cs1" %}
 
 ## UML Class Relationships
 
@@ -123,7 +123,7 @@ The association property allows you to define the type of association. The defau
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/association-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/association-cs1" %}
 
 ### Aggregation
 
@@ -141,7 +141,7 @@ The following code example illustrates how to create an aggregation.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/aggregation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/aggregation-cs1" %}
 
 ### Composition
 
@@ -159,7 +159,7 @@ The following code example illustrates how to create a composition.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/composition-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/composition-cs1" %}
 
 ### Inheritance
 
@@ -179,7 +179,7 @@ The following code example illustrates how to create an inheritance.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/inheritance-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/inheritance-cs1" %}
 
 ### Dependency
 
@@ -197,7 +197,7 @@ The following code example illustrates how to create a dependency.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/dependency-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/dependency-cs1" %}
 
 ### Multiplicity
 
@@ -230,7 +230,7 @@ The following code example illustrates how to customize the multiplicity.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/multiplicity-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/multiplicity-cs1" %}
 
 ## How to add UML child at runtime
 
@@ -252,7 +252,7 @@ The following code example illustrates how to add members, methods and attribute
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/umlmethod-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/umlmethod-cs1" %}
 
 ### Adding UML child through user interaction
 
@@ -276,7 +276,7 @@ The following code example showcases the rendering of UML built-in shapes in a s
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/uml-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/uml-cs1" %}
 
 ## Editing in UML nodes
 
@@ -327,7 +327,7 @@ The following code illustrates how to create UmlActivity shapes.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/UmlActivity-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/UmlActivity-cs1" %}
 
 ### UML Activity connector
 
@@ -345,4 +345,4 @@ The following code illustrates how to create a UmlActivity connector.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/UmlActivityConnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umldiagramshapes/UmlActivityConnector-cs1" %}

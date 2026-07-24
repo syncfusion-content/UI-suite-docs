@@ -18,15 +18,15 @@ In the example below, the background color of the `Duration` column in the expor
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs2" %}
 
 ## Theme
 
@@ -36,14 +36,14 @@ To apply a theme during PDF export, define the `theme` property in `exportProper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs3" %}
 
 > By default, the material theme is applied to the exported PDF document.

@@ -19,10 +19,10 @@ Column validation allows you to validate the edited or added row data and it dis
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/validation-rules/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/validation-rules/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValidationRule.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/validation-rules/validationRule.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/validation-rules/validationRule.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ Column validation allows you to validate the edited or added row data and it dis
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/validation-rules/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/validation-rules/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValidationRule.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/validation-rules/validationRule.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/validation-rules/validationRule.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -50,10 +50,10 @@ In the below demo, custom validation applied for **Priority** column.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-validation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-validation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValidationRule.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-validation/validationRule.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-validation/validationRule.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -61,10 +61,10 @@ In the below demo, custom validation applied for **Priority** column.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-validation/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-validation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValidationRule.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-validation/validationRule.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-validation/validationRule.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

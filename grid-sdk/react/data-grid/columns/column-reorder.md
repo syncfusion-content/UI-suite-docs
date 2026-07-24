@@ -23,20 +23,20 @@ To enable column reordering in the Grid, set the [allowReordering](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs11" %}
 
 > * The appearance of column headers during drag-and-drop operations can be customized by using the [columnDrag](https://ej2.syncfusion.com/react/documentation/api/grid#columndrag) and [columnDrop](https://ej2.syncfusion.com/react/documentation/api/grid#columndrop) events.
 > * When columns are reordered, the position of the corresponding column data also changes. Ensure that any additional code or logic that relies on the column order is updated accordingly.
@@ -49,20 +49,20 @@ In the following example, the "ShipCity" column is prevented from being reordere
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs1" %}
 
 ## Reorder columns programmatically
 
@@ -98,20 +98,20 @@ In this example, the "Customer ID" column, located at index 1, is moved to index
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs2" %}
 
 ### Reorder columns by target index
 
@@ -130,20 +130,20 @@ The following example demonstrates the use of the `reorderColumnByTargetIndex` m
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs3" %}
 
 ### Reorder columns by field names
 
@@ -162,20 +162,20 @@ The following example demonstrates the use of the `reorderColumns` method to reo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs13/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs13" %}
 
 ### Reorder columns using column model
 
@@ -205,20 +205,20 @@ This shows the method handling reordering of both normal and stacked header colu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/reorder-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/reorder-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/reorder-cs4" %}
 
 ## Column reorder events
 
@@ -234,17 +234,17 @@ The Grid component supports the following column reorder events:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs14/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs14" %}

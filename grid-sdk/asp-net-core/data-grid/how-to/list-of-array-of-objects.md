@@ -17,10 +17,10 @@ The following example shows how to set Complex field for datasource having Array
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexarray/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexarray/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complexarray.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexarray/complexarray.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexarray/complexarray.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ The following example shows how to set Complex field for datasource having Array
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexarray/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexarray/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complexarray.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexarray/complexarray.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexarray/complexarray.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

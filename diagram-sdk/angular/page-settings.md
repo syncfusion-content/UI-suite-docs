@@ -30,7 +30,7 @@ The following example demonstrates how to customize basic page settings includin
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/pagesettings-cs1" %}
 
 ## Set background image
 
@@ -48,7 +48,7 @@ The following code example shows how to configure a background image for the dia
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/background-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/background-cs1" %}
 
 ## Page orientation
 
@@ -71,7 +71,7 @@ The following example demonstrates how orientation affects page dimensions by sw
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/orientation-cs1" %}
 
 ## Multiple pages and page breaks
 
@@ -89,7 +89,7 @@ The [`multiplePage`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/pagebreak-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/pagebreak-cs1" %}
 
 The appearance of page break lines can be customized by overriding the styles of the .e-diagram-page-break CSS class. For detailed styling options, refer to the [`CSS customization`](https://ej2.syncfusion.com/angular/documentation/diagram/style#customizing-the-page-breaks) documentation.
 
@@ -117,7 +117,7 @@ The following example shows how to configure boundary constraints to restrict el
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/boundary-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/boundary-cs1" %}
 
 ## Fit options
 
@@ -146,4 +146,4 @@ The following example demonstrates the configuration and usage of fit options fo
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/fitoption-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/pagesettings/fitoption-cs1" %}

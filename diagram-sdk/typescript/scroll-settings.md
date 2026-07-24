@@ -36,7 +36,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs1" %}
 
 
 
@@ -64,7 +64,7 @@ You can programmatically change the scroll offsets of diagram by customizing the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs2" %}
 
 
 
@@ -107,7 +107,7 @@ The [`zoomTo`](https://ej2.syncfusion.com/documentation/api/diagram#zoomto) meth
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs8" %}
 
 
 
@@ -144,7 +144,7 @@ The following example demonstrates how to configure autoscroll:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs3" %}
 
 
 
@@ -184,7 +184,7 @@ The following code example illustrates how to specify the scroll limit and custo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs5" %}
 
 
 
@@ -205,7 +205,7 @@ The following code example illustrates how to set scroll padding for the diagram
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs6" %}
 
 
 
@@ -246,5 +246,5 @@ The [`scrollChange`](https://ej2.syncfusion.com/documentation/api/diagram/iScrol
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/scrollSettings-cs9" %}
 

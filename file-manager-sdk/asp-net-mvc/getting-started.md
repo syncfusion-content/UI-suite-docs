@@ -91,10 +91,10 @@ Update a `HomeController.cs` file with the following code. Create a `Content/Fil
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/getting-started/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/getting-started/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/getting-started/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/getting-started/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 

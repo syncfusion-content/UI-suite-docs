@@ -34,20 +34,20 @@ The following example demonstrates exporting selected records to an Excel docume
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/refresh-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/refresh-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/refresh-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/refresh-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs12" %}
 
 ### Export hidden columns
 
@@ -55,14 +55,14 @@ Export hidden columns by setting `includeHiddenColumn` to **true**.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs4" %}
 
 ### Show or hide columns on exported excel
 
@@ -76,14 +76,14 @@ In the following example, the **Duration** column is hidden in the TreeGrid. Dur
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs5" %}
 
 ### File name for exported document
 
@@ -91,14 +91,14 @@ Assign a file name for the exported document by defining the `fileName` property
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs6" %}
 
 ## Conditional cell formatting
 
@@ -110,14 +110,14 @@ The following example demonstrates customizing the background color of the Freig
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs2" %}
 
 ## Theme
 
@@ -127,13 +127,13 @@ To apply a theme, define `theme` in `ExcelExportProperties`.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/excel-export-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs3" %}
 
 > By default, the Material theme is applied to the exported Excel document.

@@ -27,7 +27,7 @@ A group is used to frame a part of the diagram, shows that elements included in 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs17" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -40,5 +40,5 @@ A group is used to frame a part of the diagram, shows that elements included in 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs17" %}
 {% endif %}

@@ -71,7 +71,7 @@ The following code example illustrates how to print the diagram based on differe
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs1" %}
 
 ### Multiple Page
 
@@ -89,7 +89,7 @@ The following code example demonstrates how to enable multiple page printing:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs2" %}
 
 ### Margin
 
@@ -105,7 +105,7 @@ The margin for the print region can be set using the [`margin`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs3" %}
 
 ### Page Width and Page Height
 
@@ -121,7 +121,7 @@ The [`pageHeight`](https://ej2.syncfusion.com/react/documentation/api/diagram/iP
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs4" %}
 
 ### Page Orientation
 
@@ -142,7 +142,7 @@ The following example shows how to configure page orientation:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs5" %}
 
 ## Limitations
 

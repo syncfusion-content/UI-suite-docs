@@ -23,10 +23,10 @@ To enable the `headerText` property, you simply need to define it in the **e-gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,10 +46,10 @@ The following example demonstrate, the custom element is rendered for both **Cus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertemplate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertemplate/headertemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertemplate/headertemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ Here's an example of how to use stacked headers with a custom `headerTemplate` i
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-stacked/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-stacked/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Stackedheader.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-stacked/stackedHeader.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-stacked/stackedHeader.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ The following example demonstrates how to dynamically change the alignment of th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-textalign/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-textalign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-textalign/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-textalign/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -122,10 +122,10 @@ The following example demonstrates how to dynamically change the auto-wrap of th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-autowrap/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-autowrap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-autowrap/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-autowrap/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -154,10 +154,10 @@ The following example demonstrates how to dynamically change the height of the h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change-height/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change-height/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -206,10 +206,10 @@ Here is an example of how to change the header text of a column using the `getCo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columntext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change/columntext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change/columntext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -221,10 +221,10 @@ If you want to change the header text of all columns in the grid, you can loop t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change-all/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change-all/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columntext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-change-all/columntext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-change-all/columntext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -276,10 +276,10 @@ The following example demonstrates how to change the orientation of the **Freigh
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-orientation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-orientation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-orientation/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-orientation/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -296,10 +296,10 @@ Here's an example of how to use the `BeforeRender` event to add a custom tooltip
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-tooltip/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-tooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-tooltip/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-tooltip/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -325,10 +325,10 @@ Here's an example that demonstrates how to customize the appearance of a column 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-css/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-css/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-css/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-css/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -360,10 +360,10 @@ The following example demonstrates how to customize the appearance of the **Orde
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-property/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-property/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-property/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-property/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -386,10 +386,10 @@ Here's an example of how to use these methods to change the style of a specific 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-method/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-method/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -405,10 +405,10 @@ The following example demonstrates how to add a `headerCellInfo` event handler t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-event/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-event/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-using-event/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-using-event/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -424,10 +424,10 @@ The following example demonstrates how to use the `refreshHeader` method to upda
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-refresh/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-refresh/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertext.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/headertext-refresh/headertext.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/headertext-refresh/headertext.cs %}
 {% endhighlight %}
 {% endtabs %}
 

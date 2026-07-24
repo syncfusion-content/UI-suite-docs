@@ -14,15 +14,15 @@ In Row edit mode, when you begin editing a selected record, the entire row enter
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs25/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs25" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs25" %}
 
 ## Automatically update a column based on another column's edited value
 
@@ -32,15 +32,15 @@ In the example below, the **price** column value is updated based on changes in 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs26/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs26/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs26/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs26/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs26" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs26" %}
 
 ## Cancel edit based on condition
 
@@ -50,15 +50,15 @@ In the example below, CRUD operations are prevented when the **priority** column
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs27" %}
 
 ## Perform CRUD action programmatically
 
@@ -75,15 +75,15 @@ TreeGrid methods enable you to perform CRUD operations programmatically:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs28/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs28/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs28" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs28" %}
 
 ## Show delete confirmation dialog
 
@@ -91,15 +91,15 @@ A delete confirmation dialog can be shown by setting [showDeleteConfirmDialog](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs29/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs29/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs29/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs29/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs29" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs29" %}
 
 > The `showDeleteConfirmDialog` property is supported in all editing modes.
 
@@ -109,12 +109,12 @@ Use the [recordDoubleClick](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs30/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs30/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs30/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs30/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs30" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs30" %}

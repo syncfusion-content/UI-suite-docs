@@ -51,11 +51,11 @@ In the below demo, the button click will enable/disable the Tree Grid and its ac
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/how-to/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/how-to/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12" %}

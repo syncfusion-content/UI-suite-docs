@@ -26,7 +26,7 @@ The following code example illustrates how to create a phase.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phase-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phase-cs1" %}
 
 ### Dynamically add and remove phases from lanes
 
@@ -44,7 +44,7 @@ The following code example illustrates how to add and remove phases at runtime.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addphases-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addphases-cs1" %}
 
 ### Customizing phase appearance and properties
 
@@ -67,7 +67,7 @@ The following code example illustrates how to customize phases in a swimlane.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs1" %}
 
 #### Dynamic customization of phases
 
@@ -85,7 +85,7 @@ The following code example illustrates how to customize phases at runtime.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/phasecustomize-cs2" %}
 
 ### Phase interaction capabilities
 

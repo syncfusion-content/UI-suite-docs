@@ -23,14 +23,14 @@ To enable the clipboard feature, you can use the grid component with your data s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs1" %}
 
 ## Copy to clipboard by external buttons
 
@@ -40,14 +40,14 @@ To copy selected rows or cells data into the clipboard with the help of external
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs2" %}
 
 ## AutoFill
 
@@ -69,14 +69,14 @@ The following example demonstrates, how to enable autofill feature in the grid.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs3" %}
 
 > * If [enableAutoFill](https://ej2.syncfusion.com/vue/documentation/api/grid#enableautofill) is set to **true**, then the autofill icon will be displayed on cell selection to copy cells.
 > * It requires the selection `mode` to be **Cell**,  `cellSelectionMode` to be **Box** and also `editMode` to be **Batch** .
@@ -105,14 +105,14 @@ Follow the steps below to use the Paste feature in the grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/clipboard/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/clipboard/default-cs4" %}
 
 > To perform paste functionality, it requires the selection [mode](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionMode) to be **Cell**,  [cellSelectionMode](https://ej2.syncfusion.com/vue/documentation/api/grid/cellselectionmode) to be **Box** and also Batch Editing should be enabled.
 

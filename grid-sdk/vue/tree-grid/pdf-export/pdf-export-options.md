@@ -16,14 +16,14 @@ PDF export provides an option to export hidden columns of TreeGrid by defining t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs4" %}
 
 ## Show or hide columns on exported PDF
 
@@ -37,14 +37,14 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs5" %}
 
 ## How to change page orientation
 
@@ -52,14 +52,14 @@ Page orientation can be changed Landscape(Default Portrait) for the exported doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs6" %}
 
 ## How to change page size
 
@@ -96,14 +96,14 @@ Supported page sizes are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs7" %}
 
 ## To customize PDF export
 
@@ -115,14 +115,14 @@ You can assign the file name for the exported document by defining `fileName` pr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs8" %}
 
 ### Default fonts for PDF exporting
 
@@ -159,13 +159,13 @@ In the following example, we have used Advent Pro font to export the treegrid wi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs9" %}
 
 > `PdfTrueTypeFont` accepts base 64 format of the Custom Font.

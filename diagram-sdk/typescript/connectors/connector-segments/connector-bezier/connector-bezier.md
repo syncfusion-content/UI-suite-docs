@@ -24,7 +24,7 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs13" %}
 
 ### Bezier segment editing
 
@@ -53,7 +53,7 @@ The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegmen
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs14" %}
 
 ![Bezier Control point set by point1 and point2](../../../images//Bezier-point1.gif)
 
@@ -70,7 +70,7 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs15" %}
 
 ![Bezier Control point set by vector1 and vector1](../../../images//Bezier-vector1.gif)
 
@@ -89,7 +89,7 @@ By default, when there are no segments defined for a bezier connector, the bezie
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs16" %}
 
 
 ### Allow segment reset.
@@ -115,7 +115,7 @@ This feature allows users to choose whether to reset the control points of bezie
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-allowSegReset" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-allowSegReset" %}
 
 ### How to customize Bezier Segment Thumb Size
 
@@ -132,4 +132,4 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs63" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs63" %}

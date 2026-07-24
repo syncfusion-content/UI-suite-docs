@@ -36,20 +36,20 @@ The [groupSettings](https://ej2.syncfusion.com/react/documentation/api/grid/grou
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs2" %}
 
 > - Columns can be grouped and ungrouped dynamically using the [groupColumn](https://ej2.syncfusion.com/react/documentation/api/grid/group#groupcolumn) and [ungroupColumn](https://ej2.syncfusion.com/react/documentation/api/grid/group#ungroupcolumn) methods.
 > - To disable grouping for a specific column, set the [allowGrouping](https://ej2.syncfusion.com/react/documentation/api/grid/column#allowgrouping) property to `false` in column configuration.
@@ -62,20 +62,20 @@ The example below demonstrates grouping by "Customer ID" and "Ship City", render
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs3" %}
 
 > To group multiple columns, specify an array of column names in the `groupSettings.columns` property.
 
@@ -87,20 +87,20 @@ The following example prevents grouping on the "Customer ID" column. While other
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs12" %}
 
 ## Hide drop area
 
@@ -202,14 +202,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs4" %}
 
 
 ## Show the grouped column
@@ -310,14 +310,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs13" %}
 
 ## Reordering on grouped columns 
 
@@ -327,20 +327,20 @@ To allow reordering, set [groupSettings.allowReordering](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-reorder-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-reorder-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-reorder-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-reorder-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-reorder-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-reorder-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-reorder-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-reorder-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-reorder-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-reorder-cs1" %}
 
 ## Sort grouped columns in descending order during initial grouping
 
@@ -350,20 +350,20 @@ The following example demonstrates how to sort the "Customer ID" column in desce
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs8" %}
 
 ## Group with paging
 
@@ -379,20 +379,20 @@ The following example demonstrates grouping the "Order Date" and "Freight" colum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs5" %}
 
 > Numeric columns can be grouped based on formats such as currency or percentage, while datetime columns can be grouped based on specific date or time formats.
 
@@ -406,20 +406,20 @@ This can be achieved by customizing the `generateQuery` method of the "Data prot
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs11" %}
 
 ## Collapse all grouped rows at initial rendering
 
@@ -429,20 +429,20 @@ To collapse all grouped rows on initial render, use the [dataBound](https://ej2.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs9" %}
 
 >  All grouped rows can also be collapsed at the initial rendering using the [groupCollapseAll](https://ej2.syncfusion.com/react/documentation/api/grid#groupcollapseall) method within the [dataBound](https://ej2.syncfusion.com/react/documentation/api/grid#databound) event. The following code snippet demonstrates this approach:
 
@@ -571,14 +571,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs14" %}
 
 ## Expand or collapse externally
 
@@ -679,14 +679,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs7" %}
 
 ### Expand or collapse selected grouped row
 
@@ -807,14 +807,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs16/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs16/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs16/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs16/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs16" %}
 
 ## Clear grouping 
 
@@ -824,20 +824,20 @@ The following example demonstrates how to execute `clearGrouping` through an ext
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs15/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs15/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs15/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs15/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs15/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs15" %}
 
 ## Grouping events
 
@@ -934,14 +934,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs6" %}
 
 > The [args.requestType](https://ej2.syncfusion.com/react/documentation/api/grid/sortEventArgs#requesttype) property represents the name of the current action being performed. For instance, during grouping, the `args.requestType` value is "grouping".
 

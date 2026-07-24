@@ -19,10 +19,10 @@ The Toggle selection allows to perform selection and unselection of the particul
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/toggleselection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/toggleselection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toggleselection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/toggleselection/toggleselection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/toggleselection/toggleselection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ The Toggle selection allows to perform selection and unselection of the particul
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/toggleselection/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/toggleselection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toggleselection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/toggleselection/toggleselection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/toggleselection/toggleselection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

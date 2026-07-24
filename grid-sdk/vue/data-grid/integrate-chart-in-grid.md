@@ -336,14 +336,14 @@ The following complete example demonstrates how to integrate charts into a Grid 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/chart-intergartion/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/chart-intergartion/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/chart-intergartion/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/chart-intergartion/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs" %}
         
 ## Enable export functionality in GridChart
 
@@ -583,13 +583,13 @@ The following complete example demonstrates how to enable the property panel by 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/chart-intergartion-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs1/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/chart-intergartion-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/chart-intergartion-cs1" %}
 

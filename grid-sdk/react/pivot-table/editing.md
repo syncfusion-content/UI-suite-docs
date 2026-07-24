@@ -55,20 +55,20 @@ Normal edit mode allows users to edit one row at a time in the editing dialog wi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs55/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs55/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs55/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs55/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs55/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs55/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs55/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs55/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs55" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs55" %}
 
 ## Dialog
 
@@ -76,20 +76,20 @@ The dialog edit mode provides a focused editing environment by displaying the se
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs56/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs56/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs56/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs56/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs56/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs56/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs56/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs56/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs56" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs56" %}
 
 ## Batch
 
@@ -97,20 +97,20 @@ Batch editing enables users to make multiple changes to data grid cells and save
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs57/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs57/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs57/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs57/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs57/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs57/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs57/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs57/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs57" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs57" %}
 
 ## Command column
 
@@ -131,20 +131,20 @@ N>
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs58/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs58/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs58/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs58/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs58/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs58/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs58/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs58/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs58" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs58" %}
 
 ## Inline Editing
 
@@ -152,20 +152,20 @@ The inline editing option provides streamlined data modification by allowing dir
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs59/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs59/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs59/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs59/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs59/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs59/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs59/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs59/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs59" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs59" %}
 
 ## Editing using the pivot chart
 
@@ -175,20 +175,20 @@ Clicking a data point in the pivot chart displays the underlying raw items in a 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs60/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs60/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs60/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs60/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs60/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs60/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs60/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs60/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs60" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs60" %}
 
 ## Events
 
@@ -203,20 +203,20 @@ The event [`editCompleted`](https://ej2.syncfusion.com/react/documentation/api/p
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs61/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs61/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs61/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs61/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs61/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs61/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs61/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs61/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs61" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs61" %}
 
 ### DrillThrough
 
@@ -246,20 +246,20 @@ For example, you can restrict add and save actions by setting **args.cancel** to
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs62/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs62/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs62/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs62/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs62/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs62/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs62/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs62/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs62" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs62" %}
 
 ### ActionComplete
 
@@ -279,20 +279,20 @@ The [`actionComplete`](https://ej2.syncfusion.com/react/documentation/api/pivotv
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs63/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs63/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs63/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs63/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs63/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs63/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs63/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs63/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs63" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs63" %}
 
 ### ActionFailure
 
@@ -311,20 +311,20 @@ The [`actionFailure`](https://ej2.syncfusion.com/react/documentation/api/pivotvi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs64/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs64/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs64/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs64/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs64/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs64/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs64/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs64/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs64" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs64" %}
 
 ## See Also
 

@@ -77,7 +77,7 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-1" %}
 
 ### Messages
 
@@ -120,7 +120,7 @@ The following example shows how to create different types of messages between pa
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-2" %}
 
 ### Activation Boxes
 
@@ -148,7 +148,7 @@ The following example demonstrates how to create activation boxes that span spec
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-3" %}
 
 ### Fragments
 
@@ -203,7 +203,7 @@ The following example illustrates how to create fragments with different conditi
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/umlsequencediagram/umlsequencediagram-4" %}
 
 ## Customization Options
 

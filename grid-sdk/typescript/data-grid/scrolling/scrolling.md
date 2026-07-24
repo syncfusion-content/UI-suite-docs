@@ -29,27 +29,27 @@ In the following example, the scrollbar is enabled, and the grid's `height` is s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs5" %}
 {% endif %}
 
 ## Set height and width using viewport units
@@ -60,27 +60,27 @@ The Grid's [height](../../api/grid#height) and [width](../../api/grid#width) pro
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-height/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-height/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-height/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-height" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-height/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-height/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-height/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-height" %}
 {% endif %}
 
 ## Responsive with parent container
@@ -95,27 +95,27 @@ In the following example, the parent container has explicit height and width set
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-parent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-parent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-parent-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-parent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-parent-cs1" %}
 {% endif %}
 
 ## Sticky header
@@ -128,27 +128,27 @@ In the below demo, the Grid headers will be sticky while scrolling the Grid's pa
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/sticky-header-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/sticky-header-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/sticky-header-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/sticky-header-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sticky-header-cs1" %}
 {% endif %}
 
 ## Scroll to selected row
@@ -161,27 +161,27 @@ The following example that demonstrates how to use the `rowSelected` event to sc
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-to-select-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-to-select-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-to-select-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroll-to-select-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroll-to-select-row-cs1" %}
 {% endif %}
 
 ## Hide the empty placeholder of scrollbar
@@ -194,27 +194,27 @@ The following example that demonstrates how to use the `hideScroll` method insid
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs6" %}
 {% endif %}
 
 ## Render scrollbar in both top and bottom
@@ -234,25 +234,25 @@ The following example demonstrates how to use the `created` event to insert a sc
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/scroller-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/scroller-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/scroller-cs7" %}
 {% endif %}

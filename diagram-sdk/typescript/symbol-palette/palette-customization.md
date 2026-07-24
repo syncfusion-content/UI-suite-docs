@@ -34,7 +34,7 @@ The following example demonstrates how to customize the palette properties.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-header" %}
 
 ## Animation
 
@@ -49,7 +49,7 @@ The expand and collapse operation of symbol palette can be animated by utilizing
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs12" %}
 
 ## Description for symbols
 
@@ -64,7 +64,7 @@ The [`description`](https://ej2.syncfusion.com/documentation/api/diagram/symbolD
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs2" %}
 
 ### Text wrapping and text overflow
 
@@ -83,7 +83,7 @@ The following example demonstrates how text wrapping and text overflow are appli
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-wrap" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-wrap" %}
 
 ### Appearance of symbol description
 
@@ -100,7 +100,7 @@ The following code example shows how to customize the symbol description.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs9" %}
 
 
 ## Symbol size and symbol margin
@@ -120,7 +120,7 @@ The following code example illustrates how to set symbol size and symbol margin 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs5" %}
 
 ## Symbol preview
 
@@ -137,7 +137,7 @@ The following code example illustrates how to change the preview size of a palet
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs6" %}
 
 ## Symbol drag size
 
@@ -152,7 +152,7 @@ The [`symbolDragSize`](https://ej2.syncfusion.com/documentation/api/diagram/symb
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-dragSize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-dragSize" %}
 
 N> If the size of the symbol is not defined, the default size will be determined based on its shape.
 
@@ -173,7 +173,7 @@ The following example demonstrates how to set the `expandMode` property to contr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-expandMode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-expandMode" %}
 
 
 ### Restrict expand/collapse of the palette
@@ -191,7 +191,7 @@ In the following code example, the basic shapes palette is restricted from expan
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs3" %}
 
 ## Tooltip for symbols in symbol palette
 
@@ -219,7 +219,7 @@ The code provided below demonstrates how to define tooltip content for symbols w
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs8" %}
 
 ### How to enable or disable the default tooltip for shapes in the Symbol palette
 
@@ -236,7 +236,7 @@ The following example demonstrates how to configure selective tooltip display:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs25" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs25" %}
 
 N> This property is effective only when tooltip constraints are disabled for the symbol palette element.
 
@@ -255,7 +255,7 @@ The following code example demonstrates how to define different tooltips for the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs10" %}
 
 The following image illustrates the differentiation of tooltips displayed in the Symbol Palette and the Diagram.
 
@@ -278,7 +278,7 @@ The following code shows how to localize symbol palette.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/locale-cs2" %}
 
 ## Restrict symbol dragging from palette
 
@@ -294,7 +294,7 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs11" %}
 
 
 ## Search symbol
@@ -310,7 +310,7 @@ The diagram provides support for enabling the search option in the palette. The 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-search" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-search" %}
 
 ## Ignore symbols on search
 
@@ -327,7 +327,7 @@ In the following example, we ignored the symbol with the ID of 'plus', so it wil
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-ignoreSearch" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-ignoreSearch" %}
 
 ## Filter search
 
@@ -342,7 +342,7 @@ You can filter the search results based on your specific requirements. To achiev
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs13" %}
 
 
 N> The diagram provides support to cancel the drag and drop operation from the symbol palette to the diagram when the ESC key is pressed

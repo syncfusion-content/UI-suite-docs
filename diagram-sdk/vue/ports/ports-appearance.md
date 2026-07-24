@@ -27,7 +27,7 @@ The following code illustrates how to change the appearance of port.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app1" %}
 
 ### Change appearance of port at runtime
 
@@ -42,7 +42,7 @@ The appearance of port can be changed at runtime by customizing the style of por
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app2" %}
 
 ## Port visibility
 
@@ -84,7 +84,7 @@ The following code illustrates how to set custom shape to the port.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-app3" %}
 
 ## Constraints
 

@@ -38,10 +38,10 @@ The following example shows server configuration using ASP.NET MVC Controller Ac
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-exportMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ Here's an example of how you can accomplish CSV export on the server-side:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-csv-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-csv-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-exportMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-csv-export/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-csv-export/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The following code demonstrates how to get the memory stream of exported Grid.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ In the following code, `ExcelEngine` and `AddCopy` method of Worksheets are used
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms-merge/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms-merge/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms-merge/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms-merge/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ If you already have a file stream, you can directly use it to merge with the Gri
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-fs-merge/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-fs-merge/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-fs-merge/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-fs-merge/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ To merge a local file with the Grid's memory stream, you need to convert it into
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-file-merge/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-file-merge/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-file-merge/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-file-merge/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -136,10 +136,10 @@ You can download the merged memory stream by converting it into a `FileStreamRes
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms-download/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms-download/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-export-ms-download/server-exportMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-export-ms-download/server-exportMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,10 +153,10 @@ In the following demo, using the `HeaderCellRotate` method of the `GridExcelExpo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-rotate-header/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-rotate-header/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-rotate-header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -16,14 +16,14 @@ In the demo below, editing a row restricts typing decimal point values in the Nu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs14" %}
 
 > For more feature details, visit the [`Angular TreeGrid feature tour page`](https://www.syncfusion.com/angular-components/angular-tree-grid). Additional practical examples are available in the [`Angular TreeGrid example`](https://ej2.syncfusion.com/angular/demos/#/material/treegrid/treegrid-overview).

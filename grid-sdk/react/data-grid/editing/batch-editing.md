@@ -16,20 +16,20 @@ To enable batch editing mode, set the [editSettings.mode](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs2" %}
 
 > For grid editing setup and configuration, refer to the [Edit Feature Setup](./edit#set-up-editing).
 
@@ -41,20 +41,20 @@ In the following example, the "Total Cost" column value is updated based on chan
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs3" %}
 
 > The [updateCell](https://ej2.syncfusion.com/react/documentation/api/grid#updatecell) property can be used update cells in batch mode.
 
@@ -76,20 +76,20 @@ In the following demo, CRUD operations are prevented based on the "Role" column 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs4" %}
 
 ## Adding a new row at the bottom of the grid
 
@@ -99,20 +99,20 @@ Here's an example that demonstrates how to enable adding new rows at the bottom 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-batch-add-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-batch-add-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-batch-add-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-batch-add-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-batch-add-cs1" %}
 
 > - **Bottom position**: <kbd>Tab</kbd> moves between cells or rows in edit mode. Data entry in each cell with <kbd>Tab</kbd> press automatically creates new rows below the current row, allowing convenient addition of multiple rows without leaving edit mode.
 > - **Top position**: Grid displays a blank row form at the top by default for new record entry. Upon saving or updating, the record inserts at the bottom of the grid, ensuring the new record appears at the end of the existing dataset.
@@ -136,20 +136,20 @@ Here's an example that demonstrates how to enable/disable the confirmation dialo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs5" %}
 
 > * `editSettings.showConfirmDialog` requires [editSettings.mode](https://ej2.syncfusion.com/react/documentation/api/grid/editSettings#mode) = `Batch`.
 > * When set to `false`, no confirmation dialog displays during batch editing.
@@ -168,20 +168,20 @@ The example below demonstrates both features combined:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/batch-edit-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/batch-edit-cs1" %}
 
 ## Save or update the changes immediately
 
@@ -193,17 +193,17 @@ The `cellSaved` event is triggered when a cell is saved in the grid, allowing cu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/batch-edit-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/batch-edit-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/batch-edit-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/batch-edit-cs2" %}

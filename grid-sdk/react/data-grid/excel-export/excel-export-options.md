@@ -120,14 +120,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs4" %}
 
 ## Export selected records
 
@@ -149,20 +149,20 @@ The following example demonstrates exporting the selected records to an Excel do
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-filtered-data-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-filtered-data-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-filtered-data-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-filtered-data-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs1" %}
 
 ## Exporting grouped records
 
@@ -174,20 +174,20 @@ The following example demonstrates exporting grouped records to an Excel documen
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs8" %}
 
 ## Export with hidden columns
 
@@ -199,20 +199,20 @@ The following example demonstrates how to export hidden columns to an Excel file
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs5" %}
 
 ## Show or hide columns while exporting
 
@@ -232,20 +232,20 @@ In the following example, the "Customer ID" is initially a hidden column in the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs6" %}
 
 ## Show or hide columns while exporting with stacked header
 
@@ -265,20 +265,20 @@ In the following example, the "Ship Name" is initially a hidden column in the Gr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-show-hide/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-show-hide/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-show-hide/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-show-hide/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-show-hide/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-show-hide/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-show-hide/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-show-hide/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-show-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-show-hide" %}
 
 ## Enable filtering in the exported excel file
 
@@ -290,20 +290,20 @@ The following example demonstrates exporting data with filter options to an Exce
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs7" %}
 
 ## Define file name
 
@@ -396,14 +396,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs9" %}
 
 ## Export the master detail grid
 
@@ -415,20 +415,20 @@ The following example demonstrates exporting master detail grid to the same page
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-masterDetail-grid/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-masterDetail-grid/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-masterDetail-grid/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-masterDetail-grid/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-masterDetail-grid" %}
 
 ## Customizing columns on export
 
@@ -446,20 +446,20 @@ The following example demonstrates customizing the grid columns when exporting a
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs19" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs19" %}
 
 ## Font and color customization 
 
@@ -477,20 +477,20 @@ In the following example, apply font styling to the caption, header, and record 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs3" %}
 
 >By default, material theme is applied to exported excel document.
 
@@ -504,20 +504,20 @@ In the following demo, using the `rotation` property of the style argument in th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-orientation-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-orientation-cs2" %}
 
 ## Conditional cell formatting
 
@@ -529,20 +529,20 @@ The following example demonstrates customizing the background color of the Freig
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs2" %}
 
 ## Adding header and footer in the exported Excel file
 
@@ -554,20 +554,20 @@ The following example demonstrates adding a header and footer to the exported gr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-export-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-export-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-export-cs1" %}
 
 ## Export grid as blob
 
@@ -577,17 +577,17 @@ The following example demonstrates obtaining the blob data of the exported grid 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-grid-as-blob-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-grid-as-blob-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-grid-as-blob-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/export-grid-as-blob-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs2" %}

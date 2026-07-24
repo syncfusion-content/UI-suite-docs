@@ -63,7 +63,7 @@ To render a flowchart layout, set the [`layoutType`](https://ej2.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs1" %}
 
 ![Flowchart layout diagram showing automated node arrangement](../images/flowchart-images/Flowchart_Layout.png)
 
@@ -126,7 +126,7 @@ The following example demonstrates how to render a flowchart layout using predef
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs2" %}
 
 ## Customize flowchart layout orientation
 
@@ -204,7 +204,7 @@ The following example shows a flowchart layout with `yesBranchDirection` set to 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs3" %}
 
 ### Decision branch behavior reference
 
@@ -248,6 +248,6 @@ The following example demonstrates how to set custom text values for yes and no 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/flowchart-cs4" %}
 
 ![Flowchart layout with custom yes and no branch values](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

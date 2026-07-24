@@ -16,14 +16,14 @@ To add the printing option to the grid's toolbar, simply include the [toolbar](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs2" %}
 
 ## Page setup
 
@@ -40,14 +40,14 @@ You can print the grid's content using an external button by utilizing the [prin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs3" %}
 
 ## Print visible Page
 
@@ -55,14 +55,14 @@ By default, the Vue Data Grid prints all the pages of the grid. The [printMode](
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs4" %}
 
 ## Print only selected records
 
@@ -72,14 +72,14 @@ Below is an example code that demonstrates how to print only the selected record
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs6" %}
 
 ## Print the hierarchy grid
 
@@ -95,14 +95,14 @@ The `hierarchyPrintMode` property in the Vue Grid lets you control the printing 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs10" %}
 
 ## Print the master detail grid
 
@@ -112,14 +112,14 @@ The [beforePrint](https://ej2.syncfusion.com/vue/documentation/api/grid/#beforep
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/mastergrid-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/mastergrid-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/mastergrid-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/mastergrid-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/mastergrid-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/mastergrid-cs2" %}
 
 ## Print large number of columns
 
@@ -141,14 +141,14 @@ Here's a code example that demonstrates how to show a hidden column (CustomerID)
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs5" %}
 
 ## Print the expanded state from other pages
 
@@ -158,14 +158,14 @@ The following example demonstrates how to print the expanded child Grids from ot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/print-expanded-state/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/print-expanded-state/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/print-expanded-state/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/print-expanded-state/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/print-expanded-state" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/print-expanded-state" %}
 
 ## Add a title when using Grid print function
 
@@ -175,14 +175,14 @@ Here’s an example of how to add a title to your Grid when using the print func
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-print/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-print/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-print/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-print/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-print" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-print" %}
 
 ## Limitations of printing large data
 
@@ -196,14 +196,14 @@ The Vue Data Grid provides a [beforePrint](https://ej2.syncfusion.com/vue/docume
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs7" %}
 
 ## Print grid along with other components
 
@@ -213,13 +213,13 @@ Here is an example of how to print grid along with chart component:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/print/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/print/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/print/default-cs8" %}
 
 

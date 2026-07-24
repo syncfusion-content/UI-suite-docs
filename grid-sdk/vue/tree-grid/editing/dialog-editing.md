@@ -16,11 +16,11 @@ To enable Dialog edit, set the [`editSettings.mode`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/editing/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/editing/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs5" %}

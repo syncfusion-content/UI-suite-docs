@@ -16,11 +16,11 @@ You may use this template to show additional metadata, custom icons, or other UI
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/navigation-pane-template/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/navigation-pane-template/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/navigation-pane-template/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/navigation-pane-template/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/navigation-pane-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/navigation-pane-template" %}

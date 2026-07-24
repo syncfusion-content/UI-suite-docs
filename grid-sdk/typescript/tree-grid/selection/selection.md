@@ -23,27 +23,27 @@ To perform the multi-selection, press and hold CTRL key and click the desired ro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs8" %}
 {% endif %}
 
 ## Selection mode
@@ -59,27 +59,27 @@ TreeGrid supports three types of selection mode which can be set by using
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/selection-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/selection-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/selection-cs9" %}
 {% endif %}
 
 ## Touch interaction

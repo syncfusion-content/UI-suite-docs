@@ -160,15 +160,15 @@ The following example demonstrates adding a header and footer to the exported gr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs5" %}
 
 ## Repeat column headers on every page
 
@@ -180,12 +180,12 @@ The following example demonstrates repeating the column header on every page of 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs6" %}

@@ -16,14 +16,14 @@ Select a row during initial render by setting the [selectedRowIndex](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs4" %}
 
 ## Get selected row indexes
 
@@ -31,14 +31,14 @@ Retrieve the selected row indexes using the [getSelectedRowIndexes](https://ej2.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs5" %}
 
 ## Multiple selection based on condition
 
@@ -48,14 +48,14 @@ In the following example, rows with a *taskID* value of *3* and *5* are selected
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs6" %}
 
 ## Toggle selection
 
@@ -63,13 +63,13 @@ Toggle selection enables selecting and unselecting a specific row or cell. Enabl
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs7" %}
 
 > When multiple selection is enabled, clicking any selected row (without holding Ctrl key) clears the current selection. Clicking the same row again toggles its selection state off.

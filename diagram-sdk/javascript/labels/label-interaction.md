@@ -22,7 +22,7 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs16" %}
 
 ## Constraints
 
@@ -41,7 +41,7 @@ The [`rotationReference`](../../api/diagram/shapeAnnotationModel#rotationreferen
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs39" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -61,7 +61,7 @@ Diagram allows to create read-only annotations. You have to set the read-only co
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs17" %}
 
 ## Edit
 
@@ -79,7 +79,7 @@ By using [`startTextEdit`](../../api/diagram#starttextedit) method, edit the tex
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-startTextEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-startTextEdit" %}
 
 ### Interactively
     1. By double-clicking the annotation.
@@ -106,7 +106,7 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs18" %}
 
 ## Multiple annotations
 
@@ -121,6 +121,6 @@ You can add any number of annotations to a node or connector. The following code
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs19" %}
 
 

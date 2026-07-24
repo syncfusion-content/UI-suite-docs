@@ -21,10 +21,10 @@ You can customize the appearance of a row by using the [`rowDataBound`](https://
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-rows/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-rows/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizeRows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-rows/CustomizeRows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-rows/CustomizeRows.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ You can customize the appearance of a row by using the [`rowDataBound`](https://
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-rows/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-rows/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizeRows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-rows/CustomizeRows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-rows/CustomizeRows.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -58,10 +58,10 @@ Refer to the following example.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/alternate-rows/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/alternate-rows/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AlternateRows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/alternate-rows/alternateRows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/alternate-rows/alternateRows.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ Refer to the following example.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/alternate-rows/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/alternate-rows/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="AlternateRows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/alternate-rows/alternateRows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/alternate-rows/alternateRows.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -38,10 +38,10 @@ The `type` field in the flat data source must not be `null`. This field identifi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FlatDataController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/FlatDataController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/FlatDataController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -75,10 +75,10 @@ The `type` field in the flat data source must not be `null`. This field identifi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FlatDataController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/FlatDataController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/FlatDataController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -87,13 +87,13 @@ The `type` field in the flat data source must not be `null`. This field identifi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FlatDataController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/FlatDataController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/FlatDataController_mvc.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="ServiceController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/flat-data/ServiceController.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/flat-data/ServiceController.cs %}
 {% endhighlight %}
 {% endtabs %}
 

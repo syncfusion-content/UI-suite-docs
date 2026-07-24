@@ -26,27 +26,27 @@ The following an example that demonstrates how to enable infinite scroll in the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs113/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs113/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs113/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs113/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs113" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs113" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs113/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs113/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs113/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs113/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs113" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs113" %}
 {% endif %}
 
 ## Number of blocks rendered during initial loading
@@ -61,27 +61,27 @@ The following an example of how you can use the `initialBlocks` property to set 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs114/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs114/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs114/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs114/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs114" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs114" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs114/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs114/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs114/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs114/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs114" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs114" %}
 {% endif %}
 
 ## Efficient data caching and DOM management in grid cache mode
@@ -106,27 +106,27 @@ The following example that demonstrates how to enable/disable cache mode in infi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs115/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs115/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs115/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs115/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs115" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs115" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs115/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs115/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs115/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs115/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs115" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs115" %}
 {% endif %}
 
 > If [Hierarchy Grid](../hierarchy-grid) or [Detail Template](../row/detail-template) feature is enabled along with infinite scrolling without defining the height property, it will take a default height of **300px**. Since the [height](../../api/grid/#height) property is mandatory for the hierarchy grid and detail template features, ensure to define it accordingly. 

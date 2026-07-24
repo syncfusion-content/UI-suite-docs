@@ -243,7 +243,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs1" %}
 
 For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeConstraints).
 
@@ -424,7 +424,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs2" %}
 
 For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints).
 
@@ -561,7 +561,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs3" %}
 
 For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portConstraints).
 
@@ -660,7 +660,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs4" %}
 
 For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationConstraints).
 
@@ -748,7 +748,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs5" %}
 
 For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorConstraints).
 
@@ -821,7 +821,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs6" %}
 
 For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/snapConstraints).
 
@@ -874,7 +874,7 @@ Refer sample below
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs7" %}
 
 For more information about selector constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/boundaryConstraints).
 

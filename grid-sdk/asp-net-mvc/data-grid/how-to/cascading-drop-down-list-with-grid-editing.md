@@ -19,10 +19,10 @@ In the below demo, Cascading DropDownList is rendered for the `ShipCountry` and 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/cascading/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/cascading/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Cascading.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/cascading/cascading.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/cascading/cascading.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ In the below demo, Cascading DropDownList is rendered for the `ShipCountry` and 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/cascading/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/cascading/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Cascading.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/cascading/cascading.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/cascading/cascading.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

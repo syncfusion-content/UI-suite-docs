@@ -169,7 +169,7 @@ The uploader requires:
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs1" %}
 
 ## Mermaid Syntax Integration
 
@@ -210,7 +210,7 @@ The following example demonstrates loading a flowchart diagram from Mermaid synt
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs2" %}
 
 #### Loading Mind Map Layout
 
@@ -226,7 +226,7 @@ The following example demonstrates loading a mind map diagram from Mermaid synta
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs3" %}
 
 #### Loading UML Sequence Diagram
 
@@ -242,6 +242,6 @@ The following example demonstrates loading a UML Sequence diagram from Mermaid s
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/serialisation/serialisation-cs4" %}
 
 N> Mermaid syntax-based serialization and deserialization supports only Flowchart layout, Mind map layout, and UML Sequence Diagram. Ensure that your Mermaid data aligns with one of these supported layouts for successful diagram loading.

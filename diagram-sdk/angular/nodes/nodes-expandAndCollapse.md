@@ -50,7 +50,7 @@ The following code example demonstrates how to create icons with various shapes:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-expandAndCollapse-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-expandAndCollapse-cs1" %}
 
 ### Styling and appearance
 
@@ -75,7 +75,7 @@ The following code example illustrates comprehensive icon customization:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-expandAndCollapse-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-expandAndCollapse-cs2" %}
 
 ## Managing node expansion state
 

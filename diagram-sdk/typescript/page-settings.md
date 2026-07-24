@@ -32,7 +32,7 @@ The following example shows the customization of page settings.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs1" %}
 
 
 
@@ -54,7 +54,7 @@ The following code illustrates how to set background image to the diagram page.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs2" %}
 
 
 
@@ -79,7 +79,7 @@ Depending on the [`orientation`](https://ej2.syncfusion.com/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs5" %}
 
 
 
@@ -101,7 +101,7 @@ The [`multiplePage`](https://ej2.syncfusion.com/documentation/api/diagram/pageSe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs3" %}
 
 
 
@@ -130,7 +130,7 @@ Below is an example illustrating how to define boundary constraints within the d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs4" %}
 
 
 
@@ -151,5 +151,5 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/pagesettings-cs6" %}
 

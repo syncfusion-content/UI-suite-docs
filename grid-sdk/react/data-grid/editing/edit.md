@@ -84,20 +84,20 @@ For a comprehensive overview of edit modes and [edit types](./edit-types.md) ava
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs16/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs16/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs16/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs16/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs16/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs16/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs16/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs16" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs16" %}
 
 > * If [isIdentity](https://ej2.syncfusion.com/react/documentation/api/grid/column#isidentity) is enabled, the column is considered read-only when editing and adding records.
 > * Disable editing for a particular column by setting [allowEditing](https://ej2.syncfusion.com/react/documentation/api/grid/column#allowediting) to `false`.
@@ -113,20 +113,20 @@ The following example demonstrates how to enable the toolbar with edit option in
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs17/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs17/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs17/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs17/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs17/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs17/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs17/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs17" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs17" %}
 
 ## Disable editing for particular column
 
@@ -250,14 +250,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs18/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs18/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs18/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs18/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs18" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs18" %}
 
 > * To disable editing for a specific row using the [actionBegin](https://ej2.syncfusion.com/react/documentation/api/grid#actionbegin) event, refer to [Disable editing for a particular row](./in-line-editing#cancel-edit-based-on-condition).
 > * To disable editing for a particular cell using the [cellEdit](https://ej2.syncfusion.com/react/documentation/api/grid#celledit) event, refer to [Disable editing for a particular cell](./batch-editing#cancel-edit-based-on-condition).
@@ -270,20 +270,20 @@ The [field](https://ej2.syncfusion.com/react/documentation/api/grid/gridcolumn#f
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs35/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs35/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs35/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs35/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs35/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs35/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs35/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs35/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs35" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs35" %}
 
 ## Customize delete confirmation dialog
 
@@ -297,20 +297,20 @@ The following example demonstrates how to customize the delete confirmation dial
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-delete-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-delete-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-delete-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-delete-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-delete-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-delete-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-delete-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-delete-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-delete-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-delete-cs1" %}
 
 ## Update boolean column value with a single click
 
@@ -320,20 +320,20 @@ The following example demonstrates how to render a `CheckBox` component as a tem
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-single-click/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-single-click/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-single-click/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-single-click/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-single-click/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-single-click/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-single-click/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-single-click/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-single-click" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-single-click" %}
 
 ## Edit enum column
 
@@ -343,20 +343,20 @@ The following example demonstrates how to render a `DropDownList` component as a
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-enum/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-enum/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-enum/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-enum/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-enum/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-enum/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-enum/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-enum/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-enum" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-enum" %}
 
 ## Edit complex column
 
@@ -366,20 +366,20 @@ The following example demonstrates how to edit complex nested data. The "FirstNa
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-complex/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-complex/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-complex/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-complex/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-complex/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-complex/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-complex/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-complex/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-complex" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-complex" %}
 
 ## Edit foreign key column
 
@@ -389,20 +389,20 @@ Use the [editTemplate](https://ej2.syncfusion.com/react/documentation/api/grid/c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-foreign-key/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-foreign-key/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-foreign-key/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-foreign-key/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-foreign-key/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-foreign-key/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-foreign-key/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-foreign-key/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-foreign-key" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-foreign-key" %}
 
 ## Perform CRUD action externally
 
@@ -424,20 +424,20 @@ The following example demonstrates external CRUD operations with a custom toolba
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-toolbar" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-toolbar" %}
 
 ### Using external form
 
@@ -447,20 +447,20 @@ The `rowSelected` event can be used to capture row selection and populate extern
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-form/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-form/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-form/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-form/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-form/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-form/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-form/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-form/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-form" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-form" %}
 
 ## Troubleshoot editing works only for first row
 
@@ -480,19 +480,19 @@ The following example demonstrates how to render a textbox in the "Freight" colu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs19" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs19" %}
 
 > * When a template column has a corresponding `field` property defined, the value entered in the template column's input field is stored in the associated edit column of the row's data object.

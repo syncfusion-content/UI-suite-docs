@@ -26,14 +26,14 @@ To learn about what are all the edit modes and edit types are available in Vue G
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs1" %}
 
 > * If [columns.isIdentity](https://ej2.syncfusion.com/vue/documentation/api/grid/column/#isidentity) is enabled, then it will be considered as a read-only column when editing and adding a record.
 > * You can disable editing for a particular column, by specifying `columns.allowEditing` to **false**.
@@ -49,14 +49,14 @@ Here's an example of how to enable the toolbar with edit option in the Grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs2" %}
 
 ## Disable editing for particular column
 
@@ -68,14 +68,14 @@ Here's an example that demonstrates how to disable editing for the column in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs3" %}
 
 >* If you have set the [isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/grid/column/#isprimarykey) property to **true** for a column, editing will be automatically disabled for that column.
 > * You can disable the particular row using [actionBegin](https://ej2.syncfusion.com/vue/documentation/api/grid/#actionbegin) event. Please refer this [link](https://ej2.syncfusion.com/vue/documentation/grid/editing/in-line-editing#disable-editing-for-a-particular-row).
@@ -184,7 +184,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs4" %}
 
 ## Customize delete confirmation dialog
 
@@ -199,14 +199,14 @@ The following example that demonstrates how to customize the delete confirmation
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs5" %}
 
 ## Update boolean column value with a single click   
 
@@ -216,14 +216,14 @@ In the following sample, the `CheckBox` component is rendered as a template in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs6" %}
 
 ## Edit enum column 
 
@@ -233,14 +233,14 @@ In the following example, the `DropDownList` component is rendered within the [e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs7" %}
 
 ## Edit complex column 
 
@@ -250,14 +250,14 @@ In the following sample, the input element is rendered in the edit template of t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs8" %}
 
 ## Edit foreign key column 
 
@@ -267,14 +267,14 @@ In the following code example, the Employee Name is a foreign key column. When e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs9" %}
 
 ## How to perform CRUD action externally 
 
@@ -296,14 +296,14 @@ The following example demonstrates the integration of the Vue Data Grid with a s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs10" %}
 
 ### Using external form 
 
@@ -315,14 +315,14 @@ In the following example, it demonstrates how to edit the form using an external
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs11" %}
 
 ## Troubleshoot editing works only for first row
 
@@ -336,14 +336,14 @@ In the following example, the textbox is rendered in the **Freight** column usin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs12" %}
 
 ## See Also
 

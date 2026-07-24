@@ -391,14 +391,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pdf-export-cs26/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs26/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pdf-export-cs26/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs26/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs26" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs26" %}
 
 ## Limitations
 

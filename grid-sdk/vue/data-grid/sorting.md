@@ -18,14 +18,14 @@ To use the sorting feature, you need to inject the **Sort** module in the **prov
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs1" %}
 
 > * Grid column sorted in **Ascending** order. If you click on an already sorted column, then toggles the sort direction.
 > * You can apply and clear sorting by using the [sortColumn](https://ej2.syncfusion.com/vue/documentation/api/grid/#sortcolumn) and [clearSorting](https://ej2.syncfusion.com/vue/documentation/api/grid/#clearsorting) methods.
@@ -39,14 +39,14 @@ The following example demonstrates how to set [sortSettings.columns](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs2" %}
 
 > The initial sorting defined in [sortSettings.columns](https://ej2.syncfusion.com/vue/documentation/api/grid/sortSettings/#columns) will override any sorting applied through individual interaction.
 
@@ -61,14 +61,14 @@ To clear multi-column sorting for a particular column, press the "Shift + mouse 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs3" %}
 
 ## Prevent sorting for particular column
 
@@ -80,14 +80,14 @@ The following example demonstrates, how to disable sorting for **CustomerID** co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/prevent-sort/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/prevent-sort/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/prevent-sort/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/prevent-sort/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/prevent-sort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/prevent-sort" %}
 
 ## Sort order
 
@@ -103,14 +103,14 @@ The following example demonstrates how to define custom sort comparer function f
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs5" %}
 
 ### Display null values always at bottom 
 
@@ -120,14 +120,14 @@ The example below demonstrates how to display null values at the bottom of the g
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/null-date-value-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/null-date-value-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/null-date-value-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/null-date-value-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/null-date-value-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/null-date-value-cs1" %}
 
 > The customSortComparer function takes two parameters: a and b. The a and b parameters are the values to be compared. The function returns -1, 0, or 1, depending on the comparison result.
 
@@ -151,14 +151,14 @@ The following example demonstrates how to perform sorting by enabling a foreign 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-foreign-key/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-foreign-key/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-foreign-key/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-foreign-key/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-foreign-key" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-foreign-key" %}
 
 > Make sure to inject the **ForeignKey** module in the **provide** section to ensure its availability throughout your application.
 
@@ -261,14 +261,14 @@ In the following example, sorting is performed based on the **"ar"** locale usin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/locale-sort/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/locale-sort/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/locale-sort/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/locale-sort/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/locale-sort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/locale-sort" %}
 
 ## How to customize sort icon
 
@@ -287,14 +287,14 @@ In the below sample, grid is rendered with a customized sort icon.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-icon/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-icon/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-icon/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-icon/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-icon" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-icon" %}
 
 ## Sort columns externally
 
@@ -308,14 +308,14 @@ The following example demonstrates how to add sort columns to a grid. It utilize
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-columns/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-columns/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/sort-columns/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/sort-columns/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-columns" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/sort-columns" %}
 
 ### Remove sort columns
 
@@ -325,14 +325,14 @@ The following example demonstrates how to remove sort columns. It utilizes the *
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/remove-sort/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/remove-sort/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/remove-sort/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/remove-sort/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/remove-sort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/remove-sort" %}
 
 ### Clear sorting 
 
@@ -342,14 +342,14 @@ The following example demonstrates how to clear the sorting using `clearSorting`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/clear-sort/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/clear-sort/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/sort/clear-sort/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/sort/clear-sort/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/clear-sort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/clear-sort" %}
 
 ## Sorting events
 
@@ -470,7 +470,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/sort/default-cs4" %}
 
 > [args.requestType](https://ej2.syncfusion.com/vue/documentation/api/grid/sortEventArgs/#requesttype) refers to the current action being performed. For example in sorting, the `args.requestType` value is **sorting**.
 

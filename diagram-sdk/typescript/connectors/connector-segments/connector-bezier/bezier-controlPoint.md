@@ -30,7 +30,7 @@ While interacting with multiple bezier segments, maintain their control points a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs17" %}
 
 ## How to show or hide the bezier segment’s control points
 

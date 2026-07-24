@@ -22,20 +22,20 @@ In the following sample, the hyperlinks and images are exported to Excel using [
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-template-export-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-template-export-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-template-export-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-template-export-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-template-export-cs2" %}
 
 ![ColumnTemplateExport](../images/colTemp_excel_expt.gif)
 
@@ -522,14 +522,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/detail-template-export-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/detail-template-export-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/detail-template-export-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/detail-template-export-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/detail-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/detail-template-export-cs2" %}
 
 ![DetailTemplateExport](../images/detailTemp_excel_expt.gif)
 
@@ -541,19 +541,19 @@ In the following sample, the customized caption text is exported to Excel using 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/caption-template-export-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/caption-template-export-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/caption-template-export-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/caption-template-export-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/caption-template-export-cs2" %}
 
 ![CaptionTemplateExport](../images/captionTemp_excel_expt.gif)

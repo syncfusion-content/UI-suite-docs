@@ -21,7 +21,7 @@ To create a straight line, specify the [`type`](../../../api/diagram/segments) o
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs7" %}
 
 The [`point`](../../../api/diagram/straightSegment#point-PointModel) property of straight segment allows you to define the end point of it. The following code example illustrates how to define the end point of a straight segment.
 
@@ -34,7 +34,7 @@ The [`point`](../../../api/diagram/straightSegment#point-PointModel) property of
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs8" %}
 
 ### Straight segment editing
 
@@ -53,6 +53,6 @@ The following example shows how to add segments at runtime for the straight conn
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-straightSegEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-straightSegEdit" %}
 
 ![Straight Segment editing GIF](../../images/StraightSegEdit.gif)

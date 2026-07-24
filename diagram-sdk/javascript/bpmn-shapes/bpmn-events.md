@@ -34,7 +34,7 @@ The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -47,7 +47,7 @@ The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
 {% endif %}
 
 ## BPMN event trigger

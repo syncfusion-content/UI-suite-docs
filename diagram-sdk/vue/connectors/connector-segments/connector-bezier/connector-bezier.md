@@ -23,7 +23,7 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/vue/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezier-cs2" %}
 
 ### Bezier segment editing
 
@@ -51,7 +51,7 @@ The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bezierse
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierPoints-cs2" %}
 
 ![Bezier Control point set by point1 and point2](../../../images/Bezier-point1.gif)
 
@@ -68,7 +68,7 @@ The [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziers
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierVector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierVector-cs1" %}
 
 ![Bezier Control point set by vector1 and vector1](../../../images/Bezier-vector1.gif)
 
@@ -87,7 +87,7 @@ By default, when there are no segments defined for a bezier connector, the bezie
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AvoidOverlapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AvoidOverlapping-cs1" %}
 
 ### Allow segment reset.
 
@@ -110,7 +110,7 @@ This feature allows users to choose whether to reset the control points of bezie
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AllowReset-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/AllowReset-cs1" %}
 
 ### How to customize Bezier Segment Thumb Size
 
@@ -127,4 +127,4 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierSegmentsSize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBezierSegmentsSize-cs1" %}

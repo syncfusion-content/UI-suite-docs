@@ -47,7 +47,7 @@ The following code demonstrates how to add ports during node initialization:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs1" %}
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -66,7 +66,7 @@ The port's ID property defines a unique identifier that can be used to reference
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs2" %}
 
 ## Remove Ports at Runtime
 
@@ -81,7 +81,7 @@ The [`removePorts`](https://ej2.syncfusion.com/react/documentation/api/diagram#r
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs3" %}
 
 ## Update Port at Runtime
 
@@ -98,7 +98,7 @@ The following code example illustrates how to change the port offset at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs4" %}
 
 ## Specify Connection Direction to Port
 
@@ -113,7 +113,7 @@ The [`connectionDirection`](https://ej2.syncfusion.com/react/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/es5Connection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/es5Connection" %}
 
 ![connectionDirection](images\connectionDirection2.png)
 
@@ -132,7 +132,7 @@ The `inEdges` and `outEdges` of the port are read-only and cannot be customized.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-edges" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-edges" %}
 
 The following code example shows how to get inEdges and outEdges of port.
 

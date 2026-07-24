@@ -16,11 +16,11 @@ The example below demonstrates enabling and disabling toolbar items on a button 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/toolbar-items-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/toolbar-items-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/toolbar-items-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/toolbar-items-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/toolbar-items-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/toolbar-items-cs1" %}

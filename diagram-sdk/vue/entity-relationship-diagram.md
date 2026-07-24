@@ -35,7 +35,7 @@ An ER entity node represents a database entity, such as a table or object. It ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-1" %}
 
 ### Configure the entity header
 
@@ -56,7 +56,7 @@ The header is the top section of an ER entity node that displays the entity name
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-header" %}
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -84,7 +84,7 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-fields" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-fields" %}
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -146,7 +146,7 @@ The appearance of ER entities and their fields can be customized using style pro
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-styling" %}
 
 N> Field-level styles override applicable node-level and field default styles.
 
@@ -195,7 +195,7 @@ Multiplicity defines how many instances of one entity can be associated with ins
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-cardinality" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/er-diagram/er-diagram-cardinality" %}
 
 ## See also
 

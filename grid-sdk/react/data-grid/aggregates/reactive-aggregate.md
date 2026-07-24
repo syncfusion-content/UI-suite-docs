@@ -18,20 +18,20 @@ When the Grid is in batch editing mode, aggregate values in the footer, group fo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs6" %}
 
 > Adding a new record to the grouped grid will not refresh the aggregate values.
 
@@ -48,20 +48,20 @@ The code below registers an `input` event on the "Freight" column editor and man
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs7" %}
 
 ## See also
 - [Aggregates overview](./aggregates)

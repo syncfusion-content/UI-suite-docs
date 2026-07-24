@@ -21,7 +21,7 @@ The Diagram component allows labels to be interactive through selecting, draggin
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1" %}
 
 ## Constraints
 
@@ -43,7 +43,7 @@ By using [`startTextEdit`](https://helpej2.syncfusion.com/react/documentation/ap
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1" %}
 
 ### Interactive Editing
 Labels can be edited interactively through user actions:
@@ -65,7 +65,7 @@ The [`rotationReference`](https://helpej2.syncfusion.com/react/documentation/api
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -85,7 +85,7 @@ The Diagram component supports creating read-only labels that cannot be edited b
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Read-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Read-cs1" %}
 
 ## Drag Limits
 
@@ -106,7 +106,7 @@ The following code demonstrates how to configure dragLimit for connector labels:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2" %}
 
 ## Multiple Labels
 
@@ -121,4 +121,4 @@ Nodes and connectors support multiple labels. Each label can have independent pr
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1" %}

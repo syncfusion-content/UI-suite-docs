@@ -26,7 +26,7 @@ To create a straight line connector, specify the [`type`](https://ej2.syncfusion
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegments-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegments-cs1" %}
 
 ## Defining segment end points
 
@@ -42,7 +42,7 @@ The [`point`](https://ej2.syncfusion.com/angular/documentation/api/diagram/strai
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegmentspoints-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegmentspoints-cs1" %}
 
 ## Straight segment editing
 
@@ -72,6 +72,6 @@ The following example demonstrates how to add segments to a straight connector p
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsegEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsegEdit-cs1" %}
 
 ![Straight Segment editing GIF](../../images/StraightSegEdit.gif)

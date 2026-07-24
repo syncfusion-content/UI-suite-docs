@@ -16,20 +16,20 @@ To enable in-line editing in the grid component, set the [editSettings.mode](htt
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs20/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs20/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs20/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs20/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs20/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs20/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs20/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs20/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs20" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs20" %}
 
 >* `Normal` edit mode is default mode of editing.
 >* When enabling editing, it is necessary to set the [isPrimaryKey](https://ej2.syncfusion.com/react/documentation/api/grid/columnModel#isprimarykey) property value to `true` for the unique column.
@@ -47,20 +47,20 @@ In the following example, the "Total Cost" column value is updated based on chan
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs21/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs21/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs21/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs21/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs21/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs21/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs21/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs21/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs21" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs21" %}
 
 ## Cancel edit based on condition
 
@@ -81,20 +81,20 @@ Apply the desired condition and cancel the operation by setting the `args.cancel
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs22/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs22/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs22/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs22/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs22/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs22/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs22/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs22/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs22" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs22" %}
 
 ## Perform CRUD action programmatically
 
@@ -112,20 +112,20 @@ Programmatic CRUD operations enable creating, reading, updating, and deleting da
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs23/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs23/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs23/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs23/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs23/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs23/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs23/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs23/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs23" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs23" %}
 
 ## Show confirmation dialog while deleting
 
@@ -135,20 +135,20 @@ To enable the confirmation dialog for delete operations, set the [showDeleteConf
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs24/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs24/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs24/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs24/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs24/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs24/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs24/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs24/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs24" %}
 
 > The [showDeleteConfirmDialog](https://ej2.syncfusion.com/react/documentation/api/grid/editSettings#showdeleteconfirmdialog) property supports all editing modes. To customize the built-in delete confirmation dialog, see [here](./edit#customize-delete-confirmation-dialog)
 
@@ -160,20 +160,20 @@ To set a default value for a specific column, use the [defaultValue](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs25/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs25/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs25/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs25/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs25/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs25/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs25/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs25/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs25" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs25" %}
 
 ## Add new rows at the bottom of the grid
 
@@ -183,20 +183,20 @@ By default, new row's form is inserted at the top of the grid for data entry. To
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs26/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs26/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs26/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs26/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs26/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs26/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs26/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs26/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs26" %}
 
 >* The [newRowPosition](https://ej2.syncfusion.com/react/documentation/api/grid/editSettings#newrowposition) property is supported for `Normal` and `Batch` editing modes.
 >* When [newRowPosition](https://ej2.syncfusion.com/react/documentation/api/grid/editSettings#newrowposition) is set to `Bottom`, the grid displays a blank row form at the bottom by default for data entry. However, when the data is saved or updated, it is inserted at the top of the grid.
@@ -207,20 +207,20 @@ The React Data Grid simplifies record addition by consistently presenting a blan
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs36/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs36/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs36/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs36/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs36/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs36/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs36/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs36/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs36" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs36" %}
 
 > To save newly added records, press the <kbd>Enter</kbd> key or click the **Update** button on the toolbar after filling the add form.
 
@@ -242,20 +242,20 @@ To delete multiple selected records, first select multiple rows by highlighting 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-toolbar-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-toolbar-cs1" %}
 
 > The <kbd>Delete</kbd> keyboard shortcut key also removes selected records.
 
@@ -273,20 +273,20 @@ Delete multiple rows programmatically using the following methods:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-multiple-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-multiple-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-multiple-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-multiple-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-multiple-cs1" %}
  
 ## Move focus to a specific cell while editing a row
 
@@ -296,20 +296,20 @@ To achieve this functionality, leverage the [recordDoubleClick](https://ej2.sync
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs27/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs27/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs27/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs27/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs27/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs27/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs27/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs27/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs27" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs27" %}
 
 ## Enable editing in single click
 
@@ -321,17 +321,17 @@ The following sample demonstrates enabling editing in a single click using the `
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs32/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs32/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs32/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs32/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs32/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs32/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs32/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs32/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs32" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs32" %}

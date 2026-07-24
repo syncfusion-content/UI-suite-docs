@@ -27,10 +27,10 @@ The following example demonstrates how to export current page to a Excel documen
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-current/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-current/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-current.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-current/export-current.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-current/export-current.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ The following example demonstrates how to export the selected records to a Excel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-selected-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-selected-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="selected-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-selected-data/selected-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-selected-data/selected-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ The following example demonstrates how to export grouped records to an Excel doc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/excel-group/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/excel-group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="selected-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/excel-group/excel-group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/excel-group/excel-group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The following example demonstrates how to export hidden columns to a Excel file.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-hidden/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-hidden/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-hidden.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-hidden/export-hidden.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-hidden/export-hidden.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ In the following example, the **ShipName** is initially a hidden column in the S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/excelexport-show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/excelexport-show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/excelexport-show-hide/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/excelexport-show-hide/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to export data with filter options to an 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-enable-filtering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-enable-filtering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-filtering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-enable-filtering/export-filtering.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-enable-filtering/export-filtering.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following example demonstrates how to define a file name using `excelExportP
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-filename/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-filename/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-filename/export-filename.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-filename/export-filename.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,10 +203,10 @@ The following example demonstrates how to export master detail grid to the same 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/masterdetailgrid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/masterdetailgrid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="masterdetailgrid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/masterdetailgrid/masterdetailgrid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/masterdetailgrid/masterdetailgrid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -228,10 +228,10 @@ The following example demonstrates how to customize the grid columns when export
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-customizing-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-customizing-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-customize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-customizing-columns/export-customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-customizing-columns/export-customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -253,10 +253,10 @@ In the following example, apply font styling to the caption, header, and record 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/theme/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/theme/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="theme.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/theme/theme.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -274,10 +274,10 @@ In the following demo, using the `rotation` property of the style argument in th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/header-rotate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/header-rotate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="header-rotate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/header-rotate/header-rotate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/header-rotate/header-rotate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -293,10 +293,10 @@ The following example demonstrate how to customize the background color of the F
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/cell-format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/cell-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/cell-format/cell-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/cell-format/cell-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -312,10 +312,10 @@ The following example demonstrates how to add a header and footer to the exporte
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/header-footer/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/header-footer/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -329,9 +329,9 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-grid-as-blob/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-grid-as-blob/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-option.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/export-grid-as-blob/excel-option.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/export-grid-as-blob/excel-option.cs %}
 {% endhighlight %}
 {% endtabs %}

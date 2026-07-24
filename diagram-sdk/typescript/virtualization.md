@@ -33,4 +33,4 @@ The following code example demonstrates how to enable Virtualization mode in the
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/virtualization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/virtualization-cs1" %}

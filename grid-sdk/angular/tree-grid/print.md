@@ -14,14 +14,14 @@ To print the TreeGrid, call the [`print`](https://ej2.syncfusion.com/angular/doc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs33/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs33/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs33/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs33/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs33" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs33" %}
 
 ## Page setup
 
@@ -38,14 +38,14 @@ To print the TreeGrid with an external button, invoke the [`print`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs27/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-cs27" %}
 
 ## Print the visible page
 
@@ -53,14 +53,14 @@ By default, TreeGrid prints all pages. To print only the current page, set the [
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs34/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs34/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs34/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs34/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs34" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs34" %}
 
 ## Print large numbers of columns
 
@@ -84,14 +84,14 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs35/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs35/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs35/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs35/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs35" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs35" %}
 
 ## Printing limitations with large data
 

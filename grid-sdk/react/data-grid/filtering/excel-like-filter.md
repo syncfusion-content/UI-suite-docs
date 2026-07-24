@@ -22,20 +22,20 @@ To enable the Excel like filtering, set the [filterSettings.type](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide" %}
 
 >* The Excel-like filter feature supports various filter conditions, including text-based, number-based, date-based, and boolean-based filters.
 >* The filter dialog provides additional options, such as sorting filter values, searching for specific values, and clearing applied filters.
@@ -48,20 +48,20 @@ The checkbox list supports search functionality: typing in the search box filter
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/check-box-filter-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/check-box-filter-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/check-box-filter-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/check-box-filter-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/check-box-filter-cs1" %}
 
 ## Customize the filter choice count
 
@@ -75,20 +75,20 @@ The following example demonstrates how to customize the filter choice count in t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs2" %}
 
 > The specified filter choice count value determines the display of unique items as a checkbox list in the `Excel/Checkbox` filter dialog. Higher values can result in a delay when rendering checkbox items while opening the filter dialog. Therefore, setting a restricted filter choice count value is advisable to maintain optimal performance.
 
@@ -112,20 +112,20 @@ In the example below, the text displayed in the filter checkbox list for the "De
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs3" %}
 
 ## Show template in checkbox list data
 
@@ -135,20 +135,20 @@ In this example, the `filterItemTemplate` renders icons along with the category 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs5" %}
 
 ## Bind custom remote datasource for excel/checkbox filtering
 
@@ -160,20 +160,20 @@ The following example demonstrates how to dynamically change the remote custom d
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs6" %}
 
 ## Hide sorting option in filter dialog
 
@@ -189,20 +189,20 @@ The Excel-like filter dialog in the Grid includes built-in sorting options (asce
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-hide/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-hide" %}
 
 ## Hide search box in filter dialog
 
@@ -210,20 +210,20 @@ The Excel-like filter dialog in the Grid includes a search box by default, which
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/excel-like-filter-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/excel-like-filter-cs4" %}
 
 ## Render checkbox list data in on-demand for excel/checkbox filtering
 
@@ -316,7 +316,7 @@ export default App;
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/checkbox-excel-filter" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/checkbox-excel-filter" %}
 
 ## See also
 

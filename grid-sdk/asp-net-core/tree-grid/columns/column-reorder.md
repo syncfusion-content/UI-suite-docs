@@ -16,10 +16,10 @@ Reordering can be done by drag and drop of a particular column header from one i
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ Reordering can be done by drag and drop of a particular column header from one i
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -44,10 +44,10 @@ Multiple columns can be reordered at a time by using the **reorderColumns** meth
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-multi-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-multi-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-multi-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-multi-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,7 +55,7 @@ Multiple columns can be reordered at a time by using the **reorderColumns** meth
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/reorder-multi-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/reorder-multi-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

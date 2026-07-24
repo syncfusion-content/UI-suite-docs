@@ -24,7 +24,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs15" %}
 
 
 

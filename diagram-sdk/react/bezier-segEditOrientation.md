@@ -36,4 +36,4 @@ The following code demonstrates how to configure bezier connectors with interact
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5EditOrientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5EditOrientation-cs1" %}

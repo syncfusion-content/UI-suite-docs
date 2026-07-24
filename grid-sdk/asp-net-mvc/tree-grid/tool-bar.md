@@ -41,10 +41,10 @@ The following table shows built-in toolbar items and its actions.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/default-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/default-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/default-toolbar/default-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/default-toolbar/default-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ The following table shows built-in toolbar items and its actions.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/default-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/default-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/default-toolbar/default-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/default-toolbar/default-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -75,10 +75,10 @@ By default, Custom toolbar items are in position `Left`. You can change the posi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/custom-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/custom-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ By default, Custom toolbar items are in position `Left`. You can change the posi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/custom-toolbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/custom-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -109,10 +109,10 @@ In the below example, `ExpandAll`, `CollapseAll` are built-in toolbar items and 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/builtincustomitems/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/builtincustomitems/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Builtincustomitems.css" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/builtincustomitems/builtincustomitems.css %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/builtincustomitems/builtincustomitems.css %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -120,10 +120,10 @@ In the below example, `ExpandAll`, `CollapseAll` are built-in toolbar items and 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/builtincustomitems/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/builtincustomitems/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Builtincustomitems.css" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/builtincustomitems/builtincustomitems.css %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/builtincustomitems/builtincustomitems.css %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -138,10 +138,10 @@ You can enable/disable toolbar items by using the `enableItems` method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toolbar-enable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -149,10 +149,10 @@ You can enable/disable toolbar items by using the `enableItems` method.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toolbar-enable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

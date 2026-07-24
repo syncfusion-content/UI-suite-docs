@@ -24,20 +24,20 @@ The following example demonstrates single row selection in Grid component:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs1" %}
 
 ## Multiple row selection 
 
@@ -49,20 +49,20 @@ The following example demonstrates multiple rows selection in Grid component:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs2" %}
 
 ## Select row at initial rendering 
 
@@ -72,20 +72,20 @@ The following example demonstrates selecting a row at initial rendering:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs7" %}
 
 ## Select rows in any page based on index value 
 
@@ -229,14 +229,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs3" %}
 
 ## Multiple row selection by single click 
 
@@ -306,14 +306,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs9" %}
 
 ## Select rows programmatically 
 
@@ -405,14 +405,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs5" %}
 
 ### Multiple rows selection
 
@@ -502,14 +502,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs4" %}
 
 ### Select range of rows
 
@@ -615,14 +615,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs6" %}
 
 ## Select rows conditionally
 
@@ -632,20 +632,20 @@ The following example demonstrates selecting grid rows only when the "Employee I
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-headertext-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-headertext-cs2" %}
 
 ## Get selected row indexes 
 
@@ -657,20 +657,20 @@ The following example demonstrates getting selected row indexes using the `getSe
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs8" %}
 
 ## Get selected records on various pages 
 
@@ -684,20 +684,20 @@ The following example demonstrates how to retrieve selected records from various
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs12" %}
 
 > To persist the grid selection, it is necessary to define any one of the columns as a primary key using the [columns.isPrimaryKey](https://ej2.syncfusion.com/react/documentation/api/grid/column#isprimarykey) property.
 
@@ -711,20 +711,20 @@ The following example displays the selected row count using the `getSelectedReco
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs7" %}
 
 ## Clear row selection programmatically 
 
@@ -736,20 +736,20 @@ The following example demonstrates clearing row selection by calling the `clearR
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs11" %}
 
 ## Row selection events 
 
@@ -767,20 +767,20 @@ In the following example, row selection is canceled when the value of "Customer 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-row-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-row-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-row-cs8" %}
 
 ## Pass selected records to server using AJAX
 

@@ -35,10 +35,10 @@ The following code snippet shows server configuration using ASP.NET Core Control
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/server-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/server-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/server-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/server-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -202,10 +202,10 @@ In the following demo, the `DrawString` method from the `Graphics` is used to ro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/rotate-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/rotate-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate-Header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/rotate-header/rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/rotate-header/rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -219,10 +219,10 @@ The following example demonstrates how to pass additional parameters to the serv
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/additonal-parameter/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/additonal-parameter/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate-Header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/additonal-parameter/additional-parameter.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/additonal-parameter/additional-parameter.cs %}
 {% endhighlight %}
 {% endtabs %}
 

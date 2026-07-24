@@ -21,13 +21,13 @@ The following example demonstrates on **Adding** a new row when **Enter** key is
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Keys.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Keys.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,13 +35,13 @@ The following example demonstrates on **Adding** a new row when **Enter** key is
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Keys.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Keys.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/keyboard-actions/keys.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

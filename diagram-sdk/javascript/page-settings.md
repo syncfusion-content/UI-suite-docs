@@ -32,7 +32,7 @@ The following example shows the customization of page settings.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -45,7 +45,7 @@ The following example shows the customization of page settings.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs1" %}
 {% endif %}
 
 ## Set background image
@@ -66,7 +66,7 @@ The following code illustrates how to set background image to the diagram page.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -79,7 +79,7 @@ The following code illustrates how to set background image to the diagram page.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs2" %}
 {% endif %}
 
 ## Page orientation
@@ -103,7 +103,7 @@ Depending on the [`orientation`](../api/diagram/pagesettingsmodel#orientation) s
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -116,7 +116,7 @@ Depending on the [`orientation`](../api/diagram/pagesettingsmodel#orientation) s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs5" %}
 {% endif %}
 
 
@@ -137,7 +137,7 @@ The [`multiplePage`](../api/diagram/pageSettingsModel#multiplepage) and [`showPa
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -150,7 +150,7 @@ The [`multiplePage`](../api/diagram/pageSettingsModel#multiplepage) and [`showPa
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs3" %}
 {% endif %}
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details refer to [`CSS customization`](./style#customizing-the-page-breaks)
@@ -178,7 +178,7 @@ Below is an example illustrating how to define boundary constraints within the d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -191,7 +191,7 @@ Below is an example illustrating how to define boundary constraints within the d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs4" %}
 {% endif %}
 
 ## Fit options
@@ -211,7 +211,7 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -224,5 +224,5 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/pagesettings-cs6" %}
 {% endif %}

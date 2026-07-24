@@ -20,10 +20,10 @@ The following code example demonstrates how to define a validation rule for grid
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-columnvalid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-columnvalid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-columnvalid/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-columnvalid/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ In the below demo, custom validation applied for **CustomerID** column.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-customvalidation/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-customvalidation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="customvalidation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-customvalidation/customvalidation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-customvalidation/customvalidation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ In the following sample, dropdownlist edit type is used for the **Role** and **S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-dropdown-change/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-dropdown-change/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-dropdown-change/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-dropdown-change/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ In the following example, custom validation functions, namely **customFunction**
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-numericcolumn/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-numericcolumn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-numericcolumn/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-numericcolumn/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ The following example to demonstrates how to dynamically add or remove a require
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-add-remove/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-add-remove/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-add-remove/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-add-remove/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ Here's an example that demonstrates how to change the position of the validation
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-position/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-position/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="validation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/validation-position/validation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/validation-position/validation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -351,10 +351,10 @@ For server-side validation to prevent adding duplicate rows, you can refer to th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/prevent-add-duplicate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/prevent-add-duplicate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit-temp.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/prevent-add-duplicate/customvalidation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/prevent-add-duplicate/customvalidation.cs %}
 {% endhighlight %}
 {% endtabs %}
 

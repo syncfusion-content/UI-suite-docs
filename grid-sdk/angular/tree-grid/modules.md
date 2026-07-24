@@ -40,14 +40,14 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/getting-started-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/getting-started-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/getting-started-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/getting-started-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/getting-started-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/getting-started-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/getting-started-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/getting-started-cs5" %}

@@ -19,27 +19,27 @@ By default, column header title is displayed from column [`field`](../../api/tre
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/columns-cs17/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/columns-cs17/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs17" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/columns-cs17/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/columns-cs17/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs17" %}
 {% endif %}
 
 > * If both the [`field`](../../api/treegrid/column/#field) and [`headerText`](../../api/treegrid/column/#headertext) are not defined in the column, the column renders with “empty” header text.
@@ -52,25 +52,25 @@ You can customize the header element by using the [`headerTemplate`](../../api/t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/header-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/header-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/header-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/header-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/header-template-cs1" %}
 {% endif %}

@@ -48,7 +48,7 @@ To implement local data binding, configure the `dataSourceSettings` fields to ma
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/localBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/localBinding-cs1" %}
 
 ## Remote Data Binding
 
@@ -68,7 +68,7 @@ For comprehensive DataManager information, see the [`DataManager documentation`]
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/remoteBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/remoteBinding-cs1" %}
 
 ## CRUD Operations with Data Binding
 
@@ -101,7 +101,7 @@ The diagram can simultaneously read from two data sources: one for nodes and ano
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/connectionDataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/dataBinding/connectionDataSource-cs1" %}
 
 ### Runtime Data Modification
 

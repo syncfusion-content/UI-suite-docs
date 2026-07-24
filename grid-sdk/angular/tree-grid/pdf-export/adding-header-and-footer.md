@@ -124,12 +124,12 @@ The following code illustrates PDF export customization.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pdf-export-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pdf-export-cs1" %}

@@ -37,7 +37,7 @@ The following code example demonstrates how to create a mind map layout:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindMap-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindMap-cs1" %}
 
 The following table outlines the available orientation options:
 
@@ -64,7 +64,7 @@ The following code example shows how to position all branches on the right side 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindmap-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/mindmap-cs2" %}
 
 ![Mind map layout showing branched structure with nodes arranged around a central concept](../images/mindmap.png)
 

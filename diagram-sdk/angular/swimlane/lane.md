@@ -36,7 +36,7 @@ The following code example illustrates how to define a swimlane with a lane.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/emptylane-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/emptylane-cs1" %}
 
 ### Create lane header
 
@@ -54,7 +54,7 @@ The following code example illustrates how to define a lane header.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheader-cs1" %}
 
 ### Customizing lane and lane header
 
@@ -76,7 +76,7 @@ The following code example illustrates how to customize the lane header.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheadercustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/laneheadercustomize-cs1" %}
 
 #### Dynamic customization of lane header
 
@@ -92,7 +92,7 @@ Lane header style and text properties can be customized dynamically. The followi
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamiclaneheader-cs1" %}
 
 ### Add and remove lanes at runtime
 
@@ -108,7 +108,7 @@ Lanes can be added at runtime by using the [`addLanes`](https://ej2.syncfusion.c
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs1" %}
 
 ### Add children to lane
 
@@ -126,7 +126,7 @@ The following code example illustrates how to add nodes to a lane.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildern-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildern-cs1" %}
 
 #### Add child dynamically into the lane
 
@@ -142,7 +142,7 @@ Child nodes can be inserted into a lane at runtime by using the [`addNodeToLane`
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs2" %}
 
 
 Nodes can also be dragged from the palette or diagram and dropped inside the lane.
@@ -165,7 +165,7 @@ Here is an example of how to apply these constraints:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/lanechildren-cs3" %}
 
 
 ### Additional information storage
@@ -182,7 +182,7 @@ Additional information storage for lanes is similar to nodes. Additional informa
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addinfo-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addinfo-cs1" %}
 
 
 ### Lane interaction
@@ -219,7 +219,7 @@ The following code illustrates how to disable a swimlane lane swapping.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/addlanes-cs2" %}
 
 #### Resize helper
 

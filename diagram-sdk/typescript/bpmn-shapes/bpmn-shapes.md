@@ -26,7 +26,7 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs1" %}
 
 
 

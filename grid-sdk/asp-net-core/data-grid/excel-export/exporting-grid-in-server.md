@@ -38,10 +38,10 @@ The following example shows server configuration using ASP.NET Core Controller A
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ Here's an example of how you can accomplish CSV export on the server-side:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-csv-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-csv-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-csv-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-csv-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The following code demonstrates how to get the memory stream of exported Grid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ In the following code, `ExcelEngine` and `AddCopy` method of Worksheets are used
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms-merge/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms-merge/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms-merge/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms-merge/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ If you already have a file stream, you can directly use it to merge with the Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-fs-merge/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-fs-merge/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-fs-merge/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-fs-merge/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ To merge a local file with the Grid's memory stream, you need to convert it into
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-file-merge/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-file-merge/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-file-merge/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-file-merge/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -136,10 +136,10 @@ You can download the merged memory stream by converting it into a `FileStreamRes
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms-download/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms-download/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-export-ms-download/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-export-ms-download/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,10 +153,10 @@ In the following demo, using the `HeaderCellRotate` method of the `GridExcelExpo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-rotate-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-rotate-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="server-rotate-header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 

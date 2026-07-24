@@ -18,20 +18,20 @@ Below is an example of enabling drill-through in a Pivot Table:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs51/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs51/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs51/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs51/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs51/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs51/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs51/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs51/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs51" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs51" %}
 
 Users can also access drill-through data through the pivot chart. By clicking on any data point in the pivot chart, they can view the raw data in a data grid displayed in a new window.
 
@@ -39,20 +39,20 @@ Below is an example of enabling drill-through with a pivot chart:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs52/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs52/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs52/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs52/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs52/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs52/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs52/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs52/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs52" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs52" %}
 
 ## Maximum rows to retrieve
 
@@ -141,20 +141,20 @@ Below is an example of using the [`drillThrough`](https://ej2.syncfusion.com/rea
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs53/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs53/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs53/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs53/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs53/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs53/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs53/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs53/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs53" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs53" %}
 
 ### BeginDrillThrough
 
@@ -169,20 +169,20 @@ The following example demonstrates how to enable [`sorting`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs54/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs54/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs54/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs54/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs54/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs54/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs54/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs54/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs54" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs54" %}
 
 ## See Also
 

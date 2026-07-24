@@ -29,7 +29,7 @@ To create an expanded subprocess, configure the shape as [`activity`](https://ej
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1" %}
 
 ### Add BPMN Nodes into Expanded SubProcess
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to define child processes within an 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2" %}
 
 ### Add BPMN Nodes into Expanded SubProcess at Runtime
 
@@ -71,4 +71,4 @@ The following example demonstrates how to implement dynamic process addition and
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3" %}

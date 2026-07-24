@@ -22,10 +22,10 @@ The following example demonstrates how to define a `Template` for the **Employee
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/template/template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following example demonstrates, how to render hyperlink column in the Grid u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-hyperlink/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-hyperlink/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-hyperlink/column-template-hyperlink.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-hyperlink/column-template-hyperlink.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ In the following example, we have rendered the Sparkline Chart component in the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-linechart/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-linechart/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-linechart/column-template-linechart.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-linechart/column-template-linechart.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ function colorPicker(args) {
 ``` 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-colorpicker/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-colorpicker/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-colorpicker/column-template-colorpicker.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-colorpicker/column-template-colorpicker.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -120,10 +120,10 @@ function dropdown(args) {
 ```
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-dropdownlist/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-dropdownlist/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-dropdownlist/column-template-dropdownlist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-dropdownlist/column-template-dropdownlist.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -147,10 +147,10 @@ function queryCellInfo(args) {
 ```
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-chip/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-chip/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-chip/column-template-chip.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-chip/column-template-chip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -178,10 +178,10 @@ function queryCellInfo(args) {
 ``` 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-progressbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-progressbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-progressbar/column-template-progressbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-progressbar/column-template-progressbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,13 +195,13 @@ In the following example, a `RadioButton` is rendered in the **Order Status** co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-radiobutton/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-radiobutton/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-radiobutton/column-template-radiobutton.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-radiobutton/column-template-radiobutton.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="OrdersDetails.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-radiobutton/OrdersDetails.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-radiobutton/OrdersDetails.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,10 +225,10 @@ The following example demonstrates how to use the `Template` property with the `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/condition-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/condition-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/condition-template/template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/condition-template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -244,10 +244,10 @@ In the following code, the button element is rendered in the **Employee Data** c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/row-object/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/row-object/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-object.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/row-object/row-object.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/row-object/row-object.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -263,10 +263,10 @@ The following example illustrates how to implement a custom helper function with
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-customhelper/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-customhelper/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-customhelper/column-template-customhelper.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-customhelper/column-template-customhelper.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -284,10 +284,10 @@ The following example demonstrates how to add template column using external but
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-adding-dynamically/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-adding-dynamically/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/column-template-adding-dynamically/column-tempate-adding-dynamically.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/column-template-adding-dynamically/column-tempate-adding-dynamically.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -303,9 +303,9 @@ The example below enables Aria labels for the **Employee Image** column and disa
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/template-aria-label/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/template-aria-label/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/template-aria-label/template-aria-label.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/template-aria-label/template-aria-label.cs %}
 {% endhighlight %}
 {% endtabs %}

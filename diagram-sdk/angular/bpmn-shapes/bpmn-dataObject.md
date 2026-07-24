@@ -32,7 +32,7 @@ The following example demonstrates how to create a basic BPMN data object:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/data-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/data-cs1" %}
 
 ## Data Object Types
 

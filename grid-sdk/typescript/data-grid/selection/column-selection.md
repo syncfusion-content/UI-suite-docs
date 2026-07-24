@@ -21,27 +21,27 @@ Here's an example of how to enable column selection using `allowColumnSelection`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/selected-index-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/selected-index-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/selected-index-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/selected-index-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/selected-index-cs1" %}
 {% endif %}
 
 ## Single column selection 
@@ -56,27 +56,27 @@ Here's an example of how to enable single column selection using `allowColumnSel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-single-selection-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-single-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-single-selection-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-single-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-single-selection-cs1" %}
 {% endif %}
 
 ## Multiple column selection 
@@ -91,27 +91,27 @@ Here's an example of how to enable multiple column selection using `allowColumnS
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-multi-selection-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-multi-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-multi-selection-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-multi-selection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-multi-selection-cs1" %}
 {% endif %}
 
 ## Select columns externally 
@@ -132,27 +132,27 @@ The following example, demonstrates how to select a single column within the Gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs1" %}
 {% endif %}
 
 ### Multiple column selection
@@ -169,27 +169,27 @@ The following example demonstrates how to select multiple columns in the Grid by
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs2" %}
 {% endif %}
 
 ### Range of column selection 
@@ -204,27 +204,27 @@ The following example demonstrates how to select a range of columns within the G
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs3" %}
 {% endif %}
 
 ### Select with existing column 
@@ -239,27 +239,27 @@ The following example demonstrates how to select a column with an existing colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-external-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-external-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-external-cs4" %}
 {% endif %}
 
 ##  Clear column selection programmatically 
@@ -274,27 +274,27 @@ In the following example, it demonstrates how to clear column selection by calli
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-clearselection-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-clearselection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-clearselection-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-clearselection-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-clearselection-cs1" %}
 {% endif %}
 
 ## Column selection events 
@@ -315,25 +315,25 @@ In the following example, column selection is canceled when the value of `field`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-selection-event/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-selection-event/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-selection-event/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-selection-event/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-selection-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-selection-event" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-selection-event/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-selection-event/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/column-selection-event/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/column-selection-event/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-selection-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-selection-event" %}
 {% endif %}
