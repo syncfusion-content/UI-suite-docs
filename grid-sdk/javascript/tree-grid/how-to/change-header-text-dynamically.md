@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Change header text dynamically in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Change header text dynamically in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

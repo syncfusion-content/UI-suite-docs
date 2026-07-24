@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Add parameter for filtering in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Add parameter for filtering in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

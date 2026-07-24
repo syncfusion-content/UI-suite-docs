@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Loading animation in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Loading animation in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

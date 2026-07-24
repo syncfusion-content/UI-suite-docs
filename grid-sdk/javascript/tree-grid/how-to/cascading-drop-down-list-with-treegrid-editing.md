@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Cascading drop down list with treegrid editing in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Cascading drop down list with treegrid editing in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

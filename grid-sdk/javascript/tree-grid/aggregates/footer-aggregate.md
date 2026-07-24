@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Footer aggregate in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Footer aggregate in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

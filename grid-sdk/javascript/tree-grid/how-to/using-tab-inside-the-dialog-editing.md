@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Using tab inside the dialog editing in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Using tab inside the dialog editing in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

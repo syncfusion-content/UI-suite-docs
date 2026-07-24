@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Clipboard in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Clipboard in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Remote data in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Remote data in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

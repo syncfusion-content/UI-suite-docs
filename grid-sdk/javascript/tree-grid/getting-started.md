@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Getting started with JavaScript Tree Grid control | Syncfusion
 description: Checkout and learn about Getting started with JavaScript Tree Grid control of Syncfusion Essential JS 2 and more details.

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Row cell customization in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Row cell customization in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

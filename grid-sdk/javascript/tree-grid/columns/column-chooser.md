@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Column chooser in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Column chooser in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

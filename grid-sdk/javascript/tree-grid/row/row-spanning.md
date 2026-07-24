@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Row spanning in JavaScript TreeGrid control | Syncfusion
 description: Learn here all about Row spanning in Syncfusion JavaScript TreeGrid control of Syncfusion Essential JS 2 and more.

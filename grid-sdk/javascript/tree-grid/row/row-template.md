@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Row template in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Row template in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.

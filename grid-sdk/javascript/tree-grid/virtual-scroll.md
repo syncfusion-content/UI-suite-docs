@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/javascript/treegrid---
+---
 layout: post
 title: Virtual scroll in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Virtual scroll in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
