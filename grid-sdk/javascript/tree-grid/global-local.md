@@ -118,27 +118,27 @@ The following example demonstrates the TreeGrid in `Deutsch` culture.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs1" %}
 {% endif %}
 
 ### Localization of dependent components in TreeGrid
@@ -218,27 +218,27 @@ The [`Internationalization`](../common/internationalization) library is used to 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs2" %}
 {% endif %}
 
 > * In the above sample, `Price` column is formatted by `NumberFormatOptions`.
@@ -252,27 +252,27 @@ RTL provides an option to switch the text direction and layout of the TreeGrid c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/internationalization-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/internationalization-cs3" %}
 {% endif %}
 
 ## See Also

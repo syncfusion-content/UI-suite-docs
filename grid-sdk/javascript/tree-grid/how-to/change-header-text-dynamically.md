@@ -39,10 +39,10 @@ treegrid.refreshColumns();
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/headertext-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/headertext-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/headertext-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/headertext-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -52,10 +52,10 @@ treegrid.refreshColumns();
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/headertext-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/headertext-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/headertext-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/headertext-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

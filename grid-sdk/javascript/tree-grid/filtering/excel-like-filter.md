@@ -17,10 +17,10 @@ You can enable Excel like filter by defining.[`filterSettings.type`](../../api/t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -30,10 +30,10 @@ You can enable Excel like filter by defining.[`filterSettings.type`](../../api/t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,10 +48,10 @@ You can change the default excel-filter operator by changing the column operator
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -61,10 +61,10 @@ You can change the default excel-filter operator by changing the column operator
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

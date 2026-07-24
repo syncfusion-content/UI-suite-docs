@@ -17,10 +17,10 @@ To customize default values of pager dropdown, you need to define [`pageSizes`](
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/pager-dropdown-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/pager-dropdown-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/pager-dropdown-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/pager-dropdown-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -30,10 +30,10 @@ To customize default values of pager dropdown, you need to define [`pageSizes`](
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/pager-dropdown-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/pager-dropdown-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/pager-dropdown-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/pager-dropdown-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

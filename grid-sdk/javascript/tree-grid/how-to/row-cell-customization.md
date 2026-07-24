@@ -19,10 +19,10 @@ In the below demo, we customize and show the command buttons only for the parent
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/custom-row-cell-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/custom-row-cell-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/custom-row-cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/custom-row-cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ In the below demo, we customize and show the command buttons only for the parent
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/custom-row-cell-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/custom-row-cell-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/custom-row-cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/custom-row-cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

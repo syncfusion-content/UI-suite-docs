@@ -21,10 +21,10 @@ To use Infinite scrolling, set `enableInfiniteScrolling` property as true and in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ To use Infinite scrolling, set `enableInfiniteScrolling` property as true and in
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ In the below demo, we have changed this property value to load five page records
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ In the below demo, we have changed this property value to load five page records
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,10 +87,10 @@ To enable the cache mode in Infinite scrolling, set `infiniteScrollSettings.enab
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -100,10 +100,10 @@ To enable the cache mode in Infinite scrolling, set `infiniteScrollSettings.enab
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/infinite-scroll-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/infinite-scroll-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

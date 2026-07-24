@@ -21,10 +21,10 @@ To use CRUD, inject the [`Edit`](../../api/treegrid/#editmodule) module in treeg
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs8/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ To use CRUD, inject the [`Edit`](../../api/treegrid/#editmodule) module in treeg
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs8/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ You can define this by using the [`toolbar`](../../api/treegrid/#toolbar) proper
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs9/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -68,10 +68,10 @@ You can define this by using the [`toolbar`](../../api/treegrid/#toolbar) proper
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs9/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -88,10 +88,10 @@ The following examples shows how to set new row position as `Child` in tree grid
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs10/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -101,10 +101,10 @@ The following examples shows how to set new row position as `Child` in tree grid
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs10/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs11/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -134,10 +134,10 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs11/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,10 +155,10 @@ To set a default value for the particular column by defining the [`columns.defau
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs12/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -168,10 +168,10 @@ To set a default value for the particular column by defining the [`columns.defau
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs12/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,10 +188,10 @@ In the following demo, editing is disabled for the `Start Date` column.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs13/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -201,10 +201,10 @@ In the following demo, editing is disabled for the `Start Date` column.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs13/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

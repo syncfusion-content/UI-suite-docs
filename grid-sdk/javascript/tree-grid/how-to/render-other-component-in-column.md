@@ -21,10 +21,10 @@ In the following sample, the DropDownList is rendered in the **Priority** column
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/render-component-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/render-component-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/render-component-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/render-component-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ In the following sample, the DropDownList is rendered in the **Priority** column
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/render-component-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/render-component-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/render-component-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/render-component-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

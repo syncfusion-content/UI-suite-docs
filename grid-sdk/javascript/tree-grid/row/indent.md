@@ -19,10 +19,10 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ You can change the hierarchy level of record programmatically using [indent](htt
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -63,10 +63,10 @@ You can change the hierarchy level of record programmatically using [indent](htt
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

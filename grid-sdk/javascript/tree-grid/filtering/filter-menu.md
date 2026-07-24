@@ -18,10 +18,10 @@ You can filter the records with different operators.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -31,10 +31,10 @@ You can filter the records with different operators.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ In the following sample, dropdown is used  as custom component in the duration c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -71,10 +71,10 @@ In the following sample, dropdown is used  as custom component in the duration c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ In the following sample menu filter is enabled by default and excel filter is en
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -105,10 +105,10 @@ In the following sample menu filter is enabled by default and excel filter is en
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/filtering-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

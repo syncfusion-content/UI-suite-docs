@@ -19,25 +19,25 @@ To enable Row edit, set the [`editSettings.mode`](../../api/treegrid/editSetting
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs14/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs14/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs14" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs14/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/edit-cs14/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/edit-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs14" %}
 {% endif %}

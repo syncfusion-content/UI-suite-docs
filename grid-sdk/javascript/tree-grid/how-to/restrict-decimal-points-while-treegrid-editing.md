@@ -17,10 +17,10 @@ In the below demo, while editing the row we have restricted to type the decimal 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/restrict-decimal-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/restrict-decimal-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/restrict-decimal-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/restrict-decimal-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

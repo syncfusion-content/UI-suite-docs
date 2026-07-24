@@ -19,10 +19,10 @@ The following example demonstrate the usage of tab control inside the dialog tem
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/tab-inside-dialog-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/tab-inside-dialog-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/tab-inside-dialog-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/tab-inside-dialog-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ The following example demonstrate the usage of tab control inside the dialog tem
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/tab-inside-dialog-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/tab-inside-dialog-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/tab-inside-dialog-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/tab-inside-dialog-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
