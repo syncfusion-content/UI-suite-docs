@@ -18,19 +18,19 @@ Predictive analysis computes and fills missing or future values based on existin
 
 {% tabs %}
 {% highlight ts tabtitle="Predictive-Data.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/predictive-data/predictive-data.tsx %}
+{% include code-snippet/grid-sdk/react/grid/predictive-data/predictive-data.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/predictive-data/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/predictive-data/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Openai-Model.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/predictive-data/openai-model.ts %}
+{% include code-snippet/grid-sdk/react/grid/predictive-data/openai-model.ts %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/data-grid/predictive-data/App.css %}
+{% include code-snippet/grid-sdk/react/grid/predictive-data/App.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/predictive-data/datasource.ts %}
+{% include code-snippet/grid-sdk/react/grid/predictive-data/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,19 +44,19 @@ Anomaly detection identifies irregular or illogical entries and provides explana
 
 {% tabs %}
 {% highlight ts tabtitle="Anomaly-Detection.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/anomaly-detection/anomaly-detection.tsx %}
+{% include code-snippet/grid-sdk/react/grid/anomaly-detection/anomaly-detection.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/anomaly-detection/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/anomaly-detection/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Openai-Model.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/anomaly-detection/openai-model.ts %}
+{% include code-snippet/grid-sdk/react/grid/anomaly-detection/openai-model.ts %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/data-grid/anomaly-detection/App.css %}
+{% include code-snippet/grid-sdk/react/grid/anomaly-detection/App.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/anomaly-detection/datasource.ts %}
+{% include code-snippet/grid-sdk/react/grid/anomaly-detection/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,22 +70,22 @@ Semantic filtering enables natural language search for semantically related reco
 
 {% tabs %}
 {% highlight ts tabtitle="Semantic-Search.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/semantic-search.tsx %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/semantic-search.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Embedding-Model.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/embedding-model.ts %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/embedding-model.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="Cosine-Similarity.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/cosine-similarity.ts %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/cosine-similarity.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="Openai-Model.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/openai-model.ts %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/openai-model.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/semantic-search/datasource.ts %}
+{% include code-snippet/grid-sdk/react/grid/semantic-search/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
 

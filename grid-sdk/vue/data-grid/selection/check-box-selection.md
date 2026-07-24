@@ -18,14 +18,14 @@ Here's an example of how to enable check box selection using `type` property in 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox" %}
 
 >* By default selection is allowed by clicking a grid row or checkbox in that row. To allow selection only through checkbox, you can set [selectionSettings.checkboxOnly](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings#checkboxonly) property to **true**.
 > * Selection can be persisted on all the operations using [selectionSettings.persistSelection](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings#persistselection) property. For persisting selection on the Grid, any one of the column should be defined as a primary key using [columns.isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/grid/column#isprimarykey) property.
@@ -41,14 +41,14 @@ In the following example, it demonstrates how to dynamically enable and change t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-mode/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-mode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-mode/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-mode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox-mode" %}
 
 ## Hide selectall checkbox in column header 
 
@@ -60,14 +60,14 @@ Here's an example of how to hide selectall checkbox in column header using empty
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-selectall/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-selectall/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-selectall/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-selectall/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-selectall" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox-selectall" %}
 
 ## Prevent specific rows from being selected in checkbox selection
 
@@ -79,14 +79,14 @@ In the following sample, the selection of specific rows has been prevented based
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-prevent/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-prevent/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-prevent/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-prevent/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-prevent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox-prevent" %}
 
 ## Partial selection using isRowSelectable
 
@@ -98,14 +98,14 @@ In the example below, it prevents selection of rows with canceled orders.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/prevent-checkbox-selection/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/prevent-checkbox-selection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/prevent-checkbox-selection/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/prevent-checkbox-selection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/prevent-checkbox-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/prevent-checkbox-selection" %}
 
 ## How to select single row in checkbox selection mode
 
@@ -119,14 +119,14 @@ Here's an example of how to select a single row in checkbox selection mode using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-single/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-single/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-single/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-single/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-single" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox-single" %}
 
 ## Allow selection only through checkbox click
 
@@ -136,11 +136,11 @@ Here's an example of how to enable selection only through checkbox click using `
  
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-allow/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-allow/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-allow/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-checkbox-allow/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-checkbox-allow" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-checkbox-allow" %}

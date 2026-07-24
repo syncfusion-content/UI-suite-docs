@@ -16,10 +16,10 @@ Once column resizing is enabled, columns width can be resized by clicking and dr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ In the below code, **OrderID**, **Ship Name** and **Ship Country** columns are d
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-max/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-max/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-max/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-max/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ You can disable resizing for a particular column by setting the `allowResizing` 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-prevent/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-prevent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-prevent/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-prevent/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following example demonstrates how to set the [resizeSettings.mode](https://
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-mode/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-mode/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,10 +98,10 @@ In this below code, we have disabled resize for **Ship City** column.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-stacked/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-stacked/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-stacked/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-stacked/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -135,10 +135,10 @@ The following example demonstrates how to resize the columns in a grid. This is 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-external/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-external/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resize-external/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resize-external/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -160,10 +160,10 @@ The following is an example of using the resizing events, the `resizeStart` even
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resizeevents/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resizeevents/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/resizeevents/resize.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/resizeevents/resize.cs %}
 {% endhighlight %}
 {% endtabs %}
 

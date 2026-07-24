@@ -45,20 +45,20 @@ Restoring the initial state of the grid can be achieved by changing the componen
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/state-persistance-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/state-persistance-cs1" %}
 
 
 ### Clearing local storage
@@ -67,20 +67,20 @@ Clearing the local storage associated with the grid component resets the grid by
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs34/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs34/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs34/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs34/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs34/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs34/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs34/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs34/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs34" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs34" %}
 
 ## Restore to specific state version
 
@@ -100,20 +100,20 @@ The example below demonstrates integration of version-based persistence and rest
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/state-persistance-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/state-persistance-cs2" %}
 
 ## Restore to previous state
 
@@ -125,20 +125,20 @@ The code below demonstrates saving and restoring the previous state of a React D
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistance-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistance-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/state-persistance-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/state-persistance-cs3" %}
 
 ## Maintaining custom query in a persistent state
 
@@ -146,20 +146,20 @@ When [enablePersistence](https://ej2.syncfusion.com/react/documentation/api/grid
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs35/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs35/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs35/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs35/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs35/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs35/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs35/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs35/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs35" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs35" %}
 
 ## Observable binding with state persistence
 
@@ -177,23 +177,23 @@ The following example demonstrates using the [created](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistence-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistence-cs4/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistence-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistence-cs4/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="order-service.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistence-cs4/app/order-service.jsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistence-cs4/app/order-service.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="order-service.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/state-persistence-cs4/app/order-service.tsx %}
+{% include code-snippet/grid-sdk/react/grid/state-persistence-cs4/app/order-service.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/state-persistence-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/state-persistence-cs4" %}
 
 ## Get or set local storage value
 
@@ -222,20 +222,20 @@ The following example demonstrates preventing grid columns from persisting. Over
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs33/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs33/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs33/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs33/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs33/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs33/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs33/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs33/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs33" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs33" %}
 
 ## Add to persist
 
@@ -247,20 +247,20 @@ When the [enablePersistence](https://ej2.syncfusion.com/react/documentation/api/
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs36/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs36/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs36/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs36/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs36/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs36/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs36/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs36/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs36" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs36" %}
 
 > * Adding new columns using `ColumnDirectives` directly in the grid initialization is not recommended when intending to persist new columns with the existing columns list. 
 
@@ -272,17 +272,17 @@ Restoring these column properties and achieving persistence requires cloning the
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs32/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs32/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs32/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs32/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs32/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs32/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs32/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs32/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs32" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs32" %}

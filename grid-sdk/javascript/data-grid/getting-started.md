@@ -163,7 +163,7 @@ grid.appendTo('#Grid');
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs132" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs132" %}
 
 ## Run the application
 

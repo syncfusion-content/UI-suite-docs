@@ -24,14 +24,14 @@ Here's an example of how you can use the `rowDataBound` event to customize the s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-event/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-event/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-event/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-event/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-event" %}
 
 >The [queryCellInfo](https://ej2.syncfusion.com/vue/documentation/api/grid/#querycellinfo) event can also be used to customize cells and is triggered for every cell in the grid. It can be useful when you need to customize cells based on certain conditions or criteria.
 
@@ -55,14 +55,14 @@ Here's an example of how to use the **.e-altrow** class to style alternate rows:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-css/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-css/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-css/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-css/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-css" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-css" %}
 
 **Customize selected row**
 
@@ -80,14 +80,14 @@ Here's an example of how to use the **.e-selectionbackground** class to style th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-selected-css/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-selected-css/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-selected-css/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-selected-css/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-selected-css" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-selected-css" %}
 
 ### Using method 
 
@@ -104,14 +104,14 @@ The following example demonstrates how to use [getRowByIndex](https://ej2.syncfu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-method" %}
 
 ## Row height
 
@@ -121,14 +121,14 @@ In the below example, we will demonstrate how to dynamically change the height o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-height/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-height/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-height/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-height/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-height" %}
 
 >*	The `rowHeight` property can only be used to set the height of the entire grid row. It cannot be used to set the height of individual cells within a row.
 >*  The `rowHeight` property applies the height to all rows in the grid, including the header and footer rows.
@@ -144,14 +144,14 @@ In the below example, the row height for the row with OrderID as '10249' is set 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-customize-height/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-customize-height/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-customize-height/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-customize-height/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-customize-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-customize-height" %}
 
 >* In virtual scrolling mode, it is not applicable to set different row heights.
 >* You can customize the row height of multiple rows by checking the relevant criteria in the `rowDataBound` event and setting the `rowHeight` property accordingly.
@@ -167,14 +167,14 @@ Here is an example that demonstrates how to enable/disable the row hover based o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-hover/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-hover/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-hover/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-hover/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-hover" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-hover" %}
 
 > The `enableHover` property applies to the entire grid, not individual rows or columns.
 
@@ -189,14 +189,14 @@ Here's an example that demonstrates how to use the `rowDataBound` event and `get
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-information/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-information/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-information/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-information/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-information" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-information" %}
 
 >The `getRowInfo` method can only be used in the `rowDataBound` event. Attempting to use it elsewhere will result in an error.
 
@@ -208,14 +208,14 @@ In the following example, the [frozenRows](https://ej2.syncfusion.com/vue/docume
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-frozenRows/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-frozenRows/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-frozenRows" %}
 
 > * Frozen rows should not be set outside the grid view port.
 > * Frozen Grid will support row virtualization feature, which helps to improve the Grid performance while loading a large dataset.
@@ -237,14 +237,14 @@ By applying this CSS class, you can set the background color of frozen rows to t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows-color/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-frozenRows-color/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows-color/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-frozenRows-color/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-frozenRows-color" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-frozenRows-color" %}
 
 ### Deprecated methods
 
@@ -272,14 +272,14 @@ Here's an example of how to add a new row using the `addRecord` method:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-new-row/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-new-row/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-new-row/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-new-row/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-new-row" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-new-row" %}
 
 >* When working with remote data, it is impossible to add a new row between the existing rows.
 >* If you want to add a new record to the beginning of the data source, you can pass **0** as the second parameter to the `addRecord `method.
@@ -459,7 +459,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-show-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-show-hide" %}
 
 ## How to get the row data and element
 

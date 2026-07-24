@@ -17,27 +17,27 @@ The TypeScript Grid control allows you to calculate and display aggregate values
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs2" %}
 {% endif %}
 
 > * Use the template reference variable name **#footerTemplate** to specify the footer template.
@@ -51,27 +51,27 @@ To format the aggregate value result in the TypeScript Grid control, you can use
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs3" %}
 {% endif %}
 
 ## How to place aggregates on top of the Grid
@@ -84,25 +84,25 @@ In the following, footer content is appended to the header content using the `da
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/aggregates-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/aggregates-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/aggregates-cs4" %}
 {% endif %}

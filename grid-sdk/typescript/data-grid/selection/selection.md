@@ -28,27 +28,27 @@ To select range of rows or cells or columns, press and hold the SHIFT key and cl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs164/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs164/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs164/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs164/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs164" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs164" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs164/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs164/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs164/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs164/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs164" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs164" %}
 {% endif %}
 
 > By default, the Grid will be rendered with only the basic features such as Grid rendering and selection. The default module, including the `SelectionService`, is automatically loaded. Therefore, there is no need to inject the `SelectionService` module separately as it will be injected by default.
@@ -71,27 +71,27 @@ The following example, demonstrates how to dynamically enable and change the `se
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs165/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs165/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs165/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs165/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs165" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs165" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs165/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs165/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs165/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs165/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs165" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs165" %}
 {% endif %}
 
 ## Touch interaction
@@ -132,27 +132,27 @@ The following example demonstrates how to enable the toggle selection for both c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/Selection-grid-toggle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/Selection-grid-toggle" %}
 {% endif %}
 
 > * If multi selection is enabled, then first click on any selected row (without pressing Ctrl key), it will clear the multi selection and in second click on the same row, it will be unselected.
@@ -170,27 +170,27 @@ In the following example, it demonstrates how to clear all selection by calling 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs180/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs180/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs180/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs180/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs180" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs180" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs180/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs180/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs180/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs180/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs180" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs180" %}
 {% endif %}
 
 > In **Both** mode, if you call [clearCellSelection](../../api/grid/#clearcellselection) first, it will clear cell selections, and then if you call [clearRowSelection](../../api/grid/#clearrowselection), it will clear row selections. The order of method calls determines which type of selection is cleared first.
@@ -212,25 +212,25 @@ In the following example, it demonstrates how to enable the persist selection fe
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs181/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs181/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs181/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs181/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs181" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs181" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs181/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs181/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs181/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs181/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs181" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs181" %}
 {% endif %}

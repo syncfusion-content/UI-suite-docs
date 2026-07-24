@@ -23,27 +23,27 @@ Here's an example how to enable batch editing in the javascript grid control:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs17/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs17/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs17" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs17/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs17/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs17" %}
 {% endif %}
 
 ## Automatically update the column based on another column edited value 
@@ -64,27 +64,27 @@ In the following example, the **TotalCost** column value is updated based on cha
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs18/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs18/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs18" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs18/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs18/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs18" %}
 {% endif %}
 
 > * You can utilize the [updateCell](../../api/grid/#updatecell) method to update cells in batch mode.
@@ -105,27 +105,27 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs19" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs19" %}
 {% endif %}
 
 ## Adding a new row at the bottom of the grid
@@ -144,27 +144,27 @@ Here's an example that demonstrates how to enable adding new rows at the bottom 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs19-BatchEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs19-BatchEdit" %}
 {% endif %}
 
 ## Confirmation dialog
@@ -183,27 +183,27 @@ Here's an example that demonstrates how to enable/disable the confirmation dialo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs20/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs20/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs20/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs20" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs20/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs20/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs20" %}
 {% endif %}
 
 ## How to make editing in single click and arrow keys
@@ -220,27 +220,27 @@ Here's an example that demonstrates how to achieve both single-click editing and
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21" %}
 {% endif %}
 
 ## Disable editing for a particular cell
@@ -255,27 +255,27 @@ Here's an example demonstrating how you can disable editing for cells containing
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21-PreventEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21-PreventEdit" %}
 {% endif %}
 
 ## Save or update the changes immediately
@@ -296,25 +296,25 @@ Here's an example that demonstrates how to achieve immediate saving or updating 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs21-SaveUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs21-SaveUpdate" %}
 {% endif %}

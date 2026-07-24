@@ -30,14 +30,14 @@ Here's an example that demonstrates how to add CRUD action buttons in a column u
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs6" %}
 
 ## Custom command column
 
@@ -49,11 +49,11 @@ Here's an example that demonstrates how to add custom command buttons using the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs7" %}

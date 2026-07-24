@@ -18,14 +18,14 @@ The following example demonstrates how to enable toolbar items in the grid.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/default-cs1" %}
 
 ## Enable or disable toolbar items
 
@@ -37,14 +37,14 @@ In the following example, the [EJ2 Toggle Switch Button component](https://ej2.s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/default-cs6" %}
 
 ## Add toolbar at the bottom of Grid
 
@@ -56,14 +56,14 @@ The following example shows how to add the toolbar items at the bootom using `cr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/default-cs7" %}
 
 ## Customize toolbar buttons using CSS
 
@@ -82,14 +82,14 @@ The following example demonstrates how to change the background color of the `Ad
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/default-cs8" %}
 
 
 ## See Also

@@ -16,14 +16,14 @@ To enable in-line editing in the grid component, you need to set the [editSettin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs26/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs26/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs26/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs26/app.vue %}
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs26" %}
 
 > * Normal edit mode is default mode of editing.
 > * When enabling editing, it is necessary to set the [isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/grid/columnModel/#isprimarykey) property value to **true** for the unique column.
@@ -36,14 +36,14 @@ In the following example, the **TotalCost** column value is updated based on cha
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs27/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs27/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs27/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs27/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs27" %}
 
 ## Cancel edit based on condition
 
@@ -55,14 +55,14 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs28/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs28/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs28/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs28/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs28" %} 
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs28" %} 
 
 ## Perform CRUD action programmatically
 
@@ -82,14 +82,14 @@ Performing CRUD actions programmatically refers to the ability to create, read, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-curd/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-curd/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-curd/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-curd/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-curd" %}  
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-curd" %}  
 
 ## Show confirmation dialog while deleting
 
@@ -99,14 +99,14 @@ To enable the confirmation dialog for the delete operation in the Grid, you can 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-delete/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-delete/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-delete/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-delete/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-delete" %} 
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-delete" %} 
 
 > The **showDeleteConfirmDialog** supports all type of edit modes.
 
@@ -120,14 +120,14 @@ Here's an example of how to set a default value for a column:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-value/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-value/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-value/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-value/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-value" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-value" %}
 
 ## Delete multiple rows
 
@@ -141,14 +141,14 @@ To delete multiple selected records in the grid, first you need to select multip
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-inbuilt/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-inbuilt/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-inbuilt/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-inbuilt/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-inbuilt" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-inbuilt" %}
 
 > Also delete the selected records using keyboard shortcut key **delete**.
 
@@ -176,14 +176,14 @@ You can delete multiple rows programmatically by using following method.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-method" %}
 
 ## Adding a new row at the bottom of the grid
 
@@ -195,14 +195,14 @@ Here's an example of how to enable adding new rows at the bottom of the grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs32/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs32/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs32/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs32/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs32" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs32" %}
 
 >* Add `newRowPostion` is supported for **Normal** and **Batch** editing modes.
 >* If you set `newRowPosition` as **Bottom**, the grid will display a blank row form at the bottom by default, allowing you to enter data for the new record. However, when the data is saved or updated, it will be inserted at the top of the grid. 
@@ -215,14 +215,14 @@ The following sample demonstrates how to add a new record continuously using `sh
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs49/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs49/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs49/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs49/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs49" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs49" %}
 
 > To save the newly added records, you can either hit the **Enter** key or click on the **Update** button located on the toolbar after filling in the new add form.
 
@@ -242,14 +242,14 @@ Here's an example of how to use the `recordDoubleClick` event to move the focus 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-focus/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-focus/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-focus/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-focus/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-focus" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-focus" %}
 
 ## Enable editing in single click
 
@@ -261,14 +261,14 @@ The following sample demonstrates how to enable editing in a single click using 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-single-click/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-single-click/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-single-click/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-single-click/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-single-click" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-single-click" %}
 
 ## Disable editing for a particular row
 
@@ -280,11 +280,11 @@ In the below demo, the rows which are having the value for **ShipCountry** colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-disable/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-disable/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-disable/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-disable/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-disable" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-disable" %}

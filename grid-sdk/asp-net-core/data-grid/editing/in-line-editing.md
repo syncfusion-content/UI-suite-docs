@@ -16,10 +16,10 @@ To enable in-line editing in the grid component, you need to set the [editSettin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Inline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline/inline.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline/inline.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ In the following example, the **TotalCost** column value is updated based on cha
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-autoupdate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-autoupdate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="autoupdate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-autoupdate/autoupdate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-autoupdate/autoupdate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-cancel-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-cancel-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="canceleditinline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-cancel-edit/canceleditinline.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-cancel-edit/canceleditinline.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ Performing CRUD actions programmatically refers to the ability to create, read, 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-programmatic/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-programmatic/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="programmatic.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-programmatic/programmatic.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-programmatic/programmatic.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ To enable the confirmation dialog for the delete operation in the Grid, you can 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-show-confirmation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-show-confirmation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="showconfirmationdialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-show-confirmation/showconfirmationdialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-show-confirmation/showconfirmationdialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -120,10 +120,10 @@ Here's an example of how to set a default value for a column:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-defaultcolumnvalue/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-defaultcolumnvalue/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="defaultcolumnvalue.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-defaultcolumnvalue/defaultcolumnvalue.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-defaultcolumnvalue/defaultcolumnvalue.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,10 +141,10 @@ To delete multiple selected records in the grid, first you need to select multip
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-multiple-rows/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-multiple-rows/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="inbuilt-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-multiple-rows/inbuilt-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-multiple-rows/inbuilt-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -178,10 +178,10 @@ You can delete multiple rows programmatically by using following method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="inline-method.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-method/inline-method.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-method/inline-method.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -197,10 +197,10 @@ Here's an example of how to enable adding new rows at the bottom of the grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-rowposition/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-rowposition/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="rowposition.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-rowposition/rowposition.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-rowposition/rowposition.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -217,10 +217,10 @@ The following sample demonstrates how to add a new record continuously using `sh
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-showaddnewrow/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-showaddnewrow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="showaddnewrow.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-showaddnewrow/showaddnewrow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-showaddnewrow/showaddnewrow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -244,10 +244,10 @@ Here's an example of how to use the `recordDoubleClick` event to move the focus 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-focus/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-focus/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="inline-focus.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-focus/inline-focus.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-focus/inline-focus.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -263,10 +263,10 @@ The following sample demonstrates how to enable editing in a single click using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-single/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-single/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Single-click.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-single/single-click.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-single/single-click.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -282,10 +282,10 @@ In the below demo, the rows which are having the value for **ShipCountry** colum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-particular/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-particular/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Inline-particular.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/inline-particular/inline-particular.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/inline-particular/inline-particular.cs %}
 {% endhighlight %}
 {% endtabs %}
 

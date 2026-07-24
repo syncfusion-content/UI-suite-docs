@@ -16,10 +16,10 @@ Here is an example that showcasing how to render the excel like filter within th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ Here is an example that showcasing how to render the check box filter within the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-checkbox/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-checkbox/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-checkbox/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-checkbox/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The following example demonstrates how to customize the filter choice count in t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-choice-count/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-choice-count/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-choice-count/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-choice-count/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ In the example below, you can see how you can customize the text displayed in th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-show-customized-text/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-show-customized-text/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-show-customized-text/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-show-customized-text/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ In this example, you can see how to use the `FilterItemTemplate` to render icons
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-show-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-show-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-show-template/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-show-template/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -131,10 +131,10 @@ The following example demonstrates how to remove the context menu option in the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-customize-dialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-customize-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-customize-dialog/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-customize-dialog/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ The following example demonstrates how to dynamically change the remote custom d
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-custom-datasource/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-custom-datasource/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-custom-datasource/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-custom-datasource/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ Here is a simple example demonstrating how to hide the sorting options in the Ex
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-hide-sorting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-hide-sorting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-hide-sorting/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-hide-sorting/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ In the provided example, On-Demand Excel filter has been enabled for the ASP.NET
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-animation/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-animation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/excelfilter-animation/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/excelfilter-animation/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 

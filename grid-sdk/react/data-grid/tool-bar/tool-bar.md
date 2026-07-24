@@ -18,20 +18,20 @@ The following example demonstrates enabling toolbar items in the Grid:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/toolbar-cs1" %}
 
 ## Enable or disable toolbar items
 
@@ -43,20 +43,20 @@ In the following example, the [EJ2 Toggle Switch Button component](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/toolbar-cs5" %}
 
 ## Add toolbar at the bottom of grid
 
@@ -68,20 +68,20 @@ The following example shows adding toolbar items at the bottom using the Grid's 
  
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/toolbar-cs6" %}
 
 ## Customize toolbar buttons using CSS
 
@@ -100,20 +100,20 @@ The following example demonstrates changing the background color of the `Add`, `
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/toolbar-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/toolbar-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/toolbar-cs7" %}
 
 ## See also
 

@@ -22,20 +22,20 @@ The following sample demonstrates exporting hyperlinks and images to PDF using t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-export-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-export-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-export-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-export-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-export-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-template-export-cs1" %}
 
 ![ColumnTemplateExport](../images/colTemp_pdf_expt.gif)
 
@@ -518,14 +518,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-template-export-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-template-export-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-template-export-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-template-export-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/detail-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/detail-template-export-cs1" %}
 
 ![DetailTemplateExport](../images/detailTemp_pdf_expt.gif)
 
@@ -537,19 +537,19 @@ The following sample demonstrates exporting customized caption text using the [c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/caption-template-export-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/caption-template-export-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/caption-template-export-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/caption-template-export-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/caption-template-export-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/caption-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/caption-template-export-cs1" %}
 
 ![CaptionTemplateExport](../images/captionTemp_pdf_expt.gif)

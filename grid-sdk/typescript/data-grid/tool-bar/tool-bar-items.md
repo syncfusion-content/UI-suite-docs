@@ -39,27 +39,27 @@ The following example demonstrates how to enable built-in toolbar items such as 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs171/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs171/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs171/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs171/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs171" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs171" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs171/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs171/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs171/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs171/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs171" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs171" %}
 {% endif %}
 
 > The [toolbar](../../api/grid/#toolbar) has options to define both built-in and custom toolbar items.
@@ -83,27 +83,27 @@ This is demonstrated in the following sample:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-icon-cs1" %}
 {% endif %}
 
 ### Customize the built-in toolbar items
@@ -118,27 +118,27 @@ The following example demonstrate how to customize the toolbar by disabling and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-customize/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-customize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-customize/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-customize" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-customize/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-customize/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-customize/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-customize" %}
 {% endif %}
 
 ## Custom toolbar items
@@ -153,27 +153,27 @@ By default, custom toolbar items are positioned on the **left** side of the tool
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs2" %}
 {% endif %}
 
 > * The [toolbar](../../api/grid/#toolbar) has options to define both built-in and custom toolbar items.
@@ -191,27 +191,27 @@ The following example demonstrates, how to use both built-in and custom toolbar 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs172/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs172/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs172/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs172/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs172" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs172" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs172/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs172/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs172/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs172/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs172" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs172" %}
 {% endif %}
 
 ## Add custom components to the Grid toolbar using template
@@ -226,27 +226,27 @@ Additionally, the [change](../api/auto-complete/#change) event of the `AutoCompl
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/toolbar-custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/toolbar-custom-cs2" %}
 {% endif %}
 
 ## Custom toolbar control in a specific position
@@ -261,25 +261,25 @@ In the following sample, the **Collapse All** toolbar item is positioned on the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-toolbar-cs3" %}
 {% endif %}

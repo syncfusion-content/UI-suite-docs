@@ -69,20 +69,20 @@ if (gridRef.current) {
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs1" %}
 
 > All columns can be auto-fitted by invoking the `autoFitColumns` method without specifying column names.
 
@@ -94,20 +94,20 @@ This feature can be enabled by setting the [autoFit](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autofit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/autofit-cs1" %}
 
 > If any one of the `ColumnDirective` widths is **undefined**, then the particular column will automatically adjust to fill the entire width of the Grid table, even if the `autoFit` property of Grid is enabled.
 
@@ -117,20 +117,20 @@ In the Syncfusion<sup style="font-size:70%">&reg;</sup> React Grid, columns can 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autofit-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/autofit-cs2" %}
 
 ## AutoFit columns with specific rows
 
@@ -142,17 +142,17 @@ The following example demonstrates auto-fitting columns with specific rows. The 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/autofit-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/autofit-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autofit-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/autofit-cs3" %}

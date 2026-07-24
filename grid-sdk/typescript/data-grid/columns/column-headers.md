@@ -23,27 +23,27 @@ To enable the `headerText` property, you simply need to define it in the  [colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs8" %}
 {% endif %}
 
 > * The `headerText` property is optional, and if it is not defined, then the corresponding column’s  field value is set as header text for that column.
@@ -60,27 +60,27 @@ In this demo, the custom element is rendered for both **CustomerID** and **Order
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/headertemplate-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/headertemplate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/headertemplate-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/headertemplate-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/headertemplate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/headertemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/headertemplate-cs1" %}
 {% endif %}
 
 >* The `headerTemplate` property is only applicable to Grid columns that have a header element.
@@ -96,27 +96,27 @@ You can customize the appearance of the stacked header elements by using the hea
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/stackedheader-cs1-c" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/stackedheader-cs1-c" %}
 {% endif %}
 
 ## Align the text of header text
@@ -134,27 +134,27 @@ The following example demonstrates how to dynamically change the alignment of th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/AlignText-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/AlignText-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/AlignText-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/AlignText-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/AlignText-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/AlignText-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/AlignText-cs1" %}
 {% endif %}
 
 >* The `headerTextAlign` property only changes the alignment of the text in the column header, and not the content of the column. If you want to align both the column header and content, you can use the [textAlign](../../api/grid/column#textalign) property.
@@ -182,27 +182,27 @@ The following example demonstrates how to dynamically change the auto-wrap of th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-autowrap/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-autowrap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-autowrap" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-autowrap/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-autowrap/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-autowrap" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-autowrap" %}
 {% endif %}
 
 ## Change the height of header
@@ -227,27 +227,27 @@ To change the height of the header dynamically, you can use the [getHeaderConten
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-height/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-height/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-height/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-height" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-height/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-height/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-height/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-height/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-height" %}
 {% endif %}
 
 >* You can also use the [getHeaderTable](../../api/grid#getheadertable) method to get the table element of the header, and then adjust the height.
@@ -295,27 +295,27 @@ Here is an example of how to change the header text of a column using the `getCo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/change-header-text-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/change-header-text-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/change-header-text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/change-header-text-cs1" %}
 {% endif %}
 
 **Changing header text using headerValueAccessor property**
@@ -339,27 +339,27 @@ Here's an example of how to use the `headerValueAccessor` property to change the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-property/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-property/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-property/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-property/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-property" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-property" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-property/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-property/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-property/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-property/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-property" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-property" %}
 {% endif %}
 
 **Changing the header text of all columns**
@@ -370,27 +370,27 @@ If you want to change the header text of all columns in the grid, you can loop t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-allcolumn/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-allcolumn/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-allcolumn" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-allcolumn/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-allcolumn/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-allcolumn" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-allcolumn" %}
 {% endif %}
 
 ## Change the orientation of header text
@@ -455,27 +455,27 @@ The following example demonstrates how to change the orientation of the **Freigh
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/orientation-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/orientation-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/orientation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/orientation-cs1" %}
 {% endif %}
 
 ## Custom tooltip for header 
@@ -490,27 +490,27 @@ Here's an example of how to use the `beforeRender` event to add a custom tooltip
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-tooltip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-tooltip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-tooltip" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-tooltip/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-tooltip/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-tooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-tooltip" %}
 {% endif %}
 
 > * The [headerCellInfo](../../api/grid#headercellinfo) event can also be used to customize the header tooltip. This event is triggered for each header cell after it is rendered.
@@ -536,27 +536,27 @@ Here's an example that demonstrates how to customize the appearance of a specifi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylescss/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylescss/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylescss" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylescss/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylescss/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylescss" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylescss" %}
 {% endif %}
 
 ### Using property 
@@ -586,27 +586,27 @@ The following example demonstrates how to customize the appearance of the **Orde
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesproperty" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesproperty" %}
 {% endif %}
 
 ### Using method 
@@ -629,27 +629,27 @@ Here's an example of how to use these methods to change the style of a specific 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesmethods" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesmethods" %}
 {% endif %}
 >* The unique identifier(UID) is automatically generated by the Grid control and may change whenever the grid is refreshed or updated.
 
@@ -663,27 +663,27 @@ The following example demonstrates how to add a `headerCellInfo` event handler t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesevents/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesevents/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesevents" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesevents/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-stylesevents/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-stylesevents" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-stylesevents" %}
 {% endif %}
 
 ## How to refresh header 
@@ -698,27 +698,27 @@ The following example demonstrates how to use the `refreshHeader` method to upda
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-header-refreshHeader" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-header-refreshHeader" %}
 {% endif %}
 
 >* The `refreshHeader` method updates only the grid header and not the entire grid.

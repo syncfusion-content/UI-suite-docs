@@ -24,20 +24,20 @@ To use the sorting feature, inject the `Sort` module in the grid.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs1" %}
 
 > * Grid column sorted in `Ascending` order. Clicking an already sorted column toggles the sort direction.
 > * Sorting can be applied and cleared using the [sortColumn](https://ej2.syncfusion.com/react/documentation/api/grid#sortcolumn) and [clearSorting](https://ej2.syncfusion.com/react/documentation/api/grid#clearsorting) methods.
@@ -51,20 +51,20 @@ The following example demonstrates setting [sortSettings.columns](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs2" %}
 
 > The initial sorting defined in [sortSettings.columns](https://ej2.syncfusion.com/react/documentation/api/grid/sortSettings#columns) will override any sorting applied through user interaction.
 
@@ -79,20 +79,20 @@ To clear multi-column sorting for a particular column, press <kbd>Shift</kbd> wh
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs3" %}
 
 ## Prevent sorting for particular column
 
@@ -104,20 +104,20 @@ The following example demonstrates disabling sorting for "Customer ID" column.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs6" %}
 
 ## Sort order
 
@@ -133,20 +133,20 @@ The following example demonstrates defining a custom `sortComparer` function for
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs5" %}
 
 > The "customSortComparer" function takes two parameters: a and b, which are the values being compared. The function returns -1, 0, or 1, depending on the comparison result.
 
@@ -158,20 +158,20 @@ The example below demonstrates displaying "null" values at the bottom of the gri
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-null-value/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-null-value/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-null-value/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-null-value/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-null-value/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-null-value/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-null-value/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-null-value/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-null-value" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-null-value" %}
 
 
 ## Touch interaction
@@ -196,20 +196,20 @@ The following example demonstrates sorting with a foreign key column enabled, wh
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs7" %}
 
 > The `ForeignKey` module must be injected in the grid to ensure its availability throughout the application.
 
@@ -299,20 +299,20 @@ In the following example, sorting is performed based on the "ar" locale using th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs8" %}
 
 ## customizing sort icon
 
@@ -331,20 +331,20 @@ The following sample demonstrates a grid rendered with a customized sort icon.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs9" %}
 
 ## Sort columns externally
 
@@ -456,14 +456,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs10" %}
 
 ### Remove sort columns
 
@@ -557,14 +557,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs11" %}
 
 ### Clear sorting 
 
@@ -574,20 +574,20 @@ The following example demonstrates clearing sorting using the `clearSorting` met
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs12" %}
 
 ## Sorting events
 
@@ -667,14 +667,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/sort-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/sort-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/sort-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/sort-cs4" %}
 
 > [args.requestType](https://ej2.syncfusion.com/react/documentation/api/grid/sortEventArgs#requesttype) refers to the current action being performed. For example in sorting, the `args.requestType` value is "sorting".
 

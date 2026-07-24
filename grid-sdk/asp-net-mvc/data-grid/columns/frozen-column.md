@@ -16,10 +16,10 @@ In the following example, the [FrozenColumns](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-columns/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-columns/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following example demonstrates how to freeze particular column in grid using
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-particular/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-particular/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-particular/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-particular/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the following example, the **ShipCountry** column is frozen on the left side,
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-direction/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-direction/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-direction/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-direction/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ The following example demonstrates how to change the default frozen line color u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-color/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-color/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-color/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-color/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,11 +133,11 @@ The following example demonstrates how to render the `DatePicker` in the **Order
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-datepicker/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-datepicker/razor %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/frozen-datepicker/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/frozen-datepicker/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 

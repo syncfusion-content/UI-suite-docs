@@ -28,20 +28,20 @@ The following example displays the sum of the "Freight" field in the footer of e
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-group-cs1" %}
 
 >  Inside the template, access each aggregate value using its [type](https://ej2.syncfusion.com/react/documentation/api/grid/aggregateColumn#type) name. For example, use `props.Sum` to read the sum aggregate.
 
@@ -53,20 +53,20 @@ The following example displays the max of the "Freight" field in the each group 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-group-cs2" %}
 
 > By default, the group total summary is calculated for the current page records within each group. Set [groupSettings.disablePageWiseAggregates](https://ej2.syncfusion.com/react/documentation/api/grid/groupSettings#disablepagewiseaggregates) to `true` to calculate aggregates using all records in the grouped dataset.
 
@@ -78,20 +78,20 @@ To calculate aggregates across the entire grouped data, set the [groupSettings.d
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-group-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-group-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-group-cs3" %}
 
 ## See also
 

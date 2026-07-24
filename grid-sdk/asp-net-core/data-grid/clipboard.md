@@ -24,10 +24,10 @@ To enable the clipboard feature, you can use the grid component with your data s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/key/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/key/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/key/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/key/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ To copy selected rows or cells data into the clipboard with the help of external
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/clipboard/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/clipboard/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/clipboard/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/clipboard/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ The following example demonstrates, how to enable autofill feature in the grid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/autofill/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/autofill/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofill.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/autofill/autofill.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/autofill/autofill.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ Follow the steps below to use the Paste feature in the grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/paste/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/paste/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/clipboard/paste/paste.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/clipboard/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 

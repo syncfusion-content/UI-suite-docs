@@ -27,14 +27,14 @@ In the following example, the scrollbar is enabled, and the grid's `height` is s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/scroll/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/scroll/default-cs3" %}
 
 ## Responsive with parent container
 
@@ -46,14 +46,14 @@ In the following example, the parent container has explicit height and width set
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/scroll/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/scroll/default-cs1" %}
 
 ## Sticky header
 
@@ -63,14 +63,14 @@ In the below demo, the Grid headers will be sticky while scrolling the Grid's pa
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/scroll/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/scroll/default-cs4" %}
 
 ## Scroll to selected row
 
@@ -80,14 +80,14 @@ The following example that demonstrates how to use the `rowSelected` event to sc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/selectrow-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/selectrow-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/selectrow-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/selectrow-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/scroll/selectrow-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/scroll/selectrow-cs1" %}
 
 ## Hide the empty placeholder of scrollbar
 
@@ -97,14 +97,14 @@ The following example that demonstrates how to use the `hideScroll` method insid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/scroll/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/scroll/default-cs2" %}
 
 ## Render scrollbar in both top and bottom
 
@@ -121,11 +121,11 @@ The following example demonstrates how to use the `created` event to insert a sc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/scroll/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/scroll/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/grid/scroll/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/grid/scroll/default-cs5" %}

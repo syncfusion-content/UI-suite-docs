@@ -25,27 +25,27 @@ In the following sample, the hyperlinks and images are exported to PDF using [hy
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-export-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-template-export-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-export-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-template-export-cs1" %}
 {% endif %}
 
 ![ColumnTemplateExport](../images/colTemp_pdf_expt.gif)
@@ -71,27 +71,27 @@ In the following sample, the detail row content is formatted by specifying the [
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/detail-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/detail-template-export-cs1" %}
 {% endif %}
 
 ![DetailTemplateExport](../images/detailTemp_pdf_expt.gif)
@@ -106,27 +106,27 @@ In the following sample, the customized caption text is exported to PDF using [c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/caption-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/caption-template-export-cs1" %}
 {% endif %}
 
 ![CaptionTemplateExport](../images/captionTemp_pdf_expt.gif)

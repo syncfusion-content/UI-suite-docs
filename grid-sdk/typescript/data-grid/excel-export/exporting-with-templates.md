@@ -25,27 +25,27 @@ In the following sample, the hyperlinks and images are exported to Excel using [
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-template-export-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-template-export-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-template-export-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-template-export-cs2" %}
 {% endif %}
 
 ![ColumnTemplateExport](../images/colTemp_excel_expt.gif)
@@ -70,27 +70,27 @@ In the following sample, the detail row content is formatted by specifying the [
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/detail-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/detail-template-export-cs2" %}
 {% endif %}
 
 ![DetailTemplateExport](../images/detailTemp_excel_expt.gif)
@@ -105,27 +105,27 @@ In the following sample, the customized caption text is exported to Excel using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/caption-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/caption-template-export-cs2" %}
 {% endif %}
 
 ![CaptionTemplateExport](../images/captionTemp_excel_expt.gif)

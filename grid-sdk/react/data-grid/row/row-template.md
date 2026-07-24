@@ -123,14 +123,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-template-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/row-template-cs3" %}
 
 ## Row template with formatting
 
@@ -276,14 +276,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-template-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/row-template-cs4" %}
 
 > When using the `rowTemplate` feature in Syncfusion<sup style="font-size:70%">&reg;</sup> React Grid, keep in mind that any formatting applied to columns using the `format` property will not work inside the template.
 
@@ -297,20 +297,20 @@ The following example demonstrates rendering Syncfusion<sup style="font-size:70%
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/row-template-cs5" %}
 
 ## Render Syncfusion<sup style="font-size:70%">&reg;</sup> React Chart in row template
 
@@ -322,20 +322,20 @@ The following example demonstrates rendering Syncfusion<sup style="font-size:70%
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-chart/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-chart/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-chart/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-chart/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-chart/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-chart/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/row-template-chart/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/row-template-chart/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-template-chart" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/row-template-chart" %}
 
 ## Limitations
 
