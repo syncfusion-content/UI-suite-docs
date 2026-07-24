@@ -29,10 +29,10 @@ values.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -42,10 +42,10 @@ values.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ Format | Formatted value
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -99,10 +99,10 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ In the below example, duration column is locked and its reordering functionality
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -132,10 +132,10 @@ In the below example, duration column is locked and its reordering functionality
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ You can enable or disable treegrid action for a particular column by setting the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs11/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -180,10 +180,10 @@ You can enable or disable treegrid action for a particular column by setting the
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs11/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -198,10 +198,10 @@ You can show or hide treegrid columns dynamically using external buttons by invo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/show-hide-columns-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/show-hide-columns-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/show-hide-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/show-hide-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -211,10 +211,10 @@ You can show or hide treegrid columns dynamically using external buttons by invo
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/show-hide-columns-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/show-hide-columns-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/show-hide-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/show-hide-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -229,10 +229,10 @@ The [`valueAccessor`](../../api/treegrid/column/#valueaccessor) is used to acces
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs12/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs12/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -242,10 +242,10 @@ The [`valueAccessor`](../../api/treegrid/column/#valueaccessor) is used to acces
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs12/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs12/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -262,10 +262,10 @@ In this example, the name field has an array of two objects, FirstName and LastN
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs13/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs13/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -275,10 +275,10 @@ In this example, the name field has an array of two objects, FirstName and LastN
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs13/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs13/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -293,10 +293,10 @@ You can achieve the expression column by using the [`valueAccessor`](../../api/t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs14/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs14/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -306,10 +306,10 @@ You can achieve the expression column by using the [`valueAccessor`](../../api/t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs14/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs14/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -324,10 +324,10 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs15/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs15/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -337,10 +337,10 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs15/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columns-cs15/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columns-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

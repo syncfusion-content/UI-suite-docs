@@ -26,10 +26,10 @@ The available built-in command buttons are:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -39,10 +39,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The available built-in command buttons are:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -70,10 +70,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/edit-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/edit-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

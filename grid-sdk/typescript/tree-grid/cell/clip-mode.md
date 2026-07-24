@@ -23,27 +23,27 @@ There are three types of [`clipMode`](../../api/treegrid/column/#clipmode). They
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cell-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cell-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cell-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cell-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/cell-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/cell-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cell-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cell-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cell-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cell-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/cell-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/cell-cs4" %}
 {% endif %}
 
 >By default, [`columns.clipMode`](../../api/treegrid/column/#clipmode) value is `Ellipsis`.

@@ -18,10 +18,10 @@ In the below sample, TaskID and Duration Columns are numeric columns, while open
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/add-params-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/add-params-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/add-params-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/add-params-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -31,10 +31,10 @@ In the below sample, TaskID and Duration Columns are numeric columns, while open
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/add-params-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/add-params-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/add-params-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/add-params-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

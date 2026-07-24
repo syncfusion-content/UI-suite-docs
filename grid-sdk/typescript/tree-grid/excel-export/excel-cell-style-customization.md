@@ -21,10 +21,10 @@ In the below sample, we have set the background color for `Duration` column in t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ In the below sample, we have set the background color for `Duration` column in t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ To apply theme in exported Excel, define the `theme` in `exportProperties` .
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -67,10 +67,10 @@ To apply theme in exported Excel, define the `theme` in `exportProperties` .
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

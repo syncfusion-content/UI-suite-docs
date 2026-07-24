@@ -39,13 +39,13 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/module-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/module-cs1/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/datasource.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/module-cs1/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
         

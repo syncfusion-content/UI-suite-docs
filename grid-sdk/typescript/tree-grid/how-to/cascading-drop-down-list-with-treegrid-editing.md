@@ -19,10 +19,10 @@ In the below demo, Cascading DropDownList rendered for **Priority** and **Durati
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cascading-dropdown-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cascading-dropdown-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cascading-dropdown-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cascading-dropdown-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ In the below demo, Cascading DropDownList rendered for **Priority** and **Durati
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cascading-dropdown-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cascading-dropdown-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/cascading-dropdown-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/cascading-dropdown-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

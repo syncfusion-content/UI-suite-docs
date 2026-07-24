@@ -21,10 +21,10 @@ To enable this feature, you have to set the [`enableImmutableMode`](../api/treeg
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/immutable-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/immutable-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -34,10 +34,10 @@ To enable this feature, you have to set the [`enableImmutableMode`](../api/treeg
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/immutable-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/immutable-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -19,10 +19,10 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ The row spanning feature in the Syncfusion TreeGrid can be enabled using `enable
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The row spanning feature in the Syncfusion TreeGrid can be enabled using `enable
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

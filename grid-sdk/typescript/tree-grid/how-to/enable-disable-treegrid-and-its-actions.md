@@ -52,10 +52,10 @@ In the below demo, the button click will enable/disable the Tree Grid and its ac
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/disabletreegrid-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/disabletreegrid-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/disabletreegrid-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/disabletreegrid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           

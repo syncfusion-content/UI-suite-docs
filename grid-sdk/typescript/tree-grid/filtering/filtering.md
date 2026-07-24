@@ -19,10 +19,10 @@ To use filter, inject the `Filter` module in the treegrid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -32,10 +32,10 @@ To use filter, inject the `Filter` module in the treegrid.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ The below are the type of filter mode available in TreeGrid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -76,10 +76,10 @@ The below are the type of filter mode available in TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,10 +95,10 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -108,10 +108,10 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -161,10 +161,10 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
