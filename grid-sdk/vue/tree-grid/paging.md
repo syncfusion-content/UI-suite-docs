@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Paging in Vue Treegrid component | Syncfusion
 description: Learn here all about Paging in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.

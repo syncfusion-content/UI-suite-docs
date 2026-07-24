@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Display foreign key column in treegrid in Vue Treegrid component | Syncfusion
 description: Learn here all about Display foreign key column in treegrid in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.

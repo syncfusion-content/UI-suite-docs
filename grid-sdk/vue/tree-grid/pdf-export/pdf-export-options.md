@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Pdf export options in Vue Treegrid component | Syncfusion
 description: Learn here all about Pdf export options in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.

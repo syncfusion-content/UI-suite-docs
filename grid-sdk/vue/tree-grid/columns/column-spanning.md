@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Column spanning in Vue TreeGrid | Syncfusion
 description: Learn here all about Column spanning in Syncfusion Vue TreeGrid of Syncfusion Essential JS 2 and more.

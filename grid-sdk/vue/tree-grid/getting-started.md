@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Getting started with Vue Tree Grid component | Syncfusion
 description:  Checkout and learn about Getting started with Vue Tree Grid component of Syncfusion Essential JS 2 and more details.

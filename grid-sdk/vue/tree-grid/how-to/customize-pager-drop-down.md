@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Customize pager drop down in Vue Treegrid component | Syncfusion
 description: Learn here all about Customize pager drop down in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/vue/treegrid---
+---
 layout: post
 title: Enable disable grid and its actions in Vue Treegrid component | Syncfusion
 description: Learn here all about Enable disable grid and its actions in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
