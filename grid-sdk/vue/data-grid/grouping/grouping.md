@@ -29,14 +29,14 @@ To get started quickly with Grouping options, check this video:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs2" %}
 
 > * Columns in the Grid can be grouped and ungrouped using the [groupColumn](https://ej2.syncfusion.com/vue/documentation/api/grid/group#groupcolumn) and [ungroupColumn](https://ej2.syncfusion.com/vue/documentation/api/grid/group#ungroupcolumn) methods, respectively.
 > * To disable grouping for a specific column, set the [columns.allowGrouping](https://ej2.syncfusion.com/vue/documentation/api/grid/column#allowgrouping) to `false`.
@@ -49,14 +49,14 @@ The example below demonstrates grouping by "Customer ID" and "Ship City", render
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs3" %}
 
 > To group multiple columns, specify an array of column names in the `groupSettings.columns` property.
 
@@ -68,14 +68,14 @@ The following example prevents grouping on the "Customer ID" column. While other
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/prevent-group/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/prevent-group/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/prevent-group/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/prevent-group/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/prevent-group" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/prevent-group" %}
 
 ## Hide drop area
 
@@ -87,14 +87,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs4" %}
 
 > By default, the group drop area will be shown only if there is at least one column available to group.
 
@@ -106,14 +106,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/show-grouped-column/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/show-grouped-column/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/show-grouped-column/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/show-grouped-column/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/show-grouped-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/show-grouped-column" %}
 
 ## Reordering on grouped columns 
 
@@ -123,14 +123,14 @@ To allow reordering, set [groupSettings.allowReordering](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs9" %}
 
 ## Sort grouped columns in descending order during initial grouping
 
@@ -140,14 +140,14 @@ The following example demonstrates sorting the "CustomerID" column by configurin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs8" %}
 
 ## Group with paging
 
@@ -163,14 +163,14 @@ The following example demonstrates grouping the "Order Date" and "Freight" colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs5" %}
 
 > Numeric columns can be grouped based on formats such as currency or percentage, while datetime columns can be grouped based on specific date or time formats.
 
@@ -184,14 +184,14 @@ This can be achieved by customizing the `generateQuery` method of the "Data prot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs12" %}
 
 ## Collapse all grouped rows at initial rendering
 
@@ -203,14 +203,14 @@ The following example demonstrates collapsing all grouped rows during the initia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs10" %}
 
 > All grouped rows can also be collapsed at the initial rendering using the [groupCollapseAll](https://ej2.syncfusion.com/vue/documentation/api/grid/index-default#groupcollapseall) method within the [dataBound](https://ej2.syncfusion.com/vue/documentation/api/grid/index-default#groupcollapseall) event. The following code snippet demonstrates this approach:
 
@@ -232,14 +232,14 @@ The following example demonstrates grouping and ungrouping columns in a Grid. It
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/external-group/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/external-group/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/external-group/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/external-group/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/external-group" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/external-group" %}
 
 ## Expand or collapse externally
 
@@ -253,14 +253,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/group-expand-collapse/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/group-expand-collapse/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/group-expand-collapse/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/group-expand-collapse/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/group-expand-collapse" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/group-expand-collapse" %}
 
 ### Expand or collapse selected grouped row
 
@@ -414,7 +414,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/selected-row-expand-collapse" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/selected-row-expand-collapse" %}
 
 ## Clear grouping 
 
@@ -424,14 +424,14 @@ The following example demonstrates clearing the grouping using the clearGrouping
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/clear-group/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/clear-group/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/clear-group/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/clear-group/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/clear-group" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/clear-group" %}
 
 ## Grouping events
 
@@ -560,7 +560,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs6" %}
 
 > The [args.requestType](https://ej2.syncfusion.com/vue/documentation/api/grid/groupeventargs#requesttype) property represents the name of the current action being performed. For instance, during grouping, the `args.requestType` value will be "grouping".
 

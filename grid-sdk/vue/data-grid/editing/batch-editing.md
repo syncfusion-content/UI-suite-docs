@@ -20,14 +20,14 @@ Here's an example how to enable batch editing in the Vue grid component:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs1" %}
 
 ## Automatically update the column based on another column edited value
 
@@ -37,14 +37,14 @@ In the following example, the **TotalCost** column value is updated based on cha
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs2" %}
 
 > * You can utilize the [updateCell](https://ej2.syncfusion.com/vue/documentation/api/grid/#updatecell) method to update cells in batch mode.
 
@@ -62,14 +62,14 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs3" %}
 
 ## Adding a new row at the bottom of the grid
 
@@ -85,14 +85,14 @@ Here's an example that demonstrates how to enable adding new rows at the bottom 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-newrow-batch/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-newrow-batch/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-newrow-batch/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-newrow-batch/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-newrow-batch" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-newrow-batch" %}
 
 ## Confirmation dialog
 
@@ -108,14 +108,14 @@ Here's an example that demonstrates how to enable/disable the confirmation dialo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs4" %}
 
 ## How to make editing in single click and arrow keys
 
@@ -129,14 +129,14 @@ Here's an example that demonstrates how to achieve both single-click editing and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs5" %}
 
 ## Disable editing for a particular cell
 
@@ -148,14 +148,14 @@ Here's an example demonstrating how you can disable editing for cells containing
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-disable-batch/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-disable-batch/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-disable-batch/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-disable-batch/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-disable-batch" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-disable-batch" %}
 
 ## Save or update the changes immediately
 
@@ -174,11 +174,11 @@ Here's an example that demonstrates how to achieve immediate saving or updating 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-save-batch/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-save-batch/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-save-batch/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-save-batch/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-save-batch" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-save-batch" %}

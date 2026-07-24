@@ -18,10 +18,10 @@ The following example demonstrates how to utilize the local data binding feature
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata/localcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata/localcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -341,10 +341,10 @@ The following example demonstrates how to import Excel data into the Grid by uti
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-upload/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-upload/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indicator" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-upload/localcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-upload/localcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -658,10 +658,10 @@ The following example demonstrates how to display the loading indicator in the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-loading-indicator/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-loading-indicator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-loading-indicator/databindcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-loading-indicator/databindcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -971,10 +971,10 @@ The following example demonstrates how to display the loading indicator in the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-indicator/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-indicator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-indicator/databindcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-indicator/databindcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -988,10 +988,10 @@ The following example demonstrates how to show and hide the spinner during data 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-spinner/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-spinner/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/localdata-spinner/localcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/localdata-spinner/localcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1013,10 +1013,10 @@ The following example demonstrates how to enable immutable mode in an ASP.NET Co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/immutable-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/immutable-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Immutable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/immutable-mode/immutablecore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/immutable-mode/immutablecore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1032,10 +1032,10 @@ The following sample demonstrates ExpandoObject binding:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/expandoObject-Binding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/expandoObject-Binding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="expandoObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/expandoObject-Binding/expandoObject.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/expandoObject-Binding/expandoObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1047,10 +1047,10 @@ In the following example, the fields **Customer.CustomerID**, **Customer.OrderDa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/expandoObject-ComplexBinding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/expandoObject-ComplexBinding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="expandoObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/expandoObject-ComplexBinding/expandoObjectcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/expandoObject-ComplexBinding/expandoObjectcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1068,10 +1068,10 @@ Here's an example of how to bind a list of DynamicObject to the Grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/dynamicObject-Binding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/dynamicObject-Binding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="dynamicObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/dynamicObject-Binding/dynamicObjectcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/dynamicObject-Binding/dynamicObjectcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1083,10 +1083,10 @@ In the following example, **Customer.OrderDate**, **Customer.Freight**, and **Cu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/dynamicObject-ComplexBinding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/dynamicObject-ComplexBinding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="dynamicObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/dynamicObject-ComplexBinding/dynamicObjectcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/dynamicObject-ComplexBinding/dynamicObjectcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 

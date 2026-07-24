@@ -22,14 +22,14 @@ The following example demonstrates how to define a [template](https://ej2.syncfu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-cs1" %}
 
 ## Render hyperlink in a column
 
@@ -136,7 +136,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-hyperlink" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-hyperlink" %}
 
 >The window.open() method is a built-in JavaScript function that opens a new browser window or tab with the specified URL.
 
@@ -152,14 +152,14 @@ In the following example, we rendered the Sparkline Chart component in the Grid 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-linechart/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-linechart/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-linechart/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-linechart/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-linechart" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-linechart" %}
 
 ### Render ColorPicker component in a column
 
@@ -175,14 +175,14 @@ In the following code, we rendered the ColorPicker component in the Grid column 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-colorpicker/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-colorpicker/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-colorpicker/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-colorpicker/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-colorpicker" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-colorpicker" %}
 
 ### Render DropDownList component in a column
 
@@ -196,14 +196,14 @@ To render a custom component in a grid column, you need to define a [template](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-dropdown/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-dropdown/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-dropdown/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-dropdown/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-dropdown" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-dropdown" %}
 
 ### Render Chip component in a column
 
@@ -219,14 +219,14 @@ In the following code, we rendered the Chips component in the Grid **First Name*
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-chip/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-chip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-chip/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-chip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-chip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-chip" %}
 
 ### Render ProgressBar component in a column
 
@@ -242,14 +242,14 @@ In the following code, the `Progress Bar` component render in the Grid **Freight
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-template-progress/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-template-progress/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-template-progress/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-template-progress/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-template-progress" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-template-progress" %}
 
 ### Render RadioButton in a column 
 
@@ -269,14 +269,14 @@ In the following example, a `RadioButton` is rendered in the **Order Status** co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-radio/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-radio/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-radio/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-radio/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-radio" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-radio" %}
 
 ## Using condition template
 
@@ -295,14 +295,14 @@ The following example demonstrates how to use the `template` property add `v-if`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/condition-template-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/condition-template-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/condition-template-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/condition-template-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/condition-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/condition-template-cs1" %}
 
 >You can use any template element or custom component instead of the checkbox in the conditional template based on your requirement.
 
@@ -314,14 +314,14 @@ In the following code, the button element is rendered in the **Employee Data** c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-cs2" %}
 
 ## Use custom helper inside the template
 
@@ -427,7 +427,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/custom-helper-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/custom-helper-template" %}
 
 ## Dynamically adding template column
 
@@ -440,11 +440,11 @@ The following example demonstrates how to add template column using external but
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-dynamically/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-dynamically/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-dynamically/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-dynamically/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-dynamically" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-dynamically" %}

@@ -26,20 +26,20 @@ Infinite scrolling feature can be enabled by setting the [enableInfiniteScrollin
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="largeData.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs1/app/largeData.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs1/app/largeData.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="largeData.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs1/app/largeData.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs1/app/largeData.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/virtual-scroll-cs1" %}
 
 ## Number of blocks rendered during initial loading
 
@@ -143,14 +143,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="largeData.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs2/app/largeData.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs2/app/largeData.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="largeData.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs2/app/largeData.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs2/app/largeData.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/virtual-scroll-cs2" %}
 
 ## Efficient data caching and DOM management in grid cache mode
 
@@ -238,14 +238,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="largeData.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs3/app/largeData.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs3/app/largeData.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="largeData.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs3/app/largeData.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs3/app/largeData.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/virtual-scroll-cs3" %}
 
 > If [Hierarchy Grid](https://ej2.syncfusion.com/react/documentation/grid/hierarchy-grid) or [Detail Template](https://ej2.syncfusion.com/react/documentation/grid/row/detail-template) feature is enabled along with infinite scrolling without defining the height property, it will take a default height of "300px". Since the [height](https://ej2.syncfusion.com/react/documentation/api/grid#height) property is mandatory for the hierarchy grid and detail template features, ensure to define it accordingly. 
 

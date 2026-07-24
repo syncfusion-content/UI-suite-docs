@@ -33,27 +33,27 @@ In the following example, the [EJ2 Toggle Switch Button](../switch/es5-getting-s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs1" %}
 {% endif %}
 
 > * The [disableHtmlEncode](../api/grid/column#disablehtmlencode) property disables HTML encoding for the corresponding column in the grid. 
@@ -92,27 +92,27 @@ The following example demonstrates how to set the `allowTextWrap` property to **
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/autowrap-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/autowrap-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/autowrap-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/autowrap-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/autowrap-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/autowrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/autowrap-cs1" %}
 {% endif %}
 
 > * If a column width is not specified, then the Autowrap of columns will be adjusted with respect to the grid's width.
@@ -133,27 +133,27 @@ The following example demonstrates how to add a `queryCellInfo` event handler to
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-cell-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/custom-cell-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-cell-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-cell-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/custom-cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/custom-cell-cs1" %}
 {% endif %}
 
 > * The [queryCellInfo](../api/grid#querycellinfo) event is triggered for every cell of the grid, so it may impact the performance of the grid whether used to modify a large number of cells.
@@ -175,27 +175,27 @@ The following example demonstrates how to customize the appearance of a specific
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs2" %}
 {% endif %}
 
 ### Using property
@@ -222,27 +222,27 @@ The following example demonstrates how to customize the appearance of the **Orde
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs3" %}
 {% endif %}
 
 > Custom attributes can be used to customize any cell in the grid, including header and footer cells.
@@ -261,27 +261,27 @@ The following example demonstrates how to use [getColumnHeaderByIndex](../api/gr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs4/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs4/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs4" %}
 {% endif %}
 
 > Make sure to pass the correct row and column indices to [getCellFromIndex](../api/grid#getcellfromindex) method, or else the appearance of the wrong cell might get customized.
@@ -302,27 +302,27 @@ The following example demonstrates, how to set the [clipMode](../api/grid/column
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs5/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs5/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs5" %}
 {% endif %}
 
 > * By default, [columns.clipMode](../api/grid/column#clipmode) value is **Ellipsis**.
@@ -453,27 +453,27 @@ The following example demonstrates how to customize the tooltip content for the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs6/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs6/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/cell-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/cell-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/cell-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/cell-cs6" %}
 {% endif %}
 
 ## Grid lines
@@ -494,27 +494,27 @@ The following example demonstrates how to set the [gridLines](../api/grid#gridli
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs1" %}
 {% endif %}
 
 >By default, the grid renders with **Default** mode.

@@ -18,11 +18,11 @@ The following example demonstrates how to resize the grid on external button cli
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/grid-resize/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/grid-resize/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/grid-resize/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/grid-resize/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/grid-resize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/grid-resize" %}

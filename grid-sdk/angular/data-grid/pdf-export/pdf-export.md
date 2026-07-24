@@ -18,15 +18,15 @@ The following example demonstrates performing a PDF export action in the grid.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs18/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs18" %}
 
 ## Show spinner while exporting
 
@@ -42,15 +42,15 @@ The following example demonstrates showing and hiding the spinner during PDF exp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs19/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs19" %}
 
 ## Binding custom data source while exporting
 
@@ -62,15 +62,15 @@ The following example demonstrates rendering a custom data source during PDF exp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs20/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs20" %}
 
 > Make sure to utilize the [field](https://ej2.syncfusion.com/angular/documentation/api/grid/column#field) property that is declared in the Grid columns when modifying the data source for exporting.
 
@@ -162,11 +162,11 @@ interface itemType {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs22/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs22/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs22" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs22" %}
 
 ## Exporting with cell and row spanning
 
@@ -178,15 +178,15 @@ The following example demonstrates export with cell and row spanning using `quer
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs24/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs24/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs24/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs24/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs24" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs24" %}
 
 > The [updateCell](https://ej2.syncfusion.com/angular/documentation/api/grid#updatecell) method does not support row and column spanning.
 
@@ -198,15 +198,15 @@ The following example demonstrates merging duplicate cells in the "Order ID" col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-merge-pdf/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-merge-pdf/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-merge-pdf/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-merge-pdf/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-merge-pdf" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-merge-pdf" %}
 
 ## Exporting with custom date format
 
@@ -218,15 +218,15 @@ The following example demonstrates exporting Grid data with a custom date format
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs23/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs23/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs23/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs23/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs23" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs23" %}
 
 ## Exporting multiple grids
 
@@ -240,15 +240,15 @@ The following example demonstrates exporting multiple grids to the same page in 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs29/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs29/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs29/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs29/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs29" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs29" %}
 
 ### New page
 
@@ -266,15 +266,15 @@ The following example demonstrates exporting multiple grids to a PDF file when a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs7" %}
 
 ### Limitations
 
@@ -298,15 +298,15 @@ The following example demonstrates exporting a hierarchical grid to a PDF docume
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs8" %}
 
 ### Format the child grid columns before exporting
 
@@ -316,15 +316,15 @@ In the following example, the `exportDetailDataBound` event modifies the "Order 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs30/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs30/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs30/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs30/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs30" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs30" %}
 
 ## Remove header row while exporting
 
@@ -336,15 +336,15 @@ The following example demonstrates performing export without a header using the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs25/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs25" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs25" %}
 
 ## See also
 

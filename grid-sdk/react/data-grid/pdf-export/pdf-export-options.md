@@ -24,20 +24,20 @@ The following example demonstrates exporting current page to a PDF document when
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs9" %}
 
 ## Export selected records
 
@@ -59,20 +59,20 @@ The following example demonstrates exporting the selected records to a PDF docum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/export-filtered-data-cs2" %}
 
 ## Export filtered records
 
@@ -94,20 +94,20 @@ The following example demonstrates exporting the filtered records to a PDF docum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-filtered-data-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-filtered-data-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/export-filtered-data-cs3" %}
 
 ## Export with hidden columns
 
@@ -194,14 +194,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs10" %}
 
 ## Show or hide columns while exporting
 
@@ -221,20 +221,20 @@ In the following example, the "Customer ID" is initially a hidden column in the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs11" %}
 
 ## Show or hide columns while exporting with stacked header
 
@@ -254,20 +254,20 @@ In the following example, the "Ship Name" is initially a hidden column in the Gr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-show-hide/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-show-hide/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-show-hide/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-show-hide/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-show-hide/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-show-hide/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-show-hide/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-show-hide/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-show-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-show-hide" %}
 
 ## Change page orientation
 
@@ -375,14 +375,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs12" %}
 
 ## Change page size
 
@@ -563,14 +563,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs13" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs13" %}
 
 ## Define file name
 
@@ -680,14 +680,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs14" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs14" %}
 
 ## Enabling horizontal overflow
 
@@ -789,14 +789,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs25/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs25/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs25/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs25/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs25" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs25" %}
 
 ## Customizing columns on export
 
@@ -814,20 +814,20 @@ The following example demonstrates customizing the grid columns when exporting a
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs19" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs19" %}
 
 ## Font and color customization
 
@@ -855,20 +855,20 @@ The following example demonstrates, changing the default font when exporting a d
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs8" %}
 
 ### Add custom font
 
@@ -880,26 +880,26 @@ The following example demonstrates the usage of the custom "Algeria" font for ex
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/datasource.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="font.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/font.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/font.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="font.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs15/app/font.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs15/app/font.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs15" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs15" %}
 
 > `PdfTrueTypeFont` accepts base64 format of the custom font.
 
@@ -913,20 +913,20 @@ The following example demonstrates customizing the background color of the "Frei
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs7" %}
 
 ## Export grid as blob
 
@@ -936,17 +936,17 @@ The following example demonstrates obtaining the blob data of the exported grid 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-grid-as-blob-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-grid-as-blob-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/export-grid-as-blob-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/export-grid-as-blob-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/export-grid-as-blob-cs1" %}

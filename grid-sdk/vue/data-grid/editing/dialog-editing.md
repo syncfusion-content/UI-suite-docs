@@ -18,14 +18,14 @@ Here's an example how to enable dialog editing in the Vue grid component:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs8" %}
 
 ## Customize edit dialog
 
@@ -39,14 +39,14 @@ The following example that demonstrates how to customize the edit dialog using t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs9" %}
 
 > The Grid add or edit dialog element has the max-height property, which is calculated based on the available window height. So, in the normal window (1920 x 1080), it is possible to set the dialog's height up to 658px.
 
@@ -60,14 +60,14 @@ In the following example, the **CustomerID** column is rendered as a hidden colu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs10" %}
 
 ## Use wizard like dialog editing
 
@@ -79,14 +79,14 @@ The following example demonstrate the wizard like editing in the grid with the u
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-wizard/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-wizard/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-wizard/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-wizard/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-wizard" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-wizard" %}
 
 
 ## Customize add/edit dialog footer
@@ -97,14 +97,14 @@ In the following sample, using the `dialog` argument of the `actionComplete` eve
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs11" %}
 
 ## Edit dialog template from another vue page
 
@@ -116,16 +116,16 @@ The following example demonstrates how to implement a custom edit dialog templat
 
 {% tabs %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/edit-template/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/edit-template/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="dialogtemp-edit (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/edit-template/dialogtemp-edit.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/edit-template/dialogtemp-edit.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/edit-template/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/edit-template/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="dialogtemp-composition (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/edit-template/dialogtemp-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/edit-template/dialogtemp-composition.vue %}
 {% endhighlight %}
 {% endtabs %}
 

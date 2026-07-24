@@ -21,27 +21,27 @@ Here is an example that demonstrates the usage of the filter menu in the TypeScr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs65/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs65/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs65/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs65/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs65" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs65" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs65/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs65/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs65/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs65/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs65" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs65" %}
 {% endif %}
 
 > * [allowFiltering](../../api/grid/#allowfiltering) must be set as true to enable filter menu.
@@ -65,27 +65,27 @@ Here is a sample code demonstrating how to render a dropdownlist control for the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs66/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs66/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs66/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs66/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs66" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs66" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs66/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs66/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs66/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs66/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs66" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs66" %}
 {% endif %}
 
 **Default filter input for CustomerID column**
@@ -103,27 +103,27 @@ Here is an example that demonstrates how to show 24 hours time format in filter 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs1" %}
 {% endif %}
 
 ## Customizing filter menu operators list
@@ -143,27 +143,27 @@ Here is an example of how to customize the filter operators list in TypeScript G
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs67/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs67/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs67/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs67/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs67" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs67" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs67/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs67/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs67/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs67/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs67" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs67" %}
 {% endif %}
 
 ## Filter by multiple keywords using filter menu
@@ -176,27 +176,27 @@ Here is an example that demonstrates how to perform filtering by multiple keywor
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs69/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs69/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs69/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs69/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs69" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs69" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs69/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs69/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs69/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs69/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs69" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs69" %}
 {% endif %}
 
 ## Customize the default input control of filter menu dialog
@@ -235,27 +235,27 @@ In the example provided below, the **OrderID** and **Freight** columns are numer
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs2" %}
 {% endif %}
 
 ### Prevent autofill option in autocomplete of menu filter
@@ -276,27 +276,27 @@ You can prevent autofill feature by setting the [autofill](../../api/auto-comple
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs3" %}
 {% endif %}
 
 ## Hide default filter icons while perform filtering through method
@@ -317,27 +317,27 @@ The following example demonstrate how to hide the default filter icons while fil
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-hide/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-hide/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-hide" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-hide/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-hide/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-hide" %}
 {% endif %}
 
 ## Filter menu events
@@ -354,27 +354,27 @@ Here's an example of how to use these events to handle filter menu action in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-menu-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-menu-cs4" %}
 {% endif %}
 
 ## Troubleshoot filter menu operator issue

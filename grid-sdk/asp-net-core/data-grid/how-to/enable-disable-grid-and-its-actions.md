@@ -48,10 +48,10 @@ In the below demo, the button click will enable/disable the Grid and its actions
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/disablegrid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/disablegrid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="disablegrid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/disablegrid/disablegrid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/disablegrid/disablegrid.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -29,14 +29,14 @@ Here is an example of how to specify column types in a grid using the types ment
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-type-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-type-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-type-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-type-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-type-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-type-cs1" %}
 
 >* If the [type](https://ej2.syncfusion.com/vue/documentation/api/grid/column#type) is not defined, then it will be determined from the first record of the [dataSource](https://ej2.syncfusion.com/vue/documentation/api/grid#datasource).
 >* If the first record in the [dataSource](https://ej2.syncfusion.com/vue/documentation/api/grid#datasource) contains a null or blank value for a specific column, it is Essential<sup style="font-size:70%">&reg;</sup> to define the [type](https://ej2.syncfusion.com/vue/documentation/api/grid/column#type) for that column. This is because the grid uses the column type to determine which filter dialog to display for that column.
@@ -91,14 +91,14 @@ The column width is specified as an absolute pixel value. For example, a column 
 ```
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-width-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-width-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-width-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-width-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-width-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-width-cs1" %}
 
 ## Column formatting
 
@@ -108,14 +108,14 @@ You can use the [columns.format](https://ej2.syncfusion.com/vue/documentation/ap
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs1" %}
 
 >* The grid uses the [Internalization](https://ej2.syncfusion.com/vue/documentation/common/internationalization) library to format values based on the specified format and culture.
 >* By default, the [number](https://ej2.syncfusion.com/vue/documentation/common/internationalization#number-formatting) and [date](https://ej2.syncfusion.com/vue/documentation/common/internationalization#date-formatting) values are formatted in **en-US** locale. You can localize the currency and date in different locale as explained [here](https://ej2.syncfusion.com/vue/documentation/common/localization).
@@ -137,14 +137,14 @@ The following example code demonstrates the formatting of data for **Mark 1** an
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs2" %}
 
 >To learn more about number formatting, you can refer to the [number](https://ej2.syncfusion.com/vue/documentation/common/internationalization#number-formatting) section.
 
@@ -164,14 +164,14 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs3" %}
 
 >To learn more about date formatting, you can refer to [Date formatting](https://ej2.syncfusion.com/vue/documentation/common/internationalization#date-formatting). 
 
@@ -183,14 +183,14 @@ In this example, the format property specifies the date format as "**yyyy-MMM-dd
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs4" %}
 
 ### Format template column value 
 
@@ -310,7 +310,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs5" %}
 
 ### Custom formatting
 
@@ -320,14 +320,14 @@ In the below example, the **numberFormatOptions** object is used as the `format`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-format-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-format-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-format-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-format-cs6" %}
 
 >To learn more about custom formatting, you can refer to [Custom Date formatting](https://ej2.syncfusion.com/vue/documentation/common/internationalization#custom-formats) and [Custom Number formatting](https://ej2.syncfusion.com/vue/documentation/common/internationalization#custom-number-formatting-and-parsing). 
 
@@ -344,14 +344,14 @@ Here is an example of using the `textAlign` property to align the text of a Grid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-align-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-align-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-align-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-align-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-align-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-align-cs1" %}
 
 >* The `textAlign` property only changes the alignment content not the column header. If you want to align both the column header and content, you can use the [headerTextAlign](https://ej2.syncfusion.com/documentation/api/grid/column#headerTextAlign) property.
 
@@ -363,14 +363,14 @@ To enable the rendering of boolean values as checkboxes, you need to set the `di
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs22/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs22/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs22/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs22/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs22" %}
 
 >* The `displayAsCheckBox` property is only applicable to boolean values in Grid columns.
 >* When `displayAsCheckBox` is set to **true**, the boolean values will be rendered as checkboxes in the Grid column, with checked state indicating **true** and unchecked state indicating **false**.
@@ -383,14 +383,14 @@ Here is an example of how you can prevent a checkbox from being displayed in a b
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/blank-row-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/blank-row-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/blank-row-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/blank-row-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/blank-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/blank-row-cs1" %}
 
 ## AutoFit columns
 
@@ -404,14 +404,14 @@ To use the `autoFitColumns` method, inject the **Resize** module in the provide 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs1" %}
 
 > You can autofit all the columns by invoking the `autoFitColumns` method without specifying column names.
 
@@ -423,14 +423,14 @@ You can enable this feature by setting the [autoFit](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/autofit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/autofit-cs1" %}
 
 >If any one of the column width is undefined, then the particular column will automatically adjust to fill the entire width of the grid table, even if you have enabled the `autoFit` property of grid.
 
@@ -442,14 +442,14 @@ Here's an example code snippet in Vue that demonstrates how to auto fit columns 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/autofit-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/autofit-cs2" %}
 
 ### AutoFit columns with specific rows
 
@@ -461,14 +461,14 @@ Here is an example of how to autofit columns with specific rows. The first param
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/autofit-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/autofit-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/autofit-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/autofit-cs3" %}
 
 ## Locked columns
 
@@ -478,14 +478,14 @@ Here's an example of how you can use the `lockColumn` property to lock a column 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs24/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs24/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs24/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs24/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs24" %}
 
 ## Show or hide columns
 
@@ -499,14 +499,14 @@ In the below example, the **ShipCity** column is defined with `visible` property
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs23/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs23/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs23/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs23/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs23" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs23" %}
 
 >* Hiding a column using the `visible` property only affects the UI representation of the grid. The data for the hidden column will still be available in the underlying data source, and can be accessed or modified programmatically.
 >* When a column is hidden, its width is not included in the calculation of the total grid width.
@@ -524,14 +524,14 @@ Here's an example of how to show or hide a column based on the HeaderText in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs32/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs32/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs32/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs32/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs32" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs32" %}
 
 **Based on field**
 
@@ -541,14 +541,14 @@ Here's an example of how to show or hide a column based on the field in the Vue 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs33/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs33/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs33/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs33/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs33" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs33" %}
 
 ## Controlling grid actions
 
@@ -566,14 +566,14 @@ Here is an example code that demonstrates how to control grid actions for specif
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs25/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs25/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs25/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs25/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs25" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs25" %}
 
 ## Customize column styles
 
@@ -645,14 +645,14 @@ You can update the column definitions in the Grid using the [columns](https://ej
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs26/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs26/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs26/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs26/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs26" %}
 
 ### Adding/removing columns
 
@@ -664,14 +664,14 @@ Here's an example of how you can add and remove a column from the grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs34/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs34/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs34/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs34/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs34" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs34" %}
 
 ### How to refresh columns
 
@@ -689,14 +689,14 @@ In this example, we have a Grid that displays data with three columns: **Order I
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs30/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs30/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs30/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs30/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs30" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs30" %}
 
 ## See also
 

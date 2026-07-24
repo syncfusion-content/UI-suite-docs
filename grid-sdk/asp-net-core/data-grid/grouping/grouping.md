@@ -14,10 +14,10 @@ The grouping feature in the [ASP.NET Core DataGrid](https://www.syncfusion.com/a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ The following example demonstrates how to set an initial grouping for the **Cust
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/initial-group/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/initial-group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="initial-group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/initial-group/initial-group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/initial-group/initial-group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ The Grid component provides the ability to prevent grouping for a particular col
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-prevent/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-prevent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-prevent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-prevent/group-prevent.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-prevent/group-prevent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/hide-drop-area/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/hide-drop-area/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="hide-drop-area.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/hide-drop-area/hide-drop-area.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/hide-drop-area/hide-drop-area.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,10 +87,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-show/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-show/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-show/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-show/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ To enable this feature, you have to set the [groupSettings.allowReordering](http
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-reorder/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-reorder/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ The following example demonstrates how to sort the **CustomerID** column by sett
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-sort-descending/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-sort-descending/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-sort-descending/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-sort-descending/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ The following example demonstrates how to perform a group action using the `enab
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-format/group-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-format/group-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to collapse all grouped rows at the initi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-collapse-initial/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-collapse-initial/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-collapse-initial/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-collapse-initial/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ The following example demonstrates how to group and ungroup the columns in a gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-ungroup/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-ungroup/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-ungroup/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-ungroup/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -216,10 +216,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-expand-collapse/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-expand-collapse/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-expand-collapse/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-expand-collapse/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,10 +243,10 @@ The following example demonstrates the function that collapses the selected row 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-selected/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-selected/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-selected/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-selected/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -262,10 +262,10 @@ The following example demonstrates how to clear the grouping using `clearGroupin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-clearing/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-clearing/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-clearing/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/group-clearing/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ The following example demonstrates how the `actionBegin` and `actionComplete` ev
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/grouping-events/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/grouping-events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="grouping-events.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/grouping-events/grouping-events.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/grouping/grouping-events/grouping-events.cs %}
 {% endhighlight %}
 {% endtabs %}
 

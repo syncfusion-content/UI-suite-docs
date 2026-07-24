@@ -217,14 +217,14 @@ The following example demonstrates how to prevent the default behavior of the **
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/accessibility/keyboard-navigation/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/accessibility/keyboard-navigation/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/accessibility/keyboard-navigation/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/accessibility/keyboard-navigation/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/accessibility/keyboard-navigation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/accessibility/keyboard-navigation" %}
 
 ### Custom shortcut keys to perform grid actions
 
@@ -252,14 +252,14 @@ You can add more custom shortcuts and actions as needed to enhance the functiona
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/accessibility/custom-shortcut-key/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/accessibility/custom-shortcut-key/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/accessibility/custom-shortcut-key/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/accessibility/custom-shortcut-key/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/accessibility/custom-shortcut-key" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/accessibility/custom-shortcut-key" %}
 
 ## Ensuring accessibility
 
@@ -465,7 +465,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/accessibility/ensuring-accessibility" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/accessibility/ensuring-accessibility" %}
 
 ## See also
 

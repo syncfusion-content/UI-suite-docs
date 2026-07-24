@@ -23,27 +23,27 @@ The following code example demonstrates how to define a validation rule for grid
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs46/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs46/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs46/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs46/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs46" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs46" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs46/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs46/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs46/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs46/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs46" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs46" %}
 {% endif %}
 
 ## Custom validation
@@ -56,27 +56,27 @@ In the below demo, custom validation applied for **CustomerID** column.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs47/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs47/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs47/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs47/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs47" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs47" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs47/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs47/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs47/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs47/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs47" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs47" %}
 {% endif %}
 
 ### Custom validation based on dropdown change
@@ -89,27 +89,27 @@ In the following sample, dropdownlist edit type is used for the **Role** and **S
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs48/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs48/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs48/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs48/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs48" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs48" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs48/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs48/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs48/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs48/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs48" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs48" %}
 {% endif %}
 
 ### Custom validation for numeric column
@@ -122,27 +122,27 @@ In the following example, custom validation functions, namely **customFn** and *
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs1" %}
 {% endif %}
 
 ## Dynamically add or remove validation rules from the form
@@ -157,27 +157,27 @@ The following example to demonstrates how to dynamically add or remove a require
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs2" %}
 {% endif %}
 
 >To remove an existing validation rule from an input element, you can use the [removeRules](../../api/form-validator/#removerules) method. 
@@ -194,27 +194,27 @@ Here's an example that demonstrates how to change the position of the validation
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/validation-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/validation-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/validation-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/validation-cs3" %}
 {% endif %}
 
 ## Show custom error message while performing CRUD actions
@@ -901,25 +901,25 @@ For server-side validation to prevent adding duplicate rows, you can refer to th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/add-prevent-duplicate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/add-prevent-duplicate-cs1" %}
 {% endif %}

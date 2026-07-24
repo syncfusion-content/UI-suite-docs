@@ -61,27 +61,27 @@ The following example demonstrates how to enable context menu feature in the gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs14/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs14/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs14" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs14/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs14/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs14" %}
 {% endif %}
 
 ## Custom context menu items
@@ -98,27 +98,27 @@ The following example demonstrates how to add custom context menu items in the G
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs15/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs15/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs15" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs15/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs15/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs15" %}
 {% endif %}
 
 ## Show context menu on left click
@@ -135,27 +135,27 @@ The following example demonstrates how to show context menu on left click using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs16/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs16/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs16" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs16/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs16/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs16/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs16" %}
 {% endif %}
 
 > You can hide or show an item in context menu for specific area inside of grid by defining the [target](../api/grid/contextMenuItemModel#target) property.
@@ -180,27 +180,27 @@ In the following example, the [EJ2 Toggle Switch Button](../switch/es5-getting-s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs17/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs17/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs17" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs17/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs17/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-template-cs17/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-template-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-template-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-template-cs17" %}
 {% endif %}
 
 ## Show or hide context menu items
@@ -223,25 +223,25 @@ In the following example, the [EJ2 Toggle Switch Button](../switch/es5-getting-s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/show-or-hide-menu-item-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/show-or-hide-menu-item-cs1" %}
 {% endif %}

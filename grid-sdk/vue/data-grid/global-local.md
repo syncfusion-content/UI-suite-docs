@@ -236,14 +236,14 @@ The following example demonstrates how to load a translation object for **Deutsc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/globalization/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/globalization/default-cs1" %}
 
 ### Loading translations for fr culture 
 
@@ -253,14 +253,14 @@ The following example demonstrates how to load a translation object for **French
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/globalization/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/globalization/default-cs2" %}
 
 ### Switch the different localization
 
@@ -286,14 +286,14 @@ To switch to the **French** culture and set the currency code as **EUR**, you ca
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/globalization/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/globalization/default-cs3" %}
 
 ## Internationalization
 
@@ -305,14 +305,14 @@ You need to load the culture format files corresponding to the desired locale. T
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/globalization/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/globalization/default-cs4" %}
 
 > * In the above sample, **Freight** column is formatted using the [NumberFormatOptions](https://ej2.syncfusion.com/vue/documentation/common/internationalization#manipulating-numbers).
 > * By default, [locale](https://ej2.syncfusion.com/vue/documentation/api/grid/#locale) value is **en-US**. If you wish to change the culture to something other than **en-US**, you can simply set the `locale` property accordingly.
@@ -327,14 +327,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/globalization/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/globalization/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/globalization/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/globalization/default-cs5" %}
 
 ## See Also
 

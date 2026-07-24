@@ -25,20 +25,20 @@ To enable column resizing, set the [`allowResizing`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs15/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs15/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs15/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs15/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs15/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs15" %}
 
 > * Resizing can be disabled for a particular column by setting the [`allowResizing`](https://ej2.syncfusion.com/react/documentation/api/grid/column#allowresizing) property to `false`.
 > * In RTL mode, the left edge of the header cell can be clicked and dragged to resize the column.
@@ -63,20 +63,20 @@ In the following example, resize constraints are applied to multiple columns:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs16/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs16/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs16/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs16/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs16/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs16/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs16/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs16" %}
 
 > * The `minWidth` and `maxWidth` properties are enforced only during manual column resizing operations. Window or container resizing does not apply these constraints as columns are not re-rendered during window resize events.
 > * Choose appropriate `minWidth` and `maxWidth` values based on data content and layout requirements to ensure optimal display.
@@ -90,20 +90,20 @@ The following example demonstrates disabling resize functionality for the "Custo
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/resize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/resize-cs1" %}
 
 > Resizing can also be prevented by setting `args.cancel` to `true` in the [resizeStart](https://ej2.syncfusion.com/react/documentation/api/grid#resizestart) event.
 
@@ -120,20 +120,20 @@ The Grid supports resizing stacked header columns, which are columns grouped und
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs17/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs17/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs17/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs17/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs17/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs17/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs17/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs17" %}
 
 ## Resizing modes
 
@@ -221,14 +221,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/resize-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/resize-cs2" %}
 
 > When the [autoFit](https://ej2.syncfusion.com/react/documentation/api/grid#autofit) property is set to `true`, column widths automatically adjust based on their content. In `Normal` resize mode, empty space remains after resizing. In `Auto` resize mode, columns expand to eliminate empty space.
 
@@ -369,14 +369,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/resize-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/resize-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/resize-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/resize-cs3" %}
 
 > The `refreshColumns` method is essential for applying width changes made through the column object. Without calling this method, width changes will not be reflected in the grid display.
 
@@ -490,14 +490,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs18/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs18/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-cs18/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-cs18/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-cs18" %}
 
 > * The `ResizeArgs` object provides comprehensive information such as the current column width, new column width, column index, and the original DOM event.
 > * The `resizing` event is triggered continuously during drag operations, potentially triggering dozens of times per second. Avoid heavy computations or DOM manipulations in this event handler to maintain smooth performance.

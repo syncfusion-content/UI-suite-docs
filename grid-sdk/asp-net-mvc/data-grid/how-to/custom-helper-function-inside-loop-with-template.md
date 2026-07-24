@@ -37,10 +37,10 @@ This is demonstrated in the following example:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/custom-helper/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/how-to/custom-helper/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-helper.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/custom-helper/custom-helper.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/how-to/custom-helper/custom-helper.cs %}
 {% endhighlight %}
 {% endtabs %}
 

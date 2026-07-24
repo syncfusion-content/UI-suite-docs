@@ -23,27 +23,27 @@ Here's an example code snippet demonstrating how to auto update aggregate value 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/aggregates-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/aggregates-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/aggregates-cs6" %}
 {% endif %}
 
 > Adding a new record to the grouped grid will not refresh the aggregate values.
@@ -58,25 +58,25 @@ In the following code, the input event for the Freight column editor has been re
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/aggregates-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/aggregates-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/aggregates-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/aggregates-cs7" %}
 {% endif %}

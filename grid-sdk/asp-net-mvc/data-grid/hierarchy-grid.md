@@ -24,10 +24,10 @@ The following example demonstrates how to enable the hierarchy feature in the gr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hierarchy-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hierarchy-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hierarchy-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hierarchy-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -47,10 +47,10 @@ In the following example, the `Load` event is utilized to customize the mapping 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hierarchy-grid-different-field/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hierarchy-grid-different-field/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hierarchy-grid-different-field/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hierarchy-grid-different-field/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the provided example, expand the third record of the grid by utilizing the `e
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/expand-child-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/expand-child-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/expand-child-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/expand-child-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ The following example demonstrates how to dynamically load child grid data using
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/dynamically-load-child-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/dynamically-load-child-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/dynamically-load-child-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/dynamically-load-child-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ In the `DetailDataBound` event handler, you can filter the child grid's dataSour
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/dynamically-bind-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/dynamically-bind-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/dynamically-bind-data/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/dynamically-bind-data/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -127,10 +127,10 @@ In the following example, the parent and child grids are related by the **Employ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/add-record-child-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/add-record-child-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/add-record-child-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/add-record-child-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ The following example demonstrates, how to show a custom image in the **Employee
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/template-column-child-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/template-column-child-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/template-column-child-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/template-column-child-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to obtain parent details in a child grid 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/get-parent-grid-details/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/get-parent-grid-details/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/get-parent-grid-details/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/get-parent-grid-details/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following example demonstrates how to render aggregates in a child grid to d
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/aggregates-child-grid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/aggregates-child-grid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Aggregates.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/aggregates-child-grid/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/aggregates-child-grid/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,10 +203,10 @@ The following example demonstrates how to expand and collapse the hierarchy grid
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/expand-collapse-externally/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/expand-collapse-externally/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/expand-collapse-externally/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/expand-collapse-externally/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -255,10 +255,10 @@ The following example demonstrates how to hide the expand/collapse icon in the r
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hide-expand-icon/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hide-expand-icon/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/hide-expand-icon/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/hide-expand-icon/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -286,10 +286,10 @@ In the demo below, the expand/collapse icons have been changed to arrow-down and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/customize-icon/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/customize-icon/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/customize-icon/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/customize-icon/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -303,10 +303,10 @@ In the example below, expansion is prevented for the "Nancy" row, and collapse i
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/detail-row-events/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/detail-row-events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/hierarchy-grid/detail-row-events/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/hierarchy-grid/detail-row-events/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 

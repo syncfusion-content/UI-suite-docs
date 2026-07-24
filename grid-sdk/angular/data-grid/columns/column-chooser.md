@@ -19,15 +19,15 @@ To enable the Column Chooser, configure the following properties in the Grid com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs1" %}
 
 > By default, the Column Chooser dialog displays the header text of each column. If a column does not have a header text, its field name is shown instead.
 
@@ -39,15 +39,15 @@ In this example, the `showInColumnChooser` property is set to `false` for the "O
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs2" %}
 
 > * The `columns.showInColumnChooser` property must be set individually for each `<e-column>` element  that should be hidden. 
 > * At least one column in the grid must remain in a visible state to allow showing and hiding columns.
@@ -60,15 +60,15 @@ The following example illustrates invoking the Column Chooser dialog using an ex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs3" %}
 
 ## Customize column chooser dialog size
 	
@@ -86,15 +86,15 @@ The column chooser dialog comes with a default size, but height and width can be
 ```
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs4" %}
 
 ## Customize column order in column chooser dialog
 
@@ -114,15 +114,15 @@ Here is an example for sort the column chooser list based on sort direction:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs7" %}
 
 ### Displaying specific columns in the column chooser
 
@@ -134,15 +134,15 @@ Here is an example for show only specific columns in the column chooser:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs8" %}
 
 ## Change default search operator of the column chooser 
 
@@ -151,15 +151,15 @@ The column chooser dialog provides a search box for searching column names. By d
 The following example demonstrates changing the default search operator to `contains`.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs5" %}
 
 ## Diacritics searching in column chooser
 
@@ -168,15 +168,15 @@ The following example demonstrates enabling diacritic-sensitive searching:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-cs6" %}
 
 ## Column chooser template
 
@@ -192,15 +192,15 @@ The column chooser footer is customized using the `columnChooserSettings.footerT
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-chooser-template/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-chooser-template/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-chooser-template/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-chooser-template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-chooser-template" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/column-chooser-template" %}
 
 ## Enable or disable search in column chooser
 
@@ -215,12 +215,12 @@ The following example demonstrates dynamically enabling or disabling the search 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-enable-disable/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-enable-disable/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/columnchooser-enable-disable/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/columnchooser-enable-disable/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/columnchooser-enable-disable" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/columnchooser-enable-disable" %}

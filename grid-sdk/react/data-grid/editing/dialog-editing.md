@@ -16,20 +16,20 @@ To enable dialog editing in the grid component, set the [editSettings.mode](http
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs8" %}
 
 > For basic grid editing setup and configuration, refer to the [Edit Feature Setup](./edit#set-up-editing).
 
@@ -55,20 +55,20 @@ Use the `requestType` parameter to identify which action triggered the event and
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs1" %}
 
 > The Grid add or edit dialog element has the max-height property, which is calculated based on the available window height. So, in the normal window (1920 x 1080), it is possible to set the dialog's height up to 658px.
 
@@ -87,20 +87,20 @@ In the following example, the "Customer ID" column is rendered as a hidden colum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs2" %}
 
 ## Use wizard-like dialog editing
 
@@ -115,22 +115,22 @@ The following example demonstrates the wizard-like editing in the grid with unob
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="orderModel.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/orderModel.jsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/orderModel.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="orderModel.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/wizardediting-cs1/app/orderModel.tsx %}
+{% include code-snippet/grid-sdk/react/grid/wizardediting-cs1/app/orderModel.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="wizardTemplate.jsx" %}
 {% raw %}
@@ -434,7 +434,7 @@ export class DialogFormTemplate extends React.Component<{}, {}> {
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/wizardediting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/wizardediting-cs1" %}
 
 ## Customize add/edit dialog footer
 
@@ -444,17 +444,17 @@ In the following sample, using the `dialog` argument of the `actionComplete` eve
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs3" %}

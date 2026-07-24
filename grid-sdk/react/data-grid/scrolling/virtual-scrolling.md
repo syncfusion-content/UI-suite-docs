@@ -32,20 +32,20 @@ The grid displays records based on the content area height. The [pageSettings.pa
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="largeData.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs4/app/largeData.jsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs4/app/largeData.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="largeData.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs4/app/largeData.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs4/app/largeData.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/virtual-scroll-cs4" %}
 
 ### Limitations 
 
@@ -189,11 +189,11 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="virtualData.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs5/app/virtualData.tsx %}
+{% include code-snippet/grid-sdk/react/grid/virtual-scroll-cs5/app/virtualData.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/virtual-scroll-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/virtual-scroll-cs5" %}
 
 > Column's [width](https://ej2.syncfusion.com/react/documentation/api/grid/column#width) is required for column virtualization. If column's width is not defined then grid will consider its value as "200px".
 

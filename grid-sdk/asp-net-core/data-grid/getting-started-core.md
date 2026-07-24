@@ -183,7 +183,7 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET Core Data
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/getting-start-core/gridcolumns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/getting-start-core/gridcolumns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CSHTML.cs" %}
 public class IndexModel : PageModel
