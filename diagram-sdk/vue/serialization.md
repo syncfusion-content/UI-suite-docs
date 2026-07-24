@@ -113,6 +113,24 @@ let diagram: Diagram = new Diagram({
 });
 ```
 
+## Detect unsaved changes
+
+The [isModified](https://ej2.syncfusion.com/vue/documentation/api/diagram#ismodified) property indicates whether the diagram has unsaved changes. It becomes **true** when the diagram is changed, such as when nodes, connectors, or diagram properties are updated, or when undo and redo actions are performed.
+
+For example, this property can be used to show a save indicator or display a warning message before closing or navigating away from a diagram with unsaved changes.
+
+```ts
+// Check whether the diagram has unsaved changes.
+if (diagram.isModified) {
+    const confirmed = confirm('There are unsaved changes. Discard them?');
+
+    if (!confirmed) {
+        return;
+    }
+}
+```
+
+N> Transient interactions such as zooming, panning, or selecting elements do not affect the `isModified` state.
 
 ## Save and load diagram using Uploader control
 
