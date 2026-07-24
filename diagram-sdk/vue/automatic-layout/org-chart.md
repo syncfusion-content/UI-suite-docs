@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Organizational Chart layout in Vue Diagram control
 
-An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layout/#type) of layout should be set as an `OrganizationalChart`.
+An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutmodel#type) of layout should be set as an `OrganizationalChart`.
 
 
 ## Organizational chart with DataSource
@@ -52,12 +52,12 @@ You can render an org-chart layout without using DataSource. The following code 
 
 ## GetLayout info
 
-Organizational chart layout starts parsing from root and iterate through all its child elements. The [`getLayoutInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutModel/#getlayoutinfo) method provides necessary information of a node’s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
+Organizational chart layout starts parsing from root and iterate through all its child elements. The [`getLayoutInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutmodel#getlayoutinfo) method provides necessary information of a node’s children and the way to arrange (direction, orientation, offsets, etc.) them. The arrangements can be customized by overriding this function as explained.
 
 Set chart orientations, chart types, and offset to be left between parent and child nodes by overriding the `getLayoutInfo` method. The `getLayoutInfo` method is called to configure every subtree of the organizational chart. It takes the following arguments.
 
-    * node: Parent node to that options are to be customized.
-    * options: Object to set the customizable properties.
+* node: Parent node to that options are to be customized.
+* options: Object to set the customizable properties.
 
 
 The following table illustrates the properties that “options” argument takes.

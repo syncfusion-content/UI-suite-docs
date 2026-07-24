@@ -14,7 +14,7 @@ The hierarchical tree layout arranges nodes in a tree-like structure, where the 
 
 ## Hierarchical tree layout with nodes and connectors
 
-To arrange the nodes in a hierarchical structure, specify the layout [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layout/#type) as **HierarchicalTree**. The following example shows how to arrange the nodes in a hierarchical structure.
+To arrange the nodes in a hierarchical structure, specify the layout [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutmodel#type) as **HierarchicalTree**. The following example shows how to arrange the nodes in a hierarchical structure.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

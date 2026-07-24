@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Appearance
 
-The appearance of ports can be customized by using [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeStyleModel/#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeStyleModel/#strokewidth),[`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeStyleModel/#fill) and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeStyleModel/#opacity) properties of the port. Customize the port size by using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#height) properties of port. The ports [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portVisibility/) property allows you to define, when the port should be visible. 
+The appearance of ports can be customized by using [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel#strokewidth),[`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel#fill) and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel#opacity) properties of the port. Customize the port size by using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel/#height) properties of port. The ports [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#visibility) property allows you to define, when the port should be visible. 
 
 For more information about port visibility refer [`Port Visibility`](#port-visibility)
 
@@ -46,7 +46,7 @@ The appearance of port can be changed at runtime by customizing the style of por
 
 ## Port visibility
 
-The visibility of the ports is determined by the [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portVisibility/) property of port using the [`PortVisibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portVisibility/) enum, This enum includes properties such as `Connect`, `Hidden`, `Hover`, and `Visible`. By default, the port visibility is set to **Hidden**.
+The visibility of the ports is determined by the [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#visibility) property of port using the [`PortVisibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portvisibility) enum, This enum includes properties such as `Connect`, `Hidden`, `Hover`, and `Visible`. By default, the port visibility is set to **Hidden**.
 
 | Property | Definition |
 |----|----|
@@ -57,7 +57,7 @@ The visibility of the ports is determined by the [`visibility`](https://ej2.sync
 
 ## Port shape 
 
-The shape of port can be changed by using its shape property. To explore the different types of port shapes, refer to [`Port Shapes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portShapes/). By default the port shape is `Square`.
+The shape of port can be changed by using its shape property. To explore the different types of port shapes, refer to [`Port Shapes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portshapes). By default the port shape is `Square`.
 
 ### Types of port shapes
 
@@ -71,7 +71,7 @@ We have provided some basic built-in `PortShapes` for the port. Find the shapes 
 ### Customize the port’s shape
 
 Custom shape support has been provided for port. You can able to add the custom path data instead of build-in shapes. 
-If you need to render a custom shape, then you can set shape as `Custom` and define path using [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#pathdata) property of port.
+If you need to render a custom shape, then you can set shape as `Custom` and define path using [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel/#pathdata) property of port.
 
 The following code illustrates how to set custom shape to the port.
 
@@ -88,7 +88,7 @@ The following code illustrates how to set custom shape to the port.
 
 ## Constraints
 
-The constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [`Port Constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portConstraints/).
+The constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [`Port Constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portconstraints).
 
 The PortConstraints may have multiple behaviors like listed below:
 

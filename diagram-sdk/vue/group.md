@@ -16,7 +16,7 @@ Group is used to cluster multiple nodes and connectors into a single element. It
 
 ## Add group when initializing diagram
 
-A group can be added to the diagram model through [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node) collection. To define an object as group, add the child objects to the [`children`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#children) collection of the group. The following code illustrates how to create a group node.
+A group can be added to the diagram model through [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#nodes) collection. To define an object as group, add the child objects to the [`children`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#children) collection of the group. The following code illustrates how to create a group node.
 
 * While creating group, its child node need to be declared before the group declaration.
 
@@ -95,7 +95,7 @@ The following code illustrates how a group node is added at runtime.
 
 ## Add collection of group nodes at runtime
 
-* The collection of group nodes can be dynamically added using [`addElements`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#addelements) method.Each time an element is added to the diagram canvas, the [`collectionChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/icollectionchangeeventargs) event will be triggered.
+* The collection of group nodes can be dynamically added using [`addElements`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#addelements) method.Each time an element is added to the diagram canvas, the [`collectionChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#collectionchange) event will be triggered.
 
 The following code illustrates how to add group nodes collection at runtime.
 
@@ -218,7 +218,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 
 ![Nested Group GIF](images/nestedGroup.gif)
 
- The following code illustrates how to create nested group node.
+The following code illustrates how to create nested group node.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

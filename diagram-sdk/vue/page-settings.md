@@ -14,9 +14,9 @@ Page settings allow customization of the appearance, size, and orientation of th
 
 ## Page size and appearance
 
-The [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel#height) properties in page settings determine the size of the page. Additionally, the [`background`](https://ej2.syncfusion.com/vue/documentation/api/diagram/backgroundmodel) property allows customization of the page's appearance. The [`color`](https://ej2.syncfusion.com/vue/documentation/api/diagram/backgroundmodel#color) property of background is used to define the color of the page. The [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel) property defines the page margins.
+The [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel#height) properties in page settings determine the size of the page. Additionally, the [`background`](https://ej2.syncfusion.com/vue/documentation/api/diagram/backgroundmodel) property allows customization of the page's appearance. The [`color`](https://ej2.syncfusion.com/vue/documentation/api/diagram/backgroundmodel#color) property of background is used to define the color of the page. The [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel#margin) property defines the page margins.
 
-To explore those properties, refer to [`Page Settings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pageSettingsmodel).
+To explore those properties, refer to [`Page Settings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pagesettingsmodel).
 
 The following example shows the customization of page settings.
 
@@ -95,6 +95,7 @@ There are three types of boundary constraints. They are:
 - Infinity
 - Diagram
 - Page
+
 To explore these constraints further, refer to [`Boundary Constraints`](https://ej2.syncfusion.com/vue/documentation/diagram/constraints#boundary-constraints).
 
 Below is an example illustrating how to define boundary constraints within the diagram:
@@ -112,7 +113,7 @@ Below is an example illustrating how to define boundary constraints within the d
 
 ## Fit options
 
-The [`fitOptions`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel) in page settings control how diagram content is fitted within the diagram page. The [`canFit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#canfit) property within fitOptions centers the content within the viewport during diagram rendering. Additionally, the [`region`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramregions) property specifies whether to fit the page or the content to the center of the viewport. Choosing CustomBounds for the [`region`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramregions) allows fitting custom bounds within the diagram by defining them in the [`customBounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#custombounds) property of fitOptions. The [`canZoomIn`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#canzoomin) property enables zooming in to fit smaller content within the viewport. Additionally, the [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel) property defines the space around the fitted content within the viewport, while the [`mode`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitmodes) property sets the fitting mode, typically defaulting to 'Page' but also offering options like 'Width' and 'Height' for specific dimension constraints.
+The [`fitOptions`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel) in page settings control how diagram content is fitted within the diagram page. The [`canFit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#canfit) property within fitOptions centers the content within the viewport during diagram rendering. Additionally, the [`region`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramregions) property specifies whether to fit the page or the content to the center of the viewport. Choosing CustomBounds for the [`region`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramregions) allows fitting custom bounds within the diagram by defining them in the [`customBounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#custombounds) property of fitOptions. The [`canZoomIn`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#canzoomin) property enables zooming in to fit smaller content within the viewport. Additionally, the [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitoptionsmodel#margin) property defines the space around the fitted content within the viewport, while the [`mode`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fitmodes) property sets the fitting mode, typically defaulting to 'Page' but also offering options like 'Width' and 'Height' for specific dimension constraints.
 
 The following example demonstrates how fitOptions are utilized in diagram page settings.
 

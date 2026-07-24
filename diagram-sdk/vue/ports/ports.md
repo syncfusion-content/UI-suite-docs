@@ -37,7 +37,7 @@ Ports act as the connection points of the node and allows creating connections w
 
 ## Create Port
 
-To add a connection port, define the port object and add it to node’s [`ports`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/) collection. The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointModel/) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
+To add a connection port, define the port object and add it to node’s [`ports`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#ports) collection. The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#offset) property of the port accepts an object of fractions and is used to determine the position of ports. The following code explains how to add ports when initializing the node.
 
 
 {% tabs %}
@@ -88,7 +88,7 @@ You can remove ports at runtime by using diagram method [`removePorts`](https://
 
 ## Update Port at runtime
 
-You can change any port properties at runtime and update it through the diagram method [`dataBind`].
+You can change any port properties at runtime and update it through the diagram method `dataBind`.
 
 The following code example illustrates how to change the port offset at runtime.
 
@@ -106,7 +106,7 @@ The following code example illustrates how to change the port offset at runtime.
 
 ## Specify connection direction to port
 
-The [`connectionDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/port/#connectionDirection) property of a port allows users to specify the direction in which a connector should establish a connection. This can be either to the port (incoming) or from the port (outgoing).
+The [`connectionDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#connectiondirection) property of a port allows users to specify the direction in which a connector should establish a connection. This can be either to the port (incoming) or from the port (outgoing).
 
 
 {% tabs %}
@@ -124,7 +124,7 @@ The [`connectionDirection`](https://ej2.syncfusion.com/vue/documentation/api/dia
 
 ## InEdges and outEdges of ports
 
-The [`inEdges`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#inedges) is used to get the incoming connectors of the port that are connected to the port. [`outEdges`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#outedges) is used to get the outgoing connectors of the port that are connected to the port.
+The [`inEdges`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#inedges) is used to get the incoming connectors of the port that are connected to the port. [`outEdges`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#outedges) is used to get the outgoing connectors of the port that are connected to the port.
 
 The `inEdges` and `outEdges` of the port are read-only and cannot be customized.
 
@@ -143,7 +143,7 @@ The following code example shows how to get inEdges and outEdges of port.
 
 ## Additional information to port
 
-The[ `addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointPortModel/#addinfo) property of the port allows you to maintain additional information to the port. 
+The[ `addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#addinfo) property of the port allows you to maintain additional information to the port.
 
 The following code example shows how to set addInfo to the port.
 
