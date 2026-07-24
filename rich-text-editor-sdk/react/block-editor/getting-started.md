@@ -68,7 +68,7 @@ Now, You can add the Block Editor component to your application. Replace the def
 {% highlight ts tabtitle="App.tsx" %}
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.tsx %}
 {% endhighlight %}
-{% highlight ts tabtitle="App.jsx" %}
+{% highlight js tabtitle="App.jsx" %}
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.jsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
