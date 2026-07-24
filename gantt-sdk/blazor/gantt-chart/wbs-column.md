@@ -211,6 +211,6 @@ The WBS feature has a few limitations in the Gantt component:
 - [How to define columns manually in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/columns)
 - [How to customize column headers in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/column-template)
 - [How to use the column menu in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/column-menu)
-- [How to reorder columns in Blazor Gantt Chart?](https://ej2.syncfusion.com/blazor/documentation/gantt-chart/columns/column-reorder)
-- [How to resize columns in Blazor Gantt Chart?](https://ej2.syncfusion.com/blazor/documentation/gantt-chart/columns/column-resizing)
+- [How to reorder columns in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/column-reordering)
+- [How to resize columns in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/column-resizing)
 - [How to use column templates in Blazor Gantt Chart?](https://blazor.syncfusion.com/documentation/gantt-chart/column-template)
