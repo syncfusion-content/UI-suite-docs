@@ -20,10 +20,10 @@ The following code example demonstrates how to define a validation rule for grid
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-columnvalid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-columnvalid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-columnvalid/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-columnvalid/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ In the below demo, custom validation applied for **CustomerID** column.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-customvalidation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-customvalidation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="customvalidation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-customvalidation/customvalidation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-customvalidation/customvalidation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ In the following sample, dropdownlist edit type is used for the **Role** and **S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-dropdown-change/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-dropdown-change/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-dropdown-change/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-dropdown-change/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ In the following example, custom validation functions, namely **customFunction**
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-numericcolumn/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-numericcolumn/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-numericcolumn/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-numericcolumn/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ The following example to demonstrates how to dynamically add or remove a require
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-add-remove/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-add-remove/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="columnvalid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-add-remove/columnvalid.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-add-remove/columnvalid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ Here's an example that demonstrates how to change the position of the validation
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-position/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-position/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="validation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/validation-position/validation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/validation-position/validation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -355,10 +355,10 @@ For server-side validation to prevent adding duplicate rows, you can refer to th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/prevent-add-duplicate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/prevent-add-duplicate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit-temp.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/prevent-add-duplicate/customvalidation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/prevent-add-duplicate/customvalidation.cs %}
 {% endhighlight %}
 {% endtabs %}
 

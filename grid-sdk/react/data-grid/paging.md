@@ -30,20 +30,20 @@ Use the [pageSettings](https://ej2.syncfusion.com/react/documentation/api/grid#p
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-page/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-page/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-page/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-page/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-page/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-page/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-page/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-page/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/enable-page" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/enable-page" %}
 
 > Paging improves performance by allowing the grid to fetch and display only a predefined number of records from the data source.
 
@@ -142,14 +142,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs2" %}
 
 ### Change page count
 
@@ -232,14 +232,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs1" %}
 
 ### Change current page
 
@@ -323,14 +323,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs2" %}
 
 ### Add current page in URL as query string 
 
@@ -340,20 +340,20 @@ The following example demonstrates toggling this behavior using an [EJ2 Toggle S
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs3" %}
 
 ## Pager template
 
@@ -452,14 +452,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs3" %}
 
 ## Pager with page size dropdown
 
@@ -469,20 +469,20 @@ When enabled, the pager displays a dropdown that allows selecting the preferred 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs4" %}
 
 > If the `pageSizes` property is set to a boolean value like `true` or `false` the page size dropdown defaults to an array of strings containing options such as ['All', '5', '10', '15', '20']. The `All` option denotes rendering all data in a single page.
 
@@ -494,20 +494,20 @@ The following example demonstrates configuring custom values for the pager dropd
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs4" %}
 
 > The `pageSizes` property can be configured with either an array of strings or a boolean value.
 
@@ -590,14 +590,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs5" %}
 
 ## How to get the pager element
 
@@ -617,20 +617,20 @@ The following example demonstrates updating the page size dynamically using the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs6" %}
 
 ## Render pager at the top of the grid 
 
@@ -638,20 +638,20 @@ By default, pager displayed at the bottom of the grid. It is also possible to di
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/pager-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/pager-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pager-cs5" %}
 
 > During the paging action, the pager component triggers the below three events.
 > * The [created](https://ej2.syncfusion.com/react/documentation/api/pager#created) event triggers when pager is created.
@@ -670,20 +670,20 @@ The following example demonstrates using these events to display notification me
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/paging-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/paging-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/paging-cs7" %}
 
 ## See also
 

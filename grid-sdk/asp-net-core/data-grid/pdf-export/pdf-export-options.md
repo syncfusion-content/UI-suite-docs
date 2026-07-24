@@ -24,10 +24,10 @@ The following example demonstrates how to export current page to a PDF document 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-current/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-current/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-current.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-current/export-current.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-current/export-current.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ The following example demonstrates how to export the selected records to a PDF d
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-selected-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-selected-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selected-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-selected-data/selected-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-selected-data/selected-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -80,10 +80,10 @@ The following example demonstrates how to export the filtered records to a PDF d
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-filtered-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-filtered-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-filtered-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-filtered-data/export-filtered-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-filtered-data/export-filtered-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ The following example demonstrates how to export hidden columns to a PDF file. I
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-hidden/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-hidden/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-hidden.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-hidden/export-hidden.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-hidden/export-hidden.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,10 +126,10 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,10 +153,10 @@ In the following example, the **ShipName** is initially a hidden column in the S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdfexport-show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdfexport-show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="pdf-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdfexport-show-hide/pdf-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdfexport-show-hide/pdf-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -178,10 +178,10 @@ The following example demonstrates how to export the grid into PDF document by s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/orientation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/orientation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/orientation/orientation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,10 +225,10 @@ The following example demonstrates how to export the grid into PDF document by s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/page-size/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/page-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page-size.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/page-size/page-size.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/page-size/page-size.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +242,10 @@ The following example demonstrates how to define a file name using `pdfExportPro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-filename/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-filename/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-filename/export-filename.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-filename/export-filename.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -261,10 +261,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-overflow/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-overflow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-overflow/export-overflow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-overflow/export-overflow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -286,10 +286,10 @@ The following example demonstrates how to customize the grid columns when export
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/customizing-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/customizing-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/customizing-column/customizing-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/customizing-column/customizing-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -321,10 +321,10 @@ The following example demonstrates, how to change the default font when exportin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/default-font/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/default-font/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/default-font/default-font.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/default-font/default-font.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -340,10 +340,10 @@ The following example demonstrates how to use the custom **Algeria** font for ex
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/customfont/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/customfont/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customfont.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/customfont/customfont.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/customfont/customfont.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -361,10 +361,10 @@ The following example demonstrate how to customize the background color of the *
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/cell-customization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/cell-customization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customfont.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/cell-customization/cell-customization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/cell-customization/cell-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -378,9 +378,9 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/grid-blob/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/grid-blob/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customfont.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/grid-blob/grid-blob.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/grid-blob/grid-blob.cs %}
 {% endhighlight %}
 {% endtabs %}

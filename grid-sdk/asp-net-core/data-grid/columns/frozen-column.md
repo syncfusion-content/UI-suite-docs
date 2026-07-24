@@ -16,10 +16,10 @@ In the following example, the [frozenColumns](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-columns/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-columns/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following example demonstrates how to freeze particular column in grid using
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-particular/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-particular/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-particular/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-particular/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the following example, the **ShipCountry** column is frozen on the left side,
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-direction/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-direction/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-direction/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-direction/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ The following example demonstrates how to change the default frozen line color u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-color/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-color/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-color/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-color/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,11 +133,11 @@ The following example demonstrates how to render the `DatePicker` in the **Order
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-datepicker/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-datepicker/tagHelper %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="Frozen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/frozen-datepicker/frozen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/frozen-datepicker/frozen.cs %}
 {% endhighlight %}
 {% endtabs %}
 

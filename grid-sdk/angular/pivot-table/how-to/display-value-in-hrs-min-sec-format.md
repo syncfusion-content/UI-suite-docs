@@ -18,12 +18,12 @@ The following example demonstrates how to convert numeric values in the **Sold**
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs314/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs314/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs314/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs314/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs314" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs314" %}

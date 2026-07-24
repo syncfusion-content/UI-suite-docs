@@ -17,12 +17,12 @@ In this demo, the revenue cost for each year is represented with trend icons.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs161/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs161/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs161/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs161/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs161" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs161" %}

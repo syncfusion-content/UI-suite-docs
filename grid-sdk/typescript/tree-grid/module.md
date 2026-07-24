@@ -39,14 +39,14 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/module-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/module-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/module-cs1/datasource.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/module-cs1/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/module-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/module-cs1" %}

@@ -40,7 +40,7 @@ The following code demonstrates basic overview implementation:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs2" %}
 
 ## Overview Interactions
 
@@ -65,7 +65,7 @@ The overview displays the current viewport as a red rectangle overlay. This rect
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/overview/overview-cs1" %}
 
 The following demonstration shows overview interaction capabilities:
 

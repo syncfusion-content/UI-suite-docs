@@ -34,7 +34,7 @@ N>Remote Data Binding supports only Self-Referential Data and by default the `pa
 
 {% tabs %}
 {% highlight c# tabtitle="Remote-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/remote-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/remote-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ N>Remote Data Binding supports only Self-Referential Data and by default the `pa
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Remote-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/remote-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/remote-data/remote-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -126,7 +126,7 @@ The following code example describes the behavior of the LoadChildOnDemand featu
 
 {% tabs %}
 {% highlight c# tabtitle="LoadChildOnDemand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/loadChildOnDemand.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/loadChildOnDemand.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ The following code example describes the behavior of the LoadChildOnDemand featu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="LoadChildOnDemand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/loadChildOnDemand.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-onDemand/loadChildOnDemand.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -154,7 +154,7 @@ On remote data binding, all treegrid actions such as paging, loading child on-de
 
 {% tabs %}
 {% highlight c# tabtitle="Offline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/offline/offline.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/offline/offline.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,10 +162,10 @@ On remote data binding, all treegrid actions such as paging, loading child on-de
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/offline/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/offline/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Offline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/offline/offline.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/offline/offline.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -180,7 +180,7 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 
 {% tabs %}
 {% highlight c# tabtitle="Customadaptor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/customadaptor.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/customadaptor.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,10 +188,10 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customadaptor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/customadaptor.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/customadaptor/customadaptor.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -206,7 +206,7 @@ To add a custom parameter to the data request, use the **addParams** method of [
 
 {% tabs %}
 {% highlight c# tabtitle="Param.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/param/param.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/param/param.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -214,10 +214,10 @@ To add a custom parameter to the data request, use the **addParams** method of [
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/param/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/param/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Param.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/param/param.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/param/param.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -235,7 +235,7 @@ The argument passed to the [`ActionFailure`](https://help.syncfusion.com/cr/cref
 
 {% tabs %}
 {% highlight c# tabtitle="Http-error.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/http-error/http-error.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/http-error/http-error.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,10 +243,10 @@ The argument passed to the [`ActionFailure`](https://help.syncfusion.com/cr/cref
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/http-error/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/http-error/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Http-error.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/http-error/http-error.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/http-error/http-error.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -275,7 +275,7 @@ The [`HasChildMapping`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 
 {% tabs %}
 {% highlight c# tabtitle="LazyLoading.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/lazyLoading.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/lazyLoading.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ The [`HasChildMapping`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="LazyLoading.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/lazyLoading.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/lazy-loading/lazyLoading.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -304,7 +304,7 @@ When using virtualization with `LoadChildOnDemand` , it helps you to improve the
 
 {% tabs %}
 {% highlight c# tabtitle="LoadChildOnDemand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/loadChildOnDemand.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/loadChildOnDemand.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -312,10 +312,10 @@ When using virtualization with `LoadChildOnDemand` , it helps you to improve the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="LoadChildOnDemand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/loadChildOnDemand.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/load-child-ondemand-virtualization/loadChildOnDemand.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

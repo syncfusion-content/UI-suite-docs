@@ -16,7 +16,7 @@ The column chooser has options to show or hide columns dynamically. It can be en
 
 {% tabs %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnchooser/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnchooser/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -24,10 +24,10 @@ The column chooser has options to show or hide columns dynamically. It can be en
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnchooser/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnchooser/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnchooser/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnchooser/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -44,7 +44,7 @@ The Column chooser can be displayed on a page through external button by invokin
 
 {% tabs %}
 {% highlight c# tabtitle="Externalbutton.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/externalbutton/externalbutton.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/externalbutton/externalbutton.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ The Column chooser can be displayed on a page through external button by invokin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/externalbutton/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/externalbutton/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Externalbutton.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/externalbutton/externalbutton.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/externalbutton/externalbutton.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -80,10 +80,10 @@ The column chooser footer is customized using `ColumnChooserSettings.FooterTempl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-core/column-chooser-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-core/column-chooser-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="empty-record-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-core/column-chooser-template/column-chooser-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-core/column-chooser-template/column-chooser-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 

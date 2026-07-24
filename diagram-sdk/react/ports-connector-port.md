@@ -27,7 +27,7 @@ The following code example shows how to create connector port.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con1" %}
 
 
 ## Port Alignment
@@ -49,7 +49,7 @@ The following code example shows how to set different alignment values for conne
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con2" %}
 
 
 
@@ -68,7 +68,7 @@ The following code example demonstrates how to apply displacement to connector p
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con3" %}
 
 
 N> The displacement will work only if we set alignment as after or before.
@@ -88,7 +88,7 @@ The following code example shows how to connect a connector to a connector port:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con4" %}
 
 ## See also
 

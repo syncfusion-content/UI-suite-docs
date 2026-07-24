@@ -77,7 +77,7 @@ The following example demonstrates how to apply custom cursors for the Select an
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -90,7 +90,7 @@ The following example demonstrates how to apply custom cursors for the Select an
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
 {% endif %}
 
 ## Get custom tool
@@ -110,7 +110,7 @@ In the following example, `getCustomTool` is used to clone a node when clicking 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -123,7 +123,7 @@ In the following example, `getCustomTool` is used to clone a node when clicking 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
 {% endif %}
 
 ## Background color
@@ -148,7 +148,7 @@ In the following example, both `backgroundColor` and `addInfo` are set for the d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -161,7 +161,7 @@ In the following example, both `backgroundColor` and `addInfo` are set for the d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
 {% endif %}
 
 ## Mode
@@ -189,7 +189,7 @@ The following example demonstrates how to set getNodeDefaults and getConnectorDe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -202,7 +202,7 @@ The following example demonstrates how to set getNodeDefaults and getConnectorDe
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
 {% endif %}
 
 ## Diagram settings
@@ -222,7 +222,7 @@ The example below demonstrates how to set inversedAlignment for a diagram to ali
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -235,7 +235,7 @@ The example below demonstrates how to set inversedAlignment for a diagram to ali
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
 {% endif %}
 
 

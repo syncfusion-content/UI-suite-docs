@@ -22,15 +22,15 @@ The following example demonstrates basic filter menu usage in the Syncfusion Ang
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs1" %}
 
 > * [allowFiltering](https://ej2.syncfusion.com/angular/documentation/api/grid#allowfiltering) must be set as `true` to enable filter menu.
 > * By setting [columns.allowFiltering](https://ej2.syncfusion.com/angular/documentation/api/grid/column#allowfiltering) as `false` will prevent filter menu rendering for a particular column.
@@ -56,15 +56,15 @@ The following example demonstrates rendering a DropDownList component for the "C
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs2" %}
 
 **Default filter input for CustomerID column**
 ![Default filter input for CustomerID column](../images/filter-menu-auto-complete.gif)
@@ -81,15 +81,15 @@ Here is an example that demonstrates the "24-hour" time format in the filter dia
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs3" %}
 
 ## Customizing filter menu operators list
 
@@ -113,15 +113,15 @@ Here is an example to customize the filter operators list in Syncfusion Angular 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs4" %}
 
 ## Filter by multiple keywords using filter menu
 
@@ -133,15 +133,15 @@ The following example demonstrates multiple keyword filtering implementation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs5" %}
 
 ## Customize the default input component of filter menu dialog
 
@@ -163,15 +163,15 @@ In the following example, the "Order ID" and "Freight" columns are numeric colum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs8" %}
 
 ### Prevent autofill option in autocomplete of menu filter
 
@@ -179,15 +179,15 @@ By default, the [AutoComplete](https://ej2.syncfusion.com/angular/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs7" %}
 
 ## Hide default filter icons while perform filtering through method
 
@@ -205,14 +205,14 @@ The following example demonstrates hiding the default filter icons while filteri
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-icon/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-icon/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-icon/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-icon/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-icon" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-icon" %}
 
 ## Filter menu events
 
@@ -303,11 +303,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/filter-menu-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/filter-menu-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-menu-cs6" %}
 
 ## Troubleshoot filter menu operator issue
 

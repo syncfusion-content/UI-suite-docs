@@ -25,10 +25,10 @@ Diagram allows to pan the diagram before loading, so that any desired region of 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/status/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/status/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Status.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/status/status.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/status/status.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ Diagram allows to pan the diagram before loading, so that any desired region of 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/status/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/status/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Status.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/status/status.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/status/status.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -54,10 +54,10 @@ You can programmatically change the scroll offsets at runtime by using the clien
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/update/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/update/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Update.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/update/update.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/update/update.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ You can programmatically change the scroll offsets at runtime by using the clien
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/update/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/update/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Update.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/update/update.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/update/update.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -101,10 +101,10 @@ The autoscroll behavior in your diagram can be enabled or disabled by using the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/autoscroll/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/autoscroll/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autoscroll.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/autoscroll/autoscroll.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/autoscroll/autoscroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -112,10 +112,10 @@ The autoscroll behavior in your diagram can be enabled or disabled by using the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/autoscroll/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/autoscroll/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autoscroll.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/autoscroll/autoscroll.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/autoscroll/autoscroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -128,10 +128,10 @@ The autoscroll border is used to specify the maximum distance between the object
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/auto/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/auto/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Auto.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/auto/auto.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/auto/auto.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -139,10 +139,10 @@ The autoscroll border is used to specify the maximum distance between the object
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/auto/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/auto/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Auto.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/auto/auto.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/auto/auto.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -168,10 +168,10 @@ The scrollSettings [`scrollableArea`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -179,10 +179,10 @@ The scrollSettings [`scrollableArea`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/default/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/default/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -197,10 +197,10 @@ The scroll padding allows to extend the scrollable region that is based on the s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/padding/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/padding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/padding/padding.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -208,10 +208,10 @@ The scroll padding allows to extend the scrollable region that is based on the s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/padding/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/padding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/padding/padding.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -226,10 +226,10 @@ Scrolling beyond any particular rectangular area can be restricted by using the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/area/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/area/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Area.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/area/area.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/area/area.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -237,10 +237,10 @@ Scrolling beyond any particular rectangular area can be restricted by using the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/area/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/area/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Area.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/scrollsettings/area/area.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/area/area.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

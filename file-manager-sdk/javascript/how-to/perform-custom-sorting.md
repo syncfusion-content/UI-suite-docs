@@ -21,31 +21,31 @@ The following example demonstrates how to define a custom sort comparer function
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/customsorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/customsorting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/customsorting-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/customsorting-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/customsorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/customsorting-cs1" %}
 {% endif %}

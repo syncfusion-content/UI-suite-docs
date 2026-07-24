@@ -40,10 +40,10 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/local/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/local.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/local/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,7 +51,7 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 
 {% tabs %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/local/local.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/local/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -138,10 +138,10 @@ This feature allows to read the data source and perform add or edit or delete th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/insertdata/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Insertdata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -149,7 +149,7 @@ This feature allows to read the data source and perform add or edit or delete th
 
 {% tabs %}
 {% highlight c# tabtitle="Insertdata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/insertdata/insertdata.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -173,10 +173,10 @@ diagram.insertData();
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/updatedata/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Updatedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,7 +184,7 @@ diagram.insertData();
 
 {% tabs %}
 {% highlight c# tabtitle="Updatedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/updatedata/updatedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -209,10 +209,10 @@ diagram.updateData();
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/deletedata/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Deletedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -220,7 +220,7 @@ diagram.updateData();
 
 {% tabs %}
 {% highlight c# tabtitle="Deletedata.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/data-binding/deletedata/deletedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -181,14 +181,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs3" %}
 
 > If a column should no longer remain frozen, the `freeze` property can be set to `None` in the column definition. This action removes the frozen state and the column will behave like a normal scrollable column, moving along with the rest of the Grid content.
 
@@ -318,14 +318,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs2" %}
 
 > By default, when using `frozenColumns` or `isFrozen` properties, columns freeze on the left side.
 
@@ -415,14 +415,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs1" %}
 
 > * The frozen column count should not exceed the total number of visible columns in the Grid.
 > * Frozen columns should be within the Grid viewport for proper functionality.
@@ -467,20 +467,20 @@ Specify both left and right borders:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs4" %}
 
 ## Render custom editors in frozen columns
 
@@ -499,23 +499,23 @@ The following example demonstrates rendering a DatePicker component in the froze
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs5/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs5/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs5/app/datasource.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozen-column-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozen-column-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozen-column-cs5" %}
 
 ## Deprecated methods
 

@@ -14,14 +14,14 @@ The File Manager allows you to select multiple files by enabling the [allowMulti
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/multiselect-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/multiselect-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/multiselect-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/multiselect-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/multiselect-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/multiselect-cs1" %}
 
 >Note: The File Manager has support to select files and folders initially or dynamically by specifying their names in [selectedItems](https://ej2.syncfusion.com/vue/documentation/api/file-manager#selecteditems) property.
 
@@ -35,14 +35,14 @@ To enable range selection, you need to set the [enableRangeSelection](https://ej
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/rangeselection-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/rangeselection-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/rangeselection-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/rangeselection-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/rangeselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/rangeselection-cs1" %}
 
 ## Disable multi selection
 
@@ -50,12 +50,12 @@ Setting the [`allowMultiSelection`](https://ej2.syncfusion.com/vue/documentation
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/disablemultiselection/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/disablemultiselection/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/disablemultiselection/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/disablemultiselection/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/disablemultiselection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/disablemultiselection" %}
 

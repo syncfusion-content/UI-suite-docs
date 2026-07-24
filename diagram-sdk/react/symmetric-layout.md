@@ -34,7 +34,7 @@ The following code demonstrates how to arrange nodes using symmetric layout:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1" %}
  
 
 N> If you want to use symmetric layout in diagram, you need to inject SymmetricLayout in the diagram.

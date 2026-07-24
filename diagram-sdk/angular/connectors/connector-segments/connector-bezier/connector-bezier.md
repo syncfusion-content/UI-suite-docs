@@ -24,7 +24,7 @@ To create a Bezier connector, set the `type` property of the connector to `bezie
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezier-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezier-cs1" %}
 
 ### Bezier Segment Editing
 
@@ -54,7 +54,7 @@ The following example demonstrates how to configure a Bezier segment using the `
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierpoints-cs1" %}
 
 ![A Bezier connector with control points defined by the point1 and point2 properties.](../../../images/Bezier-point1.gif "Bezier connector with control points defined by point1 and point2 properties.")
 
@@ -72,7 +72,7 @@ The following example shows how to configure a Bezier curve using the `vector1` 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbeziervector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbeziervector-cs1" %}
 
 ![A Bezier connector with control points defined by the vector1 and vector2 properties.](../../../images/Bezier-vector1.gif "A Bezier connector with control points defined by vector1 and vector2 properties.")
 
@@ -90,7 +90,7 @@ By default, if no segments are explicitly defined for a Bezier connector, the Di
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorBezierAvoidOverlapping-cs1" %}
 
 ### Segment Reset Behavior
 
@@ -118,7 +118,7 @@ When `allowSegmentReset` is `false`, the custom positions of the control points 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorallowreset-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorallowreset-cs1" %}
 
 ### Customizing Bezier Segment Thumb Size
 
@@ -138,4 +138,4 @@ To customize the thumb size for a specific connector, you must first disable the
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbezierthumbsize-cs1" %}

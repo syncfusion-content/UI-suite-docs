@@ -33,7 +33,7 @@ Diagram provides some default context menu items to ease the execution of some f
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
 
 
 
@@ -63,7 +63,7 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
 
 
 
@@ -82,7 +82,7 @@ In certain situations, you may want to hide specific menu items based on the sel
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
 
 
 
@@ -157,7 +157,7 @@ In the following example, menu items are rendered with shortcut key codes for sp
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
 
 
 
@@ -183,7 +183,7 @@ The following example shows how to get these events.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
 
 
 

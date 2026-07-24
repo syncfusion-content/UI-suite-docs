@@ -29,10 +29,10 @@ To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,7 +40,7 @@ To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/run/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/run/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,7 +66,7 @@ To create a node, define the [`node`](https://help.syncfusion.com/cr/aspnetcore-
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -88,10 +88,10 @@ diagram.add(node);
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/nodescollection/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/nodescollection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Nodescollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/nodescollection/nodescollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/nodescollection/nodescollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,7 +99,7 @@ diagram.add(node);
 
 {% tabs %}
 {% highlight c# tabtitle="Nodescollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/nodescollection/nodescollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/nodescollection/nodescollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -142,10 +142,10 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/position/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/position/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/position/position.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,7 +153,7 @@ Nodes can be interactively drawn by clicking and dragging the diagram surface by
 
 {% tabs %}
 {% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/position/position.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -174,10 +174,10 @@ The flip types are as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/flip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/flip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/flip/flip.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/flip/flip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -185,7 +185,7 @@ The flip types are as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/flip/flip.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/flip/flip.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -204,10 +204,10 @@ N> The flip is also applicable for group and BPMN shapes.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/appear/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/appear/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -215,7 +215,7 @@ N> The flip is also applicable for group and BPMN shapes.
 
 {% tabs %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -260,10 +260,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/linearGrad/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/linearGrad/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="LinearGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/linearGrad/linearGrad.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/linearGrad/linearGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -271,7 +271,7 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="LinearGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/linearGrad/linearGrad.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/linearGrad/linearGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -286,10 +286,10 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/radialGrad/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/radialGrad/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="RadialGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/radialGrad/radialGrad.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/radialGrad/radialGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -297,7 +297,7 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="RadialGrad.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/radialGrad/radialGrad.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/radialGrad/radialGrad.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -310,10 +310,10 @@ Diagram provides support to add [`shadow`](https://help.syncfusion.com/cr/aspnet
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shadow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow/shadow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow/shadow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -321,7 +321,7 @@ Diagram provides support to add [`shadow`](https://help.syncfusion.com/cr/aspnet
 
 {% tabs %}
 {% highlight c# tabtitle="Shadow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow/shadow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow/shadow.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -334,10 +334,10 @@ The angle, distance, and opacity of the shadow can be customized with the shadow
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow2/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow2/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shadow2.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow2/shadow2.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow2/shadow2.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -345,7 +345,7 @@ The angle, distance, and opacity of the shadow can be customized with the shadow
 
 {% tabs %}
 {% highlight c# tabtitle="Shadow2.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/shadow2/shadow2.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/shadow2/shadow2.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -364,10 +364,10 @@ N> Icon can be created only when the node has outEdges.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/icon/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/icon/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Icon.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/icon/icon.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/icon/icon.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -375,7 +375,7 @@ N> Icon can be created only when the node has outEdges.
 
 {% tabs %}
 {% highlight c# tabtitle="Icon.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/icon/icon.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/icon/icon.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -424,10 +424,10 @@ Node has the InEdges and OutEdges read-only property. In this property, you can 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/dataflow/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/dataflow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dataflow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/dataflow/dataflow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/dataflow/dataflow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -435,7 +435,7 @@ Node has the InEdges and OutEdges read-only property. In this property, you can 
 
 {% tabs %}
 {% highlight c# tabtitle="Dataflow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/dataflow/dataflow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/dataflow/dataflow.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

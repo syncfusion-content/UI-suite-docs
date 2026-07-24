@@ -38,7 +38,7 @@ Creating a radial tree layout with a data source provides automatic node generat
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/radiallayout-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/radiallayout-cs1" %}
 
 > **Note:** When converting a data source into a radial layout, inject both DataBinding and RadialTree modules in the diagram component.
 
@@ -56,7 +56,7 @@ For scenarios requiring manual control over node creation and positioning, the r
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/radiallayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/radiallayout-cs2" %}
 
 > **Note:** To use radial tree layout functionality, inject the RadialTree module in the diagram component.
 

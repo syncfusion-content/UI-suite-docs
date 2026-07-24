@@ -18,10 +18,10 @@ In the following example, an image and text have been rendered as a template to 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/how-to/empty-record-template-treegrid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/how-to/empty-record-template-treegrid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="empty-record-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/how-to/empty-record-template-treegrid/empty-record-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/how-to/empty-record-template-treegrid/empty-record-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 

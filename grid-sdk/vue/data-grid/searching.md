@@ -18,14 +18,14 @@ To further enhance the search functionality, you can integrate a search text box
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs3" %}
 
 > The clear icon is shown in the Data Grid search text box when it is focused on search text or after typing the single character in the search text box. A single click of the clear icon clears the text in the search box as well as the search results in the Grid.
 
@@ -53,14 +53,14 @@ The following example demonstrates how to set an initial search in the grid usin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs4" %}
 
 > By default, grid searches all the bound column values. However, you can customize this behavior by definining the [searchSettings.fields](https://ej2.syncfusion.com/vue/documentation/api/grid/searchSettings/#fields) property.
 
@@ -86,14 +86,14 @@ The following example demonstrates how to set the `searchSettings.operator` prop
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-operator/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-operator/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-operator/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-operator/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-operator" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-operator" %}
 
 ## Search by external button
 
@@ -108,14 +108,14 @@ The `search` method allows you to perform a search operation based on a search k
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs5" %}
 
 ## Search specific columns
 
@@ -125,14 +125,14 @@ The following example demonstrates how to search specific columns such as **Cust
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs6" %}
 
 ## Search on each key stroke
 
@@ -144,14 +144,14 @@ In the following example, the `created` event is bound to the grid component, an
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs8" %}
 
 ## Perform search based on column formatting
 
@@ -161,14 +161,14 @@ The following example demonstrates how to implement searching based on column fo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-on-format/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-on-format/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-on-format/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-on-format/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-on-format" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-on-format" %}
 
 ## Perform search operation in Grid using multiple keywords
 
@@ -180,14 +180,14 @@ On the other hand, the [actionComplete](https://ej2.syncfusion.com/vue/documenta
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs9" %}
 
 > By using this approach, you can perform a search operation in the grid using multiple keywords.
 
@@ -199,14 +199,14 @@ The following example demonstrates how to define the `ignoreAccent` property wit
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/ignore-accent-search/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/ignore-accent-search/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/ignore-accent-search/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/ignore-accent-search/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/ignore-accent-search" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/ignore-accent-search" %}
 
 > * You can set [searchSettings.ignoreAccent](https://ej2.syncfusion.com/vue/documentation/api/grid/searchSettings/#ignoreaccent) property along with other search settings such as [fields](https://ej2.syncfusion.com/vue/documentation/api/grid/searchSettings/#fields), [operator](https://ej2.syncfusion.com/vue/documentation/api/grid/searchSettings/#operator), and [ignoreCase](https://ej2.syncfusion.com/vue/documentation/api/grid/searchSettings/#ignoreaccent) to achieve the desired search behavior.
 > * This feature works only for the characters that are not in the ASCII range.
@@ -222,14 +222,14 @@ The following example demonstrates how to highlight search text in grid using th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-highlight/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-highlight/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/search-highlight/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/search-highlight/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-highlight" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/search-highlight" %}
 
 ## Clear search by external button
 
@@ -241,14 +241,14 @@ The following example demonstrates how to clear the searched records using an ex
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/search/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/search/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/search/default-cs7" %}
 
 > You can also clear the searched records by using the clear icon within the search input field.
 

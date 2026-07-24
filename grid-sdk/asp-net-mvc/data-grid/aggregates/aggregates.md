@@ -24,10 +24,10 @@ By default, the aggregate values are displayed in the footer, group, and caption
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates/aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates/aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ Here is an example that demonstrates how to use built-in aggregates types in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates-types/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates-types/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates-types/aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates-types/aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ Here's an example of how to use multiple aggregates in the Syncfusion<sup style=
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates-multiple/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates-multiple/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/aggregates-multiple/aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/aggregates-multiple/aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 

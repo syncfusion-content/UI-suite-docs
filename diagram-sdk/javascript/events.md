@@ -67,7 +67,7 @@ The following example shows the order of these event triggers and how to handle 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -80,7 +80,7 @@ The following example shows the order of these event triggers and how to handle 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
 {% endif %}
 
 ## Mouse wheel event
@@ -99,7 +99,7 @@ The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -112,7 +112,7 @@ The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
 {% endif %}
 
 ## Other events

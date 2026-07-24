@@ -20,20 +20,20 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/display-html-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/display-html-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/display-html-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/display-html-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/display-html-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/display-html-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/display-html-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/display-html-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/display-html-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/display-html-cs1" %}
 
 > * The [disableHtmlEncode](https://ej2.syncfusion.com/react/documentation/api/grid/column#disablehtmlencode) property disables HTML encoding for the corresponding column in the grid. 
 > * If the property is set to `true`, any HTML tags in the column's data will be displayed. 
@@ -73,20 +73,20 @@ The following example demonstrates setting the [allowTextWrap](https://ej2.syncf
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs1" %}
 
 ## Customize cell styles
 
@@ -104,20 +104,20 @@ The following example demonstrates adding the [queryCellInfo](https://ej2.syncfu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs1" %}
 
 > * The [queryCellInfo](https://ej2.syncfusion.com/react/documentation/api/grid#querycellinfo) event is triggered for every cell of the grid, so it may impact grid performance when used to modify a large number of cells.
 
@@ -136,20 +136,20 @@ The following example demonstrates customizing the appearance of a specific row 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs1" %}
 
 ### Using property
 
@@ -215,14 +215,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs2" %}
 
 > Custom attributes can be used to customize any cell in the grid, including header and footer cells.
 
@@ -238,20 +238,20 @@ The following example demonstrates the use of the [getColumnHeaderByIndex](https
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customize-cell-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customize-cell-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customize-cell-cs3" %}
 
 > Make sure to pass the correct row and column indices to [getCellFromIndex](https://ej2.syncfusion.com/react/documentation/api/grid#getcellfromindex) method, or else the appearance of the wrong cell might get customized.
 
@@ -270,20 +270,20 @@ The following example demonstrates, setting the [clipMode](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs3" %}
 
 > * By default, [clipMode](https://ej2.syncfusion.com/react/documentation/api/grid/column#clipmode) value is `Ellipsis`.
 > * When the [width](https://ej2.syncfusion.com/react/documentation/api/grid/column#width) property is set for a column, the clip mode feature is automatically applied to that column if content exceeds the specified width.
@@ -382,20 +382,20 @@ The following example demonstrates customizing the tooltip content for grid cell
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-tooltip-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-tooltip-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-tooltip-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-tooltip-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/custom-tooltip-cs1" %}
 
 ## Grid lines
 
@@ -413,20 +413,20 @@ The following example demonstrates setting the [gridLines](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs2" %}
 
 > By default, the grid renders with `Default` mode.
 

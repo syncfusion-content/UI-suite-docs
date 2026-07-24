@@ -18,12 +18,12 @@ The following example demonstrates exporting a Angular Data Grid to Excel and PD
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/exporting-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs4" %}

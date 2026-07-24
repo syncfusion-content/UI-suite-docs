@@ -59,7 +59,7 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioImport-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioImport-cs1" %}
 
 ### Import options
 
@@ -131,7 +131,7 @@ The following example exports an Angular Diagram to a Microsoft Visio (**.vsdx**
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioExport-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/visioimportexport/visioExport-cs1" %}
 
 ### Export options
 

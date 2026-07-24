@@ -19,10 +19,10 @@ To enable Batch edit, set the [`EditSettings.mode`](https://help.syncfusion.com/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/batch-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/batch-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batchedit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/batch-edit/batchedit.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/batch-edit/batchedit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ To enable Batch edit, set the [`EditSettings.mode`](https://help.syncfusion.com/
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/batch-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/batch-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batchedit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/batch-edit/batchedit.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/batch-edit/batchedit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

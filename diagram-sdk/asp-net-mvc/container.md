@@ -22,10 +22,10 @@ The following code illustrates how to create a container node.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/basiccontainer/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/Container.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/basiccontainer/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ The following code illustrates how to create a container node.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/basiccontainer/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/basiccontainer/Container.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/basiccontainer/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -53,10 +53,10 @@ The following code example explains how to define a container header and its cus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/containerheader/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/Container.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/containerheader/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ The following code example explains how to define a container header and its cus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/containerheader/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/container/containerheader/Container.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/container/containerheader/Container.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

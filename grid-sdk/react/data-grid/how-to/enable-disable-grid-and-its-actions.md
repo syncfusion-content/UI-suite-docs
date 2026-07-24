@@ -23,20 +23,20 @@ To toggle the grid's interactivity, apply or remove a custom CSS class condition
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-disable-actions-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-disable-actions-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-disable-actions-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/enable-disable-actions-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/enable-disable-actions-cs1" %}
 
 > - To enable or disable specific grid actions, such as editing, sorting, or filtering, please refer to this [section](../columns/columns#controlling-grid-actions) in the documentation.
 > - CSS disable blocks UI interaction but not programmatic access (e.g., `grid.updateRow()` still works).

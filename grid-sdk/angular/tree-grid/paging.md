@@ -38,17 +38,17 @@ The following example demonstrates how to change the page size using an external
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs1" %}
 
 ## Change the page count
 
@@ -58,17 +58,17 @@ The following example shows how to change page count using an external button an
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs2" %}
 
 ## Change the current page
 
@@ -78,17 +78,17 @@ This example demonstrates dynamic current page control using an external button 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs3" %}
 
 ## Add current page in URL as a query string
 
@@ -98,17 +98,17 @@ For example, toggling the [EJ2 Switch Button](https://ej2.syncfusion.com/angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs4" %}
 
 > With `enableQueryString` enabled, sharing the TreeGrid's URL loads the previously used page when reopened.
 
@@ -123,17 +123,17 @@ The following example demonstrates the use of the `pageSizeMode` property:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs11/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs11" %}
 
 ## Pager template
 
@@ -201,14 +201,14 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pager-template-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pager-template-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/pager-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/pager-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pager-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/pager-template-cs1" %}
 
 ## Pager with page size dropdown
 
@@ -218,17 +218,17 @@ To customize the dropdown options, provide an array of strings via the `pageSize
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs5" %}
 
 ### Customize page size dropdown
 
@@ -236,17 +236,17 @@ Use an array of string values with [pageSizes](https://ej2.syncfusion.com/angula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs6" %}
 
 ## Navigate to a particular page
 
@@ -254,17 +254,17 @@ Navigate to any page programmatically by using the [goToPage](https://ej2.syncfu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs7" %}
 
 ## Get the pager element
 
@@ -286,17 +286,17 @@ The following example demonstrates how to calculate the page size based on eleme
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs8/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs8" %}
 
 ## Render pager at the top
 
@@ -304,17 +304,17 @@ The TreeGrid renders its pager at the bottom by default. To render it at the top
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs9/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs9" %}
 
 > Paging actions raise these [Pager](https://ej2.syncfusion.com/angular/documentation/api/pager/) events:
 > * [created](https://ej2.syncfusion.com/angular/documentation/api/pager/pagerModel/#created): When the Pager is initialized.
@@ -392,14 +392,14 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs10/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs10/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/page-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/page-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/page-cs10" %}
 
 ## See Also
 

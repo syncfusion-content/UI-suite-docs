@@ -28,7 +28,7 @@ The following code example illustrates how to create an mindmap layout.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs8" %}
 
 
 The following table outlines the various orientation types available:
@@ -53,6 +53,6 @@ You can also decide the branch for mind map using [`getBranch`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-mindmap" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-mindmap" %}
 
 ![Mind map layout](../images//mindmap.png)

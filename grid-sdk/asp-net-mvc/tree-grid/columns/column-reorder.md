@@ -16,7 +16,7 @@ Reordering can be done by drag and drop of a particular column header from one i
 
 {% tabs %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -24,10 +24,10 @@ Reordering can be done by drag and drop of a particular column header from one i
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorder/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorder/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -44,7 +44,7 @@ Multiple columns can be reordered at a time by using the [`reorderColumns`](http
 
 {% tabs %}
 {% highlight c# tabtitle="ReorderbyColumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/reorderbyColumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/reorderbyColumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ Multiple columns can be reordered at a time by using the [`reorderColumns`](http
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ReorderbyColumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/reorderbyColumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/reorderbyColumn/reorderbyColumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

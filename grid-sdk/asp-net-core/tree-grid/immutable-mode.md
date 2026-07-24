@@ -21,10 +21,10 @@ N>* This feature uses the primary key value for data comparison. So, you need to
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/immutable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/immutable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Immutable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/immutable/immutable.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/immutable/immutable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ N>* This feature uses the primary key value for data comparison. So, you need to
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/immutable/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/immutable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Immutable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/immutable/immutable.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/immutable/immutable.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

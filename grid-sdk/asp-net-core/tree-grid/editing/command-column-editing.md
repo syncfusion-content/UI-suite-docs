@@ -26,10 +26,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/command-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/command-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Commandcolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/command-columns/commandcolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/command-columns/commandcolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/command-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/command-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Commandcolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/command-columns/commandcolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/command-columns/commandcolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-command/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-command/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customcommand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-command/customcommand.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-command/customcommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-command/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-command/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customcommand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/custom-command/customcommand.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/custom-command/customcommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

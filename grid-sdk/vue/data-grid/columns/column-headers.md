@@ -22,14 +22,14 @@ To enable the `headerText` property, you simply need to define it in the **e-col
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-headertext/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-headertext/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext" %}
 
 > * If both the `field` and `headerText` are not defined in the column, the column renders with **empty** header text.
 > * The `headerText` property is optional, and if it is not defined, then the corresponding column's field value is set as header text for that column.  
@@ -207,7 +207,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-template" %}
 
 >* The `headerTemplate` property is only applicable to Grid columns that have a header element.
 >* You can use any HTML or Vue component in the header template to add additional functionality to the header element.
@@ -454,7 +454,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-stacked-template" %} 
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-stacked-template" %} 
 
 ## Align the text of header text
 
@@ -469,14 +469,14 @@ The following example demonstrates how to dynamically change the alignment of th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-headertext-align/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-headertext-align/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-headertext-align/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-headertext-align/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-headertext-align" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-headertext-align" %}
 
 >* The `headerTextAlign` property only changes the alignment of the text in the column header, and not the content of the column. If you want to align both the column header and content, you can use the [textAlign](https://ej2.syncfusion.com/documentation/api/grid/column#textalign) property.
 >* You can also use the `headerTextAlign` property with the stacked header feature in Vue Data Grid. The property will align the header text in the sub-headers as well.
@@ -501,14 +501,14 @@ The following example demonstrates how to dynamically change the auto-wrap of th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-autowarp/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-autowarp/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-autowarp/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-autowarp/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-autowarp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-autowarp" %}
 
 ## Change the height of header
 
@@ -532,14 +532,14 @@ The following example demonstrates how to dynamically change the height of the h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-height/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-height/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-height/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-height/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-height" %}
 
 >* You can also use the [getHeaderTable](https://ej2.syncfusion.com/vue/documentation/api/grid#getheadertable) method to get the table element of the header, and then adjust the height.
 >* You cannot change the height of row below the default height of 42px using the **e-columnheader** class.
@@ -584,14 +584,14 @@ Here is an example of how to change the header text of a column using the `getCo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-text/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-text/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-text/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-text/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-text" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-text" %}
 
 **Changing header text using headerValueAccessor property**
 
@@ -612,14 +612,14 @@ Here's an example of how to use the `headerValueAccessor` property to change the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-change-valueaccessor/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-change-valueaccessor/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-change-valueaccessor/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-change-valueaccessor/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-change-valueaccessor" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-change-valueaccessor" %}
 
 **Changing the header text of all columns**
 
@@ -627,14 +627,14 @@ If you want to change the header text of all columns in the grid, you can loop t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-headertext-all/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext-all/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-headertext-all/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext-all/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext-all" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-headertext-all" %}
         
 ## Change the orientation of header text
 
@@ -683,14 +683,14 @@ The following example demonstrates how to change the orientation of the **Freigh
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-roatation/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-roatation/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-roatation/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-roatation/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-roatation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-roatation" %}
 
 ## Custom tooltip for header
 
@@ -702,14 +702,14 @@ Here's an example of how to use the `beforeRender` event to add a custom tooltip
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-tooltip/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-tooltip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-tooltip/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-tooltip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-tooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-tooltip" %}
 
 > * The [headerCellInfo](https://ej2.syncfusion.com/vue/documentation/api/grid#querycellinfo) event can also be used to customize the header tooltip. This event is triggered for each header cell after it is rendered.
 
@@ -731,14 +731,14 @@ Here's an example that demonstrates how to customize the appearance of a column 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-css/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-css/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-css/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-css/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-css" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-css" %}
 
 ### Using property 
 
@@ -768,14 +768,14 @@ The following example demonstrates how to customize the appearance of the **Orde
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-property/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-property/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-property/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-property/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-property" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-property" %}
 
 ### Using method 
 
@@ -794,14 +794,14 @@ Here's an example of how to use these methods to change the style of a specific 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-method" %}
 
 >* The UID is automatically generated by the Grid component and may change whenever the grid is refreshed or updated.
 
@@ -813,14 +813,14 @@ The following example demonstrates how to add a `headerCellInfo` event handler t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-event/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-event/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-using-event/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-using-event/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-using-event" %}
 
 ## How to refresh header 
 
@@ -832,14 +832,14 @@ The following example demonstrates how to use the `refreshHeader` method to upda
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-refresh/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-refresh/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/column-header-refresh/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/column-header-refresh/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-refresh" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-header-refresh" %}
 
 >* The `refreshHeader` method updates only the grid header and not the entire grid.
 >* If you want to refresh the entire grid, you can use the `refresh` method instead.

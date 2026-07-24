@@ -28,10 +28,10 @@ In the below sample, pivot table is rendered with a customized pivot button icon
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/icon-customize/customize/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/icon-customize/customize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="IconCustomize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/icon-customize/customize/IconCustomize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/icon-customize/customize/IconCustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ In the below sample, pivot table is rendered with a customized pivot button icon
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/icon-customize/customize/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/icon-customize/customize/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="IconCustomize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/asp-net-mvc/pivot-table/icon-customize/customize/IconCustomize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/pivot-table/icon-customize/customize/IconCustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

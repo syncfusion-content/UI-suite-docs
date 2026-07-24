@@ -16,7 +16,7 @@ You can achieve complex data binding in the treegrid by using the dot(.) operato
 
 {% tabs %}
 {% highlight c# tabtitle="Complexbinding.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/complexbinding/complexbinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/complexbinding/complexbinding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -24,10 +24,10 @@ You can achieve complex data binding in the treegrid by using the dot(.) operato
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/complexbinding/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/complexbinding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complexbinding.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/complexbinding/complexbinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/complexbinding/complexbinding.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

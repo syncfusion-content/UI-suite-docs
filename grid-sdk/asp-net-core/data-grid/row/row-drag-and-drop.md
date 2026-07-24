@@ -22,10 +22,10 @@ Here's an example of how to enable drag and drop within the Grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-same-grid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-same-grid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drag-drop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-same-grid/drag-drop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-same-grid/drag-drop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ Here's an example code snippet that demonstrates how to enable Row drag and drop
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-other-grid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-other-grid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drag-drop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-other-grid/drag-drop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-other-grid/drag-drop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In the below example, the selected grid row is dragged and dropped in to the Tre
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-tree-grid/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-tree-grid/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drag-drop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-tree-grid/drag-drop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-tree-grid/drag-drop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ Here's an example of how to hide the drag and drop icon in the Syncfusion<sup st
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-without-icon/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-without-icon/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drag-drop-icon.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-without-icon/drag-drop-without-icon.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-without-icon/drag-drop-without-icon.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -107,10 +107,10 @@ The Grid component provides a set of events that are triggered during drag and d
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-events/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drag-drop-events.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/row/drag-drop-events/event.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/drag-drop-events/event.cs %}
 {% endhighlight %}
 {% endtabs %}
 

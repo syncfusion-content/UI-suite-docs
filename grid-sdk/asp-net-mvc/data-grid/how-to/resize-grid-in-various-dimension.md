@@ -18,10 +18,10 @@ The following example demonstrates how to resize the Grid on external button cli
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/keyboard-dimension/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/keyboard-dimension/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dimension.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/how-to/keyboard-dimension/dimension.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/how-to/keyboard-dimension/dimension.cs %}
 {% endhighlight %}
 {% endtabs %}
 

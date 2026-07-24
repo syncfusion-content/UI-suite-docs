@@ -18,10 +18,10 @@ For instance, here's an example of how to add a custom checkbox to the toolbar u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/how-to/toolbar/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/how-to/toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/how-to/toolbar/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/how-to/toolbar/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ For instance, here's an example of how to add a custom checkbox to the toolbar u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/how-to/toolbar/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/how-to/toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/how-to/toolbar/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/how-to/toolbar/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -24,10 +24,10 @@ In the following example demonstrates how to enable single cell selection using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-single-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-single-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-single-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-single-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ In the following example demonstrates how to enable multiple cell selection usin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-multiple-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-multiple-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-multiple-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-multiple-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In the following example demonstrates how to dynamically enable and change the `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-mode/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-mode/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,10 +91,10 @@ The following example demonstrates how to select a single cell within the Grid b
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-single-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-single-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-single-method/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-single-method/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ In the following example, it demonstrates how to select multiple cells in the Gr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-multiple-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-multiple-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-multiple-method/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-multiple-method/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ The following example demonstrates how to select a range of cells within the Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-range-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-range-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-range-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-range-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -151,10 +151,10 @@ The following example demonstrates how to obtain the selected row cell indexes u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-get-selected/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-get-selected/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-get-selected/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-get-selected/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -170,10 +170,10 @@ The following example demonstrates how to clear cell selection by calling the `c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-clear-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-clear-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-clear-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-clear-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ In the following example, cell selection is canceled when the value of **ShipCou
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/cell-events/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/cell-events/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 

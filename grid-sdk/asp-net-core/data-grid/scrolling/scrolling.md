@@ -26,10 +26,10 @@ In the following example, the scrollbar is enabled, and the grid's `height` is s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/width-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/width-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="width-height.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/width-height/width-height.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/width-height/width-height.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ In the following example, the parent container has explicit height and width set
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/responsive-parent/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/responsive-parent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="responsive-parent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/responsive-parent/responsive-parent.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/responsive-parent/responsive-parent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ In the below demo, the Grid headers will be sticky while scrolling the Grid's pa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/sticky-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/sticky-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="sticky-header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/sticky-header/sticky-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/sticky-header/sticky-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ The following example that demonstrates how to use the `rowSelected` event to sc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/scroll-selected-row/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/scroll-selected-row/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="scroll-selected-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/scroll-selected-row/scroll-selected-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/scroll-selected-row/scroll-selected-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ The following example that demonstrates how to use the `hideScroll` method insid
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/hide-scroll/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/hide-scroll/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hide-scroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/hide-scroll/hide-scroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/hide-scroll/hide-scroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -120,10 +120,10 @@ The following example demonstrates how to use the `created` event to insert a sc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/render-scrollbar/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/render-scrollbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Render-scroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/scrolling/render-scrollbar/render-scrollbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/scrolling/render-scrollbar/render-scrollbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -18,14 +18,14 @@ Here is an example that demonstrates the usage of the filter menu in the Vue Dat
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs1" %}
 
 > * [allowFiltering](https://ej2.syncfusion.com/vue/documentation/api/grid/#allowfiltering) must be set as true to enable filter menu.
 > * By setting [columns.allowFiltering](https://ej2.syncfusion.com/vue/documentation/api/grid/column/#allowfiltering) as false will prevent filter menu rendering for a particular column.
@@ -46,14 +46,14 @@ Here is a sample code demonstrating how to render a dropdownlist component for t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs2" %}
 
 **Default filter input for CustomerID column**
 ![Default filter input for CustomerID column](../images/filter-menu-auto-complete.gif)
@@ -68,14 +68,14 @@ Here is an example that demonstrates how to show 24 hours time format in filter 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs3" %}
 
 ## Customizing filter menu operators list
 
@@ -92,14 +92,14 @@ Here is an example of how to customize the filter operators list in Vue Data Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs4" %}
 
 ## Filter by multiple keywords using filter menu
 
@@ -109,14 +109,14 @@ Here is an example that demonstrates how to perform filtering by multiple keywor
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs5" %}
 
 ## Customize the default input component of filter menu dialog
 
@@ -136,14 +136,14 @@ In the example provided below, the **OrderID** and **Freight** columns are numer
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs6" %}
 
 ### Prevent autofill option in autocomplete of menu filter
 
@@ -153,14 +153,14 @@ You can prevent autofill feature by setting the [autofill](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/filter-menu-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs7" %}
 
 ## Hide default filter icons while perform filtering through method
 
@@ -178,14 +178,14 @@ The following example demonstrate how to hide the default filter icons while fil
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/default-default-filter/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/default-default-filter/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/default-default-filter/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/default-default-filter/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/default-default-filter" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/default-default-filter" %}
 
 ## Filter menu events
 
@@ -372,7 +372,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-menu-cs8" %}
 
 ## Troubleshoot filter menu operator issue
 

@@ -26,13 +26,13 @@ To specify the scroller [width](https://ej2.syncfusion.com/react/documentation/a
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-cs1" %}
 
 ## Responsive with parent container
 
@@ -40,13 +40,13 @@ Specify [width](https://ej2.syncfusion.com/react/documentation/api/treegrid/#wid
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/responsive-scrolling-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/responsive-scrolling-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/responsive-scrolling-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/responsive-scrolling-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/responsive-scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/responsive-scrolling-cs1" %}
 
 ## Sticky header
 
@@ -60,13 +60,13 @@ The following sample demonstrates enabling or disabling the sticky header in the
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-sticky-header/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-sticky-header/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-sticky-header/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-sticky-header/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-sticky-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-sticky-header" %}
 
 ## Scroll to selected row
 
@@ -74,10 +74,10 @@ Scroll the TreeGrid content to the selected row position by using the [rowSelect
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/scrolling-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/scrolling-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/scrolling-cs2" %}

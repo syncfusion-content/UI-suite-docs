@@ -27,7 +27,7 @@ The following code illustrates how to change the appearance of port.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs5" %}
 
 ### Change Appearance of Port at Runtime
 
@@ -42,7 +42,7 @@ The appearance of port can be changed at runtime by customizing the style proper
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs6" %}
 
 ## Port Visibility
 
@@ -84,7 +84,7 @@ If you need to render a custom shape, then you can set shape as **Custom** and d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-shapes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-shapes" %}
 
 
 ## Constraints

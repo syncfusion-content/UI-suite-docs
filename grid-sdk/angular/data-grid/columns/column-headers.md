@@ -20,15 +20,15 @@ To enable the `headerText` property, define it in the `e-column` element. The fo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs20/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs20" %}
 
 > * The `headerText` property is optional. If not defined, the corresponding column's field value is set as header text for that column.  
 > * The [headerTemplate](https://ej2.syncfusion.com/angular/documentation/api/grid/column#headertemplate) property can be used to apply custom HTML content to the header cell.
@@ -100,11 +100,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-template-cs1" %}
 
 > * The `headerTemplate` property applies only to Grid columns that have a header element.
 > * Any HTML or Angular component can be used in the header template to add functionality to the header element.
@@ -214,11 +214,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/stacked-header-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/stacked-header-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/stacked-header-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/stacked-header-cs2" %}
 
 ## Header text alignment
 
@@ -233,15 +233,15 @@ The following example demonstrates dynamically changing the alignment of the hea
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs26/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs26/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs26/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs26/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs26" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs26" %}
 
 > * The `headerTextAlign` property only changes the alignment of the text in the column header, not the content of the column. To align both the column header and content, use the [textAlign](https://ej2.syncfusion.com/documentation/api/grid/column#textalign) property.
 > * The `headerTextAlign` property also works with the stacked header feature in Syncfusion<sup style="font-size:70%">&reg;</sup> Grid, aligning the header text in sub-headers as well.
@@ -266,15 +266,15 @@ In the following example, the `textWrapSettings.wrapMode` property is set to `He
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs3" %}
 
 ## Change the height of header
 
@@ -296,15 +296,15 @@ To dynamically adjust the header height, use the [getHeaderContent](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs28/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs28/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs28" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs28" %}
 
 > * The [getHeaderTable](https://ej2.syncfusion.com/angular/documentation/api/grid#getheadertable) method can also be used to access the header table element for adjustment.
 > * The header row height cannot be reduced below the default height of "42px" using the `e-columnheader` class.
@@ -343,15 +343,15 @@ Here is an example of changing the header text of a column using the `getColumnB
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs1" %}
 
 **Conditional header text customization**
 
@@ -369,15 +369,15 @@ Here's an example of using the `headerValueAccessor` property to change the head
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-valueaccessor-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-valueaccessor-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-valueaccessor-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-valueaccessor-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-valueaccessor-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-valueaccessor-cs1" %}
 
 **Changing the header text of all columns**
 
@@ -385,15 +385,15 @@ To change header text for all columns, loop through the columns collection and s
 
  {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/change-headertext-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/change-headertext-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/change-headertext-cs5" %}
 
 ## Change the orientation of header text
 
@@ -440,15 +440,15 @@ The following example demonstrates changing the orientation of the "Freight" col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-orientation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-orientation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-orientation-cs1" %}
 
 ## Translate header text using ngx-translate 
 
@@ -825,15 +825,15 @@ Here's an example of using the `beforeRender` event to add a custom tooltip to a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grid-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grid-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs27" %}
 
 > The [headerCellInfo](https://ej2.syncfusion.com/angular/documentation/api/grid#querycellinfo) event can also be used to customize the header tooltip. This event is triggered for each header cell after it is rendered.
 
@@ -855,15 +855,15 @@ Here's an example that demonstrates customizing the appearance of a column heade
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs1" %}
 
 ### Using property 
 
@@ -893,15 +893,15 @@ The following example demonstrates customizing the appearance of the "OrderID" a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs2" %}
 
 ### Using method 
 
@@ -919,15 +919,15 @@ Here's an example of using these methods to change the style of a specific colum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-method-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-method-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-method-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-method-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-method-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-method-cs2" %}
 
 > The UID is automatically generated by the Grid component and may change whenever the grid is refreshed or updated.
 
@@ -939,15 +939,15 @@ The following example demonstrates adding a `headerCellInfo` event handler to th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/header-style-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/header-style-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/header-style-cs3" %}
 
 ## Refresh header 
 
@@ -957,15 +957,15 @@ The following example demonstrates using the `refreshHeader` method to update th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/refresh-header-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/refresh-header-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/refresh-header-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/refresh-header-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/refresh-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/refresh-header-cs1" %}
 
 > * The `refreshHeader` method updates only the grid header and not the entire grid.
 > * To refresh the entire grid, use the `refresh` method instead.

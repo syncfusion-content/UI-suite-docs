@@ -31,7 +31,7 @@ The following code demonstrates comprehensive label appearance customization:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Appear-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Appear-cs1" %}
 
 ## Horizontal and vertical alignment
 
@@ -60,7 +60,7 @@ The following code example shows how to configure label alignment:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1" %}
 
 ## Annotation Margin
 
@@ -77,7 +77,7 @@ The following example demonstrates label positioning using [`margin`](https://he
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Margin-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Margin-cs1" %}
 
 ## Hyperlink
 
@@ -98,7 +98,7 @@ The following example shows hyperlink implementation and customization:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Link-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Link-cs1" %}
 
 ## Rotate Annotation
 
@@ -114,7 +114,7 @@ The following example demonstrates label rotation:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5RotateAngle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5RotateAngle-cs1" %}
 
 ## Template support for annotation
 
@@ -135,7 +135,7 @@ The following code illustrates how to define a template in annotation.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5labeltemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5labeltemplate-cs1" %}
 
 N> Specify width and height for labels when using templates to ensure proper alignment and rendering.
 
@@ -154,7 +154,7 @@ The following code demonstrates HTML template usage for labels:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotationtemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotationtemplate-cs1" %}
 
 ### Functional template
 
@@ -171,7 +171,7 @@ The following code illustrates how to define a functional template.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5AnnotationFunctionaltemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5AnnotationFunctionaltemplate-cs1" %}
 
 ## Text align
 
@@ -188,7 +188,7 @@ The following code demonstrates text alignment configuration:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5TextAlign-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5TextAlign-cs1" %}
 
 The following table shows the different text alignment.
 
@@ -214,7 +214,7 @@ The following code shows text wrapping implementation:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Wrap-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Wrap-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -249,5 +249,5 @@ Types of text overflow are shown in below table.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Overflow-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Overflow-cs1" %}
  

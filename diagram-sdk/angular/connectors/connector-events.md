@@ -28,7 +28,7 @@ The following code example demonstrates how to handle the [`click`](https://ej2.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorclickevent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorclickevent-cs1" %}
 
 ## Selection Change Event
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to handle the [`selection change`](h
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSelectEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSelectEvent-cs1" %}
 
 You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iSelectionChangeEventArgs) to true, as shown in the code snippet below:
 
@@ -76,7 +76,7 @@ The following code example demonstrates how to handle the [`position change`](ht
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorpositionEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorpositionEvent-cs1" %}
 
 You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below:
 
@@ -105,7 +105,7 @@ The following code example demonstrates how to handle the [`connection change`](
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorconnectionEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorconnectionEvent-cs1" %}
 
 ## Source Point Change Event
 
@@ -123,7 +123,7 @@ The following code example demonstrates how to handle the [`source Point change`
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSourcepointEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSourcepointEvent-cs1" %}
 
 You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below:
 
@@ -152,7 +152,7 @@ The following code example demonstrates how to handle the [`target Point change`
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorTargetpointEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorTargetpointEvent-cs1" %}
 
 You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below:
 
@@ -184,7 +184,7 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSegCollectionEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSegCollectionEvent-cs1" %}
 
 ## Segment Change Event
 
@@ -202,7 +202,7 @@ The following code example demonstrates how to handle the [`segment change`](htt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSegmentEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSegmentEvent-cs1" %}
 
 You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/isegmentchangeeventargs) to true, as shown in the code snippet below:
 
@@ -233,7 +233,7 @@ The following code example demonstrates how to handle the [`collection change`](
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorcollectionEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorcollectionEvent-cs1" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below:
 

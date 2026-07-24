@@ -32,7 +32,7 @@ The following code example illustrates how to define a swimlane object.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -45,7 +45,7 @@ The following code example illustrates how to define a swimlane object.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs1" %}
 {% endif %}
 
 N> When setting a Swimlane's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
@@ -69,7 +69,7 @@ The following code example illustrates how to define a swimlane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -82,7 +82,7 @@ The following code example illustrates how to define a swimlane header.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs2" %}
 {% endif %}
 
 ### Customization of headers
@@ -104,7 +104,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -117,7 +117,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs3" %}
 {% endif %}
 
 #### Dynamic customization of swimlane header
@@ -135,7 +135,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -148,7 +148,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs4" %}
 {% endif %}
 
 ### Header editing
@@ -170,7 +170,7 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-orientation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-orientation" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -183,7 +183,7 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-orientation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-orientation" %}
 {% endif %}
 
 ## Limitations

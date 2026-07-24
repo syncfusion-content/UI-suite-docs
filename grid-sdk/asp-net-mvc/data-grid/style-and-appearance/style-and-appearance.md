@@ -58,10 +58,10 @@ In the following sample, the font family of grid content is changed to **cursive
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/style-and-appearance/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/style-and-appearance/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style-and-appearance.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/style-and-appearance/style-and-appearance.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/style-and-appearance/style-and-appearance.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ In the following sample, the font family of grid content is changed to **cursive
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/style-and-appearance/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/style-and-appearance/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style-and-appearance.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/style-and-appearance/style-and-appearance.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/style-and-appearance/style-and-appearance.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

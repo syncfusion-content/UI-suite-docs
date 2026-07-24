@@ -23,10 +23,10 @@ Here's an example that demonstrates how to use group footer aggregates in the AS
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-footer-aggregates/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-footer-aggregates/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-footer-aggregates/group-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-footer-aggregates/group-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ Here's an example that demonstrates how to use group and caption aggregates in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-caption-aggregates/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-caption-aggregates/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-caption.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-caption-aggregates/group-caption.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-caption-aggregates/group-caption.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -61,10 +61,10 @@ In some cases, you may want to disable the page-wise aggregates for grouping in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-disable-page/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-disable-page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="group-caption.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/aggregate/group-disable-page/group-caption.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/group-disable-page/group-caption.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -39,4 +39,4 @@ The following code demonstrates how to configure bezier connectors with interact
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbeziersegmentedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbeziersegmentedit-cs1" %}

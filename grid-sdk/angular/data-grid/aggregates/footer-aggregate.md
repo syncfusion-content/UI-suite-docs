@@ -15,7 +15,7 @@ The [Angular Data Grid](https://www.syncfusion.com/angular-components/angular-da
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-footer-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-footer-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
 {% raw %}
@@ -47,11 +47,11 @@ The [Angular Data Grid](https://www.syncfusion.com/angular-components/angular-da
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-footer-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-footer-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs1" %}
 
 
 > Inside the template, access each aggregate value using its [type](https://ej2.syncfusion.com/angular/documentation/api/grid/aggregateColumn#type) name. For example, use `data.sum` to access the sum aggregate and data.max to access the maximum aggregate.
@@ -62,7 +62,7 @@ Aggregate values displayed in footer cells can be formatted using the [format](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-footer-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-footer-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
 {% raw %}
@@ -94,11 +94,11 @@ Aggregate values displayed in footer cells can be formatted using the [format](h
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-footer-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-footer-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs2" %}
 
 ## Display aggregates in the header
 
@@ -162,11 +162,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/aggregates-footer-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/aggregates-footer-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-footer-cs3" %}
 
 ## See also
 - [Aggregates overview](./aggregates)

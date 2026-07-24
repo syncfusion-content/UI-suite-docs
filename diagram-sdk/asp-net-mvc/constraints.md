@@ -29,10 +29,10 @@ Diagram constraints allows to enable or disable the following behaviors:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,7 +40,7 @@ Diagram constraints allows to enable or disable the following behaviors:
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -66,10 +66,10 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,7 +77,7 @@ Node constraints allows to enable or disable the following behaviors of node. Th
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -101,10 +101,10 @@ Connector constraints allows to enable or disable certain behaviors of connector
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/connector/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Connector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/connector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/connector/connector.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -112,7 +112,7 @@ Connector constraints allows to enable or disable certain behaviors of connector
 
 {% tabs %}
 {% highlight c# tabtitle="Connector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/connector/connector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/connector/connector.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -132,10 +132,10 @@ You can enable or disable certain behaviors of port. They are as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/port/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -143,7 +143,7 @@ You can enable or disable certain behaviors of port. They are as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -160,10 +160,10 @@ You can enable or disable read-only mode for the annotations by using the annota
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/annotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -171,7 +171,7 @@ You can enable or disable read-only mode for the annotations by using the annota
 
 {% tabs %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/annotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -192,10 +192,10 @@ Selector visually represents the selected elements with certain editable thumbs.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/selector/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/selector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/selector/selector.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,7 +203,7 @@ Selector visually represents the selected elements with certain editable thumbs.
 
 {% tabs %}
 {% highlight c# tabtitle="Selector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/selector/selector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/selector/selector.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -225,10 +225,10 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/snap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/snap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -236,7 +236,7 @@ Snap constraints control the visibility of gridlines and enable or disable snapp
 
 {% tabs %}
 {% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/snap/snap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -257,10 +257,10 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/page.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -268,7 +268,7 @@ Boundary constraints defines a boundary for the diagram inside which the interac
 
 {% tabs %}
 {% highlight c# tabtitle="Page.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/page/page.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -285,10 +285,10 @@ Some of the behaviors can be defined through both the specific object (node/conn
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/bridging/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/bridging.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -296,7 +296,7 @@ Some of the behaviors can be defined through both the specific object (node/conn
 
 {% tabs %}
 {% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/constraints/bridging/bridging.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/constraints/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

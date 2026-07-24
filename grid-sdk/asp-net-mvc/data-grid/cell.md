@@ -22,10 +22,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/display-html-content/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/display-html-content/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/display-html-content/html.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/display-html-content/html.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ The following example demonstrates how to set the `AllowTextWrap` property to **
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/autowrap/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/autowrap/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autowrap.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/autowrap/autowrap.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/autowrap/autowrap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ The following example demonstrates how to add a `QueryCellInfo` event handler to
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs1/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs1/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs1/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,10 +116,10 @@ The following example demonstrates how to customize the appearance of a specific
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs2/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs2/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs2/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs2/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ The following example demonstrates how to customize the appearance of the **Orde
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs3/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs3/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs3/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs3/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -168,10 +168,10 @@ The following example demonstrates how to use getColumnHeaderByIndex and getCell
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs4/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs4/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/customize-cell-cs4/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/customize-cell-cs4/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -193,10 +193,10 @@ The following example demonstrates, how to set the `ClipMode` property to **Clip
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/clipmode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/clipmode/razor %}
 {% endhighlight %}c
 {% highlight c# tabtitle="Clipmode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/clipmode/clipmode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/clipmode/clipmode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -230,10 +230,10 @@ Step 2: The following code demonstrates how to render Bootstrap tooltip for the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/tooltip/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/tooltip/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="tooltip.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/tooltip/tooltip.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -265,10 +265,10 @@ The following example demonstrates how to customize the tooltip content for the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/custom-tooltip/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/custom-tooltip/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="tooltip.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/custom-tooltip/tooltip.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/custom-tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -290,10 +290,10 @@ The following example demonstrates how to set the `GridLines` property based on 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/gridlines/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/gridlines/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Gridlines.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/cell/gridlines/gridlines.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/cell/gridlines/gridlines.cs %}
 {% endhighlight %}
 {% endtabs %}
 

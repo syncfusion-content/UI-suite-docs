@@ -143,7 +143,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/aggregates/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/aggregates/default-cs5" %}
 
 > * The aggregate values must be accessed inside the template using their corresponding [type](https://ej2.syncfusion.com/vue/documentation/api/grid/aggregateColumnDirective#type) name.
 
@@ -275,7 +275,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/aggregates/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/aggregates/default-cs12" %}
 
 > The group total summary in Vue Data Grid is calculated based on the current page records for each group by default.
 > If you require aggregates for all the data in the grid, you can enable the [disablePageWiseAggregates](https://ej2.syncfusion.com/vue/documentation/api/grid/groupSettings#disablepagewiseaggregates) property.

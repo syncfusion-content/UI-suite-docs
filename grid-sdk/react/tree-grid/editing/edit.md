@@ -19,14 +19,14 @@ To use CRUD, inject the [Edit](https://ej2.syncfusion.com/react/documentation/ap
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs8" %}
 
 > Editing for a particular column can be disabled by setting [columns.allowEditing](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#allowediting) to **false**.
 
@@ -36,14 +36,14 @@ The TreeGrid toolbar includes built-in items to execute editing actions. Configu
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs9" %}
 
 ## Disable editing for particular row cell
 
@@ -53,20 +53,20 @@ In the following example, rows with the **Priority** value set to **Breaker** ar
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs2" %}
 
 ## Adding row position
 
@@ -76,14 +76,14 @@ The following example sets the new row position to *Child*.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs10" %}
 
 ## Confirmation messages
 
@@ -93,14 +93,14 @@ Display a delete confirmation dialog by setting [showDeleteConfirmDialog](https:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs11/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs11" %}
 
 > [showDeleteConfirmDialog](https://ej2.syncfusion.com/react/documentation/api/treegrid/editSettingsModel/#showdeleteconfirmdialog) supports all edit modes.
 
@@ -110,14 +110,14 @@ Set default values for columns when adding a new record by defining [columns.def
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs12/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs12" %}
 
 ## Disable editing for particular column
 
@@ -127,14 +127,14 @@ In the following example, editing is disabled for the *Start Date* column.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs13/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs13" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs13" %}
 
 ## Troubleshoot: Editing works only for first row
 

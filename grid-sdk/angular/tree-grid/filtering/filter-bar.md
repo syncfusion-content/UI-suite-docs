@@ -35,17 +35,17 @@ The following example demonstrates how to activate default filtering in the Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs4" %}
 
 > To enable or dynamically switch the filter type, set the [filterSettings.type](https://ej2.syncfusion.com/angular/documentation/api/treegrid/filtersettings/#type) as **FilterBar**.
 
@@ -63,17 +63,17 @@ The following example illustrates how to enable different filter bar modes in th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs5" %}
 
 ## Display filter text in pager
 
@@ -85,17 +85,17 @@ The following example demonstrates how to display the filter text in the pager o
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs23/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs23/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs23/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs23" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs23" %}
 
 ## Show or hide filter bar operator in filter bar cell
 
@@ -107,17 +107,17 @@ The following example demonstrates how to show or hide the filter bar operator i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs24/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs24/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs24/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs24" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs24" %}
 
 ## Hide filter bar for template column
 
@@ -129,17 +129,17 @@ Here's an example that demonstrates how to hide the filter bar for a template co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs25/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs25" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs25" %}
 
 ## Filter bar template with custom component
 
@@ -155,14 +155,14 @@ The following example demonstrates how to show a custom component in the filter 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filter-template-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filter-template-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filter-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filter-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filter-template-cs1" %}

@@ -50,11 +50,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs1" %}
 
 ## Adding custom text in group caption
 
@@ -94,11 +94,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs13" %}
 
 ## Customize group caption text using locale
 
@@ -108,15 +108,15 @@ Localization can be achieved using the `L10n.load()` and `setCulture()` methods 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs19/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs19" %}
 
 ## Render custom component in group caption
 
@@ -126,15 +126,15 @@ In the example below, the [Chips](https://ej2.syncfusion.com/angular/documentati
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/grouping1-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs14" %}
 
 ## See also
 - [Grouping overview](./grouping)

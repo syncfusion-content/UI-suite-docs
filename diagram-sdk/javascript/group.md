@@ -34,7 +34,7 @@ A group can be added to the diagram model through [`nodes`](../api/diagram#nodes
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -47,7 +47,7 @@ A group can be added to the diagram model through [`nodes`](../api/diagram#nodes
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs1" %}
 {% endif %}
 
 ## Group nodes at runtime
@@ -67,7 +67,7 @@ The following code illustrates how a group  at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-runtime" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -80,7 +80,7 @@ The following code illustrates how a group  at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-runtime" %}
 {% endif %}
 
 ## UnGroup nodes at runtime
@@ -98,7 +98,7 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](../api
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -111,7 +111,7 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](../api
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs2" %}
 {% endif %}
 
 ## Add group node at runtime
@@ -131,7 +131,7 @@ The following code illustrates how a group node is added at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -144,7 +144,7 @@ The following code illustrates how a group node is added at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs3" %}
 {% endif %}
 
 ## Add collection of group nodes at runtime
@@ -164,7 +164,7 @@ The following code illustrates how to add a group nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -177,7 +177,7 @@ The following code illustrates how to add a group nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs7" %}
 {% endif %}
 
 ## Add/Remove children from group
@@ -221,7 +221,7 @@ diagram.removeChildFromGroup (groupNode, childNode);
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -234,7 +234,7 @@ diagram.removeChildFromGroup (groupNode, childNode);
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs6" %}
 {% endif %}
 
 ## Group padding
@@ -254,7 +254,7 @@ The following code illustrates how to add Padding to the node group.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-padding" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-padding" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -267,7 +267,7 @@ The following code illustrates how to add Padding to the node group.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-padding" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-padding" %}
 {% endif %}
 
 ## Group flip
@@ -292,7 +292,7 @@ The following example shows how to apply flip for group node.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flip" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -305,7 +305,7 @@ The following example shows how to apply flip for group node.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flip" %}
 {% endif %}
 
 ## Group flip mode
@@ -328,7 +328,7 @@ As a result, the effective flipMode for both the child node and the group node w
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flipMode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flipMode" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -341,7 +341,7 @@ As a result, the effective flipMode for both the child node and the group node w
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flipMode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-flipMode" %}
 {% endif %}
 
 
@@ -360,7 +360,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-nestedGroup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-nestedGroup" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -373,7 +373,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-nestedGroup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-nestedGroup" %}
 {% endif %}
 
 ![Nested Group GIF](images/nestedGroup.gif)
@@ -393,7 +393,7 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-palette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-palette" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -406,7 +406,7 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-palette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-palette" %}
 {% endif %}
 
 ## Update group node at runtime
@@ -424,7 +424,7 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-updateRuntime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-updateRuntime" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -437,7 +437,7 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-updateRuntime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-updateRuntime" %}
 {% endif %}
 
 
@@ -472,7 +472,7 @@ The following code illustrates how to add canvas panel.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -485,7 +485,7 @@ The following code illustrates how to add canvas panel.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs4" %}
 {% endif %}
 
 ***Stack***
@@ -507,7 +507,7 @@ The following code illustrates how to add a stack panel.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -520,7 +520,7 @@ The following code illustrates how to add a stack panel.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/group-cs5" %}
 {% endif %}
 
 ## Difference between a basic group and containers

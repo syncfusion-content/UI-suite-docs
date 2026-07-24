@@ -25,7 +25,7 @@ The [`DragEnter`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDr
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-enter" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-enter" %}
 
 ## DragLeave Event
 
@@ -40,7 +40,7 @@ The [`DragLeave`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDr
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-leave" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-leave" %}
 
 ## DragOver Event
 
@@ -55,7 +55,7 @@ The [`DragOver`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDra
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-over" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drag-over" %}
 
 ## Drop Event
 
@@ -70,7 +70,7 @@ The [`Drop`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDropEve
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drop" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/drop" %}
 
 ## PaletteExpanding Event
 
@@ -85,7 +85,7 @@ The [`PaletteExpanding`](https://ej2.syncfusion.com/react/documentation/api/diag
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/palette-expand" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/palette-expand" %}
 
 ## PaletteSelectionChange Event
 
@@ -100,5 +100,5 @@ The [`PaletteSelectionChange`](https://ej2.syncfusion.com/react/documentation/ap
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/palette-selection" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/events/palette-selection" %}
 

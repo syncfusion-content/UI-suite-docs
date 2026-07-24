@@ -39,14 +39,14 @@ Items| Description
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1" %}
 
 ## Custom context menu items
 
@@ -58,14 +58,14 @@ In the below sample, we have shown context menu item for parent rows to expand o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2" %}
 
 ## Enable and disable context menu items dynamically
 
@@ -73,13 +73,13 @@ You can enable and disable the context menu items using the [`enableItems`](http
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/contextMenu/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3" %}
 
 > You can hide or show an item in context menu for specific area inside of treegrid by defining the [`target`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/cellSaveEventArgs/#target) property.

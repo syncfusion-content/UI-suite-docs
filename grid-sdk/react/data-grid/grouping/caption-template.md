@@ -18,20 +18,20 @@ The following example illustrates how to display the `headerText`, `key`, and `c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs1" %}
 
 ## Adding custom text in group caption
 
@@ -41,20 +41,20 @@ In the example below, the data parameter is used to display the `key`, `count`, 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs17/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs17/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs17/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs17/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs17/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs17/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs17/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs17" %}
 
 ## Customize group caption text using locale
 
@@ -64,20 +64,20 @@ Localization can be achieved using the `L10n.load()` and `setCulture()` methods 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs18/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs18/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs18/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs18/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs18/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs18/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs18/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs18/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs18" %}
 
 ## Render custom component in group caption
 
@@ -87,20 +87,20 @@ In the example below, the [Chips](https://ej2.syncfusion.com/react/documentation
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/group-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/group-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/group-cs19" %}
 
 ## See also
 - [Grouping overview](./grouping)

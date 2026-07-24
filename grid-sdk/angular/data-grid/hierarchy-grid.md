@@ -26,15 +26,15 @@ The following example demonstrates enabling the hierarchy feature in the grid, w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs5" %}
 
 > * The Grid supports n level of child grids.
 > * Hierarchical binding is not supported when [DetailTemplate](https://ej2.syncfusion.com/angular/documentation/api/grid#detailtemplate) is enabled.
@@ -49,15 +49,15 @@ In the following example, the `load` event is used to customize the mapping valu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs9" %}
 
 > Make sure to adjust the field name according to the specific scenario.
 
@@ -69,15 +69,15 @@ In the provided example, the third record of the grid is expanded by utilizing t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs7" %}
 
 > Index values begin with "0", allowing provision of the desired target index to expand a specific child grid initially.
 
@@ -89,15 +89,15 @@ To achieve this, use the [load](https://ej2.syncfusion.com/angular/documentation
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs8" %}
 
 ## Dynamic data binding in Child Grids using parent row values
 
@@ -107,15 +107,15 @@ Within the `detailDataBound` event, the child grid’s [dataSource](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs12" %}
 
 ## Adding record in child grid
 
@@ -125,15 +125,15 @@ This is accomplished through the grid's [actionBegin](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs10" %}
 
 ## Template column in child grid
 
@@ -214,11 +214,11 @@ export class AppComponent implements OnInit, AfterViewInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs11" %}
 
 ## Getting parent details in the child grid
 
@@ -228,15 +228,15 @@ This can be accomplished through the grid's [created](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs16" %}
 
 ## Render aggregates in child grid
 
@@ -248,14 +248,14 @@ The following example demonstrates rendering aggregates in a child grid to displ
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/child-grid-aggregate/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/child-grid-aggregate/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/child-grid-aggregate/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/child-grid-aggregate/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/child-grid-aggregate" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/child-grid-aggregate" %}
 
 ## Expand and collapse all child grids dynamically
 
@@ -265,15 +265,15 @@ By default, all child grids are rendered in a collapsed state. To programmatical
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-cs6" %}
 
 > The `expandAll` and `collapseAll` methods are not recommended for large datasets due to the considerable time required to update the changes in the UI.
 
@@ -297,15 +297,15 @@ In the demo below, the expand/collapse icons have been changed to arrow-down and
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-change-icon/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-change-icon/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/default-change-icon/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/default-change-icon/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-change-icon" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/default-change-icon" %}
 
 ## Hide the expand/collapse icon in parent row when no record in child grid
 
@@ -348,15 +348,15 @@ The following example demonstrates hiding the expand/collapse icon for the row w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/template-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/template-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/template-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/template-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/template-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/template-cs4" %}
 
 ## Child Grid expand and collapse events
 
@@ -366,14 +366,14 @@ In the example below, expansion is prevented for the "Nancy" row, and collapse i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/detail-row-events/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/detail-row-events/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/detail-row-events/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/detail-row-events/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/detail-row-events" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/detail-row-events" %}
 
 ## Customize the child grid
 

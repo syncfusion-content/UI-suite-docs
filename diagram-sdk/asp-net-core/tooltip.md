@@ -31,10 +31,10 @@ The diagram provides support to show tooltip when the mouse hovers over any node
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,7 +42,7 @@ The diagram provides support to show tooltip when the mouse hovers over any node
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -57,10 +57,10 @@ The tooltip on mouse over can be disabled by assigning the [`tooltip`](https://h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/disable/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/disable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Disable.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/disable/disable.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/disable/disable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,7 +68,7 @@ The tooltip on mouse over can be disabled by assigning the [`tooltip`](https://h
 
 {% tabs %}
 {% highlight c# tabtitle="Disable.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/disable/disable.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/disable/disable.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -83,10 +83,10 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,7 +94,7 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 
 {% tabs %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -142,10 +142,10 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/PortTooltip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/PortTooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/PortTooltip/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/PortTooltip/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,7 +153,7 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 
 {% tabs %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/PortTooltip/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/PortTooltip/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -166,10 +166,10 @@ Any text or image can be added to the tooltip, by default. To customize the tool
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/template/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/template/template.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -177,7 +177,7 @@ Any text or image can be added to the tooltip, by default. To customize the tool
 
 {% tabs %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/template/template.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -202,10 +202,10 @@ The diagram provides support to show tooltip around the node or connector that i
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -213,7 +213,7 @@ The diagram provides support to show tooltip around the node or connector that i
 
 {% tabs %}
 {% highlight c# tabtitle="Object.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/object/object.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/object/object.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -228,10 +228,10 @@ To display the tooltip at mouse position, need to set **mouse** option to the [`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/mouse/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/mouse/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Mouse.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/mouse/mouse.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/mouse/mouse.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -239,7 +239,7 @@ To display the tooltip at mouse position, need to set **mouse** option to the [`
 
 {% tabs %}
 {% highlight c# tabtitle="Mouse.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/mouse/mouse.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/mouse/mouse.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -254,10 +254,10 @@ To animate the tooltip, a set of specific animation effects are available, and i
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/animation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/animation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/animation/animation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -265,7 +265,7 @@ To animate the tooltip, a set of specific animation effects are available, and i
 
 {% tabs %}
 {% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/animation/animation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -280,10 +280,10 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/annotationTooltip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/annotationTooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/annotationTooltip/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/annotationTooltip/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -291,7 +291,7 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
 {% tabs %}
 {% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/tooltip/annotationTooltip/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/tooltip/annotationTooltip/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

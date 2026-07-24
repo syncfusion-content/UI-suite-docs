@@ -35,7 +35,7 @@ To create a node, define the [`node`](https://ej2.syncfusion.com/vue/documentati
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs1" %}
 
 N> Node id should not begin with numbers(should begin with a letter). Node Id should be unique for all the shapes and connectors.
 
@@ -55,7 +55,7 @@ The following code illustrates how to add a node.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs2" %}
 
 ### Add collection of nodes at runtime
 
@@ -72,7 +72,7 @@ The following code illustrates how to add a nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs3" %}
 
 ### Add node from palette
 
@@ -90,7 +90,7 @@ The following code illustrates how to add a nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs4" %}
 
 ### Create node through data source
 
@@ -108,7 +108,7 @@ The following code illustrates how to add a nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs5" %}
 
 ### Draw nodes
 
@@ -127,7 +127,7 @@ The following code illustrates how to add a nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs6" %}
 
 ## Update node at runtime
 
@@ -142,7 +142,7 @@ You can modify any node properties at runtime, and the changes will be instantly
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs7" %}
 
 N> Once the property is updated, you should call the `dataBind` to reflect the changes instantly.
 
@@ -162,7 +162,7 @@ The following code example illustrates how to clone node at runtime
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/Node-cs8" %}
 
 ## Add nodes from tree view
 

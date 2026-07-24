@@ -19,20 +19,20 @@ In the [React Data Grid](https://www.syncfusion.com/react-components/react-data-
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs29/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs29/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs29/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs29/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs29/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs29/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs29/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs29/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs29" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs29" %}
 
 ## Header template
 
@@ -130,14 +130,14 @@ function App() {
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-template-cs1" %}
 
 >* The `headerTemplate` property applies only to Grid columns that have a header element.
 >* Any HTML or React component can be used in the header template to add functionality to the header element.
@@ -148,20 +148,20 @@ Stacked headers enable hierarchical organization of column headers by grouping r
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-template-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-template-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-template-cs2" %}
 
 ## Header text alignment
 
@@ -250,14 +250,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs39/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs39/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs39/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs39/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs39" %}
 
 >* The `headerTextAlign` property only affects header text alignment, not the content alignment. To align both header and content, use the [textAlign](https://ej2.syncfusion.com/react/documentation/api/grid/column#textalign) property.
 >* The `headerTextAlign` property can also be used with the stacked header feature; it aligns header text in sub-headers as well.
@@ -348,14 +348,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/autowrap-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/autowrap-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/autowrap-cs4" %}
 
 ## Change header height
 
@@ -377,20 +377,20 @@ To dynamically adjust the header height, use the [getHeaderContent](https://ej2.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs40/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs40/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs40/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs40/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs40/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs40/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs40/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs40/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs40" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs40" %}
 
 >* The [getHeaderTable](https://ej2.syncfusion.com/react/documentation/api/grid#getheadertable) method can also be used to access the header table element for adjustment.
 >* The header row height cannot be reduced below the default height of "42px" using the `e-columnheader` class.
@@ -527,14 +527,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs41/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs41/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs41/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs41/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs41" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs41" %}
 
 **Conditional header text customization:**
 
@@ -654,14 +654,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-valueaccessor-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-valueaccessor-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-valueaccessor-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-valueaccessor-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-valueaccessor-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-valueaccessor-cs1" %}
 
 **Changing the header text of all columns:**
 
@@ -747,14 +747,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/change-headertext-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/change-headertext-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-headertext-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/change-headertext-cs3" %}
 
 ## Change the orientation of header text
 
@@ -798,20 +798,20 @@ const setHeaderHeight = () => {
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-orientation-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-orientation-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-orientation-cs1" %}
 
 ## Custom tooltip for header
 
@@ -821,20 +821,20 @@ Custom tooltips can be enabled using the [beforeRender](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-tooltip-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-tooltip-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-tooltip-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-tooltip-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-tooltip-cs1" %}
 
 > The [headerCellInfo](https://ej2.syncfusion.com/react/documentation/api/grid#querycellinfo) event can also be used to customize the header tooltip. This event is triggered for each header cell after it is rendered.
 
@@ -855,20 +855,20 @@ Styles can be applied to header cells using CSS selectors. The Grid assigns the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs1" %}
 
 **Using property:** 
 
@@ -934,14 +934,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs2" %}
 
 **Using methods:** 
 
@@ -957,20 +957,20 @@ React Data Grid provides methods to customize column header appearance:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs3" %}
 
 >* The UID is automatically generated by the Grid component and may change whenever the grid is refreshed or updated.
 
@@ -982,20 +982,20 @@ The following example demonstrates adding a `headerCellInfo` event handler to ch
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/header-style-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/header-style-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-style-cs4" %}
 
 ## Refresh header
 
@@ -1065,14 +1065,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/refresh-header-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/refresh-header-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/refresh-header-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/refresh-header-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/refresh-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/refresh-header-cs1" %}
 
 > The `refreshHeader` method updates only the grid header, not the entire grid. To refresh the entire grid, use the `refresh` method instead.
 

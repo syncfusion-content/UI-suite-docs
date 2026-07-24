@@ -24,10 +24,10 @@ Here's an example of how to enable single row selection using properties:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-selection/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-selection/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ Here's an example of how to enable multiple rows selection using properties:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-multiple-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-multiple-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-multiple-selection/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-multiple-selection/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In the following example, it demonstrates how to select a row at initial renderi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-initial-rendering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-initial-rendering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-initial-rendering/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-initial-rendering/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following example demonstrates how to select rows in any page based on index
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-index/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-index/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-index/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-index/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The following example demonstrates how to enable multiple row selection with a s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-click/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-click/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-click/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-click/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ The following example demonstrates how to select a single row within the Grid by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-single-method/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-single-method/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,10 +142,10 @@ The following example, demonstrates how to select multiple rows in the Grid by c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-multiple-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-multiple-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-multiple-method/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-multiple-method/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -161,10 +161,10 @@ The following example, demonstrates how to select a range of rows within the Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-range-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-range-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-range-selection/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-range-selection/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -178,10 +178,10 @@ In the below demo, we have selected the grid rows only when **EmployeeID** colum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-certain-condition/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-certain-condition/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-certain-condition/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-certain-condition/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -197,10 +197,10 @@ To achieve this, you can leverage the `getSelectedRowIndexes` method, which retu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-get-selected/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-get-selected/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-get-selected/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-get-selected/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -218,10 +218,10 @@ The following example demonstrates how to retrieve selected records from various
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selected-various-pages/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selected-various-pages/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selected-various-pages/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selected-various-pages/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -239,10 +239,10 @@ Here's an example that displays the selected row count using the `getSelectedRec
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selected-records/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selected-records/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selected-records/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selected-records/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -258,10 +258,10 @@ The following example demonstrates how to clear row selection by calling the `cl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-clear-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-clear-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-clear-selection/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-clear-selection/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ In the following example, row selection is canceled when the value of **Customer
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selection-events/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selection-events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/selection/row-selection-events/row-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/row-selection-events/row-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 

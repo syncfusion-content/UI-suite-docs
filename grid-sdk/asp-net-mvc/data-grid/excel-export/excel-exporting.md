@@ -22,10 +22,10 @@ The following example demonstrates how to perform a Excel or CSV export action i
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excel-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excel-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excel-export/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excel-export/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ The following example demonstrates how to show and hide the spinner during Excel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/show-spinner-while-exporting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/show-spinner-while-exporting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="show-spinner.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/show-spinner-while-exporting/show-spinner.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/show-spinner-while-exporting/show-spinner.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ The following example demonstrates how to render custom dataSource during Excel 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/custom-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/custom-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/custom-data/custom-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/custom-data/custom-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,10 +83,10 @@ The following example shows how to export the grid with a custom aggregate that 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-custom-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-custom-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-custom-aggregate/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-custom-aggregate/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The following example demonstrates how to perform export with cell and row spann
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-cell-row-spanning/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-cell-row-spanning/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-cell-row-spanning/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-cell-row-spanning/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ The following example demonstrates how to export the grid with custom date forma
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-date-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-date-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-date-format/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-date-format/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ Here’s an example demonstrating how to merge duplicate cells in the OrderID co
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-duplicate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-duplicate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-duplicate/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-duplicate/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to export multiple grids to the same page
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-samesheet/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-samesheet/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-samesheet/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-samesheet/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -192,10 +192,10 @@ The following example demonstrates how to export multiple grids to a Excel file 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-newsheet/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-newsheet/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-newsheet/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-newsheet/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -221,10 +221,10 @@ The following example demonstrates how to export hierarchical grid to Excel docu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-hierarchy/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-hierarchy/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-hierarchy/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-hierarchy/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -238,11 +238,11 @@ In the following example, the `ExportDetailDataBound` event is used to modify th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-format/razor %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-format/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-format/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -260,10 +260,10 @@ In the following example, the [ToolbarClick](https://help.syncfusion.com/cr/aspn
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-addformula/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-addformula/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-addformula/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-addformula/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -279,10 +279,10 @@ The following example demonstrates how to pass additional parameters to the serv
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/additional-parameter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/additional-parameter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/additional-parameter/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/additional-parameter/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -29,7 +29,7 @@ The following example shows the customization of page settings.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1" %}
 
 ## Set background image
 
@@ -46,7 +46,7 @@ The following code illustrates how to set background image to the diagram page.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/BGImage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/BGImage-cs1" %}
 
 ## Page orientation
 
@@ -66,7 +66,7 @@ Depending on the orientation selected, the width and height properties are adjus
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/pagesettings-cs1" %}
 
 ## Multiple page and page breaks
 
@@ -83,7 +83,7 @@ The [`multiplePage`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pa
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/multiplepage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/multiplepage-cs1" %}
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details refer to [`CSS customization`](https://ej2.syncfusion.com/vue/documentation/diagram/style#customizing-the-page-breaks)
 
@@ -108,7 +108,7 @@ Below is an example illustrating how to define boundary constraints within the d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/boundaryconstraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/boundaryconstraints-cs1" %}
 
 ## Fit options
 
@@ -125,4 +125,4 @@ The following example demonstrates how fitOptions are utilized in diagram page s
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/fitoptions-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/page-settings/fitoptions-cs1" %}

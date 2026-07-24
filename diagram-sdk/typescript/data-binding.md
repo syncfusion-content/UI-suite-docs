@@ -45,7 +45,7 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs3" %}
 
 ## Remote data
 
@@ -66,7 +66,7 @@ To bind remote data to the diagram, configure the fields of [`dataSourceSettings
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs4" %}
 
 ## CRUD
 
@@ -107,7 +107,7 @@ This feature allows you to read the data source and perform add or edit or delet
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/dataBinding-cs6" %}
 
 ## How to perform Editing at runtime
 

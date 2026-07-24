@@ -14,10 +14,10 @@ The column chooser feature in the [ASP.NET Core DataGrid](https://www.syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ In this example, the `columns.showInColumnChooser` property is set to **false** 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-hide/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-hide/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ Here's an example of how to open the column chooser in the Grid using an externa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-external/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-external/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-external/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-external/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ To customize the column chooser dialog size, you can use the following CSS style
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-size/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-size/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-size/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ Here is an example of how to sort the column chooser list based on sort directio
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-chooser-sorting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-chooser-sorting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-chooser-sorting/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-chooser-sorting/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -129,10 +129,10 @@ Here is an example of how to show only specific columns in the column chooser:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/specific-columnchooser/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/specific-columnchooser/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/specific-columnchooser/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/specific-columnchooser/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ Here's an example of how to change the default search operator of the column cho
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-contains/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-contains/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-contains/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-contains/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ Here is an example that demonstrates the usage of the `ignoreAccent` property to
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-diacritics/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-diacritics/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-diacritics/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-diacritics/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -192,10 +192,10 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-chooser-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-chooser-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-chooser-template/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-chooser-template/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -209,9 +209,9 @@ The following example demonstrates how to enable or disable the search option dy
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-enable-disable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-enable-disable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnchooser.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnchooser-enable-disable/columnchooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnchooser-enable-disable/columnchooser.cs %}
 {% endhighlight %}
 {% endtabs %}

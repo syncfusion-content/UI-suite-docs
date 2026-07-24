@@ -42,15 +42,15 @@ The following example demonstrates to enable infinite scroll in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs2" %}
 
 ## Number of blocks rendered during initial loading
 
@@ -62,15 +62,15 @@ The example below demonstrates to configure initialBlocks using a [DropDownList]
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs3" %}
 
 ## Efficient data caching and DOM management in grid cache mode
 
@@ -82,15 +82,15 @@ The following example demonstrates enabling or disabling cache mode for infinite
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/paging1-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs4" %}
 
 > If [Hierarchy Grid](https://ej2.syncfusion.com/angular/documentation/grid/hierarchy-grid) or [Detail Template](https://ej2.syncfusion.com/angular/documentation/grid/row/detail-template) feature is enabled along with infinite scrolling without defining the height property, it will take a default height of "300px". Since the [height](https://ej2.syncfusion.com/angular/documentation/api/grid#height) property is mandatory for the hierarchy grid and detail template features, ensure to define it accordingly. 
 

@@ -18,10 +18,10 @@ The following example demonstrates how to customize the group header caption in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-template/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-template/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The following example demonstrates how to add a custom text to the group caption
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-customtext-caption-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-customtext-caption-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-customtext-caption-template/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-customtext-caption-template/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ The following example demonstrates, how to customize group caption text based on
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-locale/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-locale/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-locale/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-locale/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ The following example demonstrates how to add a custom component to the group ca
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-component/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-component/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="group.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/grouping/group-caption-component/group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/grouping/group-caption-component/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -39,7 +39,7 @@ This approach is ideal when working with dynamic data from databases, APIs, or w
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs1" %}
 
 > **Note:** When using organizational chart layout, both HierarchicalTree and DataBinding modules must be injected into the diagram component.
 
@@ -57,7 +57,7 @@ This manual approach provides complete control over the chart structure and is s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs2" %}
 
 ![Organizational chart](../images/org-chart.png)
 
@@ -115,7 +115,7 @@ The following example demonstrates customizing subtree alignment for horizontal 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs3" %}
 
 ### Vertical Subtree Orientation Example
 
@@ -131,7 +131,7 @@ This example shows how to implement vertical arrangement for leaf-level organiza
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs4" %}
 
 ### Assistant Nodes
 
@@ -147,7 +147,7 @@ Assistant nodes represent positions with specialized relationships to their pare
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs5" %}
 
 ![Assistant](../images/assistant.png)
 

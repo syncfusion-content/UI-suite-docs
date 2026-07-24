@@ -73,31 +73,31 @@ With this approach, clicking "Grid 1" or "Grid 2" loads the respective grid comp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app-routing.module.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/app-routing.module.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/app-routing.module.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="about.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/about/about.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/about/about.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="about.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/about/about.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/about/about.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="contact.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/contact/contact.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/contact/contact.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="contact.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/contact/contact.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/contact/contact.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="home.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/home/home.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/home/home.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="home.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/routing-cs1/src/home/home.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/routing-cs1/src/home/home.component.html %}
 {% endhighlight %}
 {% endtabs %}

@@ -27,27 +27,27 @@ In the following example demonstrates how to enable single cell selection using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs157/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs157/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs157/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs157/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs157" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs157" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs157/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs157/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs157/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs157/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs157" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs157" %}
 {% endif %}
 
 ## Multiple cell selection 
@@ -62,27 +62,27 @@ In the following example demonstrates how to enable multiple cell selection usin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs193/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs193/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs193/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs193/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs193" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs193" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs193/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs193/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs193/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs193/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs193" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs193" %}
 {% endif %}
 
 ## Cell selection mode 
@@ -103,27 +103,27 @@ In the following example demonstrates how to dynamically enable and change the `
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs194/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs194/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs194/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs194/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs194" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs194" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs194/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs194/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs194/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs194/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs194" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs194" %}
 {% endif %}
 
 ## Select cells externally 
@@ -142,27 +142,27 @@ The following example demonstrates how to select a single cell within the Grid b
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs195/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs195/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs195/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs195/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs195" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs195" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs195/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs195/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs195/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs195/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs195" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs195" %}
 {% endif %}
 
 ### Multiple cell selection
@@ -177,27 +177,27 @@ In the following example, it demonstrates how to select multiple cells in the Gr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs196/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs196/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs196/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs196/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs196" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs196" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs196/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs196/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs196/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs196/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs196" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs196" %}
 {% endif %}
 
 > Cell Selection requires the `selectionSettings.mode` to be **Cell** or  **Both** and [type](../../api/grid/selectionSettings/#type) should be **Multiple**.
@@ -217,27 +217,27 @@ The following example demonstrates how to select a range of cells within the Gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs197/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs197/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs197/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs197/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs197" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs197" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs197/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs197/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs197/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs197/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs197" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs197" %}
 {% endif %}
 
 ##  How to get selected row cell indexes
@@ -250,27 +250,27 @@ The following example demonstrates how to obtain the selected row cell indexes u
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs198/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs198/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs198/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs198/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs198" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs198" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs198/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs198/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs198/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs198/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs198" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs198" %}
 {% endif %}
 
 ##  Clear cell selection programmatically 
@@ -285,27 +285,27 @@ The following example demonstrates how to clear cell selection by calling the `c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs199/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs199/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs199/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs199/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs199" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs199" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs199/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs199/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs199/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs199/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs199" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs199" %}
 {% endif %}
 
 ## Cell selection events 
@@ -326,25 +326,25 @@ In the following example, cell selection is canceled when the value of **ShipCou
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs158/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs158/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs158/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs158/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs158" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs158" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs158/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs158/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs158/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs158/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs158" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs158" %}
 {% endif %}

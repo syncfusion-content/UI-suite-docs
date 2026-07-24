@@ -59,20 +59,20 @@ Items| Description
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs1" %}
 
 ## Custom context menu items
 
@@ -82,20 +82,20 @@ Custom items are defined by setting the `contextMenuItems` property to a collect
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs2" %}
 
 ## Show context menu on left click
 
@@ -105,20 +105,20 @@ Implementing left-click behaviour typically involves handling the Grid's [create
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs3" %}
 
 > Control the visibility of a context menu item for a particular grid area by setting the `target` property.
 
@@ -198,14 +198,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs4" %}
 
 ## Show or hide context menu items
 
@@ -291,11 +291,11 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/context-menu-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/context-menu-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/context-menu-cs5" %}

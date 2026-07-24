@@ -25,7 +25,7 @@ Triggers when the node is clicked. The following code example explains how to ge
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs1" %}
 
 ## Selection change event
 
@@ -42,7 +42,7 @@ The following code example explains how to get the [`selectionChange`](https://e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs2" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the code snippet below.
 
@@ -71,7 +71,7 @@ The following code example explains how to get the [`positionChange`](https://ej
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs3" %}
 
  You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idraggingeventargs) to true, as shown in the code snippet below.
 
@@ -99,7 +99,7 @@ The following code example explains how to get the [`sizeChange`](https://ej2.sy
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs4" %}
 
  You can prevent resizing by setting the `cancel` property of [`SizeChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/isizechangeeventargs) to true, as shown in the code snippet below.
 
@@ -127,7 +127,7 @@ The following code example explains how to get the [`rotateChange`](https://ej2.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs5" %}
 
  You can prevent rotation by setting the `cancel` property of [`RotationEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/irotationeventargs) to true, as shown in the code snippet below.
 
@@ -154,7 +154,7 @@ Triggers when there is any property change occurred for the node. The following 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs6" %}
 
 ## Collection change event
 
@@ -170,7 +170,7 @@ The following code example explains how to get the [`collectionChange`](https://
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs7" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting nodes, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/vue/documentation/api/diagram/icollectionchangeeventargs) to true, as shown in the code snippet below.
 
@@ -209,4 +209,4 @@ The following code example shows how to handle these events in the diagram and c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nEvents-cs8" %}

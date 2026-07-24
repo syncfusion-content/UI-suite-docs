@@ -33,7 +33,7 @@ When working with multiple bezier segments, maintain visual consistency by confi
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorbezeirsmoothness-cs1" %}
 
 ## Control Bezier Control Points Visibility
 

@@ -53,14 +53,14 @@ Operators that can be used in label filtering are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs151/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs151/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs151/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs151/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs151" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs151" %}
 
 ## Date filtering through code
 
@@ -91,14 +91,14 @@ Operators that can be used in date filtering are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs152/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs152/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs152/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs152/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs152" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs152" %}
 
 ## Number filtering through code
 
@@ -129,14 +129,14 @@ Operators that can be used in date filtering are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs153/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs153/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs153/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs153/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs153" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs153" %}
 
 ## See Also
 

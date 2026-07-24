@@ -26,10 +26,10 @@ By default, File Manager is rendered with the largeicons view. The following exa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icons/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icons/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icons/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icons/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ By default, File Manager is rendered with the largeicons view. The following exa
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icons/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icons/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icons/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icons/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icon-view-template/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icon-view-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icon-view-template/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icon-view-template/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,10 +70,10 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icon-view-template/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icon-view-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/large-icon-view-template/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/large-icon-view-template/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -86,10 +86,10 @@ The default appearance of the File Manager can be changed from largeicons to det
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ The default appearance of the File Manager can be changed from largeicons to det
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

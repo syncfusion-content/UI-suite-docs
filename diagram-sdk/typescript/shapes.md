@@ -38,7 +38,7 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documen
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs1" %}
 
 
 
@@ -59,7 +59,7 @@ The following code illustrates how an image node is created.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs2" %}
 
 
 
@@ -78,7 +78,7 @@ The following code illustrates how to add Base64 image into image node.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs3" %}
 
 
 
@@ -107,7 +107,7 @@ The following code illustrates how to use scale and align properties to stretch 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs4" %}
 
 
 
@@ -143,7 +143,7 @@ To render an HTML node with a content template, we need to define the desired te
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs5" %}
 
 
 
@@ -164,7 +164,7 @@ The following code illustrates how to render an HTML node using the function and
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate" %}
 
 
 
@@ -183,7 +183,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs6" %}
 
 
 
@@ -204,7 +204,7 @@ Refer the code example below.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
 
 
 
@@ -223,7 +223,7 @@ Diagram provides support to embed SVG element into a node. The shape property of
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs7" %}
 
 
 
@@ -263,7 +263,7 @@ The following code example illustrates how to create a basic shape.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs8" %}
 
 
 
@@ -294,7 +294,7 @@ To create a path node, specify the shape as Path. The [`data`](https://ej2.syncf
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs9" %}
 
 
 
@@ -313,7 +313,7 @@ The [`flow`](https://ej2.syncfusion.com/documentation/api/diagram/flowshapemodel
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs10" %}
 
 
 

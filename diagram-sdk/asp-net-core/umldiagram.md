@@ -35,10 +35,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/class/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/class/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Class.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/class/class.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/class/class.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,10 +46,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/class/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/class/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Class.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/class/class.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/class/class.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -72,10 +72,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/interface/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/interface/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Interface.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/interface/interface.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/interface/interface.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,10 +83,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/interface/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/interface/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Interface.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/interface/interface.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/interface/interface.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -103,10 +103,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/enumeration/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/enumeration/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enumeration.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/enumeration/enumeration.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/enumeration/enumeration.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ The UML class diagram shapes are explained as follows.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/enumeration/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/enumeration/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enumeration.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/enumeration/enumeration.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/enumeration/enumeration.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -148,10 +148,10 @@ The association property allows to define the type of association. The default v
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/association/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/association/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/association/association.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ The association property allows to define the type of association. The default v
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/association/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/association/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/association/association.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -177,10 +177,10 @@ Aggregation is a binary association between a property and one or more composite
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/aggregation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/aggregation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Aggregation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/aggregation/aggregation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/aggregation/aggregation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,10 +188,10 @@ Aggregation is a binary association between a property and one or more composite
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/aggregation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/aggregation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Aggregation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/aggregation/aggregation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/aggregation/aggregation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -206,10 +206,10 @@ Composition is a “strong” form of “aggregation”. Composition is decorate
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/composition/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/composition/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Composition.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/composition/composition.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/composition/composition.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -217,10 +217,10 @@ Composition is a “strong” form of “aggregation”. Composition is decorate
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/composition/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/composition/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Composition.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/composition/composition.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/composition/composition.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -235,10 +235,10 @@ Dependency is a directed relationship, which is used to show that some UML eleme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/dependency/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/dependency/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dependency.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/dependency/dependency.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/dependency/dependency.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -246,10 +246,10 @@ Dependency is a directed relationship, which is used to show that some UML eleme
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/dependency/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/dependency/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dependency.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/dependency/dependency.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/dependency/dependency.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -266,10 +266,10 @@ To create an inheritance, define the relationship as “inheritance”.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/inheritance/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/inheritance/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Inheritance.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/inheritance/inheritance.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/inheritance/inheritance.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -277,10 +277,10 @@ To create an inheritance, define the relationship as “inheritance”.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/inheritance/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/inheritance/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Inheritance.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/inheritance/inheritance.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/inheritance/inheritance.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -310,10 +310,10 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/multiplicity/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/multiplicity/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiplicity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/multiplicity/multiplicity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/multiplicity/multiplicity.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -321,10 +321,10 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/multiplicity/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/multiplicity/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiplicity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/multiplicity/multiplicity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/multiplicity/multiplicity.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -383,10 +383,10 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/uml/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/uml/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Umlclass.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/uml/umlclass.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/uml/umlclass.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -394,10 +394,10 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/uml/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/uml/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Umlclass.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/uml/umlclass.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/uml/umlclass.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -446,10 +446,10 @@ To create a UmlActivity, define type as "UmlActivity" and the list of built-in s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivity/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivity/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UmlActivity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivity/UmlActivity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivity/UmlActivity.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -457,10 +457,10 @@ To create a UmlActivity, define type as "UmlActivity" and the list of built-in s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivity/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivity/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UmlActivity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivity/UmlActivity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivity/UmlActivity.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -475,10 +475,10 @@ To create an UmlActivity connector, define the type as "UmlActivity" and flow as
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivityConnector/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivityConnector/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UmlActivityConnector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -486,10 +486,10 @@ To create an UmlActivity connector, define the type as "UmlActivity" and flow as
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivityConnector/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivityConnector/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UmlActivityConnector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/umldiagramshapes/UmlActivityConnector/UmlActivityConnector.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

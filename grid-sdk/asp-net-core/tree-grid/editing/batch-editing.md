@@ -17,10 +17,10 @@ In Batch edit mode, when you double-click on the treegrid cell, the target cell 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/batch-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/batch-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batchedit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/batch-edit/batchedit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/batch-edit/batchedit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ In Batch edit mode, when you double-click on the treegrid cell, the target cell 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/batch-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/batch-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batchedit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/batch-edit/batchedit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/batch-edit/batchedit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

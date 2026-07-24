@@ -74,7 +74,7 @@ Use [`startGroupAction`](https://helpej2.syncfusion.com/react/documentation/api/
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/groupAction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/groupAction-cs1" %}
 
 ### Managing History Stack Size
 The [`stackLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#stacklimit) property controls the maximum number of actions stored in the history manager. Setting an appropriate limit helps manage memory usage in applications with extensive editing operations.
@@ -88,7 +88,7 @@ The [`stackLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagra
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6" %}
 
 ### Restricting History Logging
 
@@ -103,7 +103,7 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5" %}
 
 ## History Stack Inspection
 
@@ -147,7 +147,7 @@ The [`canUndo`](https://helpej2.syncfusion.com/react/documentation/api/diagram/h
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
 
 ### Current Entry Tracking
 
@@ -164,7 +164,7 @@ The following code shows how to get the current entry from the diagram history:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
 
 ## History Management Utilities
 
@@ -205,6 +205,6 @@ The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1" %}
 
 While interacting with diagram, this event can be used to do the customization.

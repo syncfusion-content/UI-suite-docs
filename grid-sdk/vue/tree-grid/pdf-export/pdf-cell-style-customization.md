@@ -18,14 +18,14 @@ In the below sample, we have set the background color for `Duration` column in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs2" %}
 
 ## Theme
 
@@ -35,13 +35,13 @@ To apply theme in exported PDF, define the `theme` in `exportProperties`.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/pdf/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/pdf/default-cs3" %}
 
 > By default, material theme is applied to exported PDF document.

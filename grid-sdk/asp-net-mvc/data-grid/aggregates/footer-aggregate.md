@@ -14,10 +14,10 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.Net MVC Grid component 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/footer-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/footer-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="footer-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/footer-aggregate/footer-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/footer-aggregate/footer-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ To format the aggregate value result in the Syncfusion<sup style="font-size:70%"
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/format-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/format-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="format-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/format-aggregate/format-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/format-aggregate/format-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ In the following, footer content is appended to the header content using the `Da
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/top-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/top-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="top-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/top-aggregate/top-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/top-aggregate/top-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 

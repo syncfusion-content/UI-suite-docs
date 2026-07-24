@@ -20,10 +20,10 @@ The following example demonstrates how to enable the lazy load grouping feature 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/lazy-load-grouping/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/lazy-load-grouping/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="lazy-load.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/lazy-load-grouping/lazy-load.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/lazy-load-grouping/lazy-load.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ The following example demonstrates how to enable the lazy load grouping with inf
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/lazy-load-grouping-scroll/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/lazy-load-grouping-scroll/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="lazy-load-grouping-scroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/lazy-load-grouping-scroll/lazy-load-grouping-scroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/lazy-load-grouping-scroll/lazy-load-grouping-scroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ The following example demonstrates how to enable the lazy load grouping with vir
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/group-virtual/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-virtual/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="virtual-scroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/grouping/group-virtual/virtual-scroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/grouping/group-virtual/virtual-scroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -40,17 +40,17 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="data.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started-cs4/app/data.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started-cs4/app/data.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="data.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started-cs4/app/data.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started-cs4/app/data.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/getting-started-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/getting-started-cs4" %}

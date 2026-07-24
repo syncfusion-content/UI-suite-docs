@@ -21,7 +21,7 @@ In the following sample, the Shimmer indicator is displayed while the tree grid 
 
 {% tabs %}
 {% highlight c# tabtitle="LoadingAnimation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/loadingAnimation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/loadingAnimation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ In the following sample, the Shimmer indicator is displayed while the tree grid 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="LoadingAnimation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/loadingAnimation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/loading-animation/loadingAnimation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

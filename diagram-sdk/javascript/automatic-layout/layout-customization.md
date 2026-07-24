@@ -30,7 +30,7 @@ The following example shows how to align the layout within the given layout boun
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust2" %}
 
 For more information about bounds, refer to [`bounds`](../../api/diagram/layoutModel#bounds).
 
@@ -50,7 +50,7 @@ The following code illustrates how to align the layout and how to change layout 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs11" %}
 
 ## Layout spacing
 
@@ -68,7 +68,7 @@ The following code illustrates how to set the initial horizontal and vertical sp
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust1" %}
 
 ## Layout margin
 
@@ -85,7 +85,7 @@ The following code demonstrates how to set the initial layout margin and how to 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs12" %}
 
 ## Layout orientation
 
@@ -113,7 +113,7 @@ The following code demonstrates how to set the initial orientation for the layou
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs13" %}
 
 ## Exclude from layout
 
@@ -130,7 +130,7 @@ The following code example demonstrates how to exclude a node from the layout an
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-exclude" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-exclude" %}
 
 ## Fixed node
 
@@ -145,7 +145,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs14" %}
 
 ## Expand and collapse
 
@@ -160,7 +160,7 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs15" %}
 
 For more details about customizing the expand and collapse icon refer [`expand Collapse`](../nodes/expandAndCollapse)
 
@@ -180,7 +180,7 @@ In the following example, the enableAnimation property ensures that the layout c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust3" %}
 
 N> To enable layout animation, you need to inject LayoutAnimation module in diagram.
 
@@ -199,7 +199,7 @@ Find the code example to create parent - child relation between source and targe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs17" %}
 
 ![Layout drag and drop](../images/drag-drop-layout.gif)
 
@@ -221,7 +221,7 @@ You can also set the [`cornerRadius`](../../api/diagram/stackPanel#cornerradius)
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs16" %}
 
 ## Refresh layout
 

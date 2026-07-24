@@ -53,7 +53,7 @@ The following code example illustrates how to print the diagram based on region.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-1" %}
 
 ### Multiple page
 
@@ -70,7 +70,7 @@ The following code example demonstrates how to set multiplePage to true:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-2" %}
 
 ### Margin
 
@@ -85,7 +85,7 @@ The margin for the print region can be set using the [`margin`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-4" %}
 
 ### Page width and Page height
 
@@ -100,7 +100,7 @@ The [`pageWidth`](https://ej2.syncfusion.com/documentation/api/diagram/iPrintOpt
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-3" %}
 
 ### Page Orientation
 
@@ -120,7 +120,7 @@ The following example shows how to set pageOrientation for the printOptions.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/print-cs-5" %}
 
 
 ## Limitations

@@ -18,12 +18,12 @@ The following example demonstrates rendering an image and text within the templa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/empty-record-template-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/empty-record-template-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/empty-record-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/empty-record-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/empty-record-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/empty-record-template-cs1" %}

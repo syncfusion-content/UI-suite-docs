@@ -46,14 +46,14 @@ The File Manager can be populated with local data by providing an array of [file
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/flat-data-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/flat-data-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/flat-data-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/flat-data-cs1/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/flat-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/flat-data-cs1" %}
 
 ## Handling File Operations with Events
 

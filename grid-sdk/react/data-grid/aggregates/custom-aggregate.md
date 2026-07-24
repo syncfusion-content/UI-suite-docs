@@ -24,20 +24,20 @@ The following example demonstrates how to implement and use a custom aggregate f
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs1" %}
 
 > To access the custom aggregate value inside template, use the key as "Custom"
 
@@ -49,20 +49,20 @@ The following example demonstrates how to display the distinct count for the "Sh
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/aggregate-custom-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-custom-cs2" %}
 
 > To display the aggregate value of the current column in another column, use the [columnName](https://ej2.syncfusion.com/react/documentation/api/grid/aggregateColumn#columnname) property. If the `columnName` property is not defined, the field name value will be assigned to the `columnName` property.
 
