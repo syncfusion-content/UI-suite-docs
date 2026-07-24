@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Checkbox Column in Angular TreeGrid component | Syncfusion
 description: Learn here all about Checkbox column in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,10 +18,10 @@ The following example demonstrates the hierarchical selection of checkboxes in t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -39,10 +39,10 @@ The following example demonstrates programmatic checkbox selection in the TreeGr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -58,10 +58,10 @@ The TreeGrid provides methods to retrieve information about checked records when
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -75,10 +75,10 @@ The following example demonstrates rendering checkboxes in a checked state at in
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -94,10 +94,10 @@ The following example demonstrates hiding checkboxes for parent rows in the Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -109,10 +109,10 @@ The following example demonstrates hiding checkboxes for child rows in the TreeG
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -128,10 +128,10 @@ The following example demonstrates customizing the background color of selected 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/checkbox-column-cs5/src/main.ts %} 
+{% include code-snippet/grid-sdk/angular/treegrid/checkbox-column-cs5/src/main.ts %} 
 {% endhighlight %}
 {% endtabs %}
   

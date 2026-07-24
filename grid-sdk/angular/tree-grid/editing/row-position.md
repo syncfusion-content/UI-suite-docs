@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: New row position types in Angular TreeGrid component | Syncfusion
 description: Learn here all about New row position types in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -36,13 +36,13 @@ The following example demonstrates how to set a unique value to the primary key 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -56,13 +56,13 @@ In the following demonstration, row positions are changed by utilizing the `newR
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -80,13 +80,13 @@ In the following demonstration, row positions are changed by utilizing the conte
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -108,13 +108,13 @@ In the following demonstration, use the `addRecord` method to add a new row at a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-position-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-position-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Indent in Angular TreeGrid component | Syncfusion
 description: Learn here all about Indent in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.

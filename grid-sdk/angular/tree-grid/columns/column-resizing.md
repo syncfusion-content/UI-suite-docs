@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Column resizing in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column resizing in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,10 +18,10 @@ To use the column resize feature, inject **ResizeService** in the provider secti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -41,10 +41,10 @@ In the following code, **TaskName** and **duration** columns are defined with mi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -58,10 +58,10 @@ Resizing can be disabled for a particular column by setting the [allowResizing](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -77,10 +77,10 @@ In the following code, resize has been disabled for the **Shipped Date** column.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -100,10 +100,10 @@ The following example demonstrates how to set the [resizeSettings.mode](https://
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -139,10 +139,10 @@ The following example demonstrates how to resize the columns in a TreeGrid. This
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -164,10 +164,10 @@ The following example demonstrates using the resizing events, the [resizeStart](
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/resize-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/resize-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

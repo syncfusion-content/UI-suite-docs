@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Inline editing in Angular TreeGrid component | Syncfusion
 description: Learn how to use inline editing in the Syncfusion Angular TreeGrid component, including cell, row, and programmatic editing along with advanced editing features.
@@ -22,10 +22,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ In the following demo, the CRUD operation is prevented based on the **priority**
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -121,10 +121,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ Here's an example of how to set a default value for a column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -194,10 +194,10 @@ You can delete multiple rows programmatically by using following method.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -211,10 +211,10 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs10/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -228,10 +228,10 @@ Example for single-click editing:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

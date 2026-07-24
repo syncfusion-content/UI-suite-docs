@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Local data in Angular TreeGrid component | Syncfusion
 description: Learn to bind local data to Syncfusion Angular TreeGrid with support for hierarchical and self-referential (flat) data structures.

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Row editing in Angular TreeGrid component | Syncfusion
 description: Learn how to use row editing in the Syncfusion Angular TreeGrid component, including editing entire rows, performing CRUD actions programmatically, and using confirmation dialogs.
@@ -14,11 +14,11 @@ In Row edit mode, when you begin editing a selected record, the entire row enter
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs25/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,11 +32,11 @@ In the example below, the **price** column value is updated based on changes in 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs26/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs26/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs26/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs26/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,11 +50,11 @@ In the example below, CRUD operations are prevented when the **priority** column
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -75,11 +75,11 @@ TreeGrid methods enable you to perform CRUD operations programmatically:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs28/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs28/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,11 +91,11 @@ A delete confirmation dialog can be shown by setting [showDeleteConfirmDialog](h
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs29/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs29/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs29/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs29/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,11 +109,11 @@ Use the [recordDoubleClick](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs30/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs30/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs30/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs30/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

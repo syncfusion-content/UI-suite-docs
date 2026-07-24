@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Cell in Angular TreeGrid component | Syncfusion
 description: Learn about cell customization, formatting, tooltips, and styling in the Syncfusion Angular TreeGrid, including clip mode, autowrap, and cell templates.

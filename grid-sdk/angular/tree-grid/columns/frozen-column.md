@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Column pinning (Frozen) in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column pinning (Frozen) in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ In the following example, the [frozenColumns](https://ej2.syncfusion.com/angular
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/frozencolumns-cs1" %}
 
 > * Frozen columns should not be set outside the TreeGrid viewport.
 > * Frozen TreeGrid supports column virtualization feature, which helps to improve the TreeGrid performance while loading a large dataset.
@@ -47,7 +47,7 @@ The following example demonstrates how to freeze particular column in TreeGrid u
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/frozencolumns-cs2" %}
 
 ## Freeze direction
 

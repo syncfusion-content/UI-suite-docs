@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Row drag and drop in Angular TreeGrid component | Syncfusion
 description: Learn here all about Row drag and drop in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.

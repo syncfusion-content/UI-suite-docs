@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: PDF export options in Angular TreeGrid component | Syncfusion
 description: Learn about PDF export options in the Syncfusion Angular TreeGrid component, including exporting current page, selected records, hidden columns, custom fonts, and advanced settings.

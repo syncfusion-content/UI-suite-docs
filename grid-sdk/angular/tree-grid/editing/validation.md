@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Validation in Angular TreeGrid component | Syncfusion
 description: Learn here all about Validation in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -22,10 +22,10 @@ The following code example demonstrates how to define a validation rule for Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -39,10 +39,10 @@ In the following demo, custom validation is applied for **Priority** column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -56,10 +56,10 @@ In the following sample, dropdownlist edit type is used for the **Role** and **S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -73,10 +73,10 @@ In the following example, custom validation functions are defined for the progre
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -92,10 +92,10 @@ The following example demonstrates how to dynamically add or remove a required v
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -113,10 +113,10 @@ The following example demonstrates how to change the position of the validation 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/validation-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/validation-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

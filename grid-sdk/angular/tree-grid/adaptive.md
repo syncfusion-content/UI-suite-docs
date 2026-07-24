@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Adaptive in Angular TreeGrid component | Syncfusion
 description: Learn how to enable adaptive UI support in the Syncfusion Angular TreeGrid component for optimal mobile and small screen user experiences.

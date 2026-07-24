@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Restrict decimal points while editing in Angular TreeGrid component | Syncfusion
 description: Learn how to restrict decimal points while editing in the Syncfusion Angular TreeGrid component using NumericTextBox configuration.

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Batch editing in Angular TreeGrid component | Syncfusion
 description: Learn how to use batch editing in the Syncfusion Angular TreeGrid component for editing multiple cells and performing bulk save operations efficiently.
@@ -20,10 +20,10 @@ Example to enable batch editing:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ You can update the value of a column dynamically based on the edited value of an
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ The TreeGrid supports conditional cancelation of CRUD operations (Edit, Add, Del
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ Example to toggle the confirmation dialog:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ Example for single-click editing and arrow key navigation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ Example for disabling editing for specific values:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -128,10 +128,10 @@ Example to save or update changes immediately:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ Example for programmatic save:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/batch-edit-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -18,11 +18,11 @@ In the example below, the background color is set for the `Duration` column in t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,11 +36,11 @@ To apply a theme in the exported Excel file, define the `theme` property in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

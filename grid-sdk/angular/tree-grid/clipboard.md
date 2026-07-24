@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+---
 layout: post
 title: Clipboard in Angular TreeGrid component | Syncfusion
 description: Learn about clipboard operations in the Syncfusion Angular TreeGrid, including copying, pasting, hierarchy modes, and autofill for rows and cells.
@@ -21,11 +21,11 @@ The following keyboard shortcuts are supported in the TreeGrid for clipboard ope
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -37,11 +37,11 @@ To copy selected rows or cell data to the clipboard with an external button, use
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/copy-method-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/copy-method-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/copy-method-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/copy-method-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -58,11 +58,11 @@ The TreeGrid supports several copy hierarchy modes, configurable via the [`copyH
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -76,11 +76,11 @@ The AutoFill feature allows copying and pasting data to adjacent cells by draggi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -100,11 +100,11 @@ Content copied from TreeGrid cells can be pasted into other cells using <kbd>Ctr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
