@@ -21,14 +21,14 @@ Customize the appearance of a row using the [rowDataBound](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rows-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rows-cs3" %}
 
 ## Styling alternate row
 
@@ -44,14 +44,14 @@ The following example demonstrates this style override.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/alt-row-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/alt-row-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/alt-row-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/alt-row-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/alt-row-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/alt-row-cs1" %}
 
 ## Row height
 
@@ -61,14 +61,14 @@ In the following example, `rowHeight` is set to 60px.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rows-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rows-cs1" %}
 
 ### Customize row height for particular row
 
@@ -78,13 +78,13 @@ In the following example, the row with `TaskID` as **3** is set to **90px** usin
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rows-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rows-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rows-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rows-cs2" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour for key capabilities. Explore the [React TreeGrid examples](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to see data presentation and manipulation.

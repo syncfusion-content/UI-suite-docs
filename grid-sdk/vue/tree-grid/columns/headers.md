@@ -16,14 +16,14 @@ By default, column header title is displayed from column [`field`](https://ej2.s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs21/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs21/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs21/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs21/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs21" %}
 
 > * If both the [`field`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column#field) and [`headerText`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column#headertext)
 are not defined in the column, the column renders with “empty” header text.
@@ -34,11 +34,11 @@ You can customize the header element by using the [`headerTemplate`](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs22/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs22/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs22/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs22/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs22" %}

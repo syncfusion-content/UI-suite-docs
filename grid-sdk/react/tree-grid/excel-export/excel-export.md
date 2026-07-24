@@ -19,14 +19,14 @@ For a quick start with exporting functionalities, refer to the following video:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs7" %}
 
 ## Persist collapsed state
 
@@ -34,14 +34,14 @@ Persist the collapsed state in the exported document by setting `isCollapsedStat
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs8" %}
 
 ## Custom data source
 
@@ -49,14 +49,14 @@ Excel export supports defining a data source dynamically before exporting. To ex
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs9" %}
 
 ## Exporting Custom Aggregates in TreeGrid  
 
@@ -66,14 +66,14 @@ In the example, the `customAggregateFn` function computes the item count for a s
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs10" %}
 
 ## Passing additional parameters to the server when exporting
 
@@ -85,19 +85,19 @@ The following example demonstrates passing additional parameters during Excel ex
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs7" %}
  
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

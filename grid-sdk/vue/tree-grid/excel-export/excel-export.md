@@ -20,14 +20,14 @@ To get start quickly with excel export feature, you can check on this video:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs8" %}
 
 ## Custom data source
 
@@ -35,14 +35,14 @@ The excel export provides an option to define datasource dynamically before expo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs9" %}
 
 ## Exporting Custom Aggregates in Tree Grid  
 The Tree Grid enables exporting custom aggregates, which summarize column data, to an Excel document using the `ExcelAggregateQueryCellInfo` event.  
@@ -50,10 +50,10 @@ The Tree Grid enables exporting custom aggregates, which summarize column data, 
 In the provided example, the customAggregateFn function computes the item count for a selected category, while the `ExcelAggregateQueryCellInfo` event customizes the exported cell values in the Excel document.
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs10" %}

@@ -16,14 +16,14 @@ The appearance of cells can be customized by using the [`queryCellInfo`](https:/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs2" %}
 
 ## Custom attributes
 
@@ -45,14 +45,14 @@ In the below example, we have customized the cells of `TaskID` and `StartDate` c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs3" %}
 
 ## Grid lines
 
@@ -71,13 +71,13 @@ The available modes of grid lines are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs4" %}
 
 >By default, the treegrid renders with `Default` mode.

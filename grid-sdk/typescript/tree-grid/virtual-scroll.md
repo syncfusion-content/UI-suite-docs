@@ -27,27 +27,27 @@ Expand and Collapse state of any child record will be persisted.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/virtualscroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/virtualscroll-cs1" %}
 {% endif %}
 
 ### Limitations 
@@ -86,27 +86,27 @@ To setup the column virtualization, set the [`enableVirtualization`](../api/tree
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/columnvirtual-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/columnvirtual-cs1" %}
 {% endif %}
 
 > Column's [width](../api/treegrid/column/#width) is required for column virtualization. If column's width is not defined then tree grid will consider its value as `200px`.

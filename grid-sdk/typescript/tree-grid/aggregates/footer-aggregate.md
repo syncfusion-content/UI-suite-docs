@@ -17,27 +17,27 @@ Footer aggregate value is calculated for all the rows, and it is displayed in th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/aggregates-cs3" %}
 {% endif %}
 
 > The aggregate values must be accessed inside the template using their corresponding [`type`](../../api/treegrid/aggregateColumnModel/#type) name.
@@ -50,25 +50,25 @@ You can format the aggregate value result by using the [`format`](../../api/tree
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/aggregates-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/aggregates-cs4" %}
 {% endif %}

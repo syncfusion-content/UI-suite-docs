@@ -38,13 +38,13 @@ The default items are listed below.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/contextmenu-cs1" %}
 
 ## Custom context menu items
 Custom context menu items can be defined by setting [contextMenuItems](https://ej2.syncfusion.com/react/documentation/api/treegrid/#contextmenuitems) as a collection of [contextMenuItemModel](https://ej2.syncfusion.com/react/documentation/api/grid/contextMenuItemModel/). Handle item actions in the [contextMenuClick](https://ej2.syncfusion.com/react/documentation/api/treegrid/#contextmenuclick) event.
@@ -53,26 +53,26 @@ In the following sample, a context menu item is added for parent rows to expand 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/contextmenu-cs2" %}
 
 ## Enable and disable context menu items dynamically
 Enable or disable context menu items using the [enableItems](https://ej2.syncfusion.com/documentation/api/menu/#enableitems) method within the [contextMenuOpen](https://ej2.syncfusion.com/documentation/api/treegrid/#contextmenuopen) event.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/contextmenu-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/contextmenu-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/contextmenu-cs3" %}
 
 > Hide or show a context menu item for a specific area of the TreeGrid by configuring the [target](https://ej2.syncfusion.com/react/documentation/api/grid/contextMenuItemModel/#target)t) property.  
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

@@ -34,27 +34,27 @@ N/A |N/A |`Equal` operator will always be used for Boolean filter. |Boolean
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs3" %}
 {% endif %}
 
 ## Filter bar template with custom component
@@ -69,27 +69,27 @@ In the following sample, the dropdown is used as a custom component in the Durat
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs4" %}
 {% endif %}
 
 ## Change default filter bar operator
@@ -102,25 +102,25 @@ In the following sample, we have changed the default operator for string typed c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs5" %}
 {% endif %}

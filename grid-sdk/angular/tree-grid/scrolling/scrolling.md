@@ -26,14 +26,14 @@ For example, set the TreeGrid's `height` to 315 pixels and `width` to 400 pixels
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/scrolling-cs1" %}
 
 ## Responsive with parent container
 
@@ -45,14 +45,14 @@ In the following example, the parent container has explicit height and width set
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/scrolling-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/scrolling-cs2" %}
 
 ## Sticky header
 
@@ -66,14 +66,14 @@ The following sample demonstrates how to enable or disable the sticky header in 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-sticky-header/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-sticky-header/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-sticky-header/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-sticky-header/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/scrolling-sticky-header" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/scrolling-sticky-header" %}
 
 ## Scroll to selected row
 
@@ -83,14 +83,14 @@ The following example demonstrates how to use the `rowSelected`` event to scroll
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/scrolling-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/scrolling-cs4" %}
 
 ## Hide the empty placeholder of the scrollbar
 
@@ -100,11 +100,11 @@ Here is an example of using `hideScroll`:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/scrolling-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/scrolling-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/scrolling-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/scrolling-cs5" %}

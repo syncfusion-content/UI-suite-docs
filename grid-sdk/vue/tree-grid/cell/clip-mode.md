@@ -20,13 +20,13 @@ There are three types of [`clipMode`](https://ej2.syncfusion.com/vue/documentati
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/cell/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/cell/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs5" %}
 
 >By default, [`columns.clipMode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#clipmode) value is `Ellipsis`.

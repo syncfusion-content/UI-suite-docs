@@ -21,15 +21,15 @@ The following keyboard shortcuts are supported in the TreeGrid for clipboard ope
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/clipboard-cs1" %}
 
 ## Copy to clipboard using external buttons
 
@@ -37,15 +37,15 @@ To copy selected rows or cell data to the clipboard with an external button, use
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/copy-method-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/copy-method-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/copy-method-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/copy-method-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/copy-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/copy-method-cs1" %}
 
 ## Copy hierarchy modes
 
@@ -58,15 +58,15 @@ The TreeGrid supports several copy hierarchy modes, configurable via the [`copyH
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/clipboard-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/clipboard-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/clipboard-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/clipboard-cs2" %}
 
 **Limitation:** Only the current view records are available in the clipboard during copy operations.
 
@@ -76,15 +76,15 @@ The AutoFill feature allows copying and pasting data to adjacent cells by draggi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/edit-toolbar-cs1" %}
 
 > - When `enableAutoFill` is set to true, an autofill icon appears on cell selection.
 > - Requires the selection `mode` to be `Cell`, `cellSelectionMode` set to `Box`, and batch editing enabled.
@@ -100,15 +100,15 @@ Content copied from TreeGrid cells can be pasted into other cells using <kbd>Ctr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/edit-toolbar-cs2" %}
 
 > - For paste functionality, the selection `mode` must be `Cell`, `cellSelectionMode` must be `Box`, and batch editing should be enabled.
 

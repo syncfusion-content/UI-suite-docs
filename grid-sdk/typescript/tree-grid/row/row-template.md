@@ -17,27 +17,27 @@ The [`rowTemplate`](../../api/treegrid/#rowtemplate) has an option to customise 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-template-cs1" %}
 {% endif %}
 
 The [`rowTemplate`](../../api/treegrid/#rowtemplate) property accepts only the TR element.
@@ -50,27 +50,27 @@ If the [`rowTemplate`](../../api/treegrid/#rowtemplate) is used, the value canno
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-template-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-template-formatting-cs1" %}
 {% endif %}
 
 ## Limitations

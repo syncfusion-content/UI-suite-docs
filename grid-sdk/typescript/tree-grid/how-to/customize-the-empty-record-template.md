@@ -21,25 +21,25 @@ In the following example, an image and text have been rendered as a template to 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/empty-records-template/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/empty-records-template/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/empty-records-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/empty-records-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/empty-records-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/empty-records-template" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/empty-records-template/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/empty-records-template/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/empty-records-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/empty-records-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/empty-records-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/empty-records-template" %}
 {% endif %}

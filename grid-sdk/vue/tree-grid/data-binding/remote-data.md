@@ -31,14 +31,14 @@ Similarly, if the user navigates to a new page, the root nodes of that specific 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs4" %}
 
 **Service code snippet:**
 
@@ -282,14 +282,14 @@ On remote data binding, all treegrid actions such as paging, loading child on-de
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs5" %}
 
 ## Custom adaptor
 
@@ -297,14 +297,14 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs6" %}
 
 ## Sending additional parameters to the server
 
@@ -312,14 +312,14 @@ To add a custom parameter to the data request, use the `addParams` method of `Qu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs7" %}
 
 ## Handling HTTP error
 
@@ -329,14 +329,14 @@ The argument passed to the [`actionFailure`](https://ej2.syncfusion.com/vue/docu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/data-binding/default-cs8" %}
 
 > The [`actionFailure`](https://ej2.syncfusion.com/vue/documentation/api/treegrid#actionfailure) event will be triggered not only for the server errors, but also when there is an exception while processing the treegrid actions.
 

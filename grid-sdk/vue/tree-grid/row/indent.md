@@ -16,14 +16,14 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/indent-outdent/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/indent-outdent/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/indent-outdent/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/indent-outdent/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/indent-outdent/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/indent-outdent/default-cs1" %}
 
 ## Indent/Outdent a row programmatically
 
@@ -31,11 +31,11 @@ You can change the hierarchy level of record programmatically using `indent` and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/programmatic-indent/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/programmatic-indent/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/programmatic-indent/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/programmatic-indent/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/programmatic-indent/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/programmatic-indent/default-cs1" %}

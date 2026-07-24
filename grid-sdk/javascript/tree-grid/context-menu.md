@@ -42,27 +42,27 @@ Items| Description
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs1" %}
 {% endif %}
 
 ## Custom context menu items
@@ -77,27 +77,27 @@ In the below sample, we have shown context menu item for parent rows to expand o
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs2" %}
 {% endif %}
 
 ## Enable and disable context menu items dynamically
@@ -108,27 +108,27 @@ You can enable and disable the context menu items using the [`enableItems`](http
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/contextmenu-cs3" %}
 {% endif %}
 
 > You can hide or show an item in context menu for specific area inside of treegrid by defining the [`target`](../api/grid/contextMenuItemModel/#target) property.

@@ -14,14 +14,14 @@ The [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/treegrid/#r
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rowtemplate-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rowtemplate-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rowtemplate-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rowtemplate-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rowtemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rowtemplate-cs1" %}
 
 The [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/treegrid/#rowtemplate) must return a single tr element.
 
@@ -31,14 +31,14 @@ When using [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/tree
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rowtemplateformat-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rowtemplateformat-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/rowtemplateformat-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/rowtemplateformat-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rowtemplateformat-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rowtemplateformat-cs1" %}
 
 ## Limitations
 

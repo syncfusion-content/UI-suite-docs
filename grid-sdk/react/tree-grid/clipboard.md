@@ -21,13 +21,13 @@ Interaction keys | Description
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/clip-board-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/clip-board-cs1" %}
 
 ## Copy to clipboard by external buttons
 
@@ -35,13 +35,13 @@ Invoke the [copy](https://ej2.syncfusion.com/react/documentation/api/treegrid/#c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/clip-board-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/clip-board-cs2" %}
 
 ## Copy Hierarchy Modes
 
@@ -57,13 +57,13 @@ TreeGrid supports multiple copy modes via the [copyHierarchyMode](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/clip-board-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/clip-board-cs3" %}
 
 ## AutoFill
 
@@ -71,13 +71,13 @@ AutoFill copies the data of selected cells and pastes it into adjacent cells by 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/clip-board-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/clip-board-cs4" %}
 
 > * When `enableAutoFill` is true, the AutoFill handle appears on cell selection.  
 > * It requires the selection `mode` to be `Cell`,  `cellSelectionMode` to be `Box` and also Batch Editing should be enabled.
@@ -93,13 +93,13 @@ Copy the content of a cell or a group of cells with <kbd>Ctrl + C</kbd> and past
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/clip-board-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/clip-board-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/clip-board-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/clip-board-cs5" %}
 
 > To perform paste functionality, it requires the selection `mode` to be `Cell`, `cellSelectionMode` to be `Box` and also Batch Editing should be enabled.
 

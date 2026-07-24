@@ -22,14 +22,14 @@ Here's an example of how to enable drag and drop within the TreeGrid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/row-cs3" %}
 
 > * The [`isPrimaryKey`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#isprimarykey) property is necessary to perform row drag and drop operation.
 
@@ -43,14 +43,14 @@ Here's an example of how to hide the drag and drop icon in the TreeGrid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs2/src/app.component.ts %}
 {% endhighlight %}    
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/dragndrop-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/dragndrop-cs2" %}
 
 > * Enabling the selection feature in the TreeGrid allows for the selection of rows before initiating the drag-and-drop operation.
 > * Multiple rows can be selected by clicking and dragging inside the TreeGrid. For multiple row selection, the [type](https://ej2.syncfusion.com/angular/documentation/api/treegrid/selectionSettings/#type) property must be set to **Multiple**.
@@ -91,14 +91,14 @@ Here's an example code snippet that demonstrates how to enable row drag and drop
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/row-cs4" %}
 
 ## Drag and drop to custom component 
 
@@ -108,14 +108,14 @@ In the below example, the selected TreeGrid row is dragged and dropped in to the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/dragndrop-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/dragndrop-cs1" %}
 
 > * The `rowDrop` event is fired when a row is dropped onto a custom component, regardless of whether the drop is successful or not. The `args.cancel` property can be used to prevent the default action.
 
@@ -451,11 +451,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/dragndrop-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/dragndrop-cs3" %}
 
 ## Perform row drag and drop action programmatically 
 
@@ -473,14 +473,14 @@ In the following example, using `click` event of an external button, row at inde
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/dragndrop-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/dragndrop-cs5" %}
 
 ## Prevent reordering a row 
 
@@ -490,14 +490,14 @@ In the following example, the drop action is cancelled using the `rowDrop` event
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dragndrop-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dragndrop-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/dragndrop-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/dragndrop-cs4" %}
 
 ### Prevent reordering a row as child to another row
 
@@ -507,14 +507,14 @@ In the following example, the drop action of the **Child** position is prevented
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/row-cs5" %}
 
 ## Limitations
 

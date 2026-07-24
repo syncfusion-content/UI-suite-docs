@@ -25,33 +25,33 @@ You can use TreeGrid [`dataSource`](../../api/treegrid/#datasource) property to 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/index.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/datasource.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/datasource.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/index.js %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/es5-datasource.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/es5-datasource.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs1" %}
 {% endif %}
 
 > * If you bind the dataSource from this way, then it acts like a local dataSource. So you cannot perform any server side crud actions.

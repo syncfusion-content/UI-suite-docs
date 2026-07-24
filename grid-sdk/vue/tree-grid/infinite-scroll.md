@@ -18,14 +18,14 @@ To enable Infinite scrolling, set `enableInfiniteScrolling` property as true.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs1" %}
 
 ## InitialBlocks
 
@@ -35,14 +35,14 @@ In the below demo, we have changed this property value to load five page records
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs2" %}
 
 ## Cache Mode
 
@@ -52,14 +52,14 @@ To enable the cache mode in Infinite scrolling, set `infiniteScrollSettings.enab
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs3" %}
 
 ## Limitations for Infinite Scrolling
 

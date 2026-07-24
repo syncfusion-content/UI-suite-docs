@@ -31,14 +31,14 @@ N/A | N/A | **Equal** operator is always used for Boolean columns | Boolean
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs3" %}
 
 > By default, [filterSettings.columns.operator](https://ej2.syncfusion.com/react/documentation/api/treegrid/filterSettingsModel/#operators) is `equal`.
 
@@ -50,14 +50,14 @@ The following example demonstrates the way to use filter template for a column w
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs4" %}
 
 ### Change default filter bar operator
 
@@ -67,11 +67,11 @@ In the following sample, the default operator for string columns is changed from
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs5" %}

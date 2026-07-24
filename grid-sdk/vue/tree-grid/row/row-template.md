@@ -14,14 +14,14 @@ The [`rowTemplate`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#r
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/rowtemplate-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/rowtemplate-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/rowtemplate-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/rowtemplate-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/rowtemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/rowtemplate-cs1" %}
 
 The [`rowTemplate`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#rowtemplate) property accepts only the TR element.
 
@@ -31,14 +31,14 @@ If the [`rowTemplate`](https://ej2.syncfusion.com/vue/documentation/api/treegrid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/rowtemplateformat-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/rowtemplateformat-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/rowtemplateformat-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/rowtemplateformat-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/rowtemplateformat-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/rowtemplateformat-cs1" %}
 
 ## Limitations
 

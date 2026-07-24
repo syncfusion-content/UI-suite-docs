@@ -21,14 +21,14 @@ is set as '3'. Hence, the left two columns and top three rows are frozen.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/frozencolumn-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/frozencolumn-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/frozencolumn-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/frozencolumn-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/frozencolumn-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/frozencolumn-cs1" %}
 
 ### Freeze particular columns
 
@@ -39,14 +39,14 @@ the `isFrozen` property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/isfrozen-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/isfrozen-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/isfrozen-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/isfrozen-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/isfrozen-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/isfrozen-cs1" %}
 
 ### Freeze direction
 
@@ -61,14 +61,14 @@ In this demo, the **Task Name** column is frozen at the left and the **Priority*
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/freeze-direction-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/freeze-direction-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/freeze-direction-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/freeze-direction-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/freeze-direction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/freeze-direction-cs1" %}
 
 > * Freeze Direction is not compatible with the [`isFrozen`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#isfrozen) and [`frozenColumns`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#frozencolumns) properties.
 

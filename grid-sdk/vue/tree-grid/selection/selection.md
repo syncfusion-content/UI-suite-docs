@@ -31,14 +31,14 @@ To get start quickly with selection options, you can check on this video:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs5" %}
 
 ## Selection mode
 
@@ -51,11 +51,11 @@ TreeGrid supports three types of selection mode which can be set by using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs6" %}

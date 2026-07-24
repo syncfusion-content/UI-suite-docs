@@ -28,14 +28,14 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs1" %}
 
 ## Custom column menu item
 
@@ -47,14 +47,14 @@ In the below example, clear sorting action was performed through `columnMenuItem
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs2" %}
 
 ## Customize menu items for particular columns
 
@@ -64,11 +64,11 @@ The following example shows how to hide the built-in **Filter** menu item when t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs3" %}

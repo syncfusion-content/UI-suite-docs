@@ -42,17 +42,17 @@ The following example demonstrates how the expand and collapse icons are customi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs1/src/main.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="custom-column.style.css" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs1/src/custom-column.style.css %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs1/src/custom-column.style.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs1" %}
 
 ## Change indent space of tree column cell text 
 
@@ -62,14 +62,14 @@ The following example demonstrates how to apply an indent space by adding a CSS 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs2" %}
 
 ## Render parent rows in collapsed state 
 
@@ -79,14 +79,14 @@ The following example demonstrates rendering all parent rows in a collapsed stat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs3" %}
 
 ## Retain expanded and collapsed state 
 
@@ -96,17 +96,17 @@ The following example demonstrates how the JSON object has an `isExpanded` prope
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs4/src/main.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs4" %}
 
 ## Persist expanded and collapsed states on page refresh using localStorage
 
@@ -120,14 +120,14 @@ The following example demonstrates the above-mentioned steps to persist the expa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs5" %}
 
 ## Programmatically expand and collapse a row  
 
@@ -213,11 +213,11 @@ The following events are available for handling expand and collapse actions:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/tree-column-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/tree-column-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/tree-column-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/tree-column-cs6" %}

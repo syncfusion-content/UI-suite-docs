@@ -24,14 +24,14 @@ Expand and Collapse state of any child record will be persisted.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs4" %}
 
 ### Limitations 
 
@@ -66,14 +66,14 @@ To setup the column virtualization, set the [`enableVirtualization`](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/virtualscroll-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/scroll/virtualscroll-cs5" %}
 
 > Column's [`width`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#width) is required for column virtualization. If column's width is not defined then tree grid will consider its value as `200px`.
 
