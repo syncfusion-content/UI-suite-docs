@@ -66,10 +66,30 @@ Now, You can add the Block Editor component to your application. Replace the def
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.tsx %}
+// Import the BlockEditor.
+import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
+import * as React from 'react';
+import './App.css';
+// To render BlockEditor.
+function App() {
+    return (
+        <BlockEditorComponent id="block-editor"></BlockEditorComponent>
+    );
+}
+export default App;
 {% endhighlight %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.jsx %}
+// Import the BlockEditor.
+import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
+import * as React from 'react';
+import './App.css';
+// To render BlockEditor.
+function App() {
+    return (
+        <BlockEditorComponent id="block-editor"></BlockEditorComponent>
+    );
+}
+export default App;
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.css %}
