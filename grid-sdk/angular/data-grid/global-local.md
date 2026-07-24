@@ -251,14 +251,14 @@ The following example demonstrates loading a translation object for "German (de)
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs1/src/locale.json %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs1/src/locale.json %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -274,14 +274,14 @@ The following example demonstrates loading a translation object for "French (fr)
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs5/src/locale.json %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs5/src/locale.json %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -312,14 +312,14 @@ An example demonstrates switching to the "French" culture and setting the curren
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs6/src/locale.json %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs6/src/locale.json %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -341,14 +341,14 @@ This ensures that the Grid component uses the correct format strings for number,
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs2/src/locale.json %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs2/src/locale.json %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -369,14 +369,14 @@ The example below adds an [EJ2 Toggle Switch Button](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs1/src/locale.json %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs1/src/locale.json %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

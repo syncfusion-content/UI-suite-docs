@@ -76,11 +76,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/reactive-aggregates-batchedit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/reactive-aggregates-batchedit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/reactive-aggregates-batchedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/reactive-aggregates-batchedit-cs1" %}
 
 > When using batch editing with grouping, adding a new record to a grouped grid does not refresh the aggregate values automatically.
 
@@ -169,11 +169,11 @@ interface ItemType{
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/reactive-aggregates-inlineedit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/reactive-aggregates-inlineedit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/reactive-aggregates-inlineedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/reactive-aggregates-inlineedit-cs1" %}
 
 > In inline and dialog editing, manually invoke the aggregate module’s `refresh` method to update aggregates after data changes. Access aggregate values in template cells by their type key (e.g., `data.sum`, `data.max`).
 

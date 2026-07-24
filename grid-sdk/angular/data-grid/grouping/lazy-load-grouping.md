@@ -21,15 +21,15 @@ The following example demonstrates configuring lazy load grouping using the `gro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/lazy-load-grouping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/lazy-load-grouping-cs1" %}
 
 ## Handling the lazy load grouping at server-side
 
@@ -117,15 +117,15 @@ Example enabling both features:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/lazy-load-grouping-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/lazy-load-grouping-cs2" %}
 
 > * The [enableInfiniteScrolling](https://ej2.syncfusion.com/angular/documentation/api/grid#enableinfinitescrolling) property is optional and can be set to `true` or `false` based on the requirement.
 > * When enabling the `enableInfiniteScrolling` feature, it is necessary to define the [height](https://ej2.syncfusion.com/angular/documentation/api/grid#height) property.
@@ -148,15 +148,15 @@ The following example demonstrates configuring lazy load grouping with virtual s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/lazy-load-grouping-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/lazy-load-grouping-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/lazy-load-grouping-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/lazy-load-grouping-cs3" %}
 
 > When using the `enableVirtualization` feature, it is necessary to define the [height](https://ej2.syncfusion.com/angular/documentation/api/grid#height) property.
 

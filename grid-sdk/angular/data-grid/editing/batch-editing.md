@@ -18,15 +18,15 @@ The following example demonstrates enabling batch editing in the Angular Grid co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs3" %}
 
 ## Automatically update a column based on changes in another column
 
@@ -36,15 +36,15 @@ In the following example, the "Total Cost" column value is updated based on chan
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs4" %}
 
 > The [updateCell](https://ej2.syncfusion.com/angular/documentation/api/grid#updatecell) method enables programmatic updates to cells in batch mode.
 
@@ -66,15 +66,15 @@ In the following demo, CRUD operations are prevented based on the "Role" column 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs5" %}
 
 ## Adding a new row at the bottom of the grid
 
@@ -90,15 +90,15 @@ The following example illustrates to enable the addition of new rows at the bott
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-batch-add-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-batch-add-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-batch-add-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-batch-add-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-batch-add-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-batch-add-cs1" %}
 
 ## Confirmation dialog
 
@@ -120,15 +120,15 @@ The following example demonstrates enabling or disabling the confirmation dialog
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs6" %}
 
 ## Single-click editing and navigation with arrow keys
 
@@ -142,15 +142,15 @@ Below is an example showing both single-click editing and arrow key navigation b
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/batch-edit/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/batch-edit/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/batch-edit/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/batch-edit/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/batch-edit" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/batch-edit" %}
 
 ## Disable editing for specific cells
 
@@ -162,15 +162,15 @@ For example, the following illustrates disabling editing for cells with the valu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs22/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs22/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs22/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs22/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs22" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs22" %}
 
 ## Immediate save or update of changes
 
@@ -188,15 +188,15 @@ The following example demonstrates immediate saving or updating using the `cellS
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-batch-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-batch-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-batch-cs1/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/grid/edit-batch-cs1/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-batch-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-batch-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-batch-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-batch-cs1" %}

@@ -24,7 +24,7 @@ The following example demonstrates implementing and using a custom aggregate fun
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/aggregates-custom-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/aggregates-custom-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.template.html" %}
 {% raw %}
@@ -49,11 +49,11 @@ The following example demonstrates implementing and using a custom aggregate fun
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/aggregates-custom-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/aggregates-custom-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-custom-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/aggregates-custom-cs1" %}
 
 > In footer, group footer, or caption templates, the custom aggregate value is accessed using the key **Custom**.
 
@@ -65,7 +65,7 @@ The following example demonstrates displaying the distinct count for the "Ship C
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/aggregates-custom-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/aggregates-custom-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.template.html" %}
 {% raw %}
@@ -90,11 +90,11 @@ The following example demonstrates displaying the distinct count for the "Ship C
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/aggregates-custom-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/aggregates-custom-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/aggregates-custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/aggregates-custom-cs2" %}
 
 > To display the aggregate value of the current column in another column, use the [columnName](https://ej2.syncfusion.com/angular/documentation/api/grid/aggregateColumn#columnname) property. If the `columnName` property is not defined, the field name value will be assigned to the `columnName` property.
 

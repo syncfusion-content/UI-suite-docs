@@ -77,14 +77,14 @@ The following example demonstrates enabling the context menu feature in the grid
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/context-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/context-menu-cs1" %}
 
 ## Custom context menu items
 
@@ -96,14 +96,14 @@ The following example demonstrates adding custom context menu items in the Grid 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/context-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/context-menu-cs2" %}
 
 ## Show context menu on left click
 
@@ -117,14 +117,14 @@ The following example demonstrates showing the context menu on left click using 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/context-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/context-menu-cs3" %}
 
 > Control the visibility of a context menu item for a particular grid area by setting the [target](https://ej2.syncfusion.com/angular/documentation/api/grid/contextMenuItemModel#target) property.
 
@@ -136,14 +136,14 @@ The example below uses the [EJ2 Toggle Switch Button](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/context-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/context-menu-cs4" %}
 
 ## Show or hide context menu items
 
@@ -153,11 +153,11 @@ The example below demonstrates the use of the [EJ2 Toggle Switch Button](https:/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/context-menu-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/context-menu-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/context-menu-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/context-menu-cs5" %}

@@ -14,12 +14,12 @@ You can customize the default values available in the pager dropdown of the Sync
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-column-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-column-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-column-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/custom-column-cs4" %}

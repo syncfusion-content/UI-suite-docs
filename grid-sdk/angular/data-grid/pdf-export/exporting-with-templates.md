@@ -104,11 +104,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-template-export-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-template-export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/column-template-export-cs1" %}
 
 ![ColumnTemplateExport](../images/colTemp_pdf_expt.gif)
 
@@ -374,11 +374,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/detail-template-export-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/detail-template-export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/detail-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/detail-template-export-cs1" %}
 
 ![DetailTemplateExport](../images/detailTemp_pdf_expt.gif)
 
@@ -445,10 +445,10 @@ interface CaptionDataStructure {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/caption-template-export-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/caption-template-export-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/caption-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/caption-template-export-cs1" %}
 
 ![CaptionTemplateExport](../images/captionTemp_pdf_expt.gif)
