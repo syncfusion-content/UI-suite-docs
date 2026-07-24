@@ -13,19 +13,6 @@ documentation: ug
 
 Data labels are fields that includes information about the sample point connected to an output. It can be added to a chart series by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Visible) property in the [`DataLabel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_DataLabel). By default, the labels will arrange smartly without overlapping.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/datalabel/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Datalabel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/datalabel/datalabel.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/datalabel/razor %}
@@ -34,26 +21,12 @@ Data labels are fields that includes information about the sample point connecte
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/datalabel/datalabel.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Position
 
 The [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Position) property is used to place the label either on `Top`, `Middle`, or `Bottom`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -63,26 +36,12 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Cha
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Template
 
 Label content can be formatted by using the template option. Inside the template, the placeholder text `${point.x}` and `${point.y}` can be added to display corresponding data points x & y value. Using [`Template`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Template) property, the data label template can be set.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/template/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -92,26 +51,12 @@ Label content can be formatted by using the template option. Inside the template
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Text mapping
 
 Text from the data source can be mapped using the [`Name`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Name) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/mapping/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Mapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/mapping/mapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -121,26 +66,12 @@ Text from the data source can be mapped using the [`Name`](https://help.syncfusi
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/mapping/mapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Format
 
 Data label for the chart can be formatted using the [`Format`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Format) property. The global formatting options can be used as 'n', 'p', and 'c'.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -150,7 +81,6 @@ Data label for the chart can be formatted using the [`Format`](https://help.sync
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 <table>
   <tr>
@@ -215,19 +145,6 @@ Data label for the chart can be formatted using the [`Format`](https://help.sync
 
 The [`Margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Margin) for data label can be applied by using [`Left`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DMargin.html#Syncfusion_EJ2_Charts_Chart3DMargin_Left), [`Right`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DMargin.html#Syncfusion_EJ2_Charts_Chart3DMargin_Right), [`Bottom`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DMargin.html#Syncfusion_EJ2_Charts_Chart3DMargin_Bottom) and [`Top`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DMargin.html#Syncfusion_EJ2_Charts_Chart3DMargin_Top) properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/margin/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/margin/razor %}
@@ -236,26 +153,12 @@ The [`Margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Chart
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/margin/margin.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customization
 
 The `Stroke` and `Border` of data label can be customized using [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Fill) and [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Border) properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -265,26 +168,12 @@ The `Stroke` and `Border` of data label can be customized using [`Fill`](https:/
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customizing specific label
 
 A specific label can be customized by using the [`TextRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_TextRender) event.  The `TextRender` event allows you to change the label text for the point.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/series-percentage/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/series-percentage/series-percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -294,6 +183,5 @@ A specific label can be customized by using the [`TextRender`](https://help.sy
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/datalabel/series-percentage/series-percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

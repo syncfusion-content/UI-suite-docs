@@ -17,8 +17,6 @@ When the mouse is hovered over a bar in the Bullet Chart, the tooltip displays i
 
 By setting [`Enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.BulletChartBulletTooltipSettings.html#Syncfusion_EJ2_Charts_BulletChartBulletTooltipSettings_Enable)property to true. By default tooltip is visible in bullet-chart. The tooltip is not visible by default. To make it visible, set the [`Enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.BulletChartBulletTooltipSettings.html#Syncfusion_EJ2_Charts_BulletChartBulletTooltipSettings_Enable) property in the [`Tooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.BulletChart.html#Syncfusion_EJ2_Charts_BulletChart_Tooltip) to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/bullet-chart/tool-tip/tool-tip/tagHelper %}
@@ -33,18 +31,6 @@ public class TooltipData
 }
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/bullet-chart/tool-tip/tool-tip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tool-tip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/bullet-chart/tool-tip/tool-tip/tool-tip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

@@ -19,21 +19,6 @@ This guide covers printing the chart and exporting to various formats with custo
 
 Print the Sankey Chart directly to paper or PDF using the `print()` method. This opens the browser's print dialog, allowing users to select printer settings and output format:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/print-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/print-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/print-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/print-cs1/index.js %}
@@ -44,7 +29,6 @@ Print the Sankey Chart directly to paper or PDF using the `print()` method. This
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/print-cs1" %}
-{% endif %}
 
 ## Export
 
@@ -63,21 +47,6 @@ The Sankey Chart supports exporting to the following formats:
 Export the chart using default settings with a default filename:
 ### Export with Default Settings
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-formats-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-formats-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-formats-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-formats-cs1/index.js %}
@@ -88,26 +57,10 @@ Export the chart using default settings with a default filename:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-formats-cs1" %}
-{% endif %}
 
 ## Export with Custom Options
 
 Export the chart with a custom filename and format selection to control output file names and type:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-custom-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-custom-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-custom-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -119,7 +72,6 @@ Export the chart with a custom filename and format selection to control output f
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-custom-cs1" %}
-{% endif %}
 
 ## Export Events
 
@@ -128,21 +80,6 @@ Export the chart with a custom filename and format selection to control output f
 Use the `beforeExport` event to customize the export process before the file is generated. This allows you to modify chart properties, add watermarks, or perform pre-export calculation
 
 Use the `beforeExport` event to customize the export process:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/before-export-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/before-export-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/before-export-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -154,26 +91,10 @@ Use the `beforeExport` event to customize the export process:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/before-export-cs1" %}
-{% endif %}
 
 ## Export Completed Event
 
 Handle the completion of export using the `exportCompleted` event:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-completed-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-completed-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-completed-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -185,7 +106,6 @@ Handle the completion of export using the `exportCompleted` event:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/print-export/export-completed-cs1" %}
-{% endif %}
 
 ## Export Format Comparison
 

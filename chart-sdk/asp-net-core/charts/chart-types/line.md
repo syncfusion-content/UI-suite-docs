@@ -17,8 +17,6 @@ To render a [line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/cha
 
    * **Set the series type:** Define the series `type` as **Line** in your chart configuration. This indicates that the data should be represented as a line chart, which is ideal for visualizing trends over time or across categories.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/tagHelper %}
@@ -27,25 +25,11 @@ To render a [line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/cha
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/line.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/line.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `dataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `xName` and `yName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/tagHelper %}
@@ -54,18 +38,6 @@ You can bind data to the chart using the `dataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/line.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line/line.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Series customization
 
@@ -74,8 +46,6 @@ The following properties can be used to customize the `line` series.
 **Fill**
 
 The `fill` property determines the color applied to the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -86,21 +56,7 @@ The `fill` property determines the color applied to the series.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-line/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-line/series-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 The `fill` property can be used to apply a gradient color to the line series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -111,23 +67,9 @@ The `fill` property can be used to apply a gradient color to the line series. By
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-line-grad/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-line-grad.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-line-grad/series-line-grad.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Opacity**
 
 The `opacity` property specifies the transparency level of the fill. Adjusting this property allows you to control how opaque or transparent the fill color of the series appears.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -138,23 +80,9 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/custom-line/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/custom-line/custom-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Dash array**
 
 The `dashArray` property determines the pattern of dashes and gaps in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -165,23 +93,9 @@ The `dashArray` property determines the pattern of dashes and gaps in the series
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/dash-array/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dash-array.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/dash-array/dash-array.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Width**
 
 The `width` property specifies the stroke width applied to the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -192,18 +106,6 @@ The `width` property specifies the stroke width applied to the series.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line-width/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line-width.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/line-width/line-width.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Multicolored line
 
 To render a multicolored line series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
@@ -211,8 +113,6 @@ To render a multicolored line series in your chart, you need to follow a few ste
 * **Set the series type:** Define the series `type` as **MultiColoredLine** in your chart configuration. This specifies that the series should be rendered as a multicolored line chart, with different segments of the line having distinct colors.
 
 * **Map individual colors:** Utilize the `pointColorMapping` property to assign individual colors to each data point. This allows you to customize the color of each segment of the line based on your data.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -223,18 +123,6 @@ To render a multicolored line series in your chart, you need to follow a few ste
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/multi-line/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multi-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/multi-line/multi-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Empty points
 
 Data points with **null** or **undefined** values are considered empty. Empty data points are ignored and not plotted on the chart.
@@ -242,8 +130,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 **Mode**
 
 Use the `mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -254,23 +140,9 @@ Use the `mode` property to define how empty or missing data points are handled i
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Fill**
 
 Use the `fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -281,23 +153,9 @@ Use the `fill` property to customize the fill color of empty points in the serie
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Border**
 
 Use the `border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -308,25 +166,11 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty-border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Events
 
 ### Series Render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -337,23 +181,9 @@ The `seriesRender` event allows you to customize series properties, such as data
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Point render
 
 The `pointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -363,18 +193,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/point-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/line-charts/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## See Also
 

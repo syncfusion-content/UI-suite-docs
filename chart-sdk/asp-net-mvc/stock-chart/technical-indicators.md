@@ -65,19 +65,6 @@ Moving average Indicators are used to define the direction of the trend. To rend
 A Stock Chart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices.
 To render a Bollinger Band, use indicator [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_Type) as `BollingerBand`.Bollinger band will be represented by three lines (upperLine, lowerLine, signalLine).(https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_Type) and [`StandardDeviations`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_StandardDeviation) is 2.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Indicator.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator/indicator.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator/razor %}
@@ -86,7 +73,6 @@ To render a Bollinger Band, use indicator [`Type`](https://help.syncfusion.com/c
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator/indicator.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Indicator Events
 
@@ -98,19 +84,6 @@ The following indicator events are supported by the StockChart component:
 
 - **`indicatorChanged`** – Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator-events/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Indicator-events.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator-events/indicator-events.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator-events/razor %}
@@ -119,4 +92,3 @@ The following indicator events are supported by the StockChart component:
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/indicator-events/indicator-events.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

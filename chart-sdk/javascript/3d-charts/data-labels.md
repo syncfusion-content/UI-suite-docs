@@ -13,21 +13,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Data labels are fields that includes information about the sample point connected to an output. It can be added to a chart series by enabling the [`visible`](../api/chart3d/dataLabelStyleModel/#visible) property in the [`dataLabel`](../api/chart3d/series3DModel/#datalabel). By default, the labels will arrange smartly without overlapping.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs1/index.js %}
@@ -38,28 +23,12 @@ Data labels are fields that includes information about the sample point connecte
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs1" %}
-{% endif %}
 
 >Note: To use data label feature, we need to inject `DataLabel3D` module using `Chart3D.Inject(DataLabel3D)` method.
 
 ## Position
 
 The [`position`](../api/chart3d/dataLabelStyleModel/#position) property is used to place the label either on `Top`, `Middle`, or `Bottom`.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,26 +40,10 @@ The [`position`](../api/chart3d/dataLabelStyleModel/#position) property is used 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs2" %}
-{% endif %}
 
 ## Template
 
 Label content can be formatted by using the template option. Inside the template, the placeholder text `${point.x}` and `${point.y}` can be added to display corresponding data points x & y value. Using [`template`](../api/chart3d/dataLabelStyleModel/#template) property, the data label template can be set.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -102,26 +55,10 @@ Label content can be formatted by using the template option. Inside the template
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs3" %}
-{% endif %}
 
 ## Text mapping
 
 Text from the data source can be mapped using the [`name`](../api/chart3d/dataLabelStyleModel/#name) property.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -133,26 +70,10 @@ Text from the data source can be mapped using the [`name`](../api/chart3d/dataLa
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs4" %}
-{% endif %}
 
 ## Format
 
 Data label for the chart can be formatted using the [`format`](../api/chart3d/dataLabelStyleModel/#format) property. The global formatting options can be used as 'n', 'p', and 'c'.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -164,7 +85,6 @@ Data label for the chart can be formatted using the [`format`](../api/chart3d/da
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs5" %}
-{% endif %}
 
 <table>
   <tr>
@@ -227,21 +147,6 @@ Data label for the chart can be formatted using the [`format`](../api/chart3d/da
 
 The [`margin`](../api/chart3d/dataLabelStyleModel/#margin) for data label can be applied by using [`left`](../api/chart3d/marginModel/#left), [`right`](../api/chart3d/marginModel/#right), [`bottom`](../api/chart3d/marginModel/#bottom) and [`top`](../api/chart3d/marginModel/#top) properties.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs6/index.js %}
@@ -252,26 +157,10 @@ The [`margin`](../api/chart3d/dataLabelStyleModel/#margin) for data label can be
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs6" %}
-{% endif %}
 
 ## Customization
 
 The `stroke` and `border` of data label can be customized using [`fill`](../api/chart3d/dataLabelStyleModel/#fill) and [`border`](../api/chart3d/dataLabelStyleModel/#border) properties.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -283,26 +172,10 @@ The `stroke` and `border` of data label can be customized using [`fill`](../api/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs7" %}
-{% endif %}
 
 ## Customizing specific label
 
 A specific label can be customized by using the [`textRender`](../api/chart3d/i3dtextrendereventargs/) event. The `textRender` event allows you to change the label text for the point.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/data-label-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -314,4 +187,3 @@ A specific label can be customized by using the [`textRender`](../api/chart3d/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/data-label-cs8" %}
-{% endif %}

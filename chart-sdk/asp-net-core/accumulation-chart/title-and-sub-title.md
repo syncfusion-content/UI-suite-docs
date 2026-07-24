@@ -14,8 +14,6 @@ documentation: ug
 
 Accumulation Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Title) property, to show the information about the data plotted.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title/tagHelper %}
@@ -31,25 +29,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Title customization
 
 Accumulation Chart can be customized a title using [`titleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TitleStyle) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -66,25 +50,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-cus/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-cus.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-cus/title-cus.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Position
 
 The [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChartTitleStyleSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTitleStyleSettings_Position) property customizes the placement of the accumulation chart title. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The custom option allows you to position the title anywhere on the chart using x and y coordinates, providing flexible title alignment based on layout requirements.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -95,25 +65,11 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Ch
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-position/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-position/title-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## SubTitle
 
 Accumulation Chart can be given a subtitle using [`subTitle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitle) property, to show the information about the data plotted.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -130,25 +86,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/sub-title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Sub-title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/sub-title/sub-title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## SubTitle customization
 
 Accumulation Chart can be customized a subtitle using [`subTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitleStyle) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -165,25 +107,11 @@ public class PieChartData
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/sub-title-cus/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Sub-title-cus.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/sub-title-cus/sub-title-cus.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Position
 
 The [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChartTitleStyleSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTitleStyleSettings_Position) property customizes the placement of the accumulation chart subtitle. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The custom option allows you to position the subtitle anywhere on the chart using x and y coordinates, providing flexible subtitle alignment based on layout requirements.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -193,17 +121,4 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Ch
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-position/title-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-position/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/pie-doughnut/title-position/title-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 

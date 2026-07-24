@@ -35,21 +35,6 @@ Configure global label styling for all nodes by setting properties like font siz
 
 Here is an example of customizing label appearance:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/fontstyle-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/fontstyle-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/fontstyle-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/fontstyle-cs1/index.js %}
@@ -60,26 +45,10 @@ Here is an example of customizing label appearance:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/fontstyle-cs1" %}
-{% endif %}
 
 ## Hiding Labels
 
 Control label visibility using the `visible` property in `labelSettings`. Set it to `false` to hide all node labels, which can be useful for creating cleaner visualizations when labels take up too much space:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/hidden-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/hidden-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/hidden-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,7 +60,6 @@ Control label visibility using the `visible` property in `labelSettings`. Set it
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/hidden-cs1" %}
-{% endif %}
 
 ## Font Styling
 
@@ -103,21 +71,6 @@ Apply custom font styling to all labels using properties such as:
 - **`fontStyle`**: Apply text styling ('normal' or 'italic')
 - **`color`**: Set text color (hex or color names)
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/individual-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/individual-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/individual-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/individual-cs1/index.js %}
@@ -128,26 +81,10 @@ Apply custom font styling to all labels using properties such as:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/individual-cs1" %}
-{% endif %}
 
 ## Individual Node Labels
 
 Customize the appearance of specific node labels by configuring the `label` property on each node object. This allows you to override global label settings for specific nodes, enabling data-driven label customization:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -159,7 +96,6 @@ Customize the appearance of specific node labels by configuring the `label` prop
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1" %}
-{% endif %}
 
 ## Advanced Label Configuration
 
@@ -167,21 +103,6 @@ Customize the appearance of specific node labels by configuring the `label` prop
 
 Use the `labelRendering` event to customize label text, styling, and appearance dynamically during the render process. This event is triggered for each label before rendering, allowing you to apply conditional formatting, modify text, or adjust styling based on data values:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1/index.js %}
@@ -192,4 +113,3 @@ Use the `labelRendering` event to customize label text, styling, and appearance 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/labels/rendering-event-cs1" %}
-{% endif %}

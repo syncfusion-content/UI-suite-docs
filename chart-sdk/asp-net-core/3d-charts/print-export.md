@@ -14,8 +14,6 @@ documentation: ug
 
 The rendered 3D chart can be printed directly from the browser by calling the public method `print`. The ID of the 3D chart's div element must be passed as the input parameter to that method.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/print/tagHelper %}
@@ -25,25 +23,11 @@ The rendered 3D chart can be printed directly from the browser by calling the pu
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/print/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Export
 
 The rendered 3D chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the `export` method. The input parameters for this method are `type` for format and `fileName` for result.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -53,17 +37,5 @@ The rendered 3D chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format u
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/export/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/export/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

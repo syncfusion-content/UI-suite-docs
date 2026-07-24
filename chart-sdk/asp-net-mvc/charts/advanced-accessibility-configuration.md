@@ -23,19 +23,6 @@ The chart component has a number of characteristics that enable accessibility fe
 * [`FocusBorderWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_FocusBorderWidth) - Specifies the width of the focus border.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the chart element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/line/line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/line/razor %}
@@ -44,7 +31,6 @@ The chart component has a number of characteristics that enable accessibility fe
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/line/line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Series
 
@@ -56,19 +42,6 @@ The [`Series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Chart
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeriesAccessibility.html#Syncfusion_EJ2_Charts_ChartSeriesAccessibility_Focusable) - Allows the series to receive focus, making it accessible via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeriesAccessibility.html#Syncfusion_EJ2_Charts_ChartSeriesAccessibility_TabIndex) - Specifies the tab order of the series element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/series/series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/series/razor %}
@@ -77,7 +50,6 @@ The [`Series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Chart
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/series/series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Title and subtitle
 
@@ -88,19 +60,6 @@ In the ASP.NET MVC chart component, the [`TitleStyle`](https://help.syncfusion.c
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Enables or disables the keyboard navigation focus for the title and subtitle.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the title and subtitle element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/title/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/title/razor %}
@@ -109,7 +68,6 @@ In the ASP.NET MVC chart component, the [`TitleStyle`](https://help.syncfusion.c
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/title/title.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Annotations
 
@@ -120,19 +78,6 @@ The [`Annotations`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Specifies whether annotations are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the annotation element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/annotation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/annotation/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/annotation/razor %}
@@ -141,7 +86,6 @@ The [`Annotations`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Trendline
 
@@ -152,19 +96,6 @@ The `Trendlines` property allows you to display trends in the data. The followin
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Specifies whether trendlines are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the trendline element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/trendline/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Trendline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/trendline/trendline.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/trendline/razor %}
@@ -173,7 +104,6 @@ The `Trendlines` property allows you to display trends in the data. The followin
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/trendline/trendline.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Zooming
 
@@ -184,19 +114,6 @@ The [`ZoomSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Specifies whether zoom toolkit items are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the zooming element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/zoom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Zoom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/zoom/zoom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/zoom/razor %}
@@ -205,7 +122,6 @@ The [`ZoomSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/zoom/zoom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Technical indicators
 
@@ -216,19 +132,6 @@ The [`Indicators`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.C
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Specifies whether indicators are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the indicators element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/indicator/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Indicator.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/indicator/indicator.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/indicator/razor %}
@@ -237,7 +140,6 @@ The [`Indicators`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.C
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/indicator/indicator.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Legend
 
@@ -248,19 +150,6 @@ The [`LegendSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.E
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_Focusable) - Specifies whether legend items are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_TabIndex) - Specifies the tab order of the legend element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/legend/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/legend/legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/legend/razor %}
@@ -269,4 +158,3 @@ The [`LegendSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.E
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/accessibility/legend/legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

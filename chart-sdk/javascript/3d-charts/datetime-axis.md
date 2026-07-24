@@ -16,21 +16,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 DateTime axis uses date time scale and displays the date time values as axis labels in the specified format.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs1/index.js %}
@@ -41,28 +26,12 @@ DateTime axis uses date time scale and displays the date time values as axis lab
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs1" %}
-{% endif %}
 
 >Note: To use datetime axis, we need to inject `DateTime3D` module using `Chart3D.Inject(DateTime3D)` method and set the [`valueType`](../api/chart3d/axis3D/#valuetype) of axis to **DateTime**.
 
 ## DateTime category axis
 
 DateTime category axis is used to display the date time values with non-linear intervals. For example, the business days alone have been depicted in a week here.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -74,28 +43,12 @@ DateTime category axis is used to display the date time values with non-linear i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs2" %}
-{% endif %}
 
 >Note: To use datetime category axis, we need to inject `DateTimeCategory3D` module using the `Chart3D.Inject(DateTimeCategory3D)` method and set the [`valueType`](../api/chart3d/axis3D/#valuetype) of axis to **DateTimeCategory**.
 
 ### Range
 
 Range of an axis will be calculated automatically based on the provided data. You can also customize the range of an axis using [`minimum`](../api/chart3d/axis3D/#minimum), [`maximum`](../api/chart3d/axis3D/#maximum) and [`interval`](../api/chart3d/axis3D/#interval) properties.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -107,7 +60,6 @@ Range of an axis will be calculated automatically based on the provided data. Yo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs3" %}
-{% endif %}
 
 ### Interval customization
 
@@ -121,21 +73,6 @@ Date time intervals can be customized by using the [`interval`](../api/chart3d/a
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs4/index.js %}
@@ -146,7 +83,6 @@ Date time intervals can be customized by using the [`interval`](../api/chart3d/a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs4" %}
-{% endif %}
 
 **Applying padding to the range**
 
@@ -160,21 +96,6 @@ Padding can be applied to the minimum and maximum extremes of the range by using
 
 When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs5/index.js %}
@@ -185,26 +106,10 @@ When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `None`,
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs5" %}
-{% endif %}
 
 **DateTime - Round**
 
 When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is **15th Jan**, interval is **1** and interval type is **Month**, then the axis minimum will be **Jan 1st**.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -216,26 +121,10 @@ When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `Round`
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs6" %}
-{% endif %}
 
 **DateTime - Additional**
 
 When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -247,26 +136,10 @@ When the [`rangePadding`](../api/chart3d/axis3D/#rangepadding) is set to `Additi
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs7" %}
-{% endif %}
 
 ## Label format
 
 The date can be formatted and parsed to all globalize format using the [`labelFormat`](../api/chart3d/axis3D/#labelformat) property in an axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -278,7 +151,6 @@ The date can be formatted and parsed to all globalize format using the [`labelF
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs8" %}
-{% endif %}
 
 The following table describes the result of applying some common date time formats to the `labelFormat` property.
 
@@ -326,21 +198,6 @@ The following table describes the result of applying some common date time forma
 
 Axis also supports custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/date-time-cs9/index.js %}
@@ -351,4 +208,3 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/date-time-cs9" %}
-{% endif %}

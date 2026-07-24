@@ -15,8 +15,6 @@ documentation: ug
 
 The default color of series or points can be customized by providing a custom color palette of your choice by using the [`Palettes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Palettes) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/custom/tagHelper %}
@@ -26,18 +24,6 @@ The default color of series or points can be customized by providing a custom co
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Data point customization
 
 The color of an individual data point can be customized using the below options.
@@ -45,8 +31,6 @@ The color of an individual data point can be customized using the below options.
 ### Point color mapping
 
 The color for the points can be bound from the [`DataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_DataSource) for the series by utilizing the [`PointColorMapping`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_PointColorMapping) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,23 +41,9 @@ The color for the points can be bound from the [`DataSource`](https://help.syncf
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/point-color/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-color.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/point-color/point-color.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Point level customization
 
 The data label and fill color of each data point can be customized using the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_PointRender) and [`TextRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_TextRender) events.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -83,18 +53,6 @@ The data label and fill color of each data point can be customized using the [`P
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/point-custom/point-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/point-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/point-custom/point-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -108,8 +66,6 @@ The data label and fill color of each data point can be customized using the [`P
 
 The background color and border of the 3D chart can be customized using the [`Background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Background) and [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Border) properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/background/tagHelper %}
@@ -119,26 +75,12 @@ The background color and border of the 3D chart can be customized using the [`Ba
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/background/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Background.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/background/background.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Chart margin**
 
 The 3D chart's margin can be set from its container using the [`Margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Margin) property.
 
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -149,25 +91,11 @@ The 3D chart's margin can be set from its container using the [`Margin`](https:/
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/margin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Animation
 
 To customize the animation for a particular series, the [`Animation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Animation) property can be used. It can be enabled or disabled by using the `Enable` property. The `Duration` property specifies the duration of an animation and the `Delay` property allows us to start the animation at desire time.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -178,25 +106,11 @@ To customize the animation for a particular series, the [`Animation`](https://he
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/animation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/animation/animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Chart rotation
 
 The 3D chart can be roatated by using the [`EnableRotation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_EnableRotation) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -207,24 +121,10 @@ The 3D chart can be roatated by using the [`EnableRotation`](https://help.syncfu
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/rotation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rotation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/rotation/rotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 ## Title
 
 The 3D chart can be given a title by using [`Title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Title) property, to show the information about the data plotted.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -235,25 +135,11 @@ The 3D chart can be given a title by using [`Title`](https://help.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Title position
 
 By using the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_Position) property in [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_TitleStyle), the [`Title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Title) can be positioned at left, right, top or bottom of the 3D chart. The title is positioned at the top of the 3D chart, by default.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -264,23 +150,9 @@ By using the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titleposition/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titleposition.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titleposition/titleposition.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The custom option is used to position the title anywhere in the 3D chart using [`X`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_X) and [`Y`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_Y) coordinates.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -291,25 +163,11 @@ The custom option is used to position the title anywhere in the 3D chart using [
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titleoption/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titleoption.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titleoption/titleoption.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Title alignment
 
 The title can be aligned to the near, far, or center of the 3D chart by using the [`TextAlignment`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_TextAlignment) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -319,18 +177,6 @@ The title can be aligned to the near, far, or center of the 3D chart by using th
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titlealignment/titlealignment.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titlealignment/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titlealignment.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/titlealignment/titlealignment.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -347,8 +193,6 @@ The [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 * [`TextAlignment`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_TextAlignment) - Specifies the alignment of the title.
 * [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTitleSettings.html#Syncfusion_EJ2_Charts_Chart3DTitleSettings_TextOverflow) - Specifies the overflow of the title.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/customization/tagHelper %}
@@ -357,15 +201,3 @@ The [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/customization/customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/customization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/customization/customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}

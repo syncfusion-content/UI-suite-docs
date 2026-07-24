@@ -28,21 +28,6 @@ The JavaScript Chart control supports multiple data binding approaches to suit d
 
 Bind simple JSON data to the chart using the [`dataSource`](../api/chart/series) property in the series configuration. Map the JSON fields to the [`xName`](../api/chart/series#xname-string) and [`yName`](../api/chart/series#yname-string) properties to specify which data fields represent the x and y axis values.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs1/index.js %}
@@ -53,26 +38,10 @@ Bind simple JSON data to the chart using the [`dataSource`](../api/chart/series)
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs1" %}
-{% endif %}
 
 ## Remote data
 
 Bind remote data from a web service by using the `DataManager` class. The DataManager simplifies communication with REST APIs, OData services, and custom web endpoints. It requires minimal configuration—typically just the service URL and an appropriate adaptor—then handles all request/response processing. Assign the DataManager instance to the [`dataSource`](../api/chart/series#datasource-object---datamanager) property in the series, and map the response fields to [`xName`](../api/chart/series#xname-string) and [`yName`](../api/chart/series#yname-string). Use the optional [`query`](../api/chart/series#query-string) property to filter, sort, or paginate data on the server.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -84,28 +53,12 @@ Bind remote data from a web service by using the `DataManager` class. The DataMa
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs2" %}
-{% endif %}
 
 ## Binding data using ODataAdaptor
 
 [OData](http://www.odata.org/documentation/odata-version-3-0) is a standardized protocol for creating and consuming data via REST APIs. Use the ODataAdaptor with DataManager to retrieve data from OData services. The adaptor automatically constructs the correct query syntax and handles standard OData conventions.
 
 **Example use case:** Querying a product sales service that implements OData v3.0 filtering, sorting, and pagination.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -117,28 +70,12 @@ Bind remote data from a web service by using the `DataManager` class. The DataMa
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs3" %}
-{% endif %}
 
 ## Binding data using ODataV4Adaptor
 
 ODataV4 is an improved and more standardized version of the OData protocol, with enhanced query capabilities and better JSON support. Use the ODataV4Adaptor to consume ODataV4 services. For more information on ODataV4 specifications, refer to the [OData v4 documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197).
 
 **When to use ODataV4Adaptor:** If your backend service implements OData v4.0, prefer this adaptor over the older ODataAdaptor for better compliance and features.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -150,7 +87,6 @@ ODataV4 is an improved and more standardized version of the OData protocol, with
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs7" %}
-{% endif %}
 
 ## Web API adaptor
 
@@ -162,21 +98,6 @@ The Web API must return a JSON object with two properties:
 - `Items`: Array of data objects for the chart
 - `Count`: Total number of records (useful for pagination)
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs8/index.js %}
@@ -187,7 +108,6 @@ The Web API must return a JSON object with two properties:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs8" %}
-{% endif %}
 
 **Example response:**
 
@@ -204,21 +124,6 @@ The Web API should structure its response as shown below. The `Items` array cont
 
 Create a custom adaptor by extending one of the built-in adaptors (typically ODataAdaptor) to add custom logic for request/response handling. Override the `processResponse` method to transform or enrich the response data. Common use cases include adding serial numbers, reformatting dates, or adding computed fields before the chart renders the data.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs10/index.js %}
@@ -229,7 +134,6 @@ Create a custom adaptor by extending one of the built-in adaptors (typically ODa
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs10" %}
-{% endif %}
 
 ## Offline mode
 
@@ -243,21 +147,6 @@ When using remote data binding, all filtering, sorting, and pagination normally 
 
 **Caution:** Offline mode loads the entire dataset at once, which may impact initial load time and memory usage for large datasets.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs9/index.js %}
@@ -268,7 +157,6 @@ When using remote data binding, all filtering, sorting, and pagination normally 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs9" %}
-{% endif %}
 
 ## Lazy loading
 
@@ -281,21 +169,6 @@ Lazy loading enables on-demand data retrieval, loading only the data required fo
 4. Append new data to the existing dataset
 5. Chart automatically re-renders with the updated data
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs4/index.js %}
@@ -306,28 +179,12 @@ Lazy loading enables on-demand data retrieval, loading only the data required fo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs4" %}
-{% endif %}
 
 ## Empty points
 
 Data points with `null` or `undefined` values are treated as empty points. Empty data points are skipped and not rendered in the chart. When using the `points` property to define individual data items, customize empty points with the `emptyPointSettings` property in the series configuration. By default, empty points create a gap in the series line or bar.
 
 **Default behavior:** Empty points use the `Gap` mode, which leaves a blank space in the chart visualization.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -339,26 +196,10 @@ Data points with `null` or `undefined` values are treated as empty points. Empty
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs5" %}
-{% endif %}
 
 **Customizing empty point**
 
 Assign a specific color to empty points by setting the `fill` property in the `emptyPointSettings` object. This allows you to visually distinguish empty data points from regular data in your chart.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -370,26 +211,10 @@ Assign a specific color to empty points by setting the `fill` property in the `e
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs6" %}
-{% endif %}
 
 ## Handling No Data
 
 When the chart has no data available to render, use the `noDataTemplate` property to display a custom layout within the chart area. This template can include messages, images, icons, or interactive elements (such as a load button) to guide the user. The template maintains design consistency and improves user experience when data is unavailable. Once data becomes available, the chart automatically updates and replaces the template with the visualization.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -401,5 +226,4 @@ When the chart has no data available to render, use the `noDataTemplate` propert
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs11" %}
-{% endif %}
 

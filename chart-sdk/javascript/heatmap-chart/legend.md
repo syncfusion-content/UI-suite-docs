@@ -13,21 +13,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The legend is used to provide the information about the heat map cell. You can enable the legend by setting the [visible](../api/heatmap/legendSettings/#visible) property to **true** and injecting the `Legend` module using the `HeatMap.Inject(Legend)`.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs1/index.js %}
@@ -38,7 +23,6 @@ The legend is used to provide the information about the heat map cell. You can e
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs1" %}
-{% endif %}
 
 ## Legend types
 
@@ -48,21 +32,6 @@ Heat map supports two legend types: Gradient and list type.
 * List: List is a fixed color legend. Each palette color information is shown separately in the list item.
 
 You can change the legend type by using the [type](../api/heatmap/paletteSettings/#type) property in the `paletteSettings` property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -74,26 +43,10 @@ You can change the legend type by using the [type](../api/heatmap/paletteSetting
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs2" %}
-{% endif %}
 
 ## Placement
 
 You can place the legend at left, right, top, or bottom to the heat map layout by using the [position](../api/heatmap/legendSettings/#position)property. The legend is positioned at the right to the heat map by default.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -105,26 +58,10 @@ You can place the legend at left, right, top, or bottom to the heat map layout b
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs3" %}
-{% endif %}
 
 ## Alignment
 
 You can align the legend as center, far, or near to the heat map using the [alignment](../api/heatmap/legendSettings/#alignment) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -136,26 +73,10 @@ You can align the legend as center, far, or near to the heat map using the [alig
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs4" %}
-{% endif %}
 
 ## Legend dimensions
 
 You can change the legend dimensions with values in pixels or percentage by using the [width](../api/heatmap/legendSettings/#width) and [height](../api/heatmap/legendSettings/#height) properties.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -167,26 +88,10 @@ You can change the legend dimensions with values in pixels or percentage by usin
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs5" %}
-{% endif %}
 
 ## Paging for legend
 
 Paging is available only for the list type legend in the heat map, and it can be enabled by default, when the legend items exceed the legend bounds. You can view each legend items by navigating between the pages using navigation buttons.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -198,7 +103,6 @@ Paging is available only for the list type legend in the heat map, and it can be
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs6" %}
-{% endif %}
 
 >Note: To use legend feature, we need to inject `Legend` using `HeatMap.Inject(Legend)`.
 
@@ -213,21 +117,6 @@ The following are the legend label display types:
 * Edge: Displays the legend labels only at extreme ends.
 * None: None of the labels are displayed. The tooltip will appear for this type of label display when hovering over the legend item.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs7/index.js %}
@@ -238,26 +127,10 @@ The following are the legend label display types:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs7" %}
-{% endif %}
 
 ## Legend Selection
 
 In the HeatMap, the legend selection is used to toggle the visibility of cell for view the specific range value. You can enable the legend selection using [toggleVisibility](../api/heatmap/legendSettings/#togglevisibility).
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -269,26 +142,10 @@ In the HeatMap, the legend selection is used to toggle the visibility of cell fo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs8" %}
-{% endif %}
 
 ## Legend Title
 
 The legend title displays a specific information about the legend. You can enable the legend title by setting the [title](../api/heatmap/legendSettings/#title) property by providing the text and customizing the legend title text style using the [textStyle](../api/heatmap/legendSettings/titleModel/#textStyle) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -300,4 +157,3 @@ The legend title displays a specific information about the legend. You can enabl
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/legend-cs9" %}
-{% endif %}

@@ -15,21 +15,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The title for the axis can be added by using the [`title`](../api/chart3d/axis3D/#title) property. It helps to provide quick information to the user about the data plotted in the axis. Title style can be customized using [`titleStyle`](../api/chart3d/axis3D/#titlestyle) property of the axis.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs1/index.js %}
@@ -40,26 +25,10 @@ The title for the axis can be added by using the [`title`](../api/chart3d/axis3D
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs1" %}
-{% endif %}
 
 ## Title rotation
 
 The title can be rotated from 0 to 360 degree by using the [`titleRotation`](../api/chart3d/axis3D/#titlerotation) property.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,26 +40,10 @@ The title can be rotated from 0 to 360 degree by using the [`titleRotation`](../
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs2" %}
-{% endif %}
 
 ## Tick lines customization
 
 The [`width`](../api/chart3d/majorTickModel/#width), [`color`](../api/chart3d/majorTickModel/#color) and [`height`](../api/chart3d/majorTickModel/#height) of the minor and major tick lines can be customized by using the [`majorTickLines`](../api/chart3d/axis3D/#majorticklines) and [`minorTickLines`](../api/chart3d/axis3D/#minorticklines) properties in the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -102,26 +55,10 @@ The [`width`](../api/chart3d/majorTickModel/#width), [`color`](../api/chart3d/m
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs3" %}
-{% endif %}
 
 ## Grid lines customization
 
 The [`width`](../api/chart3d/majorGridModel/#width) and [`color`](../api/chart3d/majorGridModel/#color) of the minor and major grid lines can be customized by using the [`majorGridLines`](../api/chart3d/axis3D/#majorgridlines) and [`minorGridLines`](../api/chart3d/axis3D/#minorgridlines) properties in the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -133,26 +70,10 @@ The [`width`](../api/chart3d/majorGridModel/#width) and [`color`](../api/chart3
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs4" %}
-{% endif %}
 
 ## Multiple axis
 
 In addition to primary X and Y axis, n number of axis can be added to the chart. Series can be associated with this axis, by mapping with axis's unique name.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -164,28 +85,12 @@ In addition to primary X and Y axis, n number of axis can be added to the chart.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs5" %}
-{% endif %}
 
 ## Inversed axis
 
 <!-- markdownlint-disable MD033 -->
 
 When an axis is inversed, highest value of the axis comes closer to origin and vice versa. To place an axis in inversed manner, set the [`isInversed`](../api/chart3d/axis3D/#isinversed) property to **true**.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -197,26 +102,10 @@ When an axis is inversed, highest value of the axis comes closer to origin and v
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs6" %}
-{% endif %}
 
 ## Opposed position
 
 To place an axis opposite from its original position, set the [`opposedPosition`](../api/chart3d/axis3D/#opposedposition) property to **true**.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/axis-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -228,4 +117,3 @@ To place an axis opposite from its original position, set the [`opposedPosition`
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/axis-cs7" %}
-{% endif %}

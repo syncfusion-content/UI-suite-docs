@@ -22,19 +22,6 @@ While dragging a panel in Dashboard Layout the following dragging events will be
 
 The following sample demonstrates dragging and pushing of panels. For example, while dragging the panel 0 over panel 1, these panels get collided and push the panel 1 towards the feasible direction, so that the panel 0 gets placed in the panel 1 position.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/drag-and-drop/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/drag-and-drop/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/drag-and-drop/razor %}
@@ -43,7 +30,6 @@ The following sample demonstrates dragging and pushing of panels. For example, w
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/drag-and-drop/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Drag and Drop](./../images/drag_and_drop.PNG)
@@ -54,19 +40,6 @@ Initially, the complete panel will act as a handler for dragging the panel such 
 
 The following sample demonstrates customizing the dragging handler of the panels where the dragging action of panel occurs only with the header of the panel.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/dragging-handler/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/dragging-handler/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/dragging-handler/razor %}
@@ -75,26 +48,12 @@ The following sample demonstrates customizing the dragging handler of the panels
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/dragging-handler/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Customizing the dragging handler](./../images/dragging_handler.PNG)
 
 ## Disable dragging of panels
 
 By default, the dragging of panels is enabled in Dashboard Layout. It can also be disabled with the help of [`allowDragging`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) API. Setting [`allowDragging`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) to false disables the dragging functionality in Dashboard Layout.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/disable-dragging/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/disable-dragging/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -104,7 +63,6 @@ By default, the dragging of panels is enabled in Dashboard Layout. It can also b
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/disable-dragging/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Disable dragging](./../images/dragging_handler.PNG)

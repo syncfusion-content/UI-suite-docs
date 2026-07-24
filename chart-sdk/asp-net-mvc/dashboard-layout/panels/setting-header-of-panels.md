@@ -13,19 +13,6 @@ documentation: ug
 
 The Dashboard Layout control is mostly used to represent the data used for monitoring or managing a process. These data or any HTML template can be placed as the [`content`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Content.html) of a panel using the content property. Also, word or phrase that summarize the panel’s content can be added as the header on the top of each panel using the [`header`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Header.html) property of the panel.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/content-panel/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/content-panel/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/content-panel/razor %}
@@ -34,7 +21,6 @@ The Dashboard Layout control is mostly used to represent the data used for monit
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/content-panel/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Header and content of panels](./../images/content_panel.PNG)
 
@@ -46,19 +32,6 @@ N> You must assign the empty div element inside the content template to add the 
 
 The following sample demonstrates how to add ej2-chart controls as the [`content`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Content.html) for each panel in the DashboardLayout control.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/placing-content/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="CSHTML.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/placing-content/CSHTML.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/placing-content/razor %}
@@ -67,7 +40,6 @@ The following sample demonstrates how to add ej2-chart controls as the [`content
 {% include code-snippet/chart-sdk/asp-net-mvc/dashboard-layout/placing-content/HomeController.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ![Placing components as content](./../images/dragging_handler.PNG)
 

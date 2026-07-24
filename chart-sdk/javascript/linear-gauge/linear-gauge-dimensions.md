@@ -19,21 +19,6 @@ The height and width of the Linear Gauge can be set using the [`width`](https://
 
 The size of the Linear Gauge can be set in pixel as demonstrated below.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs1/index.js %}
@@ -44,7 +29,6 @@ The size of the Linear Gauge can be set in pixel as demonstrated below.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs1" %}
-{% endif %}
 
 ### In Percentage
 
@@ -56,21 +40,6 @@ By setting value in percentage, Linear Gauge receives its dimension matching to 
     </div>
 ```
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs2/index.js %}
@@ -81,6 +50,5 @@ By setting value in percentage, Linear Gauge receives its dimension matching to 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/lineargauge-dimensions-cs2" %}
-{% endif %}
 
 >Note: When the component's size is not specified, the height will be **450px** and the width will be the same as the parent element's width.

@@ -23,21 +23,6 @@ To change the pointer value dynamically, use the [`setPointerValue`](../api/line
 |     pointerIndex     |    Specifies the index of the pointer to be updated.           |
 |     pointerValue     |    Specifies the value of the pointer to be updated.           |
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs1/index.js %}
@@ -48,7 +33,6 @@ To change the pointer value dynamically, use the [`setPointerValue`](../api/line
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs1" %}
-{% endif %}
 
 ## setAnnotationValue
 
@@ -60,21 +44,6 @@ To change the annotation content dynamically, use the [`setAnnotationValue`](../
 |     content          |    Specifies the text for the annotation to be updated.        |
 |     axisValue        |    Specifies the value of the axis where the annotation is to be placed.|
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs2/index.js %}
@@ -85,26 +54,10 @@ To change the annotation content dynamically, use the [`setAnnotationValue`](../
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs2" %}
-{% endif %}
 
 ## refresh
 
 The [`refresh`](../api/linear-gauge#refresh) method can be used to change the state of the component and render it again.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/linear-gauge/methods-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -116,4 +69,3 @@ The [`refresh`](../api/linear-gauge#refresh) method can be used to change the st
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/methods-cs3" %}
-{% endif %}

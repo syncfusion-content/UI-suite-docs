@@ -19,8 +19,6 @@ To render a **pareto** series in your chart, you need to follow a few steps to c
 
 **Set the series type:** Define the series `type` as **Pareto** in your chart configuration. This indicates that the data should be represented as a pareto chart, will use a combination of column and line series.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/tagHelper %}
@@ -29,25 +27,11 @@ To render a **pareto** series in your chart, you need to follow a few steps to c
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/pareto.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pareto.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/pareto.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `dataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `xName` and `yName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/tagHelper %}
@@ -56,26 +40,12 @@ You can bind data to the chart using the `dataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/pareto.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pareto.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto/pareto.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Pareto customization
 
 ## Fill
 
 Use the `fill` property to apply a color to the pareto line. By default, a color based on the theme is used.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -86,23 +56,9 @@ Use the `fill` property to apply a color to the pareto line. By default, a color
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pareto-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto-fill/pareto-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Width
 
 Use the `width` property to control the thickness of the line for the pareto series, which affects its visual weight on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -113,23 +69,9 @@ Use the `width` property to control the thickness of the line for the pareto ser
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto-width/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pareto-width.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/pareto-width/pareto-width.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Dash array
 
 The `dashArray` property determines the pattern of dashes and gaps in the pareto line series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -140,23 +82,9 @@ The `dashArray` property determines the pattern of dashes and gaps in the pareto
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dasharray/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dasharray.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dasharray/dasharray.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Marker
 
 Use the `marker` property to display and customize markers for individual points in a pareto line.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -167,23 +95,9 @@ Use the `marker` property to display and customize markers for individual points
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/marker/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/marker/marker.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Show axis
 
 Use the `showAxis` property to show or hide the secondary axis for the pareto series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -194,18 +108,6 @@ Use the `showAxis` property to show or hide the secondary axis for the pareto se
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/showaxis/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Showaxis.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/showaxis/showaxis.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Empty points
 
 Data points with **null** or **undefined** values are considered empty. Empty data points are ignored and not plotted on the chart.
@@ -213,8 +115,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 **Mode**
 
 Use the `mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -225,23 +125,9 @@ Use the `mode` property to define how empty or missing data points are handled i
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Fill**
 
 Use the `fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -252,23 +138,9 @@ Use the `fill` property to customize the fill color of empty points in the serie
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Border**
 
 Use the `border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -279,25 +151,12 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty-border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-##Events
+## Events
 
 ### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -308,23 +167,9 @@ The `seriesRender` event allows you to customize series properties, such as data
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/series-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Point render
 
 The `pointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -334,18 +179,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/point-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## See also
 

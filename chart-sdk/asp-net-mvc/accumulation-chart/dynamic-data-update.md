@@ -18,19 +18,6 @@ The `AddPoint` method is used to dynamically add a new data point to the accumul
 * The first parameter is the new data point to add to your existing data source.
 * The optional second parameter specifies the animation duration for adding the new data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/add-point/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Add-point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/add-point/add-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/add-point/razor %}
@@ -39,7 +26,6 @@ The `AddPoint` method is used to dynamically add a new data point to the accumul
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/add-point/add-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -50,19 +36,6 @@ The `RemovePoint` method is used to dynamically remove a data point from the acc
 * The first parameter is the index of the data point that needs to be removed from the existing data source.
 * The optional second parameter specifies the animation duration for removing the data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/remove-point/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Remove-point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/remove-point/remove-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/remove-point/razor %}
@@ -71,7 +44,6 @@ The `RemovePoint` method is used to dynamically remove a data point from the acc
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/remove-point/remove-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -82,19 +54,6 @@ To replace the existing data source in the accumulation chart with a new data so
 * The first parameter is the new set of data points to be updated.
 * The optional second parameter specifies the animation duration for updating the new data source.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/set-data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Set-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/set-data/set-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/set-data/razor %}
@@ -103,5 +62,4 @@ To replace the existing data source in the accumulation chart with a new data so
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/dynamic-update/set-data/set-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

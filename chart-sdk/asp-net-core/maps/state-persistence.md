@@ -14,8 +14,6 @@ documentation: ug
 
 For state maintenance, state persistence allows Maps to save the current model value in browser cookies. This action is handled through the `EnablePersistence` property which is set to **false** by default. When this property is set to true, some of the Maps component model values are preserved even after the page is refreshed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/markers/persistence/tagHelper %}
@@ -24,16 +22,4 @@ For state maintenance, state persistence allows Maps to save the current model v
 {% include code-snippet/chart-sdk/asp-net-core/maps/markers/persistence/persistence.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/persistence/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Persistence.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/markers/persistence/persistence.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

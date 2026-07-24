@@ -16,21 +16,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 Circular gauge can be given a title by using [`title`](../api/circular-gauge/#title-string) property, to show the information about the gauge.
 Title can be customized by using [`titleStyle`](../api/circular-gauge/#titlestyle-fontmodel) property in gauge.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs1/index.js %}
@@ -41,7 +26,6 @@ Title can be customized by using [`titleStyle`](../api/circular-gauge/#titlestyl
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs1" %}
-{% endif %}
 
 ## Gauge Position
 
@@ -53,21 +37,6 @@ The default value of the [`centerX`](../api/circular-gauge/#centerx-string) and
 
 You can set the mid point of the gauge in pixel as demonstrated below,
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs2/index.js %}
@@ -78,27 +47,11 @@ You can set the mid point of the gauge in pixel as demonstrated below,
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs2" %}
-{% endif %}
 
 **In Percentage**
 
 By setting the value in percentage, gauge gets its mid point with respect to its plot area.
 For example, when the [`centerX`](../api/circular-gauge/#centerx-string) value as '0%' and [`centerY`](../api/circular-gauge/#centery-string) value is ‘50%’, gauge will get positioned at the top left corner of the plot area.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -110,28 +63,12 @@ For example, when the [`centerX`](../api/circular-gauge/#centerx-string) value a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs3" %}
-{% endif %}
 
 ## Area Customization
 
 **Customize the gauge background**
 
 Using [`background`](../api/circular-gauge/#background-string) and [`border`](../api/circular-gauge/#border-bordermodel) properties, you can change the background color and border of the circular gauge.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -143,26 +80,10 @@ Using [`background`](../api/circular-gauge/#background-string) and [`border`](..
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs4" %}
-{% endif %}
 
 **Gauge Margin**
 
 You can set margin for gauge from its container through [`margin`](../api/circular-gauge/#margin-marginmodel) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -174,26 +95,10 @@ You can set margin for gauge from its container through [`margin`](../api/circul
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs5" %}
-{% endif %}
 
 ## Radius calculation based on angles
 
 Render semi or quarter circular gauges by modifying the start and end angles. By enabling the radius based on angle option, the radius of circular gauge will be calculated based on the start and end angles to avoid excess white space.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -205,4 +110,3 @@ Render semi or quarter circular gauges by modifying the start and end angles. By
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-appearance-cs6" %}
-{% endif %}

@@ -21,8 +21,6 @@ The tooltip for sliders are supported by the Range Selector. Sliders are used in
 
 The tooltip can be used to display information about the selected data and it is enabled by setting the `enable` property to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/getting-started/tooltip/tagHelper %}
@@ -31,18 +29,6 @@ The tooltip can be used to display information about the selected data and it is
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/getting-started/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/getting-started/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/getting-started/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -57,8 +43,6 @@ Tooltip can be customized using the following properties:
 * opacity - Customizes the opacity of the tooltip.
 * textStyle - Customizes the font size, color, family, style, weight, alignment, and overflow of the tooltip.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/tooltip/tagHelper %}
@@ -68,18 +52,6 @@ Tooltip can be customized using the following properties:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Tooltip Customization](images/tooltip/tooltip-custom.png)
@@ -87,8 +59,6 @@ Tooltip can be customized using the following properties:
 ## Label Format
 
 The `labelFormat` property in the tooltip is used to format and parse the date to all globalize formats.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -98,18 +68,6 @@ The `labelFormat` property in the tooltip is used to format and parse the date t
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/format/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/tooltip/format/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

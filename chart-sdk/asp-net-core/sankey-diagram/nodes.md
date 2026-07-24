@@ -35,8 +35,6 @@ The `NodeStyle` property allows you to customize the visual appearance of all no
 
 Customize the global node appearance by configuring the `NodeStyle` property with properties such as fill color, stroke, width, padding, and opacity levels. Here is an example:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-style/tagHelper %}
@@ -46,24 +44,9 @@ Customize the global node appearance by configuring the `NodeStyle` property wit
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-style/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-style.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-style/node-style.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Individual Node Customization
 
 Beyond global styling, you can customize the appearance of specific nodes by setting individual properties. Each node can have its own `Color`, styling, and appearance settings that override the global `NodeStyle` configuration. This approach is useful when you want certain nodes to stand out or follow a specific color scheme:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -73,19 +56,6 @@ Beyond global styling, you can customize the appearance of specific nodes by set
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/individual-node-custom/individual-node-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/individual-node-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Individual-node-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/individual-node-custom/individual-node-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Opacity and Interaction
 
@@ -97,8 +67,6 @@ Control how nodes appear during user interactions. The Sankey Chart provides thr
 
 Configure these properties to provide visual feedback and improve the interactivity experience:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-opacity/tagHelper %}
@@ -107,19 +75,6 @@ Configure these properties to provide visual feedback and improve the interactiv
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-opacity/node-opacity.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-opacity/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-opacity.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-opacity/node-opacity.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Node Offset
 
@@ -130,8 +85,6 @@ Use the `Offset` property to adjust node positions vertically (in Horizontal ori
 
 This property is useful for manually arranging nodes to avoid overlaps or create specific flow patterns:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-offset/tagHelper %}
@@ -140,19 +93,6 @@ This property is useful for manually arranging nodes to avoid overlaps or create
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-offset/node-offset.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-offset/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-offset.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-offset/node-offset.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Advanced Node Configuration
 
@@ -164,8 +104,6 @@ Use the `NodeRendering` event to customize node appearance dynamically during th
 
 Use the `NodeRendering` event to customize node appearance dynamically before rendering:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-rendering-event/tagHelper %}
@@ -174,16 +112,3 @@ Use the `NodeRendering` event to customize node appearance dynamically before re
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-rendering-event/node-rendering-event.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/nodes/node-rendering-event/node-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}

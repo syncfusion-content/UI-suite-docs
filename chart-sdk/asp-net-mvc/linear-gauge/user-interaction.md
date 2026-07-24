@@ -17,19 +17,6 @@ documentation: ug
 
 Linear Gauge displays the details about a pointer value through [`LinearGaugeTooltipSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html), when the mouse hovers over the pointer. To enable the tooltip, set [`Enable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_Enable) property as **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip/razor %}
@@ -38,7 +25,6 @@ Linear Gauge displays the details about a pointer value through [`LinearGaugeToo
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ![Linear Gauge with tooltip](../linear-gauge/images/tooltip.png)
@@ -51,19 +37,6 @@ Linear Gauge displays the details about a pointer value through [`LinearGaugeToo
 
 Tooltip in the Linear Gauge control can be formatted using the [`Format`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_Format) property in [`LinearGaugeTooltipSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html). It is used to render the tooltip in certain format or to add a user-defined unit in the tooltip. By default, the tooltip shows the pointer value only. In addition to that, more information can be added in the tooltip. For example, the format **{value}km** shows pointer value with kilometer unit in the tooltip.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-format/tooltip-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-format/razor %}
@@ -72,7 +45,6 @@ Tooltip in the Linear Gauge control can be formatted using the [`Format`](https:
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-format/tooltip-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -82,19 +54,6 @@ Tooltip in the Linear Gauge control can be formatted using the [`Format`](https:
 
 The HTML element can be rendered in the tooltip of the Linear Gauge using the [`Template`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_Template) property in [`LinearGaugeTooltipSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html). The **${value}** can be used as placeholders in the HTML element to display the pointer values of the corresponding axis.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-template/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-template/tooltip-template.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-template/razor %}
@@ -103,7 +62,6 @@ The HTML element can be rendered in the tooltip of the Linear Gauge using the [`
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-template/tooltip-template.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -119,19 +77,6 @@ The tooltip can be customized using the following properties in [`LinearGaugeToo
 * [`TextStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_TextStyle) - To customize the style of the text in tooltip.
 * [`ShowAtMousePosition`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_ShowAtMousePosition) - To show the tooltip at the mouse position.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-appearance/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-appearance.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-appearance/tooltip-appearance.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-appearance/razor %}
@@ -140,7 +85,6 @@ The tooltip can be customized using the following properties in [`LinearGaugeToo
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-appearance/tooltip-appearance.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -150,19 +94,6 @@ The tooltip can be customized using the following properties in [`LinearGaugeToo
 
 The tooltip is positioned at the **End** of the pointer. To change the position of the tooltip at the start, or center of the pointer, set the [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTooltipSettings.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTooltipSettings_Position) property to **Start** or **Center**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-position/tooltip-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-position/razor %}
@@ -171,7 +102,6 @@ The tooltip is positioned at the **End** of the pointer. To change the position 
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/tooltip-position/tooltip-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -181,19 +111,6 @@ The tooltip is positioned at the **End** of the pointer. To change the position 
 
 To drag either marker or bar pointer to the desired axis value, set the [`EnableDrag`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_EnableDrag) property as **true** in [`LinearGaugePointer`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/pointer-drag/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pointer-drag.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/pointer-drag/pointer-drag.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/pointer-drag/razor %}
@@ -202,7 +119,6 @@ To drag either marker or bar pointer to the desired axis value, set the [`Enable
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/user-interactions/pointer-drag/pointer-drag.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

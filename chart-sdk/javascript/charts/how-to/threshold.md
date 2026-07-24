@@ -19,21 +19,6 @@ To mark a threshold in chart, follow the given steps:
 
 By using the start and end properties of `striplines` object in vertical axis, you can mark the threshold for y values of the series.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs18/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs18/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs18" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/how-to-cs18/index.js %}
@@ -44,4 +29,3 @@ By using the start and end properties of `striplines` object in vertical axis, y
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs18" %}
-{% endif %}

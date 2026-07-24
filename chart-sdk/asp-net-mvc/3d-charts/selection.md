@@ -25,19 +25,6 @@ We have different types of selection mode for selecting a data.
 
 To select a point, set the [`SelectionMode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_SelectionMode) property to **Point**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/point-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/point-selection/point-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/point-selection/razor %}
@@ -46,26 +33,12 @@ To select a point, set the [`SelectionMode`](https://help.syncfusion.com/cr/aspn
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/point-selection/point-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Series
 
 To select a series, set the [`SelectionMode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_SelectionMode) property to **Series**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/series-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/series-selection/series-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -75,26 +48,12 @@ To select a series, set the [`SelectionMode`](https://help.syncfusion.com/cr/asp
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/series-selection/series-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Cluster
 
 To select the points that corresponds to the same index in all the series, set the [`SelectionMode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_SelectionMode) property to **Cluster**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/cluster-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cluster-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/cluster-selection/cluster-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -104,26 +63,12 @@ To select the points that corresponds to the same index in all the series, set t
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/cluster-selection/cluster-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection type
 
 To select multiple points or series, enable the [`IsMultiSelect`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_IsMultiSelect) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-type/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection-type.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-type/selection-type.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -133,26 +78,12 @@ To select multiple points or series, enable the [`IsMultiSelect`](https://help.s
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-type/selection-type.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection during initial loading
 
 In a 3D chart, selecting a point or series during initial loading can only be done programmatically. The [`SelectedDataIndexes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_SelectedDataIndexes) property can be used for this.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/onload/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Onload.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/onload/onload.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -162,26 +93,12 @@ In a 3D chart, selecting a point or series during initial loading can only be do
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/onload/onload.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection through legend
 
 To select a point or series through on legend use [`ToggleVisibility`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DLegendSettings.html#Syncfusion_EJ2_Charts_Chart3DLegendSettings_ToggleVisibility) property. Also, use [`EnableHighlight`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DLegendSettings.html#Syncfusion_EJ2_Charts_Chart3DLegendSettings_EnableHighlight) property for highlighting the series through legend.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-legend/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection-legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-legend/selection-legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -191,6 +108,5 @@ To select a point or series through on legend use [`ToggleVisibility`](https://h
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/selection-legend/selection-legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

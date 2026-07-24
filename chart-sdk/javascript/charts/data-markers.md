@@ -21,21 +21,6 @@ Data markers are visual indicators placed at each data point on a series, helpin
 
 Enable markers for data points by setting the [`visible`](../api/chart/markerSettingsModel#visible-boolean) option to `true` in the marker property. Each series receives distinct markers by default, improving visual differentiation.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/data-markers-cs9/index.js %}
@@ -46,26 +31,10 @@ Enable markers for data points by setting the [`visible`](../api/chart/markerSet
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs9" %}
-{% endif %}
 
 ## Shape
 
 Assign different shapes to markers such as Rectangle, Circle, Diamond, Triangle, and others using the [`shape`](../api/chart/markerSettings#shape) property. Shape selection helps distinguish between multiple series and improves visual clarity.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -77,28 +46,12 @@ Assign different shapes to markers such as Rectangle, Circle, Diamond, Triangle,
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs10" %}
-{% endif %}
 
 >Note : To know more about the marker shape type refer the [`shape`](../api/chart/markerSettings#shape-string).
 
 ## Images
 
 Use custom images as markers instead of predefined shapes by setting the [`imageUrl`](../api/chart/markerSettingsModel#imageurl-string) property. This allows branded or thematic markers that enhance visual appeal and user engagement.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -110,26 +63,10 @@ Use custom images as markers instead of predefined shapes by setting the [`image
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs11" %}
-{% endif %}
 
 ## Customization
 
 Customize marker appearance by modifying the `fill` (background color) and `border` properties. Combined with shape and image options, these customizations enable comprehensive marker styling to match your application design.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs12/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs12" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -141,26 +78,10 @@ Customize marker appearance by modifying the `fill` (background color) and `bord
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs12" %}
-{% endif %}
 
 ## Customizing specific point
 
 Use the [`pointRender`](../api/chart#pointrender-emittypeipointrendereventargs) event to customize markers for individual data points. This event allows you to conditionally change shape, color, and border properties based on data values or other criteria.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs13/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs13" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -172,26 +93,10 @@ Use the [`pointRender`](../api/chart#pointrender-emittypeipointrendereventargs) 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs13" %}
-{% endif %}
 
 ## Fill marker with series color
 
 Fill markers with the series color by enabling the [`isFilled`](../api/chart/markerSettingsModel#isFilled-boolean) property. This creates a cohesive visual design where markers inherit the series color automatically.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs14/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs14" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -203,7 +108,6 @@ Fill markers with the series color by enabling the [`isFilled`](../api/chart/mar
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs14" %}
-{% endif %}
 
 ## See also
 

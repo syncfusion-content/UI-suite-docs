@@ -17,8 +17,6 @@ To add the chart dynamically through button click, follow the given steps:
 
 **Step 1**: Initially create the html button. Then create chart inside of button `onClick` function. Now, clicking the button charts will render based on click count.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dynamic-chart/tagHelper %}
@@ -27,16 +25,4 @@ To add the chart dynamically through button click, follow the given steps:
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dynamic-chart/dynamic-chart.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dynamic-chart/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dynamic-chart.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dynamic-chart/dynamic-chart.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

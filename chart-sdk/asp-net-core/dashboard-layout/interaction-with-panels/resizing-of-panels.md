@@ -20,8 +20,6 @@ On resizing a panel in Dashboard Layout the following events will be triggered,
 * [resize](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Resize.html) - Triggers when panel is being resized
 * [resizeStop](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~ResizeStop.html) - Triggers when panel resize stops
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resizing-panels/tagHelper %}
@@ -30,18 +28,6 @@ On resizing a panel in Dashboard Layout the following events will be triggered,
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resizing-panels/CSHTML.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resizing-panels/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resizing-panels/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Resizing panels](./../images/resizing_panels.PNG)
 
@@ -61,8 +47,6 @@ Where,
 
 The following sample demonstrates resizing panels programatically in the Dashboard Layout's [created](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resize-panel/tagHelper %}
@@ -71,18 +55,6 @@ The following sample demonstrates resizing panels programatically in the Dashboa
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resize-panel/CSHTML.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resize-panel/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/resize-panel/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Resizing panels](./../images/resize_panel.PNG)
 

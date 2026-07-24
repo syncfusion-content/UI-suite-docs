@@ -17,19 +17,6 @@ To render a [histogram](https://www.syncfusion.com/aspnet-core-ui-controls/chart
 
 * **Set the series type:** Define the series `Type` as **Histogram** in your chart configuration. This indicates that the data should be represented as a histogram chart, providing a visual display of large amounts of data that are difficult to understand in a tabular or spreadsheet format.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/histogram/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Histogram.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/histogram/histogram.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/histogram/razor %}
@@ -38,26 +25,12 @@ To render a [histogram](https://www.syncfusion.com/aspnet-core-ui-controls/chart
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/histogram/histogram.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Events
 
 ### Series render
 
 The `SeriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/series-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -67,24 +40,10 @@ The `SeriesRender` event allows you to customize series properties, such as data
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/series-render/series-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Point render
 
 The `PointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/point-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -94,7 +53,6 @@ The `PointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/histogram/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## See Also
 

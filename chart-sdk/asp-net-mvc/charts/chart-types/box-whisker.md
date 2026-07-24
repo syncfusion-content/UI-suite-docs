@@ -19,19 +19,6 @@ To render a `box and whisker` series in your chart, you need to follow a few ste
 
 * **Data requirements:** The y field of the Box and Whisker series requires a specific number of data points, with a minimum of five values needed to plot a segment.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/box.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/razor %}
@@ -40,25 +27,11 @@ To render a `box and whisker` series in your chart, you need to follow a few ste
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/box.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `DataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `XName` and `YName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/box.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/razor %}
@@ -67,7 +40,6 @@ You can bind data to the chart using the `DataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box/box.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Series customization
 
@@ -77,19 +49,6 @@ The following properties can be used to customize the `box and whisker` series.
 
 The `Fill` property determines the color applied to the series.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-fill/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-fill/box-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-fill/razor %}
@@ -98,22 +57,8 @@ The `Fill` property determines the color applied to the series.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-fill/box-fill.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 The `Fill` property can be used to apply a gradient color to the box and whisker series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-grad/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box-grad.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-grad/box-grad.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -123,24 +68,10 @@ The `Fill` property can be used to apply a gradient color to the box and whisker
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-grad/box-grad.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Opacity**
 
 The `Opacity` property specifies the transparency level of the fill. Adjusting this property allows you to control how opaque or transparent the fill color of the series appears.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/opacity/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Opacity.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/opacity/opacity.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -150,24 +81,10 @@ The `Opacity` property specifies the transparency level of the fill. Adjusting t
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/opacity/opacity.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Border**
 
 Use the `Border` property to customize the width, color and dasharray of the series border.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/border/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -177,24 +94,10 @@ Use the `Border` property to customize the width, color and dasharray of the ser
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/border/border.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Box Plot
 
 To change the rendering mode of the box and whisker series, use the `BoxPlotMode` property. The default value for `BoxPlotMode` is **Exclusive**. The other available options for `BoxPlotMode` are **Inclusive** and **Normal**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-plot/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box-plot.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-plot/box-plot.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -204,24 +107,10 @@ To change the rendering mode of the box and whisker series, use the `BoxPlotMode
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-plot/box-plot.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Show mean
 
 In the box and whisker series, the `ShowMean` property is used to display the average value of the box and whisker. The default value of `ShowMean` is **false**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-mean/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Box-mean.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-mean/box-mean.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -231,26 +120,12 @@ In the box and whisker series, the `ShowMean` property is used to display the av
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/box-mean/box-mean.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Events
 
 ### Series render
 
 The `SeriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/series-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -260,24 +135,10 @@ The `SeriesRender` event allows you to customize series properties, such as data
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/series-render/series-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Point render
 
 The `PointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/point-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -287,7 +148,6 @@ The `PointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/box/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 ## See Also
 
 * [Data Label](../data-labels)

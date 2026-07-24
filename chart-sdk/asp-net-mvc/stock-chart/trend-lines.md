@@ -47,19 +47,6 @@ To render a moving average trendline, use trendline [`Type`](https://help.syncfu
 
 `Period` property defines the period to find the moving average.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/trendlines/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Trendlines.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/trendlines/trendlines.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/trendlines/razor %}
@@ -68,26 +55,12 @@ To render a moving average trendline, use trendline [`Type`](https://help.syncfu
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/trendlines/trendlines.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customization of Trendline
 
 The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Fill) and [`Width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Width) properties are used to customize the appearance of the trendline.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/customtrendlines/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Customtrendlines.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/customtrendlines/customtrendlines.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -97,6 +70,5 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/customtrendlines/customtrendlines.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

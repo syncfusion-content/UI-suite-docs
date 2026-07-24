@@ -19,21 +19,6 @@ The 3D Chart will display details about the points through tooltip, when the mou
 
 By default, tooltip is not visible. The tooltip can be enabled by setting the [`enable`](../../api/chart3d/tooltipSettings/#enable) property in `tooltipSettings` to **true** and by injecting `Tooltip3D` module using `Chart3D.Inject(Tooltip3D)`.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs1/index.js %}
@@ -44,28 +29,12 @@ By default, tooltip is not visible. The tooltip can be enabled by setting the [`
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs1" %}
-{% endif %}
 
 <!-- markdownlint-disable MD013 -->
 
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but the tooltip can be set in fixed position by using the [`location`](../../api/chart3d/tooltipSettings/#location) property.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -77,28 +46,12 @@ By default, tooltip track the mouse movement, but the tooltip can be set in fixe
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs2" %}
-{% endif %}
 
 ## Format the tooltip
 
 <!-- markdownlint-disable MD013 -->
 
 By default, tooltip shows information of x and y value in points. In addition to that, more information can be shown in tooltip by using the [`format`](../../api/chart3d/tooltipSettings/#format) property. For example the format `${series.name} : ${point.y}` shows series name and point y value.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -110,7 +63,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs3" %}
-{% endif %}
 
 ## Inline tooltip formatting
 
@@ -151,21 +103,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs6/index.js %}
@@ -176,26 +113,10 @@ If the specified format does not match the resolved value type, the original val
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs6" %}
-{% endif %}
 
 ## Tooltip template
 
 Any HTML elements can be displayed in the tooltip by using the [`template`](../../api/chart3d/tooltipSettings/#template) property of the tooltip. The ${x} and ${y} can be used as place holders in the HTML element to display the x and y values of the corresponding data point.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -207,26 +128,10 @@ Any HTML elements can be displayed in the tooltip by using the [`template`](../.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs4" %}
-{% endif %}
 
 ## Customize the appearance of tooltip
 
 The [`fill`](../../api/chart3d/tooltipSettings/#fill) and [`border`](../../api/chart3d/tooltipSettings/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../../api/chart3d/tooltipSettings/#textstyle) property in the tooltip is used to customize the font of the tooltip text.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -238,4 +143,3 @@ The [`fill`](../../api/chart3d/tooltipSettings/#fill) and [`border`](../../api/c
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/tooltip-cs5" %}
-{% endif %}

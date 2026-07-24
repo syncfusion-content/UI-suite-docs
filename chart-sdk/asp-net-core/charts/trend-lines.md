@@ -21,8 +21,6 @@ Chart supports 6 types of trendlines.
 
 A linear trendline is a best fit straight line that is used with simpler data sets. To render a linear trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `Linear`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/linear/tagHelper %}
@@ -32,25 +30,11 @@ A linear trendline is a best fit straight line that is used with simpler data se
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/linear/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Linear.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/linear/linear.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Exponential
 
 An exponential trendline is a curved line that is most useful when data values rise or fall at increasingly higher rates. You cannot create an exponential trendline, if your data contains zero or negative values. To render a exponential trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `Exponential`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -61,18 +45,6 @@ An exponential trendline is a curved line that is most useful when data values r
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/exponential/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Exponential.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/exponential/exponential.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Logarithmic
@@ -80,8 +52,6 @@ An exponential trendline is a curved line that is most useful when data values r
 A logarithmic trendline is a best-fit curved line that is most useful when the rate of change in the data increases or decreases quickly and then levels out.
 
 A logarithmic trendline can use negative and/or positive values. To render a logarithmic trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `Logarithmic`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -92,18 +62,6 @@ A logarithmic trendline can use negative and/or positive values. To render a log
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/logarithmic/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Logarithmic.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/logarithmic/logarithmic.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Polynomial
@@ -111,8 +69,6 @@ A logarithmic trendline can use negative and/or positive values. To render a log
 A polynomial trendline is a curved line that is used when data fluctuates.
 
 To render a polynomial trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `Polynomial`. `polynomialOrder` used to define the polynomial value.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -123,18 +79,6 @@ To render a polynomial trendline, use trendline [`type`](https://help.syncfusion
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/polynomial/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polynomial.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/polynomial/polynomial.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Power
@@ -142,8 +86,6 @@ To render a polynomial trendline, use trendline [`type`](https://help.syncfusion
 A power trendline is a curved line that is best used with data sets that compare measurements that increase at a specific rate.
 
 To render a power trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `Power`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -154,18 +96,6 @@ To render a power trendline, use trendline [`type`](https://help.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/power/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Power.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/power/power.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Moving Average
@@ -173,8 +103,6 @@ To render a power trendline, use trendline [`type`](https://help.syncfusion.com/
 A moving average trendline smoothen out fluctuations in data to show a pattern or trend more clearly.
 
 To render a moving average trendline, use trendline [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html) as `MovingAverage`. The `period` property defines the period to find the moving average.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -185,25 +113,11 @@ To render a moving average trendline, use trendline [`type`](https://help.syncfu
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/movingaverage/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Movingaverage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/movingaverage/movingaverage.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Customization of Trendlines**
 
 The [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html#Syncfusion_EJ2_Charts_ChartTrendline_Fill) and [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTrendline.html#Syncfusion_EJ2_Charts_ChartTrendline_Width) properties are used to customize the appearance of the trendline.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -213,18 +127,6 @@ The [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 {% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/custom-trendline/custom-trendline.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/custom-trendline/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-trendline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/custom-trendline/custom-trendline.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -239,8 +141,6 @@ Trendlines forecasting is the prediction of future/past situations. Forecasting 
 
 The value set for forwardForecast is used to determine the distance moving towards the future trend.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/forward-forecast/tagHelper %}
@@ -250,25 +150,11 @@ The value set for forwardForecast is used to determine the distance moving towar
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/forward-forecast/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Forward-forecast.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/forward-forecast/forward-forecast.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Backward Forecasting**
 
 The value set for the backwardForecast is used to determine the past trends.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -278,18 +164,6 @@ The value set for the backwardForecast is used to determine the past trends.
 {% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/backward-forecast/backward-forecast.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/backward-forecast/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Backward-forecast.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/backward-forecast/backward-forecast.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Show or hide a trendline
 

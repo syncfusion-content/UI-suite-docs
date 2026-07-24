@@ -16,21 +16,6 @@ setting the [renderingMode](../api/heatmap/#renderingmode) property as **Auto**.
 
 > If the `Auto` mode is enabled in the heat map and there are more than 10,000 data points, then the heat map will be rendered in a `Canvas` mode; Otherwise, the heat map will be rendered in a `SVG` mode.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/rendering-mode-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/rendering-mode-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/rendering-mode-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/rendering-mode-cs1/index.js %}
@@ -41,4 +26,3 @@ setting the [renderingMode](../api/heatmap/#renderingmode) property as **Auto**.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/rendering-mode-cs1" %}
-{% endif %}

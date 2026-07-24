@@ -28,19 +28,6 @@ Globalization is the process of designing and developing an component that works
 
 In the below example axis, point  and tooltip labels are globalized to EUR.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/number-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Number-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/number-format/number-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/number-format/razor %}
@@ -49,5 +36,4 @@ In the below example axis, point  and tooltip labels are globalized to EUR.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/number-format/number-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

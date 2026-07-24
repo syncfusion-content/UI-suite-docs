@@ -29,19 +29,6 @@ You can  set the size of heat map directly by using the [width](https://help.syn
 
 You can set the size for heat map in a pixel.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/pixel/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pixel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/pixel/pixel.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/pixel/razor %}
@@ -50,26 +37,12 @@ You can set the size for heat map in a pixel.
 {% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/pixel/pixel.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## In percentage
 
 By setting value in percentage, heat map gets its dimension with respect to its container. For example, when the height is ‘50%’, heat map rendered to half of the container height.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/percentage/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/percentage/percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -79,5 +52,4 @@ By setting value in percentage, heat map gets its dimension with respect to its 
 {% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/dimensions/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

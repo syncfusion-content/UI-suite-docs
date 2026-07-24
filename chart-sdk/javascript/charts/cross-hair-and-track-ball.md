@@ -15,21 +15,6 @@ The crosshair feature displays vertical and horizontal guide lines that intersec
 
 Crosshair lines can be enabled by setting the [`enable`](../api/chart/crosshairTooltip#enable-boolean) property in the `crosshair` settings.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs5/index.js %}
@@ -40,26 +25,10 @@ Crosshair lines can be enabled by setting the [`enable`](../api/chart/crosshairT
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs5" %}
-{% endif %}
 
 ## Tooltip for axis
 
 Axis tooltip labels can be enabled by setting the [`enable`](../api/chart/crosshairTooltipModel#enable-boolean) property of `crosshairTooltip` in the corresponding axis. This tooltip displays the current axis value at the crosshair position.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,28 +40,12 @@ Axis tooltip labels can be enabled by setting the [`enable`](../api/chart/crossh
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs6" %}
-{% endif %}
 
 ## Customization
 
 The [`fill`](../api/chart/crosshairTooltip#fill-string) and [`textStyle`](../api/chart/crosshairTooltip#textstyle-fontmodel) properties of `crosshairTooltip` are used to customize the background color and font style of the crosshair label.
 
 The color and width of the crosshair lines can be customized by using the [`line`](../api/chart/crosshairSettingsModel#line-bordermodel) property in the crosshair settings.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -104,28 +57,12 @@ The color and width of the crosshair lines can be customized by using the [`line
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs7" %}
-{% endif %}
 
 > Note: To use the crosshair feature, inject `Crosshair` module `Chart.Inject(Crosshair)` method.
 
 **Snap to data**
 
 By enabling the [`snapToData`](../api/chart/crosshairSettingsModel#snaptodata) property, the crosshair snaps to the nearest data point instead of following the exact mouse position. This improves accuracy when inspecting values.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs50/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs50/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs50" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -137,7 +74,6 @@ By enabling the [`snapToData`](../api/chart/crosshairSettingsModel#snaptodata) p
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs50" %}
-{% endif %}
 
 ## Trackball
 
@@ -146,21 +82,6 @@ The trackball feature tracks the data point closest to the mouse or touch positi
 To use the trackball feature, inject both `Crosshair` and `Tooltip` into the `provide`.
 
 Trackball functionality can be enabled by setting the [`enable`](../api/chart/crosshairSettings#enable-boolean) property of the crosshair to **true** and the [`shared`](../api/chart/tooltipSettings#shared-boolean) property of the tooltip to **true**.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -172,28 +93,12 @@ Trackball functionality can be enabled by setting the [`enable`](../api/chart/cr
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs8" %}
-{% endif %}
 
 ## Crosshair highlight
 
 The [`highlightCategory`](../api/chart/crosshairSettings#highlightcategory) property highlights the background of the entire category when the crosshair is moved over the chart.
 
 The crosshair line color can be customized using the [`color`](../api/chart/borderModel#color) property within the [`line`](../api/chart/crosshairSettings#line) configuration.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs54/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs54/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs54" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -205,7 +110,6 @@ The crosshair line color can be customized using the [`color`](../api/chart/bord
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs54" %}
-{% endif %}
 
 ## Crosshair label customization
 
@@ -221,24 +125,6 @@ Event arguments:
 * `fill` – Background color of the label.
 * `cancel` – Set to **true** to skip rendering the label.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/crosshair-label-render/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/crosshair-label-render/index.html %}
-{% endhighlight %}
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/crosshair-label-render/datasource.ts %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/crosshair-label-render" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/crosshair-label-render/index.js %}
@@ -252,4 +138,3 @@ Event arguments:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/crosshair-label-render" %}
-{% endif %}

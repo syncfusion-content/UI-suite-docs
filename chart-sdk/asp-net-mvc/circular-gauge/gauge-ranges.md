@@ -16,16 +16,6 @@ You can categories certain interval on gauge axis using [ranges](https://help.sy
 
 Start and end value of a range in an axis can be customized by using [start](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Start) and [end](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_End) properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/ranges/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/ranges/razor %}
@@ -34,23 +24,12 @@ Start and end value of a range in an axis can be customized by using [start](htt
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/ranges/ranges.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customization
 
 Color and thickness of the range can be customized by using [color](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Color), [startWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_StartWidth) and [endWidth](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_EndWidth) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/customization/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -60,7 +39,6 @@ Color and thickness of the range can be customized by using [color](https://help
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/customization/customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -74,16 +52,6 @@ You can place the range inside or outside of the axis by using [radius](https:/
 
 You can set the radius of the range in pixel.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius/razor %}
@@ -92,7 +60,6 @@ You can set the radius of the range in pixel.
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius/radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -102,16 +69,6 @@ You can set the radius of the range in pixel.
 
 By setting value in percentage, range gets its dimension with respect to its axis radius. For example, when the radius is ‘50%’, range renders to half of the axis radius.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius-percentage/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius-percentage/razor %}
@@ -120,23 +77,12 @@ By setting value in percentage, range gets its dimension with respect to its axi
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radius-percentage/radius-percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Dragging Ranges
 
 The ranges can be dragged over the axis line by clicking and dragging the same. To enable or disable the range drag, use the [EnableRangeDrag](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_EnableRangeDrag) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/dragging-range/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -146,7 +92,6 @@ The ranges can be dragged over the axis line by clicking and dragging the same. 
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/dragging-range/dragging-range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -156,16 +101,6 @@ You can add multiple ranges to an axis with the above customization.
 
 N> You can set the range color to axis ticks and labels by enabling `useRangeColor` property in [majorTicks](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeTick.html), [minorTicks](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeTick.html) and [labelStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeLabel.html) object.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/multiple-ranges/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/multiple-ranges/razor %}
@@ -174,23 +109,12 @@ N> You can set the range color to axis ticks and labels by enabling `useRangeCol
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/multiple-ranges/multiple-ranges.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Rounded corner radius
 
 You can customize the corner radius using the `roundedCornerRadius` property in `ranges`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/roundedcorner/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -200,7 +124,6 @@ You can customize the corner radius using the `roundedCornerRadius` property in 
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/roundedcorner/ranges.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -214,15 +137,6 @@ Gradient support allows to add multiple colors in the ranges and pointers of the
 ### Linear Gradient
 
 Using linear gradient, colors will be applied in a linear progression. The start value of the linear gradient will be set using the [startValue](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeLinearGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeLinearGradient_StartValue) property. The end value of the linear gradient will be set using the [endValue](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeLinearGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeLinearGradient_EndValue) property. The color stop values such as color, opacity and offset are set using [colorStop](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeLinearGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeLinearGradient_ColorStop) property.
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/lineargradient/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -232,23 +146,12 @@ Using linear gradient, colors will be applied in a linear progression. The start
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/lineargradient/lineargradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Radial Gradient
 
 Using radial gradient, colors will be applied in circular progression. The inner circle position of the radial gradient will be set using the [innerPosition](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRadialGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRadialGradient_InnerPosition) property. The outer circle position of the radial gradient can be set using the [outerPosition](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRadialGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRadialGradient_OuterPosition) property. The color stop values such as color, opacity and offset are set using [colorStop](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRadialGradient.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRadialGradient_ColorStop) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radialgradient/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -258,7 +161,6 @@ Using radial gradient, colors will be applied in circular progression. The inner
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-ranges/radialgradient/radialgradient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/CircularGaugeUGSample).
 

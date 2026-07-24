@@ -21,19 +21,6 @@ Chart can be zoomed in three ways.
 
 N> Pinch zooming is supported only in browsers that support multi-touch gestures. Currently IE11, Chrome and Opera browsers support multi-touch in desktop devices.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/default/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/default/razor %}
@@ -42,7 +29,6 @@ N> Pinch zooming is supported only in browsers that support multi-touch gestures
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -58,19 +44,6 @@ There are three types of mode.
 * Y - Allows us to zoom the chart vertically.
 * XY - Allows us to zoom the chart both vertically and horizontally.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/mode/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Mode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/mode/mode.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/mode/razor %}
@@ -79,26 +52,12 @@ There are three types of mode.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/mode/mode.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Toolbar
 
 By default, zoomin, zoomout, pan and reset buttons will be displayed for zoomed chart. You can customize to show the desired options in the toolbar using the [`ToolbarItems`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ToolbarItems) property. Also using the [`ShowToolbar`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ShowToolbar) property, you can show toolkit for zooming and panning the chart during initial rendering itself.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Toolbar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar/toolbar.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -108,24 +67,10 @@ By default, zoomin, zoomout, pan and reset buttons will be displayed for zoomed 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar/toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Toolbar customization
 
 The zoom toolbar in the chart can be repositioned using the [`ToolbarPosition`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_ChartZoomSettings_ToolbarPosition) property, allowing flexible alignment and placement. It supports horizontal alignments (**Near**, **Center**, and **Far**) and vertical alignments (**Top**, **Middle**, and **Bottom**), with default values set to **Far** and **Top**, respectively. For precise placement, the [`X`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartToolbarPosition.html#Syncfusion_EJ2_Charts_ChartToolbarPosition_X) and [`Y`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartToolbarPosition.html#Syncfusion_EJ2_Charts_ChartToolbarPosition_Y) properties can be used to adjust the toolbar's position within the chart area. Additionally, enabling the [`Draggable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartToolbarPosition.html#Syncfusion_EJ2_Charts_ChartToolbarPosition_Draggable) property allows users to freely move the toolbar within the chart area, ensuring optimal usability.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar-custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Toolbar-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar-custom/toolbar-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -135,24 +80,10 @@ The zoom toolbar in the chart can be repositioned using the [`ToolbarPosition`](
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/toolbar-custom/toolbar-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Enable pan
 
 Using [`EnablePan`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property you can able to pan the zoomed chart without help of toolbar items.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/pan/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pan.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/pan/pan.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -162,26 +93,12 @@ Using [`EnablePan`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/pan/pan.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Enable scrollbar
 
 Using the [`EnableScrollbar`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_ChartZoomSettings_EnableScrollbar) property, you can add a scrollbar to a zoomed chart. This scrollbar allows you to zoom or pan the chart. The appearance of the scrollbar can be customized using properties in [`ScrollbarSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html). For example, you can use [`TrackColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_TrackColor) and [`TrackRadius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_TrackRadius) properties to customize the track of the scrollbar, and [`ScrollbarRadius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_ScrollbarRadius) and [`ScrollbarColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_ScrollbarColor) properties to customize the scroller. The ability to zoom through the scrollbar can be enabled or disabled using the [`EnableZoom`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_EnableZoom) property in [`ScrollbarSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html). Additionally, you can change the color of the grip and height of the scrollbar using the [`GripColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_GripColor) and [`Height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_Height) properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/scrollbar/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Scrollbar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/scrollbar/scrollbar.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -191,7 +108,6 @@ Using the [`EnableScrollbar`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncf
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/scrollbar/scrollbar.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -203,19 +119,6 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Cha
 * Horizontal scrollbar: Available positions are `Top` and `Bottom`.
 * Vertical scrollbar: Available positions are `Left` and `Right`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/position/razor %}
@@ -224,26 +127,12 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Cha
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Enable animation
 
 Enable the [`EnableAnimation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_ChartZoomSettings_EnableAnimation) property to experience smooth transitions when zooming in on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/animation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/animation/animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -253,26 +142,12 @@ Enable the [`EnableAnimation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Sync
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Auto interval on zooming
 
 By using [`EnableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html) property, the axis interval will get calculated automatically with respect to the zoomed range.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/auto-interval/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Auto-interval.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/auto-interval/auto-interval.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -282,5 +157,4 @@ By using [`EnableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetco
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/zoom/auto-interval/auto-interval.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

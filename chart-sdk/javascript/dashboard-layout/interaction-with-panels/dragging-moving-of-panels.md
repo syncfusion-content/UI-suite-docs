@@ -22,21 +22,6 @@ While dragging a panel in the Dashboard Layout, the following events are trigger
 
 The following sample demonstrates dragging and pushing of panels. For example, while dragging panel 0 over panel 1, these panels get collided and push panel 1 towards a feasible direction so that panel 0 gets placed in panel 1's position.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/sizing-of-cells-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/sizing-of-cells-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/sizing-of-cells-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/dashboard-layout/sizing-of-cells-cs1/index.js %}
@@ -47,28 +32,12 @@ The following sample demonstrates dragging and pushing of panels. For example, w
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/sizing-of-cells-cs1" %}
-{% endif %}
 
 ## Customizing the dragging handler
 
 By default, the complete panel acts as the handler for dragging the panel such that the dragging action occurs when clicking anywhere over a panel. However, this dragging handler for the panels can be customized using the [`draggableHandle`](../../api/dashboard-layout#draggablehandle) property to restrict the dragging action within a particular element in the panel.
 
 The following sample demonstrates customizing the dragging handler so dragging action of a panel occurs only with the header of the panel.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/drag-handler-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/drag-handler-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/drag-handler-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -80,28 +49,12 @@ The following sample demonstrates customizing the dragging handler so dragging a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/drag-handler-cs1" %}
-{% endif %}
 
 ## Disable dragging of panels
 
 By default, dragging is enabled in the Dashboard Layout. It can also be disabled with the help of the [`allowDragging`](../../api/dashboard-layout#allowdragging) API. Setting [`allowDragging`](../../api/dashboard-layout#allowdragging) to **false** disables the dragging functionality in the Dashboard Layout.
 
 The following sample demonstrates the Dashboard Layout with dragging disabled.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/disable-dragging-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/disable-dragging-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/disable-dragging-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -113,14 +66,5 @@ The following sample demonstrates the Dashboard Layout with dragging disabled.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/disable-dragging-cs1" %}
-{% endif %}
-
-{% if page.publishingplatform == "typescript" %}
-
-> Refer to the [TypeScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [TypeScript Dashboard Layout example](https://ej2.syncfusion.com/demos/#/fluent2/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% elsif page.publishingplatform == "javascript" %}
 
 > Refer to the [JavaScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [JavaScript Dashboard Layout example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% endif %}

@@ -34,21 +34,6 @@ Initialize the tooltip template div as shown in the following html page.
 
 Set the element id to the `template` property in `tooltipSettings` to show the tooltip template.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs2/index.js %}
@@ -59,4 +44,3 @@ Set the element id to the `template` property in `tooltipSettings` to show the t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/how-to-cs2" %}
-{% endif %}

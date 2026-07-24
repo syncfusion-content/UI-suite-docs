@@ -21,21 +21,6 @@ The chart can render to its container size. Set the size via inline styles or CS
     </div>
 ```
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs1/index.js %}
@@ -46,7 +31,6 @@ The chart can render to its container size. Set the size via inline styles or CS
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs1" %}
-{% endif %}
 <!-- markdownlint-disable MD036 -->
 
 ## Size for Chart
@@ -59,21 +43,6 @@ Set the chart size directly using the [`width`](../api/chart#width-string) and [
 
 You can set the size of chart in pixel as demonstrated below.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs2/index.js %}
@@ -84,26 +53,10 @@ You can set the size of chart in pixel as demonstrated below.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs2" %}
-{% endif %}
 
 **In Percentage**
 
 When percentage values are used, the chart dimensions are relative to the container. For example, a height of `50%` renders the chart to half the container height.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -115,7 +68,6 @@ When percentage values are used, the chart dimensions are relative to the contai
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-dimensions-cs3" %}
-{% endif %}
 
 > Note: When you do not specify the size, it takes `450px` as the height and window size as its width.
 > Note: When no size is specified, the chart defaults to a height of `450px` and uses the window width.

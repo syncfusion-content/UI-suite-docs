@@ -15,19 +15,6 @@ documentation: ug
 
 To render a bar series, use series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Type) as [`Bar`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeriesType.html#Syncfusion_EJ2_Charts_Chart3DSeriesType_Bar).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar/bar.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar/razor %}
@@ -36,26 +23,12 @@ To render a bar series, use series [`Type`](https://help.syncfusion.com/cr/aspne
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar/bar.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Bar space and width
 
 The [`ColumnSpacing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnSpacing) and [`ColumnWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnWidth) properties are used to customize the space between bars.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-space/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar-space.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-space/bar-space.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,25 +38,11 @@ The [`ColumnSpacing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-space/bar-space.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 ## Grouped bar
 
 The data points can be grouped in the bar type charts by using the [`GroupName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_GroupName) property. Data points with same group name are grouped together.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/group-bar/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group-bar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/group-bar/group-bar.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -93,26 +52,12 @@ The data points can be grouped in the bar type charts by using the [`GroupName`]
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/group-bar/group-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Cylindrical bar chart
 
 To render a cylindrical bar chart, set the [`ColumnFacet`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnFacet) property to `Cylinder` in the chart series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-cylinder/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar-cylinder.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-cylinder/bar-cylinder.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -122,7 +67,6 @@ To render a cylindrical bar chart, set the [`ColumnFacet`](https://help.syncfusi
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-cylinder/bar-cylinder.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -133,19 +77,6 @@ The following properties can be used to customize the [`Bar`](https://help.syncf
 * [Fill](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) – Specifies the color of the series.
 * [Opacity](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Opacity) – Specifies the opacity of the [Fill](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) color.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bar-series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-series/bar-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-series/razor %}
@@ -154,5 +85,4 @@ The following properties can be used to customize the [`Bar`](https://help.syncf
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/bar-charts/bar-series/bar-series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

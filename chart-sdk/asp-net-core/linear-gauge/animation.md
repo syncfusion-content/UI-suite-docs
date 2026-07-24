@@ -19,8 +19,6 @@ All of the elements in the Linear Gauge, such as the axis lines, ticks, labels, 
 
 The animation of the Linear Gauge is demonstrated in the following example.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/animation/tagHelper %}
@@ -29,8 +27,6 @@ The animation of the Linear Gauge is demonstrated in the following example.
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ![Linear Gauge with animation](../linear-gauge/images/animation.gif)
 
