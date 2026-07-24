@@ -13,8 +13,6 @@ documentation: ug
 
 By default, when the `dataSource` for `series` is empty, a lightweight Range Selector will be shown without Chart.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/light-weight/tagHelper %}
@@ -23,18 +21,6 @@ By default, when the `dataSource` for `series` is empty, a lightweight Range Sel
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/light-weight/light-weight.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/light-weight/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Light-weight.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/light-weight/light-weight.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

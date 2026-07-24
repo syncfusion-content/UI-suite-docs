@@ -13,8 +13,6 @@ documentation: ug
 
 The Range Selector supports right-to-left (RTL), which can be enabled with the `enableRtl` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/rtl/tagHelper %}
@@ -23,18 +21,6 @@ The Range Selector supports right-to-left (RTL), which can be enabled with the `
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/rtl/rtl.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/rtl/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rtl.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/rtl/rtl.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

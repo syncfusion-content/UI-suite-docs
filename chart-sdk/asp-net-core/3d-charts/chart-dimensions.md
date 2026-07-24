@@ -14,8 +14,6 @@ documentation: ug
 
 The 3D chart can be rendered to its container size and it can be set via inline or CSS as demonstrated below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/size/tagHelper %}
@@ -24,18 +22,6 @@ The 3D chart can be rendered to its container size and it can be set via inline 
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/size/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -49,8 +35,6 @@ The size of the 3D chart can be set directly through [`Width`](https://help.sync
 
 The size of the 3D chart can be set in pixel as demonstrated below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/pixel/tagHelper %}
@@ -60,25 +44,11 @@ The size of the 3D chart can be set in pixel as demonstrated below.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/pixel/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pixel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/pixel/pixel.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **In percentage**
 
 By setting the value in percentage, 3D chart gets its dimension with respect to its container. For example, when the height is **50%**, chart renders to half of the container height.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -88,18 +58,6 @@ By setting the value in percentage, 3D chart gets its dimension with respect to 
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/percentage/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/appearance/percentage/percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

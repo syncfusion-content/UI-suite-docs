@@ -28,21 +28,6 @@ Internationalization library is used to globalize number in the Circular Gauge u
 
 In the below example, axis labels are globalized to **EUR**.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs18/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs18/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs18" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs18/index.js %}
@@ -53,28 +38,12 @@ In the below example, axis labels are globalized to **EUR**.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs18" %}
-{% endif %}
 
 ## Right-to-left
 
 Circular Gauge can render its elements from right to left, which improves the user experience for certain language users. To do so, set the [enableRtl](../api/circular-gauge/#enablertl) property to **true**. When this property is enabled, elements such as the tooltip and legend will be rendered from right to left. Meanwhile, the axis can be rendered from right to left by setting the [direction](../api/circular-gauge/axis/#direction) property to **AntiClockWise**. For more information on axis, click [here](../circular-gauge/gauge-axes/#angles-and-direction).
 
 The following example illustrates the right to left rendering of the Circular Gauge.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs19/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs19/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs19" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -86,4 +55,3 @@ The following example illustrates the right to left rendering of the Circular Ga
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/gauge-axes-cs19" %}
-{% endif %}

@@ -20,8 +20,6 @@ To split the chart area vertically into number of rows, use [`Rows`](https://hel
 * The space for each row can be allocated by using the [`Height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DRow.html#Syncfusion_EJ2_Charts_Chart3DRow_Height) property. The value can be either in percentage or in pixel.
 * To associate a vertical axis to a particular row, specify its index to [`RowIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RowIndex) property of the axis.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/row/tagHelper %}
@@ -31,23 +29,9 @@ To split the chart area vertically into number of rows, use [`Rows`](https://hel
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/row/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Row.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/row/row.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For spanning the vertical axis along multiple rows, use [`Span`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Span) property of an axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -58,18 +42,6 @@ For spanning the vertical axis along multiple rows, use [`Span`](https://help.s
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/row-span/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Row-span.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/row-span/row-span.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Columns
@@ -78,8 +50,6 @@ To split the chart area horizontally into number of columns, use [`Columns`](htt
 
 * The space for each column can be allocated by using the [`Width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DColumn.html#Syncfusion_EJ2_Charts_Chart3DColumn_Width) property. The given width can be either in percentage or in pixel.
 * To associate a horizontal axis to a particular column, specify its index to [`ColumnIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_ColumnIndex) property of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -90,23 +60,9 @@ To split the chart area horizontally into number of columns, use [`Columns`](htt
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/column/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/column/column.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 For spanning the vertical axis along multiple column, you can use [`Span`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Span) property of an axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -116,17 +72,5 @@ For spanning the vertical axis along multiple column, you can use [`Span`](http
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/column-span/column-span.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/column-span/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column-span.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/axis/column-span/column-span.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

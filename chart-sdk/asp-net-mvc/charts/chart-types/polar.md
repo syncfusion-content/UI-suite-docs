@@ -17,19 +17,6 @@ To render a [polar](https://www.syncfusion.com/aspnet-core-ui-controls/charts/ch
 
 * **Set the series type:** Define the series `Type` as **Polar** in your chart configuration. This indicates that the data should be represented as a polar chart, which is ideal for plotting data points on a circular graph.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/razor %}
@@ -38,25 +25,11 @@ To render a [polar](https://www.syncfusion.com/aspnet-core-ui-controls/charts/ch
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `DataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `XName` and `YName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/razor %}
@@ -65,7 +38,6 @@ You can bind data to the chart using the `DataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Draw types
 
@@ -77,19 +49,6 @@ To render a line draw type, you need to follow a few steps to configure it corre
 
 **Set the series type:** Define the series `DrawType` as **Line** in your chart configuration. This indicates that the data should be represented as a polar line chart, with lines connecting each data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/razor %}
@@ -98,26 +57,12 @@ To render a line draw type, you need to follow a few steps to configure it corre
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-line/polar-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Spline
 
 To render a spline draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **Spline** in your chart configuration. This indicates that the data should be represented as a polar spline chart, with smooth, curved lines connecting each data point.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-spline/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-spline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-spline/polar-spline.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -127,26 +72,12 @@ To render a spline draw type, you need to follow a few steps to configure it cor
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-spline/polar-spline.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Area
 
 To render an area draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **Area** in your chart configuration. This indicates that the data should be represented as a polar area chart, with filled areas below the lines connecting each data point.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-area/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-area.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-area/polar-area.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -156,26 +87,12 @@ To render an area draw type, you need to follow a few steps to configure it corr
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-area/polar-area.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Stacked Area
 
 To render a stacked area draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **StackingArea** in your chart configuration. This indicates that the data should be represented as a polar stacked area chart, with areas stacked on top of each other, displaying the cumulative value of multiple series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedarea/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-stackedarea.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedarea/polar-stackedarea.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -185,26 +102,12 @@ To render a stacked area draw type, you need to follow a few steps to configure 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedarea/polar-stackedarea.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Column
 
 To render a column draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **Column** in your chart configuration. This indicates that the data should be represented as a polar column chart, allowing for the comparison of values across categories.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-column/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-column/polar-column.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -214,26 +117,12 @@ To render a column draw type, you need to follow a few steps to configure it cor
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-column/polar-column.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Stacked Column
 
 To render a stacked column draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **StackingColumn** in your chart configuration. This indicates that the data should be represented as a polar stacked column chart, with each column consisting of multiple segments stacked on top of each other.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedcolumn/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-stackedcolumn.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedcolumn/polar-stackedcolumn.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -243,26 +132,12 @@ To render a stacked column draw type, you need to follow a few steps to configur
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-stackedcolumn/polar-stackedcolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Range Column
 
 To render a range column draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **RangeColumn** in your chart configuration. This indicates that the data should be represented as a polar range column chart, where each column spans a range of values.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-rangecolumn/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-rangecolumn.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-rangecolumn/polar-rangecolumn.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -272,26 +147,12 @@ To render a range column draw type, you need to follow a few steps to configure 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-rangecolumn/polar-rangecolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Scatter
 
 To render a scatter draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **Scatter** in your chart configuration. This indicates that the data should be represented as a polar scatter chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-scatter/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-scatter.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-scatter/polar-scatter.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -301,26 +162,12 @@ To render a scatter draw type, you need to follow a few steps to configure it co
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-scatter/polar-scatter.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Spline area
 
 To render an spline area draw type, you need to follow a few steps to configure it correctly.
 
 **Set the series type:** Define the series `DrawType` as **SplineArea** in your chart configuration. This indicates that the data should be represented as a polar spline area chart, where the series is drawn with smooth, curved lines connecting each data point, and the area beneath the line is filled with color.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-splinearea/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Polar-splinearea.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-splinearea/polar-splinearea.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -330,26 +177,12 @@ To render an spline area draw type, you need to follow a few steps to configure 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/polar-splinearea/polar-splinearea.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Series customization
 
 ### Start Angle
 
 You can customize the start angle of the polar series using startAngle property. By default, `StartAngle` is **0** degree.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/start-angle/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Start-angle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/start-angle/start-angle.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -359,24 +192,10 @@ You can customize the start angle of the polar series using startAngle property.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/start-angle/start-angle.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Radius
 
 You can customize the radius of the polar series using `Coefficient` property. By default, `Coefficient` is **100**.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/co-efficient/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Co-efficient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/co-efficient/co-efficient.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -386,7 +205,6 @@ You can customize the radius of the polar series using `Coefficient` property. B
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/co-efficient/co-efficient.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Empty points
 
@@ -396,19 +214,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 
 Use the `Mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty/razor %}
@@ -417,24 +222,10 @@ Use the `Mode` property to define how empty or missing data points are handled i
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty/empty.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Fill**
 
 Use the `Fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-fill/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -444,24 +235,10 @@ Use the `Fill` property to customize the fill color of empty points in the serie
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-fill/empty-fill.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Border**
 
 Use the `Border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-border/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -471,26 +248,12 @@ Use the `Border` property to customize the width and color of the border for emp
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/empty-border/empty-border.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Events
 
 ### Series render
 
 The `SeriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/series-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -500,24 +263,10 @@ The `SeriesRender` event allows you to customize series properties, such as data
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/series-render/series-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Point render
 
 The `PointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/point-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -527,7 +276,6 @@ The `PointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/polar-radar/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## See Also
 

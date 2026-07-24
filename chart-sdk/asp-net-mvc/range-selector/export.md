@@ -19,19 +19,6 @@ The rendered Range Selector can be exported to **JPEG**, **PNG**, **SVG**, or **
 * **File name** - To specify the file name to export.
 * **Orientation** - To specify the orientation type. This is applicable only for PDF export type.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/export/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/export/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/export/razor %}
@@ -40,26 +27,12 @@ The rendered Range Selector can be exported to **JPEG**, **PNG**, **SVG**, or **
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Print
 
 The rendered Range Selector can be printed directly from the browser by calling the public method `print`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/print/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -69,5 +42,4 @@ The rendered Range Selector can be printed directly from the browser by calling 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/print/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

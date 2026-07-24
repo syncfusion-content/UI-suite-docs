@@ -20,21 +20,6 @@ To show the total value in data points, follow the given steps:
 Define annotation for each x point in chart, now change the annotation value in chart by using the [`annotationRender`](../../api/chart/chartModel/#annotationrender) event. In this event, assign the stacked value of the last series to the annotation to show the total value of the
 stacking series.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs17/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs17/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs17" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/how-to-cs17/index.js %}
@@ -45,4 +30,3 @@ stacking series.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs17" %}
-{% endif %}

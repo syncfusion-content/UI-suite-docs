@@ -25,19 +25,6 @@ The available layout types are,
 
 The `Squarified` layout displays the nested rectangles based on aspect ratio in the TreeMap. The rectangles will be split based on the height and width of the parent. The default rendering type of layout is `Squarified`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/squarified/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Squarified.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/squarified/squarified.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/squarified/razor %}
@@ -46,7 +33,6 @@ The `Squarified` layout displays the nested rectangles based on aspect ratio in 
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/squarified/squarified.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -56,19 +42,6 @@ The `Squarified` layout displays the nested rectangles based on aspect ratio in 
 
 The `SliceAndDiceVertical` layout creates rectangles with high aspect ratio and displays items in a vertically sorted order.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-vertical/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Slice_vertical.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-vertical/slice-vertical.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-vertical/razor %}
@@ -77,7 +50,6 @@ The `SliceAndDiceVertical` layout creates rectangles with high aspect ratio and 
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-vertical/slice-vertical.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -87,19 +59,6 @@ The `SliceAndDiceVertical` layout creates rectangles with high aspect ratio and 
 
 The `SliceAndDiceHorizontal` layout creates rectangles with high aspect ratio and displays items in a horizontally sorted order.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-horizontal/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Slice_horizontal.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-horizontal/slice-horizontal.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-horizontal/razor %}
@@ -108,7 +67,6 @@ The `SliceAndDiceHorizontal` layout creates rectangles with high aspect ratio an
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-horizontal/slice-horizontal.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -118,19 +76,6 @@ The `SliceAndDiceHorizontal` layout creates rectangles with high aspect ratio an
 
 The `SliceAndDiceAuto` layout creates rectangles with high aspect ratio and display items sorted both horizontally and vertically.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-auto/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Slice_auto.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-auto/slice-auto.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-auto/razor %}
@@ -139,7 +84,6 @@ The `SliceAndDiceAuto` layout creates rectangles with high aspect ratio and disp
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/slice-auto/slice-auto.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -153,19 +97,6 @@ The TreeMap control supports right-to-left rendering for all its elements such a
 
 If you set the `enableRtl` property to true, then the legend icon will be rendered on the right and the legend text will be rendered on the left of the legend icon.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/legend-rtl/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-rtl.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/legend-rtl/legend-rtl.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/legend-rtl/razor %}
@@ -174,7 +105,6 @@ If you set the `enableRtl` property to true, then the legend icon will be render
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/legend-rtl/legend-rtl.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -186,19 +116,6 @@ If the `enableRtl` property is set to true, the tooltip data will be rendered in
 
 The following example shows the format of the tooltip.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/tooltip-rtl/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-rtl.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/tooltip-rtl/tooltip-rtl.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/tooltip-rtl/razor %}
@@ -207,7 +124,6 @@ The following example shows the format of the tooltip.
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/tooltip-rtl/tooltip-rtl.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -226,19 +142,6 @@ The TreeMap can be rendered in the following directions:
 
 The following example demonstrate how to render the treemap in the RTL direction with `TopLeftBottomRight`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-one/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Render-direction-one.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-one/render-direction-one.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-one/razor %}
@@ -247,26 +150,12 @@ The following example demonstrate how to render the treemap in the RTL direction
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-one/render-direction-one.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ![TreeMap with custom rendering direction](images/Layout/TopLeftBottomRight.png)
 
 The following example demonstrate how to render the treemap in the RTL direction with `TopRightBottomLeft`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-two/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Render-direction-two.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-two/render-direction-two.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -276,26 +165,12 @@ The following example demonstrate how to render the treemap in the RTL direction
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-two/render-direction-two.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ![TreeMap custom rendering direction](images/Layout/TopRightBottomLeft.png)
 
 The following example demonstrate how to render the treemap in the RTL direction with `BottomRightTopLeft`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-three/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Render-direction-three.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-three/render-direction-three.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -305,26 +180,12 @@ The following example demonstrate how to render the treemap in the RTL direction
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-three/render-direction-three.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ![TreeMap custom rendering direction](images/Layout/BottomRightTopLeft.png)
 
 The following example demonstrate how to render the treemap in the RTL direction with `BottomLeftTopRight`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-four/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Render-direction-four.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-four/render-direction-four.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -334,7 +195,6 @@ The following example demonstrate how to render the treemap in the RTL direction
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/layout/render-direction-four/render-direction-four.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

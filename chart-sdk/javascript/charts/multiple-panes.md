@@ -21,21 +21,6 @@ To split the chart area vertically into multiple rows, use the [`rows`](../api/c
 - To associate a vertical axis with a specific row, assign the corresponding index using the [`rowIndex`](../api/chart/axis#rowindex-number) property of the axis.
 - To customize the bottom line of each row, use the [`border`](../api/chart/row#border-bordermodel) property.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs78/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs78/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs78" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/axis-cs78/index.js %}
@@ -46,24 +31,8 @@ To split the chart area vertically into multiple rows, use the [`rows`](../api/c
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs78" %}
-{% endif %}
 
 To span a vertical axis across multiple rows, use the [`span`](../api/chart/axis#span-number) property of the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs79/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs79/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs79" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,7 +44,6 @@ To span a vertical axis across multiple rows, use the [`span`](../api/chart/axis
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs79" %}
-{% endif %}
 
 ## Columns
 
@@ -84,21 +52,6 @@ To split the chart area horizontally into multiple columns, use the [`columns`](
 - Space for each column can be allocated using the [`width`](../api/chart/row#width-string) property. The width can be specified either in pixels or as a percentage.
 - To associate a horizontal axis with a specific column, assign the corresponding index using the [`columnIndex`](../api/chart/axis#columnindex-number) property of the axis.
 - To customize the bottom line of each column, use the [`border`](../api/chart/row#border-bordermodel) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs80/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs80/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs80" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -110,24 +63,8 @@ To split the chart area horizontally into multiple columns, use the [`columns`](
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs80" %}
-{% endif %}
 
 To span a horizontal axis across multiple columns, use the [`span`](../api/chart/axis#span-number) property of the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs81/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs81/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs81" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -139,4 +76,3 @@ To span a horizontal axis across multiple columns, use the [`span`](../api/chart
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs81" %}
-{% endif %}

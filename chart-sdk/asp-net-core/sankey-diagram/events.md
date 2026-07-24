@@ -43,8 +43,6 @@ This guide covers lifecycle events, rendering events, interaction events, and ex
 
 The `Load` event triggers before the Sankey Chart begins rendering. Use this event to customize configuration, apply themes, or prepare data before the chart loads:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/load-event/tagHelper %}
@@ -54,24 +52,9 @@ The `Load` event triggers before the Sankey Chart begins rendering. Use this eve
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/load-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Load-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/load-event/load-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Loaded Event
 
 The `Loaded` event triggers after the Sankey Chart is completely rendered and ready for interaction. Use this event to initialize calculations, perform analytics, or trigger dependent components:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -82,26 +65,11 @@ The `Loaded` event triggers after the Sankey Chart is completely rendered and re
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/loaded-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Loaded-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/loaded-event/loaded-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Interaction Events
 
 ### Node Interaction Events
 
 Handle node click and hover events to respond to user actions and provide interactive feedback:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -112,24 +80,9 @@ Handle node click and hover events to respond to user actions and provide intera
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/node-interaction-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-interaction-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/node-interaction-event/node-interaction-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Link Interaction Events
 
 Handle link click and hover events:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -140,19 +93,6 @@ Handle link click and hover events:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/link-interaction-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-interaction-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/link-interaction-event/link-interaction-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Rendering Events
 
 Use rendering events to customize elements dynamically based on data values, conditions, or business logic. This is the most powerful approach for data-driven styling.
@@ -160,8 +100,6 @@ Use rendering events to customize elements dynamically based on data values, con
 ### Node Rendering Event
 
 The `NodeRendering` event triggers before each node is rendered, allowing dynamic node customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -172,24 +110,9 @@ The `NodeRendering` event triggers before each node is rendered, allowing dynami
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/node-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Node-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/node-rendering-event/node-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Link Rendering Event
 
 The `LinkRendering` event triggers before each link is rendered, allowing dynamic link customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -200,24 +123,9 @@ The `LinkRendering` event triggers before each link is rendered, allowing dynami
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/link-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/link-rendering-event/link-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Label Rendering Event
 
 The `LabelRendering` event triggers before each label is rendered, allowing dynamic label customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -228,24 +136,9 @@ The `LabelRendering` event triggers before each label is rendered, allowing dyna
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/label-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/label-rendering-event/label-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Legend Item Rendering Event
 
 The `LegendItemRendering` event triggers before a legend item is rendered, allowing custom legend item styling:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -256,24 +149,9 @@ The `LegendItemRendering` event triggers before a legend item is rendered, allow
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/legend-item-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend-item-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/legend-item-rendering-event/legend-item-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Size Changed Event
 
 Respond when the chart size changes (e.g., window resize):
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -284,24 +162,9 @@ Respond when the chart size changes (e.g., window resize):
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/size-changed-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size-changed-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/size-changed-event/size-changed-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Complete Event Handler Example
 
 Combine multiple events for comprehensive handling:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -312,15 +175,3 @@ Combine multiple events for comprehensive handling:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/complete-event-handler/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Complete-event-handler.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/events/complete-event-handler/complete-event-handler.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}

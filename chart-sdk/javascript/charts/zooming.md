@@ -21,21 +21,6 @@ The chart supports zooming through the following three interaction methods:
 
 > Pinch zooming is supported only in browsers that support multi-touch gestures.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs39/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs39/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs39" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs39/index.js %}
@@ -46,7 +31,6 @@ The chart supports zooming through the following three interaction methods:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs39" %}
-{% endif %}
 
 After zooming, a toolbar is displayed that includes **zoom**, **zoomin**, **zoomout**, **pan**, and **reset** buttons.  
 Selecting **Pan** allows the chart to be panned, and selecting **Reset** restores the chart to its original zoom state.
@@ -61,21 +45,6 @@ The supported zooming modes are:
 * **Y** – Allows zooming along the vertical axis.
 * **XY** – Allows zooming along both horizontal and vertical axes.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs40/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs40/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs40" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs40/index.js %}
@@ -86,28 +55,12 @@ The supported zooming modes are:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs40" %}
-{% endif %}
 
 ## Toolbar
 
 By default, the **zoomin**, **zoomout**, **pan**, and **reset** buttons are displayed when the chart is zoomed. The toolbar contents can be customized by using the [`toolbarItems`](../api/chart/zoomSettingsModel#toolbaritems) property.  
 
 Additionally, the zooming toolbar can be displayed during initial rendering by setting the [`showToolbar`](../api/chart/zoomSettingsModel#showtoolbar) property to **true**.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs41/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs41/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs41" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -119,7 +72,6 @@ Additionally, the zooming toolbar can be displayed during initial rendering by s
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs41" %}
-{% endif %}
 
 ### Toolbar customization
 
@@ -127,21 +79,6 @@ The zoom toolbar position can be customized by using the [`toolbarPosition`](../
 
 For precise placement, the [`x`](../api/chart/toolbarPositionModel#x) and [`y`](../api/chart/toolbarPositionModel#y) properties can be used.  
 Enabling the [`draggable`](../api/chart/toolbarPositionModel#draggable) property allows the toolbar to be repositioned freely within the chart area.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs51/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs51/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs51" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -153,27 +90,11 @@ Enabling the [`draggable`](../api/chart/toolbarPositionModel#draggable) property
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs51" %}
-{% endif %}
 
 
 ## Enable pan
 
 By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed chart can be panned without using toolbar items.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs42/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs42/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs42" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -185,7 +106,6 @@ By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs42" %}
-{% endif %}
 
 ## Enable scrollbar
 
@@ -197,21 +117,6 @@ Scrollbar appearance can be customized using properties within [`scrollbarSettin
 - Zooming through the scrollbar can be enabled or disabled using [`enableZoom`](../api/chart/scrollbarSettings#enablezoom).
 - The grip color and scrollbar height can be customized using [`gripColor`](../api/chart/scrollbarSettings#gripcolor) and [`height`](../api/chart/scrollbarSettings#height).
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs43/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs43/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs43" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs43/index.js %}
@@ -222,7 +127,6 @@ Scrollbar appearance can be customized using properties within [`scrollbarSettin
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs43" %}
-{% endif %}
 
 ### Position
 
@@ -234,21 +138,6 @@ The available positions are:
 * **Horizontal scrollbar** – `Top`, `Bottom`
 * **Vertical scrollbar** – `Left`, `Right`
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs53/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs53/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs53" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs53/index.js %}
@@ -259,26 +148,10 @@ The available positions are:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs53" %}
-{% endif %}
 
 ## Enable animation
 
 Use the [`enableAnimation`](../api/chart/zoomSettingsModel#enableanimation) property to apply smooth animation effects during zoom operations.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/animation-cs/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/animation-cs/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/animation-cs" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -290,26 +163,10 @@ Use the [`enableAnimation`](../api/chart/zoomSettingsModel#enableanimation) prop
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/animation-cs" %}
-{% endif %}
 
 ## Auto interval on zooming
 
 By using the [`enableAutoIntervalOnZooming`](../api/chart/axis#enableautointervalonzooming) property, the axis interval is calculated automatically based on the current zoomed range.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs44/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs44/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs44" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -321,6 +178,5 @@ By using the [`enableAutoIntervalOnZooming`](../api/chart/axis#enableautointerva
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs44" %}
-{% endif %}
 
 >Note: To use the zooming feature, inject `Zoom` module `Chart.Inject(Zoom)` method.

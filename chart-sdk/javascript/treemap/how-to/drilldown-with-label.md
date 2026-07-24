@@ -45,21 +45,6 @@ let treemap: TreeMap = new TreeMap({
 
 Add the label template in the `leafItemSettings` options, and then set the `showLabels` property to false to hide another labels and show only label template.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/treemap/how-to/label-template-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/treemap/how-to/label-template-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/treemap/how-to/label-template-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/treemap/how-to/label-template-cs1/index.js %}
@@ -70,4 +55,3 @@ Add the label template in the `leafItemSettings` options, and then set the `show
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/treemap/how-to/label-template-cs1" %}
-{% endif %}

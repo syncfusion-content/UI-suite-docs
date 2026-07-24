@@ -17,24 +17,6 @@ The series label displays the name of each series inline, positioned near the en
 
 Enable series labels using the [`labelSettings`](../api/chart/seriesModel#labelsettings) property within the series configuration. Set the [`visible`](../api/chart/seriesLabelSettingsModel#visible) property to **true** to display the label.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label/index.html %}
-{% endhighlight %}
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label/datasource.ts %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/series-label" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/series-label/index.js %}
@@ -45,7 +27,6 @@ Enable series labels using the [`labelSettings`](../api/chart/seriesModel#labels
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/series-label" %}
-{% endif %}
 
 > Note: To use the series label feature, inject the `SeriesLabel` module into the `services`.
 
@@ -60,24 +41,6 @@ Customize the appearance of series labels using the following properties:
 * [`opacity`](../api/chart/seriesLabelSettingsModel#opacity) – Label transparency (default: 1).
 * [`showOverlapText`](../api/chart/seriesLabelSettingsModel#showOverlapText) – When **false**, overlapping labels are hidden.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label-customization/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label-customization/index.html %}
-{% endhighlight %}
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/series-label-customization/datasource.ts %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/series-label-customization" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/series-label-customization/index.js %}
@@ -88,7 +51,6 @@ Customize the appearance of series labels using the following properties:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/series-label-customization" %}
-{% endif %}
 
 Note: To use the series label feature, inject the `SeriesLabel` module into the `services`.
 

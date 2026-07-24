@@ -23,8 +23,6 @@ To add a new series to chart dynamically, pass the series value to the `addSerie
 
 To remove the new series from chart dynamically, pass the series index to the `removeSeries` method.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/add-remove/tagHelper %}
@@ -33,16 +31,4 @@ To remove the new series from chart dynamically, pass the series index to the `r
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/add-remove/add-remove.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/add-remove/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Add-remove.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/add-remove/add-remove.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

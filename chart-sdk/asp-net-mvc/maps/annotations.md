@@ -18,19 +18,6 @@ Annotations are used to mark the specific area of interest in the Maps with text
 
 By using the `Content` property of `MapsAnnotation`, text content or id of an element or an HTML string can be specified to render a new HTML element in Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/razor %}
@@ -39,7 +26,6 @@ By using the `Content` property of `MapsAnnotation`, text content or id of an el
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -51,19 +37,6 @@ By using the `Content` property of `MapsAnnotation`, text content or id of an el
 
 The stack order of an annotation element can be changed using the `ZIndex` property in the `MapsAnnotation`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotaion-zindex/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotaion-zindex.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotaion-zindex/annotaion-zindex.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotaion-zindex/razor %}
@@ -72,7 +45,6 @@ The stack order of an annotation element can be changed using the `ZIndex` prop
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotaion-zindex/annotaion-zindex.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -82,19 +54,6 @@ The stack order of an annotation element can be changed using the `ZIndex` prop
 
 Annotations can be placed anywhere in the Maps by specifying pixel or percentage values to the `X` and `Y` properties in the `MapsAnnotation`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-position/annotation-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-position/razor %}
@@ -103,7 +62,6 @@ Annotations can be placed anywhere in the Maps by specifying pixel or percentage
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-position/annotation-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -113,19 +71,6 @@ Annotations can be placed anywhere in the Maps by specifying pixel or percentage
 
 Annotations can be aligned using the `HorizontalAlignment` and `VerticalAlignment` properties in the `MapsAnnotation`. The possible values can be **Center**, **Far**, **Near** and **None**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-alignment/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotation-alignment.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-alignment/annotation-alignment.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-alignment/razor %}
@@ -134,7 +79,6 @@ Annotations can be aligned using the `HorizontalAlignment` and `VerticalAlignmen
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/annotation-alignment/annotation-alignment.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -144,19 +88,6 @@ Annotations can be aligned using the `HorizontalAlignment` and `VerticalAlignmen
 
 Multiple annotations can be added to the Maps by adding Multiple `MapsAnnotation` in the `MapsAnnotations` and customization for the annotations can be done with the `MapsAnnotation`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/multiple-annotation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-annotation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/multiple-annotation/multiple-annotation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/multiple-annotation/razor %}
@@ -165,7 +96,6 @@ Multiple annotations can be added to the Maps by adding Multiple `MapsAnnotation
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/annotations/multiple-annotation/multiple-annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

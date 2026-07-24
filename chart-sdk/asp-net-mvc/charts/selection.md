@@ -31,19 +31,6 @@ We have different type of selection mode for selecting the data. They are,
 
  You can select a point, by setting `SelectionMode` to point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/point-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/point-selection/point-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/point-selection/razor %}
@@ -52,26 +39,12 @@ We have different type of selection mode for selecting the data. They are,
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/point-selection/point-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Series
 
  You can select a series, by setting `SelectionMode` to series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/series-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/series-selection/series-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -81,26 +54,12 @@ We have different type of selection mode for selecting the data. They are,
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/series-selection/series-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Cluster
 
 You can select the points that corresponds to the same index in all the series, by setting `SelectionMode` to cluster.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/cluster-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cluster-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/cluster-selection/cluster-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -110,7 +69,6 @@ You can select the points that corresponds to the same index in all the series, 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/cluster-selection/cluster-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -126,19 +84,6 @@ To fetch the collection of data under a particular region, you have to set `Sele
 
 The selected data’s are returned as an array collection in the [`DragComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_DragComplete) event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/drag/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Drag.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/drag/drag.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/drag/razor %}
@@ -147,26 +92,12 @@ The selected data’s are returned as an array collection in the [`DragComplete`
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/drag/drag.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection type
 
 You can select multiple points or series, by enabling the [`IsMultiSelect`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_IsMultiSelect) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-type/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection-type.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-type/selection-type.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -176,26 +107,12 @@ You can select multiple points or series, by enabling the [`IsMultiSelect`](http
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-type/selection-type.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection on load
 
 You can able to select a point or series programmatically on a chart using [`SelectedDataIndexes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectedDataIndexes) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/onload/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Onload.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/onload/onload.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -205,26 +122,12 @@ You can able to select a point or series programmatically on a chart using [`Sel
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/onload/onload.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Selection through on legend
 
 You can able to select a point or series through on legend using [`ToggleVisibility`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_ToggleVisibility) property. Also, use [`EnableHighlight`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_EnableHighlight) property for highlighting the series through legend.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-legend/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection-legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-legend/selection-legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -234,26 +137,12 @@ You can able to select a point or series through on legend using [`ToggleVisibil
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/selection-legend/selection-legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customization for selection
 
 You can apply custom style to selected points or series with [`SelectionStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_SelectionStyle) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/custom-selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/custom-selection/custom-selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -263,5 +152,4 @@ You can apply custom style to selected points or series with [`SelectionStyle`](
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/selection/custom-selection/custom-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

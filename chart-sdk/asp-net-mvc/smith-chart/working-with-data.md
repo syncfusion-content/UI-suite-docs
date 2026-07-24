@@ -17,19 +17,6 @@ Smithchart can visualise the data bound from local data. The data you bind for t
 
 You can bind simple JSON data to smithchart using point property in series. JSON data should contain [`resistance`] and [`reactance`] fields. This JSON data should be bind to points or datasource in the smithchart. You can any number of JSON for points or datasource as per your requirement.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/data/working-with-data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Working-with-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/data/working-with-data/working-with-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/data/working-with-data/razor %}
@@ -38,5 +25,4 @@ You can bind simple JSON data to smithchart using point property in series. JSON
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/data/working-with-data/working-with-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

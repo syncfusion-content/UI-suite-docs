@@ -13,19 +13,9 @@ documentation: ug
 
 ## Cell customization
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 You can customize the cell by using the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMap~CellSettings.html) property.
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-You can customize the cell by using the [CellSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellSettings) property.
-
-{% endif %}
-
 ### Border
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 Change the width, color, and radius of the heat map cells by using the [border](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_Border) property.
 
@@ -38,24 +28,8 @@ Change the width, color, and radius of the heat map cells by using the [border](
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-Change the width, color, and radius of the heat map cells by using the [Border](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_Border) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Cell highlighting
 
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 Enable or disable the cell highlighting while hovering over the heatmap cells by using the [enableCellHighlighting](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_EnableCellHighlighting) property.
 
@@ -70,25 +44,7 @@ N> The cell highlighting only works in a SVG rendering mode.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-Enable or disable the cell highlighting while hovering over the heat map cells by using the [EnableCellHighlighting](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_EnableCellHighlighting) property.
-
-N> The cell highlighting only works in a SVG rendering mode.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/cell-highlight/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cell-highlight.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/cell-highlight/cell-highlight.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Color gradient mode
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The [colorGradientMode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.ColorGradientMode.html) property can be used to set the minimum and maximum values for colors based on row and column. Three types of color gradient modes are available.
 
@@ -109,29 +65,7 @@ N> The default value of `ColorGradientMode` is **Table**.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The [ColorGradientMode](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.ColorGradientMode.html) property can be used to set the minimum and maximum values for colors based on row and column. Three types of color gradient modes are available.
-
-* **Table**: The minimum and maximum value colors calculated for overall data.
-* **Row**: The minimum and maximum value colors calculated for each row of data.
-* **Column**: The minimum and maximum value colors calculated for each column of data.
-
-N> The default value of `ColorGradientMode` is Table.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/colormode/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Colormode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/colormode/colormode.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Background color
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The background color of the HeatMap can be customized using the [backgroundColor](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_Background) property.
 
@@ -144,23 +78,7 @@ The background color of the HeatMap can be customized using the [backgroundColor
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The background color of the HeatMap can be customized using the [BackgroundColor](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_Background) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/background-color/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="BackgroundColor.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/background-color/background-color.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Margin
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 Set the margin for the heatmap from its container by using the [margin](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_Margin) property.
 
@@ -173,23 +91,7 @@ Set the margin for the heatmap from its container by using the [margin](https://
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-Set the margin for the heat map from its container by using the [Margin](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_Margin) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/margin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Title
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The title is used to provide a quick information about the data plotted in heatmap. The [text](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapTitle.html#Syncfusion_EJ2_HeatMap_HeatMapTitle_Text) property is used to set the title for the heatmap. The text style of the title can be customized by using the [textStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapTitle.html#Syncfusion_EJ2_HeatMap_HeatMapTitle_TextStyle) property.
 
@@ -202,23 +104,7 @@ The title is used to provide a quick information about the data plotted in heatm
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The title is used to provide a quick information about the data plotted in heatmap. The [Text](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapTitle.html#Syncfusion_EJ2_HeatMap_HeatMapTitle_Text) property is used to set the title for the heatmap. The text style of the title can be customized by using the [TextStyle](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapTitle.html#Syncfusion_EJ2_HeatMap_HeatMapTitle_TextStyle) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Data label
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The visibility of data labels can be toggled using the [showLabel](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_ShowLabel) property. By default, the data labels will be visible.
 
@@ -231,23 +117,7 @@ The visibility of data labels can be toggled using the [showLabel](https://help.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The visibility of data labels can be toggled using the [ShowLabel](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_ShowLabel) property. By default, the data labels will be visible.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/data-label/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Data-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/data-label/data-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Customize the data label
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The label displayed in the HeatMap cell can be changed using the [cellRender](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellRender) event.
 
@@ -260,23 +130,7 @@ The label displayed in the HeatMap cell can be changed using the [cellRender](ht
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The value displayed in the HeatMap cell can be changed using the [CellRender](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellRender) event.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/cellRender/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="CellRender.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/cellRender/cellRender.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Text style
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The text attributes of the data label such as font-family, font-size, and color can be customized using the [textStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_TextStyle) in the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMap~CellSettings.html) property.
 
@@ -289,25 +143,9 @@ The text attributes of the data label such as font-family, font-size, and color 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The text attributes of the data label such as font-family, font-size, and color can be customized using the [TextStyle](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_TextStyle) in the [CellSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/text-style/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Text-style.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/text-style/text-style.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Format
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 The format of the data label, such as currency, decimal, percent etc. can be changed using [format](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_Format) property.
 
@@ -320,36 +158,12 @@ The format of the data label, such as currency, decimal, percent etc. can be cha
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-The format of the data label, such as currency, decimal, percent etc. can be changed using [Format](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_Format) property.
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 ### Template
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 Any HTML elements can be added as a template in the data labels by using the [labelTemplate](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_LabelTemplate) property of [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html) in the HeatMap.
 
 The following examples show various data binding methods in the HeatMap using the `labelTemplate` property.
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-Any HTML elements can be added as a template in the data labels by using the [LabelTemplate](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_LabelTemplate) property of [CellSettings](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html) in the HeatMap.
-
-The following examples show various data binding methods in the HeatMap using the `LabelTemplate` property.
-
-{% endif %}
 
 #### Array binding
 
@@ -358,8 +172,6 @@ By including `${value}` in the template content, the value from the data source 
 **Table**
 
 The following example demonstrates how to add a data label template for array table binding.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -372,27 +184,10 @@ The following example demonstrates how to add a data label template for array ta
 
 ![ASP.NET Core HeatMap chart with data label template and array table binding](./images/appearance/data-label-template-with-array-table-binding.png)
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-array-table/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template-array-table.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-array-table/template-array-table.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![ASP.NET MVC HeatMap chart with data label template and array table binding](./images/appearance/data-label-template-with-array-table-binding.png)
-
-{% endif %}
-
 
 **Cell**
 
 The following example demonstrates how to add a data label template for array cell binding.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -405,21 +200,6 @@ The following example demonstrates how to add a data label template for array ce
 
 ![ASP.NET Core HeatMap chart with data label template and array cell binding](./images/appearance/data-label-template-with-array-cell-binding.png)
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-array-cell/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template-array-cell.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-array-cell/template-array-cell.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![ASP.NET MVC HeatMap chart with data label template and array cell binding](./images/appearance/data-label-template-with-array-cell-binding.png)
-
-{% endif %}
-
 
 #### JSON binding
 
@@ -428,8 +208,6 @@ By including the desired field name in the template content, such as **${value}*
 **Table**
 
 The following example demonstrates how to add a data label template for JSON table binding.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -442,27 +220,10 @@ The following example demonstrates how to add a data label template for JSON tab
 
 ![ASP.NET Core HeatMap chart with data label template and JSON table binding](./images/appearance/data-label-template-with-JSON-table-binding.png)
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-json-table/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template-json-table.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-json-table/template-json-table.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![ASP.NET MVC HeatMap chart with data label template and JSON table binding](./images/appearance/data-label-template-with-JSON-table-binding.png)
-
-{% endif %}
-
 
 **Cell**
 
 The following example demonstrates how to add a data label template for JSON cell binding.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -474,18 +235,3 @@ The following example demonstrates how to add a data label template for JSON cel
 {% endtabs %}
 
 ![ASP.NET Core HeatMap chart with data label template and JSON cell binding](./images/appearance/data-label-template-with-JSON-cell-binding.png)
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-json-cell/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template-json-cell.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/appearance/template-json-cell/template-json-cell.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-![ASP.NET MVC HeatMap chart with data label template and JSON cell binding](./images/appearance/data-label-template-with-JSON-cell-binding.png)
-
-{% endif %}

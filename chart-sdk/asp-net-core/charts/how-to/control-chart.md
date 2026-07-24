@@ -18,8 +18,6 @@ To create a control charts, follow the given steps.
 
 **Step 1**: Load line charts for the data.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step1/tagHelper %}
@@ -29,25 +27,11 @@ To create a control charts, follow the given steps.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step1/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Step1.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step1/step1.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Alt text](../images/step1.png)
 
 **Step 2**: Now, add three striplines for three control limits: LCL, UCL, and CL.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,18 +41,6 @@ To create a control charts, follow the given steps.
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step2/step2.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step2/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Step2.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/step2/step2.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -207,8 +179,6 @@ To create a control charts, follow the given steps.
 </script>
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/final-chart/tagHelper %}
@@ -217,18 +187,6 @@ To create a control charts, follow the given steps.
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/final-chart/control.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/final-chart/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Control.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/control-chart/final-chart/control.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

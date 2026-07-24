@@ -23,19 +23,6 @@ The left and right thumb of RangeNavigator are used to indicate the selected ran
 
 Following code example shows the [`EnableSelector`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_EnableSelector) property allows users to toggle the visibility of enable selector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/range/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/range/razor %}
@@ -44,6 +31,5 @@ Following code example shows the [`EnableSelector`](https://help.syncfusion.com/
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

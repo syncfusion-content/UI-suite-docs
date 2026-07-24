@@ -35,8 +35,6 @@ The following table lists the main tooltip configuration properties:
 
 Enable tooltips with default formatting:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/basic-tooltip/tagHelper %}
@@ -45,19 +43,6 @@ Enable tooltips with default formatting:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/basic-tooltip/basic-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/basic-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Basic-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/basic-tooltip/basic-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Customizing Tooltip Appearance
 
@@ -73,8 +58,6 @@ Adjust tooltip appearance and behavior using tooltip configuration properties:
 
 Example customization:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/customized-tooltip/tagHelper %}
@@ -83,19 +66,6 @@ Example customization:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/customized-tooltip/customized-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/customized-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Customized-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/customized-tooltip/customized-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Format Strings
 
@@ -120,8 +90,6 @@ Format string placeholders for link tooltips:
 
 **Example with custom format strings:**
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/link-tooltip/tagHelper %}
@@ -130,19 +98,6 @@ Format string placeholders for link tooltips:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/link-tooltip/link-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/link-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/link-tooltip/link-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Inline tooltip formatting
 
@@ -193,8 +148,6 @@ The following number formats are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/inline-format/tagHelper %}
@@ -204,26 +157,11 @@ If the specified format does not match the resolved value type, the original val
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/inline-format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Inline-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/inline-format/inline-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Advanced Tooltip Configuration
 
 ### Tooltip Rendering Event
 
 Use the `TooltipRendering` event to customize tooltip content dynamically and enable custom logic based on specific conditions:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -233,19 +171,6 @@ Use the `TooltipRendering` event to customize tooltip content dynamically and en
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/tooltip-rendering-event/tooltip-rendering-event.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/tooltip-rendering-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-rendering-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/tooltip/tooltip-rendering-event/tooltip-rendering-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Disabling Tooltips
 

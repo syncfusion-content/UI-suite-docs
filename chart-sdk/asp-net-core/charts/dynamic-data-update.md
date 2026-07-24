@@ -18,8 +18,6 @@ The `AddPoint` method is used to dynamically add a new data point to the chart s
 * The first parameter is the new data point to add to your existing data source.
 * The optional second parameter specifies the animation duration for adding the new data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/add-point/tagHelper %}
@@ -28,18 +26,6 @@ The `AddPoint` method is used to dynamically add a new data point to the chart s
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/add-point/add-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/add-point/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Add-point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/add-point/add-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -50,8 +36,6 @@ The `RemovePoint` method is used to dynamically remove a data point from the cha
 * The first parameter is the index of the data point that needs to be removed from the existing data source.
 * The optional second parameter specifies the animation duration for removing the data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/remove-point/tagHelper %}
@@ -60,18 +44,6 @@ The `RemovePoint` method is used to dynamically remove a data point from the cha
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/remove-point/remove-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/remove-point/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Remove-point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/remove-point/remove-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -82,8 +54,6 @@ To replace the existing data source in the chart with a new data source, you can
 * The first parameter is the new set of data points to be updated.
 * The optional second parameter specifies the animation duration for updating the new data source.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/set-data/tagHelper %}
@@ -93,18 +63,6 @@ To replace the existing data source in the chart with a new data source, you can
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/set-data/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Set-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/set-data/set-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Click to add or remove a data point
@@ -112,8 +70,6 @@ To replace the existing data source in the chart with a new data source, you can
 You can use mouse or touch events to dynamically add or remove data points from an existing data source by clicking on the appropriate position within the chart area. To add a new data point to the existing data source, click anywhere in the chart area, retrieve the x-axis and y-axis information of the clicked location from the `ChartMouseClick` event arguments. Then, utilize the `AddPoint` method to add a new data point to the existing data source.
 
 To remove a data point from the existing data source, simply click on the desired data point. To achieve this, first, verify whether the clicked data point obtained from `ChartMouseClick` already exists in the data source. If it does, remove it by utilizing the `RemovePoint` method based on its index.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -123,17 +79,5 @@ To remove a data point from the existing data source, simply click on the desire
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/click-add-point/click-add-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/click-add-point/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Click-add-point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/click-add-point/click-add-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

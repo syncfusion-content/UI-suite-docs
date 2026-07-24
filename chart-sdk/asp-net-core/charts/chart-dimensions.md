@@ -15,8 +15,6 @@ documentation: ug
 
 Chart can render to its container size. You can set the size via inline or CSS as demonstrated below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/size/tagHelper %}
@@ -25,18 +23,6 @@ Chart can render to its container size. You can set the size via inline or CSS 
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/size/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -50,8 +36,6 @@ You can also set size for chart directly through [`width`](https://help.syncfusi
 
 You can set the size of chart in pixel as demonstrated below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/pixel/tagHelper %}
@@ -61,25 +45,11 @@ You can set the size of chart in pixel as demonstrated below.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/pixel/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pixel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/pixel/pixel.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **In Percentage**
 
 By setting value in percentage, chart gets its dimension with respect to its container. For example, when the height is ‘50%’, chart renders to half of the container height.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -89,18 +59,6 @@ By setting value in percentage, chart gets its dimension with respect to its co
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/percentage/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/percentage/percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

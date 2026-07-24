@@ -101,8 +101,6 @@ public class EmployeeModel
             ).Render()
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/data-label-template/tagHelper %}
@@ -111,18 +109,6 @@ public class EmployeeModel
 {% include code-snippet/chart-sdk/asp-net-core/charts/how-to/data-label-template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/data-label-template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/how-to/data-label-template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

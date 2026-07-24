@@ -29,8 +29,6 @@ The Sankey Chart supports multiple levels of styling customization:
 
 Apply consistent styling to all nodes using the `NodeStyle` property:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/global-node/tagHelper %}
@@ -40,24 +38,9 @@ Apply consistent styling to all nodes using the `NodeStyle` property:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/global-node/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Global-node.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/global-node/global-node.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Global Link Styling
 
 Configure link appearance using the `LinkStyle` property:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -68,26 +51,11 @@ Configure link appearance using the `LinkStyle` property:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/global-link/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Global-link.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/global-link/global-link.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Individual Element Customization
 
 ### Custom Node Appearance
 
 Customize individual nodes by setting properties on each node object:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -98,24 +66,9 @@ Customize individual nodes by setting properties on each node object:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-node-appearance/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-node-appearance.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-node-appearance/custom-node-appearance.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ### Custom Node Labels
 
 Customize individual node labels with specific text, styling, and positioning:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -125,19 +78,6 @@ Customize individual node labels with specific text, styling, and positioning:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-node-labels/custom-node-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-node-labels/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-node-labels.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-node-labels/custom-node-labels.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Color Customization
 
@@ -157,8 +97,6 @@ const nodes = [
 
 Map colors to specific categories or value ranges:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/color-mapping/tagHelper %}
@@ -167,19 +105,6 @@ Map colors to specific categories or value ranges:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/color-mapping/color-mapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/color-mapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Color-mapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/color-mapping/color-mapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Theme Customization
 
@@ -199,8 +124,6 @@ return (
 
 ### Custom Theme Colors
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-theme/tagHelper %}
@@ -210,26 +133,11 @@ return (
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-theme/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/custom-theme/custom-theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Tooltip Customization
 
 ### Template-Based Tooltips
 
 Create custom tooltip templates for rich content:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -239,19 +147,6 @@ Create custom tooltip templates for rich content:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/template-tooltip/template-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/template-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/template-tooltip/template-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Advanced Customization Patterns
 
@@ -349,8 +244,6 @@ For charts with many nodes and links, optimize rendering performance:
 
 ## Example: Comprehensive Customization
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/comprehensive-customization/tagHelper %}
@@ -359,19 +252,6 @@ For charts with many nodes and links, optimize rendering performance:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/comprehensive-customization/comprehensive-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/comprehensive-customization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Comprehensive-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/customization/comprehensive-customization/comprehensive-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Related Topics
 

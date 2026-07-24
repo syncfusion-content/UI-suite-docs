@@ -17,19 +17,6 @@ The Range Selector's left and right thumbs are used to indicate the selected ran
 * By tapping on the labels.
 * By setting the start and the end through the `value` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/range/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/range/razor %}
@@ -38,7 +25,6 @@ The Range Selector's left and right thumbs are used to indicate the selected ran
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

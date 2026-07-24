@@ -27,19 +27,6 @@ Globalization is the process of designing and developing a component that works 
 
 In the following code example, tooltip is globalized to Deutsch culture.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/internationalization/internationalization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Internationlization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/internationalization/internationalization/internationalization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/internationalization/internationalization/razor %}
@@ -48,5 +35,4 @@ In the following code example, tooltip is globalized to Deutsch culture.
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/internationalization/internationalization/internationalization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

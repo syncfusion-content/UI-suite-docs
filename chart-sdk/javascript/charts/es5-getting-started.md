@@ -110,4 +110,4 @@ Open the `quickstart/index.html` file in your web browser. You should see the Sy
 
 The following screenshot shows the output of the Syncfusion Chart quick start application:
 
-![Syncfusion Chart Quick Start Output](../images/chart.png)
+![Syncfusion Chart Quick Start Output](./images/chart.png)

@@ -50,8 +50,6 @@ To load translation object in an application, use load function of L10n class.
 
 For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/aspnetcore/documentation/common/localization/).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/localization/tagHelper %}
@@ -60,16 +58,4 @@ For more information about localization, refer this [`localization`](https://ej2
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/localization/localization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/localization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Localization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/localization/localization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

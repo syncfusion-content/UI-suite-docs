@@ -15,21 +15,6 @@ The current layout structure of the Dashboard Layout control can be obtained and
 
 The following sample demonstrates how to save and restore the state of the panels using the [`serialize`](../api/dashboard-layout#serialize) method. The panel's settings are stored when the save button is clicked and restored from the previously saved settings when the restore button is clicked.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/restore-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/restore-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/restore-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/dashboard-layout/restore-cs1/index.js %}
@@ -40,37 +25,13 @@ The following sample demonstrates how to save and restore the state of the panel
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/restore-cs1" %}
-{% endif %}
-
-{% if page.publishingplatform == "typescript" %}
-
-> Refer to the [TypeScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [TypeScript Dashboard Layout example](https://ej2.syncfusion.com/demos/#/fluent2/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% elsif page.publishingplatform == "javascript" %}
 
 > Refer to the [JavaScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [JavaScript Dashboard Layout example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% endif %}
 
 
 ## State Persistence in JavaScript Dashboard Layout Control
 
 State persistence enables the Dashboard Layout Control to retain the panel positions ([`row`](../api/dashboard-layout/panelModel#row), [`col`](../api/dashboard-layout/panelModel#col)), width ([`sizeX`](../api/dashboard-layout/panelModel#sizex)), and height ([`sizeY`](../api/dashboard-layout/panelModel#sizey)) values in the browser's [localStorage](https://www.w3schools.com/html/html5_webstorage.asp) for state maintenance, even if the browser is refreshed or if you navigate to another page within the browser. This behavior is controlled through the [`enablePersistence`](../api/dashboard-layout#enablepersistence) property, which defaults to `false`. When set to `true`, the panel positions and sizes are preserved after refreshing the page.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/persistence-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/persistence-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/persistence-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -82,4 +43,3 @@ State persistence enables the Dashboard Layout Control to retain the panel posit
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/persistence-cs1" %}
-{% endif %}

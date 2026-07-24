@@ -17,19 +17,6 @@ You can add any number of series to the smithchart as per your requirement. You 
 
 For adding values in the smithchart, you can use either points or datasource in the series. Points and datasource both should be array of object which should contain the field names resistance and rectangle.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/series/series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/series/razor %}
@@ -38,7 +25,6 @@ For adding values in the smithchart, you can use either points or datasource in 
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/series/series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -52,19 +38,6 @@ Using following options in series settings, you can customize each series in smi
 * [`opacity`] - Used to control the opacity of the series line.
 * [`width`] - Used to customize the width of the series line.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/custom-series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/custom-series/custom-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/custom-series/razor %}
@@ -73,5 +46,4 @@ Using following options in series settings, you can customize each series in smi
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/series/custom-series/custom-series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

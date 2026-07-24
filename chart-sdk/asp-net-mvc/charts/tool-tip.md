@@ -19,19 +19,6 @@ Chart will display details about the points through tooltip, when the mouse is m
 
 The tooltip is useful when you cannot display information by using the data labels due to space constraints. You can enable the tooltip by setting [`Enable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Enable) property as true in [`Tooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html) object.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/default/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/default/razor %}
@@ -40,26 +27,12 @@ The tooltip is useful when you cannot display information by using the data labe
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`Location`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Location) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/fixed/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Fixed.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/fixed/fixed.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -69,7 +42,6 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/fixed/fixed.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -79,19 +51,6 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
 
 By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the format `${series.name} ${point.x}` shows series name and point x value.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/format/razor %}
@@ -100,7 +59,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -153,19 +111,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/inline-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Inline-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/inline-format/inline-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/inline-format/razor %}
@@ -174,7 +119,6 @@ If the specified format does not match the resolved value type, the original val
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/inline-format/inline-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -184,19 +128,6 @@ If the specified format does not match the resolved value type, the original val
 
 Any HTML elements can be displayed in the tooltip by using the [`Template`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Template) property of the tooltip. You can use the ${x} and ${y} as place holders in the HTML element to display the x and y values of the corresponding data point.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/template/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/template/razor %}
@@ -205,26 +136,12 @@ Any HTML elements can be displayed in the tooltip by using the [`Template`](http
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customize the appearance of tooltip
 
 The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Fill) and [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Border) properties are used to customize the background color and border of the tooltip respectively. The [`TextStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_TextStyle) property in the tooltip is used to customize the font of the tooltip text. The [`HighlightColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_HighlightColor) property is used to customize the point color while hovering for tooltip.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/custom-tooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/custom-tooltip/custom-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -234,26 +151,12 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/custom-tooltip/custom-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Tooltip mapping name
 
 By default, tooltip shows information of x and y value in points. You can show more information from data source in tooltip by using the [`TooltipMappingName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_TooltipMappingName) property of the tooltip. You can use the `${point.tooltip}` as place holders to display the specified tooltip content.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/tooltip-mapping/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-mapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/tooltip-mapping/tooltip-mapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -263,26 +166,12 @@ By default, tooltip shows information of x and y value in points. You can show m
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/tooltip-mapping/tooltip-mapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Split tooltip
 
 The split tooltip displays a separate tooltip for each series at the same data point, making it easier to compare values across multiple series.
 
 Enable this feature by setting the `split` property to **true**:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/split-tooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Split-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/split-tooltip/split-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -292,26 +181,12 @@ Enable this feature by setting the `split` property to **true**:
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/split-tooltip/split-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Follow pointer
 
 The follow pointer feature enables the tooltip to follow the mouse cursor or touch pointer as users interact with the chart. This provides a more dynamic and intuitive experience by keeping the tooltip close to the user's point of interaction.
 
 Enable this feature by setting the `followPointer` property to **true**:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/follow-pointer/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Follow-pointer.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/follow-pointer/follow-pointer.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -321,26 +196,12 @@ Enable this feature by setting the `followPointer` property to **true**:
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/follow-pointer/follow-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Tooltip distance
 
 The tooltip distance property controls the spacing between the tooltip and the mouse pointer or target data point. This prevents the tooltip from overlapping with the cursor or nearby chart elements, improving readability.
 
 Set the `distance` property to specify the gap in pixels:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip-distance/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-distance.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip-distance/tooltip-distance.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -350,7 +211,6 @@ Set the `distance` property to specify the gap in pixels:
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip-distance/tooltip-distance.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Enable highlight
 
@@ -377,19 +237,6 @@ public class GroupingChartData
 
 The [`ShowNearestTooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_ShowNearestTooltip) property in the chart tooltip displays tooltips based on the data points closest to the cursor.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/nearest-tooltip/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Nearest-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/nearest-tooltip/nearest-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/nearest-tooltip/razor %}
@@ -398,6 +245,5 @@ The [`ShowNearestTooltip`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusi
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/user-interaction/tooltip/nearest-tooltip/nearest-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

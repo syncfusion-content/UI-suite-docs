@@ -25,8 +25,6 @@ Control the size of the Sankey Chart using the `Width` and `Height` properties. 
 | width | string | null | Width of the chart as a CSS value (e.g., '700px' or '100%'). |
 | height | string | null | Height of the chart as a CSS value (e.g., '420px' or '100%'). |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/width-height/tagHelper %}
@@ -36,24 +34,9 @@ Control the size of the Sankey Chart using the `Width` and `Height` properties. 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/width-height/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Width-height.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/width-height/width-height.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Responsive Sizing
 
 Use percentage-based dimensions for responsive layouts that adapt to container sizes. This is recommended for applications that need to work across different device sizes and screen orientations:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -64,18 +47,6 @@ Use percentage-based dimensions for responsive layouts that adapt to container s
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/responsive-size/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Responsive-size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/responsive-size/responsive-size.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Background Customization
 
@@ -88,8 +59,6 @@ Customize the background of the Sankey Chart with solid colors or background ima
 | background | string | null | Background color of the chart (CSS color value). |
 | backgroundImage | string | null | Background image URL. |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/background/tagHelper %}
@@ -98,19 +67,6 @@ Customize the background of the Sankey Chart with solid colors or background ima
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/background/background.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/background/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Background.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/background/background.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Border Customization
 
@@ -125,8 +81,6 @@ Customize the border of the Sankey Chart container.
 | border.dashArray | string | '' | Sets the length of dashes in the stroke of border. |
 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/border/tagHelper %}
@@ -135,19 +89,6 @@ Customize the border of the Sankey Chart container.
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/border/border.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Margin Customization
 
@@ -162,8 +103,6 @@ Control the spacing around the chart content using margins.
 | margin.top | number | 10 | Top margin in pixels. |
 | margin.bottom | number | 10 | Bottom margin in pixels. |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/margin/tagHelper %}
@@ -173,26 +112,11 @@ Control the spacing around the chart content using margins.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/margin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Theme
 
 The Sankey Chart provides multiple built-in themes to customize the visual appearance. Apply a theme using the `Theme` property.
 
 ### Theme Configuration
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -202,16 +126,3 @@ The Sankey Chart provides multiple built-in themes to customize the visual appea
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/theme/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/appearance/theme/theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}

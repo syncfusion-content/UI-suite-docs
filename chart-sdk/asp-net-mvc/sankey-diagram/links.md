@@ -32,19 +32,6 @@ The `LinkStyle` property allows you to customize the visual appearance of all li
 
 Customize the appearance of all links using the `LinkStyle` property to set global opacity levels, curvature, and color blending behavior:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/basic-links/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Basic-links.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/basic-links/basic-links.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/basic-links/razor %}
@@ -53,8 +40,6 @@ Customize the appearance of all links using the `LinkStyle` property to set glob
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/basic-links/basic-links.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## Link Curvature
 
@@ -66,19 +51,6 @@ The `Curvature` property controls the bend of the links, affecting the visual fl
 
 Choose curvature values based on your data density and aesthetic preferences:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-curvature/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-curvature.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-curvature/link-curvature.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-curvature/razor %}
@@ -87,8 +59,6 @@ Choose curvature values based on your data density and aesthetic preferences:
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-curvature/link-curvature.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## Link Color Type
 
@@ -100,19 +70,6 @@ The `ColorType` property determines how links are colored, providing flexibility
 
 The color type you choose affects how users perceive flow relationships in the diagram:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-color-type/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-color-type.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-color-type/link-color-type.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-color-type/razor %}
@@ -121,8 +78,6 @@ The color type you choose affects how users perceive flow relationships in the d
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-color-type/link-color-type.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## Link Value and Thickness
 
@@ -134,19 +89,6 @@ The link thickness is determined by the `Value` property in the link data. This 
 
 The thickness visualization makes it easy to understand relative flow quantities at a glance:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-value-thickness/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Link-value-thickness.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-value-thickness/link-value-thickness.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/link-value-thickness/razor %}
@@ -156,26 +98,11 @@ The thickness visualization makes it easy to understand relative flow quantities
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Advanced Link Configuration
 
 ### Dynamic Link Customization
 
 Use the `LinkRendering` event to customize link appearance dynamically during the render process. This event is triggered for each link before rendering, allowing you to apply conditional styling based on flow values, source-target combinations, or other data attributes:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/dynamic-link/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dynamic-link.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/dynamic-link/dynamic-link.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -185,5 +112,3 @@ Use the `LinkRendering` event to customize link appearance dynamically during th
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/links/dynamic-link/dynamic-link.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}

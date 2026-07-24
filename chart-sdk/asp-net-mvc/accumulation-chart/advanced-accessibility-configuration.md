@@ -23,19 +23,6 @@ The accumulation chart component has a number of characteristics that enable acc
 * [`FocusBorderWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_FocusBorderWidth) - Specifies the width of the focus border.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartAccessibility.html#Syncfusion_EJ2_Charts_AccumulationChartAccessibility_TabIndex) - Specifies the tab order for the accumulation chart element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/pie-chart/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pie-chart.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/pie-chart/pie-chart.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/pie-chart/razor %}
@@ -44,7 +31,6 @@ The accumulation chart component has a number of characteristics that enable acc
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/pie-chart/pie-chart.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Series
 
@@ -55,19 +41,6 @@ The [`Series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Chart
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartAccessibility.html#Syncfusion_EJ2_Charts_AccumulationChartAccessibility_Focusable) - Allows the series to receive focus, making it accessible via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartAccessibility.html#Syncfusion_EJ2_Charts_AccumulationChartAccessibility_TabIndex) - Specifies the tab order of the series element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/series/series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/series/razor %}
@@ -76,7 +49,6 @@ The [`Series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Chart
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/series/series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Legend
 
@@ -87,19 +59,6 @@ The [`LegendSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.E
 * [`Focusable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartAccessibility.html#Syncfusion_EJ2_Charts_AccumulationChartAccessibility_Focusable) - Specifies whether legend items are focusable via keyboard navigation.
 * [`TabIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartAccessibility.html#Syncfusion_EJ2_Charts_AccumulationChartAccessibility_TabIndex) - Specifies the tab order of the legend element, enabling efficient keyboard navigation.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/legend/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Legend.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/legend/legend.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/legend/razor %}
@@ -108,4 +67,3 @@ The [`LegendSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.E
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/accessibility/legend/legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

@@ -23,19 +23,6 @@ You can render smithchart to it's container size. To achieve this, you need to s
     </div>
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/container/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/container/container.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/container/razor %}
@@ -44,8 +31,6 @@ You can render smithchart to it's container size. To achieve this, you need to s
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/container/container.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
-
 
 
 ## Size for Smithchart
@@ -58,19 +43,6 @@ You can also set size for smithchart directly through [`width`] and [`height`] p
 
 In smithchart's width and height property, you can directly give values in pixels like below demonstration. This will render smithchart in same size as you mentioned in you code.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/size/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/size/razor %}
@@ -79,26 +51,12 @@ In smithchart's width and height property, you can directly give values in pixel
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **In percentage**
 
 You can also specify the width and height of the smithchart in percentage. If you mention the width and height in percentage, then smithchart will be render as per the percentage of it's container size. You can set the values in percentage like below demonstration.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/percentage/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/percentage/percentage.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -108,5 +66,4 @@ You can also specify the width and height of the smithchart in percentage. If yo
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/dimension/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

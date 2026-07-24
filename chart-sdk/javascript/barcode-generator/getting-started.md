@@ -87,21 +87,6 @@ You can start adding Essential® JS 2 barcode-generator component to the applica
 
 Place the following barcode-generator  code in the `app.ts`.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs1/index.js %}
@@ -112,7 +97,6 @@ Place the following barcode-generator  code in the `app.ts`.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs1" %}
-{% endif %}
 
 Now, add an HTML div element to act as the barcode element in `index.html` using the following code.
 
@@ -149,21 +133,6 @@ Now, add an HTML div element to act as the barcode element in `index.html` using
 
 You can add the QR code in our barcode generator component.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2/index.js %}
@@ -174,26 +143,10 @@ You can add the QR code in our barcode generator component.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2" %}
-{% endif %}
 
 ## Adding Datamatrix Generator control
 
 You can add the datamatrix code in our barcode generator component.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -205,4 +158,3 @@ You can add the datamatrix code in our barcode generator component.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs3" %}
-{% endif %}

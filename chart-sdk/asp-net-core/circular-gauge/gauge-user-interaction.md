@@ -20,25 +20,11 @@ Circular gauge will display the pointer details through [tooltip](https://help.s
 
 By default, tooltip is not visible. Enable the tooltip by setting [enable](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeTooltipSettings.html#Syncfusion_EJ2_CircularGauge_CircularGaugeTooltipSettings_Enable) property to true.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/tooltip/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -46,25 +32,11 @@ By default, tooltip is not visible. Enable the tooltip by setting [enable](https
 
 Any HTML elements can be displayed in the tooltip by using the [template](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeTooltipSettings.html#Syncfusion_EJ2_CircularGauge_CircularGaugeTooltipSettings_Template) property of the tooltip.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/template/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -101,25 +73,11 @@ To customize the annotation tooltip, use the `annotationSettings` property in to
 
 The following code example shows the tooltip for the pointers, ranges and annotations.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/range-annotation-tooltip/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/range-annotation-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range-annotation-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/range-annotation-tooltip/range-annotation-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -127,24 +85,10 @@ The following code example shows the tooltip for the pointers, ranges and annota
 
 Pointers can be dragged over the axis value. This can be achieved by clicking and dragging the pointer. To enable or disable the pointer drag, you can use [enablePointerDrag](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_EnablePointerDrag) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/pointer-drag/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/pointer-drag/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pointer-drag.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-user-interaction/pointer-drag/pointer-drag.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/AnnotationandLegendSample).

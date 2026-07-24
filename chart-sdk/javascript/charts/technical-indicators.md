@@ -20,21 +20,6 @@ Chart supports 10 types of technical indicators.
 
 Accumulation Distribution combines price and volume to show how money may be flowing into or out of a stock. To render an Accumulation Distribution indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `AccumulationDistribution` and inject `AccumulationDistributionIndicator` into services. To calculate the signal line, the [`volume`](../api/chart/technicalIndicatorModel) field must be included in the `dataSource`.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs1/index.js %}
@@ -45,26 +30,10 @@ Accumulation Distribution combines price and volume to show how money may be flo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs1" %}
-{% endif %}
 
 ## Average true range (ATR)
 
 ATR measures stock volatility by comparing the current value with the previous value. To render an Average True Range (ATR) indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Atr` and inject `AtrIndicator` into services.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,26 +45,10 @@ ATR measures stock volatility by comparing the current value with the previous v
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs2" %}
-{% endif %}
 
 ## Bollinger band
 
 A chart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices. To render a Bollinger Band, use indicator [`type`](../api/chart/technicalIndicatorModel) as `BollingerBand` and inject the `BollingerBands` module and `RangeAreaSeries` into services. Bollinger Band is represented by three lines (`upperLine`, `lowerLine`, `signalLine`). The default values of the Bollinger Band [`period`](../api/chart/technicalIndicatorModel) is 14 and [`standardDeviations`](../api/chart/technicalIndicatorModel) is 2.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -107,26 +60,10 @@ A chart overlay that shows the upper and lower limits of normal price movements 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs3" %}
-{% endif %}
 
 **Customization of BollingerBand**
 
 `stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using [`upperLine`](../api/chart/technicalIndicatorModel), and the `lowerLine` can be customized by using [`lowerLine`](../api/chart/technicalIndicatorModel) properties of the indicator.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,26 +75,10 @@ A chart overlay that shows the upper and lower limits of normal price movements 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs4" %}
-{% endif %}
 
 ## Exponential moving average (EMA)
 
 Moving average indicators are used to define the direction of the trend. To render an EMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Ema` and inject `EmaIndicator` module using `Chart.Inject(EmaIndicator)` method.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -169,26 +90,10 @@ Moving average indicators are used to define the direction of the trend. To rend
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs5" %}
-{% endif %}
 
 ## Momentum
 
 Momentum shows the speed at which the stock price is changing. To render a Momentum indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Momentum` and inject the `MomentumIndicator` module into services. The Momentum indicator is represented by two lines (`upperLine`, `signalLine`). In the Momentum indicator, the `upperBand` value is always rendered at 100.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -200,26 +105,10 @@ Momentum shows the speed at which the stock price is changing. To render a Momen
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs6" %}
-{% endif %}
 
 **Customization of MomentumIndicator**
 
 `stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using the [`upperLine`](../api/chart/technicalIndicatorModel) property of the indicator.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -231,26 +120,10 @@ Momentum shows the speed at which the stock price is changing. To render a Momen
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs7" %}
-{% endif %}
 
 ## Moving average convergence divergence (MACD)
 
 MACD is based on the difference between two EMAs. To render a MACD indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Macd` and inject the `MacdIndicator` module into services. The MACD indicator is represented by the MACD line, signal line, and MACD histogram. The MACD histogram highlights the difference between the MACD line and the signal line.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -262,28 +135,12 @@ MACD is based on the difference between two EMAs. To render a MACD indicator, us
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs8" %}
-{% endif %}
 
 **Customization of MACD**
 
 `stroke`, `stroke-width`, and `color` of `macdLine` can be customized by using the [`macdLine`](../api/chart/technicalIndicatorModel) property of the indicator. The positive and negative changes of the histogram can be customized by [`macdPositiveColor`](../api/chart/technicalIndicatorModel) and [`macdNegativeColor`](../api/chart/technicalIndicatorModel) properties. The [`macdType`](../api/chart/technicalIndicatorModel) is used to define the type of MACD indicator. Customize the MACD period using [`slowPeriod`](../api/chart/technicalIndicatorModel) and [`fastPeriod`](../api/chart/technicalIndicatorModel) properties.
 
 By default, `macdType` is `Both`.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -295,26 +152,10 @@ By default, `macdType` is `Both`.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs9" %}
-{% endif %}
 
 ## Relative strength index (RSI)
 
 RSI shows how strongly a stock is moving in its current direction. To render an RSI indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Rsi` and inject the `RsiIndicator` module using `Chart.Inject(Rsindicator)` method. The RSI indicator is represented by three lines (`upperBand`, `lowerBand`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `signalLine` is calculated using the RSI formula.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -326,26 +167,10 @@ RSI shows how strongly a stock is moving in its current direction. To render an 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs10" %}
-{% endif %}
 
 ## Simple moving average (SMA)
 
 Moving average indicators are used to define the direction of the trend. To render an SMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Sma` and inject the `SmaIndicator` module using `Chart.Inject(SmaIndicator)` method.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -357,26 +182,10 @@ Moving average indicators are used to define the direction of the trend. To rend
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs11" %}
-{% endif %}
 
 ## Stochastic
 
 Stochastic shows how a stock compares to its previous price levels. To render a Stochastic indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Stochastic` and inject the `StochasticIndicator` module using `Chart.Inject(StochasticIndicator)` method. The Stochastic indicator is represented by four lines (`upperLine`, `lowerLine`, `periodLine`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `periodLine` and `signalLine` are rendered based on the stochastic formula.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs12/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs12" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -388,26 +197,10 @@ Stochastic shows how a stock compares to its previous price levels. To render a 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs12" %}
-{% endif %}
 
 **Customization of StochasticIndicator**
 
 `stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using [`upperLine`](../api/chart/technicalIndicatorModel), the `lowerLine` can be customized by using [`lowerLine`](../api/chart/technicalIndicatorModel), and the `periodLine` can be customized by using [`periodLine`](../api/chart/technicalIndicatorModel) properties of the indicator. Customize the period used to find the average price using [`kPeriod`](../api/chart/technicalIndicatorModel) and [`dPeriod`](../api/chart/technicalIndicatorModel) properties.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs13/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs13" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -419,26 +212,10 @@ Stochastic shows how a stock compares to its previous price levels. To render a 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs13" %}
-{% endif %}
 
 ## Triangular moving average (TMA)
 
 Moving average indicators are used to define the direction of the trend. To render a TMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Tma` and inject the `TmaIndicator` module using `Chart.Inject(TmaIndicator)` method.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs14/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs14" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -450,26 +227,10 @@ Moving average indicators are used to define the direction of the trend. To rend
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs14" %}
-{% endif %}
 
 **Customization of Technical Indicators**
 
 `stroke`, `stroke-width`, and `color` of `signalLine` can be customized by using [`fill`](../api/chart/technicalIndicatorModel), [`width`](../api/chart/technicalIndicatorModel), and [`dashArray`](../api/chart/technicalIndicatorModel) properties. The [`period`](../api/chart/technicalIndicatorModel) property defines the number of data points used for calculations. The [`field`](../api/chart/technicalIndicatorModel) value determines which price value to compare with the previous price. It is applicable to Bollinger Bands and moving averages. The [`showZones`](../api/chart/technicalIndicatorModel#showzones) property shows or hides the overbought and oversold regions. It is applicable for RSI and Stochastic indicators.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs15/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs15/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs15" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -481,28 +242,12 @@ Moving average indicators are used to define the direction of the trend. To rend
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs15" %}
-{% endif %}
 
 **Data source**
 
 Usually, technical indicators are added along with a financial series. The [`seriesName`](../api/chart/technicalIndicatorModel) represents the series whose data has to be analyzed through indicators.
 
 Technical indicators can also be added without a series by using the [`dataSource`](../api/chart/technicalIndicatorModel) property of the indicator.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs16/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/technical-indicators-cs16/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs16" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -514,4 +259,3 @@ Technical indicators can also be added without a series by using the [`dataSourc
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs16" %}
-{% endif %}
