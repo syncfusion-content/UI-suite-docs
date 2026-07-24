@@ -66,37 +66,17 @@ Now, You can add the Block Editor component to your application. Replace the def
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-// Import the BlockEditor.
-import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
-import * as React from 'react';
-import './App.css';
-// To render BlockEditor.
-function App() {
-    return (
-        <BlockEditorComponent id="block-editor"></BlockEditorComponent>
-    );
-}
-export default App;
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.tsx %}
 {% endhighlight %}
-{% highlight js tabtitle="App.jsx" %}
-// Import the BlockEditor.
-import { BlockEditorComponent } from '@syncfusion/ej2-react-blockeditor';
-import * as React from 'react';
-import './App.css';
-// To render BlockEditor.
-function App() {
-    return (
-        <BlockEditorComponent id="block-editor"></BlockEditorComponent>
-    );
-}
-export default App;
+{% highlight ts tabtitle="App.jsx" %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.jsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started-cs1" %}
 
 > **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
 
