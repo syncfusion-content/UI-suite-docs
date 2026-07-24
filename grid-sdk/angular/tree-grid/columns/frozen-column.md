@@ -74,7 +74,7 @@ In the following example, the **taskName** column is frozen on the left side, th
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/frozencolumns-cs3" %}
 
 > * Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#frozencolumns) properties.
 
@@ -120,7 +120,7 @@ The following example demonstrates how to change the default frozen line color u
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/frozencolumns-cs4" %}
 
 ## Deprecated methods 
 

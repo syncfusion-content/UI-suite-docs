@@ -38,13 +38,13 @@ The following example demonstrates how to change the page size using an external
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,13 +58,13 @@ The following example shows how to change page count using an external button an
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,13 +78,13 @@ This example demonstrates dynamic current page control using an external button 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,13 +98,13 @@ For example, toggling the [EJ2 Switch Button](https://ej2.syncfusion.com/angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,13 +123,13 @@ The following example demonstrates the use of the `pageSizeMode` property:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs11/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,10 +201,10 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pager-template-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pager-template-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pager-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pager-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -218,13 +218,13 @@ To customize the dropdown options, provide an array of strings via the `pageSize
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -236,13 +236,13 @@ Use an array of string values with [pageSizes](https://ej2.syncfusion.com/angula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,13 +254,13 @@ Navigate to any page programmatically by using the [goToPage](https://ej2.syncfu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -286,13 +286,13 @@ The following example demonstrates how to calculate the page size based on eleme
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs8/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -304,13 +304,13 @@ The TreeGrid renders its pager at the bottom by default. To render it at the top
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs9/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -392,10 +392,10 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs10/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs10/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/page-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/page-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -20,11 +20,11 @@ You can watch this video to learn how to perform exports and customize them in t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -36,11 +36,11 @@ PDF export provides an option for exporting multiple treegrid to same file. In t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -54,11 +54,11 @@ In the following demo, the default spinner component is rendered when exporting 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -70,11 +70,11 @@ PDF export provides an option to define a data source dynamically before exporti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs15/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -88,11 +88,11 @@ In the provided example, the `customAggregateFn` function computes the item coun
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
