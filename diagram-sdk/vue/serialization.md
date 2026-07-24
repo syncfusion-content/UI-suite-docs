@@ -134,13 +134,13 @@ When a JSON file is uploaded, it undergoes parsing to extract its JSON data. Thi
 
 ## Importing and Exporting Diagrams using Mermaid Syntax
 
-The [`Diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/) supports saving diagrams in Mermaid syntax format. Mermaid is a Markdown-inspired syntax that automatically generates diagrams. With this functionality, you can easily create mind maps, flowcharts, and UML sequence diagrams from Mermaid syntax data, simplifying the visualization of complex ideas and processes without manual drawing. Additionally, you can export your mind maps, flowcharts, and UML sequence diagrams to Mermaid syntax, allowing for easy sharing, editing, and use across different platforms.
+The [`Diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram) supports saving diagrams in Mermaid syntax format. Mermaid is a Markdown-inspired syntax that automatically generates diagrams. With this functionality, you can easily create mind maps, flowcharts, and UML sequence diagrams from Mermaid syntax data, simplifying the visualization of complex ideas and processes without manual drawing. Additionally, you can export your mind maps, flowcharts, and UML sequence diagrams to Mermaid syntax, allowing for easy sharing, editing, and use across different platforms.
 
 ### Save diagram as Mermaid syntax
 
- The `saveDiagramAsMermaid` method serializes the diagram into a Mermaid-compatible string format. This method is specifically designed for diagrams that utilize Flowchart and Mind map layouts. The following code illustrates how to save the diagram in Mermaid string format.
+The `saveDiagramAsMermaid` method serializes the diagram into a Mermaid-compatible string format. This method is specifically designed for diagrams that utilize Flowchart and Mind map layouts. The following code illustrates how to save the diagram in Mermaid string format.
 
- ```javascript
+```javascript
 //returns the serialized Mermaid string of the Diagram
 let data = diagramInstance.saveDiagramAsMermaid();
 
@@ -148,7 +148,7 @@ let data = diagramInstance.saveDiagramAsMermaid();
 
 ### Load diagram from Mermaid syntax
 
-You can load a [`diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/) from the serialized Mermaid syntax data using the `loadDiagramFromMermaid` method. The following code illustrates how to load a diagram from a Mermaid string data.
+You can load a [`diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram) from the serialized Mermaid syntax data using the `loadDiagramFromMermaid` method. The following code illustrates how to load a diagram from a Mermaid string data.
 
 #### Load Flowchart layout
 
