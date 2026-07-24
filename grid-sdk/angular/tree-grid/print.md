@@ -14,10 +14,10 @@ To print the TreeGrid, call the [`print`](https://ej2.syncfusion.com/angular/doc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs33/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs33/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs33/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs33/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ To print the TreeGrid with an external button, invoke the [`print`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-cs27/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -53,10 +53,10 @@ By default, TreeGrid prints all pages. To print only the current page, set the [
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs34/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs34/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs34/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs34/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -84,10 +84,10 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs35/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs35/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs35/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs35/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -35,15 +35,15 @@ The following table lists available built-in toolbar items and their correspondi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs38/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs38/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs38/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs38/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs38" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/edit-toolbar-cs38" %}
 
 > * The [`toolbar`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#toolbar) property supports both built-in and custom toolbar items.
 
@@ -53,12 +53,12 @@ By default, custom toolbar items are positioned on the left. Change their positi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/custom-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/custom-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/custom-toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/custom-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/custom-toolbar-cs1" %}

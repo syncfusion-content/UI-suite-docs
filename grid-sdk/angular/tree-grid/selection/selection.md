@@ -19,11 +19,11 @@ TreeGrid supports two types of selection, configurable using [`selectionSettings
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,11 +39,11 @@ Selection mode can be configured with [`selectionSettings.mode`](https://ej2.syn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,11 +55,11 @@ Toggle selection enables selecting and unselecting specific rows or cells by cli
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
