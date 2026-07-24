@@ -39,12 +39,12 @@ The following example demonstrates using a helper inside a loop with a template 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-helper-loop-template/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-helper-loop-template/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-helper-loop-template/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-helper-loop-template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-helper-loop-template" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-helper-loop-template" %}

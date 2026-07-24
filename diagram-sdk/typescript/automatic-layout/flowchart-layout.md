@@ -64,7 +64,7 @@ To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syn
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs1" %}
 
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
@@ -129,7 +129,7 @@ The following example demonstrates how to render a flowchart layout using nodes 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs2" %}
 
 
 ## Customize flowchart layout orientation
@@ -204,7 +204,7 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs3" %}
 
 
 
@@ -241,7 +241,7 @@ The following example shows how to set custom text to the yes branch and no bran
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-flowchart-cs4" %}
 
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

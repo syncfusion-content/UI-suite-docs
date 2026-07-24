@@ -17,31 +17,31 @@ The navigation pane displays the folder hierarchy in a tree structure. Use the `
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigation-pane-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigation-pane-template" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigation-pane-template/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/navigation-pane-template/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigation-pane-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigation-pane-template" %}
 {% endif %}

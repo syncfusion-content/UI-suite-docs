@@ -20,15 +20,15 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs3" %}
 
 The `disableHtmlEncode` property of the column can also be disabled using [getColumns](https://ej2.syncfusion.com/angular/documentation/api/grid#getcolumns) method on [change](https://ej2.syncfusion.com/angular/documentation/api/switch#change) event of `Switch` component. This is demonstrated in the following code snippet:
 
@@ -65,15 +65,15 @@ The following example demonstrates setting the `allowTextWrap` property to `true
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs1" %}
 
 > * If a column `width` is not specified, then the Autowrap of columns will be adjusted with respect to the grid's `width`.
 > * If a column's header text contains no white space, the text may not be wrapped.
@@ -91,15 +91,15 @@ The following example demonstrates adding the `queryCellInfo` event handler to t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs1" %}
 
 > The [queryCellInfo](https://ej2.syncfusion.com/angular/documentation/api/grid#querycellinfo) event is triggered for every cell of the grid, so it may impact grid performance when used to modify a large number of cells.
 
@@ -118,15 +118,15 @@ The following example demonstrates CSS-based cell styling for selected rows usin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs12" %}
 
 ### Using property
 
@@ -152,15 +152,15 @@ The following example demonstrates `customAttributes` property usage for styling
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs2" %}
 
 > Custom attributes apply to all cells in the specified column, including header and content cells.
 
@@ -176,15 +176,15 @@ The following example demonstrates the use of the [getColumnHeaderByIndex](https
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs13" %}
 
 > Make sure to pass the correct row and column indices to [getCellFromIndex](https://ej2.syncfusion.com/angular/documentation/api/grid#getcellfromindex) method, or else the appearance of the wrong cell might get customized.
 
@@ -202,15 +202,15 @@ The following example demonstrates clip mode functionality with dynamic switchin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/clipmode-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/clipmode-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/clipmode-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/clipmode-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/clipmode-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/clipmode-cs1" %}
 
 > * By default, [clipMode](https://ej2.syncfusion.com/angular/documentation/api/grid/column#clipmode) value is `Ellipsis`.
 > * When the [width](https://ej2.syncfusion.com/angular/documentation/api/grid/column#width) property is set for a column, the clip mode feature is automatically applied to that column if content exceeds the specified width.
@@ -328,15 +328,15 @@ The following example demonstrates customizing the tooltip content for grid cell
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-tooltip-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-tooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-tooltip-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-tooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-tooltip-cs1" %}
 
 ## Grid lines
 
@@ -354,15 +354,15 @@ The following example demonstrates setting the `gridLines` property based on cha
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/autowrap-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/autowrap-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/autowrap-cs2" %}
 
 > By default, the grid renders with `Default` mode.
 

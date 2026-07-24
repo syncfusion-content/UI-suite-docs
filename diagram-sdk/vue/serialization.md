@@ -148,7 +148,7 @@ When a JSON file is uploaded, it undergoes parsing to extract its JSON data. Thi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1" %}
 
 ## Importing and Exporting Diagrams using Mermaid Syntax
 
@@ -181,7 +181,7 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2" %}
 
 
 #### Load Mind Map layout
@@ -197,7 +197,7 @@ The following example shows how to load mind map diagram from mermaid syntax.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3" %}
 
 #### Load UML Sequence diagram
 
@@ -212,6 +212,6 @@ The following example shows how to load UML Sequence diagram from mermaid syntax
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4" %}
 
 N> Mermaid syntax-based serialization and deserialization is supported only for Flowchart layout, Mind map layout, and UML Sequence Diagram. Ensure that your Mermaid data aligns with one of these supported layouts to enable successful diagram loading.

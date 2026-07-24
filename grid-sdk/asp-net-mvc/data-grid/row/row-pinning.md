@@ -18,10 +18,10 @@ This functionality does not change the grid's overall content height, keeping th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs1/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs1/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs1/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ Row pinning in the Grid control keeps important rows visible at the top while na
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs2/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs2/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs2/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs2/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,10 +46,10 @@ Pinned rows can be selected in the same way as regular rows. Their selection sta
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs3/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs3/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs3/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs3/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ When sorting is applied to any column, pinned rows are reordered using the same 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs4/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs4/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs4/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs4/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ Row pinning fully supports CRUD operations by keeping pinned rows and their corr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs5/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs5/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs5/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs5/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ Row pinning provides dynamic control through the built-in context menu, allowing
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs6/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs6/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="row-pinning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/row-pinning-cs6/row-pinning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-pinning-cs6/row-pinning.cs %}
 {% endhighlight %}
 {% endtabs %}
 

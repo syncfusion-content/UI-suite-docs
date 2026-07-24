@@ -23,20 +23,20 @@ The following example demonstrates drag and drop within the Grid:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="dataSource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs2/app/dataSource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs2/app/dataSource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="dataSource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs2/app/dataSource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs2/app/dataSource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs2" %}
 
 > * Selection feature must be enabled in the Grid to allow row selection before drag and drop operations. 
 > * Dragging multiple rows simultaneously requires multiple selection to be active. This is enabled by setting the [type](https://ej2.syncfusion.com/react/documentation/api/grid/selectionSettings#type) property to `Multiple`.
@@ -51,20 +51,20 @@ The following example demonstrates row drag and drop between different Grid comp
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="dataSource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs1/app/dataSource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs1/app/dataSource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="dataSource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs1/app/dataSource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs1/app/dataSource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs1" %}
 
 ## Drag and drop to custom components
  
@@ -148,20 +148,20 @@ The following example demonstrates transferring selected Grid rows to a `TreeGri
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="dataSource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs3/app/dataSource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs3/app/dataSource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="dataSource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs3/app/dataSource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs3/app/dataSource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs3" %}
 
 > The `rowDrop` event fires when a row is dropped onto a custom component, regardless of drop success. Set the `args.cancel` property to `true` to prevent the default drop action.
 
@@ -175,20 +175,20 @@ The following example demonstrates hide drag and drop icons in the Syncfusion<su
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customizedialog-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customizedialog-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customizedialog-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/customizedialog-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs9" %}
 
 ## Drag and drop events
 
@@ -312,14 +312,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="dataSource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs4/app/dataSource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs4/app/dataSource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="dataSource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-drag-cs4/app/dataSource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-drag-cs4/app/dataSource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-drag-cs4" %}
 
 ## Limitations
 

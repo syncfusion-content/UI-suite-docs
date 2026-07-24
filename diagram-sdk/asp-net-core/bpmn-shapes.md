@@ -19,10 +19,10 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/End/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="End.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/end.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/End/end.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,7 +30,7 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 
 {% tabs %}
 {% highlight c# tabtitle="End.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/End/end.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/End/end.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -69,10 +69,10 @@ The event property of the node allows to define the type of the event. The defau
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/trigger/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Trigger.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/trigger.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/trigger/trigger.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -80,7 +80,7 @@ The event property of the node allows to define the type of the event. The defau
 
 {% tabs %}
 {% highlight c# tabtitle="Trigger.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/trigger/trigger.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/trigger/trigger.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -113,10 +113,10 @@ Gateway is used to control the flow of a process and it is represented as a diam
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/gateWay/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="GateWay.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/gateWay.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/gateWay/gateWay.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,7 +124,7 @@ Gateway is used to control the flow of a process and it is represented as a diam
 
 {% tabs %}
 {% highlight c# tabtitle="GateWay.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/gateWay/gateWay.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/gateWay/gateWay.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -160,10 +160,10 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Activity/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Activity/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Activity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Activity/Activity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Activity/Activity.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -171,7 +171,7 @@ To create a BPMN activity, set the shape as **activity**. You also need to set t
 
 {% tabs %}
 {% highlight c# tabtitle="Activity.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Activity/Activity.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Activity/Activity.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -188,10 +188,10 @@ The [`task`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/task/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/task/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Task.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/task/task.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/task/task.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -199,7 +199,7 @@ The [`task`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight c# tabtitle="Task.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/task/task.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/task/task.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -227,10 +227,10 @@ A [`sub-process`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subProcess/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SubProcess.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/subProcess.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subProcess/subProcess.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -238,7 +238,7 @@ A [`sub-process`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 
 {% tabs %}
 {% highlight c# tabtitle="SubProcess.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subProcess/subProcess.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subProcess/subProcess.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -258,10 +258,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subEvent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SubEvent.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/subEvent.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subEvent/subEvent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -269,7 +269,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight c# tabtitle="SubEvent.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/subEvent/subEvent.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/subEvent/subEvent.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -292,10 +292,10 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Transaction/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Transaction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/Transaction.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Transaction/Transaction.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -303,7 +303,7 @@ A subprocess is defined as an event subprocess, when it is triggered by an event
 
 {% tabs %}
 {% highlight c# tabtitle="Transaction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Transaction/Transaction.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Transaction/Transaction.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -320,10 +320,10 @@ Processes is an array collection that defines the children values for BPMN subpr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/loop/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/loop/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Loop.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/loop/loop.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/loop/loop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -331,7 +331,7 @@ Processes is an array collection that defines the children values for BPMN subpr
 
 {% tabs %}
 {% highlight c# tabtitle="Loop.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/loop/loop.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/loop/loop.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -354,10 +354,10 @@ The following table contains various types of BPMN loops.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/compensation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/compensation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Compensation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/compensation/compensation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/compensation/compensation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -365,7 +365,7 @@ The following table contains various types of BPMN loops.
 
 {% tabs %}
 {% highlight c# tabtitle="Compensation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/compensation/compensation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/compensation/compensation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -380,10 +380,10 @@ A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/call/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/call/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Call.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/call/call.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/call/call.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -391,7 +391,7 @@ A [`call`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams
 
 {% tabs %}
 {% highlight c# tabtitle="Call.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/call/call.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/call/call.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -406,10 +406,10 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/adhoc/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/adhoc/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Adhoc.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/adhoc/adhoc.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/adhoc/adhoc.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -417,7 +417,7 @@ An adhoc subprocess is a group of tasks that are executed in any order or skippe
 
 {% tabs %}
 {% highlight c# tabtitle="Adhoc.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/adhoc/adhoc.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/adhoc/adhoc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -432,10 +432,10 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/boundary/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/boundary/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/boundary/boundary.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -443,7 +443,7 @@ Boundary represents the type of task that is being processed. The [`boundary`](h
 
 {% tabs %}
 {% highlight c# tabtitle="Boundary.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/boundary/boundary.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/boundary/boundary.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -466,10 +466,10 @@ A data object represents information flowing through the process, such as data p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/dataObject/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DataObject.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/dataObject.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/dataObject/dataObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -477,7 +477,7 @@ A data object represents information flowing through the process, such as data p
 
 {% tabs %}
 {% highlight c# tabtitle="DataObject.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/dataObject/dataObject.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/dataObject/dataObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -500,10 +500,10 @@ Datasource is used to store or access data associated with a business process. T
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Datasource/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Datasource.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/Datasource.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Datasource/Datasource.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -511,7 +511,7 @@ Datasource is used to store or access data associated with a business process. T
 
 {% tabs %}
 {% highlight c# tabtitle="Datasource.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Datasource/Datasource.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Datasource/Datasource.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -547,10 +547,10 @@ Artifact is used to show additional information about a process in order to make
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/textAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/textAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="TextAnnotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/textAnnotation/textAnnotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/textAnnotation/textAnnotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -558,7 +558,7 @@ Artifact is used to show additional information about a process in order to make
 
 {% tabs %}
 {% highlight c# tabtitle="TextAnnotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/textAnnotation/textAnnotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/textAnnotation/textAnnotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -573,10 +573,10 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/group/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -584,7 +584,7 @@ A group is used to frame a part of the diagram, shows that elements included in 
 
 {% tabs %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -609,10 +609,10 @@ The association property allows you to define the type of association.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/association/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/association.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -620,7 +620,7 @@ The association property allows you to define the type of association.
 
 {% tabs %}
 {% highlight c# tabtitle="Association.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/association/association.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/association/association.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -651,10 +651,10 @@ The sequence property allows to define the type of sequence.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Sequence/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Sequence.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/Sequence.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Sequence/Sequence.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -662,7 +662,7 @@ The sequence property allows to define the type of sequence.
 
 {% tabs %}
 {% highlight c# tabtitle="Sequence.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Sequence/Sequence.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Sequence/Sequence.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -693,10 +693,10 @@ The message property allows to define the type of message.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Message/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Message.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/Message.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Message/Message.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -704,7 +704,7 @@ The message property allows to define the type of message.
 
 {% tabs %}
 {% highlight c# tabtitle="Message.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/bpmn/Message/Message.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/bpmn/Message/Message.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

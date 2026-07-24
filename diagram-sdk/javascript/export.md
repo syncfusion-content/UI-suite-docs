@@ -67,7 +67,7 @@ The diagram provides support to export the desired region of the diagram to vari
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-1" %}
 
 
 ### Margin
@@ -85,7 +85,7 @@ The following code example demonstrates how to set margin for the exported image
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-2" %}
 
 ### Mode
 
@@ -131,7 +131,7 @@ The following example shows how to export diagram with different regions.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-3" %}
 
 N> The [`bounds`](../api/diagram/iexportoptions#bounds) property of [`exportOptions`](../api/diagram/iExportOptions) should be defined to export the diagram with CustomBounds region.
 
@@ -150,7 +150,7 @@ The following code example demonstrates how to export the diagram as multiple im
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-4" %}
 
 ### Export image
 
@@ -165,7 +165,7 @@ You can pass the base64 data of an image to the [`exportImage`](../api/diagram/i
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-5" %}
 
 ### Get diagram content
 
@@ -180,7 +180,7 @@ To get the html diagram content, the [`getDiagramContent`](../api/diagram/index-
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-6" %}
 
 ### Export diagram with stretch option
 

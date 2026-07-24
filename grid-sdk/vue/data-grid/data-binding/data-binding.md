@@ -36,14 +36,14 @@ The following example demonstrates setting the `loadingIndicator.indicatorType` 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs1" %}
 
 ## Refresh the datasource using property
 
@@ -71,14 +71,14 @@ The following example demonstrates adding a new record to the data source throug
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs2" %}
 
 ## Dynamically change the datasource or columns or both
 
@@ -169,14 +169,14 @@ The following code demonstrates using the `changeDataSource` method to bind the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/local-data-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs3" %}
 
 >* The Grid state persistence feature does not support the  `changeDataSource` method.
 >* In this document, the above sample uses the local data for `changeDataSource` method. For remote data sources, refer to the [FlexibleData](https://ej2.syncfusion.com/vue/demos/#/bootstrap5/grid/flexible-data) resource.
@@ -194,18 +194,18 @@ The following example demonstrates setting custom headers using the custom adapt
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/custom-headers-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/custom-headers-cs1/app-composition.vue %}
 
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/custom-headers-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/custom-headers-cs1/app.vue %}
 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/custom-headers-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/custom-headers-cs1" %}
 
 ## Prevent conversion to local time zone for date columns
 
@@ -217,14 +217,14 @@ The following example demonstrates preventing local time zone conversion for dat
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/databinding-timezone/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/databinding-timezone/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/databind/databinding-timezone/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/databind/databinding-timezone/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/databinding-timezone" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/databinding-timezone" %}
 
 ## See also
 

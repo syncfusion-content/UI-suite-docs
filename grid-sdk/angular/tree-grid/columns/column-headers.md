@@ -18,14 +18,14 @@ To enable the `headerText` property, define it in the **e-column** element. The 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-render-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-render-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-render-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-render-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-render-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-render-cs1" %}
 
  >* The `headerText` property is optional. If not defined, the corresponding column's field value is set as header text for that column.  
 >* The [headerTemplate](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#headertemplate) property can also be used to apply custom HTML content to the header cell.
@@ -38,14 +38,14 @@ In this example, custom elements are rendered for both **taskName** and **durati
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-header-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-header-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-header-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-header-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-header-cs1" %}
 
 >* The `headerTemplate` property is only applicable to TreeGrid columns that have a header element.
 >* Any HTML or Angular component can be used in the header template to add additional functionality to the header element.
@@ -80,15 +80,15 @@ Here is an example of how to change the header text of a column using the `getCo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs3" %}
 
 ## Change orientation of header text 
 
@@ -138,15 +138,15 @@ Here’s an example of how to change orientation of header text:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-orientation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-orientation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-orientation-cs1" %}
 
 ### Stacked header
 
@@ -156,14 +156,14 @@ The appearance of stacked header elements can be customized using the headerTemp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-header-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-header-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-header-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-header-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-header-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-header-cs2" %}
 
 ## Align the text of header text
 
@@ -178,14 +178,14 @@ The following example demonstrates using the `headerTextAlign` property to align
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-align-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-align-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-align-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-align-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-align-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-align-cs1" %}
 
 >* The `headerTextAlign` property only changes the alignment of the text in the column header, not the content of the column. To align both the column header and content, use the [textAlign](https://ej2.syncfusion.com/documentation/api/treegrid/column/#textalign) property.
 >* The `headerTextAlign` property can also be used with the stacked header feature in the Syncfusion<sup style="font-size:70%">&reg;</sup> TreeGrid. The property will align the header text in the sub-headers as well.
@@ -210,14 +210,14 @@ In the following example, the `textWrapSettings.wrapMode` property is set to **H
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/auto-wrap-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/auto-wrap-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/auto-wrap-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/auto-wrap-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/auto-wrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/auto-wrap-cs1" %}
 
 ## Change the height of header
 
@@ -239,14 +239,14 @@ To change the height of the header dynamically, the [getHeaderContent](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/columns-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/columns-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %} 
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/columns-cs2" %}
 
 >* The [getHeaderTable](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#getheadertable) method can also be used to get the table element of the header, and then adjust the height.
 >* The height of row cannot be changed below the default height of 42px using the **e-columnheader** class.
@@ -291,14 +291,14 @@ The following example demonstrates how to change the header text of a column usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/change-headertext-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/change-headertext-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/change-headertext-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/change-headertext-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/change-headertext-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/change-headertext-cs1" %}
 
 **Changing the header text of all columns**
 
@@ -306,14 +306,14 @@ To change the header text of all columns in the TreeGrid, loop through the Colum
 
  {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/change-headertext-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/change-headertext-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/change-headertext-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/change-headertext-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/change-headertext-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/change-headertext-cs3" %}
                                                            
 ## Change the orientation of header text
 
@@ -359,14 +359,14 @@ Here’s an example of how to change orientation of header text:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-orientation-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-orientation-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-orientation-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-orientation-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-orientation-cs1" %}
 
 ## Translate header text using ngx-translate 
 
@@ -733,14 +733,14 @@ The following example demonstrates how to use the `beforeRender` event to add a 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %} 
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-tooltip-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-tooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-tooltip-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-tooltip-cs1/src/main.ts %}
 {% endhighlight %}   
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-tooltip-cs1" %}
 
 > * The [headerCellInfo](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#headercellinfo) event can also be used to customize the header tooltip. This event is triggered for each header cell after it is rendered.
 
@@ -762,14 +762,14 @@ The following example demonstrates how to customize the appearance of a specific
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs1" %}
 
 ### Using property 
 
@@ -799,14 +799,14 @@ The following example demonstrates how to customize the appearance of the **Task
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs2" %}
 
 ### Using method 
 
@@ -826,14 +826,14 @@ The following example demonstrates how to use these methods to change the style 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs3" %}
 
 >* The UID is automatically generated by the TreeGrid component and may change whenever the TreeGrid is refreshed or updated.
 
@@ -845,14 +845,14 @@ The following example demonstrates how to add a `headerCellInfo` event handler t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/header-style-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/header-style-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/header-style-cs4" %}
 
 ## How to refresh header 
 
@@ -864,14 +864,14 @@ The following example demonstrates how to use the `refreshHeader` method to upda
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-header-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-header-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-header-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-header-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-header-cs1" %}
 
 >* The `refreshHeader` method updates only the TreeGrid header and not the entire TreeGrid.
 >* To refresh the entire TreeGrid, the `refresh` method can be used instead.

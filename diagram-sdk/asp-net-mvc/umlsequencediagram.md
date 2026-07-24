@@ -36,10 +36,10 @@ The following code example illustrates how to create participants.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/participants/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/participants/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/participants/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/participants/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -47,10 +47,10 @@ The following code example illustrates how to create participants.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/participants/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/participants/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/participants/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/participants/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -88,10 +88,10 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/messages/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/messages/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/messages/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/messages/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/messages/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/messages/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/messages/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/messages/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -127,10 +127,10 @@ The following code example illustrates how to create activation boxes.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/activations/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/activations/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/activations/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/activations/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ The following code example illustrates how to create activation boxes.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/activations/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/activations/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/activations/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/activations/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -184,10 +184,10 @@ The following code example illustrates how to create fragments.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/fragments/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/fragments/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/fragments/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/fragments/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ The following code example illustrates how to create fragments.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/fragments/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/fragments/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Model.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/umlsequencediagram/fragments/umlseq.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/umlsequencediagram/fragments/umlseq.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

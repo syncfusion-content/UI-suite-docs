@@ -16,14 +16,14 @@ In the following example, the [frozenColumns](https://ej2.syncfusion.com/angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs1" %}
 
 > * Frozen columns should not be set outside the TreeGrid viewport.
 > * Frozen TreeGrid supports column virtualization feature, which helps to improve the TreeGrid performance while loading a large dataset.
@@ -40,14 +40,14 @@ The following example demonstrates how to freeze particular column in TreeGrid u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs2" %}
 
 ## Freeze direction
 
@@ -67,14 +67,14 @@ In the following example, the **taskName** column is frozen on the left side, th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs3" %}
 
 > * Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#frozencolumns) properties.
 
@@ -113,14 +113,14 @@ The following example demonstrates how to change the default frozen line color u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/frozencolumns-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/frozencolumns-cs4" %}
 
 ## Deprecated methods 
 

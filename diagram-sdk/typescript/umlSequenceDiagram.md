@@ -56,7 +56,7 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-1" %}
 
 
 
@@ -98,7 +98,7 @@ The following code example illustrates how to create messages:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-2" %}
 
 
 
@@ -127,7 +127,7 @@ The following code example illustrates how to create activation boxes:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-3" %}
 
 
 
@@ -174,7 +174,7 @@ The following code example illustrates how to create fragments:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-4" %}
 
 
 

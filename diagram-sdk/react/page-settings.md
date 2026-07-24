@@ -33,7 +33,7 @@ The following example shows the customization of page settings.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1" %}
 
 ## Set Background Image
 
@@ -50,7 +50,7 @@ The following code illustrates how to set background image to the diagram page.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1" %}
 
 ## Page Orientation
 
@@ -72,7 +72,7 @@ The following example demonstrates how orientation affects page dimensions by sw
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2" %}
 
 ## Multiple Page and Page Breaks
 
@@ -89,7 +89,7 @@ The [`multiplePage`](https://helpej2.syncfusion.com/react/documentation/api/diag
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1" %}
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details refer to [`CSS customization`](https://ej2.syncfusion.com/react/documentation/diagram/style#customizing-the-page-breaks)
 
@@ -116,7 +116,7 @@ The following example shows how to configure boundary constraints to restrict el
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1" %}
 
 ## Fit Options
 
@@ -133,5 +133,5 @@ The following example demonstrates the configuration and usage of fit options fo
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1" %}
 

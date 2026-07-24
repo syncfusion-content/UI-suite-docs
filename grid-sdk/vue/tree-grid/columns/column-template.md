@@ -14,14 +14,14 @@ The column [`template`](https://ej2.syncfusion.com/vue/documentation/api/treegri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/column-template/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/column-template/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/column-template/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/column-template/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/column-template/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/column-template/default-cs1" %}
 
 > TreeGrid actions such as editing, filtering and sorting etc. will depend upon the column [`field`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#field). If the [`field`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#field) is not specified in the template column, the treegrid actions cannot be performed.
 
@@ -44,11 +44,11 @@ In the following code, checkbox is rendered based on `Approved` field value.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/columns/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/columns/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs9" %}

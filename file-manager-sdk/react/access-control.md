@@ -105,17 +105,17 @@ The following example demonstrate the File Manager rendered with access control 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/access-control-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/access-control-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/access-control-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/access-control-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/access-control-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/access-control-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/access-control-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/access-control-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/access-control-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/access-control-cs1" %}

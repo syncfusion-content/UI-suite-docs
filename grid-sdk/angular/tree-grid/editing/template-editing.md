@@ -18,14 +18,14 @@ In the following sample, the **FormGroup** with **FormControls** is created for 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-react-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-react-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-react-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-react-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-react-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-react-cs1" %}
 
 ## Template-driven forms
 
@@ -41,14 +41,14 @@ In the following sample, the FormGroup is created using ngForm directive. While 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-temp-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-temp-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-temp-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-temp-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-temp-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-temp-cs1" %}
 
 > The template form editors should have **name** attribute.
 
@@ -197,11 +197,11 @@ In the following example, tab control is rendered inside the edit dialog. The ta
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-temp-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-temp-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-dlg-temp-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-dlg-temp-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-temp-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-dlg-temp-cs2" %}

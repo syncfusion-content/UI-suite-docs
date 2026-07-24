@@ -23,10 +23,10 @@ The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,7 +34,7 @@ The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ Context menu can be defined for individual node with the desired context menu it
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/item/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/item/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Item.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/item/item.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/item/item.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,7 +70,7 @@ Context menu can be defined for individual node with the desired context menu it
 
 {% tabs %}
 {% highlight c# tabtitle="Item.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/item/item.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/item/item.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -89,10 +89,10 @@ To display the custom context menu items alone, set the `showCustomMenuOnly` pro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/events.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,7 +100,7 @@ To display the custom context menu items alone, set the `showCustomMenuOnly` pro
 
 {% tabs %}
 {% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/events.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -115,10 +115,10 @@ You would be notified with events, when you try to open the context menu items `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/events.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,7 +126,7 @@ You would be notified with events, when you try to open the context menu items `
 
 {% tabs %}
 {% highlight c# tabtitle="Events.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/contextmenu/events/events.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/contextmenu/events/events.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

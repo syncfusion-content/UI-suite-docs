@@ -34,7 +34,7 @@ In the following example, the basic shapes are categorized in layer 1, and the f
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs1" %}
 
 
 ## Visible
@@ -52,7 +52,7 @@ In the following example, the visibility of layer one is set to false. By defaul
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs2" %}
 
 
 ## Lock
@@ -70,7 +70,7 @@ In the following example the objects in layer one is locked. By default, the `lo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs3" %}
 
 
 ## AddInfo
@@ -143,7 +143,7 @@ The following code illustrates how to add a new layer with new connectors stored
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs4" %}
 
 ## Remove layer at runtime
 
@@ -162,7 +162,7 @@ The following code illustrates how to remove a layer.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs5" %}
 
 ## moveObjects
 
@@ -179,7 +179,7 @@ The following code illustrates how to move objects from one layer to another lay
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs6" %}
 
 ## Z-Index
 
@@ -247,7 +247,7 @@ The following code illustrates how to send the layer forward/backward to another
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs7" %}
 
 ### Layer and objects rendering order
 
@@ -271,7 +271,7 @@ The following code illustrates how to clone the layer.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/layers/layers-cs8" %}
 
 ## Active layer
 

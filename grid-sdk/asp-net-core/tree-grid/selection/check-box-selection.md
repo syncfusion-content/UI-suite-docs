@@ -19,10 +19,10 @@ To render the checkbox in each treegrid row, you need to use checkbox column wit
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/checkbox/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/checkbox/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/checkbox/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/checkbox/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ To render the checkbox in each treegrid row, you need to use checkbox column wit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/checkbox/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/checkbox/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/checkbox/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/checkbox/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/windowslikeselection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/windowslikeselection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Windows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/windowslikeselection/windows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/windowslikeselection/windows.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/windowslikeselection/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/windowslikeselection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Windows.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/windowslikeselection/windows.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/windowslikeselection/windows.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -90,10 +90,10 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/partial-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/partial-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Partial.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/partial-selection/partial.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/partial-selection/partial.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -101,10 +101,10 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/partial-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/partial-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Partial.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/selection/partial-selection/partial.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/selection/partial-selection/partial.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

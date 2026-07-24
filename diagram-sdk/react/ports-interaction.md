@@ -27,7 +27,7 @@ The following code explains how to draw the connector by using the port constrai
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int1" %}
 
 ### Draw Different Connector Types from Port
 
@@ -46,7 +46,7 @@ The default connector type can be customized when drawing from ports by configur
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int2" %}
 
 ## Port Drag
 
@@ -63,7 +63,7 @@ The following code explains how to enable port drag.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int3" %}
 
 ## Automatic Port Creation
 
@@ -82,7 +82,7 @@ The following example shows how to enable automatic port creation:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/automaticPortCreation" %}
 
 ## Port Tooltip
 
@@ -99,7 +99,7 @@ The following code explains how to enable port tooltip.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int4" %}
 
 ## Events
 
@@ -123,7 +123,7 @@ The following example shows how to get these events in diagram.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-int5" %}
 
 ## See also
 

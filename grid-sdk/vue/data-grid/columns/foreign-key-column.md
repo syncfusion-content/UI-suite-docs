@@ -51,14 +51,14 @@ In this example, **data** is the local data source for the Grid, and **employeeD
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs1" %}
 
 ## Binding remote data
 
@@ -68,14 +68,14 @@ This example demonstrates how to use the foreign key column with remote data bin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs5" %}
 
 > * For remote data, the sorting and grouping is done based on [column.foreignKeyField](https://ej2.syncfusion.com/vue/documentation/api/grid/column#foreignkeyfield) instead of [column.foreignKeyValue](https://ej2.syncfusion.com/vue/documentation/api/grid/column#foreignkeyvalue).
 > * If [column.foreignKeyField](https://ej2.syncfusion.com/vue/documentation/api/grid/column#foreignkeyfield) is not defined, then the column uses [column.field](https://ej2.syncfusion.com/vue/documentation/api/grid/column#field).
@@ -88,14 +88,14 @@ In this example, an [AutoComplete](https://ej2.syncfusion.com/vue/demos/#/bootst
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs1" %}
 
 ## Customize filter UI of foreign key column
 
@@ -105,14 +105,14 @@ In this example, a [DropDownList](https://ej2.syncfusion.com/vue/demos/#/bootstr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/foreignKey-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs2" %}
 
 ## Use filter bar template in foreign key column
 
@@ -122,14 +122,14 @@ In this example, the **"EmployeeID"** column is a foreign key column, and the **
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs6" %}
 
 ## Perform aggregation in foreign key column
 
@@ -283,7 +283,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs3" %}
 
 ## Render foreign key value in column template
 
@@ -404,7 +404,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-foreign-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-foreign-template" %}
 
 ## Enable multiple foreign key columns
 
@@ -414,14 +414,14 @@ In the following example, **Customer Name** and **Ship City** are foreign key co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/column/foreigncolumn-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs2" %}
 
 ## Edit template in foreign key column using remote data
 

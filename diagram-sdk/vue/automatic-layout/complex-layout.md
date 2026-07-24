@@ -28,7 +28,7 @@ The following example demonstrates how to render a complex hierarchical tree lay
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs1" %}
 
 
 ## Complex hierarchical tree layout with DataSource
@@ -45,7 +45,7 @@ The following code example illustrates how to create a complex hierarchical tree
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs2" %}
 
 ![Complex hierarchical tree layout](../images/complex-2.png)
 
@@ -68,7 +68,7 @@ The following code example illustrates how to create a complex hierarchical tree
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs3" %}
 
 N> If you want to use line distribution in diagram layout, you need to inject  LineDistribution module in the diagram.
 
@@ -93,7 +93,7 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs4" %}
 
 
 ## Enable routing for layout
@@ -114,4 +114,4 @@ The following example shows how to activate enableRouting in the layout:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/complexhiertree-cs5" %}

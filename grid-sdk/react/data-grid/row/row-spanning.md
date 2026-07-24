@@ -28,26 +28,26 @@ The following example demonstrates row spanning in action:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="ColumnSpanDataType.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/ColumnSpanDataType.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/ColumnSpanDataType.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="ColumnSpanDataType.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/ColumnSpanDataType.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/ColumnSpanDataType.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs2" %}
 
 >* Spanning can be disabled for a particular Grid page by using the `requestType` value from the `queryCellInfo` event argument.
 >* The `rowSpan` and `colSpan` attributes can be used together to merge cells both vertically and horizontally.
@@ -81,20 +81,20 @@ This example demonstrates the `enableRowSpan` property for merging cells vertica
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-spanning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-spanning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-spanning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-spanning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-spanning-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-spanning-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-spanning-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-spanning-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-spanning-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-spanning-cs1" %}
 
 > Row spanning can also be controlled at the column level. Set `enableRowSpan` to `false` in a column definition to disable merging for that column.
 

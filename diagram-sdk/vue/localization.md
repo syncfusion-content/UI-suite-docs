@@ -75,7 +75,7 @@ The following code example summarizes the locale settings for the context menu.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/locale/contextMenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/locale/contextMenu-cs1" %}
 
 ## Localize Symbol palette
 
@@ -120,6 +120,6 @@ L10n.load({
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/locale/SymbolPalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/locale/SymbolPalette-cs1" %}
 
 Refer [`localization`](https://ej2.syncfusion.com/vue/documentation/common/localization) for more information.

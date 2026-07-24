@@ -14,14 +14,14 @@ Footer aggregate value is calculated for all the rows, and it is displayed in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/aggregates/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/aggregates/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs2" %}
 
 > The aggregate values must be accessed inside the template using their corresponding [`type`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/aggregateColumnModel/#type) name.
 
@@ -31,11 +31,11 @@ You can format the aggregate value result by using the [`format`](https://ej2.sy
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/aggregates/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/aggregates/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/aggregates/default-cs3" %}

@@ -28,7 +28,7 @@ The following code example demonstrates how to define a basic swimlane object:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1" %}
  
 N> When setting a Swimlane's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -51,7 +51,7 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1" %}
 
 
 ## Headers
@@ -71,7 +71,7 @@ The following code example illustrates how to define a swimlane header.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2" %}
 
 ### Header Customization
 
@@ -90,7 +90,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1" %}
 
 ### Dynamic Header Customization
 
@@ -105,7 +105,7 @@ Headers can be modified programmatically during runtime to respond to user inter
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1" %}
 
 ### Header Editing
 

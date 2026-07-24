@@ -22,15 +22,15 @@ Alternatively, you can use the [`enableToolbarItems`](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs39/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs39/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs39/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs39/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs39" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs39" %}
 
 ## Add toolbar at the bottom of the TreeGrid
 
@@ -38,15 +38,15 @@ You can add a toolbar to the bottom of the TreeGrid by configuring it within the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs40/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs40/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs40/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs40/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs40" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs40" %}
 
 ## See also
 

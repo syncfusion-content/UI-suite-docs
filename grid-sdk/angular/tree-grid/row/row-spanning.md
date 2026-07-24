@@ -18,14 +18,14 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-spanning-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-spanning-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-spanning-cs1" %}
 
 > * To disable the spanning for particular TreeGrid page, use **requestType** from `queryCellInfo` event argument.
 > * The `rowSpan` and `colSpan` attributes can be used together to merge cells both vertically and horizontally.
@@ -50,14 +50,14 @@ The row spanning feature in the Syncfusion Angular TreeGrid can be enabled using
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-spanning-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/row-spanning-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/row-spanning-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-spanning-cs2" %}
 
 > In the sample, row spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableRowSpan` property to **false**.
 

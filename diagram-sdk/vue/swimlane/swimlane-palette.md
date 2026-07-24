@@ -21,7 +21,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/palette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/palette-cs1" %}
 
 ### Drag and drop swimlane to palette
 

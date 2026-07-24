@@ -26,10 +26,10 @@ Here's an example code snippet that demonstrates how to define columns manually 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-rendering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-rendering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column-rendering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-rendering/column-rendering.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-rendering/column-rendering.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ You can use the following code snippet to enable auto-generated columns in the S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/auto/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/auto/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Auto.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/auto/auto.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/auto/auto.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ Here is an example code snippet that shows how to set a primary key for an auto-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/auto-primary/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/auto-primary/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Primary.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/auto-primary/primary.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/auto-primary/primary.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ In the below example, `width` is set for **OrderID** column, **date** `type` is 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autocolumnformat/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autocolumnformat/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autocolumnformat.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autocolumnformat/autocolumnformat.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autocolumnformat/autocolumnformat.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -113,10 +113,10 @@ In the provided code, the **currencyFormatter** function takes the Freight value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-valueaccessor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-valueaccessor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Valueaccessor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-valueaccessor/valueaccessor.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-valueaccessor/valueaccessor.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ This will display the concatenated value of **FirstName** and **LastName** in th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-array/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-array/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Arraytypecolumns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-array/arraytypecolumns.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-array/arraytypecolumns.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -151,10 +151,10 @@ In this example, we have a grid with columns **Food Name**, **Protein**, **Fat**
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-expression/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-expression/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Expressioncolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-expression/expressioncolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-expression/expressioncolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -170,10 +170,10 @@ Here is an example code snippet that demonstrates how to display serial numbers 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-serial/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-serial/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Serialnumber.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-serial/serialnumber.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-serial/serialnumber.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -191,10 +191,10 @@ In the below example, we have bound the nested **Employee** object's **FirstName
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexbinding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexbinding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complexbinding.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/complexbinding/complexbinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/complexbinding/complexbinding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -208,10 +208,10 @@ In the below example, we have used the `expand` query to load the nested Employe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-remote/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-remote/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Remotedata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-render-remote/remotedata.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-render-remote/remotedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -225,10 +225,10 @@ The following example shows how to set complex field for datasource having array
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-complexbinding/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-complexbinding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complexbinding.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-complexbinding/complexbinding.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-complexbinding/complexbinding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +242,10 @@ The following example demonstrates how to set the **Employee.EmployeeID** column
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Foreignkey.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/foreignkey/foreignkey.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/foreignkey/foreignkey.cs %}
 {% endhighlight %}
 {% endtabs %}
 

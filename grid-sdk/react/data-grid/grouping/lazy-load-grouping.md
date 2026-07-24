@@ -18,20 +18,20 @@ To enable this feature, set the [groupSettings.enableLazyLoading](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs1" %}
 
 ## Handling the lazy load grouping at server-side
 
@@ -118,20 +118,20 @@ To enable this feature, set both [groupSettings.enableLazyLoading](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs2" %}
 
 > * The [enableInfiniteScrolling](https://ej2.syncfusion.com/react/documentation/api/grid#enableinfinitescrolling) property is optional and can be set to `true` or `false` based on the requirement.
 > * When enabling the `enableInfiniteScrolling` feature, it is necessary to define the [height](https://ej2.syncfusion.com/react/documentation/api/grid#height) property.
@@ -152,20 +152,20 @@ To enable this feature, set both [groupSettings.enableLazyLoading](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/lazy-load-grouping-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/lazy-load-grouping-cs3" %}
 
 > When using the `enableVirtualization` feature, it is necessary to define the [height](https://ej2.syncfusion.com/react/documentation/api/grid#height) property.
 

@@ -18,10 +18,10 @@ The following example demonstrates how to perform a PDF export action in the gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdf-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdf-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdf-export/pdf-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdf-export/pdf-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following example demonstrates how to show and hide the spinner during PDF e
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/show-spinner-while-exporting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/show-spinner-while-exporting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-spinner.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/show-spinner-while-exporting/show-spinner.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/show-spinner-while-exporting/show-spinner.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ The following example demonstrates how to render custom data source during PDF e
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/custom-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/custom-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/custom-data/custom-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/custom-data/custom-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following example shows how to export the grid with a custom aggregate that 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/custom-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/custom-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/custom-aggregate/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/custom-aggregate/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The following example demonstrates how to perform export with cell and row spann
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdf-spanning/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdf-spanning/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/pdf-spanning/pdf-spanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/pdf-spanning/pdf-spanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ Here’s an example demonstrating how to merge duplicate cells in the **OrderID*
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-duplicate-cell/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-duplicate-cell/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-duplicate-cell/export-duplicate-cell.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-duplicate-cell/export-duplicate-cell.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ The following example demonstrates how to export the grid data with custom date 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-date-format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-date-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/export-date-format/export-date-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/export-date-format/export-date-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ The following example demonstrates how to export multiple grids to the same page
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/same-page/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/same-page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiple.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/same-page/same-page.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/same-page/same-page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following example demonstrates how to export multiple grids to a PDF file wh
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/multiple/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/multiple/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiple.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/multiple/multiple.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/multiple/multiple.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -215,10 +215,10 @@ The following example demonstrates how to export hierarchical grid to PDF docume
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/hierarchy/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/hierarchy/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/hierarchy/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/hierarchy/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -232,11 +232,11 @@ In the following example, the `exportDetailDataBound` event is used to modify th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/format/tagHelper %}
 {% endhighlight %}
 
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/format/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -250,10 +250,10 @@ The following example demonstrates how to perform export without header using `p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/remove-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/remove-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/pdf-export/remove-header/remove-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/pdf-export/remove-header/remove-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 

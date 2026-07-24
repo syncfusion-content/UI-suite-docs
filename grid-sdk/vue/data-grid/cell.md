@@ -22,14 +22,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/encode-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/encode-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/encode-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/encode-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/encode-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/encode-cs1" %}
 
 > * The [disableHtmlEncode](https://ej2.syncfusion.com/vue/documentation/api/grid/column#disablehtmlencode) property disables HTML encoding for the corresponding column in the grid. 
 > * If the property is set to **true**, any HTML tags in the column's data will be displayed. 
@@ -65,14 +65,14 @@ The following example demonstrates how to set the `allowTextWrap` property to **
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs1" %}
 
 ## Customize cell styles
 
@@ -86,14 +86,14 @@ The following example demonstrates how to add a `queryCellInfo` event handler to
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs1" %}
 
 > * The [queryCellInfo](https://ej2.syncfusion.com/vue/documentation/api/grid#querycellinfo) event is triggered for every cell of the grid, so it may impact the performance of the grid whether used to modify a large number of cells.
 
@@ -112,14 +112,14 @@ The following example demonstrates how to customize the appearance of a specific
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs3" %}
 
 ### Using property
 
@@ -142,14 +142,14 @@ The following example demonstrates how to customize the appearance of the **Orde
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs2" %}
 
 ### Using methods
 
@@ -163,14 +163,14 @@ The following example demonstrates how to use [getColumnHeaderByIndex](https://e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/default-cs4" %}
 
 > Make sure to pass the correct row and column indices to [getCellFromIndex](https://ej2.syncfusion.com/vue/documentation/api/grid#getcellfromindex) method, or else the appearance of the wrong cell might get customized.
 
@@ -188,14 +188,14 @@ The following example demonstrates, how to set the `clipMode` property to **Clip
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs3" %}
 
 ## Tooltip
 
@@ -308,14 +308,14 @@ The following example demonstrates how to customize the tooltip content for the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/custom-tooltip/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/custom-tooltip/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/custom-tooltip/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/custom-tooltip/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/custom-tooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/custom-tooltip" %}
 
 ## Grid lines
 
@@ -333,13 +333,13 @@ The following example demonstrates how to set the [gridLines](https://ej2.syncfu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/cell/autowrap-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/cell/autowrap-cs2" %}
 
 >By default, the grid renders with **Default** mode.

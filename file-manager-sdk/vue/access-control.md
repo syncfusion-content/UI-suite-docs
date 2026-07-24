@@ -97,11 +97,11 @@ The following example demonstrates the File Manager rendered with access control
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/access-control-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/access-control-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/access-control-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/access-control-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/access-control-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/access-control-cs1" %}

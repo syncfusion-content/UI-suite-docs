@@ -27,10 +27,10 @@ The following example demonstrates how to export current page to a Excel documen
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-current/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-current/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-current.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-current/export-current.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-current/export-current.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ The following example demonstrates how to export the selected records to a Excel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-selected-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-selected-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selected-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-selected-data/selected-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-selected-data/selected-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,10 +73,10 @@ The following example demonstrates how to export grouped records to an Excel doc
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excel-group/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excel-group/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selected-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excel-group/excel-group.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excel-group/excel-group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The following example demonstrates how to export hidden columns to a Excel file.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-hidden/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-hidden/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-hidden.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-hidden/export-hidden.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-hidden/export-hidden.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/show-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/show-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ In the following example, the **ShipName** is initially a hidden column in the S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-show-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-show-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/excelexport-show-hide/excel-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/excelexport-show-hide/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following example demonstrates how to export data with filter options to an 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-enable-filtering/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-enable-filtering/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-filtering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-enable-filtering/export-filtering.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-enable-filtering/export-filtering.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following example demonstrates how to define a file name using `ExcelExportP
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-filename/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-filename/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-filename.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-filename/export-filename.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-filename/export-filename.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,10 +203,10 @@ The following example demonstrates how to export master detail grid to the same 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/masterdetailgrid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/masterdetailgrid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="masterdetailgrid.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/masterdetailgrid/masterdetailgrid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/masterdetailgrid/masterdetailgrid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -228,10 +228,10 @@ The following example demonstrates how to customize the grid columns when export
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-customizing-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-customizing-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="export-customize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-customizing-columns/export-customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-customizing-columns/export-customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -253,10 +253,10 @@ In the following example, apply font styling to the caption, header, and record 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/theme/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/theme/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="theme.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/theme/theme.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -274,10 +274,10 @@ In the following demo, using the `Rotation` property of the style argument in th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/header-rotate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/header-rotate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="header-rotate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/header-rotate/header-rotate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/header-rotate/header-rotate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -293,10 +293,10 @@ The following example demonstrate how to customize the background color of the F
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/cell-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/cell-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/cell-format/cell-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/cell-format/cell-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -312,10 +312,10 @@ The following example demonstrates how to add a header and footer to the exporte
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/header-footer/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/header-footer/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -329,9 +329,9 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-grid-as-blob/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-grid-as-blob/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="excel-option.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/excel-export/export-grid-as-blob/excel-option.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/export-grid-as-blob/excel-option.cs %}
 {% endhighlight %}
 {% endtabs %}

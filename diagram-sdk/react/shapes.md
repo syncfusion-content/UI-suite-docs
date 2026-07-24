@@ -41,7 +41,7 @@ To create a text node, set the shape property to [`text`](https://ej2.syncfusion
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Text-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Text-cs1" %}
 
 ## Image Nodes
 
@@ -58,7 +58,7 @@ To create an image node, set the shape property to [`image`](https://helpej2.syn
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs1" %}
 
 ### Base64 Encoded Images
 
@@ -73,7 +73,7 @@ For scenarios where you need to embed images directly without external dependenc
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs2" %}
 
 N> When deploying applications with image nodes, ensure your HTML files are served from a web server. Local file access restrictions in Chrome and Firefox may prevent image export functionality due to security policies. For more information, refer to browser-specific documentation on local image handling.
 
@@ -96,7 +96,7 @@ The following code illustrates how to use scale and align properties to stretch 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image2-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image2-cs1" %}
 
 The following table illustrates all the possible scale options for the image node.
 
@@ -130,7 +130,7 @@ To render an HTML node with a content template, we need to define the desired te
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1" %}
 
 #### Functional Content Template.
 
@@ -147,7 +147,7 @@ The following code illustrates how to render an HTML node using the function and
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1" %}
 
 ### HTML Node With Node Template
 
@@ -162,7 +162,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1" %}
 
 #### Functional NodeTemplate
 
@@ -179,7 +179,7 @@ Refer the code example below.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1" %}
 
 ## Native Nodes
 
@@ -196,7 +196,7 @@ To create a [`native`](https://helpej2.syncfusion.com/react/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Native-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Native-cs1" %}
 
 N> Similar to HTML nodes, native nodes cannot be exported to image formats due to canvas rendering limitations. Fill colors of native nodes can be overridden by inline SVG styles or fill attributes specified in the SVG template.
 
@@ -232,7 +232,7 @@ The following code example illustrates how to create a basic shape.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Basic-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Basic-cs1" %}
 
 N> By default, the `shape` property of the node is set as **basic**.
 
@@ -260,7 +260,7 @@ To create a [`Path`](https://helpej2.syncfusion.com/react/documentation/api/diag
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Path-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Path-cs1" %}
 
 ## Flow Shapes
 
@@ -277,7 +277,7 @@ To create [`flow`](https://helpej2.syncfusion.com/react/documentation/api/diagra
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Flow-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Flow-cs1" %}
 
 The list of flow shapes are as follows.
 

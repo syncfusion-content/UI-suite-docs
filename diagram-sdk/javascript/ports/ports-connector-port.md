@@ -26,7 +26,7 @@ The following code example shows how to create connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ The following code example shows how to create connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort1" %}
 
 {% endif %}
 
@@ -61,7 +61,7 @@ The following code example shows how to set alignment to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -74,7 +74,7 @@ The following code example shows how to set alignment to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort3" %}
 
 {% endif %}
 
@@ -97,7 +97,7 @@ The following code example shows how to set displacement to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -110,7 +110,7 @@ The following code example shows how to set displacement to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conPort2" %}
 
 {% endif %}
 
@@ -135,7 +135,7 @@ The following code example explains how to connect connector to the connector po
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-connect-conPort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-connect-conPort" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -148,7 +148,7 @@ The following code example explains how to connect connector to the connector po
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-connect-conPort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-connect-conPort" %}
 
 {% endif %}
 

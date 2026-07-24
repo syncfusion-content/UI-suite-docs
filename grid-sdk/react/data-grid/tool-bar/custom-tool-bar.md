@@ -16,20 +16,20 @@ The following example demonstrates rendering the custom toolbar `toolbarTemplate
  
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs1" %}
 
 ## Render image with text in custom toolbar
 
@@ -39,20 +39,20 @@ The following example demonstrates rendering an image in the Grid toolbar using 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs2" %}
 
 > The styles and layout of the image and text in the custom toolbar can be further customized to suit specific design requirements.
 
@@ -164,14 +164,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs3" %}
 
 ## Render custom components using the toolbar template
 
@@ -183,17 +183,17 @@ The following example demonstrates rendering the `Button` component in the toolb
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/toolbar-template-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/toolbar-template-cs4" %}

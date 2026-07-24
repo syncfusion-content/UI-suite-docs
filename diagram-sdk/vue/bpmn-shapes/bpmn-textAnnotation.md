@@ -37,7 +37,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs1" %}
 
 ### Text annotation in palette.
 
@@ -52,7 +52,7 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs2" %}
 
 
 ### Connect the TextAnnotation to BPMN node
@@ -88,4 +88,4 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Text-cs3" %}

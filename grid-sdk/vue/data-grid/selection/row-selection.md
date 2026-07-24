@@ -24,14 +24,14 @@ Here's an example of how to enable single row selection using properties:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-single/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-single/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-single/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-single/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-single" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-single" %}
 
 ## Multiple row selection 
 
@@ -43,14 +43,14 @@ Here's an example of how to enable multiple rows selection using properties:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple" %}
 
 ## Select row at initial rendering 
 
@@ -60,14 +60,14 @@ In the following example, it demonstrates how to select a row at initial renderi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-initial/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-initial/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-initial/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-initial/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-initial" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-initial" %}
 
 ## Select rows in any page based on index value 
 
@@ -81,14 +81,14 @@ The following example demonstrates how to select rows in any page based on index
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-any-page/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-any-page/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-any-page/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-any-page/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-any-page" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-any-page" %}
 
 ## Multiple row selection by single click on row 
 
@@ -100,14 +100,14 @@ The following example demonstrates how to enable multiple row selection with a s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple-single/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-single/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple-single/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-single/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-single" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-single" %}
 
 ## Select rows externally 
 
@@ -123,14 +123,14 @@ The following example demonstrates how to select a single row within the Grid by
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-single-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-single-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-single-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-single-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-single-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-single-method" %}
 
 ### Multiple rows selection
 
@@ -142,14 +142,14 @@ The following example, demonstrates how to select multiple rows in the Grid by c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-multiple-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-multiple-method" %}
 
 ### Range of rows selection 
 
@@ -161,14 +161,14 @@ The following example, demonstrates how to select a range of rows within the Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-range/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-range/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-range/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-range/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-range" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-range" %}
 
 ## Select grid rows based on certain condition
 
@@ -178,14 +178,14 @@ In the below demo, we have selected the grid rows only when **EmployeeID** colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-condition/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-condition/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-condition/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-condition/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-condition" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-condition" %}
 
 ## How to get selected row indexes 
 
@@ -314,7 +314,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-indexes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-indexes" %}
 
 ## How to get selected records on various pages 
 
@@ -328,14 +328,14 @@ The following example demonstrates how to retrieve selected records from various
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-various-pages/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-various-pages/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-various-pages/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-various-pages/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-various-pages" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-various-pages" %}
 
 > To persist the grid selection, it is necessary to define any one of the columns as a primary key using the [columns](https://ej2.syncfusion.com/vue/documentation/api/grid/#columns) property.
 
@@ -492,7 +492,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-records" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-records" %}
 
 ## Clear row selection programmatically 
 
@@ -504,14 +504,14 @@ The following example demonstrates how to clear row selection by calling the [cl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-clear/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-clear/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-row-clear/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-row-clear/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-clear" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-clear" %}
 
 ## Row selection events 
 
@@ -685,7 +685,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-row-events" %}
 
 ## Pass selected records to server using AJAX
 

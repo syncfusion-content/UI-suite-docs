@@ -29,10 +29,10 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/panstatus/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Panstatus.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/panstatus.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/panstatus/panstatus.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,7 +40,7 @@ Diagram provides the support to notify the pan status of the zoom pan tool. When
 
 {% tabs %}
 {% highlight c# tabtitle="Panstatus.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/panstatus/panstatus.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/panstatus/panstatus.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

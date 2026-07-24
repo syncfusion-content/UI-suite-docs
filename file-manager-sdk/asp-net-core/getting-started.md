@@ -161,7 +161,7 @@ Create a `Controllers` folder in the project and add a `HomeController.cs` file 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/getting-started/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/getting-started/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
 using Microsoft.AspNetCore.Mvc;

@@ -14,14 +14,14 @@ Enable the Excel like filter by setting [filterSettings.type](https://ej2.syncfu
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs1" %}
 
 ## Change default filter operator
 
@@ -29,11 +29,11 @@ Change the default Excel filter operator during actions. For example, switch str
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/filtering-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs2" %}

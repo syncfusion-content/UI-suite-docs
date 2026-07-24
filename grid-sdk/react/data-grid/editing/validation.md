@@ -20,20 +20,20 @@ Column validation applies validation rules to individual columns during edit ope
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs29/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs29/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs29/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs29/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs29/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs29/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs29/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs29/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs29" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs29" %}
 
 ## Custom validation
 
@@ -43,20 +43,20 @@ The following example demonstrates custom validation for the "Customer ID" colum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs30/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs30/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs30/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs30/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs30/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs30/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs30/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs30/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs30" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs30" %}
 
 ### Custom validation based on dropdown change
 
@@ -64,20 +64,20 @@ Dependent validation rules adjust based on selections in other columns, enabling
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs31/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs31/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs31/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs31/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs31/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs31/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs31/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs31/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs31" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs31" %}
 
 ### Custom validation for numeric columns
 
@@ -85,20 +85,20 @@ Numeric column validation applies rules for numeric data such as positive values
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs1" %}
 
 ## Dynamically add or remove validation rules from the form
 
@@ -108,20 +108,20 @@ The following example demonstrates dynamic addition or removal of validation rul
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs2" %}
 
 > The [removeRules](https://ej2.syncfusion.com/react/documentation/api/form-validator#removerules) method removes existing validation rules from input elements when needed. 
 
@@ -133,20 +133,20 @@ The following example demonstrates moving validation messages to the top of the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/edit-validation-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/edit-validation-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/edit-validation-cs3" %}
 
 ## CRUD error handling with custom error messages
 
@@ -408,19 +408,19 @@ Three configuration steps enable this feature:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs37/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs37/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs37/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs37/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs37/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs37/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/editing-cs37/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/editing-cs37/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs37" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs37" %}
 
 > Server-side validation implementation details are available in the [knowledge base article](https://support.syncfusion.com/kb/article/11608/how-to-do-server-side-validation-for-grid-in-asp-net-mvc-application). To display validation tooltips instead of alerts, call `grid.editModule.formObj.validate()` in the success callback of Ajax/Fetch operations.

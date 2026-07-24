@@ -40,7 +40,7 @@ The following example demonstrates how to configure offset, width, and height fo
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs3" %}
 
 ### Update annotation offset at runtime
 
@@ -55,7 +55,7 @@ Annotation offset values can be modified dynamically during application executio
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs4" %}
 
 N> Call `dataBind()` after property changes to reflect updates instantly.
 
@@ -92,7 +92,7 @@ The following example shows how to configure annotation alignment properties:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1" %}
 
 ### Alignment combinations
 
@@ -123,4 +123,4 @@ Annotation alignment properties can be modified dynamically during application e
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs2" %}

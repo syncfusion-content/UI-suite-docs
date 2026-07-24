@@ -28,7 +28,7 @@ The [`visible`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotat
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Appear-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Appear-cs1" %}
 
 ## Horizontal and vertical alignment
 
@@ -57,7 +57,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs1" %}
 
 ## Annotation Margin
 
@@ -72,7 +72,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Margin-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Margin-cs1" %}
 
 ## Hyperlink
 
@@ -92,7 +92,7 @@ The [`textDecoration`](https://ej2.syncfusion.com/vue/documentation/api/diagram/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Link-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Link-cs1" %}
 
 ## Rotate Annotation
 
@@ -107,7 +107,7 @@ Annotation can be rotated by setting the [`rotateAngle`](https://ej2.syncfusion.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/RotateAnnotation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/RotateAnnotation-cs1" %}
 
 ## Template support for annotation
 
@@ -128,7 +128,7 @@ The following code illustrates how to define a template in annotation.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/labeltemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/labeltemplate-cs1" %}
 
 N> For the proper alignment of template, we need to mention width and height for the annotation while using template.
 
@@ -147,7 +147,7 @@ The following code illustrates how to define a annotationTemplate in annotation 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Opacity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Opacity-cs1" %}
 
 ### Functional template
 
@@ -164,7 +164,7 @@ The following code illustrates how to define a functional template.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/AnnotationTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/AnnotationTemplate-cs1" %}
 
 ## Text align
 
@@ -179,7 +179,7 @@ The [`textAlign`](https://ej2.syncfusion.com/vue/documentation/api/diagram/texts
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/TextAlign-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/TextAlign-cs1" %}
 
 The following table shows the different text alignment.
 
@@ -203,7 +203,7 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Wrap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Wrap-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -236,4 +236,4 @@ Types of text overflow are shown in below table.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Overflow-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Overflow-cs1" %}

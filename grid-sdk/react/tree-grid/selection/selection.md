@@ -25,14 +25,14 @@ For multi-selection, hold Ctrl key and click the desired rows or cells. To selec
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs8" %}
 
 ## Selection mode
 
@@ -44,14 +44,14 @@ TreeGrid supports three selection modes configured via [selectionSettings.mode](
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/selection-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/selection-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs9" %}
 
 ## Touch interaction
 

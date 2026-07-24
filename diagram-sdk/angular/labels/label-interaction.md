@@ -22,7 +22,7 @@ The Diagram component allows labels to be interactive through selecting, draggin
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/interaction-cs1" %}
 
 ## Constraints
 
@@ -45,7 +45,7 @@ Use the [`startTextEdit`](https://ej2.syncfusion.com/angular/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/programaticallyEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/programaticallyEdit-cs1" %}
 
 ### Interactive Editing
 Labels can be edited interactively through user actions:
@@ -68,7 +68,7 @@ The [`rotationReference`](https://ej2.syncfusion.com/angular/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/Rotation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/Rotation-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -89,7 +89,7 @@ The Diagram component supports creating read-only labels that cannot be edited b
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs1" %}
 
 ## Drag Limits
 
@@ -111,7 +111,7 @@ The following code demonstrates how to configure dragLimit for connector labels:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/dragLimit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/dragLimit-cs1" %}
 
 ## Multiple Labels
 
@@ -127,4 +127,4 @@ Nodes and connectors support multiple labels. Each label can have independent pr
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/read-cs2" %}

@@ -51,10 +51,10 @@ The diagram component notifies the mouse button clicked. For example, whenever t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/click/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/click/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Click.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/click/click.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/click/click.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,7 +62,7 @@ The diagram component notifies the mouse button clicked. For example, whenever t
 
 {% tabs %}
 {% highlight c# tabtitle="Click.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/click/click.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/click/click.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -86,10 +86,10 @@ The appearance of the user handle can be customized by using the [`size`](https:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,7 +97,7 @@ The appearance of the user handle can be customized by using the [`size`](https:
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

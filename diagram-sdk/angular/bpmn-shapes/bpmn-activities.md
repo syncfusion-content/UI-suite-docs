@@ -31,7 +31,7 @@ To create a BPMN activity, set the shape property to **Activity**. Specify the a
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/activity-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/activity-cs1" %}
 
 ## Tasks
 
@@ -47,7 +47,7 @@ The [`task`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnTa
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/task-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/task-cs1" %}
 
 The following table shows the available BPMN task types:
 
@@ -80,7 +80,7 @@ A [`collapsed subprocess`](https://ej2.syncfusion.com/angular/documentation/api/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/subprocess-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/subprocess-cs1" %}
 
 ## Loop Characteristics
 
@@ -96,7 +96,7 @@ A [`collapsed subprocess`](https://ej2.syncfusion.com/angular/documentation/api/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/loop-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/loop-cs1" %}
 
 The following table shows the available loop types for both tasks and subprocesses:
 
@@ -120,7 +120,7 @@ The following table shows the available loop types for both tasks and subprocess
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/compensation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/compensation-cs1" %}
 
 ## Call Activity
 
@@ -136,7 +136,7 @@ A [`call`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnTask
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/call-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/call-cs1" %}
 
 N> The call property applies only to task-type activities.
 
@@ -154,7 +154,7 @@ An [`adhoc`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnSu
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/adhoc-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/adhoc-cs1" %}
 
 ## Boundary Types
 
@@ -170,7 +170,7 @@ The [`boundary`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bp
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/boundary-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/boundary-cs1" %}
 
 The following table shows the available boundary types:
 
@@ -200,7 +200,7 @@ Configure an event subprocess using the [`event`](https://ej2.syncfusion.com/ang
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/eventSubprocess-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/eventSubprocess-cs1" %}
 
 #### Transaction Subprocess
 
@@ -224,4 +224,4 @@ The [`event`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnE
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/transitionSubprocess-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/transitionSubprocess-cs1" %}

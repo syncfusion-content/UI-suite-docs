@@ -31,10 +31,10 @@ Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/text/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/text/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/text/text.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/text/text.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,7 +42,7 @@ Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight c# tabtitle="Text.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/text/text.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/text/text.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -57,10 +57,10 @@ Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/image/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,7 +68,7 @@ Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetc
 
 {% tabs %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/image/image.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/image/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -81,10 +81,10 @@ Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/imagebase64/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/imagebase64/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Imagebase64.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/imagebase64/imagebase64.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/imagebase64/imagebase64.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,7 +92,7 @@ Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetc
 
 {% tabs %}
 {% highlight c# tabtitle="Imagebase64.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/imagebase64/imagebase64.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/imagebase64/imagebase64.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -115,10 +115,10 @@ The scale property of the node allows to stretch the image as you desired (eithe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/scale/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/scale/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Scale.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/scale/scale.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/scale/scale.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,7 +126,7 @@ The scale property of the node allows to stretch the image as you desired (eithe
 
 {% tabs %}
 {% highlight c# tabtitle="Scale.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/scale/scale.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/scale/scale.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -153,10 +153,10 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -164,7 +164,7 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -179,10 +179,10 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-FnContent/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-FnContent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-FnContent/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-FnContent/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -190,7 +190,7 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-FnContent/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-FnContent/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -203,10 +203,10 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-Template/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-Template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-Template/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-Template/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -214,7 +214,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
 {% tabs %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-Template/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-Template/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -229,10 +229,10 @@ Refer the code example below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-TemplateFnNode/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-TemplateFnNode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-TemplateFnNode/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-TemplateFnNode/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -240,7 +240,7 @@ Refer the code example below.
 
 {% tabs %}
 {% highlight c# tabtitle="HTML.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/HTML-TemplateFnNode/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/HTML-TemplateFnNode/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -259,10 +259,10 @@ To render an SVG node using a content template, define the desired template stri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native/native.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native/native.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -270,7 +270,7 @@ To render an SVG node using a content template, define the desired template stri
 
 {% tabs %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native/native.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native/native.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -285,10 +285,10 @@ The following example demonstrates how to render an SVG node using a function an
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-FnContent/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-FnContent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-FnContent/native.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-FnContent/native.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -296,7 +296,7 @@ The following example demonstrates how to render an SVG node using a function an
 
 {% tabs %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-FnContent/native.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-FnContent/native.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -309,10 +309,10 @@ The [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-Template/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-Template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-Template/SVG.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-Template/SVG.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -320,7 +320,7 @@ The [`nodeTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/native-Template/SVG.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/native-Template/SVG.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -335,10 +335,10 @@ The following example demonstrates this approach.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/Native-TemplateFnNode/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/Native-TemplateFnNode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/Native-TemplateFnNode/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/Native-TemplateFnNode/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -346,7 +346,7 @@ The following example demonstrates this approach.
 
 {% tabs %}
 {% highlight c# tabtitle="Native.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/Native-TemplateFnNode/HTML.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/Native-TemplateFnNode/HTML.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -376,10 +376,10 @@ The following tables illustrates all the possible scale options for the node.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/basic/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/basic/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Basic.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/basic/basic.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/basic/basic.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -387,7 +387,7 @@ The following tables illustrates all the possible scale options for the node.
 
 {% tabs %}
 {% highlight c# tabtitle="Basic.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/basic/basic.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/basic/basic.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -412,10 +412,10 @@ The [`Path`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/path/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/path/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Path.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/path/path.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/path/path.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -423,7 +423,7 @@ The [`Path`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight c# tabtitle="Path.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/path/path.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/path/path.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -438,10 +438,10 @@ The [`flow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/flow/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/flow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Flow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/flow/flow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/flow/flow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -449,7 +449,7 @@ The [`flow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagra
 
 {% tabs %}
 {% highlight c# tabtitle="Flow.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/shapes/flow/flow.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/shapes/flow/flow.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

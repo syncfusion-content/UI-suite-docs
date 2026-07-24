@@ -20,10 +20,10 @@ N> The DataGrid Property has more priority than the Data Annotation. For Instanc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/data-annotation/annotation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-annotation/annotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/data-annotation/annotation/annotation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-annotation/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ N> The DataGrid Property has more priority than the Data Annotation. For Instanc
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/data-annotation/annotation/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-annotation/annotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/data-annotation/annotation/annotation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-annotation/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

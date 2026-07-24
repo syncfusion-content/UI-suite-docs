@@ -18,17 +18,17 @@ Here is an example that demonstrates the usage of the filter menu in the TreeGri
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs6" %}
 
 > * [allowFiltering](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#allowfiltering) must be set as true to enable filter menu.
 > * By setting [columns.allowFiltering](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#allowfiltering) as false will prevent filter menu rendering for a particular column.
@@ -49,17 +49,17 @@ Here is a sample code demonstrating how to render a dropdownlist component for t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs1" %}
 
 ## Show 24-hour time format in filter dialog
 
@@ -71,17 +71,17 @@ Here is an example that demonstrates how to show 24-hour time format in filter d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs2" %}
 
 ## Customizing filter menu operators list
 
@@ -98,17 +98,17 @@ Here is an example of how to customize the filter operators list in the TreeGrid
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-cs7" %}
 
 ## Filter by multiple keywords using filter menu
 
@@ -118,17 +118,17 @@ Here is an example that demonstrates how to perform filtering by multiple keywor
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs3" %}
 
 ## Customize the default input component of filter menu dialog
 
@@ -148,17 +148,17 @@ In the example provided below, the **Task ID** and **Duration** columns are nume
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs4" %}
 
 ### Prevent autofill option in autocomplete of menu filter
 
@@ -170,17 +170,17 @@ Here's an example that demonstrates how to prevent autofill options in the autoc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs5" %}
 
 ## Filter menu events
 
@@ -270,14 +270,14 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/filtering-menu-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/filtering-menu-cs6" %}
 
 ## Troubleshoot filter menu operator issue
 

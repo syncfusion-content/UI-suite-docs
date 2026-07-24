@@ -16,10 +16,10 @@ The `minHeight` property allows you to change the minimum height for the pivot t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/pivot-table/asp-net-core/pivot-table/asp-net-core/pivot-table/summary-customization/min-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/pivot-table/summary-customization/min-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="MinHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/pivot-table/asp-net-core/pivot-table/asp-net-core/pivot-table/summary-customization/min-height/MinHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/pivot-table/summary-customization/min-height/MinHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ The `minHeight` property allows you to change the minimum height for the pivot t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/pivot-table/asp-net-core/pivot-table/asp-net-core/pivot-table/summary-customization/min-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/pivot-table/summary-customization/min-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="MinHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/pivot-table/asp-net-core/pivot-table/asp-net-core/pivot-table/summary-customization/min-height/MinHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/pivot-table/summary-customization/min-height/MinHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

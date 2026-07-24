@@ -19,10 +19,10 @@ To define the primary key, set [`isPrimaryKey`](https://help.syncfusion.com/cr/c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing/edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing/edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ To define the primary key, set [`isPrimaryKey`](https://help.syncfusion.com/cr/c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing/edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing/edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -50,10 +50,10 @@ The treegrid toolbar has the built-in items to execute Editing actions. You can 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing-tools/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing-tools/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditTools.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing-tools/editTools.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing-tools/editTools.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -61,10 +61,10 @@ The treegrid toolbar has the built-in items to execute Editing actions. You can 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing-tools/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing-tools/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditTools.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/editing-tools/editTools.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/editing-tools/editTools.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -81,10 +81,10 @@ The following examples shows how to set new row position as **Child** in treegri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/new-row/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/new-row/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="NewRow.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/new-row/newRow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/new-row/newRow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The following examples shows how to set new row position as **Child** in treegri
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/new-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/new-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="NewRow.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/new-row/newRow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/new-row/newRow.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -112,10 +112,10 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/delete-confirm/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/delete-confirm/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DeleteConfirm.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/delete-confirm/deleteConfirm.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/delete-confirm/deleteConfirm.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -123,10 +123,10 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/delete-confirm/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/delete-confirm/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DeleteConfirm.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/delete-confirm/deleteConfirm.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/delete-confirm/deleteConfirm.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -145,10 +145,10 @@ The treegrid provides an option to set the default value for the columns when ad
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/default-value/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/default-value/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Defaultvalue.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/default-value/defaultvalue.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/default-value/defaultvalue.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -156,10 +156,10 @@ The treegrid provides an option to set the default value for the columns when ad
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/default-value/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/default-value/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Defaultvalue.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/default-value/defaultvalue.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/default-value/defaultvalue.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -176,10 +176,10 @@ In the following demo, editing is disabled for the **Start Date** column.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/disable-editing/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/disable-editing/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Disable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/disable-editing/disable.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/disable-editing/disable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -187,10 +187,10 @@ In the following demo, editing is disabled for the **Start Date** column.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/disable-editing/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/disable-editing/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Disable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/disable-editing/disable.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/disable-editing/disable.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

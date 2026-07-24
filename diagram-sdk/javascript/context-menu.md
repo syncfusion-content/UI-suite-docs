@@ -33,7 +33,7 @@ Diagram provides some default context menu items to ease the execution of some f
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -46,7 +46,7 @@ Diagram provides some default context menu items to ease the execution of some f
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
 {% endif %}
 
 ## Custom context menu
@@ -75,7 +75,7 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -88,7 +88,7 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
 {% endif %}
 
 ### Context menu open
@@ -106,7 +106,7 @@ In certain situations, you may want to hide specific menu items based on the sel
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -119,7 +119,7 @@ In certain situations, you may want to hide specific menu items based on the sel
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
 {% endif %}
 
 ### Context menu with Url
@@ -236,7 +236,7 @@ In the following example, menu items are rendered with shortcut key codes for sp
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -249,7 +249,7 @@ In the following example, menu items are rendered with shortcut key codes for sp
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
 {% endif %}
 
 
@@ -274,7 +274,7 @@ The following example shows how to get these events.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -287,7 +287,7 @@ The following example shows how to get these events.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
 {% endif %}
 
 

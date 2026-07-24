@@ -20,10 +20,10 @@ You can start the edit action either by double clicking the particular row or by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/edit/edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/edit/edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ Here's an example of how to enable the toolbar with edit option in the Grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/edit-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/edit-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/edit-toolbar/edit-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/edit-toolbar/edit-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ Here's an example that demonstrates how to disable editing for the column in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/prevent-column-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/prevent-column-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/prevent-column-edit/edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/prevent-column-edit/edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -85,10 +85,10 @@ In the below demo, the **ShipCountry** column is rendered with the template.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/template-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/template-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Edit-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/template-edit/edit-temp.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/template-edit/edit-temp.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ The following example that demonstrates how to customize the delete confirmation
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/delete-dialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/delete-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Delete-dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/delete-dialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/delete-dialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,10 +126,10 @@ In the following sample, the `CheckBox` component is rendered as a template in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/update-boolean-value/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/update-boolean-value/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Update-boolean.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/update-boolean-value/boolean.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/update-boolean-value/boolean.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -143,10 +143,10 @@ In the following example, the `DropDownList` component is rendered within the ce
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/enum-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/enum-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enum.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/enum-column/enum.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/enum-column/enum.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,10 +162,10 @@ In the following sample, the input element is rendered in the edit template of t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/complex-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/complex-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Complex.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/complex-column/complex.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/complex-column/complex.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ In the following code example, the Employee Name is a foreign key column. When e
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/foreign-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/foreign-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Foreign-key.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/foreign-column/foreign.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/foreign-column/foreign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ The following example demonstrates the integration of the Syncfusion<sup style="
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/separate-toolbar-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/separate-toolbar-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Separate-toolbar-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/separate-toolbar-edit/separate-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/separate-toolbar-edit/separate-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -231,10 +231,10 @@ In the following example, it demonstrates how to edit the form using an external
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/external-form-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/external-form-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Form-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/external-form-edit/edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/external-form-edit/edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,10 +254,10 @@ In the following example, the textbox is rendered in the **Freight** column usin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/column-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/column-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/column-edit/column-edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/column-edit/column-edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 

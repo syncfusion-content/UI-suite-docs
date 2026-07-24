@@ -18,10 +18,10 @@ N> When a column width is not specified, then auto wrap of columns will be adjus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/auto-wrap/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/auto-wrap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoWrap.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/auto-wrap/autoWrap.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/auto-wrap/autoWrap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ N> When a column width is not specified, then auto wrap of columns will be adjus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/auto-wrap/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/auto-wrap/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoWrap.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/auto-wrap/autoWrap.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/auto-wrap/autoWrap.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -17,14 +17,14 @@ Watch the following video to learn how to use templates for columns (including c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs8" %}
 
 > The [queryCellInfo](https://ej2.syncfusion.com/react/documentation/api/treegrid/#querycellinfo) event is not supported for template columns. Instead, define logic within the column template function as described in the documentation (https://ej2.syncfusion.com/react/documentation/treegrid/columns/column-template#using-condition-template).
 
@@ -36,11 +36,11 @@ In the following example, a checkbox is rendered according to the value of the *
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs9" %}

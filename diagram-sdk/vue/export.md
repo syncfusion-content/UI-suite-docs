@@ -79,7 +79,7 @@ The diagram provides support to export the desired region of the diagram to vari
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs1" %}
 
 ### Margin
 
@@ -95,7 +95,7 @@ The diagram provides support to export the desired region of the diagram to vari
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs2" %}
 
 
 ### Mode
@@ -156,7 +156,7 @@ The following example shows how to export diagram with different regions.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs3" %}
 
 
 N> The [`bounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iexportoptions#bounds) property of [`exportOptions`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iexportoptions#iexportoptions) should be defined to export the diagram with CustomBounds region.
@@ -178,7 +178,7 @@ The following code example demonstrates how to export the diagram as multiple im
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs4" %}
 
 
 ### Export image
@@ -194,7 +194,7 @@ You can pass the base64 data of an image to the [`exportImage`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs5" %}
 
 
 ### Get diagram content
@@ -211,7 +211,7 @@ To get the html diagram content, the [`getDiagramContent`](https://ej2.syncfusio
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/export/export-cs6" %}
 
 
 ### Export diagram with stretch option

@@ -20,10 +20,10 @@ The `menuOpen` event is used to add the new menu item. The `menuClick` event is 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/how-to/context-menu/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/how-to/context-menu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/how-to/context-menu/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/how-to/context-menu/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ The `menuOpen` event is used to add the new menu item. The `menuClick` event is 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/how-to/context-menu/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/how-to/context-menu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/how-to/context-menu/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/how-to/context-menu/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -24,14 +24,14 @@ The following example demonstrates how to export current page to a PDF document 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs7" %}
 
 ## Export selected records
 
@@ -53,14 +53,14 @@ The following example demonstrates how to export the selected records to a PDF d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/export-filtered-data-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/export-filtered-data-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs3" %}
 
 ## Export filtered records
 
@@ -82,14 +82,14 @@ The following example demonstrates how to export the filtered records to a PDF d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/export-filtered-data-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/export-filtered-data-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs4" %}
 
 ## Export hidden columns
 
@@ -101,14 +101,14 @@ The following example demonstrates how to export hidden columns to a PDF file. I
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs8" %}
 
 ## Show or hide columns while exporting
 
@@ -128,14 +128,14 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs9" %}
 
 ## Show or hide columns while exporting with stacked header
 
@@ -155,14 +155,14 @@ In the following example, the **ShipName** is initially a hidden column in the G
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/pdf-export-show-hide/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/pdf-export-show-hide/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/pdf-export-show-hide/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/pdf-export-show-hide/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/pdf-export-show-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/pdf-export-show-hide" %}
 
 ## Change page orientation
 
@@ -180,14 +180,14 @@ The following example demonstrates how to export the grid into PDF document by s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs10" %}
 
 ## Change page size
 
@@ -229,14 +229,14 @@ The following example demonstrates how to export the grid into PDF document by s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs11" %}
 
 ## Define file name
 
@@ -248,14 +248,14 @@ The following example demonstrates how to define a file name using `pdfExportPro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs12" %}
 
 ## Enabling horizontal overflow
 
@@ -267,14 +267,14 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/horizontal-overflow/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/horizontal-overflow/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/horizontal-overflow/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/horizontal-overflow/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/horizontal-overflow" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/horizontal-overflow" %}
 
 ## Customizing columns on export
 
@@ -292,14 +292,14 @@ The following example demonstrates how to customize the grid columns when export
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/export-customizing-columns/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-customizing-columns/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/export-customizing-columns/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-customizing-columns/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-customizing-columns" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-customizing-columns" %}
 
 ## Font and color customization
 
@@ -327,14 +327,14 @@ The following example demonstrates, how to change the default font when exportin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-font/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-font/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-font/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-font/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-font" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-font" %}
 
 ### Add custom font
 
@@ -346,14 +346,14 @@ The following example demonstrates how to use the custom **Algeria** font for ex
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs13" %}
 
 > **PdfTrueTypeFont** accepts base 64 format of the Custom Font.
 
@@ -367,14 +367,14 @@ The following example demonstrate how to customize the background color of the *
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/default-cs5" %}
 
 ## Export grid as blob
 
@@ -384,11 +384,11 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/export-grid-as-blob-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-grid-as-blob-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/pdf/export-grid-as-blob-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/pdf/export-grid-as-blob-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/export-grid-as-blob-cs1" %}

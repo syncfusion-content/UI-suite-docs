@@ -17,10 +17,10 @@ To print the TreeGrid, use the [`print`](https://ej2.syncfusion.com/documentatio
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ To print the TreeGrid, use the [`print`](https://ej2.syncfusion.com/documentatio
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ To print the treegrid from an external button, invoke the [`print`](https://ej2.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print-button/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print-button/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Print-button.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print-button/print-button.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print-button/print-button.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ To print the treegrid from an external button, invoke the [`print`](https://ej2.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print-button/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print-button/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Print-button.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/print-button/print-button.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/print-button/print-button.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -84,10 +84,10 @@ By default, the treegrid prints all the pages. To print the current page alone, 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/current-page/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/current-page/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Current-page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/current-page/current-page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/current-page/current-page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,10 +95,10 @@ By default, the treegrid prints all the pages. To print the current page alone, 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/current-page/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/current-page/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Current-page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/current-page/current-page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/current-page/current-page.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -127,10 +127,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/show-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/show-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/print/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/print/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -16,10 +16,10 @@ The HTML tags can be displayed in the TreeGrid header and content by enabling th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/html-encode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/html-encode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HtmlEncode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/html-encode/htmlEncode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/html-encode/htmlEncode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ The HTML tags can be displayed in the TreeGrid header and content by enabling th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/html-encode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/html-encode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HtmlEncode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/html-encode/htmlEncode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/html-encode/htmlEncode.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

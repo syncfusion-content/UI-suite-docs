@@ -203,10 +203,10 @@ The following complete example demonstrates how to integrate Charts into a Grid 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/chart-intergartion/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/chart-intergartion/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="chart.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/chart-intergartion/chartcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/chart-intergartion/chartcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -356,10 +356,10 @@ The following complete example demonstrates how to enable the property panel by 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/chart-intergartion1/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/chart-intergartion1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="chart.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/chart-intergartion1/chartcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/chart-intergartion1/chartcore.cs %}
 {% endhighlight %}
 {% endtabs %}
 

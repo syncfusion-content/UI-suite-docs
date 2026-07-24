@@ -18,10 +18,10 @@ Here's an example how to enable dialog editing in the ASP.NET Core grid componen
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/dialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/dialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/dialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ The following example that demonstrates how to customize the edit dialog using t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/customizedialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/customizedialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/customizedialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/customizedialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In the following example, the **CustomerID** column is rendered as a hidden colu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/show-hide-edit-dialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/show-hide-edit-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/show-hide-edit-dialog/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/show-hide-edit-dialog/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ The following example demonstrate the wizard like editing in the grid with the u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/wizardediting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/wizardediting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/wizardediting/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/wizardediting/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,10 +96,10 @@ In the following sample, using the `dialog` argument of the `actionComplete` eve
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/custombutton/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/custombutton/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="custombutton.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/edit/custombutton/custombutton.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/custombutton/custombutton.cs %}
 {% endhighlight %}
 {% endtabs %}
 

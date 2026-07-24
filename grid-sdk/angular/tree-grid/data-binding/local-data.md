@@ -29,17 +29,17 @@ The following code example shows how to bind hierarchical local data to the Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/data-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/data-binding-cs2" %}
 
 > * Remote data binding is not supported for hierarchical data sources.
 
@@ -52,17 +52,17 @@ The TreeGrid can render data from self-referential (flat) data structures by spe
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/data-binding-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/data-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/data-binding-cs3" %}
 
 > Below is a list of reserved properties used internally by TreeGrid. To avoid conflicts, do not use these property names in your data models.
 
@@ -108,17 +108,17 @@ this.treegrid.refresh(); // Refresh the TreeGrid.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-datasource-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-datasource-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-datasource-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-datasource-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-datasource-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-datasource-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-datasource-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-datasource-cs1" %}
 
 ## Immutable mode
 
@@ -130,15 +130,15 @@ The following example demonstrates how to enable immutable mode:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/immutable-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/immutable-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/immutable-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/immutable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/immutable-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/immutable-cs1" %}
 
 > * This feature uses the primary key value for data comparison. Set the [isPrimaryKey](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column/#isprimarykey) column to ensure correct row identification.
 

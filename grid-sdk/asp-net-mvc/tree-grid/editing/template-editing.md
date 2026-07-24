@@ -27,10 +27,10 @@ The cell edit template is used to add a custom component for a particular column
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-template/editTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-template/editTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ The cell edit template is used to add a custom component for a particular column
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-template/editTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-template/editTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -60,19 +60,19 @@ In the following sample, treegrid enabled with dialog template editing.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DialogTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/dialogTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/dialogTemplate.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Editpartial.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/editpartial.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/editpartial.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditpartialMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/editpartialMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/editpartialMVC.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="TemplateModel.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/templateModel.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/templateModel.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -80,19 +80,19 @@ In the following sample, treegrid enabled with dialog template editing.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DialogTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/dialogTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/dialogTemplate.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="Editpartial.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/editpartial.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/editpartial.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditpartialMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/editpartialMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/editpartialMVC.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="TemplateModel.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/dialog-template/templateModel.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/dialog-template/templateModel.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

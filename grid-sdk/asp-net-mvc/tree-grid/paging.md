@@ -17,10 +17,10 @@ Paging provides an option to display TreeGrid data in page segments. To enable p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/default-paging/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/default-paging/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultPaging.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/default-paging/defaultPaging.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/default-paging/defaultPaging.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ Paging provides an option to display TreeGrid data in page segments. To enable p
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/default-paging/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/default-paging/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultPaging.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/default-paging/defaultPaging.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/default-paging/defaultPaging.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -53,10 +53,10 @@ With [`PageSizeMode`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="PageMode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-mode/pageMode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-mode/pageMode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ With [`PageSizeMode`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="PageMode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-mode/pageMode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-mode/pageMode.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -84,10 +84,10 @@ Inside this template, you can access the [`CurrentPage`](https://help.syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/pager-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/pager-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="PagerTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/pager-template/pagerTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/pager-template/pagerTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,10 +95,10 @@ Inside this template, you can access the [`CurrentPage`](https://help.syncfusion
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/pager-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/pager-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="PagerTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/pager-template/pagerTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/pager-template/pagerTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -113,10 +113,10 @@ The pager Dropdown allows you to change the number of records in the TreeGrid dy
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-sizes/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-sizes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="PageSizes.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-sizes/pageSizes.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-sizes/pageSizes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -124,10 +124,10 @@ The pager Dropdown allows you to change the number of records in the TreeGrid dy
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-sizes/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-sizes/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="PageSizes.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/page-sizes/pageSizes.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/page-sizes/pageSizes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -144,10 +144,10 @@ By default, Pager will be rendered at the bottom of the TreeGrid. You can also r
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/customize/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/customize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/customize/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/customize/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,10 +155,10 @@ By default, Pager will be rendered at the bottom of the TreeGrid. You can also r
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/customize/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/customize/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Customize.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/paging/customize/customize.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/paging/customize/customize.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

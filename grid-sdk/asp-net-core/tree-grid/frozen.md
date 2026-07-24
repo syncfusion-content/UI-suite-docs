@@ -21,10 +21,10 @@ In this demo, the [`frozenColumns`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/frozencolumn/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/frozencolumn/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freezecolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/frozencolumn/freezecolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/frozencolumn/freezecolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ In this demo, the [`frozenColumns`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/frozencolumn/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/frozencolumn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freezecolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/frozencolumn/freezecolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/frozencolumn/freezecolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -52,10 +52,10 @@ In this demo, the columns with field name **TaskName** and **StartDate** is froz
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/isfreezecol/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/isfreezecol/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Isfreeze.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/isfreezecol/isfreeze.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/isfreezecol/isfreeze.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ In this demo, the columns with field name **TaskName** and **StartDate** is froz
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/isfreezecol/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/isfreezecol/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Isfreeze.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/isfreezecol/isfreeze.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/isfreezecol/isfreeze.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -88,10 +88,10 @@ In this demo, the **Task Name** column is frozen at the left and the **Priority*
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/freeze-direction/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/freeze-direction/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-direction.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/freeze-direction/freeze-direction.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/freeze-direction/freeze-direction.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ In this demo, the **Task Name** column is frozen at the left and the **Priority*
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/freeze-direction/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/freeze-direction/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-direction.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/freeze-direction/freeze-direction.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/freeze-direction/freeze-direction.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

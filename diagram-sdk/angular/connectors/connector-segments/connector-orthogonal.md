@@ -26,7 +26,7 @@ For more fine-grained control, you can define individual segments within the [`s
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsortho-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsortho-cs1" %}
 
 N> When defining custom segments for an orthogonal connector, ensure that each segment's `type` is also set to `Orthogonal`.
 
@@ -44,7 +44,7 @@ The interactive thumbs on an orthogonal connector allow you to adjust the length
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthosegments-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthosegments-cs1" %}
 
 ![An animation showing how to edit orthogonal connector segments in the Angular Diagram Component.](./../../images/orthoSegEdit.gif)
 
@@ -62,7 +62,7 @@ Orthogonal segments automatically reroute themselves to avoid overlapping with t
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectoroverlapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectoroverlapping-cs1" %}
 
 ## How to Customize Orthogonal Segment Thumb Shape
 
@@ -95,7 +95,7 @@ You can also customize the style of the thumb shape by overriding the `e-orthogo
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsThumbshape-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsThumbshape-cs1" %}
 
 ![Diagram showing a connector with a customized segment thumb shape.](./../../images/thumbshape.png)
 
@@ -127,4 +127,4 @@ To customize the thumb size for a specific connector, you must first disable its
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsorthothumbsize-cs1" %}

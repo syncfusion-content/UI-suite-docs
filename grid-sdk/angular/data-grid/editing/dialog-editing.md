@@ -18,15 +18,15 @@ The following example demonstrates to enable dialog editing in the Angular Grid 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs7" %}
 
 ## Customize the edit dialog
 
@@ -52,15 +52,15 @@ The following example demonstrates to customize the edit dialog using the `actio
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs8" %}
 
 > The Grid's add or edit dialog element applies a max-height property that is calculated based on the available window height. For typical screens (1920 x 1080), the dialog's maximum height can be set up to 658px.
 
@@ -79,15 +79,15 @@ In the following example, the "Customer ID" column is rendered as a hidden colum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs9" %}
 
 ## Wizard-like dialog editing
 
@@ -102,18 +102,18 @@ The example below demonstrates the wizard-like dialog editing in the grid using 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/wizardtemplate-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/wizardtemplate-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="wizardtemplate.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/wizardtemplate-cs1/src/wizardtemplate.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/wizardtemplate-cs1/src/wizardtemplate.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/wizardtemplate-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/wizardtemplate-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/wizardtemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/wizardtemplate-cs1" %}
 
 ## Customize add/edit dialog footer
 
@@ -123,12 +123,12 @@ In the following sample, using the `dialog` argument of the `actionComplete` eve
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs10" %}

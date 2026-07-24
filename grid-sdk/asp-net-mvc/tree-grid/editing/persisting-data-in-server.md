@@ -31,10 +31,10 @@ The following code example describes the above behavior.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UrladaptorMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/urladaptorMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/urladaptorMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The following code example describes the above behavior.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UrladaptorMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/urladaptorMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/urladaptorMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -64,10 +64,10 @@ The following code example describes the above behavior.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="InsertMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/insertMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/insertMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -75,10 +75,10 @@ The following code example describes the above behavior.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="InsertMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/insertMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/insertMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -99,10 +99,10 @@ The following code example describes the previous behavior.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UpdateMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/updateMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/updateMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ The following code example describes the previous behavior.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UpdateMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/updateMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/updateMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -134,10 +134,10 @@ The following code example describes the previous behavior.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DeleteMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/deleteMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/deleteMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ The following code example describes the previous behavior.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DeleteMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/urladaptor/deleteMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/urladaptor/deleteMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -175,10 +175,10 @@ You can use the following code example to use **RemoteSaveAdaptor** in TreeGrid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/remotesaveadaptor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/remotesaveadaptor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CrudMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/remotesaveadaptor/crudMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/remotesaveadaptor/crudMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -186,10 +186,10 @@ You can use the following code example to use **RemoteSaveAdaptor** in TreeGrid.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/remotesaveadaptor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/remotesaveadaptor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CrudMVC.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/remotesaveadaptor/crudMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/remotesaveadaptor/crudMVC.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

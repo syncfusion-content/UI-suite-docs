@@ -36,20 +36,20 @@ Filter expressions are operators that define how the grid compares entered value
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs2" %}
 
 > If [filterSettings.type](https://ej2.syncfusion.com/react/documentation/api/grid/filtersettings#type) is not explicitly specified, the grid defaults to `FilterBar` mode.
 
@@ -69,20 +69,20 @@ The following example demonstrates both modes with a toggle.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs1" %}
 
 ## Display filter text in pager
 
@@ -94,20 +94,20 @@ The following example shows filter status display in the pager:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs2" %}
 
 > For grid paging setup and configuration, refer to the [Page Feature Setup](../paging#set-up-paging).
 
@@ -119,20 +119,20 @@ To display the operator dropdown in filter bar cells, set the [showFilterBarOper
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs3" %}
 
 ## Prevent filtering for particular column
 
@@ -142,20 +142,20 @@ The following example disables filtering for the "Customer ID" column.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs4" %}
 
 ## Hide filter bar for template column
 
@@ -163,20 +163,20 @@ Template columns can be used to render images, action buttons, or other custom c
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-bar-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-bar-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-bar-cs5" %}
 
 ## Filter bar template with custom component
 
@@ -186,20 +186,20 @@ Use custom components when the default text input doesn't provide an optimal exp
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs3" %}
 
 ## See also
 

@@ -227,10 +227,10 @@ The following example demonstrates how to prevent the default behavior of the **
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/prevent-key/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/prevent-key/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/prevent-key/prevent-key.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/prevent-key/prevent-key.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -238,10 +238,10 @@ The following example demonstrates how to prevent the default behavior of the **
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/prevent-key/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/prevent-key/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/prevent-key/prevent-key.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/prevent-key/prevent-key.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -282,10 +282,10 @@ You can add more custom shortcuts and actions as needed to enhance the functiona
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/shortcut-key/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/shortcut-key/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/shortcut-key/shortcut-key.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/shortcut-key/shortcut-key.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -293,10 +293,10 @@ You can add more custom shortcuts and actions as needed to enhance the functiona
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/shortcut-key/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/shortcut-key/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/shortcut-key/shortcut-key.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/shortcut-key/shortcut-key.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -311,10 +311,10 @@ The accessibility compliance of the Grid component is shown in the following sam
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/ensuring-accessibility.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/ensuring-accessibility.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -322,10 +322,10 @@ The accessibility compliance of the Grid component is shown in the following sam
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Accessibility.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/ensuring-accessibility.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/accessibility/ensuring-accessibility/ensuring-accessibility.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

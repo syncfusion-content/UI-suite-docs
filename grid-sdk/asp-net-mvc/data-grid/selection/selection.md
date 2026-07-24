@@ -25,10 +25,10 @@ To select range of rows or cells or columns, press and hold the SHIFT key and cl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection/selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ The following example, demonstrates how to dynamically enable and change the `Se
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selection-mode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-mode/selection-mode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-mode/selection-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ The following example demonstrates how to enable the toggle selection for both c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/toggleselection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/toggleselection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="toggleselection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/toggleselection/toggleselection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/toggleselection/toggleselection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ In the following example, it demonstrates how to clear all selection by calling 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-clear/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-clear/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-clear/selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-clear/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ In the following example, it demonstrates how to enable the persist selection fe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-persist/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-persist/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/selection/selection-persist/selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/selection/selection-persist/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 

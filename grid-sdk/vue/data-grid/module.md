@@ -42,14 +42,14 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API ~/src/App.vue" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/getting-started/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API ~/src/App.vue" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/getting-started/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs1/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="data.js" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/getting-started/default-cs1/data.js %}
+{% include code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs1/data.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs1" %}

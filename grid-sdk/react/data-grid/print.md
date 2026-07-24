@@ -16,20 +16,20 @@ Enable printing in the grid by configuring the [toolbar](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs1" %}
 
 ## Page setup
 
@@ -46,20 +46,20 @@ The Grid's content can be printed using an external button by calling the `print
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs2" %}
 
 ## Print visible page
 
@@ -129,14 +129,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs3" %}
 
 ## Print only selected records
 
@@ -144,20 +144,20 @@ By default, the React Data Grid prints all data bound to its [dataSource](https:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs6" %}
 
 ## Print the hierarchy grid
 
@@ -257,14 +257,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs4" %}
 
 ## Print the master detail grid
 
@@ -274,20 +274,20 @@ The `beforePrint` event fires before printing. Handling this event and adding th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs7" %}
 
 ## Print large number of columns
 
@@ -309,20 +309,20 @@ Here's a code example that demonstrates how to show a hidden column (Customer ID
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs5" %}
 
 ## Print the expanded state from other pages
 
@@ -330,20 +330,20 @@ By default, printing includes only the expanded child grids visible on the curre
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-expanded-state/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-expanded-state/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-expanded-state/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-expanded-state/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-expanded-state/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-expanded-state/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-expanded-state/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-expanded-state/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-expanded-state" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-expanded-state" %}
 
 ## Add a title when using Grid print function
 
@@ -353,20 +353,20 @@ Example: adding a title to the grid print output:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-function/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-function/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-function/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-function/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-function/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-function/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-function/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-function/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-function" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-function" %}
 
 ## Optimized Approaches for Printing Full Data Sets
 
@@ -378,20 +378,20 @@ The React Data Grid provides a [beforePrint](https://ej2.syncfusion.com/react/do
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs8" %}
 
 ## Print grid along with other components
 
@@ -535,11 +535,11 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/print-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/print-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/print-cs9" %}

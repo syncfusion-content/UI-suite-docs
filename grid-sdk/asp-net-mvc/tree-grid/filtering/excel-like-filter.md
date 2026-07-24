@@ -18,10 +18,10 @@ You can enable Excel like filter by defining.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ You can enable Excel like filter by defining.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Excelfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter/excelfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter/excelfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -47,10 +47,10 @@ You can change the default excel-filter operator by changing the column operator
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Excelfilter-default-operator.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/excelfilter-default-operator.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/excelfilter-default-operator.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ You can change the default excel-filter operator by changing the column operator
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Excelfilter-default-operator.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/excelfilter-default-operator.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/excelfilter-default-operator/excelfilter-default-operator.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

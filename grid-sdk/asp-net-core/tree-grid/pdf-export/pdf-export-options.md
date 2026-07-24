@@ -23,10 +23,10 @@ You can assign the file name for the exported document by defining **fileName** 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/file-name/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/file-name/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-name.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/file-name/file-name.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/file-name/file-name.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ You can assign the file name for the exported document by defining **fileName** 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/file-name/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/file-name/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-name.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/file-name/file-name.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/file-name/file-name.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -78,10 +78,10 @@ In the following example, we have used Advent Pro font to export the treegrid wi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/custom-font/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/custom-font/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-font.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/custom-font/custom-font.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/custom-font/custom-font.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ In the following example, we have used Advent Pro font to export the treegrid wi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/custom-font/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/custom-font/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-font.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/custom-font/custom-font.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/custom-font/custom-font.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -111,10 +111,10 @@ Page orientation can be changed Landscape(Default Portrait) for the exported doc
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-orientation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-orientation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page-orientation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-orientation/page-orientation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-orientation/page-orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -122,10 +122,10 @@ Page orientation can be changed Landscape(Default Portrait) for the exported doc
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-orientation/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-orientation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page-orientation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-orientation/page-orientation.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-orientation/page-orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -169,10 +169,10 @@ Supported page sizes are:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-size/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page-size.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-size/page-size.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-size/page-size.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -180,10 +180,10 @@ Supported page sizes are:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-size/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Page-size.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/page-size/page-size.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/page-size/page-size.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -198,10 +198,10 @@ PDF export provides an option to export hidden columns of TreeGrid by defining t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/hidden-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/hidden-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hidden-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/hidden-column/hidden-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/hidden-column/hidden-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -209,10 +209,10 @@ PDF export provides an option to export hidden columns of TreeGrid by defining t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/hidden-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/hidden-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hidden-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/hidden-column/hidden-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/hidden-column/hidden-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -233,10 +233,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/show-hide-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/show-hide-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/show-hide-column/show-hide-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/show-hide-column/show-hide-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -244,10 +244,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/show-hide-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/show-hide-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/pdf-export/show-hide-column/show-hide-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/pdf-export/show-hide-column/show-hide-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

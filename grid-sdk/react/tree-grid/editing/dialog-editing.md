@@ -14,14 +14,14 @@ In dialog edit mode, starting an edit on the selected row displays the row data 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/editing-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/editing-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs5" %}
 
 ## Customize edit dialog
 
@@ -31,20 +31,20 @@ The following example demonstrates customizing the edit dialog using the `action
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/customizedialog-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1" %} 
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1" %} 
 
 ## Use wizard like dialog editing
 
@@ -57,20 +57,20 @@ The following example demonstrates wizard-like dialog editing with unobtrusive v
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/wizardediting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/wizardediting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/wizardediting-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/wizardediting-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1" %}
 
 ## Using Tab inside the dialog editing
 
@@ -80,17 +80,17 @@ The following example demonstrates using Tab inside the dialog template:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/tabediting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/tabediting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/tabediting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/tabediting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/tabediting-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/tabediting-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/tabediting-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/tabediting-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/tabediting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/tabediting-cs1" %}

@@ -50,10 +50,10 @@ The following sample code demonstrates the customization applied to TextBox comp
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textbox-edit-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textbox-edit-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Textbox-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textbox-edit-params/textbox-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textbox-edit-params/textbox-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ The following sample code demonstrates the customization applied to NumericTextB
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/numeric-edit-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/numeric-edit-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Numeric-textbox-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/numeric-edit-params/numeric-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/numeric-edit-params/numeric-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ In the below demo, while editing the row the decimal point value is restricted t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/prevent-decimal-point/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/prevent-decimal-point/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Prevent-decimal-value.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/prevent-decimal-point/decimal-value.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/prevent-decimal-point/decimal-value.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -113,10 +113,10 @@ The following sample code demonstrates the customization applied to DropDownList
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-edit-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-edit-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dropdownlist-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-edit-params/dropdown-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-edit-params/dropdown-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ In the below demo, DropDownList is rendered with custom data source for the **Sh
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/custom-data-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/custom-data-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dropdownlist-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/custom-data-params/dropdown-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/custom-data-params/dropdown-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,10 +153,10 @@ In the following demo, filtering is enabled for the **ShipCountry** column:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-filter-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-filter-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Filter-dropdownlist.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-filter-edit/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-filter-edit/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,10 +174,10 @@ The following sample demonstrates how to open the popup when focusing on the edi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-popup/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-popup/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Popup-dropdownlist.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-popup/dropdown-popup.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-popup/dropdown-popup.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -195,10 +195,10 @@ The following sample code demonstrates the customization applied to CheckBox com
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/checkbox-edit-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/checkbox-edit-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Check-box-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/checkbox-edit-params/checkbox-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/checkbox-edit-params/checkbox-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -216,10 +216,10 @@ The following sample code demonstrates the customization applied to DatePicker c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/datepicker-edit-params/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/datepicker-edit-params/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Date-picker-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/datepicker-edit-params/datepicker-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/datepicker-edit-params/datepicker-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -233,10 +233,10 @@ The following example demonstrates how to configure the `DatePicker` within the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/hide-date/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/hide-date/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="hide-date.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/hide-date/hide-date.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/hide-date/hide-date.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -254,10 +254,10 @@ The following sample code demonstrates the customization applied to DatePicker c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/date-time-picker/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/date-time-picker/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Check-box-params.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/date-time-picker/date-time-params.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/date-time-picker/date-time-params.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -273,10 +273,10 @@ In the below demo, you can access the editor component instance while adding or 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/editor-component/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/editor-component/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Editor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/editor-component/editor.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/editor-component/editor.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -308,10 +308,10 @@ The following example demonstrates how to render a textArea component in the **S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textarea-cell-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textarea-cell-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text-area-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textarea-cell-edit/textarea.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textarea-cell-edit/textarea.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -327,10 +327,10 @@ The following example demonstrates how to prevent the enter key functionality in
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textarea-enter-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textarea-enter-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text-area-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/textarea-enter-edit/textarea.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/textarea-enter-edit/textarea.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -346,10 +346,10 @@ Here's an example of how to render a MaskedTextBox component in the **CustomerNu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/masked-textbox-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/masked-textbox-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text-area-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/masked-textbox-edit/textarea.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/masked-textbox-edit/textarea.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -365,10 +365,10 @@ The following example demonstrates how to render a DropDownList component in the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/drop-down-list-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/drop-down-list-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text-area-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/drop-down-list-edit/dropdownlist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/drop-down-list-edit/dropdownlist.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -386,10 +386,10 @@ The following example demonstrates how to render images in the DropDownList edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-with-image/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-with-image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Text-area-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/dropdown-with-image/dropdownlist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dropdown-with-image/dropdownlist.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -407,10 +407,10 @@ The following example demonstrates how to render a DropDownList component with m
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/multiple-column-dropdown/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/multiple-column-dropdown/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="drop-down-list-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/multiple-column-dropdown/dropdownlist.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/multiple-column-dropdown/dropdownlist.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -426,10 +426,10 @@ The following example demonstrates how to render a ComboBox component in the **S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/combo-box/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/combo-box/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="combo-box.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/combo-box/combo-box.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/combo-box/combo-box.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -445,10 +445,10 @@ The following example demonstrates how to render a TimePicker component in the *
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/timepicker/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/timepicker/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="TimePicker.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/timepicker/timepicker.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/timepicker/timepicker.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -464,10 +464,10 @@ The following example demonstrates how to render a MultiSelect component in the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/multiselect-dropdown/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/multiselect-dropdown/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="MultiSelect.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/multiselect-dropdown/multiselect.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/multiselect-dropdown/multiselect.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -485,10 +485,10 @@ The following example demonstrates how to render a RichTextEditor component in t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/richtext-editor/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/richtext-editor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="RTE.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/richtext-editor/richtext.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/richtext-editor/richtext.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -504,10 +504,10 @@ The following example demonstrates how to render a Upload control in the **Emplo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/edit-upload/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/edit-upload/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="upload.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/edit-upload/upload.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/edit-upload/upload.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -523,10 +523,10 @@ The following example demonstrates how to render a Autocomplete in the **Custome
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/autocomplete/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/autocomplete/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoComplete.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/autocomplete/autocomplete.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/autocomplete/autocomplete.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -542,10 +542,10 @@ In the below demo, cascading DropDownList rendered for **ShipCountry** and **Shi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/cascading-dropdown/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/cascading-dropdown/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Drop-down.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/edit/cascading-dropdown/dropdown.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/cascading-dropdown/dropdown.cs %}
 {% endhighlight %}
 {% endtabs %}
 

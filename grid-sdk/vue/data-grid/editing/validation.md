@@ -20,14 +20,14 @@ The following code example demonstrates how to define a validation rule for grid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-cs34/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs34/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-cs34/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs34/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs34" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs34" %}
 
 ## Custom validation
 
@@ -38,14 +38,14 @@ In the below demo, custom validation applied for **CustomerID** column.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-cs35/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs35/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-cs35/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs35/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs35" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs35" %}
 
 ### Custom validation based on dropdown change
 
@@ -55,14 +55,14 @@ In the following sample, dropDownList edit type is used for the **Role** and **S
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-dropdownchange/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-dropdownchange/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-dropdownchange/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-dropdownchange/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-dropdownchange" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-dropdownchange" %}
 
 ### Custom validation for numeric column
 
@@ -72,14 +72,14 @@ In the following example, custom validation functions, namely **customFn** and *
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-numeric/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-numeric/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-numeric/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-numeric/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-numeric" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-numeric" %}
 
 ## Dynamically add or remove validation rules from the form
 
@@ -91,14 +91,14 @@ The following example to demonstrates how to dynamically add or remove a require
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-remove/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-remove/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-remove/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-remove/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-remove" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-remove" %}
 
 >To remove an existing validation rule from an input element, you can use the [removeRules](https://ej2.syncfusion.com/vue/documentation/api/form-validator/#removerules) method. 
 
@@ -112,14 +112,14 @@ Here's an example that demonstrates how to change the position of the validation
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-position/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-position/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/default-position/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/default-position/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-position" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-position" %}
 
 ## Show custom error message while performing CRUD actions
 
@@ -471,11 +471,11 @@ For server-side validation to prevent adding duplicate rows, you can refer to th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/edit/edit-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/edit/edit-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/edit-cs13" %}

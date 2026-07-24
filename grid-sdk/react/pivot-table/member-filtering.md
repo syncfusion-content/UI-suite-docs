@@ -25,14 +25,14 @@ It can be configured using the `filterSettings` option through code-behind. The 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs181/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs181/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs181/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs181/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs181" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs181" %}
 
 ### On demand member loading
 
@@ -42,14 +42,14 @@ Users can load members on demand by setting the [`loadOnDemandInMemberEditor`](h
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs182/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs182/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs182/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs182/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs182" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs182" %}
 
 ![output](images/ondemand_member.png)
 
@@ -65,14 +65,14 @@ User can load the members based on the level count by using the property [`level
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs183/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs183/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs183/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs183/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs183" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs183" %}
 
 ![output](images/level-count.png)
 

@@ -168,10 +168,10 @@ The following example demonstrates how to add a header and footer to the exporte
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/pdf-export/header-footer/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/header-footer/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/pdf-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -185,9 +185,9 @@ The following example demonstrates how to repeat the column header on every page
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/pdf-export/repeat-header/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/repeat-header/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/pdf-export/repeat-header/pdf-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/repeat-header/pdf-export.cs %}
 {% endhighlight %}
 {% endtabs %}

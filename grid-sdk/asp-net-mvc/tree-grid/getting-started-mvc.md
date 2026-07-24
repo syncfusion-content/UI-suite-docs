@@ -117,10 +117,10 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Tree G
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/getting-start-mvc/columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/getting-start-mvc/columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/getting-start-mvc/columns/columns.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/getting-start-mvc/columns/columns.cs %}
 {% endhighlight %}
 {% endtabs %}
 

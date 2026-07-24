@@ -25,7 +25,7 @@ You can use TreeGrid [`DataSource`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight c# tabtitle="Ajaxbind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/ajaxbind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/ajaxbind.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ You can use TreeGrid [`DataSource`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ajaxbind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/ajaxbind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/ajaxbind/ajaxbind.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -61,7 +61,7 @@ The `ExpandStateMapping` property maps the field name in data source, that denot
 
 {% tabs %}
 {% highlight c# tabtitle="ExpandStateMapping.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/expandstatemapping.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/expandstatemapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ The `ExpandStateMapping` property maps the field name in data source, that denot
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ExpandStateMapping.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/expandstatemapping.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/expandstatemapping/expandstatemapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

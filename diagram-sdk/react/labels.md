@@ -27,7 +27,7 @@ An annotation can be added to a node or connector by defining the annotation obj
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotation-cs1" %}
  
 N> When setting an Annotation's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -46,7 +46,7 @@ The annotation's [`id`](https://ej2.syncfusion.com/react/documentation/api/diagr
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Run-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Run-cs1" %}
 
 ## Update annotations at runtime
 
@@ -63,7 +63,7 @@ The following code example illustrates how to change the annotation properties.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs2" %}
 
 
 ## Remove annotations
@@ -79,5 +79,5 @@ A collection of annotations can be removed from the node by using the diagram me
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs1" %}
 

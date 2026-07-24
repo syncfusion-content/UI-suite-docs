@@ -16,15 +16,15 @@ To render a checkbox in each TreeGrid row, add a column with type set to `CheckB
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs2" %}
 
 > By default, selection is allowed via clicking either a row or its checkbox. To restrict selection to only the checkbox, set the [`selectionSettings.checkboxOnly`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/selectionSettings#checkboxonly) property to `true`.
 > To persist selection across operations, set [`selectionSettings.persistSelection`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/selectionSettings#persistselection) to `true`. For persisted selection, at least one column must be defined as a primary key using the [`columns.isPrimaryKey`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/column#isprimarykey) property.
@@ -39,15 +39,15 @@ Checkbox selection supports two modes, which can be set using [`selectionSetting
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs3" %}
 
 > Checkbox Selection is intended for row selection only and is not compatible with cell selection mode.
 
@@ -63,12 +63,12 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/selection-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs14" %}

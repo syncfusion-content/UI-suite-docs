@@ -24,20 +24,20 @@ Here's an example of customizing the rows styles based on the value of the "Frei
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs4" %}
 
 > The [queryCellInfo](https://ej2.syncfusion.com/react/documentation/api/grid#querycellinfo) event can also be used to customize cells and is triggered for every cell in the grid. This is useful when customizing cells based on certain conditions or criteria.
 
@@ -61,20 +61,20 @@ Here's an example of how to use the `.e-altrow` class to style alternate rows:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs1" %}
 
 **Customize selected row**
 
@@ -92,20 +92,20 @@ Here's an example of styling the selected row using the `.e-selectionbackground`
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs2" %}
 
 ### Using methods
 
@@ -124,20 +124,20 @@ The following example demonstrates customizing the appearance of the row using t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-method-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-method-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-method-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-method-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-method-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-method-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-method-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-method-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-method-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-method-cs1" %}
 
 ## Row height
 
@@ -147,20 +147,20 @@ The following example demonstrates dynamically changing the height of the rows u
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs2" %}
 
 >* The `rowHeight` property can only be used to set the height of the entire grid row, not individual cells within a row.
 >* The `rowHeight` property applies the height to all rows in the grid, including the header and footer rows.
@@ -173,20 +173,20 @@ In the following example, the row height for the row with "OrderID" as "10249" i
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs3" %}
 
 >* In virtual scrolling mode, it is not applicable to set different row heights.
 >* The row height of multiple rows can be customized by checking the relevant criteria in the `rowDataBound` event and setting the `rowHeight` property accordingly.
@@ -202,20 +202,20 @@ Here is an example that demonstrates enabling or disabling the Row hover feature
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-hover-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-hover-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-hover-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-hover-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-hover-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-hover-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/row-hover-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/row-hover-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-hover-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/row-hover-cs1" %}
 
 > The `enableHover` property applies to the entire grid, not individual rows or columns.
 
@@ -324,14 +324,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-alt-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-alt-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-alt-cs3" %}
 
 > The `getRowInfo` method can only be used in the `rowDataBound` event. Attempting to use it elsewhere will result in an error.
 
@@ -419,14 +419,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozenrow-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozenrow-cs1" %}
 
 > * Frozen rows should not be set outside the grid view port.
 > * Frozen Grid will support row virtualization feature, which helps to improve the Grid performance while loading a large dataset.
@@ -449,20 +449,20 @@ By applying this CSS class, the background color of frozen rows can be set to th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/frozenrow-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/frozenrow-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozenrow-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/frozenrow-cs2" %}
 
 ### Deprecated methods
 
@@ -494,20 +494,20 @@ Here’s an example that demonstrates adding a new row using the addRecord metho
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs5" %}
 
 >* When working with remote data, it is impossible to add a new row between the existing rows.
 >* If adding a new record to the beginning of the data source, pass "0" as the second parameter to the `addRecord` method.
@@ -527,20 +527,20 @@ If the checkbox is unchecked, the method iterates through the "hiddenRows" array
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/rows-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/rows-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/rows-cs6" %}
 
 ## Get the row data and element
 

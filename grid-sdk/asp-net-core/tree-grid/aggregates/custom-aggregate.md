@@ -17,10 +17,10 @@ To calculate the aggregate value with your own aggregate functions, use the cust
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/custom-Aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/custom-Aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/custom-Aggregate/customAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/custom-Aggregate/customAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ To calculate the aggregate value with your own aggregate functions, use the cust
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/custom-Aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/custom-Aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/custom-Aggregate/customAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/custom-Aggregate/customAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -16,10 +16,10 @@ Column width can be resized by clicking and dragging the right edge of the colum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/resizing/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/resizing/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Resing.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/resizing/resing.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/resizing/resing.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ Column width can be resized by clicking and dragging the right edge of the colum
 
 {% tabs %}
 {% highlight c# tabtitle="Resing.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/resizing/resing.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/resizing/resing.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -47,10 +47,10 @@ In the following sample, minimum and maximum width are defined for **Duration**,
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/width/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/width/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Width.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/width/width.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/width/width.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,7 +58,7 @@ In the following sample, minimum and maximum width are defined for **Duration**,
 
 {% tabs %}
 {% highlight c# tabtitle="Width.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/width/width.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/width/width.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -73,10 +73,10 @@ Stacked columns can be resized by clicking and dragging the right edge of the st
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/stacked-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/stacked-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/stacked-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/stacked-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -84,7 +84,7 @@ Stacked columns can be resized by clicking and dragging the right edge of the st
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/stacked-columns/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/stacked-columns/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

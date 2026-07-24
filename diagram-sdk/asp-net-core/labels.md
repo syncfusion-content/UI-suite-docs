@@ -23,10 +23,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationRender/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationRender/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationRender/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationRender/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationRender/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -54,10 +54,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ An annotation can be added to a node/connector by defining the annotation object
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -96,10 +96,10 @@ A collection of annotations can be removed from the node by using client-side me
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -107,10 +107,10 @@ A collection of annotations can be removed from the node by using client-side me
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -136,10 +136,10 @@ You can change any annotation properties at runtime and update it through the cl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -147,10 +147,10 @@ You can change any annotation properties at runtime and update it through the cl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/updateAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/updateAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -180,10 +180,10 @@ Set the size for nodes annotation by using [`width`](https://help.syncfusion.com
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationOffset/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationOffset/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -191,10 +191,10 @@ Set the size for nodes annotation by using [`width`](https://help.syncfusion.com
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationOffset/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationOffset/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationOffset/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -224,10 +224,10 @@ The following tables illustrates all the possible alignments visually with 'offs
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/HVAlignAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/HVAlignAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -235,10 +235,10 @@ The following tables illustrates all the possible alignments visually with 'offs
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/HVAlignAnnotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/HVAlignAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/HVAlignAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -253,10 +253,10 @@ The offset and alignment properties of annotation allows to align the connector 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationSegment/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationSegment/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -264,10 +264,10 @@ The offset and alignment properties of annotation allows to align the connector 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationSegment/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationSegment/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationSegment/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -282,10 +282,10 @@ The offset and alignment properties of annotation allows to align the connector 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationMargin/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationMargin/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -293,10 +293,10 @@ The offset and alignment properties of annotation allows to align the connector 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationMargin/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationMargin/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationMargin/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -311,10 +311,10 @@ The [`textAlign`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationTextAlign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationTextAlign/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -322,10 +322,10 @@ The [`textAlign`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationTextAlign/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/annotationTextAlign/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/annotationTextAlign/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -342,10 +342,10 @@ A user can open the hyperlink in the new window, the same tab and the new tab by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/hyperLink/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HyperLink.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/hyperLink.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/hyperLink/hyperLink.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -353,10 +353,10 @@ A user can open the hyperlink in the new window, the same tab and the new tab by
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/hyperLink/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HyperLink.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/hyperLink/hyperLink.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/hyperLink/hyperLink.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -371,10 +371,10 @@ Diagram provides template support for annotation. You should define a SVG/HTML c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/labelTemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="LabelTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/labelTemplate.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/labelTemplate/labelTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -382,10 +382,10 @@ Diagram provides template support for annotation. You should define a SVG/HTML c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/labelTemplate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="LabelTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/labelTemplate/labelTemplate.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/labelTemplate/labelTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -400,10 +400,10 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textWrapping/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textWrapping/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -411,10 +411,10 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textWrapping/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textWrapping/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textWrapping/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -433,10 +433,10 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textOverFlow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textOverFlow/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -444,10 +444,10 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textOverFlow/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/textOverFlow/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/textOverFlow/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -468,10 +468,10 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearance/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearance/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -479,10 +479,10 @@ The label’s [`TextOverflow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearance/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearance/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearance/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -495,10 +495,10 @@ The fill, border, and opacity appearances of the text can also be customized wit
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -506,10 +506,10 @@ The fill, border, and opacity appearances of the text can also be customized wit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -524,10 +524,10 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -535,10 +535,10 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/appearanceStyle/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/appearanceStyle/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -565,10 +565,10 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/readOnly/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/readOnly/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -576,10 +576,10 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/readOnly/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/readOnly/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/readOnly/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -598,10 +598,10 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/dragLimit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DragLimit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/dragLimit.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/dragLimit/dragLimit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -609,10 +609,10 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/dragLimit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DragLimit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/dragLimit/dragLimit.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/dragLimit/dragLimit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -627,10 +627,10 @@ You can add any number of annotations to a node or connector.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/multiAnnotation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/multiAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -638,10 +638,10 @@ You can add any number of annotations to a node or connector.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/multiAnnotation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Annotation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/annotation/multiAnnotation/annotation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/annotation/multiAnnotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

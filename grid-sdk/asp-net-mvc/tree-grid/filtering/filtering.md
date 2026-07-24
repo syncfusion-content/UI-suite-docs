@@ -17,10 +17,10 @@ Filtering allows you to view specific or related records based on filter criteri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/default-filtering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/default-filtering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultFiltering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ Filtering allows you to view specific or related records based on filter criteri
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/default-filtering/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/default-filtering/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultFiltering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -58,10 +58,10 @@ The below are the type of filter mode available in TreeGrid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/filter-modes/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/filter-modes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterModes.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/filter-modes/filterModes.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/filter-modes/filterModes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ The below are the type of filter mode available in TreeGrid.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/filter-modes/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/filter-modes/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterModes.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/filter-modes/filterModes.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/filter-modes/filterModes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -87,10 +87,10 @@ To apply the filter at initial rendering, set the filter **Predicate** object in
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/initial-filter/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/initial-filter/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="InitialFilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/initial-filter/initialFilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/initial-filter/initialFilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,10 +98,10 @@ To apply the filter at initial rendering, set the filter **Predicate** object in
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/initial-filter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/initial-filter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="InitialFilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/filtering/initial-filter/initialFilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/filtering/initial-filter/initialFilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

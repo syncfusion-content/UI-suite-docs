@@ -96,27 +96,27 @@ The Internationalization library is used to globalize number, date, and time val
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs48/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs48/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs48/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs48/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs48" %}
 {% endif %}
 
 > * In the above sample, `Amount` field is formatted by [`NumberFormatOptions`](https://ej2.syncfusion.com/documentation/common/internationalization#manipulating-numbers). For date formats, the value strings are formatted by [`DateFormatOptions`](https://ej2.syncfusion.com/documentation/common/internationalization#manipulating-datetime).
@@ -135,27 +135,27 @@ The following example demonstrates the decimal separators in `Deutsch` culture.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs49/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs49/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs49/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs49/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs49" %}
 {% endif %}
 
 ## Localization
@@ -617,27 +617,27 @@ The following example demonstrates the pivot table in `Deutsch` culture.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs50/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs50/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs50/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs50/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs50" %}
 {% endif %}
 
 ## Right-to-left (RTL)
@@ -648,27 +648,27 @@ RTL provides an option to switch the text direction and layout of the pivot tabl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs51/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs51/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs51/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs51/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs51" %}
 {% endif %}
 
 ## See Also

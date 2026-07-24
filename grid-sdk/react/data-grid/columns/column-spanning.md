@@ -17,20 +17,20 @@ The [enableColumnSpan](https://ej2.syncfusion.com/react/documentation/api/grid#e
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-spanning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-spanning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-spanning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-spanning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-spanning-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-spanning-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-spanning-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-spanning-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-spanning-cs1" %}
 
 > Spanning can also be controlled at the column level by setting `enableColumnSpan` to `false` in the column definition to prevent merging for specific columns.
 
@@ -43,26 +43,26 @@ The following demo shows employee "Davolio" performing analysis from "9:00 AM to
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="ColumnSpanDataType.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/ColumnSpanDataType.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/ColumnSpanDataType.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="ColumnSpanDataType.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/ColumnSpanDataType.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/ColumnSpanDataType.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs1" %}
 
 ## Change the border color while column spanning
 
@@ -70,26 +70,26 @@ The border color of spanned cells can be customized through the `queryCellInfo` 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="ColumnSpanDataType.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/ColumnSpanDataType.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/ColumnSpanDataType.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="ColumnSpanDataType.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/ColumnSpanDataType.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/ColumnSpanDataType.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/spanning-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/spanning-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/spanning-cs3" %}
 
 
 ### Limitations

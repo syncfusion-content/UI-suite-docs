@@ -51,7 +51,7 @@ To add a connection port, define the port object and add it to node’s [`ports`
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -64,7 +64,7 @@ To add a connection port, define the port object and add it to node’s [`ports`
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs1" %}
 {% endif %}
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
@@ -87,7 +87,7 @@ If ID is not set, then default ID is automatically set.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -100,7 +100,7 @@ If ID is not set, then default ID is automatically set.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs2" %}
 
 {% endif %}
 
@@ -119,7 +119,7 @@ You can remove ports at runtime by using diagram method [`removePorts`](../../ap
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -132,7 +132,7 @@ You can remove ports at runtime by using diagram method [`removePorts`](../../ap
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs3" %}
 
 {% endif %}
 
@@ -153,7 +153,7 @@ The following code example illustrates how to change the port offset at runtime.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -166,7 +166,7 @@ The following code example illustrates how to change the port offset at runtime.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs4" %}
 
 {% endif %}
 
@@ -186,7 +186,7 @@ The [`connectionDirection`](../../api/diagram/port#connectiondirection) property
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conDir" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conDir" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -199,7 +199,7 @@ The [`connectionDirection`](../../api/diagram/port#connectiondirection) property
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conDir" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-conDir" %}
 
 {% endif %}
 
@@ -224,7 +224,7 @@ The following code example shows how to get inEdges and outEdges of port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-edges" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-edges" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -237,7 +237,7 @@ The following code example shows how to get inEdges and outEdges of port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-edges" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-edges" %}
 
 {% endif %}
 

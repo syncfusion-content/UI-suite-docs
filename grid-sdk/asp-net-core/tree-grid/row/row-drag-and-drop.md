@@ -20,10 +20,10 @@ The TreeGrid row drag and drop allows you to drag and drop TreeGrid rows on the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-single/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-single/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dragdrop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-single/dragdrop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-single/dragdrop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ The TreeGrid row drag and drop allows you to drag and drop TreeGrid rows on the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-single/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-single/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dragdrop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-single/dragdrop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-single/dragdrop.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -53,10 +53,10 @@ To drag and drop between two TreeGrid, enable the [`allowRowDragAndDrop`](https:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-drop/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-drop/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dragdrop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-drop/dragdrop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-drop/dragdrop.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ To drag and drop between two TreeGrid, enable the [`allowRowDragAndDrop`](https:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-drop/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-drop/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dragdrop.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-drag-drop/dragdrop.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-drag-drop/dragdrop.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -91,10 +91,10 @@ In the below example drop action is cancelled and dropped above to target row.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/prevent-reorder/taghelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/prevent-reorder/taghelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/prevent-reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/prevent-reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 

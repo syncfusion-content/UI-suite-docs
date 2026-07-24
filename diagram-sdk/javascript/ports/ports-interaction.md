@@ -28,7 +28,7 @@ The following code explains how to draw the connector by using the port constrai
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -41,7 +41,7 @@ The following code explains how to draw the connector by using the port constrai
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact1" %}
 
 {% endif %}
 
@@ -66,7 +66,7 @@ The following code explains how to draw different connectors by using the port c
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -79,7 +79,7 @@ The following code explains how to draw different connectors by using the port c
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact2" %}
 
 {% endif %}
 
@@ -100,7 +100,7 @@ The following code explains how to enable port drag.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -113,7 +113,7 @@ The following code explains how to enable port drag.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact3" %}
 
 {% endif %}
 
@@ -136,7 +136,7 @@ The following example shows how to enable automatic port creation:
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/automaticPortCreation" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -149,7 +149,7 @@ The following example shows how to enable automatic port creation:
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/automaticPortCreation" %}
 
 {% endif %}
 
@@ -170,7 +170,7 @@ The following code explains how to enable port tooltip.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -183,7 +183,7 @@ The following code explains how to enable port tooltip.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact4" %}
 
 {% endif %}
 
@@ -211,7 +211,7 @@ The following example shows how to get these events in diagram.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -224,7 +224,7 @@ The following example shows how to get these events in diagram.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-interact5" %}
 
 {% endif %}
 

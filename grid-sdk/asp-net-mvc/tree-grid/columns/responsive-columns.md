@@ -18,7 +18,7 @@ The [`HideAtMedia`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight c# tabtitle="Responsive-columns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/responsive-columns.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/responsive-columns.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -26,10 +26,10 @@ The [`HideAtMedia`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syn
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Responsive-columns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/responsive-columns.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/responsive-columns/responsive-columns.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

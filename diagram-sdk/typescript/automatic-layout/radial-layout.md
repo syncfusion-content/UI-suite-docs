@@ -28,7 +28,7 @@ You can create a radial tree layout with DataSource. The following code example 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2" %}
 
 N> If you want to convert the data source into layout, you need to inject DataBinding along with RadialTree module in the diagram.
 
@@ -45,7 +45,7 @@ You can render a radial tree layout without using DataSource. The following code
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree" %}
 
 N> If you want to use radial tree layout in diagram, you need to inject RadialTree in the diagram.
 

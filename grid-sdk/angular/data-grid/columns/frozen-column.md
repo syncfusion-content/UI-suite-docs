@@ -22,15 +22,15 @@ The following example sets the [frozenColumns](https://ej2.syncfusion.com/angula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs1" %}
 
 > * Frozen columns must not be set outside the grid’s viewport.
 > * The Grid supports column virtualization with frozen columns, improving performance for large datasets.
@@ -47,15 +47,15 @@ The following example demonstrates freezing a particular column using the `isFro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs3" %}
 
 ## Freeze direction
 
@@ -73,15 +73,15 @@ In the following example, the "ShipCountry" column is frozen on the left side, t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs2" %}
 
 > Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/angular/documentation/api/grid/column#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/angular/documentation/api/grid#frozencolumns) properties.
 
@@ -121,15 +121,15 @@ The following example demonstrates changing the default frozen line color using 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs4" %}
 
 ## Render custom editors in frozen columns
 
@@ -147,15 +147,15 @@ Custom edit controls, such as a [DatePicker](https://ej2.syncfusion.com/angular/
 The following example demonstrates rendering a `DatePicker` component in the frozen "OrderDate" column. The DatePicker allows date selection during edit mode and properly integrates with the grid's editing life cycle.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozencolumns-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozencolumns-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozencolumns-cs5" %}
 
 ## Deprecated methods
 
