@@ -751,7 +751,7 @@ The following example demonstrates how to implement CRUD operations for custom-b
 }
 ```
 
-> You can refer to the [Blazor Gantt Chart](https://www.syncfusion.com/blazor-components/blazor-gantt) feature tour page for its groundbreaking feature representations. You can also explore the [Blazor Gantt Chart example](https://blazor.syncfusion.com/demos/gantt-chart/overview?theme=fluent2) to understand how to present and manipulate data.
+> You can refer to the [Blazor Gantt Chart](https://www.syncfusion.com/gantt-sdk/blazor-gantt-chart) feature tour page for its groundbreaking feature representations. You can also explore the [Blazor Gantt Chart example](https://blazor.syncfusion.com/demos/gantt-chart/overview?theme=fluent2) to understand how to present and manipulate data.
 
 ## How to pass additional parameters to custom adaptor
 
