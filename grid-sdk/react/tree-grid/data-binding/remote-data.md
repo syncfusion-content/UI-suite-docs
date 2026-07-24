@@ -31,10 +31,10 @@ When navigating to a new page, the root nodes for that page are requested from t
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -273,10 +273,10 @@ With remote data binding, actions such as paging and loading child records on de
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -288,16 +288,16 @@ Create a custom adaptor by extending the built-in adaptors. The following demons
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="serialnoadaptor.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs6/app/serialNoAdaptor.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs6/app/serialNoAdaptor.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="serialnoadaptor.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs6/app/serialNoAdaptor.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs6/app/serialNoAdaptor.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -309,10 +309,10 @@ To add custom parameters to the data request, use the [addParams](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -326,10 +326,10 @@ The argument passed to the `actionFailure` event contains the error details retu
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

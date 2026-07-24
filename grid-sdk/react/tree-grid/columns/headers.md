@@ -16,14 +16,14 @@ By default, the column header title is derived from the column [field](https://e
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs20/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs20/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs20/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs20/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs20" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs20" %}
 
 > If both [field](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#field) and [headerText](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#headertext) are not defined, the column renders with an empty header.
 
@@ -33,14 +33,14 @@ Customize the header element using the [headerTemplate](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs21/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs21/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs21/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs21/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs21" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs21" %}
 
 ## Change header text dynamically
 
@@ -72,20 +72,20 @@ Here is an example of how to change the header text of a column using the `getCo
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/change-headertext-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/change-headertext-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/change-headertext-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/change-headertext-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/change-headertext-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/change-headertext-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/change-headertext-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/change-headertext-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/change-headertext-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/change-headertext-cs1" %}
 
 ## Change orientation of header text
 
@@ -133,23 +133,23 @@ Here’s an example of how to change the orientation of header text:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="custom.css" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/custom.css %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/custom.css %}
 {% endhighlight %}
 {% highlight js tabtitle="custom.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/custom.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/custom.jsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/header-orientation-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/header-orientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/header-orientation-cs1" %}

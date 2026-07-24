@@ -15,13 +15,13 @@ Footer aggregate values are calculated across all rows and displayed in footer c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/aggregate-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/aggregate-cs3" %}
 
 > Access aggregate values inside the template using their corresponding [type](https://ej2.syncfusion.com/react/documentation/api/treegrid/aggregateColumnModel/#type) name.
 
@@ -31,10 +31,10 @@ Format the aggregate result using the [format](https://ej2.syncfusion.com/react/
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/aggregate-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/aggregate-cs4" %}

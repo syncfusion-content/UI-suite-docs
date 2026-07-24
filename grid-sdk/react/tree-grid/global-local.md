@@ -115,14 +115,14 @@ The following example demonstrates the TreeGrid in *Deutsch* culture.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/internationalization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/internationalization-cs1" %}
 
 ### Localization of dependent components in TreeGrid
 
@@ -199,14 +199,14 @@ The [Internationalization](../common/internationalization) library is used to gl
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/internationalization-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/internationalization-cs2" %}
 
 > * In the above sample, *Price* column is formatted by **NumberFormatOptions**.
 > * By default, [locale](https://ej2.syncfusion.com/react/documentation/api/treegrid/#locale) value is *en-US*. If you want to change the *en-US* culture to a different culture, you have to change  the [locale](https://ej2.syncfusion.com/react/documentation/api/treegrid/#locale) accordingly.
@@ -217,14 +217,14 @@ RTL provides an option to switch the text direction and layout of the TreeGrid c
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/internationalization-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/internationalization-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/internationalization-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/internationalization-cs3" %}
 
 ## See Also
 

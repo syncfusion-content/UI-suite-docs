@@ -25,10 +25,10 @@ For multi-selection, hold Ctrl key and click the desired rows or cells. To selec
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,10 +44,10 @@ TreeGrid supports three selection modes configured via [selectionSettings.mode](
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -16,14 +16,14 @@ To use reordering, inject the [Reorder](https://ej2.syncfusion.com/react/documen
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs3" %}
 
 > Reordering can be disabled for a specific column by setting [columns.allowReordering](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#reordermodule) to false.
 
@@ -33,11 +33,11 @@ Multiple columns can be reordered programmatically using the [reorderColumns](ht
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs4" %}

@@ -23,10 +23,10 @@ To format cell values based on culture, use the [columns.format](https://ej2.syn
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs11/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ In the following example, the Duration column is locked and its reordering is di
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/lock-column-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/lock-column-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/lock-column-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/lock-column-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -114,10 +114,10 @@ To use `autoFitColumns` method, inject the **Resize** module into the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -131,10 +131,10 @@ Enable or disable TreeGrid actions for a specific column by setting the [allowFi
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs13/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ Show or hide TreeGrid columns dynamically using external buttons by invoking the
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs14/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -161,10 +161,10 @@ The [valueAccessor](https://ej2.syncfusion.com/react/documentation/api/treegrid/
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs15/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -176,10 +176,10 @@ Bind an array of objects to a column using the [valueAccessor](https://ej2.syncf
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs16/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs16/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs16/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -191,10 +191,10 @@ An expression column can be achieved using the [valueAccessor](https://ej2.syncf
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs17/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs17/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs17/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -206,10 +206,10 @@ To render boolean values as checkboxes in columns, set the [displayAsCheckBox](h
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs18/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs18/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs18/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs18/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -221,10 +221,10 @@ The Syncfusion React TreeGrid provides a built-in feature to toggle column visib
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs22/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs22/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs22/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs22/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

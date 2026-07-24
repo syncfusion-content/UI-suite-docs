@@ -126,10 +126,10 @@ The tree grid code should be placed in the **src/App.tsx** file.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/getting-started/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/getting-started/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/getting-started/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/getting-started/app/App.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
 {% raw %}
@@ -140,7 +140,7 @@ The tree grid code should be placed in the **src/App.tsx** file.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/getting-started-cs1" %}
 
 ## Run the application
 

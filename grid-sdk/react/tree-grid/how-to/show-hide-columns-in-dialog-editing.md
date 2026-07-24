@@ -20,19 +20,19 @@ In the below example, we have rendered the treegrid columns *Progress* as hidden
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/customizedialog-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/customizedialog-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/customizedialog-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/customizedialog-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/customizedialog-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/customizedialog-cs5" %}
 
 > You can refer to our [`React Tree Grid`](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our [`React Tree Grid example`](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to knows how to present and manipulate data.

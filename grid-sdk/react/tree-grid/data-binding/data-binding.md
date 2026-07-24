@@ -26,10 +26,10 @@ Use the TreeGrid [dataSource](https://ej2.syncfusion.com/react/documentation/api
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/data-binding-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -717,16 +717,16 @@ The following example demonstrates how to add and delete records from the dataso
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

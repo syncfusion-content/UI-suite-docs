@@ -35,13 +35,13 @@ The following table lists built-in toolbar items and their actions.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/toolbar-cs1" %}
 
 > The [toolbar](https://ej2.syncfusion.com/react/documentation/api/treegrid/#toolbar) supports both built-in and custom toolbar items.
 
@@ -53,13 +53,13 @@ By default, custom items are aligned to the **Left**. The position can be change
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/toolbar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/toolbar-cs2" %}
 
 > * The [toolbar](https://ej2.syncfusion.com/react/documentation/api/treegrid/#toolbar) supports both built-in and custom items.  
 > * Any item that does not match a built-in name is treated as a custom toolbar item.
@@ -71,13 +71,13 @@ In the example below, **ExpandAll** and **CollapseAll** are built-in items, and 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/toolbar-cs3" %}
 
 ## Enable or disable toolbar items
 
@@ -85,10 +85,10 @@ Enable or disable toolbar items programmatically using the `enableItems` method.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/toolbar-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/toolbar-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/toolbar-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/toolbar-cs4" %}

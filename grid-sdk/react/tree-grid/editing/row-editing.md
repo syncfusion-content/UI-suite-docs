@@ -14,10 +14,10 @@ In row edit mode, starting an edit on the selected record switches the entire ro
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs14/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -16,10 +16,10 @@ To use column resizing, inject the **Resize** module in the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ In the following sample, minimum and maximum widths are defined for the **Durati
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ Stacked columns can be resized by dragging the right edge of the stacked header.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

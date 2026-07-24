@@ -16,10 +16,10 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-spanning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-spanning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-spanning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-spanning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,10 +44,10 @@ The row spanning feature in the Syncfusion React TreeGrid can be enabled using `
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-spanning-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-spanning-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-spanning-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-spanning-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

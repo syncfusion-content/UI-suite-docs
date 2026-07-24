@@ -16,14 +16,14 @@ Column validation checks edited or newly added data and displays error messages 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs15/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs15" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs15" %}
 
 ## Custom validation
 
@@ -33,11 +33,11 @@ In the following example, a custom rule is applied to the **Priority** column.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs16/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs16/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs16/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs16" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs16" %}

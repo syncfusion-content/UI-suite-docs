@@ -23,14 +23,14 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs3" %}
 
 ## Custom command
 
@@ -38,11 +38,11 @@ Custom command buttons can be added using the [column.commands](https://ej2.sync
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/editing-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/editing-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs4" %}
