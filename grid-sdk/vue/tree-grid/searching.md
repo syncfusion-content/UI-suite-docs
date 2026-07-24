@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Searching in Vue Treegrid component | Syncfusion
 description: Learn here all about Searching in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ To search records, inject the [`Filter`](https://ej2.syncfusion.com/vue/document
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/searching/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/searching/default-cs1" %}
 
 ## Initial search
 
@@ -38,7 +38,7 @@ To apply search at initial rendering, set the fields, operator, key, and ignoreC
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/searching/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/searching/default-cs2" %}
 
 > By default, treegrid searches all the bound column values. To customize this behavior define the [`searchSettings.fields`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/searchSettingsModel/#fields) property.
 
@@ -71,7 +71,7 @@ To search treegrid records from an external button, invoke the [`search`](https:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/searching/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/searching/default-cs3" %}
 
 ## Search specific columns
 
@@ -86,4 +86,4 @@ By default, treegrid searches all visible columns. You can search specific colum
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/searching/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/searching/default-cs4" %}

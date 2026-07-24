@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Excel cell style customization in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Excel cell style customization in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -28,7 +28,7 @@ In the below sample, we have set the background color for `Duration` column in t
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -41,7 +41,7 @@ In the below sample, we have set the background color for `Duration` column in t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/excel-export-cs2" %}
 {% endif %}
 
 ## Theme
@@ -61,7 +61,7 @@ To apply theme in exported Excel, define the `theme` in `exportProperties` .
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -74,7 +74,7 @@ To apply theme in exported Excel, define the `theme` in `exportProperties` .
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/excel-export-cs3" %}
 {% endif %}
 
 >By default, material theme is applied to exported excel document.

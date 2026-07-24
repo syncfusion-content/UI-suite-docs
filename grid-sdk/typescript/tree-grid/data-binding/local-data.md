@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Local data in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Local data in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -42,7 +42,7 @@ The following code example shows you how to bind the hierarchical local data int
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -58,7 +58,7 @@ The following code example shows you how to bind the hierarchical local data int
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs2" %}
 {% endif %}
 
 > * Remote data binding is not supported for Hierarchy Data.
@@ -84,7 +84,7 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -100,7 +100,7 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs3" %}
 {% endif %}
 
 > Herewith we have provided list of reserved properties and the purpose we used internally in TreeGrid. We recommend to avoid these reserved properties in your dataSource(To get rid of conflicts).

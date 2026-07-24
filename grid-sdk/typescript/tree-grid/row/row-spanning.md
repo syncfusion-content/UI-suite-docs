@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Row spanning in TypeScript TreeGrid control | Syncfusion
 description: Learn here all about Row spanning in Syncfusion TypeScript TreeGrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs1" %}
 {% endif %}
 
 ## Limitations
@@ -70,7 +70,7 @@ The row spanning feature in the Syncfusion TreeGrid can be enabled using `enable
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -83,7 +83,7 @@ The row spanning feature in the Syncfusion TreeGrid can be enabled using `enable
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/row-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/row-spanning-cs2" %}
 {% endif %}
 
 > In the sample, row spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableRowSpan` property to **false**.

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Row in Vue Treegrid component | Syncfusion
 description: Learn here all about Row in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -20,14 +20,14 @@ The [`rowDataBound`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/default-cs1" %}
 
 ## Styling alternate rows
 
@@ -43,11 +43,11 @@ Please refer to the following example.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/default-cs2" %}

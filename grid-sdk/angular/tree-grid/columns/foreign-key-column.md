@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Display foreign key values in Angular TreeGrid | Syncfusion
 description: Learn to display foreign key values and render dropdowns in Syncfusion Angular TreeGrid using external data for hierarchical structures.
@@ -16,11 +16,11 @@ To display foreign key values during initial rendering, utilize the [queryCellIn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

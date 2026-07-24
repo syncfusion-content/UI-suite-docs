@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Immutable mode in Vue Treegrid component | Syncfusion
 description: Learn here all about Immutable mode in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -25,7 +25,7 @@ To enable this feature, you have to set the [`enableImmutableMode`](https://ej2.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/immutable-mode/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/immutable-mode/default-cs1" %}
 
 ## Limitations
 

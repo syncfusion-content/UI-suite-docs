@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Check box selection in Vue Treegrid component | Syncfusion
 description: Learn here all about Check box selection in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -24,7 +24,7 @@ column [`type`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs2" %}
 
 > By default selection is allowed by clicking a treegrid row or checkbox in that row. To allow Selection only through checkbox, you can set
 [`selectionSettings.checkboxOnly`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionSettings#checkboxonly) property to true.
@@ -50,7 +50,7 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs3" %}
 
 > Checkbox Selection feature is intended for row selection only; it is not compatible with cell selection mode.
 
@@ -73,4 +73,4 @@ In the following sample, selection is disabled for rows where the "Progress" col
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs7" %}

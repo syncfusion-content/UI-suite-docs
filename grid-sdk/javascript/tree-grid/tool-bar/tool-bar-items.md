@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Tool bar items in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Tool bar items in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -38,27 +38,27 @@ The following table shows built-in toolbar items and its actions.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/toolbar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/toolbar-cs3" %}
 {% endif %}
 
 > * The [`toolbar`](../../api/treegrid/#toolbar) has options to define both built-in and custom toolbar items.
@@ -71,25 +71,25 @@ You can enable/disable toolbar items by using the `enableItems` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/toolbar-enable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/toolbar-enable-cs1" %}
 {% endif %}

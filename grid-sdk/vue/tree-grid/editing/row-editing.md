@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Row editing in Vue Treegrid component | Syncfusion
 description: Learn here all about Row editing in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -23,4 +23,4 @@ To enable Row edit, set the [`editSettings.mode`](https://ej2.syncfusion.com/vue
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs13" %}

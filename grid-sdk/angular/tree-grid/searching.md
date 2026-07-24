@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Searching in Angular TreeGrid component | Syncfusion
 description: Learn how to enable and customize searching in the Syncfusion Angular TreeGrid component, including search settings, operators, column-specific search, and advanced scenarios.
@@ -20,13 +20,13 @@ Here is an example demonstrating the default searching feature of the TreeGrid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,13 +56,13 @@ The following example demonstrates how to set an initial search in the tree grid
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,13 +90,13 @@ The following example demonstrates dynamic operator selection through a [DropDow
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -115,13 +115,13 @@ Follow these steps:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -135,13 +135,13 @@ The following example demonstrates how to search specific columns such as **task
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -153,13 +153,13 @@ Enable real-time searching by binding the `keyup` event to the search input insi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -175,13 +175,13 @@ The following example demonstrates how to implement searching based on column fo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -197,13 +197,13 @@ On the other hand, the [actionComplete](https://ej2.syncfusion.com/angular/docum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs8/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs8/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -217,13 +217,13 @@ The following example demonstrates toggling the `ignoreAccent` property with an 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs9/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs9/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -241,13 +241,13 @@ The following example demonstrates how to highlight search text in tree grid usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs10/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs10/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs10/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -261,13 +261,13 @@ The following example demonstrates how to clear the searched records using an ex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs11/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs11/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/searching-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/searching-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

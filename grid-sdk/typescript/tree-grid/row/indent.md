@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Indent in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Indent in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -19,27 +19,27 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/indent-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/indent-outdent-cs1" %}
 {% endif %}
 
 ## Indent/Outdent a row programmatically
@@ -50,25 +50,25 @@ You can change the hierarchy level of record programmatically using [indent](htt
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/programmatic-indent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/programmatic-indent-cs1" %}
 {% endif %}

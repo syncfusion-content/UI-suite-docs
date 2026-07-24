@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Filter bar in Angular TreeGrid component | Syncfusion
 description: Learn here all about Filter bar in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -35,13 +35,13 @@ The following example demonstrates how to activate default filtering in the Tree
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -63,13 +63,13 @@ The following example illustrates how to enable different filter bar modes in th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -85,13 +85,13 @@ The following example demonstrates how to display the filter text in the pager o
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs23/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs23/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs23/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs23/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -107,13 +107,13 @@ The following example demonstrates how to show or hide the filter bar operator i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs24/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs24/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs24/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs24/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -129,13 +129,13 @@ Here's an example that demonstrates how to hide the filter bar for a template co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs25/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs25/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs25/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs25/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,13 +155,13 @@ The following example demonstrates how to show a custom component in the filter 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filter-template-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filter-template-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filter-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filter-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

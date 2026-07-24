@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
 layout: post
 title: Selection in Angular TreeGrid component | Syncfusion
 description: Learn all about selection in the Syncfusion Angular TreeGrid component, including single/multiple selection, selection modes, toggle selection, and touch interactions.

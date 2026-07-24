@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Paging in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Paging in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -20,27 +20,27 @@ To use paging, inject the [`Page`](../api/treegrid/#pagermodule) module in the t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs1" %}
 {% endif %}
 
 > You can achieve better performance by using treegrid paging to fetch only a pre-defined number of records from the data source.
@@ -58,27 +58,27 @@ With [`pageSizeMode`](../api/treegrid/pageSettingsModel/#pagesizemode) property 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs2" %}
 {% endif %}
 
 ## Template
@@ -91,27 +91,27 @@ Inside this template, you can access the [`currentPage`](../api/treegrid/pageSet
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pager-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/pager-template-cs1" %}
 {% endif %}
 
 ## Pager with Page Size Dropdown
@@ -132,27 +132,27 @@ By default, Pager will be rendered at the bottom of the TreeGrid. You can also r
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/page-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/page-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/page-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/page-cs3" %}
 {% endif %}
 
 > During the paging action, the pager component triggers the below three events.

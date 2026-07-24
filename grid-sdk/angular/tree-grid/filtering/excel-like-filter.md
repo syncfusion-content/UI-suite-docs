@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Excel like filter in Angular TreeGrid component | Syncfusion
 description: Learn here all about Excel like filter in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -16,13 +16,13 @@ Here is an example showcasing how to render the Excel-like filter within the Tre
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -39,13 +39,13 @@ Here is an example showcasing how to render the checkbox filter within the TreeG
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -63,13 +63,13 @@ The following example demonstrates how to customize the filter choice count in t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -136,10 +136,10 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -153,13 +153,13 @@ In this example, the `filterItemTemplate` is used to render icons along with the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -184,13 +184,13 @@ The following example demonstrates how to remove the context menu option in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -274,13 +274,13 @@ The following example demonstrates how to hide the sorting option in the Excel f
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-filtering-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-filtering-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

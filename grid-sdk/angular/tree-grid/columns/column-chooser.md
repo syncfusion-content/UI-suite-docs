@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column chooser in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column chooser in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -16,10 +16,10 @@ To use the column chooser, inject the **ColumnChooserService** in the provider s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -35,10 +35,10 @@ In this example, the `column.showInColumnChooser` property is set to false for t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -54,10 +54,10 @@ The following example demonstrates opening the column chooser in the TreeGrid us
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -82,10 +82,10 @@ To customize the column chooser dialog size, use the following CSS styles:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -101,10 +101,10 @@ The following example demonstrates changing the default search operator of the c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -118,10 +118,10 @@ The following example demonstrates using the `ignoreAccent` property to include 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-chooser-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-chooser-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

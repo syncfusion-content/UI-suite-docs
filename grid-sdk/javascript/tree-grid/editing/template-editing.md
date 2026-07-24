@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Template editing in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Template editing in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -23,27 +23,27 @@ In the following sample, treegrid enabled with dialog template editing.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/dialog-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/dialog-template-cs1" %}
 {% endif %}
 
 > The template form editors should have **name** attribute.

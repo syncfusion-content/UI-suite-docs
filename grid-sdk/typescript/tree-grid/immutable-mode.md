@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Immutable mode in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Immutable mode in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -28,7 +28,7 @@ To enable this feature, you have to set the [`enableImmutableMode`](../api/treeg
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/immutable-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -41,7 +41,7 @@ To enable this feature, you have to set the [`enableImmutableMode`](../api/treeg
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/immutable-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/immutable-cs1" %}
 {% endif %}
 
 ## Limitations

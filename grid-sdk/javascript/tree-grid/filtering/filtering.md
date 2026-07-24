@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Filtering in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Filtering in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ To use filter, inject the `Filter` module in the treegrid.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ To use filter, inject the `Filter` module in the treegrid.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs9" %}
 {% endif %}
 
 > * You can apply and clear filtering by using [`filterByColumn`](../../api/treegrid/#filterbycolumn) and [`clearFiltering`](../../api/treegrid/#clearfiltering) methods.
@@ -70,7 +70,7 @@ The below are the type of filter mode available in TreeGrid.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/hierarchy-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/hierarchy-filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -83,7 +83,7 @@ The below are the type of filter mode available in TreeGrid.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/hierarchy-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/hierarchy-filtering-cs1" %}
 {% endif %}
 
 ## Initial filter
@@ -102,7 +102,7 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -115,7 +115,7 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs10" %}
 {% endif %}
 
 ## Filter operators
@@ -155,7 +155,7 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -168,7 +168,7 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs11" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

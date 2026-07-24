@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Enable disable grid and its actions in Vue Treegrid component | Syncfusion
 description: Learn here all about Enable disable grid and its actions in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -51,11 +51,11 @@ In the below demo, the button click will enable/disable the Tree Grid and its ac
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs12" %}

@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Excel like filter in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Excel like filter in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -17,27 +17,27 @@ You can enable Excel like filter by defining.[`filterSettings.type`](../../api/t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs1" %}
 {% endif %}
 
 ## Change default excel filter operator
@@ -48,25 +48,25 @@ You can change the default excel-filter operator by changing the column operator
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/filtering-cs2" %}
 {% endif %}

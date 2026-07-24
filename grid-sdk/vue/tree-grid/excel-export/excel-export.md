@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Excel export in Vue Treegrid component | Syncfusion
 description: Learn here all about Excel export in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -27,7 +27,7 @@ To get start quickly with excel export feature, you can check on this video:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs8" %}
 
 ## Custom data source
 
@@ -42,7 +42,7 @@ The excel export provides an option to define datasource dynamically before expo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs9" %}
 
 ## Exporting Custom Aggregates in Tree Grid  
 The Tree Grid enables exporting custom aggregates, which summarize column data, to an Excel document using the `ExcelAggregateQueryCellInfo` event.  
@@ -56,4 +56,4 @@ In the provided example, the customAggregateFn function computes the item count 
 {% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs10" %}

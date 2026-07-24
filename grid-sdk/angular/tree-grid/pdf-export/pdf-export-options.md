@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: PDF export options in Angular TreeGrid component | Syncfusion
 description: Learn about PDF export options in the Syncfusion Angular TreeGrid component, including exporting current page, selected records, hidden columns, custom fonts, and advanced settings.
@@ -16,11 +16,11 @@ PDF export provides an option to export only the current page to a PDF document.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -34,11 +34,11 @@ In the following demo, the selected records are retrieved using the [`getSelecte
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -50,11 +50,11 @@ PDF export provides an option to include hidden columns in the exported PDF by s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -72,11 +72,11 @@ In the example below, the `Duration` column is hidden in the TreeGrid. While exp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -88,11 +88,11 @@ You can change the page orientation of the exported PDF to Landscape (the defaul
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -132,11 +132,11 @@ The page size of the exported PDF document can be customized using the `exportPr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -152,11 +152,11 @@ You can specify the file name for the exported document by setting the `fileName
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -197,11 +197,11 @@ In the following example, the Advent Pro font is used to export the TreeGrid wit
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/pdf-export-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/pdf-export-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

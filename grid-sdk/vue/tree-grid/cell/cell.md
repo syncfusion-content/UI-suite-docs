@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Cell in Vue Treegrid component | Syncfusion
 description: Learn here all about Cell in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ The appearance of cells can be customized by using the [`queryCellInfo`](https:/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs2" %}
 
 ## Custom attributes
 
@@ -52,7 +52,7 @@ In the below example, we have customized the cells of `TaskID` and `StartDate` c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs3" %}
 
 ## Grid lines
 
@@ -78,6 +78,6 @@ The available modes of grid lines are:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/cell/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/cell/default-cs4" %}
 
 >By default, the treegrid renders with `Default` mode.

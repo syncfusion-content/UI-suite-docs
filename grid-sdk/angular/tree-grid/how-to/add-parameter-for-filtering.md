@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Add parameter for filtering in Angular TreeGrid component | Syncfusion
 description: Learn how to add parameters for filtering in the Syncfusion Angular TreeGrid component of Essential JS 2, including menu filter customization and parameter handling.
@@ -16,11 +16,11 @@ In the following example, the `TaskID` and `Duration` columns are numeric column
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

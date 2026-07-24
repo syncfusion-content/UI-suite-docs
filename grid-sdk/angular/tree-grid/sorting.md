@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Sorting in Angular TreeGrid component | Syncfusion
 description: Learn here all about Sorting in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -24,11 +24,11 @@ The following demo illustrates how to enable sorting in the tree grid.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -42,11 +42,11 @@ The following example demonstrates how to set `sortSettings.columns` for **Categ
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,11 +67,11 @@ The following demo illustrates how to enable multi-column sorting in the tree gr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -85,11 +85,11 @@ The following example demonstrates how to enable the `enableSortMultiTouch` prop
 
 {% tabs %}   
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -105,11 +105,11 @@ The following example demonstrates, how to disable sorting for **orderName** col
 
 {% tabs %}   
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -129,11 +129,11 @@ In the following example, the custom sort comparer function was defined in the *
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -161,11 +161,11 @@ In the following example, sorting is performed based on the **"ar"** locale usin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -188,14 +188,14 @@ In the below sample, tree grid is rendered with a customized sort icon.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="sorting_style.css" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs9/src/sorting_style.css %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs9/src/sorting_style.css %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
@@ -213,11 +213,11 @@ The following example demonstrates how to add sort columns to a tree grid. It ut
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
@@ -231,11 +231,11 @@ The following example demonstrates how to remove sort columns. It utilizes the *
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
@@ -249,11 +249,11 @@ The following example demonstrates how to clear the sorting using `clearSorting`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
@@ -272,11 +272,11 @@ The following example demonstrates how the `actionBegin` and `actionComplete` ev
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/sorting-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/sorting-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

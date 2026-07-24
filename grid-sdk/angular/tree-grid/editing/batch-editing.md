@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
 layout: post
 title: Batch editing in Angular TreeGrid component | Syncfusion
 description: Learn how to use batch editing in the Syncfusion Angular TreeGrid component for editing multiple cells and performing bulk save operations efficiently.

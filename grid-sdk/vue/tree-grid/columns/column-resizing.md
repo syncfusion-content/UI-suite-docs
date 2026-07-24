@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Column resizing in Vue Treegrid component | Syncfusion
 description: Learn here all about Column resizing in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ To use the column resize, inject `Resize` module in the treegrid.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs6" %}
 
 > * You can disable resizing for a particular column by setting the [`columns.allowResizing`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#allowresizing) to false.
 > * In RTL mode, you can click and drag the left edge of the header cell to resize the column.
@@ -43,7 +43,7 @@ In the following sample, minimum and maximum width are defined for `Duration`, a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs7" %}
 
 ## Resize stacked column
 
@@ -58,4 +58,4 @@ Stacked columns can be resized by clicking and dragging the right edge of the st
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs8" %}

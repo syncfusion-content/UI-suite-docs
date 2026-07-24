@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column template in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column template in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -111,7 +111,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -137,10 +137,10 @@ In the following code, the ColorPicker component is rendered in the TreeGrid col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -158,10 +158,10 @@ To render a custom component in a TreeGrid column, define a template for the col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -181,10 +181,10 @@ In the following code, the Chips component is rendered in the TreeGrid **First N
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -198,10 +198,10 @@ In the following example, the Sparkline Chart component is rendered in the TreeG
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -226,10 +226,10 @@ The following example demonstrates how to use the `template` property with the `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -245,10 +245,10 @@ In the following code, the button element is rendered in the **Employee Data** c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -296,7 +296,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/template-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/template-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

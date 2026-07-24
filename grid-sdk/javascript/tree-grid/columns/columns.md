@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Columns in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Columns in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -29,27 +29,27 @@ values.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs7/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs7/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs7" %}
 {% endif %}
 
 > By default, the [`number`](../../common/internationalization/#number-formatting) and [`date`](../../common/internationalization/#manipulating-datetime) values are formatted in `en-US` locale.
@@ -86,27 +86,27 @@ Format | Formatted value
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs8/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs8/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs8/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs8" %}
 {% endif %}
 
 ## Lock columns
@@ -119,27 +119,27 @@ In the below example, duration column is locked and its reordering functionality
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs9/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs9/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs9/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs9" %}
 {% endif %}
 
 ## Column type
@@ -167,27 +167,27 @@ You can enable or disable treegrid action for a particular column by setting the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs11/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs11/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs11" %}
 {% endif %}
 
 ## Show/hide columns by external button
@@ -198,27 +198,27 @@ You can show or hide treegrid columns dynamically using external buttons by invo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/show-hide-columns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/show-hide-columns-cs1" %}
 {% endif %}
 
 ## ValueAccessor
@@ -229,27 +229,27 @@ The [`valueAccessor`](../../api/treegrid/column/#valueaccessor) is used to acces
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs12/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs12" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs12/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs12" %}
 {% endif %}
 
 ### Display array type columns
@@ -262,27 +262,27 @@ In this example, the name field has an array of two objects, FirstName and LastN
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs13/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs13" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs13/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs13" %}
 {% endif %}
 
 ### Expression column
@@ -293,27 +293,27 @@ You can achieve the expression column by using the [`valueAccessor`](../../api/t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs14/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs14/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs14" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs14/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs14/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs14" %}
 {% endif %}
 
 ## How to render boolean values as checkbox
@@ -324,27 +324,27 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs15/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs15/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs15" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs15/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs15/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/columns-cs15/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/columns-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columns-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columns-cs15" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

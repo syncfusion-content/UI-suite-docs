@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Select treegrid rows based on certain condition in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Select treegrid rows based on certain condition in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ In the below demo, we have selected the Tree Grid rows only when *Duration* colu
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/select-rows-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/select-rows-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ In the below demo, we have selected the Tree Grid rows only when *Duration* colu
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/select-rows-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/select-rows-cs1" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

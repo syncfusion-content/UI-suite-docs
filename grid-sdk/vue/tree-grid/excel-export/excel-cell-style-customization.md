@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Excel cell style customization in Vue Treegrid component | Syncfusion
 description: Learn here all about Excel cell style customization in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -25,7 +25,7 @@ In the below sample, we have set the background color for `Duration` column in t
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs2" %}
 
 ## Theme
 
@@ -42,6 +42,6 @@ To apply theme in exported Excel, define the `theme` in `exportProperties`.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs3" %}
 
 >By default, material theme is applied to exported excel document.

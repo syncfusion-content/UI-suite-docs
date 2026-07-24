@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Passing parameter to server exporting in Vue Treegrid component | Syncfusion
 description: Learn here all about Passing parameter to server exporting in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -16,11 +16,11 @@ In the below example, we have passed *recordcount* as *12* using [`addParams`](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs16/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs16/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs16/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs16/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs16" %}

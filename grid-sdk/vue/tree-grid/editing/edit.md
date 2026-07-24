@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Edit in Vue Treegrid component | Syncfusion
 description: Learn here all about Edit in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -22,14 +22,14 @@ To get start quickly with Edit Options, you can check on this video:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs7" %}
 
 > * You can disable editing for a particular column, by specifying
 [`columns.allowEditing`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#allowediting) to `false`.
@@ -41,14 +41,14 @@ You can define this by using the [`toolbar`](https://ej2.syncfusion.com/vue/docu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs8" %}
 
 <!-- markdownlint-disable MD033 -->
 <!--  Template context
@@ -170,14 +170,14 @@ The following examples shows how to set new row position as `Child` in tree grid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs9" %}
 
 ## Confirmation messages
 
@@ -187,14 +187,14 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs10" %}
 
 > The `showDeleteConfirmDialog` supports all type of edit modes.
 
@@ -205,14 +205,14 @@ To set a default value for the particular column by defining the [`columns.defau
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs11" %}
 
 ## Disable editing for particular column
 
@@ -222,14 +222,14 @@ In the following demo, editing is disabled for the `Start Date` column.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs12" %}
 
 ## Troubleshoot: Editing works only for first row
 

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Exporting filtered data in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Exporting filtered data in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ In the below Pdf exporting demo, We have gotten the filtered data from the filte
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/export-filtered-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/export-filtered-data-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ In the below Pdf exporting demo, We have gotten the filtered data from the filte
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/export-filtered-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/export-filtered-data-cs1" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

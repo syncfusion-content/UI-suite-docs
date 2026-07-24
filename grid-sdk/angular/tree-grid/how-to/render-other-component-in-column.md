@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Render other component in a column in Angular TreeGrid component | Syncfusion
 description: Learn how to render custom components in columns using the template property of the Syncfusion Angular TreeGrid component.
@@ -18,11 +18,11 @@ In the sample below, a DropDownList is rendered in the **Priority** column.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

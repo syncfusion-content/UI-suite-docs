@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Clipboard in Vue Treegrid component | Syncfusion
 description: Learn here all about Clipboard in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -21,14 +21,14 @@ Interaction keys |Description
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs1" %}
 
 ## Copy to clipboard by external buttons
 
@@ -36,14 +36,14 @@ To copy selected rows or cells data into clipboard with help of external buttons
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs2" %}
 
 ## Copy Hierarchy Modes
 
@@ -59,14 +59,14 @@ Tree Grid provides support for a set of copy modes with [`copyHierarchyMode`](ht
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs3" %}
 
 ### Limitations of Copy Functionality
 
@@ -78,14 +78,14 @@ AutoFill Feature allows you to copy the data of selected cells and paste it to a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs4" %}
 
 > * If [`enableAutoFill`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#enableautofill) is set to true, then the autofill icon will be displayed on cell selection to copy cells.
 > * It requires the selection [`mode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionSettings/#mode) to be **Cell**,  [`cellSelectionMode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionSettings/#cellselectionmode) to be **Box** and also Batch Editing should be enabled.
@@ -101,14 +101,14 @@ You can able to copy the content of a cell or a group of cells by selecting the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/clipboard/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/clipboard/default-cs5" %}
 
 > To perform paste functionality, it requires the selection [`mode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionMode/) to be **Cell**,  [`cellSelectionMode`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/cellSelectionMode/) to be **Box** and also Batch Editing should be enabled.
 

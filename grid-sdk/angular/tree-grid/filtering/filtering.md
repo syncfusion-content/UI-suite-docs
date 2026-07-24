@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Filtering in Angular TreeGrid component | Syncfusion
 description: Learn here all about Filtering in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -30,13 +30,13 @@ Here is an example that demonstrates the default filtering feature of the TreeGr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs9/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs9/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -71,13 +71,13 @@ The following demo illustrates filtering records with different hierarchy modes.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs10/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs10/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs10/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -91,13 +91,13 @@ Here is an example of how to configure the initial filter using the `predicate` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs11/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs11/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -113,13 +113,13 @@ The following example demonstrates how to perform an initial filter with multipl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs12/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs12/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs12/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -135,13 +135,13 @@ The following example demonstrates how to perform an initial filter with multipl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs13/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs13/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs13/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -181,16 +181,16 @@ Here's an example that demonstrates how to change the default filter operator co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs14/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs14/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs14/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="dataSource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs14/src/dataSource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs14/src/dataSource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -204,13 +204,13 @@ Here's an example that demonstrates how to remove the filter bar for the taskNam
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs15/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs15/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs15/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -431,13 +431,13 @@ Consider the following sample where the `ignoreAccent` property is set to true i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs16/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs16/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs16/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -451,13 +451,13 @@ Below is an example code demonstrating how to enable or disable case sensitivity
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs17/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs17/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs17/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs17/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -473,13 +473,13 @@ Here's an example where the menu filter is enabled by default for all columns, b
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs18/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs18/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs18/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -497,13 +497,13 @@ The following example demonstrates how to programmatically filter the TreeGrid u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs19/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs19/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs19/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -523,13 +523,13 @@ Below is an example demonstrating how to retrieve filtering data in a TreeGrid u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs20/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs20/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs20/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -563,13 +563,13 @@ Here's an example of how to clear the filtering in a TreeGrid using the `clearFi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs21/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs21/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs21/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs21/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs21/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs21/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -640,10 +640,10 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs22/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs22/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs22/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs22/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

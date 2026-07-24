@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Indent in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Indent in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/indent-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/indent-outdent-cs1" %}
 {% endif %}
 
 ## Indent/Outdent a row programmatically
@@ -57,7 +57,7 @@ You can change the hierarchy level of record programmatically using [indent](htt
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -70,5 +70,5 @@ You can change the hierarchy level of record programmatically using [indent](htt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/programmatic-indent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/programmatic-indent-cs1" %}
 {% endif %}

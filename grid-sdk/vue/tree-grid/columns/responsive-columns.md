@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Responsive columns in Vue Treegrid component | Syncfusion
 description: Learn here all about Responsive columns in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -24,4 +24,4 @@ The [`hideAtMedia`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/co
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs23" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs23" %}

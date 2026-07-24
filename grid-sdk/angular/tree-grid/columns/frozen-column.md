@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column pinning (Frozen) in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column pinning (Frozen) in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -16,10 +16,10 @@ In the following example, the [frozenColumns](https://ej2.syncfusion.com/angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,10 +40,10 @@ The following example demonstrates how to freeze particular column in TreeGrid u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -67,10 +67,10 @@ In the following example, the **taskName** column is frozen on the left side, th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -113,10 +113,10 @@ The following example demonstrates how to change the default frozen line color u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/frozencolumns-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/frozencolumns-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

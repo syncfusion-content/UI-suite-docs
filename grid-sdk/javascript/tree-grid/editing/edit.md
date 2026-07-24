@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Edit in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Edit in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -28,7 +28,7 @@ To use CRUD, inject the [`Edit`](../../api/treegrid/#editmodule) module in treeg
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -41,7 +41,7 @@ To use CRUD, inject the [`Edit`](../../api/treegrid/#editmodule) module in treeg
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs8" %}
 {% endif %}
 
 > * You can disable editing for a particular column, by specifying [`columns.allowEditing`](../../api/treegrid/column/#allowediting) to `false`.
@@ -62,7 +62,7 @@ You can define this by using the [`toolbar`](../../api/treegrid/#toolbar) proper
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -75,7 +75,7 @@ You can define this by using the [`toolbar`](../../api/treegrid/#toolbar) proper
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs9" %}
 {% endif %}
 
 ## Adding row position
@@ -95,7 +95,7 @@ The following examples shows how to set new row position as `Child` in tree grid
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -108,7 +108,7 @@ The following examples shows how to set new row position as `Child` in tree grid
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs10" %}
 {% endif %}
 
 ## Confirmation messages
@@ -128,7 +128,7 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -141,7 +141,7 @@ The delete confirm dialog can be shown when deleting a record by defining the [`
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs11" %}
 {% endif %}
 
 > The `showDeleteConfirmDialog` supports all type of edit modes.
@@ -162,7 +162,7 @@ To set a default value for the particular column by defining the [`columns.defau
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs12" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -175,7 +175,7 @@ To set a default value for the particular column by defining the [`columns.defau
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs12" %}
 {% endif %}
 
 ## Disable editing for particular column
@@ -195,7 +195,7 @@ In the following demo, editing is disabled for the `Start Date` column.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs13" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -208,7 +208,7 @@ In the following demo, editing is disabled for the `Start Date` column.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/edit-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/edit-cs13" %}
 {% endif %}
 
 ## Troubleshoot: Editing works only for first row

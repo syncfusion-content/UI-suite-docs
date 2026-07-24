@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Column spanning in Vue TreeGrid | Syncfusion
 description: Learn here all about Column spanning in Syncfusion Vue TreeGrid of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ In the following example, Employee **Davolio** is scheduled for analysis from "9
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs1" %}
 
 ## Limitations
 
@@ -51,7 +51,7 @@ To enable column spanning, set the `enableColumnSpan` property to `true` in the 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs2" %}
 
 > In the sample, column spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableColumnSpan` property to `false`.
 

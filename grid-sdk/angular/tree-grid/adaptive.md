@@ -20,10 +20,10 @@ The following example demonstrates adaptive dialog rendering:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/adaptive-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/adaptive-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/adaptive-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/adaptive-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Show spinner on exporting in Vue Treegrid component | Syncfusion
 description: Learn here all about Show spinner on exporting in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -27,4 +27,4 @@ In the below demo, we have rendered the default spinner component when exporting
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs21" %}

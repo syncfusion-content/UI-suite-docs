@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Excel export in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Excel export in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -26,7 +26,7 @@ To use excel export, You need to inject the `ExcelExport` module in treegrid.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ To use excel export, You need to inject the `ExcelExport` module in treegrid.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs7" %}
 {% endif %}
 
 ## Persist collapsed state
@@ -57,7 +57,7 @@ You can persist the collapsed state in the exported document by defining `isColl
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -70,7 +70,7 @@ You can persist the collapsed state in the exported document by defining `isColl
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs8" %}
 {% endif %}
 
 ## Custom data source
@@ -88,7 +88,7 @@ The excel export provides an option to define datasource dynamically before expo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -101,7 +101,7 @@ The excel export provides an option to define datasource dynamically before expo
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/excel-export-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/excel-export-cs9" %}
 {% endif %}
 
 ## Exporting custom aggregates in TreeGrid  
@@ -121,7 +121,7 @@ In the provided example, the `customAggregateFn` function computes the item coun
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/custom-aggregates-excel" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/custom-aggregates-excel" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -134,7 +134,7 @@ In the provided example, the `customAggregateFn` function computes the item coun
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/custom-aggregates-excel" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/custom-aggregates-excel" %}
 {% endif %}
 
 

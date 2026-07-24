@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Filter menu in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Filter menu in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -25,7 +25,7 @@ You can filter the records with different operators.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -38,7 +38,7 @@ You can filter the records with different operators.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs6" %}
 {% endif %}
 
 > * [`allowFiltering`](../../api/treegrid/#allowfiltering) must be set as true to enable filter menu.
@@ -65,7 +65,7 @@ In the following sample, dropdown is used  as custom component in the duration c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -78,7 +78,7 @@ In the following sample, dropdown is used  as custom component in the duration c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs7" %}
 {% endif %}
 
 ## Enable different filter dialog for a column
@@ -99,7 +99,7 @@ In the following sample menu filter is enabled by default and excel filter is en
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -112,5 +112,5 @@ In the following sample menu filter is enabled by default and excel filter is en
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs8" %}
 {% endif %}

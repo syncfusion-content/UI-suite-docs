@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Tool bar in Angular TreeGrid component | Syncfusion
 description: Learn about using and customizing the toolbar in the Syncfusion Angular TreeGrid component, including enabling/disabling items, adding toolbars at different positions, and toolbar templates.
@@ -22,11 +22,11 @@ Alternatively, you can use the [`enableToolbarItems`](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs39/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs39/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs39/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs39/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,11 +38,11 @@ You can add a toolbar to the bottom of the TreeGrid by configuring it within the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs40/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs40/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs40/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/edit-toolbar-cs40/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Customize pager drop down in Vue Treegrid component | Syncfusion
 description: Learn here all about Customize pager drop down in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -14,11 +14,11 @@ To customize default values of pager dropdown, you need to define [`pageSizes`](
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs7" %}

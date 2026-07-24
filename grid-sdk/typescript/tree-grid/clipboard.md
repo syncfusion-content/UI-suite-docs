@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Clipboard in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Clipboard in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -24,27 +24,27 @@ Interaction keys |Description
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs1" %}
 {% endif %}
 
 ## Copy to clipboard by external buttons
@@ -55,27 +55,27 @@ To copy selected rows or cells data into the clipboard with help of external but
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/copy-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/copy-method-cs1" %}
 {% endif %}
 
 ## Copy Hierarchy Modes
@@ -95,27 +95,27 @@ The below are the type of filter mode available in TreeGrid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-copy-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/hierarchy-copy-cs1" %}
 {% endif %}
 
 ### Limitations of Copy Functionality
@@ -130,27 +130,27 @@ AutoFill Feature allows you to copy the data of selected cells and paste it to a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs2" %}
 {% endif %}
 
 > * If `enableAutoFill` is set to true, then the autofill icon will be displayed on cell selection to copy cells.
@@ -169,27 +169,27 @@ You can able to copy the content of a cell or a group of cells by selecting the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/clipboard-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/clipboard-cs3" %}
 {% endif %}
 
 > To perform paste functionality, it requires the selection `mode` to be `Cell`,  `cellSelectionMode` to be `Box` and also Batch Editing should be enabled.

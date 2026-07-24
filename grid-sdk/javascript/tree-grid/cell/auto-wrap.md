@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Auto wrap in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Auto wrap in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -36,7 +36,7 @@ In the following example, the `textWrapSettings.wrapMode` is set to `Content`.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/cell-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -49,5 +49,5 @@ In the following example, the `textWrapSettings.wrapMode` is set to `Content`.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/cell-cs1" %}
 {% endif %}

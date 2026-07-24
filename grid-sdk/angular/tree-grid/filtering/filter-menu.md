@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Filter menu in Angular TreeGrid component | Syncfusion
 description: Learn here all about Filter menu in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,13 +18,13 @@ Here is an example that demonstrates the usage of the filter menu in the TreeGri
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -49,13 +49,13 @@ Here is a sample code demonstrating how to render a dropdownlist component for t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -71,13 +71,13 @@ Here is an example that demonstrates how to show 24-hour time format in filter d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -98,13 +98,13 @@ Here is an example of how to customize the filter operators list in the TreeGrid
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -118,13 +118,13 @@ Here is an example that demonstrates how to perform filtering by multiple keywor
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -148,13 +148,13 @@ In the example provided below, the **Task ID** and **Duration** columns are nume
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -170,13 +170,13 @@ Here's an example that demonstrates how to prevent autofill options in the autoc
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -270,10 +270,10 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/filtering-menu-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/filtering-menu-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

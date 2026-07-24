@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Data binding in Angular TreeGrid component | Syncfusion
 description: Learn about data binding in the Syncfusion Angular TreeGrid component, covering local and remote data integration, expand state mapping, and best practices.
@@ -26,13 +26,13 @@ You can use TreeGrid [`dataSource`](https://ej2.syncfusion.com/angular/documenta
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -168,11 +168,11 @@ The following example demonstrates how to add and delete records from datasource
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-datasource-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-datasource-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-datasource-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-datasource-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

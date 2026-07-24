@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Cell selection in Vue Treegrid component | Syncfusion
 description: Learn here all about Cell selection in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -20,13 +20,13 @@ TreeGrid supports two types of cell selection mode which can be set by using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/selection/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/selection/default-cs1" %}
 
 > Cell Selection requires the [`selectionSettings.mode`](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings/#mode) to be `Cell` or  `Both` and [`type`](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings/#type) should be `Multiple`.

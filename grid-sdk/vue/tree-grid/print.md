@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Print in Vue Treegrid component | Syncfusion
 description: Learn here all about Print in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -14,14 +14,14 @@ To print the TreeGrid, use the [`print`](https://ej2.syncfusion.com/vue/document
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/print/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/print/default-cs1" %}
 
 ## Page setup
 
@@ -38,14 +38,14 @@ To print the treegrid from an external button, invoke the [`print`](https://ej2.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/print/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/print/default-cs2" %}
 
 ## Print visible Page
 
@@ -53,14 +53,14 @@ By default, the grid prints all the pages. To print the current page alone, set 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/print/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/print/default-cs3" %}
 
 ## Print large number of columns
 
@@ -82,14 +82,14 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/print/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/print/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/print/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/print/default-cs4" %}
 
 ## Limitations of Printing Large Data
 

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Row drag and drop in Vue Treegrid component | Syncfusion
 description: Learn here all about Row drag and drop in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -20,14 +20,14 @@ The TreeGrid row drag and drop allows you to drag and drop TreeGrid rows on the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-cs1" %}
 
 > * Selection feature must be enabled for row drag and drop.
 > * For multiple row selection, the [`type`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/selectionSettings/#type) property must be set to `multiple`.
@@ -39,14 +39,14 @@ To drag and drop between two TreeGrid, enable the [`allowRowDragAndDrop`](https:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-cs2" %}
 
 ## Drag and drop events
 
@@ -65,11 +65,11 @@ In the below example drop action is cancelled and dropped above to target row.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-cs3" %}

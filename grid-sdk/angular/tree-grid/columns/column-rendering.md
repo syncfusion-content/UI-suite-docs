@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column rendering in Angular TreeGrid component | Syncfusion
 description: Learn here all about column rendering in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -26,10 +26,10 @@ The following example demonstrates how to define columns manually in the TreeGri
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-render-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-render-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/columns-render-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/columns-render-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,10 +43,10 @@ The following example demonstrates auto-generated columns in the TreeGrid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ The following example demonstrates how to set a primary key for an auto-generate
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -93,10 +93,10 @@ In the following example, `width` is set for **taskID** column, **date** `type` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/auto-generated-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/auto-generated-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -114,10 +114,10 @@ The following example demonstrates dynamic column generation in the TreeGrid usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -135,10 +135,10 @@ In the following example, the **currencyFormatter** function takes the price val
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -156,10 +156,10 @@ This displays the concatenated value of **FirstName** and **LastName** in the **
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/dynamic-column-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/dynamic-column-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -175,10 +175,10 @@ In this example, the TreeGrid has columns **orderID**, **orderName**, **units**,
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/expression-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/expression-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/expression-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/expression-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -196,10 +196,10 @@ The following example demonstrates how to display serial numbers in a TreeGrid u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/expression-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/expression-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/expression-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/expression-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -219,10 +219,10 @@ In the following example, the nested **Task** object's **firstName** and **lastN
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/complex-data-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/complex-data-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/complex-data-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/complex-data-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -319,10 +319,10 @@ The following example demonstrates how to set complex field for datasource havin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/complex-data-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/complex-data-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/complex-data-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/complex-data-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

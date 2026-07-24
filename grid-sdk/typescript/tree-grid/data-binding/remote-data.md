@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Remote data in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Remote data in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -34,27 +34,27 @@ Similarly, if the user navigates to a new page, the root nodes of that specific 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs4" %}
 {% endif %}
 
 **Service code snippet:**
@@ -333,27 +333,27 @@ On remote data binding, all treegrid actions such as paging, loading child on-de
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs5" %}
 {% endif %}
 
 ## Custom adaptor
@@ -364,27 +364,27 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs6" %}
 {% endif %}
 
 ## Sending additional parameters to the server
@@ -395,27 +395,27 @@ To add a custom parameter to the data request, use the `addParams` method of `Qu
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs7" %}
 {% endif %}
 
 ## Handling HTTP error
@@ -429,27 +429,27 @@ The argument passed to the [`actionFailure`](../../api/treegrid#actionfailure) e
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/data-binding-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/data-binding-cs8" %}
 {% endif %}
 
 > The [`actionFailure`](../../api/treegrid#actionfailure) event will be triggered not only for the server errors, but

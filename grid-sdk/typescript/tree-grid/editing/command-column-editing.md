@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Command column editing in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Command column editing in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -33,7 +33,7 @@ The available built-in command buttons are:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/edit-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/edit-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -46,7 +46,7 @@ The available built-in command buttons are:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/edit-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/edit-cs3" %}
 {% endif %}
 
 ## Custom command
@@ -64,7 +64,7 @@ The available built-in command buttons are:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/edit-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/edit-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -77,5 +77,5 @@ The available built-in command buttons are:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/edit-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/edit-cs4" %}
 {% endif %}

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Scrolling in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Scrolling in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -27,27 +27,27 @@ To specify the [`width`](../api/treegrid/#width) and [`height`](../api/treegrid/
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/scrolling-cs1" %}
 {% endif %}
 
 ## Responsive with parent container
@@ -59,27 +59,27 @@ Setting the [`height`](../api/treegrid/#height) to `100%` requires the treegrid 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/responsive-scrolling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/responsive-scrolling-cs1" %}
 {% endif %}
 
 ## Sticky header
@@ -96,27 +96,27 @@ The following sample demonstrates how to enable or disable the sticky header in 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-sticky-header/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-sticky-header/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-sticky-header/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-sticky-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/scrolling-sticky-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/scrolling-sticky-header" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-sticky-header/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-sticky-header/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scrolling-sticky-header/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scrolling-sticky-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/sscrolling-sticky-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/sscrolling-sticky-header" %}
 {% endif %}
 
 ## Scroll to selected row
@@ -127,25 +127,25 @@ You can scroll the treegrid content to the selected row position by using the [`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/scroll-to-select-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/scroll-to-select-row-cs1" %}
 {% endif %}

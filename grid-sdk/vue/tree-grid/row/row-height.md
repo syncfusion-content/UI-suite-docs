@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Row height in Vue Treegrid component | Syncfusion
 description: Learn here all about Row height in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ In the below example, the `rowHeight` is set as '60px'.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-cs4" %}
 
 ## Customize row height for particular row
 
@@ -41,4 +41,4 @@ In the below example, the row height for the row with Task ID as '3' is set as '
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-cs5" %}

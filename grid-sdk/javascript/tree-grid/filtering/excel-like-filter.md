@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Excel like filter in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Excel like filter in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -24,7 +24,7 @@ You can enable Excel like filter by defining.[`filterSettings.type`](../../api/t
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -37,7 +37,7 @@ You can enable Excel like filter by defining.[`filterSettings.type`](../../api/t
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs1" %}
 {% endif %}
 
 ## Change default excel filter operator
@@ -55,7 +55,7 @@ You can change the default excel-filter operator by changing the column operator
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -68,5 +68,5 @@ You can change the default excel-filter operator by changing the column operator
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/filtering-cs2" %}
 {% endif %}

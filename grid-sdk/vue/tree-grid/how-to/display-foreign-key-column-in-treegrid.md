@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Display foreign key column in treegrid in Vue Treegrid component | Syncfusion
 description: Learn here all about Display foreign key column in treegrid in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -16,11 +16,11 @@ To display the foreignKey value at initial rendering, we can use the [`queryCell
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs10" %}

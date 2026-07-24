@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Indent in Angular TreeGrid component | Syncfusion
 description: Learn here all about Indent in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -24,10 +24,10 @@ The following demo illustrates how to enable indent and outdent functionalities 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/indent-outdent-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/indent-outdent-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/indent-outdent-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/indent-outdent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -43,10 +43,10 @@ The following demo illustrates how to programmatically indent or outdent a row u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/programmatic-indent-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/programmatic-indent-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/programmatic-indent-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/programmatic-indent-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -97,7 +97,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/indent-outdent-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/indent-outdent-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

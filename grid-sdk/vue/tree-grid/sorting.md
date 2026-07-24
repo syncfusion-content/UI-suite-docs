@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Sorting in Vue Treegrid component | Syncfusion
 description: Learn here all about Sorting in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -28,7 +28,7 @@ To sort, inject the [`Sort`](https://ej2.syncfusion.com/vue/documentation/api/tr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1" %}
 
 > * TreeGrid columns are sorted in the `Ascending` order. If you click the already sorted column, the sort direction toggles.
 > * You can apply and clear sorting by invoking [`sortByColumn`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#sortbycolumn) and
@@ -48,7 +48,7 @@ To sort at initial rendering, set the [`field`](https://ej2.syncfusion.com/vue/d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2" %}
 
 ## Sorting events
 
@@ -63,7 +63,7 @@ During the sort action, the treegrid component triggers two events. The [`action
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3" %}
 
 > The `args.requestType` is the current action name. For example, in sorting the `args.requestType` value is 'sorting'.
 

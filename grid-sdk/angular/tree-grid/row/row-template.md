@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Row template in Angular TreeGrid component | Syncfusion
 description: Learn here all about Row template in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -81,7 +81,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -175,7 +175,7 @@ export interface DateFormat extends Window {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -245,7 +245,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

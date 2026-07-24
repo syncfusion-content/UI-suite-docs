@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Row selection in Angular TreeGrid component | Syncfusion
 description: Learn how to use row selection in the Syncfusion Angular TreeGrid component, including programmatic selection, getting selected indexes and records, and persistent selection.
@@ -16,11 +16,11 @@ To select a row when the TreeGrid first renders, set the [`selectedRowIndex`](ht
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,11 +32,11 @@ Obtain selected row indexes using the [`getSelectedRowIndexes`](https://ej2.sync
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,11 +50,11 @@ In the demo below, the third row is selected initially using [`selectedRowIndex`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,11 +68,11 @@ Get the selected records using the [`getSelectedRecords`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,11 +86,11 @@ Retrieve selected row elements using the [`getSelectedRows`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

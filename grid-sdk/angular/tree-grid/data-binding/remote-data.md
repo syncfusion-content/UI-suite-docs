@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Remote data in Angular TreeGrid component | Syncfusion
 description: Learn how to bind remote data in the Syncfusion Angular TreeGrid component, including load on demand, paging, virtualization, adaptors, and error handling.
@@ -28,10 +28,10 @@ Key actions using load on demand:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -268,10 +268,10 @@ To avoid round trips to the server and process TreeGrid actions client-side, set
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ You can extend DataManager’s adaptors to implement custom data processing—su
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -298,10 +298,10 @@ To send custom parameters with your remote data requests, use the `addParams` me
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -313,10 +313,10 @@ Handle exceptions and errors from the server using the TreeGrid’s [`actionFail
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/data-binding-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/data-binding-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

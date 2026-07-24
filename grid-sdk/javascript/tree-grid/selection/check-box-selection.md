@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Check box selection in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Check box selection in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -19,27 +19,27 @@ To render the checkbox in each treegrid row, you need to use checkbox column wit
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs2" %}
 {% endif %}
 
 > * By default, selection is allowed by clicking a treegrid row or checkbox in that row. To allow selection only through checkbox, you can set the
@@ -57,27 +57,27 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs3" %}
 {% endif %}
 
  > Checkbox Selection feature is intended for row selection only; it is not compatible with cell selection mode.
@@ -96,25 +96,25 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs10/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs10/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/selection-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/selection-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/selection-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/selection-cs10" %}
 {% endif %}

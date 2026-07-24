@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Filter bar in Vue Treegrid component | Syncfusion
 description: Learn here all about Filter bar in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -38,4 +38,4 @@ N/A |N/A |`Equal` operator will always be used for Boolean filter. |Boolean
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/filtering/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/filtering/default-cs3" %}

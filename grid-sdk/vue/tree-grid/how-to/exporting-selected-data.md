@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/vue/treegrid---
 layout: post
 title: Exporting selected data in Vue Treegrid component | Syncfusion
 description: Learn here all about Exporting selected data in Syncfusion Vue Treegrid component of Syncfusion Essential JS 2 and more.
@@ -16,11 +16,11 @@ In the below exporting demo, we can get the selected records using [`getSelected
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs14/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs14/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs14/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs14/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs14" %}

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridhttps://help.syncfusion.com/samples/grid-sdk/angular/treegrid---
 layout: post
 title: PDF export in Angular TreeGrid component | Syncfusion
 description: Learn how to enable and use PDF export in the Syncfusion Angular TreeGrid component, including showing a spinner and providing a custom data source.

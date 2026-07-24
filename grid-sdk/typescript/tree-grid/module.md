@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Module in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Module in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -49,4 +49,4 @@ The following example demonstrates how to enable basic features such as Paging, 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/module-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/module-cs1" %}

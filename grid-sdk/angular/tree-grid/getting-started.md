@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Getting started with Angular Tree Grid component | Syncfusion
 description: Learn how to get started with the Angular Tree Grid component in Syncfusion Essential JS 2, including installation, configuration, and basic usage.
@@ -147,7 +147,7 @@ Modify the template in the **src/app/app.ts** file to render the tree grid compo
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/getting-started/src/app.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/getting-started/src/app.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
 import { bootstrapApplication } from '@angular/platform-browser';

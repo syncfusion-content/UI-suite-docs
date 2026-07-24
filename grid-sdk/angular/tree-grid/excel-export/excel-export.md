@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+code-snippet/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Excel export in Angular TreeGrid component | Syncfusion
 description: Learn about exporting data from the Syncfusion Angular TreeGrid component of Essential JS 2 to Excel documents.
@@ -20,11 +20,11 @@ Watch this video to learn how to perform exporting operations and customize them
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,11 +44,11 @@ The following example demonstrates how to show and hide the spinner during Excel
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs17/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs17/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,11 +60,11 @@ The collapsed state of nodes in the exported Excel document can be persisted by 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,11 +78,11 @@ Excel export provides the capability to define a data source dynamically before 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,11 +95,11 @@ In the provided example, the customAggregateFn function computes the item count 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -115,11 +115,11 @@ The following example demonstrates how to pass additional parameters to the serv
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

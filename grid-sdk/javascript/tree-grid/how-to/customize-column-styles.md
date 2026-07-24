@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Customize column styles in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Customize column styles in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -56,7 +56,7 @@ Add the custom CSS class to the specified column by using the [`customAttributes
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columnstyle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columnstyle-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -69,7 +69,7 @@ Add the custom CSS class to the specified column by using the [`customAttributes
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/columnstyle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/columnstyle-cs1" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

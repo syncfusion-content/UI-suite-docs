@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/javascript/treegrid---
 layout: post
 title: Frozen in JavaScript Treegrid control | Syncfusion
 description: Learn here all about Frozen in Syncfusion JavaScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -24,27 +24,27 @@ is set as '3'. Hence, the left two columns and top three rows are frozen.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs1" %}
 {% endif %}
 
 ### Freeze particular columns
@@ -58,27 +58,27 @@ the `isFrozen` property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/frozencolumns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/frozencolumns-cs2" %}
 {% endif %}
 
 ### Freeze direction
@@ -96,27 +96,27 @@ In this demo, the **Task Name** column is frozen at the left and the **Priority*
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/freezedirections-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/freezedirections-cs1" %}
 {% endif %}
 
 > * Freeze Direction is not compatible with the [`isFrozen`](../api/treegrid/column/#isfrozen) and [`frozenColumns`](../api/treegrid/#frozencolumns) properties.

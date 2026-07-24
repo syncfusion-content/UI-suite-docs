@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column menu in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column menu in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -27,10 +27,10 @@ The default column menu items are displayed in the following table:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -48,10 +48,10 @@ The following example demonstrates how to add a custom column menu item to clear
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -65,10 +65,10 @@ In the following example, the **Filter** item is hidden in the column menu when 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -101,10 +101,10 @@ The following example demonstrates how to customize the column menu icon in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -120,10 +120,10 @@ The following example demonstrates how to configure the `columnMenuItems` proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -138,10 +138,10 @@ The column menu in the Syncfusion<sup style="font-size:70%">&reg;</sup> Angular 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/column-menu-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/column-menu-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   

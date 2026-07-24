@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/typescript/treegrid---
 layout: post
 title: Row drag and drop in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Row drag and drop in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
@@ -23,27 +23,27 @@ The TreeGrid row drag and drop allows you to drag and drop TreeGrid rows on the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs1" %}
 {% endif %}
 
 > * Selection feature must be enabled for row drag and drop.
@@ -58,27 +58,27 @@ To drag and drop between two TreeGrid, enable the [`allowRowDragAndDrop`](../../
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-cs1" %}
 {% endif %}
 
 ## Drag and drop events
@@ -100,25 +100,25 @@ In the below example drop action is cancelled and dropped above to target row.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/draganddrop-single-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid/draganddrop-single-cs2" %}
 {% endif %}

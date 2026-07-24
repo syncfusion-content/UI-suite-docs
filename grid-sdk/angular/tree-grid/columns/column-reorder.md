@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/angular/treegrid---
+https://help.syncfusion.com/samples/grid-sdk/angular/treegridcode-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column reorder in Angular TreeGrid component | Syncfusion
 description: Learn here all about Column reorder in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,10 +18,10 @@ The following example demonstrates column reordering in the TreeGrid component:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
@@ -40,10 +40,10 @@ In this example, the **startDate** column is prevented from being reordered by s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ In this example, the column at index **1** is moved to index **3**.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -88,10 +88,10 @@ The following example demonstrates how to use the `reorderColumns` method to reo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ The following example demonstrates how to use the `reorderColumnByTargetIndex` m
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -131,13 +131,13 @@ The following example demonstrates the implementation of `columnDragStart`, `col
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs6/src/main.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/reorder-cs6/index.html %}
+{% include code-snippet/grid-sdk/angular/treegrid/reorder-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
