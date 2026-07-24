@@ -49,27 +49,27 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
 
 {% endif %}
 
@@ -104,27 +104,27 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
 
 {% endif %}
 
@@ -146,27 +146,27 @@ The following code example illustrates how to create activation boxes:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
 
 {% endif %}
 
@@ -206,27 +206,27 @@ The following code example illustrates how to create fragments:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umlsequencediagram-4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
 
 {% endif %}
 

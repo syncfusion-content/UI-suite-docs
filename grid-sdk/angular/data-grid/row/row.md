@@ -32,15 +32,15 @@ Here's an example of customizing the rows styles based on the value of the "Frei
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-css-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-css-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-css-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-css-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-css-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-css-cs11" %}
 
 > The [queryCellInfo](https://ej2.syncfusion.com/angular/documentation/api/grid#querycellinfo) event provides similar functionality for individual cell customization and can be combined with row-level styling for comprehensive appearance control.
 
@@ -64,15 +64,15 @@ The following example demonstrates using the `.e-altrow` class to style alternat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-style-alt-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-style-alt-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-style-alt-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-style-alt-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-style-alt-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-style-alt-cs1" %}
 
 **Customize selected row**
 
@@ -89,15 +89,15 @@ Here's an example of styling the selected row using the `.e-selectionbackground`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-style-selected-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-style-selected-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-style-selected-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-style-selected-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-style-selected-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-style-selected-cs1" %}
 
 ### Using methods
 
@@ -117,15 +117,15 @@ The following example demonstrates customizing the appearance of the row using t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/rows-event-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/rows-event-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/rows-event-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/rows-event-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/rows-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/rows-event-cs1" %}
 
 ## Row height
 
@@ -135,15 +135,15 @@ The following example demonstrates dynamically changing the height of the rows u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-height-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-height-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-height-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-height-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-height-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-height-cs1" %}
 
 > * The `rowHeight` property can only be used to set the height of the entire grid row, not individual cells within a row.
 > * The `rowHeight` property applies the height to all rows in the grid, including the header and footer rows.
@@ -157,15 +157,15 @@ In the following example, the row height for the row with "OrderID" as "10249" i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-height-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-height-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-height-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-height-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-height-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-height-cs8" %}
 
 > * In virtual scrolling mode, it is not applicable to set different row heights.
 > * The row height of multiple rows can be customized by checking the relevant criteria in the `rowDataBound` event and setting the `rowHeight` property accordingly.
@@ -179,15 +179,15 @@ The following example demonstrates hover effect control through a Switch compone
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-hover-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-hover-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-hover-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-hover-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-hover-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-hover-cs1" %}
 
 > The `enableHover` property affects the entire Grid and cannot be applied to individual rows or columns.
 
@@ -202,15 +202,15 @@ Here's an example that demonstrates retrieving the row information when hovering
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-hover-info-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-hover-info-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-hover-info-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-hover-info-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-hover-info-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-hover-info-cs1" %}
 
 >The `getRowInfo` method requires execution within the `rowDataBound` event context for proper functionality.
 
@@ -224,15 +224,15 @@ In the following example, the `frozenRows` property is set to "3". This configur
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozenrows-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozenrows-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozenrows-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozenrows-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozenrows-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozenrows-cs1" %}
 
 > * Frozen rows must remain within the visible viewport area.
 > * Row virtualization is supported with frozen rows for enhanced performance.
@@ -252,15 +252,15 @@ The following example demonstrates frozen row border customization:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozenrows-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozenrows-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/frozenrows-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/frozenrows-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozenrows-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/frozenrows-cs2" %}
 
 ### Deprecated methods
 
@@ -292,15 +292,15 @@ Here’s an example that demonstrates adding a new row using the addRecord metho
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/add-new-row-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/add-new-row-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/add-new-row-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/add-new-row-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/add-new-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/add-new-row-cs1" %}
 
 > * When working with remote data, it is impossible to add a new row between the existing rows.
 > * To add a new record to the beginning of the data source, pass "0" as the second parameter to the `addRecord` method.
@@ -400,11 +400,11 @@ export class AppComponent {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-grid-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-grid-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-grid-cs1" %}
 
 ## Get the row data and element
 

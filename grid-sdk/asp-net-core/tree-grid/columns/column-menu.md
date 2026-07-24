@@ -26,10 +26,10 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-menu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-menu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-menu/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-menu/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,7 +37,7 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-menu/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-menu/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

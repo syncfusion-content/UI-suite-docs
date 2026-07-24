@@ -33,10 +33,10 @@ The following example demonstrates how to set the `LoadingIndicator.IndicatorTyp
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/animation/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/animation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indicator" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/animation/animation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ The following example demonstrates adding a new record to the data source throug
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/databinding-refresh/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/databinding-refresh/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/databinding-refresh/databind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/databinding-refresh/databind.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ The following code demonstrates, how to use the `changeDataSource` method to bin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/databinding-change-datasource/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/databinding-change-datasource/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/databinding-change-datasource/databind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/databinding-change-datasource/databind.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -189,10 +189,10 @@ Here's how to bind a `DataTable` to the Grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/datatable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/datatable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Datatable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/datatable/datatable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/datatable/datatable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -212,10 +212,10 @@ To implement on-demand server-side actions with a DataTable, you need to:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/clientdatatable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/clientdatatable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dataoperation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/clientdatatable/dataoperation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/clientdatatable/dataoperation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -231,10 +231,10 @@ Here’s a sample implementation demonstrating how to set up the Grid for CRUD o
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/cruddatatable/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/cruddatatable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dataoperation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/cruddatatable/dataoperation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/cruddatatable/dataoperation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -248,10 +248,10 @@ The following example demonstrates how to prevent local time zone conversion for
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/localtime/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localtime/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="localtime.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/localtime/localtime.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localtime/localtime.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -269,10 +269,10 @@ The following example demonstrates how to set custom headers using the custom ad
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/custom-headers/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/custom-headers/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-headers.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/data-binding/custom-headers/custom-headers.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/custom-headers/custom-headers.cs %}
 {% endhighlight %}
 {% endtabs %}
 

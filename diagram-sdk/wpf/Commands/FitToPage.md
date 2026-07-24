@@ -13,13 +13,13 @@ The [FitToPage](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ID
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="FitToPage" Name="FitToPage" Command="Syncfusion:DiagramCommands.FitToPage"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // To fit the Diagram into the view

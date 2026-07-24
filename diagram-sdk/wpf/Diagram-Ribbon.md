@@ -90,7 +90,7 @@ Steps to add the Diagram ribbon control manually is given below with its code ex
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 using Syncfusion.UI.Xaml.Diagram;
 using Syncfusion.UI.Xaml.Diagram.Theming;
@@ -170,7 +170,7 @@ N> You have to set the diagram as DataContext for the Diagram ribbon control, wh
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 SfSkinManager.SetTheme(this, new Syncfusion.SfSkinManager.Theme() { ThemeName = "Office2019Colorful" });
 
@@ -222,7 +222,7 @@ To add a custom ribbon tab with the default tabs in the `SfDiagramRibbon`.
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 DiagramRibbon.Loaded += DiagramRibbon_Loaded;
 
@@ -243,7 +243,7 @@ To remove a ribbon tab from the default tabs in `SfDiagramRibbon`.
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 DiagramRibbon.Loaded += DiagramRibbon_Loaded;
 
@@ -263,7 +263,7 @@ To add a custom ribbon item with the default items in an already existing ribbon
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 DiagramRibbon.Loaded += DiagramRibbon_Loaded;
 
@@ -284,7 +284,7 @@ To remove an already existing ribbon item from the ribbon tab.
 
 {% tabs %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 DiagramRibbon.Loaded += DiagramRibbon_Loaded;
 

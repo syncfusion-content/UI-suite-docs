@@ -23,20 +23,20 @@ By default, File Manager is rendered with **largeicons** view. The following exa
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/large-icon-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/large-icon-cs1" %}
 
 ### Customize existing Large Icons View
 
@@ -44,20 +44,20 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-view-template/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-view-template/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-view-template/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-view-template/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-view-template/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-view-template/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/large-icon-view-template/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/large-icon-view-template/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/large-icon-view-template" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/large-icon-view-template" %}
 
 ## Details View
 
@@ -65,17 +65,17 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/details-view-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/details-view-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/details-view-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/details-view-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/details-view-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/details-view-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/details-view-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/details-view-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/details-view-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/details-view-cs1" %}

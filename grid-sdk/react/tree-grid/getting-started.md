@@ -16,6 +16,37 @@ For a quick start with React Tree Grid, refer to this video:
 
 {% youtube "https://www.youtube.com/watch?v=dQcIAoSgARc" %}
 
+## Prerequisites
+
+| Requirement | Version |
+|-------------|---------|
+| React | 15.5.4 or higher |
+| Node.js | 14.0.0 or above |
+| Yarn (optional) | 0.25 or above |
+
+### React supported versions
+
+| React version | Minimum Syncfusion React Tree Grid version |
+| ------------- | ------------------------------------------- |
+| [React v19](https://react.dev/blog/2024/12/05/react-19) | 29.1.33 and above |
+| [React v18](https://reactjs.org/blog/2022/03/29/react-v18.html) | 20.2.36 and above |
+| [React v17](https://reactjs.org/blog/2020/10/20/react-v17.html) | 18.3.50 and above |
+| [React v16](https://reactjs.org/blog/2017/09/26/react-v16.0.html) | 16.2.45 and above |
+
+### Browser support
+
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
 ## Setup for local development
 
 To set up a React application, choose between two popular tools: **Vite** or **create-react-app**.
@@ -28,15 +59,32 @@ To set up a React application, choose between two popular tools: **Vite** or **c
 
 **create-react-app** remains a valid choice when a traditional setup is preferred, organizational requirements exist, or an existing create-react-app project is in use. For more information, refer to the [create-react-app documentation](https://ej2.syncfusion.com/react/documentation/getting-started/create-app).
 
-To create a new React application with Vite, run the following command:
+To create a new React application, run one of the following commands based on your preferred language:
 
-```bash
-npm create vite@latest my-app
+***React with JavaScript***
+
+```
+npx create-vite@latest my-app --template react
 ```
 
-Terminate the application, then run the following command:
+***React with TypeScript***
 
-```bash
+```
+npx create-vite@latest my-app --template react-ts
+```
+
+During the setup process, the CLI will prompt you for a few configuration options. Select the following:
+
+- **Which linter to use?** → **ESLint**
+- **Install with npm and start now?** → **Yes**
+
+Selecting **Yes** automatically installs the project dependencies and starts the development server.
+
+After verifying that the application starts successfully, terminate the development server in the terminal and proceed to the next step.
+
+Then, navigate to the project directory:
+
+```
 cd my-app
 ```
 
@@ -48,13 +96,7 @@ To install the Tree Grid component, use the following command:
 npm install @syncfusion/ej2-react-treegrid --save
 ```
 
-> Before including Syncfusion styles, make sure to remove the default styles defined in **index.css**. This helps prevent unintended style overrides and ensures that Syncfusion components render correctly.
-
 ## Adding CSS reference
-
-You can add the CSS files required for the Syncfusion React Tree Grid component using one of the following methods.
-
-### Option 1: Add CSS references from a theme package
 
 Themes for Syncfusion® React Tree Grid component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
@@ -73,27 +115,10 @@ Then add the following CSS reference to the **src/App.css** file:
 {% tabs %}
 {% highlight css tabtitle="App.css" %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/treegrid/treegrid/index.css";
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
 
 {% endhighlight %}
 {% endtabs %}
-
-### Option 2: Add CSS references from component packages
-
-The following CSS files are available in the **../node_modules/@syncfusion** package folder. Add these as references in **src/App.css**.
-
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';  
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';  
-@import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css';  
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';  
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';  
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-react-treegrid/styles/tailwind3.css";
-```
 
 ## Adding Tree Grid component
 
@@ -101,17 +126,21 @@ The tree grid code should be placed in the **src/App.tsx** file.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/getting-started/app/App.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/getting-started/app/App.css %}
+{% raw %}
+
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/getting-started-cs1" %}
 
 ## Run the application
 
@@ -119,13 +148,17 @@ The tree grid code should be placed in the **src/App.tsx** file.
 npm run dev
 ```
 
+## Registering Syncfusion license
+
+The Syncfusion® React Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/react/documentation/licensing/overview) documentation.
+
+## Troubleshooting
+
+- **Grid not rendering styles:** Ensure the theme CSS is imported in `App.css` and that you removed the default Vite CSS in `index.css`.
+- **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
+
+N> Looking for the full React Tree Grid component overview, features, pricing, and documentation? Visit the [React Tree Grid](https://www.syncfusion.com/react-components/react-tree-grid) page.
+
 ## See Also
 
-* [Grid Feature Modules](./module)
-* [Getting Started with Syncfusion JavaScript documentation](https://ej2.syncfusion.com/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion JavaScript (ES5) documentation](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion Angular documentation](https://ej2.syncfusion.com/angular/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion Vue documentation](https://ej2.syncfusion.com/vue/documentation/treegrid/getting-started)
-* [Getting Started with Syncfusion ASP.NET Core documentation](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/getting-started-core)
-* [Getting Started with Syncfusion ASP.NET MVC documentation](https://ej2.syncfusion.com/aspnetmvc/documentation/tree-grid/getting-started-mvc)
-* [Getting Started with Syncfusion Blazor documentation](https://blazor.syncfusion.com/documentation/treegrid/getting-started-webapp)
+* [Tree Grid Feature Modules](./module)

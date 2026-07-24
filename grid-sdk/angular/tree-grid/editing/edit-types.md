@@ -52,17 +52,17 @@ The following sample code demonstrates the customization applied to TextBox comp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs1" %}
 
 ## Customize NumericTextBox component of numericedit type 
 
@@ -76,17 +76,17 @@ The following sample code demonstrates the customization applied to NumericTextB
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs2/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs2/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs2" %}
 
 ### Restrict the decimal points in a NumericTextBox while editing the numeric column
 
@@ -100,17 +100,17 @@ In the following demo, while editing the row the decimal point value is restrict
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs3/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs3/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs3" %}
 
 ## Customize DropDownList component of DropDownEdit type 
 
@@ -124,17 +124,17 @@ The following sample code demonstrates the customization applied to DropDownList
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs4/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs4/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs4" %}
 
 ### Provide custom data source for DropDownList component
 
@@ -148,17 +148,17 @@ In the following demo, DropDownList is rendered with custom data source for the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-cs1" %}
 
 ### Apply filtering for DropDownList component
 
@@ -170,17 +170,17 @@ In the following demo, filtering is enabled for the **Priority** column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs5/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs5/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs5" %}
 
 ### Open popup while focusing in the edit cell
 
@@ -194,17 +194,17 @@ The following sample demonstrates how to open the popup when focusing on the edi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs6/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs6/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs6" %}
 
 ## Customize CheckBox component of booleanedit type 
 
@@ -218,17 +218,17 @@ The following sample code demonstrates the customization applied to CheckBox com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs7/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs7/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs7" %}
 
 ## Customize DatePicker component of datepickeredit type 
 
@@ -242,17 +242,17 @@ The following sample code demonstrates the customization applied to DatePicker c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs8/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs8/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs8" %}
 
 ## Customize DateTimePicker component of datetimepickeredit type 
 
@@ -266,17 +266,17 @@ The following sample code demonstrates the customization applied to DateTimePick
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs9/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs9/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs9" %}
 
 ## Access editor components using instance
 
@@ -288,17 +288,17 @@ In the following demo, you can access the editor component instance while adding
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs10/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs10/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs10/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs10" %}
 
 ## Render custom cell editors
 
@@ -318,17 +318,17 @@ The following example demonstrates how to render a textArea component in the **T
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs11/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs11/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs11" %}
 
 **Prevent the enter key functionality in multiline textbox while editing** 
 
@@ -340,17 +340,17 @@ The following example demonstrates how to prevent the enter key functionality in
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs12/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs12/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs12/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs12" %}
 
 ### Render AutoComplete component in edit form 
 
@@ -362,20 +362,20 @@ The following example demonstrates how to render an AutoComplete component in th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs13/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs13/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs13/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs13/src/main.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs13/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs13/src/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs13" %}
 
 ### Render MaskedTextBox component in edit form 
 
@@ -387,17 +387,17 @@ The following example demonstrates how to render a MaskedTextBox component in th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs14/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs14/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs14/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs14" %}
 
 ### Render DropDownList component in edit form 
 
@@ -409,17 +409,17 @@ The following example demonstrates how to render a DropDownList component in the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs15/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs15/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs15/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs15" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs15" %}
 
 ### Render images in the DropDownList editor component using the item template 
 
@@ -433,17 +433,17 @@ The following example demonstrates how to render images in the DropDownList edit
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs16/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs16/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs16/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs16" %}
 
 ### Render Multiple columns in DropDownList component  
 
@@ -538,14 +538,14 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs17/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs17/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs17" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs17" %}
 
 ### Render ComboBox component in edit form 
 
@@ -557,17 +557,17 @@ The following example demonstrates how to render a ComboBox component in the **T
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs18/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs18/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs18/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs18" %}
 
 ### Render TimePicker component in edit form 
 
@@ -579,17 +579,17 @@ The following example demonstrates how to render a TimePicker component in the *
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs19/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs19/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs19/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs19" %}
 
 ### Render MultiSelect component in edit form 
 
@@ -601,17 +601,17 @@ The following example demonstrates how to render a MultiSelect component in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs20/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs20/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs20/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs20" %}
 
 ### Render RichTextEditor component in edit form
 
@@ -625,17 +625,17 @@ The following example demonstrates how to render a RichTextEditor component in t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs21/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs21/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs21/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs21/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs21/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs21/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs21" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs21" %}
 
 ### Render Upload component in edit form  
 
@@ -647,17 +647,17 @@ The following example demonstrates how to render a Upload component in the **Ima
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs22/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs22/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs22/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs22/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs22/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs22/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs22" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs22" %}
 
 ## Render custom cell editors using external function 
 
@@ -683,17 +683,17 @@ The following example demonstrates how to render a Autocomplete component in the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs23/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs23/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs23/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs23/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs23/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs23/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs23" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs23" %}
 
 ### Render cascading DropDownList component in edit form 
 
@@ -705,14 +705,14 @@ In the following demo, cascading DropDownList rendered for **Priority** and **Du
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs24/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs24/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs24/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs24/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-type-cs24/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-type-cs24/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs24" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-type-cs24" %}

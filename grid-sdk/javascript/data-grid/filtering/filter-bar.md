@@ -37,27 +37,27 @@ The following example demonstrates how to activate default filtering in the grid
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs64/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs64/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs64/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs64/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs64" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs64" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs64/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs64/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs64/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs64/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs64" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs64" %}
 {% endif %}
 
 > If the [filterSettings->type](../../api/grid/filtersettings/#type) is not explicitly specified, it defaults to **FilterBar**.
@@ -76,27 +76,27 @@ By settings [filterSettings->mode](../../api/grid/filterSettings/#mode) as **Imm
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs1" %}
 {% endif %}
 
 ## Display filter text in pager
@@ -109,27 +109,27 @@ To enable the display of filter text within the pager, you should set the [showF
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs2" %}
 {% endif %}
 
 ## Show or hide filter bar operator in filter bar cell
@@ -142,27 +142,27 @@ To achieve this functionality, you can enable the  [showFilterBarOperator](../..
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs3" %}
 {% endif %}
 
 ## Prevent filtering for particular column
@@ -175,27 +175,27 @@ Here's an example that demonstrates how to remove the filter bar for the **Custo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs4/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs4/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs4" %}
 {% endif %}
 
 ## Hide filter bar for template column
@@ -210,27 +210,27 @@ Here's an example that demonstrates how to hide the filter bar for a template co
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs5/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs5/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-bar-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-bar-cs5" %}
 {% endif %}
 
 ## Filter bar template with custom control
@@ -243,27 +243,27 @@ To utilize this feature, you can define a custom template for the filter bar by 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/filter-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/filter-template-cs1" %}
 {% endif %}
 
 ## See also

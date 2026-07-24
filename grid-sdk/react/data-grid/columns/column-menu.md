@@ -27,20 +27,20 @@ The default column menu items are displayed in the following table.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs7" %}
 
 ## Prevent column menu for particular column
 
@@ -50,20 +50,20 @@ The following example demonstrates disabling the column menu for the "Order ID" 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-prevent-menu/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-prevent-menu/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-prevent-menu/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-prevent-menu/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-prevent-menu/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-prevent-menu/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-prevent-menu/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-prevent-menu/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-prevent-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-prevent-menu" %}
 
 ## Adding custom column menu items
 
@@ -75,20 +75,20 @@ The following example demonstrates adding a custom column menu item to clear the
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs9" %}
 
 ## Customize menu items for particular columns
 
@@ -98,20 +98,20 @@ The following example demonstrates hiding the `Filter` item in the column menu f
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs10/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs10" %}
 
 ## Render nested column menu
 
@@ -121,20 +121,20 @@ The `columnMenuItems` property can be set up to include a nested menu, such as "
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-menu-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-menu-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-menu-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-menu-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-menu-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-menu-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-menu-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-menu-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-menu-cs1" %}
 
 ## Customize the column menu icon
 
@@ -159,20 +159,20 @@ The column menu icon in Grid can be changed by overriding the default CSS class 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-column-menu-icon-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-column-menu-icon-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-column-menu-icon-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-column-menu-icon-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/custom-column-menu-icon-cs1" %}
 
 ## Column menu events
 
@@ -185,17 +185,17 @@ Column menu events in the React Data Grid provide ways to customize behavior whe
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs8" %}

@@ -26,14 +26,14 @@ Diagram provides some default context menu items to ease the execution of some f
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs1" %}
 
 
 
@@ -56,14 +56,14 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs2" %}
 
 
 
@@ -75,14 +75,14 @@ In certain situations, you may want to hide specific menu items based on the sel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs6" %}
 
 
 
@@ -150,14 +150,14 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-cs3" %}
 
 
 
@@ -176,14 +176,14 @@ The following example shows how to get these events.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-events/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-events/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/contextmenu-events/index.html %}
+{% include code-snippet/diagram-sdk/typescript/contextmenu-events/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/contextmenu-events" %}
 
 
 

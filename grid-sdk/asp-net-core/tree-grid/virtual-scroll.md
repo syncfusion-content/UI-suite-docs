@@ -25,10 +25,10 @@ Expand and Collapse state of any child record will be persisted.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/rowvirtual/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/rowvirtual/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rowvirtual.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/rowvirtual/rowvirtual.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/rowvirtual/rowvirtual.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ Expand and Collapse state of any child record will be persisted.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/rowvirtual/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/rowvirtual/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rowvirtual.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/rowvirtual/rowvirtual.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/rowvirtual/rowvirtual.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -79,10 +79,10 @@ To setup the column virtualization, set the [`EnableVirtualization`](https://hel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/columnvirtual/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/columnvirtual/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnvirtual.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/columnvirtual/columnvirtual.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/columnvirtual/columnvirtual.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ To setup the column virtualization, set the [`EnableVirtualization`](https://hel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/columnvirtual/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/columnvirtual/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnvirtual.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/virtual/columnvirtual/columnvirtual.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/virtual/columnvirtual/columnvirtual.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -24,7 +24,7 @@ The [Node](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExpandC
 The [IsUpdateLayout](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ExpandCollapseParameter.html#Syncfusion_UI_Xaml_Diagram_ExpandCollapseParameter_IsUpdateLayout) property is used to set whether the layout to be updated or not after the command execution.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 if (args.Item is NodeViewModel && (args.Item as NodeViewModel).IsExpanded)
 {

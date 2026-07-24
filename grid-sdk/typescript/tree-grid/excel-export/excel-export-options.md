@@ -23,27 +23,27 @@ The excel export provides an option to export hidden columns of treegrid by defi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs4" %}
 {% endif %}
 
 ### Show or hide columns on exported excel
@@ -60,27 +60,27 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs5" %}
 {% endif %}
 
 ### File name for exported document
@@ -91,25 +91,25 @@ You can assign the file name for the exported document by defining `fileName` pr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/excel-export-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/excel-export-cs6" %}
 {% endif %}

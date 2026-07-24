@@ -35,12 +35,12 @@ To render the root-level folder, specify the `parentId` as null, or there is no 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/flat-data-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/flat-data-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/flat-data-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/flat-data-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/flat-data-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/flat-data-cs1" %}
 

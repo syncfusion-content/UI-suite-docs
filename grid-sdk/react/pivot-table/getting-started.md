@@ -25,7 +25,7 @@ To get started quickly with the React [Pivot Table](https://www.syncfusion.com/r
 
 ## Setup for local development
 
-Easily set up a React application using [Vite](https://vitejs.dev), which provides a faster development environment, smaller bundle sizes, and optimized builds compared to traditional tools like `create-react-app`. For detailed steps, refer to the Vite [installation instructions](https://vitejs.dev/guide). Vite sets up your environment using JavaScript and optimizes your application for production.
+Easily set up a React application using [Vite](https://vitejs.dev), which provides a faster development environment, smaller bundle sizes, and optimized builds compared to traditional tools like `create-react-app`. For detailed steps, refer to the Vite [installation instructions](https://vitejs.dev/guide).
 
 > **Note:** To create a React application using `create-react-app`, refer to this [documentation](https://ej2.syncfusion.com/react/documentation/getting-started/create-app) for more details.
 
@@ -54,41 +54,49 @@ npm install @syncfusion/ej2-react-pivotview --save
 
 ## Adding CSS reference
 
-The following CSS files are available in the **../node_modules/@syncfusion** package folder. You can add these as references in **src/App.css** (or your global stylesheet):
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> React components can be applied using CSS or SASS files from the [npm theme packages](https://ej2.syncfusion.com/react/documentation/appearance/theme#theme-packages), CDN, CRG, or [Theme Studio](https://ej2.syncfusion.com/react/documentation/appearance/theme-studio). For more information, see the [themes documentation](https://ej2.syncfusion.com/react/documentation/appearance/theme).
 
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-react-pivotview/styles/tailwind3.css';
-```
+This guide uses the `Tailwind 3` theme as an example, sourced from the theme package. In this package, each component includes an `index.css` file that automatically loads all the required dependency styles. To install the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
-N> Before including Syncfusion styles, make sure to remove the default styles defined in the **App.css** and **index.css** files. This helps prevent unintended style overrides and ensures that the Syncfusion components render correctly.
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+npm install @syncfusion/ej2-tailwind3-theme --save
+
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
+yarn add @syncfusion/ej2-tailwind3-theme
+
+{% endhighlight %}
+{% endtabs %}
+
+By default, Vite projects include a `src/index.css` file with default styles. These default styles may conflict with Syncfusion component styles. Replace the contents of `src/index.css` with the following import to apply the Pivot Table theme styles:
+
+{% tabs %}
+{% highlight css tabtitle="src/index.css" %}
+
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/pivotview/index.css';
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Pivot Table component
 
-The Pivot Table code should be placed in the **src/App.tsx** file.
+The Pivot Table code should be placed in the **src/App.tsx** file (or **src/App.jsx** if you chose the JavaScript variant). Refer to the tab that matches your Vite variant.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/getting-started-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.tsx %}
-{% endhighlight %}
-{% highlight js tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/getting-started-cs1/app/App.css %}
+{% include code-snippet/grid-sdk/react/pivot-table/getting-started-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
 ## Run the application
+
+Run the following command from the `my-app` directory, then open the URL printed in the terminal (by default `http://localhost:5173`) in your browser to view the Pivot Table.
 
 ```bash
 npm run dev

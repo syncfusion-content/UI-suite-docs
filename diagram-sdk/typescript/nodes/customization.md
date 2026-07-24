@@ -19,14 +19,14 @@ The following code example shows how to use getNodeDefaults function.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-nodeDef/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-nodeDef/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cust-nodeDef" %}
 
 N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
@@ -40,14 +40,14 @@ The following code illustrates how to customize the appearance of the shape.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs15" %}
 
 ### Apply gradient style to node
 
@@ -71,14 +71,14 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs16/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs16/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs16" %}
 
 #### Radial gradient
 
@@ -88,14 +88,14 @@ There are two types of gradients as follows:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs17/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs17/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs17" %}
 
 
 ## Customize the style of node selector
@@ -130,14 +130,14 @@ The following code shows how to set the rotate angle and corner radius for the n
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-customization-rotate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-customization-rotate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-customization-rotate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-customization-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-customization-rotate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-customization-rotate" %}
 
 ## Apply shadow effect to node
 
@@ -145,14 +145,14 @@ Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/documentat
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs18" %}
 
 ### Customizing shadow effect of the node
 
@@ -160,14 +160,14 @@ The [`angle`](https://ej2.syncfusion.com/documentation/api/diagram/shadowModel#a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs19" %}
 
 
 ## Provide additional information to the node
@@ -204,14 +204,14 @@ The nodes [`zIndex`](https://ej2.syncfusion.com/documentation/api/diagram/nodeMo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-zIndex/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-zIndex/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cust-zIndex/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cust-zIndex/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cust-zIndex" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cust-zIndex" %}
 
 N> By default, the zIndex will be generated automatically based on the order of the diagram elements added to the diagram. The default value will be Number.MIN_VALUE.
 
@@ -231,14 +231,14 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs13" %}
 
 ## Get connected connector from node
 

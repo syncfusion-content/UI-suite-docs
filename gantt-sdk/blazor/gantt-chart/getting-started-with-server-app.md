@@ -178,10 +178,10 @@ N>If the interactivity location is set to `Per page/component`, define a render 
 
 @code
 {
-    private List<TaskData>? TaskCollection { get; set; }
+    public List<TaskData>? TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData

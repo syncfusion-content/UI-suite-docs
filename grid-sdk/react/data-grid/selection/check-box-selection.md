@@ -18,20 +18,20 @@ Here's an example of enabling checkbox selection using the `type` property in th
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs3" %}
 
 > Selection can be persisted on all the operations using [selectionSettings.persistSelection](https://ej2.syncfusion.com/react/documentation/api/grid/selectionSettings#persistselection) property. For persisting selection on the grid, any one of the column should be defined as a primary key using [isPrimaryKey](https://ej2.syncfusion.com/react/documentation/api/grid/column#isprimarykey) property.
 
@@ -112,14 +112,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs4" %}
 
 ## Hide select-all checkbox
 
@@ -129,20 +129,20 @@ Here's an example of hiding selectall checkbox in column header using empty `Hea
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs1" %}
 
 ## Conditional row selection
 
@@ -156,20 +156,20 @@ The example below prevents selection of rows with canceled orders:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/prevent-checkbox-selection/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/prevent-checkbox-selection/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/prevent-checkbox-selection/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/prevent-checkbox-selection/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/prevent-checkbox-selection" %}
 
 ## Select single row in checkbox selection mode
 
@@ -183,20 +183,20 @@ Here's an example of selecting a single row in checkbox selection mode using the
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs2" %}
 
 ## Checkbox only selection
 
@@ -204,20 +204,20 @@ By default, the Grid component allows selection by clicking either a grid row or
  
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/selection-checkbox-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-checkbox-cs3" %}
 
 ## See also
 - [Selection overview](./selection)

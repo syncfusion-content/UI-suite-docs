@@ -44,7 +44,7 @@ To map the user defined JSON data with diagram, configure the fields of [`dataSo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/LocalBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/LocalBinding-cs1" %}
 
 ## Remote data
 
@@ -65,7 +65,7 @@ To bind remote data to the diagram,configure the fields of [`dataSourceSettings`
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/RemoteBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/RemoteBinding-cs1" %}
 
 ## CRUD
 
@@ -106,7 +106,7 @@ This feature allows you to read the data source and perform add or edit or delet
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/connectionDataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/data-binding/connectionDataSource-cs1" %}
 
 ## How to perform Editing at runtime
 

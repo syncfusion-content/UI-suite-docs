@@ -135,23 +135,23 @@ The [ajaxSettings](https://ej2.syncfusion.com/angular/documentation/api/file-man
 
 ### Server-side setup
 
-The sample uses `https://physical-service.syncfusion.com/` as the `url` endpoint in `ajaxSettings`.
+The sample uses `https://physical-service.syncfusion.com/` as the [`url`](https://ej2.syncfusion.com/angular/documentation/api/file-manager/ajaxsettings#url) endpoint in [`ajaxSettings`](https://ej2.syncfusion.com/angular/documentation/api/file-manager/ajaxsettings).
 
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs1" %}
 
 ## Registering Your Syncfusion License
 

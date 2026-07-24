@@ -29,17 +29,17 @@ The following example demonstrates how to bind hierarchical local data to the Tr
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs2" %}
 
 > Remote data binding is not supported for hierarchical data.
 
@@ -52,17 +52,17 @@ The TreeGrid can be rendered from self-referential data structures by providing 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/data-binding-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/data-binding-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs3" %}
 
 > The following reserved properties are used internally by the TreeGrid. Avoid using these property names in application data to prevent conflicts.
 
@@ -94,20 +94,20 @@ The following example demonstrates how to enable immutable mode in a React compo
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/immutable-mode-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/immutable-mode-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/immutable-mode-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/immutable-mode-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/immutable-mode-cs1" %}
 
 > This feature uses the primary key value for data comparison. Ensure a column has [`isPrimaryKey`](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#isprimarykey) set to `true`.
 

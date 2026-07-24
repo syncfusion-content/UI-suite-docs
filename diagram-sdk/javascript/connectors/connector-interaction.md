@@ -21,14 +21,14 @@ A connector can be selected at runtime by using the Select method and clear the 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-Select/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-Select/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-Select/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-Select/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-Select" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-Select" %}
 
 ## Drag Connector
 
@@ -40,14 +40,14 @@ A connector can be dragged at runtime by using the Drag method. The following co
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-Drag/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-Drag/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-Drag/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-Drag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-Drag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-Drag" %}
 
 ## End point dragging
 
@@ -61,14 +61,14 @@ The following code example shows the ways to drag connector end point at runtime
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-EndPointDrag/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-EndPointDrag/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-EndPointDrag/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-EndPointDrag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-EndPointDrag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-EndPointDrag" %}
 
 
 ## Segment editing
@@ -104,13 +104,13 @@ The flip types are as follows:
 .
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs20/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs20/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs20" %}
 
  N> The flip is not applicable when the connectors connect in nodes

@@ -16,6 +16,14 @@ This section explains the steps to create a simple DataGrid and demonstrates the
 
 > This application is integrated with the **webpack.config.js** configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node **v14.15.0** or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started).
 
+## Prerequisites
+ 
+Ensure the following tools are installed on your machine:
+ 
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
 ## Setup for local development
 
 Clone the Essential<sup style="font-size:70%">&reg;</sup> JS 2 quickstart application project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) using the following command line scripts.
@@ -37,11 +45,7 @@ npm install
 
 ## Adding CSS reference
 
-You can add the CSS files required for the Syncfusion TypeScript DataGrid component using one of the following methods.
-
-### Option 1: Add CSS references from a theme package
-
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> DataGrid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> DataGrid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
 
 Install the **Material 3** theme package using the following command:
  
@@ -56,29 +60,12 @@ npm install @syncfusion/ej2-material3-theme --save
 Then add the following CSS reference to the **src/styles/styles.css** file:
  
 {% tabs %}
-{% highlight css tabtitle="style.css" %}
+{% highlight css tabtitle="styles.css" %}
  
 @import "../../node_modules/@syncfusion/ej2-material3-theme/grids/grid/index.css";
  
 {% endhighlight %}
 {% endtabs %}
-
-### Option 2: Add CSS references from component packages
-
-After installing the DataGrid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/styles/styles.css** file:
-
-```css
-@import '../../node_modules/@syncfusion/ej2-base/styles/material3.css';  
-@import '../../node_modules/@syncfusion/ej2-buttons/styles/material3.css';  
-@import '../../node_modules/@syncfusion/ej2-calendars/styles/material3.css';  
-@import '../../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';  
-@import '../../node_modules/@syncfusion/ej2-inputs/styles/material3.css';  
-@import '../../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-@import '../../node_modules/@syncfusion/ej2-popups/styles/material3.css';
-@import '../../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css';
-@import '../../node_modules/@syncfusion/ej2-notifications/styles/material3.css';
-@import "../../node_modules/@syncfusion/ej2-react-grids/styles/material3.css";
-```
 
 ## Adding DataGrid component
 
@@ -142,21 +129,31 @@ grid.appendTo('#Grid');
 
 {% endhighlight %}
 
-{% highlight html tabtitle="style.css" %}
+{% highlight html tabtitle="styles.css" %}
 
-@import '../../node_modules/@syncfusion/ej2/fluent2.css';
+@import '../../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css';
 
 {% endhighlight %}
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs132" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs132" %}
 
 ## Run the application
 
 ```
 npm start
 ```
+
+## Registering Syncfusion license
+
+The Syncfusion® Data Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/documentation/licensing/overview) documentation.
+
+## Troubleshooting
+
+**Grid styles are not applied:** Ensure that the required Syncfusion theme package is installed and the theme CSS is imported correctly in the `src/styles/styles.css` file.
+
+**Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/documentation/licensing/license-key-registration#register-syncfusion-license-key-in-the-project) section.
 
 ## See also
 

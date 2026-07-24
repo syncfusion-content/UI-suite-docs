@@ -37,27 +37,27 @@ The following code example illustrates how to create a class.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs1" %}
 {% endif %}
 
 ### Interface
@@ -78,27 +78,27 @@ The following code example illustrates how to create an interface:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs2" %}
 {% endif %}
 
 ### Enumeration
@@ -113,27 +113,27 @@ The following code example illustrates how to create an enumeration.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs3" %}
 {% endif %}
 
 
@@ -163,27 +163,27 @@ The association property allows you to define the type of association. The defau
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs4" %}
 {% endif %}
 
 ### Aggregation
@@ -196,27 +196,27 @@ The following code example illustrates how to create an aggregation.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs5" %}
 {% endif %}
 
 ### Composition
@@ -229,27 +229,27 @@ The following code example illustrates how to create a composition.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs6" %}
 {% endif %}
 
 ### Inheritance
@@ -264,27 +264,27 @@ The following code example illustrates how to create an inheritance.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs8" %}
 {% endif %}
 
 ### Dependency
@@ -297,27 +297,27 @@ The following code example illustrates how to create a dependency.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs7" %}
 {% endif %}
 
 ### Multiplicity
@@ -345,27 +345,27 @@ The following code example illustrates how to customize the multiplicity.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs9" %}
 {% endif %}
 
 ## How to add UML child at runtime
@@ -382,27 +382,27 @@ The following code example illustrates how to add members, methods and attribute
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-addDynamic/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-addDynamic/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-addDynamic/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-addDynamic/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-addDynamic" %}
 {% endif %}
 
 ### Adding UML child through user interaction
@@ -421,27 +421,27 @@ The following code example showcases the rendering of UML built-in shapes in a s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs12" %}
 {% endif %}
 
 ## Editing in UML nodes
@@ -490,27 +490,27 @@ The following code illustrates how to create a UmlActivity shapes.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs10" %}
 {% endif %}
 
 ### UML Activity connector
@@ -523,25 +523,25 @@ The following code illustrates how to create a UmlActivity connector.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/umldiagramshapes-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umldiagramshapes-cs11" %}
 {% endif %}

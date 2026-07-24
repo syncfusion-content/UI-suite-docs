@@ -31,7 +31,7 @@ The following example shows how to align the layout within the given layout boun
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-bounds-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-bounds-cs1" %}
 
 
 For more information about bounds, refer to [`bounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutmodel#bounds).
@@ -53,7 +53,7 @@ The following code illustrates how to align the layout and how to change layout 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-alignment-cs1" %}
 
 
 ## Layout spacing
@@ -72,7 +72,7 @@ The following code illustrates how to set the initial horizontal and vertical sp
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-spacing-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-spacing-cs1" %}
 
 
 ## Layout margin
@@ -91,7 +91,7 @@ The following code demonstrates how to set the initial layout margin and how to 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-margin-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-margin-cs1" %}
 
 
 ## Layout orientation
@@ -121,7 +121,7 @@ The following code demonstrates how to set the initial orientation for the layou
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-orientation-cs1" %}
 
 
 ## Exclude from layout
@@ -140,7 +140,7 @@ The following code example demonstrates how to exclude a node from the layout an
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-exclude-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-exclude-cs1" %}
 
 
 ## Fixed node
@@ -157,7 +157,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-fixed-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-fixed-cs1" %}
 
 
 ## Expand and collapse
@@ -174,7 +174,7 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-expandandcollapse-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-expandandcollapse-cs1" %}
 
 
 For more details about customizing the expand and collapse icon refer [`expand Collapse`](../nodes/nodes-expandAndCollapse)
@@ -195,7 +195,7 @@ In the following example, the enableAnimation property ensures that the layout c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-animation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-animation-cs1" %}
 
 
 N> To enable layout animation, you need to inject LayoutAnimation module in diagram.
@@ -216,7 +216,7 @@ Find the code example to create parent - child relation between source and targe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-parentChildren-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-parentChildren-cs1" %}
 
 
 ![Layout drag and drop](../images/drag-drop-layout.gif)
@@ -239,7 +239,7 @@ The [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/sta
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-setNodeTemplete-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layout-setNodeTemplete-cs1" %}
 
 
 ## Refresh layout

@@ -17,10 +17,10 @@ The excel export provides an option to include header and footer content for exp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/header-footer/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/header-footer/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ The excel export provides an option to include header and footer content for exp
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/header-footer/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/header-footer/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Header-footer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/header-footer/header-footer.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/header-footer/header-footer.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

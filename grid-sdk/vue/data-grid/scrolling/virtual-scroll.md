@@ -25,14 +25,14 @@ The following example enable row virtualization using `enableVirtualization` pro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs4" %}
 
 ### Limitations 
 
@@ -71,14 +71,14 @@ The following example enable column virtualization using `enableColumnVirtualiza
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/virtualscroll/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/virtualscroll/default-cs5" %}
 
 > Column's [width](https://ej2.syncfusion.com/vue/documentation/api/grid/column/#width) is required for column virtualization. If column's width is not defined then Grid will consider its value as **200px**.
 

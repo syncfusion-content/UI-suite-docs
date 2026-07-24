@@ -1,17 +1,18 @@
 ---
 layout: post
-title: Es5 getting started with JavaScript BlockEditor | Syncfusion
-description:  Checkout and learn about Es5 getting started with JavaScript BlockEditor control of Syncfusion Essential JS 2 and more details.
-platform: rich-text-editor-sdk
+title: Es5 getting started with JavaScript Block Editor | Syncfusion
+description:  Checkout and learn about Es5 getting started with JavaScript Block Editor control of Syncfusion Essential JS 2 and more details.
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor"
+platform: ej2-javascript
 control: Es5 getting started
 publishingplatform: rich-text-editor-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Es5 getting started in JavaScript BlockEditor control
+# ES5 getting started in JavaScript Block Editor control
 
-The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
+The Essential JS 2 for JavaScript (global script) is an ES5-formatted pure JavaScript framework that can be used directly in modern web browsers.
 
 ## Dependencies
 
@@ -29,170 +30,110 @@ The list of dependencies required to use the BlockEditor control in your applica
 
 ```
 
-## Control Initialization
+## Setup for local development
 
-The JavaScript (ES5) BlockEditor control can be initialized by using either of the following ways.
+Refer to the following steps to set up your local environment.
 
-* Using local script and style references in a HTML page.
-* Using CDN link for script and style reference.
+**Step 1:** Create an app folder `my-app` for Essential JS 2 JavaScript controls.
 
-### Using local script and style references in a HTML page
+**Step 2:** Create a my-app/resources folder if you want to host local scripts and styles. Otherwise, you can use the CDN URLs shown below directly in the HTML page.
 
-**Step 1:** Create an app folder `quickstart` for getting started.
+**Step 3:** Open Visual Studio Code and create `my-app/index.js` and `my-app/index.html` files for initializing the Essential JS 2 Block Editor control.
 
-**Step 2:** You can get the global scripts and styles from the [Essential Studio JavaScript (Essential JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installed location.
+## Adding Block Editor styles
 
-**Syntax:**
-> Dependency Script: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{DEPENDENCY_PACKAGE_NAME}\dist\global\{DEPENDENCY_PACKAGE_NAME}.min.js`
->
-> Control Script: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{PACKAGE_NAME}\dist\global\{PACKAGE_NAME}.min.js`
->
-> Dependency Styles: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{DEPENDENCY_PACKAGE_NAME}\styles\tailwind3.css`
->
-> Control Styles: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{PACKAGE_NAME}\styles\tailwind3.css`
-
-**Example:**
-
-> Dependency Script: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\16.3.0.17\Web (Essential JS 2)\JavaScript\ej2-base\dist\global\ej2-base.min.js`
->
-> Control Script: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\16.3.0.17\Web (Essential JS 2)\JavaScript\ej2-blockeditor
-\dist\global\ej2-blockeditor
-.min.js`
->
-> Dependency Styles: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\16.3.0.17\Web (Essential JS 2)\JavaScript\ej2-base\styles\tailwind3.css`
->
-> Control Styles: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\16.3.0.17\Web (Essential JS 2)\JavaScript\ej2-blockeditor
-\styles\tailwind3.css`
-
-The below located script and style file contains all Syncfusion JavaScript (ES5) UI control resources in a single file.
-
-> Scripts: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\ej2\dist\ej2.min.js`
->
-> Styles: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\ej2\tailwind3.css`
-
-The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an online web tool, which can be used to generate the custom script and styles for a set of specific controls. This web tool is useful to combine the required control scripts and styles in a single file.
-
-**Step 3:** Create a folder `~/quickstart/resources` and copy/paste the global scripts and styles from the above installed location to `~/quickstart/resources/package` corresponding package location.
-
-**Step 4:** Create a HTML page (index.html) in `~/quickstart/index.html` location and add the Essentials JS 2 script and style references.
-
-```html
-<!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-          <title>JavaScript (ES5)</title>
-          <!-- JavaScript (ES5) BlockEditor's dependency style -->
-          <link href="resources/base/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/buttons/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/popups/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/inputs/tailwind3.css" rel="stylesheet" type="text/css" />
-          <link href="resources/navigations/tailwind3.css" rel="stylesheet" type="text/css" />
-          <link href="resources/splitbuttons/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/dropdowns/tailwind3.css" rel="stylesheet" type="text/css"/>
-
-          <!-- JavaScript (ES5) BlockEditor's control style -->
-          <link href="resources/blockeditor/tailwind3.css" rel="stylesheet" type="text/css"/>
-
-          <!-- JavaScript (ES5) BlockEditor's dependency global script -->
-          <script src="resources/base/ej2-base.min.js" type="text/javascript"></script>
-          <script src="resources/buttons/ej2-buttons.min.js" type="text/javascript"></script>
-          <script src="resources/popups/ej2-popups.min.js" type="text/javascript"></script>
-          <script src="resources/splitbuttons/ej2-splitbuttons.min.js" type="text/javascript"></script>
-          <script src="resources/dropdowns/ej2-dropdowns.min.js" type="text/javascript"></script>
-          <script src="resources/navigations/ej2-navigations.min.js" type="text/javascript"></script>
-          <script src="resources/inputs/ej2-inputs.min.js" type="text/javascript"></script>
-
-          <!-- JavaScript (ES5) BlockEditor's control global script -->
-          <script src="resources/blockeditor/ej2-blockeditor.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-```
-
-**Step 5:** Now, add the `BlockEditor` element and initiate the `JavaScript (ES5) BlockEditor` control in the `index.html` by using following code
-
-`[src/index.html]`
-
-```html
-<!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-          <title>JavaScript (ES5)</title>
-          <!-- JavaScript (ES5) BlockEditor's dependency style -->
-          <link href="resources/base/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/buttons/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/popups/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/inputs/tailwind3.css" rel="stylesheet" type="text/css" />
-          <link href="resources/navigations/tailwind3.css" rel="stylesheet" type="text/css" />
-          <link href="resources/splitbuttons/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="resources/dropdowns/tailwind3.css" rel="stylesheet" type="text/css"/>
-
-          <!-- JavaScript (ES5) BlockEditor's control style -->
-          <link href="resources/blockeditor/tailwind3.css" rel="stylesheet" type="text/css"/>
-
-          <!-- JavaScript (ES5) BlockEditor's dependency global script -->
-          <script src="resources/base/ej2-base.min.js" type="text/javascript"></script>
-          <script src="resources/buttons/ej2-buttons.min.js" type="text/javascript"></script>
-          <script src="resources/popups/ej2-popups.min.js" type="text/javascript"></script>
-          <script src="resources/splitbuttons/ej2-splitbuttons.min.js" type="text/javascript"></script>
-          <script src="resources/dropdowns/ej2-dropdowns.min.js" type="text/javascript"></script>
-          <script src="resources/navigations/ej2-navigations.min.js" type="text/javascript"></script>
-          <script src="resources/inputs/ej2-inputs.min.js" type="text/javascript"></script>
-
-
-          <!-- JavaScript (ES5) BlockEditor's control global script -->
-          <script src="resources/blockeditor/ej2-blockeditor.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-            <!-- Add the HTML <div> element  -->
-            <div id="container">
-                <div id="BlockEditor_default"></div>
-            </div>
-            <script>
-                // Initializes the BlockEditor control
-                var BlockEditor = new ej.blockeditor.BlockEditor({});
-
-                // Render initialized BlockEditor.
-                BlockEditor.appendTo('#BlockEditor_default');
-            </script>
-       </body>
-  </html>
-```
-
-**Step 6:** Now, run the `index.html` in web browser, it will render the **Syncfusion JavaScript (ES5) BlockEditor** control.
-
-## Using CDN link for script and style reference
-
-**Step 1:** Create an app folder `quickstart` for getting started.
-
-**Step 2:** The JavaScript (ES5) control's global scripts and styles are already hosted in the below CDN link formats.
-
-**Syntax:**
-> Dependency Script: `https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->
-> Control Script: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->
-> Dependency Styles: `https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/styles/tailwind3.css`
->
-> Control Styles: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/tailwind3.css`
-
-**Example:**
-> Script: [`https://cdn.syncfusion.com/ej2/ej2-blockeditor/dist/global/ej2-blockeditor.min.js`](https://cdn.syncfusion.com/ej2/ej2-blockeditor/dist/globalej2-blockeditor.min.js)
->
-> Styles: [`https://cdn.syncfusion.com/ej2/ej2-blockeditor/styles/tailwind3.css`](http://cdn.syncfusion.com/ej2/ej2-blockeditor/styles/tailwind3.css)
-
-**Step 3:** Create a HTML page (index.html) in `~/quickstart/index.html` location and add the CDN link references. Now, add the `BlockEditor` element and initiate the `JavaScript (ES5) BlockEditor` control in the index.html by using following code.
+Add the following styles inside the `my-app/index.html` file to include the `tailwind3` theme styles:
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.js %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started/index.html %}
+
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-base/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-buttons/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-inputs/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-navigations/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-popups/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-dropdowns/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-splitbuttons/styles/tailwind3.css" rel="stylesheet">
+<link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-blockeditor/styles/tailwind3.css" rel="stylesheet">
+
 {% endhighlight %}
 {% endtabs %}
 
+I> Ensure that all Block Editor theme style files are loaded in the exact order shown above. The order is important because these styles have dependencies, and loading them incorrectly may cause styling issues in the controls. You can also refer to the [themes section](https://ej2.syncfusion.com/documentation/appearance/theme) for details about built-in themes and CSS references for individual controls.
+
+## Adding Block Editor scripts
+
+Add the following scripts inside the `my-app/index.html` file to include the Block Editor functionality:
+
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-navigations/dist/global/ej2-navigations.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-blockeditor/dist/global/ej2-blockeditor.min.js" type="text/javascript"></script>
+
+{% endhighlight %}
+{% endtabs %}
+
+I> Ensure that all Block Editor script files are loaded in the correct order and included before initializing the control. The order is important because the scripts have dependencies, and loading them incorrectly may prevent the Block Editor from working properly or cause runtime errors.
+
+Make sure the required base and dependent scripts are included along with the Block Editor script.
+
+## Adding Block Editor control
+
+To get started, add Block Editor control in `index.js` and `index.html` files.
+
+Block Editor can be initialized on a div element as shown below
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+var blockeditor = new ej.blockeditor.BlockEditor({ }); 
+blockeditor.appendTo('#blockeditor_default');
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Essential JS 2 - BlockEditor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Essential JS 2">
+    <meta name="author" content="Syncfusion">
+
+    <!-- Essential JS 2 Block Editor's dependent tailwind3 theme -->
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-base/styles/tailwind3.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-buttons/styles/tailwind3.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-popups/styles/tailwind3.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-inputs/styles/tailwind3.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-navigations/styles/tailwind3.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-splitbuttons/styles/tailwind3.css" rel="stylesheet"/>
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-dropdowns/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/ej2-blockeditor/styles/tailwind3.css" rel="stylesheet" />
+
+     <!-- Essential JS 2 all script -->
+    <script src="https://cdn.syncfusion.com/ej2/{{site.ej2version}}/dist/ej2.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="blockeditor_default"></div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
+{% endhighlight %}
+{% endtabs %}
+
+
 {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/block-editor/getting-started" %}
 
-**Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript BlockEditor` control.
+## Run the application
+
+Now, run the index.html in web browser, it will render the Essential JS 2 Block Editor control.
+
+> You can refer to our [JavaScript Block Editor](https://www.syncfusion.com/rich-text-editor-sdk/javascript-block-editor) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Block Editor example](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/block-editor/overview.html) that shows how to render the block editor.

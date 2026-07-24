@@ -68,7 +68,7 @@ The diagram method [`startGroupAction`](https://ej2.syncfusion.com/vue/documenta
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs1" %}
 
 ## Stack Limit
 
@@ -83,7 +83,7 @@ The [`stackLimit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hist
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs3" %}
 
 ## Restrict Undo/Redo
 
@@ -98,7 +98,7 @@ Undo, Redo process can be avoided for particular element by using [`canLog`](htt
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs2" %}
 
 ## undo/redo stack
 
@@ -141,7 +141,7 @@ The following code demonstrates how to use these properties:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs4" %}
 
 ## Current entry
 
@@ -158,7 +158,7 @@ The following code shows how to get the current entry from the diagram history:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-current" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-current" %}
 
 ## Clear history
 
@@ -196,6 +196,6 @@ The [`historyChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/i
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/undo-redo/undo-redo-cs5" %}
 
 While interacting with diagram, this event can be used to do the customization.

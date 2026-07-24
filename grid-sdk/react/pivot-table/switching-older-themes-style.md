@@ -72,17 +72,17 @@ In the below code sample, we replicate the older theme style.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/switch-theme-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/switch-theme-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/switch-theme-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/switch-theme-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/switch-theme-cs2" %}

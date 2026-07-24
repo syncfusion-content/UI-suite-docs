@@ -14,7 +14,22 @@ This section briefly explains how to include [ASP.NET MVC Tree Grid](https://www
 
 ## Prerequisites
 
-[System requirements for ASP.NET MVC controls](https://ej2.syncfusion.com/aspnetmvc/documentation/system-requirements)
+### .NET and Visual Studio compatibility
+
+| .NET Version | Visual Studio Version |
+|--------------|------------------------------|
+| .NET Framework 4.6.2 | Visual Studio 2015 Update 3 or later |
+
+### Browser support
+
+|    Browser    |    Versions    |
+|--------------|---------------|
+|    Google Chrome, including Android & iOS    |    Latest Version  |
+|    Mozilla Firefox    |    Latest Version  |
+|    Microsoft Edge    |    Latest Version  |
+|    Apple Safari, including iOS    |    Latest Version  |
+|    Opera    |    Latest Version  |
+|    Microsoft Internet Explorer    |    11  |
 
 ## Create ASP.NET MVC application with HTML helper
 
@@ -102,10 +117,10 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Tree G
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/getting-start-mvc/columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/getting-start-mvc/columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/getting-start-mvc/columns/columns.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/getting-start-mvc/columns/columns.cs %}
 {% endhighlight %}
 {% endtabs %}
 

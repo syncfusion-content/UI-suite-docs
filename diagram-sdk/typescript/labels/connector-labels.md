@@ -29,14 +29,14 @@ The following code illustrates, how to set offset for the connector.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conOffset/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conOffset/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conOffset/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conOffset/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conOffset" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conOffset" %}
 
 The following image shows the position of the annotation with respect to different offsets.
 
@@ -50,14 +50,14 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs7" %}
 
 ## Displacement of annotation
 
@@ -65,14 +65,14 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conDisp/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conDisp/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conDisp/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conDisp/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conDisp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conDisp" %}
 
 N> Displacement is only applicable when we use alignment as `After` or `Before`.
 
@@ -83,14 +83,14 @@ The [`segmentAngle`](https://ej2.syncfusion.com/documentation/api/diagram/pathAn
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conSegAngle/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conSegAngle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-conSegAngle/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-conSegAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conSegAngle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-conSegAngle" %}
 
 |Segment angle|Output|
 |-----|-----|

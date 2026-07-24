@@ -24,27 +24,27 @@ The [`snapConstraints`](../api/diagram/snapsettings#constraints) enables you to 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs1" %}
 {% endif %}
 
 N>If you want to enable snapping, then inject snapping module into the diagram.
@@ -67,27 +67,27 @@ The following code example illustrates how to customize the appearance of gridli
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs2" %}
 {% endif %}
 
 ![Line appearance](./images/line-appearance.png)
@@ -102,27 +102,27 @@ The following code example illustrates how to customize the thickness of lines a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs3" %}
 {% endif %}
 
 ![Line interval](./images/line-interval.png)
@@ -137,27 +137,27 @@ The following code illustrates how to render grid patterns as Dots.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-dots" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-dots" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-dots/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-dots/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-dots" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-dots" %}
 {% endif %}
 
 ![Dot Grid](./images/grid-dots.png)
@@ -177,27 +177,27 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs4" %}
 {% endif %}
 
 ![Snap to lines](./images/snapToLines.gif)
@@ -212,27 +212,27 @@ The [`snapObjectDistance`](../api/diagram/snapsettingsmodel#snapobjectdistance) 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs6" %}
 {% endif %}
 
 ![Snap to object](./images/snapToObject.gif)
@@ -249,27 +249,27 @@ The following code example demonstrates how to set the `snapAngle` property and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapAngle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapAngle" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapAngle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapAngle/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapAngle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapAngle" %}
 {% endif %}
 
 ![Snap Angle](./images/snapAngle.gif)
@@ -286,27 +286,27 @@ The following code example demonstrates how to set the `snapLineColor` property 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapLineColor" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapLineColor" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-snapLineColor/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-snapLineColor/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapLineColor" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-snapLineColor" %}
 {% endif %}
 
 
@@ -318,27 +318,27 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/gridlines-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/gridlines-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/gridlines-cs5" %}
 {% endif %}
 
 

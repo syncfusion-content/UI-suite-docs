@@ -39,11 +39,11 @@ This is demonstrated in the following example.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/custom-helper-loop-template/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/custom-helper-loop-template/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/custom-helper-loop-template/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/custom-helper-loop-template/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/custom-helper-loop-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/custom-helper-loop-template" %}

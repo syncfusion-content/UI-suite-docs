@@ -39,27 +39,27 @@ The [`horizontalAlignment`](../../api/diagram/horizontalAlignment) property of t
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-horVerAlign/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-horVerAlign/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-horVerAlign/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-horVerAlign/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-horVerAlign/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
 
 {% endif %}
 
@@ -88,27 +88,27 @@ The following table shows all the possible alignments visually with offset (0, 0
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/ports-margin/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-margin/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.js %}
+{% include code-snippet/diagram-sdk/javascript/ports-margin/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/ports-margin/index.html %}
+{% include code-snippet/diagram-sdk/javascript/ports-margin/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
 
 {% endif %}
 

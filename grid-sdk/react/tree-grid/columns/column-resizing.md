@@ -16,14 +16,14 @@ To use column resizing, inject the **Resize** module in the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs5" %}
 
 > Resizing can be disabled for a specific column by setting [columns.allowResizing](https://ej2.syncfusion.com/react/documentation/api/treegrid/columnModel/#allowresizing) to false.  
 > In RTL mode, drag the left edge of the header cell to resize the column.
@@ -36,14 +36,14 @@ In the following sample, minimum and maximum widths are defined for the **Durati
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs6" %}
 
 ## Resize stacked column
 
@@ -51,14 +51,14 @@ Stacked columns can be resized by dragging the right edge of the stacked header.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/column-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/column-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs7" %}
 
 ## Touch interaction
 

@@ -23,14 +23,14 @@ The [`visible`](../../api/diagram/annotationmodel#visibility) property of the an
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs14/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs14/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs14/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs14" %}
 
 ## Horizontal and vertical alignment
 
@@ -52,14 +52,14 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs6" %}
 
 ## Annotation Margin
 
@@ -67,14 +67,14 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs8" %}
 
 
 ## Hyperlink
@@ -88,14 +88,14 @@ The [`textDecoration`](../../api/diagram/textDecoration) property is used to dec
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs10" %}
 
 ## Rotate Annotation
 
@@ -103,14 +103,14 @@ Annotation can be rotated by setting the [`rotateAngle`](../../api/diagram/shape
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-rotate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-rotate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-rotate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-rotate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-rotate" %}
 
 ## Template support for annotation
 
@@ -124,14 +124,14 @@ The following code illustrates how to define a template in annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs11" %}
 
 N> For the proper alignment of template, we need to mention width and height for the annotation while using template.
 
@@ -143,14 +143,14 @@ The following code illustrates how to define a annotationTemplate in annotation 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-annotationTemplate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-annotationTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-annotationTemplate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-annotationTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-annotationTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-annotationTemplate" %}
 
 ### Functional template
 
@@ -160,14 +160,14 @@ The following code illustrates how to define a functional template.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-functionalTemplate/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-functionalTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-functionalTemplate/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-functionalTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-functionalTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-functionalTemplate" %}
 
 ## Text align
 
@@ -175,14 +175,14 @@ The [`textAlign`](../../api/diagram/textStyleModel#textalign) property of annota
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs9" %}
 
 The following table shows the different text alignment.
 
@@ -199,14 +199,14 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs12" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -232,12 +232,12 @@ Types of text overflow are shown in below table.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs13/index.js %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/annotations-cs13/index.html %}
+{% include code-snippet/diagram-sdk/javascript/annotations-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-cs13" %}
 

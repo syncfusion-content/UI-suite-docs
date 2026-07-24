@@ -152,14 +152,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs1" %}
 
 For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/nodeConstraints).
 
@@ -274,14 +274,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs2" %}
 
 For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/connectorConstraints).
 
@@ -359,14 +359,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs3" %}
 
 For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/portConstraints).
 
@@ -431,14 +431,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs4" %}
 
 For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/annotationConstraints#AnnotationConstraints).
 
@@ -496,14 +496,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs5" %}
 
 For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/selectorConstraints).
 
@@ -555,14 +555,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs6" %}
 
 For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/snapConstraints).
 
@@ -602,14 +602,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/constraints-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/constraints-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/constraints-cs7" %}
 
 For more information about selector constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/boundaryConstraints).
 

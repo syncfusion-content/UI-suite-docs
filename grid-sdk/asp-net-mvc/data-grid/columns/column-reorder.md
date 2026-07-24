@@ -18,10 +18,10 @@ Here's an example for column reordering in your Grid component:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ In this example, the **ShipName** column is prevented from being reordered by se
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder-prevent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder-prevent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder-prevent/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder-prevent/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ In this example, we are moving the column at index **1** to index **3**.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reordercols/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reordercols/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reordercols/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reordercols/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ Here is an example of how to use the `reorderColumnByTargetIndex` method to reor
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reordertargetcolumns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reordertargetcolumns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reordertargetcolumns/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reordertargetcolumns/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -106,10 +106,10 @@ Here is an example of how to use the `reorderColumns` method to reorder single c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder-field/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder-field/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorder-field/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorder-field/reorder.cs %}
 {% endhighlight %}
 {% endtabs %} 
 
@@ -130,10 +130,10 @@ In this example, **Order Details** is moved before **Customer Name**, and **Ship
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorderColumnByModel/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorderColumnByModel/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorderColumnByModel/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorderColumnByModel/reorder.cs %}
 {% endhighlight %}
 {% endtabs %} 
 
@@ -153,10 +153,10 @@ In the following example, we have implemented the `ColumnDragStart`, `ColumnDrag
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorderevents/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorderevents/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Reorder.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/columns/reorderevents/reorder.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/reorderevents/reorder.cs %}
 {% endhighlight %}
 {% endtabs %}
 

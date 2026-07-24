@@ -17,10 +17,10 @@ Here is an example that demonstrates the usage of the filter menu in the Syncfus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filtermenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filtermenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filtermenu/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filtermenu/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Here is a sample code demonstrating how to render a dropdownlist component for t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-component/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-component/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-component/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-component/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ Here is an example that demonstrates how to show 24 hours time format in filter 
  
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-format/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-format/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ Here is an example of how to customize the filter operators list in Syncfusion<s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-operators/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-operators/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-operators/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-operators/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -106,10 +106,10 @@ Here is an example that demonstrates how to perform filtering by multiple keywor
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-multiple-keywords/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-multiple-keywords/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-multiple-keywords/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-multiple-keywords/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ In the example provided below, the **OrderID** and **Freight** columns are numer
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-menu-dialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-menu-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-menu-dialog/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-menu-dialog/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -158,10 +158,10 @@ The following example demonstrate how to hide the default filter icons while fil
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-hide-method/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-hide-method/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-hide-method/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-hide-method/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -179,10 +179,10 @@ Here's an example of how to use these events to handle filter menu action in the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filtermenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/filtering/filter-menu-events/filtermenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-menu-events/filtermenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 

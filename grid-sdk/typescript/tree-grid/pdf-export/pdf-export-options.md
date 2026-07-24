@@ -19,27 +19,27 @@ PDF export provides an option to export hidden columns of TreeGrid by defining t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs4" %}
 {% endif %}
 
 ## Show or hide columns on exported PDF
@@ -56,27 +56,27 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs5" %}
 {% endif %}
 
 ## How to change page orientation
@@ -87,27 +87,27 @@ Page orientation can be changed Landscape(Default Portrait) for the exported doc
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs6" %}
 {% endif %}
 
 ## How to change page size
@@ -147,27 +147,27 @@ Supported page sizes are:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs7" %}
 {% endif %}
 
 ## To customize PDF export
@@ -182,27 +182,27 @@ You can assign the file name for the exported document by defining `fileName` pr
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs8" %}
 {% endif %}
 
 ## Font customization
@@ -244,27 +244,27 @@ In the following example, we have used Advent Pro font to export the treegrid wi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/pdfexport-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/pdfexport-cs9" %}
 {% endif %}
 
 > `PdfTrueTypeFont` accepts base 64 format of the Custom Font.

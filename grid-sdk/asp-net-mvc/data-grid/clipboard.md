@@ -23,10 +23,10 @@ To enable the clipboard feature, you can use the grid component with your data s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/key/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/key/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/key/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/key/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ To copy selected rows or cells data into the clipboard with the help of external
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/clipboard/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/clipboard/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/clipboard/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/clipboard/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ The following example demonstrates, how to enable autofill feature in the grid.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/autofill/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/autofill/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofill.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/autofill/autofill.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/autofill/autofill.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ Follow the steps below to use the Paste feature in the grid:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/paste/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/paste/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/clipboard/paste/paste.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/clipboard/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 

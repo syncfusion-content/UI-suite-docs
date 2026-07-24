@@ -44,10 +44,10 @@ Component |Example
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-type/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-type/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditType.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-type/editType.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-type/editType.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ Component |Example
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-type/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-type/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditType.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-type/editType.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-type/editType.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

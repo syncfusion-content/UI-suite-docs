@@ -31,14 +31,14 @@ The following example demonstrates how to export current page to a Excel documen
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs1" %}
 
 ## Export the selected records 
 
@@ -60,14 +60,14 @@ The following example demonstrates how to export the selected records to a Excel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs2" %}
 
 ## Exporting grouped records
 
@@ -79,14 +79,14 @@ The following example demonstrates how to export grouped records to an Excel doc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs3" %}
 
 ## Export with hidden columns
 
@@ -98,14 +98,14 @@ The following example demonstrates how to export hidden columns to a Excel file.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs4" %}
 
 ## Show or hide columns while exporting
 
@@ -125,14 +125,14 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs5" %}
 
 ## Show or hide columns while exporting with stacked header
 
@@ -152,14 +152,14 @@ In the following example, the **ShipName** is initially a hidden column in the G
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/excel-export-show-hide/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/excel-export-show-hide/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/excel-export-show-hide/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/excel-export-show-hide/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/excel-export-show-hide" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/excel-export-show-hide" %}
 
 ## Enable filtering in the exported excel file
 
@@ -171,14 +171,14 @@ The following example demonstrates how to export data with filter options to an 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs6" %}
 
 ## Define file name
 
@@ -190,14 +190,14 @@ The following example demonstrates how to define a file name using `ExcelExportP
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs7" %}
 
 ## Export the master detail grid
 
@@ -209,14 +209,14 @@ The following example demonstrates how to export master detail grid to the same 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/mastergrid-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/mastergrid-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/mastergrid-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/mastergrid-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/mastergrid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/mastergrid-cs1" %}
 
 ## Customizing columns on export
 
@@ -234,14 +234,14 @@ The following example demonstrates how to customize the grid columns when export
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-option-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-option-cs8" %}
 
 ## Font and color customization 
 
@@ -259,14 +259,14 @@ In the following example, apply font styling to the caption, header, and record 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/font-customization-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/font-customization-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/font-customization-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/font-customization-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/font-customization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/font-customization-cs1" %}
 
 >By default, material theme is applied to exported excel document.
 
@@ -280,14 +280,14 @@ In the following demo, using the `rotation` property of the style argument in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-rotate-header-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-rotate-header-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-rotate-header-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-rotate-header-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-rotate-header-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-rotate-header-cs1" %}
 
 ## Conditional cell formatting
 
@@ -299,14 +299,14 @@ The following example demonstrate how to customize the background color of the F
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-cell-customization-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-cell-customization-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-cell-customization-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-cell-customization-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-cell-customization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-cell-customization-cs1" %}
 
 ## Adding header and footer in the exported Excel file
 
@@ -318,14 +318,14 @@ The following example demonstrates how to add a header and footer to the exporte
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-header-customization-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-header-customization-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-header-customization-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-header-customization-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-header-customization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-header-customization-cs1" %}
 
 ## Export grid as blob
 
@@ -335,11 +335,11 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-grid-as-blob-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-grid-as-blob-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/excel/export-grid-as-blob-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/excel/export-grid-as-blob-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/excel/export-grid-as-blob-cs1" %}

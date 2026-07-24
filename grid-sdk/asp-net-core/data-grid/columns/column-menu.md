@@ -29,10 +29,10 @@ The default column menu items are displayed in following table.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ The following example demonstrates how to prevent the column menu for a specific
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/prevent-column-menu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/prevent-column-menu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/prevent-column-menu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/prevent-column-menu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ Consider the following example, which demonstrates how to add a custom column me
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/customcolumnmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/customcolumnmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/customcolumnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/customcolumnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ The following sample, **Filter** item was hidden in column menu when opens for t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/customizecolumnmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/customizecolumnmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/customizecolumnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/customizecolumnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,10 +105,10 @@ Here is an example of how to configure the `columnMenuItems` property to include
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenu-stacked/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenu-stacked/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenu-stacked/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenu-stacked/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ Here is an example that demonstrates how to customize the column menu icon in th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/custom-column-menu-icon/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/custom-column-menu-icon/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/custom-column-menu-icon/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/custom-column-menu-icon/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -152,10 +152,10 @@ The column menu in ASP.NET Core Grid provides a set of events that allow customi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenuevents/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenuevents/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnmenuevents/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnmenuevents/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -55,27 +55,27 @@ The following sample code demonstrates the customization applied to TextBox cont
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs26/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs26/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs26/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs26" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs26/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs26/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs26/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs26" %}
 {% endif %}
 
 ## Customize NumericTextBox control of numericedit type 
@@ -92,27 +92,27 @@ The following sample code demonstrates the customization applied to NumericTextB
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-customize-numerictextbox/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-customize-numerictextbox/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-customize-numerictextbox/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-customize-numerictextbox/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-customize-numerictextbox" %}
 {% endif %}
 
 ### Restrict to type decimal points in a NumericTextBox while editing the numeric column
@@ -129,27 +129,27 @@ In the below demo, while editing the row the decimal point value is restricted t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/prevent-decimal-points-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/prevent-decimal-points-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/prevent-decimal-points-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/prevent-decimal-points-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/prevent-decimal-points-cs1" %}
 {% endif %}
 
 ## Customize DropDownList control of DropDownEdit type 
@@ -166,27 +166,27 @@ The following sample code demonstrates the customization applied to DropDownList
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-numeric-column/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-numeric-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-numeric-column/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-numeric-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-numeric-column" %}
 {% endif %}
 
 ### Provide custom data source for DropDownList control
@@ -203,27 +203,27 @@ In the below demo, DropDownList is rendered with custom data source for the **Sh
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs27/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs27/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs27/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs27/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs27" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs27/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs27/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs27/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs27/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs27" %}
 {% endif %}
 
 ### Apply filtering for DropDownList control
@@ -238,27 +238,27 @@ In the following demo, filtering is enabled for the **ShipCountry** column.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs28/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs28/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs28/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs28/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs28" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs28/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs28/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs28/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs28/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs28" %}
 {% endif %}
 
 ### Open popup while focusing in the edit cell
@@ -275,27 +275,27 @@ The following sample demonstrates how to open the popup when focusing on the edi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs29/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs29/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs29/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs29/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs29" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs29" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs29/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs29/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs29/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs29/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs29" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs29" %}
 {% endif %}
 
 ## Customize CheckBox control of booleanedit type 
@@ -312,27 +312,27 @@ The following sample code demonstrates the customization applied to CheckBox con
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-checkbox-boolean/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-checkbox-boolean/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-checkbox-boolean/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-checkbox-boolean/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-checkbox-boolean" %}
 {% endif %}
 
 ## Customize DatePicker control of datepickeredit type 
@@ -349,27 +349,27 @@ The following sample code demonstrates the customization applied to DatePicker c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datepicker-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datepicker-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datepicker-control" %}
 {% endif %}
 
 ### Disable the date value prior to the selected date value in DatePicker control
@@ -382,27 +382,27 @@ The following example demonstrates how to configure the `DatePicker` control wit
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/hide-dates-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/hide-dates-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/hide-dates-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/hide-dates-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/hide-dates-cs1" %}
 {% endif %}
 
 ## Customize DateTimePicker control of datetimepickeredit type 
@@ -419,27 +419,27 @@ The following sample code demonstrates the customization applied to DateTimePick
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datetimepicker-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datetimepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datetimepicker-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-datetimepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-datetimepicker-control" %}
 {% endif %}
 
 ## Access editor controls using instance
@@ -454,27 +454,27 @@ In the below demo, you can access the editor control instance while adding or ed
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-access-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-access-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-access-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-access-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-access-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-access-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-access-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-access-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-access-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-access-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-access-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-access-control" %}
 {% endif %}
 
 ## Render custom cell editors using external function 
@@ -505,27 +505,27 @@ The following example demonstrates how to render a textArea control in the **Shi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textarea-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textarea-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textarea-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textarea-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textarea-control" %}
 {% endif %}
 
 **Prevent the enter key functionality in multiline textbox while editing** 
@@ -540,27 +540,27 @@ The following example demonstrates how to prevent the enter key functionality in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textbox-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textbox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textbox-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-textbox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-textbox-control" %}
 {% endif %}
 
 ### Render MaskedTextBox control in edit form 
@@ -575,27 +575,27 @@ Here's an example of how to render a MaskedTextBox control in the **CustomerNumb
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-maskedtextbox-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-maskedtextbox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-maskedtextbox-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-maskedtextbox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-maskedtextbox-control" %}
 {% endif %}
 
 ### Render DropDownList control in edit form 
@@ -610,27 +610,27 @@ The following example demonstrates how to render a DropDownList control in the *
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-dropdownlist-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-dropdownlist-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-dropdownlist-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-dropdownlist-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-dropdownlist-control" %}
 {% endif %}
 
 ### Render images in the DropDownList editor control using the item template 
@@ -647,27 +647,27 @@ The following example demonstrates how to render images in the DropDownList edit
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-images-dropdownlist/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-images-dropdownlist/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-images-dropdownlist/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-images-dropdownlist/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-images-dropdownlist" %}
 {% endif %}
 
 ### Render Multiple columns in DropDownList control  
@@ -684,27 +684,27 @@ The following example demonstrates how to render a DropDownList control with mul
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-columns-dropdownlist/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-columns-dropdownlist/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-columns-dropdownlist/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-columns-dropdownlist/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-columns-dropdownlist" %}
 {% endif %}
 
 ### Render ComboBox control in edit form 
@@ -719,27 +719,27 @@ The following example demonstrates how to render a ComboBox control in the **Shi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-comboBox-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-comboBox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-comboBox-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-comboBox-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-comboBox-control" %}
 {% endif %}
 
 ### Render TimePicker control in edit form 
@@ -754,27 +754,27 @@ The following example demonstrates how to render a TimePicker control in the **O
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-timepicker-control/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-timepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-timepicker-control/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-timepicker-control/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-timepicker-control" %}
 {% endif %}
 
 ### Render MultiSelect control in edit form
@@ -789,27 +789,27 @@ The following example demonstrates how to render a MultiSelect control in the **
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs31/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs31/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs31/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs31/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs31" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs31" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs31/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs31/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs31/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs31/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs31" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs31" %}
 {% endif %}
 
 ### Render RichTextEditor control in edit form
@@ -826,27 +826,27 @@ The following example demonstrates how to render a RichTextEditor control in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs33/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs33/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs33/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs33/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs33" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs33" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs33/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs33/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs33/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs33/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs33" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs33" %}
 {% endif %}
 
 ### Render Upload control in edit form  
@@ -861,27 +861,27 @@ The following example demonstrates how to render a Upload control in the **Emplo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs32/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs32/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs32/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs32/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs32" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs32" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs32/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs32/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs32/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs32/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs32" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs32" %}
 {% endif %}
 
 > By default, the grid saves the cell when clicking outside the editor component. If your components, like multiple popups, are dynamically rendered, the grid may not recognize them, causing the editor to close when the popup is clicked. To prevent this, apply the `edit-custom-template` class to both your main component and sub-components. If you are using Syncfusion<sup style="font-size:70%">&reg;</sup> components, set their `cssClass` property to include the `edit-custom-template` class.
@@ -899,32 +899,32 @@ The following example demonstrates how to render a Autocomplete in the **Custome
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs30/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs30/index.ts %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs30/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs30/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs30" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs30" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs30/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs30/index.js %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs30/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs30/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs30" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs30" %}
 {% endif %}
 
 ### Render cascading DropDownList in edit form
@@ -940,30 +940,30 @@ In the below demo, cascading DropDownList rendered for **ShipCountry** and **Shi
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs34/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs34/index.ts %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs34/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs34/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs34" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs34" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs34/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs34/index.js %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
 
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs34/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs34/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs34" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs34" %}
 {% endif %}

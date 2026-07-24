@@ -52,20 +52,20 @@ The Grid provides column types to represent different data types. Each type ensu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-type-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-type-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-type-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-type-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-type-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-type-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-type-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-type-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-type-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-type-cs1" %}
 
 ### Difference between boolean and checkbox types
 
@@ -137,20 +137,20 @@ The column width can be defined using an absolute pixel value. For example, sett
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-width-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-width-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-width-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-width-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-width-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-width-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-width-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-width-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-width-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-width-cs1" %}
 
 ## Column formatting
 
@@ -160,20 +160,20 @@ The [format](https://ej2.syncfusion.com/react/documentation/api/grid/column#form
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs20/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs20/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs20/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs20/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs20/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs20/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs20/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs20/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs20" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs20" %}
 
 > * The Grid uses the [Internalization](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization) library to format values based on the specified format and culture.
 > * By default, the [number](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#number-formatting) and [date](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#manipulating-datetime) values are formatted in "en-US" locale. Localization of currency, date, number formats, and other culture-specific elements to different locales is supported as explained in the [localization documentation](https://ej2.syncfusion.com/react/documentation/common/globalization/localization).
@@ -195,20 +195,20 @@ The following example code demonstrates the formatting of data for "Mark 1" and 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs3" %}
 
 > For additional details on number formatting options supported by the Grid component, refer to the [number formatting](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#number-formatting) section in the Internationalization documentation.
 
@@ -228,20 +228,20 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs21/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs21/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs21/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs21/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs21/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs21/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs21/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs21/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs21" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs21" %}
 
 ### Format the date and currency column based on localization
 
@@ -269,20 +269,20 @@ Once installed, import and load the required CLDR files. Syncfusion® uses these
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-localization-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-localization-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-localization-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-localization-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-localization-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-localization-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-localization-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-localization-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-localization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-localization-cs1" %}
 
 For more details about loading culture files and working with globalization in Syncfusion®, refer to the official [documentation](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#installing-cldr-data).
 
@@ -294,20 +294,20 @@ In this example, the date pipe formats the "Order Date" value as a date in the f
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs1" %}
 
 > Other React pipes, such as `currency`, `decimal`, `percent`, and similar utilities, enable formatting of various value types within column templates.
 
@@ -348,20 +348,20 @@ In the below example, the "numberFormatOptions" object is used as the `format` p
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-format-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-format-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-format-cs2" %}
 
 > For additional details on custom formatting, refer to the documentation for [Custom Date formatting](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#custom-formats) and [Custom Number formatting](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#custom-number-formatting-and-parsing).
 
@@ -452,14 +452,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs27/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs27/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs27/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs27/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs27" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs27" %}
 
 > The `textAlign` property controls alignment for both header and content cells in a column. The [headerTextAlign](https://ej2.syncfusion.com/react/documentation/api/grid/column#headertextalign) property provides alignment control for header text only.
 
@@ -471,20 +471,20 @@ To enable the rendering of boolean values as checkboxes, set the `displayAsCheck
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs22/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs22/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs22/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs22/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs22/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs22/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs22/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs22/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs22" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs22" %}
 
 ### Preventing checkbox in blank rows
 
@@ -492,20 +492,20 @@ To prevent the checkbox in blank rows of the Grid, even when the [displayAsCheck
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/blank-row-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/blank-row-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/blank-row-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/blank-row-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/blank-row-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/blank-row-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/blank-row-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/blank-row-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/blank-row-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/blank-row-cs1" %}
 
 ## Lock columns
 
@@ -559,14 +559,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs24/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs24/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs24/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs24/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs24" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs24" %}
 
 ## Show or hide columns
 
@@ -580,20 +580,20 @@ In the below example, the "Ship City" column is defined with `visible` property 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-property-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-property-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-property-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-property-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-property-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-property-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-property-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-property-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-property-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-property-cs1" %}
 
 > * Hiding a column using the `visible` property only affects the UI representation of the Grid. The data for hidden columns still exists in the data source and can be accessed or modified through code.
 > * The width of hidden columns is excluded from the total Grid width calculation.
@@ -609,20 +609,20 @@ The `showColumns` and `hideColumns` methods enable dynamic control of column vis
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs26/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs26/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs26/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs26/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs26/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs26/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs26/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs26/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs26" %}
 
 **Based on field**
 
@@ -630,20 +630,20 @@ External buttons can control column visibility by field name using the `showColu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-field-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-field-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-field-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-field-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-field-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-field-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-field-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-field-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-field-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-field-cs1" %}
 
 ## Controlling grid actions
 
@@ -659,20 +659,20 @@ Column-specific actions like filtering, grouping, sorting, resizing, reordering,
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs25/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs25/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs25/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs25/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs25/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs25/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs25/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs25/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs25" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs25" %}
 
 ## Customize column styles
 
@@ -705,20 +705,20 @@ The [columns](https://ej2.syncfusion.com/react/documentation/api/grid/index-defa
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-update-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-update-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-update-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-update-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-update-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-update-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-update-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-update-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-update-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-update-cs1" %}
 
 ### Adding/Removing Columns
 
@@ -728,20 +728,20 @@ New columns can be added using the `push` method to add the column object to the
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs37/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs37/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs37/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs37/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs37/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs37/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs37/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs37/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs37" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs37" %}
 
 ### Refreshing columns
 
@@ -759,20 +759,20 @@ This example shows a Grid with three columns: "Order ID", "Customer ID", and "Fr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs30/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs30/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs30/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs30/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs30/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs30/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/column-cs30/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/column-cs30/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs30" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-cs30" %}
 
 ## See also
 

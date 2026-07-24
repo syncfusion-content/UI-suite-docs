@@ -16,14 +16,14 @@ Multiple segments can be defined one after another. To create a connector with m
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-multipleSeg/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-multipleSeg/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-multipleSeg/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-multipleSeg/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-multipleSeg" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-multipleSeg" %}
 
 ## Undo/Redo support for connector segments
 
@@ -42,11 +42,11 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-segundo/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/connectors-segundo/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-segundo/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-segundo/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-segundo" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-segundo" %}

@@ -28,7 +28,7 @@ The following code example demonstrates how to handle the [`click`](https://ej2.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs0" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs0" %}
 
 ## Selection Change Event
 
@@ -46,7 +46,7 @@ The following code example shows how to handle the [`selectionChange`](https://e
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs1" %}
 
 Selection can be prevented by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the following code:
 
@@ -75,7 +75,7 @@ The following code example demonstrates how to handle the [`positionChange`](htt
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs2" %}
 
 Dragging can be prevented by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/idraggingeventargs) to true:
 
@@ -104,7 +104,7 @@ The following code example shows how to handle the [`sizeChange`](https://ej2.sy
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs3" %}
 
 Resizing can be prevented by setting the `cancel` property of [`SizeChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/isizechangeeventargs) to true:
 
@@ -133,7 +133,7 @@ The following code example demonstrates how to handle the [`rotateChange`](https
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs4" %}
 
 Rotation can be prevented by setting the `cancel` property of [`RotationEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/irotationeventargs) to true:
 
@@ -162,7 +162,7 @@ The following code example shows how to handle the [`propertyChange`](https://ej
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs5" %}
 
 ## Collection Change Event
 
@@ -180,7 +180,7 @@ The following code example demonstrates how to handle the [`collectionChange`](h
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs6" %}
 
 Collection changes can be prevented by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/diagram/icollectionchangeeventargs) to true:
 
@@ -221,4 +221,4 @@ The following code example demonstrates how to handle these mouse events and imp
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-events-cs7" %}

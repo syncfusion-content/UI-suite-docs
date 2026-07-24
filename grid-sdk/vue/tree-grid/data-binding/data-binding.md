@@ -24,14 +24,14 @@ You can use TreeGrid [`dataSource`](https://ej2.syncfusion.com/vue/documentation
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs1" %}
 
 > * If you bind the dataSource from this way, then it acts like a local dataSource. So you cannot perform any server side crud actions.
 

@@ -18,10 +18,10 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/indent/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/indent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/indent/indent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/indent/indent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ To use the indent and outdent feature, inject the `RowDD` module in the Tree Gri
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/indent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/indent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/indent/indent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/indent/indent.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -45,10 +45,10 @@ You can change the hierarchy level of record programmatically using `indent` and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/programmatic-indent/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/programmatic-indent/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/programmatic-indent/indent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/programmatic-indent/indent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ You can change the hierarchy level of record programmatically using `indent` and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/programmatic-indent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/programmatic-indent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Indent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/programmatic-indent/indent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/programmatic-indent/indent.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

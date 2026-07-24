@@ -49,7 +49,7 @@ To add a connection port, define the port object and add it to node’s [`ports`
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs1" %}
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -69,7 +69,7 @@ If ID is not set, then default ID is automatically set.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/Node-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/Node-cs1" %}
 
 ## Remove ports at runtime
 
@@ -84,7 +84,7 @@ You can remove ports at runtime by using diagram method [`removePorts`](https://
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/Remove-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/Remove-cs1" %}
 
 ## Update Port at runtime
 
@@ -101,7 +101,7 @@ The following code example illustrates how to change the port offset at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs2" %}
 
 
 ## Specify connection direction to port
@@ -118,7 +118,7 @@ The [`connectionDirection`](https://ej2.syncfusion.com/vue/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs3" %}
 
 ![connectionDirection](../images/connectionDirection2.png)
 
@@ -139,7 +139,7 @@ The following code example shows how to get inEdges and outEdges of port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-cs4" %}
 
 ## Additional information to port
 

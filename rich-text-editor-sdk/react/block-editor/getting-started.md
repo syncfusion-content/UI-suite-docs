@@ -33,7 +33,7 @@ npm install
 
 > **Note:** To set up a React application with Nextjs or Remix, refer to this [documentation](https://ej2.syncfusion.com/react/documentation/getting-started/quick-start) for more details.
 
-## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Packages
+## Adding Syncfusion<sup style="font-size:70%">&reg;</sup> Block Editor Packages
 
 All available Essential<sup style="font-size:70%">&reg;</sup> JS 2 packages are published in the [`npmjs.com`](https://www.npmjs.com/~syncfusionorg) public registry.
 
@@ -59,6 +59,7 @@ Import the required CSS theme files for the Block Editor and its dependencies in
 @import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 ```
 I> To apply the application-specific styles correctly, import **App.css** into **src/App.tsx** and remove all the default styles from **src/index.css**.
+
 ## Add the Block Editor Component
 
 Now, You can add the Block Editor component to your application. Replace the default contents of `src/App.tsx` with the following code, which uses the `<BlockEditorComponent>` directive to render the editor.
@@ -71,11 +72,11 @@ Now, You can add the Block Editor component to your application. Replace the def
 {% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/index.jsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/app.css %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/getting-started/app/App.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/getting-started" %}
 
 > **Note:** This guide assumes React 18+. The Vite template mounts the app into a `<div id="root">` element in `index.html` via `src/main.tsx` using `createRoot`. Ensure your `main.tsx` renders the `App` component into that node.
 

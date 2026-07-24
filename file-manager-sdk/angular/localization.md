@@ -127,17 +127,17 @@ The following example demonstrates how to localize the File Manager to German la
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/localization-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/localization-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/localization-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/localization-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/localization-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/localization-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/localization-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/localization-cs1" %}
 
 ## Rendering component in right-to-left direction
 
@@ -145,14 +145,14 @@ It is possible to render the File Manager in right-to-left direction by setting 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rtl-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/rtl-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rtl-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/rtl-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rtl-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/rtl-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/rtl-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/rtl-cs1" %}

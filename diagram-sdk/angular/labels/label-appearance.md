@@ -32,7 +32,7 @@ The following code demonstrates comprehensive label appearance customization:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/appear-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/appear-cs1" %}
 
 ## Horizontal and vertical alignment
 
@@ -62,7 +62,7 @@ The following code example shows how to configure label alignment:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
 
 ## Label Margin
 
@@ -80,7 +80,7 @@ The following example demonstrates label positioning using [`margin`](https://ej
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/margin-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/margin-cs1" %}
 
 ## Hyperlink
 
@@ -102,7 +102,7 @@ The following example shows hyperlink implementation and customization:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/hyperlink-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/hyperlink-cs1" %}
 
 ## Rotate Label
 
@@ -120,7 +120,7 @@ The following example demonstrates label rotation:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/rotateAngle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/rotateAngle-cs1" %}
 
 ## Template support for labels
 
@@ -142,7 +142,7 @@ The following code shows string template implementation:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/labeltemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/labeltemplate-cs1" %}
 
 N> Specify width and height for labels when using templates to ensure proper alignment and rendering.
 
@@ -162,7 +162,7 @@ The following code demonstrates HTML template usage for labels:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/annotationTemp-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/annotationTemp-cs1" %}
 
 ## Text align
 
@@ -180,7 +180,7 @@ The following code demonstrates text alignment configuration:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/textalign-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/textalign-cs1" %}
 
 The following table shows different text alignment options:
 
@@ -207,7 +207,7 @@ The following code shows text wrapping implementation:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/wrapping-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/wrapping-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -241,4 +241,4 @@ Available overflow options include:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/overflow-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/overflow-cs1" %}

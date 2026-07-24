@@ -89,7 +89,7 @@ The default export format is JPG. The following example shows format specificati
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs1" %}
 
 ## Margin Configuration
 
@@ -105,7 +105,7 @@ The [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/iExpor
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs2" %}
 
 ## Export Modes
 
@@ -168,7 +168,7 @@ The following example demonstrates different region export options:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs3" %}
 
 N> The [`bounds`](https://ej2.syncfusion.com/react/documentation/api/diagram/iExportOptions#bounds) property of `exportOptions` should be defined to export the diagram with CustomBounds region.
 
@@ -191,7 +191,7 @@ The following example shows multi-page export configuration:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs4" %}
 
 ## Direct Image Export
 
@@ -207,7 +207,7 @@ The [`exportImage`](https://ej2.syncfusion.com/react/documentation/api/diagram#e
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs5" %}
 
 ## Diagram Content Retrieval
 
@@ -223,7 +223,7 @@ The [`getDiagramContent`](https://ej2.syncfusion.com/react/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs6" %}
 
 ## Stretch Option for Enhanced Quality
 

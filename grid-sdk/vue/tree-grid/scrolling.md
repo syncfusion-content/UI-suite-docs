@@ -24,14 +24,14 @@ To specify the [`width`](https://ej2.syncfusion.com/vue/documentation/api/treegr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs1" %}
 
 ## Responsive with parent container
 
@@ -41,14 +41,14 @@ Setting the [`height`](https://ej2.syncfusion.com/vue/documentation/api/treegrid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/default-cs2" %}
 
 ## Sticky header
 
@@ -62,14 +62,14 @@ The following sample demonstrates how to enable or disable the sticky header in 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/scrolling-sticky-header/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/scrolling-sticky-header/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/scrolling-sticky-header/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/scrolling-sticky-header/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/scrolling-sticky-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/scrolling-sticky-header" %}
 
 ## Scroll to selected row
 
@@ -77,11 +77,11 @@ You can scroll the treegrid content to the selected row position by using the [`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/selectrow-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/selectrow-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/scroll/selectrow-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/scroll/selectrow-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/selectrow-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/scroll/selectrow-cs1" %}

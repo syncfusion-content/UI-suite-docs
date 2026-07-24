@@ -33,14 +33,14 @@ The following table shows built-in toolbar items and its actions.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs1" %}
 
 > * The [`toolbar`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#toolbar) has options to define both built-in and custom toolbar items.
 
@@ -53,14 +53,14 @@ By default, Custom toolbar items are in position `Left`. You can change the posi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs2" %}
 
 > * The [`toolbar`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#toolbar) has options to define both built-in and custom toolbar items.
 > * If a toolbar item does not match the built-in items, it will be treated as a custom toolbar item.
@@ -73,11 +73,11 @@ In the below example, `ExpandAll`, `CollapseAll` are built-in toolbar items and 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/toolbar/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/toolbar/default-cs3" %}

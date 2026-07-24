@@ -19,27 +19,27 @@ To use filter, inject the `Filter` module in the treegrid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs9/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs9/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs9/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs9" %}
 {% endif %}
 
 > * You can apply and clear filtering by using [`filterByColumn`](../../api/treegrid/#filterbycolumn) and [`clearFiltering`](../../api/treegrid/#clearfiltering) methods.
@@ -63,27 +63,27 @@ The below are the type of filter mode available in TreeGrid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/hierarchy-filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/hierarchy-filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/hierarchy-filtering-cs1" %}
 {% endif %}
 
 ## Initial filter
@@ -95,27 +95,27 @@ To apply the filter at initial rendering, set the filter `predicate` object in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs10/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs10/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs10/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs10" %}
 {% endif %}
 
 ## Filter operators
@@ -148,27 +148,27 @@ In the following sample, type **aero** in `Name` column to filter diacritic char
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs11/index.ts %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs11/index.js %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/tree-grid/typescript/tree-grid/typescript/tree-grid/filtering-cs11/index.html %}
+{% include code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/tree-grid/filtering-cs11" %}
 {% endif %}
 
 > You can refer to our [`JavaScript Tree Grid`](https://www.syncfusion.com/javascript-ui-controls/js-tree-grid) feature tour page for its groundbreaking feature representations. You can also explore our JavaScript Tree Grid example [`JavaScript Tree Grid example`](https://ej2.syncfusion.com/demos/#/material/tree-grid/treegrid-overview.html) to knows how to present and manipulate data.

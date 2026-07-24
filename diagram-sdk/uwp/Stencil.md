@@ -40,7 +40,7 @@ Symbol is used to implement the ISymbol interface. The ISymbol interface consist
 ### Symbol and SymbolTemplate
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 public class SymbolItem : ISymbol
 {
@@ -73,7 +73,7 @@ public class SymbolItem : ISymbol
 ### Symbol Filter
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
         stencil.SelectedFilter = new SymbolFilterProvider { SymbolFilter = SymbolFilter };
         
@@ -119,7 +119,7 @@ The following example illustrates how to add the Symbol into a Collection:
 #### Add the ISymbol into the Collection.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
     // SymbolSource to Stencil
     public class Symbols : ObservableCollection<ISymbol>
@@ -231,7 +231,7 @@ Expand and Collapse can be performed on SymbolGroup (updating the Visibility of 
 The following code example shows how to create and add the SymbolFilter. Based on the return Boolean value of the SymbolFilter delegate, the corresponding item is removed from Stencil. When a SymbolGroup does not have any Symbols, the corresponding SymbolGroup is also removed.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 stencil.SymbolFilters = new SymbolFilters();
 
@@ -292,7 +292,7 @@ To enable preview for the dragged item from Stencil, set the Constraints propert
 The following code example illustrates how to enable preview support.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Enables the drag and drop preview.
 stencil.Constraints = stencil.Constraints | StencilConstraints.ShowPreview;
@@ -318,7 +318,7 @@ Here, Stencil is an instance of Stencil.
 You can customize the preview content by overriding the PrepareDragDropPreview method of the Stencil feature. The following code example illustrates how to customize preview content.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 public class CustomStencil : Stencil
 {

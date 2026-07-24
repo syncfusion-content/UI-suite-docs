@@ -16,14 +16,14 @@ To use the indent and outdent feature, inject the `RowDD` module into the TreeGr
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/indent-outdent-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/indent-outdent-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/indent-outdent-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/indent-outdent-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/indent-outdent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/indent-outdent-cs1" %}
 
 ## Indent/Outdent a row programmatically
 
@@ -31,11 +31,11 @@ Change the hierarchy level of a record programmatically using the `indent` and `
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/programmatic-indent-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/programmatic-indent-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/programmatic-indent-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/programmatic-indent-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/programmatic-indent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/programmatic-indent-cs1" %}

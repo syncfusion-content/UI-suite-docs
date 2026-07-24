@@ -42,17 +42,17 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/getting-started-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/getting-started-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/getting-started-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/getting-started-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/getting-started-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/getting-started-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/getting-started-cs5" %}

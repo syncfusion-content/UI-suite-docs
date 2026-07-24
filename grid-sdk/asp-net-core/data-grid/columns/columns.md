@@ -29,10 +29,10 @@ Here is an example of how to specify column types in a grid using the types ment
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-type/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-type/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ColumnType.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-type/column-type.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-type/column-type.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The column width is specified as an absolute pixel value. For example, a column 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnwidth/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnwidth/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ColumnWidth.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/columnwidth/columnwidth.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnwidth/columnwidth.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ You can use the `columns.format` property to specify the format for column value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/format/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ The following example code demonstrates the formatting of data for **Mark 1** an
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/numberformat/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/numberformat/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="NumberFormat.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/numberformat/numberformat.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/numberformat/numberformat.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/dateformat/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/dateformat/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/dateformat/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/dateformat/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ In this example, the format property specifies the date format as "**yyyy-MMM-dd
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-format-localization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-format-localization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-format-localization/format-localization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-format-localization/format-localization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,10 +201,10 @@ To illustrate how to format a template column value, consider the following exam
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-format-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-format-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-format-template/column-format-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-format-template/column-format-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -218,10 +218,10 @@ In the below example, the **numberFormatOptions** object is used as the `format`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/custom-format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/custom-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomFormat.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/custom-format/custom-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/custom-format/custom-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +242,10 @@ Here is an example of using the `textAlign` property to align the text of a Grid
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/alignment/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/alignment/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Alignment.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/alignment/alignment.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/alignment/alignment.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -261,10 +261,10 @@ To enable the rendering of boolean values as checkboxes, you need to set the `di
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/booleanascheckbox/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/booleanascheckbox/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Booleanascheckbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/booleanascheckbox/booleanascheckbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/booleanascheckbox/booleanascheckbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -281,10 +281,10 @@ Here is an example of how you can prevent a checkbox from being displayed in a b
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/blank-row/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/blank-row/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Blank-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/blank-row/blank-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/blank-row/blank-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -300,10 +300,10 @@ The `autoFitColumns` method resizes the column to fit the widest cell's content 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -319,10 +319,10 @@ You can enable this feature by setting the [autoFit](https://help.syncfusion.com
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoFit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit-column/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit-column/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -338,10 +338,10 @@ Here's an example code snippet in ASP.NET Core that demonstrates how to AutoFit 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit-column-chooser/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit-column-chooser/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoFit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofit-column-chooser/autofit-column-chooser.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofit-column-chooser/autofit-column-chooser.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -357,10 +357,10 @@ Here is an example of how to AutoFit columns with specific rows. The first param
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofitspecificcolumn/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofitspecificcolumn/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoFitSpecificColumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/autofitspecificcolumn/autofitspecificcolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/autofitspecificcolumn/autofitspecificcolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -374,10 +374,10 @@ Here's an example of how you can use the `lockColumn` property to lock a column 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/lock/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/lock/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Lock.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/lock/lock.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/lock/lock.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -397,10 +397,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-using-property/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-using-property/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-Hide-Column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/column-using-property/column-using-property.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-using-property/column-using-property.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -423,10 +423,10 @@ Here's an example of how to show or hide a column based on the headerText in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/show-hide-using-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/show-hide-using-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-Hide-Column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/show-hide-using-method/show-hide-using-method.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/show-hide-using-method/show-hide-using-method.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -441,10 +441,10 @@ Here's an example of how to show or hide a column based on the field in the ASP.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/show-hide-field/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/show-hide-field/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-Hide-Column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/show-hide-field/show-hide-field.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/show-hide-field/show-hide-field.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -467,10 +467,10 @@ Here is an example code that demonstrates how to component grid actions for spec
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/controllingactions/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/controllingactions/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controllingactions.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/controllingactions/controllingactions.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/controllingactions/controllingactions.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -546,10 +546,10 @@ You can update the column definitions in the Grid using the [columns](https://he
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/update-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/update-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/update-column/update-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/update-column/update-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -565,10 +565,10 @@ Here's an example of how you can add and remove a column from the grid:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/add-delete-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/add-delete-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/add-delete-column/add-delete-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/add-delete-column/add-delete-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -589,10 +589,10 @@ In this example, we have a Grid that displays data with three columns: **Order I
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/responsivecolumns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/responsivecolumns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Responsivecolumns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/columns/responsivecolumns/responsivecolumns.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/responsivecolumns/responsivecolumns.cs %}
 {% endhighlight %}
 {% endtabs %}
 

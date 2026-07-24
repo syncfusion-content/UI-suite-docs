@@ -1068,14 +1068,14 @@ Use a trusted token issued by the authentication flow after sign‑in. Keep toke
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/server-side-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/server-side-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/server-side-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/server-side-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/server-side-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/server-side-cs1" %}
 
 **Production tips**
 - Load tokens on demand and rotate them regularly; never hard-code secrets in source control.

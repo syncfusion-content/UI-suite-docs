@@ -26,10 +26,10 @@ Here's an example that demonstrates how to use the custom aggregate feature in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/custom-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/custom-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/custom-aggregate/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/custom-aggregate/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Here's an example that demonstrates how to show the count of distinct values for
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/custom-aggregate-distinct/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/custom-aggregate-distinct/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/aggregate/custom-aggregate-distinct/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/aggregate/custom-aggregate-distinct/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 

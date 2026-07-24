@@ -139,22 +139,22 @@ The following example illustrates how to create the grid sample and how to write
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="app.spec.js" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/app.spec.js %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/app.spec.js %}
 {% endhighlight %}
 {% highlight html tabtitle="app.spec.js" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/app.spec.js %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/app.spec.js %}
 {% endhighlight %}
 {% highlight html tabtitle="snap.spec.js" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/snap.spec.js %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/snap.spec.js %}
 {% endhighlight %}
 {% highlight html tabtitle="snap.spec.js" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/how-to/testcase-cs1/snap.spec.js %}
+{% include code-snippet/grid-sdk/vue/data-grid/how-to/testcase-cs1/snap.spec.js %}
 {% endhighlight %}
 {% endtabs %}
 

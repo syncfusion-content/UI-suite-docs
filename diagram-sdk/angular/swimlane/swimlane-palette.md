@@ -26,7 +26,7 @@ The diagram component supports adding both swimlane containers and individual ph
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/palette-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/palette-cs1" %}
 
 
 ### Drag and drop swimlane to palette

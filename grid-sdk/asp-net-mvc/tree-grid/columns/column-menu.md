@@ -28,7 +28,7 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,10 +36,10 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -56,7 +56,7 @@ Refer to the below complete code example about how to use custom column menu ite
 
 {% tabs %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/customcolumnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/customcolumnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ Refer to the below complete code example about how to use custom column menu ite
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomColumnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/customcolumnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customcolumnmenu/customcolumnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -82,7 +82,7 @@ The following example shows how to hide the built-in **Filter** menu item when t
 
 {% tabs %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/customizecolumnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/customizecolumnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,10 +90,10 @@ The following example shows how to hide the built-in **Filter** menu item when t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizeColumnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/customizecolumnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/customizecolumnmenu/customizecolumnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

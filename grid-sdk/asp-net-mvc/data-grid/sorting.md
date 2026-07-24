@@ -16,10 +16,10 @@ To sort a particular column in the grid, click on its column header. Each time y
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ The following example demonstrates how to set [SortSettings.Columns](https://hel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/initial-sort/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/initial-sort/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="initial-sort.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/initial-sort/initial-sort.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/initial-sort/initial-sort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ To clear multi-column sorting for a particular column, press the "Shift + mouse 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/multi-column-sort/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/multi-column-sort/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="multi-column-sort.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/multi-column-sort/multi-column-sort.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/multi-column-sort/multi-column-sort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ The following example demonstrates, how to disable sorting for **CustomerID** co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-prevent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-prevent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-prevent/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-prevent/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ The following example demonstrates how to define custom sort comparer function f
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-compare/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-compare/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-compare/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-compare/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,10 +116,10 @@ The example below demonstrates how to display null values at the bottom of the g
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-comparer/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-comparer/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sort-comparer.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-comparer/sort-comparer.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-comparer/sort-comparer.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -147,10 +147,10 @@ The following example demonstrates how to perform sorting by enabling a foreign 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/foreign-sort-local/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/foreign-sort-local/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="foreign-sort" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/foreign-sort-local/foreign-sort.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/foreign-sort-local/foreign-sort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -164,10 +164,10 @@ The following example demonstrates sorting a foreign key column where the **Empl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/foreign-sort-remote/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/foreign-sort-remote/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="foreign-sort" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/foreign-sort-remote/foreign-sort.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/foreign-sort-remote/foreign-sort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ In the following example, sorting is performed based on the **"ar"** locale usin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-currency/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-currency/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-currency/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-currency/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -207,10 +207,10 @@ In the below sample, grid is rendered with a customized sort icon.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-customize/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-customize/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sort-custom.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-customize/sort-custom.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-customize/sort-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -228,10 +228,10 @@ The following example demonstrates how to add sort columns to a grid. It utilize
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-column/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-column/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -245,10 +245,10 @@ The following example demonstrates how to remove sort columns. It utilizes the *
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-remove/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-remove/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-remove/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-remove/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -262,10 +262,10 @@ The following example demonstrates how to clear the sorting using `clearSorting`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-clear/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-clear/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sorting-sort-clear/sorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sorting-sort-clear/sorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,10 +283,10 @@ The following example demonstrates how the [ActionBegin](https://help.syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-event/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-event/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="sort-event.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/sorting/sort-event/sort-event.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/sorting/sort-event/sort-event.cs %}
 {% endhighlight %}
 {% endtabs %}
 

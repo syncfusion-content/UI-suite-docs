@@ -29,14 +29,14 @@ To create a node, define the [`node`](../../api/diagram/node) object and add tha
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs1" %}
 
 N> Node id should not begin with numbers(should begin with a letter). Node Id should be unique for all the shapes and connectors.
 
@@ -49,14 +49,14 @@ The following code illustrates how to add a node and remove a selected node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs2" %}
 
 ### Add collection of nodes at runtime
 
@@ -66,14 +66,14 @@ The following code illustrates how to add a nodes collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs21/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs21" %}
 
 ### Add node from palette
 
@@ -82,14 +82,14 @@ Nodes can be predefined and added to the palette, and can be dropped into the di
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-palette/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-palette/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-palette/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-palette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-palette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-palette" %}
 
 ### Create node through data source
 
@@ -97,14 +97,14 @@ Nodes can be generated automatically with the information provided through dataS
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-dataBind/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-dataBind/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-dataBind/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-dataBind/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-dataBind" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-dataBind" %}
 
 ### Draw nodes
 
@@ -114,14 +114,14 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
 
 ## Update node at runtime
 
@@ -129,14 +129,14 @@ You can modify any node properties at runtime, and the changes will be instantly
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-update/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-update/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-update/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-update/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-update" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-update" %}
 
 N> Once the property is updated, you should call the [`dataBind`](../../api/diagram#databind) to reflect the changes instantly.
 
@@ -149,14 +149,14 @@ The following code example illustrates how to clone node at runtime
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clone/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clone/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-clone/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-clone/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clone" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clone" %}
 
 ## Add nodes from tree view
 
@@ -166,14 +166,14 @@ The following code example demonstrates how to convert a tree view element into 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-treeView/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-treeView/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-treeView/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-treeView/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-treeView" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-treeView" %}
 
 ## See Also
 

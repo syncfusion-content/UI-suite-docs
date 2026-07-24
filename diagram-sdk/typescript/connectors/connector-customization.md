@@ -25,14 +25,14 @@ Diagram allows you to customize the connector appearances. The following topics 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-decorator/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-decorator/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-decorator/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-decorator/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-decorator" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-decorator" %}
 
 ### Customize the decorator appearance
 
@@ -46,14 +46,14 @@ The following code example illustrates how to customize the appearance of the de
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs18" %}
 
 ### Gradient style for decorator.
 
@@ -65,14 +65,14 @@ The following code example illustrates how to apply gradient for the decorator.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs24/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs24/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs24/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs24/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs24" %}
 
 ## Padding
 
@@ -86,14 +86,14 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs19" %}
 
 ## Bridging
 
@@ -102,14 +102,14 @@ Bridging can be enabled/disabled either with the `connector.constraints` or `dia
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs21/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs21/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs21" %}
 N> You need to inject connector bridging module into the diagram.
 
 The [`bridgeSpace`](https://ej2.syncfusion.com/documentation/api/diagram/connector#bridgespace) property of connectors can be used to define the width for line bridging.
@@ -124,14 +124,14 @@ Limitation: Bezier segments do not support bridging.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs60/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs60/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs60/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs60/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs60" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs60" %}
 
 
 ## Corner radius
@@ -140,14 +140,14 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs22/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs22/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs22/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs22" %}
 
 ## Connector Appearance
 
@@ -163,14 +163,14 @@ The following code example illustrates how to customize the segment appearance.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs23/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs23/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs23/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs23/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs23" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs23" %}
 
 ## Connector constraints
 
@@ -182,14 +182,14 @@ The following code illustrates how to disable selection.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs27/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs27/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs27/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs27/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs27" %}
 
 ## Add info for connector
 
@@ -216,14 +216,14 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs28/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs28/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs28/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs28/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs28" %}
 
 ## Connector spacing
 
@@ -231,14 +231,14 @@ The following code illustrates how to render connector based on the stack order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs4" %}
 
 ## MaxSegment thumb
 
@@ -246,14 +246,14 @@ The property [`maxSegmentThumb`](https://ej2.syncfusion.com/documentation/api/di
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs38/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs38/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs38/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs38/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs38" %}
 
 ![maxSegmentThumb](../images//maxSegmentThumb.png)
 
@@ -263,14 +263,14 @@ The [`resetSegments`](https://ej2.syncfusion.com/documentation/api/diagram#reset
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-resetSeg/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-resetSeg/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-resetSeg/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-resetSeg/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-resetSeg" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-resetSeg" %}
 
 ## Enable Connector Splitting
 
@@ -280,14 +280,14 @@ The following code illustrates how to split the connector and create a connectio
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs29/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs29/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs29/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs29/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs29" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs29" %}
 
 ![Enable Connector Split](../images//EnableSplit.gif)
 
@@ -299,12 +299,12 @@ The following example demonstrates how to apply the same style of the original c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-split/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-split/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-split/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-split/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-split" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-split" %}
 

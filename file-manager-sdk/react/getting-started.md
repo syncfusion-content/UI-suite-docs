@@ -143,19 +143,19 @@ To enable file operation functionality in the File Manager, configure the [url](
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/default-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/default-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/default-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/default-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/file-manager-sdk/react/react/default-cs1/app/App.css %}
+{% include code-snippet/file-manager-sdk/react/default-cs1/app/App.css %}
 {% endhighlight %}
 {% endtabs %}
 
 ### Server-side setup
 
-The sample uses `https://physical-service.syncfusion.com/` as the `url` endpoint in `ajaxSettings`.
+The sample uses `https://physical-service.syncfusion.com/` as the [url](https://ej2.syncfusion.com/react/documentation/api/file-manager/ajaxsettingsmodel#url) endpoint in [ajaxSettings](https://ej2.syncfusion.com/react/documentation/api/file-manager/ajaxsettings).
 
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
 

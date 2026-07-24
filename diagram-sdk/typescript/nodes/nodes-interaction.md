@@ -26,14 +26,14 @@ A node can be selected at runtime by using the [`select`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-select/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-select/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-select/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-select/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-select" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-select" %}
 
 |Method | Parameter | Description|
 |----|----|----|
@@ -52,14 +52,14 @@ A node can be dragged at runtime by using the [`drag`](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-drag/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-drag/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-drag/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-drag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-drag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-drag" %}
 
 ## Resize
 
@@ -73,14 +73,14 @@ A node can be resized at runtime by using the [`scale`](https://ej2.syncfusion.c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resize/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resize/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resize/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-resize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-resize" %}
 
 ## Rotate
 
@@ -94,14 +94,14 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-rotate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-rotate" %}
 
 ## Flip
 
@@ -120,14 +120,14 @@ The following code illustrates how to provide the mirror image of the original e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs4" %}
 
 ### Update flip at runtime
 
@@ -136,14 +136,14 @@ The following example demonstrates how to update the flip for a node dynamically
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4-flip/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4-flip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-cs4-flip/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-cs4-flip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs4-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs4-flip" %}
 
 ### Flip modes
 
@@ -191,11 +191,11 @@ Below are examples of a node undergoing various FlipModes in different flip dire
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-flipMode/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-flipMode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-flipMode/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-flipMode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-flipMode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-flipMode" %}

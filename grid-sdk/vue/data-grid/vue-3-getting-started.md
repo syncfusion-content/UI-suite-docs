@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Vue 3 getting started with the DataGrid component | Syncfusion
-description: Check out and learn about Vue 3 getting started with the Vue DataGrid component of Syncfusion Essential JS 2 and more details.
+title: Vue 3 getting started with the Data Grid component | Syncfusion
+description: Check out and learn about Vue 3 getting started with the Vue Data Grid component of Syncfusion Essential JS 2 and more details.
 control: Vue 3 getting started
 platform: grid-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Getting Started with the Vue DataGrid Component in Vue 3
+# Getting Started with the Vue Data Grid Component in Vue 3
 
 This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev) project with a JavaScript environment and integrating the [Vue Data Grid](https://www.syncfusion.com/vue-components/vue-grid) component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
 
@@ -18,74 +18,69 @@ The `Options API` is the traditional way of writing Vue.js components, where the
 
 ## Prerequisites
 
-[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+| Requirement | Version |
+|-------------|---------|
+| Vue | 3.0 or higher |
+| Node.js | 16.0.0 or above |
 
-## Setup the Vite project
+### Vue supported versions
 
-A recommended approach for beginning with Vue is to scaffold a project using [Vite](https://vitejs.dev). To create a new Vite project, use one of the commands that are specific to either NPM or Yarn.
+| Vue version | Minimum Syncfusion Vue Data Grid version |
+| ------------- | ------------------------------------------- |
+|[Vue v3.0](https://blog.vuejs.org/posts/vue-3-as-the-new-default) | 19.2.44 and above |
 
-```bash
-npm create vite@latest
-```
+### Browser support
 
-or
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
 
-```bash
-yarn create vite
-```
+## Setup for local development
 
-Using one of the above commands will lead you to set up additional configurations for the project as below:
+Easily set up a Vue 3 application using [Vite](https://vitejs.dev), which provides a faster development environment, smaller bundle sizes, and optimized builds compared to traditional tools. For detailed steps, refer to the Vite [installation instructions](https://vitejs.dev/guide). Vite sets up your environment using JavaScript and optimizes your application for production.
 
-1.Define the project name: The name of the project can be specified directly. For this article, the project name is set as `my-project`.
+> **Note:** To create a Vue application using `create-vue`, refer to this [documentation](https://ej2.syncfusion.com/vue/documentation/getting-started) for more details.
 
-```bash
-? Project name: » my-project
-```
+To create a new Vue 3 application, run one of the following commands based on your preferred language:
 
-2.Select `Vue` as the framework. It will create a Vue 3 project.
-
-```bash
-? Select a framework: » - Use arrow-keys. Return to submit.
-Vanilla
-> Vue
-  React
-  Preact
-  Lit
-  Svelte
-  Others
-```
-
-3.Choose `JavaScript` as the framework variant to build this Vite project using JavaScript and Vue.
+***Vue with JavaScript***
 
 ```bash
-? Select a variant: » - Use arrow-keys. Return to submit.
-> JavaScript
-  TypeScript
-  Customize with create-vue ↗
-  Nuxt ↗
+npm create vite@latest my-app -- --template vue
 ```
 
-4.Rolldown is Vite's new experimental faster bundler (rust-based, replacing rollup). Choose `No` uses the stable, proven rollup-based Vite (recommended for most users)
+***Vue with TypeScript***
 
 ```bash
-Use rolldown-vite (Experimental)? No
+npm create vite@latest my-app -- --template vue-ts
 ```
 
-5.Install dependencies and start the dev server.
+During the setup process, the CLI will prompt you for a few configuration options. Select the following:
+
+- **Which linter to use?** → **Default ([Vue 3] babel, eslint)**
+- **Install with npm and start now?** → **Yes**
+
+Selecting **Yes** automatically installs the project dependencies and starts the development server.
+
+After verifying that the application starts successfully, terminate the development server in the terminal and proceed to the next step.
+
+Then, navigate to the project directory:
 
 ```bash
-Install with npm and start now?: Yes
+cd my-app
 ```
 
-Terminate the application, then run the following command:
+## Add Vue Grid packages
 
-```bash
-cd my-project
-```
-
-## Add Vue Data Grids package
-
-To install the Grids package, use the following command:
+To install the Grid packages, use the following command:
 
 ```bash
 npm install @syncfusion/ej2-vue-grids --save
@@ -101,11 +96,7 @@ yarn add @syncfusion/ej2-vue-grids
 
 ## Adding CSS reference
 
-You can add the CSS files required for the Syncfusion Vue DataGrid component using one of the following methods.
-
-### Option 1: Add CSS References from a theme package
-
-Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> DataGrid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Data Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
  
 Install the **Material 3** theme package using the following command:
 
@@ -129,39 +120,95 @@ Then add the following CSS reference to the **src/App.vue** file:
 {% endhighlight %}
 {% endtabs %}
 
-### Option 2: Add CSS References from component packages
+## Adding Data Grid component
 
-After installing the grid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.vue** file:
-
-```css
-<style>
-    @import "../node_modules/@syncfusion/ej2-base/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-buttons/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-calendars/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-inputs/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-navigations/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-popups/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css";
-    @import '../node_modules/@syncfusion/ej2-notifications/styles/material3.css';
-    @import "../node_modules/@syncfusion/ej2-vue-grids/styles/material3.css";
-</style>
-```
-
-## Adding DataGrid component
-
-The DataGrid code should be added in the **src/App.vue** file.
+The Data Grid code should be added in the **src/App.vue** file.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API ~/src/App.vue" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/getting-started/default-cs6/app-composition.vue %}
+{% raw %}
+ <template>
+    <div id="app">
+        <!-- Assigns the dataset to the Grid component -->
+        <ejs-grid :dataSource="data">
+        <!-- Define the columns to be displayed -->
+          <e-columns>
+            <e-column field='OrderID' headerText='Order ID' textAlign='Right' width=100></e-column>
+            <e-column field='CustomerName' headerText='Customer Name' width=100></e-column>
+            <e-column field='OrderDate' headerText='Order Date' width='100' format='yMd' textAlign='Right'></e-column>
+            <e-column field='Freight' headerText='Freight' width=100 format='C2' textAlign='Right'></e-column>
+            <e-column field='ShipCountry' headerText='Ship Country' width=100></e-column>
+          </e-columns>
+        </ejs-grid>
+    </div>
+</template>
+<script setup>
+import { GridComponent as EjsGrid, ColumnDirective as EColumn, ColumnsDirective as EColumns } from "@syncfusion/ej2-vue-grids";
+// Defines the data to be displayed in the Grid
+const data = [
+    { OrderID: 10248, CustomerName: 'Ana Trujillo', OrderDate: new Date(2025, 0, 12), ShipCountry: 'France', Freight: 32.38 },
+    { OrderID: 10249, CustomerName: 'Martin Sommer', OrderDate: new Date(2025, 0, 15), ShipCountry: 'Germany', Freight: 11.61 },
+    { OrderID: 10250, CustomerName: 'Thomas Hardy', OrderDate: new Date(2025, 1, 5), ShipCountry: 'Brazil', Freight: 65.83 },
+    { OrderID: 10251, CustomerName: 'Elizabeth Lincoln', OrderDate: new Date(2025, 1, 18), ShipCountry: 'France', Freight: 41.34 },
+    { OrderID: 10252, CustomerName: 'Victoria Ashworth', OrderDate: new Date(2025, 2, 10), ShipCountry: 'Belgium', Freight: 51.30 },
+    { OrderID: 10253, CustomerName: 'Martine Rance', OrderDate: new Date(2025, 2, 22), ShipCountry: 'Brazil', Freight: 58.17 },
+];
+</script>
+<style>
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
+</style>
+{% endraw %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API ~/src/App.vue" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/getting-started/default-cs6/app.vue %}
+{% raw %}
+<template>
+    <div id="app">
+        <!-- Assigns the dataset to the Grid component -->
+        <ejs-grid :dataSource="data">
+          <!-- Define the columns to be displayed -->
+          <e-columns>
+            <e-column field='OrderID' headerText='Order ID' textAlign='Right' width=100></e-column>
+            <e-column field='CustomerName' headerText='Customer Name' width=100></e-column>
+            <e-column field='OrderDate' headerText='Order Date' width='100' format='yMd' textAlign='Right'></e-column>
+            <e-column field='Freight' headerText='Freight' width=100 format='C2' textAlign='Right'></e-column>
+            <e-column field='ShipCountry' headerText='Ship Country' width=100></e-column>
+          </e-columns>
+        </ejs-grid>
+    </div>
+</template>
+<script>
+
+import { GridComponent, ColumnsDirective, ColumnDirective } from "@syncfusion/ej2-vue-grids";
+export default {
+name: "App",
+  components: {
+    'ejs-grid': GridComponent,
+    'e-column': ColumnDirective,
+    'e-columns': ColumnsDirective
+  },
+  data() {
+    return {
+      // Defines the data to be displayed in the Grid
+      data: [
+        { OrderID: 10248, CustomerName: 'Ana Trujillo', OrderDate: new Date(2025, 0, 12), ShipCountry: 'France', Freight: 32.38 },
+        { OrderID: 10249, CustomerName: 'Martin Sommer', OrderDate: new Date(2025, 0, 15), ShipCountry: 'Germany', Freight: 11.61 },
+        { OrderID: 10250, CustomerName: 'Thomas Hardy', OrderDate: new Date(2025, 1, 5), ShipCountry: 'Brazil', Freight: 65.83 },
+        { OrderID: 10251, CustomerName: 'Elizabeth Lincoln', OrderDate: new Date(2025, 1, 18), ShipCountry: 'France', Freight: 41.34 },
+        { OrderID: 10252, CustomerName: 'Victoria Ashworth', OrderDate: new Date(2025, 2, 10), ShipCountry: 'Belgium', Freight: 51.30 },
+        { OrderID: 10253, CustomerName: 'Martine Rance', OrderDate: new Date(2025, 2, 22), ShipCountry: 'Brazil', Freight: 58.17 },
+      ],
+    };
+  },
+}
+</script>
+<style>
+  @import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
+</style>
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/getting-started/default-cs6" %}
 
 ## Run the application
 
@@ -175,9 +222,20 @@ or
 yarn run dev
 ```
 
+## Registering Syncfusion license
+
+The Syncfusion® Vue Data Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/vue/documentation/licensing/overview) documentation.
+
+## Troubleshooting
+
+- **Grid not rendering styles:** Ensure the theme CSS is imported in `src/App.vue` and that you removed any default Vue CLI starter styles that may override the Grid styles.
+- **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
+
+N> Looking for the full Vue Data Grid component overview, features, pricing, and documentation? Visit the [Vue Data Grid](https://www.syncfusion.com/vue-components/vue-grid) page.
+
 ## See also
 
-* [DataGrid Feature Modules](./module)
+* [Data Grid Feature Modules](./module)
 * [Getting Started with Vue UI Components using Composition API and TypeScript](../guide/introduction.html#composition-api)
 * [Getting Started with Vue UI Components using Options API and TypeScript](../guide/introduction.html#options-api)
 * [Getting Started with Vue UI Components with the Nuxt Framework](https://ej2.syncfusion.com/vue/documentation/getting-started/nuxt-3)

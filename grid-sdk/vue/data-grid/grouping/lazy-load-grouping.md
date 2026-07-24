@@ -20,14 +20,14 @@ The following example demonstrates configuring lazy load grouping using the `gro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs1" %}
 
 ## Handling the lazy load grouping at server-side
 
@@ -113,14 +113,14 @@ The following example demonstrates configuring lazy load grouping with infinite 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs2" %}
 
 > * The [enableInfiniteScrolling](https://ej2.syncfusion.com/vue/documentation/api/grid/#enableinfinitescrolling) property is optional and can be set to `true` or `false` based on the requirement.
 > * When enabling the `enableInfiniteScrolling` feature, it is necessary to define the [height](https://ej2.syncfusion.com/vue/documentation/api/grid#height) property.
@@ -143,14 +143,14 @@ The following example demonstrates configuring lazy load grouping with virtual s
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/group/lazy-load-group-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/lazy-load-group-cs3" %}
 
 > When using the `enableVirtualization` feature, it is necessary to define the [height](https://ej2.syncfusion.com/vue/documentation/api/grid#height) property.
 

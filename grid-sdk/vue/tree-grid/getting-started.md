@@ -17,11 +17,39 @@ To get started quickly with Vue tree grid, check out this video:
 
 ## Prerequisites
 
-[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+| Requirement | Version |
+|-------------|---------|
+| Vue | 2.6 or higher |
+| Node.js | 16.0.0 or above |
 
-## Setting up the Vue 2 project
+### Vue supported versions
 
-To generate a Vue 2 project using Vue-CLI, execute the [vue create](https://cli.vuejs.org#getting-started) command. Follow these steps to install Vue CLI and create a new project:
+| Vue version | Minimum Syncfusion Vue Tree Grid version |
+| ------------- | ------------------------------------------- |
+|[Vue v2.7](https://blog.vuejs.org/posts/vue-2-7-naruto) | 20.3.47 and above |
+
+### Browser support
+
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
+
+## Setup the Vue 2 project
+
+Easily set up a Vue 2 application using Vue CLI, which provides a reliable development environment, a streamlined project structure, and optimized builds compared to older setup tools. For detailed steps, refer to the Vue CLI [installation instructions](https://cli.vuejs.org/guide/installation.html).
+
+> **Note:** To create a Vue 2 application using Vue CLI, refer to this [documentation](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-2-vue-cli) for more details.
+
+To create a new Vue 2 application, run the following commands based on your preferred package manager:
+
 
 ```bash
 npm install -g @vue/cli
@@ -35,9 +63,14 @@ yarn global add @vue/cli
 vue create quickstart
 ```
 
-When creating a new project, select the option `Default ([Vue 2] babel, eslint)` from the menu.
+During the setup process, the CLI will prompt you for a few configuration options. Select the following:
 
-![Vue 2 project](images/vue2-terminal.png)
+- **Which linter to use?** → **Default ([Vue 2] babel, eslint)**
+- **Install with npm and start now?** → **Yes**
+
+Selecting **Yes** automatically installs the project dependencies and starts the development server.
+
+After verifying that the application starts successfully, terminate the development server in the terminal and proceed to the next step.
 
 Navigate to the project directory:
 
@@ -45,7 +78,7 @@ Navigate to the project directory:
 cd quickstart
 ```
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Tree Grid packages
+## Add Vue Tree Grid packages
 
 To install the Tree Grid component, use the following command:
 
@@ -59,10 +92,6 @@ yarn add @syncfusion/ej2-vue-treegrid
 ```
 
 ## Adding CSS reference
-
-You can add the CSS files required for the Syncfusion Vue Tree Grid component using one of the following methods.
-
-### Option 1: Add CSS References from a theme package
 
 Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
  
@@ -88,42 +117,94 @@ Then add the following CSS reference to the **src/App.vue** file:
 {% endhighlight %}
 {% endtabs %}
 
-### Option 2: Add CSS References from component packages
-
-After installing the treegrid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/App.vue** file:
-
-```css
-<style>
-    @import "../node_modules/@syncfusion/ej2-base/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-buttons/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-calendars/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-inputs/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-navigations/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-popups/styles/material3.css";
-    @import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css";
-    @import '../node_modules/@syncfusion/ej2-notifications/styles/material3.css';
-    @import "../node_modules/@syncfusion/ej2-vue-treegrid/styles/material3.css";
-</style>
-```
-
 ## Adding Tree Grid component
 
 The tree grid code should be added in the **src/App.vue** file.
 
 {% tabs %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/getting-started/default-cs4/app.vue %}
+{% raw %}
+<template>
+    <div id="app">
+        <!-- Assigns the dataset to the TreeGrid component -->
+        <ejs-treegrid :dataSource="data" :treeColumnIndex='1' childMapping='subtasks'>
+          <!-- Define the columns to be displayed -->
+          <e-columns>
+                <e-column field='TaskID' headerText='Task ID' textAlign='Right' width=150></e-column>
+                <e-column field='TaskName' headerText='Task Name' width=170></e-column>
+                <e-column field='StartDate' headerText='Start Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='EndDate' headerText='End Date' textAlign='Right' format='yMd' width=130></e-column>
+                <e-column field='Duration' headerText='Duration' textAlign='Right' width=100></e-column>
+            </e-columns>
+        </ejs-treegrid>
+    </div>
+</template>
+<script>
+import { TreeGridComponent, ColumnDirective, ColumnsDirective } from "@syncfusion/ej2-vue-treegrid";
+// Defines the data to be displayed in the TreeGrid
+const dataSource = [
+    {
+        TaskID: 1, TaskName: 'Planning', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4,
+        subtasks: [
+            { TaskID: 2, TaskName: 'Plan timeline', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+            { TaskID: 3, TaskName: 'Plan budget', StartDate: new Date('02/04/2025'), EndDate: new Date('02/07/2025'), Duration: 4, },
+        ],
+    },
+    {
+        TaskID: 4, TaskName: 'Design', StartDate: new Date('02/10/2025'), EndDate: new Date('02/14/2025'), Duration: 5,
+        subtasks: [
+            { TaskID: 5, TaskName: 'Software Specification', StartDate: new Date('02/10/2025'), EndDate: new Date('02/12/2025'), Duration: 3, },
+            { TaskID: 6, TaskName: 'Design Documentation', StartDate: new Date('02/13/2025'), EndDate: new Date('02/14/2025'), Duration: 2, },
+            { TaskID: 7, TaskName: 'Design complete', StartDate: new Date('02/14/2025'), EndDate: new Date('02/14/2025'), Duration: 1 },
+        ],
+    }
+];
+
+export default {
+name: "App",
+components: {
+"ejs-treegrid":TreeGridComponent,
+"e-columns":ColumnsDirective,
+"e-column":ColumnDirective,
+  },
+  data() {
+    return {
+      data: dataSource
+    };
+  },
+}
+</script>
+<style>
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+</style>
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/getting-started/default-cs4" %}
 
 ## Run the application
 
 ```bash
 npm run serve
 ```
+
+or
+
+```bash
+yarn run serve
+```
+
+## Registering Syncfusion license
+
+The Syncfusion® Vue Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/vue/documentation/licensing/overview) documentation.
+
+## Troubleshooting
+
+- **Tree Grid not rendering styles:** Ensure the theme CSS is imported in `src/App.vue` and that you removed any default Vue CLI starter styles that may override the Tree Grid styles.
+- **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
+
+N> Looking for the full Vue Tree Grid component overview, features, pricing, and documentation? Visit the [Vue Tree Grid](https://www.syncfusion.com/vue-components/vue-tree-grid) page.
 
 ## See Also
 

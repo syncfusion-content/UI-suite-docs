@@ -41,7 +41,7 @@ The default tooltip that appears while interacting with nodes can be disabled by
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5tooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5tooltip-cs1" %}
 
 ## Tooltip for a Specific Node/Connector
 
@@ -56,7 +56,7 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipNodes-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipNodes-cs1" %}
 
 ## Inherit Diagram Tooltip
 
@@ -71,7 +71,7 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5InheritTooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5InheritTooltip-cs1" %}
 
 ### Disable Tooltip at Runtime
 
@@ -131,7 +131,7 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipPorts-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipPorts-cs1" %}
 
 The following image illustrates how the diagram displays tooltips during an interaction with ports:
 
@@ -152,7 +152,7 @@ The following code example illustrates how to add formatted HTML content to the 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipTemplate-cs1" %}
 
 ## Tooltip Alignments
 
@@ -171,7 +171,7 @@ The following code example illustrates how to position the tooltip around object
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipObject-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipObject-cs1" %}
 
 ### Tooltip Relative to Mouse Position
 
@@ -188,7 +188,7 @@ The following code example illustrates how to show tooltip at mouse position.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipMouse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipMouse-cs1" %}
 
 ## Tooltip Animation
 
@@ -205,7 +205,7 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipAnimation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipAnimation-cs1" %}
 
 ## Sticky Tooltip
 
@@ -222,7 +222,7 @@ The following example shows how to render sticky tooltip.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5stickyTooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5stickyTooltip-cs1" %}
 
 ## Hide Tooltip Pointer
 
@@ -237,7 +237,7 @@ The [`showTipPointer`](https://helpej2.syncfusion.com/react/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5hideTooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5hideTooltip-cs1" %}
 
 ## Tooltip Size
 
@@ -254,7 +254,7 @@ The following code example shows how to set the size for the tooltip:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5ToolTipSize-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5ToolTipSize-cs1" %}
 
 ## Show/Hide Tooltip at Runtime
 
@@ -271,7 +271,7 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5ShowHideTooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5ShowHideTooltip-cs1" %}
 
 ## Tooltip for Annotation
 
@@ -288,4 +288,4 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipAnnotation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/tooltip/es5TooltipAnnotation-cs1" %}

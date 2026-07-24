@@ -26,7 +26,7 @@ To arrange nodes in a hierarchical structure, specify the layout [`type`](https:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs1" %}
 
 N> The HierarchicalTree module must be injected into the diagram to use hierarchical tree layout functionality.
 
@@ -44,7 +44,7 @@ For data-driven scenarios, hierarchical layout can be created using a DataSource
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/hierarchicallayout-cs2" %}
 
 N> When using DataSource for layout generation, both DataBinding and HierarchicalTree modules must be injected into the diagram.
 ![Hierarchical tree layout showing nodes with multiple parent relationships](../images/hierarchicalTree.png)

@@ -21,14 +21,14 @@ You can create a radial tree layout with DataSource. The following code example 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-cs2" %}
 
 N> If you want to convert the data source into layout, you need to inject DataBinding along with RadialTree module in the diagram.
 
@@ -38,14 +38,14 @@ You can render a radial tree layout without using DataSource. The following code
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-radialTree/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-radialTree/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/AutomaticLayout-radialTree" %}
 
 N> If you want to use radial tree layout in diagram, you need to inject RadialTree in the diagram.
 

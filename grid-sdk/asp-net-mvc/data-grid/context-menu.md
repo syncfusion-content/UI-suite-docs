@@ -56,10 +56,10 @@ The following example demonstrates how to enable context menu feature in the gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenu/contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenu/contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -77,10 +77,10 @@ The following example demonstrates how to add custom context menu items in the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/customcontextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/customcontextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="customcontextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/customcontextmenu/customcontextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/customcontextmenu/customcontextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,10 +98,10 @@ The following example demonstrates how to show context menu on left click using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenuclick/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenuclick/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="contextmenuclick.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenuclick/contextmenuclick.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenuclick/contextmenuclick.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -117,10 +117,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/enablecontextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/enablecontextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="enablecontextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/enablecontextmenu/enablecontextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/enablecontextmenu/enablecontextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -136,10 +136,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenu-show-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenu-show-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/context-menu/contextmenu-show-hide/contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/context-menu/contextmenu-show-hide/contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 

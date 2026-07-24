@@ -21,14 +21,14 @@ A connector can be selected at runtime by using the Select method and clear the 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-Select/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-Select/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-Select/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-Select/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-Select" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-Select" %}
 
 ## Drag Connector
 
@@ -40,14 +40,14 @@ A connector can be dragged at runtime by using the Drag method. The following co
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-Drag/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-Drag/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-Drag/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-Drag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-Drag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-Drag" %}
 
 ## End point dragging
 
@@ -61,14 +61,14 @@ The following code example shows the ways to drag connector end point at runtime
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-EndPointDrag/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-EndPointDrag/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-EndPointDrag/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-EndPointDrag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-EndPointDrag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-EndPointDrag" %}
 
 
 ## Segment editing
@@ -104,13 +104,13 @@ The flip types are as follows:
 .
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs20/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs20/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/connectors-cs20/index.html %}
+{% include code-snippet/diagram-sdk/typescript/connectors-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs20" %}
 
  N> The flip is not applicable when the connectors connect in nodes

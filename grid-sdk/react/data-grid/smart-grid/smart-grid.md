@@ -146,25 +146,25 @@ The following code example demonstrates how to create a assistive grid to perfor
 
 {% tabs %}
 {% highlight ts tabtitle="Grid.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/Grid.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/Grid.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="GridAction.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/GridAction.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/GridAction.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Service.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/Ai-service.ts %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/Ai-service.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="Model.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/AIModel.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/AIModel.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/App.css %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/App.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/smart-grid/datasource.ts %}
+{% include code-snippet/grid-sdk/react/data-grid/smart-grid/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
 

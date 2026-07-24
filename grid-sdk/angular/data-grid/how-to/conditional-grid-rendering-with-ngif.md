@@ -18,12 +18,12 @@ The following example demonstrates toggling the grid's visibility with a [button
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/conditional-rendering/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/conditional-rendering/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/conditional-rendering/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/conditional-rendering/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/conditional-rendering" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/conditional-rendering" %}

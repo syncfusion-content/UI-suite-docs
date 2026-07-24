@@ -28,14 +28,14 @@ In the following example, the basic shapes are categorized in layer 1, and the f
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs3" %}
 
 ## Visible
 
@@ -45,14 +45,14 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs1" %}
 
 ## Lock
 
@@ -62,14 +62,14 @@ In the following example the objects in layer one is locked. By default, the `lo
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs2" %}
 
 ## AddInfo
 
@@ -139,14 +139,14 @@ The following code illustrates how to add a new layer with new connectors stored
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs4" %}
 
 ## Remove layer at runtime
 
@@ -159,14 +159,14 @@ The following code illustrates how to remove a layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs5" %}
 
 
 ## moveObjects
@@ -177,14 +177,14 @@ The following code illustrates how to move objects from one layer to another lay
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs6" %}
 
 ## Z-Index
 
@@ -214,14 +214,14 @@ The following code illustrates how to send the layer forward/backward to another
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs7" %}
 
 ### Layer and objects rendering order
 
@@ -238,14 +238,14 @@ The following code illustrates how to clone the layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/layers-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/layers-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/layers-cs8" %}
 
 
 ## Active layer

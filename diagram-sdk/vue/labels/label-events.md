@@ -29,7 +29,7 @@ The [`keyDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/KeyDown-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/KeyDown-cs1" %}
 
 ## KeyUp event
 
@@ -44,7 +44,7 @@ The [`keyUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-def
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/KeyUp-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/KeyUp-cs1" %}
 
 ## Double click event
 
@@ -59,7 +59,7 @@ The [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ind
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/DoubleClick-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/DoubleClick-cs1" %}
 
 ## TextEdit event
 
@@ -74,7 +74,7 @@ The [`textEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/TextEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/TextEdit-cs1" %}
 
 You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/itextediteventargs) to true.
 

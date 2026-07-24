@@ -25,14 +25,14 @@ The following code shows how to add a ruler to the diagram.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ruler-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ruler-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs1" %}
 
 
 
@@ -54,14 +54,14 @@ The following code shows how the diagram ruler can be customized.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/customRuler-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/customRuler-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/customRuler-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/customRuler-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/customRuler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/customRuler-cs1" %}
 
 
 
@@ -75,14 +75,14 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ruler-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ruler-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs2" %}
 
 
 

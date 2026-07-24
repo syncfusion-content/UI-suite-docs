@@ -27,7 +27,7 @@ The following example presents employee information with the employee "Photo" in
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.html" %}
 {% raw %}
@@ -73,11 +73,11 @@ The following example presents employee information with the employee "Photo" in
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs9" %}
 
 ## Row template with formatting
 
@@ -172,11 +172,11 @@ export interface DateFormat extends Window {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/custom-cell-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/custom-cell-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-cell-cs10" %}
 
 > When using the `rowTemplate` feature in Angular Data Grid, keep in mind that any formatting applied to columns using the `format` property will not work inside the template.
 
@@ -263,11 +263,11 @@ export class AppComponent {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-template-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-template-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-template-cs3" %}
 
 ## Render Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Chart in row template
 
@@ -328,11 +328,11 @@ export class AppComponent {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/row-chart-template/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/row-chart-template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-chart-template" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/row-chart-template" %}
 
 ## Limitations
 

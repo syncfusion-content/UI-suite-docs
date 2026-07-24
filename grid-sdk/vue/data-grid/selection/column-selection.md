@@ -18,14 +18,14 @@ Here's an example of how to enable column selection using `allowColumnSelection`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column" %}
 
 ## Single column selection 
 
@@ -37,14 +37,14 @@ Here's an example of how to enable single column selection using `allowColumnSel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-single/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-single/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-single/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-single/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-single" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-single" %}
 
 ## Multiple column selection 
 
@@ -56,14 +56,14 @@ Here's an example of how to enable multiple column selection using `allowColumnS
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-multiple/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-multiple/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple" %}
 
 ## Select columns externally 
 
@@ -81,14 +81,14 @@ The following example, demonstrates how to select a single column within the Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-signle-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-signle-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-signle-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-signle-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-signle-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-signle-method" %}
 
 ### Multiple column selection
 
@@ -102,14 +102,14 @@ The following example demonstrates how to select multiple columns in the Grid by
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-multiple-method/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple-method/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-multiple-method/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple-method/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-multiple-method" %}
 
 ### Range of column selection 
 
@@ -121,14 +121,14 @@ The following example demonstrates how to select a range of columns within the G
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-range/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-range/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-range/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-range/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-range" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-range" %}
 
 ### Select with existing column 
 
@@ -140,14 +140,14 @@ The following example demonstrates how to select a column with an existing colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-existing/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-existing/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-existing/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-existing/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-existing" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-existing" %}
 
 ##  Clear column selection programmatically 
 
@@ -159,14 +159,14 @@ In the following example, it demonstrates how to clear column selection by calli
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-clear/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-clear/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/select/selection-column-clear/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/select/selection-column-clear/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-clear" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-clear" %}
 
 ## Column selection events 
 
@@ -331,4 +331,4 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-column-events" %}

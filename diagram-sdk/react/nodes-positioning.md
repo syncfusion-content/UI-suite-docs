@@ -48,7 +48,7 @@ The following code illustrates how to change the `pivot` value.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs1" %}
 
 ## Minimum and Maximum size for nodes.
 
@@ -65,7 +65,7 @@ These constraints are particularly useful when creating diagrams where nodes nee
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs2" %}
 
 
 ![MinSize-MaxSize GIF](images/minSize-MaxSizeGif.gif)

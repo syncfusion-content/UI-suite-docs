@@ -19,14 +19,14 @@ Triggers when the node is clicked. The following code example explains how to ge
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-clickEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-clickEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-clickEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-clickEvent" %}
 
 ## Selection change event
 
@@ -36,14 +36,14 @@ The following code example explains how to get the [`selectionChange`](https://e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-selectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-selectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-selectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-selectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-selectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-selectionEvent" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iSelectionChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -65,14 +65,14 @@ The following code example explains how to get the [`positionChange`](https://ej
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-positionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-positionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-positionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-positionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-positionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-positionEvent" %}
 
  You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below.
 
@@ -93,14 +93,14 @@ The following code example explains how to get the [`sizeChange`](https://ej2.sy
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resizeEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resizeEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-resizeEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-resizeEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-resizeEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-resizeEvent" %}
 
  You can prevent resizing by setting the `cancel` property of [`SizeChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iSizeChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -121,14 +121,14 @@ The following code example explains how to get the [`rotateChange`](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotateEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotateEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-rotateEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-rotateEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-rotateEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-rotateEvent" %}
 
  You can prevent rotation by setting the `cancel` property of [`RotationEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iRotationEventArgs) to true, as shown in the code snippet below.
 
@@ -148,14 +148,14 @@ Triggers when there is any property change occurred for the node. The following 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-propertyChange/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-propertyChange/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-propertyChange/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-propertyChange/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-propertyChange" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-propertyChange" %}
 
 ## Collection change event
 
@@ -164,14 +164,14 @@ The following code example explains how to get the [`collectionChange`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-collectionEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-collectionEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-collectionEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-collectionEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-collectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-collectionEvent" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting nodes, by setting the `cancel` property of [`CollectionChangeEventArgs`](https://ej2.syncfusion.com/documentation/api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -203,14 +203,14 @@ The following code example shows how to handle these events in the diagram and c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-mouseEvent/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/nodes-mouseEvent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/nodes-mouseEvent/index.html %}
+{% include code-snippet/diagram-sdk/typescript/nodes-mouseEvent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-mouseEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-mouseEvent" %}
 
 
 

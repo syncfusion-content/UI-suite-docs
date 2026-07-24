@@ -25,27 +25,27 @@ To use CRUD, inject the [Edit](../../api/grid/edit) module in the **Grid**.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs35/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs35/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs35/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs35/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs35" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs35" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs35/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs35/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs35/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs35/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs35" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs35" %}
 {% endif %}
 
 > * If [columns->isIdentity](../../api/grid/column#isidentity) is enabled, then it will be considered as a read-only column when editing and adding a record.
@@ -64,27 +64,27 @@ Here's an example of how to enable the toolbar with edit option in the Grid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs36/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs36/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs36/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs36/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs36" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs36" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs36/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs36/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs36/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs36/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs36" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs36" %}
 {% endif %}
 
 ## Disable editing for particular column
@@ -99,27 +99,27 @@ Here's an example that demonstrates how to disable editing for the column in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs37/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs37/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs37/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs37/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs37" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs37" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs37/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs37/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs37/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs37/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs37" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs37" %}
 {% endif %}
 
 >* If you have set the [isPrimaryKey](../../api/grid/column#isprimarykey) property to **true** for a column, editing will be automatically disabled for that column.
@@ -138,27 +138,27 @@ In the below demo, the **ShipCountry** column is rendered with the template.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-column-template-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-column-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-column-template-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-column-template-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-column-template-cs1" %}
 {% endif %}
 
 ## Customize delete confirmation dialog
@@ -176,27 +176,27 @@ The following example that demonstrates how to customize the delete confirmation
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs38/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs38/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs38/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs38/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs38" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs38/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs38/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs38/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs38/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs38" %}
 {% endif %}
 
 ## Update boolean column value with a single click   
@@ -209,27 +209,27 @@ In the following sample, the `CheckBox` control is rendered as a template in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs39/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs39/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs39/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs39/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs39" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs39/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs39/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/grid-cs39/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs39/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs39" %}
 {% endif %}
 
 ## Edit enum column 
@@ -242,27 +242,27 @@ In the following example, the `DropDownList` control is rendered within the cell
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-enum-column/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-enum-column/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-enum-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-enum-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-enum-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-enum-column" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-enum-column/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-enum-column/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-enum-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-enum-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-enum-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-enum-column" %}
 {% endif %}
 
 ## Edit complex column 
@@ -275,27 +275,27 @@ In the following sample, the input element is rendered in the edit template of t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-complex-column/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-complex-column/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-complex-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-complex-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-complex-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-complex-column" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-complex-column/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-complex-column/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-complex-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-complex-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-complex-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-complex-column" %}
 {% endif %}
 
 ## Edit foreign key column 
@@ -308,27 +308,27 @@ In the following code example, the Employee Name is a foreign key column. When e
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-foreignKey-column/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-foreignKey-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-foreignKey-column/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-foreignKey-column/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-foreignKey-column" %}
 {% endif %}
 
 ## How to perform CRUD action externally 
@@ -353,27 +353,27 @@ The following example demonstrates the integration of the Syncfusion<sup style="
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-separate-toolbar/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-separate-toolbar/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-separate-toolbar/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-separate-toolbar/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-separate-toolbar" %}
 {% endif %}
 
 ### Using external form 
@@ -388,27 +388,27 @@ In the following example, it demonstrates how to edit the form using an external
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-external-form/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-external-form/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-external-form/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-external-form/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-external-form" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-external-form" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-external-form/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-external-form/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/edit-external-form/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/edit-external-form/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-external-form" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/edit-external-form" %}
 {% endif %}
 
 ## Troubleshoot editing works only for first row
@@ -425,27 +425,27 @@ In the following example, the textbox is rendered in the **Freight** column usin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/editable-grid-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/editable-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/editable-grid-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/javascript/data-grid/javascript/data-grid/editable-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/editable-grid-cs1" %}
 {% endif %}
 
 > * If a template column has a corresponding `field` property defined, the value entered in the template column's input field will be stored in the associated edit column of the row's data object.

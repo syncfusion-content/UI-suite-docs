@@ -23,10 +23,10 @@ The following example shows the File Manager control rendered inside the dialog.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-dialog/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-dialog/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-dialog/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ The following example shows the File Manager control rendered inside the dialog.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-dialog/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-dialog/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-dialog/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ The following example demonstrates the File Manager control placed inside the co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-tab/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-tab/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-tab/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-tab/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,10 +70,10 @@ The following example demonstrates the File Manager control placed inside the co
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-tab/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-tab/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-tab/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-tab/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -296,15 +296,15 @@ The following example demonstrates passing additional parameters to the server w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/passing-parameters-on-server/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/passing-parameters-on-server/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/passing-parameters-on-server/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/passing-parameters-on-server/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/passing-parameters-on-server" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/passing-parameters-on-server" %}
 
 ## Limitations
 

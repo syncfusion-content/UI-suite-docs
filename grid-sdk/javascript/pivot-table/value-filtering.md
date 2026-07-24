@@ -47,27 +47,27 @@ Operators that can be used in label filtering are:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs487/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs487/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs487/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs487/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs487" %}
 {% endif %}
 
 ## See Also

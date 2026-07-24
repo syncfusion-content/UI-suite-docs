@@ -34,7 +34,7 @@ The following code shows how to set offset, height and width for the annotation.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Update-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Update-cs3" %}
 
 ### Update annotation offset at runtime
 
@@ -49,7 +49,7 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Update-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Update-cs3" %}
 
 N> Call `dataBind()` after property change to reflect the changes instantly.
 
@@ -82,7 +82,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs1" %}
 
 The following tables illustrates all the possible alignments visually with 'offset (0, 0)'.
 
@@ -111,4 +111,4 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Alignment-cs2" %}

@@ -30,7 +30,7 @@ The following code example demonstrates how to define a basic swimlane object:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs1" %}
 
 N> When setting a swimlane's ID, ensure it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -55,7 +55,7 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/orientation-cs1" %}
 
 ## Headers
 
@@ -73,7 +73,7 @@ The following code example shows how to define and configure a swimlane header:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/swimlaneheader-cs2" %}
 
 ### Header customization
 
@@ -91,7 +91,7 @@ The following code example demonstrates comprehensive header customization:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/headercustomise-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/headercustomise-cs1" %}
 
 ### Dynamic header customization
 
@@ -107,7 +107,7 @@ Headers can be modified programmatically during runtime to respond to user inter
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamicheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/swimlane/dynamicheader-cs1" %}
 
 ### Header editing
 

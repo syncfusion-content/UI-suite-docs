@@ -47,10 +47,10 @@ The client-side method [`startGroupAction`](../api/diagram) is used to notify th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/undoRedo/undoRedo/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ The client-side method [`startGroupAction`](../api/diagram) is used to notify th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/undoRedo/undoRedo/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UndoRedo.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/undoRedo/undoRedo/undoRedo.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

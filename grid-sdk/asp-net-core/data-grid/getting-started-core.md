@@ -8,7 +8,6 @@ publishingplatform: grid-sdk
 documentation: ug
 ---
 
-
 # Getting Started with ASP.NET Core DataGrid Control
 
 This section briefly explains about how to include [ASP.NET Core Grid](https://www.syncfusion.com/aspnet-core-ui-controls/grid) control in your ASP.NET Core application using Visual Studio.
@@ -22,7 +21,26 @@ To get start quickly with ASP.NET Core DataGrid component, you can check on this
 
 ## Prerequisites
 
-[System requirements for ASP.NET Core controls](https://ej2.syncfusion.com/aspnetcore/documentation/system-requirements)
+### .NET and Visual Studio compatibility
+
+| .NET version | Minimum Visual Studio version |
+|--------------|------------------------------|
+| .NET 10.0 | Visual Studio 2026 18.0.0 or later |
+| .NET 9.0 | Visual Studio 2022 17.12.0 or later |
+| .NET 8.0 | Visual Studio 2022 17.8.0 or later |
+| .NET Core SDK 3.1 | Visual Studio 2019 16.4 or later |
+| .NET Core SDK 2.0 | Visual Studio 2017 15.7 or later |
+
+### Browser support
+
+|    Browser    |    Versions    |
+|--------------|---------------|
+|    Google Chrome, including Android & iOS    |    Latest Version  |
+|    Mozilla Firefox    |    Latest Version  |
+|    Microsoft Edge    |    Latest Version  |
+|    Apple Safari, including iOS    |    Latest Version  |
+|    Opera    |    Latest Version  |
+|    Microsoft Internet Explorer    |    11  |
 
 ## Create ASP.NET Core web application with Razor pages
 
@@ -165,7 +183,7 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET Core Data
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/asp-net-core/data-grid/asp-net-core/data-grid/getting-start-core/gridcolumns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/data-grid/getting-start-core/gridcolumns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CSHTML.cs" %}
 public class IndexModel : PageModel

@@ -18,20 +18,20 @@ The following example demonstrates the local data binding feature in the React G
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/data-binding-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/data-binding-cs3" %}
 
 ## Binding data from Excel files
 
@@ -47,20 +47,20 @@ The following example demonstrates importing Excel data into the grid by utilizi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/imported-data/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/imported-data/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/imported-data/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/imported-data/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/imported-data/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/imported-data/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/imported-data/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/imported-data/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/imported-data" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/imported-data" %}
 
 ## Binding data and performing CRUD actions via Fetch requests
 
@@ -771,14 +771,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/show-hide-spinner-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/show-hide-spinner-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/show-hide-spinner-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/show-hide-spinner-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/show-hide-spinner-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/show-hide-spinner-cs1" %}
 
 ## Immutable mode  
 
@@ -796,20 +796,20 @@ The following example demonstrates enabling immutable mode in an React component
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/immutable-mode-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/immutable-mode-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/immutable-mode-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/immutable-mode-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/immutable-mode-cs1" %}
 
 ### Limitations
 

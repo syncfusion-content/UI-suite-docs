@@ -17,7 +17,7 @@ Preview Dragging can be enabled by assigning values other than `PreviewMode.Prev
 By default, Outline of the connectors connected to the dragging objects will be in disabled state. But, you can able to view the outline of the connectors, by holding dragging objects for certain time span. `ConnectorRefreshingSpan` property of `PreviewSettings` allows you to specify the time span and the value should be greater than 300ms.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 this.diagram.PreviewSettings = new PreviewSettings() { PreviewMode = PreviewMode.Preview, ConnectorRefreshingSpan = 300 };
 
@@ -31,7 +31,7 @@ this.diagram.PreviewSettings = new PreviewSettings() { PreviewMode = PreviewMode
 Appearance of the preview can be modified using `PreviewStyle` property of `PreviewSettings`.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 var previewStyle = new Style();
 previewStyle.TargetType = typeof(Shape);

@@ -166,18 +166,18 @@ To enable file operation functionality in the File Manager, configure the [url](
 
 {% tabs %}
 {% highlight html tabtitle="Composition API ~/src/App.vue" %}
-{% include code-snippet/file-manager-sdk/vue/vue/getting-started-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/getting-started-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Option API ~/src/App.vue" %}
-{% include code-snippet/file-manager-sdk/vue/vue/getting-started-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/getting-started-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs1" %}
 
 ### Server-side setup
 
-The sample uses `https://physical-service.syncfusion.com/api/FileManager/FileOperations` as the `url` endpoint in `ajaxSettings`.
+The sample uses `https://physical-service.syncfusion.com/api/FileManager/FileOperations` as the [`url`](https://ej2.syncfusion.com/vue/documentation/api/file-manager/ajaxsettingsmodel#url) endpoint in [`ajaxSettings`](https://ej2.syncfusion.com/vue/documentation/api/file-manager/ajaxsettings).
 
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
 

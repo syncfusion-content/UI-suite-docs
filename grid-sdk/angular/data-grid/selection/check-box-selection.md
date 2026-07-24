@@ -18,15 +18,15 @@ Here's an example of enabling checkbox selection using the `type` property in th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs3" %}
 
 > Selection can be persisted on all the operations using [selectionSettings.persistSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/selectionSettings#persistselection) property. For persisting selection on the grid, any one of the column should be defined as a primary key using [isPrimaryKey](https://ej2.syncfusion.com/angular/documentation/api/grid/column#isprimarykey) property.
 
@@ -41,15 +41,15 @@ In the following example, it demonstrates dynamically configuring the `checkboxM
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs4" %}
 
 ## Hide select-all checkbox in column header
 
@@ -59,15 +59,15 @@ Here's an example of hiding selectall checkbox in column header using empty `Hea
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-checkbox-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-checkbox-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-checkbox-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-checkbox-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-checkbox-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-checkbox-cs2" %}
 
 ## Conditional row selection
 
@@ -81,14 +81,14 @@ The example below prevents selection of rows with canceled orders:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/prevent-checkbox-selection/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/prevent-checkbox-selection/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/prevent-checkbox-selection/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/prevent-checkbox-selection/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/prevent-checkbox-selection" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/prevent-checkbox-selection" %}
 
 ## Select a single row in checkbox selection mode
 
@@ -102,15 +102,15 @@ Here's an example of selecting a single row in checkbox selection mode using the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-single-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-single-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-single-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-single-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-single-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-single-cs1" %}
 
 ## Allow selection only through checkbox click
 
@@ -118,12 +118,12 @@ By default, the Grid component allows selection by clicking either a grid row or
  
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-checkbox-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-checkbox-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/selection-checkbox-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/selection-checkbox-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-checkbox-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-checkbox-cs1" %}

@@ -43,14 +43,14 @@ The following code example illustrates how to define symbols in a palette and ho
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs1" %}
 
 ## Add connectors in symbol palette
 
@@ -59,14 +59,14 @@ The following example shows how to render connectors in the symbol palette:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-con/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-con/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-con/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-con/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-con" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-con" %}
 
 ## Add group nodes in symbol palette
 
@@ -74,14 +74,14 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-group/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-group/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-group/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-group/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-group" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-group" %}
 
 ## Template-based symbols
 
@@ -96,14 +96,14 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-contentFnTemplate/index.js %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-contentFnTemplate/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-contentFnTemplate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-contentFnTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-contentFnTemplate" %}
 
 ## Drag and drop symbols from palette to diagram
 
@@ -117,14 +117,14 @@ Symbols can be added to palette at runtime by using public method, [`addPaletteI
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-add/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-add/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-add/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-add/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-add" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-add" %}
 
 ## Remove symbols from palette at runtime
 
@@ -132,14 +132,14 @@ Symbols can be removed from palette at runtime by using public method, [`removeP
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-remove/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-remove/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-remove/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-remove/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-remove" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-remove" %}
 
 ## Symbol defaults
 
@@ -149,14 +149,14 @@ In the following example, the fill color of node and target decorator shape of c
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs7" %}
 
 ## Add palettes at runtime
 
@@ -166,14 +166,14 @@ Follow the example below to see how to add a palette at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-addPalette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-addPalette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-addPalette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-addPalette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-addPalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-addPalette" %}
 
 
 ## Remove palettes at runtime
@@ -187,14 +187,14 @@ Follow the example below to see how to remove palettes at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-removePalette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-removePalette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-removePalette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-removePalette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-removePalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-removePalette" %}
 
 
 ## Stretch the symbols into the palette
@@ -203,14 +203,14 @@ The [`fit`](https://ej2.syncfusion.com/documentation/api/diagram/symbolInfo#fit)
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/symbol-palette-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/symbol-palette-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/symbol-palette-cs4" %}
 
 
 ## Refresh symbol palette

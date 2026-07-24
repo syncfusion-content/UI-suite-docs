@@ -40,7 +40,7 @@ The following code demonstrates basic overview implementation:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs2" %}
 
 ## Overview Interactions
 
@@ -64,7 +64,7 @@ The overview displays the current viewport as a red rectangle overlay. This rect
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs1" %}
 
 The following demonstration shows overview interaction capabilities:
 

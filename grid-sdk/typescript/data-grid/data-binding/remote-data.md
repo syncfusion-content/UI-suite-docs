@@ -1326,40 +1326,40 @@ The following example demonstrates how to bind custom data to handle grid action
 {% if page.publishingplatform == "typescript" %}
   {% tabs %}
     {% highlight ts tabtitle="app.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/app.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/app.ts %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/index.html %}
     {% endhighlight %}
     {% highlight css tabtitle="styles.css" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/styles.css %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/styles.css %}
     {% endhighlight %}
     {% highlight ts tabtitle="server.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/server.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/server.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="orderService.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/orderService.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/orderService.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="datasource.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding/datasource.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding/datasource.ts %}
     {% endhighlight %}
   {% endtabs %}
 {% elsif page.publishingplatform == "javascript" %}
   {% tabs %}
     {% highlight js tabtitle="index.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding2/index.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding2/index.js %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding2/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding2/index.html %}
     {% endhighlight %}
     {% highlight js tabtitle="server.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding2/server.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding2/server.js %}
     {% endhighlight %}
     {% highlight js tabtitle="orderService.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding2/orderService.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding2/orderService.js %}
     {% endhighlight %}
     {% highlight js tabtitle="datasource.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-binding2/datasource.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-binding2/datasource.js %}
     {% endhighlight %}
   {% endtabs %}
 {% endif %}
@@ -1436,40 +1436,40 @@ The following code example shows how to export all records in client side:
 {% if page.publishingplatform == "typescript" %}
   {% tabs %}
     {% highlight ts tabtitle="app.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/app.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/app.ts %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/index.html %}
     {% endhighlight %}
     {% highlight css tabtitle="styles.css" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/styles.css %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/styles.css %}
     {% endhighlight %}
     {% highlight ts tabtitle="server.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/server.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/server.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="orderService.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/orderService.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/orderService.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="datasource.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export/datasource.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export/datasource.ts %}
     {% endhighlight %}
   {% endtabs %}
 {% elsif page.publishingplatform == "javascript" %}
   {% tabs %}
     {% highlight js tabtitle="index.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export2/index.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export2/index.js %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export2/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export2/index.html %}
     {% endhighlight %}
     {% highlight js tabtitle="server.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export2/server.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export2/server.js %}
     {% endhighlight %}
     {% highlight js tabtitle="orderService.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export2/orderService.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export2/orderService.js %}
     {% endhighlight %}
     {% highlight js tabtitle="datasource.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-custom-export2/datasource.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-custom-export2/datasource.js %}
     {% endhighlight %}
   {% endtabs %}
 {% endif %}
@@ -1495,40 +1495,40 @@ The following example demonstrates how to send additional parameters to the serv
 {% if page.publishingplatform == "typescript" %}
   {% tabs %}
     {% highlight ts tabtitle="app.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/app.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/app.ts %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/index.html %}
     {% endhighlight %}
     {% highlight css tabtitle="styles.css" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/styles.css %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/styles.css %}
     {% endhighlight %}
     {% highlight ts tabtitle="server.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/server.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/server.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="orderService.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/orderService.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/orderService.ts %}
     {% endhighlight %}
     {% highlight ts tabtitle="datasource.ts" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params/datasource.ts %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params/datasource.ts %}
     {% endhighlight %}
   {% endtabs %}
 {% elsif page.publishingplatform == "javascript" %}
   {% tabs %}
     {% highlight js tabtitle="index.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params2/index.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params2/index.js %}
     {% endhighlight %}
     {% highlight html tabtitle="index.html" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params2/index.html %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params2/index.html %}
     {% endhighlight %}
     {% highlight js tabtitle="server.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params2/server.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params2/server.js %}
     {% endhighlight %}
     {% highlight js tabtitle="orderService.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params2/orderService.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params2/orderService.js %}
     {% endhighlight %}
     {% highlight js tabtitle="datasource.js" %}
-    {% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/remote-add-params2/datasource.js %}
+    {% include code-snippet/grid-sdk/typescript/data-grid/remote-add-params2/datasource.js %}
     {% endhighlight %}
   {% endtabs %}
 {% endif %}
@@ -1543,27 +1543,27 @@ On remote data binding, all grid actions such as paging, sorting, editing, group
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs16/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs16/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs16" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs16/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs16/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/grid-cs16/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs16" %}
 {% endif %}
 
 ## Fetch result from the DataManager query using external button 
@@ -1578,25 +1578,25 @@ The following example demonstrates how to fetch data from the server when an ext
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/fetch-datamanger/index.ts %}
+{% include code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/fetch-datamanger/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/fetch-datamanger/index.js %}
+{% include code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/typescript/data-grid/typescript/data-grid/fetch-datamanger/index.html %}
+{% include code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/fetch-datamanger" %}
 {% endif %}

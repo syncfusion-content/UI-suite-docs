@@ -99,14 +99,14 @@ When a JSON file is uploaded, it undergoes parsing to extract its JSON data. Thi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs1" %}
 
 
 ## Importing and Exporting Diagrams using Mermaid Syntax
@@ -133,14 +133,14 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs2" %}
 
 #### Load mindmap layout
 
@@ -148,14 +148,14 @@ The following example shows how to load mind map diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs3" %}
 
 #### Load UML Sequence diagram
 
@@ -163,13 +163,13 @@ The following example shows how to load UML Sequence diagram from mermaid syntax
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/serialisation-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/serialisation-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/serialisation-cs4" %}
 
 N> Mermaid syntax-based serialization and deserialization is supported only for Flowchart layout, Mind map layout, and UML Sequence Diagram. Ensure that your Mermaid data aligns with one of these supported layouts to enable successful diagram loading.

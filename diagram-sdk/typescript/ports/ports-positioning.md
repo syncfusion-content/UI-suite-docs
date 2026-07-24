@@ -39,14 +39,14 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-horVerAlign/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-horVerAlign/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-horVerAlign/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-horVerAlign" %}
 
 
 
@@ -75,14 +75,14 @@ The following table shows all the possible alignments visually with offset (0, 0
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-margin/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-margin/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-margin/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-margin" %}
 
 
 

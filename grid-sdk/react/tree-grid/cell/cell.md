@@ -20,14 +20,14 @@ The following example demonstrates rendering HTML content in headers and cells b
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs5" %}
 
 ## Autowrap the TreeGrid content
 
@@ -45,14 +45,14 @@ The following example sets `allowTextWrap` to **true** and `textWrapSettings.wra
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs1" %}
 
 ## Customize cell styles
 
@@ -60,14 +60,14 @@ Cell appearance can be customized using the [queryCellInfo](https://ej2.syncfusi
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs2" %}
 
 ## Custom attributes
 
@@ -91,14 +91,14 @@ In the following example, cells in the *TaskID* and *StartDate* columns are cust
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-attribute-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-attribute-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-attribute-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-attribute-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-attribute-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-attribute-cs1" %}
 
 ## Clip mode
 
@@ -114,14 +114,14 @@ The following example demonstrates how to set the `clipMode` property:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs4" %}
 
 > By default, `columns.clipMode` is **Ellipsis**.
 
@@ -141,14 +141,14 @@ The available modes are:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/cell-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/cell-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/cell-cs3" %}
 
 > By default, the TreeGrid renders in **Default** mode.
 > Refer to the [React Tree Grid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour for key capabilities. Explore the [React Tree Grid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

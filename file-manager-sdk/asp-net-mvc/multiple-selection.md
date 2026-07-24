@@ -19,10 +19,10 @@ The example below demonstrates how the File Manager allows multiple file selecti
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/multiple-selection/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/multiple-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/multiple-selection/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/multiple-selection/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ The example below demonstrates how the File Manager allows multiple file selecti
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/multiple-selection/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/multiple-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/multiple-selection/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/multiple-selection/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ To enable range selection, you need to set the [enableRangeSelection](https://he
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/range-selection/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/range-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/range-selection/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/range-selection/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ To enable range selection, you need to set the [enableRangeSelection](https://he
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/range-selection/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/range-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/range-selection/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/range-selection/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -88,7 +88,7 @@ Setting the [`allowMultiSelection`](https://help.syncfusion.com/cr/aspnetcore-js
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/disablemultiselection/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/disablemultiselection/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,7 +98,7 @@ Setting the [`allowMultiSelection`](https://help.syncfusion.com/cr/aspnetmvc-js2
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/disablemultiselection/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/disablemultiselection/razor %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -17,10 +17,10 @@ You can search records in a TreeGrid, by using the **search** method with search
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/default-searching/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/default-searching/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultSearching.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/default-searching/defaultSearching.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/default-searching/defaultSearching.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ You can search records in a TreeGrid, by using the **search** method with search
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/default-searching/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/default-searching/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultSearching.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/default-searching/defaultSearching.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/default-searching/defaultSearching.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -46,10 +46,10 @@ To apply search at initial rendering, set the fields, operator, key, and ignoreC
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/initial-search/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/initial-search/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Initialsearch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/initial-search/initialsearch.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/initial-search/initialsearch.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ To apply search at initial rendering, set the fields, operator, key, and ignoreC
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/initial-search/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/initial-search/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Initialsearch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/initial-search/initialsearch.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/initial-search/initialsearch.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -93,10 +93,10 @@ To search treegrid records from an external button, invoke the **search** method
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-external/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-external/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SearchExternal.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-external/searchExternal.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-external/searchExternal.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,10 +104,10 @@ To search treegrid records from an external button, invoke the **search** method
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-external/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-external/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SearchExternal.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-external/searchExternal.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-external/searchExternal.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -122,10 +122,10 @@ By default, treegrid searches all visible columns. You can search specific colum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SearchColumns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-columns/searchColumns.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-columns/searchColumns.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -133,10 +133,10 @@ By default, treegrid searches all visible columns. You can search specific colum
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SearchColumns.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/searching/search-columns/searchColumns.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/searching/search-columns/searchColumns.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

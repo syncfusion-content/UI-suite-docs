@@ -36,7 +36,7 @@ The event arguments include details about the pressed key, modifier keys, and th
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/keyDown-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/keyDown-cs1" %}
 
 ## KeyUp Event
 
@@ -54,7 +54,7 @@ Unlike the keyDown event, keyUp ensures that the key action has been fully compl
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/keyUp-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/keyUp-cs1" %}
 
 ## Double Click Event
 
@@ -72,7 +72,7 @@ The event provides information about the clicked element, mouse position, and cu
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/doubleClick-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/doubleClick-cs1" %}
 
 ## TextEdit Event
 
@@ -90,7 +90,7 @@ This event is particularly useful for implementing text validation, formatting, 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/textEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/textEdit-cs1" %}
 
 ### Preventing Text Changes
 

@@ -19,31 +19,31 @@ The example below demonstrates enabling and disabling toolbar items via button c
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-items-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-items-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-items-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-items-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-items-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-items-cs1" %}
 {% endif %}

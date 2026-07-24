@@ -42,20 +42,20 @@ Here is an example demonstrating the default filtering feature:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs8" %}
 
 > * Apply and clear filtering programmatically using [filterByColumn](https://ej2.syncfusion.com/react/documentation/api/grid/filter#filterbycolumn) and [clearFiltering](https://ej2.syncfusion.com/react/documentation/api/grid/filter#clearfiltering) methods.
 > * Disable filtering for a particular column by setting its [allowFiltering](https://ej2.syncfusion.com/react/documentation/api/grid/column#allowfiltering) property to `false`.
@@ -72,20 +72,20 @@ Configure initial filters in [filterSettings.columns](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs9" %}
 
 ### Initial filter with multiple values for same column
 
@@ -97,20 +97,20 @@ The following example filters the "Customer ID" column to show only specific cus
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs20/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs20/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs20/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs20/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs20/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs20/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs20/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs20/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs20" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs20" %}
 
 ### Initial filter with multiple values for different columns 
 
@@ -120,20 +120,20 @@ The following example filters both "Order ID" and "Customer ID" columns simultan
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs21/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs21/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs21/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs21/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs21/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs21/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs21/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs21/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs21" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs21" %}
 
 ## Filter operators
 
@@ -215,20 +215,20 @@ The following example includes diacritic characters in the filtering process:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-diacritics-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-diacritics-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-diacritics-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-diacritics-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-diacritics-cs1" %}
 
 ## Perform ENUM column filtering
 
@@ -246,20 +246,20 @@ To filter columns containing enum values, follow the steps below:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filtering-enum/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filtering-enum/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filtering-enum/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filtering-enum/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filtering-enum/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filtering-enum/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filtering-enum/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filtering-enum/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filtering-enum" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filtering-enum" %}
 
 ## Filtering with case sensitivity
 
@@ -269,20 +269,20 @@ Below is an example demonstrating how to toggle case sensitivity.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs12/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs12/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs12/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs12/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs12/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs12" %}
 
 ## Enable different filter for a column
 
@@ -294,20 +294,20 @@ Here's an example where the menu filter is enabled by default, but filter types 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs13/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs13/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs13/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs13/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs13/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs13/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs13/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs13/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs13" %}
 
 ## Change default filter operator for particular column
 
@@ -315,20 +315,20 @@ The Grid provides flexibility to change the default filter operator for a partic
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs14/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs14/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs14/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs14/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs14/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs14/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs14/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs14/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs14" %}
 
 ## Programmatic filtering
 
@@ -338,20 +338,20 @@ The following example demonstrates programmatic filtering using single and multi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs22/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs22/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs22/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs22/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs22/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs22/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs22/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs22/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs22" %}
 
 ## How to get filtered records
 
@@ -495,14 +495,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs10" %}
 
 **2. Using the properties in the FilterEventArgs object**
 
@@ -530,20 +530,20 @@ The Grid provides a [clearFiltering](https://ej2.syncfusion.com/react/documentat
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs15/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs15/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs15/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs15/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs15/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs15/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs15/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs15/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs15" %}
 
 ## Filtering events
 
@@ -555,20 +555,20 @@ In the given example, filtering is prevented for the "Ship City" column during t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs16/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs16/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs16/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs16/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs16/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/filter-cs16/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/filter-cs16/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs16" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs16" %}
 
 ## See also
 

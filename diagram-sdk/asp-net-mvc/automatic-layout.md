@@ -30,10 +30,10 @@ The hierarchical tree layout arranges nodes in a tree-like structure, where the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Hierarchical/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchical.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,7 +41,7 @@ The hierarchical tree layout arranges nodes in a tree-like structure, where the 
 
 {% tabs %}
 {% highlight c# tabtitle="Hierarchical.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Hierarchical/Hierarchical.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -88,10 +88,10 @@ To arrange nodes in a radial tree structure, set the [`type`](https://help.syncf
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/radial/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Radial.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/radial.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/radial/radial.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,7 +99,7 @@ To arrange nodes in a radial tree structure, set the [`type`](https://help.syncf
 
 {% tabs %}
 {% highlight c# tabtitle="Radial.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/radial/radial.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/radial/radial.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -114,10 +114,10 @@ An organizational chart is a diagram that displays the structure of an organizat
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,7 +125,7 @@ An organizational chart is a diagram that displays the structure of an organizat
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -158,10 +158,10 @@ Set chart orientations, chart types, and offset to be left between parent and ch
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -169,7 +169,7 @@ Set chart orientations, chart types, and offset to be left between parent and ch
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -215,10 +215,10 @@ The following table illustrates the different chart orientations and chart types
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -226,7 +226,7 @@ The following table illustrates the different chart orientations and chart types
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -251,10 +251,10 @@ Assistants are child item that have a different relationship with the parent nod
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -262,7 +262,7 @@ Assistants are child item that have a different relationship with the parent nod
 
 {% tabs %}
 {% highlight c# tabtitle="Organizational.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/Organizational/Organizational.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/Organizational/Organizational.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -293,10 +293,10 @@ The layout’s [`springLength`](https://help.syncfusion.com/cr/aspnetcore-js2/Sy
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/symmetric/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Symmetric.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/symmetric.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/symmetric/symmetric.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -304,7 +304,7 @@ The layout’s [`springLength`](https://help.syncfusion.com/cr/aspnetcore-js2/Sy
 
 {% tabs %}
 {% highlight c# tabtitle="Symmetric.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/symmetric/symmetric.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/symmetric/symmetric.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -340,10 +340,10 @@ The following code example illustrates how to create an mindmap layout.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/mindMap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="MindMap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/mindMap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/mindMap/mindMap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -351,7 +351,7 @@ The following code example illustrates how to create an mindmap layout.
 
 {% tabs %}
 {% highlight c# tabtitle="MindMap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/mindMap/mindMap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/mindMap/mindMap.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -364,10 +364,10 @@ Complex hierarchical tree layout is the extended version of the hierarchical tre
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/ComplexHierarchicalTree/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ComplexHierarchicalTree.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -375,7 +375,7 @@ Complex hierarchical tree layout is the extended version of the hierarchical tre
 
 {% tabs %}
 {% highlight c# tabtitle="ComplexHierarchicalTree.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/ComplexHierarchicalTree/ComplexHierarchicalTree.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -439,10 +439,10 @@ The layout can be aligned anywhere over the layout bounds/viewport using the [`h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutAlign/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="LayoutAlign.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -450,7 +450,7 @@ The layout can be aligned anywhere over the layout bounds/viewport using the [`h
 
 {% tabs %}
 {% highlight c# tabtitle="LayoutAlign.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutAlign/layoutAlign.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -469,10 +469,10 @@ Layout provides support to add some blank space between the layout bounds/viewpo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutMargin/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="LayoutMargin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -480,7 +480,7 @@ Layout provides support to add some blank space between the layout bounds/viewpo
 
 {% tabs %}
 {% highlight c# tabtitle="LayoutMargin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/layoutMargin/layoutMargin.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -506,10 +506,10 @@ N> In the diagram the default orientation is TopToBottom.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/orientation/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/orientation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -517,7 +517,7 @@ N> In the diagram the default orientation is TopToBottom.
 
 {% tabs %}
 {% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/orientation/orientation.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -532,10 +532,10 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/fixedNode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FixedNode.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -543,7 +543,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 {% tabs %}
 {% highlight c# tabtitle="FixedNode.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/fixedNode/fixedNode.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -558,10 +558,10 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/expandCollapse/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ExpandCollapse.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -569,7 +569,7 @@ Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpan
 
 {% tabs %}
 {% highlight c# tabtitle="ExpandCollapse.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/expandCollapse/expandCollapse.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -620,10 +620,10 @@ The setNodeTemplate function is provided for the purpose of customizing nodes. I
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/setNodeTemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SetNodeTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -631,7 +631,7 @@ The setNodeTemplate function is provided for the purpose of customizing nodes. I
 
 {% tabs %}
 {% highlight c# tabtitle="SetNodeTemplate.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/setNodeTemplate/setNodeTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -60,7 +60,7 @@ The following code example explains the `expandStateChange` event in the diagram
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layoutEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layoutEvent-cs1" %}
 
 ## Animation complete event
 
@@ -76,7 +76,7 @@ The [`animationComplete`](https://ej2.syncfusion.com/vue/documentation/api/diagr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layoutEvent-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/layoutEvent-cs2" %}
 
 ## Layout updated event
 

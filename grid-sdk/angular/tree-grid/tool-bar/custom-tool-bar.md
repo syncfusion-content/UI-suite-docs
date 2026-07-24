@@ -17,15 +17,15 @@ By default, custom toolbar items are positioned on the `left`. You can change th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs36/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs36/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs36/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs36/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs36" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs36" %}
 
 > * The [`toolbar`](https://ej2.syncfusion.com/angular/documentation/api/treegrid/#toolbar) property can include both built-in and custom items.
 > * If a toolbar item does not match a built-in item, it is treated as a custom toolbar item.
@@ -38,12 +38,12 @@ In the example below, `ExpandAll` and `CollapseAll` are built-in toolbar items, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs37/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs37/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/edit-toolbar-cs37/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/edit-toolbar-cs37/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs37" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/edit-toolbar-cs37" %}

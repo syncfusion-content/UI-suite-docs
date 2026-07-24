@@ -30,7 +30,7 @@ To create a BPMN activity, set the shape property to **activity**. Specify the a
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Activity-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Activity-cs1" %}
 
 ### Tasks
 
@@ -45,7 +45,7 @@ The [`task`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnTask
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Task-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Task-cs1" %}
 
 The various types of BPMN tasks are tabulated as follows.
 
@@ -77,7 +77,7 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/react/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Subprocess-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Subprocess-cs1" %}
 
 #### Loop
 
@@ -92,7 +92,7 @@ A [`Collapsed Sub-Process`](https://ej2.syncfusion.com/react/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Loop-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Loop-cs1" %}
 
 The following table shows the available loop types for both tasks and subprocesses:
 
@@ -114,7 +114,7 @@ The following table shows the available loop types for both tasks and subprocess
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Compensation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Compensation-cs1" %}
 
 #### Call
 
@@ -129,7 +129,7 @@ A [`call`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnTask#c
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Call-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Call-cs1" %}
 
 N> The call property applies only to task-type activities.
 
@@ -146,7 +146,7 @@ N> The call property applies only to task-type activities.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Adhoc-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Adhoc-cs1" %}
 
 #### Boundary Types
 
@@ -160,7 +160,7 @@ The [`boundary`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmn
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Boundary-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Boundary-cs1" %}
 
 The following table shows the available boundary types:
 
@@ -191,7 +191,7 @@ Configure an event subprocess using the the [`event`](https://ej2.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5EventSub-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5EventSub-cs1" %}
 
 ##### Transaction Subprocess
 
@@ -212,4 +212,4 @@ Configure an event subprocess using the the [`event`](https://ej2.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5TransitionSub-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5TransitionSub-cs1" %}

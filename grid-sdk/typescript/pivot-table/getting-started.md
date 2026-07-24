@@ -11,8 +11,15 @@ domainurl: https://help.syncfusion.com/grid-sdk
 
 # Getting started in TypeScript Pivot Table control
 
-This section explains the steps to create a simple **Pivot Table** and demonstrates the basic usage of the pivot table component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2
-[quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+This section explains the steps to create a simple **Pivot Table** and demonstrates the basic usage of the Pivot Table component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+
+## Prerequisites
+
+Ensure the following tools are installed on your machine:
+
+* [Git](https://git-scm.com/install/)
+* [Node.js](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 > This application is integrated with the **webpack.config.js** configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node **v14.15.0** or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started).
 
@@ -37,15 +44,33 @@ npm install
 
 ## Import the Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-Combined CSS files are available in the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package root folder. This can be referenced in your `[src/styles/styles.css]` using the following code.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls can be applied using CSS or SASS files from the [npm theme packages](https://ej2.syncfusion.com/documentation/appearance/theme#theme-packages), CDN, CRG, or [Theme Studio](https://ej2.syncfusion.com/documentation/appearance/theme-studio). For more information, refer to the [themes documentation](https://ej2.syncfusion.com/documentation/appearance/theme).
 
-```
-@import "../../node_modules/@syncfusion/ej2/tailwind3.css";
-```
+The following example demonstrates the installation of the `Tailwind 3` theme package from npm. Each component in this theme package includes an `index.css` file that automatically loads all required dependency styles.
+
+To install the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+npm install @syncfusion/ej2-tailwind3-theme --save
+
+{% endhighlight %}
+{% endtabs %}
+
+Import the required theme styles in the `~/src/styles/styles.css` file:
+
+{% tabs %}
+{% highlight css tabtitle="styles.css" %}
+
+@import '../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/pivotview/index.css';
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Pivot Table component
 
-You can start adding Essential<sup style="font-size:70%">&reg;</sup> JS 2 pivot table component to the application. To get started, add the pivot table component in **app.ts** file using the following code.
+You can start adding the Essential<sup style="font-size:70%">&reg;</sup> JS 2 Pivot Table component to the application. To get started, add the Pivot Table component in the **app.ts** file located in the `src/` folder using the following code.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
@@ -74,7 +99,7 @@ pivotTableObj.appendTo('#PivotTable');
 {% endhighlight %}
 {% endtabs %}
 
-Now, add an HTML div element which act as the pivot table element in `index.html` using the following code.
+Now, add an HTML `div` element that acts as the Pivot Table host element in `index.html` using the following code. The bundled script is injected by webpack at the end of the page, so the `#PivotTable` element is available in the DOM before `app.ts` runs.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -82,15 +107,16 @@ Now, add an HTML div element which act as the pivot table element in `index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>pivot table Typescript Component</title>
+    <title>Pivot Table TypeScript Component</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="description" content="Essential JS 2" />
     <meta name="author" content="Syncfusion" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css " />
+    <!-- Optional: Bootstrap CDN for basic page layout styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
-    <!--Element where the pivot table will be rendered-->
+    <!--Element where the Pivot Table will be rendered-->
     <div id="PivotTable"></div>
 </body>
 </html>

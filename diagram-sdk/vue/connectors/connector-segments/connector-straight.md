@@ -22,7 +22,7 @@ The following code example illustrates how to create a default straight segment.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsSegmentsPoints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsSegmentsPoints-cs1" %}
 
 The [`point`](https://ej2.syncfusion.com/vue/documentation/api/diagram/straightsegmentmodel#point) property of straight segment allows you to define the end point of it. 
 
@@ -37,7 +37,7 @@ The following code example illustrates how to define the end point of a straight
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegments-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsOrthoSegments-cs1" %}
 
 ### Straight segment editing
 
@@ -56,6 +56,6 @@ The following example shows how to add segments at runtime for the straight conn
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/StraightSegEdit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/StraightSegEdit-cs1" %}
 
 ![Straight Segment editing GIF](../../images/StraightSegEdit.gif)

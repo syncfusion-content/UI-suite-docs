@@ -18,10 +18,10 @@ The following example demonstrates how to add a custom icon in the largeicons vi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/show-thumbnail/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/show-thumbnail/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/show-thumbnail/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/show-thumbnail/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ The following example demonstrates how to add a custom icon in the largeicons vi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/show-thumbnail/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/show-thumbnail/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/show-thumbnail/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/show-thumbnail/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

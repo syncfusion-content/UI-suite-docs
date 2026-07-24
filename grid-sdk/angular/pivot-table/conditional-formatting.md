@@ -16,15 +16,15 @@ The conditional formatting can be applied at runtime through the built-in dialog
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs16" %}
 
 ## Configure conditional formatting through code-behind
 
@@ -52,15 +52,15 @@ To enable conditional formatting, the `ConditionalFormattingService` must be add
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs17/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs17/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs17" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs17" %}
 
 ## Conditional formatting for all fields
 
@@ -70,15 +70,15 @@ To format all value fields together, use the [conditionalFormatSettings](https:/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs18/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs18" %}
 
 ## Conditional formatting for specific value field
 
@@ -86,15 +86,15 @@ To apply conditional formatting exclusively to a particular value field, set the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs19/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs19" %}
 
 ## Editing and removing existing conditional format
 
@@ -118,15 +118,15 @@ The [conditionalFormatting](https://ej2.syncfusion.com/angular/documentation/api
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs20/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/pivot-table/angular/pivot-table/angular/pivot-table/getting-started-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/pivot-table/getting-started-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/pivot-table/getting-started-cs20" %}
 
 ## See Also
 

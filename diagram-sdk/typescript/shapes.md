@@ -31,14 +31,14 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documen
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs1" %}
 
 
 
@@ -52,14 +52,14 @@ The following code illustrates how an image node is created.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs2" %}
 
 
 
@@ -71,14 +71,14 @@ The following code illustrates how to add Base64 image into image node.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs3" %}
 
 
 
@@ -100,14 +100,14 @@ The following code illustrates how to use scale and align properties to stretch 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs4" %}
 
 
 
@@ -136,14 +136,14 @@ To render an HTML node with a content template, we need to define the desired te
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs5" %}
 
 
 
@@ -157,14 +157,14 @@ The following code illustrates how to render an HTML node using the function and
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-contentFnTemplate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-contentFnTemplate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-contentFnTemplate" %}
 
 
 
@@ -176,14 +176,14 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs6" %}
 
 
 
@@ -197,14 +197,14 @@ Refer the code example below.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-fnNodeTemplate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-fnNodeTemplate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
 
 
 
@@ -216,14 +216,14 @@ Diagram provides support to embed SVG element into a node. The shape property of
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs7" %}
 
 
 
@@ -256,14 +256,14 @@ The following code example illustrates how to create a basic shape.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs8" %}
 
 
 
@@ -287,14 +287,14 @@ To create a path node, specify the shape as Path. The [`data`](https://ej2.syncf
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs9" %}
 
 
 
@@ -306,14 +306,14 @@ The [`flow`](https://ej2.syncfusion.com/documentation/api/diagram/flowshapemodel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/shapes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/shapes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-cs10" %}
 
 
 

@@ -29,17 +29,17 @@ The following code example shows you how to bind the hierarchical local data int
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs2/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.js" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs2/datasource.js %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs2/datasource.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs2" %}
 
 ## Self-Referential data binding (Flat data)
 
@@ -50,17 +50,17 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs3/app.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.js" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/vue/tree-grid/vue/tree-grid/data-binding/default-cs3/datasource.js %}
+{% include code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs3/datasource.js %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/data-binding/default-cs3" %}
 
 > Herewith we have provided list of reserved properties and the purpose used in TreeGrid. We recommend to avoid these reserved properties for Internal purpose(To get rid of conflicts).
 

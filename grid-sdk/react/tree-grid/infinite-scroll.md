@@ -16,13 +16,13 @@ To enable Infinite scrolling, set the `enableInfiniteScrolling` property to true
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs1" %}
 
 ## InitialBlocks
 
@@ -31,14 +31,14 @@ In the demo below, this property is configured to load five pages instead of thr
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs2" %}
 
 ## Cache Mode
 
@@ -47,14 +47,14 @@ To enable cache mode in Infinite scrolling, set the `infiniteScrollSettings.enab
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/infinitescroll-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/infinitescroll-cs3" %}
 
 ## Limitations for Infinite Scrolling
 

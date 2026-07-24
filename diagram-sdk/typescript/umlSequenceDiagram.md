@@ -49,14 +49,14 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-1" %}
 
 
 
@@ -91,14 +91,14 @@ The following code example illustrates how to create messages:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-2" %}
 
 
 
@@ -120,14 +120,14 @@ The following code example illustrates how to create activation boxes:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-3" %}
 
 
 
@@ -167,14 +167,14 @@ The following code example illustrates how to create fragments:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/umlsequencediagram-4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/umlsequencediagram-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/umlsequencediagram-4" %}
 
 
 

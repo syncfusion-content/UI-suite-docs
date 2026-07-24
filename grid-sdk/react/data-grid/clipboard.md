@@ -21,20 +21,20 @@ Examples below show grid configuration for clipboard operations. Configure the g
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs1" %}
 
 ## Copy to clipboard by external buttons
 
@@ -44,20 +44,20 @@ Use the grid's [copy](https://ej2.syncfusion.com/react/documentation/api/grid/in
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs2" %}
 
 ## AutoFill
 
@@ -74,20 +74,20 @@ Using AutoFill
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs3" %}
 
 
 > * If `enableAutoFill` is `true`, the AutoFill handle appears when cells are selected.
@@ -111,20 +111,20 @@ Steps to paste:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/clipboard-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/clipboard-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/clipboard-cs4" %}
 
 
 > Paste requires selection `mode` to be `Cell`, `cellSelectionMode` to be `Box`, and `Batch` editing to be enabled.

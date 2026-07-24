@@ -16,11 +16,11 @@ In the following example, a template column in the Vue Data Grid is defined, whi
  
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/vue/data-grid/vue/data-grid/filter/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/data-grid/filter/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/default-cs13" %}

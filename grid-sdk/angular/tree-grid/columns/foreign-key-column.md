@@ -16,14 +16,14 @@ To display foreign key values during initial rendering, utilize the [queryCellIn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/refresh-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs7" %}
 
 > For feature highlights and additional guidance, see the [Angular TreeGrid feature tour page](https://www.syncfusion.com/angular-components/angular-tree-grid). More comprehensive demonstrations for data presentation and manipulation are available in the [Angular TreeGrid example](https://ej2.syncfusion.com/angular/demos/#/material/treegrid/treegrid-overview).

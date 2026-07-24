@@ -33,14 +33,14 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs16/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs16/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-cs16/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-cs16/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-cs16" %}
 
 
 
@@ -52,14 +52,14 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-textAnnotationPalette/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-textAnnotationPalette/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette" %}
 
 
 
@@ -92,13 +92,13 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-textAnnotationPalette-runtime/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette-runtime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/bpmnShapes-textAnnotationPalette-runtime/index.html %}
+{% include code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/bpmnShapes-textAnnotationPalette-runtime" %}
 
 

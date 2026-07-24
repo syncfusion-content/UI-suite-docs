@@ -18,6 +18,38 @@ To get started quickly with the Angular Tree Grid using CLI and Schematics, refe
 
 {% youtube "https://www.youtube.com/watch?v=2LJKv7rao6Y" %}
 
+## Prerequisites
+
+| Requirement | Version |
+|-------------|---------|
+| Angular | 12 and above |
+| Node.js | 14.0.0 or above, Recommended: Latest Version |
+
+### Angular supported versions
+
+| Angular Version | Minimum Syncfusion<sup style="font-size:70%">&reg;</sup> Angular Tree Grid Version |
+|-----------------|-----------------------------------------------|
+|[Angular v22](https://blog.angular.dev/announcing-angular-v22-c52bb83a4664) | 34.1.29 |
+|[Angular v21](https://www.syncfusion.com/blogs/post/angular-21-updates-syncfusion-support) | 31.1.17 |
+|[Angular v20](https://www.syncfusion.com/blogs/post/whats-new-in-angular-20)| 29.2.8|
+|[Angular v19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/)| 26.1.35 |
+| [Angular v18](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/) | 25.2.3 |
+| [Angular v17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b/)| 23.2.4 |
+| [Angular v16](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d/)| 21.1.39 |
+| [Angular v15](https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8/) | 20.4.38 |
+|[Angular v14](https://blog.angular.io/angular-v14-is-now-available-391a6db736af/)| 20.2.36 |
+| [Angular v13](https://blog.angular.io/angular-v13-is-now-available-cce66f7bc296/) | 19.4.38 and above |
+| [Angular v12](https://blog.angular.io/angular-v12-is-now-available-32ed51fbfd49/)| 19.3.43 |
+
+### Browser support
+
+| Browser | Supported Versions |
+|:--------|:-------------------|
+| Google Chrome, including Android & iOS  | Latest 2 versions |
+| Mozilla Firefox	 | Latest version |
+| Microsoft Edge	    | Latest 2 versions |
+| Apple Safari, including iOS	  | Latest 2 versions |
+
 ## Setup Angular environment
 
 Use the [Angular CLI](https://github.com/angular/angular-cli) to set up Angular applications. To install Angular CLI, execute:
@@ -86,10 +118,6 @@ npm install @syncfusion/ej2-angular-treegrid --save
 ```
 ## Adding CSS reference
 
-You can add the CSS files required for the Syncfusion Angular Tree Grid component using one of the following methods.
-
-### Option 1: Add CSS References from a Theme Package
-
 Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Tree Grid components can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/angular/documentation/appearance/overview) documentation.
 
 Install the Material 3 theme package using the following command:
@@ -102,35 +130,15 @@ npm install @syncfusion/ej2-material3-theme --save
 {% endhighlight %}
 {% endtabs %}
 
-Then add the following CSS reference to the **src/style.css** file:
+Then add the following CSS reference to the **src/styles.css** file:
 
 {% tabs %}
-{% highlight css tabtitle="App.css" %}
+{% highlight css tabtitle="styles.css" %}
 
-@import "../node_modules/@syncfusion/ej2-material3-theme/treegrid/treegrid/index.css";
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
 
 {% endhighlight %}
 {% endtabs %}
-
-### Option 2: Add CSS References from Component Packages
-
-After installing the Tree Grid package, the required CSS files are available in the corresponding Syncfusion packages under the **node_modules/@syncfusion** directory. Add the following CSS references to the **src/style.css** file:
-
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-calendars/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-grids/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-angular-treegrid/styles/material3.css';
-```
-
-For using SCSS styles, refer to [this guide](../common/how-to/sass).
-
 
 
 ## Add Tree Grid component
@@ -139,7 +147,7 @@ Modify the template in the **src/app/app.ts** file to render the tree grid compo
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/angular/tree-grid/angular/tree-grid/getting-started/src/app.ts %}
+{% include code-snippet/grid-sdk/angular/tree-grid/getting-started/src/app.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
 import { bootstrapApplication } from '@angular/platform-browser';
@@ -149,9 +157,16 @@ import { App } from './app/app';
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
 {% endhighlight %}
+{% highlight css tabtitle="styles.css" %}
+{% raw %}
+
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/treegrid/index.css";
+
+{% endraw %}
+{% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/help.syncfusion.com/samples/grid-sdk/angular/tree-grid/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/getting-started-cs1" %}
 
 ## Run the application
 
@@ -159,13 +174,19 @@ bootstrapApplication(App, appConfig)
 ng serve --open
 ```
 
+Then open the URL displayed in the terminal.
+
+## Registering Syncfusion license
+
+The Syncfusion® Angular Tree Grid requires a valid license key to be registered in the application. To prevent license validation warnings, refer to the [Syncfusion licensing](https://ej2.syncfusion.com/angular/documentation/licensing/overview) documentation.
+
+## Troubleshooting
+
+- **Grid styles are not applied:** Ensure the required Syncfusion theme CSS is imported in `src/styles.css`.
+- **Trial license warning message:** Register a valid Syncfusion license key using the `registerLicense()` method from `@syncfusion/ej2-base`.
+
+N> Looking for the full Angular Tree Grid component overview, features, pricing, and documentation? Visit the [Angular Tree Grid](https://www.syncfusion.com/angular-components/angular-tree-grid) page.
+
 ## See also
 
 * [Grid Feature Modules](./module)
-* [Getting Started with JavaScript documentation](https://ej2.syncfusion.com/documentation/treegrid/getting-started)
-* [Getting Started with JavaScript (ES5) documentation](https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started)
-* [Getting Started with React documentation](https://ej2.syncfusion.com/react/documentation/treegrid/getting-started)
-* [Getting Started with Vue documentation](https://ej2.syncfusion.com/vue/documentation/treegrid/getting-started)
-* [Getting Started with ASP.NET Core documentation](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/getting-started-core)
-* [Getting Started with ASP.NET MVC documentation](https://ej2.syncfusion.com/aspnetmvc/documentation/tree-grid/getting-started-mvc)
-* [Getting Started with Blazor documentation](https://blazor.syncfusion.com/documentation/treegrid/getting-started-webapp)

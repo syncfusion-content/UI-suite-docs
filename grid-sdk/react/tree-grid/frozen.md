@@ -21,14 +21,14 @@ is set as **'3'**. Hence, the left two columns and top three rows are frozen.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/frozencolumn-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/frozencolumn-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/frozencolumn-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/frozencolumn-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/frozencolumn-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/frozencolumn-cs1" %}
 
 ### Freeze particular columns
 
@@ -38,14 +38,14 @@ In this demo, the columns with field name `taskName` and `startDate` is frozen u
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/isfrozen-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/isfrozen-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/isfrozen-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/isfrozen-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/isfrozen-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/isfrozen-cs1" %}
 
 ### Freeze direction
 
@@ -60,14 +60,14 @@ In this demo, the **Task Name** column is frozen at the left and the **Priority*
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/freeze-direction-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/freeze-direction-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/react/tree-grid/react/tree-grid/freeze-direction-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/tree-grid/freeze-direction-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/freeze-direction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/freeze-direction-cs1" %}
 
 > * Freeze Direction is not compatible with the [isFrozen](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#isfrozen) and [frozenColumns](https://ej2.syncfusion.com/react/documentation/api/treegrid/#frozencolumns) properties.
 

@@ -55,15 +55,15 @@ To explore available edit modes and types in Angular Grid, refer to the followin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs18/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs18" %}
 
 > * If [columns.isIdentity](https://ej2.syncfusion.com/angular/documentation/api/grid/column#isidentity) is enabled, the column will be treated as read-only when editing or adding records.
 > * Use `columns.allowEditing` set to `false` to disable editing for specific columns.
@@ -79,15 +79,15 @@ The following example demonstrates to enable the toolbar with edit option in the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs19/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs19/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs19" %}
 
 ## Disable editing for specific columns
 
@@ -109,18 +109,18 @@ The following example demonstrates to disable editing for selected columns dynam
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs20/src/app.component.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs20/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs20/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs20" %}
 
 > * If [isPrimaryKey](https://ej2.syncfusion.com/angular/documentation/api/grid/column#isprimarykey) is enabled, editing is automatically disabled for that column.
 > * To disable editing for a specific row using the [actionBegin](https://ej2.syncfusion.com/angular/documentation/api/grid#actionbegin) event. See example [here](https://ej2.syncfusion.com/angular/documentation/grid/editing/in-line-editing#disable-editing-for-a-particular-row).
@@ -195,11 +195,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs23/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs23/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs23" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs23" %}
 
 ## Customizing the delete confirmation dialog
 
@@ -214,15 +214,15 @@ The following example demonstrates to customize the delete confirmation dialog u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-delete-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-delete-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-delete-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-delete-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-delete-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-delete-cs1" %}
 
 ## Update boolean column value with a single click
 
@@ -232,15 +232,15 @@ The following example demonstrates to render a `CheckBox` component as a templat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-single-click/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-single-click/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-single-click/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-single-click/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-single-click" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-single-click" %}
 
 ## Editing enum column values
 
@@ -250,15 +250,15 @@ The following example demonstrates to render a `DropDownList` component as an ed
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-enum/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-enum/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-enum/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-enum/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-enum" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-enum" %}
 
 ## Edit complex columns
 
@@ -268,15 +268,15 @@ The following example demonstrates to edit complex nested data. The "FirstName" 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-complex/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-complex/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-complex/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-complex/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-complex" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-complex" %}
 
 ## Editing foreign key columns
 
@@ -286,15 +286,15 @@ In the following code example, the "Employee Name" is a foreign key column. When
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-tempalte/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-tempalte/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-tempalte/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-tempalte/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-tempalte" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-tempalte" %}
 
 ## Preventing duplicate rows with custom validation
 
@@ -312,15 +312,15 @@ For server-side validation to prevent adding duplicate rows, refer to the detail
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs55/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs55/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs55/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs55/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs55" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs55" %}
 
 ## Performing CRUD actions externally
 
@@ -342,15 +342,15 @@ The following example demonstrates external CRUD operations with a custom toolba
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-toolbar/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-toolbar/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-toolbar/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-toolbar/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-toolbar" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-toolbar" %}
 
 ### Using an external form
 
@@ -360,15 +360,15 @@ The [rowSelected](https://ej2.syncfusion.com/angular/documentation/api/grid/inde
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-form/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-form/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-form/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-form/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-form" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-form" %}
 
 ## Troubleshooting: Editing works only for the first row
 
@@ -388,15 +388,15 @@ Example: Editable "Freight" column textbox template.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs24/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs24/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/angular/data-grid/angular/data-grid/edit-cs24/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/data-grid/edit-cs24/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs24" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs24" %}
 
 > If a template column has an associated `field` property, values from the input will be stored in that field in the data object.
 

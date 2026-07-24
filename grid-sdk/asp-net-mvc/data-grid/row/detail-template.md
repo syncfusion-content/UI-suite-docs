@@ -16,10 +16,10 @@ Here's an example of using the `DetailTemplate` property in the grid component:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/detail-temp/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/detail-temp/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Detail-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/detail-temp/detail-temp.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/detail-temp/detail-temp.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ For example, to render grid inside the detail row, place an HTML div element as 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/custom-component/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/custom-component/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-component.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/custom-component/custom-component.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/custom-component/custom-component.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ Here is an example of how to use the `expand` method to expand a detail row:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/expand-external/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/expand-external/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Expand-external.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/expand-external/expand-external.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/expand-external/expand-external.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -84,10 +84,10 @@ Here is an example of how to customize the detail template icon:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/expand-icon/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/expand-icon/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Icon.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/asp-net-mvc/data-grid/asp-net-mvc/data-grid/row/expand-icon/icon.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/expand-icon/icon.cs %}
 {% endhighlight %}
 {% endtabs %}
 

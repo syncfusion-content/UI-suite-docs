@@ -61,7 +61,7 @@ The [DefaultConnectorType](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml
 </syncfusion:SfDiagram>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -96,7 +96,7 @@ Polyline is a continuous line of a segment or a continuous line composed of more
                       Tool="ContinuesDraw" DrawingTool="Connector" />
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -124,7 +124,7 @@ Diagram has support for free-hand drawing to draw anything on the diagram page i
 <syncfusion:SfDiagram x:Name="diagram" Tool="ContinuesDraw" DrawingTool="FreeHand" />
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -165,7 +165,7 @@ The connector can be created by defining the source and target point of the conn
 </syncfusion:SfDiagram>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -224,7 +224,7 @@ The connector can be created between nodes to display the relationship between t
 </syncfusion:SfDiagram>
              
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -329,7 +329,7 @@ The [`SourcePort`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram
     </syncfusion:SfDiagram.Connectors>
 </syncfusion:SfDiagram>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the SfDiagram
 SfDiagram diagram = new SfDiagram();
@@ -496,4 +496,3 @@ For more information about adding connectors from stencil, refer to [Stencil](/w
 [How to change the connector style based on its SourcePort style in WPF Diagram (SfDiagram)?](https://support.syncfusion.com/kb/article/18851/how-to-change-the-connector-style-based-on-its-sourceport-style-in-wpf-diagram-sfdiagram)
 
 [How to identify the dragging state of connectors in the WPF Diagram (SfDiagram)?](https://support.syncfusion.com/kb/article/18846/how-to-identify-the-dragging-state-of-connectors-in-the-wpf-diagram-sfdiagram)
-

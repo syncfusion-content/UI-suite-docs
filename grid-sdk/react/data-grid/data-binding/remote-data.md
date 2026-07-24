@@ -617,28 +617,28 @@ The following example demonstrates the process of binding custom data to handle 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Reducer.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/reducer/reducer.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/reducer/reducer.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Reducer.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/reducer/reducer.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/reducer/reducer.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Action.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/reducer/action.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/reducer/action.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Action.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/reducer/action.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/reducer/action.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -720,28 +720,28 @@ The following code example shows the process of exporting all records on the cli
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Reducer.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/reducer/reducer.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/reducer/reducer.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Reducer.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/reducer/reducer.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/reducer/reducer.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Action.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/reducer/action.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/reducer/action.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Action.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/reducer/action.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/reducer/action.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/custom-binding-export/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/custom-binding-export/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -765,28 +765,28 @@ The following example demonstrates the process of sending additional parameters 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Reducer.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/reducer/reducer.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/reducer/reducer.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Reducer.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/reducer/reducer.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/reducer/reducer.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="Action.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/reducer/action.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/reducer/action.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Action.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/reducer/action.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/reducer/action.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/react/data-grid/react/data-grid/data-binding-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/data-grid/data-binding-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -931,4 +931,4 @@ export default App;
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/adaptor-result" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/adaptor-result" %}

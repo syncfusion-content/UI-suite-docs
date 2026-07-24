@@ -32,33 +32,33 @@ The following code example shows you how to bind the hierarchical local data int
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/index.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/datasource.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/datasource.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/es5-datasource.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/es5-datasource.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs2" %}
 {% endif %}
 
 > * Remote data binding is not supported for Hierarchy Data.
@@ -74,33 +74,33 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/index.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/datasource.ts %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/datasource.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="datasource.js" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/es5-datasource.js %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/es5-datasource.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/tree-grid/javascript/tree-grid/javascript/tree-grid/data-binding-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/data-binding-cs3" %}
 {% endif %}
 
 > Herewith we have provided list of reserved properties and the purpose we used internally in TreeGrid. We recommend to avoid these reserved properties in your dataSource(To get rid of conflicts).

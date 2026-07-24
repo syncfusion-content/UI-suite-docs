@@ -31,14 +31,14 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-1" %}
 
 
 
@@ -56,14 +56,14 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-header/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-header/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-header/index.html %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-header" %}
 
 
 
@@ -88,14 +88,14 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-fields/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-fields/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-fields/index.html %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-fields/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-fields" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-fields" %}
 
 
 
@@ -155,14 +155,14 @@ The appearance of ER entities and their fields can be customized using style pro
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-styling/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-styling/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-styling/index.html %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-styling/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-styling" %}
 
 
 
@@ -208,14 +208,14 @@ Multiplicity defines how many instances of one entity can be associated with ins
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-cardinality/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-cardinality/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/er-diagram-cardinality/index.html %}
+{% include code-snippet/diagram-sdk/typescript/er-diagram-cardinality/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-cardinality" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/er-diagram-cardinality" %}
 
 
 

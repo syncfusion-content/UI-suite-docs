@@ -52,14 +52,14 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/visioImport-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/visioImport-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/visioImport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/visioImport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioImport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioImport-cs1" %}
 
 ### Import options
 
@@ -123,14 +123,14 @@ The following example exports an TypeScript Diagram to a Microsoft Visio (**.vsd
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/visioExport-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/visioExport-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/visioExport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/visioExport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioExport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioExport-cs1" %}
 
 ### Export options
 

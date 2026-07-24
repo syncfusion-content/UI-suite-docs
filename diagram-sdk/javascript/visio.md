@@ -52,14 +52,14 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioImport-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/visioImport-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioImport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/visioImport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/visioImport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/visioImport-cs1" %}
 
 ### Import options
 
@@ -123,14 +123,14 @@ The following example exports an JavaScript Diagram to a Microsoft Visio (**.vsd
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioExport-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/visioExport-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/visioExport-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/visioExport-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/visioExport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/visioExport-cs1" %}
 
 ### Export options
 

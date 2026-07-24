@@ -16,7 +16,7 @@ The [`autoFitColumns`](https://ej2.syncfusion.com/documentation/api/grid/#autofi
 
 {% tabs %}
 {% highlight c# tabtitle="Autofit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/autofit/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/autofit/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -24,10 +24,10 @@ The [`autoFitColumns`](https://ej2.syncfusion.com/documentation/api/grid/#autofi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/autofit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/autofit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/autofit/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/autofit/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

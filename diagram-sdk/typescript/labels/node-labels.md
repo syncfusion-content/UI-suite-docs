@@ -29,14 +29,14 @@ The following code shows how to set offset, height and width for the annotation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs5" %}
 
 ### Update annotation offset at runtime
 
@@ -44,14 +44,14 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-offsetUpdate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-offsetUpdate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-offsetUpdate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-offsetUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-offsetUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-offsetUpdate" %}
 
 N> Call [`dataBind()`](https://ej2.syncfusion.com/documentation/api/diagram#databind) after property change to reflect the changes instantly.
 
@@ -78,14 +78,14 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
 
 
 The following tables illustrates all the possible alignments visually with **offset (0, 0)**.
@@ -109,11 +109,11 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-alignUpdate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-alignUpdate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-alignUpdate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-alignUpdate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-alignUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-alignUpdate" %}

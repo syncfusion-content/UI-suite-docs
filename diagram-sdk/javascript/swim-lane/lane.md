@@ -26,27 +26,27 @@ The following code example illustrates how to define a swimlane with lane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
 {% endif %}
 
 ### Create lane header
@@ -59,27 +59,27 @@ The following code example illustrates how to define a lane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs6" %}
 {% endif %}
 
 ### Customizing lane and lane header
@@ -96,27 +96,27 @@ The following code example illustrates how to customize the lane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs7" %}
 {% endif %}
 
 #### Dynamic customization of lane header
@@ -127,27 +127,27 @@ The following code example illustrates how to customize the lane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs8" %}
 {% endif %}
 
 ### Add/remove lane at runtime
@@ -158,27 +158,27 @@ The following code example illustrates how to customize the lane header.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs9" %}
 {% endif %}
 
 ### Add children to lane
@@ -191,27 +191,27 @@ The following code example illustrates how to add nodes to lane.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs10" %}
 {% endif %}
 
 #### Add child dynamically into the lane.
@@ -223,27 +223,27 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-addChild/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-addChild/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-addChild/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-addChild/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-addChild" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-addChild" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-addChild/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-addChild/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-addChild/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-addChild/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-addChild" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-addChild" %}
 {% endif %}
 
 
@@ -263,27 +263,27 @@ Here is an example of how to apply these constraints:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5-prevNodeDrag/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5-prevNodeDrag/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5-prevNodeDrag/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5-prevNodeDrag/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5-prevNodeDrag" %}
 {% endif %}
 
 
@@ -295,27 +295,27 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs5" %}
 {% endif %}
 
 ### Lane interaction
@@ -342,27 +342,27 @@ The following code illustrates how to disable swimlane lane swapping.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/swimlane-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/swimlane-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs11" %}
 {% endif %}
 
 #### Resize helper
