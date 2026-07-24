@@ -23,27 +23,27 @@ Here is an example that demonstrates the default filtering feature of the grid:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs70/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs70/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs70/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs70/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs70" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs70" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs70/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs70/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs70/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs70/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs70" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs70" %}
 {% endif %}
 
 > * You can apply and clear filtering, by using [filterByColumn](../../api/grid/filter#filterbycolumn) and [clearFiltering](../../api/grid/filter#clearfiltering) methods.
@@ -59,27 +59,27 @@ Here is an example of how to configure the initial filter using the `predicate` 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs71/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs71/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs71/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs71/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs71" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs71" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs71/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs71/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs71/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs71/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs71" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs71" %}
 {% endif %}
 
 ### Initial filter with multiple values for same column
@@ -94,27 +94,27 @@ The following example demonstrates, how to perform an initial filter with multip
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs1" %}
 {% endif %}
 
 ### Initial filter with multiple values for different columns 
@@ -129,27 +129,27 @@ The following example demonstrates how to perform an initial filter with multipl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs2" %}
 {% endif %}
 
 ## Filter operators
@@ -232,27 +232,27 @@ Consider the following sample where the `ignoreAccent` property is set to true i
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-diacritics-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-diacritics-cs1" %}
 {% endif %}
 
 ## Perform ENUM column filtering
@@ -283,27 +283,27 @@ Below is an example demonstrating how to filter enum-type data in a Syncfusion T
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/enum-filtering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/enum-filtering-cs1" %}
 {% endif %}
 
 ## Filtering with case sensitivity
@@ -316,27 +316,27 @@ Below is an example code demonstrating how to enable or disable case sensitivity
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-caseSensitivity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-caseSensitivity-cs1" %}
 {% endif %}
 
 ## Enable different filter for a column
@@ -351,27 +351,27 @@ Here's an example where the menu filter is enabled by default for all columns, b
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-column-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-column-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-column-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-column-cs1" %}
 {% endif %}
 
 ## Change default filter operator for particular column
@@ -384,27 +384,27 @@ Here's an example that demonstrates how to change the default filter operator co
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-change-default-filter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-change-default-filter-cs1" %}
 {% endif %}
 
 ## Filter grid programmatically with single and multiple values using method 
@@ -419,27 +419,27 @@ The following example demostrates, how to programmatically filter the Grid using
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filtering-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filtering-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filtering-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filtering-cs3" %}
 {% endif %}
 
 ## How to get filtered records
@@ -458,27 +458,27 @@ Here's an example of how to get the filtering data in a Syncfusion<sup style="fo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-record-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-record-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-record-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-record-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-record-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-record-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-record-cs1" %}
 {% endif %}
 
 **2.Using the properties in the FilterEventArgs object**
@@ -510,27 +510,27 @@ Here's an example of how to clear the filtering in a Syncfusion<sup style="font-
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-clear-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-clear-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-clear-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-clear-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-clear-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-clear-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-clear-cs1" %}
 {% endif %}
 
 ## Filtering events
@@ -545,27 +545,27 @@ In the given example, the filtering is prevented for **ShipCity** column during 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-event-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-event-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-event-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/filter-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/filter-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/filter-event-cs1" %}
 {% endif %}
 
 ## See Also

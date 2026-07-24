@@ -606,13 +606,13 @@ The following example demonstrates how to bind custom data to handle grid action
 
 {% tabs %}
 {% highlight razor tabtitle="Index.cshtml" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/remote-custom-handle/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/remote-custom-handle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/remote-custom-handle/custombindingcore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/remote-custom-handle/custombindingcore.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="OrdersDetails.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/remote-custom-handle/OrdersDetails.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/remote-custom-handle/OrdersDetails.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -664,10 +664,10 @@ The following code example demonstrates how to export all records on the client 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/remote-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/remote-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="remotedata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/remote-export/remotedata.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/remote-export/remotedata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -677,10 +677,10 @@ On remote data binding, all grid actions such as paging, sorting, editing, group
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/offline/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/offline/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Offline.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/data-binding/offline/offline.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/data-binding/offline/offline.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -16,15 +16,15 @@ You can enable editing of a row with a single mouse click in the Syncfusion Angu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/single-click-batch-editing-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/single-click-batch-editing-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/single-click-batch-editing-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/single-click-batch-editing-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/single-click-batch-editing-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/single-click-batch-editing-cs1" %}
 
 ### Open dropdown edit popup on single click
 
@@ -32,12 +32,12 @@ You can also open the dropdown edit popup with a single click for dropdown-type 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/open-dropdown-popup-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/open-dropdown-popup-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/open-dropdown-popup-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/open-dropdown-popup-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/open-dropdown-popup-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/open-dropdown-popup-cs1" %}

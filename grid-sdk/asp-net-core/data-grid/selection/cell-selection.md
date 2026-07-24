@@ -25,10 +25,10 @@ In the following example demonstrates how to enable single cell selection using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-single-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-single-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-single-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-single-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,10 +44,10 @@ In the following example demonstrates how to enable multiple cell selection usin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-multiple-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-multiple-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-multiple-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-multiple-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ In the following example demonstrates how to dynamically enable and change the `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-mode/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-mode/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -92,10 +92,10 @@ The following example demonstrates how to select a single cell within the Grid b
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-single-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-single-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-single-method/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-single-method/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ In the following example, it demonstrates how to select multiple cells in the Gr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-multiple-method/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-multiple-method/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-multiple-method/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-multiple-method/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -135,10 +135,10 @@ The following example demonstrates how to select a range of cells within the Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-range-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-range-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-range-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-range-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -152,10 +152,10 @@ The following example demonstrates how to obtain the selected row cell indexes u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-get-selected/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-get-selected/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-get-selected/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-get-selected/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -171,10 +171,10 @@ The following example demonstrates how to clear cell selection by calling the `c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-clear-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-clear-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-clear-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-clear-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -196,10 +196,10 @@ In the following example, cell selection is canceled when the value of **ShipCou
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-events/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-events/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/selection/cell-events/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/selection/cell-events/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 

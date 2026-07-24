@@ -63,15 +63,15 @@ The following example demonstrates modifying the page size dynamically using a t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs10" %}
 
 ### Change page count 
 
@@ -81,15 +81,15 @@ The example below demonstrates updating the page count dynamically using a textb
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs11" %}
 
 ### Change current page
 
@@ -99,15 +99,15 @@ The following example demonstrates dynamically changing the current page using a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs12" %}
 
 ### Add current page in URL as query string 
 
@@ -117,15 +117,15 @@ The following example demonstrates toggling this behavior using an [EJ2 Toggle S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs13" %}
 
 ## Pager template
 
@@ -192,11 +192,11 @@ export class AppComponent {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/pager-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/pager-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/pager-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/pager-template-cs1" %}
 
 ## Pager with page size dropdown
 
@@ -206,15 +206,15 @@ When enabled, the pager displays a dropdown that allows selecting the preferred 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs6" %}
 
 > If the `pageSizes` property is set to a boolean value such as `true` or `false`, the page size dropdown defaults to an array of strings containing options such as ['All', '5', '10', '15', '20']. The `All` option denotes rendering all data in a single page.
 
@@ -226,15 +226,15 @@ The following example demonstrates configuring custom values for the pager dropd
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs14" %}
 
 > The `pageSizes` property can be configured with either an array of strings or a boolean value.
 
@@ -246,15 +246,15 @@ The example below demonstrates navigating to a specific page by using `goToPage`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs16" %}
 
 ## Get the pager element
 
@@ -274,15 +274,15 @@ The following example demonstrates updating the page size dynamically using the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs18/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs18" %}
 
 ## Render pager at the top of the grid 
 
@@ -290,15 +290,15 @@ By default, pager displayed at the bottom of the grid. It is also possible to di
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs7" %}
 
 > During paging actions, the pager component triggers the following three events:
 > * The [created](https://ej2.syncfusion.com/angular/documentation/api/pager/pagerModel#created) event triggers when Pager is created.
@@ -369,11 +369,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paging1-cs19/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paging1-cs19/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/paging1-cs19" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/paging1-cs19" %}
 
 ## See Also
 

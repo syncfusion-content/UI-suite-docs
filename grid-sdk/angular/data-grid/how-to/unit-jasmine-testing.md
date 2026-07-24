@@ -141,14 +141,14 @@ The following example demonstrates creating the grid sample and writing a Jasmin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/testcase-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/testcase-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.spec.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/testcase-cs1/src/app.component.spec.ts %}
+{% include code-snippet/grid-sdk/angular/grid/testcase-cs1/src/app.component.spec.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/testcase-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/testcase-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

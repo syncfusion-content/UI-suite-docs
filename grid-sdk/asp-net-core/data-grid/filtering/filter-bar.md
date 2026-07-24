@@ -34,10 +34,10 @@ The following example demonstrates how to activate default filtering in the grid
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ By settings [filterSettings.mode](https://help.syncfusion.com/cr/aspnetcore-js2/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-mode/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-mode/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ To enable the display of filter text within the pager, you should set the [showF
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/display-filter-text-pager/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/display-filter-text-pager/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/display-filter-text-pager/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/display-filter-text-pager/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,10 +91,10 @@ To achieve this functionality, you can enable the  [showFilterBarOperator](https
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/show-hide-filter-bar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/show-hide-filter-bar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/show-hide-filter-bar/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/show-hide-filter-bar/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ Here's an example that demonstrates how to remove the filter bar for the **Custo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-particular/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-particular/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-particular/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-particular/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,10 +125,10 @@ Here's an example that demonstrates how to hide the filter bar for a template co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/hide-filter-bar-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/hide-filter-bar-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/hide-filter-bar-template/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/hide-filter-bar-template/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,10 +142,10 @@ To utilize this feature, you can define a custom template for the filter bar by 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/filtering/filter-bar-template/filter-bar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/filtering/filter-bar-template/filter-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
 

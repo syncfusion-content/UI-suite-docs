@@ -27,27 +27,27 @@ Here's an example of how you can use the `rowDataBound` event to customize the s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs3" %}
 {% endif %}
 
 >The [queryCellInfo](../../api/grid/#querycellinfo) event can also be used to customize cells and is triggered for every cell in the grid. It can be useful when you need to customize cells based on certain conditions or criteria.
@@ -74,27 +74,27 @@ Here's an example of how to use the **.e-altrow** class to style alternate rows:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs1" %}
 {% endif %}
 
 **Customize selected row**
@@ -115,27 +115,27 @@ Here's an example of how to use the **.e-selectionbackground** class to style th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/how-to-alt-row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/how-to-alt-row-cs2" %}
 {% endif %}
 
 ### Using method 
@@ -155,27 +155,27 @@ The following example demonstrates how to use [getRowByIndex](../../api/grid/#ge
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-style-method-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-style-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-style-method-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-style-method-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-style-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-style-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-style-method-cs1" %}
 {% endif %}
 
 ## Row height
@@ -188,27 +188,27 @@ In the below example, we will demonstrate how to dynamically change the height o
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs1" %}
 {% endif %}
 
 >*	The `rowHeight` property can only be used to set the height of the entire grid row. It cannot be used to set the height of individual cells within a row.
@@ -227,27 +227,27 @@ In the below example, the row height for the row with **OrderID** as '10249' is 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/custom-row-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/custom-row-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/custom-row-cs2" %}
 {% endif %}
 
 >* In virtual scrolling mode, it is not applicable to set different row heights.
@@ -266,27 +266,27 @@ Here is an example that demonstrates how to enable/disable row hover based on th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-hover-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-hover-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-hover-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-hover-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-hover-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-hover-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-hover-cs1" %}
 {% endif %}
 
 > The `enableHover` property applies to the entire grid, not individual rows or columns.
@@ -304,27 +304,27 @@ Here's an example that demonstrates how to use the `rowDataBound` event and `get
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs154/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs154/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs154/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs154/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs154" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs154" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs154/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs154/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs154/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs154/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs154" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs154" %}
 {% endif %}
 
 >The `getRowInfo` method can only be used in the `rowDataBound` event. Attempting to use it elsewhere will result in an error.
@@ -339,27 +339,27 @@ In the following example, the [frozenRows](../../api/grid/#frozenrows) property 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-pinning-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-pinning-cs1" %}
 {% endif %}
 
 > * Frozen rows should not be set outside the grid view port.
@@ -384,27 +384,27 @@ By applying this CSS class, you can set the background color of frozen rows to t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-pinning-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/row-pinning-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/row-pinning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/row-pinning-cs2" %}
 {% endif %}
 
 ### Deprecated methods
@@ -440,27 +440,27 @@ Here's an example of how to add a new row using the `addRecord` method:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/add-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/add-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/add-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/add-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/add-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/add-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/add-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/add-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/add-row-cs1" %}
 {% endif %}
 
 >* When working with remote data, it is impossible to add a new row between the existing rows.
@@ -483,27 +483,27 @@ If the checkbox is unchecked, the method iterates through the hiddenRows array a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/show-hide-row-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/show-hide-row-cs1" %}
 {% endif %}
 
 ## How to get the row data and element

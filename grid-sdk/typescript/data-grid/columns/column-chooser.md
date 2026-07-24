@@ -19,27 +19,27 @@ To use the column chooser, inject the **ColumnChooser** module in the grid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-cs1" %}
 {% endif %}
 
 > The column chooser dialog displays the header text of each column by default. If the header text is not defined for a column, the corresponding column field name is displayed instead.
@@ -54,27 +54,27 @@ In this example, the `columns->showInColumnChooser` property is set to false for
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-hide-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-hide-column-cs1" %}
 {% endif %}
 
 > * The `columns.showInColumnChooser` property is applied to each column element individually. By setting it to false, you can hide specific columns from the column chooser dialog.
@@ -90,27 +90,27 @@ Here's an example of how to open the column chooser in the Grid using an externa
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-method-cs1" %}
 {% endif %}
 
 ## Customize column chooser dialog size
@@ -133,27 +133,27 @@ To customize the column chooser dialog size, you can use the following CSS style
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/customize-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/customize-columnchooser-cs1" %}
 {% endif %}
 
 ## Customizing the order of columns in the column chooser
@@ -180,27 +180,27 @@ Here is an example of how to sort the column chooser list based on sort directio
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-sorting-cs1" %}
 {% endif %}
 
 ### Displaying specific columns in the column chooser
@@ -215,27 +215,27 @@ Here is an example of how to show only specific columns in the column chooser:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/specific-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/specific-columnchooser-cs1" %}
 {% endif %}
 
 ## Change default search operator of the column chooser 
@@ -250,27 +250,27 @@ Here's an example of how to change the default search operator of the column cho
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-changeoperator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-changeoperator-cs1" %}
 {% endif %}
 
 ## Diacritics searching in column chooser
@@ -283,27 +283,27 @@ Here is an example that demonstrates the usage of the `ignoreAccent` property to
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-diacriticsSearch-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-diacriticsSearch-cs1" %}
 {% endif %}
 
 ## Column Chooser Template in TypeScript Grid
@@ -328,27 +328,27 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-chooser-template/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-chooser-template/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-chooser-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-chooser-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-chooser-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-chooser-template" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-chooser-template/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-chooser-template/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-chooser-template/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-chooser-template/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-chooser-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-chooser-template" %}
 {% endif %}
 
 ## Enable and disable search option
@@ -363,25 +363,25 @@ The following example demonstrates how to enable or disable the search option dy
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/columnchooser-enable-disable" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/columnchooser-enable-disable" %}
 {% endif %}

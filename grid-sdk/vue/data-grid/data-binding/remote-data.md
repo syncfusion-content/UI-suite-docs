@@ -1837,14 +1837,14 @@ On remote data binding, all grid actions such as paging, sorting, editing, group
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/remote-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/remote-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/remote-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/remote-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/remote-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/remote-cs6" %}
 
 ## Fetch result from the DataManager query using external button 
 
@@ -2003,4 +2003,4 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/remote-fetch" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/remote-fetch" %}

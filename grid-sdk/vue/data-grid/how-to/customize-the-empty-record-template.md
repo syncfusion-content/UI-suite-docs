@@ -18,11 +18,11 @@ In the following example, an image and text have been rendered as a template to 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/empty-record-template-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/empty-record-template-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/empty-record-template-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/empty-record-template-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/empty-record-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/empty-record-template-cs1" %}

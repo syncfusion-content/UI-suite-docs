@@ -20,20 +20,20 @@ To enable the filter menu, set the [filterSettings.type](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs4" %}
 
 > * [allowFiltering](https://ej2.syncfusion.com/react/documentation/api/grid#allowfiltering) must be set as `true` to enable filter menu.
 > * Setting [allowFiltering](https://ej2.syncfusion.com/react/documentation/api/grid/column#allowfiltering) to `false` on a specific column prevents the filter menu from rendering for that column.
@@ -52,20 +52,20 @@ For example, replace the standard autocomplete with a dropdown component. This e
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs5" %}
 
 **Default filter input for CustomerID column**
 ![Default filter input for CustomerID column](../images/filter-menu-auto-complete.gif)
@@ -80,20 +80,20 @@ By default, the filter dialog displays time in 12-hour format (AM/PM) for date o
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs6" %}
 
 ## Customize filter menu operators
 
@@ -115,20 +115,20 @@ Customize operators for string, number, date, and boolean data types using these
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs17/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs17/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs17/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs17/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs17/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs17/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs17/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs17" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs17" %}
 
 ## Filter multiple values using filter menu
 
@@ -138,20 +138,20 @@ To enable this feature, set [filterSettings.type](https://ej2.syncfusion.com/rea
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs7" %}
 
 ## Customize the default input component of filter menu dialog
 
@@ -172,20 +172,20 @@ In the example provided below, the "Order ID" and "Freight" columns are numeric 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs18/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs18/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs18/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs18/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs18/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs18/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs18/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs18/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs18" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs18" %}
 
 ### Prevent autofill option in menu filter
 
@@ -195,20 +195,20 @@ Prevent the autofill feature by setting the [autofill](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs19/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs19/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs19/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs19/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs19/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs19/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs19/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs19" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs19" %}
 
 ## Hide filter icons
 
@@ -311,14 +311,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-method/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-method/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-method/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-method/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-method" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-method" %}
 
 ## Filter menu events
 
@@ -332,20 +332,20 @@ The React Data Grid offers the [actionBegin](https://ej2.syncfusion.com/react/do
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/filter-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/filter-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/filter-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/filter-cs11" %}
 
 ## Troubleshoot filter menu operator issue
 

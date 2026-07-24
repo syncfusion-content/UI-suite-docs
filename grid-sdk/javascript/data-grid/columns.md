@@ -22,14 +22,14 @@ The [`columns`](../api/grid/column) are automatically generated when [`columns`]
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs18/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs18/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs18/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs18" %}
 
 > When columns are auto-generated, the column [`type`](../api/grid/column/#type) will be determined from the first record of the [`dataSource`](../api/grid/#datasource).
 
@@ -91,14 +91,14 @@ In the below example, [`width`](../api/grid/column/#width) is set for **OrderID*
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs19/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs19/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs19" %}
 
 ## Complex data binding
 
@@ -106,14 +106,14 @@ You can achieve complex data binding in the grid by using the dot(.) operator in
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/complex-binding-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/complex-binding-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/complex-binding-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/complex-binding-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/complex-binding-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/complex-binding-cs3" %}
 
 For OData and ODataV4 adaptors, you need to add [`expand`](../api/data/query/#expand) query to the [`query`](../api/grid/#query) property (of Grid), to eager load the complex data.
 
@@ -152,14 +152,14 @@ In the following example, **Employee Name** is a foreign column which shows **Fi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/foreign-key-cs12/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/foreign-key-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/foreign-key-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/foreign-key-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/foreign-key-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/foreign-key-cs12" %}
 
 > * For remote data, the sorting and grouping is done based on [`column.foreignKeyField`](../api/grid/column/#foreignkeyfield) instead of [`column.foreignKeyValue`](../api/grid/column/#foreignkeyvalue).
 > * If [`column.foreignKeyField`](../api/grid/column/#foreignkeyfield) is not defined, then the column uses [`column.field`](../api/grid/column/#field).
@@ -170,14 +170,14 @@ You can customize the header element by using the [`headerTemplate`](../api/grid
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/headertemplate-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/headertemplate-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/headertemplate-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/headertemplate-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/headertemplate-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/headertemplate-cs2" %}
 
 ## Header text
 
@@ -185,14 +185,14 @@ By default, column header title is displayed from column [`field`](../api/grid/c
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs116/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs116/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs116/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs116/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs116" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs116" %}
 
 > * If both the [`field`](../api/grid/column/#field) and [`headerText`](../api/grid/column/#headertext)
 are not defined in the column, the column renders with “empty” header text.
@@ -204,14 +204,14 @@ values.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs117/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs117/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs117/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs117/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs117" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs117" %}
 
 > By default, the [`number`](../common/internationalization/#number-formatting) and [`date`](../common/internationalization/#date-formatting) values are formatted in **en-US** locale. You can localize the currency and date in different locale as explained [`here`](../common/internationalization/)
 
@@ -245,14 +245,14 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/pagerdropdown-cs4/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/pagerdropdown-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/pagerdropdown-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/pagerdropdown-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/pagerdropdown-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/pagerdropdown-cs4" %}
 
 ## Visibility
 
@@ -260,14 +260,14 @@ You can hide any particular column in Grid before rendering by defining [`visibl
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs118/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs118/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs118/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs118/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs118" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs118" %}
 
 ## AutoFit specific columns
 
@@ -277,14 +277,14 @@ To use the [`autoFitColumns`](../api/grid/#autofitcolumns) method, inject the **
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autofit-columns-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/autofit-columns-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/autofit-columns-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/autofit-columns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/autofit-columns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/autofit-columns-cs2" %}
 
 > You can autofit all the columns by invoking the [`autoFitColumns`](../api/grid/#autofitcolumns) method without column names.
 
@@ -296,14 +296,14 @@ To use reordering, inject the [`Reorder`](../api/grid/reorder) module in the gri
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs20/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs20/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs20" %}
 
 > You can disable reordering a particular column by setting the [`columns.allowReordering`](../api/grid/column/#allowreordering) to **false**.
 
@@ -313,14 +313,14 @@ Grid have option to reorder Columns either by Interaction or by using the [`reor
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-single-column-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-single-column-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-single-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-single-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-single-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-single-column-cs2" %}
 
 ### Reorder Multiple Columns
 
@@ -330,14 +330,14 @@ In the below sample, **Ship City** and **Ship Region** column is reordered to la
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/reorder-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/reorder-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/reorder-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/reorder-column-cs2" %}
 
 ### Reorder Events
 
@@ -349,14 +349,14 @@ During the reorder action, the grid component triggers the below three events.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs21/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs21/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs21" %}
 
 ## Lock Columns
 
@@ -366,14 +366,14 @@ In the below example, **Ship City** column is locked and its reordering function
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/lock-column-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/lock-column-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/lock-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/lock-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/lock-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/lock-column-cs2" %}
 
 ## Column resizing
 
@@ -383,14 +383,14 @@ To use the column resize, inject **Resize** module in the grid.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs22/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs22/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs22/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs22" %}
 
 > * You can disable resizing for a particular column by setting the [`columns.allowResizing`](../api/grid/column/#allowresizing) to false.
 > * In RTL mode, you can click and drag the left edge of the header cell to resize the column.
@@ -419,14 +419,14 @@ In the following sample, minimum and maximum width are defined for **OrderID**, 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs23/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs23/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs23/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs23/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs23" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs23" %}
 
 ### Resize Stacked Column
 
@@ -436,14 +436,14 @@ In this example, we have disabled resize for **Ship City** column.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs24/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs24/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs24/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs24/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs24" %}
 
 ### Touch interaction
 
@@ -463,14 +463,14 @@ During the resizing action, the grid component triggers the below three events.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs25/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs25/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs25/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs25/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs25" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs25" %}
 
 ## Column template
 
@@ -478,14 +478,14 @@ The column [`template`](../api/grid/column/#template) has options to display cus
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-template-cs2" %}
 > Grid actions such as editing, grouping, filtering and sorting etc. will depend upon the column [`field`](../api/grid/column/#field). If the [`field`](../api/grid/column/#field) is not specified in the template column, the grid actions cannot be performed.
 
 ### Using condition template
@@ -506,14 +506,14 @@ In the following code, checkbox is rendered based on **Discontinued** field valu
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/condition-inside-template-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/condition-inside-template-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/condition-inside-template-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/condition-inside-template-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/condition-inside-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/condition-inside-template-cs2" %}
 
 ## Column type
 
@@ -539,14 +539,14 @@ To use the column chooser, inject the **ColumnChooser** module in the grid.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/columnchooser-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/columnchooser-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/columnchooser-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/columnchooser-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/columnchooser-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/columnchooser-cs2" %}
 
 > You can hide the column names in column chooser by defining the [`columns.showInColumnChooser`](../api/grid/column/#showincolumnchooser) as false.
 
@@ -556,14 +556,14 @@ The Column chooser can be displayed on a page through external button by invokin
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/columnchooser-method-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/columnchooser-method-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/columnchooser-method-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/columnchooser-method-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/columnchooser-method-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/columnchooser-method-cs2" %}
 
 ## Column menu
 
@@ -586,14 +586,14 @@ The default items are displayed in following table.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs26/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs26/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs26/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs26/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs26" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs26" %}
 
 > * You can disable column menu for a particular column by defining the [`columns.showColumnMenu`](../api/grid/column/#showcolumnmenu) as false.
 > * You can customize the default items by defining the [`columnMenuItems`](../api/grid/#columnmenuitems) with required items.
@@ -607,14 +607,14 @@ During the resizing action, the grid component triggers the below two events.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs27/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs27/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs27/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs27/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs27" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs27" %}
 
 ### Custom Column Menu Item
 
@@ -622,14 +622,14 @@ Custom column menu items can be added by defining the [`columnMenuItems`](../api
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs28/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs28/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs28/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs28/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs28" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs28" %}
 
 ### Customize menu items for particular columns
 
@@ -639,14 +639,14 @@ The following sample, **Filter** item was hidden in column menu when opens for t
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs29/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs29/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs29/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs29/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs29" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs29" %}
 
 ## Column spanning
 
@@ -656,14 +656,14 @@ In the following demo, employee **Davolio** is doing analysis from 9.00 A.M. to 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs2" %}
 
 ## Responsive columns
 
@@ -674,14 +674,14 @@ The [`hideAtMedia`](../api/grid/column/#hideatmedia) accepts valid
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/hide-media-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/hide-media-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/hide-media-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/hide-media-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/hide-media-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/hide-media-cs2" %}
 
 ## Controlling Grid actions
 
@@ -690,14 +690,14 @@ You can enable or disable grid action for a particular column by setting the [`a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grouping-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grouping-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grouping-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grouping-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grouping-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grouping-cs2" %}
 
 ## Show/hide columns by external button
 
@@ -705,14 +705,14 @@ You can show or hide grid columns dynamically using external buttons by invoking
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-columns-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-columns-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-columns-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-columns-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/show-hide-columns-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/show-hide-columns-cs2" %}
 
 ## ValueAccessor
 
@@ -720,14 +720,14 @@ The [`valueAccessor`](../api/grid/column/#valueaccessor) is used to access/manip
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/value-accessor-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/value-accessor-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/value-accessor-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/value-accessor-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/value-accessor-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/value-accessor-cs2" %}
 
 ### Display array type columns
 
@@ -735,14 +735,14 @@ You can bind an array of objects in a column by using the [`valueAccessor`](../a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/array-of-string-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/array-of-string-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/array-of-string-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/array-of-string-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/array-of-string-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/array-of-string-cs2" %}
 
 ### Expression column
 
@@ -750,14 +750,14 @@ You can achieve the expression column by using the [`valueAccessor`](../api/grid
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/expression-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/expression-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/expression-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/expression-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/expression-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/expression-cs2" %}
 
 ## Render boolean values as checkbox
 
@@ -765,14 +765,14 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs119/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs119/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs119/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs119/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs119" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs119" %}
 
 ## See Also
 

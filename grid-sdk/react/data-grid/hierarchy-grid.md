@@ -34,20 +34,20 @@ The following example demonstrates how to enable the hierarchy feature in grid, 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs1" %}
 
 > * The Grid supports n level of child grids.
 > * Hierarchical binding is not supported when [DetailTemplate](https://ej2.syncfusion.com/react/documentation/api/grid#detailtemplate) is enabled.
@@ -61,20 +61,20 @@ In the following example, the `load` event is used to customize the mapping valu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs5" %}
 
 > Make sure to adjust the field name according to the specific scenario.
 
@@ -88,20 +88,20 @@ In the example below, the child grid is configured to display the sum and maximu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-aggregates/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-aggregates/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-aggregates/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-aggregates/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-aggregates/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-aggregates/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-aggregates/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-aggregates/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-aggregates" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-aggregates" %}
 
 ## Expand child grid initially
 
@@ -111,20 +111,20 @@ In the following example, the third record is expanded on load by using the `exp
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs3" %}
 
 > Index values begin with "0", allowing provision of the desired target index to expand a specific child grid initially.
 
@@ -136,20 +136,20 @@ To achieve this, use the [load](https://ej2.syncfusion.com/react/documentation/a
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs4" %}
 
 ## Dynamic data binding in Child Grids using parent row values
 
@@ -159,20 +159,20 @@ Within the `detailDataBound` event, the child grid’s [dataSource](https://ej2.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs7" %}
 
 ## Adding record in child grid
 
@@ -182,20 +182,20 @@ This is accomplished through the grid's [actionBegin](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs6" %}
 
 ## Template column in child grid
 
@@ -205,20 +205,20 @@ This is achieved using the [template](https://ej2.syncfusion.com/react/documenta
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs8" %}
 
 ## Getting parent details in the child grid
 
@@ -309,14 +309,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs9" %}
 
 ## Expand and collapse all child grids dynamically
 
@@ -326,20 +326,20 @@ By default, all child grids are rendered in a collapsed state. To programmatical
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-cs2" %}
 
 > The `expandAll` and `collapseAll` methods are not recommended for large datasets due to the considerable time it takes to update the changes in the UI.
 
@@ -384,20 +384,20 @@ The following example demonstrates how to hide the expand/collapse icon in the r
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/customizedialog-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/customizedialog-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/customizedialog-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/customizedialog-cs7" %}
 
 ## Change hierarchy grid icon in Grid
 
@@ -419,20 +419,20 @@ In the demo below, the expand/collapse icons have been changed to arrow-down and
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-icon/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-icon/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-icon/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-icon/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-icon/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-icon/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/hierarchy-grid-icon/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/hierarchy-grid-icon/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/hierarchy-grid-icon" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/hierarchy-grid-icon" %}
 
 ## Child Grid expand and collapse events
 
@@ -442,20 +442,20 @@ In the example below, expansion is prevented for the "Nancy" row, and collapse i
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-row-events/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-row-events/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-row-events/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-row-events/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-row-events/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-row-events/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/detail-row-events/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/detail-row-events/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/detail-row-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/detail-row-events" %}
 
 ## Customize the child grid
 

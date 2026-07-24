@@ -18,14 +18,14 @@ The following example demonstrates, how to render the custom toolbar using `tool
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/custom-cs1" %}
 
 ## Render image with text in custom toolbar
 
@@ -37,14 +37,14 @@ The following example demonstrates how to render an image in the toolbar of the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/custom-cs2" %}
 
 > You can further customize the styles and layout of the image and text in the custom toolbar to suit your specific design requirements.
 
@@ -58,14 +58,14 @@ In the **onChange** method, the text of the selected item is checked to determin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/custom-cs3" %}
 
 ## Render a component or element using the toolbar template
 
@@ -77,11 +77,11 @@ The following example demonstrates how to render a **Button** component in the t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/toolbar/custom-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/toolbar/custom-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/toolbar/custom-cs4" %}

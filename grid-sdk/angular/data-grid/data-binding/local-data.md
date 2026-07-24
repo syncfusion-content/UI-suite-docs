@@ -18,15 +18,15 @@ The following example demonstrates the local data binding feature in the Angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/databinding-cs1/src/app.component.ts %} 
+{% include code-snippet/grid-sdk/angular/grid/databinding-cs1/src/app.component.ts %} 
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/databinding-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/databinding-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
     
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/databinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/databinding-cs1" %}
 
 ## Data binding with SignalR 
 
@@ -386,15 +386,15 @@ The following example demonstrates Excel data import into the grid utilizing the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/imported-data/src/app.component.ts %} 
+{% include code-snippet/grid-sdk/angular/grid/imported-data/src/app.component.ts %} 
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/imported-data/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/imported-data/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/imported-data" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/imported-data" %}
 
 ## Binding data and performing CRUD actions via Fetch request
 
@@ -1039,14 +1039,14 @@ The following example demonstrates showing and hiding the spinner during data lo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/show-hide-spinner-cs1/src/app.component.ts %} 
+{% include code-snippet/grid-sdk/angular/grid/show-hide-spinner-cs1/src/app.component.ts %} 
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/show-hide-spinner-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/show-hide-spinner-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
     
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/show-hide-spinner-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/show-hide-spinner-cs1" %}
 
 ## Immutable mode
 
@@ -1216,11 +1216,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/immutable-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/immutable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/immutable-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/immutable-cs1" %}
 
 ### Limitations
 

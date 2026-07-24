@@ -93,20 +93,20 @@ By default, aggregate values are shown in the footer, group footer, and group ca
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-cs5" %}
 
 ### Custom formatting for aggregate values
 
@@ -123,20 +123,20 @@ The aggregate type `Sum` by default displays the raw value (e.g., "1234.56") in 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-customize/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-customize/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-customize/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-customize/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-customize/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-customize/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-customize/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-customize/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-customize" %}
 
 ## Aggregate using local and remote data
 
@@ -175,20 +175,20 @@ Here is an example that demonstrates how to use built-in aggregate types in the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-cs8" %}
 
 ## Multiple aggregates for a column
 
@@ -214,20 +214,20 @@ Here's an example of how to use multiple aggregates in the grid:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/aggregate-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/aggregate-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/aggregate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/aggregate-cs1" %}
 
 ## See also
 - [Custom aggregates](./custom-aggregate)

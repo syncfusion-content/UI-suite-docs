@@ -22,15 +22,15 @@ In the following sample, the hyperlinks and images are exported to Excel using [
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-template-export-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-template-export-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-template-export-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-template-export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/column-template-export-cs2" %}
 
 ![Exporting a Grid Column Template with Image and Hyperlink](../images/colTemp_excel_expt.gif)
 
@@ -279,11 +279,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/detail-template-export-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/detail-template-export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/detail-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/detail-template-export-cs2" %}
 
 ![DetailTemplateExport](../images/detailTemp_excel_expt.gif)
 
@@ -347,11 +347,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/caption-template-export-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/caption-template-export-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/caption-template-export-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/caption-template-export-cs2" %}
 
 ![CaptionTemplateExport](../images/captionTemp_excel_expt.gif)
 

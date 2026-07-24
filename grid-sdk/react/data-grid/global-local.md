@@ -250,23 +250,23 @@ The following example demonstrates loading a translation object for "German (de)
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs1/app/locale.json %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs1/app/locale.json %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/locale-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/locale-cs1" %}
 
 ### Loading translations for fr culture 
 
@@ -278,23 +278,23 @@ The following example demonstrates loading a translation object for "French (fr)
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs3/app/locale.json %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs3/app/locale.json %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/locale-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/locale-cs3" %}
 
 ### Switch the different localization
 
@@ -424,17 +424,17 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs4/app/locale.json %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs4/app/locale.json %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/locale-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/locale-cs4" %}
 
 ### Set different locale text for two Grids in same page
 
@@ -444,27 +444,27 @@ For example, one Grid can use the "fr-FR" locale to display "French" text, while
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs5/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs5/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs5/app/locale.json %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs5/app/locale.json %}
 {% endhighlight %}
 
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs5/app/datasource.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/locale-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/locale-cs5" %}
 
 ## Internationalization
 
@@ -478,20 +478,20 @@ This ensures that the Grid component uses the correct format strings for number,
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/internationalization-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/internationalization-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/internationalization-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/internationalization-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/internationalization-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/internationalization-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/internationalization-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/internationalization-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/internationalization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/internationalization-cs1" %}
 
 
 > * In the above sample, the "Freight" column is formatted using [NumberFormatOptions](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#manipulating-numbers).
@@ -579,17 +579,17 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="locale.json" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs2/app/locale.json %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs2/app/locale.json %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/locale-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/locale-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/locale-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/locale-cs2" %}
 
 ## See also
 

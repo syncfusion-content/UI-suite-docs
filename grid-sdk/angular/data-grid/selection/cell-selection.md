@@ -24,15 +24,15 @@ The following example demonstrates single cell selection:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs1" %}
 
 ## Multiple cell selection
 
@@ -44,15 +44,15 @@ The following example demonstrates multiple cell selection:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs2" %}
 
 ## Cell selection mode
 
@@ -73,15 +73,15 @@ The following example demonstrates dynamically enabling and changing the `cellSe
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cs1" %}
 
 ## Select cells programmatically
 
@@ -95,15 +95,15 @@ The following example demonstrates programmatic single cell selection by passing
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs4" %}
 
 ### Multiple cell selection
 
@@ -113,15 +113,15 @@ The following example demonstrates selecting multiple cells in the grid by calli
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs6" %}
 
 > Cell Selection requires the `selectionSettings.mode` to be `Cell` or `Both` and [type](https://ej2.syncfusion.com/angular/documentation/api/grid/selectionSettings#type) should be `Multiple`.
 
@@ -136,15 +136,15 @@ The following example demonstrates programmatic range selection by passing start
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs5" %}
 
 ## Get selected row cell indexes
 
@@ -237,11 +237,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs8" %}
 
 ## Clear cell selection programmatically
 
@@ -253,15 +253,15 @@ The following example demonstrates clearing cell selection by calling the `clear
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs3" %}
 
 ## Cell selection events
 
@@ -349,8 +349,8 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cell-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cell-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cell-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cell-cs7" %}

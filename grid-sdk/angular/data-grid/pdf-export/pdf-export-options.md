@@ -24,15 +24,15 @@ The following example demonstrates exporting current page to a PDF document when
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs11" %}
 
 ## Export selected records
 
@@ -54,15 +54,15 @@ The following example demonstrates exporting the selected records to a PDF docum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-filtered-data-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-filtered-data-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-filtered-data-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-filtered-data-cs3" %}
 
 ## Export filtered records
 
@@ -84,15 +84,15 @@ The following example demonstrates exporting the filtered records to a PDF docum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-filtered-data-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-filtered-data-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-filtered-data-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-filtered-data-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-filtered-data-cs4" %}
 
 ## Export with hidden columns
 
@@ -104,15 +104,15 @@ The following example demonstrates exporting hidden columns to a PDF file. In th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs12" %}
 
 ## Show or hide columns while exporting
 
@@ -132,15 +132,15 @@ In the following example, the "Customer ID" is initially a hidden column in the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs13" %}
 
 ## Show or hide columns while exporting with stacked header
 
@@ -160,15 +160,15 @@ In the following example, the "Ship Name" is initially a hidden column in the Gr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exportpdf-show-hide/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exportpdf-show-hide/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exportpdf-show-hide/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exportpdf-show-hide/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exportpdf-show-hide" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exportpdf-show-hide" %}
 
 ## Change page orientation
 
@@ -186,15 +186,15 @@ The following example demonstrates exporting the grid into PDF document by setti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs14" %}
 
 ## Change page size
 
@@ -236,15 +236,15 @@ The following example demonstrates exporting the grid into PDF document by setti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs15/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs15" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs15" %}
 
 ## Define file name
 
@@ -256,15 +256,15 @@ The following example demonstrates defining a file name using `pdfExportProperti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs16" %}
 
 ## Enabling horizontal overflow
 
@@ -276,15 +276,15 @@ The following example uses the [EJ2 Toggle Switch Button](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs27/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs27/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs27" %}
 
 ## Customizing columns on export
 
@@ -302,15 +302,15 @@ The following example demonstrates customizing the grid columns when exporting a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs28/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs28/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs28" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs28" %}
 
 ## Font and color customization
 
@@ -338,15 +338,15 @@ The following example demonstrates, changing the default font when exporting a d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs26/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs26/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs26/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs26/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs26" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs26" %}
 
 ### Add custom font
 
@@ -358,15 +358,15 @@ The following example demonstrates the usage of the custom "Algeria" font for ex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs17/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs17/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs17" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs17" %}
 
 > `PdfTrueTypeFont` accepts base64 format of the custom font.
 
@@ -380,15 +380,15 @@ The following example demonstrates customizing the background color of the "Frei
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/exporting-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/exporting-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/exporting-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/exporting-cs9" %}
 
 ## Export grid as blob
 
@@ -398,12 +398,12 @@ The following example demonstrates obtaining the blob data of the exported grid 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/export-grid-as-blob-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/export-grid-as-blob-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/export-grid-as-blob-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/export-grid-as-blob-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/export-grid-as-blob-cs1" %}

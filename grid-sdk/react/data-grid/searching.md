@@ -22,20 +22,20 @@ The following example demonstrates enabling the `toolbar` with search option in 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs1" %}
 
 > The clear icon appears in the search text box when it has focus or after entering a character. Clicking the clear icon removes the text from the search box and resets the grid to display all records.
 
@@ -69,20 +69,20 @@ This configuration searches the "Customer ID" column for records containing "Ha"
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs2" %}
 
 > By default, the grid searches all visible columns. Customize this by setting the `searchSettings.fields` property to limit searching to specific columns only.
 
@@ -192,14 +192,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs8" %}
 
 ## Search using an external button
 
@@ -216,20 +216,20 @@ Implementation steps for searching via an external button:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs3" %}
 
 ## Search specific columns
 
@@ -244,20 +244,20 @@ The following example searches only the "Customer ID", "Freight", and "Ship Coun
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs4" %}
 
 ## Perform real-time search while typing
 
@@ -273,20 +273,20 @@ In the following example, the `created` event of the grid binds the `keyup` even
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs6" %}
 
 > Real-time search on keystroke may impact performance when the application works with large datasets (thousands of rows). Consider implementing a delayed search trigger or using initial search combined with external buttons for better performance with large data.
 
@@ -305,20 +305,20 @@ In the following example, the `actionBegin` event checks if a column has formatt
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs9" %}
 
 ## Search using multiple keywords
 
@@ -337,20 +337,20 @@ On the other hand, the [actionComplete](https://ej2.syncfusion.com/react/documen
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs7" %}
 
 > By using multiple keywords, searches are more flexible and powerful. Keywords are split by a delimiter and combined using `OR` logic, meaning the grid displays records matching any of the provided keywords.
 
@@ -367,20 +367,20 @@ The following example demonstrates toggling the `ignoreAccent` property using a 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs10/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs10/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs10/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs10/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs10/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs10" %}
 
 > * The `ignoreAccent` property can be combined with other search settings such as `fields`, `operator`, `ignoreCase` to customize search behavior.
 > * This feature applies only to non-ASCII characters (characters with diacritical marks).
@@ -410,20 +410,20 @@ Define the CSS class to apply highlighting styles (e.g., `background-color: yell
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs11/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs11/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs11/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs11/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs11/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs11" %}
 
 ## Clear search results using an external button
 
@@ -439,20 +439,20 @@ The following example demonstrates clearing search records using an external but
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/searching-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/searching-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/searching-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/searching-cs5" %}
 
 > Alternatively, the search box's built-in clear icon also clears search results. When the search box has focus or contains text, clicking the clear icon removes the text and resets the grid to display all records.
 
@@ -471,20 +471,20 @@ The following example demonstrates retrieving searched records using an external
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/retrieve-searched-records-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/retrieve-searched-records-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/retrieve-searched-records-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/retrieve-searched-records-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/retrieve-searched-records-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/retrieve-searched-records-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/retrieve-searched-records-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/retrieve-searched-records-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/retrieve-searched-records-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/retrieve-searched-records-cs1" %}
 
 ## See also
 

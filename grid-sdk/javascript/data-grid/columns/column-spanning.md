@@ -19,27 +19,27 @@ In the following demo, Employee **Davolio** doing analysis from 9.00 AM to 10.00
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs1" %}
 {% endif %}
 
 ## Change the border color while column spanning
@@ -50,27 +50,27 @@ You can change the border color for the spanned cells by the using [queryCellInf
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs3" %}
 {% endif %}
 
 ## Limitations
@@ -94,27 +94,27 @@ Here is an example of how to use the `enableColumnSpan` property to merge cells 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-spanning-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-spanning-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-spanning-cs4" %}
 {% endif %}
 
 > You can also control spanning at the column level. To prevent merging for specific columns, set `enableColumnSpan` to **false** in the column definition.

@@ -20,10 +20,10 @@ Here's an example code snippet demonstrating how to auto update aggregate value 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/reactive-agg-batch-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/reactive-agg-batch-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="reactive-aggregate-batch-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/reactive-agg-batch-edit/reactive-aggregate-batch-edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/reactive-agg-batch-edit/reactive-aggregate-batch-edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ In the following code, the input event for the Freight column editor has been re
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/reactive-agg-inline-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/reactive-agg-inline-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="reactive-aggregate-inline-edit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/reactive-agg-inline-edit/reactive-aggregate-inline-edit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/reactive-agg-inline-edit/reactive-aggregate-inline-edit.cs %}
 {% endhighlight %}
 {% endtabs %}
 

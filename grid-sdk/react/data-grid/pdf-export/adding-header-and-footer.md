@@ -164,20 +164,20 @@ The following example demonstrates adding a header and footer to the exported gr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs3" %}
 
 ## Repeat column header on every page
 
@@ -189,17 +189,17 @@ The following example demonstrates repeating the column header on every page of 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/pdf-export-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/pdf-export-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/pdf-export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/pdf-export-cs4" %}

@@ -30,15 +30,15 @@ The Grid supports two selection types, configurable via the [selectionSettings.t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cs13" %}
 
 > By default, the Grid component includes essential selection functionality. The Selection module is automatically available without requiring explicit injection. Refer to the [Selection API](https://ej2.syncfusion.com/angular/documentation/api/grid/selection) for complete configuration options.
 
@@ -56,15 +56,15 @@ The following example demonstrates dynamically enabling and changing the `select
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cs14" %}
 
 ## Touch interaction
 
@@ -104,15 +104,15 @@ The following example demonstrates the toggle selection for cells and rows using
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cs10" %}
 
 > * If multi selection is enabled, then first click on any selected row (without pressing Ctrl key), it will clear the multi selection and in second click on the same row, it will be unselected.
 > * Toggle selection is a feature that can be applied to all types of selections. When the [checkboxOnly](https://ej2.syncfusion.com/angular/documentation/api/grid/selectionsettings#checkboxonly) property restricts row or cell selection to only occur through checkbox clicks. When this property is set to `true`, users cannot select rows or cells by clicking directly on them; instead, selection is only possible by clicking the corresponding checkboxes. Refer to the [Checkbox Selection](./check-box-selection#allow-selection-only-through-checkbox-click) feature to learn more about implementing checkbox-only selection.
@@ -125,15 +125,15 @@ The following example demonstrates clearing selection by calling the `clearSelec
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-cs11" %}
 
 > - In `Both` mode, if calling [clearCellSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/index-default#clearcellselection) first, it will clear cell selections, and then if calling [clearRowSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/index-default#clearrowselection), it will clear row selections. The order of method calls determines which type of selection is cleared first.
 > - To remove a specific selection in a row, cell, or column, utilize the following methods: `clearRowSelection` for clearing row selections, `clearCellSelection` for clearing cell selections, and [clearColumnSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/selection#clearcolumnselection) for clearing column selections.
@@ -152,15 +152,15 @@ The following example demonstrates persist selection for rows and columns using 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-presistence-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-presistence-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/selection-presistence-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/selection-presistence-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/selection-presistence-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/selection-presistence-cs2" %}
 
 ## See Also
 

@@ -35,14 +35,14 @@ The following example demonstrates how to activate default filtering in the grid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs1" %}
 
 > If the [filterSettings.type](https://ej2.syncfusion.com/vue/documentation/api/grid/filtersettings/#type) is not explicitly specified, it defaults to **FilterBar**.
 
@@ -58,14 +58,14 @@ By settings [filterSettings.mode](https://ej2.syncfusion.com/vue/documentation/a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs2" %}
 
 ## Display filter text in pager
 
@@ -75,14 +75,14 @@ To enable the display of filter text within the pager, you should set the [showF
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs3" %}
 
 ## Show or hide filter bar operator in filter bar cell
 
@@ -92,14 +92,14 @@ To achieve this functionality, you can enable the  [showFilterBarOperator](https
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs4" %}
 
 ## Prevent filtering for particular column
 
@@ -109,14 +109,14 @@ Here's an example that demonstrates how to remove the filter bar for the **Custo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs5" %}
 
 ## Hide filter bar for template column
 
@@ -128,14 +128,14 @@ Here's an example that demonstrates how to hide the filter bar for a template co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs6" %}
 
 ## Filter bar template with custom component
 
@@ -145,14 +145,14 @@ To utilize this feature, you can define a custom template for the filter bar by 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-bar-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-bar-cs7" %}
 
 ## See also
 

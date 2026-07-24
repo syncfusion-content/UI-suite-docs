@@ -19,27 +19,27 @@ To enable in-line editing in the grid control, you need to set the [editSettings
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs40/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs40/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs40/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs40/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs40" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs40" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs40/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs40/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs40/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs40/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs40" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs40" %}
 {% endif %}
 
 > Normal edit mode is default mode of editing.
@@ -55,27 +55,27 @@ In the following example, the **TotalCost** column value is updated based on cha
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs41/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs41/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs41/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs41/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs41" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs41" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs41/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs41/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs41/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs41/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs41" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs41" %}
 {% endif %}
 
 ## Cancel edit based on condition
@@ -90,27 +90,27 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs42/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs42/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs42/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs42/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs42" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs42" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs42/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs42/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs42/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs42/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs42" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs42" %}
 {% endif %}
 
 ## Perform CRUD action programmatically
@@ -133,27 +133,27 @@ Performing CRUD actions programmatically refers to the ability to create, read, 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/programmaticedit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/programmaticedit-cs1" %}
 {% endif %}
 
 ## Show confirmation dialog while deleting
@@ -166,27 +166,27 @@ To enable the confirmation dialog for the delete operation in the Grid, you can 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs43/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs43/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs43/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs43/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs43" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs43" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs43/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs43/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs43/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs43/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs43" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs43" %}
 {% endif %}
 
 > The **showDeleteConfirmDialog** supports all type of edit modes.
@@ -203,27 +203,27 @@ Here's an example of how to set a default value for a column:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs44/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs44/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs44/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs44/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs44" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs44" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs44/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs44/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs44/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs44/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs44" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs44" %}
 {% endif %}
 
 ## Delete multiple rows
@@ -240,27 +240,27 @@ To delete multiple selected records in the grid, first you need to select multip
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-delete-rows/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-delete-rows/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-delete-rows" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-delete-rows/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-delete-rows/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-delete-rows" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-delete-rows" %}
 {% endif %}
 
 > Also delete the selected records using keyboard shortcut key **delete**.
@@ -291,27 +291,27 @@ You can delete multiple rows programmatically by using following method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-method-delete/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-method-delete/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-method-delete/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-method-delete/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-method-delete" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-method-delete" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-method-delete/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-method-delete/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-method-delete/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-method-delete/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-method-delete" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-method-delete" %}
 {% endif %}
 
 ## Adding a new row at the bottom of the grid
@@ -326,27 +326,27 @@ Here's an example of how to enable adding new rows at the bottom of the grid:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs45/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs45/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs45/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs45/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs45" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs45" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs45/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs45/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs45/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs45/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs45" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs45" %}
 {% endif %}
 
 >* Add `newRowPostion` is supported for **Normal** and **Batch** editing modes.
@@ -362,27 +362,27 @@ The following sample demonstrates how to add a new record continuously using `sh
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs183/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs183/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs183/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs183/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs183" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs183" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs183/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs183/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs183/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs183/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs183" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs183" %}
 {% endif %}
 
 > To save the newly added records, you can either hit the **Enter** key or click on the **Update** button located on the toolbar after filling in the new add form.
@@ -405,27 +405,27 @@ Here's an example of how to use the `recordDoubleClick` event to move the focus 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/focus-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/focus-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/focus-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/focus-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/focus-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/focus-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/focus-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/focus-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/focus-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/focus-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/focus-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/focus-cs1" %}
 {% endif %}
 
 ## Enable editing in single click
@@ -440,27 +440,27 @@ The following sample demonstrates how to enable editing in a single click using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-single-click/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-single-click/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-single-click/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-single-click/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-single-click" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-single-click" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-single-click/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-single-click/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-single-click/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-single-click/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-single-click" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-single-click" %}
 {% endif %}
 
 ## Disable editing for a particular row
@@ -475,25 +475,25 @@ In the below demo, the rows which are having the value for **ShipCountry** colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-particular-row/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-particular-row/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-particular-row/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-particular-row/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-particular-row" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-particular-row" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-particular-row/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-particular-row/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/inline-particular-row/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/inline-particular-row/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/inline-particular-row" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/inline-particular-row" %}
 {% endif %}

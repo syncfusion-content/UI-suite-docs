@@ -24,14 +24,14 @@ Here is an example that demonstrates the default filtering feature of the grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs1" %}
 
 > * You can apply and clear filtering, by using [filterByColumn](https://ej2.syncfusion.com/vue/documentation/api/grid/filter#filterbycolumn) and [clearFiltering](https://ej2.syncfusion.com/vue/documentation/api/grid/filter#clearfiltering) methods.
 > * To disable Filtering for a particular column, by specifying [columns.allowFiltering](https://ej2.syncfusion.com/vue/documentation/api/grid/column#allowfiltering) to false.
@@ -44,14 +44,14 @@ Here is an example of how to configure the initial filter using the `predicate` 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs2" %}
 
 ### Initial filter with multiple values for same column
 
@@ -63,14 +63,14 @@ The following example demonstrates, how to perform an initial filter with multip
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs3" %}
 
 ### Initial filter with multiple values for different columns 
 
@@ -82,14 +82,14 @@ The following example demonstrates how to perform an initial filter with multipl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs4" %}
 
 ## Filter operators
 
@@ -169,14 +169,14 @@ Consider the following sample where the `ignoreAccent` property is set to true i
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs5" %}
 
 ## Perform ENUM column filtering
 
@@ -196,14 +196,14 @@ Below is an example demonstrating how to filter enum-type data in a Grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-enum/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-enum/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-enum/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-enum/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-enum" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-enum" %}
 
 ## Filtering with case sensitivity
 
@@ -213,14 +213,14 @@ Below is an example code demonstrating how to enable or disable case sensitivity
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs6" %}
 
 ## Enable different filter for a column
 
@@ -232,14 +232,14 @@ Here's an example where the menu filter is enabled by default for all columns, b
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs7" %}
 
 ## Change default filter operator for particular column
 
@@ -249,14 +249,14 @@ Here's an example that demonstrates how to change the default filter operator co
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs8" %}
 
 ## Filter grid programmatically with single and multiple values using method 
 
@@ -268,14 +268,14 @@ The following example demostrates, how to programmatically filter the Grid using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs9/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs9/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs9/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs9/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs9" %}
 
 ## How to get filtered records
 
@@ -291,14 +291,14 @@ Here's an example of how to get the filtering data in a Vue Data Grid using the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs10/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs10/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs10/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs10/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs10" %}
 
 **2.Using the properties in the FilterEventArgs object**
 
@@ -328,14 +328,14 @@ Here's an example of how to clear the filtering in a Vue Data Grid using the `cl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/filter-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/filter-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs11" %}
 
 ## Filtering events
 
@@ -482,7 +482,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/filter-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/filter-cs12" %}
 
 ## See Also
 

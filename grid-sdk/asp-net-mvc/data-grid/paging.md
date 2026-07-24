@@ -30,10 +30,10 @@ The following example demonstrates how to change the page size of a Grid using a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-page-size/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-page-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-page-size/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-page-size/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ The following example demonstrates how to change the page count of a Grid using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-page-count/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-page-count/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-page-count/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-page-count/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -68,10 +68,10 @@ The following example demonstrates how to dynamically change the current page us
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-current-page/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-current-page/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/change-current-page/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/change-current-page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -89,10 +89,10 @@ In the following example, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/add-query-string/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/add-query-string/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/add-query-string/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/add-query-string/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ The following example demonstrates how to render a [NumericTextBox](https://ej2.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-template/page-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-template/page-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -127,10 +127,10 @@ The following example that demonstrates how to integrate the page size dropdown 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-dropdown/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-dropdown/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-dropdown/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-dropdown/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -146,10 +146,10 @@ The following example demonstrate how to customize the default values of the pag
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/customize-page-dropdown/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/customize-page-dropdown/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/customize-page-dropdown/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/customize-page-dropdown/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ The following example demonstrates how to dynamically navigate to a particular p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/navigate-particular-page/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/navigate-particular-page/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/navigate-particular-page/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/navigate-particular-page/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -197,10 +197,10 @@ The following example demonstrates how to calculate the page size based on eleme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/dynamically-calculate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/dynamically-calculate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/dynamically-calculate/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/dynamically-calculate/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -214,10 +214,10 @@ Here's an example that demonstrates how to render the pager at the top of the gr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/render-pager/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/render-pager/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/render-pager/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/render-pager/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -240,10 +240,10 @@ The following example that example demonstrates how to use these events to displ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/paging/pager-events/page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/paging/pager-events/page.cs %}
 {% endhighlight %}
 {% endtabs %}
 

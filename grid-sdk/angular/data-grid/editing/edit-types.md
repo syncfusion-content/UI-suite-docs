@@ -52,15 +52,15 @@ The following sample code demonstrates the customization applied to `TextBox` co
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-default/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-default/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-default/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-default/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-default" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-default" %}
 
 ## Customizing the NumericTextBox for numericedit type 
 
@@ -74,15 +74,15 @@ The following sample code demonstrates the customization applied to `NumericText
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-numeric/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-numeric/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-numeric/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-numeric/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-numeric" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-numeric" %}
 
 ### Restrict decimal input in NumericTextBox while editing
 
@@ -92,15 +92,15 @@ In the below demo, while editing the row the decimal point value is restricted t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/prevent-decimalpoint-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/prevent-decimalpoint-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/prevent-decimalpoint-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/prevent-decimalpoint-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/prevent-decimalpoint-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/prevent-decimalpoint-cs1" %}
 
 ## Customizing the DropDownList for dropdownedit type 
 
@@ -114,15 +114,15 @@ The following sample code demonstrates the customization applied to `DropDownLis
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-dropdown/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-dropdown/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-dropdown/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-dropdown/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-dropdown" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-dropdown" %}
 
 ### Provide custom data source for DropDownList component
 
@@ -136,15 +136,15 @@ In the below demo, `DropDownList` is rendered with custom data source for the "S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs12" %}
 
 ### Enable filtering in DropDownList editor
 
@@ -156,15 +156,15 @@ In the following demo, filtering is enabled for the "Ship Country" column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-filter/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-filter/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-filter/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-filter/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-filter" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-filter" %}
 
 ### Open popup on focus in DropDownList
 
@@ -178,15 +178,15 @@ The following sample demonstrates to open the popup when focusing on the edit ce
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/open-dropdown-popup-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/open-dropdown-popup-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/open-dropdown-popup-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/open-dropdown-popup-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/open-dropdown-popup-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/open-dropdown-popup-cs1" %}
 
 ## Customizing the CheckBox for booleanedit type 
 
@@ -200,15 +200,15 @@ The following sample code demonstrates the customization applied to `CheckBox` c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-checkbox/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-checkbox/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-checkbox/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-checkbox/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-checkbox" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-checkbox" %}
 
 ## Customizing the DatePicker for datepickeredit type 
 
@@ -222,15 +222,15 @@ The following sample code demonstrates the customization applied to `DatePicker`
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-datepicker/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-datepicker/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-datepicker/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-datepicker/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-datepicker" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-datepicker" %}
 
 ## Customizing the DateTimePicker for datetimepickeredit type 
 
@@ -244,15 +244,15 @@ The following sample code demonstrates the customization applied to DateTimePick
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-datetimepicker/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-datetimepicker/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-params-datetimepicker/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-params-datetimepicker/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-params-datetimepicker" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-params-datetimepicker" %}
 
 ### Restrict minimum selectable date in DatePicker
 
@@ -262,15 +262,15 @@ Example with dynamic min date:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/hide-dates-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/hide-dates-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/hide-dates-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/hide-dates-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/hide-dates-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/hide-dates-cs1" %}
 
 ## Accessing editor component instances
 
@@ -282,15 +282,15 @@ In the below demo, access the editor component instance while adding or editing 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-access-editor-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-access-editor-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-access-editor-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-access-editor-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-access-editor-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-access-editor-cs1" %}
 
 ## Rendering custom cell editors
 
@@ -310,15 +310,15 @@ The following example demonstrates to render a textArea component in the "Ship A
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-textarea-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-textarea-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-textarea-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-textarea-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-textarea-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-textarea-cs1" %}
 
 **Prevent Enter key from saving edits in a multiline textbox** 
 
@@ -326,15 +326,15 @@ Override the default Enter key behavior in multiline textboxes by using the `sto
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-textbox/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-textbox/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-textbox/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-textbox/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-textbox" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-textbox" %}
 
 ### Render AutoComplete in the edit form
 
@@ -347,16 +347,16 @@ The following example demonstrates to render an `AutoComplete` component in the 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
 
-{% include code-snippet/grid-sdk/angular/data-grid/edit-autocomplete/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-autocomplete/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
 
-{% include code-snippet/grid-sdk/angular/data-grid/edit-autocomplete/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-autocomplete/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-autocomplete" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-autocomplete" %}
 
 ### Render MaskedTextBox in the edit form
 
@@ -368,15 +368,15 @@ Here's an example to render a MaskedTextBox component in the "Customer Number" c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-maskedtextbox/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-maskedtextbox/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-maskedtextbox/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-maskedtextbox/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-maskedtextbox" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-maskedtextbox" %}
 
 ### Render DropDownList component in edit form 
 
@@ -388,15 +388,15 @@ The following example demonstrates to render a `DropDownList` component in the "
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-dropdownlist/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-dropdownlist/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-dropdownlist/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-dropdownlist/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-dropdownlist" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-dropdownlist" %}
 
 ### Render images in the DropDownList editor component using the item template 
 
@@ -502,11 +502,11 @@ export class AppComponent {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-drobdown-image/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-drobdown-image/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-drobdown-image" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-drobdown-image" %}
 
 ### Render Multiple columns in DropDownList component
 
@@ -618,11 +618,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-multicolumn-dropdown/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-multicolumn-dropdown/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-multicolumn-dropdown" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-multicolumn-dropdown" %}
 
 ### Render ComboBox component in edit form
 
@@ -634,15 +634,15 @@ The following example demonstrates to render a `ComboBox` component in the "Ship
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-combox/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-combox/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-combox/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-combox/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-combox" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-combox" %}
 
 ### Render TimePicker component in edit form
 
@@ -654,15 +654,15 @@ The following example demonstrates to render a `TimePicker` component in the "Or
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs13/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs13/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs13/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs13/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs13" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs13" %}
 
 ### Render MultiSelect component in edit form
 
@@ -674,15 +674,15 @@ The following example demonstrates to render a `MultiSelect` component in the "S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs15/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs15" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs15" %}
 
 ### Render RichTextEditor component in edit form
 
@@ -696,15 +696,15 @@ The following example demonstrates to render a `RichTextEditor` component in the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs16" %}
 
 ### Render Upload component in edit form  
 
@@ -824,11 +824,11 @@ export interface columnDataType{
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-upload/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-upload/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-upload" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-upload" %}
 
 > To prevent accidentally closing the cell editor (particularly with complex custom editors), add the `edit-custom-template` class to custom component roots and set the `cssClass` property to include `edit-custom-template` for Syncfusion editors when needed.
 
@@ -851,15 +851,15 @@ Define a custom editor with the `edit` API for AutoComplete in the "Customer ID"
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs14/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs14/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs14/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs14/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs14" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs14" %}
 
 ### Example: Cascading DropDownList editors
 
@@ -867,12 +867,12 @@ Create cascading DropDownLists (e.g., country and state) by configuring a custom
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs40/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs40/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/edit-cs40/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/edit-cs40/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/edit-cs40" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/edit-cs40" %}

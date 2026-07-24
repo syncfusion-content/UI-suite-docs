@@ -32,27 +32,27 @@ The default column menu items are displayed in following table.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs4/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs4/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs4/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs4" %}
 {% endif %}
 
 > * You can disable column menu for a particular column by defining the [columns.showColumnMenu](../../api/grid/column#showcolumnmenu) as false.
@@ -70,27 +70,27 @@ The following example demonstrates how to prevent the column menu for a specific
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/column-columnmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/column-columnmenu-cs2" %}
 {% endif %}
 
 ## Add custom column menu item
@@ -103,27 +103,27 @@ Consider the following example, which demonstrates how to add a custom column me
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs6/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs6/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs6/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs6" %}
 {% endif %}
 
 ## Customize menu items for particular columns
@@ -136,27 +136,27 @@ The following sample, **Filter** item was hidden in column menu when opens for t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs7/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs7/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs7/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs7" %}
 {% endif %}
 
 ## Render nested column menu
@@ -171,27 +171,27 @@ Here is an example of how to configure the `columnMenuItems` property to include
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/render-nested-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/render-nested-column-cs1" %}
 {% endif %}
 
 ## Customize the icon of column menu
@@ -221,27 +221,27 @@ Here is an example that demonstrates how to customize the column menu icon in th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/custom-column-menu-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/custom-column-menu-icon-cs1" %}
 {% endif %}
 
 ## Column menu events
@@ -255,25 +255,25 @@ The column menu in JavaScript Grid provides a set of events that allow customiza
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs5/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs5/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs5/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs5" %}
 {% endif %}

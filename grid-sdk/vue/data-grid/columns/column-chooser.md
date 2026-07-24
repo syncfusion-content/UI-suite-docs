@@ -16,14 +16,14 @@ To use the column chooser, you need to inject the **ColumnChooser** in the **pro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs5" %}
 
 > The column chooser dialog displays the header text of each column by default. If the header text is not defined for a column, the corresponding column field name is displayed instead.
 
@@ -35,14 +35,14 @@ In this example, the `columns.showInColumnChooser` property is set to false for 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs36/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs36/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs36/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs36/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs36" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs36" %}
 
 >The `columns.showInColumnChooser` property is applied to each <e-column> element individually. By setting it to false, you can hide specific columns from the column chooser dialog.
 
@@ -54,14 +54,14 @@ Here's an example of how to open the column chooser in the Grid using an externa
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs6" %}
 
 ## Customize column chooser dialog size
 	
@@ -81,14 +81,14 @@ To customize the column chooser dialog size, you can use the following CSS style
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs37/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs37/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs37/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs37/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs37" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs37" %}
 
 ## Customizing the order of columns in the column chooser
 
@@ -112,14 +112,14 @@ Here is an example of how to sort the column chooser list based on sort directio
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columnchooser-sorting-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columnchooser-sorting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columnchooser-sorting-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columnchooser-sorting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/columnchooser-sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/columnchooser-sorting-cs1" %}
 
 ### Displaying specific columns in the column chooser
 
@@ -131,14 +131,14 @@ Here is an example of how to show only specific columns in the column chooser:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/specific-columnchooser-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/specific-columnchooser-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/specific-columnchooser-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/specific-columnchooser-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/specific-columnchooser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/specific-columnchooser-cs1" %}
 
 ## Change default search operator of the column chooser 
 
@@ -150,14 +150,14 @@ Here's an example of how to change the default search operator of the column cho
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs38/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs38/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs38/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs38/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs38" %}
 
 ## Diacritics searching in column chooser
 
@@ -167,14 +167,14 @@ Here is an example that demonstrates the usage of the `ignoreAccent` property to
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs39/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs39/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs39/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs39/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs39" %}
 
 ## Column Chooser Template in Vue Data Grid
 
@@ -194,14 +194,14 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-chooser-template/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-chooser-template/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-chooser-template/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-chooser-template/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-chooser-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-chooser-template" %}
 
 ## Enable and disable search option
 
@@ -213,11 +213,11 @@ The following example demonstrates how to enable or disable the search option dy
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columnchooser-enable-disable/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columnchooser-enable-disable/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/columnchooser-enable-disable/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/columnchooser-enable-disable/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/columnchooser-enable-disable" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/columnchooser-enable-disable" %}

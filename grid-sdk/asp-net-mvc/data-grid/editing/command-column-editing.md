@@ -27,10 +27,10 @@ Here's an example that demonstrates how to add CRUD action buttons in a column u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/commandcolumn/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/commandcolumn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="commandcolumn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/commandcolumn/commandcolumn.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/commandcolumn/commandcolumn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,10 +46,10 @@ Here's an example that demonstrates how to add custom command buttons using the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/customcommand/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/customcommand/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="customcommand.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/customcommand/customcommand.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/customcommand/customcommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 

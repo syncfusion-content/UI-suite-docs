@@ -34,15 +34,15 @@ The following example demonstrates enabling built-in toolbar items such as `Prin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/toolbar-cs1" %}
 
 > The [toolbar](https://ej2.syncfusion.com/angular/documentation/api/grid#toolbar) property supports configuring both built-in and custom items.
 
@@ -61,15 +61,15 @@ This is demonstrated in the following sample:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbaricon-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbaricon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbaricon-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbaricon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbaricon-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/toolbaricon-cs1" %}
 
 ### Customize built-in toolbar items
 
@@ -134,11 +134,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-customization/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-customization/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-customization" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/toolbar-customization" %}
 
 ## Custom toolbar items
 
@@ -148,15 +148,15 @@ By default, custom toolbar items are positioned on the left side of the toolbar.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-toolbar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/custom-toolbar-cs1" %}
 
 > * The [toolbar](https://ej2.syncfusion.com/angular/documentation/api/grid#toolbar) property supports built-in and custom items.
 > * If a toolbar item does not match a built-in name, it is treated as a custom toolbar item.
@@ -221,11 +221,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/toolbar-cs4" %}
 
 ## Add custom components to the Grid toolbar using template
 
@@ -237,15 +237,15 @@ In the following example, an [AutoComplete](https://ej2.syncfusion.com/angular/d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/toolbar-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/toolbar-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/toolbar-cs5" %} 
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/toolbar-cs5" %} 
 
 ## Custom toolbar items in a specific position
 
@@ -257,12 +257,12 @@ In the following sample, the "Collapse All" toolbar item is positioned on the `R
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-toolbar-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-toolbar-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-toolbar-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-toolbar-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-toolbar-cs2" %}  
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/custom-toolbar-cs2" %}  

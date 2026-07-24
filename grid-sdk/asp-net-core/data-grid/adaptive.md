@@ -20,10 +20,10 @@ The following code example demonstrates how to enable and utilize adaptive dialo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/adaptive-dialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/adaptive-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/adaptive-dialog/adaptive.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/adaptive-dialog/adaptive.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ The following sample demonstrates how to dynamically change the row rendering mo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/vertical-rendering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/vertical-rendering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rowrender.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/vertical-rendering/rowrender.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/vertical-rendering/rowrender.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ By default, adaptive UI layout is rendered in both mobile devices and desktop mo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/small-screen-adaptive/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/small-screen-adaptive/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Smallscreen.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/adaptive/small-screen-adaptive/smallscreen.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/adaptive/small-screen-adaptive/smallscreen.cs %}
 {% endhighlight %}
 {% endtabs %}
 

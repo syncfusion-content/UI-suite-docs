@@ -18,10 +18,10 @@ In this demo, the [`FrozenColumns`](https://help.syncfusion.com/cr/aspnetcore-js
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-row-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-row-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-row-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-row-column/freeze-row-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-row-column/freeze-row-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ In this demo, the [`FrozenColumns`](https://help.syncfusion.com/cr/aspnetcore-js
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-row-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-row-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-row-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-row-column/freeze-row-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-row-column/freeze-row-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -60,10 +60,10 @@ In this demo, the columns with field name **OrderID** and **CustomerID** is froz
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-column/freeze-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-column/freeze-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,10 +71,10 @@ In this demo, the columns with field name **OrderID** and **CustomerID** is froz
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/freeze-column/freeze-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/freeze-column/freeze-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -97,10 +97,10 @@ In this demo, the **ShipCountry** column is frozen at the left and the **Custome
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/column-level-frozen/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/column-level-frozen/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/column-level-frozen/freeze-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/column-level-frozen/freeze-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ In this demo, the **ShipCountry** column is frozen at the left and the **Custome
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/column-level-frozen/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/column-level-frozen/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Freeze-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/scrolling/column-level-frozen/freeze-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/scrolling/column-level-frozen/freeze-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

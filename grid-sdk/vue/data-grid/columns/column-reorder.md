@@ -18,14 +18,14 @@ Here's an example for column reordering in your Grid component:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs11" %}
 
 >* You can customize the appearance of the column headers during drag and drop by using the [columnDrag](https://ej2.syncfusion.com/vue/documentation/api/grid#columndrag) and [columnDrop](https://ej2.syncfusion.com/vue/documentation/api/grid#columndrop) events.
 >* When columns are reordered, the position of the corresponding column data will also be changed. As a result, you should ensure that any additional code or logic that relies on the order of the column data is updated accordingly.
@@ -38,14 +38,14 @@ In this example, the **ShipCity** column is prevented from being reordered by se
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-reorder-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-reorder-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-reorder-cs1" %}
 
 ## Reorder columns externally
 
@@ -66,14 +66,14 @@ In this example, we are moving the column at index **1** to index **3**.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-reorder-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-reorder-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-reorder-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-reorder-cs2" %}
 
 ### Reorder column based on target index
 
@@ -86,14 +86,14 @@ Here is an example of how to use the `reorderColumnByTargetIndex` method to reor
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs12" %}
 
 ### Reorder column based on field names
 
@@ -106,14 +106,14 @@ Here is an example of how to use the `reorderColumns` method to reorder single c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs13" %}
 
 ### Reorder columns using the column model (ideal for stacked headers)
 
@@ -130,14 +130,14 @@ In this example, **Order Details** is moved before **Customer Name**, and **Ship
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/reorderColumnByModel-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/reorderColumnByModel-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/reorderColumnByModel-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/reorderColumnByModel-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/reorderColumnByModel-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/reorderColumnByModel-cs1" %}
 
 ## Reorder events
 
@@ -289,4 +289,4 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/default-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/default-cs14" %}
