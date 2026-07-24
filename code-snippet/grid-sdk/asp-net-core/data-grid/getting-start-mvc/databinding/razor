@@ -1,3 +1,0 @@
-@model List<GridSample.Controllers.OrdersDetails>
-
-@Html.EJS().Grid("Grid").DataSource((IEnumerable<object>)Model).Render()
