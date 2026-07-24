@@ -13,22 +13,20 @@ This section covers the essential properties, methods, and events of the .NET MA
 
 ## Setting Plain Text
 
-The Rich Text Editor control displays plain text, which can be set using the [Text](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_Text) property.
+The Rich Text Editor control displays the plain text that can be set using the [Text](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_Text) property.
 
 {% tabs %} 
 
 {% highlight xaml %} 
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
- <richTextEditor:SfRichTextEditor Text="The rich text editor component is a WYSIWYG (what you see is what you get) editor that provides the best user experience to create and update the content"/>
+ <richtexteditor:SfRichTextEditor Text="The rich text editor component is WYSIWYG editor that provides the best user experience to create and update the content" />
 
 {% endhighlight %}
 
 {% highlight C# %} 
-using Syncfusion.Maui.RichTextEditor;
 
 SfRichTextEditor richTextEditor = new SfRichTextEditor();
-richTextEditor.Text = "The rich text editor component is a WYSIWYG (what you see is what you get) editor that provides the best user experience to create and update the content";
+richTextEditor.Text = "The rich text editor component is WYSIWYG editor that provides the best user experience to create and update the content";
 
 {% endhighlight %}
 
@@ -43,17 +41,15 @@ The [HtmlText](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEdito
 {% tabs %} 
 
 {% highlight xaml %} 
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
- <richTextEditor:SfRichTextEditor HtmlText= "The &lt;b&gt; rich text editor &lt;/b&gt; component is a WYSIWYG (what you see is what you get) editor that provides the best user experience to create and update the content"/>
+ <richtexteditor:SfRichTextEditor HtmlText= "The &lt;b&gt; rich text editor &lt;/b&gt; component is WYSIWYG editor that provides the best user experience to create and update the content" />
 
 {% endhighlight %}
 
 {% highlight C# %} 
-using Syncfusion.Maui.RichTextEditor;
 
 SfRichTextEditor richTextEditor = new SfRichTextEditor();
-richTextEditor.HtmlText = "The <b>rich text editor</b> component is a WYSIWYG (what you see is what you get) editor that provides the best user experience to create and update the content";
+richTextEditor.HtmlText = "The <b>rich text editor</b> component is WYSIWYG editor that provides the best user experience to create and update the content";
 
 {% endhighlight %}
 
@@ -63,13 +59,13 @@ richTextEditor.HtmlText = "The <b>rich text editor</b> component is a WYSIWYG (w
 
 ## Getting Selected HTML
 
-To retrieve the HTML representation of the currently selected content, use the [GetSelectedText](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_GetSelectedText) method. This is an asynchronous method that returns a Task<string> and must be awaited.
+To retrieve the HTML representation of the currently selected content, use the [GetSelectedText](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_GetSelectedText) method.
 
 {% tabs %}
 
 {% highlight c# %}
 
-string selectedText = await richTextEditor.GetSelectedText();
+string selectedText = await rte.GetSelectedText();
 
 {% endhighlight %}
 
@@ -79,21 +75,19 @@ string selectedText = await richTextEditor.GetSelectedText();
 
 You can define the default appearance for any new text typed into the editor. These settings apply to text that does not have any other specific formatting applied.
 
-*   [DefaultFontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultFontFamily): Sets the default font family for the content. Default value is "Arial" (string).
-*   [DefaultFontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultFontSize): Sets the default font size. Default value is 12.0d (double).
-*   [DefaultTextColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultTextColor): Sets the default color of the text. Default value is Colors.Black (Color).
+*   [DefaultFontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultFontFamily): Sets the default font family for the content.
+*   [DefaultFontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultFontSize): Sets the default font size.
+*   [DefaultTextColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_DefaultTextColor): Sets the default color of the text.
 
 {% tabs %}
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
-<richTextEditor:SfRichTextEditor DefaultFontFamily="Impact"
+<rte:SfRichTextEditor DefaultFontFamily="Impact"
                       DefaultFontSize="14"
-                      DefaultTextColor="DarkGreen"/>
+                      DefaultTextColor="DarkGreen" />
 
 {% endhighlight %}
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
 
 SfRichTextEditor richTextEditor = new SfRichTextEditor();
 richTextEditor.DefaultFontFamily = "Impact";
@@ -108,26 +102,25 @@ richTextEditor.DefaultTextColor = Colors.DarkGreen;
 
 ## Placeholder
 
-The editor can display a [placeholder](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_Placeholder) text when the content is empty. This is useful for prompting the user to enter content or providing a hint about the expected input. The placeholder is cleared as soon as the user starts typing. Default value is "Type Here...".
+The editor can display a [placeholder](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_Placeholder) text when the content is empty. This is useful for prompting the user. The placeholder is cleared as soon as the user starts typing.
 
-*   [PlaceholderFontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderFontFamily) : Sets the font family of the placeholder text. Default value is null (string).
-*   [PlaceholderFontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderFontSize): Sets the font size of the placeholder text. Default value is 12.0d (double).
-*   [PlaceholderColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderColor): Sets the color of the placeholder text. Default value is Colors.Gray (Color).
+*   [PlaceholderFontFamily](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderFontFamily) : Sets the font family of the placeholder text.
+*   [PlaceholderFontSize](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderFontSize): Sets the font size of the placeholder text.
+*   [PlaceholderColor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_PlaceholderColor): Sets the color of the placeholder text.
 
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
-<richTextEditor:SfRichTextEditor Placeholder="Type your content here..."
+<rte:SfRichTextEditor Placeholder="Type your content here..."
                       PlaceholderFontFamily="Impact"
                       PlaceholderFontSize="24"
-                      PlaceholderColor="Green"/>
+                      PlaceholderColor="Green">
+</rte:SfRichTextEditor>
 
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
 
 SfRichTextEditor richTextEditor = new SfRichTextEditor();
 richTextEditor.Placeholder = "Type your content here...";
@@ -245,7 +238,7 @@ richTextEditor.Undo();
 
 ### Redo Last Action
 
-Restores the most recently undone action in the editor.
+Re-applies the last action that was undone.
 
 {% tabs %}
 
@@ -258,30 +251,21 @@ richTextEditor.Redo();
 {% endtabs %}
 
 ## Events
-The [SfRichTextEditor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html) provides a variety of events to notify the changes and user interactions within the control. You can subscribe to these events to execute custom logic in response to actions like text changes, format changes, focus shifts, hyperlink clicks, or image requests.
+The [SfRichTextEditor](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html) provides a variety of events to notify the changes and user interactions within the control. You can subscribe to these events to execute custom logic in response to actions like text changes, focus shifts, or hyperlink clicks.
 
 ### FormatChanged Event
 
-The [FormatChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_FormatChanged) event occurs when the formatting status changes. This is useful for implementing contextual formatting options.
-
-- OldFormat: RichTextEditorFormatType? — Gets the previous formatting status before the change. May be null if there was no prior format.
-- NewFormat: RichTextEditorFormatType — Gets the current formatting status after the change.
-RichTextEditorFormatType contains format details such as bold, italic, underline, strikethrough, subscript, superscript, text color, highlight color, font family, font size, list type, indentation level, alignment, and paragraph format.
+The [FormatChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_FormatChanged) event is occurs when the formatting status changes. This is useful for implementing contextual formatting options.
 
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
-<richTextEditor:SfRichTextEditor FormatChanged="OnFormatChanged"/>
+<rte:SfRichTextEditor FormatChanged="OnFormatChanged" />
 
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
-
-SfRichTextEditor richTextEditor = new SfRichTextEditor();
-richTextEditor.FormatChanged += OnFormatChanged;
 
 private void OnFormatChanged(object sender, RichTextEditorFormatChangedEventArgs e)
 {
@@ -299,23 +283,21 @@ The [HyperlinkClicked](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichT
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
-<richTextEditor:SfRichTextEditor HyperlinkClicked="OnHyperlinkClicked"/>
+<rte:SfRichTextEditor HyperlinkClicked="OnHyperlinkClicked"/>
 
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
 
 SfRichTextEditor richTextEditor = new SfRichTextEditor();
 richTextEditor.HtmlText = "<p>Visit the <a href='https://www.syncfusion.com'>Syncfusion</a> website.</p>";
-richTextEditor.HyperlinkClicked += OnHyperlinkClicked;
+richTextEditorHyperlinkClicked += OnHyperlinkClicked
 
 
 private void OnHyperlinkClicked(object sender, RichTextEditorHyperlinkClickedEventArgs e)
 {
-    string url = e.URL;
+    string url =  e.URL;
     string text = e.DisplayText;
     // Handle when hyperlink clicked
 }
@@ -326,27 +308,22 @@ private void OnHyperlinkClicked(object sender, RichTextEditorHyperlinkClickedEve
 
 ### TextChanged Event
 
-The [TextChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_TextChanged) event is fired whenever the content in the editor is changed. The event arguments provide the old and new plain text (without HTML formatting) via the OldText and NewText properties.
+The [TextChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor.SfRichTextEditor.html#Syncfusion_Maui_RichTextEditor_SfRichTextEditor_TextChanged) event is fired whenever the content in the editor is changed. The event arguments provide the old and new HTML content.
 
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
 
-<richTextEditor:SfRichTextEditor TextChanged="OnTextChanged"/>
+<rte:SfRichTextEditor TextChanged="OnTextChanged" />
 
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
-
-SfRichTextEditor richTextEditor = new SfRichTextEditor();
-richTextEditor.TextChanged += OnTextChanged;
 
 private void OnTextChanged(object sender, RichTextEditorTextChangedEventArgs e)
 {
-    string oldText = e.OldText;
-    string newText = e.NewText;
+    string oldHtml = e.OldText;
+    string newHtml = e.NewText;
     // Handle when Text changed
 }
 
@@ -362,15 +339,10 @@ The [Focused](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEditor
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
-
-<richTextEditor:SfRichTextEditor Focused="OnEditorFocused"/>
+<rte:SfRichTextEditor Focused="OnEditorFocused" />
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
-
-SfRichTextEditor richTextEditor = new SfRichTextEditor();
 richTextEditor.Focused += OnEditorFocused;
 
 private void OnEditorFocused(object sender, EventArgs e)
@@ -387,15 +359,10 @@ The [Unfocused](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.RichTextEdit
 {% tabs %}
 
 {% highlight xaml %}
-xmlns:richTextEditor="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
-
-<richTextEditor:SfRichTextEditor Unfocused="OnEditorUnfocused"/>
+<rte:SfRichTextEditor Unfocused="OnEditorUnfocused" />
 {% endhighlight %}
 
 {% highlight c# %}
-using Syncfusion.Maui.RichTextEditor;
-
-SfRichTextEditor richTextEditor = new SfRichTextEditor();
 richTextEditor.Unfocused += OnEditorUnfocused;
 
 private void OnEditorUnfocused(object sender, EventArgs e)
