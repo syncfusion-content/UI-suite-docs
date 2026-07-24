@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Paging in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Paging in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

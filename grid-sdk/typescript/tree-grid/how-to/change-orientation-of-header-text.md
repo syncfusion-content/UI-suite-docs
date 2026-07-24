@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Change orientation of header text in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Change orientation of header text in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Excel like filter in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Excel like filter in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

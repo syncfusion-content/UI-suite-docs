@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Edit in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Edit in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

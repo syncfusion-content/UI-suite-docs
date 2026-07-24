@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Exporting filtered data in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Exporting filtered data in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

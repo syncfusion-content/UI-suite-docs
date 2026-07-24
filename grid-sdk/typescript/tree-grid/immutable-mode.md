@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Immutable mode in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Immutable mode in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Row selection in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Row selection in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Row drag and drop in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Row drag and drop in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

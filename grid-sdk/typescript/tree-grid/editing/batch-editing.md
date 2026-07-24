@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Batch editing in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Batch editing in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.

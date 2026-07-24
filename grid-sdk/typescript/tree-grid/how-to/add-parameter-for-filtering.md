@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/typescript/treegrid---
+---
 layout: post
 title: Add parameter for filtering in TypeScript Treegrid control | Syncfusion
 description: Learn here all about Add parameter for filtering in Syncfusion TypeScript Treegrid control of Syncfusion Essential JS 2 and more.
