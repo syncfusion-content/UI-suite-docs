@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Restrict Decimal Points in React TreeGrid Editing | Syncfusion
 description: Learn here all about Restrict decimal points while treegrid editing in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

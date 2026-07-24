@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Enable editing in single click in React TreeGrid | Syncfusion
 description: Learn here all about Enable editing in single click in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Add params for filtering in React TreeGrid | Syncfusion
 description: Learn here all about Add params for filtering in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

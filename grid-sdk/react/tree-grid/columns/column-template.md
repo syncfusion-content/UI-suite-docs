@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Column template in React TreeGrid component | Syncfusion
 description: Learn here all about Column template in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

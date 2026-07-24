@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Filtering in React TreeGrid component | Syncfusion
 description: Learn here all about Filtering in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

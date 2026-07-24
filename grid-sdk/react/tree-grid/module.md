@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Module in React Treegrid | Syncfusion
 description: Learn here all about Module in Syncfusion React Treegrid component of Syncfusion Essential JS 2 and more.

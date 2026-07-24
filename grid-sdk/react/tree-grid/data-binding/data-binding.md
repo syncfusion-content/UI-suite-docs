@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Data binding in React TreeGrid | Syncfusion
 description: Learn about Data binding in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

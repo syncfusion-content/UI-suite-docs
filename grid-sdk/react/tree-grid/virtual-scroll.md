@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Virtual scroll in React TreeGrid | Syncfusion
 description: Learn here all about Virtual scroll in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

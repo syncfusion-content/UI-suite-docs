@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Enable disable treegrid and its actions in React TreeGrid | Syncfusion
 description: Learn here all about Enable disable treegrid and its actions in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Local data in React TreeGrid component | Syncfusion
 description: Learn about local data binding in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

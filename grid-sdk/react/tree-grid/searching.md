@@ -1,4 +1,4 @@
-https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Searching in React TreeGrid component | Syncfusion
 description: Learn here all about Searching in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.

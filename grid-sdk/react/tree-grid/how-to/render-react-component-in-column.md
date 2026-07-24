@@ -1,4 +1,4 @@
-code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
+---
 layout: post
 title: Render react component in column in React TreeGrid | Syncfusion
 description: Learn here all about Render react component in column in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
