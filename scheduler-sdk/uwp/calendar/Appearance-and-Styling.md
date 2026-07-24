@@ -16,8 +16,7 @@ Each and every part in SfCalendar can be customizable. And it can be customized 
 The active calendar day button template can be modified using `CellTemplate` property. It also provided `CellTemplateSelector` property for applying selective templates by a logic.
 
 {% tabs %}
-
-{% highlight xaml %}
+{% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar">
 
@@ -35,7 +34,6 @@ The active calendar day button template can be modified using `CellTemplate` pro
 </input:SfCalendar>
 
 {% endhighlight %}
-
 {% endtabs %}
 
 ![SfCalendar-img15](SfCalendar-images/SfCalendar-img15.jpeg)
@@ -46,8 +44,7 @@ The active calendar day button template can be modified using `CellTemplate` pro
 The inactive/disabled calendar day button template can be modified using `DisabledCellTemplate` property.
 
 {% tabs %}
-
-{% highlight xaml %}
+{% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar">
 
@@ -69,27 +66,20 @@ The inactive/disabled calendar day button template can be modified using `Disabl
 </input:SfCalendar>
 
 {% endhighlight %}
-
-{% endtabs %}
-
-{% tabs %}
-
-{% highlight c# %}
+{% highlight C# %}
 
 calendar.VisibleMinDate = new DateTime(2015, 12, 5);
 
 calendar.VisibleMaxDate = new DateTime(2015, 12, 25);
 
 {% endhighlight %}
-
-{% highlight vb %}
+{% highlight VB %}
 
 calendar.VisibleMinDate = New Date(2015, 12, 5)
 
 calendar.VisibleMaxDate = New Date(2015, 12, 25)
 
 {% endhighlight %}
-
 {% endtabs %}
 
 
@@ -101,8 +91,7 @@ calendar.VisibleMaxDate = New Date(2015, 12, 25)
 The template of day names can also be modified using `DayNameCellTemplate` property.
 
 {% tabs %}
-
-{% highlight xaml %}
+{% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar">
 
@@ -119,7 +108,6 @@ The template of day names can also be modified using `DayNameCellTemplate` prope
 </input:SfCalendar>
 
 {% endhighlight %}
-
 {% endtabs %}
 
 ![SfCalendar-img17](SfCalendar-images/SfCalendar-img17.jpeg)
@@ -130,8 +118,7 @@ The template of day names can also be modified using `DayNameCellTemplate` prope
 The template of header in SfCalendar can be modified using `HeaderTemplate` property.
 
 {% tabs %}
-
-{% highlight xaml %}
+{% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar" >
 
@@ -148,7 +135,6 @@ The template of header in SfCalendar can be modified using `HeaderTemplate` prop
 </input:SfCalendar>
 
 {% endhighlight %}
-
 {% endtabs %}
 
 ![SfCalendar-img18](SfCalendar-images/SfCalendar-img18.jpeg)
@@ -159,29 +145,21 @@ The template of header in SfCalendar can be modified using `HeaderTemplate` prop
 The background of selected date can be set using `SelectedDateBackground` property.
 
 {% tabs %}
-
-{% highlight xaml %}
+{% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar" SelectedDateBackground="Red"/>
 
 {% endhighlight %}
-
-{% endtabs %}
-
-{% tabs %}
-
-{% highlight c# %}
+{% highlight C# %}
 
 calendar.SelectedDateBackground = new SolidColorBrush(Windows.UI.Colors.Red);
 
 {% endhighlight %}
-
-{% highlight vb %}
+{% highlight VB %}
 
 calendar.SelectedDateBackground = New SolidColorBrush(Windows.UI.Colors.Red)
 
 {% endhighlight %}
-
 {% endtabs %}
 
 ![SfCalendar-img19](SfCalendar-images/SfCalendar-img19.jpeg)
@@ -192,7 +170,6 @@ calendar.SelectedDateBackground = New SolidColorBrush(Windows.UI.Colors.Red)
 The template of previous and next scroll buttons can be modified with `PreviousScrollButtonTemplate` and `NextScrollButtonTemplate` properties. ****
 
 {% tabs %}
-
 {% highlight XAML %}
 
 <input:SfCalendar x:Name="calendar" ShowNavigationButton="True" >
@@ -354,9 +331,7 @@ Margin="-1,0,-1,0" RenderTransformOrigin="0.5,0.5">
 </input:SfCalendar.NextScrollButtonTemplate>
 </input:SfCalendar>
 
-
 {% endhighlight %}
-
 {% endtabs %}
 
 
@@ -367,17 +342,14 @@ Margin="-1,0,-1,0" RenderTransformOrigin="0.5,0.5">
 `Refresh` method is used to refresh the layout of SfCalendar so that the cell templates are applied again.
 
 {% tabs %}
-
 {% highlight C# %}
 
 calendar.Refresh();
 
 {% endhighlight %}
-
 {% highlight VB %}
 
 calendar.Refresh()
 
 {% endhighlight %}
-
 {% endtabs %}
