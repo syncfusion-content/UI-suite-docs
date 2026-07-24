@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 # Straight Connector Segments
 
-To create a straight line, specify the [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#type) for the connector. 
+To create a straight line, specify the [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#type) for the connector. 
 
 The following code example illustrates how to create a default straight segment.
 
@@ -24,7 +24,7 @@ The following code example illustrates how to create a default straight segment.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsSegmentsPoints-cs1" %}
 
-The [`point`](https://ej2.syncfusion.com/vue/documentation/api/diagram/straightsegment#point) property of straight segment allows you to define the end point of it. 
+The [`point`](https://ej2.syncfusion.com/vue/documentation/api/diagram/straightsegmentmodel#point) property of straight segment allows you to define the end point of it. 
 
 The following code example illustrates how to define the end point of a straight segment.
 

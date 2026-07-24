@@ -16,7 +16,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * Starting and ending points of a connector can be decorated with some customizable shapes like arrows, circles, diamond, or path. The connection end points can be decorated with the [`sourceDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#sourcedecorator) and [`targetDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#targetdecorator) properties of the connector.
 
-* The [`shape`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratorshapes) property of `sourceDecorator` allows to define the shape of the decorators. Similarly, the [shape](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratorshapes) property of `targetDecorator` allows to define the shape of the decorators.
+* The [`shape`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#shape) property of `sourceDecorator` allows to define the shape of the decorators. Similarly, the [shape](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#shape) property of `targetDecorator` allows to define the shape of the decorators.
 
 * To create custom shape for source decorator, use [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#pathdata) property. Similarly, to create custom shape for target decorator, use `pathData` property.
 
@@ -57,8 +57,8 @@ The following code example illustrates how to customize the appearance of the de
 ### Gradient style for decorator.
 
 The gradient property is used to set the gradient color for the decorator. There are two types of gradient.
- * Linear
- * Radial
+* Linear
+* Radial
  
 The following code example illustrates how to apply gradient for the decorator.
 

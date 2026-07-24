@@ -24,9 +24,9 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * By default, the `textAnnotationDirection` is set to a Auto.
 
-* To set the size for text annotation, use the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#height) properties of the node.
+* To set the size for text annotation, use the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#height) properties of the node.
 
-* The [`offsetX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#offsetx) and [`offsetY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#offsety) properties are used to set the distance between the BPMN node and the TextAnnotation.
+* The [`offsetX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#offsetx) and [`offsetY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#offsety) properties are used to set the distance between the BPMN node and the TextAnnotation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
