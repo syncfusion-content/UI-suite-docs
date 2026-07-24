@@ -16,8 +16,6 @@ The [React Data Grid](https://www.syncfusion.com/react-components/react-data-gri
 
 ## Prerequisites 
 
-## Prerequisites 
-
 Before you start using Syncfusion<sup style="font-size:70%">&reg;</sup> React UI components, ensure that your system meets the following prerequisites by referring to the system requirements documentation. This documentation provides information about supported browsers, Node.js versions, and other dependencies required for using Syncfusion<sup style="font-size:70%">&reg;</sup> React UI components and `SharePoint` Framework effectively. 
 
 * **React:** Use React version 15.5.4 or higher.
