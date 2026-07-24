@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Constraints in Vue Diagram component
 
-Constraints are used to enable/disable certain behaviors of the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram), nodes and connectors. Constraints are provided as flagged enumerations, so that multiple behaviors can be enabled/disabled using Bitwise operators (&, |, ~, <<, etc.).
+Constraints are used to enable/disable certain behaviors of the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram), nodes and connectors. Constraints are provided as flagged enumerations, so that multiple behaviors can be enabled/disabled using Bitwise operators **(&, |, ~, <<, etc.)**.
 
 To know more about Bitwise operators, refer to [`Bitwise Operations`](#bitwise-operations).
 
@@ -79,7 +79,7 @@ export default {
 }
 ```
 
-For more information about diagram constraints, refer to [`DiagramConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramConstraints).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramconstraints).
 
 N> By default, the following constraints are enabled in the diagram,
 <br/>* Zoom
@@ -245,7 +245,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs1" %}
 
-For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeConstraints).
+For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints).
 
 N>By default, the following constraints are enabled for the node,
 <br/>* Select
@@ -426,7 +426,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs2" %}
 
-For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints).
+For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorconstraints).
 
 N>By default, the following constraints are enabled for the connector,
 <br/>* Select
@@ -563,7 +563,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs3" %}
 
-For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portConstraints).
+For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/portconstraints).
 
 N> By default, the following constraints are enabled for the port,
 <br/>* InConnect
@@ -662,7 +662,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs4" %}
 
-For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationConstraints).
+For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationconstraints).
 
 ## Selector constraints
 
@@ -750,7 +750,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs5" %}
 
-For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorConstraints).
+For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorconstraints).
 
 N> By default, the following constraints are enabled for the selected items,
 <br/>* Rotate
@@ -823,7 +823,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs6" %}
 
-For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/snapConstraints).
+For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/snapconstraints).
 
 N> By default, the following constraints are enabled for the snap functionality in the diagram,
 <br/>* ShowLines
@@ -876,7 +876,7 @@ Refer sample below
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/constraints/constraints-cs7" %}
 
-For more information about selector constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/boundaryConstraints).
+For more information about selector constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/boundaryconstraints).
 
 ## Inherit behaviors
 
@@ -931,7 +931,7 @@ Bitwise operations are used to manipulate the flagged enumerations `enum`.In thi
 
 ## Add operation
 
-You can add or enable multiple values at a time by using Bitwise ‘|’ (OR) operator.
+You can add or enable multiple values at a time by using Bitwise **|** (OR) operator.
 
 The following code demonstrates how to add tooltip constraints to the default node constraints, thereby enabling tooltip functionality for the node:
 

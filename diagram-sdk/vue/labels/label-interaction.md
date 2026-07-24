@@ -81,8 +81,8 @@ By using [`startTextEdit`](https://ej2.syncfusion.com/vue/documentation/api/diag
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Programmatically-cs1" %}
 
 ### Interactively
-    1. By double-clicking the annotation.
-    2. By selecting the item and pressing the F2 key.
+1. By double-clicking the annotation.
+2. By selecting the item and pressing the F2 key.
 
 Double-clicking any annotation will enables editing mode. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#doubleclick) event gets triggered.
 

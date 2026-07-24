@@ -77,25 +77,25 @@ This feature allows you to read the data source and perform add or edit or delet
 
 * You can set the data collection in the model’s dataSourceSettings [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/diagram/datasourcemodel#datasource) property. The nodes will be generated based on the data specified in the data source.
 
-* You can set the connector collection in the model’s dataSourceSettings [`connectionDataSource`](https://ej2.syncfusion.com/vue/documentation/api/diagram/datasourcemodel#connectionDataSource) property.
+* You can set the connector collection in the model’s dataSourceSettings [`connectionDataSource`](https://ej2.syncfusion.com/vue/documentation/api/diagram/datasourcemodel#connectiondatasource) property.
 
-* The dataSourceSettings connectionDataSource [`dataManager`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#dataManager) property is used to set the data source for the connection data source items.
+* The dataSourceSettings connectionDataSource [`dataManager`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#datamanager) property is used to set the data source for the connection data source items.
 
 * If you have a data (data will be set in the dataSource property) with parent relationship in the database and also defined the connector in the connectionDataSource simultaneously, then the connectors set in the connectionDataSource will be considered as a priority to render the connector.
 
-* The dataSourceSettings [`crudAction’s`](https://ej2.syncfusion.com/vue/documentation/api/diagram/datasourcemodel#crudAction) [`read`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#read) property specifies the method, which is used to read the data source and its populate the nodes in the diagram.
+* The dataSourceSettings [`crudAction’s`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#crudaction) [`read`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#read) property specifies the method, which is used to read the data source and its populate the nodes in the diagram.
 
 * The connectionDataSource crudAction’s [`read`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#read) specifies the method, which is used to read the data source and its populates the connectors in the diagram.
 
 * The dataSourceSettings’s [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram/datasourcemodel#id) and connectionDataSource’s [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#id) properties are used to define the unique field of each JSON data.
 
-* The connectionDataSource’s [`sourceID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourceID) and [`targetID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetID) properties are used to set the sourceID and targetID for connection data source item.
+* The connectionDataSource’s [`sourceID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourceid) and [`targetID`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetid) properties are used to set the sourceID and targetID for connection data source item.
 
-* The connectionDataSource’s [`sourcePointX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourcePointX), [`sourcePointY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourcePointY), [`targetPointX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetpointx), and [`targetPointY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetpointy) properties are used to define the sourcePoint and targetPoint values for connector from data source.
+* The connectionDataSource’s [`sourcePointX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourcepointx), [`sourcePointY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#sourcepointy), [`targetPointX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetpointx), and [`targetPointY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectiondatasourcemodel#targetpointy) properties are used to define the sourcePoint and targetPoint values for connector from data source.
 
-* The dataSourceSettings crudAction’s [`customFields`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#customFields) property is used to maintain the additional information for nodes.
+* The dataSourceSettings crudAction’s [`customFields`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#customfields) property is used to maintain the additional information for nodes.
 
-* Similarly, connectionDataSource’s crudAction’s [`customFields`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#customFields) is used to maintain the additional information for connectors.
+* Similarly, connectionDataSource’s crudAction’s [`customFields`](https://ej2.syncfusion.com/vue/documentation/api/diagram/crudactionmodel#customfields) is used to maintain the additional information for connectors.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

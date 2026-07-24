@@ -27,7 +27,7 @@ The commands in [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diag
 
 ## Align commands
 
-The alignment command enables you to align selected or defined objects, such as nodes and connectors, with respect to the selection boundary or the first selected object. The [`align`](https://ej2.syncfusion.com/vue/documentation/api/diagram#align)method parameters are explained below.
+The alignment command enables you to align selected or defined objects, such as nodes and connectors, with respect to the selection boundary or the first selected object. The [`align`](https://ej2.syncfusion.com/vue/documentation/api/diagram#align) method parameters are explained below.
 
 ### Alignment Options
 
@@ -359,7 +359,7 @@ The [`nudge`](https://ej2.syncfusion.com/vue/documentation/api/diagram#nudge) co
 
 | Parameter    | Type           | Description                                                      |
 |--------------|-----------|-----------|
-| direction    |[`NudgeDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nudgeDirection) | Defines the direction in which the objects should be moved.      |
+| direction    |[`NudgeDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nudgedirection) | Defines the direction in which the objects should be moved.      |
 | x (optional) | number         | The horizontal distance by which the selected objects should be moved. |
 | y (optional) | number         | The vertical distance by which the selected objects should be moved.   |
 | type (optional) | string      | A string that defines the type of nudge action.                           |
@@ -476,7 +476,7 @@ The Diagram provides support for mapping or binding command execution to specifi
 To define a custom command, specify the following properties:
 * [`execute`](https://ej2.syncfusion.com/vue/documentation/api/diagram/command#execute): A method to be executed.
 * [`canExecute`](https://ej2.syncfusion.com/vue/documentation/api/diagram/command#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keyGestureModel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keys#key) and [`KeyModifiers`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keyModifiers#keymodifiers).
+* [`gesture`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keygesturemodel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keys#key) and [`KeyModifiers`](https://ej2.syncfusion.com/vue/documentation/api/diagram/keymodifiers#keymodifiers).
 * [`parameter`](https://ej2.syncfusion.com/vue/documentation/api/diagram/command#parameter): Defines any additional parameters that are required at runtime.
 * [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/command#name): Defines the name of the command.
 

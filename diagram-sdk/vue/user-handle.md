@@ -14,7 +14,7 @@ User handles are used to add frequently used commands around the selector.
 
 ## Create user handle
 
-To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) collection of the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/) property. The [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#pathdata) property is used to define the path data of userhandle.
+To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel#userhandles) collection of the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel) property. The [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#pathdata) property is used to define the path data of userhandle.
 
 The following example shows how to render user handle.
 
@@ -46,23 +46,23 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 
 ## Alignment
 
-User handles can be aligned relative to the node boundaries. It has [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#margin), [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#offset), [`side`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side), [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#horizontalalignment), and [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#verticalalignment) properties to align user handle based on user's needs.
+User handles can be aligned relative to the node boundaries. It has [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#margin), [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#offset), [`side`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side), [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#horizontalalignment), and [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#verticalalignment) properties to align user handle based on user's needs.
 
 ### Offset
 
-The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#offset), property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) aligns the user handle based on fractions. For example, 0 represents the top-left corner, 1 represents the top-right corner, and 0.5 represents the top-center.
+The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#offset), property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel#userhandles) aligns the user handle based on fractions. For example, 0 represents the top-left corner, 1 represents the top-right corner, and 0.5 represents the top-center.
 
 ### Side
 
-The [`side`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side) property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) aligns the user handle using the following options: [`Top`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side), [`Bottom`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side), [`Left`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side), and [`Right`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#side).
+The [`side`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side) property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel#userhandles) aligns the user handle using the following options: [`Top`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side), [`Bottom`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side), [`Left`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side), and [`Right`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#side).
 
 ### Horizontal and vertical alignments
 
-The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#horizontalalignment) property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) is used to set how the user handle is horizontally aligned at the position based on the [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#offset). The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#verticalalignment) property is used to set how user handle is vertically aligned at the position.
+The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#horizontalalignment) property of [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel#userhandles) is used to set how the user handle is horizontally aligned at the position based on the [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#offset). The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#verticalalignment) property is used to set how user handle is vertically aligned at the position.
 
 ### Margin for the user handle
 
-The [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#margin) property adds blank space to any of the four sides of the user handle, allowing for precise displacement.
+The [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#margin) property adds blank space to any of the four sides of the user handle, allowing for precise displacement.
 
 In the following example, the user handle is aligned to the bottom-right corner of the node.
 
@@ -92,7 +92,7 @@ The following table shows all the possible alignments of user handle around the 
 
 ## User handle tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#tooltip) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#content) as shown in the following example.
+The diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#tooltip) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#content) as shown in the following example.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -105,11 +105,11 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/UserHandle-cs3" %}
 
-You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#position), [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#width), [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
+You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#position), [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#width), [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
 ## Appearance
 
-The appearance of the user handle can be customized by using the [`size`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#size), [`borderColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#bordercolor), [`backgroundColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#backgroundcolor), [`borderWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#borderwidth), [`visible`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#visible), and [`pathColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#pathcolor) properties of the userHandles.
+The appearance of the user handle can be customized by using the [`size`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#size), [`borderColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#bordercolor), [`backgroundColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#backgroundcolor), [`borderWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#borderwidth), [`visible`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#visible), and [`pathColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userhandlemodel#pathcolor) properties of the userHandles.
 
 The following example demonstrates, how to use these properties to customize the appearance of user handle
 
@@ -130,7 +130,7 @@ Multiple user handles can be rendered for the selected objects (nodes/connectors
 
 ### Disable Nodes and disable Connectors
 
-User handles are typically defined within the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/) property of the diagram, applying them universally to both nodes and connectors. However, in some scenarios, specific user handles may need to be excluded from connectors or nodes selectively. To address this, the disableNodes and disableConnectors properties come into play. These properties allow certain user handles to be disabled based on the type of selected item.
+User handles are typically defined within the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectormodel) property of the diagram, applying them universally to both nodes and connectors. However, in some scenarios, specific user handles may need to be excluded from connectors or nodes selectively. To address this, the disableNodes and disableConnectors properties come into play. These properties allow certain user handles to be disabled based on the type of selected item.
 
 In the example below, multiple user handles are utilized for various functionalities, with some handles hidden selectively for nodes or connectors depending on their intended functionality.
 
@@ -152,7 +152,7 @@ Diagram provides support to render different types of user handles:
 * `Source`: Renders an image as a user handle using an image source.
 * `Content`: Renders a user handle using SVG content.
 * `pathData`: Renders a user handle using custom path data.
-* `template`: Renders a user handle using a predefined template ([`userHandleTemplate`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#userhandletemplate)) defined in the diagram.
+* `template`: Renders a user handle using a predefined template [`userHandleTemplate`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#userhandletemplate) defined in the diagram.
 
 The precedence order for user handles is as follows:
 
@@ -181,7 +181,7 @@ The below example code demonstrating different types of user handles.
 
 When interacting with user handles, certain events are triggered that can be used to customize the appearance and functionality of the handles. The user handle events are explained below.
 
-* [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iClickEventArgs/) - Triggered when the user handle is clicked.
+* [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#click) - Triggered when the user handle is clicked.
 * [`onUserHandleMouseEnter`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onuserhandlemouseenter) - Triggered when the mouse enters the user handle region.
 * [`onUserHandleMouseDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onuserhandlemousedown) - Triggered when the mouse is pressed down on the user handle.
 * [`onUserHandleMouseUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onuserhandlemouseup) - Triggered when the mouse is released on the user handle.
@@ -202,11 +202,11 @@ In the following example, the above events are used to customize the appearance 
 
 ## Fixed user handles
 
-Fixed user handles are used to perform specific actions when interacted with. Unlike regular user handles, [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandle/) are defined within the node/connector object, allowing different fixed user handles to be added to different nodes.
+Fixed user handles are used to perform specific actions when interacted with. Unlike regular user handles, [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandle) are defined within the node/connector object, allowing different fixed user handles to be added to different nodes.
 
 ### Create fixed user handles
 
-To create the [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandle/), define and add them to the collection of [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeModel/) and [`connectors`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/connectorModel/). The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#pathdata) property of [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#nodefixeduserhandlemodel) is used to define the path data for the fixed user handle. The [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#id) property in `fixedUserHandles` assigns a unique identifier to each handle. This identifier helps locate and modify fixed user handles during runtime. You can handle the click event of a fixed user handle using the [`fixedUserHandleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fixedUserHandleClickEventArgs/) event. This event allows customization based on the type of fixed user handle clicked.
+To create the [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandle), define and add them to the collection of [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#nodes) and [`connectors`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#connectors). The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#pathdata) property of [`fixedUserHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel) is used to define the path data for the fixed user handle. The [`id`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#id) property in `fixedUserHandles` assigns a unique identifier to each handle. This identifier helps locate and modify fixed user handles during runtime. You can handle the click event of a fixed user handle using the [`fixedUserHandleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#fixeduserhandleclick) event. This event allows customization based on the type of fixed user handle clicked.
 
 The following code example demonstrates how to create fixed user handles for nodes and connectors and how to handle fixed user handle click:
 
@@ -225,19 +225,19 @@ N> The fixed user handle id need to be unique.
 
 ### Alignment
 
-Fixed user handles can be aligned relative to the node boundaries. It has [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#margin), [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#offset), [`padding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#padding) properties to align them based on user's needs.
+Fixed user handles can be aligned relative to the node boundaries. It has [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#margin), [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#offset), [`padding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#padding) properties to align them based on user's needs.
 
 #### Margin
 
-Margin is an absolute value used to add some blank space in any one of its four sides. The fixed user handle can be displaced with the [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#margin) property.
+Margin is an absolute value used to add some blank space in any one of its four sides. The fixed user handle can be displaced with the [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#margin) property.
 
 #### Offset
 
-The  [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#offset) property of fixed user handle is used to align the user handle based on the `x` and `y` points. (0,0) represents the top-left corner and (1,1) represents the bottom-right corner.
+The  [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#offset) property of fixed user handle is used to align the user handle based on the `x` and `y` points. (0,0) represents the top-left corner and (1,1) represents the bottom-right corner.
 
 #### Padding
 
-The [`padding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#padding) is used to leave the space that is inside the fixed user handle between the icon and border.
+The [`padding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#padding) is used to leave the space that is inside the fixed user handle between the icon and border.
 
 The following example demonstrates how to align fixed user handle for both node and connector.
 
@@ -269,15 +269,15 @@ N> Both `displacement` and `alignment` are applicable only to connector fixed us
 
 #### Customizing the connector fixed user handle
 
-The connector fixed user handle can be aligned relative to the connector boundaries. It has alignment, displacement and offset settings. The [`displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorFixedUserHandleModel/#displacement) property displaces the handle from its aligned position and its functioning only when the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fixedUserHandleAlignment/) property is set to 'After' or 'Before'.
+The connector fixed user handle can be aligned relative to the connector boundaries. It has alignment, displacement and offset settings. The [`displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorfixeduserhandlemodel#displacement) property displaces the handle from its aligned position and its functioning only when the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorfixeduserhandlemodel#alignment) property is set to 'After' or 'Before'.
 
 ##### Offset
 
-The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorFixedUserHandleModel/#offset) property of fixed user handle aligns the fixed user handle based on fractions. For example, 0 represents the left or top corner, 1 represents the bottom or right corner, and 0.5 represents the center.
+The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorfixeduserhandlemodel#offset) property of fixed user handle aligns the fixed user handle based on fractions. For example, 0 represents the left or top corner, 1 represents the bottom or right corner, and 0.5 represents the center.
 
 ##### Alignment
 
-The connector’s fixed user handle can be aligned over its segment path using the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fixedUserHandleAlignment/) property of fixed user handle.
+The connector’s fixed user handle can be aligned over its segment path using the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorfixeduserhandlemodel#alignment) property of fixed user handle.
 
 The following table shows all the possible offset and alignment combinations of connector fixed user handle.
 
@@ -295,7 +295,7 @@ The following table shows all the possible offset and alignment combinations of 
 
 ##### Displacement
 
-The [`displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorFixedUserHandleModel/#displacement) property displaces the handle from its aligned position based on the provided x and y value.
+The [`displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorfixeduserhandlemodel#displacement) property displaces the handle from its aligned position based on the provided x and y value.
 
 The following table shows all the possible alignment and displacement combinations of fixed user handle.
 
@@ -323,7 +323,7 @@ The following code explains how to customize the alignment of connector fixed us
 
 ### Fixed user handle tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#tooltip) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#content) as shown in the following example.
+The diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#tooltip) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#content) as shown in the following example.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -336,25 +336,25 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/FixedUserHandle-cs2" %}
 
-You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#position), [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#width), [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramTooltipModel/#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
+You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#position), [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#width), [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagramtooltipmodel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
 ### Appearance
 
-The appearance of the fixed user handle can be customized by using the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#cornerradius), [`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#fill), [`handleStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#handlestrokecolor), [`handleStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#handlestrokewidth), [`iconStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#iconstrokecolor), [`iconStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#iconstrokewidth) and [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#visibility) properties of the fixed user handles.
+The appearance of the fixed user handle can be customized by using the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#cornerradius), [`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#fill), [`handleStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#handlestrokecolor), [`handleStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#handlestrokewidth), [`iconStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#iconstrokecolor), [`iconStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#iconstrokewidth) and [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#visibility) properties of the fixed user handles.
 
 #### Size
 
-The [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#height) and [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#width) properties of fixed user handle is used to define the size of the fixed user handle.
+The [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#height) and [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#width) properties of fixed user handle is used to define the size of the fixed user handle.
 
 #### Style
 
-The fixed user handle's  [`iconStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#iconstrokecolor) and [`iconStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#iconstrokewidth) property used to change the stroke color and stroke width of the given `pathData`.
+The fixed user handle's  [`iconStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#iconstrokecolor) and [`iconStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#iconstrokewidth) property used to change the stroke color and stroke width of the given `pathData`.
 
-The fixed user handle's [`handleStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#handlestrokecolor) and [`handleStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#handlestrokewidth), properties are used to define the stroke color and stroke width of the fixed user handle and the [`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#fill), property is used to define the fill color of fixed user handle.
+The fixed user handle's [`handleStrokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#handlestrokecolor) and [`handleStrokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#handlestrokewidth), properties are used to define the stroke color and stroke width of the fixed user handle and the [`fill`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#fill), property is used to define the fill color of fixed user handle.
 
-The [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#cornerradius) property of the fixed user handle is used to apply border radius for the fixed user handle.
+The [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#cornerradius) property of the fixed user handle is used to apply border radius for the fixed user handle.
 
-The [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeFixedUserHandleModel/#visibility) property of the fixed user handle enables or disables the visibility of fixed user handle.
+The [`visibility`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodefixeduserhandlemodel#visibility) property of the fixed user handle enables or disables the visibility of fixed user handle.
 
 The following example demonstrates, how to use these properties to customize the appearance of the fixed user handle.
 
@@ -389,12 +389,12 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 When interacting with fixed user handles, certain events are triggered that can be used to customize the appearance and functionality of the handles. The fixed user handle events are explained below.
 
 
-* [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iClickEventArgs/) - Triggered when the fixed user handle is clicked.
+* [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#click) - Triggered when the fixed user handle is clicked.
 * [`onFixedUserHandleMouseEnter`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onfixeduserhandlemouseenter) - Triggered when the mouse enters the fixed user handle region.
 * [`onFixedUserHandleMouseDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onfixeduserhandlemousedown) - Triggered when the mouse is pressed down on the fixed user handle.
 * [`onFixedUserHandleMouseUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onfixeduserhandlemouseup) - Triggered when the mouse is released on the fixed user handle.
 * [`onFixedUserHandleMouseLeave`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#onfixeduserhandlemouseleave) - Triggered when the mouse leaves the fixed user handle region.
-* [`fixedUserHandleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/fixedUserHandleClickEventArgs/) - Triggered when the fixed user handle is clicked.
+* [`fixedUserHandleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#fixeduserhandleclick) - Triggered when the fixed user handle is clicked.
 
 In the following example, the above events are used to customize the appearance of fixed user handles.
 

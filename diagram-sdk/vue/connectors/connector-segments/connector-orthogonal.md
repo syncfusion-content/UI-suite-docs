@@ -12,11 +12,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Orthogonal segments is used to create segments that are perpendicular to each other.
 
-Set the segment [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) as orthogonal to create a default orthogonal segment and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#type). The following code example illustrates how to create a default orthogonal segment.
+Set the segment [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) as orthogonal to create a default orthogonal segment and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#type). The following code example illustrates how to create a default orthogonal segment.
 
-Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#segments) collection. The following code example illustrates how to create a connector with multiple segments.
+Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#segments) collection. The following code example illustrates how to create a connector with multiple segments.
 
-The [`length`](https://ej2.syncfusion.com/vue/documentation/api/diagram/orthogonalsegment#length) and [`direction`](https://ej2.syncfusion.com/vue/documentation/api/diagram/orthogonalsegment#direction) properties allow to define the flow and length of segment. The following code example illustrates how to create customized orthogonal segments.
+The [`length`](https://ej2.syncfusion.com/vue/documentation/api/diagram/orthogonalsegmentmodel#length) and [`direction`](https://ej2.syncfusion.com/vue/documentation/api/diagram/orthogonalsegmentmodel#direction) properties allow to define the flow and length of segment. The following code example illustrates how to create customized orthogonal segments.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -85,7 +85,7 @@ The orthogonal connector can have any number of segments in between the source a
 | OutdentedArrow | ![OutdentedArrow](../../images/OutdentedArrow.png) |
 | DoubleArrow |![DoubleArrow](../../images/DoubleArrow.png) |
 
- You can customize the style of the thumb shape by overriding the class e-orthogonal-thumb.
+You can customize the style of the thumb shape by overriding the class e-orthogonal-thumb.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -98,7 +98,7 @@ The orthogonal connector can have any number of segments in between the source a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsThumbshape-cs1" %}
 
- ![Segment Thumb Shape](../../images/thumbshape.png)
+![Segment Thumb Shape](../../images/thumbshape.png)
 
 Use the following CSS to customize the segment thumb shape.
 
